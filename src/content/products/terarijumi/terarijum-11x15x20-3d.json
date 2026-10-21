@@ -1,0 +1,88 @@
+{
+  "name": "Terarijum 11x15x20 sa 3D pozadinom",
+  "label": "Mali terarijum",
+  "lead": "Kompaktan mini terarijum dimenzija 11x15x20cm sa ručno rađenom 3D pozadinom od stiropora koja verno imitira stenu. Izrađen od kvalitetnog stakla sa dekorativnom folijom u prirodnom tonu drveta, savršen je izbor za držanje paukova i insekata. Vertikalni format pruža dovoljno prostora za penjanje i prirodno ponašanje.",
+  "image": "/style/img/terrariums/11x15x20.webp",
+  "imageAlt": "Mini stakleni terarijum 11x15x20cm sa 3D pozadinom - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Dužina",
+      "v": "11 cm"
+    },
+    {
+      "k": "Širina",
+      "v": "15 cm"
+    },
+    {
+      "k": "Visina",
+      "v": "20 cm"
+    },
+    {
+      "k": "Zapremina",
+      "v": "~3.3 L"
+    },
+    {
+      "k": "Materijal",
+      "v": "Staklo"
+    },
+    {
+      "k": "3D Pozadina",
+      "v": "Da (stiropor)"
+    },
+    {
+      "k": "Ventilacija",
+      "v": "Plastična (gornja)"
+    },
+    {
+      "k": "Tip",
+      "v": "Vertikalni"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ovaj mini terarijum je ručno izrađen u našoj radionici u Novom Sadu. Konstrukcija se sastoji od kvalitetnog stakla debljine 3mm, uokvirenog dekorativnom folijom sa šarom drveta koja daje topao, rustičan izgled. Zadnja strana sadrži ručno modelovanu 3D pozadinu od stiropora koja verodostojno imitira stensku površinu, pružajući prirodan ambijent i dodatne površine za penjanje."
+    },
+    {
+      "type": "p",
+      "html": "Na gornjoj strani nalazi se plastična ventilacija koja obezbeđuje protok vazduha, kao i otvor za uvođenje opreme poput mini lampe ili sistema za orošavanje. Dno terarijuma je ravno i pogodno za postavljanje podloge po izboru."
+    },
+    {
+      "type": "h2",
+      "text": "Pogodan za"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Pauci - male i srednje vrste",
+        "Insekti - bogomoljke, bubašvabe i drugi"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Izrada po meri"
+    },
+    {
+      "type": "p",
+      "html": "Sve naše terarijume izrađujemo ručno, što znači da možete prilagoditi boju folije, stil 3D pozadine i dodatnu opremu prema vašim željama. Ukoliko vam je potrebna drugačija dimenzija ili specifičan dodatak, slobodno nas kontaktirajte — rado ćemo izraditi terarijum po vašoj meri."
+    }
+  ],
+  "seo": {
+    "title": "Terarijum 11x15x20 sa 3D Pozadinom | Mini Terarijum - NS Reptiles",
+    "description": "Mini stakleni terarijum 11x15x20cm sa 3D pozadinom - idealan za paukove i insekte. Ručna izrada, dostava širom Srbije. NS Reptiles Novi Sad.",
+    "keywords": "terarijum 11x15x20, mali terarijum, mini terarijum, terarijum za paukove, terarijum za insekte, terarijum sa 3D pozadinom, terarijum Novi Sad, NS Reptiles",
+    "ogTitle": "Terarijum 11x15x20 sa 3D pozadinom | NS Reptiles",
+    "ogDescription": "Mini stakleni terarijum 11x15x20cm sa ručno rađenom 3D pozadinom. Idealan za paukove i insekte."
+  },
+  "related": [
+    "terarijumi/terarijum-17x20x28-3d",
+    "terarijumi/terarijum-20x20x30-3d",
+    "terarijumi/terarijum-20x20x15-3d",
+    "terarijumi/terarijum-20x20x35-3d"
+  ]
+}

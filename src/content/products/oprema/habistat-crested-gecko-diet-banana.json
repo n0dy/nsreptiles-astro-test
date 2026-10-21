@@ -1,0 +1,65 @@
+{
+  "name": "HabiStat Crested Gecko Diet Banana 50g",
+  "label": "Hrana",
+  "lead": "Kompletna ishrana za crested gekone i druge reptile koji jedu voće i insekte. Ukus banane, sa preko 50% pravog voća i 9 izvora proteina.",
+  "image": "/style/img/oprema/habistat-crested-gecko-diet-banana.webp",
+  "imageAlt": "HabiStat Crested Gecko Diet Banana 50g - hrana za crested gekone - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "HabiStat"
+    },
+    {
+      "k": "Tip",
+      "v": "Kompletna ishrana"
+    },
+    {
+      "k": "Težina",
+      "v": "50g"
+    },
+    {
+      "k": "Ukus",
+      "v": "Banana"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Opis"
+    },
+    {
+      "type": "p",
+      "html": "HabiStat Crested Gecko Diet Banana je kompletna, nutricionistički izbalansirana hrana namenjena crested gekonima (Correlophus ciliatus) i drugim vrstama gekona koji se hrane voćem i insektima. Ovaj proizvod sadrži preko 50% pravog voća, pri čemu banana prah čini čak 52% ukupnog sastava, što pruža autentičan ukus koji gekoni obožavaju. Formula uključuje 9 različitih izvora proteina životinjskog porekla, čime se obezbeđuje sveobuhvatan aminokiselinski profil neophodan za pravilan rast i razvoj."
+    },
+    {
+      "type": "p",
+      "html": "Nutritivni profil ovog proizvoda je pažljivo osmišljen: sadrži 23% proteina i 1,95% kalcijuma, sa izvanrednim odnosom kalcijuma i fosfora od 3,87:1, što je ključno za prevenciju metaboličke bolesti kostiju. Hrana ne sadrži veštačke boje, arome niti konzervanse, pa je potpuno bezbedna za dugoročnu upotrebu."
+    },
+    {
+      "type": "h2",
+      "text": "Priprema"
+    },
+    {
+      "type": "p",
+      "html": "Priprema je jednostavna: pomešajte 5g praha sa vodom dok ne dobijete konzistenciju sličnu kečapu. Pripremljenu hranu postavite u plitku posudu unutar terarijuma i služite 1 do 2 puta nedeljno. Nepojedenu hranu uklonite nakon 24 sata. HabiStat je renomirani britanski brend sa dugogodišnjim iskustvom u proizvodnji opreme i hrane za reptile."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "HabiStat Crested Gecko Diet Banana | Hrana za Gekone - NS REPTILES",
+    "description": "HabiStat Crested Gecko Diet Banana 50g - kompletna ishrana za crested gekone sa ukusom banane. Preko 50% pravog voća, 23% proteina.",
+    "keywords": "habistat crested gecko diet banana, hrana za gekone, hrana za crested gekone, crested gecko diet, oprema za reptile, NS REPTILES, Novi Sad, Srbija, prodaja",
+    "ogDescription": "HabiStat Crested Gecko Diet Banana 50g - kompletna ishrana za crested gekone sa ukusom banane. Preko 50% pravog voća, 23% proteina. NS REPTILES Novi Sad."
+  },
+  "related": [
+    "oprema/gecko-nutrition-mango"
+  ]
+}

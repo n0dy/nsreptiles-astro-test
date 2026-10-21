@@ -1,0 +1,67 @@
+{
+  "name": "Fobasi",
+  "label": "Živa hrana",
+  "lead": "Mekan i hranljiv feeder žohar, odlična dopuna dubijama za raznovrsnost obroka. Dostupni u tri veličine, za mladunce i odrasle guštere.",
+  "image": "/style/img/oprema/fobasi.webp",
+  "imageAlt": "Fobasi - živa hrana za guštere, bradate agame i leopard gekone",
+  "price": 500,
+  "priceFrom": true,
+  "priceUnit": "/ 100 kom",
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Feeder žohar"
+    },
+    {
+      "k": "Veličine",
+      "v": "Mali, srednji, veliki"
+    },
+    {
+      "k": "Namena",
+      "v": "Bradate agame, gekoni, kameleoni, tegui"
+    },
+    {
+      "k": "Pakovanje",
+      "v": "100 komada"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Opis"
+    },
+    {
+      "type": "p",
+      "html": "Fobasi su mekan i hranljiv feeder žohar koji se koristi kao odlična dopuna dubijama u ishrani guštera. Mekan oklop čini ih lako svarljivim, a zbog raznovrsnosti obroka doprinose boljem nutritivnom balansu kada se kombinuju sa drugim insektima. Pogodni su za bradate agame, leopard gekone, kameleone i ostale insektojede."
+    },
+    {
+      "type": "h2",
+      "text": "Veličine i kome odgovaraju"
+    },
+    {
+      "type": "p",
+      "html": "Dostupni su u tri veličine - <strong>mali</strong> za mladunce, <strong>srednji</strong> za poluodrasle i <strong>veliki</strong> za odrasle guštere. Pravilo veličine: insekt ne sme biti širi od razmaka između očiju životinje. Živu hranu pre obroka pospite kalcijumom, a povremeno i multivitaminom, radi zdravih kostiju i pravilnog razvoja."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Cena je već od 500 din za 100 komada, u zavisnosti od veličine. Pozovite nas ili pišite na WhatsApp za tačnu cenu i dostupnost. Isporuka kurirskom službom u celu Srbiju, besplatno preuzimanje u Novom Sadu. Za preporuku vrste i veličine hrane za vašu životinju - savetujemo besplatno."
+    }
+  ],
+  "seo": {
+    "title": "Fobasi | Živa hrana za guštere - NS REPTILES",
+    "description": "Fobasi - mekana i hranljiva živa hrana za guštere, odlična dopuna dubijama za raznovrsnost obroka. Tri veličine, već od 500 din za 100 kom.",
+    "keywords": "fobasi, fobasi cena, hrana za guštere, živa hrana za reptile, feeder insekti, hrana za bradatu agamu, hrana za leopard gekona, NS REPTILES, Novi Sad",
+    "ogTitle": "Fobasi | Živa hrana za guštere - NS REPTILES",
+    "ogDescription": "Mekan i hranljiv feeder žohar, odlična dopuna dubijama za raznovrsnost obroka. Tri veličine, već od 500 din za 100 kom."
+  },
+  "related": [
+    "oprema/dubia-zohari",
+    "oprema/lateralis",
+    "oprema/brasnari-tenebrio",
+    "oprema/fobasi-s-100kom"
+  ]
+}

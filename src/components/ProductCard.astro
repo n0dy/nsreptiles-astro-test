@@ -1,0 +1,21 @@
+---
+import { productPath, priceLabel, type Product } from '../lib/products';
+
+interface Props {
+  product: Product;
+  catLabel: string;
+}
+const { product, catLabel } = Astro.props;
+const href = productPath(product);
+const d = product.data;
+---
+<article class="op-card reveal">
+  <a class="op-img" href={href}><img src={d.image} alt={d.name} loading="lazy" width="600" height="600" /></a>
+  <div class="op-body">
+    <div class="op-cat">{catLabel}</div>
+    <h3><a href={href}>{d.name}</a></h3>
+    <div class="op-foot">
+      <span class="op-price">{priceLabel(product)}</span>
+    </div>
+  </div>
+</article>

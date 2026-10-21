@@ -1,0 +1,464 @@
+---
+import Base from '../../layouts/Base.astro';
+import '../../styles/animals.css';
+import '../../styles/usluge.css';
+import { translationsFor } from '../../i18n/routes';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Terarijum za loptastog pitona — vodič za postavljanje",
+    "description": "Preporučena veličina terarijuma za loptastog pitona je oko 80x40x40cm. Saznajte sve o podlozi, grejanju, skrovištu i opremi.",
+    "author": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "url": "https://nsreptiles.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nsreptiles.net/style/img/logo.jpg"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://nsreptiles.net/terarijumi/terarijum-za-loptastog-pitona.html"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Početna",
+        "item": "https://nsreptiles.net/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Terarijumi",
+        "item": "https://nsreptiles.net/terarijumi.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Terarijum za loptastog pitona",
+        "item": "https://nsreptiles.net/terarijumi/terarijum-za-loptastog-pitona.html"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Koja veličina terarijuma je potrebna za loptastog pitona?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Preporučena veličina terarijuma za loptastog pitona je oko 80x40x40cm, što omogućava dovoljno prostora za kretanje i skrivanje."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kako održavati temperaturu u terarijumu za loptastog pitona?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ispod terarijuma sa jedne strane treba postaviti folija grejač koji održava optimalnu temperaturu. Podloga treba biti kokosov treset."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Šta je potrebno u terarijumu za loptastog pitona?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "U terarijumu treba obezbediti skrovište i posudicu za vodu. Podloga bi trebala biti kokosov treset, a temperatura se reguliše folija grejačem."
+        }
+      }
+    ]
+  }
+];
+---
+<Base
+  lang="sr"
+  title="Terarijum za loptastog pitona — vodič | NS Reptiles"
+  description="Vodič za terarijum loptastog pitona: preporučena veličina 80x40x40cm, kokosov treset, folija grejač i skrovište. Stakleni terarijumi po meri iz Novog Sada."
+  path="/terarijumi/terarijum-za-loptastog-pitona.html"
+  image="/style/img/terrariums/90x45x45.webp"
+  ogType="article"
+  ogDescription="Preporučena veličina terarijuma za loptastog pitona je oko 80x40x40cm sa folija grejačem. Stakleni terarijumi po meri, Novi Sad."
+  translations={translationsFor("/terarijumi/terarijum-za-loptastog-pitona.html")}
+  langLinks={{ ...{"en":"/en/terrariums.html","ru":"/ru/terrariums.html"}, ...translationsFor("/terarijumi/terarijum-za-loptastog-pitona.html") }}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Vodič za terarijum</div>
+        <h1>Terarijum za loptastog pitona</h1>
+        <p>Preporučena veličina je oko 80×40×40 cm sa folija grejačem ispod terarijuma. Stakleni terarijumi za zmije izrađujemo po meri u Novom Sadu.</p>
+      </div>
+    </section>
+<nav class="breadcrumb" aria-label="Breadcrumb">
+      <div class="wrap">
+        <a href="/">Početna</a>
+        <span>›</span>
+        <a href="/terarijumi.html">Vodiči</a>
+        <span>›</span>
+        Terarijum za loptastog pitona
+      </div>
+    </nav>
+<section class="animal-facts reveal">
+      <div class="wrap">
+        <div class="eyebrow">Pregled uslova</div>
+        <h2>Šta je <b>potrebno</b></h2>
+        <div class="feat-grid">
+          <div class="feat-card">
+            <span class="feat-idx">01</span>
+            <h3>Veličina terarijuma</h3>
+            <p>Preporučena minimalna veličina je oko 80×40×40 cm — dovoljno prostora za kretanje i skrivanje.</p>
+          </div>
+          <div class="feat-card">
+            <span class="feat-idx">02</span>
+            <h3>Grejanje</h3>
+            <p>Folija grejač postavlja se ispod terarijuma sa jedne strane kako bi se napravio temperaturni gradijent.</p>
+          </div>
+          <div class="feat-card">
+            <span class="feat-idx">03</span>
+            <h3>Podloga i oprema</h3>
+            <p>Kokosov treset kao podloga, skrovište i posuda za vodu su obavezni elementi svakog dobro opremljenog terarijuma.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+<section class="care-sections reveal">
+      <div class="wrap">
+
+        <div class="care-section">
+          <div class="care-label">Dimenzije</div>
+          <div class="care-text">
+            <p>Preporučena veličina terarijuma za loptastog pitona je oko 80×40×40 cm. Ove dimenzije obezbeđuju dovoljno prostora za kretanje i skrivanje, što je bitno za dobrobit ove zmije. Manji terarijum ne daje mogućnost da se napravi zona odmora odvojena od zone aktivnosti.</p>
+            <p>S obzirom da izrađujemo terarijume po meri, dimenzije, boju i opremu birate sami. Ukoliko niste sigurni koja je optimalna veličina za vašeg ljubimca, slobodno nas kontaktirajte pre poručivanja.</p>
+          </div>
+        </div>
+
+        <div class="care-section">
+          <div class="care-label">Grejanje</div>
+          <div class="care-text">
+            <p>Temperatura unutar terarijuma reguliše se folija grejačem koji se postavlja ispod terarijuma sa jedne strane. Na taj način se formira temperaturni gradijent — toplija zona sa jedne strane i hladnija sa druge — što zmiji omogućava da sama reguliše telesnu temperaturu kretanjem po terarijumu.</p>
+            <p>Folija grejač ne sme biti postavljen po celoj površini dna, jer životinja mora imati mogućnost da se pomeri na hladniju stranu kada je to potrebno.</p>
+          </div>
+        </div>
+
+        <div class="care-section">
+          <div class="care-label">Podloga</div>
+          <div class="care-text">
+            <p>Preporučena podloga u terarijumu za loptastog pitona je kokosov treset. Ovaj supstrat je pogodan jer dobro zadržava vlagu, prirodnog je izgleda i lak je za čišćenje i zamenu.</p>
+            <p>Podlogu treba redovno proveravati i menjati po potrebi kako bi se održala higijena terarijuma i sprečilo razmnožavanje bakterija i plesni.</p>
+          </div>
+        </div>
+
+        <div class="care-section">
+          <div class="care-label">Uređenje unutrašnjosti</div>
+          <div class="care-text">
+            <p>U terarijumu treba obezbediti skrovište i posudicu za vodu. Skrovište je neophodno jer loptasti piti su poznati po tome da vole da se sakrivaju — bez adekvatnog skloništa zmija može biti pod stalnim stresom.</p>
+            <p>Posudica za vodu mora biti dovoljno velika da zmija može u nju ući, jer ova vrsta redovno koristi vodu i za piće i za kupanje, posebno u periodu presvlačenja.</p>
+          </div>
+        </div>
+
+        <div class="care-section">
+          <div class="care-label">Izrada po meri</div>
+          <div class="care-text">
+            <p>Sve navedene terarijume izrađujemo po meri od stakla. Boju terarijuma, veličinu, opremu, kao i sve ostalo možete odabrati sami. Postoji mogućnost dodavanja 3D pozadine od stiropora ili prirodnog siga kamena, penjačkih grana i skrovišta.</p>
+            <p>Ukoliko želite terarijum kompletno opremljen za loptastog pitona — sa folija grejačem, podlogom, skrovištem i posudicom za vodu — to možemo dogovoriti pri narudžbini.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+<section class="rec-tera reveal">
+      <div class="wrap">
+        <div class="rec-tera-box">
+          <div class="rec-tera-info">
+            <div class="eyebrow">Iz naše ponude</div>
+            <h2>Preporučeni <b>terarijum</b></h2>
+            <p>Za loptastog pitona preporučujemo terarijum dimenzija <strong>80×40×45 cm</strong> ili <strong>90×45×45 cm</strong>. Svaki terarijum izrađujemo ručno od stakla, sa folijom ili 3D pozadinom po izboru i kompletnom opremom za ovu vrstu.</p>
+            <a href="/terarijumi.html" class="btn btn-primary" onclick="gtag('event', 'terarijum_click', {'vrsta': 'loptasti_piton'})">Pogledajte terarijume</a>
+          </div>
+          <div class="rec-tera-visual">
+            <img src="/style/img/terrariums/90x45x45.webp" alt="Stakleni terarijum 90x45x45cm za loptastog pitona" loading="lazy" width="1080" height="1080">
+          </div>
+        </div>
+      </div>
+    </section>
+<section class="faq-sec reveal">
+      <div class="wrap">
+        <div class="eyebrow">Odgovori na pitanja</div>
+        <h2>Česta <b>pitanja</b></h2>
+        <div class="faq-list">
+
+          <div class="faq-item">
+            <button class="faq-q">
+              Koja veličina terarijuma je potrebna za loptastog pitona?<span class="ic">+</span>
+            </button>
+            <div class="faq-a">
+              <p>Preporučena veličina terarijuma za loptastog pitona je oko 80×40×40 cm, što omogućava dovoljno prostora za kretanje i skrivanje.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q">
+              Kako održavati temperaturu u terarijumu za loptastog pitona?<span class="ic">+</span>
+            </button>
+            <div class="faq-a">
+              <p>Ispod terarijuma sa jedne strane treba postaviti folija grejač koji održava optimalnu temperaturu. Podloga treba biti kokosov treset.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q">
+              Šta je potrebno u terarijumu za loptastog pitona?<span class="ic">+</span>
+            </button>
+            <div class="faq-a">
+              <p>U terarijumu treba obezbediti skrovište i posudicu za vodu. Podloga bi trebala biti kokosov treset, a temperatura se reguliše folija grejačem postavljenim ispod terarijuma sa jedne strane.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+<section class="related-links reveal">
+      <div class="wrap">
+        <div class="eyebrow">Pogledajte i</div>
+        <h2>Korisni <b>linkovi</b></h2>
+        <div class="rel-grid">
+          <a href="/zivotinje/loptasti-piton.html" class="rel-card">
+            Vodič za loptastog pitona
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+          <a href="/terarijumi.html" class="rel-card">
+            Svi terarijumi
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+          <a href="/izrada-terarijuma.html" class="rel-card">
+            Izrada terarijuma po meri
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+<section class="zcta reveal">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content:center">Imate pitanja?</div>
+        <h2>Kontaktirajte <b>nas</b></h2>
+        <p>Javite nam se za savet o terarijumu ili za porudžbinu. Terarijume izrađujemo po meri — boju, veličinu i opremu birate sami.</p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474?text=Zdravo%2C%20zanima%20me%20terarijum%20za%20loptastog%20pitona" target="_blank" rel="noopener" class="btn" style="background:#fff;color:var(--green-dark)" onclick="gtag('event', 'kontakt_click', {'metod': 'whatsapp', 'stranica': 'vodic_loptasti_piton'})">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event', 'kontakt_click', {'metod': 'poziv', 'stranica': 'vodic_loptasti_piton'})">+381 69 330 1474</a>
+        </div>
+      </div>
+    </section>
+<style is:global>
+      /* Breadcrumb */
+      .breadcrumb {
+        padding: 14px 0;
+        background: var(--bg);
+        font-size: 0.88rem;
+        color: var(--ink-soft);
+        border-bottom: 1px solid var(--silver);
+        transition: background 0.4s, border-color 0.4s;
+      }
+      .breadcrumb a { color: var(--green); }
+      .breadcrumb span { margin: 0 7px; opacity: 0.5; }
+
+      /* Quick info cards */
+      .animal-facts {
+        padding: 60px 0 30px;
+        background: var(--bg);
+        transition: background 0.4s;
+      }
+      .animal-facts h2 {
+        font-size: clamp(1.5rem, 3vw, 2.1rem);
+        text-transform: uppercase;
+        margin-bottom: 28px;
+      }
+      .animal-facts h2 b { color: var(--green); }
+
+      /* Care sections */
+      .care-sections {
+        padding: 40px 0 90px;
+        background: var(--white);
+        transition: background 0.4s;
+      }
+      .care-section {
+        display: grid;
+        grid-template-columns: 160px 1fr;
+        gap: 26px;
+        padding: 28px 0;
+        border-bottom: 1px solid var(--silver);
+        transition: border-color 0.4s;
+      }
+      .care-section:first-child { padding-top: 4px; }
+      .care-section:last-child { border-bottom: 0; }
+      .care-label {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 0.07em;
+        color: var(--green);
+        padding-top: 3px;
+      }
+      .care-text p {
+        color: var(--ink-soft);
+        line-height: 1.78;
+        margin: 0 0 12px;
+      }
+      .care-text p:last-child { margin-bottom: 0; }
+
+      /* Recommended terrarium block */
+      .rec-tera {
+        padding: 80px 0;
+        background: var(--bg);
+        transition: background 0.4s;
+      }
+      .rec-tera-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 48px;
+        align-items: center;
+      }
+      .rec-tera-info h2 {
+        font-size: clamp(1.5rem, 3vw, 2.2rem);
+        text-transform: uppercase;
+        margin-bottom: 16px;
+      }
+      .rec-tera-info h2 b { color: var(--green); }
+      .rec-tera-info p {
+        color: var(--ink-soft);
+        line-height: 1.75;
+        margin-bottom: 26px;
+      }
+      .rec-tera-visual {
+        background: var(--pattern);
+        aspect-ratio: 4/3;
+        overflow: hidden;
+        transition: background 0.4s;
+      }
+      .rec-tera-visual img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s;
+      }
+      .rec-tera-visual:hover img { transform: scale(1.04); }
+
+      /* FAQ section */
+      .faq-sec {
+        padding: 80px 0;
+        background: var(--white);
+        transition: background 0.4s;
+      }
+      .faq-sec h2 {
+        font-size: clamp(1.5rem, 3vw, 2.1rem);
+        text-transform: uppercase;
+        margin-bottom: 36px;
+      }
+      .faq-sec h2 b { color: var(--green); }
+      .faq-list { display: flex; flex-direction: column; gap: 2px; }
+      .faq-item { border-bottom: 1px solid var(--silver); transition: border-color 0.4s; }
+      .faq-item:first-child { border-top: 1px solid var(--silver); }
+      .faq-q {
+        width: 100%;
+        background: none;
+        border: none;
+        text-align: left;
+        padding: 20px 4px;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.05rem;
+        font-weight: 500;
+        color: var(--ink);
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+        transition: color 0.2s;
+      }
+      .faq-q:hover { color: var(--green); }
+      .faq-q .ic {
+        font-size: 1.4rem;
+        font-weight: 300;
+        line-height: 1;
+        flex-shrink: 0;
+        transition: transform 0.25s;
+        color: var(--green);
+      }
+      .faq-item.open .faq-q .ic { transform: rotate(45deg); }
+      .faq-a {
+        display: none;
+        padding: 0 4px 20px;
+        color: var(--ink-soft);
+        line-height: 1.78;
+      }
+      .faq-item.open .faq-a { display: block; }
+
+      /* Internal links block */
+      .related-links {
+        padding: 60px 0;
+        background: var(--bg);
+        transition: background 0.4s;
+      }
+      .related-links h2 {
+        font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+        text-transform: uppercase;
+        margin-bottom: 24px;
+      }
+      .related-links h2 b { color: var(--green); }
+      .rel-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 16px;
+      }
+      .rel-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 22px;
+        background: var(--white);
+        border: 1px solid var(--silver);
+        color: var(--ink);
+        text-decoration: none;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+        font-size: 0.95rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        transition: border-color 0.2s, color 0.2s, background 0.4s;
+        gap: 12px;
+      }
+      .rel-card:hover { border-color: var(--green); color: var(--green); }
+      .rel-card svg { flex-shrink: 0; }
+
+      @media (max-width: 860px) {
+        .care-section { grid-template-columns: 1fr; gap: 8px; }
+        .rec-tera-box { grid-template-columns: 1fr; }
+        .rec-tera-visual { aspect-ratio: 16/9; }
+      }
+    </style>
+<script is:inline slot="after">
+      // FAQ accordion
+      document.querySelectorAll('.faq-q').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var item = this.closest('.faq-item');
+          var isOpen = item.classList.contains('open');
+          document.querySelectorAll('.faq-item').forEach(function(el) { el.classList.remove('open'); });
+          if (!isOpen) item.classList.add('open');
+        });
+      });
+    </script>
+</Base>

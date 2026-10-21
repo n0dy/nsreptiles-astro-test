@@ -1,0 +1,137 @@
+---
+import Base from '../../layouts/Base.astro';
+import '../../styles/animals.css';
+import '../../styles/usluge.css';
+import { translationsFor } from '../../i18n/routes';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Изготовление террариумов на заказ",
+    "serviceType": "Изготовление террариумов на заказ",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "NS Reptiles",
+      "telephone": "+381693301474",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Novi Sad",
+        "addressCountry": "RS"
+      }
+    },
+    "areaServed": "Сербия",
+    "description": "Изготовление террариумов на заказ в Нови-Саде. Стеклянные террариумы для агам, гекконов и питонов, более 40 видов плёнок, 3D-фоны и UVB-освещение. Срок изготовления 7 рабочих дней.",
+    "url": "https://nsreptiles.net/ru/custom-terrariums.html"
+  }
+];
+---
+<Base
+  lang="ru"
+  title="Террариумы на заказ в Нови-Саде | NS Reptiles"
+  description="Террариумы на заказ в Нови-Саде: стеклянные террариумы для агам, гекконов и питонов, более 40 видов плёнок, 3D-фоны и UVB-освещение. Срок — 7 рабочих дней."
+  path="/ru/custom-terrariums.html"
+  ogTitle="Террариумы на заказ | NS Reptiles"
+  ogDescription="Ручная работа — стеклянные террариумы по вашим размерам: плёнки, 3D-фоны, освещение и оборудование. Нови-Сад."
+  translations={translationsFor("/ru/custom-terrariums.html")}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Изготовление на заказ</div>
+        <h1>Террариумы на заказ</h1>
+        <p>Каждый террариум мы изготавливаем вручную из стекла, по вашим размерам и пожеланиям — с выбранной плёнкой, 3D-фоном и полным комплектом оборудования.</p>
+      </div>
+    </section>
+<section class="intro">
+      <div class="wrap">
+        <div class="intro-box">
+          <div class="eyebrow">Как получить свой террариум?</div>
+          <p>От первого контакта до получения заказа мы проведём вас через несколько простых шагов. Не знаете, какой оптимальный размер подойдёт вашему питомцу? <strong>Мы с радостью поможем</strong> вам сделать правильный выбор.</p>
+        </div>
+      </div>
+    </section>
+<section class="usl">
+      <div class="wrap">
+        <div class="proc">
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Свяжитесь с нами</h3>
+              <p>Напишите нам по телефону, электронной почте или через социальные сети и сообщите, какие размеры террариума вас интересуют. Если вы не уверены, какой оптимальный размер подходит вашему питомцу, мы с удовольствием поможем вам сделать правильный выбор.</p>
+            </div>
+          </div>
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Выберите цвет террариума</h3>
+              <p>В ассортименте более 40 различных видов плёнок, так что вы легко сможете вписать террариум в интерьер вашего дома. Также возможно отделать террариум чёрным лакобелем вместо плёнки.</p>
+            </div>
+          </div>
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Выберите 3D-фон</h3>
+              <p>Классическая плёнка с рисунком, заводская модель, 3D-фон из пенопласта, 3D-фон из натурального камня-травертина или вообще без фона — выбор зависит от вкуса и желания покупателя. Дополнительно можно добавить ветки для лазания, укрытия и другие элементы декора.</p>
+            </div>
+          </div>
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Освещение и оборудование</h3>
+              <p>Для здоровой жизни вашего питомца важнее всего правильно настроенное освещение и температура. Мы поможем вам выбрать подходящее UVB/UVA освещение, нагреватели, термостаты, субстрат и декорации. Всё включено в одну цену.</p>
+            </div>
+          </div>
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Задаток 30%</h3>
+              <p>Минимальная сумма задатка для начала изготовления террариума составляет 30% от общей стоимости. Остаток оплачивается после завершения изготовления, при получении террариума.</p>
+            </div>
+          </div>
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Срок изготовления — 7 рабочих дней</h3>
+              <p>Стандартный срок изготовления террариума — 7 рабочих дней. Для более сложных и крупных проектов, таких как террариумы для большой водной агамы или игуаны, срок может быть увеличен.</p>
+            </div>
+          </div>
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Получение террариума</h3>
+              <p>Террариум можно забрать лично в Нови-Саде, или мы можем отправить его автобусом в ваш город. Расходы на доставку несёт покупатель. Для крупных террариумов можно организовать доставку микроавтобусом.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<section class="zcta">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content: center">Готовы начать?</div>
+        <h2>Ваш террариум <b>на заказ</b></h2>
+        <p>Пришлите нам размеры и вид животного — мы изготовим террариум точно по вашим потребностям, с 3D-фоном по желанию.</p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474" target="_blank" rel="noopener" class="btn" style="background: #fff; color: var(--green-dark)">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light">Позвоните нам</a>
+        </div>
+      </div>
+    </section>
+<section class="usl-more">
+      <div class="wrap">
+        <div class="usl-more-head">
+          <div class="eyebrow">Другие услуги</div>
+          <h2>Всё в <b>одном месте</b></h2>
+        </div>
+        <div class="usl-more-grid">
+          <a class="usl-link" href="/izrada-akvarijuma.html">Изготовление аквариумов<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+          <a class="usl-link" href="/izrada-vivarijuma.html">Изготовление виварий<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+          <a class="usl-link" href="/izrada-led-rasvete.html">Изготовление LED-освещения<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+          <a class="usl-link" href="/odrzavanje-akvarijuma-terarijuma.html">Обслуживание и оформление<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+          <a class="usl-link" href="/popravka-akvarijuma-terarijuma.html">Ремонт и сервис<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+        </div>
+      </div>
+    </section>
+
+
+</Base>

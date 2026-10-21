@@ -1,0 +1,69 @@
+{
+  "name": "Akvarijum 40x25x27 - Komplet sa opremom",
+  "label": "Akvarijum komplet",
+  "lead": "Sve što vam je potrebno za start - spremno za postavljanje odmah! Akvarijum sa šljunkom, dekoracijom, pumpom (filterom), veštačkim biljem i grejačem.",
+  "image": "/style/img/aquariums/akv40x25x27-komplet.webp",
+  "imageAlt": "Akvarijum 40x25x27 komplet sa opremom - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Dužina",
+      "v": "40 cm"
+    },
+    {
+      "k": "Širina",
+      "v": "25 cm"
+    },
+    {
+      "k": "Visina",
+      "v": "27 cm"
+    },
+    {
+      "k": "Zapremina",
+      "v": "~27 L"
+    },
+    {
+      "k": "Materijal",
+      "v": "Staklo"
+    },
+    {
+      "k": "Tip",
+      "v": "Komplet sa opremom"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Akvarijum dimenzija 40x25x27cm (27L) pruža dovoljno prostora za uređenje sa živim biljkama, korenjem i kamenom. Staklo je precizno isečeno i lepljeno akvarijumskim silikonom koji obezbeđuje potpunu nepropusnost."
+    },
+    {
+      "type": "p",
+      "html": "Zapremina je pogodna za raznolike slatkovodne zajednice - od gupija i molija do tetri, koridorasa i manjih gurami vrsta. Akvaskejp sa živim biljkama i prirodnom podlogom od kvarcnog peska ili šljunka upotpunjuje izgled."
+    },
+    {
+      "type": "h2",
+      "text": "Izrada po meri"
+    },
+    {
+      "type": "p",
+      "html": "Svaki akvarijum možete naručiti u prilagođenim dimenzijama i sa dodatnim opcijama poput otvora za opremu ili ojačanog stakla. Ručna izrada u Novom Sadu, dostava na vašu adresu."
+    }
+  ],
+  "seo": {
+    "title": "Akvarijum 40x25x27 Komplet sa Opremom | NS Reptiles",
+    "description": "Akvarijum 40x25x27 komplet sa opremom - šljunak, dekoracija, pumpa, bilje, grejač. Sve za start! NS Reptiles Novi Sad, dostava širom Srbije.",
+    "keywords": "akvarijum 40x25x27 komplet, akvarijum set za početnike, akvarijum sa opremom, akvarijum komplet cena, akvarijum Novi Sad, NS Reptiles, akvarijum za početnike",
+    "ogTitle": "Akvarijum 40x25x27 - Komplet sa opremom | NS Reptiles",
+    "ogDescription": "Akvarijum 40x25x27 komplet sa opremom - šljunak, dekoracija, pumpa, bilje i grejač. Sve za start."
+  },
+  "related": [
+    "akvarijumi/akvarijum-40x25x27",
+    "akvarijumi/akvarijum-35x23x25",
+    "akvarijumi/akvarijum-45x27x30",
+    "akvarijumi/akvarijum-45x30x40"
+  ]
+}

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /korpa.html
+Disallow: /en/cart.html
+Disallow: /ru/cart.html
+
+Sitemap: https://nsreptiles.net/sitemap.xml

@@ -1,0 +1,60 @@
+{
+  "name": "HabiStat Tortoise Food Banana",
+  "label": "Hrana",
+  "lead": "Suva peletirana hrana za kornjače sa ukusom banane. Potpuno prirodni sastojci, visok sadržaj vlakana, nizak protein, bogata kalcijumom.",
+  "image": "/style/img/oprema/habistat-tortoise-food-banana.webp",
+  "imageAlt": "HabiStat Tortoise Food Banana hrana za kornjače - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "HabiStat"
+    },
+    {
+      "k": "Tip",
+      "v": "Hrana za kornjače"
+    },
+    {
+      "k": "Ukus",
+      "v": "Banana"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "HabiStat Tortoise Food Banana je visokokvalitetna suva peletirana hrana namenjena ishrani kopnenih kornjača. Ova hrana je formulisana sa ukusom banane koji kornjače izuzetno rado jedu, što je čini odličnim izborom i za probirljive jedinke. Peleti su napravljeni od potpuno prirodnih sastojaka, uključujući ovas, kukuruz, ovsene mekinje, lucerku, repine rezance i kalcijum karbonat, bez veštačkih boja i konzervansa."
+    },
+    {
+      "type": "p",
+      "html": "Nutritivni sastav je pažljivo osmišljen za optimalno zdravlje kornjača - sa visokim sadržajem vlakana od 12% koji podržava zdravu probavu, niskim sadržajem proteina od 7.6% koji odgovara prirodnoj ishrani kornjača, i bogatim sadržajem kalcijuma od 1.9% za jake kosti i zdrav oklop. Hrana sadrži i vitamin D3 koji pomaže u apsorpciji kalcijuma."
+    },
+    {
+      "type": "h2",
+      "text": "Priprema i korišćenje"
+    },
+    {
+      "type": "p",
+      "html": "Pre hranjenja, potopite pelete u toplu vodu na nekoliko minuta kako bi omekšali i postali lakši za konzumiranje. Ova hrana je pogodna za evropske kornjače, ruske kornjače i većinu drugih vrsta kopnenih kornjača. HabiStat je renomirani britanski brend specijalizovan za opremu i hranu za reptile, poznat po kvalitetu i pouzdanosti svojih proizvoda."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Poručite pozivom ili WhatsApp porukom. Dostava na adresu u bilo kom gradu Srbije. Iz Novog Sada - preuzimanje u radionici. Pišite nam za pomoć pri izboru opreme za vaš terarijum ili akvarijum."
+    }
+  ],
+  "seo": {
+    "title": "HabiStat Tortoise Food Banana | Hrana za Kornjače - NS REPTILES",
+    "description": "HabiStat Tortoise Food Banana - suva peletirana hrana za kornjače sa ukusom banane. Visok sadržaj vlakana, bogata kalcijumom.",
+    "keywords": "habistat tortoise food banana, hrana za kornjače, hrana za kornjače banana, peletirana hrana kornjače, oprema za reptile, NS Reptiles, Novi Sad, Srbija, prodaja",
+    "ogTitle": "HabiStat Tortoise Food Banana | Hrana za Kornjače - NS Reptiles",
+    "ogDescription": "HabiStat Tortoise Food Banana - suva peletirana hrana za kornjače sa ukusom banane. Prirodni sastojci, bogata kalcijumom. NS Reptiles Novi Sad."
+  },
+  "related": []
+}

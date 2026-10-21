@@ -1,0 +1,123 @@
+---
+import Base from '../layouts/Base.astro';
+import '../styles/animals.css';
+import '../styles/oprema.css';
+import ProductCard from '../components/ProductCard.astro';
+import { SITE } from '../config/site';
+import { getProducts, productPath } from '../lib/products';
+
+const FIRST = ['oprema/dubia-zohari', 'oprema/fobasi', 'oprema/lateralis', 'oprema/brasnari-tenebrio'];
+// "Ziva hrana" dok se postojeci fajlovi ne prebace na dijakritike
+const food = (await getProducts())
+  .filter((p) => ['Živa hrana', 'Ziva hrana'].includes(p.data.label))
+  .sort((a, b) => (FIRST.indexOf(a.id) + 1 || 99) - (FIRST.indexOf(b.id) + 1 || 99));
+
+const faq = [
+  ['Čime da hranim guštera?', 'Većina guštera hrani se živim insektima. Dubia žohari su osnova ishrane jer imaju visok procenat proteina, malo hitina i lako su svarljivi. Uz njih se koriste fobasi, lateralis (turkestanski žohar) i brašnari kao raznovrsnost. Živu hranu treba posuti kalcijumom pre svakog obroka.'],
+  ['Koja je najbolja hrana za bradatu agamu?', 'Mlade bradate agame jedu velike količine insekata dnevno - dubia žohari i lateralis su idealni jer su meki i bogati proteinima. Odrasle agame jedu manje insekata i više povrća. Brašnari se daju umereno jer imaju tvrđi hitin.'],
+  ['Koje veličine insekata trebaju za mladunca guštera?', 'Pravilo je da insekt ne bude širi od razmaka između očiju guštera. Za mladunce koristite male dubia nimfe ili male lateralise. Kako gušter raste, prelazi se na srednje i velike insekte. Prevelik plen može izazvati probleme sa varenjem.'],
+  ['Zašto su dubia žohari bolji od cvrčaka?', 'Dubia žohari ne cvrče, ne skaču, ne penju se po glatkim površinama i ne šire neprijatan miris. Duže žive u terarijumu i imaju bolji odnos proteina i hitina od cvrčaka, pa su hranljiviji i praktičniji za držanje.'],
+  ['Kako se čuva živa hrana za guštere?', 'Dubia žohari i fobasi drže se na sobnoj temperaturi u ventiliranoj kutiji sa kartonskim ležištima i malo hrane (šargarepa, jabuka, žitarice). Brašnari se mogu držati u frižideru radi usporavanja razvoja. Lateralis zahteva topliji smeštaj jer je aktivniji.'],
+];
+
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Početna', item: SITE.url + '/' },
+      { '@type': 'ListItem', position: 2, name: 'Oprema', item: SITE.url + '/oprema.html' },
+      { '@type': 'ListItem', position: 3, name: 'Hrana za guštere', item: SITE.url + '/hrana-za-gustere.html' },
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Hrana za guštere',
+    itemListElement: food.map((p, i) => ({
+      '@type': 'ListItem', position: i + 1, name: p.data.name, url: SITE.url + productPath(p),
+    })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
+  },
+];
+---
+<Base
+  lang="sr"
+  title="Hrana za Guštere | Dubia, Lateralis, Brašnari - NS REPTILES"
+  description="Hrana za guštere - živa hrana za reptile: dubia žohari, fobasi, lateralis (turkestanski žohar) i brašnari (tenebrio) u više veličina. NS REPTILES Novi Sad."
+  keywords="hrana za guštere, živa hrana za reptile, dubia žohari, dubie, fobasi, lateralis, turkestanski žohar, brašnari, tenebrio, insekti za guštere, hrana za bradatu agamu, hrana za leopard gekona"
+  path="/hrana-za-gustere.html"
+  image="/style/img/oprema/dubie.webp"
+  ogTitle="Hrana za Guštere | Dubia, Lateralis, Brašnari - NS REPTILES"
+  ogDescription="Živa hrana za guštere i reptile - dubia žohari, fobasi, lateralis i brašnari u više veličina. Sveža i uvek na stanju."
+  active="equipment"
+  schema={schema}
+>
+  <section class="page-head">
+    <div class="wrap">
+      <div class="eyebrow">Oprema</div>
+      <h1>Hrana za guštere</h1>
+    </div>
+  </section>
+  <section class="intro">
+    <div class="wrap">
+      <div class="intro-box">
+        <p>
+          Živa hrana je osnova ishrane većine guštera. U ponudi imamo sveže feeder insekte uzgojene za ishranu
+          reptila - <strong>dubia žohare</strong>, <strong>fobase</strong>, <strong>lateralis (turkestanski
+          žohar)</strong> i <strong>brašnare (tenebrio)</strong> u više veličina. Sve vrste su dostupne od
+          najsitnijih nimfi za mladunce do odraslih jedinki za veće guštere, pa možete hraniti
+          <a style="color: var(--green)" href="/zivotinje/bradata-agama.html">bradate agame</a>,
+          <a style="color: var(--green)" href="/zivotinje/leopard-gekon.html">leopard gekone</a>, kameleone, tegue i ostale insektojede.
+          Cene žive hrane počinju od <strong>400 din za 100 komada</strong>.
+        </p>
+        <h2 class="eyebrow" style="margin-top: 28px">Vrste žive hrane u ponudi</h2>
+        <p>
+          <strong>Dubia žohari</strong> su najpopularniji feeder insekt - imaju visok procenat proteina, malo
+          hitina i lako su svarljivi. Ne cvrče, ne skaču, ne penju se po glatkim površinama i ne šire miris,
+          pa su praktični za držanje. <strong>Fobasi</strong> su mekan i hranljiv žohar, odlična dopuna
+          dubijama za raznovrsnost obroka.
+        </p>
+        <p style="margin-top: 14px">
+          <strong>Lateralis</strong> ili turkestanski žohar je brz i sitniji insekt koji svojim kretanjem
+          provocira lovni instinkt - idealan za kameleone, mlade gekone i guštere koji reaguju na pokret.
+          <strong>Brašnari (tenebrio)</strong> su larve sa tvrđim hitinom i višim udelom masti, pa se daju kao
+          poslastica i za popunjavanje kondicije, uz umerenu učestalost.
+        </p>
+        <h3 class="eyebrow" style="margin-top: 28px">Kako se hrani gušter</h3>
+        <p>
+          Živu hranu uvek pospite kalcijumom (a povremeno i multivitaminom) pre obroka. Pravilo veličine: insekt
+          ne sme biti širi od razmaka između očiju guštera. Mladunci jedu češće i sitniji plen, dok odrasli
+          jedu ređe i krupnije insekte. Za tačnu preporuku vrste i veličine za vašu životinju - pozovite nas.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="op-shop">
+    <div class="wrap">
+      <div class="op-grid">
+        {food.map((p) => <ProductCard product={p} catLabel={p.data.label} />)}
+      </div>
+    </div>
+  </section>
+  <section class="faq section">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <div class="eyebrow">Česta pitanja</div>
+        <h2 class="sec-title">Česta pitanja o ishrani guštera</h2>
+      </div>
+      <div class="faq-list">
+        {faq.map(([q, a]) => (
+          <div class="faq-item">
+            <button class="faq-q">{q}<span class="ic">+</span></button>
+            <div class="faq-a"><p>{a}</p></div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,85 @@
+{
+  "name": "Terarijum 34x20x28 +3D",
+  "label": "Srednji terarijum",
+  "lead": "Stakleni terarijum dimenzija 34x20x28cm sa ručno rađenom 3D pozadinom. Zapremina 19.0 litara, horizontalni format. Ručna izrada u Novom Sadu.",
+  "image": "/style/img/terrariums/34x20x28.webp",
+  "imageAlt": "Stakleni terarijum 34x20x28cm sa 3D pozadinom - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Dužina",
+      "v": "34 cm"
+    },
+    {
+      "k": "Širina",
+      "v": "20 cm"
+    },
+    {
+      "k": "Visina",
+      "v": "28 cm"
+    },
+    {
+      "k": "Zapremina",
+      "v": "~19.0 L"
+    },
+    {
+      "k": "Materijal",
+      "v": "Staklo"
+    },
+    {
+      "k": "3D Pozadina",
+      "v": "Da"
+    },
+    {
+      "k": "Tip",
+      "v": "Horizontalni"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Sa zapreminom od 19 litara i dimenzijama 34x20x28cm, ovaj terarijum uključuje ručno izrađenu 3D pozadinu. Pozadina imitira prirodni reljef - stenu ili koru - i dodaje dubinu prostoru, omogućavajući životinjama da se penju, sakrivaju i osećaju sigurnije."
+    },
+    {
+      "type": "p",
+      "html": "Sa podnom površinom od 34x20cm, ovaj terarijum omogućava prirodno kretanje kopnenih vrsta i pravilno zoniranje temperature - tople tačke pod spot lampom i hladnijeg dela na suprotnoj strani. Mrežice na ventilacionim otvorima propuštaju vazduh ali ne i hranu ili sitne stanovnike terarijuma."
+    },
+    {
+      "type": "h2",
+      "text": "Pogodan za"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Gekoni (leopard, crested, gargoyle)",
+        "Kukuruzni smukovi (juvenilni)",
+        "Dnevni gekoni",
+        "Manje vrste guštera"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Izrada po meri"
+    },
+    {
+      "type": "p",
+      "html": "Svaki naš terarijum ručno je izrađen, pa možete birati dimenzije, boju folije, tip ventilacije i stil 3D pozadine. Radimo i potpuno prilagođene modele prema vašim potrebama - kontaktirajte nas za konsultacije. Dostava na teritoriji cele Srbije."
+    }
+  ],
+  "seo": {
+    "title": "Terarijum 34x20x28 +3D | Terarijum - NS Reptiles",
+    "description": "Terarijum 34x20x28 +3D - stakleni terarijum sa 3D pozadinom 34x20x28cm. Ručna izrada, dostava širom Srbije. NS Reptiles Novi Sad.",
+    "keywords": "terarijum 34x20x28 +3d, terarijum 34x20x28cm, terarijum prodaja, terarijum Novi Sad, NS Reptiles",
+    "ogTitle": "Terarijum 34x20x28 +3D - NS Reptiles"
+  },
+  "related": [
+    "terarijumi/terarijum-30x30x55-3d",
+    "terarijumi/terarijum-32x20x25-3d",
+    "terarijumi/terarijum-35x20x25-3d",
+    "terarijumi/terarijum-35x25x20-3d"
+  ]
+}

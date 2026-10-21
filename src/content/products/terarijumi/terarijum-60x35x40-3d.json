@@ -1,0 +1,85 @@
+{
+  "name": "Terarijum 60x35x40 +3D",
+  "label": "Srednji terarijum",
+  "lead": "Stakleni terarijum dimenzija 60x35x40cm sa ručno rađenom 3D pozadinom. Zapremina 84.0 litara, horizontalni format. Ručna izrada u Novom Sadu.",
+  "image": "/style/img/terrariums/60x35x40.webp",
+  "imageAlt": "Terarijum 60x35x40 +3D - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Dužina",
+      "v": "60 cm"
+    },
+    {
+      "k": "Širina",
+      "v": "35 cm"
+    },
+    {
+      "k": "Visina",
+      "v": "40 cm"
+    },
+    {
+      "k": "Zapremina",
+      "v": "~84.0 L"
+    },
+    {
+      "k": "Materijal",
+      "v": "Staklo"
+    },
+    {
+      "k": "3D Pozadina",
+      "v": "Da"
+    },
+    {
+      "k": "Tip",
+      "v": "Horizontalni"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Stakleni terarijum 60x35x40cm zapremine 84 litara dolazi sa ručno rađenom 3D pozadinom koja unutrašnjosti daje izgled prirodnog staništa. Pozadina od stiropora modelovana je u obliku stene, kore drveta ili pećinskog reljefa - svaki komad je unikat jer se radi ručno u našoj radionici."
+    },
+    {
+      "type": "p",
+      "html": "Horizontalna orijentacija sa 60cm dužine pruža podnu površinu na kojoj se lako organizuju grejni deo, hladni deo i zona za skrivanje. Termoregulacija reptila zavisi od mogućnosti kretanja između toplih i hladnih zona unutar terarijuma. Mrežasti ventilacioni otvori obezbeđuju protok vazduha neophodan za zdravlje životinja i sprečavaju kondenzaciju."
+    },
+    {
+      "type": "h2",
+      "text": "Pogodan za"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Bradate agame (odrasle)",
+        "Loptasti pitoni",
+        "Kornjače (kopnene)",
+        "Kukuruzni smukovi (odrasli)"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Izrada po meri"
+    },
+    {
+      "type": "p",
+      "html": "Ako vam standardne dimenzije ne odgovaraju, radimo terarijume po meri. Izaberite veličinu, dezen folije, stil pozadine i dodatke poput LED osvetljenja ili termostata. Kontaktirajte nas za ponudu - dostavljamo širom Srbije."
+    }
+  ],
+  "seo": {
+    "title": "Terarijum 60x35x40 +3D | Terarijum - NS Reptiles",
+    "description": "Terarijum 60x35x40 +3D - stakleni terarijum sa 3D pozadinom 60x35x40cm. Ručna izrada, dostava širom Srbije. NS Reptiles Novi Sad.",
+    "keywords": "terarijum 60x35x40 +3d, terarijum 60x35x40cm, terarijum prodaja, terarijum Novi Sad, NS Reptiles",
+    "ogTitle": "Terarijum 60x35x40 +3D - NS Reptiles"
+  },
+  "related": [
+    "terarijumi/terarijum-60x30x25",
+    "terarijumi/terarijum-60x30x30",
+    "terarijumi/terarijum-60x40x30",
+    "terarijumi/terarijum-60x45x30"
+  ]
+}

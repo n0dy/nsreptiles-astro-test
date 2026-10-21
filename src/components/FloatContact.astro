@@ -1,0 +1,8 @@
+---
+import { SITE, whatsappLink } from '../config/site';
+import Icon from './Icon.astro';
+---
+<div class="float-contact">
+  <a href={whatsappLink()} target="_blank" rel="noopener" class="fab fab-wa" aria-label="WhatsApp"><Icon name="whatsapp" size={30} /></a>
+  <a href={`viber://chat?number=${encodeURIComponent(SITE.phone)}`} target="_blank" rel="noopener" class="fab fab-vb" aria-label="Viber"><Icon name="viber" size={30} /></a>
+</div>

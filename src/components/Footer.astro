@@ -1,0 +1,52 @@
+---
+import { SITE, type Locale } from '../config/site';
+import { NAV } from '../i18n/nav';
+
+interface Props {
+  lang: Locale;
+}
+const { lang } = Astro.props;
+const f = NAV[lang].footer;
+---
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="fbrand">NS REPT<span class="logo-i">I</span>LES</div>
+        <p>{f.about}</p>
+        <div class="foot-social">
+          <a href={SITE.social.facebook} target="_blank" rel="noopener" aria-label="Facebook">FB</a><a href={SITE.social.instagram} target="_blank" rel="noopener" aria-label="Instagram">IG</a><a href={SITE.social.tiktok} target="_blank" rel="noopener" aria-label="TikTok">TT</a>
+        </div>
+      </div>
+      <div>
+        <h4>{f.quickTitle}</h4>
+        <ul>{f.quick.map((l) => <li><a href={l.href}>{l.label}</a></li>)}</ul>
+      </div>
+      <div>
+        <h4>{f.productsTitle}</h4>
+        <ul>{f.products.map((l) => <li><a href={l.href}>{l.label}</a></li>)}</ul>
+      </div>
+      <div>
+        <h4>{f.contactTitle}</h4>
+        <ul class="foot-contact">
+          <li><a href={SITE.mapsUrl} target="_blank" rel="noopener">{f.city}</a></li>
+          <li><a href={`tel:${SITE.phone}`}>{SITE.phoneDisplay}</a></li>
+          <li><a href={`mailto:${SITE.email}`}>{SITE.email}</a></li>
+        </ul>
+        <h4 class="foot-sub">{f.hoursTitle}</h4>
+        {f.hours.map(([d, h]) => <div class="hours-row sm"><span>{d}</span><span>{h}</span></div>)}
+      </div>
+    </div>
+    <div class="foot-newsletter">
+      <div class="foot-nl-left">
+        <h4>{f.newsTitle}</h4>
+        <p>{f.newsText}</p>
+      </div>
+      <div class="news-form">
+        <input type="email" placeholder={f.newsPlaceholder} aria-label={f.newsPlaceholder} />
+        <button class="btn btn-primary">{f.newsButton}</button>
+      </div>
+    </div>
+  </div>
+  <div class="foot-bottom">&copy; {new Date().getFullYear()} NS REPTILES. {f.rights}</div>
+</footer>

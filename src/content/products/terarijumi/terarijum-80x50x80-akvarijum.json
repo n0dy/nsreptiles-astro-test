@@ -1,0 +1,82 @@
+{
+  "name": "Terarijum 80x50x80 + AKVARIJUM",
+  "label": "Veliki terarijum",
+  "lead": "Terarijum 80x50x80cm sa integrisanim akvarijumom u donjem delu. Jedinstven kombinovani sistem za kopneni i vodeni deo, izrađen od kvalitetnog stakla u našoj radionici u Novom Sadu.",
+  "image": "/style/img/terrariums/80x50x80-voda.webp",
+  "imageAlt": "Terarijum 80x50x80 sa integrisanim akvarijumom - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Dužina",
+      "v": "80 cm"
+    },
+    {
+      "k": "Širina",
+      "v": "50 cm"
+    },
+    {
+      "k": "Visina",
+      "v": "80 cm"
+    },
+    {
+      "k": "Zapremina",
+      "v": "~320 L"
+    },
+    {
+      "k": "Materijal",
+      "v": "Staklo"
+    },
+    {
+      "k": "Tip",
+      "v": "Horizontalni"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Terarijum 80x50x80cm (320L) rađen je od kvalitetnog stakla i spolja obložen folijom po vašem izboru. Folija daje terarijumu uredan izgled i uklapanje u enterijer, a dostupni su dezeni drveta, bambusa, mermera i jednobojna crna ili bela varijanta."
+    },
+    {
+      "type": "p",
+      "html": "Dužina od 80cm i širina od 50cm daju veliku podnu površinu za kopnene vrste koje se kreću po tlu. Dovoljna dužina omogućava temperaturni gradijent od tople do hladne zone - uslov za zdravlje svih reptila. Ventilacija je rešena mrežastim otvorima koji omogućavaju strujanje vazduha i kontrolu vlažnosti unutar terarijuma."
+    },
+    {
+      "type": "h2",
+      "text": "Pogodan za"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Bradate agame",
+        "Loptasti pitoni",
+        "Kopnene kornjače",
+        "Plavi jezičasti skink"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Izrada po meri"
+    },
+    {
+      "type": "p",
+      "html": "Nudimo potpunu prilagodljivost: birate foliju, pozadinu, ventilaciju, i opciono LED osvetljenje ili termostat. Ako ovaj model ne odgovara vašem prostoru, izrađujemo terarijume u bilo kojim dimenzijama. Pozovite za ponudu."
+    }
+  ],
+  "seo": {
+    "title": "Terarijum 80x50x80 + AKVARIJUM | Terarijum - NS Reptiles",
+    "description": "Terarijum 80x50x80 + AKVARIJUM - stakleni terarijum 80x50x80cm. Ručna izrada, dostava širom Srbije. NS Reptiles Novi Sad.",
+    "keywords": "terarijum 80x50x80 + akvarijum, terarijum 80x50x80cm, terarijum prodaja, terarijum Novi Sad, NS Reptiles",
+    "ogTitle": "Terarijum 80x50x80 + AKVARIJUM | NS Reptiles",
+    "ogDescription": "Terarijum 80x50x80 + AKVARIJUM - stakleni terarijum 80x50x80cm sa integrisanim akvarijumom u donjem delu."
+  },
+  "related": [
+    "terarijumi/terarijum-80x30x120-3d",
+    "terarijumi/terarijum-120x40x50-3d",
+    "terarijumi/terarijum-70x45x97-dupli-3d",
+    "terarijumi/terarijum-75x59x90-dupli-3d"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "name": "Ter-Akvarijum 60x45x40x45",
+  "label": "Srednji terarijum",
+  "lead": "Kombinovani ter-akvarijum dimenzija 60x45x40cm. Idealan za životinje koje zahtevaju kopneni i vodeni deo staništa. Visina vodenog dela: 45cm.",
+  "image": "/style/img/terrariums/60x45x40x45.webp",
+  "imageAlt": "Ter-Akvarijum 60x45x40x45 stakleni terarijum sa vodenim delom - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Dužina",
+      "v": "60 cm"
+    },
+    {
+      "k": "Širina",
+      "v": "45 cm"
+    },
+    {
+      "k": "Visina",
+      "v": "40 cm"
+    },
+    {
+      "k": "Zapremina",
+      "v": "~108.0 L"
+    },
+    {
+      "k": "Materijal",
+      "v": "Staklo"
+    },
+    {
+      "k": "Tip",
+      "v": "Horizontalni"
+    },
+    {
+      "k": "Vodeni deo",
+      "v": "45 cm"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ter-akvarijum 60x45x40cm iz naše radionice rešava problem držanja vrsta koje žive na granici vode i kopna. Staklo debljine prilagođene pritisku vode drži 45cm vodenog stuba, a iznad njega se prostire kopneni deo za grejanje i odmor."
+    },
+    {
+      "type": "p",
+      "html": "Sa podnom površinom od 60x45cm, ovaj terarijum omogućava prirodno kretanje kopnenih vrsta i pravilno zoniranje temperature - tople tačke pod spot lampom i hladnijeg dela na suprotnoj strani. Sistem ventilacije sa zaštitnom mrežicom održava protok svežeg vazduha i sprečava nakupljanje vlage."
+    },
+    {
+      "type": "h2",
+      "text": "Pogodan za"
+    },
+    {
+      "type": "p",
+      "html": "Ter-akvarijumi su projektovani za vrste kojima je potreban i kopneni i vodeni deo staništa:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Vodene i poluvodene kornjače",
+        "Kineske vodene agame",
+        "Vodozemci koji zahtevaju akvatični deo"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Izrada po meri"
+    },
+    {
+      "type": "p",
+      "html": "Pri naručivanju birate dezen folije i oblik 3D pozadine. Sve terarijume izrađujemo ručno u Novom Sadu, tako da su prilagođavanja uvek moguća - od dimenzija do načina otvaranja. Šaljemo kurirskom službom u celu Srbiju."
+    }
+  ],
+  "seo": {
+    "title": "Ter-Akvarijum 60x45x40x45 | Ter-Akvarijum - NS Reptiles",
+    "description": "Ter-Akvarijum 60x45x40x45 - stakleni terarijum 60x45x40cm. Ručna izrada, dostava širom Srbije. NS Reptiles Novi Sad.",
+    "keywords": "ter-akvarijum 60x45x40x45, terarijum 60x45x40cm, ter-akvarijum, terarijum prodaja, terarijum Novi Sad, NS Reptiles",
+    "ogTitle": "Ter-Akvarijum 60x45x40x45 | NS Reptiles"
+  },
+  "related": [
+    "terarijumi/terarijum-60x40x30",
+    "terarijumi/terarijum-60x45x30",
+    "terarijumi/terarijum-60x50x90-3d",
+    "terarijumi/terarijum-60x45x50"
+  ]
+}

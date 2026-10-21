@@ -1,0 +1,55 @@
+{
+  "name": "Dekorativna lobanja",
+  "label": "Dekoracija",
+  "lead": "Dekorativna lobanja za terarijum ili akvarijum. Ukras i skrovište za vaše životinje.",
+  "image": "/style/img/oprema/dekoracija/lobanja.png",
+  "imageAlt": "Dekorativna lobanja - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - lobanja"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum / akvarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras i skrovište"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Dekorativna lobanja je atraktivan dodatak za terarijum ili akvarijum koji kombinuje estetsku privlačnost sa praktičnom funkcionom skrovišta. Životinje je koriste kao sklonište tokom odmora ili pri stresnim situacijama."
+    },
+    {
+      "type": "p",
+      "html": "Izrađeno od bezbednog materijala, pogodna za sve vrste reptila, vodozemaca i riba. Lako se čisti i održava. Dostupna u većoj veličini za krupnije životinje."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Dekorativna lobanja | Dekoracija za Terarijum - NS Reptiles",
+    "description": "Dekorativna lobanja za terarijum ili akvarijum. Ukras i skrovište za životinje. NS Reptiles Novi Sad.",
+    "keywords": "dekorativna lobanja, dekoracija terarijum, skrovište reptili, NS Reptiles",
+    "ogTitle": "Dekorativna lobanja | NS Reptiles"
+  },
+  "related": [
+    "oprema/brodsko-kormilo",
+    "oprema/dragon-stone-1kg",
+    "oprema/folija-grejac"
+  ]
+}

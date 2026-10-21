@@ -1,0 +1,52 @@
+{
+  "name": "Sidro sa koralima",
+  "label": "Dekoracija",
+  "lead": "Sidro sa koralima - dekorativni element za akvarijum sa morskom tematikom.",
+  "image": "/style/img/oprema/dekoracija/sidro.png",
+  "imageAlt": "Sidro sa koralima - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - sidro sa koralima"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    },
+    {
+      "k": "Tematika",
+      "v": "Morska"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Sidro sa koralima je dekorativni element koji obogaćuje vaš akvarijum morskom tematikom. Model sidra obrastao veštačkim koralima stvara utisak potopljenog brodskog sidra koje je priroda vremenom preuzela - kao da leži na morskom dnu već decenijama. Kombinacija metalnog izgleda sidra i živopisnih korala daje zanimljiv kontrast i vizuelnu dubinu akvarijumu. Bezbedan je za upotrebu pod vodom - izrađen od kvalitetnog materijala koji ne otpusta štetne materije i ne utice na hemiju vode, pH vrednost ni tvrdoću. Idealan za kreiranje nautičke tematike u kombinaciji sa brodskim kormilom i piratskim brodom za kompletnu morsku atmosferu. Korali na sidru mogu služiti i kao vizuelni akcenat u akvarijumima gde žive biljke nisu opcija. Lako se čisti blagim ispiranjem pod tekućom vodom tokom redovnog održavanja."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Sidro sa koralima | Oprema - NS Reptiles",
+    "description": "Sidro sa koralima - dekorativni element za akvarijum sa morskom tematikom. NS Reptiles Novi Sad.",
+    "keywords": "sidro sa koralima, dekoracija za akvarijum, morska tematika, akvarijum dekoracija, NS Reptiles, Novi Sad",
+    "ogTitle": "Sidro sa koralima | NS Reptiles"
+  },
+  "related": [
+    "oprema/dekorativna-lobanja",
+    "oprema/posude-za-reptile",
+    "oprema/cork-bark",
+    "oprema/maple-leaf-stone-1kg"
+  ]
+}

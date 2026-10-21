@@ -1,0 +1,83 @@
+---
+import Base from '../layouts/Base.astro';
+import '../styles/animals.css';
+import { translationsFor } from '../i18n/routes';
+---
+<Base
+  lang="sr"
+  title="404 — Stranica nije pronađena | NS Reptiles"
+  description="Stranica koju tražite je premeštena, obrisana ili nikad nije postojala. Pratite linkove ka početnoj, životinjama, terarijumima ili kontaktu."
+  path="/404.html"
+  image="/style/img/logo.jpg"
+  noindex
+  translations={translationsFor("/404.html")}
+  langLinks={{ ...{"en":"/en/","ru":"/ru/"}, ...translationsFor("/404.html") }}
+>
+<main>
+      <section class="error-section">
+        <div class="wrap">
+          <div class="error-code reveal">404</div>
+          <div class="error-divider reveal"></div>
+          <h1 class="error-title reveal">Stranica nije pronađena</h1>
+          <p class="error-desc reveal">
+            Stranica koju tražite je premeštena, obrisana ili nikad nije
+            postojala. Koristite linkove ispod da pronađete ono što vam
+            treba.
+          </p>
+          <div class="error-btns reveal">
+            <a href="/" class="btn btn-primary">Početna</a>
+            <a href="/zivotinje.html" class="btn btn-primary">Životinje</a>
+            <a href="/terarijumi.html" class="btn btn-primary">Terarijumi</a>
+            <a href="/kontakt.html" class="btn btn-primary">Kontakt</a>
+          </div>
+        </div>
+      </section>
+    </main>
+<style is:global>
+      .error-section {
+        padding: 100px 0 110px;
+        text-align: center;
+      }
+      .error-code {
+        font-family: 'Oswald', sans-serif;
+        font-size: clamp(7rem, 20vw, 14rem);
+        font-weight: 700;
+        line-height: 1;
+        color: var(--green);
+        letter-spacing: -0.02em;
+        margin-bottom: 0.1em;
+      }
+      .error-title {
+        font-family: 'Oswald', sans-serif;
+        font-size: clamp(1.6rem, 4vw, 2.4rem);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: var(--ink);
+        margin-bottom: 1rem;
+      }
+      .error-desc {
+        font-family: 'Jost', sans-serif;
+        font-weight: 300;
+        font-size: 1.05rem;
+        line-height: 1.7;
+        color: var(--ink-soft);
+        max-width: 480px;
+        margin: 0 auto 2.5rem;
+      }
+      .error-btns {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        justify-content: center;
+      }
+      .error-divider {
+        width: 50px;
+        height: 3px;
+        background: var(--green);
+        margin: 0 auto 2rem;
+        border-radius: 2px;
+      }
+    </style>
+
+</Base>

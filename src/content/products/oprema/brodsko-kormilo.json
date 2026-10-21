@@ -1,0 +1,55 @@
+{
+  "name": "Brodsko kormilo",
+  "label": "Dekoracija",
+  "lead": "Brodsko kormilo - dekorativni element koji unosi morsku tematiku u vaš akvarijum.",
+  "image": "/style/img/oprema/dekoracija/brodsko-kormilo.png",
+  "imageAlt": "Brodsko kormilo - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - brodsko kormilo"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    },
+    {
+      "k": "Tematika",
+      "v": "Morska"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Brodsko kormilo je dekorativni element koji unosi morsku tematiku u vaš akvarijum. Detaljno izrađen dekor koji deluje autentično i prirodno u morskim i slatkovodnim akvarijumima. Pogodan za sve veličine akvarijuma, lako se čisti i održava."
+    },
+    {
+      "type": "p",
+      "html": "Može se kombinovati sa drugim morskim dekoracijama poput sidra, piratskog broda i koralja za kompletnu podvodnu kompoziciju. Bezbedan za ribe i ostale vodene organizme."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Brodsko kormilo | Dekoracija za Akvarijum - NS Reptiles",
+    "description": "Brodsko kormilo - dekorativni element za akvarijum sa morskom tematikom. Kvalitetna dekoracija za NS Reptiles Novi Sad.",
+    "keywords": "brodsko kormilo, dekoracija akvarijum, morska tematika, NS Reptiles",
+    "ogTitle": "Brodsko kormilo | NS Reptiles"
+  },
+  "related": [
+    "oprema/dekorativna-lobanja",
+    "oprema/dragon-stone-1kg",
+    "oprema/folija-grejac"
+  ]
+}

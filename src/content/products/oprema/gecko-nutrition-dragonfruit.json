@@ -1,0 +1,70 @@
+{
+  "name": "Gecko Nutrition Dragonfruit",
+  "label": "Hrana",
+  "lead": "Kompletna praškasta ishrana za gekone sa egzotičnim zmajevim voćem (dragonfruit) i bananom. Sadrži proteinsku mešavinu larvi crnog vojničkog muvca, brašnara i cvrčaka (11%), zmajevo voće (10%) i bananu (28%). Bogata antioksidantima i vitaminom C. Obogaćena esencijalnim vitaminima i mineralima. Meša se sa vodom u odnosu 1:2. Sirovi protein: 26%, kalcijum: 2%. Proizvedeno u Nemačkoj.",
+  "image": "/style/img/oprema/gecko-nutrition-dragonfruit.webp",
+  "imageAlt": "Gecko Nutrition Dragonfruit - hrana za gekone - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "Gecko Nutrition"
+    },
+    {
+      "k": "Tip",
+      "v": "Kompletna ishrana"
+    },
+    {
+      "k": "Težina",
+      "v": "50g"
+    },
+    {
+      "k": "Namena",
+      "v": "Gekoni"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Opis"
+    },
+    {
+      "type": "p",
+      "html": "Gecko Nutrition Dragonfruit je kompletna praškasta ishrana nemačke proizvodnje, specijalno formulisana za crested gekone (Correlophus ciliatus) i druge voćojede reptile. Ova varijanta kombinuje egzotično zmajevo voće (dragonfruit) sa bananom, pružajući jedinstven tropski ukus koji gekoni obožavaju. Osnovu hrane čini visokokvalitetna proteinska mešavina sastavljena od larvi crnog vojničkog muvca (Hermetia illucens), brašnara i cvrčaka, koja čini 11% ukupnog sastava. Zmajevo voće (10%) je bogato antioksidantima i vitaminom C, dok banana (28%) obezbeđuje prirodne šećere i kalijum za energiju. Hrana je obogaćena esencijalnim vitaminima (A, D3, E, B-kompleks) i mineralima neophodnim za zdrav rast, razvoj kostiju i reprodukciju. Sirovi protein iznosi 26%, a sadržaj kalcijuma je 2%, što obezbeđuje optimalan odnos kalcijuma i fosfora."
+    },
+    {
+      "type": "h2",
+      "text": "Priprema i hranjenje"
+    },
+    {
+      "type": "p",
+      "html": "Priprema je jednostavna - pomešajte jedan deo praška sa dva dela vode (odnos 1:2) dok ne dobijete glatku, kremasti konzistenciju nalik na puding. Pripremljenu hranu stavite u plitku posudu ili na hranidbenu stanicu u terarijumu u večernjim satima, jer su gekoni noćno aktivni. Hranite 2-3 večeri nedeljno, a ostatak hrane uklonite nakon 24 sata da biste sprečili kvarenje. Pored ove kompletne ishrane, povremeno možete ponuditi i žive insekte kao dodatak. Suvim, neotvorenim prahom čuvajte na suvom i hladnom mestu."
+    },
+    {
+      "type": "h2",
+      "text": "Pogodno za"
+    },
+    {
+      "type": "p",
+      "html": "Crested gekone i druge voćojede reptile."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Poručite pozivom ili WhatsApp porukom. Dostava na adresu u bilo kom gradu Srbije. Iz Novog Sada - preuzimanje u radionici. Pišite nam za pomoć pri izboru opreme za vaš terarijum ili akvarijum."
+    }
+  ],
+  "seo": {
+    "title": "Gecko Nutrition Dragonfruit | Hrana za Gekone - NS REPTILES",
+    "description": "Gecko Nutrition Dragonfruit - kompletna praškasta ishrana za gekone sa zmajevim voćem i bananom. 50g. NS Reptiles Novi Sad, dostava širom Srbije.",
+    "keywords": "gecko nutrition dragonfruit, hrana za gekone, ishrana za crested gekone, gecko nutrition, praškasta hrana za reptile, NS Reptiles, Novi Sad, Srbija",
+    "ogDescription": "Kompletna praškasta ishrana za gekone sa zmajevim voćem (dragonfruit) i bananom. 50g. NS Reptiles Novi Sad, dostava širom Srbije."
+  },
+  "related": [
+    "oprema/gecko-nutrition-mango",
+    "oprema/gecko-nutrition-wild-berry"
+  ]
+}

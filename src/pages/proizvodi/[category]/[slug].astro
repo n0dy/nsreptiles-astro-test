@@ -1,0 +1,125 @@
+---
+import Base from '../../../layouts/Base.astro';
+import '../../../styles/oprema.css';
+import '../../../styles/proizvod.css';
+import Icon from '../../../components/Icon.astro';
+import ProductCard from '../../../components/ProductCard.astro';
+import { SITE, whatsappLink } from '../../../config/site';
+import { HOME } from '../../../i18n/ui';
+import {
+  getProducts, relatedFor, priceLabel, productSchema, productPath, categoryOf, CATEGORIES, type Product,
+} from '../../../lib/products';
+
+export async function getStaticPaths() {
+  const all = await getProducts();
+  return all.map((product) => {
+    const [category, slug] = product.id.split('/');
+    return { params: { category, slug }, props: { product, related: relatedFor(product, all) } };
+  });
+}
+
+interface Props {
+  product: Product;
+  related: Product[];
+}
+const { product, related } = Astro.props;
+const d = product.data;
+const cat = CATEGORIES[categoryOf(product)];
+const path = productPath(product);
+const cardLabel = cat.schema.replace(/i$/, '');
+
+const breadcrumb = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Početna', item: SITE.url + '/' },
+    { '@type': 'ListItem', position: 2, name: cat.crumb, item: SITE.url + cat.listing },
+    { '@type': 'ListItem', position: 3, name: d.name },
+  ],
+};
+// jezicki meni vodi na listing kategorije na tom jeziku dok proizvodi nemaju prevod
+const LISTING_EN = { terarijumi: '/en/terrariums.html', akvarijumi: '/en/aquariums.html', oprema: '/en/equipment.html' } as const;
+const LISTING_RU = { terarijumi: '/ru/terrariums.html', akvarijumi: '/ru/aquariums.html', oprema: '/ru/equipment.html' } as const;
+const c = categoryOf(product);
+---
+<Base
+  lang="sr"
+  title={d.seo.title}
+  description={d.seo.description}
+  keywords={d.seo.keywords}
+  path={path}
+  image={d.image}
+  ogType="product"
+  ogTitle={d.seo.ogTitle}
+  ogDescription={d.seo.ogDescription}
+  schema={[productSchema(product), breadcrumb]}
+  langLinks={{ sr: path, en: LISTING_EN[c] ?? HOME.en, ru: LISTING_RU[c] ?? HOME.ru }}
+>
+  <section class="pd">
+    <div class="wrap">
+      <nav class="pd-breadcrumb" aria-label="Putanja">
+        <a href="/">Početna</a>
+        <span class="sep" aria-hidden="true">›</span>
+        <a href={cat.listing}>{cat.crumb}</a>
+        <span class="sep" aria-hidden="true">›</span>
+        <span class="cur" aria-current="page">{d.name}</span>
+      </nav>
+      <div class="pd-main">
+        <div class="pd-media reveal">
+          <img src={d.image} alt={d.imageAlt} width="600" height="600" fetchpriority="high" />
+        </div>
+        <div class="pd-info reveal">
+          <div class="pd-cat">{d.label}</div>
+          <h1>{d.name}</h1>
+          <p class="pd-lead" set:html={d.lead} />
+          <div class="pd-specs">
+            <h2>Specifikacije</h2>
+            <div class="pd-specs-grid">
+              {d.specs.map((s) => (
+                <div class="pd-spec"><span class="pd-spec-k">{s.k}</span><span class="pd-spec-v">{s.v}</span></div>
+              ))}
+            </div>
+          </div>
+          <div class="pd-price">
+            <span class="pd-price-k">Cena</span>
+            <span class="pd-price-v">{priceLabel(product)}</span>
+          </div>
+          <div class="pd-cta">
+            <a href={`tel:${SITE.phone}`} class="btn btn-outline" onclick="gtag('event', 'kontakt_click', {'metod': 'telefon'})">
+              <Icon name="phone" />
+              Pozovite nas
+            </a>
+            <a href={whatsappLink(`Zdravo, zanima me ${d.name}.`)} target="_blank" rel="noopener" class="btn btn-outline" onclick="gtag('event', 'kontakt_click', {'metod': 'whatsapp'})">
+              <Icon name="whatsapp" />
+              WhatsApp
+            </a>
+            <button class="btn btn-primary add-cart" data-name={d.name} data-price={d.price} data-img={d.image}>
+              Dodaj u korpu
+            </button>
+          </div>
+          <div class="pd-desc">
+            {d.description.map((b) =>
+              b.type === 'h2' ? <h2>{b.text}</h2>
+              : b.type === 'p' ? <p set:html={b.html} />
+              : <ul>{b.items.map((i) => <li set:html={i} />)}</ul>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {related.length > 0 && (
+    <section class="pd-related section">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <div class="eyebrow">{cat.related}</div>
+          <h2 class="sec-title">Moglo bi vam se svideti</h2>
+        </div>
+        <div class="op-grid">
+          {related.map((r) => <ProductCard product={r} catLabel={r.data.label} />)}
+        </div>
+      </div>
+    </section>
+  )}
+</Base>

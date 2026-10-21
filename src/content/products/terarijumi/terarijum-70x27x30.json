@@ -1,0 +1,81 @@
+{
+  "name": "Terarijum 70x27x30",
+  "label": "Veliki terarijum",
+  "lead": "Stakleni terarijum dimenzija 70x27x30cm. Zapremina 56.7 litara, horizontalni format. Ručna izrada u Novom Sadu.",
+  "image": "/style/img/terrariums/70x27x30.webp",
+  "imageAlt": "Stakleni terarijum 70x27x30cm - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Dužina",
+      "v": "70 cm"
+    },
+    {
+      "k": "Širina",
+      "v": "27 cm"
+    },
+    {
+      "k": "Visina",
+      "v": "30 cm"
+    },
+    {
+      "k": "Zapremina",
+      "v": "~56.7 L"
+    },
+    {
+      "k": "Materijal",
+      "v": "Staklo"
+    },
+    {
+      "k": "Tip",
+      "v": "Horizontalni"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Stakleni terarijum dimenzija 70x27x30cm zapremine 56.7 litara izrađen je od stakla odgovarajuće debljine za ovu veličinu. Spoljašnje stranice obložene su dekorativnom folijom koja se bira pri naručivanju - drvo, bambus, mermer, crna ili bela."
+    },
+    {
+      "type": "p",
+      "html": "Horizontalna orijentacija sa 70cm dužine pruža podnu površinu na kojoj se lako organizuju grejni deo, hladni deo i zona za skrivanje. Termoregulacija reptila zavisi od mogućnosti kretanja između toplih i hladnih zona unutar terarijuma. Ventilacioni sistem dizajniran je za konstantan protok vazduha koji sprečava pregrevanje i zadržavanje vlage."
+    },
+    {
+      "type": "h2",
+      "text": "Pogodan za"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Bradate agame (odrasle)",
+        "Loptasti pitoni",
+        "Kornjače (kopnene)",
+        "Kukuruzni smukovi (odrasli)"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Izrada po meri"
+    },
+    {
+      "type": "p",
+      "html": "Nudimo potpunu prilagodljivost: birate foliju, pozadinu, ventilaciju, i opciono LED osvetljenje ili termostat. Ako ovaj model ne odgovara vašem prostoru, izrađujemo terarijume u bilo kojim dimenzijama. Pozovite za ponudu."
+    }
+  ],
+  "seo": {
+    "title": "Terarijum 70x27x30 | Terarijum - NS Reptiles",
+    "description": "Terarijum 70x27x30 - stakleni terarijum 70x27x30cm. Ručna izrada, dostava širom Srbije. NS Reptiles Novi Sad.",
+    "keywords": "terarijum 70x27x30, terarijum 70x27x30cm, terarijum prodaja, terarijum Novi Sad, NS Reptiles",
+    "ogTitle": "Terarijum 70x27x30 | NS Reptiles"
+  },
+  "related": [
+    "terarijumi/ter-akvarijum-60x35x45x30",
+    "terarijumi/terarijum-45x35x80",
+    "terarijumi/terarijum-70x40x35",
+    "terarijumi/terarijum-70x45x70"
+  ]
+}

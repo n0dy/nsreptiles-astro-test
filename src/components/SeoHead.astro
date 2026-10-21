@@ -1,0 +1,53 @@
+---
+import { SITE, IS_INDEXABLE, type Locale } from '../config/site';
+
+export interface SeoProps {
+  title: string;
+  description: string;
+  keywords?: string;
+  /** putanja od korena, npr. "/terarijumi.html" */
+  path: string;
+  /** samo prave prevodne verzije iste strane - koristi se za hreflang */
+  translations?: Partial<Record<Locale, string>>;
+  image?: string;
+  ogType?: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  schema?: object[];
+  noindex?: boolean;
+}
+type Props = SeoProps & { lang: Locale };
+
+const {
+  lang, title, description, keywords, path, translations = {},
+  image = '/style/img/cover.webp', ogType = 'website', ogTitle, ogDescription,
+  schema = [], noindex = false,
+} = Astro.props;
+
+const abs = (p: string) => (p.startsWith('http') ? p : SITE.url + p);
+const canonical = abs(path);
+const ogImage = abs(image);
+const OG_LOCALE: Record<Locale, string> = { sr: 'sr_RS', en: 'en_US', ru: 'ru_RU' };
+const alternates = Object.entries(translations) as [Locale, string][];
+const robots = noindex || !IS_INDEXABLE ? 'noindex, follow' : 'index, follow, max-image-preview:large';
+---
+<title>{title}</title>
+<meta name="description" content={description} />
+{keywords && <meta name="keywords" content={keywords} />}
+<meta name="robots" content={robots} />
+<link rel="canonical" href={canonical} />
+{alternates.length > 1 && alternates.map(([l, p]) => <link rel="alternate" hreflang={l} href={abs(p)} />)}
+{alternates.length > 1 && translations.sr && <link rel="alternate" hreflang="x-default" href={abs(translations.sr)} />}
+<meta property="og:type" content={ogType} />
+<meta property="og:site_name" content={SITE.name} />
+<meta property="og:locale" content={OG_LOCALE[lang]} />
+{alternates.filter(([l]) => l !== lang).map(([l]) => <meta property="og:locale:alternate" content={OG_LOCALE[l]} />)}
+<meta property="og:title" content={ogTitle ?? title} />
+<meta property="og:description" content={ogDescription ?? description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={ogImage} />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={ogTitle ?? title} />
+<meta name="twitter:description" content={ogDescription ?? description} />
+<meta name="twitter:image" content={ogImage} />
+{schema.map((s) => <script type="application/ld+json" set:html={JSON.stringify(s)} />)}

@@ -1,0 +1,65 @@
+{
+  "name": "Akvarijum 100x40x50",
+  "label": "Veliki akvarijum",
+  "lead": "Stakleni akvarijum dimenzija 100x40x50cm. Zapremina 200.0 litara. Ručna izrada u Novom Sadu.",
+  "image": "/style/img/aquariums/a100x40x50.webp",
+  "imageAlt": "Akvarijum 100x40x50 - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Dužina",
+      "v": "100 cm"
+    },
+    {
+      "k": "Širina",
+      "v": "40 cm"
+    },
+    {
+      "k": "Visina",
+      "v": "50 cm"
+    },
+    {
+      "k": "Zapremina",
+      "v": "~200.0 L"
+    },
+    {
+      "k": "Materijal",
+      "v": "Staklo"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Sa 200 litara zapremine, ovaj akvarijum (100x40x50cm) dozvoljava slobodu u akvaskejpingu - veće korenje, više biljaka, krupniji kamen i veći broj riba. Staklo odgovarajuće debljine obezbeđuje sigurnost pri većem vodenom pritisku."
+    },
+    {
+      "type": "p",
+      "html": "Prostrane dimenzije dozvoljavaju ambiciozne akvaskejp projekte sa velikim korenjem, grupama biljaka i kamenim formacijama. Spoljni filter sa dovoljnim protokom ključan je za kvalitet vode u ovoj zapremini."
+    },
+    {
+      "type": "h2",
+      "text": "Izrada po meri"
+    },
+    {
+      "type": "p",
+      "html": "Radimo akvarijume po meri - bilo koje dimenzije, debljina stakla prema zapremini, opcioni otvori za filtere i grejače. Pozovite nas ili pišite na WhatsApp za konsultacije i cenu. Dostava u sve gradove Srbije."
+    }
+  ],
+  "seo": {
+    "title": "Akvarijum 100x40x50 | Akvarijum - NS Reptiles",
+    "description": "Akvarijum 100x40x50 - stakleni akvarijum 100x40x50cm. Ručna izrada, dostava širom Srbije. NS Reptiles Novi Sad.",
+    "keywords": "akvarijum 100x40x50, akvarijum 100x40x50cm, akvarijum prodaja, akvarijum Novi Sad, NS Reptiles",
+    "ogTitle": "Akvarijum 100x40x50 | NS Reptiles",
+    "ogDescription": "Stakleni akvarijum 100x40x50cm, zapremina 200 litara. Ručna izrada u Novom Sadu."
+  },
+  "related": [
+    "akvarijumi/akvarijum-80x45x50",
+    "akvarijumi/akvarijum-90x30x70",
+    "akvarijumi/akvarijum-120x30x60",
+    "akvarijumi/akvarijum-120x40x40"
+  ]
+}

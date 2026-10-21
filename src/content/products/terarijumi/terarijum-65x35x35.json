@@ -1,0 +1,81 @@
+{
+  "name": "Terarijum 65x35x35",
+  "label": "Srednji terarijum",
+  "lead": "Stakleni terarijum dimenzija 65x35x35cm. Zapremina 79.6 litara, horizontalni format. Ručna izrada u Novom Sadu.",
+  "image": "/style/img/terrariums/t-65x35x35-bele-plocice-web.webp",
+  "imageAlt": "Stakleni terarijum 65x35x35cm - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Dužina",
+      "v": "65 cm"
+    },
+    {
+      "k": "Širina",
+      "v": "35 cm"
+    },
+    {
+      "k": "Visina",
+      "v": "35 cm"
+    },
+    {
+      "k": "Zapremina",
+      "v": "~79.6 L"
+    },
+    {
+      "k": "Materijal",
+      "v": "Staklo"
+    },
+    {
+      "k": "Tip",
+      "v": "Horizontalni"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Sa dimenzijama 65x35x35cm i zapreminom od 79.6 litara, ovaj terarijum nudi čist stakleni prostor obložen dekorativnom folijom spolja. Folija je funkcionalna - sprečava životinje da vide svoj odraz i smanjuje stres, a estetski uklapa terarijum u vaš prostor."
+    },
+    {
+      "type": "p",
+      "html": "Dužina od 65cm i širina od 35cm daju veliku podnu površinu za kopnene vrste koje se kreću po tlu. Podna površina dozvoljava jasno razdvajanje grejne zone pod spot lampom od hladnijeg područja za odmor. Otvori za ventilaciju postavljeni su tako da stvaraju prirodno strujanje vazduha od dna ka vrhu, čime se održava optimalna vlažnost."
+    },
+    {
+      "type": "h2",
+      "text": "Pogodan za"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Bradate agame",
+        "Loptasti pitoni",
+        "Kopnene kornjače",
+        "Plavi jezičasti skink"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Izrada po meri"
+    },
+    {
+      "type": "p",
+      "html": "Svaki naš terarijum ručno je izrađen, pa možete birati dimenzije, boju folije, tip ventilacije i stil 3D pozadine. Radimo i potpuno prilagođene modele prema vašim potrebama - kontaktirajte nas za konsultacije. Dostava na teritoriji cele Srbije."
+    }
+  ],
+  "seo": {
+    "title": "Terarijum 65x35x35 | Terarijum - NS Reptiles",
+    "description": "Terarijum 65x35x35 - stakleni terarijum 65x35x35cm. Ručna izrada, dostava širom Srbije. NS Reptiles Novi Sad.",
+    "keywords": "terarijum 65x35x35, terarijum 65x35x35cm, terarijum prodaja, terarijum Novi Sad, NS Reptiles",
+    "ogTitle": "Terarijum 65x35x35 | NS Reptiles"
+  },
+  "related": [
+    "terarijumi/terarijum-60x45x50",
+    "terarijumi/terarijum-65x40x40",
+    "terarijumi/ter-akvarijum-60x35x45x30",
+    "terarijumi/terarijum-45x35x80"
+  ]
+}

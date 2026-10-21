@@ -1,0 +1,52 @@
+{
+  "name": "Šumski duh",
+  "label": "Dekoracija",
+  "lead": "Šumski duh - dekorativan panj za terarijum koji služi kao ukras i skrovište.",
+  "image": "/style/img/oprema/dekoracija/sumski-duh.png",
+  "imageAlt": "Šumski duh - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - panj"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras i skrovište"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Šumski duh je dekorativan panj za terarijum koji kombinuje mističan izgled sa funkcionalnom ulogom skrovišta. Oblikovan da podseća na stari šumski panj sa licem duha, ovaj komad dekoracije unosi karakter i priču u vaš terarijum. Šuplja unutrašnjost pruža skrovište za reptile, što je ključno za smanjenje stresa - životinja koja ima pristup skrovištu biće mirnija, zdravija i pokazivace prirodnije ponašanje. Izrađen je od materijala bezbednog za upotrebu u terarijumima. Pogodan je za sve tipove terarijuma - od tropskih vlažnih do suvih pustinjskih. Lako se čisti brisanjem vlažnom krpom. Može se kombinovati sa živim ili veštačkim biljkama za još prirodniji izgled."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Naručivanje putem telefona ili WhatsApp-a. Šaljemo kurirskom službom širom Srbije. Kupci iz Novog Sada mogu preuzeti robu lično."
+    }
+  ],
+  "seo": {
+    "title": "Šumski duh - dekorativni panj | Oprema - NS Reptiles",
+    "description": "Šumski duh - dekorativan panj za terarijum koji služi kao ukras i skrovište. NS Reptiles Novi Sad.",
+    "keywords": "šumski duh, dekorativni panj, skrovište za terarijum, dekoracija terarijuma, NS Reptiles, Novi Sad",
+    "ogTitle": "Šumski duh - dekorativni panj | NS Reptiles"
+  },
+  "related": [
+    "oprema/dekorativna-lobanja",
+    "oprema/posude-za-reptile",
+    "oprema/cork-bark",
+    "oprema/maple-leaf-stone-1kg"
+  ]
+}

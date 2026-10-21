@@ -1,0 +1,542 @@
+---
+import Base from '../../layouts/Base.astro';
+import '../../styles/animals.css';
+import '../../styles/usluge.css';
+import { translationsFor } from '../../i18n/routes';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Terarijum za kornjacu — vodic za uredjenje ter-akvarijuma",
+    "description": "Detaljan vodic za postavljanje ter-akvarijuma za kornjacu: dimenzije, oprema, filter, UVB lampa i ceste greske.",
+    "author": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "url": "https://nsreptiles.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nsreptiles.net/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://nsreptiles.net/terarijumi/terarijum-za-kornjacu.html"
+    },
+    "image": "https://nsreptiles.net/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Pocetna",
+        "item": "https://nsreptiles.net/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Terarijumi",
+        "item": "https://nsreptiles.net/terarijumi.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Terarijum za kornjacu",
+        "item": "https://nsreptiles.net/terarijumi/terarijum-za-kornjacu.html"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Sta je ter-akvarijum za kornjacu?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ter-akvarijum je kombinacija terarijuma i akvarijuma koja ima i kopneni i vodeni deo, idealno za vodene i poluvodene kornjace. Kopneni deo sluzi za basenje, odmor i basenje pod lampom, a vodeni deo za plivanje i hidrataciju."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Koliko velik treba da bude ter-akvarijum za kornjacu?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Minimalna preporuka za mlade primerke je 50x35 cm osnovice, a za odrasle primerke 80x45 cm ili vise. Vodeni deo treba da pokriva 50-60% ukupne povrsine. Sto je ter-akvarijum veci, lakse je odrzavati stabilne uslove."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Da li izradjujete ter-akvarijume po meri?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Da, ter-akvarijume izradjujemo po meri. Mozete odabrati velichinu, boju, odnos kopna i vode, kao i dodatnu opremu. Kontaktirajte nas za ponudu."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Koji filter je dobar za ter-akvarijum?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Za ter-akvarijum je najpraktichni interni ili spoljni filter dovoljnog kapaciteta. Kornjace proizvode vise otpada od riba, pa je preporuka filter snaznosti 3-4 puta veceg od zapremine vode. Redovno odrzavanje filtera je obavezno."
+        }
+      }
+    ]
+  }
+];
+---
+<Base
+  lang="sr"
+  title="Terarijum za kornjacu — vodic i saveti | NS Reptiles"
+  description="Vodic za ter-akvarijum za kornjacu: dimenzije, oprema, filter, UVB i uredjenje. Sve sto treba znati pre kupovine — NS Reptiles, Novi Sad."
+  path="/terarijumi/terarijum-za-kornjacu.html"
+  image="/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp"
+  ogType="article"
+  ogTitle="Terarijum za kornjacu — vodic za uredjenje | NS Reptiles"
+  ogDescription="Sve o ter-akvarijumu za kornjaču: veličina, oprema, filter, UVB lampa i česte greške. NS Reptiles, Novi Sad."
+  translations={translationsFor("/terarijumi/terarijum-za-kornjacu.html")}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Vodici</div>
+        <h1>Terarijum za kornjacu</h1>
+        <p>
+          Ter-akvarijum — stakleni dom sa kopnenim i vodenim delom — jedini je pravi
+          izbor za poluvodene kornjace. U ovom vodicu prolazimo kroz dimenzije,
+          opremu i uredjenje korak po korak.
+        </p>
+      </div>
+    </section>
+<nav class="breadcrumb" aria-label="Navigacioni put">
+      <div class="wrap">
+        <ol>
+          <li><a href="/">Pocetna</a></li>
+          <li><a href="/terarijumi.html">Terarijumi</a></li>
+          <li aria-current="page">Terarijum za kornjacu</li>
+        </ol>
+      </div>
+    </nav>
+<section class="animal-hero reveal">
+      <div class="wrap">
+        <img src="/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp" alt="Ter-akvarijum za kornjacu sa kopnenim i vodenim delom — NS Reptiles" width="1080" height="1080" loading="eager" fetchpriority="high" class="animal-hero-img">
+      </div>
+    </section>
+<section class="usl">
+      <div class="wrap">
+        <div class="eyebrow reveal">Osnove</div>
+        <h2 class="sec-title reveal">Sta je ter-akvarijum</h2>
+
+        <div class="animal-detail-grid">
+
+          <div class="animal-fact reveal">
+            <h3>Kopneni i vodeni deo</h3>
+            <p>
+              Ter-akvarijum je staklena konstrukcija koja u jednom prostoru spaja
+              kopneni i vodeni deo. Kornjace koriste vodeni deo za plivanje i
+              hidrataciju, a kopneni za odmor, basenje pod grejnom lampom i
+              polaganje jaja. Bez jednog od dva dela, uslovi drzanja ne odgovaraju
+              prirodnom nacinu zivota ovih zivotinja.
+            </p>
+          </div>
+
+          <div class="animal-fact reveal">
+            <h3>Za koje vrste je namenjen</h3>
+            <p>
+              Ter-akvarijum je pravo resenje za poluvodene kornjace koje provode
+              znacajan deo vremena u vodi. Kopnene kornjace, koje zive na suvom
+              terenu i jedu biljke, ne trebaju vodeni deo — njima odgovara klasican
+              terarijum sa substratom i grejanjem odozdo. Ako niste sigurni koja vrsta
+              vam odgovara, slobodno nas kontaktirajte.
+            </p>
+          </div>
+
+          <div class="animal-fact reveal">
+            <h3>Izrada po meri</h3>
+            <p>
+              Svaki ter-akvarijum u NS Reptiles izradjujemo od stakla, rucno, po
+              vasim merama i zeljama. Mozete odabrati dimenzije, boju obloge, odnos
+              kopna i vode, kao i kompletnu opremu. Terarijume izradjujemo po meri
+              — boju, velicinu i opremu birate sami. Pogledajte nasu
+              <a href="/izrada-terarijuma.html">stranicu za izradu terarijuma po meri</a>
+              ili nas kontaktirajte direktno.
+            </p>
+          </div>
+
+          <div class="animal-fact reveal">
+            <h3>Gotovi modeli iz ponude</h3>
+            <p>
+              Pored izrade po meri, nudimo i gotove ter-akvarijume u standardnim
+              dimenzijama — od 50x35 cm pa do 100x45 cm osnovice. Svi modeli su
+              izradjeni od stakla sa dekorativnom folijom po izboru. Kompletnu ponudu
+              mozete pogledati na
+              <a href="/terarijumi.html">stranici terarijuma</a>.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+<section class="usl" style="background: var(--bg);">
+      <div class="wrap">
+        <div class="eyebrow reveal">Dimenzije</div>
+        <h2 class="sec-title reveal">Koliko velik treba da bude ter-akvarijum</h2>
+
+        <div class="proc">
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Minimalne dimenzije</h3>
+              <p>
+                Za mlade primerke minimalna osnova je 50x35 cm, ali treba imati na
+                umu da kornjace rastu. Odrasli primerci zahtevaju 80x45 cm ili vise.
+                Preporuka je da odmah kupite ter-akvarijum za odraslu velicinu —
+                tako ne morate da menjate opremu kako zivotinja raste.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Odnos kopna i vode</h3>
+              <p>
+                Vodeni deo treba da pokriva 50 do 60% ukupne povrsine ter-akvarijuma.
+                Kopneni deo sluzi za odmor i basenje pod lampom, pa mora biti
+                dovoljno prostran da zivotinja moze slobodno da legne. Visina vode
+                treba da bude dovoljna da kornjaca moze okrenuti ledjima bez
+                poteskoca — obicno dva puta veca od sirine oklopa.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Visina ter-akvarijuma</h3>
+              <p>
+                Visina nije kriticna kao kod terarijuma za penjace, ali mora biti
+                dovoljna za ispravno postavljanje lampe na bezbednoj visini iznad
+                kopnenog dela. Preporuka je minimum 40 cm visine za standardne modele.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+<section class="usl">
+      <div class="wrap">
+        <div class="eyebrow reveal">Oprema</div>
+        <h2 class="sec-title reveal">Neophodna oprema</h2>
+
+        <div class="proc">
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Filter za vodu</h3>
+              <p>
+                Filter je obavezan i mora biti dovoljno snazan. Kornjace proizvode
+                znacajno vise otpada od riba, pa je preporuka odabrati filter
+                kapaciteta tri do cetiri puta veceg od stvarne zapremine vode.
+                Interni filteri su prakticni za manje ter-akvarijume, spoljni filteri
+                su bolji izbor za vece modele. Pranje sundjera filtera vrsi se jednom
+                nedeljno.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>UVB lampa</h3>
+              <p>
+                UVB osvetljenje je neophodno — bez njega kornjaca ne moze da sintetise
+                vitamin D3 koji je neophodan za apsorpciju kalcijuma. Preporucuje se
+                lampa sa 5 do 10% UVB indeksom, postavljena iznad kopnenog dela.
+                Lampa se menja na svako 12 meseci jer UVB emisija opada i pre nego
+                sto lampa prestane da svetli.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Grejna lampa</h3>
+              <p>
+                Iznad kopnenog dela postavlja se grejna lampa koja stvara toplu zonu
+                za basenje. Temperatura u toploj zoni treba da bude 30 do 35 stepeni.
+                Ostali deo ter-akvarijuma treba da bude hladniji, oko 22 do 26 stepeni,
+                kako bi zivotinja mogla da regulise telesnu temperaturu.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Grejatica za vodu</h3>
+              <p>
+                Temperatura vode treba da bude izmedju 22 i 26 stepeni. Aquarium
+                grejatica sa termostatom odrzava stabilnu temperaturu i sprecava
+                nagle promene koje mogu negativno uticati na zdravlje kornjace. Postavlja
+                se u vodeni deo, dosagle od mesta gde kornjaca cesto boravi.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Rampa i kopno</h3>
+              <p>
+                Rampa ili polica koja omogucava nesmetano izlazenje iz vode na
+                kopneni deo je obavezna. Mora biti stabilna i sa hrapavom povrsinom
+                da kornjaca ne klizi. Kopneni deo moze biti ispunjen peskovitim
+                substratom ili ostavljen kao staklo prekriveno plocicama —
+                bira se prema preferencijama vlasnika i vrsti kornjace.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+<section class="usl" style="background: var(--bg);">
+      <div class="wrap">
+        <div class="eyebrow reveal">Uredjenje</div>
+        <h2 class="sec-title reveal">Kako urediti ter-akvarijum</h2>
+
+        <div class="animal-detail-grid">
+
+          <div class="animal-fact reveal">
+            <h3>Podloga u vodenom delu</h3>
+            <p>
+              Dno vodenog dela moze biti prazno (staklo) ili pokriveno krupnim
+              sljunkom precnika veceg od oklopa kornjace. Sitni pesak i sljunak treba
+              izbegavati jer postoji rizik od gutanja. Prazno dno olaksava ciscenje
+              i smanjuje nakupljanje otpada.
+            </p>
+          </div>
+
+          <div class="animal-fact reveal">
+            <h3>Dekoracije</h3>
+            <p>
+              Vodeni deo mozete urediti kamenim dekoracijama i lavanim stenama koje
+              su bezbedne za zivotinje. Plasticne biljke dodaju estetiku i skrovista.
+              Zive vodene biljke su moguce, ali ce ih kornjace cesto pojesti ili
+              iskopati. Sve dekoracije moraju biti stabilne — kornjace su snazne
+              i prevrcu sve sto nije dobro osigurano.
+            </p>
+          </div>
+
+          <div class="animal-fact reveal">
+            <h3>3D pozadina</h3>
+            <p>
+              Stiroporska ili kamena 3D pozadina daje ter-akvarijumu naturalisti
+              izgled i sluzi kao dodatna povrsina za penjanje i odmor. U NS Reptiles
+              nudimo vise vrsta 3D pozadina — od klasicnih kamenih dezena do
+              dekorativnih modela. Pozadina se lepi pre punjena vodom.
+            </p>
+          </div>
+
+          <div class="animal-fact reveal">
+            <h3>Osvjetljenje prostora</h3>
+            <p>
+              Pored UVB i grejne lampe, mozete dodati i dekorativno LED osvjetljenje
+              za bolji vizuelni utisak. LED trake duž ivice poklopca ili iza pozadine
+              daju lepsi izgled bez znacajnog uticaja na temperaturu. Dan/noc ciklus
+              od 12 sati svetla i 12 sati mraka treba odrzavati tokom cele godine.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+<section class="usl">
+      <div class="wrap">
+        <div class="eyebrow reveal">Na sta paziti</div>
+        <h2 class="sec-title reveal">Ceste greske kod postavljanja ter-akvarijuma</h2>
+
+        <div class="proc">
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Premali ter-akvarijum</h3>
+              <p>
+                Najcesca greska je kupovina premale posude "dok kornjaca ne naraste".
+                Nedovoljno prostora dovodi do stresa, agresivnog ponasanja i losijeg
+                zdravlja. Odmah kupite ter-akvarijum odgovarajucih dimenzija za
+                odraslu velicinu vaše vrste.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Nedovoljno snazan filter</h3>
+              <p>
+                Filter ciji je kapacitet jednak zapremini vode nije dovoljan.
+                Kornjace su prljave zivotinje — filter mora biti znatno snaziniji
+                od minimalnog, a voda se mora delimiticno menjati jednom nedeljno
+                bez obzira na vidljivo stanje.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Izostavljanje UVB lampe</h3>
+              <p>
+                Bez UVB osvetljenja kornjaca ce razviti metabolicku bolest kostiju
+                — omeksavanje oklopa, deformitete i ozbiljne zdravstvene probleme.
+                UVB lampa nije opciona stavka vec osnovna oprema. Menja se na svako
+                12 meseci.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Hladna voda bez grejatica</h3>
+              <p>
+                Kornjace su ektotermne zivotinje — temperatura okoline direktno
+                utice na metabolizam, varenje i imunitet. Voda hladnija od 20
+                stepeni usporava metabolizam i povecava rizik od bolesti. Grejatica
+                sa termostatom je jednostavan nacin da se ovo izbegne.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Nestabilna rampa</h3>
+              <p>
+                Rampa koja se pomera ili kljuca destimuise kornjace da izlaze na
+                kopno. Zivotinja koja ne moze da se normalnog basi pod lampom nece
+                primiti dovoljno toplote, sto dugocno utice na zdravlje. Osigurajte
+                da je rampa stabilno pricvrscena.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+<section class="usl" style="background: var(--bg);">
+      <div class="wrap">
+        <div class="eyebrow reveal">Pitanja i odgovori</div>
+        <h2 class="sec-title reveal">Cesta pitanja</h2>
+
+        <div class="proc">
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Sta je ter-akvarijum za kornjacu?</h3>
+              <p>
+                Ter-akvarijum je kombinacija terarijuma i akvarijuma koja u jednoj
+                konstrukciji ima i kopneni i vodeni deo. Idealan je za poluvodene
+                kornjace koje provode vreme i na kopnu i u vodi.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Da li izradjujete ter-akvarijume po meri?</h3>
+              <p>
+                Da, ter-akvarijume izradjujemo po meri — mozete odabrati velicinu,
+                boju obloge, odnos kopna i vode, kao i dodatnu opremu.
+                Kontaktirajte nas za ponudu ili posetite
+                <a href="/izrada-terarijuma.html">stranicu za izradu terarijuma po meri</a>.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Koji filter koristiti za ter-akvarijum?</h3>
+              <p>
+                Preporuka je filter ciji je kapacitet tri do cetiri puta veci od
+                zapremine vode. Interni filteri su pogodni za manje modele, spoljni
+                filteri za modele 80x45 cm i vece. Redovna zamena dela vode je
+                obavezna bez obzira na tip filtera.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Da li kopnene kornjace trebaju ter-akvarijum?</h3>
+              <p>
+                Ne. Kopnene kornjace koje se hrane biljkama zive na suvom terenu
+                i njima odgovara klasican terarijum sa substratom, grejanjem odozdo
+                i UVB lampom. Ter-akvarijum je namenjen poluvodenim vrstama.
+                Ako niste sigurni koja vrsta odgovara vasim uslovima, slobodno
+                nas pitajte.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+<section class="usl-more">
+      <div class="wrap">
+        <div class="usl-more-head">
+          <div class="eyebrow">Korisni linkovi</div>
+          <h2>Vise o <b>terarijumima i uslugama</b></h2>
+        </div>
+        <div class="usl-more-grid">
+          <a class="usl-link" href="/terarijumi.html">Svi terarijumi
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+          <a class="usl-link" href="/izrada-terarijuma.html">Izrada terarijuma po meri
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+          <a class="usl-link" href="/akvarijumi/akvarijum-za-kornjacu.html">Vodic za vodenu kornjacu — akvarijum
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+          <a class="usl-link" href="/akvaristika.html">Akvarijumi iz ponude
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+<section class="zcta">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content: center">Imate pitanje?</div>
+        <h2>Kontaktirajte nas <b>pre kupovine</b></h2>
+        <p>
+          Pomoci cemo vam da odaberete pravu velicinu i opremu za vaseg ljubimca —
+          bez pretpostavki i bez gresaka. Ter-akvarijume izradjujemo po meri.
+        </p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474?text=Zdravo%2C%20zanima%20me%20ter-akvarijum%20za%20kornjacu" target="_blank" rel="noopener" class="btn" style="background: #fff; color: var(--green-dark)" onclick="gtag('event', 'kontakt_click', {'metod': 'whatsapp_cta'})">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event', 'telefon_click', {'metod': 'poziv_cta'})">+381 69 330 1474</a>
+        </div>
+      </div>
+    </section>
+
+
+</Base>

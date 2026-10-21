@@ -1,0 +1,102 @@
+/* ===== LEGAL DOCUMENT ===== */
+.doc {
+  padding: 60px 0 100px;
+  background: var(--bg);
+  transition: background 0.4s;
+}
+.doc-updated {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  background: var(--white);
+  border: 1px solid var(--silver);
+  padding: 8px 16px;
+  margin-bottom: 40px;
+  transition:
+    background 0.4s,
+    border-color 0.4s;
+}
+.doc-updated svg {
+  color: var(--green);
+}
+.doc-sec {
+  margin-bottom: 36px;
+  padding-left: 22px;
+  border-left: 3px solid var(--silver);
+  transition: border-color 0.3s;
+}
+.doc-sec:hover {
+  border-left-color: var(--green);
+}
+.doc-sec h2 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  color: var(--ink);
+}
+.doc-sec p {
+  color: var(--ink-soft);
+  margin-bottom: 12px;
+}
+.doc-sec p:last-child {
+  margin-bottom: 0;
+}
+.doc-sec a {
+  color: var(--green);
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.doc-sec ul {
+  list-style: none;
+  margin: 6px 0 4px;
+}
+.doc-sec li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 10px;
+  color: var(--ink-soft);
+}
+.doc-sec li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 8px;
+  height: 8px;
+  background: var(--green);
+  border-radius: 2px;
+}
+.doc-sec li strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+.doc-contact {
+  background: var(--white);
+  border: 1px solid var(--silver);
+  padding: 26px 28px;
+  margin-top: 8px;
+  transition:
+    background 0.4s,
+    border-color 0.4s;
+}
+.doc-contact .row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+  color: var(--ink-soft);
+}
+.doc-contact .row:last-child {
+  margin-bottom: 0;
+}
+.doc-contact .row svg {
+  color: var(--green);
+  flex-shrink: 0;
+}
+.doc-contact .row a {
+  color: var(--green);
+  font-weight: 500;
+}

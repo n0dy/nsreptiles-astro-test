@@ -1,0 +1,56 @@
+{
+  "name": "Pinceta",
+  "label": "Oprema",
+  "lead": "Pinceta za hranjenje reptila. Omogućava bezbedno hranjenje bez rizika od ujeda.",
+  "image": "/style/img/oprema/pinceta.webp",
+  "imageAlt": "Pinceta - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Pinceta za hranjenje"
+    },
+    {
+      "k": "Materijal",
+      "v": "Metal"
+    },
+    {
+      "k": "Namena",
+      "v": "Hranjenje reptila"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Metalna pinceta za hranjenje reptila je praktična i neophodan alat za svakog vlasnika reptila koji omogućava bezbedno hranjenje vaših ljubimaca. Dovoljno je dugačka da održi sigurnu udaljenost između vaše ruke i životinje tokom hranjenja, čime se značajno smanjuje rizik od slučajnog ujeda. Posebno je korisna za hranjenje vrsta sa snažnim refleksom hvatanja, poput bradatih agama, tegua ili većih gekona."
+    },
+    {
+      "type": "p",
+      "html": "Pincetom možete precizno ponuditi hranu - insekte, komade voća ili druge poslastice - direktno ispred životinje, stimulišući njen lovački instinkt i čineći hranjenje interaktivnijim. Zaobljeni vrhovi sprečavaju povredu životinje prilikom hranjenja. Korisna je i za postavljanje hrane u posude unutar terarijuma ili za uklanjanje ostataka hrane. Lako se čisti i održava, a izdržljiv metal garantuje dugotrajnu upotrebu."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Za porudžbinu nas kontaktirajte telefonom ili WhatsApp-om. Dostavljamo u sve gradove Srbije. Lično preuzimanje moguće u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Pinceta za hranjenje reptila | Oprema - NS Reptiles",
+    "description": "Metalna pinceta za hranjenje reptila. Omogućava bezbedno hranjenje bez rizika od ujeda. NS Reptiles Novi Sad.",
+    "keywords": "pinceta, pinceta za hranjenje reptila, oprema za terarijum, oprema za reptile, NS Reptiles, Novi Sad",
+    "ogTitle": "Pinceta za hranjenje reptila | NS Reptiles"
+  },
+  "related": [
+    "oprema/sidro-sa-koralima",
+    "oprema/piratski-brod",
+    "oprema/kvarcni-pesak-1kg",
+    "oprema/cork-bark"
+  ]
+}

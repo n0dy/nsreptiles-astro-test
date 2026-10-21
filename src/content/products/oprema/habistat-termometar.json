@@ -1,0 +1,48 @@
+{
+  "name": "Habistat termometar",
+  "label": "Pribor",
+  "lead": "Habistat analogni termometar za merenje temperature u terarijumu. Kompaktan kružni displej koji se lepi na staklo.",
+  "image": "/style/img/oprema/termometar.webp",
+  "imageAlt": "Habistat termometar - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "Habistat"
+    },
+    {
+      "k": "Tip",
+      "v": "Analogni termometar (dial)"
+    },
+    {
+      "k": "Namena",
+      "v": "Merenje temperature"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Habistat Dial termometar je pouzdan analogni uređaj za merenje temperature u terarijumu. Praćenje temperature je ključno za zdravlje reptila jer su to ektotermne životinje koje zavise od spoljašnjih izvora toplote za regulaciju telesne temperature. Kompaktan kružni displej sa jasnom skalom u stepenima Celzijusa i Farenhajta omogućava brzo očitavanje temperature. Termometar se lepi direktno na unutrašnju stranu stakla terarijuma, bez potrebe za kablovima ili baterijama. Preporučujemo postavljanje na mestu gde vaša životinja provodi najviše vremena. Za optimalne uslove, temperatura u terarijumu treba da ima gradijent - topliju i hladniju stranu - kako bi životinja mogla sama da reguliše svoju temperaturu. Koristite dva termometra - jedan na toploj i jedan na hladnoj strani."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Naručite telefonom ili porukom na WhatsApp. Brza dostava kurirskom službom. Kupci iz Novog Sada dolaze po robu direktno u radionicu. Kontaktirajte nas za nedoumice oko proizvoda ili preporuku za vašu vrstu."
+    }
+  ],
+  "seo": {
+    "title": "Habistat termometar | Oprema - NS REPTILES",
+    "description": "Habistat termometar - analogni termometar za merenje temperature u terarijumu. Kompaktan kružni displej koji se lepi na staklo. NS Reptiles Novi Sad.",
+    "keywords": "habistat termometar, oprema za terarijum, oprema za reptile, NS Reptiles, Novi Sad",
+    "ogTitle": "Habistat termometar | NS Reptiles",
+    "ogDescription": "Habistat analogni termometar za merenje temperature u terarijumu. Kompaktan kružni displej koji se lepi na staklo. NS Reptiles Novi Sad."
+  },
+  "related": []
+}

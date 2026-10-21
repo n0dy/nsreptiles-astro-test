@@ -1,0 +1,277 @@
+---
+import Base from '../../layouts/Base.astro';
+import '../../styles/animals.css';
+import '../../styles/usluge.css';
+import { translationsFor } from '../../i18n/routes';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Terarijum za leopard gekona — dimenzije, oprema i uređenje",
+    "description": "Preporučene dimenzije terarijuma za leopard gekona, grejanje folijom, kokosov treset, vlažnost i česte greške. Vodič NS Reptiles.",
+    "author": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "url": "https://nsreptiles.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nsreptiles.net/style/img/logo.jpg"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://nsreptiles.net/terarijumi/terarijum-za-leopard-gekona.html"
+    },
+    "image": "https://nsreptiles.net/style/img/terrariums/50x35x35-7.webp"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Početna",
+        "item": "https://nsreptiles.net/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Terarijumi",
+        "item": "https://nsreptiles.net/terarijumi.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Terarijum za leopard gekona",
+        "item": "https://nsreptiles.net/terarijumi/terarijum-za-leopard-gekona.html"
+      }
+    ]
+  }
+];
+---
+<Base
+  lang="sr"
+  title="Terarijum za leopard gekona: veličina i oprema | NS Reptiles"
+  description="Sve o terarijumu za leopard gekona: preporučene dimenzije, grejanje folijom, podloga, vlažnost i česte greške. Vodič NS Reptiles, Novi Sad."
+  path="/terarijumi/terarijum-za-leopard-gekona.html"
+  image="/style/img/terrariums/50x35x35-7.webp"
+  ogType="article"
+  ogDescription="Preporučene dimenzije terarijuma, grejanje folijom, kokosov treset i ostala oprema. Vodič za početnike i iskusne odgajivače."
+  translations={translationsFor("/terarijumi/terarijum-za-leopard-gekona.html")}
+  langLinks={{ ...{"en":"/en/terrariums.html","ru":"/ru/terrariums.html"}, ...translationsFor("/terarijumi/terarijum-za-leopard-gekona.html") }}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Vodici za odrzavanje</div>
+        <h1>Terarijum za leopard gekona</h1>
+        <p>Preporučene dimenzije, grejanje folijom, podloga i uređenje — sve što treba da znate pre nego što postavite terarijum.</p>
+      </div>
+    </section>
+<nav class="breadcrumb-bar" aria-label="Breadcrumb">
+      <div class="wrap">
+        <ol class="breadcrumb">
+          <li><a href="/">Pocetna</a></li>
+          <li><a href="/terarijumi.html">Terarijumi</a></li>
+          <li aria-current="page">Terarijum za leopard gekona</li>
+        </ol>
+      </div>
+    </nav>
+<section class="intro">
+      <div class="wrap">
+        <div class="intro-box reveal">
+          <div class="eyebrow">O temi</div>
+          <p>Leopard gekon je noćna vrsta guštera koja potiče iz suvog, polupustinjskog podneblja Pakistana, Avganistana i zapadne Indije. Da bi ovaj gušter bio zdrav i aktivan u zarobljeništvu, terarijum mora da obezbedi odgovarajuću temperaturu, podlogu i skrovišta. Preporučena veličina terarijuma za jednog odraslog leopard gekona je oko 50x35x35cm. Ispod terarijuma, sa jedne strane, treba obezbediti folija grejač koji stvara temperaturni gradijent neophodan za termoregulaciju.</p>
+        </div>
+      </div>
+    </section>
+<section class="zoo" style="padding-top: 40px;">
+      <div class="wrap">
+
+        <!-- Dimenzije -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Dimenzije <b>terarijuma</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Minimalne dimenzije</h3>
+            <p>Za jednog odraslog leopard gekona minimalne dimenzije terarijuma su negde 50x30x25cm. Terarijum ne treba da bude visok jer se ova vrsta retko penje — važnije je da ima što veću osnovu koja omogućava gradijent temperature.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Preporucene dimenzije</h3>
+            <p>Preporučena veličina terarijuma za leopard gekona je oko 50x35x35cm. Malo veća osnova daje gekonu dovoljno prostora da slobodno bira između toplijeg i hladnijeg dela, što je ključno za pravilnu termoregulaciju. Za par ili grupu preporučuje se proporcionalno veći prostor.</p>
+          </div>
+        </div>
+
+        <!-- Grejanje i temperatura -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Grejanje i <b>temperatura</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Folija grejas</h3>
+            <p>Ispod terarijuma, sa jedne strane, treba postaviti folija grejač. Folija greje pod terarijuma i stvara toplu zonu bez direktnog toplotnog izvora unutar terarijuma. Važno je da folija pokriva samo jednu trećinu do polovinu dna — ostatak ostaje hladan, čime se formira gradijent koji gecko koristi za termoregulaciju.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Temperaturni gradijent</h3>
+            <p>Temperatura na toplijem delu treba da bude oko 32–33°C, dok u hladnijem delu može biti 20–25°C, pa i niže. Zimi se leopard gekoni mogu hibernirati na 13–19°C bez grejanja. Pošto je ovo noćna vrsta, nije potrebno UV zračenje — ukoliko imate sijalicu kojom zagrevate terarijum, to je sasvim dovoljno, a ako grejete folijom, dostupno osvetljenje u prostoriji je sasvim dovoljno.</p>
+          </div>
+        </div>
+
+        <!-- Podloga -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Podloga</h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <p>Preporučena podloga za terarijum leopard gekona je <strong>kokosov treset</strong> — najbezbedniji izbor koji dobro zadržava vlagu u vlažnom skrovištu i ne predstavlja rizik za zdravlje životinje. Mogu se koristiti i novine, papir ili sitno kamenje. Pesak treba izbegavati jer ga gekon može uneti u organizam, što može dovesti do zatvora i problema sa digestivnim traktom.</p>
+          </div>
+        </div>
+
+        <!-- Uređenje i oprema -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Uredenje i <b>oprema</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Skrovista</h3>
+            <p>U terarijumu je obavezno obezbediti skrovište. Preporučuju se najmanje dva skrovišta — jedno na toploj strani i jedno na hladnoj. Vlažno sklonište (ispunjeno vlažnim tresetom) neophodan je element jer ga gekon koristi tokom presvlačenja i, u slučaju ženki, pre poleganja jaja.</p>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Posudica za vodu</h3>
+            <p>Posudica sa svežom vodom mora biti uvek dostupna. Biraju se plitke posudice iz kojih gekon može slobodno piti i koje je lako čistiti. Vlažnost samog terarijuma nije potrebno posebno povećavati — dovoljna je vlažnost u vlažnom skrovištu.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Dekoracija</h3>
+            <p>Pored skrovišta, mogu se dodati ravne kamene ploče, komadi kore ili veštačke biljke. Kamene ploče na toploj zoni pomažu u regulaciji temperature jer gekon može da leži na njima i upija toplotu. Dekoracija treba da bude stabilna i ne sme da se lako prevrti.</p>
+          </div>
+        </div>
+
+        <!-- Česte greške -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Ceste <b>greske</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Pesak umesto treseta</h3>
+            <p>Pesak kao podloga jedan je od najčešćih propusta. Leopard gekon ga može slučajno uneti u organizam tokom hranjenja, što može izazvati zastoj u varenju. Kokosov treset je bezbednija i preporučena alternativa.</p>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Grejanje celog poda</h3>
+            <p>Folija grejač ne sme da pokriva ceo pod terarijuma. Ako nema hladne zone, gekon ne može da se ohladi po potrebi, što može dovesti do stresa i zdravstvenih problema. Folija treba da pokriva jednu trećinu do polovinu dna.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Nedostatak vlaznog skrovista</h3>
+            <p>Bez vlažnog skrovišta gekon teško prolazi kroz presvlačenje — koža ostaje zaglavljana posebno oko prstiju i repa. Vlažno skrovište sa tresetom ili mahom obavezno je u svakom terarijumu za leopard gekona.</p>
+          </div>
+        </div>
+
+        <!-- Interni linkovi -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Korisni <b>linkovi</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <p>Za potpuniju sliku, pogledajte i naše ostale stranice vezane za leopard gekona i terarijume po meri.</p>
+            <div class="guide-links" style="margin-top: 20px;">
+              <a href="/zivotinje/leopard-gekon.html" class="guide-link">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+                Leopard gekon — vodic za uzgoj
+              </a>
+              <a href="/terarijumi.html" class="guide-link">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+                Ponuda terarijuma
+              </a>
+              <a href="/izrada-terarijuma.html" class="guide-link">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+                Izrada terarijuma po meri
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+<section class="zcta">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content:center">Potreban vam je terarijum?</div>
+        <h2>Izradujemo terarijume <b>po meri</b></h2>
+        <p>Boju, dimenzije i opremu birate sami. Javite nam se pozivom ili porukom i pomocicemo vam da odaberete pravo resenje za vaseg leopard gekona.</p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474?text=Zanima%20me%20terarijum%20za%20leopard%20gekona" target="_blank" rel="noopener" class="btn" style="background:#fff;color:var(--green-dark)" onclick="gtag('event','kontakt_click',{'metod':'whatsapp'})">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event','kontakt_click',{'metod':'poziv'})">+381 69 330 1474</a>
+        </div>
+      </div>
+    </section>
+<style is:global>
+      .breadcrumb-bar {
+        background: var(--bg);
+        border-bottom: 1px solid var(--silver);
+        padding: 12px 0;
+        transition: background 0.4s;
+      }
+      .breadcrumb {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-size: 0.85rem;
+        color: var(--ink-soft);
+      }
+      .breadcrumb li + li::before {
+        content: '›';
+        margin-right: 6px;
+        color: var(--ink-soft);
+      }
+      .breadcrumb a {
+        color: var(--green);
+        text-decoration: none;
+      }
+      .breadcrumb a:hover {
+        text-decoration: underline;
+      }
+      .guide-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        margin-top: 8px;
+      }
+      .guide-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 10px 20px;
+        border: 1.5px solid var(--green);
+        border-radius: 4px;
+        color: var(--green-dark);
+        font-family: 'Oswald', sans-serif;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: .08em;
+        text-decoration: none;
+        transition: background 0.2s, color 0.2s;
+      }
+      .guide-link:hover {
+        background: var(--green);
+        color: var(--white);
+      }
+      .guide-link svg {
+        flex-shrink: 0;
+      }
+    </style>
+
+</Base>

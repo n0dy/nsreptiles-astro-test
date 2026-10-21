@@ -1,0 +1,60 @@
+{
+  "name": "Fobasi S 100kom",
+  "label": "Živa hrana",
+  "lead": "Fobasi (Zophobas morio) veličine S, pakovanje 100 komada. Hrana bogata proteinima za odrasle reptile.",
+  "image": "/style/img/oprema/fobasi.webp",
+  "imageAlt": "Fobasi S 100kom - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Živa hrana - Fobasi"
+    },
+    {
+      "k": "Veličina",
+      "v": "S (mali)"
+    },
+    {
+      "k": "Pakovanje",
+      "v": "100 komada"
+    },
+    {
+      "k": "Namena",
+      "v": "Hrana za reptile"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Fobasi (Zophobas morio), poznati i kao superworm, veličine S, pakovanje od 100 komada. Fobasi su omiljena poslastica bogata proteinima i mastima, idealna za mlade reptile i manje vrste - mlade bradate agame, leopard gekone i druge insektivore. Zbog visokog sadržaja masti daju se povremeno, kao dopuna redovnoj ishrani."
+    },
+    {
+      "type": "p",
+      "html": "Fobasi imaju tvrđi egzoskelet od dubia bubašvaba, pa se preporučuju za reptile sa dobro razvijenom vilicom. Čuvaju se na sobnoj temperaturi (ne u frižideru, jer niska temperatura skraćuje im život) sa malo hrane poput parčeta šargarepe ili krompira za održavanje vlažnosti i gut-loading pre hranjenja."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Fobasi S 100kom | Živa Hrana za Reptile - NS Reptiles",
+    "description": "Fobasi (Zophobas morio) veličine S, pakovanje 100 komada. Hrana bogata proteinima za odrasle reptile.",
+    "keywords": "Fobasi S 100kom, fobasi, zophobas morio, živa hrana za reptile, hrana za agame, NS Reptiles",
+    "ogTitle": "Fobasi S 100kom | NS Reptiles"
+  },
+  "related": [
+    "oprema/fobasi-m-l-100kom",
+    "oprema/dubie-l-100kom",
+    "oprema/dubie-m-100kom",
+    "oprema/calci-shot"
+  ]
+}

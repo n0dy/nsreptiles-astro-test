@@ -1,0 +1,90 @@
+{
+  "name": "Terarijum 35x25x28",
+  "label": "Mali terarijum",
+  "lead": "Stakleni terarijum dimenzija 35x25x28cm. Zapremina 24.5 litara, horizontalni format. Čist stakleni prostor oblož en dekorativnom folijom spolja koja terarijum estetski uklapa u vaš prostor. Ručna izrada u Novom Sadu.",
+  "image": "/style/img/terrariums/35x25x28.webp",
+  "imageAlt": "Stakleni terarijum 35x25x28cm - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Dužina",
+      "v": "35 cm"
+    },
+    {
+      "k": "Širina",
+      "v": "25 cm"
+    },
+    {
+      "k": "Visina",
+      "v": "28 cm"
+    },
+    {
+      "k": "Zapremina",
+      "v": "~24.5 L"
+    },
+    {
+      "k": "Materijal",
+      "v": "Staklo"
+    },
+    {
+      "k": "3D Pozadina",
+      "v": "Ne"
+    },
+    {
+      "k": "Ventilacija",
+      "v": "Mrežasta"
+    },
+    {
+      "k": "Tip",
+      "v": "Horizontalni"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Sa dimenzijama 35x25x28cm i zapreminom od 24.5 litara, ovaj terarijum nudi čist stakleni prostor obložen dekorativnom folijom spolja. Folija je funkcionalna - sprečava životinje da vide svoj odraz i smanjuje stres, a estetski uklapa terarijum u vaš prostor."
+    },
+    {
+      "type": "p",
+      "html": "Horizontalna orijentacija sa 35cm dužine pruža podnu površinu na kojoj se lako organizuju grejni deo, hladni deo i zona za skrivanje. Ovaj raspored je ključan za reptile jer im omogućava da sami biraju temperaturu kojoj će se izložiti. Sistem ventilacije sa zaštitnom mrežicom održava protok svežeg vazduha i sprečava nakupljanje vlage."
+    },
+    {
+      "type": "h2",
+      "text": "Pogodan za"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Leopard gekoni i debelorepi gekoni",
+        "Crested gekoni",
+        "Manje zmije (kukuruzni smuk)",
+        "Manje kameleon vrste"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Izrada po meri"
+    },
+    {
+      "type": "p",
+      "html": "Ako vam standardne dimenzije ne odgovaraju, radimo terarijume po meri. Izaberite veličinu, dezen folije, stil pozadine i dodatke poput LED osvetljenja ili termostata. Kontaktirajte nas za ponudu — dostavljamo širom Srbije."
+    }
+  ],
+  "seo": {
+    "title": "Terarijum 35x25x28 | Terarijum - NS Reptiles",
+    "description": "Terarijum 35x25x28 - stakleni terarijum 35x25x28cm. Ručna izrada, dostava širom Srbije. NS Reptiles Novi Sad.",
+    "keywords": "terarijum 35x25x28, terarijum 35x25x28cm, terarijum prodaja, terarijum Novi Sad, NS Reptiles",
+    "ogTitle": "Terarijum 35x25x28 | NS Reptiles",
+    "ogDescription": "Stakleni terarijum 35x25x28cm. Zapremina 24.5 litara, horizontalni format. Ručna izrada u Novom Sadu."
+  },
+  "related": [
+    "terarijumi/terarijum-30x28x28-3d",
+    "terarijumi/terarijum-30x30x30-3d",
+    "terarijumi/terarijum-35x25x30-3d",
+    "terarijumi/terarijum-30x30x40-3d"
+  ]
+}

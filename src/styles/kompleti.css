@@ -1,0 +1,187 @@
+/* ===== KOMPLETI - strana kompleta ===== */
+
+/* Breadcrumb stilovi su u style.css (zajednička komponenta) */
+
+/* Glavni blok: slika + info */
+.ks-main {
+  padding: 80px 0;
+  background: var(--white);
+  transition: background 0.4s;
+}
+.ks-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+  gap: 56px;
+  align-items: start;
+}
+.ks-media {
+  position: sticky;
+  top: 90px;
+  align-self: start;
+}
+.ks-img {
+  position: relative;
+  overflow: hidden;
+  background: var(--silver);
+  box-shadow: 0 10px 30px -18px rgba(40, 47, 52, 0.3);
+}
+.ks-img img {
+  width: 100%;
+  height: fit-content;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  display: block;
+}
+.ks-info .eyebrow {
+  margin-bottom: 10px;
+}
+.ks-title {
+  font-size: clamp(1.8rem, 3.4vw, 2.6rem);
+  text-transform: uppercase;
+  line-height: 1.12;
+}
+.ks-price {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 1.9rem;
+  color: var(--green-dark);
+  margin: 16px 0 4px;
+}
+.ks-price span {
+  font-size: 1rem;
+  color: var(--ink-soft);
+  font-weight: 400;
+}
+.ks-desc {
+  color: var(--ink-soft);
+  font-weight: 300;
+  margin-top: 14px;
+  max-width: 56ch;
+}
+.ks-incl-title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 30px 0 14px;
+}
+.ks-incl {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+.ks-incl li {
+  position: relative;
+  padding-left: 30px;
+  font-weight: 300;
+}
+.ks-incl li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--green);
+  color: #fff;
+  font-size: 0.7rem;
+  border-radius: 50%;
+}
+.ks-cta {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+.ks-note {
+  margin-top: 22px;
+  padding: 14px 18px;
+  background: var(--bg);
+  border-left: 3px solid var(--green);
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: var(--ink-soft);
+  transition: background 0.4s;
+}
+
+/* Za koga je komplet */
+.ks-perks {
+  padding: 90px 0;
+  background: var(--bg);
+  transition: background 0.4s;
+}
+.ks-perks-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+  margin-top: 46px;
+}
+.ks-perk {
+  background: var(--white);
+  padding: 34px 30px;
+  box-shadow: 0 10px 30px -18px rgba(40, 47, 52, 0.3);
+  transition:
+    transform 0.3s,
+    background 0.4s;
+}
+.ks-perk:hover {
+  transform: translateY(-6px);
+}
+.ks-perk-num {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  color: var(--green);
+}
+.ks-perk h3 {
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 10px 0 10px;
+}
+.ks-perk p {
+  color: var(--ink-soft);
+  font-weight: 300;
+  font-size: 0.95rem;
+}
+
+/* Ostali kompleti */
+.ks-others {
+  padding: 90px 0 110px;
+  background: var(--white);
+  transition: background 0.4s;
+}
+.ks-others .kit-grid {
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 46px;
+}
+
+@media (max-width: 1024px) {
+  .ks-grid {
+    grid-template-columns: 1fr;
+    gap: 38px;
+  }
+  .ks-media {
+    position: static;
+  }
+  .ks-perks-grid,
+  .ks-others .kit-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 640px) {
+  .ks-perks-grid,
+  .ks-others .kit-grid {
+    grid-template-columns: 1fr;
+  }
+  .ks-main {
+    padding: 56px 0;
+  }
+}

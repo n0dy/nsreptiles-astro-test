@@ -1,0 +1,173 @@
+---
+import Base from '../../layouts/Base.astro';
+import '../../styles/contact.css';
+import { translationsFor } from '../../i18n/routes';
+---
+<Base
+  lang="en"
+  title="Contact | Phone and Address - NS Reptiles, Novi Sad"
+  description="Contact NS Reptiles - exotic animal breeder in Novi Sad. Phone +381 69 330 1474. Order terrariums, aquariums or reptiles."
+  path="/en/contact.html"
+  ogTitle="Contact - NS Reptiles, Novi Sad"
+  ogDescription="Contact NS Reptiles for terrarium, aquarium and reptile orders. Novi Sad, Serbia."
+  translations={translationsFor("/en/contact.html")}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Contact</div>
+        <h1>Get in touch</h1>
+        <p>
+          Have a question about an animal, custom terrarium or delivery? Write
+          to us or call - we respond quickly.
+        </p>
+      </div>
+    </section>
+<section class="kontakt">
+      <div class="wrap k-grid">
+        <!-- INFO -->
+        <div class="k-info">
+          <div class="eyebrow">Contact details</div>
+          <h2>We are here for you</h2>
+          <p class="lead">
+            The fastest response is via WhatsApp or Viber. Feel free to also
+            write by email or call us during working hours.
+          </p>
+
+          <a class="k-card" href="tel:+381693301474">
+            <div class="ic">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3-8.6A2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.3 1.8.6 2.6a2 2 0 01-.5 2.1L8.1 9.9a16 16 0 006 6l1.5-1.1a2 2 0 012.1-.5c.8.3 1.7.5 2.6.6a2 2 0 011.7 2z"></path>
+              </svg>
+            </div>
+            <div class="k-card-txt">
+              <small>Phone</small><span>+381 69 330 1474</span>
+            </div>
+          </a>
+          <a class="k-card" href="mailto:bata.dino00@gmail.com">
+            <div class="ic">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                <path d="M2 7l10 6 10-6"></path>
+              </svg>
+            </div>
+            <div class="k-card-txt">
+              <small>E-mail</small><span>bata.dino00@gmail.com</span>
+            </div>
+          </a>
+          <a class="k-card" href="https://maps.app.goo.gl/TqdvEyPwP1t5ZC117" target="_blank" rel="noopener">
+            <div class="ic">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2a7 7 0 00-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 00-7-7z"></path>
+                <circle cx="12" cy="9" r="2.5"></circle>
+              </svg>
+            </div>
+            <div class="k-card-txt">
+              <small>Location</small><span>Novi Sad, Serbia</span>
+            </div>
+          </a>
+
+          <div class="k-quick">
+            <a href="https://wa.me/381693301474" target="_blank" rel="noopener" class="k-wa"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M12 2a10 10 0 00-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1012 2zm5.8 14.1c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.5-1.2-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.1.1.3 0 .5l-.4.5-.3.3c-.1.1-.3.3-.1.5.1.3.6 1.1 1.4 1.7 1 .9 1.8 1.1 2 1.2.2.1.4.1.5-.1l.7-.8c.2-.2.3-.2.5-.1l1.8.9c.3.1.4.2.5.3.1.2.1.6-.1 1.2z"></path></svg>
+              WhatsApp</a>
+            <a href="viber://chat?number=%2B381693301474" target="_blank" rel="noopener" class="k-vb"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M12 2C6.5 2 3 5.5 3 10.5c0 2.3.9 4.4 2.4 5.9v3.6l3.3-1.8c1 .3 2.1.4 3.3.4 5.5 0 9-3.5 9-8.1S17.5 2 12 2z"></path></svg>
+              Viber</a>
+          </div>
+
+          <div class="k-social">
+            <a href="https://facebook.com/NSReptiless" target="_blank" rel="noopener">FB</a>
+            <a href="https://www.instagram.com/ns_reptiles/" target="_blank" rel="noopener">IG</a>
+            <a href="https://www.tiktok.com/@ns_reptiles" target="_blank" rel="noopener">TT</a>
+            <a href="#">YT</a>
+          </div>
+        </div>
+
+        <!-- FORM -->
+        <div class="k-form" id="kForm">
+          <div class="k-form-inner">
+            <h3>Send a message</h3>
+            <p class="sub">
+              Fill out the form and we will get back to you by email as soon as
+              possible.
+            </p>
+            <div class="k-row">
+              <div class="k-field">
+                <label>Full name</label><input type="text" id="kName" placeholder="John Smith">
+              </div>
+              <div class="k-field">
+                <label>E-mail</label><input type="email" id="kEmail" placeholder="john@email.com">
+              </div>
+            </div>
+            <div class="k-field">
+              <label>Phone (optional)</label><input type="tel" id="kPhone" placeholder="+381 6x xxx xxxx">
+            </div>
+            <div class="k-field">
+              <label>Message</label><textarea id="kMsg" placeholder="What would you like to ask us about?"></textarea>
+            </div>
+            <label class="k-consent"><input type="checkbox" id="kConsent"> I agree to the
+              <a href="/en/privacy-policy.html">Privacy Policy</a> and the
+              processing of my data for the purpose of responding to my
+              inquiry.</label>
+            <button class="btn k-submit" id="kSubmit">Send message</button>
+          </div>
+          <div class="k-success" id="kSuccess">
+            <div class="chk">
+              <svg viewBox="0 0 24 24" width="38" height="38" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </div>
+            <h3>Successfully sent!</h3>
+            <p>Thank you for your message. Check your email for a reply.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<script is:inline slot="after">
+      document.getElementById('kSubmit').addEventListener('click', async () => {
+        const name = document.getElementById('kName').value.trim();
+        const email = document.getElementById('kEmail').value.trim();
+        const phone = document.getElementById('kPhone').value.trim();
+        const msg = document.getElementById('kMsg').value.trim();
+        const consent = document.getElementById('kConsent').checked;
+        if (!name || !email || !msg) {
+          alert('Please fill in your name, email and message.');
+          return;
+        }
+        if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
+          alert('Please enter a valid email address.');
+          return;
+        }
+        if (!consent) {
+          alert('You must accept the Privacy Policy.');
+          return;
+        }
+        const btn = document.getElementById('kSubmit');
+        btn.disabled = true;
+        const origText = btn.textContent;
+        btn.textContent = 'Sending...';
+        const parts = name.split(' ');
+        let ok = false;
+        try {
+          ok = await window.hsSubmit('6ec8a905-316d-43b5-bc28-40dd6de3feff', [
+            { name: 'firstname', value: parts[0] },
+            { name: 'lastname', value: parts.slice(1).join(' ') },
+            { name: 'email', value: email },
+            {
+              name: 'message',
+              value: phone ? msg + '\n\nPhone: ' + phone : msg,
+            },
+          ]);
+        } catch (e) {}
+        if (ok) {
+          document.getElementById('kForm').classList.add('sent');
+          document.getElementById('kSuccess').classList.add('show');
+        } else {
+          alert('Something went wrong. Please try again.');
+          btn.disabled = false;
+          btn.textContent = origText;
+        }
+      });
+    </script>
+</Base>

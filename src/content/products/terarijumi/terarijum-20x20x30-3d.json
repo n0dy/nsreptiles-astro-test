@@ -1,0 +1,89 @@
+{
+  "name": "Terarijum 20x20x30 +3D",
+  "label": "Mali terarijum",
+  "lead": "Stakleni terarijum dimenzija 20x20x30cm sa ručno rađenom 3D pozadinom. Zapremina 12.0 litara, vertikalni format. Ručna izrada u Novom Sadu.",
+  "image": "/style/img/terrariums/20x20x30.webp",
+  "imageAlt": "Stakleni terarijum 20x20x30cm sa 3D pozadinom - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Dužina",
+      "v": "20 cm"
+    },
+    {
+      "k": "Širina",
+      "v": "20 cm"
+    },
+    {
+      "k": "Visina",
+      "v": "30 cm"
+    },
+    {
+      "k": "Zapremina",
+      "v": "~12.0 L"
+    },
+    {
+      "k": "Materijal",
+      "v": "Staklo"
+    },
+    {
+      "k": "3D Pozadina",
+      "v": "Da"
+    },
+    {
+      "k": "Ventilacija",
+      "v": "Mrežica"
+    },
+    {
+      "k": "Tip",
+      "v": "Vertikalni"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Sa zapreminom od 12 litara i dimenzijama 20x20x30cm, ovaj terarijum uključuje ručno izrađenu 3D pozadinu. Pozadina imitira prirodni reljef - stenu ili koru - i dodaje dubinu prostoru, omogućavajući životinjama da se penju, sakrivaju i osećaju sigurnije."
+    },
+    {
+      "type": "p",
+      "html": "Vertikalni format (visina 30cm veća od dužine 20cm) namenjen je arborealnim vrstama koje provode većinu vremena na granama i lišću. Visina pruža prostor za postavljanje grana, liana i biljaka na različitim nivoima. Sistem ventilacije sa zaštitnom mrežicom održava protok svežeg vazduha i sprečava nakupljanje vlage."
+    },
+    {
+      "type": "h2",
+      "text": "Pogodan za"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Pauci skakavci",
+        "Mantise",
+        "Mali dnevni gekoni",
+        "Žabe drotolazi (manje vrste)"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Izrada po meri"
+    },
+    {
+      "type": "p",
+      "html": "Ako vam standardne dimenzije ne odgovaraju, radimo terarijume po meri. Izaberite veličinu, dezen folije, stil pozadine i dodatke poput LED osvetljenja ili termostata. Kontaktirajte nas za ponudu — dostavljamo širom Srbije."
+    }
+  ],
+  "seo": {
+    "title": "Terarijum 20x20x30 +3D | Terarijum - NS Reptiles",
+    "description": "Terarijum 20x20x30 +3D - stakleni terarijum od 12L sa ručno rađenom 3D pozadinom, vertikalni format. NS Reptiles Novi Sad, dostava širom Srbije.",
+    "keywords": "terarijum 20x20x30 +3d, terarijum 20x20x30cm, terarijum prodaja, terarijum Novi Sad, NS Reptiles",
+    "ogTitle": "Terarijum 20x20x30 +3D - NS Reptiles"
+  },
+  "related": [
+    "terarijumi/terarijum-17x20x28-3d",
+    "terarijumi/terarijum-20x20x15-3d",
+    "terarijumi/terarijum-20x20x35-3d",
+    "terarijumi/terarijum-20x20x40-3d"
+  ]
+}

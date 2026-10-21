@@ -1,0 +1,387 @@
+---
+import Base from '../../layouts/Base.astro';
+import '../../styles/animals.css';
+import { translationsFor } from '../../i18n/routes';
+---
+<Base
+  lang="en"
+  title="Exotic Animals - Reptiles for Sale | NS Reptiles, Novi Sad"
+  description="Healthy reptiles for sale - bearded dragons, leopard geckos, ball pythons, corn snakes and tarantulas. NS Reptiles breeder, Novi Sad."
+  path="/en/animals.html"
+  ogTitle="Exotic Animals - Reptiles for Sale | NS Reptiles"
+  ogDescription="Healthy bearded dragons, geckos, pythons and tarantulas from NS Reptiles breeder, Novi Sad."
+  active="animals"
+  translations={translationsFor("/en/animals.html")}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Animals</div>
+        <h1>Exotic animals</h1>
+        <p>
+          Healthy, properly fed reptiles ready for a new home - bred by us or
+          sourced from trusted breeders in Serbia and the region.
+        </p>
+      </div>
+    </section>
+<section class="intro">
+      <div class="wrap">
+        <div class="intro-box">
+          <div class="eyebrow">Our offer</div>
+          <p>
+            At <strong>NS Reptiles</strong> breeder, we work exclusively with
+            species we have personally bred or sourced from trusted breeders. For
+            each species, we have prepared a detailed guide with equipment and
+            care recommendations, so your new pet has the right conditions from
+            day one.
+          </p>
+        </div>
+      </div>
+    </section>
+<section class="zoo">
+      <div class="wrap">
+        <div class="pills">
+          <button class="pill" data-target="gusteri">Lizards</button>
+          <button class="pill" data-target="zmije">Snakes</button>
+          <button class="pill" data-target="tarantule">Tarantulas</button>
+        </div>
+
+        <!-- LIZARDS -->
+        <div class="cat-block" id="cat-gusteri">
+          <div class="cat-title">
+            <h2>Lizards</h2>
+            <span class="count">5 species</span><span class="line"></span>
+          </div>
+          <div class="zgrid">
+            <a class="zcard" href="#">
+              <div class="zcard-img">
+                <span class="zbadge">For beginners</span>
+                <img src="/style/img/gallery/2.jpg" alt="Bearded dragon">
+              </div>
+              <div class="zcard-body">
+                <div class="lat">Pogona vitticeps</div>
+                <h3>Bearded dragon</h3>
+                <p>
+                  One of the most popular lizard species and extremely suitable
+                  for beginners. Intelligent and remarkably friendly towards
+                  people.
+                </p>
+                <span class="zlink">View species
+                  <span class="arr"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></span>
+              </div>
+            </a>
+            <a class="zcard" href="#">
+              <div class="zcard-img">
+                <span class="zbadge">For beginners</span>
+                <img src="/style/img/gallery/3.jpg" alt="Leopard gecko">
+              </div>
+              <div class="zcard-body">
+                <div class="lat">Eublepharis macularius</div>
+                <h3>Leopard gecko</h3>
+                <p>
+                  The most common gecko species in our region and an ideal pet
+                  for beginners. Easy to maintain, calm and rarely bites.
+                </p>
+                <span class="zlink">View species
+                  <span class="arr"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></span>
+              </div>
+            </a>
+            <a class="zcard" href="#">
+              <div class="zcard-img">
+                <img src="/style/img/gallery/13.jpg" alt="Chinese water dragon">
+              </div>
+              <div class="zcard-body">
+                <div class="lat">Physignathus cocincinus</div>
+                <h3>Chinese water dragon</h3>
+                <p>
+                  An affectionate and calm lizard that tames easily, resembling
+                  an iguana in appearance. Requires a spacious terrarium with
+                  plenty of branches.
+                </p>
+                <span class="zlink">View species
+                  <span class="arr"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></span>
+              </div>
+            </a>
+            <a class="zcard" href="#">
+              <div class="zcard-img">
+                <span class="zbadge">For beginners</span>
+                <img src="/style/img/gallery/10.jpg" alt="African fat-tailed gecko">
+              </div>
+              <div class="zcard-body">
+                <div class="lat">Hemitheconyx caudicinctus</div>
+                <h3>African fat-tailed gecko</h3>
+                <p>
+                  Not as popular as leopard geckos, but an equally good choice
+                  for beginners. They stay relatively small and don't require
+                  demanding care.
+                </p>
+                <span class="zlink">View species
+                  <span class="arr"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></span>
+              </div>
+            </a>
+            <a class="zcard" href="#">
+              <div class="zcard-img">
+                <img src="/style/img/gallery/14.jpg" alt="Crested gecko">
+              </div>
+              <div class="zcard-body">
+                <div class="lat">Rhacodactylus ciliatus</div>
+                <h3>Crested gecko</h3>
+                <p>
+                  A popular choice due to its small size, attractive appearance
+                  and docile nature. It's nocturnal and doesn't need a heat lamp
+                  at room temperature.
+                </p>
+                <span class="zlink">View species
+                  <span class="arr"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- SNAKES -->
+        <div class="cat-block" id="cat-zmije">
+          <div class="cat-title">
+            <h2>Snakes</h2>
+            <span class="count">2 species</span><span class="line"></span>
+          </div>
+          <div class="zgrid">
+            <a class="zcard" href="#">
+              <div class="zcard-img">
+                <span class="zbadge">For beginners</span>
+                <img src="/style/img/gallery/7.jpg" alt="Ball python">
+              </div>
+              <div class="zcard-body">
+                <div class="lat">Python regius</div>
+                <h3>Ball python</h3>
+                <p>
+                  An excellent choice for beginners among snake owners. They
+                  usually grow up to 150 cm, are quite docile and easy to
+                  handle.
+                </p>
+                <span class="zlink">View species
+                  <span class="arr"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></span>
+              </div>
+            </a>
+            <a class="zcard" href="#">
+              <div class="zcard-img">
+                <span class="zbadge">For beginners</span>
+                <img src="/style/img/gallery/9.jpg" alt="Corn snake">
+              </div>
+              <div class="zcard-body">
+                <div class="lat">Pantherophis guttatus</div>
+                <h3>Corn snake</h3>
+                <p>
+                  One of the most popular species. Requires a simple terrarium
+                  and conditions that are easy to provide. Grows from 1.2 m to
+                  1.6 m.
+                </p>
+                <span class="zlink">View species
+                  <span class="arr"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- TARANTULAS -->
+        <div class="cat-block" id="cat-tarantule">
+          <div class="cat-title">
+            <h2>Tarantulas</h2>
+            <span class="count">5 species</span><span class="line"></span>
+          </div>
+          <div class="zgrid">
+            <div class="zcard">
+              <div class="zcard-img">
+                <img src="/style/img/tarantule/davus-pentaloris.png" alt="Guatemalan tiger rump tarantula">
+              </div>
+              <div class="zcard-body">
+                <div class="lat">Davus pentaloris</div>
+                <h3>Guatemalan tiger rump tarantula</h3>
+                <p>
+                  A calm and docile tarantula ideal for beginners. Known for its
+                  beautiful tiger-orange markings on the abdomen.
+                </p>
+                              </div>
+            </div>
+            <div class="zcard">
+              <div class="zcard-img">
+                <img src="/style/img/tarantule/phormictopus-auratus.png" alt="Cuban gold tarantula">
+              </div>
+              <div class="zcard-body">
+                <div class="lat">Phormictopus auratus</div>
+                <h3>Cuban gold tarantula</h3>
+                <p>
+                  An attractive tarantula from Cuba known for its golden-bronze
+                  sheen. An active species with an impressive appearance.
+                </p>
+                              </div>
+            </div>
+            <div class="zcard">
+              <div class="zcard-img">
+                <img src="/style/img/tarantule/acanthoscurria-geniculata.png" alt="Brazilian whiteknee tarantula">
+              </div>
+              <div class="zcard-body">
+                <div class="lat">Acanthoscurria geniculata</div>
+                <h3>Brazilian whiteknee tarantula</h3>
+                <p>
+                  An imposing tarantula with white stripes on its legs. An
+                  active and fast-growing species, popular among enthusiasts.
+                </p>
+                              </div>
+            </div>
+            <div class="zcard">
+              <div class="zcard-img">
+                <img src="/style/img/tarantule/brachypelma-boehmei.png" alt="Mexican fireleg tarantula">
+              </div>
+              <div class="zcard-body">
+                <div class="lat">Brachypelma boehmei</div>
+                <h3>Mexican fireleg tarantula</h3>
+                <p>
+                  A beautiful tarantula with bright red-orange legs. A calm
+                  species, great for beginners.
+                </p>
+                              </div>
+            </div>
+            <div class="zcard">
+              <div class="zcard-img">
+                <img src="/style/img/tarantule/brachypelma-emilia.png" alt="Mexican redleg tarantula">
+              </div>
+              <div class="zcard-body">
+                <div class="lat">Brachypelma emilia</div>
+                <h3>Mexican redleg tarantula</h3>
+                <p>
+                  A classic Mexican tarantula with distinctive black and red
+                  patterns. A calm and long-lived species.
+                </p>
+                              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- STARTER BANNER -->
+        <div class="starter">
+          <div class="starter-txt">
+            <h3>Complete starter kits</h3>
+            <p>
+              With every animal, we also offer ready-made starter kits -
+              terrarium, lighting, heating, substrate and decoration, all
+              tailored to the specific species. Ideal if you're just starting
+              out.
+            </p>
+          </div>
+          <a href="/" class="btn">Browse kits</a>
+        </div>
+      </div>
+    </section>
+<section class="section faq">
+      <div class="wrap">
+        <div class="section-head reveal" style="text-align: center; max-width: 640px; margin: 0 auto 46px">
+          <div class="eyebrow center" style="justify-content: center">Frequently asked questions</div>
+          <h2 class="sec-title">All about <b>reptiles</b></h2>
+        </div>
+        <div class="faq-list reveal">
+          <div class="faq-item">
+            <button class="faq-q">
+              Are reptiles good pets for beginners?<span class="ic">+</span>
+            </button>
+            <div class="faq-a">
+              <p>
+                Yes, many reptiles are excellent for beginners. Leopard geckos,
+                crested geckos and bearded dragons are among the easiest to
+                keep. They require less daily attention than dogs or cats, but
+                do need proper equipment - a terrarium of appropriate size,
+                heating, UVB lighting and a suitable diet.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q">
+              How often should reptiles be fed?<span class="ic">+</span>
+            </button>
+            <div class="faq-a">
+              <p>
+                Juveniles are generally fed daily, while adults eat 2-4 times a
+                week depending on the species. Bearded dragons eat every day
+                (salad and insects), ball pythons once every 7-14 days, and
+                leopard geckos every other day. Always dust food with calcium.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q">
+              Do reptiles bond with their owners?<span class="ic">+</span>
+            </button>
+            <div class="faq-a">
+              <p>
+                Reptiles don't express emotions like mammals, but they do get
+                used to contact with their owner and become calm during
+                handling. Bearded dragons are particularly known for their
+                tolerance and enjoyment of contact. Regular gentle handling from
+                a young age helps.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q">
+              What is the best first reptile?<span class="ic">+</span>
+            </button>
+            <div class="faq-a">
+              <p>
+                Leopard gecko - calm, eats insects, lives 15-20 years. Bearded
+                dragon - social, omnivore, great for families. Crested gecko -
+                doesn't need a heat lamp at room temperature and feeds on a
+                ready-made mix.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q">
+              How long do reptiles live?<span class="ic">+</span>
+            </button>
+            <div class="faq-a">
+              <p>
+                Lifespan varies by species: leopard gecko 15-20 years, bearded
+                dragon 8-12, ball python 20-30, corn snake 15-20, and tortoises
+                can live 50+ years. Proper care and diet directly affect
+                lifespan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<section class="zcta">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content: center">
+          Interested?
+        </div>
+        <h2>Find your <b>perfect pet</b></h2>
+        <p>
+          Let us know which species you're interested in - we'll be happy to
+          advise you on care, equipment and availability.
+        </p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474" target="_blank" rel="noopener" class="btn" style="background: #fff; color: var(--green-dark)">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light">Call us</a>
+        </div>
+      </div>
+    </section>
+
+<script is:inline slot="after">
+      // pills scroll to category
+      document.querySelectorAll('.pill').forEach((p) =>
+        p.addEventListener('click', () => {
+          const el = document.getElementById('cat-' + p.dataset.target);
+          if (!el) return;
+          const y =
+            el.getBoundingClientRect().top + window.pageYOffset - 150;
+          window.scrollTo({ top: y, behavior: 'smooth' });
+        }),
+      );
+    </script>
+</Base>

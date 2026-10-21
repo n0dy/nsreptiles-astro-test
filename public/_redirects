@@ -1,0 +1,15 @@
+# 301 redirekti sa starih URL-ova
+/zivotinje/bradataagama.html         /zivotinje/bradata-agama.html        301
+/zivotinje/crestedgekon.html         /zivotinje/crested-gekon.html        301
+/zivotinje/debelorepigekon.html      /zivotinje/debelorepi-gekon.html     301
+/zivotinje/kineskavodenaagama.html   /zivotinje/kineska-vodena-agama.html 301
+/zivotinje/kukuruznismuk.html        /zivotinje/kukuruzni-smuk.html       301
+/zivotinje/leopardgekon.html         /zivotinje/leopard-gekon.html        301
+/zivotinje/loptastipiton.html        /zivotinje/loptasti-piton.html       301
+/prices.html                         /cenovnik.html                       301
+/blog.html                           /                                    301
+/gusteri.html                        /zivotinje.html                      301
+/linkovi.html                        /                                    301
+/arbitrage.html                      /                                    301
+/homepage-redesign.html              /                                    301
+/section.html                        /                                    301

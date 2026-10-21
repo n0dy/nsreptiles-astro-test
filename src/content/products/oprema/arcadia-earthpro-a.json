@@ -1,0 +1,65 @@
+{
+  "name": "Arcadia EarthPro-A",
+  "label": "Suplementi",
+  "lead": "Kompletni vitaminski dodatak za reptile. Sadrži vitamine A, D3, E i esencijalne nutrijente za optimalno zdravlje.",
+  "image": "/style/img/oprema/proa.webp",
+  "imageAlt": "Arcadia EarthPro-A - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "Arcadia"
+    },
+    {
+      "k": "Tip",
+      "v": "Vitaminski dodatak"
+    },
+    {
+      "k": "Linija",
+      "v": "EarthPro"
+    },
+    {
+      "k": "Primena",
+      "v": "Posipanje po hrani (1x nedeljno)"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Arcadia EarthPro-A je sveobuhvatni vitaminski suplement dizajniran za sve vrste reptila. Vitamin A je ključan za zdravlje vida, imunitet i razvoj kožnih tkiva. D3 omogućava pravilnu apsorpciju kalcijuma, dok vitamin E deluje kao antioksidans i štiti ćelije od oštećenja slobodnim radikalima."
+    },
+    {
+      "type": "p",
+      "html": "Preporučuje se primena jednom nedeljno posipanjem po hrani neposredno pre hranjenja, dok se kalcijumski suplement koristi svakodnevno. Ovaj naizmeničan protokol obezbeđuje balans vitamina i minerala bez rizika od predoziranja. Preterana upotreba vitaminskih suplemenata, posebno vitamina A, može biti štetna - strogo se držati preporučene doze."
+    },
+    {
+      "type": "p",
+      "html": "EarthPro-A je razvijen u saradnji sa herpetolozima i veterinarima specijalizovanim za egzotične životinje. Kompatibilan je sa celom Arcadia EarthPro linijom i posebno se preporučuje uz EarthPro-Ca ili CaPro-MG kao svakodnevni kalcijum."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Arcadia EarthPro-A | Vitaminski Suplement za Reptile - NS Reptiles",
+    "description": "Arcadia EarthPro-A - kompletni vitaminski dodatak za reptile sa vitaminima A, D3 i E. Koristiti jednom nedeljno uz svakodnevni kalcijum.",
+    "keywords": "Arcadia EarthPro-A, vitamini za reptile, vitamin A reptili, D3 reptili, suplementi reptili",
+    "ogTitle": "Arcadia EarthPro-A | NS Reptiles",
+    "ogDescription": "Kompletni vitaminski dodatak za reptile. Sadrži vitamine A, D3, E i esencijalne nutrijente. Koristiti jednom nedeljno."
+  },
+  "related": [
+    "oprema/arcadia-capro-mg",
+    "oprema/arcadia-earthpro-ca",
+    "oprema/arcadia-calciumpro-mg",
+    "oprema/arcadia-revitalised3"
+  ]
+}

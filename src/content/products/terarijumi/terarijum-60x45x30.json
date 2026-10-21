@@ -1,0 +1,81 @@
+{
+  "name": "Terarijum 60x45x30",
+  "label": "Srednji terarijum",
+  "lead": "Stakleni terarijum dimenzija 60x45x30cm. Zapremina 81.0 litara, horizontalni format. Ručna izrada u Novom Sadu.",
+  "image": "/style/img/terrariums/60x45x30.webp",
+  "imageAlt": "Stakleni terarijum 60x45x30cm - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Dužina",
+      "v": "60 cm"
+    },
+    {
+      "k": "Širina",
+      "v": "45 cm"
+    },
+    {
+      "k": "Visina",
+      "v": "30 cm"
+    },
+    {
+      "k": "Zapremina",
+      "v": "~81.0 L"
+    },
+    {
+      "k": "Materijal",
+      "v": "Staklo"
+    },
+    {
+      "k": "Tip",
+      "v": "Horizontalni"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Stakleni terarijum dimenzija 60x45x30cm zapremine 81 litara izrađen je od stakla odgovarajuće debljine za ovu veličinu. Spoljašnje stranice obložene su dekorativnom folijom koja se bira pri naručivanju - drvo, bambus, mermer, crna ili bela."
+    },
+    {
+      "type": "p",
+      "html": "Sa podnom površinom od 60x45cm, ovaj terarijum omogućava prirodno kretanje kopnenih vrsta i pravilno zoniranje temperature - tople tačke pod spot lampom i hladnijeg dela na suprotnoj strani. Ventilacioni sistem dizajniran je za konstantan protok vazduha koji sprečava pregrevanje i zadržavanje vlage."
+    },
+    {
+      "type": "h2",
+      "text": "Pogodan za"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Bradate agame",
+        "Kornjače (hermann, horsfield)",
+        "Loptasti pitoni i king zmije",
+        "Plavi jezičasti skinkovi"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Izrada po meri"
+    },
+    {
+      "type": "p",
+      "html": "Ovaj model možete poručiti sa prilagođenom folijom i pozadinom. Ako vam trebaju drugačije dimenzije ili dodatna oprema - LED osvetljenje, termostat, brava - izrađujemo po specifikaciji. Dostava na adresu u celoj Srbiji."
+    }
+  ],
+  "seo": {
+    "title": "Terarijum 60x45x30 | Terarijum - NS Reptiles",
+    "description": "Terarijum 60x45x30 - stakleni terarijum 60x45x30cm. Ručna izrada, dostava širom Srbije. NS Reptiles Novi Sad.",
+    "keywords": "terarijum 60x45x30, terarijum 60x45x30cm, terarijum prodaja, terarijum Novi Sad, NS Reptiles",
+    "ogTitle": "Terarijum 60x45x30 | NS Reptiles"
+  },
+  "related": [
+    "terarijumi/terarijum-60x35x40-3d",
+    "terarijumi/terarijum-60x40x30",
+    "terarijumi/ter-akvarijum-60x45x40x45",
+    "terarijumi/terarijum-60x50x90-3d"
+  ]
+}

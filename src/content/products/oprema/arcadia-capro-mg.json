@@ -1,0 +1,64 @@
+{
+  "name": "Arcadia CaPro-MG",
+  "label": "Suplementi",
+  "lead": "Arcadia EarthPro CaPro-MG - kalcijumski dodatak sa magnezijumom za zdrav razvoj kostiju kod reptila.",
+  "image": "/style/img/oprema/promg.webp",
+  "imageAlt": "Arcadia CaPro-MG - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "Arcadia"
+    },
+    {
+      "k": "Tip",
+      "v": "Kalcijum sa magnezijumom"
+    },
+    {
+      "k": "Linija",
+      "v": "EarthPro"
+    },
+    {
+      "k": "Primena",
+      "v": "Posipanje po hrani"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Arcadia EarthPro CaPro-MG je specijalizovani kalcijumski suplement koji kombinuje kalcijum i magnezijum u optimalnom odnosu za reptile. Magnezijum je kofaktor u više od 300 enzimskih reakcija i esencijalan je za pravilno korištenje kalcijuma u organizmu."
+    },
+    {
+      "type": "p",
+      "html": "Primenjuje se posipanjem po insektima i drugoj živoj hrani neposredno pre hranjenja. Preporučuje se svakodnevna upotreba CaPro-MG uz jedanput nedeljnu primenu EarthPro-A vitaminskog suplementa. Ovaj protokol obezbeđuje kompletan nutritivni balans za reptile koji žive u zarobljeništvu."
+    },
+    {
+      "type": "p",
+      "html": "Posebno pogodan za insektivorne vrste - gekoni, kameleoni, i dnevne vrste guštera koje zahtevaju visok unos kalcijuma. Arcadia EarthPro linija je razvijena u saradnji sa zooveterinarima i herpetolozima."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Arcadia CaPro-MG | Kalcijum sa Magnezijumom za Reptile - NS Reptiles",
+    "description": "Arcadia EarthPro CaPro-MG - kalcijumski dodatak sa magnezijumom za zdrav razvoj kostiju kod reptila. Deo Arcadia EarthPro sistema.",
+    "keywords": "Arcadia CaPro-MG, Arcadia EarthPro, kalcijum magnezijum reptili, suplementi reptili",
+    "ogTitle": "Arcadia CaPro-MG | NS Reptiles"
+  },
+  "related": [
+    "oprema/arcadia-earthpro-ca",
+    "oprema/arcadia-earthpro-a",
+    "oprema/arcadia-calciumpro-mg",
+    "oprema/arcadia-earthpro-ca-100g"
+  ]
+}

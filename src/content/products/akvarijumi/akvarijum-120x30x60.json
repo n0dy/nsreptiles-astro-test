@@ -1,0 +1,65 @@
+{
+  "name": "Akvarijum 120x30x60",
+  "label": "Veliki akvarijum",
+  "lead": "Stakleni akvarijum dimenzija 120x30x60cm. Zapremina 216.0 litara. Ručna izrada u Novom Sadu.",
+  "image": "/style/img/aquariums/a120x30x60.webp",
+  "imageAlt": "Akvarijum 120x30x60 - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Dužina",
+      "v": "120 cm"
+    },
+    {
+      "k": "Širina",
+      "v": "30 cm"
+    },
+    {
+      "k": "Visina",
+      "v": "60 cm"
+    },
+    {
+      "k": "Zapremina",
+      "v": "~216.0 L"
+    },
+    {
+      "k": "Materijal",
+      "v": "Staklo"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Akvarijum dimenzija 120x30x60cm sa 216 litara zapremine pruža ozbiljan prostor za kreiranje podvodnog biotopa. Veća zapremina znači stabilnije parametre vode i mogućnost držanja većih vrsta riba."
+    },
+    {
+      "type": "p",
+      "html": "Veliki akvarijum otvara mogućnost za biotopski pristup - reprodukcija prirodnog staništa Amazon reke, afričkih jezera ili jugoistočne Azije. Preporučujemo spoljni filter, CO2 sistem za biljke i kvalitetno LED osvetljenje."
+    },
+    {
+      "type": "h2",
+      "text": "Izrada po meri"
+    },
+    {
+      "type": "p",
+      "html": "Ako tražite nestandardne dimenzije ili posebne zahteve (ojačano dno, poklopac, otvori za opremu), kontaktirajte nas. Svaki akvarijum ručno izrađujemo i šaljemo kurirskom službom bilo gde u Srbiji."
+    }
+  ],
+  "seo": {
+    "title": "Akvarijum 120x30x60 | Akvarijum - NS Reptiles",
+    "description": "Akvarijum 120x30x60 - stakleni akvarijum 120x30x60cm. Ručna izrada, dostava širom Srbije. NS Reptiles Novi Sad.",
+    "keywords": "akvarijum 120x30x60, akvarijum 120x30x60cm, akvarijum prodaja, akvarijum Novi Sad, NS Reptiles",
+    "ogTitle": "Akvarijum 120x30x60 | NS Reptiles",
+    "ogDescription": "Stakleni akvarijum 120x30x60cm, zapremina 216 litara. Ručna izrada u Novom Sadu."
+  },
+  "related": [
+    "akvarijumi/akvarijum-90x30x70",
+    "akvarijumi/akvarijum-100x40x50",
+    "akvarijumi/akvarijum-120x40x40",
+    "akvarijumi/akvarijum-oktagon"
+  ]
+}

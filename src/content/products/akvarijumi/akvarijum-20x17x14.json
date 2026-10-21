@@ -1,0 +1,65 @@
+{
+  "name": "Akvarijum 20x17x14",
+  "label": "Mini akvarijum",
+  "lead": "Stakleni akvarijum dimenzija 20x17x14cm. Zapremina 4.8 litara. Ručna izrada u Novom Sadu.",
+  "image": "/style/img/aquariums/a20x17x14.webp",
+  "imageAlt": "Akvarijum 20x17x14 - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Dužina",
+      "v": "20 cm"
+    },
+    {
+      "k": "Širina",
+      "v": "17 cm"
+    },
+    {
+      "k": "Visina",
+      "v": "14 cm"
+    },
+    {
+      "k": "Zapremina",
+      "v": "~4.8 L"
+    },
+    {
+      "k": "Materijal",
+      "v": "Staklo"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Stakleni akvarijum od 4.8 litara (20x17x14cm) kompaktnih je dimenzija koje se uklapaju na radni sto, policu ili komodu. Uprkos manjoj zapremini, pruža dovoljno prostora za biljke i nekoliko manjih riba."
+    },
+    {
+      "type": "p",
+      "html": "Kompaktne dimenzije dozvoljavaju kreativno uređenje sa malim biljkama i kamenčićima. Preporučeni filter je spužvasti sa vazdušnom pumpom koji ne stvara prejako strujanje za manje ribe."
+    },
+    {
+      "type": "h2",
+      "text": "Izrada po meri"
+    },
+    {
+      "type": "p",
+      "html": "Ako tražite nestandardne dimenzije ili posebne zahteve (ojačano dno, poklopac, otvori za opremu), kontaktirajte nas. Svaki akvarijum ručno izrađujemo i šaljemo kurirskom službom bilo gde u Srbiji."
+    }
+  ],
+  "seo": {
+    "title": "Akvarijum 20x17x14 | Akvarijum - NS Reptiles",
+    "description": "Akvarijum 20x17x14 - stakleni akvarijum 20x17x14cm. Ručna izrada, dostava širom Srbije. NS Reptiles Novi Sad.",
+    "keywords": "akvarijum 20x17x14, akvarijum 20x17x14cm, akvarijum prodaja, akvarijum Novi Sad, NS Reptiles",
+    "ogTitle": "Akvarijum 20x17x14 | NS Reptiles",
+    "ogDescription": "Stakleni akvarijum dimenzija 20x17x14cm. Zapremina 4.8 litara. Ručna izrada u Novom Sadu."
+  },
+  "related": [
+    "akvarijumi/akvarijum-25x19x20",
+    "akvarijumi/akvarijum-25x25x35",
+    "akvarijumi/akvarijum-30x21x23",
+    "akvarijumi/akvarijum-35x23x25"
+  ]
+}

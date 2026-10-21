@@ -1,0 +1,81 @@
+{
+  "name": "Terarijum 50x40x60",
+  "label": "Srednji terarijum",
+  "lead": "Stakleni terarijum dimenzija 50x40x60cm. Zapremina 120.0 litara, vertikalni format. Ručna izrada u Novom Sadu.",
+  "image": "/style/img/terrariums/50x40x60.webp",
+  "imageAlt": "Terarijum 50x40x60 - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Dužina",
+      "v": "50 cm"
+    },
+    {
+      "k": "Širina",
+      "v": "40 cm"
+    },
+    {
+      "k": "Visina",
+      "v": "60 cm"
+    },
+    {
+      "k": "Zapremina",
+      "v": "~120.0 L"
+    },
+    {
+      "k": "Materijal",
+      "v": "Staklo"
+    },
+    {
+      "k": "Tip",
+      "v": "Vertikalni"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Stakleni terarijum dimenzija 50x40x60cm zapremine 120 litara izrađen je od stakla odgovarajuće debljine za ovu veličinu. Spoljašnje stranice obložene su dekorativnom folijom koja se bira pri naručivanju - drvo, bambus, mermer, crna ili bela."
+    },
+    {
+      "type": "p",
+      "html": "Vertikalna orijentacija (60cm visine) čini ovaj terarijum pogodnim za arborealce - životinje koje u prirodi žive u krošnjama i na stablima. Možete postaviti grane, korkove i veštačke biljke da simulirate vertikalno stanište. Otvori za ventilaciju postavljeni su tako da stvaraju prirodno strujanje vazduha od dna ka vrhu, čime se održava optimalna vlažnost."
+    },
+    {
+      "type": "h2",
+      "text": "Pogodan za"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Kameleoni",
+        "Zeleni piton",
+        "Emerald tree boa",
+        "Crested gekoni (par)"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Izrada po meri"
+    },
+    {
+      "type": "p",
+      "html": "Ovaj model možete poručiti sa prilagođenom folijom i pozadinom. Ako vam trebaju drugačije dimenzije ili dodatna oprema - LED osvetljenje, termostat, brava - izrađujemo po specifikaciji. Dostava na adresu u celoj Srbiji."
+    }
+  ],
+  "seo": {
+    "title": "Terarijum 50x40x60 | Terarijum - NS Reptiles",
+    "description": "Terarijum 50x40x60 - stakleni terarijum 50x40x60cm. Ručna izrada, dostava širom Srbije. NS Reptiles Novi Sad.",
+    "keywords": "terarijum 50x40x60, terarijum 50x40x60cm, terarijum prodaja, terarijum Novi Sad, NS Reptiles",
+    "ogTitle": "Terarijum 50x40x60 - NS Reptiles"
+  },
+  "related": [
+    "terarijumi/terarijum-50x35x35",
+    "terarijumi/ter-akvarijum-50x35x45x25",
+    "terarijumi/terarijum-60x30x25",
+    "terarijumi/terarijum-60x30x30"
+  ]
+}

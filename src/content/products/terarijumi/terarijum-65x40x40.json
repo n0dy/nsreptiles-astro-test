@@ -1,0 +1,81 @@
+{
+  "name": "Terarijum 65x40x40",
+  "label": "Srednji terarijum",
+  "lead": "Stakleni terarijum dimenzija 65x40x40cm. Zapremina 104.0 litara, horizontalni format. Ručna izrada u Novom Sadu.",
+  "image": "/style/img/terrariums/65x40x40.webp",
+  "imageAlt": "Stakleni terarijum 65x40x40cm - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Dužina",
+      "v": "65 cm"
+    },
+    {
+      "k": "Širina",
+      "v": "40 cm"
+    },
+    {
+      "k": "Visina",
+      "v": "40 cm"
+    },
+    {
+      "k": "Zapremina",
+      "v": "~104.0 L"
+    },
+    {
+      "k": "Materijal",
+      "v": "Staklo"
+    },
+    {
+      "k": "Tip",
+      "v": "Horizontalni"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ovaj stakleni terarijum (65x40x40cm, 104L) dolazi sa spoljašnjom dekorativnom folijom u dezenu po izboru. Staklo obezbeđuje nesmetanu vidljivost iznutra, dok folija sa tri strane pruža životinjama osećaj zaštićenosti."
+    },
+    {
+      "type": "p",
+      "html": "Dužina od 65cm i širina od 40cm daju veliku podnu površinu za kopnene vrste koje se kreću po tlu. Dovoljna dužina omogućava temperaturni gradijent od tople do hladne zone - uslov za zdravlje svih reptila. Ventilacija je rešena mrežastim otvorima koji omogućavaju strujanje vazduha i kontrolu vlažnosti unutar terarijuma."
+    },
+    {
+      "type": "h2",
+      "text": "Pogodan za"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Bradate agame",
+        "Loptasti pitoni",
+        "Kopnene kornjače",
+        "Plavi jezičasti skink"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Izrada po meri"
+    },
+    {
+      "type": "p",
+      "html": "Pri naručivanju birate dezen folije i oblik 3D pozadine. Sve terarijume izrađujemo ručno u Novom Sadu, tako da su prilagođavanja uvek moguća - od dimenzija do načina otvaranja. Šaljemo kurirskom službom u celu Srbiju."
+    }
+  ],
+  "seo": {
+    "title": "Terarijum 65x40x40 | Terarijum - NS Reptiles",
+    "description": "Terarijum 65x40x40 - stakleni terarijum 65x40x40cm. Ručna izrada, dostava širom Srbije. NS Reptiles Novi Sad.",
+    "keywords": "terarijum 65x40x40, terarijum 65x40x40cm, terarijum prodaja, terarijum Novi Sad, NS Reptiles",
+    "ogTitle": "Terarijum 65x40x40 | NS Reptiles"
+  },
+  "related": [
+    "terarijumi/terarijum-60x50x90-3d",
+    "terarijumi/terarijum-60x45x50",
+    "terarijumi/terarijum-65x35x35",
+    "terarijumi/ter-akvarijum-60x35x45x30"
+  ]
+}

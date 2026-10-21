@@ -1,0 +1,372 @@
+---
+import Base from '../../layouts/Base.astro';
+import '../../styles/animals.css';
+import '../../styles/usluge.css';
+import { translationsFor } from '../../i18n/routes';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Akvarijum za kornjacu — vodic za postavljanje",
+    "description": "Kompletan vodic za akvarijum za vodenu kornjacu: dimenzije, filtracija, kopneni deo, grejanje i UVB. Ter-akvarijumi po meri u Novom Sadu.",
+    "author": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "url": "https://nsreptiles.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nsreptiles.net/style/img/logo.jpg"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://nsreptiles.net/akvarijumi/akvarijum-za-kornjacu.html"
+    },
+    "image": "https://nsreptiles.net/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Pocetna",
+        "item": "https://nsreptiles.net/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Akvaristika",
+        "item": "https://nsreptiles.net/akvaristika.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Akvarijum za kornjacu",
+        "item": "https://nsreptiles.net/akvarijumi/akvarijum-za-kornjacu.html"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Kakav akvarijum je potreban za vodenu kornjacu?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Za vodenu kornjacu je potreban ter-akvarijum koji ima i vodeni i kopneni deo, kako bi kornjaca mogla da pliva i da se odmara na suvom. Samo vodeni akvarijum bez kopnenog dela nije prikladan."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Koje dimenzije akvarijuma su potrebne za kornjacu?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Dimenzije zavise od velicine kornjace. U ponudi imamo ter-akvarijume od 50x35x45cm do 100x45x45cm, a izradjujemo i po meri prema vasim potrebama."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Da li je potrebna filtracija u akvarijumu za kornjacu?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Da, filtracija je obavezna. Kornjace zagadjuju vodu brze od riba, pa je potreban filter odgovarajuceg kapaciteta koji osigurava bistru i zdravu vodu."
+        }
+      }
+    ]
+  }
+];
+---
+<Base
+  lang="sr"
+  title="Akvarijum za kornjaču — vodič za postavljanje | NS Reptiles"
+  description="Kompletan vodič za akvarijum za vodenu kornjaču: dimenzije, filtracija, kopneni deo, grejanje i UVB. Ter-akvarijumi po meri u Novom Sadu."
+  path="/akvarijumi/akvarijum-za-kornjacu.html"
+  image="/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp"
+  ogType="article"
+  ogDescription="Sve što treba da znate o postavljanju akvarijuma za vodenu kornjaču: dimenzije, filtracija, kopneni deo, grejanje i česte greške."
+  translations={translationsFor("/akvarijumi/akvarijum-za-kornjacu.html")}
+  langLinks={{ ...{"en":"/en/aquariums.html","ru":"/ru/aquariums.html"}, ...translationsFor("/akvarijumi/akvarijum-za-kornjacu.html") }}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Vodici</div>
+        <h1>Akvarijum za kornjacu</h1>
+        <p>Ter-akvarijum sa kopnenim i vodenim delom — sve sto treba da znate pre postavljanja staklista za vodenu kornjacu.</p>
+      </div>
+    </section>
+<nav class="breadcrumb-bar" aria-label="Breadcrumb">
+      <div class="wrap">
+        <ol class="breadcrumb">
+          <li><a href="/">Pocetna</a></li>
+          <li><a href="/akvaristika.html">Vodici</a></li>
+          <li aria-current="page">Akvarijum za kornjacu</li>
+        </ol>
+      </div>
+    </nav>
+<section class="intro">
+      <div class="wrap">
+        <div class="intro-box reveal">
+          <div class="eyebrow">O tipu akvarijuma</div>
+          <p>Za vodenu kornjacu nije dovoljan obican akvarijum — potreban je <strong>ter-akvarijum</strong> koji ima i vodeni i kopneni deo. Kornjaca mora moci da pliva i da se odmara na suvom, na uzdignutoj platformi ili prirodnom ostrvu. Bez kopnenog dela kornjaca ne moze da se ogreje, osuci ni odmori, sto dugorocno steti njenom zdravlju. Ovaj vodic prolazi kroz sve kljucne elemente pravilno postavljenog ter-akvarijuma za vodenu kornjacu.</p>
+        </div>
+      </div>
+    </section>
+<div class="wrap reveal" style="padding-top: 0; padding-bottom: 0;">
+      <img src="/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp" alt="Ter-akvarijum za vodenu kornjacu sa kopnenim i vodenim delom" class="guide-img" width="1080" height="1080" loading="eager" fetchpriority="high">
+    </div>
+<section class="zoo" style="padding-top: 40px;">
+      <div class="wrap">
+
+        <!-- Dimenzije -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Dimenzije <b>ter-akvarijuma</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Minimalne dimenzije</h3>
+            <p>Minimalne dimenzije ter-akvarijuma za jednu odraslu kornjacu su oko 50x35cm povrsine osnove. Sto je kornjaca veca, veci treba da bude i akvarijum. U nasoj ponudi ter-akvarijumi za kornjace dostupni su od dimenzija 50x35x45cm pa do 100x45x45cm — a sve se izradjuje i po meri.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Sta znace 4 dimenzije</h3>
+            <p>Kod ter-akvarijuma za kornjace cesto se navode cetiri broja — na primer 60x35x45x30. Prva dva broja su sirina i dubina akvarijuma, treci broj je ukupna visina staklenog dela, a cetvrti je visina vodenog stuba (dubina vode). Ostatak visine cini kopneni deo — uzdignuta platforma na kojoj se kornjaca odmara.</p>
+          </div>
+        </div>
+
+        <!-- Filtracija -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Filtracija</h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Zasto je filter obavezan</h3>
+            <p>Vodene kornjace su znacajno veci zagadjivaci vode od riba — brze jedu, vise otpadaju i bioloski su aktivniji. Filter je obavezan deo opreme i mora biti prilagodjen zapremini akvarijuma. Preporucuje se filter dimenzionisan na vecu zapreminu od stvarne, jer kornjace opterecuju filtraciju brze nego ribe slicne velicine. Redovna zamena dela vode takodjer je vazna bez obzira na filtraciju.</p>
+          </div>
+        </div>
+
+        <!-- Kopneni deo / ostrvo -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Kopneni deo i <b>platforma</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Zasto je kopneni deo neophodan</h3>
+            <p>Kornjaci mora biti dostupna suva povrsina na kojoj moze izaci iz vode, ogrejati se pod lampom i odmoriti. Bez kopnenog dela kornjaca nije u mogucnosti da regulise telesnu temperaturu — a to je jedan od najcescih uzroka zdravstvenih problema kod vodenih kornjacu u zatocenistvu.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Izvedba u ter-akvarijumu</h3>
+            <p>U nasim ter-akvarijumima kopneni deo je integrisan u konstrukciju — izdignuta polica od stakla ili pleksiglas-a odvojena od vodenog dela. Povrsina kopnenog dela treba biti dovoljno velika da kornjaca moze slobodno da lezi i kreće se, bez rizika da se vrati u vodu nenamerno.</p>
+          </div>
+        </div>
+
+        <!-- Grejanje i UVB -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Grejanje i <b>UVB osvetljenje</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Grejna lampa iznad kopnenog dela</h3>
+            <p>Iznad kopnenog dela obavezno postaviti grejnu lampu koja stvara toplu tacku. Kornjaca ce koristiti tu tacku za termoregulaciju — grejanje tela posle plivanja. Temperatura tople tacke iznad platforme trebalo bi da bude priblizno 30-32°C, dok temperatura vode ostaje niza.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">UVB zracenje</h3>
+            <p>UVB lampa je neophodna — omogucava kornjaci da sintetise vitamin D3 koji je kljucan za zdravlje kostiju i oklopa. Bez UVB zracenja kornjace dugorocno razvijaju probleme sa oklopom i kosturom. UVB lampa se postavlja iznad kopnenog dela i menja prema uputstvima proizvodjaca (najcesce svakih 6-12 meseci, cak i kad jos svetli).</p>
+          </div>
+        </div>
+
+        <!-- Ceste greske -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Ceste <b>greske</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Na sta obratiti paznju</h3>
+            <ul style="color:var(--ink-soft);line-height:1.9;padding-left:18px;margin:0;">
+              <li>Akvarijum bez kopnenog dela — kornjaci je neophodna suva povrsina za odmor i grejanje.</li>
+              <li>Premali akvarijum — kornjaci treba prostora za plivanje i nesmetano kretanje.</li>
+              <li>Nedovoljna filtracija — kornjace zagadjuju vodu brze od riba, filter mora biti odgovarajuceg kapaciteta.</li>
+              <li>Preskakanje UVB lampe — bez UVB zracenja dolazi do ozbiljnih zdravstvenih problema tokom vremena.</li>
+              <li>Bez grejne tacke — kopneni deo mora biti zagrejan lampom kako bi kornjaca mogla da se ogreje posle plivanja.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+<section class="zoo" style="padding-top: 0;">
+      <div class="wrap">
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Cesta <b>pitanja</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="faq-list">
+            <div class="faq-item">
+              <button class="faq-q">
+                Kakav akvarijum je potreban za vodenu kornjacu?<span class="ic">+</span>
+              </button>
+              <div class="faq-a">
+                <p>Za vodenu kornjacu je potreban ter-akvarijum koji ima i vodeni i kopneni deo, kako bi kornjaca mogla da pliva i da se odmara na suvom. Samo vodeni akvarijum bez kopnenog dela nije prikladan — kornjaci je neophodna suva povrsina za grejanje i odmor.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q">
+                Koje dimenzije akvarijuma su potrebne za kornjacu?<span class="ic">+</span>
+              </button>
+              <div class="faq-a">
+                <p>Dimenzije zavise od velicine kornjace. U ponudi imamo ter-akvarijume od 50x35x45cm do 100x45x45cm, a izradjujemo i po meri prema vasim potrebama i velicini zivotinje.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q">
+                Da li je potrebna filtracija u akvarijumu za kornjacu?<span class="ic">+</span>
+              </button>
+              <div class="faq-a">
+                <p>Da, filtracija je obavezna. Kornjace zagadjuju vodu brze od riba, pa je potreban filter odgovarajuceg kapaciteta koji osigurava bistru i zdravu vodu. Redovna delimicna zamena vode takodjer se preporucuje bez obzira na filter.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<section class="usl-more">
+      <div class="wrap">
+        <div class="usl-more-head reveal">
+          <div class="eyebrow">Korisni linkovi</div>
+          <h2>Povezani <b>sadrzaj</b></h2>
+        </div>
+        <div class="usl-more-grid reveal">
+          <a class="usl-link" href="/akvaristika.html">
+            Akvarijumi — ponuda
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+          <a class="usl-link" href="/izrada-akvarijuma.html">
+            Izrada akvarijuma po meri
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+          <a class="usl-link" href="/terarijumi/terarijum-za-kornjacu.html">
+            Terarijum za kornjacu — vodic
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+<section class="zcta">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content:center">Potreban vam ter-akvarijum?</div>
+        <h2>Izrada <b>po meri</b></h2>
+        <p>Ter-akvarijume za kornjace izradjujemo po meri — vi birate dimenzije, boju i opremu. Javite nam se i dobicete ponudu.</p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474?text=Zanima%20me%20ter-akvarijum%20za%20kornjacu" target="_blank" rel="noopener" class="btn" style="background:#fff;color:var(--green-dark)" onclick="gtag('event','kontakt_click',{'metod':'whatsapp'})">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event','kontakt_click',{'metod':'poziv'})">+381 69 330 1474</a>
+        </div>
+      </div>
+    </section>
+<style is:global>
+      .guide-img {
+        width: 100%;
+        border-radius: 8px;
+        display: block;
+        margin: 0 auto 40px;
+        max-width: 640px;
+      }
+      .faq-list { margin-top: 24px; }
+      .faq-item {
+        border-bottom: 1px solid var(--silver);
+        padding: 0;
+      }
+      .faq-q {
+        width: 100%;
+        background: none;
+        border: none;
+        text-align: left;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: .06em;
+        color: var(--ink);
+        padding: 18px 0;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        transition: color .2s;
+      }
+      .faq-q:hover { color: var(--green); }
+      .faq-q .ic {
+        font-size: 1.4rem;
+        font-weight: 300;
+        line-height: 1;
+        flex-shrink: 0;
+        transition: transform .25s;
+      }
+      .faq-item.open .faq-q .ic { transform: rotate(45deg); }
+      .faq-a {
+        display: none;
+        padding-bottom: 18px;
+      }
+      .faq-item.open .faq-a { display: block; }
+      .faq-a p {
+        color: var(--ink-soft);
+        line-height: 1.7;
+        margin: 0;
+      }
+    </style>
+<script is:inline slot="after">
+      // FAQ accordion
+      document.querySelectorAll('.faq-q').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var item = this.closest('.faq-item');
+          var isOpen = item.classList.contains('open');
+          document.querySelectorAll('.faq-item').forEach(function(el) { el.classList.remove('open'); });
+          if (!isOpen) item.classList.add('open');
+        });
+      });
+    </script>
+<style is:global>
+      .breadcrumb-bar {
+        background: var(--bg);
+        border-bottom: 1px solid var(--silver);
+        padding: 12px 0;
+        transition: background 0.4s;
+      }
+      .breadcrumb {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-size: 0.85rem;
+        color: var(--ink-soft);
+      }
+      .breadcrumb li + li::before {
+        content: '›';
+        margin-right: 6px;
+        color: var(--ink-soft);
+      }
+      .breadcrumb a {
+        color: var(--green);
+        text-decoration: none;
+      }
+      .breadcrumb a:hover {
+        text-decoration: underline;
+      }
+    </style>
+</Base>

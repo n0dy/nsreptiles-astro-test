@@ -1,0 +1,118 @@
+---
+import Base from '../../layouts/Base.astro';
+import '../../styles/animals.css';
+import '../../styles/usluge.css';
+import { translationsFor } from '../../i18n/routes';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Aquarium and Terrarium Repair",
+    "serviceType": "Aquarium and Terrarium Repair",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "NS Reptiles",
+      "telephone": "+381693301474",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Novi Sad",
+        "addressCountry": "RS"
+      }
+    },
+    "areaServed": "Serbia",
+    "description": "Professional aquarium and terrarium repair in Novi Sad. Glass and silicone replacement, lid and frame repair, lighting upgrades. Free estimate, most repairs done in 1–3 business days.",
+    "url": "https://nsreptiles.net/en/repair.html"
+  }
+];
+---
+<Base
+  lang="en"
+  title="Aquarium & Terrarium Repair Service | NS Reptiles, Novi Sad"
+  description="Aquarium & terrarium repair in Novi Sad: glass and silicone replacement, lid and frame repair, lighting upgrades. Free estimate, most repairs in 1–3 days."
+  path="/en/repair.html"
+  ogTitle="Aquarium & Terrarium Repair | NS Reptiles"
+  ogDescription="Aquarium and terrarium repair service — glass, silicone, lid, frame, and lighting. Free estimate. Novi Sad, Serbia."
+  translations={translationsFor("/en/repair.html")}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Service</div>
+        <h1>Aquarium &amp; Terrarium Repair</h1>
+        <p>Is your aquarium or terrarium damaged? You don't have to buy a new one — we fix it quickly and reliably.</p>
+      </div>
+    </section>
+<section class="intro">
+      <div class="wrap">
+        <div class="intro-box">
+          <div class="eyebrow">Repair &amp; Service</div>
+          <p>Send us photos of the damage and the dimensions, and we'll give you a <strong>free estimate</strong> of the cost and turnaround. Most repairs are completed within <strong>1–3 business days</strong>.</p>
+        </div>
+      </div>
+    </section>
+<section class="usl">
+      <div class="wrap">
+        <div class="feat-grid">
+          <article class="feat-card">
+            <span class="feat-idx">01</span>
+            <h3>Glass Replacement</h3>
+            <p>A cracked or broken pane doesn't have to mean the end. We carry out a full replacement of the damaged glass with new glass of the appropriate thickness and quality, restoring your aquarium to fully working condition.</p>
+          </article>
+          <article class="feat-card">
+            <span class="feat-idx">02</span>
+            <h3>Silicone Replacement</h3>
+            <p>Leaks are a common issue, especially on older models. We remove the old, worn-out silicone and apply fresh, high-quality aquarium-grade sealant that is completely safe for fish, turtles, and reptiles.</p>
+          </article>
+          <article class="feat-card">
+            <span class="feat-idx">03</span>
+            <h3>Lid Repair</h3>
+            <p>The lid matters for your animals' safety and for the lighting setup. We repair damaged lids, add cable cutouts, or build entirely new ones to order. We also handle upgrades — filter integration, double lids, or a new canopy.</p>
+          </article>
+          <article class="feat-card">
+            <span class="feat-idx">04</span>
+            <h3>Frame Repair</h3>
+            <p>Damaged frame, warped rim, or peeling wrap — we sort it all out. We repair the structure, replace damaged frame sections, and re-wrap with the vinyl of your choice from a selection of over 40 patterns.</p>
+          </article>
+          <article class="feat-card">
+            <span class="feat-idx">05</span>
+            <h3>Lighting Replacement</h3>
+            <p>Burnt-out LED strip, faulty switch, or aging fixtures? We swap old lighting for new LED setups with day and night modes. For terrariums we also replace UVB/UVA bulbs essential for reptile health.</p>
+          </article>
+          <article class="feat-card">
+            <span class="feat-idx">06</span>
+            <h3>Free Estimate</h3>
+            <p>Reach out by phone, email, or social media. Send us photos of the damage and the dimensions, and we'll come back to you with a free estimate of the cost and timeline. Most repairs are done within 1–3 business days.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+<section class="zcta">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content: center">Got damage?</div>
+        <h2>Free <b>Repair Estimate</b></h2>
+        <p>Send us photos of the damage and the dimensions — we'll get back to you with a free estimate of the cost and timeline.</p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474" target="_blank" rel="noopener" class="btn" style="background: #fff; color: var(--green-dark)">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light">Call Us</a>
+        </div>
+      </div>
+    </section>
+<section class="usl-more">
+      <div class="wrap">
+        <div class="usl-more-head">
+          <div class="eyebrow">Other Services</div>
+          <h2>Everything in <b>one place</b></h2>
+        </div>
+        <div class="usl-more-grid">
+          <a class="usl-link" href="/en/custom-terrariums.html">Terrarium Building<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+          <a class="usl-link" href="/en/custom-aquariums.html">Aquarium Building<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+          <a class="usl-link" href="/en/custom-vivariums.html">Vivarium Building<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+          <a class="usl-link" href="/en/led-lighting.html">LED Lighting Installation<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+          <a class="usl-link" href="/en/maintenance.html">Maintenance &amp; Setup<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+        </div>
+      </div>
+    </section>
+
+
+</Base>

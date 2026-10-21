@@ -1,0 +1,60 @@
+{
+  "name": "HabiStat Single Feeding Ledge",
+  "label": "Pribor",
+  "lead": "Hranilica za arborealne reptile sa jednom providnom čašom. Crni akril sa vakuumskim pričvrstkama za staklo.",
+  "image": "/style/img/oprema/habistat-single-feeding-ledge.webp",
+  "imageAlt": "HabiStat Single Feeding Ledge hranilica za arborealne reptile - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "HabiStat"
+    },
+    {
+      "k": "Dimenzije",
+      "v": "80x60x80mm"
+    },
+    {
+      "k": "Tip",
+      "v": "Hranilica (single)"
+    },
+    {
+      "k": "Namena",
+      "v": "Arborealni reptili"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "HabiStat Single Feeding Ledge je praktična hranilica dizajnirana specijalno za arborealne (drvolike) reptile koji provode većinu vremena na povišenim pozicijama. Izrađena je od kvalitetnog crnog akrila sa jednom providnom čašom koja pruža potpunu 360-stepenu vidljivost sadržaja. Vakuumske pričvrstke omogućavaju sigurno pričvršćivanje za staklene zidove terarijuma bez potrebe za lepkom ili bušenjem, a repozicioniranje je brzo i jednostavno."
+    },
+    {
+      "type": "p",
+      "html": "Providna čaša je odvojiva od platforme, što značajno olakšava čišćenje i punjenje hranom ili vodom. Kompaktne dimenzije od 80x60x80mm čine je idealnom za terarijume svih veličina, bez zauzimanja previše prostora. Čaša može da posluži za voćnu kašu, prah za insekte, vodu ili drugu hranu koju vaši reptili preferiraju."
+    },
+    {
+      "type": "p",
+      "html": "Ovaj model je posebno popularan među vlasnicima crested gekona, koji se u prirodi hrane na povišenim pozicijama i retko silaze na tlo terarijuma. Postavljanjem hranilice na odgovarajuću visinu, simulirate prirodno ponašanje pri hranjenju i smanjujete stres kod životinje. Takođe je pogodna za dnevne gekone, anole i druge arborealne vrste koje preferiraju hranjenje na visini."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Za porudžbinu nas kontaktirajte telefonom ili WhatsApp-om. Dostavljamo u sve gradove Srbije. Lično preuzimanje moguće u Novom Sadu. Za sve informacije o proizvodu i savet za primenu - pozovite ili pišite."
+    }
+  ],
+  "seo": {
+    "title": "HabiStat Single Feeding Ledge | Oprema - NS REPTILES",
+    "description": "HabiStat Single Feeding Ledge - hranilica sa jednom čašom za arborealne reptile. Vakuumske pričvrstke za staklo. NS Reptiles Novi Sad, dostava širom Srbije.",
+    "keywords": "habistat feeding ledge, hranilica za reptile, hranilica za gekone, arborealni reptili, oprema za terarijum, NS Reptiles, Novi Sad, Srbija",
+    "ogTitle": "HabiStat Single Feeding Ledge | Oprema - NS Reptiles",
+    "ogDescription": "HabiStat Single Feeding Ledge - hranilica sa jednom čašom za arborealne reptile. NS Reptiles Novi Sad."
+  },
+  "related": []
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Arcadia CalciumPro Mg",
+  "label": "Suplementi",
+  "lead": "Veterinarski formulisan kalcijum sa magnezijumom u odnosu 9:1 za reptile. Sa B-kompleks vitaminima za optimalno zdravlje kostiju.",
+  "image": "/style/img/oprema/arcadia-calciumpro-mg.webp",
+  "imageAlt": "Arcadia CalciumPro Mg - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "Arcadia"
+    },
+    {
+      "k": "Težina",
+      "v": "80g"
+    },
+    {
+      "k": "Tip",
+      "v": "Kalcijumski prah"
+    },
+    {
+      "k": "Namena",
+      "v": "Reptili"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Arcadia CalciumPro Mg je veterinarski formulisan kalcijumski preparat koji sadrži kalcijum i magnezijum u optimalnom odnosu 9:1. Ovaj odnos je ključan za pravilnu apsorpciju i korištenje kalcijuma u organizmu reptila, što direktno utice na zdravlje i čvrstinu kostiju."
+    },
+    {
+      "type": "p",
+      "html": "Preparat takođe sadrži kompleks B vitamina koji podržava nervni sistem i opšti metabolizam. Koristiti uz adekvatno UVB osvetljenje kako bi reptili mogli da sintetizuju vitamin D3 neophodan za apsorpciju kalcijuma. Primenjuje se posipanjem po živoj hrani ili dopunskoj hrani neposredno pre hranjenja."
+    },
+    {
+      "type": "p",
+      "html": "Redovna upotreba CalciumPro Mg suplementa smanjuje rizik od metaboličke bolesti kostiju (MBD), jedne od najčešćih i najozbiljnijih bolesti kod reptila u zarobljeništvu. Proizvod britanskog brenda Arcadia, poznatog po visokim standardima u industriji opreme za reptile."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Arcadia CalciumPro Mg | Kalcijumski Suplement za Reptile - NS Reptiles",
+    "description": "Arcadia CalciumPro Mg - veterinarski formulisan kalcijum sa magnezijumom u odnosu 9:1 za reptile. B-kompleks vitamini za zdravlje kostiju.",
+    "keywords": "Arcadia CalciumPro Mg, kalcijum za reptile, magnezijum reptili, suplementi za reptile, MBD prevencija",
+    "ogTitle": "Arcadia CalciumPro Mg | NS Reptiles",
+    "ogDescription": "Veterinarski formulisan kalcijum sa magnezijumom u odnosu 9:1 za reptile. Sa B-kompleks vitaminima za optimalno zdravlje kostiju."
+  },
+  "related": [
+    "oprema/arcadia-revitalised3",
+    "oprema/arcadia-earthpro-ca-100g",
+    "oprema/arcadia-earthpro-a",
+    "oprema/arcadia-capro-mg"
+  ]
+}

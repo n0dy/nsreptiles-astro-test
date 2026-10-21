@@ -1,0 +1,70 @@
+{
+  "name": "Gecko Nutrition Mango Papaya",
+  "label": "Hrana",
+  "lead": "Kompletna praškasta ishrana za gekone sa sočnim mangom (13%) i blagom papajom (13%). Jedina varijanta u Gecko Nutrition liniji koja NE sadrži bananu. Veći procenat insekata (14%) u poređenju sa ostalim varijantama. Harmonična tropska eksplozija ukusa. Sirovi protein: 26.7%, sirova mast: 5.3%, kalcijum: 2%. Proizvedeno u Nemačkoj.",
+  "image": "/style/img/oprema/gecko-nutrition-mango-papaya.webp",
+  "imageAlt": "Gecko Nutrition Mango Papaya - hrana za gekone - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "Gecko Nutrition"
+    },
+    {
+      "k": "Tip",
+      "v": "Kompletna ishrana"
+    },
+    {
+      "k": "Težina",
+      "v": "50g"
+    },
+    {
+      "k": "Namena",
+      "v": "Gekoni"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Opis"
+    },
+    {
+      "type": "p",
+      "html": "Gecko Nutrition Mango Papaya je kompletna praškasta ishrana nemačke proizvodnje, specijalno dizajnirana za crested gekone i druge voćojede (frugivorne) reptile. Ova varijanta se izdvaja kao jedina u celoj Gecko Nutrition liniji koja ne sadrži bananu, što je čini idealnim izborom za vlasnike koji žele da pruže raznovrsnost u ishrani ili čiji gekoni preferiraju drugačije ukuse. Umesto banane, formula se oslanja na sočni mango (13%) i blagu papaju (13%), stvarajući harmoničnu tropsku eksploziju ukusa. Posebno je značajno to što ova varijanta sadrži veći procenat insekata - čak 14% u poređenju sa standardnih 11% kod drugih varijanti, što rezultira visim sadržajem sirovog proteina od 26.7%. Proteinska komponenta se sastoji od larvi crnog vojničkog muvca, brašnara i cvrčaka, koji obezbeđuju kompletne proteine sa svim esencijalnim aminokiselinama. Sadržaj sirove masti iznosi 5.3%, a kalcijuma 2%, obezbeđujući uravnotežen nutritivni profil. Papaja je poznata po enzimima koji pomažu varenje, dok mango pruža bogat izvor vitamina A i C."
+    },
+    {
+      "type": "h2",
+      "text": "Priprema i hranjenje"
+    },
+    {
+      "type": "p",
+      "html": "Za pripremu obroka, pomešajte jedan deo praška sa dva dela vode (odnos 1:2) dok ne dobijete homogenu, kremastu masu. Pripremljenu hranu ponudite gekonima u plitkoj posudi tokom večernjih sati, jer su ove životinje najaktivnije noću. Preporučeni raspored hranjenja je 2-3 večeri nedeljno. Obavezno uklonite nepojedenu hranu nakon 24 sata kako biste sprečili razvoj bakterija i očuvali čistoću terarijuma. Kao dodatak kompletnoj ishrani, povremeno ponudite žive insekte posute kalcijumskim suplementom. Neotvoreno pakovanje čuvajte na suvom i hladnom mestu, van domašaja direktne suncave svetlosti."
+    },
+    {
+      "type": "h2",
+      "text": "Pogodno za"
+    },
+    {
+      "type": "p",
+      "html": "Crested gekone i druge voćojede (frugivorne) reptile."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Poručite pozivom ili WhatsApp porukom. Dostava na adresu u bilo kom gradu Srbije. Iz Novog Sada - preuzimanje u radionici. Pišite nam za pomoć pri izboru opreme za vaš terarijum ili akvarijum."
+    }
+  ],
+  "seo": {
+    "title": "Gecko Nutrition Mango Papaya | Hrana za Gekone - NS REPTILES",
+    "description": "Gecko Nutrition Mango Papaya - kompletna praškasta ishrana za gekone sa mangom i papajom, bez banane. 50g. NS Reptiles Novi Sad, dostava širom Srbije.",
+    "keywords": "gecko nutrition mango papaya, hrana za gekone, ishrana za crested gekone, gecko nutrition bez banane, praškasta hrana za reptile, NS Reptiles, Novi Sad, Srbija",
+    "ogDescription": "Kompletna praškasta ishrana za gekone sa mangom i papajom, bez banane. 50g. NS Reptiles Novi Sad, dostava širom Srbije."
+  },
+  "related": [
+    "oprema/gecko-nutrition-mango",
+    "oprema/gecko-nutrition-wild-berry"
+  ]
+}

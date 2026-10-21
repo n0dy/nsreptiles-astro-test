@@ -1,0 +1,251 @@
+---
+import Base from '../layouts/Base.astro';
+import '../styles/animals.css';
+import '../styles/usluge.css';
+import { translationsFor } from '../i18n/routes';
+
+const schema = [
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Akvarijumi za početnike — vodič za odabir i postavku",
+      "description": "Praktičan vodič za početnike koji žele da nabave prvi akvarijum — kako izabrati veličinu, koja oprema je neophodna i kako pravilno postaviti akvarijum.",
+      "author": {
+        "@type": "Organization",
+        "name": "NS Reptiles"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "NS Reptiles",
+        "url": "https://nsreptiles.net"
+      },
+      "url": "https://nsreptiles.net/akvarijumi-za-pocetnike.html",
+      "inLanguage": "sr"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Pocetna",
+          "item": "https://nsreptiles.net/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Akvaristika",
+          "item": "https://nsreptiles.net/akvaristika.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Akvarijumi za pocetnike",
+          "item": "https://nsreptiles.net/akvarijumi-za-pocetnike.html"
+        }
+      ]
+    }
+  ]
+];
+---
+<Base
+  lang="sr"
+  title="Akvarijumi za početnike — vodič za odabir | NS Reptiles"
+  description="Vodič za početnike: kako izabrati pravi akvarijum, koja oprema je potrebna i kako ga pravilno postaviti. Mali akvarijumi od 4L do 45L u Novom Sadu."
+  path="/akvarijumi-za-pocetnike.html"
+  image="/style/img/logo.jpg"
+  ogType="article"
+  ogTitle="Akvarijumi za početnike — vodič | NS Reptiles"
+  ogDescription="Praktičan vodič za odabir prvog akvarijuma — veličina, oprema, postavka i održavanje. NS Reptiles, Novi Sad."
+  translations={translationsFor("/akvarijumi-za-pocetnike.html")}
+  langLinks={{ ...{"en":"/en/aquariums.html","ru":"/ru/aquariums.html"}, ...translationsFor("/akvarijumi-za-pocetnike.html") }}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Vodic za pocetnike</div>
+        <h1>Akvarijumi za početnike</h1>
+        <p>Sve što treba da znate pre kupovine prvog akvarijuma — kako izabrati pravu veličinu, koja oprema je neophodna i kako je pravilno postaviti.</p>
+      </div>
+    </section>
+<nav class="breadcrumb-bar" aria-label="Breadcrumb">
+      <div class="wrap">
+        <ol class="breadcrumb">
+          <li><a href="/">Pocetna</a></li>
+          <li><a href="/akvaristika.html">Akvaristika</a></li>
+          <li aria-current="page">Akvarijumi za početnike</li>
+        </ol>
+      </div>
+    </nav>
+<section class="usl">
+      <div class="wrap">
+
+        <div class="intro-box" style="margin-bottom: 56px;">
+          <div class="eyebrow">Uvod</div>
+          <p>Mali akvarijumi su idealan izbor za sve koji tek počinju sa akvaristikom. Jednostavni su za održavanje, ne zauzimaju mnogo prostora i dostupni su po povoljnim cenama. U NS Reptiles nudimo staklene akvarijume od <strong>4,75L do 45L</strong>, prilagođene svim potrebama početnika.</p>
+        </div>
+
+        <!-- SEKCIJA 1: Izbor akvarijuma -->
+        <div class="proc">
+          <h2 style="margin-bottom: 36px; font-family: 'Oswald', sans-serif; font-size: clamp(1.5rem, 2vw, 2rem); text-transform: uppercase; letter-spacing: .06em; color: var(--ink);">Kako izabrati pravi akvarijum</h2>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Veličina akvarijuma</h3>
+              <p>Najvažnija odluka je izbor veličine. Za početnike preporučujemo akvarijume od <strong>15L do 30L</strong> — dovoljno prostora za ribu, ali lak za održavanje. Manji akvarijumi (ispod 10L) zahtevaju češće menjanje vode jer se brže zagađuju. Naši modeli koji su idealni za start su akvarijum <a href="/akvaristika.html">25x19x20 (9.5L)</a>, akvarijum 30x21x23 (14.5L) i akvarijum 40x25x27 (27L).</p>
+            </div>
+          </div>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Oblik akvarijuma</h3>
+              <p>Pravougaoni akvarijumi su praktičniji od okruglih ili oktagonalnih — lakše je instalirati filter i grejač, a riba ima više prostora za plivanje. Oktagonalni model je atraktivan kao ukras, ali nije idealan za vrste koje vole horizontalan prostor. Preporučujemo ga za manjeg tetrakultura ili za jelena.</p>
+            </div>
+          </div>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Komplet ili sam akvarijum</h3>
+              <p>Za apsolutne početnike, <a href="/akvaristika.html">akvarijum 40x25x27 komplet (27L, 6.500 RSD)</a> dolazi sa svom potrebnom opremom i štedi vreme pri odabiru filtratora, grejača i osvetljenja. Ako već imate opremu ili planirate da je birate posebno, možete kupiti samo akvarijum čija je cena znatno niža.</p>
+            </div>
+          </div>
+
+          <!-- SEKCIJA 2: Oprema -->
+          <h2 style="margin: 48px 0 36px; font-family: 'Oswald', sans-serif; font-size: clamp(1.5rem, 2vw, 2rem); text-transform: uppercase; letter-spacing: .06em; color: var(--ink);">Osnovna oprema</h2>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Filter</h3>
+              <p>Filter je obavezan. Bez njega voda se brzo zamuti i postaje toksična za ribu zbog nagomilavanja amonijaka. Za akvarijume do 30L dovoljni su unutrašnji filteri koji su tihi, jeftini i laki za čišćenje. Birajte filter čiji kapacitet odgovara barem dvostrukom zapreminu akvarijuma — za 27L akvarijum, filter od 50-60 litara na sat je minimalan standard.</p>
+            </div>
+          </div>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Grejač</h3>
+              <p>Većina tropskih vrsta riba zahteva temperaturu vode između 24°C i 28°C. Grejač sa termostatom je neophodan. Za akvarijume do 30L dovoljan je grejač snage 25–50W. Uvek proverite da grejač ostaje potopljen — uključen van vode ošteti se za nekoliko sekundi.</p>
+            </div>
+          </div>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Osvetljenje</h3>
+              <p>Osvetljenje je važno i za ribu i za biljke (ako planirate biljni akvarijum). LED lampe su danas standard — niske potrošnje, ne greju vodu i traju godinama. Za početni akvarijum bez živih biljaka, osvetljenje je pre svega estetska stvar — bira se po jačini i temperaturi svetlosti (topla ili hladna).</p>
+            </div>
+          </div>
+
+          <!-- SEKCIJA 3: Postavka -->
+          <h2 style="margin: 48px 0 36px; font-family: 'Oswald', sans-serif; font-size: clamp(1.5rem, 2vw, 2rem); text-transform: uppercase; letter-spacing: .06em; color: var(--ink);">Postavka akvarijuma</h2>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Supstrat i dekoracije</h3>
+              <p>Pre unošenja ribe operite šljunak ili pesak pod mlazom vode dok voda ne bude bistra. Supstrat sipajte do visine od 3–5 cm. Dekoracije (kamenje, grane, skrovišta) postavljajte pre punjenja vodom kako biste lakše rasporedili elemente. Ostavite ribama slobodan prostor za plivanje.</p>
+            </div>
+          </div>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Ciklus azota — obavezno pre ribe</h3>
+              <p>Novi akvarijum mora proći period biološkog zrenja od <strong>2 do 4 nedelje</strong> pre unošenja ribe. U tom periodu razvijaju se korisne bakterije koje razgrađuju otpadne produkte. Preskakanje ovog koraka je najčešći uzrok uginuća ribe kod početnika. Pratite nivo amonijaka, nitrita i nitrata testovima koji su dostupni u svakoj akvarističkoj radnji.</p>
+            </div>
+          </div>
+
+          <!-- SEKCIJA 4: Odrzavanje -->
+          <h2 style="margin: 48px 0 36px; font-family: 'Oswald', sans-serif; font-size: clamp(1.5rem, 2vw, 2rem); text-transform: uppercase; letter-spacing: .06em; color: var(--ink);">Održavanje</h2>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Nedeljno menjanje vode</h3>
+              <p>Menjajte 20–30% vode jednom nedeljno. Uvek koristite vodu koja je stajala 24 sata (da ispari hlor), ili dodajte deklorinator. Nikada ne menjajte celokupnu vodu odjednom — time uništavate korisne bakterije i resetujete biološku ravnotežu akvarijuma.</p>
+            </div>
+          </div>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Čišćenje filtera</h3>
+              <p>Filter čistite jednom mesečno, ali isključivo u vodi iz akvarijuma — nikada pod slavinom. Hlorisana voda ubija korisne bakterije u sunđeru filtera. Dovoljno je lagano istisnuti sunđer u čaši akvarijske vode da se ukloni grublja nečistoća.</p>
+            </div>
+          </div>
+
+          <!-- SEKCIJA 5: Ceste greske -->
+          <h2 style="margin: 48px 0 36px; font-family: 'Oswald', sans-serif; font-size: clamp(1.5rem, 2vw, 2rem); text-transform: uppercase; letter-spacing: .06em; color: var(--ink);">Ceste greske</h2>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Prepretrpanost riba</h3>
+              <p>Previše riba u premalom akvarijumu je najčešća greška. Opšte pravilo: 1 cm ribe na 1 litar vode. Za akvarijum od 27L to znači max 5–6 riba prosečne veličine od 4–5 cm. Manji akvarijumi su osetljiviji na prenaseljenost.</p>
+            </div>
+          </div>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Preterano hranjenje</h3>
+              <p>Hrana koja ostane na dnu akvarijuma trojan jer u roku od nekoliko sati počinje da se raspada i zagađuje vodu. Hranite ribu jednom ili dva puta dnevno, u količini koju mogu da pojede za 2–3 minuta. Sve što ostane, uklonite mrežicom.</p>
+            </div>
+          </div>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Neprikladne kombinacije vrsta</h3>
+              <p>Nije svaka riba kompatibilna sa drugom. Neke vrste su teritorijalne ili agresivne prema manjim ribama. Pre kupovine, proverite da li su vrste koje planirate kompatibilne po temperaturnim zahtevima, ponašanju i veličini. Naš tim u NS Reptiles uvek može pomoći sa savetom.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<section class="usl-more reveal">
+      <div class="wrap">
+        <div class="usl-more-head">
+          <div class="eyebrow">Korisni linkovi</div>
+          <h2>Pogledajte i <b>ove stranice</b></h2>
+        </div>
+        <div class="usl-more-grid">
+          <a class="usl-link" href="/akvaristika.html">
+            Akvarijumi u ponudi
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+          <a class="usl-link" href="/izrada-akvarijuma.html">
+            Izrada akvarijuma po meri
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+          <a class="usl-link" href="/oprema.html">
+            Oprema za terarijume i akvarijume
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+          <a class="usl-link" href="/cesta-pitanja.html">
+            Cesta pitanja
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+<section class="zcta reveal">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content: center">Imate pitanja?</div>
+        <h2>Pozovite nas ili <b>pissite na WhatsApp</b></h2>
+        <p>Naš tim u NS Reptiles pomoci ce vam da izaberete pravi akvarijum i opremu za vas. Dostupni smo svakog radnog dana od 09:00 do 17:00.</p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474?text=Zanima%20me%20akvarijum%20za%20po%C4%8Detnike" target="_blank" rel="noopener" class="btn" style="background: #fff; color: var(--green-dark)" onclick="gtag('event', 'kontakt_click', {'metod': 'whatsapp'})">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event', 'kontakt_click', {'metod': 'telefon'})">+381 69 330 1474</a>
+        </div>
+      </div>
+    </section>
+
+
+</Base>

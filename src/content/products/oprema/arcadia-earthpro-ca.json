@@ -1,0 +1,61 @@
+{
+  "name": "Arcadia EarthPro-Ca",
+  "label": "Suplementi",
+  "lead": "Čist kalcijum bez D3 iz Arcadia EarthPro linije. Idealan za svakodnevnu upotrebu uz adekvatno UVB osvetljenje.",
+  "image": "/style/img/oprema/proca.webp",
+  "imageAlt": "Arcadia EarthPro-Ca - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "Arcadia"
+    },
+    {
+      "k": "Tip",
+      "v": "Čist kalcijum (bez D3)"
+    },
+    {
+      "k": "Linija",
+      "v": "EarthPro"
+    },
+    {
+      "k": "Primena",
+      "v": "Posipanje po hrani (svakodnevno)"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Arcadia EarthPro-Ca je čist kalcijumski dodatak bez vitamina D3 iz Arcadia EarthPro linije. Dizajniran je za svakodnevnu upotrebu kod reptila koji imaju adekvatno UVB osvetljenje u terarijumu - životinje same sintetizuju vitamin D3 pod UVB svetlom, pa im dodatni D3 u suplementu nije potreban. Posipa se po hrani pre svakog hranjenja za obezbeđivanje optimalnog unosa kalcijuma."
+    },
+    {
+      "type": "p",
+      "html": "Čist kalcijum bez D3 je bezbedniji za svakodnevnu upotrebu jer eliminiše rizik od predoziranja vitaminom D3, koje može dovesti do kalcifikacije organa. Deo je Arcadia EarthPro protokola gde se EarthPro-Ca koristi svakodnevno, a EarthPro-A vitaminski dodatak jednom nedeljno."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Arcadia EarthPro-Ca | Čist Kalcijum za Reptile - NS Reptiles",
+    "description": "Arcadia EarthPro-Ca - čist kalcijum bez D3 za reptile. Idealan za svakodnevnu upotrebu uz adekvatno UVB osvetljenje.",
+    "keywords": "Arcadia EarthPro-Ca, čist kalcijum bez D3, kalcijum za reptile, EarthPro linija, NS Reptiles",
+    "ogTitle": "Arcadia EarthPro-Ca | NS Reptiles",
+    "ogDescription": "Čist kalcijum bez D3 iz Arcadia EarthPro linije. Idealan za svakodnevnu upotrebu uz adekvatno UVB osvetljenje."
+  },
+  "related": [
+    "oprema/arcadia-capro-mg",
+    "oprema/arcadia-earthpro-a",
+    "oprema/arcadia-earthpro-ca-100g",
+    "oprema/arcadia-calciumpro-mg"
+  ]
+}

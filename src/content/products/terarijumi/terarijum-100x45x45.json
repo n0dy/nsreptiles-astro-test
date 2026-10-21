@@ -1,0 +1,81 @@
+{
+  "name": "Terarijum 100x45x45",
+  "label": "Veliki terarijum",
+  "lead": "Stakleni terarijum dimenzija 100x45x45cm. Zapremina 202.5 litara, horizontalni format. Ručna izrada u Novom Sadu.",
+  "image": "/style/img/terrariums/100x45x45.webp",
+  "imageAlt": "Stakleni terarijum 100x45x45cm - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Dužina",
+      "v": "100 cm"
+    },
+    {
+      "k": "Širina",
+      "v": "45 cm"
+    },
+    {
+      "k": "Visina",
+      "v": "45 cm"
+    },
+    {
+      "k": "Zapremina",
+      "v": "~202.5 L"
+    },
+    {
+      "k": "Materijal",
+      "v": "Staklo"
+    },
+    {
+      "k": "Tip",
+      "v": "Horizontalni"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Stakleni terarijum dimenzija 100x45x45cm zapremine 202.5 litara izrađen je od stakla odgovarajuće debljine za ovu veličinu. Spoljašnje stranice obložene su dekorativnom folijom koja se bira pri naručivanju - drvo, bambus, mermer, crna ili bela."
+    },
+    {
+      "type": "p",
+      "html": "Dužina od 100cm i širina od 45cm daju veliku podnu površinu za kopnene vrste koje se kreću po tlu. Dimenzije poda dozvoljavaju postavku grejne tačke na jednom kraju i hladnijeg skloništa na drugom. Mrežice na ventilacionim otvorima propuštaju vazduh ali ne i hranu ili sitne stanovnike terarijuma."
+    },
+    {
+      "type": "h2",
+      "text": "Pogodan za"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Bradate agame",
+        "Loptasti pitoni",
+        "Kopnene kornjače",
+        "Plavi jezičasti skink"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Izrada po meri"
+    },
+    {
+      "type": "p",
+      "html": "Nudimo potpunu prilagodljivost: birate foliju, pozadinu, ventilaciju, i opciono LED osvetljenje ili termostat. Ako ovaj model ne odgovara vašem prostoru, izrađujemo terarijume u bilo kojim dimenzijama. Pozovite za ponudu."
+    }
+  ],
+  "seo": {
+    "title": "Terarijum 100x45x45 | Terarijum - NS Reptiles",
+    "description": "Terarijum 100x45x45 - stakleni terarijum 100x45x45cm. Ručna izrada, dostava širom Srbije. NS Reptiles Novi Sad.",
+    "keywords": "terarijum 100x45x45, terarijum 100x45x45cm, terarijum prodaja, terarijum Novi Sad, NS Reptiles",
+    "ogTitle": "Terarijum 100x45x45 | NS Reptiles"
+  },
+  "related": [
+    "terarijumi/terarijum-100x40x40-3d",
+    "terarijumi/terarijum-100x40x40",
+    "terarijumi/terarijum-100x45x45-lakobel",
+    "terarijumi/terarijum-100x50x50"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "HabiStat Repton 100g (tegla)",
+  "label": "Suplementi",
+  "lead": "Vitaminski, mineralni i aminokiselinski suplement za posipanje insekata. Veće pakovanje u tegli od 100g za redovnu upotrebu. Za sve insektivorne reptile.",
+  "image": "/style/img/oprema/habistat-repton-tegla.webp",
+  "imageAlt": "HabiStat Repton 100g tegla - suplement za insektivorne reptile - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "HabiStat"
+    },
+    {
+      "k": "Težina",
+      "v": "100g (tegla)"
+    },
+    {
+      "k": "Tip",
+      "v": "Vitaminski suplement"
+    },
+    {
+      "k": "Namena",
+      "v": "Insektivorni reptili"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "HabiStat Repton 100g u tegli je veće pakovanje popularnog vitaminskog, mineralnog i aminokiselinskog suplementa namenjenog insektivornim reptilima. Sadrži identičnu formulaciju kao i Repton u kesici od 40g, ali u praktičnoj tegli koja omogućava lakše skladištenje i korišćenje na duži vremenski period. Tegla sa širokim otvorom omogućava jednostavno posipanje insekata bez prosipanja, a čvrst poklopac obezbeđuje da suplement ostane svež i zaštićen od vlage."
+    },
+    {
+      "type": "p",
+      "html": "Repton sadrži vitamine A, kompletni B-kompleks, vitamin C, D3, E i K3, širok spektar minerala i esencijalne aminokiseline. Ova sveobuhvatna formulacija obezbeđuje da insektivorni reptili poput leopard gekona, bradatih agama, hamelona i sličnih vrsta dobijaju sve neophodne mikro-nutrijente kroz hranjenje insektima. Ultra fina granulacija omogućava ravnomerno prianjanje na insekte, što garantuje konzistentnu dozu hranljivih materija pri svakom obroku."
+    },
+    {
+      "type": "p",
+      "html": "Pakovanje od 100g je ekonomičniji izbor za vlasnike koji drže više reptila ili za one koji žele da imaju zalihu suplementa za duži period. Preporučeni režim doziranja ostaje isti kao kod manjeg pakovanja - posipanje insekata na svako osmo hranjenje. Ovo pakovanje je posebno praktično za odgajivace i vlasnike većih kolekcija reptila kojima je potrebna veća količina suplementa."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu. Imate pitanje o ovom proizvodu? Javite nam se - savetujemo besplatno."
+    }
+  ],
+  "seo": {
+    "title": "HabiStat Repton 100g (tegla) | Oprema - NS REPTILES",
+    "description": "HabiStat Repton 100g tegla - vitaminski, mineralni i aminokiselinski suplement za insektivorne reptile. Veće pakovanje za redovnu upotrebu.",
+    "keywords": "habistat repton tegla, repton 100g, suplement za insektivore, vitamini za reptile, posipanje insekata, NS REPTILES, Novi Sad, Srbija",
+    "ogTitle": "HabiStat Repton 100g (tegla) | NS Reptiles",
+    "ogDescription": "Vitaminski, mineralni i aminokiselinski suplement za insektivorne reptile. Veće pakovanje u tegli od 100g za redovnu upotrebu."
+  },
+  "related": []
+}
