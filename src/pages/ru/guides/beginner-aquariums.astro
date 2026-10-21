@@ -1,0 +1,251 @@
+---
+import Base from '../../../layouts/Base.astro';
+import '../../../styles/animals.css';
+import '../../../styles/usluge.css';
+import { translationsFor } from '../../../i18n/routes';
+
+const schema = [
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Аквариумы для начинающих — руководство по выбору и запуску",
+      "description": "Практическое руководство для начинающих, которые хотят завести первый аквариум: как выбрать размер, какое оборудование необходимо и как правильно запустить аквариум.",
+      "author": {
+        "@type": "Organization",
+        "name": "NS Reptiles"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "NS Reptiles",
+        "url": "https://nsreptiles.net"
+      },
+      "url": "https://nsreptiles.net/ru/guides/beginner-aquariums.html",
+      "inLanguage": "ru"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://nsreptiles.net/ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Аквариумы",
+          "item": "https://nsreptiles.net/ru/aquariums.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Аквариумы для начинающих",
+          "item": "https://nsreptiles.net/ru/guides/beginner-aquariums.html"
+        }
+      ]
+    }
+  ]
+];
+---
+<Base
+  lang="ru"
+  title="Аквариум для начинающих: как выбрать | NS Reptiles"
+  description="Руководство для начинающих: как выбрать аквариум, какое оборудование нужно и как его правильно запустить. Небольшие аквариумы от 4 до 45 л в Нови-Саде."
+  path="/ru/guides/beginner-aquariums.html"
+  keywords="аквариум для начинающих, первый аквариум, как выбрать аквариум, маленький аквариум, запуск аквариума, Нови-Сад"
+  image="/style/img/logo.jpg"
+  ogType="article"
+  ogTitle="Аквариумы для начинающих — руководство | NS Reptiles"
+  ogDescription="Практическое руководство по выбору первого аквариума — размер, оборудование, запуск и уход. NS Reptiles, Нови-Сад."
+  translations={translationsFor("/ru/guides/beginner-aquariums.html")}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Руководство для начинающих</div>
+        <h1>Аквариумы для начинающих</h1>
+        <p>Всё, что нужно знать перед покупкой первого аквариума, — как выбрать правильный размер, какое оборудование необходимо и как правильно его запустить.</p>
+      </div>
+    </section>
+<nav class="breadcrumb-bar" aria-label="Навигационная цепочка">
+      <div class="wrap">
+        <ol class="breadcrumb">
+          <li><a href="/ru/">Главная</a></li>
+          <li><a href="/ru/aquariums.html">Аквариумы</a></li>
+          <li aria-current="page">Аквариумы для начинающих</li>
+        </ol>
+      </div>
+    </nav>
+<section class="usl">
+      <div class="wrap">
+
+        <div class="intro-box" style="margin-bottom: 56px;">
+          <div class="eyebrow">Введение</div>
+          <p>Небольшие аквариумы — идеальный выбор для всех, кто только начинает заниматься аквариумистикой. Они просты в уходе, не занимают много места и доступны по выгодным ценам. В NS Reptiles мы предлагаем стеклянные аквариумы объёмом <strong>от 4,75 до 45 л</strong>, подходящие для любых потребностей начинающих.</p>
+        </div>
+
+        <!-- SEKCIJA 1: Izbor akvarijuma -->
+        <div class="proc">
+          <h2 style="margin-bottom: 36px; font-family: 'Oswald', sans-serif; font-size: clamp(1.5rem, 2vw, 2rem); text-transform: uppercase; letter-spacing: .06em; color: var(--ink);">Как выбрать правильный аквариум</h2>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Размер аквариума</h3>
+              <p>Самое важное решение — выбор размера. Начинающим мы рекомендуем аквариумы <strong>от 15 до 30 л</strong> — достаточно места для рыб, но при этом простой уход. Аквариумы поменьше (до 10 л) требуют более частой подмены воды, потому что быстрее загрязняются. Наши модели, идеальные для старта, — аквариум <a href="/ru/aquariums.html">25x19x20 (9.5 л)</a>, аквариум 30x21x23 (14.5 л) и аквариум 40x25x27 (27 л).</p>
+            </div>
+          </div>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Форма аквариума</h3>
+              <p>Прямоугольные аквариумы практичнее круглых или восьмиугольных — в них проще установить фильтр и нагреватель, а у рыб больше места для плавания. Восьмиугольная модель привлекательна как украшение, но не идеальна для видов, которым нужно горизонтальное пространство. Мы рекомендуем её для небольшой группы тетр или для одиночной рыбки.</p>
+            </div>
+          </div>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Комплект или только аквариум</h3>
+              <p>Для абсолютных новичков <a href="/ru/aquariums.html">комплект с аквариумом 40x25x27 (27 л, 6.500 RSD)</a> поставляется со всем необходимым оборудованием и экономит время на выборе фильтра, нагревателя и освещения. Если у вас уже есть оборудование или вы планируете подбирать его отдельно, можно купить только аквариум — он стоит значительно дешевле.</p>
+            </div>
+          </div>
+
+          <!-- SEKCIJA 2: Oprema -->
+          <h2 style="margin: 48px 0 36px; font-family: 'Oswald', sans-serif; font-size: clamp(1.5rem, 2vw, 2rem); text-transform: uppercase; letter-spacing: .06em; color: var(--ink);">Основное оборудование</h2>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Фильтр</h3>
+              <p>Фильтр обязателен. Без него вода быстро мутнеет и становится токсичной для рыб из-за накопления аммиака. Для аквариумов до 30 л достаточно внутренних фильтров — они тихие, недорогие и легко чистятся. Выбирайте фильтр, производительность которого как минимум вдвое превышает объём аквариума: для аквариума на 27 л минимальный стандарт — фильтр на 50-60 литров в час.</p>
+            </div>
+          </div>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Нагреватель</h3>
+              <p>Большинству тропических видов рыб нужна температура воды от 24°C до 28°C. Нагреватель с терморегулятором необходим. Для аквариумов до 30 л достаточно нагревателя мощностью 25–50W. Всегда следите, чтобы нагреватель оставался под водой, — включённый вне воды, он выходит из строя за несколько секунд.</p>
+            </div>
+          </div>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Освещение</h3>
+              <p>Освещение важно и для рыб, и для растений (если вы планируете аквариум с растениями). LED-лампы сегодня стандарт — они потребляют мало энергии, не нагревают воду и служат годами. Для первого аквариума без живых растений освещение — прежде всего вопрос эстетики: его выбирают по яркости и цветовой температуре (тёплый или холодный свет).</p>
+            </div>
+          </div>
+
+          <!-- SEKCIJA 3: Postavka -->
+          <h2 style="margin: 48px 0 36px; font-family: 'Oswald', sans-serif; font-size: clamp(1.5rem, 2vw, 2rem); text-transform: uppercase; letter-spacing: .06em; color: var(--ink);">Запуск аквариума</h2>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Грунт и декорации</h3>
+              <p>Перед запуском рыб промойте гравий или песок под струёй воды, пока вода не станет прозрачной. Засыпьте грунт слоем 3–5 см. Декорации (камни, коряги, укрытия) расставляйте до заполнения водой — так проще расположить элементы. Оставьте рыбам свободное пространство для плавания.</p>
+            </div>
+          </div>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Азотный цикл — обязательно до заселения рыб</h3>
+              <p>Новый аквариум должен пройти период биологического созревания <strong>от 2 до 4 недель</strong> до заселения рыб. За это время развиваются полезные бактерии, которые перерабатывают продукты жизнедеятельности. Пропуск этого шага — самая частая причина гибели рыб у начинающих. Следите за уровнем аммиака, нитритов и нитратов с помощью тестов, которые продаются в любом зоомагазине для аквариумистов.</p>
+            </div>
+          </div>
+
+          <!-- SEKCIJA 4: Odrzavanje -->
+          <h2 style="margin: 48px 0 36px; font-family: 'Oswald', sans-serif; font-size: clamp(1.5rem, 2vw, 2rem); text-transform: uppercase; letter-spacing: .06em; color: var(--ink);">Уход</h2>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Еженедельная подмена воды</h3>
+              <p>Меняйте 20–30% воды раз в неделю. Всегда используйте воду, отстоянную 24 часа (чтобы выветрился хлор), или добавляйте кондиционер для удаления хлора. Никогда не меняйте всю воду сразу — так вы уничтожите полезные бактерии и нарушите биологическое равновесие аквариума.</p>
+            </div>
+          </div>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Чистка фильтра</h3>
+              <p>Чистите фильтр раз в месяц, но только в воде из аквариума — никогда под краном. Хлорированная вода убивает полезные бактерии в губке фильтра. Достаточно слегка отжать губку в стакане аквариумной воды, чтобы удалить крупную грязь.</p>
+            </div>
+          </div>
+
+          <!-- SEKCIJA 5: Ceste greske -->
+          <h2 style="margin: 48px 0 36px; font-family: 'Oswald', sans-serif; font-size: clamp(1.5rem, 2vw, 2rem); text-transform: uppercase; letter-spacing: .06em; color: var(--ink);">Частые ошибки</h2>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Перенаселённость</h3>
+              <p>Слишком много рыб в слишком маленьком аквариуме — самая частая ошибка. Общее правило: 1 см рыбы на 1 литр воды. Для аквариума на 27 л это максимум 5–6 рыб среднего размера 4–5 см. Маленькие аквариумы более чувствительны к перенаселённости.</p>
+            </div>
+          </div>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Перекармливание</h3>
+              <p>Корм, оставшийся на дне аквариума, вреден, потому что уже через несколько часов начинает разлагаться и загрязнять воду. Кормите рыб один или два раза в день в таком количестве, которое они съедают за 2–3 минуты. Всё, что осталось, уберите сачком.</p>
+            </div>
+          </div>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Несовместимые сочетания видов</h3>
+              <p>Не все рыбы совместимы друг с другом. Некоторые виды территориальны или агрессивны к более мелким рыбам. Перед покупкой проверьте, совместимы ли выбранные виды по требованиям к температуре, поведению и размеру. Наша команда в NS Reptiles всегда готова помочь советом.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<section class="usl-more reveal">
+      <div class="wrap">
+        <div class="usl-more-head">
+          <div class="eyebrow">Полезные ссылки</div>
+          <h2>Посмотрите также <b>эти страницы</b></h2>
+        </div>
+        <div class="usl-more-grid">
+          <a class="usl-link" href="/ru/aquariums.html">
+            Аквариумы в ассортименте
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+          <a class="usl-link" href="/ru/custom-aquariums.html">
+            Изготовление аквариумов на заказ
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+          <a class="usl-link" href="/ru/equipment.html">
+            Оборудование для террариумов и аквариумов
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+          <a class="usl-link" href="/ru/faq.html">
+            Частые вопросы
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+<section class="zcta reveal">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content: center">Есть вопросы?</div>
+        <h2>Позвоните нам или <b>напишите в WhatsApp</b></h2>
+        <p>Наша команда в NS Reptiles поможет вам выбрать подходящий аквариум и оборудование. Мы на связи каждый рабочий день с 09:00 до 17:00.</p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474?text=%D0%9C%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%B0%D0%BA%D0%B2%D0%B0%D1%80%D0%B8%D1%83%D0%BC%20%D0%B4%D0%BB%D1%8F%20%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%B0%D1%8E%D1%89%D0%B8%D1%85" target="_blank" rel="noopener" class="btn" style="background: #fff; color: var(--green-dark)" onclick="gtag('event', 'kontakt_click', {'metod': 'whatsapp'})">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event', 'kontakt_click', {'metod': 'telefon'})">+381 69 330 1474</a>
+        </div>
+      </div>
+    </section>
+
+
+</Base>

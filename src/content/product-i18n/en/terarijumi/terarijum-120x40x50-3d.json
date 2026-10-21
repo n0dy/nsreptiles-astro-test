@@ -1,0 +1,77 @@
+{
+  "slug": "terrarium-120x40x50-3d",
+  "name": "Terrarium 120x40x50 +3D",
+  "label": "Large terrarium",
+  "lead": "Glass terrarium measuring 120x40x50 cm with a handmade 3D background. Volume: 240.0 liters, horizontal format. Handmade in Novi Sad.",
+  "imageAlt": "Terrarium 120x40x50 +3D - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "120 cm"
+    },
+    {
+      "k": "Width",
+      "v": "40 cm"
+    },
+    {
+      "k": "Height",
+      "v": "50 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~240.0 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "3D background",
+      "v": "Yes"
+    },
+    {
+      "k": "Type",
+      "v": "Horizontal"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 120x40x50 cm glass terrarium with a volume of 240 liters comes with a handmade 3D background that gives the interior the look of a natural habitat. The polystyrene background is sculpted as rock, tree bark or cave relief, and every piece is unique because it is made by hand in our workshop."
+    },
+    {
+      "type": "p",
+      "html": "A length of 120 cm and a width of 40 cm provide a large floor area for ground-dwelling species. The floor dimensions allow a basking spot at one end and a cooler hide at the other. The ventilation openings are placed to create natural airflow from bottom to top, which maintains optimal humidity."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Bearded dragons",
+        "Ball pythons",
+        "Tortoises",
+        "Blue-tongued skinks"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "When ordering, you choose the decorative film, the 3D background style and the ventilation type. Non-standard dimensions, LED lighting and a thermostat are available as options. Call us or message us on WhatsApp for full details. Delivery across Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Large Terrarium 120x40x50 with 3D Background | NS Reptiles",
+    "description": "Large glass terrarium 120x40x50 cm (240.0 L) with a handmade 3D background, horizontal format. Suitable for bearded dragons and ball pythons.",
+    "keywords": "glass terrarium 120x40x50, terrarium 120x40x50 cm, terrarium with 3D background, large terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

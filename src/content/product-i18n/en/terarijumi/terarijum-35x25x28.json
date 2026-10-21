@@ -1,0 +1,81 @@
+{
+  "slug": "terrarium-35x25x28",
+  "name": "Terrarium 35x25x28",
+  "label": "Small terrarium",
+  "lead": "Glass terrarium measuring 35x25x28 cm. Volume: 24.5 liters, horizontal format. A clean glass space with decorative film on the outside that helps the terrarium blend into your home. Handmade in Novi Sad.",
+  "imageAlt": "Glass terrarium 35x25x28 cm - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "35 cm"
+    },
+    {
+      "k": "Width",
+      "v": "25 cm"
+    },
+    {
+      "k": "Height",
+      "v": "28 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~24.5 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "3D background",
+      "v": "No"
+    },
+    {
+      "k": "Ventilation",
+      "v": "Mesh"
+    },
+    {
+      "k": "Type",
+      "v": "Horizontal"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "At 35x25x28 cm and 24.5 liters, this terrarium offers a clean glass space with decorative film on the outside. The film is functional: it stops animals from seeing their reflection and reduces stress, while helping the terrarium blend into your home."
+    },
+    {
+      "type": "p",
+      "html": "The horizontal layout with 35 cm of length gives a floor area where a basking zone, a cool zone and a hiding area are easy to arrange. This layout is key for reptiles because it lets them choose the temperature they are exposed to. The ventilation system with a protective mesh keeps fresh air flowing and prevents moisture buildup."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Leopard geckos and fat-tailed geckos",
+        "Crested geckos",
+        "Smaller snakes (corn snake)",
+        "Smaller chameleon species"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "If the standard dimensions don't suit you, we build custom terrariums. Choose the size, film pattern, background style and extras such as LED lighting or a thermostat. Contact us for a quote. We deliver across Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Glass Terrarium 35x25x28 cm, 24.5 L | NS Reptiles",
+    "description": "Small glass terrarium 35x25x28 cm (24.5 L), horizontal format, with decorative film. Suitable for leopard geckos and fat-tailed geckos, crested geckos.",
+    "keywords": "glass terrarium 35x25x28, terrarium 35x25x28 cm, small terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

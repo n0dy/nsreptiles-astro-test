@@ -1,0 +1,44 @@
+{
+  "slug": "aquarium-octagon",
+  "name": "Octagon Aquarium",
+  "label": "Aquarium",
+  "lead": "An octagonal (eight-sided) aquarium. An interesting design that stands out in any space. Handmade in Novi Sad.",
+  "imageAlt": "Octagon Aquarium - NS Reptiles",
+  "specs": [
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "Shape",
+      "v": "Octagonal"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The octagonal (eight-sided) aquarium is an interesting design solution that stands out in any space. Its unusual shape lets you view the underwater world from several angles, and quality glass with precise silicone joints guarantees long-lasting watertightness."
+    },
+    {
+      "type": "p",
+      "html": "The octagonal shape provides enough room for a few small freshwater fish or shrimp. You can equip it with a small filter, a heater and LED lighting, and plants such as anubias or Java moss complement this type of aquarium perfectly."
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "We build custom aquariums: any dimensions, glass thickness matched to the volume, optional openings for filters and heaters. Call us or message us on WhatsApp for a consultation and a price. Delivery to all cities in Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Octagon Glass Aquarium, Handmade | NS Reptiles",
+    "description": "Octagonal glass aquarium with an eight-sided shape that stands out in any space. Handmade in Novi Sad, custom sizes, delivery across Serbia.",
+    "keywords": "octagon aquarium, octagonal glass aquarium, eight-sided aquarium, custom aquarium Serbia, aquarium Novi Sad, NS Reptiles"
+  }
+}

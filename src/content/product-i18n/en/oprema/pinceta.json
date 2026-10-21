@@ -1,0 +1,48 @@
+{
+  "slug": "feeding-tweezers",
+  "name": "Tweezers",
+  "label": "Equipment",
+  "lead": "Tweezers for feeding reptiles. Allow safe feeding without the risk of bites.",
+  "imageAlt": "Tweezers - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Feeding tweezers"
+    },
+    {
+      "k": "Material",
+      "v": "Metal"
+    },
+    {
+      "k": "Intended for",
+      "v": "Feeding reptiles"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "Metal reptile feeding tweezers are a practical, essential tool for every reptile owner that let you feed your pets safely. They are long enough to keep a safe distance between your hand and the animal during feeding, which greatly reduces the risk of an accidental bite. They are especially useful for feeding species with a strong grabbing reflex, such as bearded dragons, tegus or larger geckos."
+    },
+    {
+      "type": "p",
+      "html": "With tweezers you can offer food precisely - insects, pieces of fruit or other treats - right in front of the animal, stimulating its hunting instinct and making feeding more interactive. The rounded tips prevent injury to the animal during feeding. They are also useful for placing food in dishes inside the terrarium or removing leftover food. They are easy to clean and maintain, and the durable metal guarantees long-lasting use."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "To order, contact us by phone or WhatsApp. We deliver to all towns in Serbia. In-person pickup is available in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Reptile Feeding Tweezers | Equipment - NS Reptiles",
+    "description": "Metal reptile feeding tweezers. Feed your reptiles safely without the risk of bites, with rounded tips. NS Reptiles, Novi Sad, Serbia.",
+    "keywords": "feeding tweezers, reptile feeding tweezers, feeding tongs, terrarium equipment, reptile supplies, NS Reptiles, Novi Sad"
+  }
+}

@@ -125,6 +125,13 @@ import { translationsFor } from '../../i18n/routes';
     </section>
 
 <script is:inline slot="after">
+      (function () {
+        const komplet = new URLSearchParams(location.search).get('komplet');
+        if (!komplet) return;
+        const msg = document.getElementById('kMsg');
+        if (!msg.value.trim()) msg.value = 'Hello,\n\nI am interested in the starter kit "' + komplet + '". Please send me more information about availability and pickup.\n\nThank you!';
+        document.getElementById('kForm').scrollIntoView({ block: 'center' });
+      })();
       document.getElementById('kSubmit').addEventListener('click', async () => {
         const name = document.getElementById('kName').value.trim();
         const email = document.getElementById('kEmail').value.trim();

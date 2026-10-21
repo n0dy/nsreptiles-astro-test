@@ -1,0 +1,56 @@
+{
+  "slug": "arcadia-calciumpro-mg",
+  "name": "Arcadia CalciumPro Mg",
+  "label": "Supplements",
+  "lead": "Veterinary-formulated calcium with magnesium in a 9:1 ratio for reptiles. With B-complex vitamins for optimal bone health.",
+  "imageAlt": "Arcadia CalciumPro Mg - NS Reptiles",
+  "specs": [
+    {
+      "k": "Brand",
+      "v": "Arcadia"
+    },
+    {
+      "k": "Weight",
+      "v": "80g"
+    },
+    {
+      "k": "Type",
+      "v": "Calcium powder"
+    },
+    {
+      "k": "Intended for",
+      "v": "Reptiles"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "Arcadia CalciumPro Mg is a veterinary-formulated calcium supplement that contains calcium and magnesium in an optimal 9:1 ratio. This ratio is key to the proper absorption and use of calcium in a reptile's body, which directly affects bone health and strength."
+    },
+    {
+      "type": "p",
+      "html": "The supplement also contains a B-vitamin complex that supports the nervous system and overall metabolism. Use it with adequate UVB lighting so reptiles can synthesize the vitamin D3 needed to absorb calcium. Apply by dusting it over live food or supplementary food right before feeding."
+    },
+    {
+      "type": "p",
+      "html": "Regular use of CalciumPro Mg reduces the risk of metabolic bone disease (MBD), one of the most common and most serious diseases in captive reptiles. Made by the British brand Arcadia, known for its high standards in the reptile equipment industry."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Arcadia CalciumPro Mg | Reptile Calcium Supplement",
+    "description": "Arcadia CalciumPro Mg: veterinary-formulated calcium with magnesium in a 9:1 ratio for reptiles, plus B-complex vitamins for strong, healthy bones.",
+    "keywords": "Arcadia CalciumPro Mg, calcium for reptiles, reptile magnesium, reptile supplements, MBD prevention"
+  }
+}

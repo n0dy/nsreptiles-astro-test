@@ -1,0 +1,77 @@
+{
+  "slug": "terrarium-80x30x120-3d",
+  "name": "Terrarium 80x30x120 +3D",
+  "label": "Large terrarium",
+  "lead": "Glass terrarium measuring 80x30x120 cm with a handmade 3D background. Volume: 288.0 liters, vertical format. Handmade in Novi Sad.",
+  "imageAlt": "Glass terrarium 80x30x120 cm with 3D background - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "80 cm"
+    },
+    {
+      "k": "Width",
+      "v": "30 cm"
+    },
+    {
+      "k": "Height",
+      "v": "120 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~288.0 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "3D background",
+      "v": "Yes"
+    },
+    {
+      "k": "Type",
+      "v": "Vertical"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 80x30x120 cm terrarium (288 L) comes with a polystyrene 3D background that faithfully reproduces the texture of stone or bark. Hand-sculpted and painted in natural tones, the background is more than decoration: it adds surfaces for climbing and hiding."
+    },
+    {
+      "type": "p",
+      "html": "The vertical orientation (120 cm tall) makes this terrarium suitable for arboreal animals, which live in tree canopies and on trunks in the wild. You can add branches, cork and artificial plants to recreate a vertical habitat. The ventilation system with a protective mesh keeps fresh air flowing and prevents moisture buildup."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Chameleons",
+        "Green tree python",
+        "Emerald tree boa",
+        "Crested geckos (pair)"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "If the standard dimensions don't suit you, we build custom terrariums. Choose the size, film pattern, background style and extras such as LED lighting or a thermostat. Contact us for a quote. We deliver across Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Terrarium 80x30x120 with 3D Background | NS Reptiles",
+    "description": "Large glass terrarium 80x30x120 cm (288.0 L) with a handmade 3D background, vertical format. Suitable for chameleons and green tree python.",
+    "keywords": "glass terrarium 80x30x120, terrarium 80x30x120 cm, terrarium with 3D background, large terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

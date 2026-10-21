@@ -1,0 +1,44 @@
+{
+  "slug": "heat-mat",
+  "name": "Heat mat",
+  "label": "Equipment",
+  "lead": "Heat mat for warming the bottom of a terrarium. Heats the substrate evenly, ideal for species that need heat from below.",
+  "imageAlt": "Heat mat - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Heat mat / heating film"
+    },
+    {
+      "k": "Intended for",
+      "v": "Heating the terrarium floor"
+    },
+    {
+      "k": "Note",
+      "v": "Available in several sizes"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "A heat mat (heating film) is an efficient way to warm the bottom of a terrarium. It is placed under the terrarium and heats the substrate evenly, which is especially important for species that need heat from below - so-called \"belly heat\". Leopard geckos, for example, use heat from the ground to digest their food, so this type of heating is essential for them. The heat mat should cover about one third of the terrarium floor so the animal can move to the cooler side when needed. We recommend using it together with a thermostat that keeps the temperature stable and prevents overheating. It is available in several sizes, so you can choose the right one for your terrarium."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Terrarium Heat Mat | Under-Tank Heater - NS Reptiles",
+    "description": "Heat mat for warming the terrarium floor. Heats the substrate evenly, ideal for species that need belly heat. NS Reptiles, Novi Sad, Serbia.",
+    "keywords": "heat mat, under tank heater, terrarium heat mat, reptile heating, terrarium equipment, NS Reptiles, Novi Sad"
+  }
+}

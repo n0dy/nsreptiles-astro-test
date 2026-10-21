@@ -96,7 +96,34 @@ export const TRANSLATIONS: Group[] = [
   }
 ];
 
+// Dodatne grupe prevedenih strana: src/i18n/routes/*.json (niz grupa {sr, en, ru})
+const extra = Object.values(
+  import.meta.glob<Group[]>('./routes/*.json', { eager: true, import: 'default' })
+).flat();
+
+// Proizvodi: postoje na en/ru kad postoji fajl u content/product-i18n/<lang>/
+const EN_PRODUCT_CAT: Record<string, string> = { terarijumi: 'terrariums', akvarijumi: 'aquariums', oprema: 'equipment' };
+const enFiles = import.meta.glob<{ slug?: string }>('../content/product-i18n/en/**/*.json', { eager: true, import: 'default' });
+const ruFiles = new Set(
+  Object.keys(import.meta.glob('../content/product-i18n/ru/**/*.json')).map((k) => k.replace('/ru/', '/en/'))
+);
+export const PRODUCT_GROUPS: Group[] = Object.entries(enFiles).flatMap(([file, data]) => {
+  const m = file.match(/\/en\/([a-z]+)\/([^/]+)\.json$/);
+  if (!m || !data.slug) return [];
+  const [, cat, srSlug] = m;
+  const loc = `/products/${EN_PRODUCT_CAT[cat]}/${data.slug}.html`;
+  return [{ sr: `/proizvodi/${cat}/${srSlug}.html`, en: `/en${loc}`, ...(ruFiles.has(file) ? { ru: `/ru${loc}` } : {}) }];
+});
+
+// grupe sa istom sr stranom (npr. en i ru iz razlicitih fajlova) spajaju se u jednu
+const merged = new Map<string, Group>();
+for (const g of [...TRANSLATIONS, ...extra, ...PRODUCT_GROUPS]) {
+  const key = g.sr ?? g.en!;
+  merged.set(key, { ...merged.get(key), ...g });
+}
+export const ALL_GROUPS = [...merged.values()];
+
 const index = new Map<string, Group>();
-for (const g of TRANSLATIONS) for (const p of Object.values(g)) index.set(p!, g);
+for (const g of ALL_GROUPS) for (const p of Object.values(g)) index.set(p!, g);
 
 export const translationsFor = (path: string): Group => index.get(path) ?? {};

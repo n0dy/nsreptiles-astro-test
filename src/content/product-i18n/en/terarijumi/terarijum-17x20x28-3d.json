@@ -1,0 +1,81 @@
+{
+  "slug": "terrarium-17x20x28-3d",
+  "name": "Terrarium 17x20x28 +3D",
+  "label": "Small terrarium",
+  "lead": "Glass terrarium measuring 17x20x28 cm with a handmade 3D background. Volume: 9.5 liters, vertical format. Handmade in Novi Sad.",
+  "imageAlt": "Glass terrarium 17x20x28 cm with 3D background - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "17 cm"
+    },
+    {
+      "k": "Width",
+      "v": "20 cm"
+    },
+    {
+      "k": "Height",
+      "v": "28 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~9.5 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "3D background",
+      "v": "Yes"
+    },
+    {
+      "k": "Ventilation",
+      "v": "Mesh"
+    },
+    {
+      "k": "Type",
+      "v": "Vertical"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 17x20x28 cm glass terrarium with a volume of 9.5 liters comes with a handmade 3D background that gives the interior the look of a natural habitat. The polystyrene background is sculpted as rock, tree bark or cave relief, and every piece is unique because it is made by hand in our workshop."
+    },
+    {
+      "type": "p",
+      "html": "The vertical format (a height of 28 cm, greater than the 17 cm length) is meant for arboreal species that spend most of their time on branches and leaves. The height leaves room for branches, vines and plants at different levels. Ventilation is provided by mesh openings that allow airflow and humidity control inside the terrarium."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Day geckos (juveniles)",
+        "Jumping spiders and tarantulas",
+        "Mantises and stick insects",
+        "Smaller frogs"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "If the standard dimensions don't suit you, we build custom terrariums. Choose the size, film pattern, background style and extras such as LED lighting or a thermostat. Contact us for a quote. We deliver across Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Vertical Terrarium 17x20x28 with 3D Background | NS Reptiles",
+    "description": "Small glass terrarium 17x20x28 cm (9.5 L) with a handmade 3D background, vertical format. Suitable for young day geckos, jumping spiders and tarantulas.",
+    "keywords": "glass terrarium 17x20x28, terrarium 17x20x28 cm, terrarium with 3D background, small terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

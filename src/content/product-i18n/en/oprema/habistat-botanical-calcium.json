@@ -1,0 +1,56 @@
+{
+  "slug": "habistat-botanical-calcium-125g",
+  "name": "HabiStat Botanical Calcium 125g",
+  "label": "Supplements",
+  "lead": "Calcium carbonate enriched with botanical herbs and flowers, with vitamins A, D3 and E. Intended for tortoises, iguanas and bearded dragons.",
+  "imageAlt": "HabiStat Botanical Calcium 125g - calcium with herbs for reptiles - NS Reptiles",
+  "specs": [
+    {
+      "k": "Brand",
+      "v": "HabiStat"
+    },
+    {
+      "k": "Weight",
+      "v": "125g"
+    },
+    {
+      "k": "Type",
+      "v": "Calcium supplement"
+    },
+    {
+      "k": "Intended for",
+      "v": "Herbivorous reptiles"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Description"
+    },
+    {
+      "type": "p",
+      "html": "HabiStat Botanical Calcium is a unique calcium supplement that contains 29% calcium carbonate enriched with carefully selected botanical herbs and flowers. Its ingredients include echinacea, nettle, yarrow, plantain, milk thistle, dandelion, cactus, hibiscus, mulberry leaf and bee pollen, which together provide natural nutritional support for your reptiles. This supplement is also enriched with vitamins A, D3 and E, which are essential for proper calcium metabolism and bone health."
+    },
+    {
+      "type": "p",
+      "html": "Botanical Calcium is specially formulated for herbivorous reptiles such as tortoises, iguanas and bearded dragons. Dust it over vegetables and fruit before feeding to make sure your pets get the calcium and vitamins they need through their daily diet. Note that this product is not intended for insect-eating reptile species - for them, HabiStat Pure Calcium or HabiStat Repton is recommended."
+    },
+    {
+      "type": "p",
+      "html": "The natural ingredients in this supplement not only provide calcium but also contribute to your animals' overall health thanks to the antioxidant and anti-inflammatory properties of herbs such as echinacea and nettle. Regular use of this supplement helps prevent metabolic bone disease, one of the most common health problems in captive reptiles."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "All equipment can be ordered by phone or WhatsApp message. Courier delivery across Serbia, in-person pickup in Novi Sad. For questions about the product, compatibility or recommendations for your animal - get in touch."
+    }
+  ],
+  "seo": {
+    "title": "HabiStat Botanical Calcium 125g | Tortoise Calcium",
+    "description": "HabiStat Botanical Calcium 125g: calcium carbonate with botanical herbs and vitamins A, D3 and E. For tortoises, iguanas and bearded dragons.",
+    "keywords": "habistat botanical calcium, botanical calcium for reptiles, tortoise calcium, iguana calcium, reptile supplement, NS Reptiles, Novi Sad, Serbia"
+  }
+}

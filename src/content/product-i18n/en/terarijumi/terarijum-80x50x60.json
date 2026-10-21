@@ -1,0 +1,73 @@
+{
+  "slug": "terrarium-80x50x60",
+  "name": "Terrarium 80x50x60",
+  "label": "Large terrarium",
+  "lead": "Glass terrarium measuring 80x50x60 cm. Volume: 240.0 liters, horizontal format. Handmade in Novi Sad.",
+  "imageAlt": "Terrarium 80x50x60 - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "80 cm"
+    },
+    {
+      "k": "Width",
+      "v": "50 cm"
+    },
+    {
+      "k": "Height",
+      "v": "60 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~240.0 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "Type",
+      "v": "Horizontal"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This glass terrarium (80x50x60 cm, 240 L) comes with exterior decorative film in a pattern of your choice. The glass gives a clear view of the inside, while film on three sides gives the animals a sense of security."
+    },
+    {
+      "type": "p",
+      "html": "With a floor area of 80x50 cm, this terrarium allows natural movement for ground-dwelling species and proper temperature zoning: a warm spot under the spot lamp and a cooler area on the opposite side. The ventilation system with a protective mesh keeps fresh air flowing and prevents moisture buildup."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Bearded dragons",
+        "Tortoises (Hermann's, Horsfield's)",
+        "Ball pythons and kingsnakes",
+        "Blue-tongued skinks"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "When ordering, you choose the film pattern and the shape of the 3D background. We handmake all our terrariums in Novi Sad, so customization is always possible, from dimensions to the way it opens. We ship by courier throughout Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Glass Terrarium 80x50x60 cm, 240.0 L | NS Reptiles",
+    "description": "Large glass terrarium 80x50x60 cm (240.0 L), horizontal format, with decorative film. Suitable for bearded dragons and tortoises. Delivery across Serbia.",
+    "keywords": "glass terrarium 80x50x60, terrarium 80x50x60 cm, large terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

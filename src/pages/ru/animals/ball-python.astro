@@ -1,0 +1,278 @@
+---
+import Base from '../../../layouts/Base.astro';
+import '../../../styles/animals.css';
+import '../../../styles/usluge.css';
+import '../../../styles/oprema.css';
+import { translationsFor } from '../../../i18n/routes';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Королевский питон — полное руководство по разведению и уходу",
+    "description": "Всё, что нужно знать о королевском питоне: кормление, террариум, температура, здоровье и размножение.",
+    "author": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "url": "https://nsreptiles.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nsreptiles.net/style/img/logo.jpg"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://nsreptiles.net/ru/animals/ball-python.html"
+    },
+    "image": "https://nsreptiles.net/style/img/gallery/5.jpg"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Главная",
+        "item": "https://nsreptiles.net/ru/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Животные",
+        "item": "https://nsreptiles.net/ru/animals.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Королевский питон",
+        "item": "https://nsreptiles.net/ru/animals/ball-python.html"
+      }
+    ]
+  }
+];
+---
+<Base
+  lang="ru"
+  title="Королевский питон — уход и разведение | NS Reptiles"
+  description="Руководство по королевскому питону: террариум, кормление, температура и уход. Спокойная змея, идеальная для начинающих. Советы специалистов из Нови-Сада."
+  keywords="королевский питон, королевский питон уход, королевский питон содержание, королевский питон кормление, террариум для королевского питона, королевский питон купить Нови-Сад, змея для начинающих, NS Reptiles"
+  path="/ru/animals/ball-python.html"
+  image="/style/img/gallery/5.jpg"
+  ogType="article"
+  ogDescription="Руководство по королевскому питону: террариум, кормление, температура и уход. Спокойная змея, идеальная для начинающих. NS Reptiles, Нови-Сад."
+  active="animals"
+  translations={translationsFor("/ru/animals/ball-python.html")}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Змеи</div>
+        <h1>Королевский питон</h1>
+        <p>Одна из самых популярных змей в террариумистике — спокойная, ручная и идеальная для начинающих. Доступна в широком спектре окрасов и пёстрых морф.</p>
+      </div>
+    </section>
+<section class="pd-crumbs">
+      <div class="wrap">
+        <nav class="pd-breadcrumb" aria-label="Навигационная цепочка">
+          <a href="/ru/">Главная</a>
+          <span class="sep">›</span>
+          <a href="/ru/animals.html">Животные</a>
+          <span class="sep">›</span>
+          <span class="cur" aria-current="page">Королевский питон</span>
+        </nav>
+      </div>
+    </section>
+<section class="animal-photo" style="background: var(--bg); padding: 24px 0 0; line-height: 0;">
+      <div class="wrap">
+        <img src="/style/img/gallery/5.jpg" alt="Королевский питон в террариуме — NS Reptiles, Нови-Сад" loading="eager" width="1248" height="832" style="width: 100%; height: auto; display: block; max-height: 520px; object-fit: cover;">
+      </div>
+    </section>
+<section class="intro">
+      <div class="wrap">
+        <div class="intro-box reveal">
+          <div class="eyebrow">О виде</div>
+          <p>Королевский питон — одна из самых популярных змей в террариумистике благодаря спокойному нраву и доступности разных морф. Спокойные и ручные по натуре, они легко привыкают к рукам и редко проявляют агрессию — подходят для начинающих. Благодаря селекции они доступны в широком спектре окрасов и узоров.</p>
+        </div>
+      </div>
+    </section>
+<section class="zoo" style="padding-top: 40px;">
+      <div class="wrap">
+
+        <!-- Происхождение и среда обитания -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Происхождение и <b>среда обитания</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Происхождение</h3>
+            <p>Западная и Центральная Африка — саванны и лесные опушки Ганы, Нигерии, Камеруна и соседних стран.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Среда обитания</h3>
+            <p>Сухие районы с растительностью, часто вблизи водоёмов. Днём прячутся в норах или под камнями, а активны в сумерках и ночью.</p>
+          </div>
+        </div>
+
+        <!-- Внешний вид и поведение -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Внешний вид и <b>поведение</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Размер и внешний вид</h3>
+            <p>Длина: 120–150 см. Широкий спектр окрасов и узоров благодаря селекции. Стройное тело, голова немного шире шеи, брюхо с характерным узором.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Поведение</h3>
+            <p>Активны в основном ночью, но могут быть активны и днём. Спокойные и ручные по натуре, легко привыкают к рукам. Редко проявляют агрессию.</p>
+          </div>
+        </div>
+
+        <!-- Террариум и субстрат -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Террариум и <b>субстрат</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Террариум</h3>
+            <p>Минимальные размеры для взрослой особи: 90×45×45 см. Обеспечьте укрытия, ветки для лазания и миску с водой. Крышка должна быть надёжной — они известны своими побегами.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Субстрат</h3>
+            <p>Рекомендуемые субстраты: торф, кокосовое волокно, бумага без печати. Избегайте мелких частиц, которые могут вызвать закупорку кишечника. Регулярно меняйте субстрат.</p>
+          </div>
+        </div>
+
+        <!-- Температура и условия -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Температура и <b>условия</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Температура</h3>
+            <p>Тёплая зона: 28–30 °C. Прохладная зона: 22–24 °C. Ночная температура не должна опускаться ниже 20 °C. Обогрев: термоковрики или термокабели с термостатом.</p>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Освещение</h3>
+            <p>UVB-освещение не обязательно, но дневной свет полезен. Поддерживайте естественный цикл дня и ночи.</p>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Влажность</h3>
+            <p>Оптимальная влажность: 50–60 %. Повышайте влажность во время линьки. Обеспечьте влажную камеру или ёмкость с влажным субстратом.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Вода</h3>
+            <p>Постоянно доступная свежая вода в миске, достаточно большой для купания. Регулярно мойте миску, чтобы предотвратить загрязнение.</p>
+          </div>
+        </div>
+
+        <!-- Кормление и здоровье -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Кормление и <b>здоровье</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Кормление</h3>
+            <p>Малыши: новорождённые мышата (пинки) каждые 5–7 дней. Взрослые: взрослые мыши или крысы каждые 7–14 дней. Предлагайте корм подходящего размера — не шире самой узкой части тела змеи.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Здоровье</h3>
+            <p>Частые проблемы: метаболическая болезнь костей, остатки кожи после линьки, закупорка кишечника, респираторные инфекции. Профилактика: правильное кормление, подходящая влажность и температура, регулярная уборка. При проблемах со здоровьем обратитесь к ветеринару, специализирующемуся на экзотических животных.</p>
+          </div>
+        </div>
+
+        <!-- Размножение -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Размножение</h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <p>Половая зрелость: 2–3 года. Самки откладывают 4–10 яиц в кладке. Инкубация: 55–60 дней при температуре 30–32 °C.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+<section class="pd-related section">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <div class="eyebrow">Рекомендуем для королевского питона</div>
+          <h2 class="sec-title">Рекомендуемые товары</h2>
+        </div>
+        <div class="op-grid">
+          <article class="op-card reveal">
+            <a class="op-img" href="/ru/products/terrariums/terrarium-100x40x40.html">
+              <img src="/style/img/terrariums/100x40x40-2.webp" alt="Террариум 100x40x40" loading="lazy" width="600" height="600">
+            </a>
+            <div class="op-body">
+              <div class="op-cat">Террариум</div>
+              <h3><a href="/ru/products/terrariums/terrarium-100x40x40.html">Террариум 100x40x40</a></h3>
+              <div class="op-foot">
+                <span class="op-price">Цена по запросу</span>
+              </div>
+            </div>
+          </article>
+          <article class="op-card reveal">
+            <a class="op-img" href="/ru/products/terrariums/terrarium-100x50x50.html">
+              <img src="/style/img/terrariums/100x50x50.webp" alt="Террариум 100x50x50" loading="lazy" width="600" height="600">
+            </a>
+            <div class="op-body">
+              <div class="op-cat">Террариум</div>
+              <h3><a href="/ru/products/terrariums/terrarium-100x50x50.html">Террариум 100x50x50</a></h3>
+              <div class="op-foot">
+                <span class="op-price">Цена по запросу</span>
+              </div>
+            </div>
+          </article>
+          <article class="op-card reveal">
+            <a class="op-img" href="/ru/products/terrariums/terrarium-90x50x50.html">
+              <img src="/style/img/terrariums/90x50x50.webp" alt="Террариум 90x50x50" loading="lazy" width="600" height="600">
+            </a>
+            <div class="op-body">
+              <div class="op-cat">Террариум</div>
+              <h3><a href="/ru/products/terrariums/terrarium-90x50x50.html">Террариум 90x50x50</a></h3>
+              <div class="op-foot">
+                <span class="op-price">Цена по запросу</span>
+              </div>
+            </div>
+          </article>
+          <article class="op-card reveal">
+            <a class="op-img" href="/ru/products/terrariums/terrarium-80x50x50.html">
+              <img src="/style/img/terrariums/80x50x50.webp" alt="Террариум 80x50x50" loading="lazy" width="600" height="600">
+            </a>
+            <div class="op-body">
+              <div class="op-cat">Террариум</div>
+              <h3><a href="/ru/products/terrariums/terrarium-80x50x50.html">Террариум 80x50x50</a></h3>
+              <div class="op-foot">
+                <span class="op-price">Цена по запросу</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+<section class="zcta">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content:center">Заинтересовались?</div>
+        <h2>Свяжитесь с <b>NS Reptiles</b></h2>
+        <p>По вопросам покупки, ухода или оборудования для королевского питона — мы на связи. Позвоните или напишите нам.</p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474?text=%D0%9C%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BA%D0%BE%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BF%D0%B8%D1%82%D0%BE%D0%BD" target="_blank" rel="noopener" class="btn" style="background:#fff;color:var(--green-dark)" onclick="gtag('event','kontakt_click',{'metod':'whatsapp'})">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event','kontakt_click',{'metod':'poziv'})">+381 69 330 1474</a>
+        </div>
+      </div>
+    </section>
+
+
+</Base>

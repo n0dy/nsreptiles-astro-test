@@ -1,0 +1,16 @@
+---
+import ProductPage from '../../../../components/ProductPage.astro';
+import { getProducts, productView, relatedFor, EN_CATEGORY } from '../../../../lib/products';
+
+// strana postoji samo za proizvode koji imaju prevod
+export async function getStaticPaths() {
+  const all = await getProducts();
+  const views = await Promise.all(all.map((p) => productView(p, 'en')));
+  return views.flatMap((view) => {
+    if (!view) return [];
+    const slug = view.path.split('/').pop()!.replace(/\.html$/, '');
+    return [{ params: { category: EN_CATEGORY[view.category], slug }, props: { view, related: relatedFor(view.product, all) } }];
+  });
+}
+---
+<ProductPage {...Astro.props} />

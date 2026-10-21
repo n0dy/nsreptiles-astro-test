@@ -1,0 +1,52 @@
+{
+  "slug": "arcadia-uvb-12-23w",
+  "name": "Arcadia UVB 12% 23W",
+  "label": "Lighting",
+  "lead": "Arcadia UVB compact bulb, 12% / 23W. Maximum UVB radiation for desert reptile species.",
+  "imageAlt": "Arcadia UVB 12% 23W - NS Reptiles",
+  "specs": [
+    {
+      "k": "Brand",
+      "v": "Arcadia"
+    },
+    {
+      "k": "UVB",
+      "v": "12%"
+    },
+    {
+      "k": "Wattage",
+      "v": "23W"
+    },
+    {
+      "k": "Intended for",
+      "v": "Desert reptile species"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The Arcadia UVB compact bulb with 12% UVB output and 23W delivers the strongest UVB radiation in a compact form, made for desert reptile species that live under intense sun in the wild. UVB radiation enables vitamin D3 synthesis in the skin, which is essential for calcium absorption and healthy bone development."
+    },
+    {
+      "type": "p",
+      "html": "The high 12% output makes this bulb ideal for bearded dragons, uromastyx and other desert species that need strong UVB lighting. The compact E27 form allows easy installation in ceramic holders. The recommended distance from the animal is 25-30cm. Replace the bulb every 6-12 months, because UVB output weakens over time even when the visible light stays the same."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Arcadia UVB 12% 23W | Compact Reptile UVB Bulb",
+    "description": "Arcadia UVB compact bulb, 12% / 23W, for desert reptile species that need maximum UVB radiation. E27 socket. Available from NS Reptiles in Serbia.",
+    "keywords": "Arcadia UVB 12% 23W, reptile UVB bulb, compact UVB bulb, desert species, NS Reptiles"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "aquarium-100x40x50",
+  "name": "Aquarium 100x40x50",
+  "label": "Large aquarium",
+  "lead": "Glass aquarium, 100x40x50 cm. Volume: 200.0 liters. Handmade in Novi Sad.",
+  "imageAlt": "Aquarium 100x40x50 - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "100 cm"
+    },
+    {
+      "k": "Width",
+      "v": "40 cm"
+    },
+    {
+      "k": "Height",
+      "v": "50 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~200.0 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "With 200 liters of volume, this aquarium (100x40x50 cm) gives you freedom in aquascaping: larger roots, more plants, bigger stones and more fish. Glass of the right thickness keeps it safe under higher water pressure."
+    },
+    {
+      "type": "p",
+      "html": "The spacious dimensions allow ambitious aquascape projects with large roots, plant groups and rock formations. An external filter with sufficient flow is key to water quality at this volume."
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "We build custom aquariums: any dimensions, glass thickness matched to the volume, optional openings for filters and heaters. Call us or message us on WhatsApp for a consultation and a price. Delivery to all cities in Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Glass Aquarium 100x40x50 cm, 200 L | NS Reptiles",
+    "description": "Large glass aquarium 100x40x50 cm, 200 liters. Room for big aquascapes with roots and stone. Handmade in Novi Sad, custom sizes, delivery across Serbia.",
+    "keywords": "glass aquarium 100x40x50, aquarium 100x40x50 cm, large aquarium, custom aquarium Serbia, aquarium Novi Sad, NS Reptiles"
+  }
+}

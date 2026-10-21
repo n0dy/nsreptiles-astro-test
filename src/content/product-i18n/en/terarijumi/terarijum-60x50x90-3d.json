@@ -1,0 +1,77 @@
+{
+  "slug": "terrarium-60x50x90-3d",
+  "name": "Terrarium 60x50x90 +3D",
+  "label": "Large terrarium",
+  "lead": "Glass terrarium measuring 60x50x90 cm with a handmade 3D background. Volume: 270.0 liters, vertical format. Handmade in Novi Sad.",
+  "imageAlt": "Glass terrarium 60x50x90 cm with 3D background - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "60 cm"
+    },
+    {
+      "k": "Width",
+      "v": "50 cm"
+    },
+    {
+      "k": "Height",
+      "v": "90 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~270.0 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "3D background",
+      "v": "Yes"
+    },
+    {
+      "k": "Type",
+      "v": "Vertical"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 60x50x90 cm terrarium (270 L) comes with a polystyrene 3D background that faithfully reproduces the texture of stone or bark. Hand-sculpted and painted in natural tones, the background is more than decoration: it adds surfaces for climbing and hiding."
+    },
+    {
+      "type": "p",
+      "html": "With a height of 90 cm that exceeds its 60 cm length, this terrarium is designed for climbing species. The vertical space allows a layered setup with branches and platforms at different heights. The ventilation openings are placed to create natural airflow from bottom to top, which maintains optimal humidity."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Chameleons (veiled, panther)",
+        "Arboreal snakes",
+        "Crested geckos kept as a pair",
+        "Larger tree frogs"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "Because we build every terrarium by hand, we adapt it to your requirements, from dimensions and film to the background and ventilation system. Call or write to us for free advice and a quote. We ship to every city in Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Vertical Terrarium 60x50x90 with 3D Background | NS Reptiles",
+    "description": "Large glass terrarium 60x50x90 cm (270.0 L) with a handmade 3D background, vertical format. Suitable for chameleons and arboreal snakes.",
+    "keywords": "glass terrarium 60x50x90, terrarium 60x50x90 cm, terrarium with 3D background, large terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "terrarium-100x45x45",
+  "name": "Terrarium 100x45x45",
+  "label": "Large terrarium",
+  "lead": "Glass terrarium measuring 100x45x45 cm. Volume: 202.5 liters, horizontal format. Handmade in Novi Sad.",
+  "imageAlt": "Glass terrarium 100x45x45 cm - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "100 cm"
+    },
+    {
+      "k": "Width",
+      "v": "45 cm"
+    },
+    {
+      "k": "Height",
+      "v": "45 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~202.5 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "Type",
+      "v": "Horizontal"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 100x45x45 cm glass terrarium with a volume of 202.5 liters is made from glass of the right thickness for its size. The outer sides are covered with decorative film you choose when ordering: wood, bamboo, marble, black or white."
+    },
+    {
+      "type": "p",
+      "html": "A length of 100 cm and a width of 45 cm provide a large floor area for ground-dwelling species. The floor dimensions allow a basking spot at one end and a cooler hide at the other. Mesh covers on the ventilation openings let air through but not food or the small inhabitants of the terrarium."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Bearded dragons",
+        "Ball pythons",
+        "Tortoises",
+        "Blue-tongued skinks"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "We offer full customization: you choose the film, background and ventilation, plus optional LED lighting or a thermostat. If this model doesn't fit your space, we build terrariums in any dimensions. Call for a quote."
+    }
+  ],
+  "seo": {
+    "title": "Glass Terrarium 100x45x45 cm, 202.5 L | NS Reptiles",
+    "description": "Large glass terrarium 100x45x45 cm (202.5 L), horizontal format, with decorative film. Suitable for bearded dragons and ball pythons.",
+    "keywords": "glass terrarium 100x45x45, terrarium 100x45x45 cm, large terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

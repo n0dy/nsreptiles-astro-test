@@ -1,0 +1,57 @@
+{
+  "slug": "superworms",
+  "name": "Superworms",
+  "label": "Live food",
+  "lead": "A soft, nutritious feeder insect and an excellent complement to dubia roaches for meal variety. Available in three sizes, for baby and adult lizards.",
+  "imageAlt": "Superworms - live food for lizards, bearded dragons and leopard geckos",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Feeder insect"
+    },
+    {
+      "k": "Sizes",
+      "v": "Small, medium, large"
+    },
+    {
+      "k": "Intended for",
+      "v": "Bearded dragons, geckos, chameleons, tegus"
+    },
+    {
+      "k": "Pack",
+      "v": "100 pieces"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Description"
+    },
+    {
+      "type": "p",
+      "html": "Superworms are a soft, nutritious feeder insect used as an excellent complement to dubia roaches in a lizard's diet. Their soft shell makes them easy to digest, and the extra variety helps achieve a better nutritional balance when they are combined with other insects. They are suitable for bearded dragons, leopard geckos, chameleons and other insect eaters."
+    },
+    {
+      "type": "h2",
+      "text": "Sizes and which animals they suit"
+    },
+    {
+      "type": "p",
+      "html": "They are available in three sizes - <strong>small</strong> for babies, <strong>medium</strong> for juveniles and <strong>large</strong> for adult lizards. Size rule: the insect must not be wider than the space between the animal's eyes. Dust live food with calcium before feeding, and occasionally with a multivitamin, for healthy bones and proper development."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Prices start at 500 din for 100 pieces, depending on size. Call us or message us on WhatsApp for the exact price and availability. Courier delivery across Serbia, free pickup in Novi Sad. We are happy to recommend the right type and size of food for your animal - free of charge."
+    }
+  ],
+  "priceUnit": "/ 100 pcs",
+  "seo": {
+    "title": "Superworms | Live Food for Lizards - NS Reptiles",
+    "description": "Superworms: soft, nutritious live food for lizards and a great complement to dubia roaches for variety. Three sizes, from 500 din per 100 pcs.",
+    "keywords": "superworms, superworms price, lizard food, live food for reptiles, feeder insects, bearded dragon food, leopard gecko food, NS Reptiles, Novi Sad"
+  }
+}

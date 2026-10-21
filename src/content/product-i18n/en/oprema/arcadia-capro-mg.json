@@ -1,0 +1,56 @@
+{
+  "slug": "arcadia-capro-mg",
+  "name": "Arcadia CaPro-MG",
+  "label": "Supplements",
+  "lead": "Arcadia EarthPro CaPro-MG - a calcium supplement with magnesium for healthy bone development in reptiles.",
+  "imageAlt": "Arcadia CaPro-MG - NS Reptiles",
+  "specs": [
+    {
+      "k": "Brand",
+      "v": "Arcadia"
+    },
+    {
+      "k": "Type",
+      "v": "Calcium with magnesium"
+    },
+    {
+      "k": "Line",
+      "v": "EarthPro"
+    },
+    {
+      "k": "Use",
+      "v": "Dust over food"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "Arcadia EarthPro CaPro-MG is a specialized calcium supplement that combines calcium and magnesium in an optimal ratio for reptiles. Magnesium is a cofactor in more than 300 enzyme reactions and is essential for the body to use calcium properly."
+    },
+    {
+      "type": "p",
+      "html": "Apply by dusting it over insects and other live food right before feeding. Daily use of CaPro-MG is recommended, together with the EarthPro-A vitamin supplement once a week. This protocol provides complete nutritional balance for reptiles kept in captivity."
+    },
+    {
+      "type": "p",
+      "html": "Especially suitable for insect-eating species - geckos, chameleons and diurnal lizard species that need a high calcium intake. The Arcadia EarthPro line was developed in collaboration with zoo veterinarians and herpetologists."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Arcadia CaPro-MG | Calcium with Magnesium for Reptiles",
+    "description": "Arcadia EarthPro CaPro-MG: calcium supplement with magnesium for healthy bone development in reptiles. Part of the Arcadia EarthPro system. NS Reptiles.",
+    "keywords": "Arcadia CaPro-MG, Arcadia EarthPro, calcium magnesium reptiles, reptile supplements"
+  }
+}

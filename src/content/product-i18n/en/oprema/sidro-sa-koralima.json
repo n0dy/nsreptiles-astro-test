@@ -1,0 +1,44 @@
+{
+  "slug": "anchor-with-corals-decoration",
+  "name": "Anchor with corals",
+  "label": "Decoration",
+  "lead": "Anchor with corals - a decorative piece for an aquarium with a nautical theme.",
+  "imageAlt": "Anchor with corals - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Decoration - anchor with corals"
+    },
+    {
+      "k": "Intended for",
+      "v": "Aquarium"
+    },
+    {
+      "k": "Theme",
+      "v": "Nautical"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The anchor with corals is a decorative piece that enriches your aquarium with a nautical theme. The anchor model overgrown with artificial corals creates the impression of a sunken ship's anchor that nature has slowly taken over - as if it has been lying on the seabed for decades. The combination of the anchor's metallic look and colorful corals adds interesting contrast and visual depth to the aquarium. It is safe for underwater use - made from quality material that does not release harmful substances and does not affect water chemistry, pH or hardness. Ideal for creating a nautical theme in combination with the ship wheel and pirate ship for a complete marine atmosphere. The corals on the anchor can also serve as a visual accent in aquariums where live plants are not an option. It is easy to clean with a gentle rinse under running water during regular maintenance."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Anchor with Corals | Aquarium Decoration - NS Reptiles",
+    "description": "Anchor with corals: a nautical-themed aquarium ornament that does not affect water chemistry. Easy to clean. NS Reptiles, Novi Sad, Serbia.",
+    "keywords": "anchor with corals, aquarium decoration, nautical aquarium theme, aquarium ornament, NS Reptiles, Novi Sad"
+  }
+}

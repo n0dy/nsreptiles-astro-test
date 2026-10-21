@@ -1,0 +1,278 @@
+---
+import Base from '../../../layouts/Base.astro';
+import '../../../styles/animals.css';
+import '../../../styles/usluge.css';
+import '../../../styles/oprema.css';
+import { translationsFor } from '../../../i18n/routes';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Толстохвостый геккон — руководство по разведению и уходу",
+    "description": "Всё о толстохвостом гекконе: происхождение, размер, террариум, температура, кормление и уход. Спокойный вид, подходящий для начинающих.",
+    "author": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "url": "https://nsreptiles.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nsreptiles.net/style/img/logo.jpg"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://nsreptiles.net/ru/animals/fat-tailed-gecko.html"
+    },
+    "image": "https://nsreptiles.net/style/img/gallery/15.jpg"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Главная",
+        "item": "https://nsreptiles.net/ru/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Животные",
+        "item": "https://nsreptiles.net/ru/animals.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Толстохвостый геккон",
+        "item": "https://nsreptiles.net/ru/animals/fat-tailed-gecko.html"
+      }
+    ]
+  }
+];
+---
+<Base
+  lang="ru"
+  title="Толстохвостый геккон — уход и разведение | NS Reptiles"
+  description="Всё о толстохвостом гекконе: происхождение, размер, террариум, температура, кормление и уход. Спокойный вид для начинающих — NS Reptiles, Нови-Сад."
+  keywords="толстохвостый геккон, толстохвостый геккон уход, толстохвостый геккон содержание, толстохвостый геккон кормление, террариум для толстохвостого геккона, толстохвостый геккон купить Нови-Сад, геккон для начинающих, NS Reptiles"
+  path="/ru/animals/fat-tailed-gecko.html"
+  image="/style/img/gallery/15.jpg"
+  ogType="article"
+  ogDescription="Всё о толстохвостом гекконе: происхождение, размер, террариум, температура, кормление и уход. Спокойный вид, подходящий для начинающих."
+  active="animals"
+  translations={translationsFor("/ru/animals/fat-tailed-gecko.html")}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Ящерицы</div>
+        <h1>Толстохвостый геккон</h1>
+        <p>Спокойный наземный вид из Западной Африки — отличный выбор для начинающих. Легко привыкает к рукам и не требует сложных условий содержания.</p>
+      </div>
+    </section>
+<section class="pd-crumbs">
+      <div class="wrap">
+        <nav class="pd-breadcrumb" aria-label="Навигационная цепочка">
+          <a href="/ru/">Главная</a>
+          <span class="sep">›</span>
+          <a href="/ru/animals.html">Животные</a>
+          <span class="sep">›</span>
+          <span class="cur" aria-current="page">Толстохвостый геккон</span>
+        </nav>
+      </div>
+    </section>
+<section class="animal-photo" style="background: var(--bg); padding: 24px 0 0; line-height: 0;">
+      <div class="wrap">
+        <img src="/style/img/gallery/15.jpg" alt="Толстохвостый геккон в террариуме — NS Reptiles, Нови-Сад" loading="eager" width="1248" height="832" style="width: 100%; height: auto; display: block; max-height: 520px; object-fit: cover;">
+      </div>
+    </section>
+<section class="intro">
+      <div class="wrap">
+        <div class="intro-box reveal">
+          <div class="eyebrow">О виде</div>
+          <p>Толстохвостый геккон родом из сухих и влажных саванн Западной Африки — от Сенегала до Камеруна. В природе он прячется во влажных укрытиях, например в термитниках и расщелинах скал, а ночью выходит на поиски пищи. Характерные черты — округлая голова, подвижные веки и вертикальные зрачки, коричнево-бежевый узор с белой полосой вдоль спины и толстый хвост, который служит запасом жира. В отличие от большинства гекконов, у него нет липких подушечек на пальцах, поэтому он живёт исключительно на земле. В неволе он известен спокойным нравом и тем, что легко привыкает к рукам, — поэтому входит в число самых популярных рептилий для начинающих. При правильном уходе живёт от 15 до 20 лет.</p>
+        </div>
+      </div>
+    </section>
+<section class="zoo" style="padding-top: 40px;">
+      <div class="wrap">
+
+        <!-- Уход и обустройство -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Уход и <b>обустройство</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <p>В террариуме нужно обустроить не менее трёх укрытий: тёплое, прохладное и влажное — точно как в природе. Плоский камень для обогрева, коряги и листья улучшают самочувствие животного и делают террариум визуально привлекательным.</p>
+          </div>
+        </div>
+
+        <!-- Террариум -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Террариум</h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <p>Минимальные размеры для одной особи — 60x40x30 см. В террариуме должно быть не менее трёх укрытий: тёплое, прохладное и влажное. В качестве декора рекомендуются плоский камень для обогрева, коряги, листья, а также искусственные или живые растения.</p>
+          </div>
+        </div>
+
+        <!-- Субстрат -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Субстрат</h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <p>Для взрослых особей рекомендуется смесь органической земли, песка и глины (40% земли, 40% песка, 20% глины). Малышей держат на бумажных полотенцах, пока они не пройдут карантин. Помёт убирают ежедневно, а полную замену субстрата проводят каждые 3–6 месяцев.</p>
+          </div>
+        </div>
+
+        <!-- Температура и обогрев -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Температура и <b>обогрев</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <p>В тёплой части террариума должно быть 30–32 °C, в прохладной — 21–25 °C, а ночью температура может опускаться до 16 °C. Обогрев обеспечивается спот-лампой или термоковриком с термостатом, который предотвращает перегрев.</p>
+          </div>
+        </div>
+
+        <!-- Освещение -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Освещение</h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <p>Необходим световой день продолжительностью от 10 до 12 часов. UVB-освещение не обязательно, но лампа UVB 5.0 может способствовать лучшему здоровью. Ночью весь свет выключают, имитируя естественный ритм.</p>
+          </div>
+        </div>
+
+        <!-- Влажность и вода -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Влажность и <b>вода</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <p>Оптимальная влажность в террариуме — 50–60%. Влажное укрытие с мхом или кокосовым волокном помогает при линьке. Всегда должна быть доступна неглубокая миска со свежей водой — её меняют ежедневно.</p>
+          </div>
+        </div>
+
+        <!-- Кормление -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Кормление</h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <p>Толстохвостые гекконы насекомоядны — едят сверчков, тараканов дубия, мучных червей и личинок мухи чёрной львинки. При каждом кормлении добавляют кальций с D3, а мультивитамины — раз в неделю. Малышей кормят ежедневно, взрослых — 2–3 раза в неделю.</p>
+          </div>
+        </div>
+
+        <!-- Размножение -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Размножение</h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <p>Сезон размножения начинается после периода охлаждения. Самки откладывают по 2 яйца в кладке. Инкубация длится от 55 до 70 дней при температуре от 27 до 29 °C — температура инкубации может влиять на пол малышей.</p>
+          </div>
+        </div>
+
+        <!-- Здоровье и профилактика -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Здоровье и <b>профилактика</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <p>Частые проблемы со здоровьем — метаболическая болезнь костей, остатки кожи после линьки и закупорка кишечника. Профилактика включает правильное кормление с кальцием, подходящую влажность и температуру, а также регулярную чистку террариума. При подозрении на болезнь обратитесь к ветеринару, специализирующемуся на экзотических животных.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+<section class="pd-related section">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <div class="eyebrow">Рекомендуем для толстохвостого геккона</div>
+          <h2 class="sec-title">Рекомендуемые товары</h2>
+        </div>
+        <div class="op-grid">
+          <article class="op-card reveal">
+            <a class="op-img" href="/ru/products/terrariums/terrarium-50x35x35.html">
+              <img src="/style/img/terrariums/50x35x35-2.webp" alt="Террариум 50x35x35" loading="lazy" width="600" height="600">
+            </a>
+            <div class="op-body">
+              <div class="op-cat">Террариум</div>
+              <h3><a href="/ru/products/terrariums/terrarium-50x35x35.html">Террариум 50x35x35</a></h3>
+              <div class="op-foot">
+                <span class="op-price">Цена по запросу</span>
+              </div>
+            </div>
+          </article>
+          <article class="op-card reveal">
+            <a class="op-img" href="/ru/products/terrariums/terrarium-45x35x35.html">
+              <img src="/style/img/terrariums/45x35x35.webp" alt="Террариум 45x35x35" loading="lazy" width="600" height="600">
+            </a>
+            <div class="op-body">
+              <div class="op-cat">Террариум</div>
+              <h3><a href="/ru/products/terrariums/terrarium-45x35x35.html">Террариум 45x35x35</a></h3>
+              <div class="op-foot">
+                <span class="op-price">Цена по запросу</span>
+              </div>
+            </div>
+          </article>
+          <article class="op-card reveal">
+            <a class="op-img" href="/ru/products/terrariums/terrarium-60x30x25.html">
+              <img src="/style/img/terrariums/60x30x25.webp" alt="Террариум 60x30x25" loading="lazy" width="600" height="600">
+            </a>
+            <div class="op-body">
+              <div class="op-cat">Террариум</div>
+              <h3><a href="/ru/products/terrariums/terrarium-60x30x25.html">Террариум 60x30x25</a></h3>
+              <div class="op-foot">
+                <span class="op-price">Цена по запросу</span>
+              </div>
+            </div>
+          </article>
+          <article class="op-card reveal">
+            <a class="op-img" href="/ru/products/terrariums/terrarium-60x40x30.html">
+              <img src="/style/img/terrariums/60x40x30.webp" alt="Террариум 60x40x30" loading="lazy" width="600" height="600">
+            </a>
+            <div class="op-body">
+              <div class="op-cat">Террариум</div>
+              <h3><a href="/ru/products/terrariums/terrarium-60x40x30.html">Террариум 60x40x30</a></h3>
+              <div class="op-foot">
+                <span class="op-price">Цена по запросу</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+<section class="zcta">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content:center">Заинтересовались?</div>
+        <h2>Свяжитесь с <b>NS Reptiles</b></h2>
+        <p>По вопросам покупки, ухода или оборудования для толстохвостого геккона — мы на связи. Позвоните или напишите нам.</p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474?text=%D0%9C%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D1%82%D0%BE%D0%BB%D1%81%D1%82%D0%BE%D1%85%D0%B2%D0%BE%D1%81%D1%82%D1%8B%D0%B9%20%D0%B3%D0%B5%D0%BA%D0%BA%D0%BE%D0%BD" target="_blank" rel="noopener" class="btn" style="background:#fff;color:var(--green-dark)" onclick="gtag('event','kontakt_click',{'metod':'whatsapp'})">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event','kontakt_click',{'metod':'poziv'})">+381 69 330 1474</a>
+        </div>
+      </div>
+    </section>
+
+
+</Base>

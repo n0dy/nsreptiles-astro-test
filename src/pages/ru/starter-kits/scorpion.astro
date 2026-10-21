@@ -1,0 +1,207 @@
+---
+import Base from '../../../layouts/Base.astro';
+import '../../../styles/animals.css';
+import '../../../styles/kompleti.css';
+import { translationsFor } from '../../../i18n/routes';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Набор «Скорпион» для начинающих",
+    "description": "Набор для начинающих: скорпион Heterometrus petersii + террариум 40×25×30 и кокосовый субстрат. Доступен в 3 размерах — NS Reptiles, Нови-Сад.",
+    "image": "https://nsreptiles.net/style/img/gallery/16.jpg",
+    "brand": {
+      "@type": "Brand",
+      "name": "NS Reptiles"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://nsreptiles.net/ru/starter-kits/scorpion.html",
+      "priceCurrency": "RSD",
+      "price": "8500",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Главная",
+        "item": "https://nsreptiles.net/ru/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Наборы для начинающих",
+        "item": "https://nsreptiles.net/ru/starter-kits.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Скорпион",
+        "item": "https://nsreptiles.net/ru/starter-kits/scorpion.html"
+      }
+    ]
+  }
+];
+---
+<Base
+  lang="ru"
+  title="Скорпион — набор для начинающих | NS Reptiles"
+  description="Набор для начинающих: скорпион Heterometrus petersii, террариум 40×25×30 и кокосовый субстрат. Доступен в 3 размерах. NS Reptiles, Нови-Сад."
+  keywords="скорпион купить, Heterometrus petersii, набор скорпион, террариум для скорпиона, Нови-Сад, Сербия"
+  path="/ru/starter-kits/scorpion.html"
+  image="/style/img/gallery/16.jpg"
+  ogType="product"
+  translations={translationsFor("/ru/starter-kits/scorpion.html")}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Наборы для начинающих</div>
+        <h1>Набор «Скорпион»</h1>
+        <p>Животное, террариум и базовое оборудование — всё, что нужно для уверенного старта, в одном месте.</p>
+      </div>
+    </section>
+<nav class="breadcrumb-bar" aria-label="Навигационная цепочка">
+      <div class="wrap">
+        <ol class="breadcrumb">
+          <li><a href="/ru/">Главная</a></li>
+          <li><a href="/ru/starter-kits.html">Наборы</a></li>
+          <li aria-current="page">Скорпион</li>
+        </ol>
+      </div>
+    </nav>
+<section class="ks-main">
+      <div class="wrap">
+        <div class="ks-grid">
+          <div class="ks-media reveal">
+            <div class="ks-img">
+              <span class="kit-badge">Акция</span>
+              <img src="/assets/img/skorpija.jpg" alt="Скорпион — набор для начинающих" width="800" height="800">
+            </div>
+          </div>
+          <div class="ks-info reveal">
+            <div class="eyebrow">Набор для начинающих</div>
+            <h2 class="ks-title">Скорпион</h2>
+            <div class="ks-price">8 500 <span>din</span></div>
+            <p class="ks-desc">Heterometrus petersii — крупный тропический скорпион, эффектный питомец для наблюдения, который требует минимального ухода. Хорошо смотрится в террариуме, доступен в трёх размерах, а набор включает террариум и субстрат, готовые к заселению.</p>
+            <div class="ks-incl-title">Что входит в набор</div>
+            <ul class="ks-incl">
+              <li>Heterometrus petersii</li>
+              <li>Террариум 40×25×30</li>
+              <li>Кокосовый субстрат</li>
+              <li>Доступен в 3 размерах</li>
+            </ul>
+            <div class="ks-cta">
+              <a href="/ru/contact.html?komplet=%C5%A0korpija" class="btn btn-primary">
+                Отправить запрос
+              </a>
+              <a href="https://wa.me/381693301474?text=%D0%9C%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%C2%AB%D0%A1%D0%BA%D0%BE%D1%80%D0%BF%D0%B8%D0%BE%D0%BD%C2%BB" target="_blank" rel="noopener" class="btn btn-outline" onclick="gtag('event','kontakt_click',{'metod':'whatsapp'})">
+                Спросить в WhatsApp
+              </a>
+            </div>
+            <div class="ks-note">
+              Самовывоз в Нови-Саде или отправка по договорённости. Консультации
+              по выбору и уходу бесплатны — свяжитесь с нами до покупки.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<section class="ks-perks">
+      <div class="wrap">
+        <div class="reveal" style="text-align: center; max-width: 640px; margin: 0 auto">
+          <div class="eyebrow" style="justify-content: center">Почему набор</div>
+          <h2 class="sec-title">Всё для <b>уверенного старта</b></h2>
+        </div>
+        <div class="ks-perks-grid">
+          <div class="ks-perk reveal">
+            <div class="ks-perk-num">01</div>
+            <h3>Всё в одном месте</h3>
+            <p>Животное, террариум подходящего размера и базовое оборудование — без походов по магазинам и догадок, что нужно.</p>
+          </div>
+          <div class="ks-perk reveal">
+            <div class="ks-perk-num">02</div>
+            <h3>Подобрано для начинающих</h3>
+            <p>Виды из наших наборов спокойного нрава и просты в уходе, а оборудование подобрано именно под их потребности.</p>
+          </div>
+          <div class="ks-perk reveal">
+            <div class="ks-perk-num">03</div>
+            <h3>Экспертная поддержка</h3>
+            <p>За нами 10 лет разведения. Вместе с набором вы получаете советы по уходу, а на все вопросы мы отвечаем и после покупки.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+<section class="ks-others">
+      <div class="wrap">
+        <div class="gal-head reveal">
+          <div>
+            <div class="eyebrow">Смотрите также</div>
+            <h2 class="sec-title">Другие <b>наборы</b></h2>
+          </div>
+          <a href="/ru/starter-kits.html" class="btn btn-outline">Все наборы</a>
+        </div>
+        <div class="kit-grid">
+          <article class="kit-card reveal">
+            <a href="/ru/starter-kits/bearded-dragon.html" class="kit-img">
+              <img src="/assets/img/bradata-agama.jpg" alt="Бородатая агама" loading="lazy">
+            </a>
+            <div class="kit-body">
+              <h3>Бородатая агама</h3>
+              <div class="kit-price">25 800 <span>din</span></div>
+              <a href="/ru/starter-kits/bearded-dragon.html" class="btn btn-outline">Подробнее</a>
+            </div>
+          </article>
+          <article class="kit-card reveal">
+            <a href="/ru/starter-kits/leopard-gecko.html" class="kit-img">
+              <img src="/assets/img/leopard-gekon.jpg" alt="Леопардовый геккон" loading="lazy">
+            </a>
+            <div class="kit-body">
+              <h3>Леопардовый геккон</h3>
+              <div class="kit-price">12 500 <span>din</span></div>
+              <a href="/ru/starter-kits/leopard-gecko.html" class="btn btn-outline">Подробнее</a>
+            </div>
+          </article>
+          <article class="kit-card reveal">
+            <a href="/ru/starter-kits/corn-snake.html" class="kit-img">
+              <img src="/assets/img/kukuruzni-smuk.jpg" alt="Маисовый полоз" loading="lazy">
+            </a>
+            <div class="kit-body">
+              <h3>Маисовый полоз</h3>
+              <div class="kit-price">12 500 <span>din</span></div>
+              <a href="/ru/starter-kits/corn-snake.html" class="btn btn-outline">Подробнее</a>
+            </div>
+          </article>
+          <article class="kit-card reveal">
+            <a href="/ru/starter-kits/tarantula.html" class="kit-img">
+              <img src="/assets/img/tarantula.jpg" alt="Тарантул" loading="lazy">
+            </a>
+            <div class="kit-body">
+              <h3>Тарантул</h3>
+              <div class="kit-price">3 000 <span>din</span></div>
+              <a href="/ru/starter-kits/tarantula.html" class="btn btn-outline">Подробнее</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+<section class="zcta">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content:center">Есть вопросы?</div>
+        <h2>Свяжитесь с <b>NS Reptiles</b></h2>
+        <p>Не уверены, подходит ли вам этот набор? Напишите нам — мы с радостью поможем с выбором.</p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474?text=%D0%9C%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%C2%AB%D0%A1%D0%BA%D0%BE%D1%80%D0%BF%D0%B8%D0%BE%D0%BD%C2%BB" target="_blank" rel="noopener" class="btn" style="background:#fff;color:var(--green-dark)" onclick="gtag('event','kontakt_click',{'metod':'whatsapp'})">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event','kontakt_click',{'metod':'poziv'})">+381 69 330 1474</a>
+        </div>
+      </div>
+    </section>
+
+
+</Base>

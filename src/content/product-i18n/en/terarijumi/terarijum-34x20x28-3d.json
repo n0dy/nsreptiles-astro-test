@@ -1,0 +1,77 @@
+{
+  "slug": "terrarium-34x20x28-3d",
+  "name": "Terrarium 34x20x28 +3D",
+  "label": "Medium terrarium",
+  "lead": "Glass terrarium measuring 34x20x28 cm with a handmade 3D background. Volume: 19.0 liters, horizontal format. Handmade in Novi Sad.",
+  "imageAlt": "Glass terrarium 34x20x28 cm with 3D background - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "34 cm"
+    },
+    {
+      "k": "Width",
+      "v": "20 cm"
+    },
+    {
+      "k": "Height",
+      "v": "28 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~19.0 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "3D background",
+      "v": "Yes"
+    },
+    {
+      "k": "Type",
+      "v": "Horizontal"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "With a volume of 19 liters and dimensions of 34x20x28 cm, this terrarium includes a handmade 3D background. The background imitates natural relief, such as rock or bark, and adds depth to the space so animals can climb, hide and feel more secure."
+    },
+    {
+      "type": "p",
+      "html": "With a floor area of 34x20 cm, this terrarium allows natural movement for ground-dwelling species and proper temperature zoning: a warm spot under the spot lamp and a cooler area on the opposite side. Mesh covers on the ventilation openings let air through but not food or the small inhabitants of the terrarium."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Geckos (leopard, crested, gargoyle)",
+        "Corn snakes (juveniles)",
+        "Day geckos",
+        "Smaller lizard species"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "Every terrarium we make is handmade, so you can choose the dimensions, film color, ventilation type and 3D background style. We also build fully custom models to your needs, so contact us for a consultation. Delivery throughout Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Glass Terrarium 34x20x28 with 3D Background | NS Reptiles",
+    "description": "Medium glass terrarium 34x20x28 cm (19.0 L) with a handmade 3D background, horizontal format. Suitable for geckos and young corn snakes.",
+    "keywords": "glass terrarium 34x20x28, terrarium 34x20x28 cm, terrarium with 3D background, medium terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

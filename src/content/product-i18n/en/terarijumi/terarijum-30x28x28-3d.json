@@ -1,0 +1,77 @@
+{
+  "slug": "terrarium-30x28x28-3d",
+  "name": "Terrarium 30x28x28 +3D",
+  "label": "Small terrarium",
+  "lead": "Glass terrarium measuring 30x28x28 cm with a handmade 3D background. Volume: 23.5 liters, horizontal format. Handmade in Novi Sad.",
+  "imageAlt": "Glass terrarium 30x28x28 cm with 3D background - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "30 cm"
+    },
+    {
+      "k": "Width",
+      "v": "28 cm"
+    },
+    {
+      "k": "Height",
+      "v": "28 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~23.5 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "3D background",
+      "v": "Yes"
+    },
+    {
+      "k": "Type",
+      "v": "Horizontal"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 30x28x28 cm terrarium (23.5 L) comes with a polystyrene 3D background that faithfully reproduces the texture of stone or bark. Hand-sculpted and painted in natural tones, the background is more than decoration: it adds surfaces for climbing and hiding."
+    },
+    {
+      "type": "p",
+      "html": "The horizontal layout with 30 cm of length gives a floor area where a basking zone, a cool zone and a hiding area are easy to arrange. This layout is key for reptiles because it lets them choose the temperature they are exposed to. The ventilation system is designed for constant airflow that prevents overheating and trapped moisture."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Leopard geckos and fat-tailed geckos",
+        "Crested geckos",
+        "Smaller snakes (corn snake)",
+        "Smaller chameleon species"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "If the standard dimensions don't suit you, we build custom terrariums. Choose the size, film pattern, background style and extras such as LED lighting or a thermostat. Contact us for a quote. We deliver across Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Small Terrarium 30x28x28 with 3D Background | NS Reptiles",
+    "description": "Small glass terrarium 30x28x28 cm (23.5 L) with a handmade 3D background, horizontal format. Suitable for leopard geckos and fat-tailed geckos.",
+    "keywords": "glass terrarium 30x28x28, terrarium 30x28x28 cm, terrarium with 3D background, small terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

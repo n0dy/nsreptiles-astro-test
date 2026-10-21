@@ -1,0 +1,81 @@
+{
+  "slug": "terrarium-75x59x90-double-3d",
+  "name": "Terrarium 75x59x90 DOUBLE +3D",
+  "label": "Large terrarium",
+  "lead": "Double glass terrarium measuring 75x59x90 cm with a handmade 3D background. Two separate compartments for keeping two animals in one enclosure.",
+  "imageAlt": "Double glass terrarium 75x59x90 cm with 3D background - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "75 cm"
+    },
+    {
+      "k": "Width",
+      "v": "59 cm"
+    },
+    {
+      "k": "Height",
+      "v": "90 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~398.3 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "3D background",
+      "v": "Yes"
+    },
+    {
+      "k": "Type",
+      "v": "Vertical"
+    },
+    {
+      "k": "Compartments",
+      "v": "2 (double)"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 75x59x90 cm glass terrarium with a volume of 398.2 liters comes with a handmade 3D background that gives the interior the look of a natural habitat. The polystyrene background is sculpted as rock, tree bark or cave relief, and every piece is unique because it is made by hand in our workshop."
+    },
+    {
+      "type": "p",
+      "html": "The vertical orientation (90 cm tall) makes this terrarium suitable for arboreal animals, which live in tree canopies and on trunks in the wild. You can add branches, cork and artificial plants to recreate a vertical habitat. Mesh covers on the ventilation openings let air through but not food or the small inhabitants of the terrarium."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Chameleons",
+        "Green tree python",
+        "Emerald tree boa",
+        "Crested geckos (pair)"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "Because we build every terrarium by hand, we adapt it to your requirements, from dimensions and film to the background and ventilation system. Call or write to us for free advice and a quote. We ship to every city in Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Double Terrarium 75x59x90 with 3D Background | NS Reptiles",
+    "description": "Double glass terrarium 75x59x90 cm (398.3 L) with two separate compartments and a handmade 3D background. Suitable for chameleons and green tree python.",
+    "keywords": "glass terrarium 75x59x90, terrarium 75x59x90 cm, terrarium with 3D background, large terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

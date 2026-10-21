@@ -1,0 +1,77 @@
+{
+  "slug": "terrarium-100x45x45-lakobel",
+  "name": "Terrarium 100x45x45 LAKOBEL",
+  "label": "Large terrarium",
+  "lead": "Glass terrarium 100x45x45 cm with LAKOBEL glass on the back panel. Volume: 202.5 liters, horizontal format.",
+  "imageAlt": "Terrarium 100x45x45 LAKOBEL - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "100 cm"
+    },
+    {
+      "k": "Width",
+      "v": "45 cm"
+    },
+    {
+      "k": "Height",
+      "v": "45 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~202.5 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "Type",
+      "v": "Horizontal"
+    },
+    {
+      "k": "Background",
+      "v": "LAKOBEL glass"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 100x45x45 cm glass terrarium with a volume of 202.5 liters is made from glass of the right thickness for its size. The back panel is LAKOBEL glass, and the outer sides are covered with decorative film you choose when ordering: wood, bamboo, marble, black or white."
+    },
+    {
+      "type": "p",
+      "html": "The horizontal layout with 100 cm of length gives a floor area where a basking zone, a cool zone and a hiding area are easy to arrange. Reptile thermoregulation depends on being able to move between warm and cool zones inside the terrarium. Ventilation is provided by mesh openings that allow airflow and humidity control inside the terrarium."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Bearded dragons (adults)",
+        "Ball pythons",
+        "Tortoises (land species)",
+        "Corn snakes (adults)"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "When ordering, you choose the film pattern and the shape of the 3D background. We handmake all our terrariums in Novi Sad, so customization is always possible, from dimensions to the way it opens. We ship by courier throughout Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Terrarium 100x45x45 with LAKOBEL Glass Back | NS Reptiles",
+    "description": "Large glass terrarium 100x45x45 cm (202.5 L) with a LAKOBEL glass back panel, horizontal format. Suitable for adult bearded dragons and ball pythons.",
+    "keywords": "glass terrarium 100x45x45, terrarium 100x45x45 cm, large terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

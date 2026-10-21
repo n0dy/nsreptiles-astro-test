@@ -1,0 +1,52 @@
+{
+  "slug": "arcadia-spot-100w",
+  "name": "Arcadia Spot 100W",
+  "label": "Lighting",
+  "lead": "Solar Basking Spotlight 100W - focused heat and light for the basking spot in a terrarium.",
+  "imageAlt": "Arcadia Spot 100W - NS Reptiles",
+  "specs": [
+    {
+      "k": "Brand",
+      "v": "Arcadia"
+    },
+    {
+      "k": "Wattage",
+      "v": "100W"
+    },
+    {
+      "k": "Type",
+      "v": "Basking spot bulb"
+    },
+    {
+      "k": "Socket",
+      "v": "E27"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The 100W Arcadia Solar Basking Spotlight is the most powerful option in the range, ideal for larger terrariums and species that need high basking spot temperatures. It produces intense focused heat and visible light, simulating the strong sunlight found in desert and savanna habitats. Suitable for bearded dragons, uromastyx and other desert species that need a basking spot temperature of 40-45°C."
+    },
+    {
+      "type": "p",
+      "html": "Place it on one side of the terrarium to create a temperature gradient - a warmer basking zone and a cooler zone for resting. The wide beam angle spreads heat evenly, providing a larger basking area. The E27 socket allows easy installation in standard ceramic holders. We recommend using it with a thermostat for precise temperature control. Arcadia is a renowned British brand known for quality reptile lighting."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Arcadia Spot 100W | Reptile Basking Bulb",
+    "description": "Arcadia Solar Basking Spot 100W: focused heat and light for the basking spot in your terrarium. E27 socket, made for larger terrariums. NS Reptiles.",
+    "keywords": "Arcadia Spot 100W, basking bulb, reptile basking lamp, terrarium heat bulb, NS Reptiles"
+  }
+}

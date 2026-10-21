@@ -1,0 +1,81 @@
+{
+  "slug": "terrarium-30x30x50-srb",
+  "name": "Terrarium 30x30x50 SRB",
+  "label": "Medium terrarium",
+  "lead": "Glass terrarium measuring 30x30x50 cm with decorative film featuring a Serbian flag design. A volume of about 45 liters and a vertical format make it suitable for arboreal species. The glass gives a clear view, while film on three sides gives the animals a sense of security. Handmade in Novi Sad.",
+  "imageAlt": "Glass terrarium 30x30x50 cm with Serbian flag design - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "30 cm"
+    },
+    {
+      "k": "Width",
+      "v": "30 cm"
+    },
+    {
+      "k": "Height",
+      "v": "50 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~45 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "Film",
+      "v": "Serbian flag design"
+    },
+    {
+      "k": "Ventilation",
+      "v": "Mesh"
+    },
+    {
+      "k": "Type",
+      "v": "Vertical"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This glass terrarium (30x30x50 cm, 45 L) comes with exterior decorative film in a pattern of your choice. The glass gives a clear view of the inside, while film on three sides gives the animals a sense of security."
+    },
+    {
+      "type": "p",
+      "html": "The vertical orientation (50 cm tall) makes this terrarium suitable for arboreal animals, which live in tree canopies and on trunks in the wild. You can add branches, cork and artificial plants to recreate a vertical habitat. Ventilation is provided by mesh openings that allow airflow and humidity control inside the terrarium."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Crested geckos",
+        "Day geckos",
+        "Tree frogs",
+        "Smaller chameleon species"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "Every terrarium we make is handmade, so you can choose the dimensions, film color, ventilation type and background style. We also build fully custom models to your needs, so contact us for a consultation. Delivery throughout Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Terrarium 30x30x50 with Serbian Flag Design | NS Reptiles",
+    "description": "Vertical glass terrarium 30x30x50 cm (45 L) with Serbian flag decorative film. Suitable for crested geckos and day geckos. Delivery across Serbia.",
+    "keywords": "glass terrarium 30x30x50, terrarium 30x30x50 cm, medium terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

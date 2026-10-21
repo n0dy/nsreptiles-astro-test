@@ -1,0 +1,56 @@
+{
+  "slug": "arcadia-earthpro-ca-100g",
+  "name": "Arcadia EarthPro-Ca 100g",
+  "label": "Supplements",
+  "lead": "Pure calcium supplement without D3, 39.4% calcium content. For daily use with adequate UVB lighting.",
+  "imageAlt": "Arcadia EarthPro-Ca 100g - NS Reptiles",
+  "specs": [
+    {
+      "k": "Brand",
+      "v": "Arcadia"
+    },
+    {
+      "k": "Weight",
+      "v": "100g"
+    },
+    {
+      "k": "Calcium",
+      "v": "39.4%"
+    },
+    {
+      "k": "Intended for",
+      "v": "Reptiles"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "Arcadia EarthPro-Ca 100g is a pure calcium supplement without vitamin D3, with a calcium content of 39.4%. It is intended for daily use in reptiles that have adequate UVB lighting - under UVB light, animals synthesize vitamin D3 on their own, so they do not need extra."
+    },
+    {
+      "type": "p",
+      "html": "Dust it over live or supplementary food before every feeding. Pure calcium without D3 is safe for daily use because it eliminates the risk of a vitamin D3 overdose."
+    },
+    {
+      "type": "p",
+      "html": "Made in the United Kingdom by Arcadia Reptile, a brand known for its high standards in reptile equipment."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Arcadia EarthPro-Ca 100g | Calcium for Reptiles",
+    "description": "Arcadia EarthPro-Ca 100g: pure calcium without D3 for daily use in reptiles. A natural calcium source made in the United Kingdom. Order from NS Reptiles.",
+    "keywords": "Arcadia EarthPro-Ca 100g, calcium for reptiles, reptile supplements, pure calcium without D3, NS Reptiles"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "arcadia-uvb-12-18w-t8-600mm",
+  "name": "Arcadia UVB 12% 18W T8 600mm",
+  "label": "Lighting",
+  "lead": "Arcadia 12% UVB T8 tube, 18W / 600mm. Maximum UVB radiation for desert reptile species.",
+  "imageAlt": "Arcadia UVB 12% 18W T8 600mm - NS Reptiles",
+  "specs": [
+    {
+      "k": "Brand",
+      "v": "Arcadia"
+    },
+    {
+      "k": "Format",
+      "v": "T8 18W 600mm"
+    },
+    {
+      "k": "UVB",
+      "v": "12%"
+    },
+    {
+      "k": "Lifespan",
+      "v": "12 months"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The Arcadia 12% UVB T8 fluorescent tube, 18W and 600mm long, delivers the strongest UVB radiation in the T8 series, made for desert reptile species exposed to extreme sun in the wild. UVB radiation is essential for vitamin D3 synthesis in the skin, which enables calcium absorption and proper bone development, preventing metabolic bone disease (MBD)."
+    },
+    {
+      "type": "p",
+      "html": "The 12% output suits the most demanding desert species, such as bearded dragons and uromastyx. The 600mm tube covers larger terrariums and is installed in a matching T8 fitting at the top. Replacement is recommended every 12 months, because UVB output gradually weakens even though the visible light stays the same."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Arcadia UVB 12% 18W T8 600mm | Reptile UVB Tube",
+    "description": "Arcadia 12% UVB T8 tube, 18W / 600mm, for desert reptile species that need maximum UVB radiation. 12-month lifespan. Order from NS Reptiles.",
+    "keywords": "Arcadia UVB 12% 18W T8, reptile UVB tube, desert reptile species, strong UVB, NS Reptiles"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "pirate-ship-aquarium-decoration",
+  "name": "Pirate ship",
+  "label": "Decoration",
+  "lead": "Pirate ship - a decorative aquarium piece that also serves as a hiding place for fish.",
+  "imageAlt": "Pirate ship - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Decoration - pirate ship"
+    },
+    {
+      "k": "Intended for",
+      "v": "Aquarium"
+    },
+    {
+      "k": "Function",
+      "v": "Ornament and hiding place for fish"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The pirate ship is a decorative aquarium piece that adds an interesting visual accent and a functional hiding place for fish. The detailed ship with pirate motifs instantly draws attention and becomes the centerpiece of the aquarium. The hollow parts of the ship - the hull and deck - let fish swim through it and use it as a hiding place, which is especially useful for shyer species that need places to retreat. It is made from material that is safe for underwater use and does not affect water parameters. Ideal for kids' aquariums or for anyone who wants a themed aquarium with nautical motifs. Combine it with the ship wheel and anchor for a complete pirate look."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Pirate Ship Aquarium Ornament | NS Reptiles",
+    "description": "Pirate ship aquarium ornament that also serves as a hiding place for fish. Safe for underwater use. NS Reptiles, Novi Sad, delivery across Serbia.",
+    "keywords": "pirate ship aquarium ornament, aquarium decoration, fish hiding place, aquarium decor, NS Reptiles, Novi Sad"
+  }
+}

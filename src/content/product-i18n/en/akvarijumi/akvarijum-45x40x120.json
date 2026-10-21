@@ -1,0 +1,56 @@
+{
+  "slug": "aquarium-45x40x120",
+  "name": "Aquarium 45x40x120",
+  "label": "Large aquarium",
+  "lead": "Glass aquarium, 45x40x120 cm. Volume: 216.0 liters. Handmade in Novi Sad.",
+  "imageAlt": "Aquarium 45x40x120 - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "45 cm"
+    },
+    {
+      "k": "Width",
+      "v": "40 cm"
+    },
+    {
+      "k": "Height",
+      "v": "120 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~216.0 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 45x40x120 cm glass aquarium with a volume of 216 liters is made from glass whose thickness matches this volume, with silicone joints that guarantee long-lasting watertightness. Its 120 cm height gives it a striking vertical format that takes up little floor space."
+    },
+    {
+      "type": "p",
+      "html": "The larger volume allows you to keep larger species such as angelfish and discus, or a community with several schools of smaller fish. More stable water parameters in a larger volume mean less stress for the fish and less frequent intervention."
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "We build custom aquariums: any dimensions, glass thickness matched to the volume, optional openings for filters and heaters. Call us or message us on WhatsApp for a consultation and a price. Delivery to all cities in Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Tall Glass Aquarium 45x40x120 cm, 216 L | NS Reptiles",
+    "description": "Tall glass aquarium 45x40x120 cm, 216 liters. Room for angelfish, discus or fish schools. Handmade in Novi Sad, custom sizes, delivery across Serbia.",
+    "keywords": "glass aquarium 45x40x120, aquarium 45x40x120 cm, large aquarium, tall aquarium, custom aquarium Serbia, aquarium Novi Sad, NS Reptiles"
+  }
+}

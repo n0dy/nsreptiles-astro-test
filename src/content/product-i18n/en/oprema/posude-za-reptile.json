@@ -1,0 +1,56 @@
+{
+  "slug": "reptile-dishes",
+  "name": "Reptile dishes",
+  "label": "Equipment",
+  "lead": "Decorative food and water dishes for reptiles. Various designs and sizes, made from non-toxic materials that are safe for animals.",
+  "imageAlt": "Reptile dishes - NS Reptiles",
+  "specs": [
+    {
+      "k": "Brand",
+      "v": "NS Reptiles"
+    },
+    {
+      "k": "Type",
+      "v": "Food/water dishes"
+    },
+    {
+      "k": "Material",
+      "v": "Non-toxic resin"
+    },
+    {
+      "k": "Intended for",
+      "v": "All reptile species"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "Decorative food and water dishes are an essential part of every terrarium setup. Our range includes a variety of models that fit perfectly with a natural terrarium look, from small dishes for calcium powder and insects to larger water dishes suitable for reptiles to bathe in. Every dish is made from non-toxic materials that are completely safe for animals, even if reptiles accidentally bite or lick them."
+    },
+    {
+      "type": "p",
+      "html": "The dish designs imitate natural elements such as stone and rock, so they blend visually into the terrarium without spoiling its look. A heavy base prevents tipping, even by larger lizards and snakes, while smooth inner surfaces make cleaning and hygiene easier. Changing the water regularly and cleaning the dishes is key to your reptiles' health."
+    },
+    {
+      "type": "p",
+      "html": "Small shallow dishes are ideal for leopard geckos and smaller lizards that need a small dish for water or calcium powder. Medium dishes suit bearded dragons and tortoises for daily drinking. Larger dishes are suitable for snakes and bigger lizards that need enough room to soak, especially during shedding, when moisture helps remove the old skin. Contact us for available models and sizes."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Order by phone or WhatsApp message. Delivery to your address in any town in Serbia. In Novi Sad - pickup at our workshop."
+    }
+  ],
+  "seo": {
+    "title": "Reptile Food and Water Dishes | NS Reptiles",
+    "description": "Decorative food and water dishes for reptiles. Various designs and sizes, made from non-toxic resin. NS Reptiles, Novi Sad, delivery across Serbia.",
+    "keywords": "reptile dishes, reptile water dish, reptile food dish, terrarium equipment, NS Reptiles, Novi Sad"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "aquarium-50x45x35",
+  "name": "Aquarium 50x45x35",
+  "label": "Small aquarium",
+  "lead": "Glass aquarium, 50x45x35 cm. Volume: 78.8 liters. Handmade in Novi Sad.",
+  "imageAlt": "Aquarium 50x45x35 - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "50 cm"
+    },
+    {
+      "k": "Width",
+      "v": "45 cm"
+    },
+    {
+      "k": "Height",
+      "v": "35 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~78.8 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 50x45x35 cm aquarium (78.8 L) strikes a good balance between size and practicality: roomy enough for a variety of fish, yet compact enough not to dominate the room. The quality of the glass and joints guarantees durability."
+    },
+    {
+      "type": "p",
+      "html": "The dimensions allow a varied aquascape: wood, stone, live plants and quality substrate. We recommend an external or internal filter, a heater with a thermostat and LED lighting suited to plants."
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "We build custom aquariums: any dimensions, glass thickness matched to the volume, optional openings for filters and heaters. Call us or message us on WhatsApp for a consultation and a price. Delivery to all cities in Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Glass Aquarium 50x45x35 cm, 78.8 L | NS Reptiles",
+    "description": "Small glass aquarium 50x45x35 cm, 78.8 liters. Room for a varied aquascape with live plants. Handmade in Novi Sad, custom sizes, delivery across Serbia.",
+    "keywords": "glass aquarium 50x45x35, aquarium 50x45x35 cm, small aquarium, custom aquarium Serbia, aquarium Novi Sad, NS Reptiles"
+  }
+}

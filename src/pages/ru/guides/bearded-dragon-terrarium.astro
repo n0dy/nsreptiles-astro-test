@@ -1,0 +1,543 @@
+---
+import Base from '../../../layouts/Base.astro';
+import '../../../styles/animals.css';
+import '../../../styles/usluge.css';
+import { translationsFor } from '../../../i18n/routes';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Террариум для бородатой агамы — рекомендации и оборудование",
+    "description": "Руководство по выбору террариума для бородатой агамы. Рекомендуемый размер 100x50x50 см, UVB-освещение, кварцевый песок и оформление.",
+    "image": "https://nsreptiles.net/style/img/terrariums/100x50x50.webp",
+    "author": {
+      "@type": "Organization",
+      "name": "NS Reptiles"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "url": "https://nsreptiles.net"
+    },
+    "url": "https://nsreptiles.net/ru/guides/bearded-dragon-terrarium.html"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Главная",
+        "item": "https://nsreptiles.net/ru/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Террариумы",
+        "item": "https://nsreptiles.net/ru/terrariums.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Террариум для бородатой агамы",
+        "item": "https://nsreptiles.net/ru/guides/bearded-dragon-terrarium.html"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Какой размер террариума нужен бородатой агаме?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Рекомендуемый размер террариума для бородатой агамы — около 100x50x50 см. Террариумы меньшего размера можно использовать, пока животное из них не вырастет, но взрослой агаме нужно полноценное пространство для движения, температурного зонирования и прогрева."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Какое освещение нужно бородатой агаме?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Нужны два типа освещения: UVA-лампа, которая имитирует солнечные лучи и даёт тепло, и UVB-лампа, которая обеспечивает синтез витамина D3. Без UVB-освещения у агамы развивается метаболическая болезнь костей."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Какой субстрат рекомендуется для террариума бородатой агамы?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Рекомендуемый субстрат для бородатой агамы — кварцевый песок. Он соответствует её естественной среде обитания и позволяет ей естественно рыть."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Вы изготавливаете террариумы для бородатых агам на заказ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Да, мы изготавливаем террариумы на заказ. Цвет, размер, оборудование и всё остальное вы выбираете сами. Срок изготовления — 7 рабочих дней. Свяжитесь с нами, чтобы узнать цену."
+        }
+      }
+    ]
+  }
+];
+---
+<Base
+  lang="ru"
+  title="Террариум для бородатой агамы: размер и UVB | NS Reptiles"
+  description="Как выбрать террариум для бородатой агамы: размер 100x50x50 см, UVB-освещение, кварцевый песок и оформление. Изготовление на заказ в Нови-Саде."
+  path="/ru/guides/bearded-dragon-terrarium.html"
+  keywords="террариум для бородатой агамы, бородатая агама террариум, UVB лампа для агамы, террариум на заказ Нови-Сад"
+  image="/style/img/terrariums/100x50x50.webp"
+  ogType="article"
+  ogDescription="Рекомендуемый размер террариума для бородатой агамы — 100x50x50 см, с UVA-лампой, UVB-лампой и кварцевым песком. Узнайте всё об оборудовании и оформлении."
+  translations={translationsFor("/ru/guides/bearded-dragon-terrarium.html")}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Руководства</div>
+        <h1>Террариум для бородатой агамы</h1>
+        <p>Всё, что нужно знать перед обустройством террариума, — рекомендуемый размер, освещение, субстрат и оформление.</p>
+      </div>
+    </section>
+<section class="intro">
+      <div class="wrap">
+        <nav class="breadcrumb" aria-label="Навигационная цепочка">
+          <a href="/ru/">Главная</a>
+          <span aria-hidden="true">›</span>
+          <a href="/ru/terrariums.html">Террариумы</a>
+          <span aria-hidden="true">›</span>
+          <span aria-current="page">Террариум для бородатой агамы</span>
+        </nav>
+      </div>
+    </section>
+<section class="guide-body">
+      <div class="wrap">
+        <div class="guide-grid">
+
+          <!-- Glavni tekst -->
+          <article class="guide-content reveal">
+
+            <h2>Рекомендуемый размер террариума</h2>
+            <p>
+              Рекомендуемый размер террариума для бородатой агамы — около <strong>100x50x50 см</strong>. Террариумы поменьше можно использовать временно — пока животное из них не вырастет, — но взрослой агаме нужно достаточно места для движения, прогрева и правильного температурного зонирования.
+            </p>
+            <p>
+              В террариуме должна быть <strong>тёплая зона</strong> (где животное греется) и <strong>более прохладная зона</strong>, куда оно уходит, когда ему нужен отдых. Без такого градиента агама не может регулировать температуру тела, что напрямую влияет на пищеварение и иммунитет.
+            </p>
+            <p>
+              Поскольку мы изготавливаем террариумы на заказ, цвет, размер и оборудование вы выбираете сами. Если вы не уверены, какой размер оптимален для вашего питомца, — свяжитесь с нами, мы с радостью поможем.
+            </p>
+
+            <h2>Оборудование и освещение</h2>
+
+            <h3>UVA-лампа</h3>
+            <p>
+              UVA-лампа имитирует солнечные лучи и даёт тепло для точки прогрева. Температура в точке прогрева должна составлять <strong>40–45 °C</strong>, а в остальной части террариума днём держится в диапазоне 28–32 °C. Ночью обогрев выключают, и температура может опускаться до комнатной.
+            </p>
+
+            <h3>UVB-лампа</h3>
+            <p>
+              UVB-освещение для бородатой агамы <strong>обязательно</strong>. Без него животное не может синтезировать витамин D3, необходимый для усвоения кальция. Недостаток UVB-освещения приводит к метаболической болезни костей — деформациям, слабости и серьёзным проблемам со здоровьем. Для пустынных видов рекомендуется UVB-лампа мощностью 10–12%.
+            </p>
+
+            <div class="warn-box">
+              Никогда не используйте обычные лампы или LED-освещение вместо UVB. Стекло и оргстекло блокируют УФ-лучи — лампа должна находиться прямо в террариуме или над сеткой, пропускающей УФ.
+            </div>
+
+            <h3>Субстрат</h3>
+            <p>
+              Рекомендуемый субстрат для бородатой агамы — <strong>кварцевый песок</strong>. Он соответствует её естественной среде обитания и позволяет ей естественно рыть. Слой песка должен быть достаточно глубоким — минимум 5–8 см, — чтобы животное могло копать.
+            </p>
+            <p>
+              Как альтернативу можно использовать каменную плитку или линолеум — так проще поддерживать гигиену, особенно у молодых животных.
+            </p>
+
+            <h2>Оформление террариума</h2>
+            <p>Помимо освещения и субстрата, в террариуме нужно обеспечить:</p>
+            <ul>
+              <li><strong>Укрытие</strong> — коробку или полуоткрытую скалу, куда агама может спрятаться</li>
+              <li><strong>Коряга или камень для прогрева</strong> — расположите прямо под UVA-лампой, чтобы температура была правильной</li>
+              <li><strong>Неглубокая поилка</strong> — меняйте воду ежедневно; агамы пьют и капли при опрыскивании</li>
+              <li><strong>Декоративные ветки или камни</strong> — по желанию, для более богатой среды</li>
+            </ul>
+
+            <h2>Частые ошибки при обустройстве террариума</h2>
+            <ul>
+              <li>Слишком высокая влажность — бородатая агама пустынное животное, влажность должна быть 30–40%</li>
+              <li>Слишком слабая точка прогрева — если лампа недостаточно мощная или висит далеко, агама не сможет согреться</li>
+              <li>Отсутствие UVB — самая частая и самая опасная ошибка; ведёт к необратимым повреждениям</li>
+              <li>Стеклянная перегородка между лампой и животным — стекло блокирует УФ-лучи</li>
+              <li>Слишком маленький террариум для взрослой особи — мешает нормальной терморегуляции</li>
+            </ul>
+
+          </article>
+
+          <!-- Sidebar sa karticama terarijuma -->
+          <aside class="guide-sidebar reveal">
+            <div class="side-card">
+              <img src="/style/img/terrariums/100x50x50.webp" alt="Стеклянный террариум 100x50x50 см для бородатой агамы" width="600" height="600" loading="lazy">
+              <div class="side-card-body">
+                <h4>Террариум 100x50x50</h4>
+                <p>Рекомендуемый размер для взрослой бородатой агамы.</p>
+                <a href="/ru/terrariums.html" class="btn btn-primary">Смотреть ассортимент</a>
+              </div>
+            </div>
+            <div class="side-card">
+              <img src="/style/img/terrariums/90x50x50.webp" alt="Стеклянный террариум 90x50x50 см" width="600" height="600" loading="lazy">
+              <div class="side-card-body">
+                <h4>Террариум 90x50x50</h4>
+                <p>Подходящий размер для молодых или небольших особей.</p>
+                <a href="/ru/terrariums.html" class="btn btn-outline">Смотреть ассортимент</a>
+              </div>
+            </div>
+            <div class="side-card" style="background: var(--green); padding: 22px;">
+              <div style="color: #fff;">
+                <h4 style="font-family: 'Oswald', sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 8px;">Изготовление на заказ</h4>
+                <p style="font-family: 'Jost', sans-serif; font-weight: 300; font-size: .9rem; line-height: 1.6; color: rgba(255,255,255,.88); margin-bottom: 16px;">Цвет, размер и оборудование вы выбираете сами. Срок изготовления — 7 рабочих дней.</p>
+                <a href="/ru/custom-terrariums.html" class="btn btn-light" style="font-size: .85rem;">Подробнее</a>
+              </div>
+            </div>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+<section class="guide-faq">
+      <div class="wrap">
+        <h2>Частые вопросы</h2>
+
+        <div class="faq-item">
+          <button class="faq-q">
+            Какой размер террариума нужен бородатой агаме?<span class="ic">+</span>
+          </button>
+          <div class="faq-a">
+            <p>
+              Рекомендуемый размер террариума для бородатой агамы — около 100x50x50 см. Террариумы меньшего размера можно использовать, пока животное из них не вырастет, но взрослой агаме нужно полноценное пространство для движения, температурного зонирования и прогрева.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q">
+            Какое освещение необходимо бородатой агаме?<span class="ic">+</span>
+          </button>
+          <div class="faq-a">
+            <p>
+              Нужны два типа освещения: UVA-лампа, которая имитирует солнечные лучи и даёт тепло в точке прогрева, и UVB-лампа, которая обеспечивает синтез витамина D3. Без UVB-освещения у агамы развивается метаболическая болезнь костей. Рекомендуется UVB-лампа мощностью 10–12%.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q">
+            Какой субстрат рекомендуется?<span class="ic">+</span>
+          </button>
+          <div class="faq-a">
+            <p>
+              Рекомендуемый субстрат — кварцевый песок слоем минимум 5–8 см. Он соответствует естественной среде обитания бородатой агамы и позволяет ей копать. Для молодых животных можно использовать каменную плитку или линолеум — так проще поддерживать гигиену.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q">
+            Вы изготавливаете террариумы для бородатых агам на заказ?<span class="ic">+</span>
+          </button>
+          <div class="faq-a">
+            <p>
+              Да, мы изготавливаем террариумы на заказ — цвет, размер, оборудование и всё остальное вы выбираете сами. Срок изготовления — 7 рабочих дней. Свяжитесь с нами, чтобы узнать цену и наличие.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+<section class="int-links">
+      <div class="wrap">
+        <div class="int-links-head reveal">
+          <div class="eyebrow">Полезные ссылки</div>
+          <h2>Больше информации</h2>
+        </div>
+        <div class="int-links-grid reveal">
+          <a href="/ru/animals/bearded-dragon.html" class="int-link-card">
+            Бородатая агама — всё о виде
+            <span>Питание, уход, темперамент и особенности</span>
+          </a>
+          <a href="/ru/terrariums.html" class="int-link-card">
+            Ассортимент террариумов
+            <span>Все размеры, цена по запросу</span>
+          </a>
+          <a href="/ru/custom-terrariums.html" class="int-link-card">
+            Изготовление террариумов на заказ
+            <span>Цвет, размер и оборудование вы выбираете сами</span>
+          </a>
+        </div>
+      </div>
+    </section>
+<section class="zcta">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content: center">Есть вопрос?</div>
+        <h2>Свяжитесь с нами <b>напрямую</b></h2>
+        <p>Напишите нам свой вопрос о террариуме для бородатой агамы — мы быстро ответим и поможем вам сделать правильный выбор.</p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%BC%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D1%82%D0%B5%D1%80%D1%80%D0%B0%D1%80%D0%B8%D1%83%D0%BC%20%D0%B4%D0%BB%D1%8F%20%D0%B1%D0%BE%D1%80%D0%BE%D0%B4%D0%B0%D1%82%D0%BE%D0%B9%20%D0%B0%D0%B3%D0%B0%D0%BC%D1%8B" target="_blank" rel="noopener" class="btn" style="background: #fff; color: var(--green-dark)" onclick="gtag('event', 'kontakt_click', {'metod': 'whatsapp'})">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event', 'kontakt_click', {'metod': 'telefon'})">+381 69 330 1474</a>
+        </div>
+      </div>
+    </section>
+<style is:global>
+      /* ── Vodic-specificni stilovi ── */
+      .guide-body {
+        background: var(--bg);
+        padding: 60px 0 100px;
+        transition: background 0.4s;
+      }
+      .guide-grid {
+        display: grid;
+        grid-template-columns: 1fr 300px;
+        gap: 48px;
+        align-items: start;
+      }
+      @media (max-width: 900px) {
+        .guide-grid { grid-template-columns: 1fr; }
+      }
+      .guide-content h2 {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        font-size: 1.55rem;
+        text-transform: uppercase;
+        letter-spacing: .06em;
+        color: var(--ink);
+        margin: 48px 0 14px;
+      }
+      .guide-content h2:first-child { margin-top: 0; }
+      .guide-content h3 {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        letter-spacing: .05em;
+        color: var(--green-dark);
+        margin: 28px 0 8px;
+      }
+      .guide-content p {
+        font-family: 'Jost', sans-serif;
+        font-weight: 300;
+        line-height: 1.8;
+        color: var(--ink);
+        margin-bottom: 16px;
+      }
+      .guide-content ul {
+        font-family: 'Jost', sans-serif;
+        font-weight: 300;
+        line-height: 1.8;
+        color: var(--ink);
+        padding-left: 20px;
+        margin-bottom: 16px;
+      }
+      .guide-content ul li { margin-bottom: 6px; }
+      .guide-content strong { font-weight: 600; }
+      .guide-content .warn-box {
+        background: #fff8e1;
+        border-left: 4px solid #f5a623;
+        padding: 16px 20px;
+        border-radius: 4px;
+        margin: 20px 0;
+        font-family: 'Jost', sans-serif;
+        font-size: .95rem;
+        line-height: 1.7;
+        color: var(--ink);
+      }
+
+      /* Sidebar karte */
+      .guide-sidebar { display: flex; flex-direction: column; gap: 20px; }
+      .side-card {
+        background: var(--white);
+        border-radius: 8px;
+        box-shadow: 0 8px 28px -12px rgba(40,47,52,.18);
+        overflow: hidden;
+        transition: transform .25s;
+      }
+      .side-card:hover { transform: translateY(-4px); }
+      .side-card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        display: block;
+      }
+      .side-card-body { padding: 16px 18px 20px; }
+      .side-card-body h4 {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: .05em;
+        color: var(--ink);
+        margin-bottom: 6px;
+      }
+      .side-card-body p {
+        font-family: 'Jost', sans-serif;
+        font-size: .88rem;
+        font-weight: 300;
+        color: var(--ink-soft);
+        margin-bottom: 14px;
+        line-height: 1.6;
+      }
+      .side-card-body .btn {
+        font-size: .85rem;
+        padding: 9px 18px;
+      }
+
+      /* Breadcrumb */
+      .breadcrumb {
+        padding: 14px 0 0;
+        font-family: 'Jost', sans-serif;
+        font-size: .85rem;
+        color: var(--ink-soft);
+      }
+      .breadcrumb a { color: var(--green); text-decoration: none; }
+      .breadcrumb a:hover { color: var(--green-dark); }
+      .breadcrumb span { margin: 0 6px; }
+
+      /* FAQ accordion */
+      .guide-faq { padding: 60px 0 80px; }
+      .guide-faq h2 {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        font-size: 1.55rem;
+        text-transform: uppercase;
+        letter-spacing: .06em;
+        margin-bottom: 32px;
+        color: var(--ink);
+      }
+      .faq-item {
+        background: var(--white);
+        border-radius: 6px;
+        margin-bottom: 10px;
+        box-shadow: 0 4px 16px -8px rgba(40,47,52,.12);
+        overflow: hidden;
+      }
+      .faq-q {
+        width: 100%;
+        background: none;
+        border: none;
+        text-align: left;
+        padding: 18px 22px;
+        font-family: 'Jost', sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        color: var(--ink);
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        transition: color .2s;
+      }
+      .faq-q:hover { color: var(--green); }
+      .faq-q .ic {
+        font-size: 1.3rem;
+        font-weight: 300;
+        color: var(--green);
+        flex-shrink: 0;
+        transition: transform .25s;
+      }
+      .faq-item.open .faq-q .ic { transform: rotate(45deg); }
+      .faq-a {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height .35s ease;
+      }
+      .faq-item.open .faq-a { max-height: 400px; }
+      .faq-a p {
+        padding: 0 22px 18px;
+        font-family: 'Jost', sans-serif;
+        font-weight: 300;
+        line-height: 1.8;
+        color: var(--ink);
+        margin: 0;
+      }
+
+      /* Interni linkovi */
+      .int-links {
+        padding: 48px 0 60px;
+        background: var(--white);
+      }
+      .int-links-head { margin-bottom: 24px; }
+      .int-links-head .eyebrow { margin-bottom: 8px; }
+      .int-links-head h2 {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        font-size: 1.55rem;
+        text-transform: uppercase;
+        letter-spacing: .06em;
+        color: var(--ink);
+      }
+      .int-links-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 16px;
+      }
+      .int-link-card {
+        display: block;
+        padding: 22px 24px;
+        background: var(--bg);
+        border-radius: 8px;
+        text-decoration: none;
+        color: var(--ink);
+        font-family: 'Jost', sans-serif;
+        font-weight: 500;
+        transition: background .2s, transform .2s;
+        border-left: 3px solid var(--green);
+      }
+      .int-link-card:hover {
+        background: var(--green);
+        color: var(--white);
+        transform: translateY(-3px);
+      }
+      .int-link-card span {
+        display: block;
+        font-size: .82rem;
+        font-weight: 300;
+        color: var(--ink-soft);
+        margin-top: 4px;
+        transition: color .2s;
+      }
+      .int-link-card:hover span { color: rgba(255,255,255,.8); }
+    </style>
+<script is:inline slot="after">
+      // FAQ accordion
+      document.querySelectorAll('.faq-q').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var item = this.closest('.faq-item');
+          var isOpen = item.classList.contains('open');
+          document.querySelectorAll('.faq-item.open').forEach(function(el) {
+            el.classList.remove('open');
+          });
+          if (!isOpen) item.classList.add('open');
+        });
+      });
+
+      // Reveal on scroll
+      var revealEls = document.querySelectorAll('.reveal');
+      if ('IntersectionObserver' in window) {
+        var obs = new IntersectionObserver(function(entries) {
+          entries.forEach(function(e) {
+            if (e.isIntersecting) {
+              e.target.classList.add('visible');
+              obs.unobserve(e.target);
+            }
+          });
+        }, { threshold: 0.12 });
+        revealEls.forEach(function(el) { obs.observe(el); });
+      } else {
+        revealEls.forEach(function(el) { el.classList.add('visible'); });
+      }
+    </script>
+</Base>

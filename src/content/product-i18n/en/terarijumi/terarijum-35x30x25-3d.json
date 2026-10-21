@@ -1,0 +1,81 @@
+{
+  "slug": "terrarium-35x30x25-3d",
+  "name": "Terrarium 35x30x25 +3D",
+  "label": "Medium terrarium",
+  "lead": "Glass terrarium measuring 35x30x25 cm with a handmade 3D background. Volume: ~26.3 liters, horizontal format. Handmade in Novi Sad.",
+  "imageAlt": "Glass terrarium 35x30x25 cm with 3D background - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "35 cm"
+    },
+    {
+      "k": "Width",
+      "v": "30 cm"
+    },
+    {
+      "k": "Height",
+      "v": "25 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~26.3 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "3D background",
+      "v": "Yes (polystyrene)"
+    },
+    {
+      "k": "Ventilation",
+      "v": "Mesh"
+    },
+    {
+      "k": "Type",
+      "v": "Horizontal"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 35x30x25 cm terrarium (~26.3 L) stands out with a polystyrene 3D background that we shape and paint by hand. The background evokes a rocky or forest setting and gives animals functional surfaces for moving vertically."
+    },
+    {
+      "type": "p",
+      "html": "With a floor area of 35x30 cm, this terrarium allows natural movement for ground-dwelling species and proper temperature zoning: a warm spot under the spot lamp and a cooler area on the opposite side. Mesh ventilation openings provide the airflow animals need to stay healthy and prevent condensation."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Geckos (leopard, crested, gargoyle)",
+        "Corn snakes (juveniles)",
+        "Day geckos",
+        "Smaller lizard species"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "If the standard dimensions don't suit you, we build custom terrariums. Choose the size, film pattern, background style and extras such as LED lighting or a thermostat. Contact us for a quote. We deliver across Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Glass Terrarium 35x30x25 with 3D Background | NS Reptiles",
+    "description": "Medium glass terrarium 35x30x25 cm (26.3 L) with a handmade 3D background, horizontal format. Suitable for geckos and young corn snakes.",
+    "keywords": "glass terrarium 35x30x25, terrarium 35x30x25 cm, terrarium with 3D background, medium terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

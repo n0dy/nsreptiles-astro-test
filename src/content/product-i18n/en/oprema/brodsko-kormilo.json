@@ -1,0 +1,48 @@
+{
+  "slug": "ship-wheel-decoration",
+  "name": "Ship wheel",
+  "label": "Decoration",
+  "lead": "Ship wheel - a decorative piece that brings a nautical theme to your aquarium.",
+  "imageAlt": "Ship wheel - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Decoration - ship wheel"
+    },
+    {
+      "k": "Intended for",
+      "v": "Aquarium"
+    },
+    {
+      "k": "Theme",
+      "v": "Nautical"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The ship wheel is a decorative piece that brings a nautical theme to your aquarium. It is a detailed ornament that looks authentic and natural in both marine and freshwater aquariums. Suitable for aquariums of all sizes, easy to clean and maintain."
+    },
+    {
+      "type": "p",
+      "html": "It can be combined with other nautical decorations such as an anchor, a pirate ship and corals for a complete underwater scene. Safe for fish and other aquatic organisms."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Ship Wheel Aquarium Ornament | Decoration - NS Reptiles",
+    "description": "Ship wheel aquarium ornament with a nautical theme. A detailed, easy-to-clean decoration that is safe for fish. NS Reptiles, Novi Sad, Serbia.",
+    "keywords": "ship wheel aquarium ornament, aquarium decoration, nautical aquarium theme, NS Reptiles"
+  }
+}

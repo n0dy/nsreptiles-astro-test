@@ -1,0 +1,56 @@
+{
+  "slug": "aquarium-80x45x50",
+  "name": "Aquarium 80x45x50",
+  "label": "Medium aquarium",
+  "lead": "Glass aquarium, 80x45x50 cm. Volume: 180.0 liters. Handmade in Novi Sad.",
+  "imageAlt": "Aquarium 80x45x50 - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "80 cm"
+    },
+    {
+      "k": "Width",
+      "v": "45 cm"
+    },
+    {
+      "k": "Height",
+      "v": "50 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~180.0 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "With 180 liters of volume, this aquarium (80x45x50 cm) gives you freedom in aquascaping: larger roots, more plants, bigger stones and more fish. Glass of the right thickness keeps it safe under higher water pressure."
+    },
+    {
+      "type": "p",
+      "html": "This volume opens up the possibility of a biotope approach: recreating the natural habitat of the Amazon River, African lakes or Southeast Asia. We recommend an external filter, a CO2 system for plants and quality LED lighting."
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "We build custom aquariums: any dimensions, glass thickness matched to the volume, optional openings for filters and heaters. Call us or message us on WhatsApp for a consultation and a price. Delivery to all cities in Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Glass Aquarium 80x45x50 cm, 180 L | NS Reptiles",
+    "description": "Medium glass aquarium 80x45x50 cm, 180 liters. Suited to a biotope setup with live plants. Handmade in Novi Sad, custom sizes, delivery across Serbia.",
+    "keywords": "glass aquarium 80x45x50, aquarium 80x45x50 cm, medium aquarium, custom aquarium Serbia, aquarium Novi Sad, NS Reptiles"
+  }
+}

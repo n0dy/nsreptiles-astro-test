@@ -1,0 +1,80 @@
+{
+  "slug": "aqua-terrarium-50x35x45x25",
+  "name": "Aqua-Terrarium 50x35x45x25",
+  "label": "Medium terrarium",
+  "lead": "Combined aqua-terrarium measuring 50x35x45 cm. Ideal for animals that need both a land and a water section in their habitat. Water section height: 25 cm.",
+  "imageAlt": "Aqua-Terrarium 50x35x45x25 - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "50 cm"
+    },
+    {
+      "k": "Width",
+      "v": "35 cm"
+    },
+    {
+      "k": "Height",
+      "v": "45 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~78.8 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "Type",
+      "v": "Horizontal"
+    },
+    {
+      "k": "Water section",
+      "v": "25 cm"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 50x35x45 cm aqua-terrarium is designed for animals that need both a dry and an aquatic environment. With a 25 cm water section and a total volume of 78.8 liters, it gives semi-aquatic species enough room for natural behavior: swimming, diving and climbing out onto land."
+    },
+    {
+      "type": "p",
+      "html": "The horizontal layout with 50 cm of length gives a floor area where a basking zone, a cool zone and a hiding area are easy to arrange. Reptile thermoregulation depends on being able to move between warm and cool zones inside the terrarium. The ventilation system is designed for constant airflow that prevents overheating and trapped moisture."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "p",
+      "html": "Aqua-terrariums are designed for species that need both a land and a water section in their habitat:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Aquatic and semi-aquatic turtles",
+        "Chinese water dragons",
+        "Amphibians that need an aquatic section"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "Because we build every terrarium by hand, we adapt it to your requirements, from dimensions and film to the background and ventilation system. Call or write to us for free advice and a quote. We ship to every city in Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Aqua-Terrarium 50x35x45x25 cm | NS Reptiles",
+    "description": "Glass aqua-terrarium 50x35x45 cm (78.8 L), 25 cm water section. Suitable for aquatic and semi-aquatic turtles, Chinese water dragons.",
+    "keywords": "glass terrarium 50x35x45, terrarium 50x35x45 cm, aqua-terrarium, medium terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

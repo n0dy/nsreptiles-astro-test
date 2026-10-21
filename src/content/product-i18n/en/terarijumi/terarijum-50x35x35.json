@@ -1,0 +1,73 @@
+{
+  "slug": "terrarium-50x35x35",
+  "name": "Terrarium 50x35x35",
+  "label": "Medium terrarium",
+  "lead": "Glass terrarium measuring 50x35x35 cm. Volume: 61.3 liters, horizontal format. Handmade in Novi Sad.",
+  "imageAlt": "Terrarium 50x35x35 - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "50 cm"
+    },
+    {
+      "k": "Width",
+      "v": "35 cm"
+    },
+    {
+      "k": "Height",
+      "v": "35 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~61.3 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "Type",
+      "v": "Horizontal"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 50x35x35 cm terrarium (61.2 L) is made of quality glass and covered on the outside with film of your choice. The film gives the terrarium a neat look that fits your interior, with wood, bamboo and marble patterns or solid black or white available."
+    },
+    {
+      "type": "p",
+      "html": "The horizontal layout with 50 cm of length gives a floor area where a basking zone, a cool zone and a hiding area are easy to arrange. Proper thermoregulation depends on this layout: the animal moves between the warmer and cooler zones as needed. The ventilation openings are placed to create natural airflow from bottom to top, which maintains optimal humidity."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Leopard geckos and fat-tailed geckos",
+        "Crested geckos",
+        "Smaller snakes (corn snake)",
+        "Smaller chameleon species"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "Because we build every terrarium by hand, we adapt it to your requirements, from dimensions and film to the background and ventilation system. Call or write to us for free advice and a quote. We ship to every city in Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Glass Terrarium 50x35x35 cm, 61.3 L | NS Reptiles",
+    "description": "Medium glass terrarium 50x35x35 cm (61.3 L), horizontal format, with decorative film. Suitable for leopard geckos and fat-tailed geckos, crested geckos.",
+    "keywords": "glass terrarium 50x35x35, terrarium 50x35x35 cm, medium terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

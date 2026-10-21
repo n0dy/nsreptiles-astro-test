@@ -1,0 +1,60 @@
+{
+  "slug": "aquarium-40x25x27-kit",
+  "name": "Aquarium 40x25x27 - Kit with Equipment",
+  "label": "Aquarium kit",
+  "lead": "Everything you need to get started, ready to set up right away! The aquarium comes with gravel, decorations, a pump (filter), artificial plants and a heater.",
+  "imageAlt": "Aquarium 40x25x27 kit with equipment - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "40 cm"
+    },
+    {
+      "k": "Width",
+      "v": "25 cm"
+    },
+    {
+      "k": "Height",
+      "v": "27 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~27 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "Type",
+      "v": "Kit with equipment"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 40x25x27 cm aquarium (27 L) offers enough room for a layout with live plants, roots and stone. The glass is precisely cut and bonded with aquarium silicone, which makes it fully watertight."
+    },
+    {
+      "type": "p",
+      "html": "The volume suits a variety of freshwater communities, from guppies and mollies to tetras, corydoras and smaller gourami species. An aquascape with live plants and a natural substrate of quartz sand or gravel completes the look."
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "You can order any aquarium in custom dimensions and with extra options such as openings for equipment or reinforced glass. Handmade in Novi Sad, delivered to your address."
+    }
+  ],
+  "seo": {
+    "title": "Aquarium Kit 40x25x27 with Equipment | NS Reptiles",
+    "description": "Aquarium kit 40x25x27 cm, 27 L, with gravel, decorations, pump (filter), artificial plants and heater. Ready to set up. Delivery across Serbia.",
+    "keywords": "aquarium kit 40x25x27, beginner aquarium kit, aquarium with equipment, aquarium starter set, aquarium Novi Sad, NS Reptiles"
+  }
+}

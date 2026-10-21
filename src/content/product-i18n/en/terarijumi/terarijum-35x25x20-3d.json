@@ -1,0 +1,81 @@
+{
+  "slug": "terrarium-35x25x20-3d",
+  "name": "Terrarium 35x25x20 +3D",
+  "label": "Medium terrarium",
+  "lead": "Glass terrarium measuring 35x25x20 cm with a handmade 3D background. Volume: 17.5 liters, horizontal format. The large floor area makes it ideal for ground-dwelling species. Handmade in Novi Sad.",
+  "imageAlt": "Glass terrarium 35x25x20 cm with 3D background - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "35 cm"
+    },
+    {
+      "k": "Width",
+      "v": "25 cm"
+    },
+    {
+      "k": "Height",
+      "v": "20 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~17.5 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "3D background",
+      "v": "Yes (polystyrene)"
+    },
+    {
+      "k": "Ventilation",
+      "v": "Mesh"
+    },
+    {
+      "k": "Type",
+      "v": "Horizontal"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 35x25x20 cm terrarium (17.5 L) comes with a polystyrene 3D background that faithfully reproduces the texture of stone or bark. Hand-sculpted and painted in natural tones, the background is more than decoration: it adds surfaces for climbing and hiding."
+    },
+    {
+      "type": "p",
+      "html": "A length of 35 cm and a width of 25 cm provide a large floor area for ground-dwelling species. On this floor area you can easily set up a basking spot and a cool side, the basis of proper reptile care. Ventilation is provided by mesh openings that allow airflow and humidity control inside the terrarium."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Leopard geckos",
+        "Crested geckos",
+        "Day geckos",
+        "Corn snakes (young)"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "If the standard dimensions don't suit you, we build custom terrariums. Choose the size, film pattern, background style and extras such as LED lighting or a thermostat. Contact us for a quote. We deliver across Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Glass Terrarium 35x25x20 with 3D Background | NS Reptiles",
+    "description": "Medium glass terrarium 35x25x20 cm (17.5 L) with a handmade 3D background, horizontal format. Suitable for leopard geckos and crested geckos.",
+    "keywords": "glass terrarium 35x25x20, terrarium 35x25x20 cm, terrarium with 3D background, medium terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "aquarium-20x17x14",
+  "name": "Aquarium 20x17x14",
+  "label": "Mini aquarium",
+  "lead": "Glass aquarium, 20x17x14 cm. Volume: 4.8 liters. Handmade in Novi Sad.",
+  "imageAlt": "Aquarium 20x17x14 - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "20 cm"
+    },
+    {
+      "k": "Width",
+      "v": "17 cm"
+    },
+    {
+      "k": "Height",
+      "v": "14 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~4.8 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 4.8-liter glass aquarium (20x17x14 cm) is compact enough to fit on a desk, shelf or dresser. Despite its smaller volume, it offers enough room for plants and a few small fish."
+    },
+    {
+      "type": "p",
+      "html": "The compact dimensions allow creative decoration with small plants and pebbles. The recommended filter is a sponge filter with an air pump, which does not create too strong a current for small fish."
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "If you are looking for non-standard dimensions or have special requirements (reinforced bottom, lid, openings for equipment), contact us. We handmake every aquarium and ship it by courier anywhere in Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Glass Aquarium 20x17x14 cm, 4.8 L | NS Reptiles",
+    "description": "Mini glass aquarium 20x17x14 cm, 4.8 liters. Compact tank for a desk or shelf. Handmade in Novi Sad, custom sizes, delivery across Serbia.",
+    "keywords": "glass aquarium 20x17x14, aquarium 20x17x14 cm, mini aquarium, custom aquarium Serbia, aquarium Novi Sad, NS Reptiles"
+  }
+}

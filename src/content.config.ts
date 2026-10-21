@@ -37,4 +37,31 @@ const products = defineCollection({
   }),
 });
 
-export const collections = { products };
+// Prevodi proizvoda: product-i18n/{en,ru}/<kategorija>/<sr-slug>.json
+// Samo tekst - cena, slika i ostalo dolaze iz srpskog fajla.
+const productI18n = defineCollection({
+  // id = putanja fajla; inace glob loader uzima polje `slug` kao id
+  loader: glob({
+    pattern: '{en,ru}/**/*.json',
+    base: './src/content/product-i18n',
+    generateId: ({ entry }) => entry.replace(/\.json$/, ''),
+  }),
+  schema: z.object({
+    /** URL slug na engleskom (obavezan u en fajlu, ru koristi isti) */
+    slug: z.string().regex(/^[a-z0-9-]+$/).optional(),
+    name: z.string().min(1),
+    label: z.string().min(1),
+    lead: z.string().min(1),
+    imageAlt: z.string().min(1),
+    specs: z.array(z.object({ k: z.string().min(1), v: z.string().min(1) })).min(1),
+    description: z.array(block).min(1),
+    priceUnit: z.string().optional(),
+    seo: z.object({
+      title: z.string().min(1).max(65),
+      description: z.string().min(50).max(160),
+      keywords: z.string().optional(),
+    }),
+  }),
+});
+
+export const collections = { products, productI18n };

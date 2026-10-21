@@ -1,0 +1,48 @@
+{
+  "slug": "decorative-skull",
+  "name": "Decorative skull",
+  "label": "Decoration",
+  "lead": "Decorative skull for a terrarium or aquarium. An ornament and a hide for your animals.",
+  "imageAlt": "Decorative skull - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Decoration - skull"
+    },
+    {
+      "k": "Intended for",
+      "v": "Terrarium / aquarium"
+    },
+    {
+      "k": "Function",
+      "v": "Ornament and hide"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The decorative skull is an eye-catching addition to a terrarium or aquarium that combines visual appeal with the practical function of a hide. Animals use it as a shelter while resting or in stressful situations."
+    },
+    {
+      "type": "p",
+      "html": "Made from safe material, suitable for all reptiles, amphibians and fish. Easy to clean and maintain. Available in a larger size for bigger animals."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Decorative Skull Hide | Terrarium Decoration - NS Reptiles",
+    "description": "Decorative skull for a terrarium or aquarium: an ornament and a hide for reptiles, amphibians and fish. Easy to clean. NS Reptiles, Novi Sad.",
+    "keywords": "decorative skull, terrarium decoration, reptile hide, skull aquarium ornament, NS Reptiles"
+  }
+}

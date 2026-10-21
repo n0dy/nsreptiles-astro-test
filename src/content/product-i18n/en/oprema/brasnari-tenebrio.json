@@ -1,0 +1,57 @@
+{
+  "slug": "mealworms",
+  "name": "Mealworms (tenebrio)",
+  "label": "Live food",
+  "lead": "Fat-rich larvae - a treat for lizards and a dietary supplement. Feed in moderation, to build up condition and add variety to meals.",
+  "imageAlt": "Mealworms (tenebrio) - live food for lizards, a fat-rich treat",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Larvae (tenebrio)"
+    },
+    {
+      "k": "Characteristics",
+      "v": "Harder chitin, higher fat content"
+    },
+    {
+      "k": "Intended for",
+      "v": "A treat for agamas, geckos and other lizards"
+    },
+    {
+      "k": "Pack",
+      "v": "100 pieces"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Description"
+    },
+    {
+      "type": "p",
+      "html": "Mealworms (tenebrio) are larvae with harder chitin and a higher fat content. Because of this, they are given as a treat and to build up condition, in moderation - not as a staple diet. Lizards are drawn to their movement and soft bodies, so they are a favorite addition to the menu of bearded dragons, leopard geckos and other insect eaters."
+    },
+    {
+      "type": "h2",
+      "text": "How to feed them"
+    },
+    {
+      "type": "p",
+      "html": "Because of their higher fat content, mealworms should be given in moderation, as a supplement to dubia roaches and other feeder insects, not every day. They are ideal for helping thinner animals regain condition or as an occasional reward. Dust them with calcium before feeding. Mealworms can be kept in the fridge to slow their development, which extends how long you can use them."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Prices start at 400 din for 100 pieces. Call us or message us on WhatsApp for the exact price and availability. Courier delivery across Serbia, free pickup in Novi Sad. We are happy to recommend the right type and size of food for your animal - free of charge."
+    }
+  ],
+  "priceUnit": "/ 100 pcs",
+  "seo": {
+    "title": "Mealworms (Tenebrio) | Live Food for Lizards - NS Reptiles",
+    "description": "Mealworms (tenebrio): fat-rich larvae, a treat for lizards and a dietary supplement. From 400 din per 100 pcs. NS Reptiles, Novi Sad, Serbia.",
+    "keywords": "mealworms, tenebrio, mealworms price, live mealworms, lizard food, live food for reptiles, bearded dragon food, leopard gecko food, NS Reptiles, Novi Sad"
+  }
+}

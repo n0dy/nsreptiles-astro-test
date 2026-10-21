@@ -1,0 +1,543 @@
+---
+import Base from '../../../layouts/Base.astro';
+import '../../../styles/animals.css';
+import '../../../styles/usluge.css';
+import { translationsFor } from '../../../i18n/routes';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Bearded Dragon Terrarium — Recommendations and Equipment",
+    "description": "A guide to choosing a terrarium for a bearded dragon. Recommended size 100x50x50cm, UVB lighting, quartz sand and setup.",
+    "image": "https://nsreptiles.net/style/img/terrariums/100x50x50.webp",
+    "author": {
+      "@type": "Organization",
+      "name": "NS Reptiles"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "url": "https://nsreptiles.net"
+    },
+    "url": "https://nsreptiles.net/en/guides/bearded-dragon-terrarium.html"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://nsreptiles.net/en/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Terrariums",
+        "item": "https://nsreptiles.net/en/terrariums.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Bearded Dragon Terrarium",
+        "item": "https://nsreptiles.net/en/guides/bearded-dragon-terrarium.html"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What size terrarium does a bearded dragon need?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The recommended terrarium size for a bearded dragon is about 100x50x50cm. Smaller terrariums can be used until the animal outgrows them, but an adult bearded dragon needs the full space for moving around, temperature zones and basking."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What lighting does a bearded dragon need?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Two types of lighting are needed: a UVA lamp that simulates sunlight and provides heat, and a UVB bulb that enables vitamin D3 synthesis. Without UVB lighting, a bearded dragon develops metabolic bone disease."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What substrate is recommended for a bearded dragon terrarium?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The recommended substrate for a bearded dragon is quartz sand. It matches its natural habitat and allows natural digging behavior."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you build custom terrariums for bearded dragons?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we build terrariums to order. You choose the color, size, equipment and everything else. Build time is 7 working days. Contact us for a price on request."
+        }
+      }
+    ]
+  }
+];
+---
+<Base
+  lang="en"
+  title="Bearded Dragon Terrarium: Size and Setup | NS Reptiles"
+  description="Bearded dragon terrarium guide: recommended size 100x50x50cm, UVB lighting, quartz sand and setup. Custom glass terrariums made in Novi Sad, Serbia."
+  keywords="bearded dragon terrarium, bearded dragon tank size, bearded dragon setup, bearded dragon UVB, custom glass terrarium Serbia"
+  path="/en/guides/bearded-dragon-terrarium.html"
+  image="/style/img/terrariums/100x50x50.webp"
+  ogType="article"
+  ogDescription="The recommended terrarium size for a bearded dragon is 100x50x50cm with a UVA lamp, UVB bulb and quartz sand. Learn all about equipment and setup."
+  translations={translationsFor("/en/guides/bearded-dragon-terrarium.html")}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Guides</div>
+        <h1>Bearded Dragon Terrarium</h1>
+        <p>Everything you need to know before setting up the terrarium — recommended size, lighting, substrate and setup.</p>
+      </div>
+    </section>
+<section class="intro">
+      <div class="wrap">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="/en/">Home</a>
+          <span aria-hidden="true">›</span>
+          <a href="/en/terrariums.html">Terrariums</a>
+          <span aria-hidden="true">›</span>
+          <span aria-current="page">Bearded Dragon Terrarium</span>
+        </nav>
+      </div>
+    </section>
+<section class="guide-body">
+      <div class="wrap">
+        <div class="guide-grid">
+
+          <!-- Glavni tekst -->
+          <article class="guide-content reveal">
+
+            <h2>Recommended terrarium size</h2>
+            <p>
+              The recommended terrarium size for a bearded dragon is about <strong>100x50x50 cm</strong>. Smaller terrariums can be used temporarily — until the animal outgrows them — but an adult bearded dragon needs enough room to move around, bask and have proper thermal zones.
+            </p>
+            <p>
+              The terrarium must have a <strong>warm zone</strong> (where the animal basks) and a <strong>cooler zone</strong> it retreats to when it needs rest. Without that gradient, a bearded dragon cannot regulate its body temperature, which directly affects digestion and immunity.
+            </p>
+            <p>
+              Since we build terrariums to order, you choose the color, size and equipment yourself. If you are not sure what the optimal size is for your animal — contact us, we are happy to help.
+            </p>
+
+            <h2>Equipment and lighting</h2>
+
+            <h3>UVA lamp</h3>
+            <p>
+              A UVA lamp simulates sunlight and provides heat for the basking spot. The basking spot temperature should be <strong>40–45 °C</strong>, while the rest of the terrarium stays in the 28–32 °C range during the day. At night the heating is switched off and the temperature can drop to room conditions.
+            </p>
+
+            <h3>UVB bulb</h3>
+            <p>
+              UVB lighting is <strong>a must</strong> for a bearded dragon. Without it, the animal cannot synthesize vitamin D3, which it needs to absorb calcium. A lack of UVB lighting leads to metabolic bone disease — deformities, weakness and serious health problems. A 10–12% UVB bulb is recommended for desert species.
+            </p>
+
+            <div class="warn-box">
+              Never use regular bulbs or LED lighting as a substitute for UVB. Glass and plexiglass block UV rays — the bulb must be directly inside the terrarium or shine through a mesh that lets UV through.
+            </div>
+
+            <h3>Substrate</h3>
+            <p>
+              The recommended substrate for a bearded dragon is <strong>quartz sand</strong>. It matches its natural habitat and allows natural digging behavior. The sand should be deep enough — at least 5–8 cm — for the animal to dig.
+            </p>
+            <p>
+              Alternatively, stone tiles or linoleum can be used for easier cleaning, especially with young animals.
+            </p>
+
+            <h2>Terrarium setup</h2>
+            <p>Besides lighting and substrate, the terrarium should include:</p>
+            <ul>
+              <li><strong>A hide</strong> — a box or semi-open rock cave the bearded dragon can retreat into</li>
+              <li><strong>A basking log or rock</strong> — placed directly under the UVA lamp so the temperature is right</li>
+              <li><strong>A shallow water dish</strong> — change it daily; bearded dragons also drink droplets when misted</li>
+              <li><strong>Decorative branches or rocks</strong> — optional, for a richer environment</li>
+            </ul>
+
+            <h2>Common terrarium setup mistakes</h2>
+            <ul>
+              <li>Humidity too high — the bearded dragon is a desert animal, humidity should be 30–40%</li>
+              <li>A basking spot that is too weak — if the lamp is not strong enough or is too far away, the bearded dragon won't be able to warm up</li>
+              <li>No UVB — the most common and most dangerous mistake; it leads to permanent damage</li>
+              <li>Putting a glass panel between the lamp and the animal — glass blocks UV rays</li>
+              <li>A terrarium far too small for an adult — it prevents normal thermoregulation</li>
+            </ul>
+
+          </article>
+
+          <!-- Sidebar sa karticama terarijuma -->
+          <aside class="guide-sidebar reveal">
+            <div class="side-card">
+              <img src="/style/img/terrariums/100x50x50.webp" alt="100x50x50cm glass terrarium for a bearded dragon" width="600" height="600" loading="lazy">
+              <div class="side-card-body">
+                <h4>Terrarium 100x50x50</h4>
+                <p>Recommended size for an adult bearded dragon.</p>
+                <a href="/en/terrariums.html" class="btn btn-primary">View our range</a>
+              </div>
+            </div>
+            <div class="side-card">
+              <img src="/style/img/terrariums/90x50x50.webp" alt="90x50x50cm glass terrarium" width="600" height="600" loading="lazy">
+              <div class="side-card-body">
+                <h4>Terrarium 90x50x50</h4>
+                <p>A good size for young or smaller animals.</p>
+                <a href="/en/terrariums.html" class="btn btn-outline">View our range</a>
+              </div>
+            </div>
+            <div class="side-card" style="background: var(--green); padding: 22px;">
+              <div style="color: #fff;">
+                <h4 style="font-family: 'Oswald', sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 8px;">Custom builds</h4>
+                <p style="font-family: 'Jost', sans-serif; font-weight: 300; font-size: .9rem; line-height: 1.6; color: rgba(255,255,255,.88); margin-bottom: 16px;">You choose the color, size and equipment. Build time is 7 working days.</p>
+                <a href="/en/custom-terrariums.html" class="btn btn-light" style="font-size: .85rem;">Learn more</a>
+              </div>
+            </div>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+<section class="guide-faq">
+      <div class="wrap">
+        <h2>Frequently asked questions</h2>
+
+        <div class="faq-item">
+          <button class="faq-q">
+            What size terrarium does a bearded dragon need?<span class="ic">+</span>
+          </button>
+          <div class="faq-a">
+            <p>
+              The recommended terrarium size for a bearded dragon is about 100x50x50cm. Smaller terrariums can be used until the animal outgrows them, but an adult bearded dragon needs the full space for moving around, temperature zones and basking.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q">
+            What lighting does a bearded dragon need?<span class="ic">+</span>
+          </button>
+          <div class="faq-a">
+            <p>
+              Two types of lighting are needed: a UVA lamp that simulates sunlight and heats the basking spot, and a UVB bulb that enables vitamin D3 synthesis. Without UVB lighting, a bearded dragon develops metabolic bone disease. A 10–12% UVB bulb is recommended.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q">
+            What substrate is recommended?<span class="ic">+</span>
+          </button>
+          <div class="faq-a">
+            <p>
+              The recommended substrate is quartz sand, at least 5–8 cm deep. It matches the bearded dragon's natural habitat and allows digging. For young animals, stone tiles or linoleum can also be used for easier cleaning.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q">
+            Do you build custom terrariums for bearded dragons?<span class="ic">+</span>
+          </button>
+          <div class="faq-a">
+            <p>
+              Yes, we build terrariums to order — you choose the color, size, equipment and everything else. Build time is 7 working days. Contact us for pricing and availability.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+<section class="int-links">
+      <div class="wrap">
+        <div class="int-links-head reveal">
+          <div class="eyebrow">Useful links</div>
+          <h2>More information</h2>
+        </div>
+        <div class="int-links-grid reveal">
+          <a href="/en/animals/bearded-dragon.html" class="int-link-card">
+            Bearded dragon — all about the species
+            <span>Diet, care, temperament and traits</span>
+          </a>
+          <a href="/en/terrariums.html" class="int-link-card">
+            Our terrariums
+            <span>All sizes, price on request</span>
+          </a>
+          <a href="/en/custom-terrariums.html" class="int-link-card">
+            Custom terrarium builds
+            <span>You choose the color, size and equipment</span>
+          </a>
+        </div>
+      </div>
+    </section>
+<section class="zcta">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content: center">Have a question?</div>
+        <h2>Contact us <b>directly</b></h2>
+        <p>Send us a message with your question about a bearded dragon terrarium — we will reply quickly and help you make the right choice.</p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474?text=Hi%2C%20I%27m%20interested%20in%20a%20bearded%20dragon%20terrarium" target="_blank" rel="noopener" class="btn" style="background: #fff; color: var(--green-dark)" onclick="gtag('event', 'kontakt_click', {'metod': 'whatsapp'})">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event', 'kontakt_click', {'metod': 'telefon'})">+381 69 330 1474</a>
+        </div>
+      </div>
+    </section>
+<style is:global>
+      /* ── Vodic-specificni stilovi ── */
+      .guide-body {
+        background: var(--bg);
+        padding: 60px 0 100px;
+        transition: background 0.4s;
+      }
+      .guide-grid {
+        display: grid;
+        grid-template-columns: 1fr 300px;
+        gap: 48px;
+        align-items: start;
+      }
+      @media (max-width: 900px) {
+        .guide-grid { grid-template-columns: 1fr; }
+      }
+      .guide-content h2 {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        font-size: 1.55rem;
+        text-transform: uppercase;
+        letter-spacing: .06em;
+        color: var(--ink);
+        margin: 48px 0 14px;
+      }
+      .guide-content h2:first-child { margin-top: 0; }
+      .guide-content h3 {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        letter-spacing: .05em;
+        color: var(--green-dark);
+        margin: 28px 0 8px;
+      }
+      .guide-content p {
+        font-family: 'Jost', sans-serif;
+        font-weight: 300;
+        line-height: 1.8;
+        color: var(--ink);
+        margin-bottom: 16px;
+      }
+      .guide-content ul {
+        font-family: 'Jost', sans-serif;
+        font-weight: 300;
+        line-height: 1.8;
+        color: var(--ink);
+        padding-left: 20px;
+        margin-bottom: 16px;
+      }
+      .guide-content ul li { margin-bottom: 6px; }
+      .guide-content strong { font-weight: 600; }
+      .guide-content .warn-box {
+        background: #fff8e1;
+        border-left: 4px solid #f5a623;
+        padding: 16px 20px;
+        border-radius: 4px;
+        margin: 20px 0;
+        font-family: 'Jost', sans-serif;
+        font-size: .95rem;
+        line-height: 1.7;
+        color: var(--ink);
+      }
+
+      /* Sidebar karte */
+      .guide-sidebar { display: flex; flex-direction: column; gap: 20px; }
+      .side-card {
+        background: var(--white);
+        border-radius: 8px;
+        box-shadow: 0 8px 28px -12px rgba(40,47,52,.18);
+        overflow: hidden;
+        transition: transform .25s;
+      }
+      .side-card:hover { transform: translateY(-4px); }
+      .side-card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        display: block;
+      }
+      .side-card-body { padding: 16px 18px 20px; }
+      .side-card-body h4 {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: .05em;
+        color: var(--ink);
+        margin-bottom: 6px;
+      }
+      .side-card-body p {
+        font-family: 'Jost', sans-serif;
+        font-size: .88rem;
+        font-weight: 300;
+        color: var(--ink-soft);
+        margin-bottom: 14px;
+        line-height: 1.6;
+      }
+      .side-card-body .btn {
+        font-size: .85rem;
+        padding: 9px 18px;
+      }
+
+      /* Breadcrumb */
+      .breadcrumb {
+        padding: 14px 0 0;
+        font-family: 'Jost', sans-serif;
+        font-size: .85rem;
+        color: var(--ink-soft);
+      }
+      .breadcrumb a { color: var(--green); text-decoration: none; }
+      .breadcrumb a:hover { color: var(--green-dark); }
+      .breadcrumb span { margin: 0 6px; }
+
+      /* FAQ accordion */
+      .guide-faq { padding: 60px 0 80px; }
+      .guide-faq h2 {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        font-size: 1.55rem;
+        text-transform: uppercase;
+        letter-spacing: .06em;
+        margin-bottom: 32px;
+        color: var(--ink);
+      }
+      .faq-item {
+        background: var(--white);
+        border-radius: 6px;
+        margin-bottom: 10px;
+        box-shadow: 0 4px 16px -8px rgba(40,47,52,.12);
+        overflow: hidden;
+      }
+      .faq-q {
+        width: 100%;
+        background: none;
+        border: none;
+        text-align: left;
+        padding: 18px 22px;
+        font-family: 'Jost', sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        color: var(--ink);
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        transition: color .2s;
+      }
+      .faq-q:hover { color: var(--green); }
+      .faq-q .ic {
+        font-size: 1.3rem;
+        font-weight: 300;
+        color: var(--green);
+        flex-shrink: 0;
+        transition: transform .25s;
+      }
+      .faq-item.open .faq-q .ic { transform: rotate(45deg); }
+      .faq-a {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height .35s ease;
+      }
+      .faq-item.open .faq-a { max-height: 400px; }
+      .faq-a p {
+        padding: 0 22px 18px;
+        font-family: 'Jost', sans-serif;
+        font-weight: 300;
+        line-height: 1.8;
+        color: var(--ink);
+        margin: 0;
+      }
+
+      /* Interni linkovi */
+      .int-links {
+        padding: 48px 0 60px;
+        background: var(--white);
+      }
+      .int-links-head { margin-bottom: 24px; }
+      .int-links-head .eyebrow { margin-bottom: 8px; }
+      .int-links-head h2 {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        font-size: 1.55rem;
+        text-transform: uppercase;
+        letter-spacing: .06em;
+        color: var(--ink);
+      }
+      .int-links-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 16px;
+      }
+      .int-link-card {
+        display: block;
+        padding: 22px 24px;
+        background: var(--bg);
+        border-radius: 8px;
+        text-decoration: none;
+        color: var(--ink);
+        font-family: 'Jost', sans-serif;
+        font-weight: 500;
+        transition: background .2s, transform .2s;
+        border-left: 3px solid var(--green);
+      }
+      .int-link-card:hover {
+        background: var(--green);
+        color: var(--white);
+        transform: translateY(-3px);
+      }
+      .int-link-card span {
+        display: block;
+        font-size: .82rem;
+        font-weight: 300;
+        color: var(--ink-soft);
+        margin-top: 4px;
+        transition: color .2s;
+      }
+      .int-link-card:hover span { color: rgba(255,255,255,.8); }
+    </style>
+<script is:inline slot="after">
+      // FAQ accordion
+      document.querySelectorAll('.faq-q').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var item = this.closest('.faq-item');
+          var isOpen = item.classList.contains('open');
+          document.querySelectorAll('.faq-item.open').forEach(function(el) {
+            el.classList.remove('open');
+          });
+          if (!isOpen) item.classList.add('open');
+        });
+      });
+
+      // Reveal on scroll
+      var revealEls = document.querySelectorAll('.reveal');
+      if ('IntersectionObserver' in window) {
+        var obs = new IntersectionObserver(function(entries) {
+          entries.forEach(function(e) {
+            if (e.isIntersecting) {
+              e.target.classList.add('visible');
+              obs.unobserve(e.target);
+            }
+          });
+        }, { threshold: 0.12 });
+        revealEls.forEach(function(el) { obs.observe(el); });
+      } else {
+        revealEls.forEach(function(el) { el.classList.add('visible'); });
+      }
+    </script>
+</Base>

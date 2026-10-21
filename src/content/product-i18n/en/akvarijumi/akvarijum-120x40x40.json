@@ -1,0 +1,56 @@
+{
+  "slug": "aquarium-120x40x40",
+  "name": "Aquarium 120x40x40",
+  "label": "Aquarium",
+  "lead": "Glass aquarium, 120x40x40 cm. Volume: 192.0 liters. Handmade in Novi Sad.",
+  "imageAlt": "Aquarium 120x40x40 - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "120 cm"
+    },
+    {
+      "k": "Width",
+      "v": "40 cm"
+    },
+    {
+      "k": "Height",
+      "v": "40 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~192.0 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 120x40x40 cm aquarium with 192 liters of volume offers serious space for creating an underwater biotope. A larger volume means more stable water parameters and the option to keep larger fish species."
+    },
+    {
+      "type": "p",
+      "html": "The space allows you to keep larger species such as angelfish and discus, or a community with several schools of smaller fish. More stable water parameters in a larger volume mean less stress for the fish and less frequent intervention."
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "We build custom aquariums: any dimensions, glass thickness matched to the volume, optional openings for filters and heaters. Call us or message us on WhatsApp for a consultation and a price. Delivery to all cities in Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Glass Aquarium 120x40x40 cm, 192 L | NS Reptiles",
+    "description": "Glass aquarium 120x40x40 cm, 192 liters. Room for angelfish, discus or fish schools. Handmade in Novi Sad, custom sizes, delivery across Serbia.",
+    "keywords": "glass aquarium 120x40x40, aquarium 120x40x40 cm, custom aquarium Serbia, aquarium Novi Sad, NS Reptiles"
+  }
+}

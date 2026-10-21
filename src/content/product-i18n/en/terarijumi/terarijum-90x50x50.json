@@ -1,0 +1,73 @@
+{
+  "slug": "terrarium-90x50x50",
+  "name": "Terrarium 90x50x50",
+  "label": "Large terrarium",
+  "lead": "Glass terrarium measuring 90x50x50 cm. Volume: 225.0 liters, horizontal format. Handmade in Novi Sad.",
+  "imageAlt": "Glass terrarium 90x50x50 cm - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "90 cm"
+    },
+    {
+      "k": "Width",
+      "v": "50 cm"
+    },
+    {
+      "k": "Height",
+      "v": "50 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~225.0 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "Type",
+      "v": "Horizontal"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "At 90x50x50 cm and 225 liters, this terrarium offers a clean glass space with decorative film on the outside. The film is functional: it stops animals from seeing their reflection and reduces stress, while helping the terrarium blend into your home."
+    },
+    {
+      "type": "p",
+      "html": "The horizontal layout with 90 cm of length gives a floor area where a basking zone, a cool zone and a hiding area are easy to arrange. This layout is key for reptiles because it lets them choose the temperature they are exposed to. The ventilation system with a protective mesh keeps fresh air flowing and prevents moisture buildup."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Bearded dragons (adults)",
+        "Ball pythons",
+        "Tortoises (land species)",
+        "Corn snakes (adults)"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "When ordering, you choose the film pattern and the shape of the 3D background. We handmake all our terrariums in Novi Sad, so customization is always possible, from dimensions to the way it opens. We ship by courier throughout Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Glass Terrarium 90x50x50 cm, 225.0 L | NS Reptiles",
+    "description": "Large glass terrarium 90x50x50 cm (225.0 L), horizontal format, with decorative film. Suitable for adult bearded dragons and ball pythons.",
+    "keywords": "glass terrarium 90x50x50, terrarium 90x50x50 cm, large terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

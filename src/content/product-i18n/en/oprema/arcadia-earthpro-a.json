@@ -1,0 +1,56 @@
+{
+  "slug": "arcadia-earthpro-a",
+  "name": "Arcadia EarthPro-A",
+  "label": "Supplements",
+  "lead": "A complete vitamin supplement for reptiles. Contains vitamins A, D3, E and essential nutrients for optimal health.",
+  "imageAlt": "Arcadia EarthPro-A - NS Reptiles",
+  "specs": [
+    {
+      "k": "Brand",
+      "v": "Arcadia"
+    },
+    {
+      "k": "Type",
+      "v": "Vitamin supplement"
+    },
+    {
+      "k": "Line",
+      "v": "EarthPro"
+    },
+    {
+      "k": "Use",
+      "v": "Dust over food (1x a week)"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "Arcadia EarthPro-A is a comprehensive vitamin supplement designed for all reptile species. Vitamin A is key for healthy vision, immunity and skin tissue development. D3 enables proper calcium absorption, while vitamin E acts as an antioxidant and protects cells from free radical damage."
+    },
+    {
+      "type": "p",
+      "html": "Use once a week by dusting it over food right before feeding, while a calcium supplement is used daily. This alternating protocol provides a balance of vitamins and minerals without the risk of overdose. Overuse of vitamin supplements, especially vitamin A, can be harmful - stick strictly to the recommended dose."
+    },
+    {
+      "type": "p",
+      "html": "EarthPro-A was developed in collaboration with herpetologists and veterinarians who specialize in exotic animals. It is compatible with the entire Arcadia EarthPro line and is especially recommended with EarthPro-Ca or CaPro-MG as the daily calcium."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Arcadia EarthPro-A | Reptile Vitamin Supplement",
+    "description": "Arcadia EarthPro-A: a complete reptile vitamin supplement with vitamins A, D3 and E. Use once a week alongside a daily calcium supplement. NS Reptiles.",
+    "keywords": "Arcadia EarthPro-A, reptile vitamins, vitamin A for reptiles, D3 for reptiles, reptile supplements"
+  }
+}

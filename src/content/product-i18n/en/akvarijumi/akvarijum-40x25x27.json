@@ -1,0 +1,56 @@
+{
+  "slug": "aquarium-40x25x27",
+  "name": "Aquarium 40x25x27",
+  "label": "Small aquarium",
+  "lead": "Glass aquarium, 40x25x27 cm. Volume: 27.0 liters. Handmade in Novi Sad.",
+  "imageAlt": "Aquarium 40x25x27 - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "40 cm"
+    },
+    {
+      "k": "Width",
+      "v": "25 cm"
+    },
+    {
+      "k": "Height",
+      "v": "27 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~27.0 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 40x25x27 cm aquarium (27 L) offers enough room for a layout with live plants, roots and stone. The glass is precisely cut and bonded with aquarium silicone, which makes it fully watertight."
+    },
+    {
+      "type": "p",
+      "html": "In this aquarium you can create a balanced ecosystem with a school of tetras, corydoras on the bottom and a couple of smaller gourami species. Live plants help with filtration and provide hiding places for smaller fish."
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "We build custom aquariums: any dimensions, glass thickness matched to the volume, optional openings for filters and heaters. Call us or message us on WhatsApp for a consultation and a price. Delivery to all cities in Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Glass Aquarium 40x25x27 cm, 27 L | NS Reptiles",
+    "description": "Small glass aquarium 40x25x27 cm, 27 liters. Room for tetras, corydoras and gouramis. Handmade in Novi Sad, custom sizes, delivery across Serbia.",
+    "keywords": "glass aquarium 40x25x27, aquarium 40x25x27 cm, small aquarium, custom aquarium Serbia, aquarium Novi Sad, NS Reptiles"
+  }
+}

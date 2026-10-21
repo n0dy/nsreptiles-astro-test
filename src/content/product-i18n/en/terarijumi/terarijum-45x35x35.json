@@ -1,0 +1,73 @@
+{
+  "slug": "terrarium-45x35x35",
+  "name": "Terrarium 45x35x35",
+  "label": "Medium terrarium",
+  "lead": "Glass terrarium measuring 45x35x35 cm. Volume: 55.1 liters, horizontal format. Handmade in Novi Sad.",
+  "imageAlt": "Glass terrarium 45x35x35 cm - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "45 cm"
+    },
+    {
+      "k": "Width",
+      "v": "35 cm"
+    },
+    {
+      "k": "Height",
+      "v": "35 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~55.1 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "Type",
+      "v": "Horizontal"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This glass terrarium (45x35x35 cm, 55.1 L) comes with exterior decorative film in a pattern of your choice. The glass gives a clear view of the inside, while film on three sides gives the animals a sense of security."
+    },
+    {
+      "type": "p",
+      "html": "A length of 45 cm and a width of 35 cm provide a large floor area for ground-dwelling species. The ample length allows a temperature gradient from a warm to a cool zone, which every reptile needs to stay healthy. Ventilation is provided by mesh openings that allow airflow and humidity control inside the terrarium."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Leopard geckos",
+        "Crested geckos",
+        "Day geckos",
+        "Corn snakes (young)"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "We offer full customization: you choose the film, background and ventilation, plus optional LED lighting or a thermostat. If this model doesn't fit your space, we build terrariums in any dimensions. Call for a quote. We deliver across Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Glass Terrarium 45x35x35 cm, 55.1 L | NS Reptiles",
+    "description": "Medium glass terrarium 45x35x35 cm (55.1 L), horizontal format, with decorative film. Suitable for leopard geckos and crested geckos.",
+    "keywords": "glass terrarium 45x35x35, terrarium 45x35x35 cm, medium terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

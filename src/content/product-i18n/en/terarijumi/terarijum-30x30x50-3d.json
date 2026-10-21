@@ -1,0 +1,81 @@
+{
+  "slug": "terrarium-30x30x50-3d",
+  "name": "Terrarium 30x30x50 +3D",
+  "label": "Medium terrarium",
+  "lead": "Glass terrarium measuring 30x30x50 cm with a handmade polystyrene 3D background that faithfully reproduces the texture of stone or bark. A volume of about 45 liters and a vertical format make it ideal for arboreal species that spend most of their time on branches and leaves. Handmade in Novi Sad.",
+  "imageAlt": "Glass terrarium 30x30x50 cm with 3D background - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "30 cm"
+    },
+    {
+      "k": "Width",
+      "v": "30 cm"
+    },
+    {
+      "k": "Height",
+      "v": "50 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~45 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "3D background",
+      "v": "Yes (polystyrene)"
+    },
+    {
+      "k": "Ventilation",
+      "v": "Mesh"
+    },
+    {
+      "k": "Type",
+      "v": "Vertical"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 30x30x50 cm terrarium (45 L) comes with a polystyrene 3D background that faithfully reproduces the texture of stone or bark. Hand-sculpted and painted in natural tones, the background is more than decoration: it adds surfaces for climbing and hiding."
+    },
+    {
+      "type": "p",
+      "html": "The vertical format (a height of 50 cm, greater than the 30 cm length) is meant for arboreal species that spend most of their time on branches and leaves. The height leaves room for branches, vines and plants at different levels. Ventilation is provided by mesh openings that allow airflow and humidity control inside the terrarium."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Climbing geckos (crested, gargoyle)",
+        "Day geckos",
+        "Green anoles",
+        "Tree frogs"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "The terrarium is ordered with your choice of film and background. For non-standard requests (other dimensions, double sliding glass panels, a built-in thermostat), write to us or call. Free consultations and delivery to all cities."
+    }
+  ],
+  "seo": {
+    "title": "Vertical Terrarium 30x30x50 with 3D Background | NS Reptiles",
+    "description": "Medium glass terrarium 30x30x50 cm (45 L) with a handmade 3D background, vertical format. Suitable for climbing geckos and day geckos.",
+    "keywords": "glass terrarium 30x30x50, terrarium 30x30x50 cm, terrarium with 3D background, medium terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

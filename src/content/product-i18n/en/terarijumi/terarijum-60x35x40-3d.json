@@ -1,0 +1,77 @@
+{
+  "slug": "terrarium-60x35x40-3d",
+  "name": "Terrarium 60x35x40 +3D",
+  "label": "Medium terrarium",
+  "lead": "Glass terrarium measuring 60x35x40 cm with a handmade 3D background. Volume: 84.0 liters, horizontal format. Handmade in Novi Sad.",
+  "imageAlt": "Terrarium 60x35x40 +3D - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "60 cm"
+    },
+    {
+      "k": "Width",
+      "v": "35 cm"
+    },
+    {
+      "k": "Height",
+      "v": "40 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~84.0 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "3D background",
+      "v": "Yes"
+    },
+    {
+      "k": "Type",
+      "v": "Horizontal"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 60x35x40 cm glass terrarium with a volume of 84 liters comes with a handmade 3D background that gives the interior the look of a natural habitat. The polystyrene background is sculpted as rock, tree bark or cave relief, and every piece is unique because it is made by hand in our workshop."
+    },
+    {
+      "type": "p",
+      "html": "The horizontal layout with 60 cm of length gives a floor area where a basking zone, a cool zone and a hiding area are easy to arrange. Reptile thermoregulation depends on being able to move between warm and cool zones inside the terrarium. Mesh ventilation openings provide the airflow animals need to stay healthy and prevent condensation."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Bearded dragons (adults)",
+        "Ball pythons",
+        "Tortoises (land species)",
+        "Corn snakes (adults)"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "If the standard dimensions don't suit you, we build custom terrariums. Choose the size, film pattern, background style and extras such as LED lighting or a thermostat. Contact us for a quote. We deliver across Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Glass Terrarium 60x35x40 with 3D Background | NS Reptiles",
+    "description": "Medium glass terrarium 60x35x40 cm (84.0 L) with a handmade 3D background, horizontal format. Suitable for adult bearded dragons and ball pythons.",
+    "keywords": "glass terrarium 60x35x40, terrarium 60x35x40 cm, terrarium with 3D background, medium terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

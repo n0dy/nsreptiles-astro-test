@@ -124,6 +124,13 @@ import { translationsFor } from '../../i18n/routes';
     </section>
 
 <script is:inline slot="after">
+      (function () {
+        const komplet = new URLSearchParams(location.search).get('komplet');
+        if (!komplet) return;
+        const msg = document.getElementById('kMsg');
+        if (!msg.value.trim()) msg.value = 'Здравствуйте!\n\nМеня интересует набор для начинающих «' + komplet + '». Пожалуйста, сообщите о наличии и получении.\n\nСпасибо!';
+        document.getElementById('kForm').scrollIntoView({ block: 'center' });
+      })();
       document.getElementById('kSubmit').addEventListener('click', async () => {
         const name = document.getElementById('kName').value.trim();
         const email = document.getElementById('kEmail').value.trim();

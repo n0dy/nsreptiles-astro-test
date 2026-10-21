@@ -1,0 +1,56 @@
+{
+  "slug": "aquarium-90x30x70",
+  "name": "Aquarium 90x30x70",
+  "label": "Aquarium",
+  "lead": "Glass aquarium, 90x30x70 cm. Volume: 189.0 liters. Handmade in Novi Sad.",
+  "imageAlt": "Aquarium 90x30x70 - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "90 cm"
+    },
+    {
+      "k": "Width",
+      "v": "30 cm"
+    },
+    {
+      "k": "Height",
+      "v": "70 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~189.0 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "With 189 liters of volume, this aquarium (90x30x70 cm) gives you freedom in aquascaping: larger roots, more plants, bigger stones and more fish. Glass of the right thickness keeps it safe under higher water pressure."
+    },
+    {
+      "type": "p",
+      "html": "A large aquarium opens up the possibility of a biotope approach: recreating the natural habitat of the Amazon River, African lakes or Southeast Asia. We recommend an external filter, a CO2 system for plants and quality LED lighting."
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "We build custom aquariums: any dimensions, glass thickness matched to the volume, optional openings for filters and heaters. Call us or message us on WhatsApp for a consultation and a price. Delivery to all cities in Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Glass Aquarium 90x30x70 cm, 189 L | NS Reptiles",
+    "description": "Glass aquarium 90x30x70 cm, 189 liters. Suited to a biotope setup with live plants. Handmade in Novi Sad, custom sizes, delivery across Serbia.",
+    "keywords": "glass aquarium 90x30x70, aquarium 90x30x70 cm, custom aquarium Serbia, aquarium Novi Sad, NS Reptiles"
+  }
+}

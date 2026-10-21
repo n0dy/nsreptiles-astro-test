@@ -1,0 +1,81 @@
+{
+  "slug": "terrarium-20x20x30-3d",
+  "name": "Terrarium 20x20x30 +3D",
+  "label": "Small terrarium",
+  "lead": "Glass terrarium measuring 20x20x30 cm with a handmade 3D background. Volume: 12.0 liters, vertical format. Handmade in Novi Sad.",
+  "imageAlt": "Glass terrarium 20x20x30 cm with 3D background - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "20 cm"
+    },
+    {
+      "k": "Width",
+      "v": "20 cm"
+    },
+    {
+      "k": "Height",
+      "v": "30 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~12.0 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "3D background",
+      "v": "Yes"
+    },
+    {
+      "k": "Ventilation",
+      "v": "Mesh"
+    },
+    {
+      "k": "Type",
+      "v": "Vertical"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "With a volume of 12 liters and dimensions of 20x20x30 cm, this terrarium includes a handmade 3D background. The background imitates natural relief, such as rock or bark, and adds depth to the space so animals can climb, hide and feel more secure."
+    },
+    {
+      "type": "p",
+      "html": "The vertical format (a height of 30 cm, greater than the 20 cm length) is meant for arboreal species that spend most of their time on branches and leaves. The height leaves room for branches, vines and plants at different levels. The ventilation system with a protective mesh keeps fresh air flowing and prevents moisture buildup."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Jumping spiders",
+        "Mantises",
+        "Small day geckos",
+        "Tree frogs (smaller species)"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "If the standard dimensions don't suit you, we build custom terrariums. Choose the size, film pattern, background style and extras such as LED lighting or a thermostat. Contact us for a quote. We deliver across Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Vertical Terrarium 20x20x30 with 3D Background | NS Reptiles",
+    "description": "Small glass terrarium 20x20x30 cm (12.0 L) with a handmade 3D background, vertical format. Suitable for jumping spiders and mantises.",
+    "keywords": "glass terrarium 20x20x30, terrarium 20x20x30 cm, terrarium with 3D background, small terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

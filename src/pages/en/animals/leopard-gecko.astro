@@ -1,0 +1,271 @@
+---
+import Base from '../../../layouts/Base.astro';
+import '../../../styles/animals.css';
+import '../../../styles/usluge.css';
+import '../../../styles/oprema.css';
+import { translationsFor } from '../../../i18n/routes';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Leopard Gecko — Breeding and Care Guide",
+    "description": "All about the leopard gecko: terrarium, temperature, diet and breeding. A complete breeding and care guide.",
+    "author": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "url": "https://nsreptiles.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nsreptiles.net/style/img/logo.jpg"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://nsreptiles.net/en/animals/leopard-gecko.html"
+    },
+    "image": "https://nsreptiles.net/style/img/gallery/3.jpg"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://nsreptiles.net/en/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Animals",
+        "item": "https://nsreptiles.net/en/animals.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Leopard Gecko",
+        "item": "https://nsreptiles.net/en/animals/leopard-gecko.html"
+      }
+    ]
+  }
+];
+---
+<Base
+  lang="en"
+  title="Leopard Gecko — Breeding and Care Guide | NS Reptiles"
+  description="All about the leopard gecko: terrarium, temperature, diet and breeding. A complete breeding and care guide for this popular lizard species."
+  keywords="leopard gecko, leopard gecko care, leopard gecko for sale, leopard gecko price, leopard gecko Serbia, leopard gecko Novi Sad, leopard gecko terrarium, leopard gecko diet, leopard gecko breeding, leopard gecko morphs, NS Reptiles"
+  path="/en/animals/leopard-gecko.html"
+  image="/style/img/gallery/3.jpg"
+  ogType="article"
+  ogDescription="All about the leopard gecko: terrarium, temperature, diet and breeding. A complete breeding and care guide."
+  active="animals"
+  translations={translationsFor("/en/animals/leopard-gecko.html")}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Animals</div>
+        <h1>Leopard gecko</h1>
+        <p>Popular, calm-natured and easy to care for — an ideal choice for beginners and experienced breeders alike.</p>
+      </div>
+    </section>
+<section class="pd-crumbs">
+      <div class="wrap">
+        <nav class="pd-breadcrumb" aria-label="Breadcrumb">
+          <a href="/en/">Home</a>
+          <span class="sep">›</span>
+          <a href="/en/animals.html">Animals</a>
+          <span class="sep">›</span>
+          <span class="cur" aria-current="page">Leopard gecko</span>
+        </nav>
+      </div>
+    </section>
+<section class="animal-photo" style="background: var(--bg); padding: 24px 0 0; line-height: 0;">
+      <div class="wrap">
+        <img src="/style/img/gallery/10.jpg" alt="Leopard gecko in a terrarium — NS Reptiles Novi Sad" loading="eager" width="1248" height="832" style="width: 100%; height: auto; display: block; max-height: 520px; object-fit: cover;">
+      </div>
+    </section>
+<section class="intro">
+      <div class="wrap">
+        <div class="intro-box reveal">
+          <div class="eyebrow">About the species</div>
+          <p>The leopard gecko is one of the most commonly kept gecko species in the world. They are very popular because of their calm nature, how easily they tame and how simple they are to care for. There are many morphs — various color and pattern variations — which make them especially attractive pets. Prices start at €30 for a normal baby and go up to a few hundred euros for rare morphs.</p>
+        </div>
+      </div>
+    </section>
+<section class="zoo" style="padding-top: 40px;">
+      <div class="wrap">
+
+        <!-- Origin and habitat -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Origin and <b>habitat</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Origin</h3>
+            <p>Pakistan, Afghanistan, western India.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Habitat</h3>
+            <p>Dry, semi-desert regions. Rocky areas with the occasional dry plant on parched ground.</p>
+          </div>
+        </div>
+
+        <!-- Appearance and behavior -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Appearance and <b>behavior</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Size and appearance</h3>
+            <p>A medium-sized, nocturnal gecko. They grow up to 25cm. Their base color is yellowish with white and lots of black spots. There are various morphs — color and pattern variants — so they come in all kinds of colors: from completely white to orange and yellow, with different eye and tail colors. They have a thick tail where they store excess fat.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Behavior</h3>
+            <p>This gecko species is ideal for handling — they are extremely calm. Since it is a nocturnal species, they are mostly more active once it gets dark and the lights go off. During the day they are active if they are looking for food or need to shed.</p>
+          </div>
+        </div>
+
+        <!-- Terrarium and substrate -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Terrarium and <b>substrate</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Terrarium</h3>
+            <p>The minimum terrarium size for one adult is around 50x30x25cm. The terrarium does not need to be tall because they rarely climb — a larger floor area is better.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Substrate</h3>
+            <p>Several types of substrate can be used: newspaper, paper, sand, small pebbles. Coco peat is recommended as the safest choice. Sand can sometimes cause problems because the gecko tends to swallow it, which can lead to constipation and digestive tract problems.</p>
+          </div>
+        </div>
+
+        <!-- Temperature and conditions -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Temperature and <b>conditions</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Temperature</h3>
+            <p>You should create a temperature gradient by heating only one part of the terrarium with a heat mat or a lamp. The warm side should be around 32–33°C, while the cooler side can be 20–25°C or even lower. In winter they can be hibernated at 13–19°C without heating.</p>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Lighting</h3>
+            <p>Since this is a nocturnal species, UV light is not needed. If you have a lamp heating the terrarium, that is quite enough. If you heat with a mat, the light available in the room is quite enough.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Humidity and water</h3>
+            <p>They do not need elevated humidity. It is enough for them to have a water bowl and a hide that is always accessible, with moist peat inside, where they will retreat before shedding or when laying eggs. The water bowl must always be available.</p>
+          </div>
+        </div>
+
+        <!-- Diet -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Diet</h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <p>The leopard gecko is a carnivore and feeds only on insects. Young geckos eat small mealworms, lateralis roaches and crickets, and even small dubia roaches. As they grow, the prey size increases too. Adults can eat adult lateralis roaches, male dubia roaches (because they are slimmer) and large nymphs. Gravid females can occasionally be given a newborn or 2–3-day-old baby mouse.</p>
+          </div>
+        </div>
+
+        <!-- Breeding -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Breeding</h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <p>A cooling period is necessary if you want to breed leopard geckos. This period should last about 2–3 months. Feeding stops sometime in December, and the heaters are turned off 2–3 weeks later so that all food is digested before hibernation — otherwise serious problems can occur. Heating is turned back on in February. Within 7 days the lizards regain their appetite and become active.</p>
+            <br>
+            <p>Before mating, the female should reach about 45–50g. Mating usually happens right after the pair is put together or within the next 2–3 days. Eggs can be expected within 2–4 weeks. Incubation takes about 60 days at 27.5–28.5°C. The sex can be determined by the incubation temperature: at 27.5–29°C females hatch, at 29–31°C mixed sexes, and at 31–33°C males. The young should be fed the same insects as adults, just in proportion to their size — insects should not be larger than the distance between the gecko's eyes.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+<section class="pd-related section">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <div class="eyebrow">Recommended for leopard geckos</div>
+          <h2 class="sec-title">Recommended products</h2>
+        </div>
+        <div class="op-grid">
+          <article class="op-card reveal">
+            <a class="op-img" href="/en/products/terrariums/terrarium-50x35x35.html">
+              <img src="/style/img/terrariums/50x35x35-2.webp" alt="Terrarium 50x35x35" loading="lazy" width="600" height="600">
+            </a>
+            <div class="op-body">
+              <div class="op-cat">Terrarium</div>
+              <h3><a href="/en/products/terrariums/terrarium-50x35x35.html">Terrarium 50x35x35</a></h3>
+              <div class="op-foot">
+                <span class="op-price">Price on request</span>
+              </div>
+            </div>
+          </article>
+          <article class="op-card reveal">
+            <a class="op-img" href="/en/products/terrariums/terrarium-45x35x35.html">
+              <img src="/style/img/terrariums/45x35x35.webp" alt="Terrarium 45x35x35" loading="lazy" width="600" height="600">
+            </a>
+            <div class="op-body">
+              <div class="op-cat">Terrarium</div>
+              <h3><a href="/en/products/terrariums/terrarium-45x35x35.html">Terrarium 45x35x35</a></h3>
+              <div class="op-foot">
+                <span class="op-price">Price on request</span>
+              </div>
+            </div>
+          </article>
+          <article class="op-card reveal">
+            <a class="op-img" href="/en/products/terrariums/terrarium-65x35x35.html">
+              <img src="/style/img/terrariums/t-65x35x35-bele-plocice-web.webp" alt="Terrarium 65x35x35" loading="lazy" width="600" height="600">
+            </a>
+            <div class="op-body">
+              <div class="op-cat">Terrarium</div>
+              <h3><a href="/en/products/terrariums/terrarium-65x35x35.html">Terrarium 65x35x35</a></h3>
+              <div class="op-foot">
+                <span class="op-price">Price on request</span>
+              </div>
+            </div>
+          </article>
+          <article class="op-card reveal">
+            <a class="op-img" href="/en/products/terrariums/terrarium-70x40x35.html">
+              <img src="/style/img/terrariums/70x40x35.webp" alt="Terrarium 70x40x35" loading="lazy" width="600" height="600">
+            </a>
+            <div class="op-body">
+              <div class="op-cat">Terrarium</div>
+              <h3><a href="/en/products/terrariums/terrarium-70x40x35.html">Terrarium 70x40x35</a></h3>
+              <div class="op-foot">
+                <span class="op-price">Price on request</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+<section class="zcta">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content:center">Interested?</div>
+        <h2>Contact <b>NS Reptiles</b></h2>
+        <p>For questions about getting a leopard gecko, its care or equipment — we are here. Give us a call or send a message.</p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474?text=I%27m%20interested%20in%20a%20leopard%20gecko" target="_blank" rel="noopener" class="btn" style="background:#fff;color:var(--green-dark)" onclick="gtag('event','kontakt_click',{'metod':'whatsapp'})">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event','kontakt_click',{'metod':'poziv'})">+381 69 330 1474</a>
+        </div>
+      </div>
+    </section>
+
+
+</Base>

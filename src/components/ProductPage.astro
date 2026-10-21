@@ -1,0 +1,125 @@
+---
+import Base from '../layouts/Base.astro';
+import '../styles/oprema.css';
+import '../styles/proizvod.css';
+import Icon from './Icon.astro';
+import ProductCard from './ProductCard.astro';
+import { SITE, whatsappLink, type Locale } from '../config/site';
+import { HOME } from '../i18n/ui';
+import { translationsFor } from '../i18n/routes';
+import { priceLabel, productSchema, categoryText, type ProductView, type Product } from '../lib/products';
+
+interface Props {
+  view: ProductView;
+  related: Product[];
+}
+const { view: v, related } = Astro.props;
+const d = v.product.data;
+const lang: Locale = v.lang;
+const cat = categoryText(lang, v.category);
+
+const UI = {
+  sr: { home: 'Početna', crumbs: 'Putanja', specs: 'Specifikacije', price: 'Cena', call: 'Pozovite nas', cart: 'Dodaj u korpu', also: 'Moglo bi vam se svideti', wa: (n: string) => `Zdravo, zanima me ${n}.` },
+  en: { home: 'Home', crumbs: 'Breadcrumb', specs: 'Specifications', price: 'Price', call: 'Call us', cart: 'Add to cart', also: 'You might also like', wa: (n: string) => `Hello, I'm interested in ${n}.` },
+  ru: { home: 'Главная', crumbs: 'Навигация', specs: 'Характеристики', price: 'Цена', call: 'Позвоните нам', cart: 'В корзину', also: 'Вам может понравиться', wa: (n: string) => `Здравствуйте, меня интересует ${n}.` },
+}[lang];
+
+const breadcrumb = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: UI.home, item: SITE.url + HOME[lang] },
+    { '@type': 'ListItem', position: 2, name: cat.crumb, item: SITE.url + cat.listing },
+    { '@type': 'ListItem', position: 3, name: v.name },
+  ],
+};
+// bez prevoda proizvoda jezicki meni vodi na listing kategorije tog jezika
+const own = translationsFor(v.path);
+const langLinks = {
+  sr: own.sr ?? categoryText('sr', v.category).listing,
+  en: own.en ?? categoryText('en', v.category).listing,
+  ru: own.ru ?? categoryText('ru', v.category).listing,
+};
+---
+<Base
+  lang={lang}
+  title={v.seo.title}
+  description={v.seo.description}
+  keywords={v.seo.keywords}
+  path={v.path}
+  image={d.image}
+  ogType="product"
+  ogTitle={v.seo.ogTitle}
+  ogDescription={v.seo.ogDescription}
+  schema={[productSchema(v), breadcrumb]}
+  translations={own}
+  langLinks={langLinks}
+>
+  <section class="pd">
+    <div class="wrap">
+      <nav class="pd-breadcrumb" aria-label={UI.crumbs}>
+        <a href={HOME[lang]}>{UI.home}</a>
+        <span class="sep" aria-hidden="true">›</span>
+        <a href={cat.listing}>{cat.crumb}</a>
+        <span class="sep" aria-hidden="true">›</span>
+        <span class="cur" aria-current="page">{v.name}</span>
+      </nav>
+      <div class="pd-main">
+        <div class="pd-media reveal">
+          <img src={d.image} alt={v.imageAlt} width="600" height="600" fetchpriority="high" />
+        </div>
+        <div class="pd-info reveal">
+          <div class="pd-cat">{v.label}</div>
+          <h1>{v.name}</h1>
+          <p class="pd-lead" set:html={v.lead} />
+          <div class="pd-specs">
+            <h2>{UI.specs}</h2>
+            <div class="pd-specs-grid">
+              {v.specs.map((s) => (
+                <div class="pd-spec"><span class="pd-spec-k">{s.k}</span><span class="pd-spec-v">{s.v}</span></div>
+              ))}
+            </div>
+          </div>
+          <div class="pd-price">
+            <span class="pd-price-k">{UI.price}</span>
+            <span class="pd-price-v">{priceLabel(v)}</span>
+          </div>
+          <div class="pd-cta">
+            <a href={`tel:${SITE.phone}`} class="btn btn-outline" onclick="gtag('event', 'kontakt_click', {'metod': 'telefon'})">
+              <Icon name="phone" />
+              {UI.call}
+            </a>
+            <a href={whatsappLink(UI.wa(v.name))} target="_blank" rel="noopener" class="btn btn-outline" onclick="gtag('event', 'kontakt_click', {'metod': 'whatsapp'})">
+              <Icon name="whatsapp" />
+              WhatsApp
+            </a>
+            <button class="btn btn-primary add-cart" data-name={v.name} data-price={d.price} data-img={d.image}>
+              {UI.cart}
+            </button>
+          </div>
+          <div class="pd-desc">
+            {v.description.map((b) =>
+              b.type === 'h2' ? <h2>{b.text}</h2>
+              : b.type === 'p' ? <p set:html={b.html} />
+              : <ul>{b.items.map((i) => <li set:html={i} />)}</ul>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {related.length > 0 && (
+    <section class="pd-related section">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <div class="eyebrow">{cat.related}</div>
+          <h2 class="sec-title">{UI.also}</h2>
+        </div>
+        <div class="op-grid">
+          {related.map((r) => <ProductCard product={r} lang={lang} />)}
+        </div>
+      </div>
+    </section>
+  )}
+</Base>

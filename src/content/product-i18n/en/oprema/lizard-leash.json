@@ -1,0 +1,56 @@
+{
+  "slug": "lizard-leash",
+  "name": "Lizard leash",
+  "label": "Equipment",
+  "lead": "Premium leather lizard leash with a bat wing design. 1.5m lead. Three harness sizes: S, M, L.",
+  "imageAlt": "Lizard leash - NS Reptiles",
+  "specs": [
+    {
+      "k": "Brand",
+      "v": "Nomoy Pet"
+    },
+    {
+      "k": "Model",
+      "v": "NFF-56"
+    },
+    {
+      "k": "Lead length",
+      "v": "1.5m"
+    },
+    {
+      "k": "Sizes",
+      "v": "S / M / L"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The Nomoy Pet NFF-56 lizard leash is a premium accessory for owners who want to take their lizards outside safely for fresh air. Made from quality leather with a unique bat wing design, this leash combines function with an attractive look. The harness fits gently around the lizard's body without pressing on sensitive organs, while the 1.5m lead gives enough freedom to explore the surroundings."
+    },
+    {
+      "type": "p",
+      "html": "It is available in three harness sizes to fit different lizard species and sizes. Size S (9x3.3cm) suits smaller geckos and young lizards, size M (12.1x4.8cm) fits leopard geckos and smaller bearded dragons, while size L (13.2x6.2cm) fits adult bearded dragons and small iguanas. The material is non-toxic, odorless and breathable, which prevents overheating and skin irritation."
+    },
+    {
+      "type": "p",
+      "html": "Before the first trip outdoors, we recommend gradually getting your lizard used to the leash in a controlled home environment. Let it wear the leash for short periods until it gets used to the feeling. Never pull or lift the lizard by the leash - it is a safety measure, not a tool for controlling movement. It is ideal for short walks in the yard, basking on the balcony or outdoor photo sessions."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Order by phone or WhatsApp message. Delivery to your address in any town in Serbia. In Novi Sad - pickup at our workshop."
+    }
+  ],
+  "seo": {
+    "title": "Lizard Leash and Harness | Bearded Dragon Leash",
+    "description": "Nomoy Pet lizard leash: a premium leather harness and leash with a bat wing design. Three sizes (S, M, L). NS Reptiles, Novi Sad, Serbia.",
+    "keywords": "lizard leash, lizard harness, bearded dragon leash, Nomoy Pet, reptile supplies, NS Reptiles, Novi Sad"
+  }
+}

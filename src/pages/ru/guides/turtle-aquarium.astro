@@ -1,0 +1,372 @@
+---
+import Base from '../../../layouts/Base.astro';
+import '../../../styles/animals.css';
+import '../../../styles/usluge.css';
+import { translationsFor } from '../../../i18n/routes';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Аквариум для черепахи — руководство по обустройству",
+    "description": "Полное руководство по аквариуму для водной черепахи: размеры, фильтрация, сухопутная часть, обогрев и UVB. Тер-аквариумы на заказ в Нови-Саде.",
+    "author": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "url": "https://nsreptiles.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nsreptiles.net/style/img/logo.jpg"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://nsreptiles.net/ru/guides/turtle-aquarium.html"
+    },
+    "image": "https://nsreptiles.net/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Главная",
+        "item": "https://nsreptiles.net/ru/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Аквариумы",
+        "item": "https://nsreptiles.net/ru/aquariums.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Аквариум для черепахи",
+        "item": "https://nsreptiles.net/ru/guides/turtle-aquarium.html"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Какой аквариум нужен водной черепахе?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Водной черепахе нужен тер-аквариум, в котором есть и водная, и сухопутная часть, чтобы черепаха могла плавать и отдыхать на суше. Аквариум только с водой, без сухопутной части, не подходит."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Какие размеры аквариума нужны для черепахи?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Размеры зависят от величины черепахи. В ассортименте есть тер-аквариумы от 50x35x45 см до 100x45x45 см, а также мы изготавливаем их на заказ под ваши потребности."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Нужна ли фильтрация в аквариуме для черепахи?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Да, фильтрация обязательна. Черепахи загрязняют воду быстрее, чем рыбы, поэтому нужен фильтр подходящей производительности, который обеспечивает чистую и здоровую воду."
+        }
+      }
+    ]
+  }
+];
+---
+<Base
+  lang="ru"
+  title="Аквариум для черепахи: как обустроить | NS Reptiles"
+  description="Полное руководство по аквариуму для водной черепахи: размеры, фильтрация, сухопутная часть, обогрев и UVB. Тер-аквариумы на заказ в Нови-Саде."
+  path="/ru/guides/turtle-aquarium.html"
+  keywords="аквариум для черепахи, аквариум для водной черепахи, тер-аквариум для черепахи, акватеррариум, Нови-Сад"
+  image="/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp"
+  ogType="article"
+  ogDescription="Всё, что нужно знать об обустройстве аквариума для водной черепахи: размеры, фильтрация, сухопутная часть, обогрев и частые ошибки."
+  translations={translationsFor("/ru/guides/turtle-aquarium.html")}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Руководства</div>
+        <h1>Аквариум для черепахи</h1>
+        <p>Тер-аквариум с сухопутной и водной частью — всё, что нужно знать перед обустройством стеклянного дома для водной черепахи.</p>
+      </div>
+    </section>
+<nav class="breadcrumb-bar" aria-label="Навигационная цепочка">
+      <div class="wrap">
+        <ol class="breadcrumb">
+          <li><a href="/ru/">Главная</a></li>
+          <li><a href="/ru/aquariums.html">Руководства</a></li>
+          <li aria-current="page">Аквариум для черепахи</li>
+        </ol>
+      </div>
+    </nav>
+<section class="intro">
+      <div class="wrap">
+        <div class="intro-box reveal">
+          <div class="eyebrow">О типе аквариума</div>
+          <p>Для водной черепахи обычного аквариума недостаточно — нужен <strong>тер-аквариум</strong>, в котором есть и водная, и сухопутная часть. Черепаха должна иметь возможность плавать и отдыхать на суше — на приподнятой платформе или естественном островке. Без сухопутной части черепаха не может согреться, обсохнуть и отдохнуть, что в долгосрочной перспективе вредит её здоровью. В этом руководстве мы разберём все ключевые элементы правильно обустроенного тер-аквариума для водной черепахи.</p>
+        </div>
+      </div>
+    </section>
+<div class="wrap reveal" style="padding-top: 0; padding-bottom: 0;">
+      <img src="/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp" alt="Тер-аквариум для водной черепахи с сухопутной и водной частью" class="guide-img" width="1080" height="1080" loading="eager" fetchpriority="high">
+    </div>
+<section class="zoo" style="padding-top: 40px;">
+      <div class="wrap">
+
+        <!-- Dimenzije -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Размеры <b>тер-аквариума</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Минимальные размеры</h3>
+            <p>Минимальные размеры тер-аквариума для одной взрослой черепахи — около 50x35 см площади основания. Чем больше черепаха, тем больше должен быть аквариум. В нашем ассортименте тер-аквариумы для черепах доступны в размерах от 50x35x45 см до 100x45x45 см — и всё это мы изготавливаем также на заказ.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Что означают 4 размера</h3>
+            <p>У тер-аквариумов для черепах часто указывают четыре числа — например, 60x35x45x30. Первые два числа — ширина и глубина аквариума, третье — общая высота стеклянной части, а четвёртое — высота водного столба (глубина воды). Остальную высоту занимает сухопутная часть — приподнятая платформа, на которой черепаха отдыхает.</p>
+          </div>
+        </div>
+
+        <!-- Filtracija -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Фильтрация</h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Почему фильтр обязателен</h3>
+            <p>Водные черепахи загрязняют воду значительно сильнее, чем рыбы, — они быстрее едят, оставляют больше отходов и биологически активнее. Фильтр — обязательная часть оборудования и должен соответствовать объёму аквариума. Рекомендуется фильтр, рассчитанный на больший объём, чем реальный, потому что черепахи нагружают фильтрацию быстрее, чем рыбы похожего размера. Регулярная частичная замена воды также важна независимо от фильтрации.</p>
+          </div>
+        </div>
+
+        <!-- Kopneni deo / ostrvo -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Сухопутная часть и <b>платформа</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Почему сухопутная часть необходима</h3>
+            <p>У черепахи должна быть сухая поверхность, на которую она может выйти из воды, согреться под лампой и отдохнуть. Без сухопутной части черепаха не может регулировать температуру тела — а это одна из самых частых причин проблем со здоровьем у водных черепах в неволе.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Исполнение в тер-аквариуме</h3>
+            <p>В наших тер-аквариумах сухопутная часть встроена в конструкцию — это приподнятая полка из стекла или оргстекла, отделённая от водной части. Площадь сухопутной части должна быть достаточно большой, чтобы черепаха могла свободно лежать и передвигаться без риска случайно соскользнуть обратно в воду.</p>
+          </div>
+        </div>
+
+        <!-- Grejanje i UVB -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Обогрев и <b>UVB-освещение</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Греющая лампа над сухопутной частью</h3>
+            <p>Над сухопутной частью обязательно установите греющую лампу, которая создаёт тёплую точку. Черепаха будет использовать её для терморегуляции — чтобы согреться после плавания. Температура тёплой точки над платформой должна быть примерно 30-32°C, а температура воды остаётся ниже.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">UVB-излучение</h3>
+            <p>UVB-лампа необходима — она позволяет черепахе синтезировать витамин D3, ключевой для здоровья костей и панциря. Без UVB-излучения у черепах со временем развиваются проблемы с панцирем и скелетом. UVB-лампу устанавливают над сухопутной частью и меняют согласно инструкции производителя (чаще всего каждые 6-12 месяцев, даже если она ещё светит).</p>
+          </div>
+        </div>
+
+        <!-- Ceste greske -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Частые <b>ошибки</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">На что обратить внимание</h3>
+            <ul style="color:var(--ink-soft);line-height:1.9;padding-left:18px;margin:0;">
+              <li>Аквариум без сухопутной части — черепахе необходима сухая поверхность для отдыха и обогрева.</li>
+              <li>Слишком маленький аквариум — черепахе нужно пространство для плавания и свободного передвижения.</li>
+              <li>Недостаточная фильтрация — черепахи загрязняют воду быстрее, чем рыбы, фильтр должен быть подходящей производительности.</li>
+              <li>Отказ от UVB-лампы — без UVB-излучения со временем возникают серьёзные проблемы со здоровьем.</li>
+              <li>Нет тёплой точки — сухопутная часть должна обогреваться лампой, чтобы черепаха могла согреться после плавания.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+<section class="zoo" style="padding-top: 0;">
+      <div class="wrap">
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Частые <b>вопросы</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="faq-list">
+            <div class="faq-item">
+              <button class="faq-q">
+                Какой аквариум нужен водной черепахе?<span class="ic">+</span>
+              </button>
+              <div class="faq-a">
+                <p>Водной черепахе нужен тер-аквариум, в котором есть и водная, и сухопутная часть, чтобы черепаха могла плавать и отдыхать на суше. Аквариум только с водой, без сухопутной части, не подходит — черепахе необходима сухая поверхность для обогрева и отдыха.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q">
+                Какие размеры аквариума нужны для черепахи?<span class="ic">+</span>
+              </button>
+              <div class="faq-a">
+                <p>Размеры зависят от величины черепахи. В ассортименте есть тер-аквариумы от 50x35x45 см до 100x45x45 см, а также мы изготавливаем их на заказ под ваши потребности и размер животного.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q">
+                Нужна ли фильтрация в аквариуме для черепахи?<span class="ic">+</span>
+              </button>
+              <div class="faq-a">
+                <p>Да, фильтрация обязательна. Черепахи загрязняют воду быстрее, чем рыбы, поэтому нужен фильтр подходящей производительности, который обеспечивает чистую и здоровую воду. Регулярная частичная замена воды также рекомендуется независимо от фильтра.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<section class="usl-more">
+      <div class="wrap">
+        <div class="usl-more-head reveal">
+          <div class="eyebrow">Полезные ссылки</div>
+          <h2>Связанные <b>материалы</b></h2>
+        </div>
+        <div class="usl-more-grid reveal">
+          <a class="usl-link" href="/ru/aquariums.html">
+            Аквариумы — ассортимент
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+          <a class="usl-link" href="/ru/custom-aquariums.html">
+            Изготовление аквариумов на заказ
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+          <a class="usl-link" href="/ru/guides/turtle-terrarium.html">
+            Террариум для черепахи — руководство
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+<section class="zcta">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content:center">Нужен тер-аквариум?</div>
+        <h2>Изготовление <b>на заказ</b></h2>
+        <p>Тер-аквариумы для черепах мы изготавливаем на заказ — размеры, цвет и оборудование выбираете вы. Свяжитесь с нами, и вы получите предложение.</p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474?text=%D0%9C%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D1%82%D0%B5%D1%80-%D0%B0%D0%BA%D0%B2%D0%B0%D1%80%D0%B8%D1%83%D0%BC%20%D0%B4%D0%BB%D1%8F%20%D1%87%D0%B5%D1%80%D0%B5%D0%BF%D0%B0%D1%85%D0%B8" target="_blank" rel="noopener" class="btn" style="background:#fff;color:var(--green-dark)" onclick="gtag('event','kontakt_click',{'metod':'whatsapp'})">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event','kontakt_click',{'metod':'poziv'})">+381 69 330 1474</a>
+        </div>
+      </div>
+    </section>
+<style is:global>
+      .guide-img {
+        width: 100%;
+        border-radius: 8px;
+        display: block;
+        margin: 0 auto 40px;
+        max-width: 640px;
+      }
+      .faq-list { margin-top: 24px; }
+      .faq-item {
+        border-bottom: 1px solid var(--silver);
+        padding: 0;
+      }
+      .faq-q {
+        width: 100%;
+        background: none;
+        border: none;
+        text-align: left;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: .06em;
+        color: var(--ink);
+        padding: 18px 0;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        transition: color .2s;
+      }
+      .faq-q:hover { color: var(--green); }
+      .faq-q .ic {
+        font-size: 1.4rem;
+        font-weight: 300;
+        line-height: 1;
+        flex-shrink: 0;
+        transition: transform .25s;
+      }
+      .faq-item.open .faq-q .ic { transform: rotate(45deg); }
+      .faq-a {
+        display: none;
+        padding-bottom: 18px;
+      }
+      .faq-item.open .faq-a { display: block; }
+      .faq-a p {
+        color: var(--ink-soft);
+        line-height: 1.7;
+        margin: 0;
+      }
+    </style>
+<script is:inline slot="after">
+      // FAQ accordion
+      document.querySelectorAll('.faq-q').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var item = this.closest('.faq-item');
+          var isOpen = item.classList.contains('open');
+          document.querySelectorAll('.faq-item').forEach(function(el) { el.classList.remove('open'); });
+          if (!isOpen) item.classList.add('open');
+        });
+      });
+    </script>
+<style is:global>
+      .breadcrumb-bar {
+        background: var(--bg);
+        border-bottom: 1px solid var(--silver);
+        padding: 12px 0;
+        transition: background 0.4s;
+      }
+      .breadcrumb {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-size: 0.85rem;
+        color: var(--ink-soft);
+      }
+      .breadcrumb li + li::before {
+        content: '›';
+        margin-right: 6px;
+        color: var(--ink-soft);
+      }
+      .breadcrumb a {
+        color: var(--green);
+        text-decoration: none;
+      }
+      .breadcrumb a:hover {
+        text-decoration: underline;
+      }
+    </style>
+</Base>

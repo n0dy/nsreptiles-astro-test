@@ -1,0 +1,77 @@
+{
+  "slug": "terrarium-90x45x45-3d",
+  "name": "Terrarium 90x45x45 +3D",
+  "label": "Large terrarium",
+  "lead": "Glass terrarium measuring 90x45x45 cm with a handmade 3D background. Volume: 182.3 liters, horizontal format. Handmade in Novi Sad.",
+  "imageAlt": "Glass terrarium 90x45x45 cm with 3D background - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "90 cm"
+    },
+    {
+      "k": "Width",
+      "v": "45 cm"
+    },
+    {
+      "k": "Height",
+      "v": "45 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~182.3 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "3D background",
+      "v": "Yes"
+    },
+    {
+      "k": "Type",
+      "v": "Horizontal"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "With a volume of 182.3 liters and dimensions of 90x45x45 cm, this terrarium includes a handmade 3D background. The background imitates natural relief, such as rock or bark, and adds depth to the space so animals can climb, hide and feel more secure."
+    },
+    {
+      "type": "p",
+      "html": "The horizontal layout with 90 cm of length gives a floor area where a basking zone, a cool zone and a hiding area are easy to arrange. Terrestrial reptiles actively choose their temperature by moving between zones, and this space lets them do that. The ventilation openings are placed to create natural airflow from bottom to top, which maintains optimal humidity."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Bearded dragons (adults)",
+        "Ball pythons",
+        "Tortoises (land species)",
+        "Corn snakes (adults)"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "Every terrarium we make is handmade, so you can choose the dimensions, film color, ventilation type and 3D background style. We also build fully custom models to your needs, so contact us for a consultation. Delivery throughout Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Large Terrarium 90x45x45 with 3D Background | NS Reptiles",
+    "description": "Large glass terrarium 90x45x45 cm (182.3 L) with a handmade 3D background, horizontal format. Suitable for adult bearded dragons and ball pythons.",
+    "keywords": "glass terrarium 90x45x45, terrarium 90x45x45 cm, terrarium with 3D background, large terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

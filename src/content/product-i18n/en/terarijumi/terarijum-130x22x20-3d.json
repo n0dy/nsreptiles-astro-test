@@ -1,0 +1,77 @@
+{
+  "slug": "terrarium-130x22x20-3d",
+  "name": "Terrarium 130x22x20 +3D",
+  "label": "Large terrarium",
+  "lead": "Glass terrarium measuring 130x22x20 cm with a handmade 3D background. Volume: 57.2 liters, horizontal format. Handmade in Novi Sad.",
+  "imageAlt": "Terrarium 130x22x20 +3D - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "130 cm"
+    },
+    {
+      "k": "Width",
+      "v": "22 cm"
+    },
+    {
+      "k": "Height",
+      "v": "20 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~57.2 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "3D background",
+      "v": "Yes"
+    },
+    {
+      "k": "Type",
+      "v": "Horizontal"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 130x22x20 cm terrarium (57.2 L) stands out with a polystyrene 3D background that we shape and paint by hand. The background evokes a rocky or forest setting and gives animals functional surfaces for moving vertically."
+    },
+    {
+      "type": "p",
+      "html": "With a floor area of 130x22 cm, this terrarium allows natural movement for ground-dwelling species and proper temperature zoning: a warm spot under the spot lamp and a cooler area on the opposite side. Ventilation is provided by mesh openings that allow airflow and humidity control inside the terrarium."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Bearded dragons",
+        "Tortoises (Hermann's, Horsfield's)",
+        "Ball pythons and kingsnakes",
+        "Blue-tongued skinks"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "Because we build every terrarium by hand, we adapt it to your requirements, from dimensions and film to the background and ventilation system. Call or write to us for free advice and a quote. We ship to every city in Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Large Terrarium 130x22x20 with 3D Background | NS Reptiles",
+    "description": "Large glass terrarium 130x22x20 cm (57.2 L) with a handmade 3D background, horizontal format. Suitable for bearded dragons and tortoises.",
+    "keywords": "glass terrarium 130x22x20, terrarium 130x22x20 cm, terrarium with 3D background, large terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

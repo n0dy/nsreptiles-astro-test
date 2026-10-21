@@ -1,0 +1,81 @@
+{
+  "slug": "terrarium-70x45x97-double-3d",
+  "name": "Terrarium 70x45x97 DOUBLE +3D",
+  "label": "Large terrarium",
+  "lead": "Double glass terrarium measuring 70x45x97 cm with a handmade 3D background. Two separate compartments for keeping two animals in one enclosure.",
+  "imageAlt": "Double glass terrarium 70x45x97 cm with 3D background - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "70 cm"
+    },
+    {
+      "k": "Width",
+      "v": "45 cm"
+    },
+    {
+      "k": "Height",
+      "v": "97 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~305.6 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "3D background",
+      "v": "Yes"
+    },
+    {
+      "k": "Type",
+      "v": "Vertical"
+    },
+    {
+      "k": "Compartments",
+      "v": "2 (double)"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 70x45x97 cm glass terrarium with a volume of 305.6 liters comes with a handmade 3D background that gives the interior the look of a natural habitat. The polystyrene background is sculpted as rock, tree bark or cave relief, and every piece is unique because it is made by hand in our workshop."
+    },
+    {
+      "type": "p",
+      "html": "The vertical format (a height of 97 cm, greater than the 70 cm length) is meant for arboreal species that spend most of their time on branches and leaves. The height leaves room for branches, vines and plants at different levels. Ventilation is provided by mesh openings that allow airflow and humidity control inside the terrarium."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Chameleons (veiled, panther)",
+        "Arboreal snakes",
+        "Crested geckos kept as a pair",
+        "Larger tree frogs"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "You can order this model with a custom film and background. If you need different dimensions or extra equipment (LED lighting, a thermostat, a lock), we build to your specification. Delivery to your address anywhere in Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Double Terrarium 70x45x97 with 3D Background | NS Reptiles",
+    "description": "Double glass terrarium 70x45x97 cm (305.6 L) with two separate compartments and a handmade 3D background. Suitable for chameleons and arboreal snakes.",
+    "keywords": "glass terrarium 70x45x97, terrarium 70x45x97 cm, terrarium with 3D background, large terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

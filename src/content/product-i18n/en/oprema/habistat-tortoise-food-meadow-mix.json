@@ -1,0 +1,52 @@
+{
+  "slug": "habistat-tortoise-food-meadow-mix",
+  "name": "HabiStat Tortoise Food Meadow Mix",
+  "label": "Food",
+  "lead": "Dry pelleted tortoise food with a meadow mix flavor. All-natural ingredients that mimic a tortoise's natural meadow diet.",
+  "imageAlt": "HabiStat Tortoise Food Meadow Mix - NS Reptiles",
+  "specs": [
+    {
+      "k": "Brand",
+      "v": "HabiStat"
+    },
+    {
+      "k": "Type",
+      "v": "Tortoise food"
+    },
+    {
+      "k": "Flavor",
+      "v": "Meadow Mix"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "HabiStat Tortoise Food Meadow Mix is a dry pelleted food for tortoises with a meadow mix flavor. This variety is the closest to a tortoise's natural diet in the wild, because it contains a mix of meadow grasses and plants that tortoises instinctively look for in their natural habitat. The pellets are made from all-natural ingredients, with no artificial colors, flavors or preservatives, giving tortoises a healthy, balanced meal."
+    },
+    {
+      "type": "p",
+      "html": "The nutritional profile of the Meadow Mix variety is carefully designed to match the needs of tortoises. High fiber content supports healthy digestion and gut function, the low protein content is suited to a tortoise metabolism that needs slow-release energy sources, and added calcium and vitamin D3 ensure proper development and maintenance of a strong shell and healthy skeleton. The meadow flavor makes this food natural and appealing, so tortoises readily accept it."
+    },
+    {
+      "type": "p",
+      "html": "Preparation and use: soak the pellets in warm water for a few minutes before giving them to your tortoises. Softened pellets are easier to eat and also help with hydration. It is suitable for European tortoises, Russian tortoises and most other tortoise species. Meadow Mix combines very well with fresh meadow plants and vegetables for a fully balanced diet. HabiStat is a renowned British brand with many years of experience producing reptile food."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "To order, contact us by phone or WhatsApp. We deliver to all towns in Serbia. In-person pickup is available in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "HabiStat Tortoise Food Meadow Mix | Tortoise Pellets",
+    "description": "HabiStat Tortoise Food Meadow Mix: pelleted tortoise food with a meadow mix flavor. Natural ingredients, rich in calcium. NS Reptiles, Novi Sad.",
+    "keywords": "habistat tortoise food meadow mix, tortoise food, tortoise pellets, reptile food, NS Reptiles, Novi Sad, Serbia"
+  }
+}

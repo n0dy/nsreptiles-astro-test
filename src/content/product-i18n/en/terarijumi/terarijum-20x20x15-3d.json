@@ -1,0 +1,77 @@
+{
+  "slug": "terrarium-20x20x15-3d",
+  "name": "Terrarium 20x20x15 +3D",
+  "label": "Small terrarium",
+  "lead": "Glass terrarium measuring 20x20x15 cm with a handmade 3D background. Volume: 6.0 liters, horizontal format. Handmade in Novi Sad.",
+  "imageAlt": "Terrarium 20x20x15 +3D - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "20 cm"
+    },
+    {
+      "k": "Width",
+      "v": "20 cm"
+    },
+    {
+      "k": "Height",
+      "v": "15 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~6.0 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "3D background",
+      "v": "Yes"
+    },
+    {
+      "k": "Type",
+      "v": "Horizontal"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 20x20x15 cm terrarium (6 L) comes with a polystyrene 3D background that faithfully reproduces the texture of stone or bark. Hand-sculpted and painted in natural tones, the background is more than decoration: it adds surfaces for climbing and hiding."
+    },
+    {
+      "type": "p",
+      "html": "A length of 20 cm and a width of 20 cm provide a large floor area for ground-dwelling species. The floor area allows a clear separation between the basking zone under the spot lamp and a cooler resting area. We fit every terrarium with ventilation mesh that provides airflow suited to the species you keep."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Jumping spiders and smaller tarantulas",
+        "Mantises and stick insects",
+        "Juvenile leopard geckos",
+        "Smaller frog species"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "When ordering, you choose the film pattern and the shape of the 3D background. We handmake all our terrariums in Novi Sad, so customization is always possible, from dimensions to the way it opens. We ship by courier throughout Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Small Terrarium 20x20x15 with 3D Background | NS Reptiles",
+    "description": "Small glass terrarium 20x20x15 cm (6.0 L) with a handmade 3D background, horizontal format. Suitable for jumping spiders and smaller tarantulas.",
+    "keywords": "glass terrarium 20x20x15, terrarium 20x20x15 cm, terrarium with 3D background, small terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

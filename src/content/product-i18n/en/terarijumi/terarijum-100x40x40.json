@@ -1,0 +1,73 @@
+{
+  "slug": "terrarium-100x40x40",
+  "name": "Terrarium 100x40x40",
+  "label": "Large terrarium",
+  "lead": "Glass terrarium measuring 100x40x40 cm. Volume: 160.0 liters, horizontal format. Handmade in Novi Sad.",
+  "imageAlt": "Glass terrarium 100x40x40 cm - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "100 cm"
+    },
+    {
+      "k": "Width",
+      "v": "40 cm"
+    },
+    {
+      "k": "Height",
+      "v": "40 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~160.0 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "Type",
+      "v": "Horizontal"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "At 100x40x40 cm and 160 liters, this terrarium offers a clean glass space with decorative film on the outside. The film is functional: it stops animals from seeing their reflection and reduces stress, while helping the terrarium blend into your home."
+    },
+    {
+      "type": "p",
+      "html": "The horizontal layout with 100 cm of length gives a floor area where a basking zone, a cool zone and a hiding area are easy to arrange. Terrestrial reptiles actively choose their temperature by moving between zones, and this space lets them do that. Mesh covers on the ventilation openings let air through but not food or the small inhabitants of the terrarium."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Bearded dragons (adults)",
+        "Ball pythons",
+        "Tortoises (land species)",
+        "Corn snakes (adults)"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "Because we build every terrarium by hand, we adapt it to your requirements, from dimensions and film to the background and ventilation system. Call or write to us for free advice and a quote. We ship to every city in Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Glass Terrarium 100x40x40 cm, 160.0 L | NS Reptiles",
+    "description": "Large glass terrarium 100x40x40 cm (160.0 L), horizontal format, with decorative film. Suitable for adult bearded dragons and ball pythons.",
+    "keywords": "glass terrarium 100x40x40, terrarium 100x40x40 cm, large terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

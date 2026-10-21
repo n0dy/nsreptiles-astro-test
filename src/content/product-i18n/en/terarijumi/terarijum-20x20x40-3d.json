@@ -1,0 +1,77 @@
+{
+  "slug": "terrarium-20x20x40-3d",
+  "name": "Terrarium 20x20x40 +3D",
+  "label": "Small terrarium",
+  "lead": "Glass terrarium measuring 20x20x40 cm with a handmade 3D background. Volume: 16.0 liters, vertical format. Handmade in Novi Sad.",
+  "imageAlt": "Terrarium 20x20x40 +3D - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "20 cm"
+    },
+    {
+      "k": "Width",
+      "v": "20 cm"
+    },
+    {
+      "k": "Height",
+      "v": "40 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~16.0 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "3D background",
+      "v": "Yes"
+    },
+    {
+      "k": "Type",
+      "v": "Vertical"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 20x20x40 cm terrarium (16 L) comes with a polystyrene 3D background that faithfully reproduces the texture of stone or bark. Hand-sculpted and painted in natural tones, the background is more than decoration: it adds surfaces for climbing and hiding."
+    },
+    {
+      "type": "p",
+      "html": "The vertical format (a height of 40 cm, greater than the 20 cm length) is meant for arboreal species that spend most of their time on branches and leaves. The height leaves room for branches, vines and plants at different levels. The ventilation system is designed for constant airflow that prevents overheating and trapped moisture."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Day geckos (juveniles)",
+        "Jumping spiders and tarantulas",
+        "Mantises and stick insects",
+        "Smaller frogs"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "The terrarium is ordered with your choice of film and background. For non-standard requests (other dimensions, double sliding glass panels, a built-in thermostat), write to us or call. Free consultations and delivery to all cities."
+    }
+  ],
+  "seo": {
+    "title": "Vertical Terrarium 20x20x40 with 3D Background | NS Reptiles",
+    "description": "Small glass terrarium 20x20x40 cm (16.0 L) with a handmade 3D background, vertical format. Suitable for young day geckos, jumping spiders and tarantulas.",
+    "keywords": "glass terrarium 20x20x40, terrarium 20x20x40 cm, terrarium with 3D background, small terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

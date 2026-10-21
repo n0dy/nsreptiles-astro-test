@@ -1,0 +1,82 @@
+---
+import Base from '../../layouts/Base.astro';
+import '../../styles/animals.css';
+import { translationsFor } from '../../i18n/routes';
+---
+<Base
+  lang="en"
+  title="404 — Page Not Found | NS Reptiles"
+  description="The page you are looking for has been moved, deleted or never existed. Follow the links to the home page, animals, terrariums or contact."
+  path="/en/404.html"
+  image="/style/img/logo.jpg"
+  noindex
+  translations={translationsFor("/en/404.html")}
+>
+<main>
+      <section class="error-section">
+        <div class="wrap">
+          <div class="error-code reveal">404</div>
+          <div class="error-divider reveal"></div>
+          <h1 class="error-title reveal">Page not found</h1>
+          <p class="error-desc reveal">
+            The page you are looking for has been moved, deleted or never
+            existed. Use the links below to find what you
+            need.
+          </p>
+          <div class="error-btns reveal">
+            <a href="/en/" class="btn btn-primary">Home</a>
+            <a href="/en/animals.html" class="btn btn-primary">Animals</a>
+            <a href="/en/terrariums.html" class="btn btn-primary">Terrariums</a>
+            <a href="/en/contact.html" class="btn btn-primary">Contact</a>
+          </div>
+        </div>
+      </section>
+    </main>
+<style is:global>
+      .error-section {
+        padding: 100px 0 110px;
+        text-align: center;
+      }
+      .error-code {
+        font-family: 'Oswald', sans-serif;
+        font-size: clamp(7rem, 20vw, 14rem);
+        font-weight: 700;
+        line-height: 1;
+        color: var(--green);
+        letter-spacing: -0.02em;
+        margin-bottom: 0.1em;
+      }
+      .error-title {
+        font-family: 'Oswald', sans-serif;
+        font-size: clamp(1.6rem, 4vw, 2.4rem);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: var(--ink);
+        margin-bottom: 1rem;
+      }
+      .error-desc {
+        font-family: 'Jost', sans-serif;
+        font-weight: 300;
+        font-size: 1.05rem;
+        line-height: 1.7;
+        color: var(--ink-soft);
+        max-width: 480px;
+        margin: 0 auto 2.5rem;
+      }
+      .error-btns {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        justify-content: center;
+      }
+      .error-divider {
+        width: 50px;
+        height: 3px;
+        background: var(--green);
+        margin: 0 auto 2rem;
+        border-radius: 2px;
+      }
+    </style>
+
+</Base>

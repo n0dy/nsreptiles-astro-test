@@ -1,0 +1,44 @@
+{
+  "slug": "habistat-dial-thermometer",
+  "name": "Habistat thermometer",
+  "label": "Accessories",
+  "lead": "Habistat analog thermometer for measuring the temperature in a terrarium. A compact round dial that sticks to the glass.",
+  "imageAlt": "Habistat thermometer - NS Reptiles",
+  "specs": [
+    {
+      "k": "Brand",
+      "v": "Habistat"
+    },
+    {
+      "k": "Type",
+      "v": "Analog thermometer (dial)"
+    },
+    {
+      "k": "Intended for",
+      "v": "Measuring temperature"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The Habistat Dial thermometer is a reliable analog device for measuring the temperature in a terrarium. Monitoring temperature is key to reptile health, because reptiles are ectothermic animals that depend on external heat sources to regulate their body temperature. The compact round dial with a clear scale in degrees Celsius and Fahrenheit allows quick temperature readings. The thermometer sticks directly to the inside of the terrarium glass, with no cables or batteries needed. We recommend placing it where your animal spends the most time. For optimal conditions, the terrarium should have a temperature gradient - a warmer and a cooler side - so the animal can regulate its own temperature. Use two thermometers - one on the warm side and one on the cool side."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Order by phone or WhatsApp message. Fast courier delivery. Customers in Novi Sad can pick up their order directly at our workshop. Contact us with any questions about the product or for a recommendation for your species."
+    }
+  ],
+  "seo": {
+    "title": "Habistat Dial Thermometer | Terrarium Thermometer",
+    "description": "Habistat analog thermometer for measuring terrarium temperature. A compact round dial that sticks to the glass. NS Reptiles, Novi Sad, Serbia.",
+    "keywords": "habistat thermometer, terrarium thermometer, dial thermometer, reptile supplies, NS Reptiles, Novi Sad"
+  }
+}

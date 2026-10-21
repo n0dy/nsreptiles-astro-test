@@ -1,0 +1,73 @@
+{
+  "slug": "terrarium-45x40x70",
+  "name": "Terrarium 45x40x70",
+  "label": "Medium terrarium",
+  "lead": "Glass terrarium measuring 45x40x70 cm. Volume: 126.0 liters, vertical format. Handmade in Novi Sad.",
+  "imageAlt": "Glass terrarium 45x40x70 cm - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "45 cm"
+    },
+    {
+      "k": "Width",
+      "v": "40 cm"
+    },
+    {
+      "k": "Height",
+      "v": "70 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~126.0 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "Type",
+      "v": "Vertical"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "At 45x40x70 cm and 126 liters, this terrarium offers a clean glass space with decorative film on the outside. The film is functional: it stops animals from seeing their reflection and reduces stress, while helping the terrarium blend into your home."
+    },
+    {
+      "type": "p",
+      "html": "The vertical format (a height of 70 cm, greater than the 45 cm length) is meant for arboreal species that spend most of their time on branches and leaves. The height leaves room for branches, vines and plants at different levels. We fit every terrarium with ventilation mesh that provides airflow suited to the species you keep."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Climbing geckos (crested, gargoyle)",
+        "Day geckos",
+        "Green anoles",
+        "Tree frogs"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "You can order this model with a custom film and background. If you need different dimensions or extra equipment (LED lighting, a thermostat, a lock), we build to your specification. Delivery to your address anywhere in Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Vertical Glass Terrarium 45x40x70 cm, 126.0 L | NS Reptiles",
+    "description": "Medium glass terrarium 45x40x70 cm (126.0 L), vertical format, with decorative film. Suitable for climbing geckos and day geckos. Delivery across Serbia.",
+    "keywords": "glass terrarium 45x40x70, terrarium 45x40x70 cm, medium terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

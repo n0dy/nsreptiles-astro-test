@@ -1,0 +1,277 @@
+---
+import Base from '../../../layouts/Base.astro';
+import '../../../styles/animals.css';
+import '../../../styles/usluge.css';
+import { translationsFor } from '../../../i18n/routes';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Террариум для леопардового геккона — размеры, оборудование и оформление",
+    "description": "Рекомендуемые размеры террариума для леопардового геккона, обогрев термоковриком, кокосовый торф, влажность и частые ошибки. Руководство NS Reptiles.",
+    "author": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "url": "https://nsreptiles.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nsreptiles.net/style/img/logo.jpg"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://nsreptiles.net/ru/guides/leopard-gecko-terrarium.html"
+    },
+    "image": "https://nsreptiles.net/style/img/terrariums/50x35x35-7.webp"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Главная",
+        "item": "https://nsreptiles.net/ru/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Террариумы",
+        "item": "https://nsreptiles.net/ru/terrariums.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Террариум для леопардового геккона",
+        "item": "https://nsreptiles.net/ru/guides/leopard-gecko-terrarium.html"
+      }
+    ]
+  }
+];
+---
+<Base
+  lang="ru"
+  title="Террариум для леопардового геккона | NS Reptiles"
+  description="Всё о террариуме для леопардового геккона: размеры, обогрев термоковриком, субстрат, влажность и частые ошибки. Руководство NS Reptiles, Нови-Сад."
+  path="/ru/guides/leopard-gecko-terrarium.html"
+  keywords="террариум для леопардового геккона, эублефар террариум, леопардовый геккон содержание, термоковрик для геккона, Нови-Сад"
+  image="/style/img/terrariums/50x35x35-7.webp"
+  ogType="article"
+  ogDescription="Рекомендуемые размеры террариума, обогрев термоковриком, кокосовый торф и другое оборудование. Руководство для начинающих и опытных заводчиков."
+  translations={translationsFor("/ru/guides/leopard-gecko-terrarium.html")}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Руководства по уходу</div>
+        <h1>Террариум для леопардового геккона</h1>
+        <p>Рекомендуемые размеры, обогрев термоковриком, субстрат и оформление — всё, что нужно знать перед обустройством террариума.</p>
+      </div>
+    </section>
+<nav class="breadcrumb-bar" aria-label="Навигационная цепочка">
+      <div class="wrap">
+        <ol class="breadcrumb">
+          <li><a href="/ru/">Главная</a></li>
+          <li><a href="/ru/terrariums.html">Террариумы</a></li>
+          <li aria-current="page">Террариум для леопардового геккона</li>
+        </ol>
+      </div>
+    </nav>
+<section class="intro">
+      <div class="wrap">
+        <div class="intro-box reveal">
+          <div class="eyebrow">О теме</div>
+          <p>Леопардовый геккон — ночной вид ящериц, происходящий из сухих полупустынных районов Пакистана, Афганистана и западной Индии. Чтобы эта ящерица была здоровой и активной в неволе, террариум должен обеспечивать подходящую температуру, субстрат и укрытия. Рекомендуемый размер террариума для одного взрослого леопардового геккона — около 50x35x35 см. Под террариумом, с одной стороны, нужно разместить термоковрик, который создаёт температурный градиент, необходимый для терморегуляции.</p>
+        </div>
+      </div>
+    </section>
+<section class="zoo" style="padding-top: 40px;">
+      <div class="wrap">
+
+        <!-- Dimenzije -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Размеры <b>террариума</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Минимальные размеры</h3>
+            <p>Для одного взрослого леопардового геккона минимальные размеры террариума — примерно 50x30x25 см. Террариум не должен быть высоким, так как этот вид редко лазает, — важнее как можно большее основание, которое позволяет создать температурный градиент.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Рекомендуемые размеры</h3>
+            <p>Рекомендуемый размер террариума для леопардового геккона — около 50x35x35 см. Чуть большее основание даёт геккону достаточно места, чтобы свободно выбирать между тёплой и более прохладной частью, что ключевое условие правильной терморегуляции. Для пары или группы рекомендуется пропорционально больше пространства.</p>
+          </div>
+        </div>
+
+        <!-- Grejanje i temperatura -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Обогрев и <b>температура</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Термоковрик</h3>
+            <p>Под террариумом, с одной стороны, нужно разместить термоковрик. Он нагревает дно террариума и создаёт тёплую зону без прямого источника тепла внутри террариума. Важно, чтобы термоковрик покрывал только от трети до половины дна — остальная часть остаётся прохладной, благодаря чему формируется градиент, который геккон использует для терморегуляции.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Температурный градиент</h3>
+            <p>Температура в тёплой части должна быть около 32–33°C, а в прохладной — 20–25°C или даже ниже. Зимой леопардовые гекконы могут зимовать при 13–19°C без обогрева. Поскольку это ночной вид, УФ-излучение не требуется — если вы обогреваете террариум лампой, этого вполне достаточно, а если обогреваете термоковриком, достаточно обычного освещения в комнате.</p>
+          </div>
+        </div>
+
+        <!-- Podloga -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Субстрат</h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <p>Рекомендуемый субстрат для террариума леопардового геккона — <strong>кокосовый торф</strong>: самый безопасный выбор, который хорошо удерживает влагу во влажном укрытии и не несёт риска для здоровья животного. Можно также использовать газеты, бумагу или мелкие камешки. Песка следует избегать, так как геккон может его проглотить, что может привести к запору и проблемам с пищеварительным трактом.</p>
+          </div>
+        </div>
+
+        <!-- Uređenje i oprema -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Оформление и <b>оборудование</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Укрытия</h3>
+            <p>В террариуме обязательно должно быть укрытие. Рекомендуется не менее двух укрытий — одно на тёплой стороне и одно на прохладной. Влажное укрытие (заполненное влажным торфом) — необходимый элемент, потому что геккон использует его во время линьки, а самки — перед откладкой яиц.</p>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Поилка</h3>
+            <p>Поилка со свежей водой должна быть доступна всегда. Выбирают неглубокие поилки, из которых геккон может свободно пить и которые легко чистить. Специально повышать влажность в самом террариуме не нужно — достаточно влажности во влажном укрытии.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Декор</h3>
+            <p>Помимо укрытий, можно добавить плоские каменные плиты, куски коры или искусственные растения. Каменные плиты в тёплой зоне помогают регулировать температуру, потому что геккон может лежать на них и впитывать тепло. Декор должен быть устойчивым и не должен легко опрокидываться.</p>
+          </div>
+        </div>
+
+        <!-- Česte greške -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Частые <b>ошибки</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Песок вместо торфа</h3>
+            <p>Песок в качестве субстрата — одна из самых частых ошибок. Леопардовый геккон может случайно проглотить его во время кормления, что может вызвать нарушение пищеварения. Кокосовый торф — более безопасная и рекомендуемая альтернатива.</p>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Обогрев всего дна</h3>
+            <p>Термоковрик не должен покрывать всё дно террариума. Если нет прохладной зоны, геккон не может охладиться при необходимости, что может привести к стрессу и проблемам со здоровьем. Термоковрик должен покрывать от трети до половины дна.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Нет влажного укрытия</h3>
+            <p>Без влажного укрытия геккону трудно линять — кожа застревает, особенно вокруг пальцев и хвоста. Влажное укрытие с торфом или мхом обязательно в каждом террариуме для леопардового геккона.</p>
+          </div>
+        </div>
+
+        <!-- Interni linkovi -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Полезные <b>ссылки</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <p>Для более полной картины посмотрите и другие наши страницы о леопардовом гекконе и террариумах на заказ.</p>
+            <div class="guide-links" style="margin-top: 20px;">
+              <a href="/ru/animals/leopard-gecko.html" class="guide-link">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+                Леопардовый геккон — руководство по содержанию
+              </a>
+              <a href="/ru/terrariums.html" class="guide-link">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+                Ассортимент террариумов
+              </a>
+              <a href="/ru/custom-terrariums.html" class="guide-link">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+                Изготовление террариумов на заказ
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+<section class="zcta">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content:center">Нужен террариум?</div>
+        <h2>Изготавливаем террариумы <b>на заказ</b></h2>
+        <p>Цвет, размеры и оборудование вы выбираете сами. Позвоните или напишите нам, и мы поможем вам выбрать правильное решение для вашего леопардового геккона.</p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474?text=%D0%9C%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D1%82%D0%B5%D1%80%D1%80%D0%B0%D1%80%D0%B8%D1%83%D0%BC%20%D0%B4%D0%BB%D1%8F%20%D0%BB%D0%B5%D0%BE%D0%BF%D0%B0%D1%80%D0%B4%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%B3%D0%B5%D0%BA%D0%BA%D0%BE%D0%BD%D0%B0" target="_blank" rel="noopener" class="btn" style="background:#fff;color:var(--green-dark)" onclick="gtag('event','kontakt_click',{'metod':'whatsapp'})">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event','kontakt_click',{'metod':'poziv'})">+381 69 330 1474</a>
+        </div>
+      </div>
+    </section>
+<style is:global>
+      .breadcrumb-bar {
+        background: var(--bg);
+        border-bottom: 1px solid var(--silver);
+        padding: 12px 0;
+        transition: background 0.4s;
+      }
+      .breadcrumb {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-size: 0.85rem;
+        color: var(--ink-soft);
+      }
+      .breadcrumb li + li::before {
+        content: '›';
+        margin-right: 6px;
+        color: var(--ink-soft);
+      }
+      .breadcrumb a {
+        color: var(--green);
+        text-decoration: none;
+      }
+      .breadcrumb a:hover {
+        text-decoration: underline;
+      }
+      .guide-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        margin-top: 8px;
+      }
+      .guide-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 10px 20px;
+        border: 1.5px solid var(--green);
+        border-radius: 4px;
+        color: var(--green-dark);
+        font-family: 'Oswald', sans-serif;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: .08em;
+        text-decoration: none;
+        transition: background 0.2s, color 0.2s;
+      }
+      .guide-link:hover {
+        background: var(--green);
+        color: var(--white);
+      }
+      .guide-link svg {
+        flex-shrink: 0;
+      }
+    </style>
+
+</Base>

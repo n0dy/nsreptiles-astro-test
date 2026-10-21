@@ -1,21 +1,22 @@
 ---
-import { productPath, priceLabel, type Product } from '../lib/products';
+import { priceLabel, productViewOrSr, type Product } from '../lib/products';
+import type { Locale } from '../config/site';
 
 interface Props {
   product: Product;
-  catLabel: string;
+  catLabel?: string;
+  lang?: Locale;
 }
-const { product, catLabel } = Astro.props;
-const href = productPath(product);
-const d = product.data;
+const { product, catLabel, lang = 'sr' } = Astro.props;
+const v = await productViewOrSr(product, lang);
 ---
 <article class="op-card reveal">
-  <a class="op-img" href={href}><img src={d.image} alt={d.name} loading="lazy" width="600" height="600" /></a>
+  <a class="op-img" href={v.path}><img src={product.data.image} alt={v.name} loading="lazy" width="600" height="600" /></a>
   <div class="op-body">
-    <div class="op-cat">{catLabel}</div>
-    <h3><a href={href}>{d.name}</a></h3>
+    <div class="op-cat">{catLabel ?? v.label}</div>
+    <h3><a href={v.path}>{v.name}</a></h3>
     <div class="op-foot">
-      <span class="op-price">{priceLabel(product)}</span>
+      <span class="op-price">{priceLabel(v)}</span>
     </div>
   </div>
 </article>

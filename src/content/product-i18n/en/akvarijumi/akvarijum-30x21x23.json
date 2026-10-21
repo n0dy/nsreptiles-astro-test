@@ -1,0 +1,56 @@
+{
+  "slug": "aquarium-30x21x23",
+  "name": "Aquarium 30x21x23",
+  "label": "Mini aquarium",
+  "lead": "Glass aquarium, 30x21x23 cm. Volume: 14.5 liters. Handmade in Novi Sad.",
+  "imageAlt": "Aquarium 30x21x23 - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "30 cm"
+    },
+    {
+      "k": "Width",
+      "v": "21 cm"
+    },
+    {
+      "k": "Height",
+      "v": "23 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~14.5 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This nano aquarium (30x21x23 cm, 14.5 L) is made from quality glass of the right thickness. Smaller aquariums need more careful maintenance of water parameters, but they are a great choice for a desk or shelf."
+    },
+    {
+      "type": "p",
+      "html": "The compact dimensions allow creative decoration with small plants and pebbles. The recommended filter is a sponge filter with an air pump, which does not create too strong a current for small fish."
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "If you are looking for non-standard dimensions or have special requirements (reinforced bottom, lid, openings for equipment), contact us. We handmake every aquarium and ship it by courier anywhere in Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Glass Aquarium 30x21x23 cm, 14.5 L | NS Reptiles",
+    "description": "Mini glass aquarium 30x21x23 cm, 14.5 liters. Compact tank for a desk or shelf. Handmade in Novi Sad, custom sizes, delivery across Serbia.",
+    "keywords": "glass aquarium 30x21x23, aquarium 30x21x23 cm, mini aquarium, custom aquarium Serbia, aquarium Novi Sad, NS Reptiles"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "reptile-hides",
+  "name": "Reptile hides",
+  "label": "Equipment",
+  "lead": "Decorative terrarium hides. A variety of designs - caves, rocks, bridges. They give reptiles shelter and security and reduce stress.",
+  "imageAlt": "Reptile hides - NS Reptiles",
+  "specs": [
+    {
+      "k": "Brand",
+      "v": "NS Reptiles"
+    },
+    {
+      "k": "Type",
+      "v": "Hides / shelters"
+    },
+    {
+      "k": "Material",
+      "v": "Non-toxic resin"
+    },
+    {
+      "k": "Intended for",
+      "v": "All reptile species"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "Hides are one of the most important pieces of equipment in any terrarium. In the wild, reptiles spend a significant part of their time hidden from predators and bad weather, so providing an adequate hide in captivity is absolutely essential for their physical and mental health. Without a hide, reptiles can be under constant stress, which negatively affects appetite, immunity and overall behavior."
+    },
+    {
+      "type": "p",
+      "html": "Our range includes a variety of hide designs made from non-toxic resin - caves, rocks, bridges and figurative pieces. Every model is carefully shaped to imitate natural elements with a realistic stone and wood look, so it fits perfectly with the look of the terrarium. The material is completely safe for animals, easy to clean and extremely durable."
+    },
+    {
+      "type": "p",
+      "html": "We recommend having at least two hides in the terrarium - one on the warm side and one on the cool side - so your reptile can regulate its body temperature without stress. For leopard geckos, a humid hide with damp substrate is also especially important, as it helps with shedding. For larger lizards and snakes, the hide should be big enough for the animal to hide completely, but not too big, because reptiles feel safer in a tighter space."
+    },
+    {
+      "type": "p",
+      "html": "Hides are suitable for all reptile species - from geckos and spiders to snakes and larger lizards."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Order by phone or WhatsApp message. Delivery to your address in any town in Serbia. In Novi Sad - pickup at our workshop."
+    }
+  ],
+  "seo": {
+    "title": "Reptile Hides and Caves | Terrarium Decor - NS Reptiles",
+    "description": "Decorative terrarium hides - caves, rocks and bridges made from non-toxic resin. They reduce stress in reptiles. NS Reptiles, Novi Sad.",
+    "keywords": "reptile hides, terrarium hide, reptile cave, terrarium decoration, terrarium equipment, NS Reptiles, Novi Sad"
+  }
+}

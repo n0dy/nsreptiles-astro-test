@@ -1,0 +1,255 @@
+---
+import Base from '../../../layouts/Base.astro';
+import '../../../styles/animals.css';
+import '../../../styles/usluge.css';
+import '../../../styles/oprema.css';
+import { translationsFor } from '../../../i18n/routes';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Chinese water dragon — care, diet and husbandry",
+    "description": "A complete guide to the Chinese water dragon: terrarium, temperature, humidity, diet and health.",
+    "author": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "url": "https://nsreptiles.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nsreptiles.net/style/img/logo.jpg"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://nsreptiles.net/en/animals/chinese-water-dragon.html"
+    },
+    "image": "https://nsreptiles.net/style/img/gallery/13.jpg"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://nsreptiles.net/en/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Animals",
+        "item": "https://nsreptiles.net/en/animals.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Chinese water dragon",
+        "item": "https://nsreptiles.net/en/animals/chinese-water-dragon.html"
+      }
+    ]
+  }
+];
+---
+<Base
+  lang="en"
+  title="Chinese Water Dragon: Care, Diet, Terrarium | NS Reptiles"
+  description="Chinese water dragon: husbandry, diet, temperature, humidity and terrarium size. A complete guide from the NS Reptiles breeder in Novi Sad."
+  keywords="Chinese water dragon, Chinese water dragon care, Chinese water dragon for sale, Chinese water dragon terrarium, Chinese water dragon diet, Chinese water dragon humidity, water dragon Serbia, NS Reptiles"
+  path="/en/animals/chinese-water-dragon.html"
+  image="/style/img/gallery/13.jpg"
+  ogType="article"
+  ogTitle="Chinese Water Dragon — Care and Breeding | NS Reptiles"
+  ogDescription="Chinese water dragon: husbandry, diet, temperature, humidity and terrarium size. A complete guide from NS Reptiles."
+  active="animals"
+  translations={translationsFor("/en/animals/chinese-water-dragon.html")}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Lizards</div>
+        <h1>Chinese water dragon</h1>
+        <p>An attractive tropical lizard from Southeast Asia that spends its time both on branches and in water. It needs a spacious terrarium with a pool and high humidity — suitable for experienced reptile keepers.</p>
+      </div>
+    </section>
+<section class="pd-crumbs">
+      <div class="wrap">
+        <nav class="pd-breadcrumb" aria-label="Breadcrumb">
+          <a href="/en/">Home</a>
+          <span class="sep">›</span>
+          <a href="/en/animals.html">Animals</a>
+          <span class="sep">›</span>
+          <span class="cur" aria-current="page">Chinese water dragon</span>
+        </nav>
+      </div>
+    </section>
+<section class="animal-photo" style="background: var(--bg); padding: 24px 0 0; line-height: 0;">
+      <div class="wrap">
+        <img src="/style/img/gallery/13.jpg" alt="Chinese water dragon in a terrarium — NS Reptiles Novi Sad" loading="eager" width="1248" height="832" style="width: 100%; height: auto; display: block; max-height: 520px; object-fit: cover;">
+      </div>
+    </section>
+<section class="intro">
+      <div class="wrap">
+        <div class="intro-box reveal">
+          <div class="eyebrow">About the species</div>
+          <p>
+            The Chinese water dragon comes from the tropical rainforests of Southeast Asia — China, Vietnam, Laos, Cambodia and Thailand. It lives in dense forest along rivers, streams and lakes, where it spends its time both on branches and in water. <strong>It is a semi-arboreal and semi-aquatic lizard</strong> that jumps into the water when threatened and can stay underwater for up to 90 minutes. They grow up to 90 cm in total length, with the tail making up about two thirds. They have a prominent dorsal crest — especially males — and a "third eye" (pineal gland) on top of the head. They are diurnal, active during the day, and their color ranges from light green to olive green with darker bands on the tail. Because of the complex conditions they need, they are recommended for more experienced reptile keepers.
+          </p>
+        </div>
+      </div>
+    </section>
+<section class="zoo" style="padding-top: 40px;">
+      <div class="wrap">
+
+        <!-- Care and terrarium -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Care and <b>terrarium</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Terrarium</h3>
+            <p>Minimum size for one adult: <strong>180×90×180 cm</strong>. A vertically oriented space with branches for climbing, dense plants and a large water area for swimming. Hides are a must so the animal feels secure.</p>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Substrate</h3>
+            <p>A mix of coco fiber, peat and bark to hold moisture. Avoid sand and fine particles that can cause impaction (blockage of the digestive tract).</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Water</h3>
+            <p>A large pool with clean, filtered water for swimming and drinking. Regular cleaning and water changes prevent contamination and skin and respiratory diseases.</p>
+          </div>
+        </div>
+
+        <!-- Temperature and conditions -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Temperature and <b>conditions</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Temperature</h3>
+            <p>Warm side (under the heat lamp): <strong>32–35 °C</strong>. Cooler side: <strong>24–27 °C</strong>. Nighttime temperature: not below <strong>21 °C</strong>. Heat with ceramic heaters or a spot lamp on a thermostat.</p>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Humidity</h3>
+            <p>Optimal humidity: <strong>70–80%</strong>. Mist the terrarium regularly and use a humidifier. A large water area naturally raises humidity and is essential for this species.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Lighting and UVB</h3>
+            <p>A <strong>10–12%</strong> UVB lamp is essential for vitamin D3 synthesis and proper bone development. Photoperiod: <strong>12 hours</strong> of light and 12 hours of darkness.</p>
+          </div>
+        </div>
+
+        <!-- Diet -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Diet</h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <p>Insects: crickets, locusts, mealworms, dubia roaches. Occasionally: small mice, fish, fruit and vegetables. Supplements: calcium with D3 at every feeding, multivitamins once a week. Babies are fed daily, adults every other day.</p>
+          </div>
+        </div>
+
+        <!-- Breeding -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Breeding</h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <p>Sexual maturity is reached at around <strong>2 years</strong> of age. Females lay <strong>8–16 eggs</strong> in dug-out holes. Incubation takes 60–75 days at a temperature of 28–30 °C.</p>
+          </div>
+        </div>
+
+        <!-- Health -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Health</h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <p>Common problems: metabolic bone disease, stuck shed, respiratory infections, nose injuries and parasites. Prevention: a proper diet with calcium supplements, adequate UVB lighting and high humidity. At the first sign of illness — see a vet who specializes in exotic animals.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+<section class="pd-related section">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <div class="eyebrow">Recommended for Chinese water dragons</div>
+          <h2 class="sec-title">Recommended products</h2>
+        </div>
+        <div class="op-grid">
+          <article class="op-card reveal">
+            <a class="op-img" href="/en/products/terrariums/terrarium-70x45x70.html">
+              <img src="/style/img/terrariums/70x45x70.webp" alt="Terrarium 70x45x70" loading="lazy" width="600" height="600">
+            </a>
+            <div class="op-body">
+              <div class="op-cat">Terrarium</div>
+              <h3><a href="/en/products/terrariums/terrarium-70x45x70.html">Terrarium 70x45x70</a></h3>
+              <div class="op-foot">
+                <span class="op-price">Price on request</span>
+              </div>
+            </div>
+          </article>
+          <article class="op-card reveal">
+            <a class="op-img" href="/en/products/terrariums/terrarium-80x50x60.html">
+              <img src="/style/img/terrariums/80x50x60.webp" alt="Terrarium 80x50x60" loading="lazy" width="600" height="600">
+            </a>
+            <div class="op-body">
+              <div class="op-cat">Terrarium</div>
+              <h3><a href="/en/products/terrariums/terrarium-80x50x60.html">Terrarium 80x50x60</a></h3>
+              <div class="op-foot">
+                <span class="op-price">Price on request</span>
+              </div>
+            </div>
+          </article>
+          <article class="op-card reveal">
+            <a class="op-img" href="/en/products/terrariums/terrarium-90x50x50.html">
+              <img src="/style/img/terrariums/90x50x50.webp" alt="Terrarium 90x50x50" loading="lazy" width="600" height="600">
+            </a>
+            <div class="op-body">
+              <div class="op-cat">Terrarium</div>
+              <h3><a href="/en/products/terrariums/terrarium-90x50x50.html">Terrarium 90x50x50</a></h3>
+              <div class="op-foot">
+                <span class="op-price">Price on request</span>
+              </div>
+            </div>
+          </article>
+          <article class="op-card reveal">
+            <a class="op-img" href="/en/products/terrariums/terrarium-60x45x50.html">
+              <img src="/style/img/terrariums/60x45x50.webp" alt="Terrarium 60x45x50" loading="lazy" width="600" height="600">
+            </a>
+            <div class="op-body">
+              <div class="op-cat">Terrarium</div>
+              <h3><a href="/en/products/terrariums/terrarium-60x45x50.html">Terrarium 60x45x50</a></h3>
+              <div class="op-foot">
+                <span class="op-price">Price on request</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+<section class="zcta">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content:center">Interested?</div>
+        <h2>Contact <b>NS Reptiles</b></h2>
+        <p>For questions about getting a Chinese water dragon, its care or equipment — we are here. Give us a call or send a message.</p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474?text=I%27m%20interested%20in%20a%20Chinese%20water%20dragon" target="_blank" rel="noopener" class="btn" style="background:#fff;color:var(--green-dark)" onclick="gtag('event','kontakt_click',{'metod':'whatsapp'})">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event','kontakt_click',{'metod':'poziv'})">+381 69 330 1474</a>
+        </div>
+      </div>
+    </section>
+
+
+</Base>

@@ -1,0 +1,277 @@
+---
+import Base from '../../../layouts/Base.astro';
+import '../../../styles/animals.css';
+import '../../../styles/usluge.css';
+import { translationsFor } from '../../../i18n/routes';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Leopard Gecko Terrarium — Size, Equipment and Setup",
+    "description": "Recommended leopard gecko terrarium dimensions, heat mat heating, coco peat, humidity and common mistakes. An NS Reptiles guide.",
+    "author": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "url": "https://nsreptiles.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nsreptiles.net/style/img/logo.jpg"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://nsreptiles.net/en/guides/leopard-gecko-terrarium.html"
+    },
+    "image": "https://nsreptiles.net/style/img/terrariums/50x35x35-7.webp"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://nsreptiles.net/en/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Terrariums",
+        "item": "https://nsreptiles.net/en/terrariums.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Leopard Gecko Terrarium",
+        "item": "https://nsreptiles.net/en/guides/leopard-gecko-terrarium.html"
+      }
+    ]
+  }
+];
+---
+<Base
+  lang="en"
+  title="Leopard Gecko Terrarium: Size and Setup | NS Reptiles"
+  description="Leopard gecko terrarium guide: recommended dimensions, heat mat heating, substrate, humidity and common mistakes. From NS Reptiles in Novi Sad, Serbia."
+  keywords="leopard gecko terrarium, leopard gecko tank size, leopard gecko setup, leopard gecko heat mat, glass terrarium Serbia"
+  path="/en/guides/leopard-gecko-terrarium.html"
+  image="/style/img/terrariums/50x35x35-7.webp"
+  ogType="article"
+  ogDescription="Recommended terrarium dimensions, heat mat heating, coco peat and other equipment. A guide for beginners and experienced keepers."
+  translations={translationsFor("/en/guides/leopard-gecko-terrarium.html")}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Care guides</div>
+        <h1>Leopard Gecko Terrarium</h1>
+        <p>Recommended dimensions, heat mat heating, substrate and setup — everything you need to know before you set up the terrarium.</p>
+      </div>
+    </section>
+<nav class="breadcrumb-bar" aria-label="Breadcrumb">
+      <div class="wrap">
+        <ol class="breadcrumb">
+          <li><a href="/en/">Home</a></li>
+          <li><a href="/en/terrariums.html">Terrariums</a></li>
+          <li aria-current="page">Leopard Gecko Terrarium</li>
+        </ol>
+      </div>
+    </nav>
+<section class="intro">
+      <div class="wrap">
+        <div class="intro-box reveal">
+          <div class="eyebrow">About</div>
+          <p>The leopard gecko is a nocturnal lizard that comes from the dry, semi-desert regions of Pakistan, Afghanistan and western India. For this lizard to stay healthy and active in captivity, the terrarium has to provide the right temperature, substrate and hides. The recommended terrarium size for one adult leopard gecko is about 50x35x35cm. A heat mat should be placed under one side of the terrarium to create the temperature gradient needed for thermoregulation.</p>
+        </div>
+      </div>
+    </section>
+<section class="zoo" style="padding-top: 40px;">
+      <div class="wrap">
+
+        <!-- Dimenzije -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Terrarium <b>dimensions</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Minimum dimensions</h3>
+            <p>For one adult leopard gecko, the minimum terrarium dimensions are around 50x30x25cm. The terrarium doesn't need to be tall because this species rarely climbs — what matters more is the largest possible floor area, which allows for a temperature gradient.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Recommended dimensions</h3>
+            <p>The recommended terrarium size for a leopard gecko is about 50x35x35cm. A slightly larger floor gives the gecko enough room to choose freely between the warmer and cooler side, which is key to proper thermoregulation. For a pair or a group, a proportionally larger space is recommended.</p>
+          </div>
+        </div>
+
+        <!-- Grejanje i temperatura -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Heating and <b>temperature</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Heat mat</h3>
+            <p>A heat mat should be placed under one side of the terrarium. The mat warms the terrarium floor and creates a warm zone without a direct heat source inside the terrarium. It is important that the mat covers only one third to one half of the floor — the rest stays cool, forming the gradient the gecko uses for thermoregulation.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Temperature gradient</h3>
+            <p>The temperature on the warm side should be around 32–33°C, while the cool side can be 20–25°C or even lower. In winter, leopard geckos can hibernate at 13–19°C without heating. Since this is a nocturnal species, UV light is not needed — if you heat the terrarium with a bulb, that is quite enough, and if you heat with a mat, the ambient light in the room is quite enough.</p>
+          </div>
+        </div>
+
+        <!-- Podloga -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Substrate</h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <p>The recommended substrate for a leopard gecko terrarium is <strong>coco peat</strong> — the safest choice, which holds moisture well in the humid hide and poses no health risk to the animal. Newspaper, paper or fine gravel can also be used. Sand should be avoided because the gecko can ingest it, which can lead to constipation and digestive tract problems.</p>
+          </div>
+        </div>
+
+        <!-- Uređenje i oprema -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Setup and <b>equipment</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Hides</h3>
+            <p>A hide is a must in the terrarium. At least two hides are recommended — one on the warm side and one on the cool side. A humid hide (filled with damp peat) is an essential element because the gecko uses it during shedding and, in the case of females, before laying eggs.</p>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Water dish</h3>
+            <p>A dish of fresh water must always be available. Choose shallow dishes the gecko can drink from easily and that are easy to clean. There is no need to raise the humidity of the terrarium itself — the humidity in the humid hide is enough.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Decoration</h3>
+            <p>Besides hides, you can add flat stone slabs, pieces of bark or artificial plants. Stone slabs in the warm zone help regulate temperature because the gecko can lie on them and soak up the heat. Decorations should be stable and must not tip over easily.</p>
+          </div>
+        </div>
+
+        <!-- Česte greške -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Common <b>mistakes</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Sand instead of peat</h3>
+            <p>Sand as a substrate is one of the most common mistakes. A leopard gecko can accidentally ingest it while feeding, which can cause a digestive blockage. Coco peat is the safer, recommended alternative.</p>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Heating the whole floor</h3>
+            <p>The heat mat must not cover the entire terrarium floor. Without a cool zone, the gecko cannot cool down when it needs to, which can lead to stress and health problems. The mat should cover one third to one half of the floor.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">No humid hide</h3>
+            <p>Without a humid hide, the gecko struggles to shed — skin gets stuck, especially around the toes and tail. A humid hide with peat or moss is a must in every leopard gecko terrarium.</p>
+          </div>
+        </div>
+
+        <!-- Interni linkovi -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Useful <b>links</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <p>For the full picture, see our other pages about leopard geckos and custom terrariums.</p>
+            <div class="guide-links" style="margin-top: 20px;">
+              <a href="/en/animals/leopard-gecko.html" class="guide-link">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+                Leopard gecko — care guide
+              </a>
+              <a href="/en/terrariums.html" class="guide-link">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+                Our terrariums
+              </a>
+              <a href="/en/custom-terrariums.html" class="guide-link">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+                Custom terrarium builds
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+<section class="zcta">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content:center">Need a terrarium?</div>
+        <h2>We build <b>custom</b> terrariums</h2>
+        <p>You choose the color, dimensions and equipment. Call or message us and we will help you find the right solution for your leopard gecko.</p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474?text=I%27m%20interested%20in%20a%20leopard%20gecko%20terrarium" target="_blank" rel="noopener" class="btn" style="background:#fff;color:var(--green-dark)" onclick="gtag('event','kontakt_click',{'metod':'whatsapp'})">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event','kontakt_click',{'metod':'poziv'})">+381 69 330 1474</a>
+        </div>
+      </div>
+    </section>
+<style is:global>
+      .breadcrumb-bar {
+        background: var(--bg);
+        border-bottom: 1px solid var(--silver);
+        padding: 12px 0;
+        transition: background 0.4s;
+      }
+      .breadcrumb {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-size: 0.85rem;
+        color: var(--ink-soft);
+      }
+      .breadcrumb li + li::before {
+        content: '›';
+        margin-right: 6px;
+        color: var(--ink-soft);
+      }
+      .breadcrumb a {
+        color: var(--green);
+        text-decoration: none;
+      }
+      .breadcrumb a:hover {
+        text-decoration: underline;
+      }
+      .guide-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        margin-top: 8px;
+      }
+      .guide-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 10px 20px;
+        border: 1.5px solid var(--green);
+        border-radius: 4px;
+        color: var(--green-dark);
+        font-family: 'Oswald', sans-serif;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: .08em;
+        text-decoration: none;
+        transition: background 0.2s, color 0.2s;
+      }
+      .guide-link:hover {
+        background: var(--green);
+        color: var(--white);
+      }
+      .guide-link svg {
+        flex-shrink: 0;
+      }
+    </style>
+
+</Base>

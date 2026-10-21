@@ -1,0 +1,56 @@
+{
+  "slug": "calci-shot",
+  "name": "Calci-Shot",
+  "label": "Supplements",
+  "lead": "A concentrated calcium supplement for all reptiles and amphibians. Supports healthy bone development.",
+  "imageAlt": "Calci-Shot - NS Reptiles",
+  "specs": [
+    {
+      "k": "Brand",
+      "v": "HabiStat"
+    },
+    {
+      "k": "Weight",
+      "v": "~20g"
+    },
+    {
+      "k": "Type",
+      "v": "Calcium supplement"
+    },
+    {
+      "k": "Intended for",
+      "v": "All reptiles and amphibians"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "HabiStat Calci-Shot is a concentrated calcium supplement for all reptile and amphibian species. Calcium is one of the most important minerals in a reptile diet because it enables proper bone development and strength, as well as normal muscle function."
+    },
+    {
+      "type": "p",
+      "html": "Dust the supplement over live or supplementary food before feeding. Regular use reduces the risk of metabolic bone disease (MBD), which most often occurs in reptiles with insufficient calcium intake or inadequate UVB lighting. For best results, use it with a UVB light source."
+    },
+    {
+      "type": "p",
+      "html": "HabiStat is a British brand with a long tradition of producing quality supplements and equipment for reptiles."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "HabiStat Calci-Shot | Calcium Supplement for Reptiles",
+    "description": "HabiStat Calci-Shot: a concentrated calcium supplement for all reptiles and amphibians that supports healthy bone development. Order from NS Reptiles.",
+    "keywords": "Calci-Shot, HabiStat calcium, calcium supplement, calcium for reptiles, NS Reptiles"
+  }
+}

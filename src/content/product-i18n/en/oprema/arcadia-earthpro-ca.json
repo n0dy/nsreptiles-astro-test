@@ -1,0 +1,52 @@
+{
+  "slug": "arcadia-earthpro-ca",
+  "name": "Arcadia EarthPro-Ca",
+  "label": "Supplements",
+  "lead": "Pure calcium without D3 from the Arcadia EarthPro line. Ideal for daily use with adequate UVB lighting.",
+  "imageAlt": "Arcadia EarthPro-Ca - NS Reptiles",
+  "specs": [
+    {
+      "k": "Brand",
+      "v": "Arcadia"
+    },
+    {
+      "k": "Type",
+      "v": "Pure calcium (no D3)"
+    },
+    {
+      "k": "Line",
+      "v": "EarthPro"
+    },
+    {
+      "k": "Use",
+      "v": "Dust over food (daily)"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "Arcadia EarthPro-Ca is a pure calcium supplement without vitamin D3 from the Arcadia EarthPro line. It is designed for daily use in reptiles that have adequate UVB lighting in the terrarium - animals synthesize vitamin D3 on their own under UVB light, so they do not need extra D3 in a supplement. Dust it over food before every feeding to ensure optimal calcium intake."
+    },
+    {
+      "type": "p",
+      "html": "Pure calcium without D3 is safer for daily use because it eliminates the risk of a vitamin D3 overdose, which can lead to organ calcification. It is part of the Arcadia EarthPro protocol, in which EarthPro-Ca is used daily and the EarthPro-A vitamin supplement once a week."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Arcadia EarthPro-Ca | Pure Calcium for Reptiles",
+    "description": "Arcadia EarthPro-Ca: pure calcium without D3 for reptiles. Ideal for daily dusting with adequate UVB lighting in the terrarium. Available at NS Reptiles.",
+    "keywords": "Arcadia EarthPro-Ca, pure calcium without D3, calcium for reptiles, EarthPro line, NS Reptiles"
+  }
+}

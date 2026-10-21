@@ -1,0 +1,251 @@
+---
+import Base from '../../../layouts/Base.astro';
+import '../../../styles/animals.css';
+import '../../../styles/usluge.css';
+import { translationsFor } from '../../../i18n/routes';
+
+const schema = [
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Beginner Aquariums — a Guide to Choosing and Setting Up",
+      "description": "A practical guide for beginners getting their first aquarium — how to choose the size, what equipment you need and how to set the aquarium up properly.",
+      "author": {
+        "@type": "Organization",
+        "name": "NS Reptiles"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "NS Reptiles",
+        "url": "https://nsreptiles.net"
+      },
+      "url": "https://nsreptiles.net/en/guides/beginner-aquariums.html",
+      "inLanguage": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://nsreptiles.net/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Aquariums",
+          "item": "https://nsreptiles.net/en/aquariums.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Beginner Aquariums",
+          "item": "https://nsreptiles.net/en/guides/beginner-aquariums.html"
+        }
+      ]
+    }
+  ]
+];
+---
+<Base
+  lang="en"
+  title="Beginner Aquariums: How to Choose & Set Up | NS Reptiles"
+  description="Beginner's guide to your first aquarium: how to pick the right size, what equipment you need and how to set it up. Small tanks from 4L to 45L in Novi Sad."
+  keywords="beginner aquarium, first aquarium, small aquarium, aquarium setup guide, glass aquarium Novi Sad, aquarium Serbia"
+  path="/en/guides/beginner-aquariums.html"
+  image="/style/img/logo.jpg"
+  ogType="article"
+  ogTitle="Beginner Aquariums — Guide | NS Reptiles"
+  ogDescription="A practical guide to choosing your first aquarium — size, equipment, setup and maintenance. NS Reptiles, Novi Sad."
+  translations={translationsFor("/en/guides/beginner-aquariums.html")}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Beginner's guide</div>
+        <h1>Beginner Aquariums</h1>
+        <p>Everything you need to know before buying your first aquarium — how to choose the right size, what equipment you need and how to set it up properly.</p>
+      </div>
+    </section>
+<nav class="breadcrumb-bar" aria-label="Breadcrumb">
+      <div class="wrap">
+        <ol class="breadcrumb">
+          <li><a href="/en/">Home</a></li>
+          <li><a href="/en/aquariums.html">Aquariums</a></li>
+          <li aria-current="page">Beginner Aquariums</li>
+        </ol>
+      </div>
+    </nav>
+<section class="usl">
+      <div class="wrap">
+
+        <div class="intro-box" style="margin-bottom: 56px;">
+          <div class="eyebrow">Introduction</div>
+          <p>Small aquariums are the ideal choice for anyone just getting started with fishkeeping. They are easy to maintain, don't take up much space and are affordable. At NS Reptiles we offer glass aquariums from <strong>4.75L to 45L</strong>, suited to every beginner's needs.</p>
+        </div>
+
+        <!-- SEKCIJA 1: Izbor akvarijuma -->
+        <div class="proc">
+          <h2 style="margin-bottom: 36px; font-family: 'Oswald', sans-serif; font-size: clamp(1.5rem, 2vw, 2rem); text-transform: uppercase; letter-spacing: .06em; color: var(--ink);">How to choose the right aquarium</h2>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Aquarium size</h3>
+              <p>The most important decision is the size. For beginners we recommend aquariums from <strong>15L to 30L</strong> — enough room for fish, yet easy to maintain. Smaller aquariums (under 10L) need more frequent water changes because they get dirty faster. Our models that are ideal for starting out are the <a href="/en/aquariums.html">25x19x20 aquarium (9.5L)</a>, the 30x21x23 aquarium (14.5L) and the 40x25x27 aquarium (27L).</p>
+            </div>
+          </div>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Aquarium shape</h3>
+              <p>Rectangular aquariums are more practical than round or octagonal ones — it is easier to install a filter and heater, and fish have more room to swim. The octagonal model is attractive as a decorative piece, but it is not ideal for species that like horizontal space. We recommend it for small tetras or a single small fish.</p>
+            </div>
+          </div>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Kit or aquarium only</h3>
+              <p>For complete beginners, the <a href="/en/aquariums.html">40x25x27 aquarium kit (27L, 6.500 RSD)</a> comes with all the equipment you need and saves you time choosing a filter, heater and lighting. If you already have equipment or plan to choose it separately, you can buy the aquarium alone at a much lower price.</p>
+            </div>
+          </div>
+
+          <!-- SEKCIJA 2: Oprema -->
+          <h2 style="margin: 48px 0 36px; font-family: 'Oswald', sans-serif; font-size: clamp(1.5rem, 2vw, 2rem); text-transform: uppercase; letter-spacing: .06em; color: var(--ink);">Basic equipment</h2>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Filter</h3>
+              <p>A filter is a must. Without one, the water quickly turns cloudy and becomes toxic to fish as ammonia builds up. For aquariums up to 30L, internal filters are enough — they are quiet, inexpensive and easy to clean. Choose a filter whose capacity is at least twice the aquarium's volume — for a 27L aquarium, a filter rated at 50-60 liters per hour is the minimum standard.</p>
+            </div>
+          </div>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Heater</h3>
+              <p>Most tropical fish species need a water temperature between 24°C and 28°C. A heater with a thermostat is essential. For aquariums up to 30L, a 25–50W heater is enough. Always make sure the heater stays submerged — switched on out of the water, it gets damaged within seconds.</p>
+            </div>
+          </div>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Lighting</h3>
+              <p>Lighting matters for both fish and plants (if you are planning a planted aquarium). LED lamps are the standard today — low power use, they don't heat the water and they last for years. For a starter aquarium without live plants, lighting is mainly a matter of looks — you choose it by brightness and color temperature (warm or cool).</p>
+            </div>
+          </div>
+
+          <!-- SEKCIJA 3: Postavka -->
+          <h2 style="margin: 48px 0 36px; font-family: 'Oswald', sans-serif; font-size: clamp(1.5rem, 2vw, 2rem); text-transform: uppercase; letter-spacing: .06em; color: var(--ink);">Setting up the aquarium</h2>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Substrate and decorations</h3>
+              <p>Before adding fish, rinse the gravel or sand under running water until the water runs clear. Add substrate to a depth of 3–5 cm. Place decorations (rocks, branches, hides) before filling with water so it is easier to arrange everything. Leave the fish open space to swim.</p>
+            </div>
+          </div>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>The nitrogen cycle — required before fish</h3>
+              <p>A new aquarium has to go through a biological cycling period of <strong>2 to 4 weeks</strong> before you add fish. During this time, beneficial bacteria develop that break down waste products. Skipping this step is the most common cause of fish deaths among beginners. Monitor ammonia, nitrite and nitrate levels with test kits available at any aquarium store.</p>
+            </div>
+          </div>
+
+          <!-- SEKCIJA 4: Odrzavanje -->
+          <h2 style="margin: 48px 0 36px; font-family: 'Oswald', sans-serif; font-size: clamp(1.5rem, 2vw, 2rem); text-transform: uppercase; letter-spacing: .06em; color: var(--ink);">Maintenance</h2>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Weekly water changes</h3>
+              <p>Change 20–30% of the water once a week. Always use water that has stood for 24 hours (so the chlorine evaporates), or add a dechlorinator. Never change all the water at once — doing so destroys the beneficial bacteria and resets the aquarium's biological balance.</p>
+            </div>
+          </div>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Cleaning the filter</h3>
+              <p>Clean the filter once a month, but only in aquarium water — never under the tap. Chlorinated water kills the beneficial bacteria in the filter sponge. Gently squeezing the sponge in a cup of aquarium water is enough to remove coarse debris.</p>
+            </div>
+          </div>
+
+          <!-- SEKCIJA 5: Ceste greske -->
+          <h2 style="margin: 48px 0 36px; font-family: 'Oswald', sans-serif; font-size: clamp(1.5rem, 2vw, 2rem); text-transform: uppercase; letter-spacing: .06em; color: var(--ink);">Common mistakes</h2>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Overstocking</h3>
+              <p>Too many fish in too small an aquarium is the most common mistake. The general rule: 1 cm of fish per 1 liter of water. For a 27L aquarium, that means a maximum of 5–6 average-sized fish of 4–5 cm. Smaller aquariums are more sensitive to overcrowding.</p>
+            </div>
+          </div>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Overfeeding</h3>
+              <p>Food left on the bottom of the aquarium is a problem because within a few hours it starts to break down and pollute the water. Feed fish once or twice a day, as much as they can eat in 2–3 minutes. Remove anything left over with a net.</p>
+            </div>
+          </div>
+
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Incompatible species</h3>
+              <p>Not every fish gets along with every other fish. Some species are territorial or aggressive toward smaller fish. Before buying, check that the species you are planning on are compatible in terms of temperature needs, behavior and size. Our team at NS Reptiles is always happy to give advice.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<section class="usl-more reveal">
+      <div class="wrap">
+        <div class="usl-more-head">
+          <div class="eyebrow">Useful links</div>
+          <h2>See also <b>these pages</b></h2>
+        </div>
+        <div class="usl-more-grid">
+          <a class="usl-link" href="/en/aquariums.html">
+            Aquariums in stock
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+          <a class="usl-link" href="/en/custom-aquariums.html">
+            Custom aquarium builds
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+          <a class="usl-link" href="/en/equipment.html">
+            Terrarium and aquarium equipment
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+          <a class="usl-link" href="/en/faq.html">
+            FAQ
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+<section class="zcta reveal">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content: center">Have questions?</div>
+        <h2>Call us or <b>message us on WhatsApp</b></h2>
+        <p>Our team at NS Reptiles will help you choose the right aquarium and equipment for you. We are available every working day from 09:00 to 17:00.</p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474?text=I%27m%20interested%20in%20a%20beginner%20aquarium" target="_blank" rel="noopener" class="btn" style="background: #fff; color: var(--green-dark)" onclick="gtag('event', 'kontakt_click', {'metod': 'whatsapp'})">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event', 'kontakt_click', {'metod': 'telefon'})">+381 69 330 1474</a>
+        </div>
+      </div>
+    </section>
+
+
+</Base>

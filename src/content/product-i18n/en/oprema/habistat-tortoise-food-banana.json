@@ -1,0 +1,56 @@
+{
+  "slug": "habistat-tortoise-food-banana",
+  "name": "HabiStat Tortoise Food Banana",
+  "label": "Food",
+  "lead": "Dry pelleted tortoise food with banana flavor. All-natural ingredients, high fiber, low protein, rich in calcium.",
+  "imageAlt": "HabiStat Tortoise Food Banana - NS Reptiles",
+  "specs": [
+    {
+      "k": "Brand",
+      "v": "HabiStat"
+    },
+    {
+      "k": "Type",
+      "v": "Tortoise food"
+    },
+    {
+      "k": "Flavor",
+      "v": "Banana"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "HabiStat Tortoise Food Banana is a high-quality dry pelleted food for tortoises. It is formulated with a banana flavor that tortoises love to eat, which makes it a great choice even for picky individuals. The pellets are made from all-natural ingredients, including oats, corn, oat bran, alfalfa, beet pulp and calcium carbonate, with no artificial colors or preservatives."
+    },
+    {
+      "type": "p",
+      "html": "The nutritional profile is carefully designed for optimal tortoise health - with a high fiber content of 12% that supports healthy digestion, a low protein content of 7.6% that matches a tortoise's natural diet, and a rich calcium content of 1.9% for strong bones and a healthy shell. The food also contains vitamin D3, which helps with calcium absorption."
+    },
+    {
+      "type": "h2",
+      "text": "Preparation and use"
+    },
+    {
+      "type": "p",
+      "html": "Before feeding, soak the pellets in warm water for a few minutes so they soften and are easier to eat. This food is suitable for European tortoises, Russian tortoises and most other tortoise species. HabiStat is a renowned British brand specializing in reptile equipment and food, known for the quality and reliability of its products."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Order by phone or WhatsApp message. Delivery to your address in any town in Serbia. In Novi Sad - pickup at our workshop. Message us for help choosing equipment for your terrarium or aquarium."
+    }
+  ],
+  "seo": {
+    "title": "HabiStat Tortoise Food Banana | Tortoise Pellets",
+    "description": "HabiStat Tortoise Food Banana: dry pelleted tortoise food with banana flavor. High fiber, rich in calcium, all-natural ingredients. NS Reptiles.",
+    "keywords": "habistat tortoise food banana, tortoise food, banana tortoise food, tortoise pellets, reptile supplies, NS Reptiles, Novi Sad, Serbia"
+  }
+}

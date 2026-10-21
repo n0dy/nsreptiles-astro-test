@@ -1,0 +1,73 @@
+{
+  "slug": "terrarium-60x40x30",
+  "name": "Terrarium 60x40x30",
+  "label": "Medium terrarium",
+  "lead": "Glass terrarium measuring 60x40x30 cm. Volume: 72.0 liters, horizontal format. Handmade in Novi Sad.",
+  "imageAlt": "Glass terrarium 60x40x30 cm - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "60 cm"
+    },
+    {
+      "k": "Width",
+      "v": "40 cm"
+    },
+    {
+      "k": "Height",
+      "v": "30 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~72.0 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "Type",
+      "v": "Horizontal"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This glass terrarium (60x40x30 cm, 72 L) comes with exterior decorative film in a pattern of your choice. The glass gives a clear view of the inside, while film on three sides gives the animals a sense of security."
+    },
+    {
+      "type": "p",
+      "html": "A length of 60 cm and a width of 40 cm provide a large floor area for ground-dwelling species. The floor dimensions allow a basking spot at one end and a cooler hide at the other. Mesh covers on the ventilation openings let air through but not food or the small inhabitants of the terrarium."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Bearded dragons",
+        "Ball pythons",
+        "Tortoises",
+        "Blue-tongued skinks"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "When ordering, you choose the film pattern and the shape of the 3D background. We handmake all our terrariums in Novi Sad, so customization is always possible, from dimensions to the way it opens. We ship by courier throughout Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Glass Terrarium 60x40x30 cm, 72.0 L | NS Reptiles",
+    "description": "Medium glass terrarium 60x40x30 cm (72.0 L), horizontal format, with decorative film. Suitable for bearded dragons and ball pythons.",
+    "keywords": "glass terrarium 60x40x30, terrarium 60x40x30 cm, medium terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "terrarium-70x40x35",
+  "name": "Terrarium 70x40x35",
+  "label": "Large terrarium",
+  "lead": "Glass terrarium measuring 70x40x35 cm. Volume: 98.0 liters, horizontal format. Handmade in Novi Sad.",
+  "imageAlt": "Glass terrarium 70x40x35 cm - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "70 cm"
+    },
+    {
+      "k": "Width",
+      "v": "40 cm"
+    },
+    {
+      "k": "Height",
+      "v": "35 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~98.0 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "Type",
+      "v": "Horizontal"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This glass terrarium (70x40x35 cm, 98 L) comes with exterior decorative film in a pattern of your choice. The glass gives a clear view of the inside, while film on three sides gives the animals a sense of security."
+    },
+    {
+      "type": "p",
+      "html": "A length of 70 cm and a width of 40 cm provide a large floor area for ground-dwelling species. The floor area allows a clear separation between the basking zone under the spot lamp and a cooler resting area. Mesh-covered ventilation openings provide constant air circulation without letting insects or small animals through."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Bearded dragons",
+        "Ball pythons",
+        "Tortoises",
+        "Blue-tongued skinks"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "Because we build every terrarium by hand, we adapt it to your requirements, from dimensions and film to the background and ventilation system. Call or write to us for free advice and a quote. We ship to every city in Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Glass Terrarium 70x40x35 cm, 98.0 L | NS Reptiles",
+    "description": "Large glass terrarium 70x40x35 cm (98.0 L), horizontal format, with decorative film. Suitable for bearded dragons and ball pythons. Delivery across Serbia.",
+    "keywords": "glass terrarium 70x40x35, terrarium 70x40x35 cm, large terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

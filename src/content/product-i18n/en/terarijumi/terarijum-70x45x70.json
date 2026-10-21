@@ -1,0 +1,73 @@
+{
+  "slug": "terrarium-70x45x70",
+  "name": "Terrarium 70x45x70",
+  "label": "Large terrarium",
+  "lead": "Glass terrarium measuring 70x45x70 cm. Volume: 220.5 liters, horizontal format. Handmade in Novi Sad.",
+  "imageAlt": "Glass terrarium 70x45x70 cm - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "70 cm"
+    },
+    {
+      "k": "Width",
+      "v": "45 cm"
+    },
+    {
+      "k": "Height",
+      "v": "70 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~220.5 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "Type",
+      "v": "Horizontal"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 70x45x70 cm terrarium (220.5 L) is made of quality glass and covered on the outside with film of your choice. The film gives the terrarium a neat look that fits your interior, with wood, bamboo and marble patterns or solid black or white available."
+    },
+    {
+      "type": "p",
+      "html": "The horizontal layout with 70 cm of length gives a floor area where a basking zone, a cool zone and a hiding area are easy to arrange. Terrestrial reptiles actively choose their temperature by moving between zones, and this space lets them do that. Mesh ventilation openings provide the airflow animals need to stay healthy and prevent condensation."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Bearded dragons (adults)",
+        "Ball pythons",
+        "Tortoises (land species)",
+        "Corn snakes (adults)"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "The terrarium is ordered with your choice of film and background. For non-standard requests (other dimensions, double sliding glass panels, a built-in thermostat), write to us or call. Free consultations and delivery to all cities."
+    }
+  ],
+  "seo": {
+    "title": "Glass Terrarium 70x45x70 cm, 220.5 L | NS Reptiles",
+    "description": "Large glass terrarium 70x45x70 cm (220.5 L), horizontal format, with decorative film. Suitable for adult bearded dragons and ball pythons.",
+    "keywords": "glass terrarium 70x45x70, terrarium 70x45x70 cm, large terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

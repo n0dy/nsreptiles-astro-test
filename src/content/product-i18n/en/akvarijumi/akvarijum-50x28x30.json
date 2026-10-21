@@ -1,0 +1,56 @@
+{
+  "slug": "aquarium-50x28x30",
+  "name": "Aquarium 50x28x30",
+  "label": "Small aquarium",
+  "lead": "Glass aquarium, 50x28x30 cm. Volume: 42.0 liters. Handmade in Novi Sad.",
+  "imageAlt": "Aquarium 50x28x30 - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "50 cm"
+    },
+    {
+      "k": "Width",
+      "v": "28 cm"
+    },
+    {
+      "k": "Height",
+      "v": "30 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~42.0 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 50x28x30 cm aquarium (42 L) strikes a good balance between size and practicality: roomy enough for a variety of fish, yet compact enough not to dominate the room. The quality of the glass and joints guarantees durability."
+    },
+    {
+      "type": "p",
+      "html": "The volume suits a variety of freshwater communities, from guppies and mollies to tetras, corydoras and smaller gourami species. An aquascape with live plants and a natural substrate of quartz sand or gravel completes the look."
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "We build custom aquariums: any dimensions, glass thickness matched to the volume, optional openings for filters and heaters. Call us or message us on WhatsApp for a consultation and a price. Delivery to all cities in Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Glass Aquarium 50x28x30 cm, 42 L | NS Reptiles",
+    "description": "Small glass aquarium 50x28x30 cm, 42 liters. Suits guppies, mollies, tetras and corydoras. Handmade in Novi Sad, custom sizes, delivery across Serbia.",
+    "keywords": "glass aquarium 50x28x30, aquarium 50x28x30 cm, small aquarium, custom aquarium Serbia, aquarium Novi Sad, NS Reptiles"
+  }
+}

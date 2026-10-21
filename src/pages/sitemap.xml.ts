@@ -1,9 +1,9 @@
 import type { APIRoute } from 'astro';
 import { SITE } from '../config/site';
-import { translationsFor } from '../i18n/routes';
+import { translationsFor, PRODUCT_GROUPS } from '../i18n/routes';
 import { getProducts, productPath } from '../lib/products';
 
-const EXCLUDE = new Set(['/404.html', '/korpa.html', '/en/cart.html', '/ru/cart.html']);
+const EXCLUDE = new Set(['/404.html', '/en/404.html', '/ru/404.html', '/korpa.html', '/en/cart.html', '/ru/cart.html']);
 
 const pageFiles = Object.keys(import.meta.glob('./**/*.astro'));
 
@@ -15,7 +15,10 @@ const toUrl = (file: string) =>
 
 export const GET: APIRoute = async () => {
   const pages = pageFiles.filter((f) => !f.includes('[')).map(toUrl);
-  const products = (await getProducts()).map(productPath);
+  const products = [
+    ...(await getProducts()).map(productPath),
+    ...PRODUCT_GROUPS.flatMap((g) => [g.en, g.ru].filter((u): u is string => !!u)),
+  ];
   const urls = [...new Set([...pages, ...products])].filter((u) => !EXCLUDE.has(u)).sort();
 
   const entry = (path: string) => {

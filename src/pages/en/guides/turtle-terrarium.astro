@@ -1,0 +1,550 @@
+---
+import Base from '../../../layouts/Base.astro';
+import '../../../styles/animals.css';
+import '../../../styles/usluge.css';
+import { translationsFor } from '../../../i18n/routes';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Turtle Terrarium — a Guide to Setting Up an Aqua-Terrarium",
+    "description": "A detailed guide to setting up an aqua-terrarium for a turtle: dimensions, equipment, filter, UVB lamp and common mistakes.",
+    "author": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "url": "https://nsreptiles.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nsreptiles.net/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://nsreptiles.net/en/guides/turtle-terrarium.html"
+    },
+    "image": "https://nsreptiles.net/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://nsreptiles.net/en/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Terrariums",
+        "item": "https://nsreptiles.net/en/terrariums.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Turtle Terrarium",
+        "item": "https://nsreptiles.net/en/guides/turtle-terrarium.html"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is a turtle aqua-terrarium?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "An aqua-terrarium is a combination of a terrarium and an aquarium with both a land and a water section, ideal for aquatic and semi-aquatic turtles. The land section is for basking, resting and warming up under a lamp, and the water section is for swimming and hydration."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How big should a turtle aqua-terrarium be?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The minimum recommendation for young turtles is a 50x35 cm footprint, and for adults 80x45 cm or more. The water section should cover 50-60% of the total area. The bigger the aqua-terrarium, the easier it is to keep conditions stable."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you build custom aqua-terrariums?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we build aqua-terrariums to order. You can choose the size, color, land-to-water ratio and extra equipment. Contact us for a quote."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What filter is good for an aqua-terrarium?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The most practical choice for an aqua-terrarium is an internal or external filter with enough capacity. Turtles produce more waste than fish, so a filter rated at 3-4 times the water volume is recommended. Regular filter maintenance is a must."
+        }
+      }
+    ]
+  }
+];
+---
+<Base
+  lang="en"
+  title="Turtle Terrarium Guide: Aqua-Terrarium Setup | NS Reptiles"
+  description="Turtle aqua-terrarium guide: dimensions, land-to-water ratio, filter, UVB and decor. What to know before you buy, from NS Reptiles in Novi Sad, Serbia."
+  keywords="turtle terrarium, turtle aqua-terrarium, semi-aquatic turtle enclosure, turtle tank size, turtle UVB lamp, custom turtle terrarium Serbia"
+  path="/en/guides/turtle-terrarium.html"
+  image="/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp"
+  ogType="article"
+  ogTitle="Turtle Terrarium — Aqua-Terrarium Setup Guide | NS Reptiles"
+  ogDescription="All about turtle aqua-terrariums: size, equipment, filter, UVB lamp and common mistakes. NS Reptiles, Novi Sad."
+  translations={translationsFor("/en/guides/turtle-terrarium.html")}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Guides</div>
+        <h1>Turtle Terrarium</h1>
+        <p>
+          An aqua-terrarium — a glass home with a land and a water section — is the
+          only right choice for semi-aquatic turtles. In this guide we go through the
+          dimensions, equipment and setup step by step.
+        </p>
+      </div>
+    </section>
+<nav class="breadcrumb" aria-label="Breadcrumb">
+      <div class="wrap">
+        <ol>
+          <li><a href="/en/">Home</a></li>
+          <li><a href="/en/terrariums.html">Terrariums</a></li>
+          <li aria-current="page">Turtle Terrarium</li>
+        </ol>
+      </div>
+    </nav>
+<section class="animal-hero reveal">
+      <div class="wrap">
+        <img src="/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp" alt="Turtle aqua-terrarium with a land and a water section — NS Reptiles" width="1080" height="1080" loading="eager" fetchpriority="high" class="animal-hero-img">
+      </div>
+    </section>
+<section class="usl">
+      <div class="wrap">
+        <div class="eyebrow reveal">Basics</div>
+        <h2 class="sec-title reveal">What is an aqua-terrarium</h2>
+
+        <div class="animal-detail-grid">
+
+          <div class="animal-fact reveal">
+            <h3>Land and water sections</h3>
+            <p>
+              An aqua-terrarium is a glass enclosure that combines a land section
+              and a water section in one space. Turtles use the water section for
+              swimming and hydration, and the land section for resting, basking
+              under a heat lamp and laying eggs. Without one of the two sections,
+              the housing conditions don't match the natural way of life of these
+              animals.
+            </p>
+          </div>
+
+          <div class="animal-fact reveal">
+            <h3>Which species it is for</h3>
+            <p>
+              An aqua-terrarium is the right solution for semi-aquatic turtles that
+              spend a significant part of their time in water. Tortoises, which live
+              on dry ground and eat plants, don't need a water section — a classic
+              terrarium with substrate and under-floor heating suits them. If you
+              are not sure which type is right for you, feel free to contact us.
+            </p>
+          </div>
+
+          <div class="animal-fact reveal">
+            <h3>Custom builds</h3>
+            <p>
+              Every aqua-terrarium at NS Reptiles is handmade from glass, to your
+              measurements and wishes. You can choose the dimensions, the finish
+              color, the land-to-water ratio and the full equipment. We build
+              terrariums to order — you choose the color, size and equipment. See our
+              <a href="/en/custom-terrariums.html">custom terrarium builds page</a>
+              or contact us directly.
+            </p>
+          </div>
+
+          <div class="animal-fact reveal">
+            <h3>Ready-made models</h3>
+            <p>
+              Besides custom builds, we also offer ready-made aqua-terrariums in
+              standard sizes — from a 50x35 cm up to a 100x45 cm footprint. All
+              models are made of glass with a decorative film of your choice. You
+              can see the full range on our
+              <a href="/en/terrariums.html">terrariums page</a>.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+<section class="usl" style="background: var(--bg);">
+      <div class="wrap">
+        <div class="eyebrow reveal">Dimensions</div>
+        <h2 class="sec-title reveal">How big should an aqua-terrarium be</h2>
+
+        <div class="proc">
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Minimum dimensions</h3>
+              <p>
+                For young turtles the minimum footprint is 50x35 cm, but keep in
+                mind that turtles grow. Adults need 80x45 cm or more. We recommend
+                buying an aqua-terrarium sized for the adult right away — that way
+                you don't have to replace equipment as the animal grows.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Land-to-water ratio</h3>
+              <p>
+                The water section should cover 50 to 60% of the aqua-terrarium's
+                total area. The land section is for resting and basking under the
+                lamp, so it must be roomy enough for the animal to lie down freely.
+                The water should be deep enough for the turtle to turn itself over
+                without difficulty — usually twice the width of its shell.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Aqua-terrarium height</h3>
+              <p>
+                Height is not as critical as with terrariums for climbing species,
+                but it must be enough to mount the lamp at a safe height above the
+                land section. A minimum height of 40 cm is recommended for standard
+                models.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+<section class="usl">
+      <div class="wrap">
+        <div class="eyebrow reveal">Equipment</div>
+        <h2 class="sec-title reveal">Essential equipment</h2>
+
+        <div class="proc">
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Water filter</h3>
+              <p>
+                A filter is a must and it has to be powerful enough. Turtles produce
+                significantly more waste than fish, so we recommend a filter with a
+                capacity three to four times the actual water volume. Internal
+                filters are practical for smaller aqua-terrariums, while external
+                filters are a better choice for larger models. Rinse the filter
+                sponge once a week.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>UVB lamp</h3>
+              <p>
+                UVB lighting is essential — without it the turtle cannot synthesize
+                vitamin D3, which it needs to absorb calcium. A lamp with a 5 to 10%
+                UVB rating, placed over the land section, is recommended. Replace
+                the lamp every 12 months, because UVB output drops even before the
+                lamp stops lighting up.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Heat lamp</h3>
+              <p>
+                A heat lamp is placed over the land section to create a warm basking
+                zone. The temperature in the warm zone should be 30 to 35 degrees.
+                The rest of the aqua-terrarium should be cooler, around 22 to 26
+                degrees, so the animal can regulate its body temperature.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Water heater</h3>
+              <p>
+                The water temperature should be between 22 and 26 degrees. An
+                aquarium heater with a thermostat keeps the temperature stable and
+                prevents sudden changes that can harm the turtle's health. It goes
+                in the water section, away from the spot where the turtle spends
+                most of its time.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Ramp and land area</h3>
+              <p>
+                A ramp or shelf that lets the turtle climb out of the water onto the
+                land section easily is a must. It has to be stable and have a rough
+                surface so the turtle doesn't slip. The land section can be filled
+                with a sandy substrate or left as glass covered with tiles —
+                depending on the owner's preference and the turtle species.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+<section class="usl" style="background: var(--bg);">
+      <div class="wrap">
+        <div class="eyebrow reveal">Setup</div>
+        <h2 class="sec-title reveal">How to set up an aqua-terrarium</h2>
+
+        <div class="animal-detail-grid">
+
+          <div class="animal-fact reveal">
+            <h3>Bottom of the water section</h3>
+            <p>
+              The bottom of the water section can be left bare (glass) or covered
+              with coarse gravel larger in diameter than the turtle's shell. Fine
+              sand and small gravel should be avoided because of the risk of
+              swallowing. A bare bottom makes cleaning easier and reduces waste
+              buildup.
+            </p>
+          </div>
+
+          <div class="animal-fact reveal">
+            <h3>Decorations</h3>
+            <p>
+              You can decorate the water section with stone decorations and lava
+              rocks that are safe for the animals. Plastic plants add looks and
+              hiding spots. Live aquatic plants are possible, but turtles will often
+              eat or dig them up. All decorations must be stable — turtles are strong
+              and knock over anything that is not well secured.
+            </p>
+          </div>
+
+          <div class="animal-fact reveal">
+            <h3>3D background</h3>
+            <p>
+              A styrofoam or stone 3D background gives the aqua-terrarium a
+              naturalistic look and adds extra surface for climbing and resting. At
+              NS Reptiles we offer several types of 3D backgrounds — from classic
+              stone patterns to decorative models. The background is glued in
+              before filling with water.
+            </p>
+          </div>
+
+          <div class="animal-fact reveal">
+            <h3>Ambient lighting</h3>
+            <p>
+              Besides the UVB and heat lamps, you can add decorative LED lighting
+              for a better look. LED strips along the edge of the lid or behind the
+              background look nicer without significantly affecting temperature. A
+              day/night cycle of 12 hours of light and 12 hours of darkness should
+              be kept all year round.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+<section class="usl">
+      <div class="wrap">
+        <div class="eyebrow reveal">What to watch out for</div>
+        <h2 class="sec-title reveal">Common aqua-terrarium setup mistakes</h2>
+
+        <div class="proc">
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>An aqua-terrarium that is too small</h3>
+              <p>
+                The most common mistake is buying a tank that is too small "until
+                the turtle grows". Not enough space leads to stress, aggressive
+                behavior and poorer health. Buy an aqua-terrarium sized for the
+                adult size of your species right away.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>A filter that is not powerful enough</h3>
+              <p>
+                A filter whose capacity equals the water volume is not enough.
+                Turtles are messy animals — the filter must be considerably more
+                powerful than the minimum, and part of the water must be changed
+                once a week regardless of how it looks.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Leaving out the UVB lamp</h3>
+              <p>
+                Without UVB lighting, the turtle will develop metabolic bone disease
+                — a softening shell, deformities and serious health problems. A UVB
+                lamp is not an optional extra but basic equipment. Replace it every
+                12 months.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Cold water without a heater</h3>
+              <p>
+                Turtles are ectothermic animals — the ambient temperature directly
+                affects their metabolism, digestion and immunity. Water colder than
+                20 degrees slows the metabolism and raises the risk of disease. A
+                heater with a thermostat is an easy way to avoid this.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>An unstable ramp</h3>
+              <p>
+                A ramp that moves or wobbles discourages turtles from climbing onto
+                land. An animal that cannot bask normally under the lamp won't get
+                enough heat, which affects its health in the long run. Make sure the
+                ramp is firmly secured.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+<section class="usl" style="background: var(--bg);">
+      <div class="wrap">
+        <div class="eyebrow reveal">Questions and answers</div>
+        <h2 class="sec-title reveal">Frequently asked questions</h2>
+
+        <div class="proc">
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>What is a turtle aqua-terrarium?</h3>
+              <p>
+                An aqua-terrarium is a combination of a terrarium and an aquarium
+                that has both a land and a water section in one enclosure. It is
+                ideal for semi-aquatic turtles that spend time both on land and in
+                water.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Do you build custom aqua-terrariums?</h3>
+              <p>
+                Yes, we build aqua-terrariums to order — you can choose the size,
+                finish color, land-to-water ratio and extra equipment.
+                Contact us for a quote or visit our
+                <a href="/en/custom-terrariums.html">custom terrarium builds page</a>.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>What filter should I use for an aqua-terrarium?</h3>
+              <p>
+                We recommend a filter with a capacity three to four times the water
+                volume. Internal filters suit smaller models, external filters suit
+                models of 80x45 cm and larger. Regular partial water changes are a
+                must regardless of the filter type.
+              </p>
+            </div>
+          </div>
+
+          <div class="proc-step reveal">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Do tortoises need an aqua-terrarium?</h3>
+              <p>
+                No. Tortoises, which eat plants, live on dry ground and need a
+                classic terrarium with substrate, under-floor heating and a UVB
+                lamp. An aqua-terrarium is meant for semi-aquatic species. If you
+                are not sure which species suits your conditions, feel free to
+                ask us.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+<section class="usl-more">
+      <div class="wrap">
+        <div class="usl-more-head">
+          <div class="eyebrow">Useful links</div>
+          <h2>More about <b>terrariums and services</b></h2>
+        </div>
+        <div class="usl-more-grid">
+          <a class="usl-link" href="/en/terrariums.html">All terrariums
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+          <a class="usl-link" href="/en/custom-terrariums.html">Custom terrarium builds
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+          <a class="usl-link" href="/en/guides/turtle-aquarium.html">Aquatic turtle guide — aquarium
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+          <a class="usl-link" href="/en/aquariums.html">Our aquariums
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+<section class="zcta">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content: center">Have a question?</div>
+        <h2>Contact us <b>before you buy</b></h2>
+        <p>
+          We will help you choose the right size and equipment for your pet —
+          no guesswork and no mistakes. We build aqua-terrariums to order.
+        </p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474?text=Hi%2C%20I%27m%20interested%20in%20a%20turtle%20aqua-terrarium" target="_blank" rel="noopener" class="btn" style="background: #fff; color: var(--green-dark)" onclick="gtag('event', 'kontakt_click', {'metod': 'whatsapp_cta'})">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event', 'telefon_click', {'metod': 'poziv_cta'})">+381 69 330 1474</a>
+        </div>
+      </div>
+    </section>
+
+
+</Base>

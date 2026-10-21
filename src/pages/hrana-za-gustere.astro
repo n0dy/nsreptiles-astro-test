@@ -5,6 +5,7 @@ import '../styles/oprema.css';
 import ProductCard from '../components/ProductCard.astro';
 import { SITE } from '../config/site';
 import { getProducts, productPath } from '../lib/products';
+import { translationsFor } from '../i18n/routes';
 
 const FIRST = ['oprema/dubia-zohari', 'oprema/fobasi', 'oprema/lateralis', 'oprema/brasnari-tenebrio'];
 // "Ziva hrana" dok se postojeci fajlovi ne prebace na dijakritike
@@ -51,6 +52,7 @@ const schema = [
   description="Hrana za guštere - živa hrana za reptile: dubia žohari, fobasi, lateralis (turkestanski žohar) i brašnari (tenebrio) u više veličina. NS REPTILES Novi Sad."
   keywords="hrana za guštere, živa hrana za reptile, dubia žohari, dubie, fobasi, lateralis, turkestanski žohar, brašnari, tenebrio, insekti za guštere, hrana za bradatu agamu, hrana za leopard gekona"
   path="/hrana-za-gustere.html"
+  translations={translationsFor('/hrana-za-gustere.html')}
   image="/style/img/oprema/dubie.webp"
   ogTitle="Hrana za Guštere | Dubia, Lateralis, Brašnari - NS REPTILES"
   ogDescription="Živa hrana za guštere i reptile - dubia žohari, fobasi, lateralis i brašnari u više veličina. Sveža i uvek na stanju."

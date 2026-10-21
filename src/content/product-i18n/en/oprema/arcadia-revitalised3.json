@@ -1,0 +1,56 @@
+{
+  "slug": "arcadia-revitalised3",
+  "name": "Arcadia Revitalise'd3",
+  "label": "Supplements",
+  "lead": "A complete vitamin and mineral powder with vitamin D3 for reptiles and amphibians. For strong immunity and healthy development.",
+  "imageAlt": "Arcadia Revitalise'd3 - NS Reptiles",
+  "specs": [
+    {
+      "k": "Brand",
+      "v": "Arcadia"
+    },
+    {
+      "k": "Weight",
+      "v": "50g"
+    },
+    {
+      "k": "Type",
+      "v": "Vitamin powder"
+    },
+    {
+      "k": "Intended for",
+      "v": "Reptiles and amphibians"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "Arcadia Revitalise'd3 is a complete vitamin and mineral powder supplement for reptiles and amphibians. It contains vitamin D3 together with a full spectrum of vitamins, minerals and trace elements needed for proper metabolism and healthy growth."
+    },
+    {
+      "type": "p",
+      "html": "Dust it over live food several times a week as an addition to daily calcium. The formula supports the immune system, skin health and proper bone development, especially in young animals and species in a period of rapid growth."
+    },
+    {
+      "type": "p",
+      "html": "Made by the British brand Arcadia, known for its advanced formulas and high standards in the reptile equipment industry."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Arcadia Revitalise'd3 | Reptile Multivitamin with D3",
+    "description": "Arcadia Revitalise'd3 50g: a complete vitamin and mineral powder with D3 for reptiles and amphibians. Supports immunity and overall health.",
+    "keywords": "Arcadia Revitalise'd3, reptile vitamin supplement, D3 vitamins for reptiles, reptile multivitamin, NS Reptiles"
+  }
+}

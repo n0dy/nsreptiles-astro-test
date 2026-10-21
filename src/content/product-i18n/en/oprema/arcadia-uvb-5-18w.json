@@ -1,0 +1,60 @@
+{
+  "slug": "arcadia-uvb-5-15w-t8",
+  "name": "Arcadia UVB 5% 15W T8",
+  "label": "Lighting",
+  "lead": "Arcadia Forest 5% UVB T8 tube, 15W / 450mm. For forest reptile species that need moderate UVB radiation.",
+  "imageAlt": "Arcadia UVB 5% 15W T8 - NS Reptiles",
+  "specs": [
+    {
+      "k": "Brand",
+      "v": "Arcadia"
+    },
+    {
+      "k": "UVB",
+      "v": "5%"
+    },
+    {
+      "k": "Wattage",
+      "v": "15W"
+    },
+    {
+      "k": "Type",
+      "v": "T8 fluorescent tube"
+    },
+    {
+      "k": "Length",
+      "v": "450mm"
+    },
+    {
+      "k": "Intended for",
+      "v": "Forest reptile species"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The Arcadia Forest 5% UVB T8 fluorescent tube, 15W and 450mm long, is made for forest reptile species that live with less direct sunlight in the wild. UVB radiation is essential for vitamin D3 synthesis in reptile skin, which is key to calcium absorption and proper bone development. Without adequate UVB lighting, reptiles can develop metabolic bone disease (MBD)."
+    },
+    {
+      "type": "p",
+      "html": "The 5% output simulates filtered sunlight coming through tree canopies, which is ideal for crested geckos, day geckos, chameleons and other forest species. The T8 tube is installed in a matching fitting (controller) at the top of the terrarium and lights its entire length evenly. Replace the tube every 6-12 months, because UVB output weakens over time even when the visible light stays the same."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Arcadia UVB 5% 15W T8 | Forest Reptile UVB Tube",
+    "description": "Arcadia Forest 5% UVB T8 tube, 15W / 450mm, for forest reptile species that need moderate UVB radiation. Supports vitamin D3 synthesis. NS Reptiles.",
+    "keywords": "Arcadia UVB 5% 15W T8, reptile UVB tube, UVB lighting, forest reptile species, NS Reptiles"
+  }
+}

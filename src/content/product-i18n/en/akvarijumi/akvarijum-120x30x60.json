@@ -1,0 +1,56 @@
+{
+  "slug": "aquarium-120x30x60",
+  "name": "Aquarium 120x30x60",
+  "label": "Large aquarium",
+  "lead": "Glass aquarium, 120x30x60 cm. Volume: 216.0 liters. Handmade in Novi Sad.",
+  "imageAlt": "Aquarium 120x30x60 - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "120 cm"
+    },
+    {
+      "k": "Width",
+      "v": "30 cm"
+    },
+    {
+      "k": "Height",
+      "v": "60 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~216.0 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 120x30x60 cm aquarium with 216 liters of volume offers serious space for creating an underwater biotope. A larger volume means more stable water parameters and the option to keep larger fish species."
+    },
+    {
+      "type": "p",
+      "html": "A large aquarium opens up the possibility of a biotope approach: recreating the natural habitat of the Amazon River, African lakes or Southeast Asia. We recommend an external filter, a CO2 system for plants and quality LED lighting."
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "If you are looking for non-standard dimensions or have special requirements (reinforced bottom, lid, openings for equipment), contact us. We handmake every aquarium and ship it by courier anywhere in Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Glass Aquarium 120x30x60 cm, 216 L | NS Reptiles",
+    "description": "Large glass aquarium 120x30x60 cm, 216 liters. Suited to a biotope setup with live plants. Handmade in Novi Sad, custom sizes, delivery across Serbia.",
+    "keywords": "glass aquarium 120x30x60, aquarium 120x30x60 cm, large aquarium, custom aquarium Serbia, aquarium Novi Sad, NS Reptiles"
+  }
+}

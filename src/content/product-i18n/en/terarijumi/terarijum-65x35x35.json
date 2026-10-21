@@ -1,0 +1,73 @@
+{
+  "slug": "terrarium-65x35x35",
+  "name": "Terrarium 65x35x35",
+  "label": "Medium terrarium",
+  "lead": "Glass terrarium measuring 65x35x35 cm. Volume: 79.6 liters, horizontal format. Handmade in Novi Sad.",
+  "imageAlt": "Glass terrarium 65x35x35 cm - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "65 cm"
+    },
+    {
+      "k": "Width",
+      "v": "35 cm"
+    },
+    {
+      "k": "Height",
+      "v": "35 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~79.6 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "Type",
+      "v": "Horizontal"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "At 65x35x35 cm and 79.6 liters, this terrarium offers a clean glass space with decorative film on the outside. The film is functional: it stops animals from seeing their reflection and reduces stress, while helping the terrarium blend into your home."
+    },
+    {
+      "type": "p",
+      "html": "A length of 65 cm and a width of 35 cm provide a large floor area for ground-dwelling species. The floor area allows a clear separation between the basking zone under the spot lamp and a cooler resting area. The ventilation openings are placed to create natural airflow from bottom to top, which maintains optimal humidity."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Bearded dragons",
+        "Ball pythons",
+        "Tortoises",
+        "Blue-tongued skinks"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "Every terrarium we make is handmade, so you can choose the dimensions, film color, ventilation type and 3D background style. We also build fully custom models to your needs, so contact us for a consultation. Delivery throughout Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Glass Terrarium 65x35x35 cm, 79.6 L | NS Reptiles",
+    "description": "Medium glass terrarium 65x35x35 cm (79.6 L), horizontal format, with decorative film. Suitable for bearded dragons and ball pythons.",
+    "keywords": "glass terrarium 65x35x35, terrarium 65x35x35 cm, medium terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

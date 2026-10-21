@@ -1,0 +1,73 @@
+{
+  "slug": "terrarium-80x50x80-aquarium",
+  "name": "Terrarium 80x50x80 + AQUARIUM",
+  "label": "Large terrarium",
+  "lead": "Terrarium 80x50x80 cm with an integrated aquarium in the lower section. A unique combined system for a land and a water section, made of quality glass in our workshop in Novi Sad.",
+  "imageAlt": "Terrarium 80x50x80 with integrated aquarium - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "80 cm"
+    },
+    {
+      "k": "Width",
+      "v": "50 cm"
+    },
+    {
+      "k": "Height",
+      "v": "80 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~320 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "Type",
+      "v": "Horizontal"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 80x50x80 cm terrarium (320 L) is made of quality glass and covered on the outside with film of your choice. The film gives the terrarium a neat look that fits your interior, with wood, bamboo and marble patterns or solid black or white available."
+    },
+    {
+      "type": "p",
+      "html": "A length of 80 cm and a width of 50 cm provide a large floor area for ground-dwelling species. The ample length allows a temperature gradient from a warm to a cool zone, which every reptile needs to stay healthy. Ventilation is provided by mesh openings that allow airflow and humidity control inside the terrarium."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Bearded dragons",
+        "Ball pythons",
+        "Tortoises",
+        "Blue-tongued skinks"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "We offer full customization: you choose the film, background and ventilation, plus optional LED lighting or a thermostat. If this model doesn't fit your space, we build terrariums in any dimensions. Call for a quote."
+    }
+  ],
+  "seo": {
+    "title": "Terrarium 80x50x80 with Integrated Aquarium | NS Reptiles",
+    "description": "Glass terrarium 80x50x80 cm (320 L) with an integrated aquarium in the lower section for land and water. Suitable for bearded dragons and ball pythons.",
+    "keywords": "glass terrarium 80x50x80, terrarium 80x50x80 cm, large terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

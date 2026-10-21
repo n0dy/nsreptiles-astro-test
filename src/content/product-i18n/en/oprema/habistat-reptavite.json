@@ -1,0 +1,56 @@
+{
+  "slug": "habistat-reptavite-40g",
+  "name": "HabiStat Reptavite 40g",
+  "label": "Supplements",
+  "lead": "A vitamin and mineral supplement for reptiles and amphibians. Used on vegetables, fruit, meat or fish. Ideal for herbivorous lizards and tortoises.",
+  "imageAlt": "HabiStat Reptavite 40g - vitamin supplement for reptiles - NS Reptiles",
+  "specs": [
+    {
+      "k": "Brand",
+      "v": "HabiStat"
+    },
+    {
+      "k": "Weight",
+      "v": "40g"
+    },
+    {
+      "k": "Type",
+      "v": "Vitamin supplement"
+    },
+    {
+      "k": "Intended for",
+      "v": "Herbivorous reptiles"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "HabiStat Reptavite is a comprehensive vitamin and mineral supplement specially formulated for reptiles and amphibians. This product contains a wide range of essential vitamins, including vitamins A, D3, E and the complete B-complex, as well as mineral chelates that ensure optimal nutrient absorption. Reptavite is designed to complement your pets' diet and prevent the vitamin and mineral deficiencies that are common in captive animals."
+    },
+    {
+      "type": "p",
+      "html": "It is used by dusting it over vegetables, fruit, meat or fish before feeding. The recommended dose is a quarter teaspoon at every fourth feeding, which allows gradual vitamin intake without the risk of overdose. It is especially suitable for iguanids, herbivorous lizards and tortoises, which need extra vitamins and minerals on a varied plant-based diet to stay healthy."
+    },
+    {
+      "type": "p",
+      "html": "The mineral chelates in Reptavite are a special form of minerals bound to amino acids, which greatly improves their bioavailability compared to conventional mineral salts. This means your reptiles absorb a higher percentage of minerals from every meal. Regular use of this supplement contributes to stronger immunity, healthy skin and shedding, reproductive health and overall vitality in your animals."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Order by phone or WhatsApp message. Delivery to your address in any town in Serbia. In Novi Sad - pickup at our workshop. Message us for help choosing equipment for your terrarium or aquarium."
+    }
+  ],
+  "seo": {
+    "title": "HabiStat Reptavite 40g | Reptile Vitamins and Minerals",
+    "description": "HabiStat Reptavite 40g: vitamin and mineral supplement for reptiles and amphibians, with vitamins A, D3, E and B-complex. NS Reptiles, Novi Sad.",
+    "keywords": "habistat reptavite, reptile vitamins, reptile minerals, iguana supplement, tortoise supplement, vitamin supplement, NS Reptiles, Novi Sad, Serbia"
+  }
+}

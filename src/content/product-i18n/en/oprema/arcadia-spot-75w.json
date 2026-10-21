@@ -1,0 +1,56 @@
+{
+  "slug": "arcadia-spot-75w",
+  "name": "Arcadia Spot 75W",
+  "label": "Lighting",
+  "lead": "Solar Basking Spotlight 75W - focused heat and light for the basking spot in a terrarium.",
+  "imageAlt": "Arcadia Spot 75W - NS Reptiles",
+  "specs": [
+    {
+      "k": "Brand",
+      "v": "Arcadia"
+    },
+    {
+      "k": "Wattage",
+      "v": "75W"
+    },
+    {
+      "k": "Type",
+      "v": "Basking spot bulb"
+    },
+    {
+      "k": "Socket",
+      "v": "E27"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The 75W Arcadia Solar Basking Spotlight is the mid-range option in the series, suitable for medium-sized terrariums and species that need a solid amount of heat at the basking spot. It produces focused heat and visible light that simulates sunlight in natural habitats."
+    },
+    {
+      "type": "p",
+      "html": "Place it on one side of the terrarium to create a temperature gradient - a warmer basking zone and a cooler zone for resting. The E27 socket allows easy installation in standard ceramic holders. We recommend using it with a thermostat for precise temperature control."
+    },
+    {
+      "type": "p",
+      "html": "Arcadia is a renowned British brand known for quality reptile lighting."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Arcadia Spot 75W | Basking Spot Bulb for Terrariums",
+    "description": "Arcadia Solar Basking Spot 75W: focused heat and light for the basking spot in your terrarium. E27 socket, medium wattage. Available at NS Reptiles.",
+    "keywords": "Arcadia Spot 75W, basking bulb, reptile basking lamp, terrarium heat bulb, NS Reptiles"
+  }
+}

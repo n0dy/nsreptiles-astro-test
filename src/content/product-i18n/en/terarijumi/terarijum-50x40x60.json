@@ -1,0 +1,73 @@
+{
+  "slug": "terrarium-50x40x60",
+  "name": "Terrarium 50x40x60",
+  "label": "Medium terrarium",
+  "lead": "Glass terrarium measuring 50x40x60 cm. Volume: 120.0 liters, vertical format. Handmade in Novi Sad.",
+  "imageAlt": "Terrarium 50x40x60 - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "50 cm"
+    },
+    {
+      "k": "Width",
+      "v": "40 cm"
+    },
+    {
+      "k": "Height",
+      "v": "60 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~120.0 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "Type",
+      "v": "Vertical"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 50x40x60 cm glass terrarium with a volume of 120 liters is made from glass of the right thickness for its size. The outer sides are covered with decorative film you choose when ordering: wood, bamboo, marble, black or white."
+    },
+    {
+      "type": "p",
+      "html": "The vertical orientation (60 cm tall) makes this terrarium suitable for arboreal animals, which live in tree canopies and on trunks in the wild. You can add branches, cork and artificial plants to recreate a vertical habitat. The ventilation openings are placed to create natural airflow from bottom to top, which maintains optimal humidity."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Chameleons",
+        "Green tree python",
+        "Emerald tree boa",
+        "Crested geckos (pair)"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "You can order this model with a custom film and background. If you need different dimensions or extra equipment (LED lighting, a thermostat, a lock), we build to your specification. Delivery to your address anywhere in Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Vertical Glass Terrarium 50x40x60 cm, 120.0 L | NS Reptiles",
+    "description": "Medium glass terrarium 50x40x60 cm (120.0 L), vertical format, with decorative film. Suitable for chameleons and green tree python. Delivery across Serbia.",
+    "keywords": "glass terrarium 50x40x60, terrarium 50x40x60 cm, medium terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

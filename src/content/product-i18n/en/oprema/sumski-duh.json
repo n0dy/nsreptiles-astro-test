@@ -1,0 +1,44 @@
+{
+  "slug": "forest-spirit-stump-decoration",
+  "name": "Forest spirit",
+  "label": "Decoration",
+  "lead": "Forest spirit - a decorative terrarium stump that serves as an ornament and a hide.",
+  "imageAlt": "Forest spirit - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Decoration - stump"
+    },
+    {
+      "k": "Intended for",
+      "v": "Terrarium"
+    },
+    {
+      "k": "Function",
+      "v": "Ornament and hide"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The forest spirit is a decorative terrarium stump that combines a mystical look with the practical role of a hide. Shaped to resemble an old forest stump with a spirit's face, this decoration brings character and a story to your terrarium. The hollow interior provides a hide for reptiles, which is key to reducing stress - an animal with access to a hide will be calmer, healthier and show more natural behavior. It is made from material that is safe for use in terrariums. Suitable for all types of terrariums - from humid tropical to dry desert setups. It is easy to clean by wiping with a damp cloth. It can be combined with live or artificial plants for an even more natural look."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Order by phone or WhatsApp. We ship by courier across Serbia. Customers in Novi Sad can pick up their order in person."
+    }
+  ],
+  "seo": {
+    "title": "Forest Spirit Stump Hide | Terrarium Decor - NS Reptiles",
+    "description": "Forest spirit: a decorative terrarium stump with a spirit face that serves as both an ornament and a hide. NS Reptiles, Novi Sad, Serbia.",
+    "keywords": "forest spirit, decorative stump, terrarium hide, terrarium decoration, NS Reptiles, Novi Sad"
+  }
+}

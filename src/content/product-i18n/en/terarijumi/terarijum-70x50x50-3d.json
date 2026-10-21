@@ -1,0 +1,81 @@
+{
+  "slug": "terrarium-70x50x50-3d",
+  "name": "Terrarium 70x50x50 +3D",
+  "label": "Large terrarium",
+  "lead": "Glass terrarium measuring 70x50x50 cm with a handmade 3D background. Volume: 175 liters, horizontal format. Handmade in Novi Sad.",
+  "imageAlt": "Glass terrarium 70x50x50 cm with 3D background - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "70 cm"
+    },
+    {
+      "k": "Width",
+      "v": "50 cm"
+    },
+    {
+      "k": "Height",
+      "v": "50 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~175 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "3D background",
+      "v": "Yes (polystyrene)"
+    },
+    {
+      "k": "Ventilation",
+      "v": "Mesh"
+    },
+    {
+      "k": "Type",
+      "v": "Horizontal"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This 70x50x50 cm glass terrarium with a volume of 175 liters comes with a handmade 3D background that gives the interior the look of a natural habitat. The polystyrene background is sculpted as rock, tree bark or cave relief, and every piece is unique because it is made by hand in our workshop."
+    },
+    {
+      "type": "p",
+      "html": "With a floor area of 70x50 cm, this terrarium allows natural movement for ground-dwelling species and proper temperature zoning: a warm spot under the spot lamp and a cooler area on the opposite side. Mesh covers on the ventilation openings let air through but not food or the small inhabitants of the terrarium."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Bearded dragons",
+        "Tortoises (Hermann's, Horsfield's)",
+        "Ball pythons and kingsnakes",
+        "Blue-tongued skinks"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "If the standard dimensions don't suit you, we build custom terrariums. Choose the size, film pattern, background style and extras such as LED lighting or a thermostat. Contact us for a quote. We deliver across Serbia."
+    }
+  ],
+  "seo": {
+    "title": "Large Terrarium 70x50x50 with 3D Background | NS Reptiles",
+    "description": "Large glass terrarium 70x50x50 cm (175 L) with a handmade 3D background, horizontal format. Suitable for bearded dragons and tortoises.",
+    "keywords": "glass terrarium 70x50x50, terrarium 70x50x50 cm, terrarium with 3D background, large terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}

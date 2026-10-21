@@ -1,0 +1,52 @@
+{
+  "slug": "calcium-vitamins",
+  "name": "Calcium/Vitamins",
+  "label": "Supplements",
+  "lead": "Calcium and vitamin supplement for reptiles. Supports proper bone development - dust it over food.",
+  "imageAlt": "Calcium/Vitamins - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Calcium + vitamin supplement"
+    },
+    {
+      "k": "Intended for",
+      "v": "Reptile bone development"
+    },
+    {
+      "k": "Use",
+      "v": "Dust over food"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "A combined calcium and vitamin supplement for the daily diet of reptiles. Calcium is essential for proper bone development and strength, while the vitamin part of the formula supports overall metabolism, immunity and skin health."
+    },
+    {
+      "type": "p",
+      "html": "Dust the supplement over live or supplementary food right before feeding. Regular use reduces the risk of metabolic bone disease (MBD), one of the most common diseases in captive reptiles. For best results, use it with adequate UVB lighting, which enables the synthesis of the vitamin D3 needed for calcium absorption."
+    },
+    {
+      "type": "p",
+      "html": "Suitable for all kinds of lizards, snakes and other reptiles that need supplementary minerals and vitamins."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Calcium and Vitamin Supplement for Reptiles | NS Reptiles",
+    "description": "Calcium and vitamin supplement for reptiles that supports bone development. Dust it over food for optimal calcium and vitamin intake. NS Reptiles.",
+    "keywords": "reptile calcium vitamins, reptile supplement, calcium for reptiles, reptile vitamins, NS Reptiles"
+  }
+}

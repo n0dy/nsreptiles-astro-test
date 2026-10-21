@@ -1,0 +1,283 @@
+---
+import Base from '../../../layouts/Base.astro';
+import '../../../styles/animals.css';
+import '../../../styles/usluge.css';
+import '../../../styles/oprema.css';
+import { translationsFor } from '../../../i18n/routes';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Реснитчатый геккон — руководство по уходу и разведению",
+    "description": "Подробное руководство по содержанию реснитчатого геккона: размер, кормление, температура, влажность и поведение.",
+    "author": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "url": "https://nsreptiles.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nsreptiles.net/style/img/logo.jpg"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://nsreptiles.net/ru/animals/crested-gecko.html"
+    },
+    "image": "https://nsreptiles.net/style/img/gallery/17.jpg"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Главная",
+        "item": "https://nsreptiles.net/ru/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Животные",
+        "item": "https://nsreptiles.net/ru/animals.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Реснитчатый геккон",
+        "item": "https://nsreptiles.net/ru/animals/crested-gecko.html"
+      }
+    ]
+  }
+];
+---
+<Base
+  lang="ru"
+  title="Реснитчатый геккон — уход и содержание | NS Reptiles"
+  description="Всё о реснитчатом гекконе: размер, кормление, температура, влажность, террариум и поведение. Отличная ящерица для начинающих — NS Reptiles, Нови-Сад."
+  keywords="реснитчатый геккон, реснитчатый геккон уход, реснитчатый геккон содержание, реснитчатый геккон кормление, террариум для реснитчатого геккона, реснитчатый геккон купить Нови-Сад, геккон для начинающих, NS Reptiles"
+  path="/ru/animals/crested-gecko.html"
+  image="/style/img/gallery/17.jpg"
+  ogType="article"
+  ogDescription="Подробное руководство по реснитчатому геккону: условия содержания, кормление, температура, влажность и рекомендации по террариуму. NS Reptiles, Нови-Сад."
+  active="animals"
+  translations={translationsFor("/ru/animals/crested-gecko.html")}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Ящерицы</div>
+        <h1>Реснитчатый геккон</h1>
+        <p>Спокойный ночной вид ящериц из Новой Каледонии — популярен в террариумистике и идеален для начинающих. Отличается выраженными «ресницами» над глазами и цепким хвостом.</p>
+      </div>
+    </section>
+<section class="pd-crumbs">
+      <div class="wrap">
+        <nav class="pd-breadcrumb" aria-label="Навигационная цепочка">
+          <a href="/ru/">Главная</a>
+          <span class="sep">›</span>
+          <a href="/ru/animals.html">Животные</a>
+          <span class="sep">›</span>
+          <span class="cur" aria-current="page">Реснитчатый геккон</span>
+        </nav>
+      </div>
+    </section>
+<section class="animal-photo" style="background: var(--bg); padding: 24px 0 0; line-height: 0;">
+      <div class="wrap">
+        <img src="/style/img/gallery/17.jpg" alt="Реснитчатый геккон в террариуме — NS Reptiles, Нови-Сад" loading="eager" width="1200" height="800" style="width: 100%; height: auto; display: block; max-height: 520px; object-fit: cover;">
+      </div>
+    </section>
+<section class="intro">
+      <div class="wrap">
+        <div class="intro-box reveal">
+          <div class="eyebrow">О виде</div>
+          <p>Реснитчатый геккон — популярный, спокойный ночной вид ящериц из Новой Каледонии. Благодаря спокойному темпераменту и сравнительно простым условиям содержания это идеальный выбор для начинающих террариумистов. Он доступен во множестве морф и окрасов и при правильном уходе относится к выносливым и долгоживущим видам.</p>
+        </div>
+      </div>
+    </section>
+<section class="zoo" style="padding-top: 40px;">
+      <div class="wrap">
+
+        <!-- Происхождение, внешний вид и поведение -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Происхождение, внешний вид и <b>поведение</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Происхождение и среда обитания</h3>
+            <p>Реснитчатый геккон родом из Новой Каледонии — тропических островов в Тихом океане. В природе он живёт во влажных тропических лесах как древесный вид и проводит время в кронах деревьев. Долгое время вид считался вымершим, пока его снова не обнаружили в 1994 году.</p>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Размер и внешний вид</h3>
+            <p>Взрослые особи достигают длины от 20 до 25 см вместе с хвостом при весе от 30 до 45 г. Узнаваемая черта — «ресницы»: ряды чешуек над глазами, которые продолжаются вдоль тела. Они доступны во множестве морф и окрасов: флейм, арлекин, далматин, пинстрайп и многие другие. Хвост цепкий и не восстанавливается, если его потерять.</p>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Поведение</h3>
+            <p>Ночное животное — днём прячется, а активно в сумерках и ночью. Спокойное и неагрессивное; хорошо переносит взятие в руки, когда постепенно привыкает к присутствию человека. Не любит яркий свет и предпочитает приглушённую обстановку. Подходит для начинающих именно благодаря спокойному темпераменту и сравнительно простым условиям содержания.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Доступность и правовой статус</h3>
+            <p>Популярный в террариумистике вид, его легко приобрести у проверенных заводчиков. Содержание в Сербии разрешено без специальных документов. В NS Reptiles мы работаем только со здоровыми особями, полученными от проверенных заводчиков.</p>
+          </div>
+        </div>
+
+        <!-- Террариум и субстрат -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Террариум и <b>субстрат</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Террариум</h3>
+            <p>Вертикальный террариум обязателен — минимальные размеры для взрослой особи 30×30×45 см. Высота важнее длины, так как этот вид лазает. Обеспечьте ветки, искусственные или живые растения и укрытия, чтобы геккон мог лазать и прятаться. Хорошая вентиляция крайне важна, но избегайте прямых сквозняков.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Субстрат</h3>
+            <p>Рекомендуются кокосовый субстрат или мох сфагнум, которые удерживают влагу. Для малышей безопаснее бумажные полотенца, так как они исключают риск проглатывания субстрата. Избегайте песка и острых субстратов — есть риск закупорки кишечника. Влажный субстрат также помогает при линьке.</p>
+          </div>
+        </div>
+
+        <!-- Температура и условия -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Температура и <b>условия</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Температура</h3>
+            <p>Дневная температура: 22–26 °C. Ночная температура: 18–20 °C. Обогрев не обязателен, если комнатная температура находится в этом диапазоне. UVB-освещение им не требуется, но слабое UVB может способствовать общему здоровью и активности животного.</p>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Освещение</h3>
+            <p>Естественного цикла дня и ночи достаточно. Если используется искусственное освещение, оно должно быть мягким и не должно нагревать террариум выше рекомендуемой температуры. Прямой яркий свет вызывает у этого вида стресс.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Влажность и вода</h3>
+            <p>Оптимальная влажность — 60–80%. Опрыскивание водой 1–2 раза в день обеспечивает необходимое увлажнение и облегчает линьку. Реснитчатый геккон не пьёт из поилки — он слизывает капли воды с листьев, стекла и декора после опрыскивания. Воду он получает и из фруктов, которые ест.</p>
+          </div>
+        </div>
+
+        <!-- Кормление -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Кормление</h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Основной рацион</h3>
+            <p>Они всеядны — едят и фрукты, и насекомых. Основу рациона составляют готовые фруктовые смеси для этого вида гекконов, например формулы Repashy или Pangea. Эти смеси сбалансированы по питательным веществам и при регулярном предложении могут быть единственным источником пищи.</p>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Насекомые и фрукты</h3>
+            <p>Насекомых дают как лакомство 1–2 раза в неделю: сверчков, тараканов дубия и саранчу подходящего размера. Перед кормлением каждое насекомое нужно обсыпать порошком кальция. Фрукты (банан, манго, персик) можно давать время от времени в небольших количествах.</p>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Частота кормления</h3>
+            <p>Малышей кормят ежедневно, так как они растут. Взрослых особей (старше года) кормят 3–4 раза в неделю. Фруктовую смесь оставляют в кормушке и меняют каждые 24–48 часов, чтобы она не прокисла.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Добавки</h3>
+            <p>Кальцием без витамина D3 опудривают насекомых при каждом кормлении. Мультивитаминный препарат для рептилий добавляют раз в неделю. Правильные добавки предотвращают гипокальциемию — одну из частых проблем со здоровьем у этого вида.</p>
+          </div>
+        </div>
+
+        <!-- Здоровье и размножение -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Здоровье и <b>размножение</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Продолжительность жизни</h3>
+            <p>Реснитчатый геккон в целом выносливый и долгоживущий вид. В неволе при правильном уходе живёт 15–20 лет. В хороших условиях болезни редки.</p>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Возможные проблемы со здоровьем</h3>
+            <p>Самые частые проблемы: потеря хвоста (не восстанавливается), закупорка кишечника из-за неподходящего субстрата, плохая линька и гипокальциемия. Профилактика — это правильное кормление, добавки кальция и подходящая влажность. При проблемах со здоровьем обратитесь к ветеринару, специализирующемуся на экзотических животных.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Размножение</h3>
+            <p>Пол можно надёжно определить только после шести месяцев. Самки откладывают по 2 яйца в кладке каждые 4–5 недель в течение сезона размножения. Инкубация длится 60–90 дней при температуре 22–26 °C. Малышей кормят той же смесью, что и взрослых, но меньшими порциями и чаще.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+<section class="pd-related section">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <div class="eyebrow">Рекомендуем для реснитчатого геккона</div>
+          <h2 class="sec-title">Рекомендуемые товары</h2>
+        </div>
+        <div class="op-grid">
+          <article class="op-card reveal">
+            <a class="op-img" href="/ru/products/terrariums/terrarium-45x35x80.html">
+              <img src="/style/img/terrariums/t-45x35x80-drvo-3d-web.webp" alt="Террариум 45x35x80" loading="lazy" width="600" height="600">
+            </a>
+            <div class="op-body">
+              <div class="op-cat">Террариум</div>
+              <h3><a href="/ru/products/terrariums/terrarium-45x35x80.html">Террариум 45x35x80</a></h3>
+              <div class="op-foot">
+                <span class="op-price">Цена по запросу</span>
+              </div>
+            </div>
+          </article>
+          <article class="op-card reveal">
+            <a class="op-img" href="/ru/products/terrariums/terrarium-45x40x70.html">
+              <img src="/style/img/terrariums/45x40x70.webp" alt="Террариум 45x40x70" loading="lazy" width="600" height="600">
+            </a>
+            <div class="op-body">
+              <div class="op-cat">Террариум</div>
+              <h3><a href="/ru/products/terrariums/terrarium-45x40x70.html">Террариум 45x40x70</a></h3>
+              <div class="op-foot">
+                <span class="op-price">Цена по запросу</span>
+              </div>
+            </div>
+          </article>
+          <article class="op-card reveal">
+            <a class="op-img" href="/ru/products/terrariums/terrarium-40x40x40.html">
+              <img src="/style/img/terrariums/40x40x40.webp" alt="Террариум 40x40x40" loading="lazy" width="600" height="600">
+            </a>
+            <div class="op-body">
+              <div class="op-cat">Террариум</div>
+              <h3><a href="/ru/products/terrariums/terrarium-40x40x40.html">Террариум 40x40x40</a></h3>
+              <div class="op-foot">
+                <span class="op-price">Цена по запросу</span>
+              </div>
+            </div>
+          </article>
+          <article class="op-card reveal">
+            <a class="op-img" href="/ru/products/terrariums/terrarium-60x45x50.html">
+              <img src="/style/img/terrariums/60x45x50.webp" alt="Террариум 60x45x50" loading="lazy" width="600" height="600">
+            </a>
+            <div class="op-body">
+              <div class="op-cat">Террариум</div>
+              <h3><a href="/ru/products/terrariums/terrarium-60x45x50.html">Террариум 60x45x50</a></h3>
+              <div class="op-foot">
+                <span class="op-price">Цена по запросу</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+<section class="zcta">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content:center">Заинтересовались?</div>
+        <h2>Приобретите <b>реснитчатого геккона</b></h2>
+        <p>Свяжитесь с нами по телефону или в WhatsApp, чтобы узнать о наличии особей, получить рекомендации по оборудованию и советы по уходу. Мы с радостью поможем.</p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474?text=%D0%9C%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D1%80%D0%B5%D1%81%D0%BD%D0%B8%D1%82%D1%87%D0%B0%D1%82%D1%8B%D0%B9%20%D0%B3%D0%B5%D0%BA%D0%BA%D0%BE%D0%BD" target="_blank" rel="noopener" class="btn" style="background:#fff;color:var(--green-dark)" onclick="gtag('event','kontakt_click',{'metod':'whatsapp'})">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event','kontakt_click',{'metod':'poziv'})">+381 69 330 1474</a>
+        </div>
+      </div>
+    </section>
+
+
+</Base>

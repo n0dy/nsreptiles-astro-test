@@ -1,0 +1,310 @@
+---
+import Base from '../../layouts/Base.astro';
+import '../../styles/animals.css';
+import '../../styles/kompleti.css';
+import { translationsFor } from '../../i18n/routes';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Starter kits - lizards and exotic pets for sale",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Bearded Dragon Starter Kit",
+        "url": "https://nsreptiles.net/en/starter-kits/bearded-dragon.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Leopard Gecko Starter Kit",
+        "url": "https://nsreptiles.net/en/starter-kits/leopard-gecko.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Corn Snake Starter Kit",
+        "url": "https://nsreptiles.net/en/starter-kits/corn-snake.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Scorpion Starter Kit",
+        "url": "https://nsreptiles.net/en/starter-kits/scorpion.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Tarantula Starter Kit",
+        "url": "https://nsreptiles.net/en/starter-kits/tarantula.html"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://nsreptiles.net/en/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Starter kits",
+        "item": "https://nsreptiles.net/en/starter-kits.html"
+      }
+    ]
+  }
+];
+---
+<Base
+  lang="en"
+  title="Lizards for Sale | Reptile Starter Kits - NS Reptiles"
+  description="Captive-bred bearded dragons and leopard geckos for sale, plus corn snakes, scorpions and tarantulas. Starter kits with terrarium and equipment."
+  keywords="lizards for sale, reptile starter kit, bearded dragon for sale, leopard gecko for sale, corn snake, tarantula, scorpion, Novi Sad"
+  path="/en/starter-kits.html"
+  image="/style/img/gallery/2.jpg"
+  translations={translationsFor("/en/starter-kits.html")}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Breeder · Novi Sad</div>
+        <h1>Lizards for sale</h1>
+        <p>
+          Captive-bred bearded dragons and leopard geckos from our own
+          breeding, plus corn snakes, scorpions and tarantulas — every animal
+          comes in a kit with a terrarium and equipment.
+        </p>
+      </div>
+    </section>
+<nav class="breadcrumb-bar" aria-label="Breadcrumb">
+      <div class="wrap">
+        <ol class="breadcrumb">
+          <li><a href="/en/">Home</a></li>
+          <li aria-current="page">Starter kits</li>
+        </ol>
+      </div>
+    </nav>
+<section class="intro">
+      <div class="wrap">
+        <div class="intro-box reveal">
+          <div class="eyebrow">Starter kits</div>
+          <p>
+            We have been selectively breeding exotic pets for 10 years. All
+            animals are healthy, well fed and used to handling. To make your
+            start as simple as possible, we offer every animal as a kit — with
+            a terrarium of the right size and basic equipment, at a lower price
+            than buying each item separately.
+          </p>
+        </div>
+      </div>
+    </section>
+<section class="section kompleti" id="kompleti" style="padding-top: 70px">
+      <div class="wrap">
+        <div class="gal-head reveal">
+          <div>
+            <div class="eyebrow">Start here</div>
+            <h2 class="sec-title">Choose your <b>kit</b></h2>
+          </div>
+          <a href="/en/animals.html" class="btn btn-outline">All animals</a>
+        </div>
+        <div class="kit-grid">
+          <article class="kit-card reveal">
+            <span class="kit-badge">Sale</span>
+            <a href="/en/starter-kits/bearded-dragon.html" class="kit-img">
+              <img src="/assets/img/bradata-agama.jpg" alt="Bearded dragon - lizards for sale in Novi Sad">
+            </a>
+            <div class="kit-body">
+              <h3>Bearded dragon</h3>
+              <ul class="kit-incl">
+                <li>100×45×45 terrarium +3D</li>
+                <li>UVB/UVA lighting</li>
+                <li>Sand, vitamins</li>
+                <li>Food for a month</li>
+              </ul>
+              <div class="kit-price">25,800 <span>din</span></div>
+              <a href="/en/starter-kits/bearded-dragon.html" class="btn btn-outline">
+                View more
+              </a>
+            </div>
+          </article>
+          <article class="kit-card reveal">
+            <span class="kit-badge">Sale</span>
+            <a href="/en/starter-kits/leopard-gecko.html" class="kit-img">
+              <img src="/assets/img/leopard-gekon.jpg" alt="Leopard gecko - lizards for sale in Novi Sad">
+            </a>
+            <div class="kit-body">
+              <h3>Leopard gecko</h3>
+              <ul class="kit-incl">
+                <li>50×35×35 terrarium</li>
+                <li>Heat mat, hide</li>
+                <li>Peat, bowl</li>
+                <li>Food + vitamins</li>
+              </ul>
+              <div class="kit-price">12,500 <span>din</span></div>
+              <a href="/en/starter-kits/leopard-gecko.html" class="btn btn-outline">
+                View more
+              </a>
+            </div>
+          </article>
+          <article class="kit-card reveal">
+            <span class="kit-badge">Sale</span>
+            <a href="/en/starter-kits/corn-snake.html" class="kit-img">
+              <img src="/assets/img/kukuruzni-smuk.jpg" alt="Corn snake">
+            </a>
+            <div class="kit-body">
+              <h3>Corn snake</h3>
+              <ul class="kit-incl">
+                <li>50×35×35 terrarium</li>
+                <li>Coconut peat</li>
+                <li>Water bowl</li>
+                <li>Cave</li>
+              </ul>
+              <div class="kit-price">12,500 <span>din</span></div>
+              <a href="/en/starter-kits/corn-snake.html" class="btn btn-outline">
+                View more
+              </a>
+            </div>
+          </article>
+          <article class="kit-card reveal">
+            <span class="kit-badge">Sale</span>
+            <a href="/en/starter-kits/scorpion.html" class="kit-img">
+              <img src="/assets/img/skorpija.jpg" alt="Scorpion">
+            </a>
+            <div class="kit-body">
+              <h3>Scorpion</h3>
+              <ul class="kit-incl">
+                <li>Heterometrus petersii</li>
+                <li>40×25×30 terrarium</li>
+                <li>Coconut peat</li>
+                <li>3 sizes</li>
+              </ul>
+              <div class="kit-price">8,500 <span>din</span></div>
+              <a href="/en/starter-kits/scorpion.html" class="btn btn-outline">
+                View more
+              </a>
+            </div>
+          </article>
+          <article class="kit-card reveal">
+            <span class="kit-badge">Sale</span>
+            <a href="/en/starter-kits/tarantula.html" class="kit-img">
+              <img src="/assets/img/tarantula.jpg" alt="Tarantula">
+            </a>
+            <div class="kit-body">
+              <h3>Tarantula</h3>
+              <ul class="kit-incl">
+                <li>11×15×20 terrarium +3D</li>
+                <li>Coconut peat</li>
+                <li>~10 species</li>
+                <li>For a first spider</li>
+              </ul>
+              <div class="kit-price">3,000 <span>din</span></div>
+              <a href="/en/starter-kits/tarantula.html" class="btn btn-outline">
+                View more
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+<section class="ks-perks">
+      <div class="wrap">
+        <div class="reveal" style="text-align: center; max-width: 680px; margin: 0 auto">
+          <div class="eyebrow" style="justify-content: center">
+            From our own breeding
+          </div>
+          <h2 class="sec-title">Lizards <b>for sale</b></h2>
+          <p style="color: var(--ink-soft); font-weight: 300; margin-top: 14px">
+            Lizards are the most sought-after exotic pets — tame, interesting
+            to watch and easy to care for. We breed bearded dragons and
+            leopard geckos ourselves, so with every animal you know its
+            origin, age and habits.
+          </p>
+        </div>
+        <div class="ks-perks-grid">
+          <div class="ks-perk reveal">
+            <div class="ks-perk-num">01</div>
+            <h3>Healthy, tame animals</h3>
+            <p>
+              We have 10 years of selective breeding behind us. All animals
+              are well fed, regularly monitored and used to handling from a
+              young age.
+            </p>
+          </div>
+          <div class="ks-perk reveal">
+            <div class="ks-perk-num">02</div>
+            <h3>A kit instead of guesswork</h3>
+            <p>
+              With the animal you get a terrarium of the right size and
+              equipment matched to that specific species — no guessing what
+              you need and no shopping in several places.
+            </p>
+          </div>
+          <div class="ks-perk reveal">
+            <div class="ks-perk-num">03</div>
+            <h3>Advice after purchase too</h3>
+            <p>
+              We explain everything about feeding, temperature and care before
+              your pet arrives — and we are available for questions later too,
+              by phone or message.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+<section class="section" style="background: var(--white)">
+      <div class="wrap">
+        <div class="gal-head reveal">
+          <div>
+            <div class="eyebrow">Your pet, made simple</div>
+            <h2 class="sec-title">How it <b>works</b></h2>
+          </div>
+        </div>
+        <div class="ks-perks-grid" style="margin-top: 10px">
+          <div class="ks-perk reveal">
+            <div class="ks-perk-num">Step 1</div>
+            <h3>Choose a kit</h3>
+            <p>
+              Browse the kits and open the one you are interested in — each
+              page lists the exact contents and price.
+            </p>
+          </div>
+          <div class="ks-perk reveal">
+            <div class="ks-perk-num">Step 2</div>
+            <h3>Send an inquiry</h3>
+            <p>
+              Click "Send an inquiry" and the form fills in automatically. You
+              can also message us on WhatsApp or Viber — we reply quickly.
+            </p>
+          </div>
+          <div class="ks-perk reveal">
+            <div class="ks-perk-num">Step 3</div>
+            <h3>Pickup or shipping</h3>
+            <p>
+              Pickup in person in Novi Sad or shipping by arrangement. We pack
+              animals safely and with experience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+<section class="zcta">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content:center">Not sure which kit?</div>
+        <h2>Ask <b>NS Reptiles</b></h2>
+        <p>Tell us how much space and time you have, and we will suggest the pet that suits you best. Consultations are free.</p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474?text=I%27m%20interested%20in%20the%20starter%20kits" target="_blank" rel="noopener" class="btn" style="background:#fff;color:var(--green-dark)" onclick="gtag('event','kontakt_click',{'metod':'whatsapp'})">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event','kontakt_click',{'metod':'poziv'})">+381 69 330 1474</a>
+        </div>
+      </div>
+    </section>
+
+
+</Base>

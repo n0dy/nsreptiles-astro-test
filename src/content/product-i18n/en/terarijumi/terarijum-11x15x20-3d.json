@@ -1,0 +1,79 @@
+{
+  "slug": "terrarium-11x15x20-3d",
+  "name": "Terrarium 11x15x20 with 3D Background",
+  "label": "Small terrarium",
+  "lead": "Compact 11x15x20 cm mini terrarium with a handmade polystyrene 3D background that faithfully imitates rock. Made of quality glass with decorative film in a natural wood tone, it is a perfect choice for keeping spiders and insects. The vertical format gives enough room for climbing and natural behavior.",
+  "imageAlt": "Mini glass terrarium 11x15x20 cm with 3D background - NS Reptiles",
+  "specs": [
+    {
+      "k": "Length",
+      "v": "11 cm"
+    },
+    {
+      "k": "Width",
+      "v": "15 cm"
+    },
+    {
+      "k": "Height",
+      "v": "20 cm"
+    },
+    {
+      "k": "Volume",
+      "v": "~3.3 L"
+    },
+    {
+      "k": "Material",
+      "v": "Glass"
+    },
+    {
+      "k": "3D background",
+      "v": "Yes (polystyrene)"
+    },
+    {
+      "k": "Ventilation",
+      "v": "Plastic (top)"
+    },
+    {
+      "k": "Type",
+      "v": "Vertical"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This mini terrarium is handmade in our workshop in Novi Sad. It is built from quality 3 mm glass framed with wood-grain decorative film for a warm, rustic look. The back holds a hand-sculpted polystyrene 3D background that convincingly imitates a rock surface, creating a natural setting and extra climbing surfaces."
+    },
+    {
+      "type": "p",
+      "html": "The top has plastic ventilation for airflow, plus an opening for equipment such as a mini lamp or a misting system. The floor is flat and suitable for any substrate you choose."
+    },
+    {
+      "type": "h2",
+      "text": "Suitable for"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Spiders: small and medium species",
+        "Insects: mantises, roaches and others"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custom builds"
+    },
+    {
+      "type": "p",
+      "html": "We build all our terrariums by hand, so you can customize the film color, 3D background style and extra equipment to your liking. If you need a different size or a specific add-on, feel free to contact us. We'll gladly build a terrarium to your measurements."
+    }
+  ],
+  "seo": {
+    "title": "Mini Terrarium 11x15x20 with 3D Background | NS Reptiles",
+    "description": "Mini glass terrarium 11x15x20 cm (3.3 L) with a handmade 3D rock background, vertical format. Suitable for spiders and insects. Delivery across Serbia.",
+    "keywords": "glass terrarium 11x15x20, terrarium 11x15x20 cm, terrarium with 3D background, small terrarium, custom terrarium Serbia, terrarium Novi Sad, NS Reptiles"
+  }
+}
