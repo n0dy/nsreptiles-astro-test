@@ -1,0 +1,63 @@
+{
+  "name": "HabiStat Double Feeding Ledge",
+  "label": "Oprema",
+  "lead": "Dupla hranilica sa dve providne čaše za arborealne reptile. Crni akril sa vakuumskim pričvrstkama - idealna za istovremeno nuđenje hrane i vode.",
+  "image": "/style/img/oprema/habistat-double-feeding-ledge.webp",
+  "imageAlt": "HabiStat Double Feeding Ledge dupla hranilica za arborealne reptile - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "HabiStat"
+    },
+    {
+      "k": "Dimenzije",
+      "v": "160x60x80mm"
+    },
+    {
+      "k": "Tip",
+      "v": "Hranilica (double)"
+    },
+    {
+      "k": "Namena",
+      "v": "Arborealni reptili"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Opis"
+    },
+    {
+      "type": "p",
+      "html": "HabiStat Double Feeding Ledge je napredna verzija popularne HabiStat hranilice, opremljena sa dve providne čaše za istovremeno nuđenje hrane i vode vašim arborealnim reptilima. Izrađena od kvalitetnog crnog akrila, ova dupla hranilica se sigurno pričvršćuje na staklene zidove terarijuma pomoću vakuumskih pričvrstki, bez potrebe za lepkom ili trajnim modifikacijama."
+    },
+    {
+      "type": "p",
+      "html": "Dimenzije od 160x60x80mm pružaju dovoljno prostora za dve odvojive providne čaše, od kojih jedna može služiti za hranu (voćna kaša, prah za insekte), a druga za svežu vodu. Ovo je posebno praktično jer eliminse potrebu za dva odvojena mesta za hranjenje i pojenje, čime se štedi prostor u terarijumu. Providne čaše omogućavaju potpunu vidljivost sadržaja iz svakog ugla, pa lako možete pratiti koliko vaš reptil konzumira."
+    },
+    {
+      "type": "p",
+      "html": "Čaše se lako odvajaju od platforme za brzo čišćenje i punjenje, što značajno olakšava svakodnevno održavanje. Ovaj model je idealan za crested gekone, dnevne gekone, anole i druge arborealne vrste koje se u prirodi hrane na povišenim pozicijama. Postavljanjem hranilice na odgovarajuću visinu u terarijumu, simulirate prirodno ponašanje pri hranjenju, što smanjuje stres i podstiče aktivnost vaših životinja."
+    },
+    {
+      "type": "p",
+      "html": "HabiStat je renomirani britanski brend sa dugogodišnjim iskustvom u proizvodnji opreme za reptile, poznat po kvalitetu materijala i praktičnom dizajnu svojih proizvoda."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Naručite telefonom ili porukom na WhatsApp. Brza dostava kurirskom službom. Kupci iz Novog Sada dolaze po robu direktno u radionicu. Kontaktirajte nas za nedoumice oko proizvoda ili preporuku za vašu vrstu."
+    }
+  ],
+  "seo": {
+    "title": "HabiStat Double Feeding Ledge | Oprema - NS REPTILES",
+    "description": "HabiStat Double Feeding Ledge - dupla hranilica sa dve providne čaše za arborealne reptile. Vakuumske pričvrstke. NS REPTILES Novi Sad, dostava širom Srbije.",
+    "keywords": "habistat double feeding ledge, dupla hranilica za reptile, hranilica za gekone, arborealni reptili, oprema za terarijum, NS REPTILES, Novi Sad, Srbija",
+    "ogDescription": "HabiStat Double Feeding Ledge - dupla hranilica sa dve providne čaše za arborealne reptile. NS REPTILES Novi Sad."
+  },
+  "related": []
+}

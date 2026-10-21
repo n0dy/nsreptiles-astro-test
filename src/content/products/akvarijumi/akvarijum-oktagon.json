@@ -1,0 +1,53 @@
+{
+  "name": "Akvarijum Oktagon",
+  "label": "Akvarijum",
+  "lead": "Akvarijum oktagonalnog (osmougaonog) oblika. Zanimljiv dizajn koji se ističe u svakom prostoru. Ručna izrada u Novom Sadu.",
+  "image": "/style/img/aquariums/oktagon.webp",
+  "imageAlt": "Akvarijum Oktagon - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Materijal",
+      "v": "Staklo"
+    },
+    {
+      "k": "Oblik",
+      "v": "Oktagonalni"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Akvarijum oktagonalnog (osmougaonog) oblika predstavlja zanimljivo dizajnersko rešenje koje se ističe u svakom prostoru. Neobičan oblik omogućava posmatranje vodenog sveta iz više uglova, a kvalitetno staklo sa preciznim silikonskim spojevima garantuje dugotrajnu vodootpornost."
+    },
+    {
+      "type": "p",
+      "html": "Oktagonalni oblik pruža dovoljno prostora za nekoliko manjih slatkovodnih ribica ili škampe. Možete ga opremiti malim filterom, grejačem i LED osvetljenjem, a biljke poput anubijasa ili javanske mahovine savršeno dopunjuju ovaj tip akvarijuma."
+    },
+    {
+      "type": "h2",
+      "text": "Izrada po meri"
+    },
+    {
+      "type": "p",
+      "html": "Radimo akvarijume po meri - bilo koje dimenzije, debljina stakla prema zapremini, opcioni otvori za filtere i grejače. Pozovite nas ili pišite na WhatsApp za konsultacije i cenu. Dostava u sve gradove Srbije."
+    }
+  ],
+  "seo": {
+    "title": "Akvarijum Oktagon | Akvarijum - NS Reptiles",
+    "description": "Akvarijum Oktagon - stakleni akvarijum osmougaonog oblika koji se ističe u svakom prostoru. Ručna izrada, dostava širom Srbije. NS Reptiles.",
+    "keywords": "akvarijum oktagon, oktagonalni akvarijum, akvarijum prodaja, akvarijum Novi Sad, NS Reptiles",
+    "ogTitle": "Akvarijum Oktagon | NS Reptiles",
+    "ogDescription": "Stakleni akvarijum oktagonalnog (osmougaonog) oblika. Ručna izrada u Novom Sadu."
+  },
+  "related": [
+    "akvarijumi/akvarijum-120x30x60",
+    "akvarijumi/akvarijum-120x40x40",
+    "akvarijumi/plazma-akvarijum-89x17x50",
+    "akvarijumi/akvarijum-20x17x14"
+  ]
+}

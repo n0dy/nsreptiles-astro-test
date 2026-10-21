@@ -1,0 +1,152 @@
+---
+import Base from '../layouts/Base.astro';
+import '../styles/animals.css';
+import '../styles/usluge.css';
+import { translationsFor } from '../i18n/routes';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Izrada terarijuma po meri",
+    "serviceType": "Izrada terarijuma po meri",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "NS Reptiles",
+      "telephone": "+381693301474",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Novi Sad",
+        "addressCountry": "RS"
+      }
+    },
+    "areaServed": "Srbija",
+    "description": "Izrada terarijuma po meri u Novom Sadu. Stakleni terarijumi za agame, gekone i pitone, preko 40 dezena folija, 3D pozadine i UVB rasveta. Rok izrade 7 radnih dana.",
+    "url": "https://nsreptiles.net/izrada-terarijuma.html"
+  }
+];
+---
+<Base
+  lang="sr"
+  title="Izrada terarijuma po meri, Novi Sad | NS Reptiles"
+  description="Izrada terarijuma po meri u Novom Sadu: stakleni terarijumi za agame, gekone i pitone, 40+ dezena folija, 3D pozadine i UVB rasveta. Rok 7 radnih dana."
+  path="/izrada-terarijuma.html"
+  image="/style/img/logo.jpg"
+  ogTitle="Izrada terarijuma po meri | NS Reptiles"
+  ogDescription="Ručno rađeni stakleni terarijumi po vašim merama — folije, 3D pozadine, rasveta i oprema. Novi Sad."
+  translations={translationsFor("/izrada-terarijuma.html")}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Izrada po meri</div>
+        <h1>Izrada terarijuma po meri</h1>
+        <p>Svaki terarijum izrađujemo ručno od stakla, po vašim merama i željama — sa folijom po izboru, 3D pozadinom i kompletnom opremom.</p>
+      </div>
+    </section>
+<section class="intro">
+      <div class="wrap">
+        <div class="intro-box">
+          <div class="eyebrow">Kako do vašeg terarijuma?</div>
+          <p>Od prvog kontakta do preuzimanja vodimo vas kroz nekoliko jednostavnih koraka. Ne znate koja je optimalna veličina za vašeg ljubimca? <strong>Rado ćemo vam pomoći</strong> da napravite pravi izbor.</p>
+        </div>
+      </div>
+    </section>
+<section class="usl">
+      <div class="wrap">
+        <div class="proc">
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Kontaktirajte nas</h3>
+              <p>Javite nam se telefonom, mejlom ili putem društvenih mreža i recite nam koje dimenzije terarijuma želite. Ukoliko niste sigurni koja je optimalna veličina za vašeg ljubimca, rado ćemo vam pomoći da napravite pravi izbor.</p>
+            </div>
+          </div>
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Odaberite boju terarijuma</h3>
+              <p>U ponudi je preko 40 različitih dezena folija tako da možete lako uklopiti terarijum sa ostatkom enterijera. Takođe, postoji mogućnost da terarijum bude obložen crnim lakobelom umesto folije.</p>
+            </div>
+          </div>
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Izaberite 3D pozadinu</h3>
+              <p>Klasična folija sa slikom, fabrički model, 3D pozadina od stiropora, 3D pozadina od prirodnog siga kamena, ili pak bez pozadine — bira se po ukusu i želji kupca. Dodatno, mogu se uključiti i penjačke grane, skrovišta i ostali elementi.</p>
+            </div>
+          </div>
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Rasveta i oprema</h3>
+              <p>Za zdrav život vašeg ljubimca najbitnije je pravilno podešena rasveta i temperatura. Pomoći ćemo vam da odaberete odgovarajuću UVB/UVA rasvetu, grejače, termostate, substrat i dekoracije. Sve to uračunato u jednu cenu.</p>
+            </div>
+          </div>
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Kapara 30%</h3>
+              <p>Minimalni iznos kapare za početak izrade terarijuma je 30% od ukupne cene. Ostatak iznosa se plaća po završetku izrade, prilikom preuzimanja terarijuma.</p>
+            </div>
+          </div>
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Izrada — 7 radnih dana</h3>
+              <p>Uobičajeni rok izrade terarijuma je 7 radnih dana. Za zahtevnije i veće projekte kao što su terarijumi za veliku vodenu agamu ili iguanu, rok izrade može biti i duži.</p>
+            </div>
+          </div>
+          <div class="proc-step">
+            <div class="proc-num"></div>
+            <div class="proc-body">
+              <h3>Preuzimanje terarijuma</h3>
+              <p>Terarijum možete preuzeti lično u Novom Sadu, ili ga možemo poslati autobusom do vašeg grada. Troškove slanja snosi kupac. Za veće terarijume možemo organizovati i dostavu kombijem.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<section class="zcta">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content: center">Spremni za početak?</div>
+        <h2>Vaš terarijum <b>po meri</b></h2>
+        <p>Pošaljite nam dimenzije i vrstu životinje — izradićemo terarijum tačno po vašim potrebama, sa 3D pozadinom po želji.</p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474" target="_blank" rel="noopener" class="btn" style="background: #fff; color: var(--green-dark)">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light">Pozovi nas</a>
+        </div>
+      </div>
+    </section>
+<section class="usl-more" style="background: var(--bg)">
+      <div class="wrap">
+        <div class="usl-more-head">
+          <div class="eyebrow">Vodici</div>
+          <h2>Terarijum za <b>vasu zivotinju</b></h2>
+        </div>
+        <div class="usl-more-grid">
+          <a class="usl-link" href="/terarijumi/terarijum-za-bradatu-agamu.html">Terarijum za bradatu agamu<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+          <a class="usl-link" href="/terarijumi/terarijum-za-leopard-gekona.html">Terarijum za leopard gekona<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+          <a class="usl-link" href="/terarijumi/terarijum-za-loptastog-pitona.html">Terarijum za loptastog pitona<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+          <a class="usl-link" href="/terarijumi/terarijum-za-kornjacu.html">Terarijum za kornjacu<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+        </div>
+      </div>
+    </section>
+<section class="usl-more">
+      <div class="wrap">
+        <div class="usl-more-head">
+          <div class="eyebrow">Ostale usluge</div>
+          <h2>Sve na <b>jednom mestu</b></h2>
+        </div>
+        <div class="usl-more-grid">
+          <a class="usl-link" href="/izrada-akvarijuma.html">Izrada akvarijuma<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+          <a class="usl-link" href="/izrada-vivarijuma.html">Izrada vivarijuma<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+          <a class="usl-link" href="/izrada-led-rasvete.html">Izrada LED rasvete<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+          <a class="usl-link" href="/odrzavanje-akvarijuma-terarijuma.html">Održavanje i uređenje<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+          <a class="usl-link" href="/popravka-akvarijuma-terarijuma.html">Popravka i servis<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+        </div>
+      </div>
+    </section>
+
+
+</Base>

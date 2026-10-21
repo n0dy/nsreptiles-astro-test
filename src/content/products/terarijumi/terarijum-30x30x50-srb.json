@@ -1,0 +1,90 @@
+{
+  "name": "Terarijum 30x30x50 SRB",
+  "label": "Srednji terarijum",
+  "lead": "Stakleni terarijum dimenzija 30x30x50cm sa dekorativnom folijom u motivu srpske zastave. Zapremina od oko 45 litara i vertikalni format čine ga pogodnim za arborealne vrste. Staklo obezbeđuje nesmetanu vidljivost, dok folija sa tri strane životinjama pruža osećaj zaštićenosti. Ručna izrada u Novom Sadu.",
+  "image": "/style/img/terrariums/30x30x50-srb.webp",
+  "imageAlt": "Stakleni terarijum 30x30x50cm sa motivom srpske zastave - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Dužina",
+      "v": "30 cm"
+    },
+    {
+      "k": "Širina",
+      "v": "30 cm"
+    },
+    {
+      "k": "Visina",
+      "v": "50 cm"
+    },
+    {
+      "k": "Zapremina",
+      "v": "~45 L"
+    },
+    {
+      "k": "Materijal",
+      "v": "Staklo"
+    },
+    {
+      "k": "Folija",
+      "v": "Motiv srpske zastave"
+    },
+    {
+      "k": "Ventilacija",
+      "v": "Mrežasta"
+    },
+    {
+      "k": "Tip",
+      "v": "Vertikalni"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ovaj stakleni terarijum (30x30x50cm, 45L) dolazi sa spoljašnjom dekorativnom folijom u dezenu po izboru. Staklo obezbeđuje nesmetanu vidljivost iznutra, dok folija sa tri strane pruža životinjama osećaj zaštićenosti."
+    },
+    {
+      "type": "p",
+      "html": "Vertikalna orijentacija (50cm visine) čini ovaj terarijum pogodnim za arborealce - životinje koje u prirodi žive u krošnjama i na stablima. Možete postaviti grane, korkove i veštačke biljke da simulirate vertikalno stanište. Ventilacija je rešena mrežastim otvorima koji omogućavaju strujanje vazduha i kontrolu vlažnosti unutar terarijuma."
+    },
+    {
+      "type": "h2",
+      "text": "Pogodan za"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Crested gekoni",
+        "Dnevni gekoni",
+        "Žabe drotolazi",
+        "Manje kameleon vrste"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Izrada po meri"
+    },
+    {
+      "type": "p",
+      "html": "Svaki naš terarijum ručno je izrađen, pa možete birati dimenzije, boju folije, tip ventilacije i stil pozadine. Radimo i potpuno prilagođene modele prema vašim potrebama - kontaktirajte nas za konsultacije. Dostava na teritoriji cele Srbije."
+    }
+  ],
+  "seo": {
+    "title": "Terarijum 30x30x50 SRB | Terarijum - NS Reptiles",
+    "description": "Terarijum 30x30x50 SRB - stakleni terarijum 30x30x50cm sa motivom srpske zastave. Ručna izrada, dostava širom Srbije. NS Reptiles Novi Sad.",
+    "keywords": "terarijum 30x30x50 srb, terarijum 30x30x50cm, srednji terarijum, terarijum prodaja, terarijum Novi Sad, NS Reptiles",
+    "ogTitle": "Terarijum 30x30x50 SRB | NS Reptiles",
+    "ogDescription": "Stakleni terarijum 30x30x50cm sa motivom srpske zastave. Zapremina 45 litara, vertikalni format."
+  },
+  "related": [
+    "terarijumi/terarijum-30x30x40-3d",
+    "terarijumi/terarijum-30x30x50-3d",
+    "terarijumi/terarijum-30x30x55-3d",
+    "terarijumi/terarijum-32x20x25-3d"
+  ]
+}

@@ -1,0 +1,543 @@
+---
+import Base from '../../layouts/Base.astro';
+import '../../styles/animals.css';
+import '../../styles/usluge.css';
+import { translationsFor } from '../../i18n/routes';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Terarijum za bradatu agamu — preporuke i oprema",
+    "description": "Vodic za izbor terarijuma za bradatu agamu. Preporucena velicina 100x50x50cm, UVB rasveta, kvarcni pesak i uredenje.",
+    "image": "https://nsreptiles.net/style/img/terrariums/100x50x50.webp",
+    "author": {
+      "@type": "Organization",
+      "name": "NS Reptiles"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "url": "https://nsreptiles.net"
+    },
+    "url": "https://nsreptiles.net/terarijumi/terarijum-za-bradatu-agamu.html"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Pocetna",
+        "item": "https://nsreptiles.net/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Terarijumi",
+        "item": "https://nsreptiles.net/terarijumi.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Terarijum za bradatu agamu",
+        "item": "https://nsreptiles.net/terarijumi/terarijum-za-bradatu-agamu.html"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Koja velicina terarijuma je potrebna za bradatu agamu?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Preporucena velicina terarijuma za bradatu agamu je oko 100x50x50cm. Manji terarijumi mogu se koristiti dok zivotinja ne preraste njihovu velicinu, ali odrasloj agami treba pun prostor za kretanje, zoniranje temperature i suncanje."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Koja rasveta je potrebna za bradatu agamu?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Potrebna su dva tipa rasvete: UVA lampa koja simulira sunceve zrake i obezbedjuje toplotu, i UVB sijalica koja omogucava sintezu vitamina D3. Bez UVB osvetljenja agama razvija metabolicku bolest kostiju."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Koja podloga je preporucena za terarijum bradate agame?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Preporucena podloga za bradatu agamu je kvarcni pesak. Odgovara njenom prirodnom stanisteu i omogucava prirodno ponasanje kopanja."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Da li izradjujete terarijume za bradate agame po meri?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Da, terarijume izradjujemo po meri. Boju, velicinu, opremu i sve ostalo birate sami. Rok izrade je 7 radnih dana. Kontaktirajte nas za cenu na upit."
+        }
+      }
+    ]
+  }
+];
+---
+<Base
+  lang="sr"
+  title="Terarijum za bradatu agamu: preporuke i oprema | NS Reptiles"
+  description="Vodič za izbor terarijuma za bradatu agamu. Preporučena veličina 100x50x50cm, UVB rasveta, kvarcni pesak i uređenje. Izrada po meri u Novom Sadu."
+  path="/terarijumi/terarijum-za-bradatu-agamu.html"
+  image="/style/img/terrariums/100x50x50.webp"
+  ogType="article"
+  ogDescription="Preporučena veličina terarijuma za bradatu agamu je 100x50x50cm sa UVA lampom, UVB sijalicom i kvarcnim peskom. Saznajte sve o opremi i uređenju."
+  translations={translationsFor("/terarijumi/terarijum-za-bradatu-agamu.html")}
+  langLinks={{ ...{"en":"/en/terrariums.html","ru":"/ru/terrariums.html"}, ...translationsFor("/terarijumi/terarijum-za-bradatu-agamu.html") }}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Vodici</div>
+        <h1>Terarijum za bradatu agamu</h1>
+        <p>Sve sto trebate znati pre nego sto postavite terarijum — preporucena velicina, rasveta, podloga i uredenje.</p>
+      </div>
+    </section>
+<section class="intro">
+      <div class="wrap">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="/">Pocetna</a>
+          <span aria-hidden="true">›</span>
+          <a href="/terarijumi.html">Terarijumi</a>
+          <span aria-hidden="true">›</span>
+          <span aria-current="page">Terarijum za bradatu agamu</span>
+        </nav>
+      </div>
+    </section>
+<section class="guide-body">
+      <div class="wrap">
+        <div class="guide-grid">
+
+          <!-- Glavni tekst -->
+          <article class="guide-content reveal">
+
+            <h2>Preporucena velicina terarijuma</h2>
+            <p>
+              Preporucena velicina terarijuma za bradatu agamu je oko <strong>100x50x50 cm</strong>. Manji terarijumi mogu se koristiti privremeno — dok zivotinja ne preraste njihovu velicinu — ali odrasloj agami treba dovoljan prostor za kretanje, suncanjeie i pravu termicku zonaciju.
+            </p>
+            <p>
+              Terarijum mora imati <strong>toplu zonu</strong> (gde se zivotinja sunca) i <strong>hladniju zonu</strong> kuda se povlaci kada joj treba odmor. Bez tog gradijenta agama ne moze da regulise telesnu temperaturu, sto direktno utice na varenje i imunitet.
+            </p>
+            <p>
+              S obzirom da terarijume izradjujemo po meri, boju, velicinu i opremu birate sami. Ako niste sigurni koja je optimalna velicina za vasu zivotniju — kontaktirajte nas, rado cemo pomoci.
+            </p>
+
+            <h2>Oprema i rasveta</h2>
+
+            <h3>UVA lampa</h3>
+            <p>
+              UVA lampa simulira sunceve zrake i obezbedjuje toplotu za tacku suncanja. Temperatura na tacki suncanja treba da bude <strong>40–45 °C</strong>, dok ostatak terarijuma ostaje u opsegu 28–32 °C tokom dana. Noci se grejanje iskljucuje i temperatura moze pasti do sobnih uslova.
+            </p>
+
+            <h3>UVB sijalica</h3>
+            <p>
+              UVB osvetljenje je <strong>obavezno</strong> za bradatu agamu. Bez njega zivotinja ne moze da sintetise vitamin D3, koji je neophodan za apsorpciju kalcijuma. Nedostatak UVB osvetljenja vodi do metabolicke bolesti kostiju — deformiteta, slabosti i ozbiljnih zdravstvenih problema. Preporucuje se UVB sijalica jacine 10–12% za pustinjske vrste.
+            </p>
+
+            <div class="warn-box">
+              Nikada ne koristiti obicne sijalice ili LED rasvetu kao zamenu za UVB. Staklo i pleksiglas blokiraju UV zrake — sijalica mora biti direktno u terarijumu ili kroz mrezicu koja propusta UV.
+            </div>
+
+            <h3>Podloga</h3>
+            <p>
+              Preporucena podloga za bradatu agamu je <strong>kvarcni pesak</strong>. Odgovara njenom prirodnom stanistu i omogucava prirodno ponasanje kopanja. Pesak treba biti dovoljno dubok — minimum 5–8 cm — da zivotinja moze da kopa.
+            </p>
+            <p>
+              Alternativno, moze se koristiti i kamen ploca ili linoleum za lakse odrzavanje higijene, narocito kod mladih zivotinja.
+            </p>
+
+            <h2>Uredenje terarijuma</h2>
+            <p>Pored rasvete i podloge, u terarijum treba obezbediti:</p>
+            <ul>
+              <li><strong>Skroviste</strong> — kutija ili poluotvorena stijena gde se agama povlaci</li>
+              <li><strong>Panj ili kamen za suncanje</strong> — postaviti direktno ispod UVA lampe da bi temperatura bila ispravna</li>
+              <li><strong>Plitka posuda za vodu</strong> — menjati svakodnevno; agame piju i iz kapljica pri prskanju</li>
+              <li><strong>Dekorativne grane ili stene</strong> — po zeji, za bogatije okruzenje</li>
+            </ul>
+
+            <h2>Ceste greske pri postavljanju terarijuma</h2>
+            <ul>
+              <li>Prevelika vlaznost — bradata agama je pustinjska zivotinja, vlaznost treba biti 30–40%</li>
+              <li>Premalena tacka suncanja — ako lampa nije dovoljno jaka ili je daleko, agama nece moci da se zagreje</li>
+              <li>Nedostatak UVB — najcesca i najopasnija greska; vodi do trajnih ostecenja</li>
+              <li>Postavljanje staklene pregrade izmedju lampe i zivotinje — staklo blokira UV zrake</li>
+              <li>Preterano mali terarijum za odraslu jedinku — sprjecava normalnu termoregulaciju</li>
+            </ul>
+
+          </article>
+
+          <!-- Sidebar sa karticama terarijuma -->
+          <aside class="guide-sidebar reveal">
+            <div class="side-card">
+              <img src="/style/img/terrariums/100x50x50.webp" alt="Stakleni terarijum 100x50x50cm za bradatu agamu" width="600" height="600" loading="lazy">
+              <div class="side-card-body">
+                <h4>Terarijum 100x50x50</h4>
+                <p>Preporucena velicina za odraslu bradatu agamu.</p>
+                <a href="/terarijumi.html" class="btn btn-primary">Pogledaj ponudu</a>
+              </div>
+            </div>
+            <div class="side-card">
+              <img src="/style/img/terrariums/90x50x50.webp" alt="Stakleni terarijum 90x50x50cm" width="600" height="600" loading="lazy">
+              <div class="side-card-body">
+                <h4>Terarijum 90x50x50</h4>
+                <p>Pogodna velicina za mlade ili manje primerke.</p>
+                <a href="/terarijumi.html" class="btn btn-outline">Pogledaj ponudu</a>
+              </div>
+            </div>
+            <div class="side-card" style="background: var(--green); padding: 22px;">
+              <div style="color: #fff;">
+                <h4 style="font-family: 'Oswald', sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 8px;">Izrada po meri</h4>
+                <p style="font-family: 'Jost', sans-serif; font-weight: 300; font-size: .9rem; line-height: 1.6; color: rgba(255,255,255,.88); margin-bottom: 16px;">Boju, velicinu i opremu birate sami. Rok izrade 7 radnih dana.</p>
+                <a href="/izrada-terarijuma.html" class="btn btn-light" style="font-size: .85rem;">Saznaj vise</a>
+              </div>
+            </div>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+<section class="guide-faq">
+      <div class="wrap">
+        <h2>Cesta pitanja</h2>
+
+        <div class="faq-item">
+          <button class="faq-q">
+            Koja velicina terarijuma je potrebna za bradatu agamu?<span class="ic">+</span>
+          </button>
+          <div class="faq-a">
+            <p>
+              Preporucena velicina terarijuma za bradatu agamu je oko 100x50x50cm. Manji terarijumi mogu se koristiti dok zivotinja ne preraste njihovu velicinu, ali odrasloj agami treba pun prostor za kretanje, zoniranje temperature i suncanje.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q">
+            Koja rasveta je neophodna za bradatu agamu?<span class="ic">+</span>
+          </button>
+          <div class="faq-a">
+            <p>
+              Potrebna su dva tipa rasvete: UVA lampa koja simulira sunceve zrake i obezbedjuje toplotu na tacki suncanja, i UVB sijalica koja omogucava sintezu vitamina D3. Bez UVB osvetljenja agama razvija metabolicku bolest kostiju. Preporucuje se UVB sijalica jacine 10–12%.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q">
+            Koja podloga je preporucena?<span class="ic">+</span>
+          </button>
+          <div class="faq-a">
+            <p>
+              Preporucena podloga je kvarcni pesak, dubine minimum 5–8 cm. Odgovara prirodnom stanictu bradate agame i omogucava kopanje. Kod mladih zivotinja moze se koristiti i kamen ploca ili linoleum radi lakseg odrzavanja higijene.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q">
+            Da li izradjujete terarijume za bradate agame po meri?<span class="ic">+</span>
+          </button>
+          <div class="faq-a">
+            <p>
+              Da, terarijume izradjujemo po meri — boju, velicinu, opremu i sve ostalo birate sami. Rok izrade je 7 radnih dana. Kontaktirajte nas za informacije o ceni i dostupnosti.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+<section class="int-links">
+      <div class="wrap">
+        <div class="int-links-head reveal">
+          <div class="eyebrow">Korisni linkovi</div>
+          <h2>Vise informacija</h2>
+        </div>
+        <div class="int-links-grid reveal">
+          <a href="/zivotinje/bradata-agama.html" class="int-link-card">
+            Bradata agama — sve o vrsti
+            <span>Ishrana, nega, temperament i osobine</span>
+          </a>
+          <a href="/terarijumi.html" class="int-link-card">
+            Ponuda terarijuma
+            <span>Sve velicine, cene na upit</span>
+          </a>
+          <a href="/izrada-terarijuma.html" class="int-link-card">
+            Izrada terarijuma po meri
+            <span>Boju, velicinu i opremu birate sami</span>
+          </a>
+        </div>
+      </div>
+    </section>
+<section class="zcta">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content: center">Imate pitanje?</div>
+        <h2>Kontaktirajte nas <b>direktno</b></h2>
+        <p>Posaljite nam poruku sa pitanjem o terarijumu za bradatu agamu — odgovoricemo brzo i pomoci vam da napravite pravi izbor.</p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474?text=Zdravo%2C%20zanima%20me%20terarijum%20za%20bradatu%20agamu" target="_blank" rel="noopener" class="btn" style="background: #fff; color: var(--green-dark)" onclick="gtag('event', 'kontakt_click', {'metod': 'whatsapp'})">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event', 'kontakt_click', {'metod': 'telefon'})">+381 69 330 1474</a>
+        </div>
+      </div>
+    </section>
+<style is:global>
+      /* ── Vodic-specificni stilovi ── */
+      .guide-body {
+        background: var(--bg);
+        padding: 60px 0 100px;
+        transition: background 0.4s;
+      }
+      .guide-grid {
+        display: grid;
+        grid-template-columns: 1fr 300px;
+        gap: 48px;
+        align-items: start;
+      }
+      @media (max-width: 900px) {
+        .guide-grid { grid-template-columns: 1fr; }
+      }
+      .guide-content h2 {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        font-size: 1.55rem;
+        text-transform: uppercase;
+        letter-spacing: .06em;
+        color: var(--ink);
+        margin: 48px 0 14px;
+      }
+      .guide-content h2:first-child { margin-top: 0; }
+      .guide-content h3 {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        letter-spacing: .05em;
+        color: var(--green-dark);
+        margin: 28px 0 8px;
+      }
+      .guide-content p {
+        font-family: 'Jost', sans-serif;
+        font-weight: 300;
+        line-height: 1.8;
+        color: var(--ink);
+        margin-bottom: 16px;
+      }
+      .guide-content ul {
+        font-family: 'Jost', sans-serif;
+        font-weight: 300;
+        line-height: 1.8;
+        color: var(--ink);
+        padding-left: 20px;
+        margin-bottom: 16px;
+      }
+      .guide-content ul li { margin-bottom: 6px; }
+      .guide-content strong { font-weight: 600; }
+      .guide-content .warn-box {
+        background: #fff8e1;
+        border-left: 4px solid #f5a623;
+        padding: 16px 20px;
+        border-radius: 4px;
+        margin: 20px 0;
+        font-family: 'Jost', sans-serif;
+        font-size: .95rem;
+        line-height: 1.7;
+        color: var(--ink);
+      }
+
+      /* Sidebar karte */
+      .guide-sidebar { display: flex; flex-direction: column; gap: 20px; }
+      .side-card {
+        background: var(--white);
+        border-radius: 8px;
+        box-shadow: 0 8px 28px -12px rgba(40,47,52,.18);
+        overflow: hidden;
+        transition: transform .25s;
+      }
+      .side-card:hover { transform: translateY(-4px); }
+      .side-card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        display: block;
+      }
+      .side-card-body { padding: 16px 18px 20px; }
+      .side-card-body h4 {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: .05em;
+        color: var(--ink);
+        margin-bottom: 6px;
+      }
+      .side-card-body p {
+        font-family: 'Jost', sans-serif;
+        font-size: .88rem;
+        font-weight: 300;
+        color: var(--ink-soft);
+        margin-bottom: 14px;
+        line-height: 1.6;
+      }
+      .side-card-body .btn {
+        font-size: .85rem;
+        padding: 9px 18px;
+      }
+
+      /* Breadcrumb */
+      .breadcrumb {
+        padding: 14px 0 0;
+        font-family: 'Jost', sans-serif;
+        font-size: .85rem;
+        color: var(--ink-soft);
+      }
+      .breadcrumb a { color: var(--green); text-decoration: none; }
+      .breadcrumb a:hover { color: var(--green-dark); }
+      .breadcrumb span { margin: 0 6px; }
+
+      /* FAQ accordion */
+      .guide-faq { padding: 60px 0 80px; }
+      .guide-faq h2 {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        font-size: 1.55rem;
+        text-transform: uppercase;
+        letter-spacing: .06em;
+        margin-bottom: 32px;
+        color: var(--ink);
+      }
+      .faq-item {
+        background: var(--white);
+        border-radius: 6px;
+        margin-bottom: 10px;
+        box-shadow: 0 4px 16px -8px rgba(40,47,52,.12);
+        overflow: hidden;
+      }
+      .faq-q {
+        width: 100%;
+        background: none;
+        border: none;
+        text-align: left;
+        padding: 18px 22px;
+        font-family: 'Jost', sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        color: var(--ink);
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        transition: color .2s;
+      }
+      .faq-q:hover { color: var(--green); }
+      .faq-q .ic {
+        font-size: 1.3rem;
+        font-weight: 300;
+        color: var(--green);
+        flex-shrink: 0;
+        transition: transform .25s;
+      }
+      .faq-item.open .faq-q .ic { transform: rotate(45deg); }
+      .faq-a {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height .35s ease;
+      }
+      .faq-item.open .faq-a { max-height: 400px; }
+      .faq-a p {
+        padding: 0 22px 18px;
+        font-family: 'Jost', sans-serif;
+        font-weight: 300;
+        line-height: 1.8;
+        color: var(--ink);
+        margin: 0;
+      }
+
+      /* Interni linkovi */
+      .int-links {
+        padding: 48px 0 60px;
+        background: var(--white);
+      }
+      .int-links-head { margin-bottom: 24px; }
+      .int-links-head .eyebrow { margin-bottom: 8px; }
+      .int-links-head h2 {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        font-size: 1.55rem;
+        text-transform: uppercase;
+        letter-spacing: .06em;
+        color: var(--ink);
+      }
+      .int-links-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 16px;
+      }
+      .int-link-card {
+        display: block;
+        padding: 22px 24px;
+        background: var(--bg);
+        border-radius: 8px;
+        text-decoration: none;
+        color: var(--ink);
+        font-family: 'Jost', sans-serif;
+        font-weight: 500;
+        transition: background .2s, transform .2s;
+        border-left: 3px solid var(--green);
+      }
+      .int-link-card:hover {
+        background: var(--green);
+        color: var(--white);
+        transform: translateY(-3px);
+      }
+      .int-link-card span {
+        display: block;
+        font-size: .82rem;
+        font-weight: 300;
+        color: var(--ink-soft);
+        margin-top: 4px;
+        transition: color .2s;
+      }
+      .int-link-card:hover span { color: rgba(255,255,255,.8); }
+    </style>
+<script is:inline slot="after">
+      // FAQ accordion
+      document.querySelectorAll('.faq-q').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var item = this.closest('.faq-item');
+          var isOpen = item.classList.contains('open');
+          document.querySelectorAll('.faq-item.open').forEach(function(el) {
+            el.classList.remove('open');
+          });
+          if (!isOpen) item.classList.add('open');
+        });
+      });
+
+      // Reveal on scroll
+      var revealEls = document.querySelectorAll('.reveal');
+      if ('IntersectionObserver' in window) {
+        var obs = new IntersectionObserver(function(entries) {
+          entries.forEach(function(e) {
+            if (e.isIntersecting) {
+              e.target.classList.add('visible');
+              obs.unobserve(e.target);
+            }
+          });
+        }, { threshold: 0.12 });
+        revealEls.forEach(function(el) { obs.observe(el); });
+      } else {
+        revealEls.forEach(function(el) { el.classList.add('visible'); });
+      }
+    </script>
+</Base>

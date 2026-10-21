@@ -1,0 +1,65 @@
+{
+  "name": "Akvarijum 35x23x25",
+  "label": "Mali akvarijum",
+  "lead": "Stakleni akvarijum dimenzija 35x23x25cm. Zapremina 20.1 litara. Ručna izrada u Novom Sadu.",
+  "image": "/style/img/aquariums/a35x23x25.webp",
+  "imageAlt": "Akvarijum 35x23x25 - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Dužina",
+      "v": "35 cm"
+    },
+    {
+      "k": "Širina",
+      "v": "23 cm"
+    },
+    {
+      "k": "Visina",
+      "v": "25 cm"
+    },
+    {
+      "k": "Zapremina",
+      "v": "~20.1 L"
+    },
+    {
+      "k": "Materijal",
+      "v": "Staklo"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Akvarijum dimenzija 35x23x25cm (20.1L) pruža dovoljno prostora za uređenje sa živim biljkama, korenjem i kamenom. Staklo je precizno isečeno i lepljeno akvarijumskim silikonom koji obezbeđuje potpunu nepropusnost."
+    },
+    {
+      "type": "p",
+      "html": "Dimenzije dozvoljavaju postavljanje raznovrsnog akvaskejpa - drvo, kamen, žive biljke i kvalitetna podloga. Preporučujemo spoljni ili unutrašnji filter, grejač sa termostatom i LED osvetljenje prilagođeno biljkama."
+    },
+    {
+      "type": "h2",
+      "text": "Izrada po meri"
+    },
+    {
+      "type": "p",
+      "html": "Akvarijum izrađujemo ručno, pa su prilagođavanja moguća - nestandardne dimenzije, otvori za creva filtera, ojačano dno za teži kamen. Pišite nam ili pozovite za procenu. Dostava kurirskom službom u celoj Srbiji."
+    }
+  ],
+  "seo": {
+    "title": "Akvarijum 35x23x25 | Akvarijum - NS Reptiles",
+    "description": "Akvarijum 35x23x25 - stakleni akvarijum 35x23x25cm. Ručna izrada, dostava širom Srbije. NS Reptiles Novi Sad.",
+    "keywords": "akvarijum 35x23x25, akvarijum 35x23x25cm, akvarijum prodaja, akvarijum Novi Sad, NS Reptiles",
+    "ogTitle": "Akvarijum 35x23x25 | NS Reptiles",
+    "ogDescription": "Stakleni akvarijum 35x23x25cm. Ručna izrada u Novom Sadu."
+  },
+  "related": [
+    "akvarijumi/akvarijum-25x25x35",
+    "akvarijumi/akvarijum-30x21x23",
+    "akvarijumi/akvarijum-36x28x35",
+    "akvarijumi/akvarijum-40x25x27"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Terarijum 70x45x97 DUPLI +3D",
+  "label": "Veliki terarijum",
+  "lead": "Dupli stakleni terarijum dimenzija 70x45x97cm sa ručno rađenom 3D pozadinom. Dva odvojena odeljka za držanje dve jedinke u jednom kućištu.",
+  "image": "/style/img/terrariums/70x45x97x2.webp",
+  "imageAlt": "Dupli stakleni terarijum 70x45x97cm sa 3D pozadinom - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Dužina",
+      "v": "70 cm"
+    },
+    {
+      "k": "Širina",
+      "v": "45 cm"
+    },
+    {
+      "k": "Visina",
+      "v": "97 cm"
+    },
+    {
+      "k": "Zapremina",
+      "v": "~305.6 L"
+    },
+    {
+      "k": "Materijal",
+      "v": "Staklo"
+    },
+    {
+      "k": "3D Pozadina",
+      "v": "Da"
+    },
+    {
+      "k": "Tip",
+      "v": "Vertikalni"
+    },
+    {
+      "k": "Odeljci",
+      "v": "2 (dupli)"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Stakleni terarijum 70x45x97cm zapremine 305.6 litara dolazi sa ručno rađenom 3D pozadinom koja unutrašnjosti daje izgled prirodnog staništa. Pozadina od stiropora modelovana je u obliku stene, kore drveta ili pećinskog reljefa - svaki komad je unikat jer se radi ručno u našoj radionici."
+    },
+    {
+      "type": "p",
+      "html": "Vertikalni format (visina 97cm veća od dužine 70cm) namenjen je arborealnim vrstama koje provode većinu vremena na granama i lišću. Visina pruža prostor za postavljanje grana, liana i biljaka na različitim nivoima. Ventilacija je rešena mrežastim otvorima koji omogućavaju strujanje vazduha i kontrolu vlažnosti unutar terarijuma."
+    },
+    {
+      "type": "h2",
+      "text": "Pogodan za"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Kameleoni (jemenski, pantera)",
+        "Arborelane zmije",
+        "Crested gekoni u paru",
+        "Veće žabe drotolazi"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Izrada po meri"
+    },
+    {
+      "type": "p",
+      "html": "Ovaj model možete poručiti sa prilagođenom folijom i pozadinom. Ako vam trebaju drugačije dimenzije ili dodatna oprema - LED osvetljenje, termostat, brava - izrađujemo po specifikaciji. Dostava na adresu u celoj Srbiji."
+    }
+  ],
+  "seo": {
+    "title": "Terarijum 70x45x97 DUPLI +3D | Terarijum - NS Reptiles",
+    "description": "Terarijum 70x45x97 DUPLI +3D - stakleni terarijum sa 3D pozadinom 70x45x97cm. Ručna izrada, dostava širom Srbije. NS Reptiles Novi Sad.",
+    "keywords": "terarijum 70x45x97 dupli +3d, terarijum 70x45x97cm, terarijum prodaja, terarijum Novi Sad, NS Reptiles",
+    "ogTitle": "Terarijum 70x45x97 DUPLI +3D - NS Reptiles"
+  },
+  "related": [
+    "terarijumi/terarijum-120x40x50-3d",
+    "terarijumi/terarijum-80x50x80-akvarijum",
+    "terarijumi/terarijum-75x59x90-dupli-3d",
+    "terarijumi/ter-akvarijum-80x45x40"
+  ]
+}

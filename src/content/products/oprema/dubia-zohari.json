@@ -1,0 +1,67 @@
+{
+  "name": "Dubia",
+  "label": "Živa hrana",
+  "lead": "Dubije su najpopularniji feeder insekt za guštere - visok procenat proteina, mekan hitin i lako varenje. Dostupne u tri veličine, od sitnih nimfi za mladunce do odraslih jedinki za veće guštere.",
+  "image": "/style/img/oprema/dubie.webp",
+  "imageAlt": "Dubia žohari - živa hrana za guštere, bradate agame i leopard gekone",
+  "price": 600,
+  "priceFrom": true,
+  "priceUnit": "/ 100 kom",
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Feeder žohar"
+    },
+    {
+      "k": "Veličine",
+      "v": "Mali (nimfe), srednji, veliki"
+    },
+    {
+      "k": "Namena",
+      "v": "Bradate agame, gekoni, kameleoni, tegui"
+    },
+    {
+      "k": "Pakovanje",
+      "v": "100 komada"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Opis"
+    },
+    {
+      "type": "p",
+      "html": "Dubia (dubije, dubia žohari) su najpopularniji feeder insekt za ishranu guštera i osnova jelovnika većine insektojeda. Imaju visok procenat proteina, malo hitina i mekan oklop, pa su lako svarljive i pogodne i za mladunce i za odrasle jedinke. Za razliku od cvrčaka, dubie ne cvrče, ne skaču, ne penju se po glatkim površinama i ne šire neprijatan miris - praktične su za držanje i duže preživljavaju u terarijumu ako ih životinja ne pojede odmah."
+    },
+    {
+      "type": "h2",
+      "text": "Veličine i kome odgovaraju"
+    },
+    {
+      "type": "p",
+      "html": "Nudimo tri veličine. <strong>Mali (nimfe)</strong> su idealni za mladunce bradate agame, leopard gekone i druge sitnije guštere. <strong>Srednji</strong> odgovaraju poluodraslim životinjama, dok su <strong>veliki (odrasli)</strong> namenjeni krupnijim gušterima i odraslim agamama. Pravilo veličine: insekt ne sme biti širi od razmaka između očiju životinje. Živu hranu pre obroka pospite kalcijumom, a povremeno i multivitaminom."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Cena je već od 600 din za 100 komada, u zavisnosti od veličine. Pozovite nas ili pišite na WhatsApp za tačnu cenu i dostupnost. Isporuka kurirskom službom u celu Srbiju, besplatno preuzimanje u Novom Sadu. Za preporuku vrste i veličine hrane za vašu životinju - savetujemo besplatno."
+    }
+  ],
+  "seo": {
+    "title": "Dubia | Živa hrana za guštere - NS REPTILES",
+    "description": "Dubia (dubije) - najpopularnija živa hrana za guštere: visok procenat proteina, mekan hitin, lako varenje. Tri veličine, već od 600 din za 100 kom.",
+    "keywords": "dubia, dubije, dubia žohari, dubia cena, dubia bubašvabe, hrana za bradatu agamu, hrana za leopard gekona, živa hrana za guštere, feeder insekti, NS REPTILES, Novi Sad",
+    "ogTitle": "Dubia | Živa hrana za guštere - NS REPTILES",
+    "ogDescription": "Najpopularniji feeder insekt - visok procenat proteina, mekan hitin i lako varenje. Tri veličine, već od 600 din za 100 kom."
+  },
+  "related": [
+    "oprema/fobasi",
+    "oprema/lateralis",
+    "oprema/brasnari-tenebrio",
+    "oprema/dubie-m-100kom"
+  ]
+}

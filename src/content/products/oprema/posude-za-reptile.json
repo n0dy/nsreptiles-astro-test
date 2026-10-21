@@ -1,0 +1,64 @@
+{
+  "name": "Posude za reptile",
+  "label": "Oprema",
+  "lead": "Dekorativne posude za hranu i vodu za reptile. Različiti dizajni i veličine, izrađene od netoksičnih materijala bezbednih za životinje.",
+  "image": "/style/img/oprema/posude-za-reptile.webp",
+  "imageAlt": "Posude za reptile - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "NS Reptiles"
+    },
+    {
+      "k": "Tip",
+      "v": "Posude za hranu/vodu"
+    },
+    {
+      "k": "Materijal",
+      "v": "Netoksična smola"
+    },
+    {
+      "k": "Namena",
+      "v": "Sve vrste reptila"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Dekorativne posude za hranu i vodu su neophodan deo opreme svakog terarijuma. U našoj ponudi možete pronaći raznovrsne modele koji se savršeno uklapaju u prirodan izgled terarijuma, od malih posuda za kalcijumski prah i insekte do većih posuda za vodu pogodnih za kupanje reptila. Svaka posuda je izrađena od netoksičnih materijala koji su potpuno bezbedni za životinje, čak i ako ih reptili slučajno zagrizu ili liznu."
+    },
+    {
+      "type": "p",
+      "html": "Dizajn posuda imitira prirodne elemente poput kamena i stena, čime se vizuelno uklapaju u terarijumsko okruženje bez narušavanja estetike. Teška osnova sprečava prevrtanje čak i od strane većih guštera i zmija, dok glatke unutrašnje površine olakšavaju čišćenje i održavanje higijene. Redovna zamena vode i čišćenje posuda je ključno za zdravlje vaših reptila."
+    },
+    {
+      "type": "p",
+      "html": "Male plitke posude su idealne za leopard gekone i manje guštere kojima je potrebna mala posuda za vodu ili kalcijumski prah. Srednje posude odgovaraju bradatim agamama i kornjačama za svakodnevno pojenje. Veće posude su pogodne za zmije i veće guštere kojima je potrebno dovoljno prostora za potapanje, posebno u periodima presvlačenja kada vlažnost pomaže u skidanju stare kože. Kontaktirajte nas za dostupne modele i veličine."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Poručite pozivom ili WhatsApp porukom. Dostava na adresu u bilo kom gradu Srbije. Iz Novog Sada - preuzimanje u radionici."
+    }
+  ],
+  "seo": {
+    "title": "Posude za reptile | Oprema - NS Reptiles",
+    "description": "Dekorativne posude za hranu i vodu za reptile. Različiti dizajni i veličine, netoksični materijali. NS Reptiles Novi Sad.",
+    "keywords": "posude za reptile, posuda za vodu za reptile, posuda za hranu za reptile, oprema za terarijum, NS Reptiles, Novi Sad",
+    "ogTitle": "Posude za reptile | NS Reptiles"
+  },
+  "related": [
+    "oprema/kokosov-treset-5l",
+    "oprema/pinceta",
+    "oprema/skrivalice-za-reptile",
+    "oprema/cork-bark"
+  ]
+}

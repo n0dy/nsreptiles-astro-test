@@ -1,0 +1,81 @@
+{
+  "name": "Terarijum 45x40x70",
+  "label": "Srednji terarijum",
+  "lead": "Stakleni terarijum dimenzija 45x40x70cm. Zapremina 126.0 litara, vertikalni format. Ručna izrada u Novom Sadu.",
+  "image": "/style/img/terrariums/45x40x70.webp",
+  "imageAlt": "Stakleni terarijum 45x40x70cm - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Dužina",
+      "v": "45 cm"
+    },
+    {
+      "k": "Širina",
+      "v": "40 cm"
+    },
+    {
+      "k": "Visina",
+      "v": "70 cm"
+    },
+    {
+      "k": "Zapremina",
+      "v": "~126.0 L"
+    },
+    {
+      "k": "Materijal",
+      "v": "Staklo"
+    },
+    {
+      "k": "Tip",
+      "v": "Vertikalni"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Sa dimenzijama 45x40x70cm i zapreminom od 126 litara, ovaj terarijum nudi čist stakleni prostor obložen dekorativnom folijom spolja. Folija je funkcionalna - sprečava životinje da vide svoj odraz i smanjuje stres, a estetski uklapa terarijum u vaš prostor."
+    },
+    {
+      "type": "p",
+      "html": "Vertikalni format (visina 70cm veća od dužine 45cm) namenjen je arborealnim vrstama koje provode većinu vremena na granama i lišću. Visina pruža prostor za postavljanje grana, lijana i biljaka na različitim nivoima. Svaki terarijum opremamo ventilacionim mrežicama koje omogućavaju protok vazduha prilagođen vrsti koju držite."
+    },
+    {
+      "type": "h2",
+      "text": "Pogodan za"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Gekoni koji se penju (crested, gargoyle)",
+        "Dnevni gekoni",
+        "Zelene anole",
+        "Žabe drotolazi"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Izrada po meri"
+    },
+    {
+      "type": "p",
+      "html": "Ovaj model možete poručiti sa prilagođenom folijom i pozadinom. Ako vam trebaju drugačije dimenzije ili dodatna oprema - LED osvetljenje, termostat, brava - izrađujemo po specifikaciji. Dostava na adresu u celoj Srbiji."
+    }
+  ],
+  "seo": {
+    "title": "Terarijum 45x40x70 | Terarijum - NS Reptiles",
+    "description": "Terarijum 45x40x70 - stakleni terarijum 45x40x70cm. Ručna izrada, dostava širom Srbije. NS Reptiles Novi Sad.",
+    "keywords": "terarijum 45x40x70, terarijum 45x40x70cm, terarijum prodaja, terarijum Novi Sad, NS Reptiles",
+    "ogTitle": "Terarijum 45x40x70 | NS Reptiles"
+  },
+  "related": [
+    "terarijumi/terarijum-40x40x40",
+    "terarijumi/terarijum-45x35x35",
+    "terarijumi/terarijum-50x35x35-3d",
+    "terarijumi/terarijum-50x35x35"
+  ]
+}

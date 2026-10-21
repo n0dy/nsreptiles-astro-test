@@ -1,0 +1,60 @@
+{
+  "name": "Dubie M 100kom",
+  "label": "Živa hrana",
+  "lead": "Dubia bubašvabe (Blaptica dubia) veličine M, 100 komada. Bogat izvor proteina za reptile srednje veličine.",
+  "image": "/style/img/oprema/dubie.webp",
+  "imageAlt": "Dubie M 100kom - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Živa hrana - Dubia bubašvabe"
+    },
+    {
+      "k": "Veličina",
+      "v": "M (srednji)"
+    },
+    {
+      "k": "Pakovanje",
+      "v": "100 komada"
+    },
+    {
+      "k": "Namena",
+      "v": "Hrana za reptile"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Dubia bubašvabe (Blaptica dubia) srednje veličine (M), pakovanje od 100 komada. Dubia bubašvabe su jedna od najboljih opcija žive hrane za reptile - bogate su proteinima (oko 22%), niske u mastima (oko 7%) i imaju odličan odnos kalcijuma i fosfora. Srednja veličina je idealna za odrasle leopard gekone, mlade bradate agame, manje zmije i druge reptile srednje veličine."
+    },
+    {
+      "type": "p",
+      "html": "Dubia bubašvabe imaju mekši egzoskelet koji je lakše svarljiv od fobasa. Ne penju se po glatkim površinama i ne proizvode neprijatan miris, što ih čini praktičnim za čuvanje u domaćinstvu. Čuvajte ih na sobnoj temperaturi sa pristupom hrani (voće, povrće) za gut-loading pre hranjenja."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Dubie M 100kom | Živa Hrana za Reptile - NS Reptiles",
+    "description": "Dubia bubašvabe veličine M, 100 komada. Bogat izvor proteina za reptile srednje veličine - gekone, agame i zmije.",
+    "keywords": "Dubie M 100kom, dubia bubašvabe, živa hrana za reptile, hrana za agame, NS Reptiles",
+    "ogTitle": "Dubie M 100kom | NS Reptiles"
+  },
+  "related": [
+    "oprema/dubie-s-100kom",
+    "oprema/dubie-l-100kom",
+    "oprema/calci-shot",
+    "oprema/kalcijum-vitamini"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Calci-Shot",
+  "label": "Suplementi",
+  "lead": "Koncentrovani kalcijumski suplement za sve reptile i vodozemce. Podrška zdravom razvoju kostiju.",
+  "image": "/style/img/oprema/calci-shot.webp",
+  "imageAlt": "Calci-Shot - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "HabiStat"
+    },
+    {
+      "k": "Težina",
+      "v": "~20g"
+    },
+    {
+      "k": "Tip",
+      "v": "Kalcijumski suplement"
+    },
+    {
+      "k": "Namena",
+      "v": "Svi reptili i vodozemci"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "HabiStat Calci-Shot je koncentrovani kalcijumski suplement namenjen svim vrstama reptila i vodozemaca. Kalcijum je jedan od najvažnijih minerala u ishrani reptila jer omogućava pravilan razvoj i čvrstinu kostiju, kao i normalno funkcionisanje mišića."
+    },
+    {
+      "type": "p",
+      "html": "Suplement se posipa po živoj ili dopunskoj hrani pre hranjenja. Redovna upotreba smanjuje rizik od metaboličke bolesti kostiju (MBD), koja se najčešće javlja kod reptila sa nedovoljnim unosom kalcijuma ili neadekvatnim UVB osvetljenjem. Za najbolje rezultate koristiti uz UVB izvor svetlosti."
+    },
+    {
+      "type": "p",
+      "html": "HabiStat je britanski brend sa dugogodišnjom tradicijom u proizvodnji kvalitetnih suplemenata i opreme za reptile."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Calci-Shot | Kalcijumski Suplement za Reptile - NS Reptiles",
+    "description": "HabiStat Calci-Shot - koncentrovani kalcijumski suplement za sve reptile i vodozemce. Podrška zdravom razvoju kostiju.",
+    "keywords": "Calci-Shot, HabiStat kalcijum, kalcijumski suplement, kalcijum za reptile, NS Reptiles",
+    "ogTitle": "Calci-Shot | NS Reptiles",
+    "ogDescription": "Koncentrovani kalcijumski suplement za sve reptile i vodozemce. Podrška zdravom razvoju kostiju."
+  },
+  "related": [
+    "oprema/arcadia-calciumpro-mg",
+    "oprema/arcadia-earthpro-ca-100g",
+    "oprema/kalcijum-vitamini",
+    "oprema/arcadia-earthpro-a"
+  ]
+}

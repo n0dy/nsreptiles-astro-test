@@ -1,0 +1,51 @@
+{
+  "name": "Kokosov treset blok 70L",
+  "label": "Podloge",
+  "lead": "Kompresovani blok kokosovog treseta koji se širi na ~70L. Ekonomično pakovanje za veće terarijume.",
+  "image": "/style/img/oprema/tresetblok.webp",
+  "imageAlt": "Kokosov treset blok 70L - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Podloga - kokosov treset (blok)"
+    },
+    {
+      "k": "Zapremina",
+      "v": "~70L (nakon ekspanzije)"
+    },
+    {
+      "k": "Namena",
+      "v": "Podloga za terarijume"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Kompresovani blok kokosovog treseta je ekonomično rešenje za vlasnike većih terarijuma ili za one koji redovno menjaju podlogu. Nakon potapanja u vodu, blok se širi na zapreminu od oko 70 litara kvalitetnog kokosovog treseta. Dovoljno je staviti blok u veliku posudu, zaliti toplom vodom i sačekati 20-30 minuta da se potpuno ekspandira. Kokosov treset odlično zadržava vlagu, prirodno je otporan na buđ i bezbedan je za reptile. Pogodan je za sve tropske i šumske vrste kojima je potrebna viša vlažnost - crested gekone, kameleone, dnevne gekone, zmije iz tropskih područja i mnoge vrste žaba. Velika zapremina nakon ekspanzije čini ga daleko isplativijim od manjih gotovih pakovanja."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Kokosov treset blok 70L | Oprema - NS Reptiles",
+    "description": "Kompresovani blok kokosovog treseta koji se širi na ~70L. Ekonomično pakovanje za veće terarijume. NS Reptiles Novi Sad.",
+    "keywords": "kokosov treset blok 70l, podloga za terarijum, kokosov treset blok, oprema za reptile, NS Reptiles, Novi Sad"
+  },
+  "related": [
+    "oprema/spagnum-treset-5l",
+    "oprema/kvarcni-pesak-1kg",
+    "oprema/cork-bark",
+    "oprema/pinceta"
+  ]
+}

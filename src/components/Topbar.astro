@@ -1,0 +1,40 @@
+---
+import { SITE, LOCALES, type Locale } from '../config/site';
+import { LANG_NAMES, HOME, UI } from '../i18n/ui';
+
+interface Props {
+  lang: Locale;
+  alternates: Partial<Record<Locale, string>>;
+}
+const { lang, alternates } = Astro.props;
+const t = UI[lang];
+---
+<div class="topbar">
+  <div class="wrap topbar-inner">
+    <div class="topbar-left">
+      <div class="lang-dd" id="langDd">
+        <button class="lang-trigger" aria-haspopup="true">
+          <span class="lang-cur">{LANG_NAMES[lang]}</span>
+          <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg>
+        </button>
+        <div class="lang-list">
+          {LOCALES.map((l) => (
+            <a class:list={['lang-opt', l === lang && 'active']} href={alternates[l] ?? HOME[l]} hreflang={l} lang={l}>
+              {LANG_NAMES[l]}
+            </a>
+          ))}
+        </div>
+      </div>
+      <a href={`tel:${SITE.phone}`}>{t.tel}: {SITE.phoneDisplay}</a>
+    </div>
+    <div class="topbar-social">
+      <a href={SITE.social.facebook} target="_blank" rel="noopener">Facebook</a>
+      <a href={SITE.social.instagram} target="_blank" rel="noopener">Instagram</a>
+      <a href={SITE.social.tiktok} target="_blank" rel="noopener">TikTok</a>
+      <button class="theme-toggle" id="themeToggle" aria-label={t.toggleTheme}>
+        <svg class="ic-sun" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>
+        <svg class="ic-moon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1111.2 3 7 7 0 0021 12.8z"></path></svg>
+      </button>
+    </div>
+  </div>
+</div>

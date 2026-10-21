@@ -1,0 +1,65 @@
+{
+  "name": "Arcadia Revitalise'd3",
+  "label": "Suplementi",
+  "lead": "Kompletan vitaminski i mineralni prah sa vitaminom D3 za reptile i vodozemce. Za jak imunitet i zdrav razvoj.",
+  "image": "/style/img/oprema/arcadia-revitalised3.webp",
+  "imageAlt": "Arcadia Revitalise'd3 - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "Arcadia"
+    },
+    {
+      "k": "Težina",
+      "v": "50g"
+    },
+    {
+      "k": "Tip",
+      "v": "Vitaminski prah"
+    },
+    {
+      "k": "Namena",
+      "v": "Reptili i vodozemci"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Arcadia Revitalise'd3 je kompletan vitaminski i mineralni suplement u prahu namenjen reptilima i vodozemcima. Sadrži vitamin D3 zajedno sa čitavim spektrom vitamina, minerala i elemenata u tragovima potrebnih za pravilan metabolizam i zdrav rast."
+    },
+    {
+      "type": "p",
+      "html": "Posipa se po živoj hrani nekoliko puta nedeljno kao dopuna svakodnevnom kalcijumu. Formulacija podržava imuni sistem, zdravlje kože i pravilan razvoj kostiju, posebno kod mladih životinja i vrsta u periodu intenzivnog rasta."
+    },
+    {
+      "type": "p",
+      "html": "Proizvod britanskog brenda Arcadia, poznatog po naprednim formulacijama i visokim standardima u industriji opreme za reptile."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Arcadia Revitalise'd3 | Vitaminski Suplement za Reptile - NS Reptiles",
+    "description": "Arcadia Revitalise'd3 50g - kompletan vitaminski i mineralni prah sa D3 za reptile i vodozemce. Podrška imunitetu i zdravlju.",
+    "keywords": "Arcadia Revitalise'd3, vitaminski suplement za reptile, vitamini D3 reptili, multivitamin reptili, NS Reptiles",
+    "ogTitle": "Arcadia Revitalise'd3 | NS Reptiles",
+    "ogDescription": "Kompletan vitaminski i mineralni prah sa vitaminom D3 za reptile i vodozemce. Za jak imunitet i zdrav razvoj."
+  },
+  "related": [
+    "oprema/arcadia-calciumpro-mg",
+    "oprema/arcadia-earthpro-ca-100g",
+    "oprema/arcadia-earthpro-a",
+    "oprema/arcadia-capro-mg"
+  ]
+}

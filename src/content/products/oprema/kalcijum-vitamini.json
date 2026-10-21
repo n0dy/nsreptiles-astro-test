@@ -1,0 +1,61 @@
+{
+  "name": "Kalcijum/Vitamini",
+  "label": "Suplementi",
+  "lead": "Kalcijum i vitaminski dodatak za reptile. Podrška pravilnom razvoju kostiju - posipa se po hrani.",
+  "image": "/style/img/oprema/kalcijum.webp",
+  "imageAlt": "Kalcijum/Vitamini - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Kalcijum + vitaminski dodatak"
+    },
+    {
+      "k": "Namena",
+      "v": "Razvoj kostiju reptila"
+    },
+    {
+      "k": "Primena",
+      "v": "Posipanje po hrani"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Kombinovani kalcijum i vitaminski dodatak namenjen svakodnevnoj ishrani reptila. Kalcijum je neophodan za pravilan razvoj i čvrstinu kostiju, dok vitaminski deo formule podržava opšti metabolizam, imunitet i zdravlje kože."
+    },
+    {
+      "type": "p",
+      "html": "Dodatak se posipa po živoj ili dopunskoj hrani neposredno pre hranjenja. Redovna upotreba smanjuje rizik od metaboličke bolesti kostiju (MBD), jedne od najčešćih bolesti reptila u zarobljeništvu. Za najbolje rezultate koristiti uz adekvatno UVB osvetljenje koje omogućava sintezu vitamina D3 potrebnog za apsorpciju kalcijuma."
+    },
+    {
+      "type": "p",
+      "html": "Pogodno za sve vrste guptera, zmija i drugih reptila kojima je potrebna dopunska mineralna i vitaminska ishrana."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Kalcijum/Vitamini | Suplement za Reptile - NS Reptiles",
+    "description": "Kalcijum i vitaminski dodatak za reptile - podrška razvoju kostiju. Posipa se po hrani za optimalan unos kalcijuma i vitamina.",
+    "keywords": "Kalcijum vitamini reptili, suplement za reptile, kalcijum za reptile, vitamini za reptile, NS Reptiles",
+    "ogTitle": "Kalcijum/Vitamini | NS Reptiles"
+  },
+  "brand": false,
+  "related": [
+    "oprema/arcadia-uvb-10-18w",
+    "oprema/arcadia-uvb-12-23w",
+    "oprema/arcadia-capro-mg",
+    "oprema/arcadia-earthpro-a"
+  ]
+}

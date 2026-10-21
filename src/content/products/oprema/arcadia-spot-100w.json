@@ -1,0 +1,61 @@
+{
+  "name": "Arcadia Spot 100W",
+  "label": "Rasveta",
+  "lead": "Solar Basking Spotlight 100W - usmerena toplota i svetlost za mesto za sunčanje u terarijumu.",
+  "image": "/style/img/oprema/spot100.webp",
+  "imageAlt": "Arcadia Spot 100W - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "Arcadia"
+    },
+    {
+      "k": "Snaga",
+      "v": "100W"
+    },
+    {
+      "k": "Tip",
+      "v": "Spot sijalica za sunčanje"
+    },
+    {
+      "k": "Grlo",
+      "v": "E27"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Arcadia Solar Basking Spotlight sijalica snage 100W je najsnažnija opcija u ponudi, idealna za veće terarijume i vrste koje zahtevaju visoke temperature na mestu za sunčanje. Proizvodi intenzivnu usmerenu toplotu i vidljivu svetlost, simulirajući jako sunčevo zračenje kakvo se sreće u pustinjskim i savanskim stanistima. Pogodna za bradate agame, uromastikse i druge pustinjske vrste kojima je potrebna temperatura baznog mesta od 40-45°C."
+    },
+    {
+      "type": "p",
+      "html": "Postavlja se na jednu stranu terarijuma za stvaranje temperaturnog gradijenta - toplija zona za sunčanje i hladnija za odmor. Širok ugao osvetljenja ravnomerno raspoređuje toplotu, obezbeđujući veće mesto za sunčanje. E27 grlo omogućava laku ugradnju u standardne keramičke nosače. Preporučujemo korišćenje sa termostatom za preciznu kontrolu temperature. Arcadia je renomirani britanski brend poznat po kvalitetu rasvete za reptile."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Arcadia Spot 100W | Sijalica za Sunčanje - NS Reptiles",
+    "description": "Arcadia Solar Basking Spot 100W - usmerena toplota i svetlost za mesto za sunčanje u terarijumu. E27 grlo, za veće terarijume.",
+    "keywords": "Arcadia Spot 100W, sijalica za sunčanje, basking sijalica, grejna sijalica terarijum, NS Reptiles",
+    "ogTitle": "Arcadia Spot 100W | NS Reptiles",
+    "ogDescription": "Solar Basking Spotlight 100W - usmerena toplota i svetlost za mesto za sunčanje u terarijumu."
+  },
+  "related": [
+    "oprema/arcadia-spot-50w",
+    "oprema/arcadia-spot-75w",
+    "oprema/arcadia-uvb-5-18w",
+    "oprema/arcadia-uvb-7-23w"
+  ]
+}

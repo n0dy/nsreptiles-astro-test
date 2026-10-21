@@ -1,0 +1,60 @@
+{
+  "name": "Arcadia UVB 12% 23W",
+  "label": "Rasveta",
+  "lead": "Arcadia UVB kompaktna sijalica 12% / 23W. Maksimalno UVB zračenje za pustinjske vrste reptila.",
+  "image": "/style/img/oprema/uvb12.webp",
+  "imageAlt": "Arcadia UVB 12% 23W - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "Arcadia"
+    },
+    {
+      "k": "UVB",
+      "v": "12%"
+    },
+    {
+      "k": "Snaga",
+      "v": "23W"
+    },
+    {
+      "k": "Namena",
+      "v": "Pustinjske vrste reptila"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Arcadia UVB kompaktna sijalica sa 12% UVB zračenjem i snagom od 23W pruža najjače UVB zračenje u kompaktnoj formi, namenjeno pustinjskim vrstama reptila koje u prirodi žive pod intenzivnim suncem. UVB zračenje omogućava sintezu vitamina D3 u koži, neophodnog za apsorpciju kalcijuma i zdrav razvoj kostiju."
+    },
+    {
+      "type": "p",
+      "html": "Visok procenat od 12% čini ovu sijalicu idealnom za bradate agame, uromastikse i druge pustinjske vrste kojima je potrebno snažno UVB osvetljenje. Kompaktna E27 forma omogućava laku ugradnju u keramičke nosače. Preporučena udaljenost od životinje je 25-30cm. Sijalicu menjajte svakih 6-12 meseci jer UVB emisija slabi tokom vremena, čak i kada vidljiva svetlost ostaje nepromenjena."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Arcadia UVB 12% 23W | UVB Sijalica za Reptile - NS Reptiles",
+    "description": "Arcadia UVB kompaktna sijalica 12% / 23W za pustinjske vrste reptila kojima treba maksimalno UVB zračenje. E27 grlo.",
+    "keywords": "Arcadia UVB 12% 23W, UVB sijalica za reptile, kompaktna UVB sijalica, pustinjske vrste, NS Reptiles",
+    "ogTitle": "Arcadia UVB 12% 23W | NS Reptiles"
+  },
+  "related": [
+    "oprema/arcadia-uvb-7-23w",
+    "oprema/arcadia-uvb-10-18w",
+    "oprema/kalcijum-vitamini",
+    "oprema/arcadia-capro-mg"
+  ]
+}

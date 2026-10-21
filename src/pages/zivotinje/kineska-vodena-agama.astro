@@ -1,0 +1,255 @@
+---
+import Base from '../../layouts/Base.astro';
+import '../../styles/animals.css';
+import '../../styles/usluge.css';
+import '../../styles/oprema.css';
+import { translationsFor } from '../../i18n/routes';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Kineska vodena agama — nega, ishrana i uslovi držanja",
+    "description": "Kompletni vodič za kinesku vodenu agamu: terarijum, temperatura, vlažnost, ishrana i zdravlje.",
+    "author": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "url": "https://nsreptiles.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "NS Reptiles",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nsreptiles.net/style/img/logo.jpg"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://nsreptiles.net/zivotinje/kineska-vodena-agama.html"
+    },
+    "image": "https://nsreptiles.net/style/img/gallery/13.jpg"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Početna",
+        "item": "https://nsreptiles.net/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Životinje",
+        "item": "https://nsreptiles.net/zivotinje.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Kineska vodena agama",
+        "item": "https://nsreptiles.net/zivotinje/kineska-vodena-agama.html"
+      }
+    ]
+  }
+];
+---
+<Base
+  lang="sr"
+  title="Kineska vodena agama: nega, ishrana, terarijum | NS Reptiles"
+  description="Kineska vodena agama: uslovi držanja, ishrana, temperatura, vlažnost i veličina terarijuma. Kompletni vodič iz odgajivačnice NS Reptiles, Novi Sad."
+  path="/zivotinje/kineska-vodena-agama.html"
+  image="/style/img/gallery/13.jpg"
+  ogType="article"
+  ogTitle="Kineska vodena agama — nega i uzgoj | NS Reptiles"
+  ogDescription="Kineska vodena agama: uslovi držanja, ishrana, temperatura, vlažnost i veličina terarijuma. Kompletni vodič iz NS Reptiles."
+  active="animals"
+  translations={translationsFor("/zivotinje/kineska-vodena-agama.html")}
+  langLinks={{ ...{"en":"/en/animals.html","ru":"/ru/animals.html"}, ...translationsFor("/zivotinje/kineska-vodena-agama.html") }}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Gušteri</div>
+        <h1>Kineska vodena agama</h1>
+        <p>Atraktivan tropski gušter iz jugoistočne Azije koji provodi vreme i na granama i u vodi. Zahteva prostran terarijum sa bazenom i visoku vlažnost — pogodan za iskusne vlasnike reptila.</p>
+      </div>
+    </section>
+<section class="pd-crumbs">
+      <div class="wrap">
+        <nav class="pd-breadcrumb" aria-label="Breadcrumb">
+          <a href="/">Početna</a>
+          <span class="sep">›</span>
+          <a href="/zivotinje.html">Životinje</a>
+          <span class="sep">›</span>
+          <span class="cur" aria-current="page">Kineska vodena agama</span>
+        </nav>
+      </div>
+    </section>
+<section class="animal-photo" style="background: var(--bg); padding: 24px 0 0; line-height: 0;">
+      <div class="wrap">
+        <img src="/style/img/gallery/13.jpg" alt="Kineska vodena agama u terarijumu — NS Reptiles Novi Sad" loading="eager" width="1248" height="832" style="width: 100%; height: auto; display: block; max-height: 520px; object-fit: cover;">
+      </div>
+    </section>
+<section class="intro">
+      <div class="wrap">
+        <div class="intro-box reveal">
+          <div class="eyebrow">O vrsti</div>
+          <p>
+            Kineska vodena agama potiče iz tropskih kišnih šuma jugoistočne Azije — Kine, Vijetnama, Laosa, Kambodže i Tajlanda. Nastanjuje guste šumske predele uz reke, potoke i jezera, gde provodi vreme i na granama i u vodi. <strong>Poluarborealni je i poluakvatični gušter</strong> koji u slučaju opasnosti skače u vodu i može ostati pod njom do 90 minuta. Narastaju do 90 cm ukupne dužine, pri čemu rep čini oko dve trećine. Karakteriše ih izražena leđna krijesta — posebno kod mužjaka — i „treće oko" (pinealna žlezda) na vrhu glave. Diurni su, aktivni danju, a boja varira od svetlozelene do maslinastozelene sa tamnijim prugama na repu. Zbog složenih uslova koje zahtevaju, preporučuju se iskusnijim vlasnicima reptila.
+          </p>
+        </div>
+      </div>
+    </section>
+<section class="zoo" style="padding-top: 40px;">
+      <div class="wrap">
+
+        <!-- Nega i terarijum -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Nega i <b>terarijum</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Terarijum</h3>
+            <p>Minimalne dimenzije za jednu odraslu jedinku: <strong>180×90×180 cm</strong>. Vertikalno orijentisan prostor sa granama za penjanje, gustim biljem i velikom vodenom površinom za plivanje. Skrovišta su obavezna radi osećaja sigurnosti.</p>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Podloga</h3>
+            <p>Mešavina kokosovog vlakna, treseta i kore drveta za zadržavanje vlage. Izbegavati pesak i sitne čestice koje mogu prouzrokovati impakciju (začepljenje digestivnog trakta).</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Voda</h3>
+            <p>Veliki bazen sa čistom, filtriranom vodom za plivanje i piće. Redovno čišćenje i zamena vode sprečavaju kontaminaciju i pojavu bolesti kože i disajnih puteva.</p>
+          </div>
+        </div>
+
+        <!-- Temperatura i uslovi -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Temperatura i <b>uslovi</b></h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Temperatura</h3>
+            <p>Topli deo (ispod grejne lampe): <strong>32–35 °C</strong>. Hladniji deo: <strong>24–27 °C</strong>. Noćna temperatura: ne ispod <strong>21 °C</strong>. Grejanje keramičkim grejačima ili spot lampom sa termostatom.</p>
+          </div>
+          <div class="intro-box" style="margin-bottom: 24px;">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Vlažnost</h3>
+            <p>Optimalna vlažnost: <strong>70–80%</strong>. Redovno prskanje terarijuma i korišćenje ovlaživača vazduha. Velika vodena površina prirodno podiže vlažnost i neophodna je za ovu vrstu.</p>
+          </div>
+          <div class="intro-box">
+            <h3 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Osvetljenje i UVB</h3>
+            <p>UVB lampa jačine <strong>10–12%</strong> neophodna je za sintezu vitamina D3 i pravilno formiranje kostiju. Fotoperiod: <strong>12 sati</strong> svetla i 12 sati tame.</p>
+          </div>
+        </div>
+
+        <!-- Ishrana -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Ishrana</h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <p>Insekti: cvrčci, skakavci, brašnari, dubije. Povremeno: mali miševi, ribe, voće i povrće. Dodaci: kalcijum sa D3 pri svakom hranjenju, multivitamini jednom nedeljno. Mladunci se hrane svakodnevno, odrasli svaki drugi dan.</p>
+          </div>
+        </div>
+
+        <!-- Razmnožavanje -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Razmnožavanje</h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <p>Polna zrelost nastupa oko <strong>2. godine</strong> života. Ženke polažu <strong>8–16 jaja</strong> u iskopane rupe. Inkubacija traje 60–75 dana na temperaturi od 28–30 °C.</p>
+          </div>
+        </div>
+
+        <!-- Zdravlje -->
+        <div class="cat-block reveal">
+          <div class="cat-title">
+            <h2>Zdravlje</h2>
+            <div class="line"></div>
+          </div>
+          <div class="intro-box">
+            <p>Česti problemi: metabolička bolest kostiju, zadržavanje kože, infekcije disajnih puteva, ozlede nosa i paraziti. Prevencija: pravilna ishrana sa dodacima kalcijuma, adekvatna UVB rasveta i visoka vlažnost. Pri prvom znaku bolesti — veterinar specijalizovan za egzotične životinje.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+<section class="pd-related section">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <div class="eyebrow">Preporučeno za kinesku vodenu agamu</div>
+          <h2 class="sec-title">Preporučeni proizvodi</h2>
+        </div>
+        <div class="op-grid">
+          <article class="op-card reveal">
+            <a class="op-img" href="/proizvodi/terarijumi/terarijum-70x45x70.html">
+              <img src="/style/img/terrariums/70x45x70.webp" alt="Terarijum 70x45x70" loading="lazy" width="600" height="600">
+            </a>
+            <div class="op-body">
+              <div class="op-cat">Terarijum</div>
+              <h3><a href="/proizvodi/terarijumi/terarijum-70x45x70.html">Terarijum 70x45x70</a></h3>
+              <div class="op-foot">
+                <span class="op-price">Pozovite za cenu</span>
+              </div>
+            </div>
+          </article>
+          <article class="op-card reveal">
+            <a class="op-img" href="/proizvodi/terarijumi/terarijum-80x50x60.html">
+              <img src="/style/img/terrariums/80x50x60.webp" alt="Terarijum 80x50x60" loading="lazy" width="600" height="600">
+            </a>
+            <div class="op-body">
+              <div class="op-cat">Terarijum</div>
+              <h3><a href="/proizvodi/terarijumi/terarijum-80x50x60.html">Terarijum 80x50x60</a></h3>
+              <div class="op-foot">
+                <span class="op-price">Pozovite za cenu</span>
+              </div>
+            </div>
+          </article>
+          <article class="op-card reveal">
+            <a class="op-img" href="/proizvodi/terarijumi/terarijum-90x50x50.html">
+              <img src="/style/img/terrariums/90x50x50.webp" alt="Terarijum 90x50x50" loading="lazy" width="600" height="600">
+            </a>
+            <div class="op-body">
+              <div class="op-cat">Terarijum</div>
+              <h3><a href="/proizvodi/terarijumi/terarijum-90x50x50.html">Terarijum 90x50x50</a></h3>
+              <div class="op-foot">
+                <span class="op-price">Pozovite za cenu</span>
+              </div>
+            </div>
+          </article>
+          <article class="op-card reveal">
+            <a class="op-img" href="/proizvodi/terarijumi/terarijum-60x45x50.html">
+              <img src="/style/img/terrariums/60x45x50.webp" alt="Terarijum 60x45x50" loading="lazy" width="600" height="600">
+            </a>
+            <div class="op-body">
+              <div class="op-cat">Terarijum</div>
+              <h3><a href="/proizvodi/terarijumi/terarijum-60x45x50.html">Terarijum 60x45x50</a></h3>
+              <div class="op-foot">
+                <span class="op-price">Pozovite za cenu</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+<section class="zcta">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content:center">Zainteresovani?</div>
+        <h2>Kontaktirajte <b>NS Reptiles</b></h2>
+        <p>Za pitanja o nabavci, nezi ili opremi za kinesku vodenu agamu — tu smo. Javite nam se pozivom ili porukom.</p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474?text=Zanima%20me%20kineska%20vodena%20agama" target="_blank" rel="noopener" class="btn" style="background:#fff;color:var(--green-dark)" onclick="gtag('event','kontakt_click',{'metod':'whatsapp'})">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event','kontakt_click',{'metod':'poziv'})">+381 69 330 1474</a>
+        </div>
+      </div>
+    </section>
+
+
+</Base>

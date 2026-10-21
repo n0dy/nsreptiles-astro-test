@@ -1,0 +1,151 @@
+---
+import Base from '../layouts/Base.astro';
+
+import { translationsFor } from '../i18n/routes';
+---
+<Base
+  lang="sr"
+  title="Plaćanje - NS Reptiles"
+  description="Završite porudžbinu na NS Reptiles: kurirska dostava za 2–4 radna dana po celoj Srbiji ili lično preuzimanje u Novom Sadu, plaćanje pouzećem ili uplatom."
+  path="/korpa.html"
+  image="/style/img/logo.jpg"
+  bodyClass="checkout-page"
+  cart={false}
+  floatContact={false}
+  translations={translationsFor("/korpa.html")}
+>
+<div class="co-top">
+      <div class="wrap">
+        <div class="crumb">Početna · Korpa · Plaćanje</div>
+        <div class="co-top-row">
+          <h1>Plaćanje</h1>
+          <a href="/" class="back-link">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M19 12H5M12 19l-7-7 7-7"></path>
+            </svg>
+            Nastavi kupovinu
+          </a>
+        </div>
+      </div>
+    </div>
+<div class="co-wrap">
+      <div id="coContent">
+        <div class="co-grid">
+          <!-- LEVO: forma -->
+          <div>
+            <div class="card">
+              <h2><span class="step-no">1</span> Podaci za kontakt</h2>
+              <p class="sub">Da vas obavestimo o statusu porudžbine.</p>
+              <div class="f-row">
+                <div class="field">
+                  <label>Ime</label><input type="text" id="fName" placeholder="Petar">
+                </div>
+                <div class="field">
+                  <label>Prezime</label><input type="text" id="fLast" placeholder="Petrović">
+                </div>
+              </div>
+              <div class="f-row">
+                <div class="field">
+                  <label>E-mail</label><input type="email" id="fEmail" placeholder="petar@email.com">
+                </div>
+                <div class="field">
+                  <label>Telefon</label><input type="tel" id="fPhone" placeholder="+381 6x xxx xxxx">
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <h2><span class="step-no">2</span> Adresa za dostavu</h2>
+              <p class="sub">Gde da pošaljemo vašu porudžbinu.</p>
+              <div class="field full">
+                <label>Ulica i broj</label><input type="text" id="fStreet" placeholder="Bulevar oslobođenja 123">
+              </div>
+              <div class="f-row">
+                <div class="field">
+                  <label>Grad</label><input type="text" id="fCity" placeholder="Novi Sad">
+                </div>
+                <div class="field">
+                  <label>Poštanski broj</label><input type="text" id="fZip" placeholder="21000">
+                </div>
+              </div>
+              <div class="field full">
+                <label>Napomena (opciono)</label><textarea id="fNote" placeholder="Npr. ostaviti kod komšije, pozvati pre dostave..."></textarea>
+              </div>
+            </div>
+
+            <div class="card">
+              <h2><span class="step-no">3</span> Način dostave</h2>
+              <p class="sub">Izaberite kako želite da preuzmete porudžbinu.</p>
+              <label class="opt sel" data-ship="290">
+                <input type="radio" name="ship" value="290" checked=""><span class="dot"></span>
+                <div class="opt-main">
+                  <b>Kurirska dostava</b><small>2–4 radna dana, cela Srbija</small>
+                </div>
+                <span class="opt-price">290 din</span>
+              </label>
+              <label class="opt" data-ship="0">
+                <input type="radio" name="ship" value="0"><span class="dot"></span>
+                <div class="opt-main">
+                  <b>Lično preuzimanje</b><small>Novi Sad, po dogovoru</small>
+                </div>
+                <span class="opt-price">Besplatno</span>
+              </label>
+            </div>
+
+            <div class="card">
+              <h2><span class="step-no">4</span> Način plaćanja</h2>
+              <p class="sub">Bezbedno i jednostavno.</p>
+              <label class="opt sel">
+                <input type="radio" name="pay" value="pouzecem" checked=""><span class="dot"></span>
+                <div class="opt-main">
+                  <b>Pouzećem</b><small>Plaćanje kuriru pri preuzimanju</small>
+                </div>
+              </label>
+              <label class="opt">
+                <input type="radio" name="pay" value="racun"><span class="dot"></span>
+                <div class="opt-main">
+                  <b>Uplata na račun</b><small>Predračun stiže na e-mail</small>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- DESNO: pregled porudžbine -->
+          <div class="summary-col">
+            <div class="card summary">
+              <h2>Vaša porudžbina</h2>
+              <div id="sumItems"></div>
+              <div class="promo">
+                <input type="text" id="promo" placeholder="Promo kod">
+                <button id="promoBtn">Primeni</button>
+              </div>
+              <div class="sum-line">
+                <span>Međuzbir</span><span id="sumSub">0 din</span>
+              </div>
+              <div class="sum-line">
+                <span>Dostava</span><span id="sumShip">290 din</span>
+              </div>
+              <div class="sum-line" id="sumDiscRow" style="display: none">
+                <span>Popust</span><span id="sumDisc">0 din</span>
+              </div>
+              <div class="sum-line total">
+                <span>Ukupno</span><b id="sumTotal">0 din</b>
+              </div>
+              <button class="btn btn-primary place-btn" id="placeBtn">
+                Potvrdi porudžbinu
+              </button>
+              <div class="co-secure">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="11" width="18" height="11" rx="2"></rect>
+                  <path d="M7 11V7a5 5 0 0110 0v4"></path>
+                </svg>
+                Sigurna kupovina
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+</Base>

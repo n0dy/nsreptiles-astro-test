@@ -1,0 +1,51 @@
+{
+  "name": "Kokosov treset 5L",
+  "label": "Podloge",
+  "lead": "Kokosov treset 5L - prirodna podloga za terarijume koja odlično zadržava vlagu. Za tropske i šumske vrste.",
+  "image": "/style/img/oprema/treset.webp",
+  "imageAlt": "Kokosov treset 5L - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Podloga - kokosov treset"
+    },
+    {
+      "k": "Zapremina",
+      "v": "5L"
+    },
+    {
+      "k": "Namena",
+      "v": "Podloga za terarijume"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Kokosov treset u pakovanju od 5 litara je jedna od najpopularnijih prirodnih podloga za terarijume. Proizveden od ljuski kokosovog oraha, ova podloga odlično zadržava vlagu što je čini idealnom za tropske i šumske vrste reptila kojima je potrebna viša vlažnost vazduha - crested gekone, kameleone, dnevne gekone i mnoge vrste žaba. Kokosov treset je bezbedna podloga jer ne izaziva probleme ukoliko ga životinja slučajno proguta u malim količinama. Prirodno je otporan na buđ i bakterije, a ne sadrži štetne hemikalije. Može se koristiti samostalno ili u kombinaciji sa sphagnum mahom za dodatno zadržavanje vlage. Za bioaktivne terarijume, kokosov treset je odlična osnova kojoj se mogu dodati lišće, kora i čistači."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Naručivanje putem telefona ili WhatsApp-a. Šaljemo kurirskom službom širom Srbije. Kupci iz Novog Sada mogu preuzeti robu lično."
+    }
+  ],
+  "seo": {
+    "title": "Kokosov treset 5L | Oprema - NS Reptiles",
+    "description": "Kokosov treset 5L - prirodna podloga za terarijume koja odlično zadržava vlagu. Za tropske i šumske vrste. NS Reptiles Novi Sad.",
+    "keywords": "kokosov treset 5l, podloga za terarijum, kokosov treset, oprema za reptile, NS Reptiles, Novi Sad"
+  },
+  "related": [
+    "oprema/spagnum-treset-5l",
+    "oprema/kvarcni-pesak-1kg",
+    "oprema/cork-bark",
+    "oprema/pinceta"
+  ]
+}

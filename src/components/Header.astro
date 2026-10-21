@@ -1,0 +1,62 @@
+---
+import type { Locale } from '../config/site';
+import { NAV, type NavKey } from '../i18n/nav';
+import { HOME, UI } from '../i18n/ui';
+
+interface Props {
+  lang: Locale;
+  active?: NavKey;
+}
+const { lang, active } = Astro.props;
+const n = NAV[lang];
+const chev = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>';
+---
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a href={HOME[lang]} class="logo">NS REPT<span class="logo-i">I</span>LES</a>
+    <nav aria-label={n.menu}>
+      <ul class="nav-links">
+        {n.main.map((item) =>
+          item.key === 'animals' ? (
+            <li class="has-dropdown">
+              <a href={item.href} class:list={['dd-toggle', active === item.key && 'active']} aria-current={active === item.key ? 'page' : undefined}>{item.label}</a>
+              <ul class="dropdown">
+                {n.animalsSub.map((s) => <li><a href={s.href}>{s.label}</a></li>)}
+              </ul>
+            </li>
+          ) : (
+            <li><a href={item.href} class:list={[active === item.key && 'active']} aria-current={active === item.key ? 'page' : undefined}>{item.label}</a></li>
+          )
+        )}
+      </ul>
+    </nav>
+    <div class="nav-tools">
+      <button class="cart-btn" id="cartOpen" aria-label={UI[lang].cart} style="background: none; border: none; cursor: pointer">
+        <svg viewBox="0 0 24 24" width="23" height="23" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"></path><path d="M3 6h18"></path><path d="M16 10a4 4 0 01-8 0"></path></svg>
+        <span class="cart-badge empty" id="cartBadge">0</span>
+      </button>
+      <a href={n.contact.href} class="nav-tickets">{n.contact.label}</a>
+      <button class="burger" aria-label={n.menu} aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      {n.main.map((item) =>
+        item.key === 'animals' ? (
+          <li class="m-has-sub">
+            <span class="m-toggle">{item.label}<Fragment set:html={chev} /></span>
+            <ul class="m-sub">
+              <li><a href={item.href}>{n.allAnimals}</a></li>
+              {n.animalsSub.map((s) => <li><a href={s.href}>{s.label}</a></li>)}
+            </ul>
+          </li>
+        ) : (
+          <li><a href={item.href}>{item.label}</a></li>
+        )
+      )}
+      <li><a href={n.contact.href}>{n.contact.label}</a></li>
+    </ul>
+  </div>
+</header>

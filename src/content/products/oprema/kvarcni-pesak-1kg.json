@@ -1,0 +1,56 @@
+{
+  "name": "Kvarcni pesak 1kg",
+  "label": "Podloge",
+  "lead": "Kvarcni pesak 1kg - dekorativan pesak za akvarijume. Daje čist i prirodan izgled dna.",
+  "image": "/style/img/oprema/pesak.webp",
+  "imageAlt": "Kvarcni pesak 1kg - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekorativni pesak"
+    },
+    {
+      "k": "Težina",
+      "v": "1kg"
+    },
+    {
+      "k": "Namena",
+      "v": "Podloga za akvarijume"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Kvarcni pesak u pakovanju od 1kg je kvalitetan dekorativan pesak za akvarijume koji daje čist, svetao i prirodan izgled dna. Sitna granulacija omogućava biljkama da se lako ukorene, dok neutralna boja lepo ističe boje riba i vodenih biljaka. Kvarcni pesak je hemijski inertan - ne utice na pH vrednost i tvrdoću vode, što ga čini bezbednim za sve tipove slatkovodnih akvarijuma."
+    },
+    {
+      "type": "p",
+      "html": "Pre upotrebe, obavezno isperite pesak nekoliko puta pod tekućom vodom dok voda ne postane bistra, kako biste uklonili prašinu koja može zamutiti akvarijum. Pogodan je i kao dekorativni element u suvim terarijumima za pustinjske vrste, mada u tom slučaju pazite da životinje ne gutaju pesak prilikom hvatanja hrane."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Kvarcni pesak 1kg | Oprema - NS Reptiles",
+    "description": "Kvarcni pesak 1kg - dekorativan pesak za akvarijume. Daje čist i prirodan izgled dna. NS Reptiles Novi Sad.",
+    "keywords": "kvarcni pesak 1kg, pesak za akvarijum, podloga za akvarijum, oprema za reptile, NS Reptiles, Novi Sad",
+    "ogTitle": "Kvarcni pesak 1kg | NS Reptiles"
+  },
+  "related": [
+    "oprema/sidro-sa-koralima",
+    "oprema/piratski-brod",
+    "oprema/kvarcni-pesak-1kg",
+    "oprema/cork-bark"
+  ]
+}

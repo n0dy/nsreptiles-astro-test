@@ -1,0 +1,68 @@
+{
+  "name": "Skrivalice za reptile",
+  "label": "Oprema",
+  "lead": "Dekorativne skrivalice za terarijum. Raznovrsni dizajni - pećine, stene, mostovi. Obezbeđuju skrovište i sigurnost za reptile, smanjuju stres.",
+  "image": "/style/img/oprema/skrivalice-za-reptile.webp",
+  "imageAlt": "Skrivalice za reptile - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "NS Reptiles"
+    },
+    {
+      "k": "Tip",
+      "v": "Skrivalice / skrovišta"
+    },
+    {
+      "k": "Materijal",
+      "v": "Netoksična smola"
+    },
+    {
+      "k": "Namena",
+      "v": "Sve vrste reptila"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Skrivalice za reptile su jedan od najvažnijih elemenata opreme svakog terarijuma. U prirodi, reptili provode značajan deo vremena sakriveni od predatora i nepovoljnih vremenskih uslova, pa je obezbeđivanje adekvatnog skrovišta u zatočeništvu apsolutno neophodno za njihovo fizičko i psihičko zdravlje. Bez skrivalice, reptili mogu biti pod konstantnim stresom, što negativno utice na apetit, imunitet i opšte ponašanje."
+    },
+    {
+      "type": "p",
+      "html": "U našoj ponudi možete pronaći raznovrsne dizajne skrivalica izrađenih od netoksične smole - pećine, stene, mostove i figuralne elemente. Svaki model je pažljivo oblikovan da imitira prirodne elemente sa realističnim izgledom kamena i drveta, čime se savršeno uklapa u estetiku terarijuma. Materijal je potpuno bezbedan za životinje, lak za čišćenje i izuzetno izdržljiv."
+    },
+    {
+      "type": "p",
+      "html": "Preporuka je da u terarijumu imate najmanje dve skrivalice - jednu na toploj strani i jednu na hladnoj strani, kako bi vaš reptil mogao da reguliše telesnu temperaturu bez izlaganja stresu. Za leopard gekone, posebno je važna i vlažna skrivalica sa vlažnim supstratom koja pomaže prilikom presvlačenja. Za veće guštere i zmije, skrivalica treba da bude dovoljno velika da se životinja u potpunosti sakrije, ali ne prevelika jer se reptili osećaju sigurnije u tesnijem prostoru."
+    },
+    {
+      "type": "p",
+      "html": "Skrivalice su pogodne za sve vrste reptila - od gekona i paukova do zmija i većih guštera."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Poručite pozivom ili WhatsApp porukom. Dostava na adresu u bilo kom gradu Srbije. Iz Novog Sada - preuzimanje u radionici."
+    }
+  ],
+  "seo": {
+    "title": "Skrivalice za reptile | Oprema - NS Reptiles",
+    "description": "Dekorativne skrivalice za terarijum - pećine, stene, mostovi. Smanjuju stres kod reptila. Netoksična smola. NS Reptiles Novi Sad.",
+    "keywords": "skrivalice za reptile, skrovište za terarijum, pećina za reptile, dekoracija terarijuma, oprema za terarijum, NS Reptiles, Novi Sad",
+    "ogTitle": "Skrivalice za reptile | NS Reptiles"
+  },
+  "related": [
+    "oprema/dekorativna-lobanja",
+    "oprema/posude-za-reptile",
+    "oprema/cork-bark",
+    "oprema/maple-leaf-stone-1kg"
+  ]
+}

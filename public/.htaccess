@@ -1,0 +1,17 @@
+ErrorDocument 404 /404.html
+
+# 301 redirekti sa starih URL-ova
+Redirect 301 /zivotinje/bradataagama.html         /zivotinje/bradata-agama.html
+Redirect 301 /zivotinje/crestedgekon.html         /zivotinje/crested-gekon.html
+Redirect 301 /zivotinje/debelorepigekon.html      /zivotinje/debelorepi-gekon.html
+Redirect 301 /zivotinje/kineskavodenaagama.html   /zivotinje/kineska-vodena-agama.html
+Redirect 301 /zivotinje/kukuruznismuk.html        /zivotinje/kukuruzni-smuk.html
+Redirect 301 /zivotinje/leopardgekon.html         /zivotinje/leopard-gekon.html
+Redirect 301 /zivotinje/loptastipiton.html        /zivotinje/loptasti-piton.html
+Redirect 301 /prices.html                         /cenovnik.html
+Redirect 301 /blog.html                           /
+Redirect 301 /gusteri.html                        /zivotinje.html
+Redirect 301 /linkovi.html                        /
+Redirect 301 /arbitrage.html                      /
+Redirect 301 /homepage-redesign.html              /
+Redirect 301 /section.html                        /

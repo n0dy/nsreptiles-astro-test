@@ -1,0 +1,502 @@
+---
+import Base from '../../layouts/Base.astro';
+import '../../styles/animals.css';
+import { translationsFor } from '../../i18n/routes';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Which reptile is best for beginners?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The leopard gecko and bearded dragon are the most popular choices for first-time reptile owners. The leopard gecko is calm, eats insects, and doesn't need a very large terrarium. The bearded dragon is more social and eats both plant and animal food. The crested gecko is also an excellent option - it feeds on a ready-made meal replacement mix and doesn't need a heat lamp at room temperature."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How complicated is it to keep reptiles?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Less complicated than most people think. Once the terrarium is set up with the right temperature, UVB lighting, and humidity, day-to-day care comes down to feeding, fresh water, and checking the conditions. No walks, no noise, no fur on the furniture."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do reptiles get used to their owner?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Reptiles don't show affection the way dogs or cats do, but they do get used to a person's presence and handling. Bearded dragons are well known for tolerating and even enjoying human contact. Geckos become calm when handled regularly. The key is patience and a gentle approach from a young age."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How often should reptiles be fed?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It depends on the species and age. Juveniles of most species eat daily because they grow quickly. Adult leopard geckos eat every other day, bearded dragons eat daily (a combination of salad and insects), and ball pythons eat once every 7-14 days. A practical rule: offer as much food as the animal can eat in 10-15 minutes, then remove any leftovers."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What do reptiles eat - do they all eat insects?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. There are three types of diet: insectivores (leopard geckos - insects only), omnivores (bearded dragons - insects and vegetables), and herbivores (tortoises - plants only). It's important to know the requirements of the specific species before buying."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I determine the right prey size?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The basic rule: the insect should be no larger than the space between the reptile's eyes. Prey that is too large can cause digestive problems or, in rare cases, choking. Our dubias and phoenix worms come in three sizes (S, M, L) - you choose based on your animal's age."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Live or dried food - which is better?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Live food is always the first choice. The movement of an insect triggers the reptile's hunting instinct and encourages natural behaviour. Live insects also contain more moisture and nutrients. Dried insects can serve as a supplement or backup when live food isn't available, but shouldn't be the foundation of the diet."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can reptiles eat just one type of insect?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Technically yes, but they shouldn't. A varied diet - a mix of dubias, crickets, lateralis, and phoenix worms - provides a better balance of protein, fat, calcium, and moisture. A monotonous diet based on a single insect species can lead to nutritional deficiencies over time."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which insects are best for feeding reptiles?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Dubia roaches are the most popular - they have a high protein content, low fat, and a softer shell that is easy to digest. Crickets, lateralis (red runners), phoenix worms, and mealworms are also common feeders. The best results come from combining several species for a complete nutritional profile."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are dubia roaches safe for reptiles?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Completely safe. Dubia roaches do not bite and do not attack animals, which makes them one of the most popular feeder insects in the hobby. They can be left in the terrarium without any risk of injuring the reptile."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are phoenix worms a good food for reptiles?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Phoenix worms are rich in protein but also higher in fat compared to dubia roaches. For that reason they are best used as a supplementary food or an occasional treat, not as the sole food source."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is gut loading and is it necessary?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Gut loading means feeding the insects high-quality food for 24-48 hours before offering them to your reptile. Insects that have eaten vegetables, fruit, or a specialised gut-load diet pass significantly more nutrients to your pet. Yes, it is necessary - the difference in nutritional quality is substantial."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I store feeder insects at home?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Insects are kept in well-ventilated plastic containers at room temperature (for dubias, 25-30 °C). They need food (vegetables, fruit, or a specialised insect diet), hiding spots made from egg-crate cardboard, and access to moisture. Proper storage extends the insects' lifespan and nutritional quality."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is UVB lighting essential?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "UVB light allows reptiles to synthesise vitamin D3 in their skin, which is essential for absorbing calcium from food. Without UVB lighting, reptiles develop metabolic bone disease - deformities, weakness, and serious health problems. Desert species need a 10-12% UVB bulb; forest species need 5-7%. Bulbs should be replaced every 6-12 months as UVB output fades."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do insects need to be dusted with calcium and vitamins?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, supplementation is mandatory for most reptile species. Calcium without D3 is used daily - sprinkle it over the insects just before feeding (known as dusting). A vitamin supplement or calcium with D3 is given 2-3 times a week. Without supplementation, reptiles do not get enough calcium even when fed a proper diet."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do reptiles need water?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Most reptiles need a dish of fresh water in the terrarium, changed daily. Some arboreal species such as crested geckos and chameleons take moisture by licking droplets from leaves and enclosure walls - they also need regular misting in addition to a water dish. Aquatic turtles live in water and need a tank with a water section."
+        }
+      }
+    ]
+  }
+];
+---
+<Base
+  lang="en"
+  title="FAQ - Reptiles, Feeding & Equipment | NS Reptiles"
+  description="Answers to common questions about reptiles, terrariums and equipment: feeding, UVB lighting, calcium, feeder insects, care for geckos, dragons and snakes."
+  path="/en/faq.html"
+  ogTitle="FAQ - Reptiles and Equipment | NS Reptiles"
+  ogDescription="Everything you need to know about keeping reptiles - feeding, equipment, terrariums, UVB lighting and supplements."
+  translations={translationsFor("/en/faq.html")}
+  schema={schema}
+>
+<section class="page-head">
+      <div class="wrap">
+        <div class="eyebrow">Support</div>
+        <h1>Frequently Asked Questions</h1>
+        <p>
+          Answers to the questions we receive most often from customers and
+          prospective reptile owners - from choosing your first pet to feeding
+          and equipment.
+        </p>
+      </div>
+    </section>
+<section class="intro">
+      <div class="wrap">
+        <div class="intro-box">
+          <div class="eyebrow">How can we help?</div>
+          <p>
+            We've gathered answers to the questions that come in every day. If
+            you can't find the answer you're looking for,
+            <strong><a href="/en/contact.html" style="color: var(--green)">contact us</a></strong>
+            - we're happy to help you choose an animal, terrarium, or equipment.
+          </p>
+        </div>
+      </div>
+    </section>
+<section class="faq-page">
+      <div class="wrap">
+        <div class="pills">
+          <button class="pill" data-target="pets">Reptiles as pets</button>
+          <button class="pill" data-target="feeding">Feeding</button>
+          <button class="pill" data-target="insects">Feeder insects</button>
+          <button class="pill" data-target="equipment">Equipment &amp; conditions</button>
+        </div>
+
+        <!-- REPTILES AS PETS -->
+        <div class="faq-cat" id="cat-pets">
+          <div class="cat-title">
+            <h2>Reptiles as <b>pets</b></h2>
+            <span class="count">3 questions</span><span class="line"></span>
+          </div>
+          <div class="faq-list">
+            <div class="faq-item">
+              <button class="faq-q">
+                Which reptile is best for beginners?<span class="ic">+</span>
+              </button>
+              <div class="faq-a">
+                <p>
+                  The leopard gecko and bearded dragon are the most popular
+                  choices for first-time reptile owners. The leopard gecko is
+                  calm, eats insects, and doesn't need a very large terrarium.
+                  The bearded dragon is more social and eats both plant and
+                  animal food. The crested gecko is also an excellent option -
+                  it feeds on a ready-made meal replacement mix and doesn't need
+                  a heat lamp at room temperature. Before buying, always ask
+                  about the specific requirements of the species - terrarium
+                  size, temperature, humidity, and diet vary from animal to
+                  animal.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q">
+                How complicated is it to keep reptiles?<span class="ic">+</span>
+              </button>
+              <div class="faq-a">
+                <p>
+                  Less complicated than most people think. Once the terrarium
+                  is set up with the right temperature, UVB lighting, and
+                  humidity, day-to-day care comes down to feeding, fresh water,
+                  and checking the conditions. No walks, no noise, no fur on
+                  the furniture. You do need to keep the terrarium clean and
+                  periodically check that the equipment is working properly.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q">
+                Do reptiles get used to contact with their owner?<span class="ic">+</span>
+              </button>
+              <div class="faq-a">
+                <p>
+                  Reptiles don't show affection the way dogs or cats do, but
+                  they do get used to a person's presence and handling. Bearded
+                  dragons are well known for tolerating and even enjoying human
+                  contact. Geckos become calm when handled regularly. The key
+                  is patience and a gentle approach from a young age - never
+                  grab them quickly from above, as that mimics a predator.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FEEDING -->
+        <div class="faq-cat" id="cat-feeding">
+          <div class="cat-title">
+            <h2>Feeding <b>reptiles</b></h2>
+            <span class="count">5 questions</span><span class="line"></span>
+          </div>
+          <div class="faq-list">
+            <div class="faq-item">
+              <button class="faq-q">
+                How often should reptiles be fed?<span class="ic">+</span>
+              </button>
+              <div class="faq-a">
+                <p>
+                  It depends on the species and age. Juveniles of most species
+                  eat daily because they grow quickly. Adult leopard geckos eat
+                  every other day, bearded dragons eat daily (a combination of
+                  salad and insects), and ball pythons eat once every 7-14 days.
+                  A practical rule: offer as much food as the animal can eat in
+                  10-15 minutes, then remove any leftovers.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q">
+                Do all reptiles eat insects?<span class="ic">+</span>
+              </button>
+              <div class="faq-a">
+                <p>
+                  No. There are three types of diet among reptiles: insectivores
+                  eat only insects (leopard geckos, day geckos), omnivores eat
+                  insects and plant food (bearded dragons, blue-tongued skinks),
+                  and herbivores eat only plants (tortoises, iguanas). It's
+                  important to know the requirements of the specific species
+                  before buying so you can provide the right diet from day one.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q">
+                How do I determine the right prey size for my reptile?<span class="ic">+</span>
+              </button>
+              <div class="faq-a">
+                <p>
+                  The basic rule: the insect should be no larger than the space
+                  between your reptile's eyes. Prey that is too large can cause
+                  digestive problems. Our dubias and phoenix worms come in three
+                  sizes (S, M, L), so you can easily choose based on your
+                  animal's age.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q">
+                Live or dried food - which is better for reptiles?<span class="ic">+</span>
+              </button>
+              <div class="faq-a">
+                <p>
+                  Live food is always the first choice. The movement of an
+                  insect triggers the reptile's hunting instinct, encourages
+                  activity, and promotes natural behaviour. Live insects also
+                  contain more moisture and nutrients than dried ones. Dried
+                  insects serve as a supplement or backup when live food isn't
+                  available, but shouldn't be the foundation of the diet.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q">
+                Is it enough to feed only one type of insect?<span class="ic">+</span>
+              </button>
+              <div class="faq-a">
+                <p>
+                  Technically possible, but not recommended. A varied diet - a
+                  mix of dubia roaches, crickets, lateralis, and phoenix worms -
+                  provides a better balance of protein, fat, calcium, and
+                  moisture. Feeding a single insect species over time can lead
+                  to nutritional deficiencies.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FEEDER INSECTS -->
+        <div class="faq-cat" id="cat-insects">
+          <div class="cat-title">
+            <h2>Insects - <b>reptile food</b></h2>
+            <span class="count">5 questions</span><span class="line"></span>
+          </div>
+          <div class="faq-list">
+            <div class="faq-item">
+              <button class="faq-q">
+                Which insects should I use to feed reptiles?<span class="ic">+</span>
+              </button>
+              <div class="faq-a">
+                <p>
+                  The most popular feeder insects are dubia roaches, crickets,
+                  lateralis (red runners), phoenix worms, and mealworms. Dubia
+                  roaches are the top choice for most keepers because they have
+                  a high protein content, low fat, and a softer shell that is
+                  easy to digest. The best results come from combining several
+                  species for a complete nutritional profile.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q">
+                Can dubia roaches harm my reptile?<span class="ic">+</span>
+              </button>
+              <div class="faq-a">
+                <p>
+                  No, they are completely safe. Dubia roaches do not bite and do
+                  not attack animals, making them one of the safest feeder
+                  insects available. Unlike crickets, which can nibble on a
+                  reptile overnight, dubias simply hide quietly and wait to be
+                  eaten.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q">
+                Are phoenix worms a good food for reptiles?<span class="ic">+</span>
+              </button>
+              <div class="faq-a">
+                <p>
+                  Phoenix worms are protein-rich and most reptiles love them,
+                  but they are higher in fat compared to dubia roaches. For that
+                  reason they are best used as a supplementary food or an
+                  occasional treat rather than the sole food source. Combine
+                  them with dubias and crickets for a balanced meal.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q">
+                What is gut loading and why does it matter?<span class="ic">+</span>
+              </button>
+              <div class="faq-a">
+                <p>
+                  Gut loading means feeding the insects high-quality food for
+                  24-48 hours before offering them to your reptile. Insects that
+                  have eaten vegetables, fruit, or a specialised gut-load diet
+                  pass significantly more nutrients to your pet. The difference
+                  in nutritional quality is real - a starved insect has nothing
+                  to offer but empty calories.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q">
+                How do I store feeder insects properly?<span class="ic">+</span>
+              </button>
+              <div class="faq-a">
+                <p>
+                  Insects are kept in well-ventilated plastic containers. For
+                  dubia roaches the optimal temperature is 25-30 °C. Provide
+                  food (vegetables, fruit, or a specialised insect diet), hiding
+                  spots made from egg-crate cardboard, and a source of moisture.
+                  With proper storage, insects stay healthy and nutritionally
+                  valuable for weeks.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- EQUIPMENT & CONDITIONS -->
+        <div class="faq-cat" id="cat-equipment">
+          <div class="cat-title">
+            <h2>Equipment and <b>terrarium conditions</b></h2>
+            <span class="count">3 questions</span><span class="line"></span>
+          </div>
+          <div class="faq-list">
+            <div class="faq-item">
+              <button class="faq-q">
+                Why is UVB lighting essential for reptiles?<span class="ic">+</span>
+              </button>
+              <div class="faq-a">
+                <p>
+                  UVB light allows reptiles to synthesise vitamin D3 in their
+                  skin, which is essential for absorbing calcium from food.
+                  Without UVB lighting, reptiles develop metabolic bone disease
+                  - deformities, weakness, and serious health problems that can
+                  be fatal. Desert species such as bearded dragons need a 10-12%
+                  UVB bulb; forest species such as crested geckos need 5-7%.
+                  Bulbs should be replaced every 6-12 months because UVB output
+                  fades before the bulb burns out.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q">
+                Do insects need to be dusted with calcium before feeding?<span class="ic">+</span>
+              </button>
+              <div class="faq-a">
+                <p>
+                  Yes, supplementation is mandatory. Calcium without D3 is used
+                  daily - sprinkle it over the insects immediately before
+                  feeding (this is known as dusting). A vitamin supplement or
+                  calcium with D3 is given 2-3 times a week. Without
+                  supplementation, reptiles don't get enough calcium even on a
+                  proper diet.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q">
+                Do reptiles need water in the terrarium?<span class="ic">+</span>
+              </button>
+              <div class="faq-a">
+                <p>
+                  Yes. Most reptiles need a dish of fresh water in the
+                  terrarium, changed daily. Some arboreal species such as
+                  crested geckos and chameleons take moisture by licking
+                  droplets from leaves and the terrarium walls - alongside a
+                  water dish, they also need regular misting. Aquatic turtles
+                  live in water and need a tank with a proper water section.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<section class="zcta">
+      <div class="wrap">
+        <div class="eyebrow" style="justify-content: center">
+          Didn't find your answer?
+        </div>
+        <h2>Ask us <b>directly</b></h2>
+        <p>
+          Get in touch - we're happy to answer any question about animals,
+          terrariums, and equipment.
+        </p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474" target="_blank" rel="noopener" class="btn" style="background: #fff; color: var(--green-dark)">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light">Call us</a>
+        </div>
+      </div>
+    </section>
+<style is:global>
+      .faq-cat { margin-bottom: 64px; }
+      .faq-cat:last-of-type { margin-bottom: 0; }
+      .faq-page { padding: 30px 0 100px; background: var(--bg); transition: background 0.4s; }
+    </style>
+<script is:inline slot="after">
+      // pills scroll to category
+      document.querySelectorAll('.pill').forEach((p) =>
+        p.addEventListener('click', () => {
+          const el = document.getElementById('cat-' + p.dataset.target);
+          if (!el) return;
+          const y =
+            el.getBoundingClientRect().top + window.pageYOffset - 150;
+          window.scrollTo({ top: y, behavior: 'smooth' });
+        }),
+      );
+    </script>
+</Base>

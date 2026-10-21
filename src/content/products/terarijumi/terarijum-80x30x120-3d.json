@@ -1,0 +1,86 @@
+{
+  "name": "Terarijum 80x30x120 +3D",
+  "label": "Veliki terarijum",
+  "lead": "Stakleni terarijum dimenzija 80x30x120cm sa ručno rađenom 3D pozadinom. Zapremina 288.0 litara, vertikalni format. Ručna izrada u Novom Sadu.",
+  "image": "/style/img/terrariums/80x30x120.webp",
+  "imageAlt": "Stakleni terarijum 80x30x120cm sa 3D pozadinom - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Dužina",
+      "v": "80 cm"
+    },
+    {
+      "k": "Širina",
+      "v": "30 cm"
+    },
+    {
+      "k": "Visina",
+      "v": "120 cm"
+    },
+    {
+      "k": "Zapremina",
+      "v": "~288.0 L"
+    },
+    {
+      "k": "Materijal",
+      "v": "Staklo"
+    },
+    {
+      "k": "3D Pozadina",
+      "v": "Da"
+    },
+    {
+      "k": "Tip",
+      "v": "Vertikalni"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Terarijum dimenzija 80x30x120cm (288L) opremljen je 3D pozadinom od stiropora koja verno reprodukuje teksturu kamena ili kore. Ručno modelovana i obojena u prirodnim tonovima, pozadina nije samo dekoracija - pruža dodatne površine za penjanje i skrivanje."
+    },
+    {
+      "type": "p",
+      "html": "Vertikalna orijentacija (120cm visine) čini ovaj terarijum pogodnim za arborealce - životinje koje u prirodi žive u krošnjama i na stablima. Možete postaviti grane, korkove i veštačke biljke da simulirate vertikalno stanište. Sistem ventilacije sa zaštitnom mrežicom održava protok svežeg vazduha i sprečava nakupljanje vlage."
+    },
+    {
+      "type": "h2",
+      "text": "Pogodan za"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Kameleoni",
+        "Zeleni piton",
+        "Emerald tree boa",
+        "Crested gekoni (par)"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Izrada po meri"
+    },
+    {
+      "type": "p",
+      "html": "Ako vam standardne dimenzije ne odgovaraju, radimo terarijume po meri. Izaberite veličinu, dezen folije, stil pozadine i dodatke poput LED osvetljenja ili termostata. Kontaktirajte nas za ponudu - dostavljamo širom Srbije."
+    }
+  ],
+  "seo": {
+    "title": "Terarijum 80x30x120 +3D | Terarijum - NS Reptiles",
+    "description": "Terarijum 80x30x120 +3D - stakleni terarijum sa 3D pozadinom 80x30x120cm. Ručna izrada, dostava širom Srbije. NS Reptiles Novi Sad.",
+    "keywords": "terarijum 80x30x120 +3d, terarijum 80x30x120cm, terarijum prodaja, terarijum Novi Sad, NS Reptiles",
+    "ogTitle": "Terarijum 80x30x120 +3D | NS Reptiles",
+    "ogDescription": "Stakleni terarijum 80x30x120cm sa ručno rađenom 3D pozadinom. Vertikalni format, zapremina 288 litara."
+  },
+  "related": [
+    "terarijumi/ter-akvarijum-100x45x45x30-3d",
+    "terarijumi/terarijum-130x22x20-3d",
+    "terarijumi/terarijum-120x40x50-3d",
+    "terarijumi/terarijum-80x50x80-akvarijum"
+  ]
+}

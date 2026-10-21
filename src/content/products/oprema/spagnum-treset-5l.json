@@ -1,0 +1,52 @@
+{
+  "name": "Spagnum treset 5L",
+  "label": "Podloge",
+  "lead": "Sphagnum mah 5L - odlično zadržava vlagu. Idealan za vlažne terarijume, skrovišta i inkubaciju jaja.",
+  "image": "/style/img/oprema/spagnum.webp",
+  "imageAlt": "Spagnum treset 5L - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Podloga - Sphagnum mah"
+    },
+    {
+      "k": "Zapremina",
+      "v": "5L"
+    },
+    {
+      "k": "Namena",
+      "v": "Vlažni terarijumi, skrovišta"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Sphagnum mah (treset) u pakovanju od 5 litara je specijalizovana podloga sa izuzetnom sposobnošću zadržavanja vlage - može apsorbovati do 20 puta svoju težinu u vodi. Ova karakteristika ga čini idealnim za vlažne terarijume, vlažna skrovišta (humid hide) za pomoć pri presvlačenju, i za inkubaciju jaja reptila. Za leopard gekone, vlažno skrovište sa sphagnum mahom je neophodno - pomaže im da se bezbedno presvuku i sprečava probleme sa zaglavljenom kožom. U tropskim terarijumima može se koristiti kao gornji sloj preko kokosovog treseta za dodatno zadržavanje vlage. Prirodno je antibakterijski i otporan na buđ. Može se koristiti i za kreiranje naturalističkih dekoracija u kombinaciji sa korom i grančicama."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Naručite telefonom ili porukom na WhatsApp. Brza dostava kurirskom službom. Kupci iz Novog Sada dolaze po robu direktno u radionicu."
+    }
+  ],
+  "seo": {
+    "title": "Spagnum treset 5L | Oprema - NS Reptiles",
+    "description": "Sphagnum mah 5L - odlično zadržava vlagu. Idealan za vlažne terarijume, skrovišta i inkubaciju jaja. NS Reptiles Novi Sad.",
+    "keywords": "spagnum treset 5l, sphagnum mah, podloga za terarijum, vlažno skrovište, oprema za reptile, NS Reptiles, Novi Sad",
+    "ogTitle": "Spagnum treset 5L | NS Reptiles"
+  },
+  "related": [
+    "oprema/kokosov-treset-5l",
+    "oprema/pinceta",
+    "oprema/skrivalice-za-reptile",
+    "oprema/cork-bark"
+  ]
+}

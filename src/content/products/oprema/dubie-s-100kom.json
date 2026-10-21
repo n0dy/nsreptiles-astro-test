@@ -1,0 +1,60 @@
+{
+  "name": "Dubie S 100kom",
+  "label": "Živa hrana",
+  "lead": "Dubia bubašvabe (Blaptica dubia) veličine S, 100 komada. Bogat izvor proteina sa niskim sadržajem masti.",
+  "image": "/style/img/oprema/dubie.webp",
+  "imageAlt": "Dubie S 100kom - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Živa hrana - Dubia bubašvabe"
+    },
+    {
+      "k": "Veličina",
+      "v": "S (mali)"
+    },
+    {
+      "k": "Pakovanje",
+      "v": "100 komada"
+    },
+    {
+      "k": "Namena",
+      "v": "Hrana za reptile"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Dubia bubašvabe (Blaptica dubia) male veličine (S), pakovanje od 100 komada. Dubia bubašvabe su jedna od najboljih opcija žive hrane za reptile - bogate su proteinima (oko 22%), niske u mastima (oko 7%) i imaju odličan odnos kalcijuma i fosfora. Ova mala veličina je idealna za juvenile i manje vrste reptila poput mladih leopard gekona, malih kameleona, dnevnih gekona i žaba."
+    },
+    {
+      "type": "p",
+      "html": "Za razliku od fobasa, dubia bubašvabe imaju mekši egzoskelet koji je lakše svarljiv. Ne penju se po glatkim površinama i ne proizvode neprijatan miris, što ih čini praktičnim za čuvanje u domaćinstvu. Čuvajte ih na sobnoj temperaturi sa pristupom hrani (voće, povrće) za gut-loading pre hranjenja vaših ljubimaca."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Dubie S 100kom | Živa Hrana za Reptile - NS Reptiles",
+    "description": "Dubia bubašvabe veličine S, 100 komada. Bogat izvor proteina sa niskim sadržajem masti - idealno za juvenile i manje reptile.",
+    "keywords": "Dubie S 100kom, dubia bubašvabe, živa hrana za reptile, hrana za gekone, NS Reptiles",
+    "ogTitle": "Dubie S 100kom | NS Reptiles"
+  },
+  "related": [
+    "oprema/dubie-m-100kom",
+    "oprema/dubie-l-100kom",
+    "oprema/calci-shot",
+    "oprema/kalcijum-vitamini"
+  ]
+}

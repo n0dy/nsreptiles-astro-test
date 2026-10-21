@@ -1,0 +1,69 @@
+{
+  "name": "Gecko Nutrition Wild Berry",
+  "label": "Hrana",
+  "lead": "Kompletna praškasta ishrana za gekone sa mešavinom šumskog voća - jagode, maline, kupine i borovnice - u kombinaciji sa bananom (30%) i insektima (11%). Intenzivan i prirodan voćni buket sa uzbudljivom kombinacijom slatkih i kiselih ukusa. Obogaćena vitaminima i mineralima. Sirovi protein: 25.7%, kalcijum: 2%. Proizvedeno u Nemačkoj.",
+  "image": "/style/img/oprema/gecko-nutrition-wild-berry.webp",
+  "imageAlt": "Gecko Nutrition Wild Berry - hrana za gekone - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "Gecko Nutrition"
+    },
+    {
+      "k": "Tip",
+      "v": "Kompletna ishrana"
+    },
+    {
+      "k": "Težina",
+      "v": "50g"
+    },
+    {
+      "k": "Namena",
+      "v": "Gekoni"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Opis"
+    },
+    {
+      "type": "p",
+      "html": "Gecko Nutrition Wild Berry je kompletna praškasta ishrana nemačke proizvodnje, kreirana za crested gekone i druge voćojede reptile. Ova varijanta donosi intenzivan i prirodan buket šumskog voća - jagode, maline, kupine i borovnice - koji pruža uzbudljivu kombinaciju slatkih i blago kiselih ukusa. Banana čini čak 30% sastava i obezbeđuje bogat izvor energije i kalijuma, dok insekti (larve crnog vojničkog muvca, brašnari i cvrčci) sa 11% udela pružaju kompletne proteine i esencijalne aminokiseline. Šumsko voće je prirodno bogato antioksidantima, vitaminom C i vlaknima, što doprinosi zdravom varenju i jačanju imunog sistema. Formula je obogaćena dodatnim vitaminima i mineralima koji podržavaju pravilan rast, razvoj kostiju i vitalnost. Sadržaj sirovog proteina iznosi 25.7%, a kalcijuma 2%, obezbeđujući optimalan nutritivni profil za svakodnevnu upotrebu."
+    },
+    {
+      "type": "h2",
+      "text": "Priprema i hranjenje"
+    },
+    {
+      "type": "p",
+      "html": "Obrok se priprema mešanjem jednog dela praška sa dva dela vode (odnos 1:2) dok se ne postigne glatka, kremasta konzistencija. Pripremljenu smesu stavite u plitku posudu i postavite u terarijum tokom večernjih sati, s obzirom na to da su gekoni noćno aktivne životinje. Preporučujemo hranjenje 2-3 puta nedeljno u večernjim satima. Nepojedenu hranu uklonite nakon 24 sata da biste očuvali svežinu i higijenu u terarijumu. Uz kompletnu ishranu, povremeno možete ponuditi i žive insekte kao dodatno obogaćenje obroka. Neotvoreni prah čuvajte na suvom i hladnom mestu, zaštićen od direktne suncave svetlosti."
+    },
+    {
+      "type": "h2",
+      "text": "Pogodno za"
+    },
+    {
+      "type": "p",
+      "html": "Crested gekone i druge voćojede reptile."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u cele Srbije, besplatno preuzimanje u Novom Sadu. Imate pitanje o ovom proizvodu? Javite nam se - savetujemo besplatno."
+    }
+  ],
+  "seo": {
+    "title": "Gecko Nutrition Wild Berry | Hrana za Gekone - NS REPTILES",
+    "description": "Gecko Nutrition Wild Berry - kompletna praškasta ishrana za gekone sa mešavinom šumskog voća i bananom. 50g. NS Reptiles Novi Sad, dostava širom Srbije.",
+    "keywords": "gecko nutrition wild berry, hrana za gekone, ishrana za crested gekone, gecko nutrition šumsko voće, praškasta hrana za reptile, NS Reptiles, Novi Sad, Srbija",
+    "ogDescription": "Kompletna praškasta ishrana za gekone sa mešavinom šumskog voća i bananom. 50g. NS Reptiles Novi Sad, dostava širom Srbije."
+  },
+  "related": [
+    "oprema/gecko-nutrition-mango"
+  ]
+}

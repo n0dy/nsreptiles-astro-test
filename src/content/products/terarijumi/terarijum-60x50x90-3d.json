@@ -1,0 +1,85 @@
+{
+  "name": "Terarijum 60x50x90 +3D",
+  "label": "Veliki terarijum",
+  "lead": "Stakleni terarijum dimenzija 60x50x90cm sa ručno rađenom 3D pozadinom. Zapremina 270.0 litara, vertikalni format. Ručna izrada u Novom Sadu.",
+  "image": "/style/img/terrariums/60x50x90.webp",
+  "imageAlt": "Stakleni terarijum 60x50x90cm sa 3D pozadinom - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Dužina",
+      "v": "60 cm"
+    },
+    {
+      "k": "Širina",
+      "v": "50 cm"
+    },
+    {
+      "k": "Visina",
+      "v": "90 cm"
+    },
+    {
+      "k": "Zapremina",
+      "v": "~270.0 L"
+    },
+    {
+      "k": "Materijal",
+      "v": "Staklo"
+    },
+    {
+      "k": "3D Pozadina",
+      "v": "Da"
+    },
+    {
+      "k": "Tip",
+      "v": "Vertikalni"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Terarijum dimenzija 60x50x90cm (270L) opremljen je 3D pozadinom od stiropora koja verno reprodukuje teksturu kamena ili kore. Ručno modelovana i obojena u prirodnim tonovima, pozadina nije samo dekoracija - pruža dodatne površine za penjanje i skrivanje."
+    },
+    {
+      "type": "p",
+      "html": "Sa visinom od 90cm koja premašuje dužinu od 60cm, ovaj terarijum je dizajniran za vrste koje se penju. Vertikalni prostor omogućava slojevito uređenje sa granama i platformama na različitim visinama. Otvori za ventilaciju postavljeni su tako da stvaraju prirodno strujanje vazduha od dna ka vrhu, čime se održava optimalna vlažnost."
+    },
+    {
+      "type": "h2",
+      "text": "Pogodan za"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Kameleoni (jemenski, pantera)",
+        "Arborealne zmije",
+        "Crested gekoni u paru",
+        "Veće žabe drvolazi"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Izrada po meri"
+    },
+    {
+      "type": "p",
+      "html": "Pošto svaki terarijum izrađujemo ručno, prilagođavamo ga vašim zahtevima - od dimenzija i folije do pozadine i sistema ventilacije. Pozovite nas ili pišite za besplatan savet i procenu. Šaljemo u sve gradove Srbije."
+    }
+  ],
+  "seo": {
+    "title": "Terarijum 60x50x90 +3D | Terarijum - NS Reptiles",
+    "description": "Terarijum 60x50x90 +3D - stakleni terarijum sa 3D pozadinom 60x50x90cm. Ručna izrada, dostava širom Srbije. NS Reptiles Novi Sad.",
+    "keywords": "terarijum 60x50x90 +3d, terarijum 60x50x90cm, terarijum prodaja, terarijum Novi Sad, NS Reptiles",
+    "ogTitle": "Terarijum 60x50x90 +3D - NS Reptiles"
+  },
+  "related": [
+    "terarijumi/terarijum-60x45x30",
+    "terarijumi/ter-akvarijum-60x45x40x45",
+    "terarijumi/terarijum-60x45x50",
+    "terarijumi/terarijum-65x40x40"
+  ]
+}

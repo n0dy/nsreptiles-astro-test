@@ -1,0 +1,69 @@
+{
+  "name": "Gecko Nutrition Mango",
+  "label": "Hrana",
+  "lead": "Kompletna praškasta ishrana za gekone sa tropskim mangom i bananom. Sadrži mešavinu insekata - larve crnog vojničkog muvca, brašnare i cvrčke (11%), mango (10%) i bananu (28%). Mango dodaje osvežavajući tropski ukus uravnoteženoj ishrani. Obogaćena vitaminima (A, D3, B-kompleks) i mineralima (mangan, gvožđe, selen). Meša se sa vodom u odnosu 1:2. Sirovi protein: 25.4%, kalcijum: 2%. Proizvedeno u Nemačkoj.",
+  "image": "/style/img/oprema/gecko-nutrition-mango.webp",
+  "imageAlt": "Gecko Nutrition Mango - hrana za gekone - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "Gecko Nutrition"
+    },
+    {
+      "k": "Tip",
+      "v": "Kompletna ishrana"
+    },
+    {
+      "k": "Težina",
+      "v": "50g"
+    },
+    {
+      "k": "Namena",
+      "v": "Gekoni"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Opis"
+    },
+    {
+      "type": "p",
+      "html": "Gecko Nutrition Mango je kompletna praškasta ishrana nemačke proizvodnje, razvijena za crested gekone i druge voćojede reptile. Ova varijanta odlikuje se bogatim tropskim ukusom manga koji pruža osvežavajući i primamljiv obrok za vaše gekone. Proteinski deo hrane čine visokokvalitetne larve crnog vojničkog muvca (Hermetia illucens), brašnari i cvrčci, koji zajedno čine 11% sastava i obezbeđuju neophodne aminokiseline. Mango (10%) je izvor beta-karotena, vitamina A i vitamina C, dok banana (28%) doprinosi energetskom sadržaju i prirodnim šećerima. Formula je dodatno obogaćena vitaminima A, D3 i B-kompleksom, kao i mineralima poput mangana, gvožđa i selena, koji podržavaju imuni sistem, zdravlje kostiju i reproduktivnu funkciju. Sadržaj sirovog proteina iznosi 25.4%, a kalcijuma 2%, čime se obezbeđuje idealan odnos hranljivih materija za svakodnevnu ishranu gekona."
+    },
+    {
+      "type": "h2",
+      "text": "Priprema i hranjenje"
+    },
+    {
+      "type": "p",
+      "html": "Pripremite obrok mešanjem jednog dela praška sa dva dela vode (odnos 1:2) dok ne dobijete ujednačenu, kremastu teksturu. Hranu ponudite u plitkoj posudi unutar terarijuma tokom večernjih sati, pošto su gekoni pretežno noćne životinje. Preporučuje se hranjenje 2-3 večeri nedeljno. Nepojedenu hranu obavezno uklonite nakon 24 sata kako biste održali higijenu u terarijumu. Kao dopunu kompletnoj ishrani, povremeno možete ponuditi i žive insekte posute kalcijumom. Neotvoreno pakovanje čuvajte na suvom i hladnom mestu."
+    },
+    {
+      "type": "h2",
+      "text": "Pogodno za"
+    },
+    {
+      "type": "p",
+      "html": "Crested gekone i druge voćojede reptile."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Naručivanje putem telefona ili WhatsApp-a. Šaljemo kurirskom službom širom Srbije. Kupci iz Novog Sada mogu preuzeti robu lično. Ako vam treba savet o primeni ili doziranju - kontaktirajte nas, rado ćemo pomoći."
+    }
+  ],
+  "seo": {
+    "title": "Gecko Nutrition Mango | Hrana za Gekone - NS REPTILES",
+    "description": "Gecko Nutrition Mango - kompletna praškasta ishrana za gekone sa tropskim mangom i bananom. 50g. NS Reptiles Novi Sad, dostava širom Srbije.",
+    "keywords": "gecko nutrition mango, hrana za gekone, ishrana za crested gekone, gecko nutrition, praškasta hrana za reptile, NS Reptiles, Novi Sad, Srbija",
+    "ogDescription": "Kompletna praškasta ishrana za gekone sa tropskim mangom i bananom. 50g. NS Reptiles Novi Sad, dostava širom Srbije."
+  },
+  "related": [
+    "oprema/gecko-nutrition-wild-berry"
+  ]
+}

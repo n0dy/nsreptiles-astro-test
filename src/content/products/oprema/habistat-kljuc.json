@@ -1,0 +1,52 @@
+{
+  "name": "Habistat ključ",
+  "label": "Pribor",
+  "lead": "Habistat ključ za zaključavanje terarijuma. Obezbeđuje sigurnost vaših reptila sprečavajući neovlašćeno otvaranje.",
+  "image": "/style/img/oprema/kljuc.webp",
+  "imageAlt": "Habistat ključ - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "Habistat"
+    },
+    {
+      "k": "Tip",
+      "v": "Ključ za terarijum"
+    },
+    {
+      "k": "Namena",
+      "v": "Zaključavanje"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Habistat ključ za zaključavanje terarijuma je neophodan sigurnosni dodatak za svakog vlasnika reptila. Sprečava neovlašćeno otvaranje kliznih staklenih vrata, čime štiti vaše životinje od neželjenog izlaska i obezbeđuje mir u situacijama kada imate decu ili druge kućne ljubimce u domaćinstvu. Mnoge vrste reptila su izuzetno vešti u pronalaženju načina da otvore klizna vrata, posebno veći gušteri i zmije, pa je sigurnosno zaključavanje praktično obavezno."
+    },
+    {
+      "type": "p",
+      "html": "Jednostavan je za ugradnju - postavlja se na gornju ivicu kliznih vrata bez potrebe za bušenjem ili lepljenjem, i može se montirati za svega par minuta. Ključ se lako zaključava i otključava, a kompaktan dizajn ne narušava izgled terarijuma. Habistat je renomirani britanski brend specijalizovan za opremu za reptile, poznat po kvalitetu i pouzdanosti svojih proizvoda."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu. Imate pitanje o ovom proizvodu? Javite nam se - savetujemo besplatno."
+    }
+  ],
+  "seo": {
+    "title": "Habistat ključ | Oprema - NS REPTILES",
+    "description": "Habistat ključ za zaključavanje terarijuma. Obezbeđuje sigurnost vaših reptila sprečavajući neovlašćeno otvaranje. NS Reptiles Novi Sad.",
+    "keywords": "habistat ključ, oprema za terarijum, oprema za reptile, NS REPTILES, Novi Sad",
+    "ogTitle": "Habistat ključ | NS Reptiles",
+    "ogDescription": "Habistat ključ za zaključavanje terarijuma. Obezbeđuje sigurnost vaših reptila sprečavajući neovlašćeno otvaranje."
+  },
+  "related": []
+}

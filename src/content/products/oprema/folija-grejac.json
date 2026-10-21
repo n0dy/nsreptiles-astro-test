@@ -1,0 +1,51 @@
+{
+  "name": "Folija grejač",
+  "label": "Oprema",
+  "lead": "Folija grejač za zagrevanje dna terarijuma. Ravnomerno greje podlogu, idealan za vrste kojima je potrebna toplota odozdo.",
+  "image": "/style/img/oprema/grejac.webp",
+  "imageAlt": "Folija grejač - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Grejni mat / folija"
+    },
+    {
+      "k": "Namena",
+      "v": "Grejanje dna terarijuma"
+    },
+    {
+      "k": "Napomena",
+      "v": "Dostupan u više veličina"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Folija grejač (grejni mat) je efikasno rešenje za zagrevanje dna terarijuma. Postavlja se ispod terarijuma i obezbeđuje ravnomerno zagrevanje podloge, što je posebno važno za vrste koje zahtevaju grejanje odozdo - tzv. \"belly heat\". Leopard gekoni, na primer, koriste toplotu sa tla za varenje hrane, pa im je ovaj tip grejanja neophodan. Folija grejač treba da pokriva oko jednu trećinu površine dna terarijuma kako bi životinja mogla da se pomeri na hladniju stranu po potrebi. Preporučujemo korišćenje u kombinaciji sa termostatom koji održava stabilnu temperaturu i sprečava pregrevanje. Dostupan je u više veličina, tako da možete izabrati odgovarajuću za vaš terarijum."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Folija grejač | Oprema - NS Reptiles",
+    "description": "Folija grejač za zagrevanje dna terarijuma. Ravnomerno greje podlogu, idealan za vrste kojima je potrebna toplota odozdo. NS Reptiles Novi Sad.",
+    "keywords": "folija grejač, grejni mat, oprema za terarijum, oprema za reptile, NS Reptiles, Novi Sad"
+  },
+  "related": [
+    "oprema/spagnum-treset-5l",
+    "oprema/kvarcni-pesak-1kg",
+    "oprema/cork-bark",
+    "oprema/pinceta"
+  ]
+}

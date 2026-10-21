@@ -1,0 +1,81 @@
+{
+  "name": "Terarijum 90x50x50",
+  "label": "Veliki terarijum",
+  "lead": "Stakleni terarijum dimenzija 90x50x50cm. Zapremina 225.0 litara, horizontalni format. Ručna izrada u Novom Sadu.",
+  "image": "/style/img/terrariums/90x50x50.webp",
+  "imageAlt": "Stakleni terarijum 90x50x50cm - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Dužina",
+      "v": "90 cm"
+    },
+    {
+      "k": "Širina",
+      "v": "50 cm"
+    },
+    {
+      "k": "Visina",
+      "v": "50 cm"
+    },
+    {
+      "k": "Zapremina",
+      "v": "~225.0 L"
+    },
+    {
+      "k": "Materijal",
+      "v": "Staklo"
+    },
+    {
+      "k": "Tip",
+      "v": "Horizontalni"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Sa dimenzijama 90x50x50cm i zapreminom od 225 litara, ovaj terarijum nudi čist stakleni prostor obložen dekorativnom folijom spolja. Folija je funkcionalna - sprečava životinje da vide svoj odraz i smanjuje stres, a estetski uklapa terarijum u vaš prostor."
+    },
+    {
+      "type": "p",
+      "html": "Horizontalna orijentacija sa 90cm dužine pruža podnu površinu na kojoj se lako organizuju grejni deo, hladni deo i zona za skrivanje. Ovaj raspored je ključan za reptile jer im omogućava da sami biraju temperaturu kojoj će se izložiti. Sistem ventilacije sa zaštitnom mrežicom održava protok svežeg vazduha i sprečava nakupljanje vlage."
+    },
+    {
+      "type": "h2",
+      "text": "Pogodan za"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Bradate agame (odrasle)",
+        "Loptasti pitoni",
+        "Kornjače (kopnene)",
+        "Kukuruzni smukovi (odrasli)"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Izrada po meri"
+    },
+    {
+      "type": "p",
+      "html": "Pri naručivanju birate dezen folije i oblik 3D pozadine. Sve terarijume izrađujemo ručno u Novom Sadu, tako da su prilagođavanja uvek moguća - od dimenzija do načina otvaranja. Šaljemo kurirskom službom u celu Srbiju."
+    }
+  ],
+  "seo": {
+    "title": "Terarijum 90x50x50 | Terarijum - NS Reptiles",
+    "description": "Terarijum 90x50x50 - stakleni terarijum 90x50x50cm, zapremina 225L. Ručna izrada, dostava širom Srbije. NS Reptiles Novi Sad.",
+    "keywords": "terarijum 90x50x50, terarijum 90x50x50cm, terarijum prodaja, terarijum Novi Sad, NS Reptiles",
+    "ogTitle": "Terarijum 90x50x50 | NS Reptiles"
+  },
+  "related": [
+    "terarijumi/ter-akvarijum-80x45x50x30",
+    "terarijumi/terarijum-90x45x45-3d",
+    "terarijumi/terarijum-100x40x40-3d",
+    "terarijumi/terarijum-100x40x40"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "HabiStat Tortoise Food Meadow Mix",
+  "label": "Hrana",
+  "lead": "Suva peletirana hrana za kornjače sa ukusom livadske mešavine. Potpuno prirodni sastojci koji oponašaju prirodnu ishranu kornjača na livadi.",
+  "image": "/style/img/oprema/habistat-tortoise-food-meadow-mix.webp",
+  "imageAlt": "HabiStat Tortoise Food Meadow Mix - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "HabiStat"
+    },
+    {
+      "k": "Tip",
+      "v": "Hrana za kornjače"
+    },
+    {
+      "k": "Ukus",
+      "v": "Meadow Mix (livadska mešavina)"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "HabiStat Tortoise Food Meadow Mix je suva peletirana hrana za kopnene kornjače sa ukusom livadske mešavine. Ova varijanta je najbliza prirodnoj ishrani kornjača u divljini, jer sadrži mešavinu livadskih trava i biljaka koje kornjače instinktivno traže u svom prirodnom stanistu. Peleti su napravljeni od potpuno prirodnih sastojaka, bez veštačkih boja, aroma i konzervansa, pružajući kornjačama zdrav i balansiran obrok."
+    },
+    {
+      "type": "p",
+      "html": "Nutritivni profil Meadow Mix varijante je pažljivo osmišljen da odgovara potrebama kopnenih kornjača. Visok sadržaj vlakana podržava zdravu probavu i rad creva, nizak sadržaj proteina je prilagođen metabolizmu kornjača koji zahteva sporodejuće izvore energije, a obogaćenost kalcijumom i vitaminom D3 obezbeđuje pravilan razvoj i održavanje čvrstog oklopa i zdravog koštanog sistema. Livadski ukus čini ovu hranu prirodnom i primamljivom, te je kornjače rado prihvataju."
+    },
+    {
+      "type": "p",
+      "html": "Priprema i korišćenje: potopite pelete u toplu vodu na nekoliko minuta pre davanja kornjačama. Omekšani peleti su lakši za jelo i dodatno doprinose hidrataciji. Pogodna je za evropske kornjače, ruske kornjače i većinu drugih vrsta kopnenih kornjača. Meadow Mix se odlično kombinuje sa svežim livadskim biljem i povrćem za potpuno uravnoteženu ishranu. HabiStat je renomirani britanski brend sa dugogodišnjim iskustvom u proizvodnji hrane za reptile."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Za porudžbinu nas kontaktirajte telefonom ili WhatsApp-om. Dostavljamo u sve gradove Srbije. Lično preuzimanje moguće u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "HabiStat Tortoise Food Meadow Mix | Oprema - NS Reptiles",
+    "description": "HabiStat Tortoise Food Meadow Mix - peletirana hrana za kornjače sa ukusom livadske mešavine. Prirodni sastojci, bogata kalcijumom. NS Reptiles Novi Sad.",
+    "keywords": "habistat tortoise food meadow mix, hrana za kornjače, peletirana hrana kornjače, hrana za reptile, NS Reptiles, Novi Sad, Srbija",
+    "ogTitle": "HabiStat Tortoise Food Meadow Mix | NS Reptiles"
+  },
+  "related": [
+    "oprema/kokosov-treset-5l",
+    "oprema/pinceta",
+    "oprema/skrivalice-za-reptile",
+    "oprema/cork-bark"
+  ]
+}
