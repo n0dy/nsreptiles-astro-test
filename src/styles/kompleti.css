@@ -41,7 +41,7 @@
   line-height: 1.12;
 }
 .ks-price {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald Variable', sans-serif;
   font-weight: 600;
   font-size: 1.9rem;
   color: var(--green-dark);
@@ -59,7 +59,7 @@
   max-width: 56ch;
 }
 .ks-incl-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald Variable', sans-serif;
   font-weight: 600;
   font-size: 0.85rem;
   letter-spacing: 0.12em;
@@ -88,9 +88,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--green);
+  background: var(--green-btn);
   color: #fff;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   border-radius: 50%;
 }
 .ks-cta {
@@ -134,11 +134,11 @@
   transform: translateY(-6px);
 }
 .ks-perk-num {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald Variable', sans-serif;
   font-weight: 600;
   font-size: 0.8rem;
   letter-spacing: 0.14em;
-  color: var(--green);
+  color: var(--green-ink);
 }
 .ks-perk h3 {
   font-size: 1.05rem;

@@ -450,6 +450,9 @@ window.hsSubmit = hsSubmit;
   const slides = document.querySelectorAll('#heroBg .slide');
   const dots = document.querySelectorAll('.hero-dots span');
   if (!slides.length) return;
+  const loadRest = () => document.getElementById('heroBg').classList.add('ready');
+  if (document.readyState === 'complete') loadRest();
+  else addEventListener('load', loadRest);
   let idx = 0,
     timer;
   function show(n) {

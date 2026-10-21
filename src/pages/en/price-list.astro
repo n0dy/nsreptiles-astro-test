@@ -258,10 +258,10 @@ const schema = [
       }
 
       .cn-note p {
-        font-family: 'Jost', sans-serif;
+        font-family: 'Jost Variable', sans-serif;
         font-size: 1.5rem;
         font-weight: 300;
-        color: var(--white, #fff);
+        color: #fff;
         line-height: 1.65;
         margin: 0;
       }
@@ -280,7 +280,7 @@ const schema = [
       }
 
       .cn-cat-head h2 {
-        font-family: 'Oswald', sans-serif;
+        font-family: 'Oswald Variable', sans-serif;
         font-size: 2.2rem;
         font-weight: 600;
         text-transform: uppercase;
@@ -290,7 +290,7 @@ const schema = [
       }
 
       .cn-cat-head .cn-count {
-        font-family: 'Jost', sans-serif;
+        font-family: 'Jost Variable', sans-serif;
         font-size: 1.3rem;
         font-weight: 400;
         color: var(--ink-soft, #7a8088);
@@ -318,7 +318,7 @@ const schema = [
       }
 
       .cn-name {
-        font-family: 'Jost', sans-serif;
+        font-family: 'Jost Variable', sans-serif;
         font-size: 1.45rem;
         font-weight: 400;
         color: var(--dark, #282f34);
@@ -327,7 +327,7 @@ const schema = [
       }
 
       .cn-price {
-        font-family: 'Oswald', sans-serif;
+        font-family: 'Oswald Variable', sans-serif;
         font-size: 1.4rem;
         font-weight: 500;
         white-space: nowrap;
@@ -336,13 +336,13 @@ const schema = [
       }
 
       .cn-price.has-price {
-        color: var(--green, #4aa584);
+        color: var(--green-ink);
         font-size: 1.5rem;
         font-weight: 600;
       }
 
       .cn-price.no-price {
-        font-family: 'Jost', sans-serif;
+        font-family: 'Jost Variable', sans-serif;
         font-size: 1.3rem;
         font-weight: 300;
         color: var(--ink-soft, #7a8088);
@@ -352,16 +352,16 @@ const schema = [
 
       /* CTA blok */
       .cn-cta-wrap {
-        background: var(--green, #4aa584);
+        background: var(--green-btn);
         padding: 3.5rem 2.4rem;
         text-align: center;
       }
 
       .cn-cta-wrap p {
-        font-family: 'Jost', sans-serif;
+        font-family: 'Jost Variable', sans-serif;
         font-size: 1.6rem;
         font-weight: 300;
-        color: var(--white, #fff);
+        color: #fff;
         margin: 0 0 2rem;
         line-height: 1.6;
       }
@@ -378,7 +378,7 @@ const schema = [
       }
 
       .cn-cta-btns a {
-        font-family: 'Oswald', sans-serif;
+        font-family: 'Oswald Variable', sans-serif;
         font-weight: 600;
         font-size: 1.4rem;
         text-transform: uppercase;
@@ -400,8 +400,8 @@ const schema = [
       }
 
       .cn-cta-wa {
-        background: rgba(255,255,255,.15);
-        color: var(--white, #fff);
+        background: rgba(0,0,0,.2);
+        color: #fff;
         border: 1px solid rgba(255,255,255,.4);
       }
 
@@ -421,6 +421,22 @@ const schema = [
 
         .cn-name {
           font-size: 1.35rem;
+        }
+
+
+        .cn-price {
+
+          min-width: 0;
+
+        }
+
+
+        .cn-price.no-price {
+
+          white-space: normal;
+
+          font-size: 1rem;
+
         }
 
         .cn-price {

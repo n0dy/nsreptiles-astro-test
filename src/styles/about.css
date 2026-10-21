@@ -93,9 +93,9 @@
   margin-bottom: 8px;
 }
 .story-text .tag {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Jost Variable', sans-serif;
   font-style: italic;
-  color: var(--green);
+  color: var(--green-ink);
   font-size: 1.05rem;
   margin-bottom: 20px;
   display: block;
@@ -130,10 +130,10 @@
   transform: translateY(-5px);
 }
 .about-stat b {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald Variable', sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
-  color: var(--green);
+  color: var(--green-ink);
   display: block;
   line-height: 1;
 }
@@ -142,7 +142,7 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--ink-soft);
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald Variable', sans-serif;
   margin-top: 8px;
   display: block;
 }
@@ -193,9 +193,9 @@
     border-color 0.4s;
 }
 .tl-year {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald Variable', sans-serif;
   font-weight: 700;
-  color: var(--green);
+  color: var(--green-ink);
   font-size: 1.1rem;
   letter-spacing: 0.05em;
   margin-bottom: 4px;
@@ -262,7 +262,7 @@
   position: absolute;
   top: 14px;
   right: 22px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald Variable', sans-serif;
   font-weight: 700;
   font-size: 3.4rem;
   line-height: 1;
@@ -271,7 +271,7 @@
   letter-spacing: -0.02em;
 }
 .vc .vc-ic {
-  color: var(--green);
+  color: var(--green-ink);
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -329,7 +329,7 @@
   color: rgba(255, 255, 255, 0.9);
 }
 .vc.accent .big {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald Variable', sans-serif;
   font-weight: 700;
   font-size: 3.4rem;
   line-height: 1;

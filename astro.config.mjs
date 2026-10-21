@@ -6,4 +6,6 @@ export default defineConfig({
   // .html URL-ovi kao na postojecem sajtu - nijedan indeksirani URL se ne menja
   build: { format: 'preserve' },
   trailingSlash: 'ignore',
+  // kompresija brise razmak izmedju teksta i <strong>/<a> u novom redu ("je<strong>odgajivacnica")
+  compressHTML: false,
 });

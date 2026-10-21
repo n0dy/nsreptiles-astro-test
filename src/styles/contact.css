@@ -41,7 +41,7 @@
   width: 32px;
   height: 32px;
   flex-shrink: 0;
-  color: var(--green);
+  color: var(--green-ink);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,15 +54,15 @@
   color: var(--ink-soft);
 }
 .k-card .k-card-txt span {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald Variable', sans-serif;
   font-weight: 600;
   font-size: 1.02rem;
   color: var(--ink);
 }
 .k-card small {
   display: block;
-  font-family: 'Oswald', sans-serif;
-  font-size: 0.7rem;
+  font-family: 'Oswald Variable', sans-serif;
+  font-size: 0.75rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--ink-soft);
@@ -70,14 +70,14 @@
 }
 .k-card a,
 .k-card span {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald Variable', sans-serif;
   font-weight: 600;
   font-size: 1.02rem;
   color: var(--ink);
   transition: color 0.2s;
 }
 .k-card a:hover {
-  color: var(--green);
+  color: var(--green-ink);
 }
 
 /* ===== QUICK BUTTONS ===== */
@@ -95,7 +95,7 @@
   justify-content: center;
   gap: 9px;
   padding: 14px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald Variable', sans-serif;
   font-weight: 500;
   font-size: 0.82rem;
   letter-spacing: 0.08em;
@@ -107,10 +107,10 @@
   opacity: 0.88;
 }
 .k-wa {
-  background: #25d366;
+  background: #1a7f45;
 }
 .k-vb {
-  background: #7360f2;
+  background: #6650e6;
 }
 .k-social {
   display: flex;
@@ -124,14 +124,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald Variable', sans-serif;
   font-weight: 600;
   font-size: 0.78rem;
   color: var(--ink-soft);
   transition: 0.25s;
 }
 .k-social a:hover {
-  background: var(--green);
+  background: var(--green-btn);
   color: #fff;
   border-color: var(--green);
 }
@@ -165,9 +165,9 @@
 }
 .k-field label {
   display: block;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald Variable', sans-serif;
   font-weight: 500;
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--ink-soft);
@@ -179,7 +179,7 @@
   padding: 13px 14px;
   border: 1.5px solid var(--silver);
   background: var(--bg);
-  font-family: 'Jost', sans-serif;
+  font-family: 'Jost Variable', sans-serif;
   font-size: 0.95rem;
   color: var(--ink);
   transition:
@@ -198,7 +198,7 @@
 }
 .k-consent {
   display: block;
-  font-family: 'Jost', sans-serif;
+  font-family: 'Jost Variable', sans-serif;
   font-weight: 400;
   text-transform: none;
   letter-spacing: 0;
@@ -216,7 +216,7 @@
   accent-color: var(--green);
 }
 .k-consent a {
-  color: var(--green);
+  color: var(--green-ink);
   text-decoration: underline;
   text-underline-offset: 2px;
 }
@@ -237,7 +237,7 @@
   width: 74px;
   height: 74px;
   border-radius: 50%;
-  background: var(--green);
+  background: var(--green-btn);
   color: #fff;
   display: flex;
   align-items: center;

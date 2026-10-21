@@ -19,7 +19,7 @@
     border-color 0.4s;
 }
 .doc-updated svg {
-  color: var(--green);
+  color: var(--green-ink);
 }
 .doc-sec {
   margin-bottom: 36px;
@@ -44,7 +44,7 @@
   margin-bottom: 0;
 }
 .doc-sec a {
-  color: var(--green);
+  color: var(--green-ink);
   font-weight: 500;
   text-decoration: underline;
   text-underline-offset: 2px;
@@ -93,10 +93,10 @@
   margin-bottom: 0;
 }
 .doc-contact .row svg {
-  color: var(--green);
+  color: var(--green-ink);
   flex-shrink: 0;
 }
 .doc-contact .row a {
-  color: var(--green);
+  color: var(--green-ink);
   font-weight: 500;
 }

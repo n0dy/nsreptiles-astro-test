@@ -11,16 +11,16 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 8px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald Variable', sans-serif;
   font-weight: 500;
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--ink-soft);
   margin-bottom: 30px;
 }
 .pd-breadcrumb a {
-  color: var(--green);
+  color: var(--green-ink);
   transition: color 0.2s;
 }
 .pd-breadcrumb a:hover {
@@ -65,12 +65,12 @@ body.dark .pd-media {
 
 /* ===== INFO ===== */
 .pd-cat {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald Variable', sans-serif;
   font-weight: 500;
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--green);
+  color: var(--green-ink);
   margin-bottom: 10px;
 }
 .pd-info h1 {
@@ -119,15 +119,15 @@ body.dark .pd-spec {
   background: var(--dark-2);
 }
 .pd-spec-k {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald Variable', sans-serif;
   font-weight: 500;
-  font-size: 0.62rem;
+  font-size: 0.75rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--ink-soft);
 }
 .pd-spec-v {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald Variable', sans-serif;
   font-weight: 600;
   font-size: 0.95rem;
   color: var(--ink);
@@ -143,20 +143,20 @@ body.dark .pd-spec {
   margin-bottom: 22px;
 }
 .pd-price-k {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald Variable', sans-serif;
   font-weight: 500;
-  font-size: 0.66rem;
+  font-size: 0.75rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--green-light);
 }
 .pd-price-v {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald Variable', sans-serif;
   font-weight: 600;
   font-size: 1.25rem;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  color: var(--white);
+  color: #fff;
 }
 
 /* ===== CTA ===== */

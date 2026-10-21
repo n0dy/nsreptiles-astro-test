@@ -1,14 +1,8 @@
 ---
-import '@fontsource/jost/300.css';
-import '@fontsource/jost/400.css';
-import '@fontsource/jost/500.css';
-import '@fontsource/jost/600.css';
-import '@fontsource/jost/700.css';
-import '@fontsource/oswald/300.css';
-import '@fontsource/oswald/400.css';
-import '@fontsource/oswald/500.css';
-import '@fontsource/oswald/600.css';
-import '@fontsource/oswald/700.css';
+import '@fontsource-variable/jost';
+import '@fontsource-variable/oswald';
+import jostLatin from '@fontsource-variable/jost/files/jost-latin-wght-normal.woff2?url';
+import oswaldLatin from '@fontsource-variable/oswald/files/oswald-latin-wght-normal.woff2?url';
 import '../styles/style.css';
 import { SITE, IS_INDEXABLE, type Locale } from '../config/site';
 import type { NavKey } from '../i18n/nav';
@@ -39,6 +33,9 @@ const analytics = IS_INDEXABLE;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="/favicon.ico" sizes="any" />
+    <!-- fontovi stizu pre prvog crtanja, da se hero tekst ne prelama posle (CLS) -->
+    <link rel="preload" href={jostLatin} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href={oswaldLatin} as="font" type="font/woff2" crossorigin />
     <SeoHead lang={lang} {...seo} />
     {analytics && (
       <>
