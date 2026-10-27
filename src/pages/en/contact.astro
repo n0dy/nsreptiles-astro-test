@@ -90,17 +90,17 @@ import { translationsFor } from '../../i18n/routes';
             </p>
             <div class="k-row">
               <div class="k-field">
-                <label>Full name</label><input type="text" id="kName" placeholder="John Smith">
+                <label for="kName">Full name</label><input type="text" id="kName" autocomplete="name" placeholder="John Smith">
               </div>
               <div class="k-field">
-                <label>E-mail</label><input type="email" id="kEmail" placeholder="john@email.com">
+                <label for="kEmail">E-mail</label><input type="email" id="kEmail" autocomplete="email" placeholder="john@email.com">
               </div>
             </div>
             <div class="k-field">
-              <label>Phone (optional)</label><input type="tel" id="kPhone" placeholder="+381 6x xxx xxxx">
+              <label for="kPhone">Phone (optional)</label><input type="tel" id="kPhone" autocomplete="tel" placeholder="+381 6x xxx xxxx">
             </div>
             <div class="k-field">
-              <label>Message</label><textarea id="kMsg" placeholder="What would you like to ask us about?"></textarea>
+              <label for="kMsg">Message</label><textarea id="kMsg" placeholder="What would you like to ask us about?"></textarea>
             </div>
             <label class="k-consent"><input type="checkbox" id="kConsent"> I agree to the
               <a href="/en/privacy-policy.html">Privacy Policy</a> and the
@@ -123,10 +123,13 @@ import { translationsFor } from '../../i18n/routes';
 
 <script is:inline slot="after">
       (function () {
-        const komplet = new URLSearchParams(location.search).get('komplet');
-        if (!komplet) return;
+        const q = new URLSearchParams(location.search);
+        const komplet = q.get('komplet'), proizvod = q.get('proizvod');
+        if (!komplet && !proizvod) return;
         const msg = document.getElementById('kMsg');
-        if (!msg.value.trim()) msg.value = 'Hello,\n\nI am interested in the starter kit "' + komplet + '". Please send me more information about availability and pickup.\n\nThank you!';
+        if (!msg.value.trim()) msg.value = komplet
+          ? 'Hello,\n\nI am interested in the starter kit "' + komplet + '". Please send me more information about availability and pickup.\n\nThank you!'
+          : 'Hello,\n\nI am interested in "' + proizvod + '". Please send me more information about price and availability.\n\nThank you!';
         document.getElementById('kForm').scrollIntoView({ block: 'center' });
       })();
       document.getElementById('kSubmit').addEventListener('click', async () => {

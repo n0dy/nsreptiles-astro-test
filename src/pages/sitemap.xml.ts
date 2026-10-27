@@ -3,7 +3,7 @@ import { SITE } from '../config/site';
 import { translationsFor, PRODUCT_GROUPS } from '../i18n/routes';
 import { getProducts, productPath } from '../lib/products';
 
-const EXCLUDE = new Set(['/404.html', '/en/404.html', '/ru/404.html', '/korpa.html', '/en/cart.html', '/ru/cart.html']);
+const EXCLUDE = new Set(['/404.html', '/en/404.html', '/ru/404.html']);
 
 const pageFiles = Object.keys(import.meta.glob('./**/*.astro'));
 

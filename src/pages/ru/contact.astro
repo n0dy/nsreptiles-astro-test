@@ -90,17 +90,17 @@ import { translationsFor } from '../../i18n/routes';
             </p>
             <div class="k-row">
               <div class="k-field">
-                <label>Имя и фамилия</label><input type="text" id="kName" placeholder="Иван Иванов">
+                <label for="kName">Имя и фамилия</label><input type="text" id="kName" autocomplete="name" placeholder="Иван Иванов">
               </div>
               <div class="k-field">
-                <label>E-mail</label><input type="email" id="kEmail" placeholder="ivan@email.com">
+                <label for="kEmail">E-mail</label><input type="email" id="kEmail" autocomplete="email" placeholder="ivan@email.com">
               </div>
             </div>
             <div class="k-field">
-              <label>Телефон (необязательно)</label><input type="tel" id="kPhone" placeholder="+381 6x xxx xxxx">
+              <label for="kPhone">Телефон (необязательно)</label><input type="tel" id="kPhone" autocomplete="tel" placeholder="+381 6x xxx xxxx">
             </div>
             <div class="k-field">
-              <label>Сообщение</label><textarea id="kMsg" placeholder="О чём вы хотите нас спросить?"></textarea>
+              <label for="kMsg">Сообщение</label><textarea id="kMsg" placeholder="О чём вы хотите нас спросить?"></textarea>
             </div>
             <label class="k-consent"><input type="checkbox" id="kConsent"> Я соглашаюсь с
               <a href="/ru/privacy-policy.html">Политикой конфиденциальности</a> и
@@ -122,10 +122,13 @@ import { translationsFor } from '../../i18n/routes';
 
 <script is:inline slot="after">
       (function () {
-        const komplet = new URLSearchParams(location.search).get('komplet');
-        if (!komplet) return;
+        const q = new URLSearchParams(location.search);
+        const komplet = q.get('komplet'), proizvod = q.get('proizvod');
+        if (!komplet && !proizvod) return;
         const msg = document.getElementById('kMsg');
-        if (!msg.value.trim()) msg.value = 'Здравствуйте!\n\nМеня интересует набор для начинающих «' + komplet + '». Пожалуйста, сообщите о наличии и получении.\n\nСпасибо!';
+        if (!msg.value.trim()) msg.value = komplet
+          ? 'Здравствуйте!\n\nМеня интересует набор для начинающих «' + komplet + '». Пожалуйста, сообщите о наличии и получении.\n\nСпасибо!'
+          : 'Здравствуйте!\n\nМеня интересует «' + proizvod + '». Пожалуйста, сообщите цену и наличие.\n\nСпасибо!';
         document.getElementById('kForm').scrollIntoView({ block: 'center' });
       })();
       document.getElementById('kSubmit').addEventListener('click', async () => {

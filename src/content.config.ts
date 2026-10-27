@@ -25,7 +25,7 @@ const products = defineCollection({
     specs: z.array(z.object({ k: z.string().min(1), v: z.string().min(1) })).min(1),
     description: z.array(block).min(1),
     seo: z.object({
-      title: z.string().min(1).max(70),
+      title: z.string().min(1).max(65),
       description: z.string().min(50).max(160),
       keywords: z.string().optional(),
       ogTitle: z.string().optional(),
