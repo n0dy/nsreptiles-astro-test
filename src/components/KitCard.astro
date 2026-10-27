@@ -1,0 +1,25 @@
+---
+import type { Locale } from '../config/site';
+import { localizePath } from '../i18n/routes';
+import { KIT_UI, type Kit } from '../i18n/kits';
+
+interface Props {
+  kit: Kit;
+  lang: Locale;
+}
+const { kit, lang } = Astro.props;
+const ui = KIT_UI[lang];
+const href = localizePath(kit.href, lang);
+---
+<article class="kit-card reveal">
+  <span class="kit-badge">{ui.badge}</span>
+  <a href={href} class="kit-img">
+    <img loading="lazy" decoding="async" src={kit.img} alt={kit.name[lang]} />
+  </a>
+  <div class="kit-body">
+    <h3>{kit.name[lang]}</h3>
+    <ul class="kit-incl">{kit.incl[lang].map((x) => <li>{x}</li>)}</ul>
+    <div class="kit-price">{kit.price.toLocaleString(ui.locale)} <span>din</span></div>
+    <a href={href} class="btn btn-outline">{ui.more}</a>
+  </div>
+</article>

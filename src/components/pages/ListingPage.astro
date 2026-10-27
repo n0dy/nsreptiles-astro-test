@@ -1,0 +1,137 @@
+---
+import Base from '../../layouts/Base.astro';
+import ProductCard from '../ProductCard.astro';
+import Zcta from '../Zcta.astro';
+import '../../styles/animals.css';
+import '../../styles/oprema.css';
+import '../../styles/usluge.css';
+import type { Locale } from '../../config/site';
+import { localizePath, translationsFor } from '../../i18n/routes';
+import { getProducts, type Product } from '../../lib/products';
+import { LISTINGS, LISTING_UI, type ListingKey } from '../../i18n/pages/listings';
+
+interface Props {
+  listing: ListingKey;
+  lang: Locale;
+}
+const { listing, lang } = Astro.props;
+const l = LISTINGS[listing];
+const ui = LISTING_UI[lang];
+const href = (srPath: string) => localizePath(srPath, lang);
+const path = href(l.path);
+
+const groupOrder = l.groups.map((g) => g.key);
+const dims = (p: Product) => (p.id.match(/\d+/g) ?? []).map(Number);
+const byGroupThenSize = (a: { p: Product; group: string }, b: { p: Product; group: string }) => {
+  const g = groupOrder.indexOf(a.group) - groupOrder.indexOf(b.group);
+  if (g) return g;
+  const [da, db] = [dims(a.p), dims(b.p)];
+  for (let i = 0; i < Math.max(da.length, db.length); i++) {
+    const d = (da[i] ?? 0) - (db[i] ?? 0);
+    if (d) return d;
+  }
+  return a.p.data.name.localeCompare(b.p.data.name);
+};
+
+const items = (await getProducts())
+  .filter(l.includes)
+  .map((p) => {
+    const group = l.groupOf(p);
+    if (!group || !groupOrder.includes(group)) throw new Error(`${listing}: proizvod ${p.id} nema filter grupu`);
+    return { p, group };
+  })
+  .sort(byGroupThenSize);
+
+const plural = new Intl.PluralRules(lang);
+const countText = (n: number) => `${n} ${ui.count[plural.select(n) as keyof typeof ui.count] ?? ui.count.other}`;
+---
+<Base
+  lang={lang}
+  {...l.meta[lang]}
+  path={path}
+  image={l.image}
+  active={l.active}
+  translations={translationsFor(path)}
+>
+<section class="page-head">
+  <div class="wrap">
+    <h1>{l.h1[lang]}</h1>
+    <p>{l.lead[lang]}</p>
+  </div>
+</section>
+<section class="intro">
+  <div class="wrap">
+    <div class="intro-box"><p set:html={l.intro[lang]} /></div>
+  </div>
+</section>
+<section class="op-shop">
+  <div class="wrap">
+    <div class="op-toolbar">
+      <div class="pills">
+        <button class="pill active" data-filter="all">{ui.all}</button>
+        {l.groups.map((g) => <button class="pill" data-filter={g.key}>{g.label[lang]}</button>)}
+        {'extraPill' in l && <a class="pill" href={href(l.extraPill.href)}>{l.extraPill.label[lang]}</a>}
+      </div>
+      <div class="op-search">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <circle cx="11" cy="11" r="7"></circle>
+          <path d="M21 21l-4.3-4.3"></path>
+        </svg>
+        <input type="text" id="opSearch" placeholder={l.search[lang]} aria-label={l.search[lang]} />
+      </div>
+    </div>
+    <div class="op-count" id="opCount">{countText(items.length)}</div>
+    <div class="op-grid" id="opGrid">
+      {items.map(({ p, group }) => <ProductCard product={p} lang={lang} group={group} />)}
+    </div>
+    <div class="op-empty" id="opEmpty">
+      <p set:html={l.empty[lang].replace('{contact}', href('/kontakt.html'))} />
+    </div>
+  </div>
+</section>
+{'guides' in l && (
+  <section class="usl-more">
+    <div class="wrap">
+      <div class="usl-more-head"><h2 set:html={l.guides.title[lang]} /></div>
+      <div class="usl-more-grid">
+        {l.guides.links.map((g) => (
+          <a class="usl-link" href={href(g.href)}>{g.label[lang]}<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+        ))}
+      </div>
+    </div>
+  </section>
+)}
+<Zcta title={l.cta.title[lang]} text={l.cta.text[lang]} callLabel={ui.call} />
+
+<script is:inline slot="after" define:vars={{ countForms: ui.count, lang }}>
+  // filter po grupi + pretraga
+  const opCards = [...document.querySelectorAll('.op-card')];
+  const opCount = document.getElementById('opCount');
+  const opEmpty = document.getElementById('opEmpty');
+  const opSearch = document.getElementById('opSearch');
+  const plural = new Intl.PluralRules(lang);
+  let opCat = 'all';
+
+  function opApply() {
+    const q = opSearch.value.trim().toLowerCase();
+    let n = 0;
+    opCards.forEach((c) => {
+      const show = (opCat === 'all' || c.dataset.cat === opCat) && (!q || c.dataset.search.includes(q));
+      c.style.display = show ? '' : 'none';
+      if (show) n++;
+    });
+    opCount.textContent = n + ' ' + (countForms[plural.select(n)] ?? countForms.other);
+    opEmpty.classList.toggle('show', n === 0);
+  }
+
+  document.querySelectorAll('.op-toolbar .pill[data-filter]').forEach((p) =>
+    p.addEventListener('click', () => {
+      document.querySelectorAll('.op-toolbar .pill').forEach((x) => x.classList.remove('active'));
+      p.classList.add('active');
+      opCat = p.dataset.filter;
+      opApply();
+    }),
+  );
+  opSearch.addEventListener('input', opApply);
+</script>
+</Base>

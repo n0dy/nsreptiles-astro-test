@@ -1,13 +1,16 @@
 ---
 import Base from '../../layouts/Base.astro';
 import ProductCard from '../ProductCard.astro';
+import Faq from '../Faq.astro';
+import KitCard from '../KitCard.astro';
+import { KITS } from '../../i18n/kits';
 import '../../styles/oprema.css';
 import { SITE, whatsappLink, type Locale } from '../../config/site';
 import { HOME } from '../../i18n/ui';
 import { localizePath, translationsFor } from '../../i18n/routes';
 import { getProducts } from '../../lib/products';
 import {
-  HOME_TEXT, REPTILES, GALLERY, KITS, SERVICES, WORK_PRODUCTS, CUSTOM, TESTIMONIALS, FAQ, INSTA_IMAGES,
+  HOME_TEXT, REPTILES, GALLERY, SERVICES, WORK_PRODUCTS, CUSTOM, TESTIMONIALS, FAQ, INSTA_IMAGES,
 } from '../../i18n/pages/home';
 
 interface Props {
@@ -136,20 +139,7 @@ const path = HOME[lang];
       <a href={href('/kompleti.html')} class="btn btn-outline">{t.kits.all}</a>
     </div>
     <div class="kit-grid">
-      {KITS.map((k) => (
-        <article class="kit-card reveal">
-          <span class="kit-badge">{t.kits.badge}</span>
-          <a href={href(k.href)} class="kit-img">
-            <img loading="lazy" decoding="async" src={k.img} alt={k.name[lang]} />
-          </a>
-          <div class="kit-body">
-            <h3>{k.name[lang]}</h3>
-            <ul class="kit-incl">{k.incl[lang].map((x) => <li>{x}</li>)}</ul>
-            <div class="kit-price">{k.price} <span>{t.kits.currency}</span></div>
-            <a href={href(k.href)} class="btn btn-outline">{t.kits.more}</a>
-          </div>
-        </article>
-      ))}
+      {KITS.map((k) => <KitCard kit={k} lang={lang} />)}
     </div>
   </div>
 </section>
@@ -256,21 +246,7 @@ const path = HOME[lang];
   </div>
 </section>
 
-<section class="section faq">
-  <div class="wrap">
-    <div class="section-head reveal" style="text-align: center; max-width: 640px; margin: 0 auto 46px">
-      <h2 class="sec-title" set:html={t.faqTitle} />
-    </div>
-    <div class="faq-list reveal">
-      {FAQ.map((f) => (
-        <div class="faq-item">
-          <button class="faq-q">{f.q[lang]}<span class="ic">+</span></button>
-          <div class="faq-a"><p>{f.a[lang]}</p></div>
-        </div>
-      ))}
-    </div>
-  </div>
-</section>
+<Faq lang={lang} title={t.faqTitle} items={FAQ} />
 
 <div class="insta">
   {INSTA_IMAGES.map((src) => (

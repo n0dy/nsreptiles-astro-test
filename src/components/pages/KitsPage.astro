@@ -1,0 +1,115 @@
+---
+import Base from '../../layouts/Base.astro';
+import KitCard from '../KitCard.astro';
+import Zcta from '../Zcta.astro';
+import '../../styles/animals.css';
+import '../../styles/kompleti.css';
+import { SITE, type Locale } from '../../config/site';
+import { HOME } from '../../i18n/ui';
+import { localizePath, translationsFor } from '../../i18n/routes';
+import { KITS } from '../../i18n/kits';
+import { KITS_PAGE } from '../../i18n/pages/kits-page';
+
+interface Props {
+  lang: Locale;
+}
+const { lang } = Astro.props;
+const t = KITS_PAGE[lang];
+const href = (srPath: string) => localizePath(srPath, lang);
+const path = href('/kompleti.html');
+
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: t.schemaName,
+    itemListElement: KITS.map((k, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: t.kitName(k.name[lang]),
+      url: SITE.url + href(k.href),
+    })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: t.home, item: SITE.url + HOME[lang] },
+      { '@type': 'ListItem', position: 2, name: t.crumb, item: SITE.url + path },
+    ],
+  },
+];
+---
+<Base
+  lang={lang}
+  {...t.meta}
+  path={path}
+  image="/style/img/gallery/2.jpg"
+  translations={translationsFor(path)}
+  schema={schema}
+>
+<section class="page-head">
+  <div class="wrap">
+    <h1>{t.h1}</h1>
+    <p>{t.lead}</p>
+  </div>
+</section>
+<nav class="breadcrumb-bar" aria-label={t.crumbsLabel}>
+  <div class="wrap">
+    <ol class="breadcrumb">
+      <li><a href={HOME[lang]}>{t.home}</a></li>
+      <li aria-current="page">{t.crumb}</li>
+    </ol>
+  </div>
+</nav>
+<section class="intro">
+  <div class="wrap">
+    <div class="intro-box reveal"><p>{t.intro}</p></div>
+  </div>
+</section>
+<section class="section kompleti" id="kompleti" style="padding-top: 70px">
+  <div class="wrap">
+    <div class="gal-head reveal">
+      <div><h2 class="sec-title" set:html={t.chooseTitle} /></div>
+      <a href={href('/zivotinje.html')} class="btn btn-outline">{t.allAnimals}</a>
+    </div>
+    <div class="kit-grid">
+      {KITS.map((k) => <KitCard kit={k} lang={lang} />)}
+    </div>
+  </div>
+</section>
+<section class="ks-perks">
+  <div class="wrap">
+    <div class="reveal" style="text-align: center; max-width: 680px; margin: 0 auto">
+      <h2 class="sec-title" set:html={t.perksTitle} />
+      <p style="color: var(--ink-soft); font-weight: 300; margin-top: 14px">{t.perksText}</p>
+    </div>
+    <div class="ks-perks-grid">
+      {t.perks.map((s) => (
+        <div class="ks-perk reveal">
+          <div class="ks-perk-num">{s.num}</div>
+          <h3>{s.title}</h3>
+          <p>{s.text}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+<section class="section" style="background: var(--white)">
+  <div class="wrap">
+    <div class="gal-head reveal">
+      <div><h2 class="sec-title" set:html={t.howTitle} /></div>
+    </div>
+    <div class="ks-perks-grid" style="margin-top: 10px">
+      {t.steps.map((s) => (
+        <div class="ks-perk reveal">
+          <div class="ks-perk-num">{s.num}</div>
+          <h3>{s.title}</h3>
+          <p>{s.text}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+<Zcta title={t.cta.title} text={t.cta.text} callLabel={SITE.phoneDisplay} waText={t.cta.wa} track />
+</Base>
