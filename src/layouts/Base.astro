@@ -11,7 +11,6 @@ import Topbar from '../components/Topbar.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import FloatContact from '../components/FloatContact.astro';
-import CartPanel from '../components/CartPanel.astro';
 
 type Props = SeoProps & {
   lang: Locale;
@@ -19,11 +18,10 @@ type Props = SeoProps & {
   /** kuda vodi jezicki meni; podrazumevano prevodi, inace pocetna tog jezika */
   langLinks?: Partial<Record<Locale, string>>;
   bodyClass?: string;
-  cart?: boolean;
   floatContact?: boolean;
 };
 
-const { lang, active, langLinks, bodyClass, cart = true, floatContact = true, ...seo } = Astro.props;
+const { lang, active, langLinks, bodyClass, floatContact = true, ...seo } = Astro.props;
 // analitika samo na produkcijskom domenu, da test deploy ne kvari statistiku
 const analytics = IS_INDEXABLE;
 ---
@@ -54,6 +52,8 @@ const analytics = IS_INDEXABLE;
     <slot name="head" />
   </head>
   <body class={bodyClass}>
+    <!-- tema pre prvog crtanja, inace dark korisnici vide blic svetle teme -->
+    <script is:inline>try { if (localStorage.getItem('theme') === 'dark') document.body.classList.add('dark'); } catch (e) {}</script>
     {analytics && (
       <noscript><iframe src={`https://www.googletagmanager.com/ns.html?id=${SITE.gtmId}`} height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     )}
@@ -64,7 +64,6 @@ const analytics = IS_INDEXABLE;
     </main>
     <Footer lang={lang} />
     {floatContact && <FloatContact />}
-    {cart && <CartPanel lang={lang} />}
     <script src="../scripts/main.js"></script>
     <slot name="after" />
   </body>

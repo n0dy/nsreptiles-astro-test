@@ -2,8 +2,6 @@
 (function () {
   const btn = document.getElementById('themeToggle');
   if (!btn) return;
-  if (localStorage.getItem('theme') === 'dark')
-    document.body.classList.add('dark');
   btn.addEventListener('click', () => {
     document.body.classList.toggle('dark');
     localStorage.setItem(
@@ -13,133 +11,20 @@
   });
 })();
 
-// ===== KORPA =====
-(function () {
-  const overlay = document.getElementById('cartOverlay');
-  const panel = document.getElementById('cartPanel');
-  const itemsWrap = document.getElementById('cartItems');
-  const foot = document.getElementById('cartFoot');
-  const badge = document.getElementById('cartBadge');
-  const countEl = document.getElementById('cartCount');
-  const totalEl = document.getElementById('cartTotal');
-  const openBtn = document.getElementById('cartOpen');
-  const closeBtn = document.getElementById('cartClose');
-  const continueBtn = document.getElementById('cartContinue');
-  // strane bez korpa-sidebar markupa (npr. korpa.html) preskacu korpa logiku
-  if (!panel || !itemsWrap || !overlay) return;
-  let items = []; // {name, price, img, qty}
-  const t = {
-    sr: { empty: 'Vaša korpa je prazna.', remove: 'Izbaci' },
-    en: { empty: 'Your cart is empty.', remove: 'Remove' },
-    ru: { empty: 'Ваша корзина пуста.', remove: 'Удалить' },
-  }[document.documentElement.lang] || { empty: 'Vaša korpa je prazna.', remove: 'Izbaci' };
-
-  const fmt = (n) => n.toLocaleString('sr-RS') + ' din';
-
-  function open() {
-    overlay.classList.add('open');
-    panel.classList.add('open');
-    document.body.style.overflow = 'hidden';
-  }
-  function close() {
-    overlay.classList.remove('open');
-    panel.classList.remove('open');
-    document.body.style.overflow = '';
-  }
-
-  function add(name, price, img) {
-    const ex = items.find((i) => i.name === name);
-    if (ex) ex.qty++;
-    else items.push({ name, price, img, qty: 1 });
-    render();
-    open();
-  }
-  function changeQty(name, d) {
-    const it = items.find((i) => i.name === name);
-    if (!it) return;
-    it.qty += d;
-    if (it.qty <= 0) items = items.filter((i) => i.name !== name);
-    render();
-  }
-  function remove(name) {
-    items = items.filter((i) => i.name !== name);
-    render();
-  }
-
-  function render() {
-    const count = items.reduce((s, i) => s + i.qty, 0);
-    const total = items.reduce((s, i) => s + i.price * i.qty, 0);
-    badge.textContent = count;
-    badge.classList.toggle('empty', count <= 0);
-    countEl.textContent = count;
-    totalEl.textContent = fmt(total);
-    if (!items.length) {
-      foot.style.display = 'none';
-      itemsWrap.innerHTML =
-        '<div class="cart-empty"><svg viewBox="0 0 24 24" width="54" height="54" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 01-8 0"/></svg><p>' + t.empty + '</p></div>';
-      return;
-    }
-    foot.style.display = 'block';
-    itemsWrap.innerHTML = items
-      .map(
-        (i) => `
-      <div class="cart-item">
-        <div class="cart-item-img"><img src="${i.img}" alt="${i.name}"></div>
-        <div class="cart-item-main">
-          <div class="cart-item-name">${i.name}</div>
-          <div class="cart-item-price">${fmt(i.price)}</div>
-          <div class="cart-qty">
-            <button data-act="dec" data-name="${i.name}">−</button>
-            <span>${i.qty}</span>
-            <button data-act="inc" data-name="${i.name}">+</button>
-          </div>
-        </div>
-        <button class="cart-item-remove" data-act="rm" data-name="${i.name}">
-          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M8 6V4a2 2 0 012-2h4a2 2 0 012 2v2m2 0v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6"/></svg>
-          ${t.remove}
-        </button>
-      </div>`
-      )
-      .join('');
-  }
-
-  // dogadjaji unutar korpe
-  itemsWrap.addEventListener('click', (e) => {
-    const b = e.target.closest('[data-act]');
-    if (!b) return;
-    const name = b.dataset.name;
-    if (b.dataset.act === 'inc') changeQty(name, 1);
-    else if (b.dataset.act === 'dec') changeQty(name, -1);
-    else if (b.dataset.act === 'rm') remove(name);
-  });
-
-  // dugmad "U korpu"
-  document.querySelectorAll('.add-cart').forEach((b) =>
-    b.addEventListener('click', (e) => {
-      e.preventDefault();
-      add(b.dataset.name, +b.dataset.price, b.dataset.img);
-    })
-  );
-
-  if (openBtn) openBtn.addEventListener('click', open);
-  if (closeBtn) closeBtn.addEventListener('click', close);
-  if (continueBtn) continueBtn.addEventListener('click', close);
-  overlay.addEventListener('click', close);
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') close();
-  });
-
-  render();
-})();
+// sistemsko podesavanje "smanji animacije": bez auto-slajdera i brojanja
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 // jezik dropdown
 const langDd = document.getElementById('langDd');
 if (langDd) {
   langDd.querySelector('.lang-trigger').addEventListener('click', (e) => {
     e.stopPropagation();
-    langDd.classList.toggle('open');
+    e.currentTarget.setAttribute('aria-expanded', langDd.classList.toggle('open'));
   });
-  document.addEventListener('click', () => langDd.classList.remove('open'));
+  document.addEventListener('click', () => {
+    langDd.classList.remove('open');
+    langDd.querySelector('.lang-trigger').setAttribute('aria-expanded', false);
+  });
 }
 
 // mobilni meni
@@ -147,17 +32,17 @@ const burger = document.querySelector('.burger'),
   mm = document.getElementById('mobileMenu');
 burger.addEventListener('click', () => {
   burger.classList.toggle('open');
-  mm.classList.toggle('open');
+  burger.setAttribute('aria-expanded', mm.classList.toggle('open'));
 });
 mm.querySelectorAll('.m-has-sub > .m-toggle').forEach((t) =>
   t.addEventListener('click', (e) => {
-    e.preventDefault();
-    t.parentElement.classList.toggle('open');
+    t.setAttribute('aria-expanded', t.parentElement.classList.toggle('open'));
   })
 );
 mm.querySelectorAll('a').forEach((a) =>
   a.addEventListener('click', () => {
     burger.classList.remove('open');
+    burger.setAttribute('aria-expanded', false);
     mm.classList.remove('open');
   })
 );
@@ -263,21 +148,24 @@ document.querySelectorAll('.gal-filter').forEach((f) =>
 })();
 
 // FAQ akordeon
-document.querySelectorAll('.faq-q').forEach((q) =>
+document.querySelectorAll('.faq-q').forEach((q) => {
+  q.setAttribute('aria-expanded', false);
   q.addEventListener('click', () => {
     const item = q.parentElement,
       open = item.classList.contains('open');
     document.querySelectorAll('.faq-item').forEach((i) => {
       i.classList.remove('open');
       i.querySelector('.faq-a').style.maxHeight = null;
+      i.querySelector('.faq-q')?.setAttribute('aria-expanded', false);
     });
     if (!open) {
       item.classList.add('open');
+      q.setAttribute('aria-expanded', true);
       const a = item.querySelector('.faq-a');
       a.style.maxHeight = a.scrollHeight + 'px';
     }
-  })
-);
+  });
+});
 
 // testimonial slider
 (function () {
@@ -308,8 +196,13 @@ document.querySelectorAll('.faq-q').forEach((q) =>
   }
   function restart() {
     clearInterval(timer);
-    timer = setInterval(() => go(idx + 1), 5500);
+    if (!reduceMotion) timer = setInterval(() => go(idx + 1), 5500);
   }
+  const slider = track.closest('.testi-slider');
+  slider.addEventListener('mouseenter', () => clearInterval(timer));
+  slider.addEventListener('mouseleave', restart);
+  slider.addEventListener('focusin', () => clearInterval(timer));
+  slider.addEventListener('focusout', restart);
   document.querySelector('.testi-arrow.next').addEventListener('click', () => {
     go(idx + 1);
     restart();
@@ -341,6 +234,11 @@ const cio = new IntersectionObserver(
       if (e.isIntersecting) {
         const el = e.target,
           t = +el.dataset.count;
+        if (reduceMotion) {
+          el.textContent = t.toLocaleString('sr-RS') + (t >= 300 ? '+' : '');
+          cio.unobserve(el);
+          return;
+        }
         let n = 0,
           s = Math.ceil(t / 55);
         const iv = setInterval(() => {
@@ -462,7 +360,7 @@ window.hsSubmit = hsSubmit;
   }
   function restart() {
     clearInterval(timer);
-    timer = setInterval(() => show(idx + 1), 5000);
+    if (!reduceMotion) timer = setInterval(() => show(idx + 1), 5000);
   }
   dots.forEach((d, i) =>
     d.addEventListener('click', () => {

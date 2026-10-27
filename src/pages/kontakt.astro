@@ -90,17 +90,17 @@ import { translationsFor } from '../i18n/routes';
             </p>
             <div class="k-row">
               <div class="k-field">
-                <label>Ime i prezime</label><input type="text" id="kName" placeholder="Petar Petrovic">
+                <label for="kName">Ime i prezime</label><input type="text" id="kName" autocomplete="name" placeholder="Petar Petrovic">
               </div>
               <div class="k-field">
-                <label>E-mail</label><input type="email" id="kEmail" placeholder="petar@email.com">
+                <label for="kEmail">E-mail</label><input type="email" id="kEmail" autocomplete="email" placeholder="petar@email.com">
               </div>
             </div>
             <div class="k-field">
-              <label>Telefon (opciono)</label><input type="tel" id="kPhone" placeholder="+381 6x xxx xxxx">
+              <label for="kPhone">Telefon (opciono)</label><input type="tel" id="kPhone" autocomplete="tel" placeholder="+381 6x xxx xxxx">
             </div>
             <div class="k-field">
-              <label>Poruka</label><textarea id="kMsg" placeholder="O cemu zelite da nas pitate?"></textarea>
+              <label for="kMsg">Poruka</label><textarea id="kMsg" placeholder="O cemu zelite da nas pitate?"></textarea>
             </div>
             <label class="k-consent"><input type="checkbox" id="kConsent"> Slazem se sa
               <a href="/politika-privatnosti.html">Politikom privatnosti</a> i
@@ -124,16 +124,16 @@ import { translationsFor } from '../i18n/routes';
     </section>
 
 <script is:inline slot="after">
-      // Prefill poruke kad se dodje sa strane kompleta (?komplet=Naziv)
+      // Prefill poruke sa strane kompleta (?komplet=) ili proizvoda (?proizvod=)
       (function () {
-        const komplet = new URLSearchParams(location.search).get('komplet');
-        if (!komplet) return;
+        const q = new URLSearchParams(location.search);
+        const komplet = q.get('komplet'), proizvod = q.get('proizvod');
+        if (!komplet && !proizvod) return;
         const msg = document.getElementById('kMsg');
         if (!msg.value.trim()) {
-          msg.value =
-            'Postovani,\n\nzanima me komplet za pocetnike "' +
-            komplet +
-            '". Molim vas za vise informacija o dostupnosti i preuzimanju.\n\nHvala!';
+          msg.value = komplet
+            ? 'Poštovani,\n\nzanima me komplet za početnike "' + komplet + '". Molim vas za više informacija o dostupnosti i preuzimanju.\n\nHvala!'
+            : 'Poštovani,\n\nzanima me "' + proizvod + '". Molim vas za više informacija o ceni i dostupnosti.\n\nHvala!';
         }
         document.getElementById('kForm').scrollIntoView({ block: 'center' });
       })();

@@ -6,7 +6,7 @@ import Icon from './Icon.astro';
 import ProductCard from './ProductCard.astro';
 import { SITE, whatsappLink, type Locale } from '../config/site';
 import { HOME } from '../i18n/ui';
-import { translationsFor } from '../i18n/routes';
+import { localizePath, translationsFor } from '../i18n/routes';
 import { priceLabel, productSchema, categoryText, type ProductView, type Product } from '../lib/products';
 
 interface Props {
@@ -19,9 +19,9 @@ const lang: Locale = v.lang;
 const cat = categoryText(lang, v.category);
 
 const UI = {
-  sr: { home: 'Početna', crumbs: 'Putanja', specs: 'Specifikacije', price: 'Cena', call: 'Pozovite nas', cart: 'Dodaj u korpu', also: 'Moglo bi vam se svideti', wa: (n: string) => `Zdravo, zanima me ${n}.` },
-  en: { home: 'Home', crumbs: 'Breadcrumb', specs: 'Specifications', price: 'Price', call: 'Call us', cart: 'Add to cart', also: 'You might also like', wa: (n: string) => `Hello, I'm interested in ${n}.` },
-  ru: { home: 'Главная', crumbs: 'Навигация', specs: 'Характеристики', price: 'Цена', call: 'Позвоните нам', cart: 'В корзину', also: 'Вам может понравиться', wa: (n: string) => `Здравствуйте, меня интересует ${n}.` },
+  sr: { home: 'Početna', crumbs: 'Putanja', specs: 'Specifikacije', price: 'Cena', call: 'Pozovite nas', inquiry: 'Pošalji upit', also: 'Moglo bi vam se svideti', wa: (n: string) => `Zdravo, zanima me ${n}.` },
+  en: { home: 'Home', crumbs: 'Breadcrumb', specs: 'Specifications', price: 'Price', call: 'Call us', inquiry: 'Send an inquiry', also: 'You might also like', wa: (n: string) => `Hello, I'm interested in ${n}.` },
+  ru: { home: 'Главная', crumbs: 'Навигация', specs: 'Характеристики', price: 'Цена', call: 'Позвоните нам', inquiry: 'Отправить запрос', also: 'Вам может понравиться', wa: (n: string) => `Здравствуйте, меня интересует ${n}.` },
 }[lang];
 
 const breadcrumb = {
@@ -93,9 +93,9 @@ const langLinks = {
               <Icon name="whatsapp" />
               WhatsApp
             </a>
-            <button class="btn btn-primary add-cart" data-name={v.name} data-price={d.price} data-img={d.image}>
-              {UI.cart}
-            </button>
+            <a href={`${localizePath('/kontakt.html', lang)}?proizvod=${encodeURIComponent(v.name)}`} class="btn btn-primary pd-inquiry">
+              {UI.inquiry}
+            </a>
           </div>
           <div class="pd-desc">
             {v.description.map((b) =>

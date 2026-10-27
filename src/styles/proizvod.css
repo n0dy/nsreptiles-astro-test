@@ -172,7 +172,7 @@ body.dark .pd-spec {
   justify-content: center;
   gap: 9px;
 }
-.pd-cta .add-cart {
+.pd-cta .pd-inquiry {
   grid-column: 1 / -1;
 }
 .pd-cta .btn svg {
