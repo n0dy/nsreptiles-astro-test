@@ -22,3 +22,7 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# lokalni radni fajlovi i projektne beleske (ne commit-ovati)
+local/
+CLAUDE.md
