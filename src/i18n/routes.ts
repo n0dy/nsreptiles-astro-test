@@ -127,3 +127,11 @@ const index = new Map<string, Group>();
 for (const g of ALL_GROUPS) for (const p of Object.values(g)) index.set(p!, g);
 
 export const translationsFor = (path: string): Group => index.get(path) ?? {};
+
+/** srpska putanja -> putanja na datom jeziku; build pada ako prevod strane ne postoji */
+export function localizePath(srPath: string, lang: Locale): string {
+  if (lang === 'sr') return srPath;
+  const path = translationsFor(srPath)[lang];
+  if (!path) throw new Error(`Nema ${lang} verzije strane ${srPath}`);
+  return path;
+}

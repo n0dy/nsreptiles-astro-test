@@ -4,7 +4,7 @@ type Link = { href: string; label: string };
 
 export type NavKey =
   | 'home' | 'about' | 'gallery' | 'animals'
-  | 'terrariums' | 'aquaristics' | 'equipment';
+  | 'terrariums' | 'aquariums' | 'equipment';
 
 type NavData = {
   main: (Link & { key: NavKey })[];
@@ -44,7 +44,7 @@ export const NAV: Record<Locale, NavData> = {
       { key: 'gallery', href: '/galerija.html', label: 'Galerija' },
       { key: 'animals', href: '/zivotinje.html', label: 'Životinje' },
       { key: 'terrariums', href: '/terarijumi.html', label: 'Terarijumi' },
-      { key: 'aquaristics', href: '/akvarijumi.html', label: 'Akvaristika' },
+      { key: 'aquariums', href: '/akvarijumi.html', label: 'Akvarijumi' },
       { key: 'equipment', href: '/oprema.html', label: 'Oprema' },
     ],
     animalsSub: sub('/zivotinje.html', ['Gušteri', 'Zmije', 'Tarantule']),
@@ -91,7 +91,7 @@ export const NAV: Record<Locale, NavData> = {
       { key: 'gallery', href: '/en/gallery.html', label: 'Gallery' },
       { key: 'animals', href: '/en/animals.html', label: 'Animals' },
       { key: 'terrariums', href: '/en/terrariums.html', label: 'Terrariums' },
-      { key: 'aquaristics', href: '/en/aquariums.html', label: 'Aquaristics' },
+      { key: 'aquariums', href: '/en/aquariums.html', label: 'Aquariums' },
       { key: 'equipment', href: '/en/equipment.html', label: 'Equipment' },
     ],
     animalsSub: sub('/en/animals.html', ['Lizards', 'Snakes', 'Tarantulas']),
@@ -138,7 +138,7 @@ export const NAV: Record<Locale, NavData> = {
       { key: 'gallery', href: '/ru/gallery.html', label: 'Галерея' },
       { key: 'animals', href: '/ru/animals.html', label: 'Животные' },
       { key: 'terrariums', href: '/ru/terrariums.html', label: 'Террариумы' },
-      { key: 'aquaristics', href: '/ru/aquariums.html', label: 'Аквариумистика' },
+      { key: 'aquariums', href: '/ru/aquariums.html', label: 'Аквариумы' },
       { key: 'equipment', href: '/ru/equipment.html', label: 'Оборудование' },
     ],
     animalsSub: sub('/ru/animals.html', ['Ящерицы', 'Змеи', 'Тарантулы']),
