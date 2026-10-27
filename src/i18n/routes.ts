@@ -6,7 +6,7 @@ type Group = Partial<Record<Locale, string>>;
 export const TRANSLATIONS: Group[] = [
   {
     "ru": "/ru/aquariums.html",
-    "sr": "/akvaristika.html",
+    "sr": "/akvarijumi.html",
     "en": "/en/aquariums.html"
   },
   {

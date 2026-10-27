@@ -363,12 +363,6 @@
   position: relative;
   z-index: 2;
 }
-.cta .eyebrow {
-  color: rgba(255, 255, 255, 0.85) !important;
-}
-.cta .eyebrow::before {
-  background: rgba(255, 255, 255, 0.85);
-}
 .cta h2 {
   font-size: clamp(1.8rem, 4vw, 2.8rem);
   text-transform: uppercase;
