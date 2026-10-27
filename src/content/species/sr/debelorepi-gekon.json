@@ -1,0 +1,119 @@
+{
+  "seo": {
+    "title": "Debelorepi gekon — vodič za uzgoj i negu | NS Reptiles",
+    "description": "Sve o debelorepom gekonu: poreklo, veličina, terarijum, temperatura, ishrana i nega. Mirna vrsta pogodna za početnike — NS Reptiles, Novi Sad.",
+    "ogDescription": "Sve o debelorepom gekonu: poreklo, veličina, terarijum, temperatura, ishrana i nega. Mirna vrsta pogodna za početnike."
+  },
+  "article": {
+    "headline": "Debelorepi gekon — vodič za uzgoj i negu",
+    "description": "Sve o debelorepom gekonu: poreklo, veličina, terarijum, temperatura, ishrana i nega. Mirna vrsta pogodna za početnike."
+  },
+  "name": "Debelorepi gekon",
+  "lead": "Mirna i zemljana vrsta iz zapadne Afrike — odličan izbor za početnike. Lako se navikava na rukovanje i ne zahteva komplikovane uslove držanja.",
+  "image": "/style/img/gallery/15.jpg",
+  "photo": "/style/img/gallery/15.jpg",
+  "photoAlt": "Debelorepi gekon u terarijumu — NS Reptiles Novi Sad",
+  "intro": "Debelorepi gekon potiče iz suvih i vlažnih savana zapadne Afrike — od Senegala do Kameruna. U prirodi se skriva u vlažnim skloništima poput termitnjaka i kamenih pukotina, a noću izlazi u potragu za hranom. Karakteristične crte su zaobljena glava, pokretni kapci i vertikalne zenice, smeđebež šare sa belom linijom duž leđa, te debeo rep koji služi kao skladište masti. Za razliku od većine gekona, nema lepljive jastučiće na prstima pa živi isključivo na tlu. U zatočeništvu je poznat po mirnoj naravi i lakom prilagođavanju rukovanju, što ga svrstava među najpopularnije početničke reptile. Uz pravilnu negu živi 15 do 20 godina.",
+  "sections": [
+    {
+      "title": "Nega i <b>postavljanje</b>",
+      "boxes": [
+        {
+          "p": [
+            "Stanište u terarijumu treba obezbediti sa najmanje tri skloništa: toplim, hladnim i vlažnim — baš kao u prirodi. Ravni kamen za sunčanje, panjevi i listovi doprinose dobrobiti životinje i čine terarijum vizuelno atraktivnim."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Terarijum",
+      "boxes": [
+        {
+          "p": [
+            "Minimalne dimenzije za jednu jedinku su 60x40x30 cm. Terarijum treba da sadrži najmanje tri skloništa: toplo, hladno i vlažno. Kao dekoracija preporučuju se ravni kamen za sunčanje, panjevi, lišće, te veštačke ili žive biljke."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Podloga",
+      "boxes": [
+        {
+          "p": [
+            "Za odrasle jedinke preporučuje se mešavina organske zemlje, peska i gline (40% zemlja, 40% pesak, 20% glina). Mladunci se drže na papirnim ubrusima dok ne prođu karantin. Izmet se uklanja svakodnevno, a kompletna zamena podloge vrši se svakih 3 do 6 meseci."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Temperatura i <b>grejanje</b>",
+      "boxes": [
+        {
+          "p": [
+            "Topli deo terarijuma treba da bude na 30–32 °C, hladni na 21–25 °C, a noćna temperatura može pasti do 16 °C. Grejanje se obezbeđuje spot sijalicom ili grejnom podlogom sa termostatom koji sprečava pregrevanje."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Osvetljenje",
+      "boxes": [
+        {
+          "p": [
+            "Dnevni ciklus osvetljenja od 10 do 12 sati je neophodan. UVB rasveta nije obavezna, ali UVB 5.0 lampa može doprineti boljem zdravlju. Noću se sva svetla gase radi simulacije prirodnog ritma."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Vlažnost i <b>voda</b>",
+      "boxes": [
+        {
+          "p": [
+            "Optimalna vlažnost u terarijumu je 50–60%. Vlažno sklonište sa mahovinom ili kokosovim vlaknima pomaže pri presvlačenju. Uvek treba da bude dostupna plitka posuda sa svežom vodom — menja se svakodnevno."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ishrana",
+      "boxes": [
+        {
+          "p": [
+            "Debelorepi gekoni su insektivori — jedu cvrčke, dubije, crve brašnare i larve crne vojničke muve. Pri svakom hranjenju dodaje se kalcijum sa D3, a multivitamini jednom nedeljno. Mladunci se hrane svakodnevno, odrasli 2 do 3 puta nedeljno."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Razmnožavanje",
+      "boxes": [
+        {
+          "p": [
+            "Sezona parenja započinje nakon perioda hlađenja. Ženke polažu po 2 jajeta po leglu. Inkubacija traje 55 do 70 dana na temperaturi od 27 do 29 °C — temperatura inkubacije može uticati na pol mladunaca."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Zdravlje i <b>prevencija</b>",
+      "boxes": [
+        {
+          "p": [
+            "Česti zdravstveni problemi su metabolička bolest kostiju, zadržavanje kože pri presvlačenju i impakcija. Prevencija podrazumeva pravilnu ishranu sa kalcijumom, odgovarajuću vlažnost i temperaturu, te redovno čišćenje terarijuma. U slučaju sumnje na bolest, konsultovati veterinara specijalizovanog za egzotične životinje."
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "terarijumi/terarijum-50x35x35",
+    "terarijumi/terarijum-45x35x35",
+    "terarijumi/terarijum-60x30x25",
+    "terarijumi/terarijum-60x40x30"
+  ],
+  "cta": {
+    "text": "Za pitanja o nabavci, nezi ili opremi za debelorepog gekona — tu smo. Javite nam se pozivom ili porukom.",
+    "waText": "Zanima me debelorepi gekon"
+  }
+}

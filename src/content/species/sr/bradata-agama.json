@@ -1,0 +1,178 @@
+{
+  "seo": {
+    "title": "Bradata Agama Prodaja od 6.000 din, Novi Sad | NS Reptiles",
+    "description": "Prodaja bradate agame od 6.000 din — najpopularniji gušter za početnike. Starter komplet sa terarijumom i opremom od 220€ (25.800 din). Novi Sad.",
+    "keywords": "bradata agama, bradata agama prodaja, bradata agama cena, prodaja bradate agame Novi Sad, bradata agama komplet, bradata agama uzgoj, bradata agama ishrana, bradata agama terarijum, bradata agama za pocetnike, bradata agama nega, NS Reptiles",
+    "ogDescription": "Prodaja bradate agame od 6.000 din — najpopularniji gušter za porodice. Starter komplet sa terarijumom i opremom od 220€ (25.800 din). NS Reptiles Novi Sad."
+  },
+  "article": {
+    "headline": "Bradata agama — kompletni vodič za negu i držanje",
+    "description": "Sve što treba da znate o bradatoj agami: terarijum, temperatura, ishrana, UVB osvetljenje i zdravlje."
+  },
+  "name": "Bradata agama",
+  "lead": "Jedan od najmirnijih i najpopularnijih guštera za početnike. Pogodna za sve uzraste, lako se pripitomi i ne zahteva CITES dokumentaciju.",
+  "image": "/style/img/gallery/2.jpg",
+  "photo": "/style/img/gallery/2.jpg",
+  "photoAlt": "Bradata agama u terarijumu — NS Reptiles Novi Sad",
+  "intro": "Bradata agama je jedna od najpopularnijih vrsta guštera na svetu i jedan od najmirnijih guštera za držanje. Potiče iz velikog dela Australije — iz suvih, polupustinjskih i pustinjskih predela. Uglavnom narastu 45–55 cm, pri čemu su ženke manje od mužjaka i imaju sitniju glavu. Cene kreću od 6.000 din za standardne primerke do nekoliko desetina hiljada dinara za unikatno šarene morfove. Nije na CITES listi — dokumentacija nije potrebna.",
+  "price": {
+    "label": "Cena",
+    "value": "Mladunci od 6.000 din",
+    "note": "Prodaja bradate agame iz domaćeg uzgoja — životinje su zdrave, pripitomljene i spremne za novi dom. <strong>Starter komplet</strong> (bradata agama + terarijum 100x45x45 sa 3D pozadinom, UVB/UVA rasveta, pesak, vitamini i hrana za mesec dana): <strong>od 220€ (25.800 din)</strong>. Uz komplet dobijate i besplatne savete za negu — dostupni smo i posle kupovine.",
+    "call": "Pozovite nas",
+    "waText": "Zdravo, zanima me komplet za bradatu agamu.",
+    "low": 6000
+  },
+  "sections": [
+    {
+      "title": "Izgled i <b>ponašanje</b>",
+      "boxes": [
+        {
+          "title": "Izgled",
+          "p": [
+            "Ime su dobili zbog brade koja može da pocrni i naduva se kada se naljute ili osećaju ugroženo. Isti efekat se dešava kada se mužjak udvara ženki. Imaju bodlje oko glave i duž tela sa strane — tvrde su, ali pošto se nalaze na koži pri pritisku se pomeraju i ne mogu da ubodu. Ne otpuštaju repove i ne regenerišu ih ukoliko im otpadnu. Postoji jako puno različitih morfova — standardna boja je siva sa svetlijim i tamnijim šarama, a postoje i žuti, narandžasti i crveni primerci kojima su cene više usled dugogodišnjeg planiranog ukrštanja."
+          ]
+        },
+        {
+          "title": "Ponašanje",
+          "p": [
+            "Jedan od najmirnijih guštera koji se vremenom toliko pripitomi da može da miruje u rukama bez problema. Aktivan isključivo danju — čim mu se ugase svetla odlazi da spava."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Terarijum i <b>podloga</b>",
+      "boxes": [
+        {
+          "title": "Terarijum",
+          "p": [
+            "Minimalne dimenzije terarijuma za jednog odraslog primerka su 100 × 50 × 50 cm. Manji se mogu smestiti u manje terarijume dok ih ne prerastu — za mladunce se preporučuje dimenzija 50 × 40 × 30 cm. Ukoliko su već ojačali i imaju mesec i po ili više, mogu odmah u konačan terarijum.",
+            "Preporučljivo je obezbediti mesto za skrivanje mladih jedinki u vidu pećine od kamena, panja ili većeg kamena. Obavezno paziti da ti predmeti ne mogu pasti i zgnječiti životinju. Kada su veće uglavnom im nije potrebno klasično sklonište i spavaće gde god im se svidi — često razgrnu pesak i tu zaspe."
+          ]
+        },
+        {
+          "title": "Podloga",
+          "p": [
+            "Moguće je koristiti nekoliko vrsta podloga: novine, papir, etison, linoleum, pločasto kamenje ili sitni fini pesak. Pesak je, uz pločasto kamenje, najprirodniji supstrat, ali treba imati u vidu higijenu i održavanje. Za 1–2 guštera može se postaviti prirodno okruženje, dok je za veći broj radi lakšeg čišćenja praktičniji linoleum.",
+            "Papirna podloga se koristi u karantinu — za privremeni smeštaj kada treba često čistiti i pratiti koliko hrane jedinke pojede i kakva je stolica."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Temperatura i <b>uslovi</b>",
+      "boxes": [
+        {
+          "title": "Temperatura",
+          "p": [
+            "Potrebno je napraviti temperaturni gradijent zagrevanjem samo jednog dela terarijuma spot sijalicom. Temperatura na toplijem delu, ispod sijalice, treba da bude oko 40–45°C, dok u hladnijem delu može biti 25–30°C ili niže. Spot sijalica ima koncentrisani snop svetlosti i greje neposredno ispod — tu će agama doći da se zagreje nakon hranjenja ili paljenja svetla.",
+            "Sijalicu ne treba postavljati preblizu podloge kako se agama ne bi opekla. Ispod sijalice uvek staviti kamen koji će se dodatno zagrejati i održavati temperaturu i nakon gašenja. Noću se sijalica gasi i temperatura može da padne na sobnu, oko 20°C.",
+            "Zimi im se može isključiti grejanje i ostaviti ih na nižim temperaturama radi odmora, posebno ako se planira parenje naredne sezone. Tada temperatura može pasti do 14–16°C bez problema. U tom periodu ne jedu jer im je usporen metabolizam — nuditi svakih 4–5 dana po nekoliko komada lako svarljive hrane."
+          ]
+        },
+        {
+          "title": "Osvetljenje i UVB",
+          "p": [
+            "Pošto je ovo dnevna vrsta, neophodna je UV neonka — neonska cev sa UVA i UVB zračenjem. Uglavnom se koriste cevi sa 10% ili 12% UVB zračenja i menjaju se jednom godišnje jer im opada dejstvo. Pored UV neonke uvek se koristi i spot sijalica za grejanje. Noću se obavezno gasi sva rasveta kako bi gušter spavao na miru."
+          ]
+        },
+        {
+          "title": "Vlažnost i voda",
+          "p": [
+            "S obzirom da potiču iz suvih predela, nije im neophodna visoka vlažnost vazduha. Svu potrebnu vlagu dobijaju kupanjem jednom nedeljno u toploj vodi — sipa se nekoliko santimetara vode u lavor i agama se pusti oko 5 minuta, tokom čega će piti vodu. Tokom presvlačenja kupanje pomaže skidanju stare kože.",
+            "Ne moraju imati uvek dostupnu posudu sa vodom. Neke jedinke nauče da piju stajaću vodu, a neke nikada — piju samo kad se voda pomera, ili je uzimaju iz voća i povrća u ishrani."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ishrana",
+      "boxes": [
+        {
+          "p": [
+            "Bradata agama je omnivore — jede hranu i biljnog i životinjskog porekla. Od insekata: tenebrije, fobasi, lateralisi, dubije, cvrčci, a odraslim jedinkama povremeno i mladi miševi. Insekti su primarna hrana, posebno za mlađe primerke.",
+            "Hrane se i biljnom hranom: šargarepa, tikvica, razne vrste salate, bundeva, jabuka, maslačak, hibiskus. Mladi prvih nekoliko meseci često odbijaju biljnu hranu, a neke jedinke preferiraju određene vrste i nikada ne jedu druge. Treba izbegavati kiselo voće, kupus i povrće teško za varenje.",
+            "Dok su mladi hrane se otprilike 2 puta dnevno — prvi put kada se zagreju posle paljenja svetla, drugi put par sati pred gašenje. Kada porastu uglavnom jedu jednom dnevno, a zimi i ređe."
+          ],
+          "spaced": true
+        }
+      ]
+    },
+    {
+      "title": "Razmnožavanje",
+      "boxes": [
+        {
+          "p": [
+            "Pol se ne može sa sigurnošću utvrditi do nekih 5–6 meseci starosti. Provera se vrši podizanjem repa pod uglom od 90° — jedan brežuljak iza kloake znači ženka, dva mužjak.",
+            "Period hlađenja (oko 2–3 meseca, obično decembar–februar) je neophodan za razmnožavanje. Tada se smanjuje intenzitet rasvete i skraćuje period dana sa 14 na 10 sati. U februaru se vraćaju jači uslovi i u roku od nedelju dana gušteri dobijaju apetit i kreću s aktivnošću.",
+            "Nakon parenja ženka za 2–4 nedelje polaže jaja, uglavnom oko 25 komada. Inkubacija traje oko 70 dana na temperaturi od 29–29,5°C. Mladunce treba držati odvojeno radi lakše evidencije hranjenja i smanjenja stresa."
+          ],
+          "spaced": true
+        }
+      ]
+    },
+    {
+      "title": "Zdravlje",
+      "boxes": [
+        {
+          "p": [
+            "Bradata agama spada u otpornije gušterove — tolerišu promene temperature i vlažnosti. Ipak, reptili su generalno teški za lečenje, a kod nas nedostaje veterinara sa odgovarajućim iskustvom. Kada se simptomi bolesti pojave, bolest je najčešće već uznapredovala.",
+            "Preventiva je najvažnija: dobro proučiti uslove držanja pre nabavke. Jedinka uzeta od proverenog odgajivača obično nema unutrašnje parazite. Životinje iz divljine mogu imati parazite koji se otkrivaju samo laboratorijskim pregledom izmeta — preporučljivo kad god poreklo nije izvesno. Prvi simptomi infekcije su malaksalost, odbijanje hrane, krvava stolica ili povraćanje."
+          ],
+          "spaced": true
+        }
+      ]
+    }
+  ],
+  "related": [
+    "terarijumi/terarijum-100x50x50",
+    "terarijumi/terarijum-100x45x45",
+    "terarijumi/terarijum-100x40x40",
+    "terarijumi/terarijum-90x50x50"
+  ],
+  "faq": {
+    "title": "Česta pitanja o bradatoj agami",
+    "items": [
+      {
+        "q": "Koliko košta bradata agama?",
+        "a": "Cene bradate agame se kreću od 6.000 din za standardne primerke, pa sve do nekoliko desetina hiljada dinara za unikatno šarene morfove poput crvenih, žutih ili narandžastih. Starter komplet sa terarijumom i opremom košta od 220€ (25.800 din)."
+      },
+      {
+        "q": "Šta sadrži starter komplet za bradatu agamu?",
+        "a": "Starter komplet od 220€ (25.800 din) sadrži: bradatu agamu, terarijum 100x45x45 sa 3D pozadinom, UVB/UVA rasvetu, pesak, vitamine i hranu za mesec dana. Sve što je potrebno za siguran start na jednom mestu."
+      },
+      {
+        "q": "Da li je bradata agama pogodna za početnike?",
+        "a": "Da, bradata agama je jedan od najboljih guštera za početnike. Mirne su prirode, lako se pripitome i tolerantne su na greške u nezi. Nije potrebna CITES dokumentacija."
+      },
+      {
+        "q": "Koliko živi bradata agama?",
+        "a": "Bradata agama u zatočeništvu živi prosečno 10-15 godina uz pravilnu negu, ishranu i održavanje terarijuma."
+      },
+      {
+        "q": "Koja je idealna temperatura za bradatu agamu?",
+        "a": "Temperatura ispod spot sijalice treba da bude 40-45°C, dok u hladnijem delu terarijuma može biti 25-30°C. Noću temperatura može pasti na sobnu (oko 20°C)."
+      },
+      {
+        "q": "Šta jede bradata agama?",
+        "a": "Bradata agama je omnivore - jede insekte (cvrčke, dubije, tenebrije) i biljnu hranu (šargarepu, tikvicu, salatu, jabuku). Mladi jedu 2 puta dnevno, odrasli jednom."
+      },
+      {
+        "q": "Da li mogu da držim dve bradate agame zajedno?",
+        "a": "Najsigurnije je držati jednu jedinku po terarijumu. Dva mužjaka se nikako ne drže zajedno jer su teritorijalni i doći će do sukoba. Mužjak i ženka se spajaju samo u sezoni parenja."
+      },
+      {
+        "q": "Da li šaljete bradate agame van Novog Sada?",
+        "a": "Da, lično preuzimanje je u Novom Sadu, a slanje u druga mesta organizujemo po dogovoru. Kontaktirajte nas telefonom ili preko WhatsApp-a i dogovorićemo detalje."
+      }
+    ]
+  },
+  "product": {
+    "description": "Bradata agama iz domaćeg uzgoja - najpopularniji gušter za početnike. Mladunci od 6.000 din, dostupan i starter komplet sa terarijumom 100x45x45, UVB/UVA rasvetom i opremom od 220€ (25.800 din)."
+  },
+  "cta": {
+    "text": "Za pitanja o nabavci, nezi ili opremi za bradatu agamu — tu smo. Javite nam se pozivom ili porukom.",
+    "waText": "Zanima me bradata agama"
+  }
+}

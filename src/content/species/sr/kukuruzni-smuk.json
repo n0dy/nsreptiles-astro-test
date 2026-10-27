@@ -1,0 +1,89 @@
+{
+  "seo": {
+    "title": "Kukuruzni smuk — vodič za negu i uzgoj | NS Reptiles",
+    "description": "Kukuruzni smuk — pitoma zmija idealna za početnike. Saznajte sve o terarijumu, ishrani, temperaturi i nezi. NS Reptiles, Novi Sad.",
+    "ogDescription": "Pitoma zmija idealna za početnike. Kompletni vodič za držanje kukuruznog smuka — terarijum, ishrana, temperatura i nega."
+  },
+  "article": {
+    "headline": "Kukuruzni smuk — kompletni vodič za uzgoj i negu",
+    "description": "Sve o kukuruznom smuku — pitomoj zmiji idealnoj za početnike. Terarijum, ishrana, temperatura i nega."
+  },
+  "name": "Kukuruzni smuk",
+  "lead": "Pitoma i lako pripitomljiva zmija — jedan od najčešćih izbora za početnike u teraristici. Mirne prirode, širok spektar boja i dug vek.",
+  "image": "/style/img/gallery/9.jpg",
+  "photo": "/style/img/gallery/9.jpg",
+  "photoAlt": "Kukuruzni smuk u terarijumu — NS Reptiles Novi Sad",
+  "intro": "Kukuruzni smuk je jedna od najpopularnijih zmija u teraristici širom sveta. Poreklom iz jugoistočnih delova Sjedinjenih Američkih Država — od Nju Džersija do Floride i zapadno do Luizijane — u prirodi naseljava raznovrsna staništa: šumske predele, polja, livade i napuštene objekte. Dostupan u sirom spektru boja i uzoraka zahvaljujući selektivnom uzgoju, sa dužinom odraslih primeraka od 120 do 160 cm i vekom u zatočeništvu od 15 do 20 godina.",
+  "sections": [
+    {
+      "title": "Držanje i <b>terarijum</b>",
+      "boxes": [
+        {
+          "p": [
+            "Za odraslu jedinku potreban je terarijum minimalnih dimenzija 90×45×45 cm. Obavezno obezbediti skrovišta, grane za penjanje i posudu sa vodom za kupanje. Poklopac mora biti dobro osiguran — kukuruzni smukovi su poznati po bekstvima. Preporučene podloge su treset, kokosovo vlakno ili papir bez štampane boje. Sitne čestice treba izbegavati jer mogu izazvati impakciju."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Temperatura i <b>osvetljenje</b>",
+      "boxes": [
+        {
+          "p": [
+            "Topli deo terarijuma održavati na 28–30°C, hladniji deo na 22–24°C, a noćna temperatura ne sme pasti ispod 20°C. Grejanje se postiže grejnim podlogama ili kablovima priključenim na termostat. UVB osvetljenje nije neophodno, ali dnevni ciklus svetlosti pomaže normalnom ponašanju — koristiti tajmer za simulaciju prirodnog dana i noći."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Vlažnost i <b>voda</b>",
+      "boxes": [
+        {
+          "p": [
+            "Optimalna vlažnost iznosi 40–60%. Tokom perioda presvlačenja vlažnost treba povećati, a preporučuje se i vlažna komora ili posuda sa vlažnim supstratom. Sveža voda mora biti stalno dostupna u posudi dovoljno velikoj da zmija može da se okupa. Posudu redovno čistiti kako bi se sprečila kontaminacija."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ishrana",
+      "boxes": [
+        {
+          "p": [
+            "Mladunci jedu tek izlegle miševe (pinkije) svakih 5 dana. Odrasle jedinke hrane se odraslim miševima ili pacovima svakih 7–10 dana. Hrana mora biti odgovarajuće veličine — ne šira od najužeg dela tela zmije. Preporučuje se smrznuta-odmrznuta hrana radi sigurnosti životinje."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ponašanje i <b>manipulacija</b>",
+      "boxes": [
+        {
+          "p": [
+            "Kukuruzni smukovi su uglavnom noćno aktivni, mada se često mogu videti i tokom dana. Mirne su i pitome prirode i lako se privikavaju na rukovanje, što ih čini odličnim izborom za početnike. Retko pokazuju agresiju. Preporučuje se da se ne rukuje životinjom 48 sati posle obroka kako bi se izbeglo regurgitiranje hrane."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Razmnožavanje i <b>zdravlje</b>",
+      "boxes": [
+        {
+          "p": [
+            "Polna zrelost nastupa sa 2–3 godine. Ženke polažu 10–30 jaja po leglu, a inkubacija traje 60–65 dana na 27–29°C. Česti zdravstveni problemi su metabolička bolest kostiju, zadržavanje kože tokom presvlačenja, impakcija i respiratorne infekcije. Prevencija podrazumeva pravilnu ishranu, odgovarajuću vlažnost i temperaturu i redovno održavanje higijene. Kod znakova bolesti obratiti se veterinaru specijalizovanom za egzotične životinje."
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "terarijumi/terarijum-80x50x50",
+    "terarijumi/terarijum-70x40x35",
+    "terarijumi/terarijum-65x40x40",
+    "terarijumi/terarijum-100x40x40"
+  ],
+  "cta": {
+    "text": "Za pitanja o nabavci, nezi ili opremi za kukuruznog smuka — tu smo. Javite nam se pozivom ili porukom.",
+    "waText": "Zanima me kukuruzni smuk"
+  }
+}

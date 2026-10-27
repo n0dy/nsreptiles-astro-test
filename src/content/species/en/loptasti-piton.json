@@ -1,0 +1,129 @@
+{
+  "seo": {
+    "title": "Ball Python — Breeding and Care Guide | NS Reptiles",
+    "description": "Ball python guide: terrarium, diet, temperature and care. A calm snake that is ideal for beginners. Expert advice from NS Reptiles in Novi Sad.",
+    "keywords": "ball python, ball python care, ball python for sale, ball python Serbia, ball python Novi Sad, ball python terrarium, ball python diet, ball python morphs, snake for beginners, NS Reptiles",
+    "ogDescription": "Ball python guide: terrarium, diet, temperature and care. A calm snake that is ideal for beginners. NS Reptiles, Novi Sad."
+  },
+  "article": {
+    "headline": "Ball python - Complete breeding and care guide",
+    "description": "Everything you need to know about the ball python: diet, terrarium, temperature, health and breeding."
+  },
+  "name": "Ball python",
+  "lead": "One of the most popular snakes in the hobby — calm, docile and ideal for beginners. Available in a wide range of colors and patterned morphs.",
+  "photoAlt": "Ball python in a terrarium — NS Reptiles Novi Sad",
+  "intro": "The ball python is one of the most popular snakes in the hobby because of its calm nature and the many morphs available. Calm and docile, they get used to handling easily and rarely show aggression — they are suitable for beginners. Thanks to selective breeding, they are available in a wide range of colors and patterns.",
+  "sections": [
+    {
+      "title": "Origin and <b>habitat</b>",
+      "boxes": [
+        {
+          "title": "Origin",
+          "p": [
+            "West and Central Africa — the savannas and forest edges of Ghana, Nigeria, Cameroon and neighboring countries."
+          ]
+        },
+        {
+          "title": "Habitat",
+          "p": [
+            "Dry areas with vegetation, often near waterways. During the day they hide in burrows or under rocks, and they are active at dusk and at night."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Appearance and <b>behavior</b>",
+      "boxes": [
+        {
+          "title": "Size and appearance",
+          "p": [
+            "Length: 120–150 cm. A wide range of colors and patterns thanks to selective breeding. Slender body, head slightly wider than the neck, belly with distinctive markings."
+          ]
+        },
+        {
+          "title": "Behavior",
+          "p": [
+            "Mostly active at night, but they can also be active during the day. Calm and docile, they get used to handling easily. They rarely show aggression."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Terrarium and <b>substrate</b>",
+      "boxes": [
+        {
+          "title": "Terrarium",
+          "p": [
+            "Minimum size for an adult: 90×45×45 cm. Provide hides, branches for climbing and a water bowl. The lid must be secure — they are known escape artists."
+          ]
+        },
+        {
+          "title": "Substrate",
+          "p": [
+            "Recommended substrates: peat, coco fiber, unprinted paper. Avoid fine particles that can cause impaction. Change the substrate regularly."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Temperature and <b>conditions</b>",
+      "boxes": [
+        {
+          "title": "Temperature",
+          "p": [
+            "Warm side: 28–30 °C. Cooler side: 22–24 °C. The nighttime temperature must not drop below 20 °C. Heating: heat mats or heat cables with a thermostat."
+          ]
+        },
+        {
+          "title": "Lighting",
+          "p": [
+            "UVB lighting is not necessary, but daylight is beneficial. Maintain a natural day and night cycle."
+          ]
+        },
+        {
+          "title": "Humidity",
+          "p": [
+            "Optimal humidity: 50–60 %. Increase humidity during shedding. Provide a humid hide or a box with moist substrate."
+          ]
+        },
+        {
+          "title": "Water",
+          "p": [
+            "Fresh water always available in a bowl large enough for bathing. Clean the bowl regularly to prevent contamination."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Diet and <b>health</b>",
+      "boxes": [
+        {
+          "title": "Diet",
+          "p": [
+            "Babies: newborn mice (pinkies) every 5–7 days. Adults: adult mice or rats every 7–14 days. Offer prey of the right size — no wider than the narrowest part of the snake's body."
+          ]
+        },
+        {
+          "title": "Health",
+          "p": [
+            "Common problems: metabolic bone disease, stuck shed, impaction, respiratory infections. Prevention: a proper diet, the right humidity and temperature, regular cleaning. If health problems occur, consult a vet who specializes in exotic animals."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Breeding",
+      "boxes": [
+        {
+          "p": [
+            "Sexual maturity: 2–3 years. Females lay 4–10 eggs per clutch. Incubation: 55–60 days at a temperature of 30–32 °C."
+          ]
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "text": "For questions about getting a ball python, its care or equipment — we are here. Give us a call or send a message.",
+    "waText": "I'm interested in a ball python"
+  }
+}

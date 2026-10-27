@@ -1,0 +1,136 @@
+{
+  "seo": {
+    "title": "Loptasti piton — vodič za uzgoj i negu | NS Reptiles",
+    "description": "Vodič za loptastog pitona: terarijum, ishrana, temperatura i nega. Mirna zmija idealna za početnike. Stručni saveti iz Novog Sada.",
+    "ogDescription": "Vodič za loptastog pitona: terarijum, ishrana, temperatura i nega. Mirna zmija idealna za početnike. NS Reptiles, Novi Sad."
+  },
+  "article": {
+    "headline": "Loptasti piton - Kompletni vodič za uzgoj i negu",
+    "description": "Sve što treba da znate o loptastom pitonu: ishrana, terarijum, temperatura, zdravlje i razmnožavanje."
+  },
+  "name": "Loptasti piton",
+  "lead": "Jedna od najpopularnijih zmija u teraristici — mirna, pitoma i idealna za početnike. Dostupna u sirom spektru boja i šarenih morfova.",
+  "image": "/style/img/gallery/5.jpg",
+  "photo": "/style/img/gallery/5.jpg",
+  "photoAlt": "Loptasti piton u terarijumu — NS Reptiles Novi Sad",
+  "intro": "Loptasti piton je jedna od najpopularnijih zmija u teraristici zbog mirne naravi i dostupnosti različitih morfova. Mirne i pitome prirode, lako se privikavaju na rukovanje i retko pokazuju agresiju — pogodni su za početnike. Zahvaljujući selektivnom uzgoju dostupni su u širokom spektru boja i šara.",
+  "sections": [
+    {
+      "title": "Poreklo i <b>stanište</b>",
+      "boxes": [
+        {
+          "title": "Poreklo",
+          "p": [
+            "Zapadna i centralna Afrika — savane i šumski rubovi Gane, Nigerije, Kameruna i okolnih zemalja."
+          ]
+        },
+        {
+          "title": "Stanište",
+          "p": [
+            "Suva područja sa vegetacijom, često u blizini vodotokova. Danju se kriju u jazbinama ili ispod kamenja, a aktivni su u sumrak i noću."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Izgled i <b>ponašanje</b>",
+      "boxes": [
+        {
+          "title": "Veličina i izgled",
+          "p": [
+            "Dužina: 120–150 cm. Širok spektar boja i šara zahvaljujući selektivnom uzgoju. Vitko telo, glava blago šira od vrata, stomak sa karakterističnim šarama."
+          ]
+        },
+        {
+          "title": "Ponašanje",
+          "p": [
+            "Uglavnom noćna aktivnost, ali mogu biti aktivni i tokom dana. Mirne i pitome prirode, lako se privikavaju na rukovanje. Retko pokazuju agresiju."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Terarijum i <b>podloga</b>",
+      "boxes": [
+        {
+          "title": "Terarijum",
+          "p": [
+            "Minimalne dimenzije za odraslu jedinku: 90×45×45 cm. Obezbediti skrovišta, grane za penjanje i posudu sa vodom. Poklopac mora biti siguran — poznati su po bekstvima."
+          ]
+        },
+        {
+          "title": "Podloga",
+          "p": [
+            "Preporučene podloge: treset, kokosovo vlakno, papir bez štampe. Izbegavati sitne čestice koje mogu izazvati impakciju. Redovno menjati podlogu."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Temperatura i <b>uslovi</b>",
+      "boxes": [
+        {
+          "title": "Temperatura",
+          "p": [
+            "Topli deo: 28–30 °C. Hladniji deo: 22–24 °C. Noćna temperatura ne sme pasti ispod 20 °C. Grejanje: grejne podloge ili kablovi sa termostatom."
+          ]
+        },
+        {
+          "title": "Osvetljenje",
+          "p": [
+            "UVB osvetljenje nije neophodno, ali dnevna svetlost je korisna. Održavati prirodni ciklus dana i noći."
+          ]
+        },
+        {
+          "title": "Vlažnost",
+          "p": [
+            "Optimalna vlažnost: 50–60 %. Povećati vlažnost tokom perioda presvlačenja. Obezbediti vlažnu komoru ili posudu sa vlažnim supstratom."
+          ]
+        },
+        {
+          "title": "Voda",
+          "p": [
+            "Stalno dostupna sveža voda u posudi dovoljno velikoj za kupanje. Redovno čišćenje posude kako bi se sprečila kontaminacija."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ishrana i <b>zdravlje</b>",
+      "boxes": [
+        {
+          "title": "Ishrana",
+          "p": [
+            "Mladunci: tek izlegli miševi (pinkiji) svakih 5–7 dana. Odrasli: odrasli miševi ili pacovi svakih 7–14 dana. Hranu nuditi odgovarajuće veličine — ne širu od najužeg dela tela zmije."
+          ]
+        },
+        {
+          "title": "Zdravlje",
+          "p": [
+            "Česti problemi: metabolička bolest kostiju, zadržavanje kože, impakcija, respiratorne infekcije. Prevencija: pravilna ishrana, odgovarajuća vlažnost i temperatura, redovno čišćenje. U slučaju zdravstvenih problema konsultujte veterinara specijalizovanog za egzotične životinje."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Razmnožavanje",
+      "boxes": [
+        {
+          "p": [
+            "Polna zrelost: 2–3 godine. Ženke polažu 4–10 jaja po leglu. Inkubacija: 55–60 dana na temperaturi od 30–32 °C."
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "terarijumi/terarijum-100x40x40",
+    "terarijumi/terarijum-100x50x50",
+    "terarijumi/terarijum-90x50x50",
+    "terarijumi/terarijum-80x50x50"
+  ],
+  "cta": {
+    "text": "Za pitanja o nabavci, nezi ili opremi za loptastog pitona — tu smo. Javite nam se pozivom ili porukom.",
+    "waText": "Zanima me loptasti piton"
+  }
+}
