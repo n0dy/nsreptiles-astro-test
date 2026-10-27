@@ -227,18 +227,14 @@ const io = new IntersectionObserver(
 );
 document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
 
-// count up
+// count up: HTML vec ima pravi broj (za Google i bez JS), animacija krece od 0 tek kad se vidi
+const fmtCount = (n, t) => n.toLocaleString(document.documentElement.lang) + (t >= 300 ? '+' : '');
 const cio = new IntersectionObserver(
   (es) =>
     es.forEach((e) => {
       if (e.isIntersecting) {
         const el = e.target,
           t = +el.dataset.count;
-        if (reduceMotion) {
-          el.textContent = t.toLocaleString('sr-RS') + (t >= 300 ? '+' : '');
-          cio.unobserve(el);
-          return;
-        }
         let n = 0,
           s = Math.ceil(t / 55);
         const iv = setInterval(() => {
@@ -247,16 +243,20 @@ const cio = new IntersectionObserver(
             n = t;
             clearInterval(iv);
           }
-          el.textContent = n.toLocaleString('sr-RS') + (t >= 300 ? '+' : '');
+          el.textContent = fmtCount(n, t);
         }, 24);
         cio.unobserve(el);
       }
     }),
   { threshold: 0.5 }
 );
-document
-  .querySelectorAll('.stat b, .about-stat b')
-  .forEach((el) => cio.observe(el));
+if (!reduceMotion)
+  document.querySelectorAll('.stat b').forEach((el) => {
+    // animira se samo broj ispod ekrana; vidljiv pri ucitavanju ostaje kakav jeste
+    if (el.getBoundingClientRect().top <= innerHeight) return;
+    el.textContent = fmtCount(0, +el.dataset.count);
+    cio.observe(el);
+  });
 
 // ===== HUBSPOT FORME =====
 async function hsSubmit(formGuid, fields) {

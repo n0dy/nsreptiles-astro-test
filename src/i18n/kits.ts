@@ -69,7 +69,7 @@ export const KITS: Kit[] = [
     price: 3000,
     name: { sr: 'Tarantula', en: 'Tarantula', ru: 'Тарантул' },
     incl: {
-      sr: ['Terarijum 11×15×20 +3D', 'Kokosov treset', '~10 vrsta', 'Za prvi pauk'],
+      sr: ['Terarijum 11×15×20 +3D', 'Kokosov treset', '~10 vrsta', 'Za prvog pauka'],
       en: ['11×15×20 terrarium +3D', 'Coconut peat', '~10 species', 'Perfect first spider'],
       ru: ['Террариум 11×15×20 +3D', 'Кокосовый торф', '~10 видов', 'Для первого паука'],
     },
