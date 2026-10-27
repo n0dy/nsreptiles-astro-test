@@ -1,3 +1,7 @@
 [build]
   command = "pnpm build"
   publish = "dist"
+
+# Netlify inace prepravlja linkove u HTML-u i skida .html - URL-ovi moraju ostati kao na indeksiranom sajtu
+[build.processing.html]
+  pretty_urls = false
