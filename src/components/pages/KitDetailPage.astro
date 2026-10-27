@@ -1,0 +1,144 @@
+---
+import Base from '../../layouts/Base.astro';
+import KitCard from '../KitCard.astro';
+import Zcta from '../Zcta.astro';
+import '../../styles/animals.css';
+import '../../styles/kompleti.css';
+import { SITE, whatsappLink, type Locale } from '../../config/site';
+import { localizePath, translationsFor } from '../../i18n/routes';
+import { KITS, KIT_UI } from '../../i18n/kits';
+import { KIT_DETAIL_UI, KIT_DETAILS } from '../../i18n/pages/kit-detail';
+
+interface Props {
+  /** srpski slug kompleta, npr. "bradata-agama" */
+  kit: string;
+  lang: Locale;
+}
+const { kit: slug, lang } = Astro.props;
+const srPath = `/kompleti/${slug}.html`;
+const kit = KITS.find((k) => k.href === srPath);
+const d = KIT_DETAILS[slug];
+if (!kit || !d) throw new Error(`Nepoznat komplet: ${slug}`);
+
+const t = KIT_DETAIL_UI[lang];
+const ui = KIT_UI[lang];
+const href = (p: string) => localizePath(p, lang);
+const path = href(srPath);
+const name = kit.name[lang];
+const image = d.ogImage ?? kit.img;
+const waText = t.wa(d.waName?.[lang] ?? name);
+// zatecen parametar: en strane salju englesko ime, sr i ru srpsko
+const inquiry = `${href('/kontakt.html')}?komplet=${encodeURIComponent(kit.name[lang === 'en' ? 'en' : 'sr'])}`;
+const gtagWa = "window.gtag&&gtag('event','kontakt_click',{'metod':'whatsapp'})";
+
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: t.schemaName(name),
+    description: d.schemaDescription[lang],
+    // zatecene vrednosti: relativna putanja slike ostaje kakva je bila
+    image: d.ogImage ? SITE.url + d.ogImage : '..' + kit.img,
+    brand: { '@type': 'Brand', name: SITE.name },
+    offers: {
+      '@type': 'Offer',
+      url: SITE.url + path,
+      priceCurrency: 'RSD',
+      price: String(kit.price),
+      availability: 'https://schema.org/InStock',
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: t.home, item: SITE.url + href('/') },
+      { '@type': 'ListItem', position: 2, name: t.crumbSchema, item: SITE.url + href('/kompleti.html') },
+      { '@type': 'ListItem', position: 3, name, item: SITE.url + path },
+    ],
+  },
+];
+---
+<Base
+  lang={lang}
+  title={t.title(name)}
+  description={d.description[lang]}
+  keywords={d.keywords?.[lang]}
+  path={path}
+  image={image}
+  ogType="product"
+  translations={translationsFor(path)}
+  schema={schema}
+>
+<section class="page-head">
+  <div class="wrap">
+    <h1>{t.h1(name)}</h1>
+    <p>{t.lead}</p>
+  </div>
+</section>
+<nav class="breadcrumb-bar" aria-label={t.crumbsLabel}>
+  <div class="wrap">
+    <ol class="breadcrumb">
+      <li><a href={href('/')}>{t.home}</a></li>
+      <li><a href={href('/kompleti.html')}>{t.crumb}</a></li>
+      <li aria-current="page">{name}</li>
+    </ol>
+  </div>
+</nav>
+<section class="ks-main">
+  <div class="wrap">
+    <div class="ks-grid">
+      <div class="ks-media reveal">
+        <div class="ks-img">
+          <span class="kit-badge">{ui.badge}</span>
+          <img src={kit.img} alt={t.alt(name)} width="800" height="800" />
+        </div>
+      </div>
+      <div class="ks-info reveal">
+        <h2 class="ks-title">{name}</h2>
+        <div class="ks-price">{kit.price.toLocaleString(ui.locale)} <span>din</span></div>
+        <p class="ks-desc">{d.text[lang]}</p>
+        <div class="ks-incl-title">{t.inclTitle}</div>
+        <ul class="ks-incl">{d.incl[lang].map((x) => <li>{x}</li>)}</ul>
+        <div class="ks-cta">
+          <a href={inquiry} class="btn btn-primary">
+            {t.inquiry}
+          </a>
+          <a href={whatsappLink(waText)} target="_blank" rel="noopener" class="btn btn-outline" onclick={gtagWa}>
+            {t.askWa}
+          </a>
+        </div>
+        <div class="ks-note">{t.note}</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="ks-perks">
+  <div class="wrap">
+    <div class="reveal" style="text-align: center; max-width: 640px; margin: 0 auto">
+      <h2 class="sec-title" set:html={t.perksTitle} />
+    </div>
+    <div class="ks-perks-grid">
+      {t.perks.map((s) => (
+        <div class="ks-perk reveal">
+          <div class="ks-perk-num">{s.num}</div>
+          <h3>{s.title}</h3>
+          <p>{s.text}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+<section class="ks-others">
+  <div class="wrap">
+    <div class="gal-head reveal">
+      <div><h2 class="sec-title" set:html={t.othersTitle} /></div>
+      <a href={href('/kompleti.html')} class="btn btn-outline">{t.allKits}</a>
+    </div>
+    <div class="kit-grid">
+      {KITS.filter((k) => k !== kit).map((k) => <KitCard kit={k} lang={lang} />)}
+    </div>
+  </div>
+</section>
+<Zcta title={t.cta.title} text={t.cta.text} callLabel={SITE.phoneDisplay} waText={waText} track />
+</Base>
