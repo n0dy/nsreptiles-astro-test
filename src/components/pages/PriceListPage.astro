@@ -1,0 +1,278 @@
+---
+import Base from '../../layouts/Base.astro';
+import '../../styles/animals.css';
+import '../../styles/usluge.css';
+import { SITE, whatsappLink, type Locale } from '../../config/site';
+import { HOME } from '../../i18n/ui';
+import { localizePath, translationsFor } from '../../i18n/routes';
+import { PRICE_LIST, PRICE_CATS } from '../../i18n/pages/price-list';
+
+interface Props {
+  lang: Locale;
+}
+const { lang } = Astro.props;
+const t = PRICE_LIST[lang];
+const path = localizePath('/cenovnik.html', lang);
+const price = (n: number) => `${String(n).replace(/\B(?=(\d{3})+$)/g, t.thousands)} din`;
+
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: t.home, item: SITE.url + HOME[lang] },
+      { '@type': 'ListItem', position: 2, name: t.crumb, item: SITE.url + path },
+    ],
+  },
+];
+---
+<Base
+  lang={lang}
+  {...t.meta}
+  path={path}
+  image="/style/img/logo.jpg"
+  translations={translationsFor(path)}
+  schema={schema}
+>
+<section class="page-head">
+  <div class="wrap">
+    <h1>{t.h1}</h1>
+    <p>{t.lead}</p>
+  </div>
+</section>
+<section class="cn-section reveal">
+  <div class="wrap">
+    <div class="cn-note">
+      <p set:html={t.note} />
+    </div>
+    {PRICE_CATS.map((c) => (
+      <div class="cn-cat reveal">
+        <div class="cn-cat-head">
+          <h2>{c.title[lang]}</h2>
+          <span class="cn-count">{c.count[lang]}</span>
+        </div>
+        <div class="cn-list">
+          {c.rows.map((r) => (
+            <div class="cn-row">
+              <span class="cn-name">{r.name[lang]}</span>
+              {r.price ? <span class="cn-price has-price">{price(r.price)}</span> : <span class="cn-price no-price">{t.callForPrice}</span>}
+            </div>
+          ))}
+        </div>
+      </div>
+    ))}
+    <div class="cn-cta-wrap reveal">
+      <p set:html={t.ctaText} />
+      <div class="cn-cta-btns">
+        <a href={`tel:${SITE.phone}`} class="cn-cta-tel" onclick="gtag('event','kontakt_click',{'metod':'telefon'})">{SITE.phoneDisplay}</a>
+        <a href={whatsappLink()} target="_blank" rel="noopener" class="cn-cta-wa" onclick="gtag('event','kontakt_click',{'metod':'whatsapp'})">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+<style is:global>
+  /* ── Cenovnik specifični stilovi ── */
+  .cn-section {
+    padding: 70px 0 100px;
+    background: var(--bg, #f5f5f5);
+  }
+
+  .cn-note {
+    background: var(--dark, #282f34);
+    padding: 2rem 2.4rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .cn-note p {
+    font-family: 'Jost Variable', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  .cn-cat {
+    margin-bottom: 5rem;
+  }
+
+  .cn-cat-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    margin-bottom: 1.6rem;
+    border-bottom: 2px solid var(--green, #4aa584);
+  }
+
+  .cn-cat-head h2 {
+    font-family: 'Oswald Variable', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .12rem;
+    color: var(--dark, #282f34);
+    margin: 0;
+  }
+
+  .cn-cat-head .cn-count {
+    font-family: 'Jost Variable', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--ink-soft, #7a8088);
+  }
+
+  .cn-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    background: rgba(0,0,0,.06);
+  }
+
+  .cn-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.6rem;
+    padding: 1.1rem 1.6rem;
+    background: var(--white, #fff);
+    transition: background .2s;
+  }
+
+  .cn-row:hover {
+    background: rgba(74,165,132,.06);
+  }
+
+  .cn-name {
+    font-family: 'Jost Variable', sans-serif;
+    font-size: 1.45rem;
+    font-weight: 400;
+    color: var(--dark, #282f34);
+    line-height: 1.35;
+    flex: 1;
+  }
+
+  .cn-price {
+    font-family: 'Oswald Variable', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    white-space: nowrap;
+    text-align: right;
+    min-width: 130px;
+  }
+
+  .cn-price.has-price {
+    color: var(--green-ink);
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .cn-price.no-price {
+    font-family: 'Jost Variable', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: var(--ink-soft, #7a8088);
+    text-transform: uppercase;
+    letter-spacing: .04rem;
+  }
+
+  /* CTA blok */
+  .cn-cta-wrap {
+    background: var(--green-btn);
+    padding: 3.5rem 2.4rem;
+    text-align: center;
+  }
+
+  .cn-cta-wrap p {
+    font-family: 'Jost Variable', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #fff;
+    margin: 0 0 2rem;
+    line-height: 1.6;
+  }
+
+  .cn-cta-wrap p strong {
+    font-weight: 600;
+  }
+
+  .cn-cta-btns {
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .cn-cta-btns a {
+    font-family: 'Oswald Variable', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    padding: .85rem 2.4rem;
+    text-decoration: none;
+    transition: opacity .2s, transform .2s;
+    display: inline-block;
+  }
+
+  .cn-cta-btns a:hover {
+    opacity: .88;
+    transform: translateY(-2px);
+  }
+
+  .cn-cta-tel {
+    background: var(--white, #fff);
+    color: var(--green-dark, #247658);
+  }
+
+  .cn-cta-wa {
+    background: rgba(0,0,0,.2);
+    color: #fff;
+    border: 1px solid rgba(255,255,255,.4);
+  }
+
+  @media (max-width: 640px) {
+    .cn-section {
+      padding: 50px 0 70px;
+    }
+
+    .cn-cat-head h2 {
+      font-size: 1.9rem;
+    }
+
+    .cn-row {
+      padding: .9rem 1.2rem;
+      gap: 1rem;
+    }
+
+    .cn-name {
+      font-size: 1.35rem;
+    }
+
+
+    .cn-price {
+
+      min-width: 0;
+
+    }
+
+
+    .cn-price.no-price {
+
+      white-space: normal;
+
+      font-size: 1rem;
+
+    }
+
+    .cn-price {
+      min-width: 110px;
+      font-size: 1.3rem;
+    }
+
+    .cn-price.no-price {
+      font-size: 1.15rem;
+    }
+  }
+</style>
+</Base>

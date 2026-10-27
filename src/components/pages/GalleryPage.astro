@@ -1,0 +1,65 @@
+---
+import Base from '../../layouts/Base.astro';
+import type { Locale } from '../../config/site';
+import { localizePath, translationsFor } from '../../i18n/routes';
+import { GALLERY, GALLERY_ITEMS } from '../../i18n/pages/gallery';
+
+interface Props {
+  lang: Locale;
+}
+const { lang } = Astro.props;
+const t = GALLERY[lang];
+const path = localizePath('/galerija.html', lang);
+---
+<Base
+  lang={lang}
+  {...t.meta}
+  path={path}
+  active="gallery"
+  bodyClass="gallery-page"
+  translations={translationsFor(path)}
+>
+<section class="page-head">
+  <div class="wrap">
+    <h1>{t.h1}</h1>
+    <p>{t.lead}</p>
+  </div>
+</section>
+<section class="section gallery">
+  <div class="wrap">
+    <div class="gal-grid" id="galGrid">
+      {GALLERY_ITEMS[lang].map((it) => (
+        <div class:list={['gal-item', it.size]} data-cat={it.cat}>
+          <img loading="lazy" decoding="async" src={`/style/img/gallery/${it.img}.jpg`} alt={it.name} />
+          <span class="zoom"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <circle cx="11" cy="11" r="7"></circle>
+            <path d="M21 21l-4.3-4.3M11 8v6M8 11h6"></path></svg></span>
+          <div class="cap"><small>{it.small}</small><b>{it.name}</b></div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+<div class="lb" id="lb">
+  <button class="lb-close" id="lbClose" aria-label={t.lb.close}>
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <path d="M18 6L6 18M6 6l12 12"></path>
+    </svg>
+  </button>
+  <button class="lb-nav prev" id="lbPrev" aria-label={t.lb.prev}>
+    <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 18l-6-6 6-6"></path>
+    </svg>
+  </button>
+  <button class="lb-nav next" id="lbNext" aria-label={t.lb.next}>
+    <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M9 18l6-6-6-6"></path>
+    </svg>
+  </button>
+  <div class="lb-stage">
+    <img class="lb-img" id="lbImg" src="/" alt="" />
+    <div class="lb-cap"><small id="lbCat"></small><b id="lbName"></b></div>
+    <div class="lb-count" id="lbCount"></div>
+  </div>
+</div>
+</Base>
