@@ -12,9 +12,6 @@
 }
 
 /* ===== INFO SIDE ===== */
-.k-info .eyebrow {
-  margin-bottom: 14px;
-}
 .k-info h2 {
   font-size: clamp(1.5rem, 3vw, 2rem);
   text-transform: uppercase;

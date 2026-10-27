@@ -41,9 +41,6 @@
   margin-top: 14px;
   font-weight: 300;
 }
-.page-head .eyebrow {
-  color: var(--green-light);
-}
 
 /* ===== INTRO ===== */
 .intro {
@@ -55,9 +52,6 @@
   border-left: 3px solid var(--green);
   padding: 6px 0 6px 26px;
   text-align: left;
-}
-.intro-box .eyebrow {
-  margin-bottom: 10px;
 }
 .intro p {
   color: var(--ink-soft);
@@ -488,12 +482,6 @@
 .zcta .wrap {
   position: relative;
   z-index: 2;
-}
-.zcta .eyebrow {
-  color: rgba(255, 255, 255, 0.85) !important;
-}
-.zcta .eyebrow::before {
-  background: rgba(255, 255, 255, 0.85);
 }
 .zcta h2 {
   font-size: clamp(1.7rem, 4vw, 2.6rem);

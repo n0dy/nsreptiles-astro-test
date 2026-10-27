@@ -32,9 +32,6 @@
   object-fit: cover;
   display: block;
 }
-.ks-info .eyebrow {
-  margin-bottom: 10px;
-}
 .ks-title {
   font-size: clamp(1.8rem, 3.4vw, 2.6rem);
   text-transform: uppercase;

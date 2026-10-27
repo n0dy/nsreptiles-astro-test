@@ -106,24 +106,6 @@ img {
   margin: 0 auto;
   padding: 0 28px;
 }
-.eyebrow {
-  font-family: 'Oswald Variable', sans-serif;
-  font-weight: 500;
-  font-size: 0.75rem;
-  letter-spacing: 0.34em;
-  text-transform: uppercase;
-  color: var(--green-ink);
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 10px;
-}
-.eyebrow::before {
-  content: '';
-  width: 28px;
-  height: 1.5px;
-  background: var(--green);
-}
 .sec-title {
   font-size: clamp(1.7rem, 3.6vw, 2.5rem);
   text-transform: uppercase;
@@ -1361,9 +1343,6 @@ header.nav,
   margin-top: 14px;
   font-weight: 300;
 }
-.page-head .eyebrow {
-  color: var(--green-light);
-}
 
 /* ===== DOSTAVA ===== */
 .del-grid {
@@ -1458,15 +1437,6 @@ header.nav,
   margin-top: 50px;
   padding-top: 50px;
   border-top: 1px solid var(--silver);
-}
-.useful-links .eyebrow {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 6px;
-  justify-content: center;
-}
-.useful-links .eyebrow::before {
-  display: none;
 }
 .useful-links a {
   display: inline-flex;
@@ -2010,9 +1980,6 @@ body.gallery-page .gal-grid {
 }
 .testi .sec-title {
   color: #fff;
-}
-.testi .eyebrow {
-  color: var(--green-light);
 }
 .testi-rating {
   margin-top: 16px;

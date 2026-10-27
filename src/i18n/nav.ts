@@ -44,7 +44,7 @@ export const NAV: Record<Locale, NavData> = {
       { key: 'gallery', href: '/galerija.html', label: 'Galerija' },
       { key: 'animals', href: '/zivotinje.html', label: 'Životinje' },
       { key: 'terrariums', href: '/terarijumi.html', label: 'Terarijumi' },
-      { key: 'aquaristics', href: '/akvaristika.html', label: 'Akvaristika' },
+      { key: 'aquaristics', href: '/akvarijumi.html', label: 'Akvaristika' },
       { key: 'equipment', href: '/oprema.html', label: 'Oprema' },
     ],
     animalsSub: sub('/zivotinje.html', ['Gušteri', 'Zmije', 'Tarantule']),
@@ -68,7 +68,7 @@ export const NAV: Record<Locale, NavData> = {
       productsTitle: 'Proizvodi',
       products: [
         { href: '/terarijumi.html', label: 'Terarijumi' },
-        { href: '/akvaristika.html', label: 'Akvarijumi' },
+        { href: '/akvarijumi.html', label: 'Akvarijumi' },
         { href: '/oprema.html', label: 'Oprema' },
         { href: '/kompleti.html', label: 'Kompleti za početnike' },
         { href: '/akvarijumi-za-pocetnike.html', label: 'Akvarijumi za početnike' },
