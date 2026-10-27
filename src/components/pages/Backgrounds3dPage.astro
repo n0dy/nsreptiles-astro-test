@@ -1,0 +1,144 @@
+---
+import Base from '../../layouts/Base.astro';
+import '../../styles/animals.css';
+import '../../styles/usluge.css';
+import '../../styles/oprema.css';
+import { SITE, type Locale } from '../../config/site';
+import { HOME } from '../../i18n/ui';
+import { localizePath, translationsFor } from '../../i18n/routes';
+import { BACKGROUNDS_3D, BG_MODELS } from '../../i18n/pages/backgrounds-3d';
+
+interface Props {
+  lang: Locale;
+}
+const { lang } = Astro.props;
+const t = BACKGROUNDS_3D[lang];
+const href = (srPath: string) => localizePath(srPath, lang);
+const path = href('/3d-pozadine.html');
+const MORE_LINKS = ['/izrada-terarijuma.html', '/izrada-akvarijuma.html', '/izrada-led-rasvete.html', '/oprema.html'];
+const plural = new Intl.PluralRules(lang);
+const countText = (n: number) => n + ' ' + (t.models[plural.select(n)] ?? t.models.other);
+
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: t.schemaName,
+    description: t.schemaDescription,
+    brand: { '@type': 'Brand', name: 'NS Reptiles' },
+    offers: {
+      '@type': 'Offer',
+      availability: 'https://schema.org/InStock',
+      priceCurrency: 'RSD',
+      price: '0',
+      seller: { '@type': 'Organization', name: 'NS Reptiles' },
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: t.home, item: SITE.url + HOME[lang] },
+      { '@type': 'ListItem', position: 2, name: t.crumb, item: SITE.url + path },
+    ],
+  },
+];
+---
+<Base
+  lang={lang}
+  {...t.meta}
+  path={path}
+  image="/style/img/backgrounds/poz001.webp"
+  translations={translationsFor(path)}
+  schema={schema}
+>
+<section class="page-head">
+  <div class="wrap">
+    <h1>{t.h1}</h1>
+    <p>{t.lead}</p>
+  </div>
+</section>
+<section class="intro">
+  <div class="wrap">
+    <div class="intro-box">
+      <p set:html={t.intro} />
+    </div>
+  </div>
+</section>
+<section class="op-shop">
+      <div class="wrap">
+        <div class="op-toolbar">
+          <div class="op-search">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <circle cx="11" cy="11" r="7"></circle>
+              <path d="M21 21l-4.3-4.3"></path>
+            </svg>
+            <input type="text" id="opSearch" placeholder={t.searchPlaceholder}>
+          </div>
+        </div>
+        <div class="op-count" id="opCount">{countText(BG_MODELS.length)}</div>
+        <div class="op-grid" id="opGrid">
+          {BG_MODELS.map((m) => (
+            <article class="op-card" data-search={`${t.search} ${m.size} ${m.code.toLowerCase()}`}>
+              <div class="op-img"><img src={`/style/img/backgrounds/${m.img}.webp`} alt={`${t.alt} ${m.size} ${m.code}`} loading="lazy" width="600" height="600"></div>
+              <div class="op-body">
+                <div class="op-cat">{t.cat}</div>
+                <h3>{t.name} {m.size} {m.code}</h3>
+                <div class="op-foot">
+                  <span class="op-price op-price-call">{t.price}</span>
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+        <div class="op-empty" id="opEmpty">
+          {t.empty} <a href={path}>{t.showAll}</a>
+        </div>
+      </div>
+    </section>
+<section class="zcta">
+      <div class="wrap">
+        <h2 set:html={t.ctaTitle} />
+        <p>{t.ctaText}</p>
+        <div class="zcta-btns">
+          <a href="https://wa.me/381693301474" target="_blank" rel="noopener" class="btn" style="background: #fff; color: var(--green-dark)">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light">{t.call}</a>
+        </div>
+      </div>
+    </section>
+<section class="usl-more">
+      <div class="wrap">
+        <div class="usl-more-head">
+          <h2 set:html={t.moreTitle} />
+        </div>
+        <div class="usl-more-grid">
+          {MORE_LINKS.map((p, i) => (
+            <a class="usl-link" href={href(p)}>{t.more[i]}<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+          ))}
+        </div>
+      </div>
+    </section>
+
+<script is:inline slot="after" define:vars={{ lang, forms: t.models }}>
+      // pretraga po nazivu pozadine
+      const bgCards = [...document.querySelectorAll('.op-card')];
+      const bgCount = document.getElementById('opCount');
+      const bgEmpty = document.getElementById('opEmpty');
+      const bgSearch = document.getElementById('opSearch');
+      const bgPlural = new Intl.PluralRules(lang);
+
+      function bgApply() {
+        const q = bgSearch.value.trim().toLowerCase();
+        let n = 0;
+        bgCards.forEach((c) => {
+          const show = !q || c.dataset.search.includes(q);
+          c.style.display = show ? '' : 'none';
+          if (show) n++;
+        });
+        bgCount.textContent = n + ' ' + (forms[bgPlural.select(n)] ?? forms.other);
+        bgEmpty.classList.toggle('show', n === 0);
+      }
+
+      bgSearch.addEventListener('input', bgApply);
+    </script>
+</Base>
