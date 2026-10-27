@@ -124,9 +124,6 @@ img {
   height: 1.5px;
   background: var(--green);
 }
-.eyebrow.center {
-  justify-content: center;
-}
 .sec-title {
   font-size: clamp(1.7rem, 3.6vw, 2.5rem);
   text-transform: uppercase;
@@ -3152,6 +3149,113 @@ textarea {
   }
   .f-row {
     grid-template-columns: 1fr;
+  }
+  .gal-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 150px;
+    gap: 6px;
+  }
+  .gal-wide,
+  .gal-big {
+    grid-column: span 2;
+  }
+  /* na home-u samo prvih 6, ostalo je na stranici galerije */
+  body:not(.gallery-page) .gallery .gal-item:nth-child(n + 7) {
+    display: none;
+  }
+  .gal-item .cap {
+    padding: 10px;
+  }
+  .gal-item .cap b {
+    font-size: 0.9rem;
+  }
+  .izrada-split {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .izrada-split .img-wrap {
+    order: -1;
+  }
+  .izrada-split img {
+    aspect-ratio: 16/9;
+  }
+  .izrada-feats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 14px;
+    margin: 18px 0 22px;
+  }
+  .izrada-feats li {
+    margin-bottom: 0;
+    padding-left: 18px;
+    font-size: 0.85rem;
+    line-height: 1.35;
+  }
+  .izrada-feats li::before {
+    top: 7px;
+    width: 6px;
+    height: 6px;
+    box-shadow: 0 0 0 3px rgba(74, 165, 132, 0.18);
+  }
+  .izrada-links {
+    gap: 8px;
+    margin-top: 0;
+  }
+  .izrada-links .btn {
+    width: 100%;
+    justify-content: center;
+  }
+  .izrada-links .ilink {
+    display: inline-flex;
+    align-items: center;
+    min-height: 40px;
+    padding: 0 14px;
+    border: 1px solid var(--silver);
+    border-radius: 999px;
+  }
+  .izrada-links .ilink::after {
+    display: none;
+  }
+  .insta {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  footer {
+    padding-top: 50px;
+  }
+  .foot-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 28px 20px;
+    padding-bottom: 32px;
+  }
+  .foot-grid > :first-child,
+  .foot-grid > :last-child {
+    grid-column: span 2;
+  }
+  footer h2,
+  footer h3 {
+    margin-bottom: 14px;
+  }
+  footer li {
+    margin-bottom: 8px;
+  }
+}
+
+/* touch uredjaji nemaju hover, pa ono sto se otkriva na hover mora stalno da se vidi */
+@media (hover: none) {
+  .gal-item::after {
+    background: linear-gradient(to top, rgba(40, 47, 52, 0.75), transparent 55%);
+  }
+  .gal-item .cap,
+  .gal-item .zoom {
+    opacity: 1;
+    transform: none;
+  }
+  .insta a::after {
+    background: rgba(36, 118, 88, 0.25);
+  }
+  .insta-ic {
+    opacity: 1;
+    transform: none;
   }
 }
 
