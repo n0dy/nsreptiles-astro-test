@@ -1,0 +1,99 @@
+{
+  "seo": {
+    "title": "Chinese Water Dragon: Care, Diet, Terrarium | NS Reptiles",
+    "description": "Chinese water dragon: husbandry, diet, temperature, humidity and terrarium size. A complete guide from the NS Reptiles breeder in Novi Sad.",
+    "keywords": "Chinese water dragon, Chinese water dragon care, Chinese water dragon for sale, Chinese water dragon terrarium, Chinese water dragon diet, Chinese water dragon humidity, water dragon Serbia, NS Reptiles",
+    "ogTitle": "Chinese Water Dragon — Care and Breeding | NS Reptiles",
+    "ogDescription": "Chinese water dragon: husbandry, diet, temperature, humidity and terrarium size. A complete guide from NS Reptiles."
+  },
+  "article": {
+    "headline": "Chinese water dragon — care, diet and husbandry",
+    "description": "A complete guide to the Chinese water dragon: terrarium, temperature, humidity, diet and health."
+  },
+  "name": "Chinese water dragon",
+  "lead": "An attractive tropical lizard from Southeast Asia that spends its time both on branches and in water. It needs a spacious terrarium with a pool and high humidity — suitable for experienced reptile keepers.",
+  "photoAlt": "Chinese water dragon in a terrarium — NS Reptiles Novi Sad",
+  "intro": "The Chinese water dragon comes from the tropical rainforests of Southeast Asia — China, Vietnam, Laos, Cambodia and Thailand. It lives in dense forest along rivers, streams and lakes, where it spends its time both on branches and in water. <strong>It is a semi-arboreal and semi-aquatic lizard</strong> that jumps into the water when threatened and can stay underwater for up to 90 minutes. They grow up to 90 cm in total length, with the tail making up about two thirds. They have a prominent dorsal crest — especially males — and a \"third eye\" (pineal gland) on top of the head. They are diurnal, active during the day, and their color ranges from light green to olive green with darker bands on the tail. Because of the complex conditions they need, they are recommended for more experienced reptile keepers.",
+  "sections": [
+    {
+      "title": "Care and <b>terrarium</b>",
+      "boxes": [
+        {
+          "title": "Terrarium",
+          "p": [
+            "Minimum size for one adult: <strong>180×90×180 cm</strong>. A vertically oriented space with branches for climbing, dense plants and a large water area for swimming. Hides are a must so the animal feels secure."
+          ]
+        },
+        {
+          "title": "Substrate",
+          "p": [
+            "A mix of coco fiber, peat and bark to hold moisture. Avoid sand and fine particles that can cause impaction (blockage of the digestive tract)."
+          ]
+        },
+        {
+          "title": "Water",
+          "p": [
+            "A large pool with clean, filtered water for swimming and drinking. Regular cleaning and water changes prevent contamination and skin and respiratory diseases."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Temperature and <b>conditions</b>",
+      "boxes": [
+        {
+          "title": "Temperature",
+          "p": [
+            "Warm side (under the heat lamp): <strong>32–35 °C</strong>. Cooler side: <strong>24–27 °C</strong>. Nighttime temperature: not below <strong>21 °C</strong>. Heat with ceramic heaters or a spot lamp on a thermostat."
+          ]
+        },
+        {
+          "title": "Humidity",
+          "p": [
+            "Optimal humidity: <strong>70–80%</strong>. Mist the terrarium regularly and use a humidifier. A large water area naturally raises humidity and is essential for this species."
+          ]
+        },
+        {
+          "title": "Lighting and UVB",
+          "p": [
+            "A <strong>10–12%</strong> UVB lamp is essential for vitamin D3 synthesis and proper bone development. Photoperiod: <strong>12 hours</strong> of light and 12 hours of darkness."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Diet",
+      "boxes": [
+        {
+          "p": [
+            "Insects: crickets, locusts, mealworms, dubia roaches. Occasionally: small mice, fish, fruit and vegetables. Supplements: calcium with D3 at every feeding, multivitamins once a week. Babies are fed daily, adults every other day."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Breeding",
+      "boxes": [
+        {
+          "p": [
+            "Sexual maturity is reached at around <strong>2 years</strong> of age. Females lay <strong>8–16 eggs</strong> in dug-out holes. Incubation takes 60–75 days at a temperature of 28–30 °C."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Health",
+      "boxes": [
+        {
+          "p": [
+            "Common problems: metabolic bone disease, stuck shed, respiratory infections, nose injuries and parasites. Prevention: a proper diet with calcium supplements, adequate UVB lighting and high humidity. At the first sign of illness — see a vet who specializes in exotic animals."
+          ]
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "text": "For questions about getting a Chinese water dragon, its care or equipment — we are here. Give us a call or send a message.",
+    "waText": "I'm interested in a Chinese water dragon"
+  }
+}

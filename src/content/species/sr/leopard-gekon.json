@@ -1,0 +1,126 @@
+{
+  "seo": {
+    "title": "Leopard Gekon — Vodič za Uzgoj i Negu | NS Reptiles",
+    "description": "Sve o leopard gekonu: terarijum, temperatura, ishrana i razmnožavanje. Kompletan vodič za uzgoj i negu ove popularne vrste guštera.",
+    "ogDescription": "Sve o leopard gekonu: terarijum, temperatura, ishrana i razmnožavanje. Kompletan vodič za uzgoj i negu."
+  },
+  "article": {
+    "headline": "Leopard Gekon — Vodič za Uzgoj i Negu",
+    "description": "Sve o leopard gekonu: terarijum, temperatura, ishrana i razmnožavanje. Kompletan vodič za uzgoj i negu."
+  },
+  "name": "Leopard gekon",
+  "schemaName": "Leopard Gekon",
+  "lead": "Popularan, mirne naravi i jednostavan za negu — idealan izbor za početnike i iskusne odgajivače.",
+  "image": "/style/img/gallery/3.jpg",
+  "photo": "/style/img/gallery/10.jpg",
+  "photoAlt": "Leopard gekon u terarijumu — NS Reptiles Novi Sad",
+  "intro": "Leopard gekon je jedna od najčešće čuvanih vrsta gekona na svetu. Veoma su popularni zbog mirne naravi, lakog pripitomljvanja i jednostavne nege. Postoji veliki broj morfova — raznih varijacija boje i šara — što ih čini posebno atraktivnim ljubimcima. Cena se kreće od 30€ za normal mladunca pa naviše, do par stotina eura za retke morfove.",
+  "sections": [
+    {
+      "title": "Poreklo i <b>stanište</b>",
+      "boxes": [
+        {
+          "title": "Poreklo",
+          "p": [
+            "Pakistan, Avganistan, Zapadna Indija."
+          ]
+        },
+        {
+          "title": "Stanište",
+          "p": [
+            "Suvi, polupustinjski predeli. Kamenjari, poneka suva biljka na isušenom tlu."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Izgled i <b>ponašanje</b>",
+      "boxes": [
+        {
+          "title": "Veličina i izgled",
+          "p": [
+            "Spada u srednje gekone, noćne. Rastu do 25cm. Osnovna boja im je žućkasta sa belom i puno crnih tufni. Postoje razni morfovi — varijante obojenosti i šara — tako da se mogu videti raznoraznih boja: od skroz belih do narandžastih i žutih, sa različitim bojama očiju i repa. Imaju zadebljan rep u kome čuvaju višak masti."
+          ]
+        },
+        {
+          "title": "Ponašanje",
+          "p": [
+            "Ova vrsta gekona je idealna za uzimanje u ruke — izuzetno su mirni. Budući da je noćna vrsta, uglavnom su aktivniji kada se smrkne i svetla pogase. Danju su aktivni ukoliko traže hranu ili treba da se presvuku."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Terarijum i <b>podloga</b>",
+      "boxes": [
+        {
+          "title": "Terarijum",
+          "p": [
+            "Minimalne dimenzije terarijuma za jednog odraslog su negde 50x30x25cm. Terarijum ne treba da bude visok jer se retko penju — bolje je da ima što veću osnovu."
+          ]
+        },
+        {
+          "title": "Podloga",
+          "p": [
+            "Nekoliko vrsta podloga je moguće koristiti: novine, papir, pesak, sitno kamenje. Preporučuje se kokosov treset kao najbezbedniji izbor. Pesak može ponekad da stvori problem jer gekon hoće da ga unosi u organizam, što može dovesti do zatvora i problema sa digestivnim traktom."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Temperatura i <b>uslovi</b>",
+      "boxes": [
+        {
+          "title": "Temperatura",
+          "p": [
+            "Trebalo bi napraviti temperaturni gradijent zagrevanjem samo jednog dela terarijuma podnom folijom ili sijalicom. Temperatura na toplijem delu treba da bude oko 32–33°C, dok u hladnijem delu može biti 20–25°C, pa i niže. Zimi se mogu hibernirati na 13–19°C bez grejanja."
+          ]
+        },
+        {
+          "title": "Osvetljenje",
+          "p": [
+            "Pošto je ovo noćna vrsta, nije potrebno UV zračenje. Ukoliko imate sijalicu kojom zagrevate terarijum, to je sasvim dovoljno. Ako pak grejete folijom, dostupno osvetljenje u prostoriji je sasvim dovoljno."
+          ]
+        },
+        {
+          "title": "Vlažnost i voda",
+          "p": [
+            "Ne zahtevaju povišenu vlagu. Dovoljno je da imaju posudu sa vodom i neko sklonište koje će im uvek biti dostupno, sa vlažnim tresetom unutra, gde će se skrivati pred presvlačenje ili pri poleganju jaja. Posuda sa vodom mora biti uvek dostupna."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ishrana",
+      "boxes": [
+        {
+          "p": [
+            "Leopard gekon spada u karnivore i hrani se isključivo insektima. Mladi jedu male tenebrije, lateralise i cvrčke, pa čak i male dubije. Kako rastu, povećava se i veličina plena. Odrasli mogu da jedu odrasle lateralise i mužjake dubija (jer su uži) i velike nimfe. Gravidnim ženkama može povremeno da se da beba miša tek rođena ili stara 2–3 dana."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Razmnožavanje",
+      "boxes": [
+        {
+          "p": [
+            "Period hlađenja je neophodan ukoliko želite da razmnožite leopard gekone. Taj period treba da traje oko 2–3 meseca. Hranjenje se prekida negde u decembru, a grejači se gase nakon 2–3 nedelje kako bi sva hrana bila svarena pre hibernacije — inače može doći do ozbiljnih problema. Grejanje se ponovo uključuje u februaru. U roku od 7 dana gušteri dobijaju apetit i postaju aktivni.",
+            "Pre parenja ženka treba da dostigne oko 45–50g. Parenje se obično desi odmah po spajanju para ili u narednih 2–3 dana. Za 2–4 nedelje mogu se očekivati jaja. Inkubacija traje oko 60 dana na 27,5–28,5°C. Pol se može odrediti prema temperaturi inkubacije: na 27,5–29°C izležu se ženke, na 29–31°C mešani polovi, a na 31–33°C mužjaci. Mlade treba hraniti istim insektima kao i odrasle, samo proporcionalno njihovoj veličini — insekti ne treba da budu veći od rastojanja između očiju gekona."
+          ],
+          "spaced": true
+        }
+      ]
+    }
+  ],
+  "related": [
+    "terarijumi/terarijum-50x35x35",
+    "terarijumi/terarijum-45x35x35",
+    "terarijumi/terarijum-65x35x35",
+    "terarijumi/terarijum-70x40x35"
+  ],
+  "cta": {
+    "text": "Za pitanja o nabavci, nezi ili opremi za leopard gekona — tu smo. Javite nam se pozivom ili porukom.",
+    "waText": "Zanima me leopard gekon"
+  }
+}

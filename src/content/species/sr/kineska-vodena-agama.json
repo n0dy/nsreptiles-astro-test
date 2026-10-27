@@ -1,0 +1,106 @@
+{
+  "seo": {
+    "title": "Kineska vodena agama: nega, ishrana, terarijum | NS Reptiles",
+    "description": "Kineska vodena agama: uslovi držanja, ishrana, temperatura, vlažnost i veličina terarijuma. Kompletni vodič iz odgajivačnice NS Reptiles, Novi Sad.",
+    "ogTitle": "Kineska vodena agama — nega i uzgoj | NS Reptiles",
+    "ogDescription": "Kineska vodena agama: uslovi držanja, ishrana, temperatura, vlažnost i veličina terarijuma. Kompletni vodič iz NS Reptiles."
+  },
+  "article": {
+    "headline": "Kineska vodena agama — nega, ishrana i uslovi držanja",
+    "description": "Kompletni vodič za kinesku vodenu agamu: terarijum, temperatura, vlažnost, ishrana i zdravlje."
+  },
+  "name": "Kineska vodena agama",
+  "lead": "Atraktivan tropski gušter iz jugoistočne Azije koji provodi vreme i na granama i u vodi. Zahteva prostran terarijum sa bazenom i visoku vlažnost — pogodan za iskusne vlasnike reptila.",
+  "image": "/style/img/gallery/13.jpg",
+  "photo": "/style/img/gallery/13.jpg",
+  "photoAlt": "Kineska vodena agama u terarijumu — NS Reptiles Novi Sad",
+  "intro": "Kineska vodena agama potiče iz tropskih kišnih šuma jugoistočne Azije — Kine, Vijetnama, Laosa, Kambodže i Tajlanda. Nastanjuje guste šumske predele uz reke, potoke i jezera, gde provodi vreme i na granama i u vodi. <strong>Poluarborealni je i poluakvatični gušter</strong> koji u slučaju opasnosti skače u vodu i može ostati pod njom do 90 minuta. Narastaju do 90 cm ukupne dužine, pri čemu rep čini oko dve trećine. Karakteriše ih izražena leđna krijesta — posebno kod mužjaka — i „treće oko\" (pinealna žlezda) na vrhu glave. Diurni su, aktivni danju, a boja varira od svetlozelene do maslinastozelene sa tamnijim prugama na repu. Zbog složenih uslova koje zahtevaju, preporučuju se iskusnijim vlasnicima reptila.",
+  "sections": [
+    {
+      "title": "Nega i <b>terarijum</b>",
+      "boxes": [
+        {
+          "title": "Terarijum",
+          "p": [
+            "Minimalne dimenzije za jednu odraslu jedinku: <strong>180×90×180 cm</strong>. Vertikalno orijentisan prostor sa granama za penjanje, gustim biljem i velikom vodenom površinom za plivanje. Skrovišta su obavezna radi osećaja sigurnosti."
+          ]
+        },
+        {
+          "title": "Podloga",
+          "p": [
+            "Mešavina kokosovog vlakna, treseta i kore drveta za zadržavanje vlage. Izbegavati pesak i sitne čestice koje mogu prouzrokovati impakciju (začepljenje digestivnog trakta)."
+          ]
+        },
+        {
+          "title": "Voda",
+          "p": [
+            "Veliki bazen sa čistom, filtriranom vodom za plivanje i piće. Redovno čišćenje i zamena vode sprečavaju kontaminaciju i pojavu bolesti kože i disajnih puteva."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Temperatura i <b>uslovi</b>",
+      "boxes": [
+        {
+          "title": "Temperatura",
+          "p": [
+            "Topli deo (ispod grejne lampe): <strong>32–35 °C</strong>. Hladniji deo: <strong>24–27 °C</strong>. Noćna temperatura: ne ispod <strong>21 °C</strong>. Grejanje keramičkim grejačima ili spot lampom sa termostatom."
+          ]
+        },
+        {
+          "title": "Vlažnost",
+          "p": [
+            "Optimalna vlažnost: <strong>70–80%</strong>. Redovno prskanje terarijuma i korišćenje ovlaživača vazduha. Velika vodena površina prirodno podiže vlažnost i neophodna je za ovu vrstu."
+          ]
+        },
+        {
+          "title": "Osvetljenje i UVB",
+          "p": [
+            "UVB lampa jačine <strong>10–12%</strong> neophodna je za sintezu vitamina D3 i pravilno formiranje kostiju. Fotoperiod: <strong>12 sati</strong> svetla i 12 sati tame."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ishrana",
+      "boxes": [
+        {
+          "p": [
+            "Insekti: cvrčci, skakavci, brašnari, dubije. Povremeno: mali miševi, ribe, voće i povrće. Dodaci: kalcijum sa D3 pri svakom hranjenju, multivitamini jednom nedeljno. Mladunci se hrane svakodnevno, odrasli svaki drugi dan."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Razmnožavanje",
+      "boxes": [
+        {
+          "p": [
+            "Polna zrelost nastupa oko <strong>2. godine</strong> života. Ženke polažu <strong>8–16 jaja</strong> u iskopane rupe. Inkubacija traje 60–75 dana na temperaturi od 28–30 °C."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Zdravlje",
+      "boxes": [
+        {
+          "p": [
+            "Česti problemi: metabolička bolest kostiju, zadržavanje kože, infekcije disajnih puteva, ozlede nosa i paraziti. Prevencija: pravilna ishrana sa dodacima kalcijuma, adekvatna UVB rasveta i visoka vlažnost. Pri prvom znaku bolesti — veterinar specijalizovan za egzotične životinje."
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "terarijumi/terarijum-70x45x70",
+    "terarijumi/terarijum-80x50x60",
+    "terarijumi/terarijum-90x50x50",
+    "terarijumi/terarijum-60x45x50"
+  ],
+  "cta": {
+    "text": "Za pitanja o nabavci, nezi ili opremi za kinesku vodenu agamu — tu smo. Javite nam se pozivom ili porukom.",
+    "waText": "Zanima me kineska vodena agama"
+  }
+}
