@@ -27,7 +27,7 @@ export const HOME_TEXT = {
     reptilesTitle: 'Naši <b>reptili</b>',
     bigtypo: { title: 'Najbolji <b>terarijum</b>', sub: 'u celom svetu egzotike' },
     gallery: { title: 'Galerija <b>životinja</b>', all: 'Pogledaj celu galeriju', lizard: 'Gušter', snake: 'Zmija' },
-    kits: { title: 'Kompleti za <b>početnike</b>', all: 'Svi kompleti', badge: 'Akcija', currency: 'din', more: 'Pogledaj više' },
+    kits: { title: 'Kompleti za <b>početnike</b>', all: 'Svi kompleti' },
     services: { title: 'Šta sve <b>radimo</b>', label: 'Usluga' },
     work: {
       title: 'Naši <b>radovi</b>',
@@ -61,7 +61,7 @@ export const HOME_TEXT = {
     reptilesTitle: 'Our <b>Reptiles</b>',
     bigtypo: { title: 'The Best <b>Terrarium</b>', sub: 'in the entire world of exotics' },
     gallery: { title: 'Animal <b>Gallery</b>', all: 'View Full Gallery', lizard: 'Lizard', snake: 'Snake' },
-    kits: { title: 'Starter <b>Kits</b>', all: 'All Kits', badge: 'Sale', currency: 'RSD', more: 'View More' },
+    kits: { title: 'Starter <b>Kits</b>', all: 'All Kits' },
     services: { title: 'What We <b>Do</b>', label: 'Service' },
     work: {
       title: 'Our <b>Work</b>',
@@ -95,7 +95,7 @@ export const HOME_TEXT = {
     reptilesTitle: 'Наши <b>рептилии</b>',
     bigtypo: { title: 'Лучший <b>террариум</b>', sub: 'во всём мире экзотики' },
     gallery: { title: 'Галерея <b>животных</b>', all: 'Смотреть всю галерею', lizard: 'Ящерица', snake: 'Змея' },
-    kits: { title: 'Комплекты для <b>начинающих</b>', all: 'Все комплекты', badge: 'Акция', currency: 'дин', more: 'Подробнее' },
+    kits: { title: 'Комплекты для <b>начинающих</b>', all: 'Все комплекты' },
     services: { title: 'Что мы <b>делаем</b>', label: 'Услуга' },
     work: {
       title: 'Наши <b>работы</b>',
@@ -137,65 +137,6 @@ export const GALLERY: { img: string; cat: 'guster' | 'zmija'; size?: 'tall' | 'b
   { img: '/style/img/gallery/6.jpg', cat: 'guster', name: SPECIES.bradata },
   { img: '/style/img/gallery/10.jpg', cat: 'guster', name: SPECIES.leopard },
   { img: '/style/img/gallery/8.jpg', cat: 'guster', name: SPECIES.bradata },
-];
-
-/** href je srpska putanja; komponenta je prevodi preko localizePath */
-export const KITS: { href: string; img: string; price: string; name: L; incl: L<string[]> }[] = [
-  {
-    href: '/kompleti/bradata-agama.html',
-    img: '/assets/img/bradata-agama.jpg',
-    price: '25.800',
-    name: SPECIES.bradata,
-    incl: {
-      sr: ['Terarijum 100×45×45 +3D', 'UVB/UVA rasveta', 'Pesak, vitamini', 'Hrana za mesec'],
-      en: ['Terrarium 100×45×45 +3D', 'UVB/UVA lighting', 'Sand, vitamins', 'Food for one month'],
-      ru: ['Террариум 100×45×45 +3D', 'UVB/UVA освещение', 'Песок, витамины', 'Корм на месяц'],
-    },
-  },
-  {
-    href: '/kompleti/leopard-gekon.html',
-    img: '/assets/img/leopard-gekon.jpg',
-    price: '12.500',
-    name: SPECIES.leopard,
-    incl: {
-      sr: ['Terarijum 50×35×35', 'Folija grejač, skrovište', 'Treset, posuda', 'Hrana + vitamini'],
-      en: ['Terrarium 50×35×35', 'Heating pad, hideout', 'Peat, water dish', 'Food + vitamins'],
-      ru: ['Террариум 50×35×35', 'Плёнка обогрев, укрытие', 'Торф, ёмкость', 'Корм + витамины'],
-    },
-  },
-  {
-    href: '/kompleti/kukuruzni-smuk.html',
-    img: '/assets/img/kukuruzni-smuk.jpg',
-    price: '12.500',
-    name: SPECIES.smuk,
-    incl: {
-      sr: ['Terarijum 50×35×35', 'Kokosov treset', 'Posuda za vodu', 'Pećina'],
-      en: ['Terrarium 50×35×35', 'Coconut peat', 'Water dish', 'Cave hideout'],
-      ru: ['Террариум 50×35×35', 'Кокосовый торф', 'Ёмкость для воды', 'Пещера'],
-    },
-  },
-  {
-    href: '/kompleti/skorpija.html',
-    img: '/assets/img/skorpija.jpg',
-    price: '8.500',
-    name: { sr: 'Škorpija', en: 'Scorpion', ru: 'Скорпион' },
-    incl: {
-      sr: ['Heterometrus petersii', 'Terarijum 40×25×30', 'Kokosov treset', '3 veličine'],
-      en: ['Heterometrus petersii', 'Terrarium 40×25×30', 'Coconut peat', '3 sizes available'],
-      ru: ['Heterometrus petersii', 'Террариум 40×25×30', 'Кокосовый торф', '3 размера'],
-    },
-  },
-  {
-    href: '/kompleti/tarantula.html',
-    img: '/assets/img/tarantula.jpg',
-    price: '3.000',
-    name: { sr: 'Tarantula', en: 'Tarantula', ru: 'Тарантул' },
-    incl: {
-      sr: ['Terarijum 11×15×20 +3D', 'Kokosov treset', '~10 vrsta', 'Za prvi pauk'],
-      en: ['Terrarium 11×15×20 +3D', 'Coconut peat', '~10 species', 'Perfect first spider'],
-      ru: ['Террариум 11×15×20 +3D', 'Кокосовый торф', '~10 видов', 'Для первого паука'],
-    },
-  },
 ];
 
 export const SERVICES: { img: string; title: L; text: L }[] = [

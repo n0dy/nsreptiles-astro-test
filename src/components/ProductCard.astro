@@ -6,11 +6,13 @@ interface Props {
   product: Product;
   catLabel?: string;
   lang?: Locale;
+  /** filter grupa na listingu (data-cat za filter/pretragu) */
+  group?: string;
 }
-const { product, catLabel, lang = 'sr' } = Astro.props;
+const { product, catLabel, lang = 'sr', group } = Astro.props;
 const v = await productViewOrSr(product, lang);
 ---
-<article class="op-card reveal">
+<article class="op-card reveal" data-cat={group} data-search={group && v.name.toLowerCase()}>
   <a class="op-img" href={v.path}><img src={product.data.image} alt={v.name} loading="lazy" width="600" height="600" /></a>
   <div class="op-body">
     <div class="op-cat">{catLabel ?? v.label}</div>

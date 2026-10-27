@@ -1,0 +1,27 @@
+---
+import { SITE, whatsappLink } from '../config/site';
+
+interface Props {
+  /** sme da sadrzi <b> - nas tekst iz i18n, ne korisnicki unos */
+  title: string;
+  text: string;
+  callLabel: string;
+  /** unapred popunjena WhatsApp poruka */
+  waText?: string;
+  /** salje kontakt_click dogadjaj u analitiku */
+  track?: boolean;
+}
+const { title, text, callLabel, waText, track = false } = Astro.props;
+// gtag postoji samo na produkcijskom domenu
+const event = (metod: string) => (track ? `window.gtag&&gtag('event','kontakt_click',{'metod':'${metod}'})` : undefined);
+---
+<section class="zcta">
+  <div class="wrap">
+    <h2 set:html={title} />
+    <p>{text}</p>
+    <div class="zcta-btns">
+      <a href={whatsappLink(waText)} target="_blank" rel="noopener" class="btn" style="background: #fff; color: var(--green-dark)" onclick={event('whatsapp')}>WhatsApp</a>
+      <a href={`tel:${SITE.phone}`} class="btn btn-light" onclick={event('poziv')}>{callLabel}</a>
+    </div>
+  </div>
+</section>

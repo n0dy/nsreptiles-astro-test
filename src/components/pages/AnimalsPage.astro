@@ -1,0 +1,103 @@
+---
+import Base from '../../layouts/Base.astro';
+import Faq from '../Faq.astro';
+import Zcta from '../Zcta.astro';
+import '../../styles/animals.css';
+import type { Locale } from '../../config/site';
+import { localizePath, translationsFor } from '../../i18n/routes';
+import { ANIMALS_TEXT, ANIMAL_GROUPS, ANIMALS_FAQ } from '../../i18n/pages/animals';
+
+interface Props {
+  lang: Locale;
+}
+const { lang } = Astro.props;
+const t = ANIMALS_TEXT[lang];
+const href = (srPath: string) => localizePath(srPath, lang);
+const path = href('/zivotinje.html');
+
+const plural = new Intl.PluralRules(lang);
+const speciesCount = (n: number) =>
+  `${n} ${t.species[plural.select(n) as keyof typeof t.species] ?? t.species.other}`;
+---
+<Base
+  lang={lang}
+  {...t.meta}
+  path={path}
+  image="/style/img/gallery/2.jpg"
+  active="animals"
+  translations={translationsFor(path)}
+>
+<section class="page-head">
+  <div class="wrap">
+    <h1>{t.h1}</h1>
+    <p>{t.lead}</p>
+  </div>
+</section>
+<section class="intro">
+  <div class="wrap">
+    <div class="intro-box"><p set:html={t.intro} /></div>
+  </div>
+</section>
+<section class="zoo">
+  <div class="wrap">
+    <div class="pills">
+      {ANIMAL_GROUPS.map((g) => <button class="pill" data-target={g.id}>{g.title[lang]}</button>)}
+    </div>
+
+    {ANIMAL_GROUPS.map((g) => (
+      <div class="cat-block" id={`cat-${g.id}`}>
+        <div class="cat-title">
+          <h2>{g.title[lang]}</h2>
+          <span class="count">{speciesCount(g.animals.length)}</span><span class="line"></span>
+        </div>
+        <div class="zgrid">
+          {g.animals.map((a) => {
+            const Card = a.href ? 'a' : 'div';
+            return (
+              <Card class="zcard" href={a.href && href(a.href)}>
+                <div class="zcard-img">
+                  {a.beginner && <span class="zbadge">{t.beginner}</span>}
+                  <img loading="lazy" decoding="async" src={a.img} alt={a.name[lang]} />
+                </div>
+                <div class="zcard-body">
+                  <div class="lat">{a.latin}</div>
+                  <h3>{a.name[lang]}</h3>
+                  <p>{a.text[lang]}</p>
+                  {a.href && (
+                    <span class="zlink">{t.view}
+                      <span class="arr"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></span>
+                  )}
+                </div>
+              </Card>
+            );
+          })}
+        </div>
+      </div>
+    ))}
+
+    <div class="starter">
+      <div class="starter-txt">
+        <h3>{t.starter.title}</h3>
+        <p>{t.starter.text}</p>
+      </div>
+      <a href={href('/kompleti.html')} class="btn">{t.starter.cta}</a>
+    </div>
+  </div>
+</section>
+
+<Faq lang={lang} title={t.faqTitle} items={ANIMALS_FAQ} />
+
+<Zcta title={t.cta.title} text={t.cta.text} callLabel={t.cta.call} />
+
+<script is:inline slot="after">
+  // pills skroluju do kategorije
+  document.querySelectorAll('.zoo .pill').forEach((p) =>
+    p.addEventListener('click', () => {
+      const el = document.getElementById('cat-' + p.dataset.target);
+      if (!el) return;
+      const y = el.getBoundingClientRect().top + window.pageYOffset - 150;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }),
+  );
+</script>
+</Base>
