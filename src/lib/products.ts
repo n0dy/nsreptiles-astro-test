@@ -7,7 +7,7 @@ type ProductI18n = CollectionEntry<'productI18n'>;
 type CategoryText = { listing: string; crumb: string; schema: string; related: string };
 export const CATEGORIES = {
   terarijumi: { listing: '/terarijumi.html', crumb: 'Terarijumi', schema: 'Terarijumi', related: 'Slični terarijumi' },
-  akvarijumi: { listing: '/akvarijumi.html', crumb: 'Akvaristika', schema: 'Akvarijumi', related: 'Slični akvarijumi' },
+  akvarijumi: { listing: '/akvarijumi.html', crumb: 'Akvarijumi', schema: 'Akvarijumi', related: 'Slični akvarijumi' },
   oprema: { listing: '/oprema.html', crumb: 'Oprema', schema: 'Oprema', related: 'Slična oprema' },
 } as const;
 export type Category = keyof typeof CATEGORIES;

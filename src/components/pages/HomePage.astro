@@ -1,0 +1,283 @@
+---
+import Base from '../../layouts/Base.astro';
+import ProductCard from '../ProductCard.astro';
+import '../../styles/oprema.css';
+import { SITE, whatsappLink, type Locale } from '../../config/site';
+import { HOME } from '../../i18n/ui';
+import { localizePath, translationsFor } from '../../i18n/routes';
+import { getProducts } from '../../lib/products';
+import {
+  HOME_TEXT, REPTILES, GALLERY, KITS, SERVICES, WORK_PRODUCTS, CUSTOM, TESTIMONIALS, FAQ, INSTA_IMAGES,
+} from '../../i18n/pages/home';
+
+interface Props {
+  lang: Locale;
+}
+const { lang } = Astro.props;
+const t = HOME_TEXT[lang];
+const href = (srPath: string) => localizePath(srPath, lang);
+
+const products = await getProducts();
+const work = WORK_PRODUCTS.map((id) => {
+  const p = products.find((x) => x.id === id);
+  if (!p) throw new Error(`Home: proizvod ${id} ne postoji`);
+  return p;
+});
+
+const STATS = [1000, 300, 1000];
+const REVIEWS_URL = 'https://www.kupujemprodajem.com/boris/ocene/711335/1?userType=all&rate=positive';
+const pad = (i: number) => String(i + 1).padStart(2, '0');
+const path = HOME[lang];
+---
+<Base
+  lang={lang}
+  title={t.meta.title}
+  description={t.meta.description}
+  ogDescription={t.meta.ogDescription}
+  path={path}
+  image="/style/img/logo.jpg"
+  active="home"
+  translations={translationsFor(path)}
+>
+<link slot="head" rel="preload" as="image" href="/style/img/cover-sm.webp" media="(max-width: 768px)" fetchpriority="high" />
+<link slot="head" rel="preload" as="image" href="/style/img/cover-lg.webp" media="(min-width: 769px)" fetchpriority="high" />
+<section class="hero" id="hero">
+  <div class="hero-bg" id="heroBg">
+    <div class="slide active" style="--bg: url('/style/img/cover-lg.webp'); --bg-sm: url('/style/img/cover-sm.webp')"></div>
+    <div class="slide" style="--bg: url('/style/img/cover1-lg.webp'); --bg-sm: url('/style/img/cover1-sm.webp')"></div>
+    <div class="slide" style="--bg: url('/style/img/cover2-lg.webp'); --bg-sm: url('/style/img/cover2-sm.webp')"></div>
+    <div class="slide" style="--bg: url('/style/img/cover3-lg.webp'); --bg-sm: url('/style/img/cover3-sm.webp')"></div>
+  </div>
+  <div class="wrap">
+    <div class="hero-content">
+      <div class="pre">{t.hero.pre}</div>
+      <h1>{t.hero.title}</h1>
+      <p set:html={t.hero.text} />
+      <div style="display: flex; gap: 14px; flex-wrap: wrap">
+        <a href="#kompleti" class="btn btn-primary">{t.hero.cta}</a>
+        <a href={whatsappLink()} class="btn btn-light">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-dots">
+    <span class="active"></span><span></span><span></span><span></span>
+  </div>
+</section>
+
+<section class="section about">
+  <div class="wrap about-grid">
+    <div class="about-illu reveal">
+      <img loading="lazy" decoding="async" src="/style/img/gallery/4.jpg" alt={REPTILES[0].name[lang]} />
+    </div>
+    <div class="about-text reveal">
+      <h2 class="sec-title" set:html={t.about.title} />
+      <p class="lead">{t.about.lead}</p>
+      <div class="stats-row">
+        {STATS.map((n, i) => (
+          <div class="stat"><b data-count={n}>0</b><span>{t.about.stats[i]}</span></div>
+        ))}
+      </div>
+      <a href={href('/onama.html')} class="btn btn-outline">{t.about.more}</a>
+    </div>
+  </div>
+</section>
+
+<section class="section reptiles">
+  <div class="wrap">
+    <div class="rep-head reveal">
+      <div><h2 class="sec-title" set:html={t.reptilesTitle} /></div>
+      <div class="car-nav">
+        <button class="car-btn" data-car="rep" data-dir="-1" aria-label={t.testi.prev}>‹</button>
+        <button class="car-btn" data-car="rep" data-dir="1" aria-label={t.testi.next}>›</button>
+      </div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="car-track" id="repTrack">
+      {REPTILES.map((r, i) => (
+        <div class="rep-card">
+          <img loading="lazy" decoding="async" src={r.img} alt={r.name[lang]} />
+          <div class="rep-label">
+            <div class="num">{pad(i)}</div>
+            <div class="name">{r.name[lang]}</div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section class="bigtypo reveal">
+  <h2 set:html={t.bigtypo.title} />
+  <div class="sub">{t.bigtypo.sub}</div>
+</section>
+
+<section class="section gallery">
+  <div class="wrap">
+    <div class="gal-head reveal">
+      <div><h2 class="sec-title" set:html={t.gallery.title} /></div>
+      <a href={href('/galerija.html')} class="btn btn-outline">{t.gallery.all}</a>
+    </div>
+    <div class="gal-grid">
+      {GALLERY.map((g) => (
+        <div class={`gal-item${g.size ? ` gal-${g.size}` : ''}`} data-cat={g.cat}>
+          <img loading="lazy" decoding="async" src={g.img} alt={g.name[lang]} />
+          <div class="cap"><small>{g.cat === 'zmija' ? t.gallery.snake : t.gallery.lizard}</small><b>{g.name[lang]}</b></div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section class="section kompleti" id="kompleti">
+  <div class="wrap">
+    <div class="gal-head reveal">
+      <div><h2 class="sec-title" set:html={t.kits.title} /></div>
+      <a href={href('/kompleti.html')} class="btn btn-outline">{t.kits.all}</a>
+    </div>
+    <div class="kit-grid">
+      {KITS.map((k) => (
+        <article class="kit-card reveal">
+          <span class="kit-badge">{t.kits.badge}</span>
+          <a href={href(k.href)} class="kit-img">
+            <img loading="lazy" decoding="async" src={k.img} alt={k.name[lang]} />
+          </a>
+          <div class="kit-body">
+            <h3>{k.name[lang]}</h3>
+            <ul class="kit-incl">{k.incl[lang].map((x) => <li>{x}</li>)}</ul>
+            <div class="kit-price">{k.price} <span>{t.kits.currency}</span></div>
+            <a href={href(k.href)} class="btn btn-outline">{t.kits.more}</a>
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section class="section help">
+  <div class="wrap">
+    <div class="rep-head reveal">
+      <div><h2 class="sec-title" set:html={t.services.title} /></div>
+      <div class="car-nav">
+        <button class="car-btn" data-car="help" data-dir="-1" aria-label={t.testi.prev}>‹</button>
+        <button class="car-btn" data-car="help" data-dir="1" aria-label={t.testi.next}>›</button>
+      </div>
+    </div>
+  </div>
+  <div class="help-track" id="helpTrack">
+    {SERVICES.map((s) => (
+      <div class="help-card">
+        <img loading="lazy" decoding="async" src={s.img} alt="" />
+        <div class="help-info">
+          <small>{t.services.label}</small>
+          <h3>{s.title[lang]}</h3>
+          <p>{s.text[lang]}</p>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<section class="section events">
+  <div class="wrap">
+    <div class="gal-head reveal">
+      <div>
+        <h2 class="sec-title" set:html={t.work.title} />
+        <p style="color: var(--ink-soft); font-weight: 300; margin-top: 8px">{t.work.text}</p>
+      </div>
+      <a href={href('/galerija.html')} class="btn btn-outline">{t.work.all}</a>
+    </div>
+    <div class="best-grid">
+      {work.map((p) => <ProductCard product={p} lang={lang} />)}
+    </div>
+  </div>
+</section>
+
+{CUSTOM.map((c, i) => {
+  const image = (
+    <div class="img-wrap reveal">
+      <img loading="lazy" decoding="async" src={c.img} alt={c.imgAlt[lang]} />
+    </div>
+  );
+  return (
+    <section class="section izrada" style={i === 0 ? 'background: var(--white)' : undefined}>
+      <div class="wrap">
+        <div class="izrada-split">
+          {c.imgFirst && image}
+          <div class="reveal">
+            <h2 class="sec-title" set:html={c.title[lang]} />
+            <p style="color: var(--ink-soft); font-weight: 300; margin: 14px 0 0">{c.text[lang]}</p>
+            <ul class="izrada-feats">{c.feats[lang].map((f) => <li>{f}</li>)}</ul>
+            <div class="izrada-links">
+              <a href={href(c.href)} class="btn btn-primary">{t.custom.more}</a>
+              {c.links.map((l) => <a href={href(l.href)} class="ilink">{l.label[lang]}</a>)}
+            </div>
+          </div>
+          {!c.imgFirst && image}
+        </div>
+      </div>
+    </section>
+  );
+})}
+
+<section class="section testi">
+  <div class="wrap testi-layout">
+    <div class="testi-left reveal">
+      <h2 class="sec-title" set:html={t.testi.title} />
+      <div class="testi-rating">
+        <span class="stars">★★★★★</span> <b>5.0</b> · {t.testi.reviews}
+      </div>
+    </div>
+    <div class="testi-right reveal">
+      <div class="testi-slider">
+        <div class="testi-viewport">
+          <div class="testi-track" id="testiTrack">
+            {TESTIMONIALS.map((r) => (
+              <div class="testi-slide">
+                <div class="t-quote">”</div>
+                <p class="t-text">{r.text[lang]}</p>
+                <div class="t-foot">
+                  <span class="t-av">{r.author}</span>
+                  <div>
+                    <b>{r.item[lang]}</b><a href={REVIEWS_URL} target="_blank" rel="noopener">{t.testi.source}: kupujemprodajem</a>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div class="testi-controls">
+          <button class="testi-arrow prev" aria-label={t.testi.prev}>‹</button>
+          <div class="testi-dots" id="testiDots"></div>
+          <button class="testi-arrow next" aria-label={t.testi.next}>›</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section faq">
+  <div class="wrap">
+    <div class="section-head reveal" style="text-align: center; max-width: 640px; margin: 0 auto 46px">
+      <h2 class="sec-title" set:html={t.faqTitle} />
+    </div>
+    <div class="faq-list reveal">
+      {FAQ.map((f) => (
+        <div class="faq-item">
+          <button class="faq-q">{f.q[lang]}<span class="ic">+</span></button>
+          <div class="faq-a"><p>{f.a[lang]}</p></div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<div class="insta">
+  {INSTA_IMAGES.map((src) => (
+    <a href={SITE.social.instagram} target="_blank" rel="noopener" aria-label="Instagram NS Reptiles"><img loading="lazy" decoding="async" src={src} alt="" /><span class="insta-ic"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="2.5" y="2.5" width="19" height="19" rx="5.5"></rect>
+      <circle cx="12" cy="12" r="4.2"></circle>
+      <circle cx="17.6" cy="6.4" r="1.1" fill="currentColor" stroke="none"></circle></svg></span></a>
+  ))}
+</div>
+</Base>
