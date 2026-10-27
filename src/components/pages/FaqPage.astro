@@ -1,0 +1,90 @@
+---
+import Base from '../../layouts/Base.astro';
+import Zcta from '../Zcta.astro';
+import '../../styles/animals.css';
+import type { Locale } from '../../config/site';
+import { localizePath, translationsFor } from '../../i18n/routes';
+import { FAQ_PAGE, FAQ_CATS } from '../../i18n/pages/faq';
+
+interface Props {
+  lang: Locale;
+}
+const { lang } = Astro.props;
+const t = FAQ_PAGE[lang];
+const cats = FAQ_CATS[lang];
+const path = localizePath('/cesta-pitanja.html', lang);
+
+const plural = new Intl.PluralRules(lang);
+const count = (n: number) => `${n} ${t.count[plural.select(n)] ?? t.count.other}`;
+
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: cats.flatMap((c) =>
+      c.items.map(({ q, a }) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } }))
+    ),
+  },
+];
+---
+<Base
+  lang={lang}
+  {...t.meta}
+  path={path}
+  translations={translationsFor(path)}
+  schema={schema}
+>
+<section class="page-head">
+  <div class="wrap">
+    <h1>{t.h1}</h1>
+    <p>{t.lead}</p>
+  </div>
+</section>
+<section class="intro">
+  <div class="wrap">
+    <div class="intro-box">
+      <p set:html={t.intro(localizePath('/kontakt.html', lang))} />
+    </div>
+  </div>
+</section>
+<section class="faq-page">
+  <div class="wrap">
+    <div class="pills">
+      {cats.map((c) => <button class="pill" data-target={c.id}>{c.pill}</button>)}
+    </div>
+    {cats.map((c) => (
+      <div class="faq-cat" id={`cat-${c.id}`}>
+        <div class="cat-title">
+          <h2 set:html={c.title} />
+          <span class="count">{count(c.items.length)}</span><span class="line"></span>
+        </div>
+        <div class="faq-list">
+          {c.items.map(({ q, a }) => (
+            <div class="faq-item">
+              <button class="faq-q">{q}<span class="ic">+</span></button>
+              <div class="faq-a"><p>{a}</p></div>
+            </div>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+<Zcta title={t.cta.title} text={t.cta.text} callLabel={t.cta.call} />
+<style is:global>
+  .faq-cat { margin-bottom: 64px; }
+  .faq-cat:last-of-type { margin-bottom: 0; }
+  .faq-page { padding: 30px 0 100px; background: var(--bg); transition: background 0.4s; }
+</style>
+<script is:inline slot="after">
+  // pills scroll to category
+  document.querySelectorAll('.pill').forEach((p) =>
+    p.addEventListener('click', () => {
+      const el = document.getElementById('cat-' + p.dataset.target);
+      if (!el) return;
+      const y = el.getBoundingClientRect().top + window.pageYOffset - 150;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }),
+  );
+</script>
+</Base>
