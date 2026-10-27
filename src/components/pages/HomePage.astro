@@ -31,6 +31,20 @@ const STATS = [1000, 300, 1000];
 const REVIEWS_URL = 'https://www.kupujemprodajem.com/boris/ocene/711335/1?userType=all&rate=positive';
 const pad = (i: number) => String(i + 1).padStart(2, '0');
 const path = HOME[lang];
+
+// shortcut: samo grad, bez ulice i radnog vremena - dopuniti kad budu poznati
+const business = {
+  '@context': 'https://schema.org',
+  '@type': 'PetStore',
+  '@id': SITE.url + '/#business',
+  name: SITE.name,
+  url: SITE.url + '/',
+  telephone: SITE.phone,
+  email: SITE.email,
+  image: SITE.url + '/style/img/logo.jpg',
+  address: { '@type': 'PostalAddress', addressLocality: 'Novi Sad', addressCountry: 'RS' },
+  sameAs: Object.values(SITE.social),
+};
 ---
 <Base
   lang={lang}
@@ -41,6 +55,7 @@ const path = HOME[lang];
   image="/style/img/logo.jpg"
   active="home"
   translations={translationsFor(path)}
+  schema={[business]}
 >
 <link slot="head" rel="preload" as="image" href="/style/img/cover-sm.webp" media="(max-width: 768px)" fetchpriority="high" />
 <link slot="head" rel="preload" as="image" href="/style/img/cover-lg.webp" media="(min-width: 769px)" fetchpriority="high" />
@@ -77,7 +92,7 @@ const path = HOME[lang];
       <p class="lead">{t.about.lead}</p>
       <div class="stats-row">
         {STATS.map((n, i) => (
-          <div class="stat"><b data-count={n}>0</b><span>{t.about.stats[i]}</span></div>
+          <div class="stat"><b data-count={n}>{n.toLocaleString(lang)}+</b><span>{t.about.stats[i]}</span></div>
         ))}
       </div>
       <a href={href('/onama.html')} class="btn btn-outline">{t.about.more}</a>
