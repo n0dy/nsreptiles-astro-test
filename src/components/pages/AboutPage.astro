@@ -1,0 +1,92 @@
+---
+import Base from '../../layouts/Base.astro';
+import '../../styles/about.css';
+import { whatsappLink, type Locale } from '../../config/site';
+import { HOME } from '../../i18n/ui';
+import { localizePath, translationsFor } from '../../i18n/routes';
+import { ABOUT } from '../../i18n/pages/about';
+
+interface Props {
+  lang: Locale;
+}
+const { lang } = Astro.props;
+const t = ABOUT[lang];
+const path = localizePath('/onama.html', lang);
+
+const YEARS = ['2019', '2020', '2022', '2026'];
+const VALUES = [
+  { cls: 'tall', paths: ['M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z', 'M9 12l2 2 4-4'] },
+  { cls: 'wide', paths: ['M2 12l5-5 10 10-5 5z', 'M14 7l3-3 3 3-3 3', 'M7 17l-3 3'] },
+  { cls: 'accent', big: '1000+', paths: ['M20.8 4.6a5.5 5.5 0 00-7.8 0L12 5.6l-1-1a5.5 5.5 0 00-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 000-7.8z'] },
+  { cls: 'c04', paths: ['M21 11.5a8.4 8.4 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.4 8.4 0 01-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 01-.9-3.8 8.5 8.5 0 014.7-7.6A8.4 8.4 0 0112.5 3H13a8.5 8.5 0 018 8z'] },
+  { cls: 'c05', paths: ['M12 2l2.4 7.4H22l-6 4.6 2.3 7.4-6.3-4.6L5.7 21 8 14 2 9.4h7.6z'] },
+];
+---
+<Base lang={lang} {...t.meta} path={path} active="about" translations={translationsFor(path)}>
+<section class="about-hero">
+  <div class="wrap">
+    <h1 set:html={t.h1} />
+    <p>{t.lead}</p>
+  </div>
+</section>
+<section class="section story">
+  <div class="wrap story-grid">
+    <div class="story-illu reveal">
+      <img loading="lazy" decoding="async" src="/style/img/gallery/2.jpg" alt={t.imgAlt}>
+    </div>
+    <div class="story-text reveal">
+      <h2 set:html={t.storyTitle} />
+      <span class="tag">{t.storyTag}</span>
+      {t.story.map((p) => <p set:html={p} />)}
+    </div>
+  </div>
+</section>
+<section class="section tl">
+  <div class="wrap tl-head reveal">
+    <h2 class="sec-title" set:html={t.timelineTitle} />
+  </div>
+  <div class="wrap">
+    <div class="timeline">
+      {t.timeline.map((item, i) => (
+        <div class="tl-item reveal">
+          <div class="tl-year">{YEARS[i]}</div>
+          <h3>{item.title}</h3>
+          <p>{item.text}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+<section class="section values">
+  <div class="wrap values-head reveal">
+    <h2 class="sec-title" set:html={t.valuesTitle} />
+  </div>
+  <div class="wrap bento">
+    {t.values.map((v, i) => (
+      <div class={`vc ${VALUES[i].cls} reveal`}>
+        <span class="num">{String(i + 1).padStart(2, '0')}</span>
+        <div class="vc-ic">
+          <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            {VALUES[i].paths.map((d) => <path d={d}></path>)}
+          </svg>
+        </div>
+        <div class="vc-body">
+          {VALUES[i].big && <span class="big">{VALUES[i].big}</span>}
+          <h3>{v.title}</h3>
+          <p>{v.text}</p>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+<section class="cta">
+  <div class="wrap">
+    <h2 set:html={t.cta.title} />
+    <p>{t.cta.text}</p>
+    <div class="cta-btns">
+      <a href={HOME[lang]} class="btn" style="background: #fff; color: var(--green-dark)">{t.cta.browse}</a>
+      <a href={whatsappLink()} target="_blank" rel="noopener" class="btn btn-light">WhatsApp</a>
+    </div>
+  </div>
+</section>
+</Base>
