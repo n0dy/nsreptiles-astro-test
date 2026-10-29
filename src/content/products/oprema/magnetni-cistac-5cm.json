@@ -1,0 +1,49 @@
+{
+  "name": "Magnetni čistač stakla 5 cm",
+  "label": "Pribor",
+  "lead": "Magnetni čistač stakla za akvarijum, 5 cm - čisti alge sa unutrašnje strane bez kvašenja ruku.",
+  "image": "/style/img/oprema/akvarijum/magnetni-cistac-5cm.webp",
+  "imageAlt": "Magnetni čistač stakla 5 cm - NS Reptiles",
+  "price": 550,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Magnetni čistač stakla"
+    },
+    {
+      "k": "Veličina",
+      "v": "5 cm"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Unutrašnji deo čistača ide u vodu, a spoljašnjim ga vodite preko stakla. Brzo skida naslage algi i održava staklo providnim. Fotografija je ilustrativna."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Magnetni čistač stakla 5 cm | Akvarijum oprema - NS Reptiles",
+    "description": "Magnetni čistač stakla za akvarijum, 5 cm - čisti alge sa unutrašnje strane bez kvašenja ruku. NS Reptiles, Novi Sad.",
+    "keywords": "magnetni čistač, čistač stakla akvarijuma, magnet za akvarijum, NS Reptiles, Novi Sad"
+  },
+  "brand": false,
+  "usage": [
+    "akvarijum"
+  ]
+}

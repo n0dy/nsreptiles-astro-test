@@ -1,4 +1,5 @@
 ---
+import { twoTone } from '../../lib/two-tone';
 import Base from '../../layouts/Base.astro';
 import KitCard from '../KitCard.astro';
 import Zcta from '../Zcta.astro';
@@ -37,8 +38,7 @@ const schema = [
     '@type': 'Product',
     name: t.schemaName(name),
     description: d.schemaDescription[lang],
-    // zatecene vrednosti: relativna putanja slike ostaje kakva je bila
-    image: d.ogImage ? SITE.url + d.ogImage : '..' + kit.img,
+    image: SITE.url + image,
     brand: { '@type': 'Brand', name: SITE.name },
     offers: {
       '@type': 'Offer',
@@ -72,7 +72,7 @@ const schema = [
 >
 <section class="page-head">
   <div class="wrap">
-    <h1>{t.h1(name)}</h1>
+    <h1 set:html={twoTone(t.h1(name))} />
     <p>{t.lead}</p>
   </div>
 </section>

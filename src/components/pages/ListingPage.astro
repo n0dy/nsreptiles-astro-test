@@ -1,4 +1,5 @@
 ---
+import { twoTone } from '../../lib/two-tone';
 import Base from '../../layouts/Base.astro';
 import ProductCard from '../ProductCard.astro';
 import Zcta from '../Zcta.astro';
@@ -19,6 +20,7 @@ const l = LISTINGS[listing];
 const ui = LISTING_UI[lang];
 const href = (srPath: string) => localizePath(srPath, lang);
 const path = href(l.path);
+const heroImg = { terarijumi: '/style/img/izrada/terarijum.webp', akvarijumi: '/style/img/izrada/akvarijum.webp', oprema: '/style/img/oprema/scena.webp' }[listing];
 
 const groupOrder = l.groups.map((g) => g.key);
 const dims = (p: Product) => (p.id.match(/\d+/g) ?? []).map(Number);
@@ -33,14 +35,21 @@ const byGroupThenSize = (a: { p: Product; group: string }, b: { p: Product; grou
   return a.p.data.name.localeCompare(b.p.data.name);
 };
 
+const sections = 'sections' in l ? l.sections : [];
 const items = (await getProducts())
   .filter(l.includes)
   .map((p) => {
-    const group = l.groupOf(p);
-    if (!group || !groupOrder.includes(group)) throw new Error(`${listing}: proizvod ${p.id} nema filter grupu`);
-    return { p, group };
+    const secs = !sections.length ? [undefined] : 'sectionsOf' in l ? l.sectionsOf(p) : p.data.usage;
+    const groups = secs.map((s) => {
+      const g = l.groupOf(p, s);
+      if (!g || !groupOrder.includes(g)) throw new Error(`${listing}: proizvod ${p.id} nema filter grupu (${s ?? '-'})`);
+      return g;
+    });
+    return { p, group: groups[0], groups: groups.join(' '), section: sections.length ? secs.join(' ') : undefined };
   })
   .sort(byGroupThenSize);
+const sectionCount = (key: string) => items.filter((i) => i.section?.split(' ').includes(key)).length;
+const groupCount = (key: string) => items.filter((i) => i.groups.split(' ').includes(key)).length;
 
 const plural = new Intl.PluralRules(lang);
 const countText = (n: number) => `${n} ${ui.count[plural.select(n) as keyof typeof ui.count] ?? ui.count.other}`;
@@ -53,9 +62,9 @@ const countText = (n: number) => `${n} ${ui.count[plural.select(n) as keyof type
   active={l.active}
   translations={translationsFor(path)}
 >
-<section class="page-head">
+<section class="page-head" style={`--ph-img: url(${heroImg}); --ph-img-sm: url(${heroImg})`}>
   <div class="wrap">
-    <h1>{l.h1[lang]}</h1>
+    <h1 set:html={twoTone(l.h1[lang])} />
     <p>{l.lead[lang]}</p>
   </div>
 </section>
@@ -65,27 +74,70 @@ const countText = (n: number) => `${n} ${ui.count[plural.select(n) as keyof type
   </div>
 </section>
 <section class="op-shop">
-  <div class="wrap">
-    <div class="op-toolbar">
-      <div class="pills">
-        <button class="pill active" data-filter="all">{ui.all}</button>
-        {l.groups.map((g) => <button class="pill" data-filter={g.key}>{g.label[lang]}</button>)}
-        {'extraPill' in l && <a class="pill" href={href(l.extraPill.href)}>{l.extraPill.label[lang]}</a>}
-      </div>
+  <div class="wrap op-layout">
+    <aside class="op-side" aria-label={ui.filters}>
       <div class="op-search">
-        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
           <circle cx="11" cy="11" r="7"></circle>
           <path d="M21 21l-4.3-4.3"></path>
         </svg>
-        <input type="text" id="opSearch" placeholder={l.search[lang]} aria-label={l.search[lang]} />
+        <input type="search" id="opSearch" placeholder={l.search[lang]} aria-label={l.search[lang]} />
       </div>
-    </div>
-    <div class="op-count" id="opCount">{countText(items.length)}</div>
-    <div class="op-grid" id="opGrid">
-      {items.map(({ p, group }) => <ProductCard product={p} lang={lang} group={group} />)}
-    </div>
-    <div class="op-empty" id="opEmpty">
-      <p set:html={l.empty[lang].replace('{contact}', href('/kontakt.html'))} />
+      {sections.length > 0 && (
+        <div class="op-side-block">
+          <div class="op-side-title" id="opSecTitle">{ui.section}</div>
+          <div class="op-sections" role="group" aria-labelledby="opSecTitle">
+            <button class="op-sec active" data-section="all" aria-pressed="true">
+              {ui.all}<span class="op-n">{items.length}</span>
+            </button>
+            {sections.map((s) => (
+              <button class="op-sec" data-section={s.key} aria-pressed="false">
+                {s.label[lang]}<span class="op-n">{sectionCount(s.key)}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+      <div class="op-side-block" id="opGroupsBlock" hidden={sections.length > 0}>
+        <div class="op-side-title" id="opGroupTitle">{ui.category}</div>
+        <div class="op-groups" role="group" aria-labelledby="opGroupTitle">
+          <button class="op-group active" data-filter="all" aria-pressed="true">{ui.all}</button>
+          {l.groups.map((g) => (
+            <button class="op-group" data-filter={g.key} data-section={'section' in g ? g.section : undefined} aria-pressed="false">
+              {g.label[lang]}<span class="op-n">{groupCount(g.key)}</span>
+            </button>
+          ))}
+          {'extraPill' in l && (
+            <a class="op-group op-group-link" href={href(l.extraPill.href)} data-section={'section' in l.extraPill ? l.extraPill.section : undefined}>
+              {l.extraPill.label[lang]}<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+            </a>
+          )}
+        </div>
+      </div>
+    </aside>
+    <div class="op-main">
+      <div class="op-bar">
+        <div class="op-count" id="opCount" aria-live="polite">{countText(items.length)}</div>
+        <label class="op-sort" id="opSortWrap" data-dir="default">
+          <svg class="op-sort-ico" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path class="op-sort-bars" d="M3 6h10M3 12h7M3 18h4"></path>
+            <path class="op-sort-arrow" d="M18 5v14m-3.5-3.5L18 19l3.5-3.5"></path>
+          </svg>
+          <span class="op-sort-label">{ui.sort.label}</span>
+          <select id="opSort">
+            <option value="default">{ui.sort.default}</option>
+            <option value="asc">{ui.sort.asc}</option>
+            <option value="desc">{ui.sort.desc}</option>
+          </select>
+          <svg class="op-sort-chev" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg>
+        </label>
+      </div>
+      <div class="op-grid" id="opGrid">
+        {items.map(({ p, groups, section }) => <ProductCard product={p} lang={lang} group={groups} section={section} />)}
+      </div>
+      <div class="op-empty" id="opEmpty">
+        <p set:html={l.empty[lang].replace('{contact}', href('/kontakt.html'))} />
+      </div>
     </div>
   </div>
 </section>
@@ -104,19 +156,31 @@ const countText = (n: number) => `${n} ${ui.count[plural.select(n) as keyof type
 <Zcta title={l.cta.title[lang]} text={l.cta.text[lang]} callLabel={ui.call} />
 
 <script is:inline slot="after" define:vars={{ countForms: ui.count, lang }}>
-  // filter po grupi + pretraga
-  const opCards = [...document.querySelectorAll('.op-card')];
+  // filter po grani (akvarijum/terarijum) i grupi + pretraga + sortiranje po ceni
+  // izbor grane/grupe se cuva u hash-u (#akvarijum, #akv-filteri) da link moze da se podeli
+  const opGrid = document.getElementById('opGrid');
+  const opCards = [...opGrid.querySelectorAll('.op-card')];
   const opCount = document.getElementById('opCount');
   const opEmpty = document.getElementById('opEmpty');
   const opSearch = document.getElementById('opSearch');
+  const opSort = document.getElementById('opSort');
+  const groupsBlock = document.getElementById('opGroupsBlock');
+  const groupItems = [...groupsBlock.querySelectorAll('.op-group')];
+  const groupButtons = groupItems.filter((g) => g.dataset.filter);
+  const secButtons = [...document.querySelectorAll('.op-sec')];
   const plural = new Intl.PluralRules(lang);
+  const has = (list, v) => (list ?? '').split(' ').includes(v);
+  let opSec = 'all';
   let opCat = 'all';
 
   function opApply() {
     const q = opSearch.value.trim().toLowerCase();
     let n = 0;
     opCards.forEach((c) => {
-      const show = (opCat === 'all' || c.dataset.cat === opCat) && (!q || c.dataset.search.includes(q));
+      const show =
+        (opSec === 'all' || has(c.dataset.section, opSec)) &&
+        (opCat === 'all' || has(c.dataset.cat, opCat)) &&
+        (!q || c.dataset.search.includes(q));
       c.style.display = show ? '' : 'none';
       if (show) n++;
     });
@@ -124,14 +188,73 @@ const countText = (n: number) => `${n} ${ui.count[plural.select(n) as keyof type
     opEmpty.classList.toggle('show', n === 0);
   }
 
-  document.querySelectorAll('.op-toolbar .pill[data-filter]').forEach((p) =>
-    p.addEventListener('click', () => {
-      document.querySelectorAll('.op-toolbar .pill').forEach((x) => x.classList.remove('active'));
-      p.classList.add('active');
-      opCat = p.dataset.filter;
+  // cena 0 = "pozovite za cenu", uvek na kraju
+  function opSortCards() {
+    const dir = opSort.value;
+    opSort.parentElement.dataset.dir = dir;
+    const price = (c) => Number(c.dataset.price) || Infinity;
+    const sorted =
+      dir === 'default'
+        ? opCards
+        : [...opCards].sort((a, b) => {
+            const pa = price(a), pb = price(b);
+            if (pa === pb) return 0;
+            if (pa === Infinity) return 1;
+            if (pb === Infinity) return -1;
+            return dir === 'asc' ? pa - pb : pb - pa;
+          });
+    opGrid.append(...sorted);
+  }
+
+  const press = (el, on) => {
+    el.classList.toggle('active', on);
+    el.setAttribute('aria-pressed', String(on));
+  };
+
+  function setSection(key) {
+    opSec = key;
+    secButtons.forEach((b) => press(b, b.dataset.section === key));
+    groupItems.forEach((g) => (g.hidden = !!g.dataset.section && g.dataset.section !== key));
+    if (secButtons.length) groupsBlock.hidden = key === 'all';
+  }
+
+  function setGroup(key) {
+    opCat = key;
+    groupButtons.forEach((g) => press(g, g.dataset.filter === key));
+  }
+
+  function saveHash() {
+    const h = opCat !== 'all' ? opCat : opSec !== 'all' ? opSec : '';
+    history.replaceState(null, '', h ? '#' + h : location.pathname + location.search);
+  }
+
+  secButtons.forEach((b) =>
+    b.addEventListener('click', () => {
+      setSection(b.dataset.section);
+      setGroup('all');
+      saveHash();
+      opApply();
+    }),
+  );
+  groupButtons.forEach((g) =>
+    g.addEventListener('click', () => {
+      setGroup(g.dataset.filter);
+      saveHash();
       opApply();
     }),
   );
   opSearch.addEventListener('input', opApply);
+  opSort.addEventListener('change', opSortCards);
+
+  const initial = decodeURIComponent(location.hash.slice(1));
+  const initialGroup = groupButtons.find((g) => g.dataset.filter === initial && initial !== 'all');
+  if (secButtons.some((b) => b.dataset.section === initial)) setSection(initial);
+  else if (initialGroup) {
+    if (initialGroup.dataset.section) setSection(initialGroup.dataset.section);
+    setGroup(initial);
+  }
+  // browser moze da vrati vrednosti forme pri povratku na stranu
+  if (opSort.value !== 'default') opSortCards();
+  opApply();
 </script>
 </Base>

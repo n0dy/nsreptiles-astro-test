@@ -1,4 +1,5 @@
 ---
+import { twoTone } from '../../lib/two-tone';
 import Base from '../../layouts/Base.astro';
 import '../../styles/animals.css';
 import '../../styles/usluge.css';
@@ -52,9 +53,9 @@ const schema = [
   translations={translationsFor(path)}
   schema={schema}
 >
-<section class="page-head">
+<section class="page-head" style="--ph-img: url(/style/img/izrada/terarijum.webp); --ph-img-sm: url(/style/img/izrada/terarijum.webp)">
   <div class="wrap">
-    <h1>{t.h1}</h1>
+    <h1 set:html={twoTone(t.h1)} />
     <p>{t.lead}</p>
   </div>
 </section>
@@ -101,7 +102,7 @@ const schema = [
         <h2 set:html={t.ctaTitle} />
         <p>{t.ctaText}</p>
         <div class="zcta-btns">
-          <a href="https://wa.me/381693301474" target="_blank" rel="noopener" class="btn" style="background: #fff; color: var(--green-dark)">WhatsApp</a>
+          <a href="https://wa.me/381693301474" target="_blank" rel="noopener" class="btn btn-primary">WhatsApp</a>
           <a href="tel:+381693301474" class="btn btn-light">{t.call}</a>
         </div>
       </div>

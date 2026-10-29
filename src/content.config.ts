@@ -32,6 +32,8 @@ const products = defineCollection({
       ogDescription: z.string().optional(),
     }),
     brand: z.boolean().default(true),
+    /** za koju granu opreme je proizvod (filter na /oprema.html) */
+    usage: z.array(z.enum(['akvarijum', 'terarijum'])).min(1).default(['terarijum']),
     /** "kategorija/slug" drugih proizvoda */
     related: z.array(z.string()).default([]),
   }),

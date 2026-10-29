@@ -13,28 +13,35 @@ export const HOME_TEXT = {
         'Odgajivačnica egzotičnih ljubimaca i izrada terarijuma po meri u Novom Sadu. Zdrave jedinke, kvalitetna oprema, stručan savet.',
     },
     hero: {
-      pre: 'Odgajivačnica · Novi Sad',
-      title: 'Egzotične životinje',
-      text: 'NS Reptiles je <strong>odgajivačnica egzotičnih kućnih ljubimaca</strong> i radionica za <strong>izradu terarijuma i akvarijuma po meri</strong> - zdrave i pitome jedinke, kvalitetna oprema i stručan savet, sve na jednom mestu.',
-      cta: 'Pogledaj komplete',
+      pre: 'NS Reptiles',
+      title: ['Egzotične', 'životinje'],
+      text: 'Odgajivačnica egzotičnih ljubimaca i izrada terarijuma i akvarijuma po meri u Novom Sadu.',
+      cta: 'Pogledaj ponudu',
+      contact: 'Kontaktirajte nas',
+      features: ['Zdrave i pitome jedinke', 'Proverena oprema', 'Terarijumi i akvarijumi po meri', 'Stručan savet i podrška'],
     },
     about: {
       title: 'O <b>odgajivačnici</b>',
       lead: 'Već 10 godina selektivno uzgajamo zdrave egzotične ljubimce i ručno izrađujemo terarijume i akvarijume po meri. Bradate agame, leopard gekoni, loptasti pitoni, kukuruzni smukovi - i sva oprema koja im treba.',
+      badge: 'godina iskustva',
       stats: ['Zadovoljnih kupaca', 'Uzgojenih životinja', 'Izrađenih ter/akv'],
       more: 'Više o nama',
     },
     reptilesTitle: 'Naši <b>reptili</b>',
+    reptiles: {
+      lead: 'Upoznajte naše egzotične vrste. Od bradatih agama i leopard gekona do pitona i kukuruznih smukova – svaki ljubimac je pažljivo odgajen i zdrav.',
+      all: 'Pogledaj sve reptile',
+    },
     bigtypo: { title: 'Najbolji <b>terarijum</b>', sub: 'u celom svetu egzotike' },
     gallery: { title: 'Galerija <b>životinja</b>', all: 'Pogledaj celu galeriju', lizard: 'Gušter', snake: 'Zmija' },
     kits: { title: 'Kompleti za <b>početnike</b>', all: 'Svi kompleti' },
-    services: { title: 'Šta sve <b>radimo</b>', label: 'Usluga' },
+    services: { title: 'Šta sve <b>radimo</b>' },
     work: {
       title: 'Naši <b>radovi</b>',
       text: 'Pogledajte neke od terarijuma i akvarijuma koje smo izradili.',
       all: 'Pogledaj sve',
     },
-    custom: { more: 'Saznaj više' },
+    custom: { title: 'Izrada <b>po meri</b>', more: 'Saznaj više' },
     testi: { title: 'Šta kažu <b>kupci</b>', reviews: '364 pozitivne ocene', source: 'izvor', prev: 'Prethodna', next: 'Sledeća' },
     faqTitle: 'Sve što te <b>zanima</b>',
   },
@@ -47,28 +54,35 @@ export const HOME_TEXT = {
         'Exotic pet breeding facility and custom terrarium workshop in Novi Sad. Healthy animals, quality equipment, expert advice.',
     },
     hero: {
-      pre: 'Breeding Facility · Novi Sad',
-      title: 'Exotic Animals',
-      text: 'NS Reptiles is an <strong>exotic pet breeding facility</strong> and workshop for <strong>custom terrarium and aquarium construction</strong> - healthy and tame animals, quality equipment and expert advice, all in one place.',
-      cta: 'View Kits',
+      pre: 'NS Reptiles',
+      title: ['Exotic', 'animals'],
+      text: 'Exotic pet breeding and custom-built terrariums and aquariums in Novi Sad.',
+      cta: 'View offer',
+      contact: 'Contact us',
+      features: ['Healthy, tame animals', 'Trusted equipment', 'Custom terrariums & aquariums', 'Expert advice & support'],
     },
     about: {
       title: 'About the <b>Breeding Facility</b>',
       lead: 'For over 10 years, we have been selectively breeding healthy exotic pets and handcrafting custom terrariums and aquariums. Bearded dragons, leopard geckos, ball pythons, corn snakes - and all the equipment they need.',
+      badge: 'years of experience',
       stats: ['Happy Customers', 'Animals Bred', 'Terrariums/Aquariums Built'],
       more: 'More About Us',
     },
     reptilesTitle: 'Our <b>Reptiles</b>',
+    reptiles: {
+      lead: 'Meet our exotic species. From bearded dragons and leopard geckos to pythons and corn snakes – every pet is carefully bred and healthy.',
+      all: 'View all reptiles',
+    },
     bigtypo: { title: 'The Best <b>Terrarium</b>', sub: 'in the entire world of exotics' },
     gallery: { title: 'Animal <b>Gallery</b>', all: 'View Full Gallery', lizard: 'Lizard', snake: 'Snake' },
     kits: { title: 'Starter <b>Kits</b>', all: 'All Kits' },
-    services: { title: 'What We <b>Do</b>', label: 'Service' },
+    services: { title: 'What We <b>Do</b>' },
     work: {
       title: 'Our <b>Work</b>',
       text: 'Take a look at some of the terrariums and aquariums we have built.',
       all: 'View All',
     },
-    custom: { more: 'Learn More' },
+    custom: { title: 'Built <b>to Order</b>', more: 'Learn More' },
     testi: { title: 'What Our <b>Customers</b> Say', reviews: '364 positive reviews', source: 'source', prev: 'Previous', next: 'Next' },
     faqTitle: 'Everything You <b>Want to Know</b>',
   },
@@ -81,28 +95,35 @@ export const HOME_TEXT = {
         'Питомник экзотических животных и изготовление террариумов на заказ в Нови Саде. Здоровые особи, качественное оборудование, профессиональные консультации.',
     },
     hero: {
-      pre: 'Питомник · Нови Сад',
-      title: 'Экзотические животные',
-      text: 'NS Reptiles - это <strong>питомник экзотических домашних животных</strong> и мастерская по <strong>изготовлению террариумов и аквариумов на заказ</strong> - здоровые и ручные особи, качественное оборудование и профессиональные консультации, всё в одном месте.',
-      cta: 'Смотреть комплекты',
+      pre: 'NS Reptiles',
+      title: ['Экзотические', 'животные'],
+      text: 'Питомник экзотических животных, террариумы и аквариумы на заказ в Нови-Саде.',
+      cta: 'Смотреть предложение',
+      contact: 'Связаться с нами',
+      features: ['Здоровые и ручные особи', 'Проверенное оборудование', 'Террариумы и аквариумы на заказ', 'Экспертный совет и поддержка'],
     },
     about: {
       title: 'О <b>питомнике</b>',
       lead: 'Уже 10 лет мы занимаемся селективным разведением здоровых экзотических питомцев и вручную изготавливаем террариумы и аквариумы на заказ. Бородатые агамы, леопардовые гекконы, шаровидные питоны, маисовые полозы - и всё необходимое оборудование.',
+      badge: 'лет опыта',
       stats: ['Довольных клиентов', 'Выращенных животных', 'Изготовленных тер/акв'],
       more: 'Подробнее о нас',
     },
     reptilesTitle: 'Наши <b>рептилии</b>',
+    reptiles: {
+      lead: 'Познакомьтесь с нашими экзотическими видами. От бородатых агам и леопардовых гекконов до питонов и маисовых полозов – каждый питомец тщательно выращен и здоров.',
+      all: 'Все рептилии',
+    },
     bigtypo: { title: 'Лучший <b>террариум</b>', sub: 'во всём мире экзотики' },
     gallery: { title: 'Галерея <b>животных</b>', all: 'Смотреть всю галерею', lizard: 'Ящерица', snake: 'Змея' },
     kits: { title: 'Комплекты для <b>начинающих</b>', all: 'Все комплекты' },
-    services: { title: 'Что мы <b>делаем</b>', label: 'Услуга' },
+    services: { title: 'Что мы <b>делаем</b>' },
     work: {
       title: 'Наши <b>работы</b>',
       text: 'Посмотрите некоторые террариумы и аквариумы, которые мы изготовили.',
       all: 'Смотреть все',
     },
-    custom: { more: 'Узнать больше' },
+    custom: { title: 'Изготовление <b>на заказ</b>', more: 'Узнать больше' },
     testi: { title: 'Что говорят <b>клиенты</b>', reviews: '364 положительных оценки', source: 'источник', prev: 'Предыдущий', next: 'Следующий' },
     faqTitle: 'Всё, что вас <b>интересует</b>',
   },
@@ -117,26 +138,20 @@ const SPECIES = {
 } satisfies Record<string, L>;
 
 export const REPTILES: { img: string; name: L }[] = [
-  { img: '/style/img/gallery/2.jpg', name: SPECIES.bradata },
-  { img: '/style/img/gallery/1.jpg', name: SPECIES.piton },
-  { img: '/style/img/gallery/3.jpg', name: SPECIES.leopard },
-  { img: '/style/img/gallery/9.jpg', name: SPECIES.smuk },
-  { img: '/style/img/gallery/13.jpg', name: SPECIES.vodena },
-  { img: '/style/img/gallery/7.jpg', name: { sr: 'Piton', en: 'Python', ru: 'Питон' } },
-  { img: '/style/img/gallery/10.jpg', name: { sr: 'Gekon', en: 'Gecko', ru: 'Геккон' } },
+  { img: '/style/img/reptili/bradata.webp', name: SPECIES.bradata },
+  { img: '/style/img/reptili/piton.webp', name: SPECIES.piton },
+  { img: '/style/img/reptili/leopard.webp', name: SPECIES.leopard },
+  { img: '/style/img/reptili/smuk.webp', name: SPECIES.smuk },
+  { img: '/style/img/reptili/vodena.webp', name: SPECIES.vodena },
 ];
 
 export const GALLERY: { img: string; cat: 'guster' | 'zmija'; size?: 'tall' | 'big' | 'wide'; name: L }[] = [
-  { img: '/style/img/gallery/2.jpg', cat: 'guster', size: 'tall', name: SPECIES.bradata },
+  { img: '/style/img/gallery/11.jpg', cat: 'guster', size: 'tall', name: SPECIES.bradata },
   { img: '/style/img/gallery/14.jpg', cat: 'guster', name: SPECIES.leopard },
-  { img: '/style/img/gallery/13.jpg', cat: 'guster', size: 'big', name: SPECIES.vodena },
-  { img: '/style/img/gallery/3.jpg', cat: 'guster', name: SPECIES.leopard },
-  { img: '/style/img/gallery/1.jpg', cat: 'zmija', name: SPECIES.piton },
-  { img: '/style/img/gallery/9.jpg', cat: 'zmija', size: 'wide', name: SPECIES.smuk },
-  { img: '/style/img/gallery/7.jpg', cat: 'zmija', size: 'tall', name: SPECIES.piton },
-  { img: '/style/img/gallery/6.jpg', cat: 'guster', name: SPECIES.bradata },
+  { img: '/style/img/gallery/5.jpg', cat: 'zmija', size: 'wide', name: SPECIES.piton },
   { img: '/style/img/gallery/10.jpg', cat: 'guster', name: SPECIES.leopard },
-  { img: '/style/img/gallery/8.jpg', cat: 'guster', name: SPECIES.bradata },
+  { img: '/style/img/gallery/12.jpg', cat: 'zmija', name: SPECIES.piton },
+  { img: '/style/img/gallery/6.jpg', cat: 'guster', name: SPECIES.bradata },
 ];
 
 export const SERVICES: { img: string; title: L; text: L }[] = [
@@ -198,7 +213,6 @@ export const WORK_PRODUCTS = [
 
 interface CustomBlock {
   img: string;
-  imgFirst: boolean;
   href: string;
   links: { href: string; label: L }[];
   imgAlt: L;
@@ -212,8 +226,7 @@ const REPAIR = { href: '/popravka-akvarijuma-terarijuma.html', label: { sr: 'Pop
 
 export const CUSTOM: CustomBlock[] = [
   {
-    img: '/style/img/terrariums/120x40x50.webp',
-    imgFirst: true,
+    img: '/style/img/izrada/terarijum.webp',
     href: '/izrada-terarijuma.html',
     links: [
       { href: '/terarijumi.html', label: { sr: 'Gotovi terarijumi', en: 'Ready-made Terrariums', ru: 'Готовые террариумы' } },
@@ -260,8 +273,7 @@ export const CUSTOM: CustomBlock[] = [
     },
   },
   {
-    img: '/style/img/aquariums/a120x40x40.webp',
-    imgFirst: false,
+    img: '/style/img/izrada/akvarijum.webp',
     href: '/izrada-akvarijuma.html',
     links: [
       { href: '/akvarijumi.html', label: { sr: 'Gotovi akvarijumi', en: 'Ready-made Aquariums', ru: 'Готовые аквариумы' } },

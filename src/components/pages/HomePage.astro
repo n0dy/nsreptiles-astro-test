@@ -5,7 +5,7 @@ import Faq from '../Faq.astro';
 import KitCard from '../KitCard.astro';
 import { KITS } from '../../i18n/kits';
 import '../../styles/oprema.css';
-import { SITE, whatsappLink, type Locale } from '../../config/site';
+import { SITE, type Locale } from '../../config/site';
 import { HOME } from '../../i18n/ui';
 import { localizePath, translationsFor } from '../../i18n/routes';
 import { getProducts } from '../../lib/products';
@@ -28,6 +28,26 @@ const work = WORK_PRODUCTS.map((id) => {
 });
 
 const STATS = [1000, 300, 1000];
+
+// pos = fokus slike (background-position) da zivotinja ne bude ispod teksta
+const HERO_SLIDES = [
+  { lg: '/style/img/hero/kameleoni-lg.webp', sm: '/style/img/hero/kameleoni-sm.webp', pos: '70% center' },
+  { lg: '/style/img/hero/agama-lg.webp', sm: '/style/img/hero/agama-sm.webp', pos: '70% center' },
+  { lg: '/style/img/hero/iguana-lg.webp', sm: '/style/img/hero/iguana-sm.webp', pos: '80% center' },
+  { lg: '/style/img/hero/piton-lg.webp', sm: '/style/img/hero/piton-sm.webp', pos: '60% center' },
+  { lg: '/style/img/hero/zmija-lg.webp', sm: '/style/img/hero/zmija-sm.webp', pos: '65% center' },
+];
+const svg = (paths: string) =>
+  `<svg viewBox="0 0 24 24" width="38" height="38" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths}</svg>`;
+const FEATURE_ICONS = [
+  svg('<path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>'),
+  svg('<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/>'),
+  svg('<path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>'),
+  svg('<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>'),
+];
+const CHEV_L = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"></path></svg>';
+const CHEV_R = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"></path></svg>';
+const ARROW = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
 const REVIEWS_URL = 'https://www.kupujemprodajem.com/boris/ocene/711335/1?userType=all&rate=positive';
 const pad = (i: number) => String(i + 1).padStart(2, '0');
 const path = HOME[lang];
@@ -57,35 +77,46 @@ const business = {
   translations={translationsFor(path)}
   schema={[business]}
 >
-<link slot="head" rel="preload" as="image" href="/style/img/cover-sm.webp" media="(max-width: 768px)" fetchpriority="high" />
-<link slot="head" rel="preload" as="image" href="/style/img/cover-lg.webp" media="(min-width: 769px)" fetchpriority="high" />
+<link slot="head" rel="preload" as="image" href={HERO_SLIDES[0].sm} media="(max-width: 768px)" fetchpriority="high" />
+<link slot="head" rel="preload" as="image" href={HERO_SLIDES[0].lg} media="(min-width: 769px)" fetchpriority="high" />
 <section class="hero" id="hero">
   <div class="hero-bg" id="heroBg">
-    <div class="slide active" style="--bg: url('/style/img/cover-lg.webp'); --bg-sm: url('/style/img/cover-sm.webp')"></div>
-    <div class="slide" style="--bg: url('/style/img/cover1-lg.webp'); --bg-sm: url('/style/img/cover1-sm.webp')"></div>
-    <div class="slide" style="--bg: url('/style/img/cover2-lg.webp'); --bg-sm: url('/style/img/cover2-sm.webp')"></div>
-    <div class="slide" style="--bg: url('/style/img/cover3-lg.webp'); --bg-sm: url('/style/img/cover3-sm.webp')"></div>
+    {HERO_SLIDES.map((sl, i) => (
+      <div class:list={['slide', i === 0 && 'active']} style={`--bg: url('${sl.lg}'); --bg-sm: url('${sl.sm}'); --pos: ${sl.pos}`}></div>
+    ))}
   </div>
-  <div class="wrap">
+  <button class="hero-arrow hero-prev" data-dir="-1" aria-label={t.testi.prev}>
+    <Fragment set:html={CHEV_L} />
+  </button>
+  <button class="hero-arrow hero-next" data-dir="1" aria-label={t.testi.next}>
+    <Fragment set:html={CHEV_R} />
+  </button>
+  <div class="wrap hero-inner">
     <div class="hero-content">
       <div class="pre">{t.hero.pre}</div>
-      <h1>{t.hero.title}</h1>
-      <p set:html={t.hero.text} />
-      <div style="display: flex; gap: 14px; flex-wrap: wrap">
-        <a href="#kompleti" class="btn btn-primary">{t.hero.cta}</a>
-        <a href={whatsappLink()} class="btn btn-light">WhatsApp</a>
+      <h1>{t.hero.title[0]} <span>{t.hero.title[1]}</span></h1>
+      <p>{t.hero.text}</p>
+      <div class="hero-ctas">
+        <a href="#hero" class="btn btn-primary">{t.hero.cta}<Fragment set:html={ARROW} /></a>
+        <a href={href('/kontakt.html')} class="btn btn-light">{t.hero.contact}<Fragment set:html={ARROW} /></a>
       </div>
     </div>
-  </div>
-  <div class="hero-dots">
-    <span class="active"></span><span></span><span></span><span></span>
+    <div class="hero-dots" role="group">
+      {HERO_SLIDES.map((_, i) => <button class:list={[i === 0 && 'active']} aria-label={`${i + 1} / ${HERO_SLIDES.length}`}></button>)}
+    </div>
+    <ul class="hero-features">
+      {t.hero.features.map((f, i) => (
+        <li><Fragment set:html={FEATURE_ICONS[i]} /><span>{f}</span></li>
+      ))}
+    </ul>
   </div>
 </section>
 
 <section class="section about">
   <div class="wrap about-grid">
     <div class="about-illu reveal">
-      <img loading="lazy" decoding="async" src="/style/img/gallery/4.jpg" alt={REPTILES[0].name[lang]} />
+      <img loading="lazy" decoding="async" src="/style/img/about-agama.webp" width="1100" height="1100" alt={REPTILES[0].name[lang]} />
+      <div class="about-badge"><b>10+</b><span>{t.about.badge}</span></div>
     </div>
     <div class="about-text reveal">
       <h2 class="sec-title" set:html={t.about.title} />
@@ -95,7 +126,7 @@ const business = {
           <div class="stat"><b data-count={n}>{n.toLocaleString(lang)}+</b><span>{t.about.stats[i]}</span></div>
         ))}
       </div>
-      <a href={href('/onama.html')} class="btn btn-outline">{t.about.more}</a>
+      <a href={href('/onama.html')} class="btn btn-outline">{t.about.more}<Fragment set:html={ARROW} /></a>
     </div>
   </div>
 </section>
@@ -103,25 +134,34 @@ const business = {
 <section class="section reptiles">
   <div class="wrap">
     <div class="rep-head reveal">
-      <div><h2 class="sec-title" set:html={t.reptilesTitle} /></div>
+      <div>
+        <h2 class="sec-title" set:html={t.reptilesTitle} />
+        <p class="rep-lead">{t.reptiles.lead}</p>
+      </div>
       <div class="car-nav">
-        <button class="car-btn" data-car="rep" data-dir="-1" aria-label={t.testi.prev}>‹</button>
-        <button class="car-btn" data-car="rep" data-dir="1" aria-label={t.testi.next}>›</button>
+        <button class="car-btn" data-car="rep" data-dir="-1" aria-label={t.testi.prev}><Fragment set:html={CHEV_L} /></button>
+        <button class="car-btn" data-car="rep" data-dir="1" aria-label={t.testi.next}><Fragment set:html={CHEV_R} /></button>
       </div>
     </div>
   </div>
   <div class="wrap">
-    <div class="car-track" id="repTrack">
-      {REPTILES.map((r, i) => (
-        <div class="rep-card">
-          <img loading="lazy" decoding="async" src={r.img} alt={r.name[lang]} />
-          <div class="rep-label">
+  <div class="car-track rep-track" id="repTrack">
+    {REPTILES.map((r, i) => (
+      <a class="rep-card" href={href('/zivotinje.html')}>
+        <img loading="lazy" decoding="async" src={r.img} alt={r.name[lang]} />
+        <div class="rep-label">
+          <div>
             <div class="num">{pad(i)}</div>
             <div class="name">{r.name[lang]}</div>
           </div>
+          <span class="rep-go" aria-hidden="true"><Fragment set:html={ARROW} /></span>
         </div>
-      ))}
-    </div>
+      </a>
+    ))}
+  </div>
+  </div>
+  <div class="rep-cta">
+    <a href={href('/zivotinje.html')} class="btn btn-outline">{t.reptiles.all}<Fragment set:html={ARROW} /></a>
   </div>
 </section>
 
@@ -130,11 +170,11 @@ const business = {
   <div class="sub">{t.bigtypo.sub}</div>
 </section>
 
-<section class="section gallery">
+<section class="section gallery gallery-dark">
   <div class="wrap">
     <div class="gal-head reveal">
       <div><h2 class="sec-title" set:html={t.gallery.title} /></div>
-      <a href={href('/galerija.html')} class="btn btn-outline">{t.gallery.all}</a>
+      <a href={href('/galerija.html')} class="btn btn-light">{t.gallery.all}<Fragment set:html={ARROW} /></a>
     </div>
     <div class="gal-grid">
       {GALLERY.map((g) => (
@@ -151,7 +191,7 @@ const business = {
   <div class="wrap">
     <div class="gal-head reveal">
       <div><h2 class="sec-title" set:html={t.kits.title} /></div>
-      <a href={href('/kompleti.html')} class="btn btn-outline">{t.kits.all}</a>
+      <a href={href('/kompleti.html')} class="btn btn-outline">{t.kits.all}<Fragment set:html={ARROW} /></a>
     </div>
     <div class="kit-grid">
       {KITS.map((k) => <KitCard kit={k} lang={lang} />)}
@@ -164,8 +204,8 @@ const business = {
     <div class="rep-head reveal">
       <div><h2 class="sec-title" set:html={t.services.title} /></div>
       <div class="car-nav">
-        <button class="car-btn" data-car="help" data-dir="-1" aria-label={t.testi.prev}>‹</button>
-        <button class="car-btn" data-car="help" data-dir="1" aria-label={t.testi.next}>›</button>
+        <button class="car-btn" data-car="help" data-dir="-1" aria-label={t.testi.prev}><Fragment set:html={CHEV_L} /></button>
+        <button class="car-btn" data-car="help" data-dir="1" aria-label={t.testi.next}><Fragment set:html={CHEV_R} /></button>
       </div>
     </div>
   </div>
@@ -174,7 +214,6 @@ const business = {
       <div class="help-card">
         <img loading="lazy" decoding="async" src={s.img} alt="" />
         <div class="help-info">
-          <small>{t.services.label}</small>
           <h3>{s.title[lang]}</h3>
           <p>{s.text[lang]}</p>
         </div>
@@ -190,7 +229,7 @@ const business = {
         <h2 class="sec-title" set:html={t.work.title} />
         <p style="color: var(--ink-soft); font-weight: 300; margin-top: 8px">{t.work.text}</p>
       </div>
-      <a href={href('/galerija.html')} class="btn btn-outline">{t.work.all}</a>
+      <a href={href('/galerija.html')} class="btn btn-outline">{t.work.all}<Fragment set:html={ARROW} /></a>
     </div>
     <div class="best-grid">
       {work.map((p) => <ProductCard product={p} lang={lang} />)}
@@ -198,32 +237,27 @@ const business = {
   </div>
 </section>
 
-{CUSTOM.map((c, i) => {
-  const image = (
-    <div class="img-wrap reveal">
-      <img loading="lazy" decoding="async" src={c.img} alt={c.imgAlt[lang]} />
-    </div>
-  );
-  return (
-    <section class="section izrada" style={i === 0 ? 'background: var(--white)' : undefined}>
-      <div class="wrap">
-        <div class="izrada-split">
-          {c.imgFirst && image}
-          <div class="reveal">
-            <h2 class="sec-title" set:html={c.title[lang]} />
-            <p style="color: var(--ink-soft); font-weight: 300; margin: 14px 0 0">{c.text[lang]}</p>
-            <ul class="izrada-feats">{c.feats[lang].map((f) => <li>{f}</li>)}</ul>
+<section class="section izrada">
+  <div class="wrap">
+    <div class="sec-head reveal"><h2 class="sec-title" set:html={t.custom.title} /></div>
+    <div class="izrada-grid">
+      {CUSTOM.map((c) => (
+        <article class="izrada-card reveal">
+          <div class="izrada-img"><img loading="lazy" decoding="async" src={c.img} alt={c.imgAlt[lang]} /></div>
+          <div class="izrada-body">
+            <h2 set:html={c.title[lang]} />
+            <p>{c.text[lang]}</p>
+            <ul class="izrada-feats">{c.feats[lang].slice(0, 3).map((f) => <li>{f}</li>)}</ul>
+            <a href={href(c.href)} class="btn btn-primary">{t.custom.more}<Fragment set:html={ARROW} /></a>
             <div class="izrada-links">
-              <a href={href(c.href)} class="btn btn-primary">{t.custom.more}</a>
               {c.links.map((l) => <a href={href(l.href)} class="ilink">{l.label[lang]}</a>)}
             </div>
           </div>
-          {!c.imgFirst && image}
-        </div>
-      </div>
-    </section>
-  );
-})}
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
 
 <section class="section testi">
   <div class="wrap testi-layout">
@@ -252,9 +286,9 @@ const business = {
           </div>
         </div>
         <div class="testi-controls">
-          <button class="testi-arrow prev" aria-label={t.testi.prev}>‹</button>
+          <button class="testi-arrow prev" aria-label={t.testi.prev}><Fragment set:html={CHEV_L} /></button>
           <div class="testi-dots" id="testiDots"></div>
-          <button class="testi-arrow next" aria-label={t.testi.next}>›</button>
+          <button class="testi-arrow next" aria-label={t.testi.next}><Fragment set:html={CHEV_R} /></button>
         </div>
       </div>
     </div>

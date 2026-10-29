@@ -11,10 +11,10 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 8px;
-  font-family: 'Oswald Variable', sans-serif;
+  font-family: 'Poppins', 'Jost Variable', sans-serif;
   font-weight: 500;
   font-size: 0.75rem;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--ink-soft);
   margin-bottom: 30px;
@@ -47,7 +47,8 @@
   top: 24px;
   align-self: start;
   background: var(--white);
-  border: 1px solid var(--silver);
+  border-radius: 12px;
+  box-shadow: var(--card-shadow);
   padding: 26px;
   transition:
     background 0.4s,
@@ -106,6 +107,8 @@ body.dark .pd-media {
   gap: 1px;
   background: var(--silver);
   border: 1px solid var(--silver);
+  border-radius: 8px;
+  overflow: hidden;
 }
 .pd-spec {
   display: flex;
@@ -119,10 +122,10 @@ body.dark .pd-spec {
   background: var(--dark-2);
 }
 .pd-spec-k {
-  font-family: 'Oswald Variable', sans-serif;
+  font-family: 'Poppins', 'Jost Variable', sans-serif;
   font-weight: 500;
   font-size: 0.75rem;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--ink-soft);
 }
@@ -138,15 +141,16 @@ body.dark .pd-spec {
   display: flex;
   align-items: baseline;
   gap: 12px;
-  padding: 18px 22px;
-  background: var(--dark);
+  padding: 20px 24px;
+  background: var(--night);
+  border-radius: 10px;
   margin-bottom: 22px;
 }
 .pd-price-k {
-  font-family: 'Oswald Variable', sans-serif;
-  font-weight: 500;
-  font-size: 0.75rem;
-  letter-spacing: 0.16em;
+  font-family: 'Poppins', 'Jost Variable', sans-serif;
+  font-weight: 400;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--green-light);
 }
@@ -226,9 +230,6 @@ body.dark .pd-spec {
 .pd-related {
   padding: 0 0 20px;
   background: var(--bg);
-}
-.pd-related .sec-head {
-  margin-bottom: 30px;
 }
 
 /* ===== RESPONSIVE ===== */

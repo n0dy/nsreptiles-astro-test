@@ -1,4 +1,5 @@
 ---
+import { twoTone } from '../../lib/two-tone';
 import Base from '../../layouts/Base.astro';
 import type { Locale } from '../../config/site';
 import { localizePath, translationsFor } from '../../i18n/routes';
@@ -20,9 +21,9 @@ const path = localizePath('/3d.html', lang);
   floatContact={false}
   translations={translationsFor(path)}
 >
-<section class="page-head">
+<section class="page-head" style="--ph-img: url(/style/img/izrada/terarijum.webp); --ph-img-sm: url(/style/img/izrada/terarijum.webp)">
       <div class="wrap">
-        <h1>{t.h1}</h1>
+        <h1 set:html={twoTone(t.h1)} />
         <p>{t.lead}</p>
       </div>
     </section>
@@ -232,7 +233,7 @@ const path = localizePath('/3d.html', lang);
         padding: 16px 32px;
         border-radius: 10px;
         width: max-content;
-        font-family: "Jost", sans-serif;
+        font-family: 'Poppins', 'Jost Variable', sans-serif;
       }
 
       /* Panel */
@@ -340,7 +341,7 @@ const path = localizePath('/3d.html', lang);
 
       .door-control input[type="range"]::-webkit-slider-thumb:active {
         transform: scale(1.15);
-        box-shadow: 0 2px 8px rgba(74, 165, 132, 0.3);
+        box-shadow: 0 2px 8px rgba(15, 143, 99, 0.3);
       }
 
       .door-control input[type="range"]::-moz-range-track {
@@ -586,12 +587,12 @@ const path = localizePath('/3d.html', lang);
         background: var(--green-btn);
         color: #fff;
         border: none;
-        box-shadow: 0 2px 8px rgba(74, 165, 132, 0.35);
+        box-shadow: 0 2px 8px rgba(15, 143, 99, 0.35);
       }
 
       #ar-button:hover {
         transform: scale(1.1);
-        box-shadow: 0 3px 12px rgba(74, 165, 132, 0.5);
+        box-shadow: 0 3px 12px rgba(15, 143, 99, 0.5);
       }
 
       #ar-button.hidden {
@@ -644,7 +645,7 @@ const path = localizePath('/3d.html', lang);
       #lid-button.open {
         background: var(--green-btn);
         color: #fff;
-        box-shadow: 0 2px 8px rgba(74, 165, 132, 0.35);
+        box-shadow: 0 2px 8px rgba(15, 143, 99, 0.35);
       }
 
       #lid-button svg {

@@ -1,7 +1,7 @@
 ---
 import type { Locale } from '../config/site';
 import { NAV, type NavKey } from '../i18n/nav';
-import { HOME } from '../i18n/ui';
+import { HOME, UI } from '../i18n/ui';
 
 interface Props {
   lang: Locale;
@@ -31,6 +31,11 @@ const chev = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-
       </ul>
     </nav>
     <div class="nav-tools">
+      <!-- shortcut: korpa jos ne vodi nigde, dok ne postoji prodavnica -->
+      <button type="button" class="nav-cart" aria-label={UI[lang].cart}>
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="20" r="1.4"></circle><circle cx="18" cy="20" r="1.4"></circle><path d="M2 3h3l2.7 12.4a1.8 1.8 0 0 0 1.8 1.4h8.7a1.8 1.8 0 0 0 1.8-1.4L22 7H6"></path></svg>
+        <span class="nav-cart-n">0</span>
+      </button>
       <a href={n.contact.href} class="nav-tickets">{n.contact.label}</a>
       <button class="burger" aria-label={n.menu} aria-controls="mobileMenu" aria-expanded="false">
         <span></span><span></span><span></span>

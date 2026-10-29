@@ -104,14 +104,13 @@ export const SHIPPING: Record<Locale, {
         },
       },
     },
-    // "Izrada terarijuma/akvarijuma" na SR vode na kataloske strane - zateceno stanje, ne menjamo URL-ove
     links: [
       { href: '/kontakt.html', label: 'Kontakt' },
       { href: '/terarijumi.html', label: 'Terarijumi' },
       { href: '/akvarijumi.html', label: 'Akvarijumi' },
       { href: '/oprema.html', label: 'Oprema' },
-      { href: '/terarijumi.html', label: 'Izrada terarijuma' },
-      { href: '/akvarijumi.html', label: 'Izrada akvarijuma' },
+      { href: '/izrada-terarijuma.html', label: 'Izrada terarijuma' },
+      { href: '/izrada-akvarijuma.html', label: 'Izrada akvarijuma' },
     ],
   },
   en: {
@@ -157,7 +156,7 @@ export const SHIPPING: Record<Locale, {
     links: [
       { href: '/kontakt.html', label: 'Contact' },
       { href: '/terarijumi.html', label: 'Terrariums' },
-      { href: '/akvarijumi.html', label: 'Aquatics' },
+      { href: '/akvarijumi.html', label: 'Aquariums' },
       { href: '/oprema.html', label: 'Equipment' },
       { href: '/izrada-terarijuma.html', label: 'Custom Terrariums' },
       { href: '/izrada-akvarijuma.html', label: 'Custom Aquariums' },

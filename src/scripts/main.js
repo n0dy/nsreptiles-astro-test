@@ -343,10 +343,20 @@ window.hsSubmit = hsSubmit;
   });
 })();
 
+// nav postaje pun kad hero izadje iz ekrana
+(function () {
+  const hero = document.querySelector('.hero, .page-head');
+  const nav = document.querySelector('.nav');
+  if (!hero || !nav) return;
+  new IntersectionObserver(([e]) => nav.classList.toggle('nav-solid', !e.isIntersecting), {
+    rootMargin: '-80px 0px 0px 0px',
+  }).observe(hero);
+})();
+
 // hero slider
 (function () {
   const slides = document.querySelectorAll('#heroBg .slide');
-  const dots = document.querySelectorAll('.hero-dots span');
+  const dots = document.querySelectorAll('.hero-dots button');
   if (!slides.length) return;
   const loadRest = () => document.getElementById('heroBg').classList.add('ready');
   if (document.readyState === 'complete') loadRest();
@@ -356,17 +366,22 @@ window.hsSubmit = hsSubmit;
   function show(n) {
     idx = (n + slides.length) % slides.length;
     slides.forEach((s, i) => s.classList.toggle('active', i === idx));
-    dots.forEach((d, i) => d.classList.toggle('active', i === idx));
+    dots.forEach((d, i) => {
+      d.classList.toggle('active', i === idx);
+      d.classList.toggle('done', i < idx);
+      d.setAttribute('aria-current', i === idx ? 'true' : 'false');
+    });
   }
   function restart() {
     clearInterval(timer);
     if (!reduceMotion) timer = setInterval(() => show(idx + 1), 5000);
   }
-  dots.forEach((d, i) =>
-    d.addEventListener('click', () => {
-      show(i);
-      restart();
-    })
-  );
+  const go = (n) => {
+    show(n);
+    restart();
+  };
+  dots.forEach((d, i) => d.addEventListener('click', () => go(i)));
+  document.querySelectorAll('.hero-arrow').forEach((b) => b.addEventListener('click', () => go(idx + Number(b.dataset.dir))));
+  show(0);
   restart();
 })();

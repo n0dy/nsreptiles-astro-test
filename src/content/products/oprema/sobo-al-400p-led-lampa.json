@@ -1,0 +1,57 @@
+{
+  "name": "SOBO AL-400P LED lampa",
+  "label": "Rasveta",
+  "lead": "SOBO AL-400P LED lampa za akvarijume dužine 40-50 cm.",
+  "image": "/style/img/oprema/akvarijum/sobo-al-400p-led-lampa.webp",
+  "imageAlt": "SOBO AL-400P LED lampa - NS Reptiles",
+  "price": 2450,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "LED lampa za akvarijum"
+    },
+    {
+      "k": "Proizvođač",
+      "v": "SOBO"
+    },
+    {
+      "k": "Za akvarijume",
+      "v": "40-50 cm"
+    },
+    {
+      "k": "Snaga",
+      "v": "12 W"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "LED lampa koja se postavlja na ivice akvarijuma. Daje jasno, ravnomerno svetlo uz malu potrošnju i malo zagrevanje vode."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "SOBO AL-400P LED lampa | Akvarijum oprema - NS Reptiles",
+    "description": "SOBO AL-400P LED lampa za akvarijume dužine 40-50 cm. NS Reptiles, Novi Sad.",
+    "keywords": "sobo al-400p, led lampa za akvarijum, rasveta za akvarijum, NS Reptiles, Novi Sad"
+  },
+  "brand": false,
+  "usage": [
+    "akvarijum"
+  ]
+}

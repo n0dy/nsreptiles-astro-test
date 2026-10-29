@@ -5,15 +5,18 @@ import { whatsappLink, type Locale } from '../../config/site';
 import { HOME } from '../../i18n/ui';
 import { localizePath, translationsFor } from '../../i18n/routes';
 import { ABOUT } from '../../i18n/pages/about';
+import { HOME_TEXT } from '../../i18n/pages/home';
 
 interface Props {
   lang: Locale;
 }
 const { lang } = Astro.props;
 const t = ABOUT[lang];
+const h = HOME_TEXT[lang];
 const path = localizePath('/onama.html', lang);
 
 const YEARS = ['2019', '2020', '2022', '2026'];
+const STATS = [1000, 300, 1000];
 const VALUES = [
   { cls: 'tall', paths: ['M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z', 'M9 12l2 2 4-4'] },
   { cls: 'wide', paths: ['M2 12l5-5 10 10-5 5z', 'M14 7l3-3 3 3-3 3', 'M7 17l-3 3'] },
@@ -23,21 +26,27 @@ const VALUES = [
 ];
 ---
 <Base lang={lang} {...t.meta} path={path} active="about" translations={translationsFor(path)}>
-<section class="about-hero">
+<section class="page-head" style="--ph-img: url(/style/img/hero/zmija-lg.webp); --ph-img-sm: url(/style/img/hero/zmija-sm.webp)">
   <div class="wrap">
     <h1 set:html={t.h1} />
     <p>{t.lead}</p>
   </div>
 </section>
-<section class="section story">
-  <div class="wrap story-grid">
-    <div class="story-illu reveal">
-      <img loading="lazy" decoding="async" src="/style/img/gallery/2.jpg" alt={t.imgAlt}>
+<section class="section about story">
+  <div class="wrap about-grid">
+    <div class="about-illu reveal">
+      <img loading="lazy" decoding="async" src="/style/img/gallery/2.jpg" width="1100" height="1100" alt={t.imgAlt}>
+      <div class="about-badge"><b>2019</b><span>{t.since}</span></div>
     </div>
-    <div class="story-text reveal">
-      <h2 set:html={t.storyTitle} />
+    <div class="about-text reveal">
+      <h2 class="sec-title" set:html={t.storyTitle} />
       <span class="tag">{t.storyTag}</span>
       {t.story.map((p) => <p set:html={p} />)}
+      <div class="stats-row">
+        {STATS.map((n, i) => (
+          <div class="stat"><b data-count={n}>{n.toLocaleString(lang)}+</b><span>{h.about.stats[i]}</span></div>
+        ))}
+      </div>
     </div>
   </div>
 </section>
@@ -46,15 +55,15 @@ const VALUES = [
     <h2 class="sec-title" set:html={t.timelineTitle} />
   </div>
   <div class="wrap">
-    <div class="timeline">
+    <ol class="timeline">
       {t.timeline.map((item, i) => (
-        <div class="tl-item reveal">
+        <li class="tl-item reveal">
           <div class="tl-year">{YEARS[i]}</div>
           <h3>{item.title}</h3>
           <p>{item.text}</p>
-        </div>
+        </li>
       ))}
-    </div>
+    </ol>
   </div>
 </section>
 <section class="section values">
@@ -64,7 +73,6 @@ const VALUES = [
   <div class="wrap bento">
     {t.values.map((v, i) => (
       <div class={`vc ${VALUES[i].cls} reveal`}>
-        <span class="num">{String(i + 1).padStart(2, '0')}</span>
         <div class="vc-ic">
           <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
             {VALUES[i].paths.map((d) => <path d={d}></path>)}
@@ -79,12 +87,12 @@ const VALUES = [
     ))}
   </div>
 </section>
-<section class="cta">
+<section class="zcta">
   <div class="wrap">
     <h2 set:html={t.cta.title} />
     <p>{t.cta.text}</p>
-    <div class="cta-btns">
-      <a href={HOME[lang]} class="btn" style="background: #fff; color: var(--green-dark)">{t.cta.browse}</a>
+    <div class="zcta-btns">
+      <a href={HOME[lang]} class="btn btn-primary">{t.cta.browse}</a>
       <a href={whatsappLink()} target="_blank" rel="noopener" class="btn btn-light">WhatsApp</a>
     </div>
   </div>

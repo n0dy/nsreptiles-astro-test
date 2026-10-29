@@ -56,10 +56,10 @@
   max-width: 56ch;
 }
 .ks-incl-title {
-  font-family: 'Oswald Variable', sans-serif;
+  font-family: 'Poppins', 'Jost Variable', sans-serif;
   font-weight: 600;
   font-size: 0.85rem;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   margin: 30px 0 14px;
 }
@@ -131,10 +131,10 @@
   transform: translateY(-6px);
 }
 .ks-perk-num {
-  font-family: 'Oswald Variable', sans-serif;
+  font-family: 'Poppins', 'Jost Variable', sans-serif;
   font-weight: 600;
   font-size: 0.8rem;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.06em;
   color: var(--green-ink);
 }
 .ks-perk h3 {

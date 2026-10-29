@@ -255,7 +255,7 @@ export const KIT_DETAILS: Record<string, KitDetail> = {
       ru: 'Идеальное начало знакомства с миром пауков — в наличии около 10 видов тарантулов, а набор включает террариум с 3D-фоном и субстрат. Он занимает мало места, прост в уходе и всегда интересен для наблюдения.',
     },
     incl: {
-      sr: ['Terarijum 11×15×20 sa 3D pozadinom', 'Kokosov treset', 'Oko 10 vrsta u ponudi', 'Idealan za prvi pauk'],
+      sr: ['Terarijum 11×15×20 sa 3D pozadinom', 'Kokosov treset', 'Oko 10 vrsta u ponudi', 'Idealan za prvog pauka'],
       en: ['11×15×20 terrarium with 3D background', 'Coconut peat', 'About 10 species available', 'Ideal for a first spider'],
       ru: ['Террариум 11×15×20 с 3D-фоном', 'Кокосовый субстрат', 'Около 10 видов в наличии', 'Идеален для первого паука'],
     },

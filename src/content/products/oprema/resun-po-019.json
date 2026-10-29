@@ -1,0 +1,53 @@
+{
+  "name": "Resun PO-019 dekoracija amfora",
+  "label": "Dekoracija",
+  "lead": "Resun PO-019 - dekoracija u obliku antičke amfore, 10,5 x 7,5 x 11 cm.",
+  "image": "/style/img/oprema/akvarijum/resun-po-019.webp",
+  "imageAlt": "Resun PO-019 dekoracija amfora - NS Reptiles",
+  "price": 1250,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija od poliresina"
+    },
+    {
+      "k": "Proizvođač",
+      "v": "Resun"
+    },
+    {
+      "k": "Dimenzije",
+      "v": "10,5 x 7,5 x 11 cm"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Dekoracija od poliresina, bezbedna za akvarijum - ne menja parametre vode. Amfora je omiljeno skrovište za manje ribe i račiće."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Resun PO-019 dekoracija amfora | Akvarijum oprema - NS Reptiles",
+    "description": "Resun PO-019 - dekoracija u obliku antičke amfore, 10,5 x 7,5 x 11 cm. NS Reptiles, Novi Sad.",
+    "keywords": "resun po-019, amfora, dekoracija za akvarijum, NS Reptiles, Novi Sad"
+  },
+  "brand": false,
+  "usage": [
+    "akvarijum"
+  ]
+}

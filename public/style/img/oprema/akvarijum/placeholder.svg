@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <g fill="none" stroke="#4aa584" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M175 215h250v170a20 20 0 0 1-20 20H195a20 20 0 0 1-20-20z"/>
+    <path d="M175 265c40-18 80 18 125 0s85-18 125 0" opacity=".55"/>
+    <path d="M330 330c18-22 48-22 66 0-18 22-48 22-66 0zm66 0 18-14v28z"/>
+    <path d="M225 405v-60m0 0c-12-14-12-28 0-42m0 42c12-14 12-28 0-42" opacity=".55"/>
+  </g>
+  <circle cx="260" cy="300" r="7" fill="#4aa584" opacity=".55"/>
+  <circle cx="282" cy="276" r="5" fill="#4aa584" opacity=".55"/>
+  <text x="300" y="470" text-anchor="middle" font-family="Oswald, 'Arial Narrow', sans-serif" font-size="22" font-weight="600" letter-spacing="5" fill="#9aa0a0">NS REPTILES</text>
+</svg>

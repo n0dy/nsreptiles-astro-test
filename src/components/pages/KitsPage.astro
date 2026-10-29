@@ -1,4 +1,5 @@
 ---
+import { twoTone } from '../../lib/two-tone';
 import Base from '../../layouts/Base.astro';
 import KitCard from '../KitCard.astro';
 import Zcta from '../Zcta.astro';
@@ -48,9 +49,9 @@ const schema = [
   translations={translationsFor(path)}
   schema={schema}
 >
-<section class="page-head">
+<section class="page-head" style="--ph-img: url(/style/img/hero/piton-lg.webp); --ph-img-sm: url(/style/img/hero/piton-sm.webp)">
   <div class="wrap">
-    <h1>{t.h1}</h1>
+    <h1 set:html={twoTone(t.h1)} />
     <p>{t.lead}</p>
   </div>
 </section>

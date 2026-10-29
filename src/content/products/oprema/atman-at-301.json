@@ -1,0 +1,53 @@
+{
+  "name": "Atman AT-301 potapajuća pumpa",
+  "label": "Pumpe",
+  "lead": "Atman AT-301 potapajuća pumpa protoka 230 l/h - za cirkulaciju vode u akvarijumu, fontane i filtere.",
+  "image": "/style/img/oprema/akvarijum/atman-at-301.webp",
+  "imageAlt": "Atman AT-301 potapajuća pumpa - NS Reptiles",
+  "price": 1400,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Potapajuća pumpa za vodu"
+    },
+    {
+      "k": "Proizvođač",
+      "v": "Atman"
+    },
+    {
+      "k": "Protok",
+      "v": "230 l/h"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Atman AT-301 je kompaktna potapajuća pumpa za vodu. Koristi se za cirkulaciju vode u akvarijumu, kao pogon za filtere i dekorativne fontane, ili za prepumpavanje vode pri održavanju. Montira se na staklo vakuum-držačima."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Atman AT-301 potapajuća pumpa | Akvarijum oprema - NS Reptiles",
+    "description": "Atman AT-301 potapajuća pumpa protoka 230 l/h - za cirkulaciju vode u akvarijumu, fontane i filtere. NS Reptiles, Novi Sad.",
+    "keywords": "atman at-301, pumpa za akvarijum, potapajuća pumpa, NS Reptiles, Novi Sad"
+  },
+  "brand": false,
+  "usage": [
+    "akvarijum"
+  ]
+}

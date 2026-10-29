@@ -1,0 +1,45 @@
+{
+  "name": "Termometar za akvarijum (žuti)",
+  "label": "Termometri",
+  "lead": "Termometar za akvarijum - za praćenje temperature vode.",
+  "image": "/style/img/oprema/akvarijum/placeholder.svg",
+  "imageAlt": "Termometar za akvarijum (žuti) - NS Reptiles",
+  "price": 230,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Termometar za akvarijum"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Jednostavan termometar za praćenje temperature vode. Fotografija ovog modela još nije dostupna na sajtu - pozovite nas za detalje."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Termometar za akvarijum (žuti) | Akvarijum oprema - NS Reptiles",
+    "description": "Termometar za akvarijum - za praćenje temperature vode. NS Reptiles, Novi Sad.",
+    "keywords": "termometar za akvarijum, NS Reptiles, Novi Sad"
+  },
+  "brand": false,
+  "usage": [
+    "akvarijum"
+  ]
+}

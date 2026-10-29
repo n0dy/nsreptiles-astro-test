@@ -1,4 +1,5 @@
 ---
+import { twoTone } from '../../lib/two-tone';
 import Base from '../../layouts/Base.astro';
 import { SITE, whatsappLink, type Locale } from '../../config/site';
 import { localizePath, translationsFor } from '../../i18n/routes';
@@ -39,9 +40,9 @@ const CARD_ICONS = [
 ];
 ---
 <Base lang={lang} {...t.meta} path={path} translations={translationsFor(path)}>
-<section class="page-head">
+<section class="page-head" style="--ph-img: url(/style/img/hero/zmija-lg.webp); --ph-img-sm: url(/style/img/hero/zmija-sm.webp)">
   <div class="wrap">
-    <h1>{t.h1}</h1>
+    <h1 set:html={twoTone(t.h1)} />
     <p>{t.lead}</p>
   </div>
 </section>
@@ -146,7 +147,7 @@ const CARD_ICONS = [
   .sec-lead{text-align:center;max-width:600px;margin:0 auto 44px;color:var(--ink-soft)}
 
   .dcard-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-bottom:20px}
-  .dcard{position:relative;background:var(--white);border:1px solid var(--silver);padding:30px 28px;transition:background .4s,border-color .4s}
+  .dcard{position:relative;background:var(--white);border-radius:12px;box-shadow:var(--card-shadow);padding:30px 28px;transition:background .4s,border-color .4s}
   .dcard .ic{position:absolute;top:22px;right:22px;color:var(--green-ink);display:flex;align-items:center;justify-content:center}
   .dcard h3{font-size:1.12rem;text-transform:uppercase;margin-bottom:14px}
   .drow{display:flex;justify-content:space-between;gap:14px;padding:11px 0;border-bottom:1px solid var(--bg);font-size:.94rem}
@@ -156,13 +157,13 @@ const CARD_ICONS = [
   .dcard p{color:var(--ink-soft);font-size:.95rem}
 
   .methods{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-bottom:20px}
-  .method{position:relative;display:flex;gap:16px;background:var(--white);border:1px solid var(--silver);padding:24px 60px 24px 26px;transition:background .4s,border-color .4s}
+  .method{position:relative;display:flex;gap:16px;background:var(--white);border-radius:12px;box-shadow:var(--card-shadow);padding:24px 60px 24px 26px;transition:background .4s,border-color .4s}
   .method .ic{position:absolute;top:20px;right:20px;color:var(--green-ink);display:flex;align-items:center;justify-content:center}
   .method h4{font-size:1rem;text-transform:uppercase;margin-bottom:5px}
   .method p{color:var(--ink-soft);font-size:.92rem}
 
   .dbanner{display:grid;grid-template-columns:1.3fr 1fr;gap:20px;margin-bottom:20px}
-  .price-card{background:var(--white);border:1px solid var(--silver);padding:30px 28px;transition:background .4s,border-color .4s}
+  .price-card{background:var(--white);border-radius:12px;box-shadow:var(--card-shadow);padding:30px 28px;transition:background .4s,border-color .4s}
   .price-card h3{font-size:1.12rem;text-transform:uppercase;margin-bottom:12px}
   .price-card p{color:var(--ink-soft);font-size:.95rem;margin-bottom:10px}
   .price-tag{display:inline-flex;align-items:baseline;gap:8px;margin-top:6px}
@@ -173,7 +174,7 @@ const CARD_ICONS = [
   .del-note-card h3{color:#fff;text-transform:uppercase;font-size:1.1rem;margin-bottom:8px}
   .del-note-card p{color:rgba(255,255,255,.92);font-size:.95rem}
 
-  .dcta{background:var(--white);border:1px solid var(--silver);padding:36px 32px;text-align:center;transition:background .4s,border-color .4s}
+  .dcta{background:var(--white);border-radius:12px;box-shadow:var(--card-shadow);padding:36px 32px;text-align:center;transition:background .4s,border-color .4s}
   .dcta h3{font-size:1.4rem;text-transform:uppercase;margin-bottom:8px}
   .dcta p{color:var(--ink-soft);margin-bottom:22px;max-width:520px;margin-left:auto;margin-right:auto}
   .dcta-btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}

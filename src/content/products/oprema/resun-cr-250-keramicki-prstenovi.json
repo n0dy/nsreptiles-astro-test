@@ -1,0 +1,53 @@
+{
+  "name": "Resun CR-250 keramički prstenovi 250 g",
+  "label": "Filterski medij",
+  "lead": "Resun CR-250 keramički prstenovi, 250 g - biološki medij za filtere.",
+  "image": "/style/img/oprema/akvarijum/resun-cr-250-keramicki-prstenovi.webp",
+  "imageAlt": "Resun CR-250 keramički prstenovi 250 g - NS Reptiles",
+  "price": 450,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Biološki filterski medij"
+    },
+    {
+      "k": "Proizvođač",
+      "v": "Resun"
+    },
+    {
+      "k": "Pakovanje",
+      "v": "250 g"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Porozni keramički prstenovi pružaju veliku površinu na kojoj se naseljavaju korisne bakterije koje razgrađuju amonijak i nitrite. Stavljaju se u filter iza sunđera i ne menjaju se, već se samo povremeno isperu u akvarijumskoj vodi."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Resun CR-250 keramički prstenovi 250 g | NS Reptiles",
+    "description": "Resun CR-250 keramički prstenovi, 250 g - biološki medij za filtere. NS Reptiles, Novi Sad.",
+    "keywords": "keramički prstenovi, resun cr-250, filterski medij, NS Reptiles, Novi Sad"
+  },
+  "brand": false,
+  "usage": [
+    "akvarijum"
+  ]
+}

@@ -13,6 +13,7 @@ export const ABOUT: Record<Locale, {
   imgAlt: string;
   storyTitle: string;
   storyTag: string;
+  since: string;
   story: string[];
   timelineTitle: string;
   /** godine su u komponenti */
@@ -34,6 +35,7 @@ export const ABOUT: Record<Locale, {
     lead: 'Već 10 godina pomažemo ljubiteljima egzotičnih životinja u Novom Sadu i širom Srbije da svojim ljubimcima pruže najbolji mogući dom.',
     imgAlt: 'Bradata agama - NS Reptiles',
     storyTitle: 'Strast koja je<br>prerasla u posao',
+    since: 'osnovani u Novom Sadu',
     storyTag: '„Sve je počelo iz ljubavi prema reptilima."',
     story: [
       '<strong>NS Reptiles</strong> je odgajivačnica egzotičnih životinja osnovana <strong>2019. godine</strong> u Novom Sadu, nakon mnogo godina ličnog hobija - držanja i uzgoja reptila. Ono što je počelo kao strast prema bradatim agamama i gekonima vremenom je preraslo u ozbiljan posao i zajednicu ljudi koji dele istu ljubav.',
@@ -100,6 +102,7 @@ export const ABOUT: Record<Locale, {
     lead: "For over five years, we've been helping exotic animal lovers in Novi Sad and across Serbia provide the best possible home for their pets.",
     imgAlt: 'Bearded dragon - NS Reptiles',
     storyTitle: 'A passion that<br>grew into a business',
+    since: 'founded in Novi Sad',
     storyTag: '"It all started from a love for reptiles."',
     story: [
       '<strong>NS Reptiles</strong> is an exotic animal breeder founded in <strong>2019</strong> in Novi Sad, after many years of personal hobby - keeping and breeding reptiles. What started as a passion for bearded dragons and geckos gradually grew into a serious business and a community of people who share the same love.',
@@ -166,6 +169,7 @@ export const ABOUT: Record<Locale, {
     lead: 'Уже более пяти лет мы помогаем любителям экзотических животных в Нови Саде и по всей Сербии обеспечить своим питомцам лучший возможный дом.',
     imgAlt: 'Бородатая агама - NS Reptiles',
     storyTitle: 'Увлечение, которое<br>переросло в бизнес',
+    since: 'основаны в Нови-Саде',
     storyTag: '«Всё началось с любви к рептилиям.»',
     story: [
       '<strong>NS Reptiles</strong> - это питомник экзотических животных, основанный в <strong>2019 году</strong> в Нови Саде, после многих лет личного увлечения - содержания и разведения рептилий. То, что началось как страсть к бородатым агамам и гекконам, со временем переросло в серьёзный бизнес и сообщество людей, разделяющих ту же любовь.',

@@ -1,4 +1,5 @@
 ---
+import { twoTone } from '../../lib/two-tone';
 import { getEntry } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import ProductCard from '../ProductCard.astro';
@@ -98,9 +99,10 @@ const h3Style = "font-family:'Oswald Variable',sans-serif;text-transform:upperca
   translations={translationsFor(path)}
   schema={schema}
 >
-<section class="page-head">
+<section class="page-head" style="--ph-img: none; --ph-img-sm: none">
+  <img class="ph-img ph-contain" src={photo} alt={d.photoAlt} width={photoSize[0]} height={photoSize[1]} fetchpriority="high" />
   <div class="wrap">
-    <h1>{d.name}</h1>
+    <h1 set:html={twoTone(d.name)} />
     <p>{d.lead}</p>
   </div>
 </section>
@@ -113,11 +115,6 @@ const h3Style = "font-family:'Oswald Variable',sans-serif;text-transform:upperca
       <span class="sep" aria-hidden="true">›</span>
       <span class="cur" aria-current="page">{d.name}</span>
     </nav>
-  </div>
-</section>
-<section class="animal-photo" style="background: var(--bg); padding: 24px 0 0; line-height: 0;">
-  <div class="wrap">
-    <img src={photo} alt={d.photoAlt} loading="eager" width={photoSize[0]} height={photoSize[1]} style="width: 100%; height: auto; display: block; max-height: 520px; object-fit: cover;">
   </div>
 </section>
 <section class="intro">
@@ -169,7 +166,7 @@ const h3Style = "font-family:'Oswald Variable',sans-serif;text-transform:upperca
   <section class="pd-related section">
     <div class="wrap">
       <div class="sec-head reveal">
-        <h2 class="sec-title">{UI.related}</h2>
+        <h2 class="sec-title" set:html={twoTone(UI.related)} />
       </div>
       <div class="op-grid">
         {relatedProducts.map((p) => <ProductCard product={p} lang={lang} catLabel={UI.cat} />)}
@@ -181,7 +178,7 @@ const h3Style = "font-family:'Oswald Variable',sans-serif;text-transform:upperca
   <section class="faq section">
     <div class="wrap">
       <div class="sec-head reveal">
-        <h2 class="sec-title">{d.faq.title}</h2>
+        <h2 class="sec-title" set:html={twoTone(d.faq.title)} />
       </div>
       <div class="faq-list">
         {d.faq.items.map((f) => (

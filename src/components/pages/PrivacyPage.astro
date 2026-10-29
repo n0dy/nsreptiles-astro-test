@@ -1,4 +1,5 @@
 ---
+import { twoTone } from '../../lib/two-tone';
 import Base from '../../layouts/Base.astro';
 import '../../styles/privacy.css';
 import { SITE, type Locale } from '../../config/site';
@@ -16,7 +17,7 @@ const last = t.sections.length - 1;
 <Base lang={lang} {...t.meta} path={path} translations={translationsFor(path)}>
 <section class="page-head">
   <div class="wrap">
-    <h1>{t.h1}</h1>
+    <h1 set:html={twoTone(t.h1)} />
     <p>{t.lead}</p>
   </div>
 </section>

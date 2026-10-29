@@ -1,0 +1,49 @@
+{
+  "name": "Raspršivač vazduha LY-18, 20 cm",
+  "label": "Aeracija",
+  "lead": "Raspršivač vazduha za akvarijum dužine 20 cm - sitni mehurići za bolju oksigenaciju vode.",
+  "image": "/style/img/oprema/akvarijum/rasprsivac-ly-18-20cm.webp",
+  "imageAlt": "Raspršivač vazduha LY-18, 20 cm - NS Reptiles",
+  "price": 400,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Raspršivač vazduha"
+    },
+    {
+      "k": "Dužina",
+      "v": "20 cm"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Raspršivač se crevom povezuje na vazdušnu pumpu i razbija vazduh u sitne mehuriće, čime se povećava količina kiseonika u vodi i pokreće površina. Fotografija je ilustrativna."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Raspršivač vazduha LY-18, 20 cm | Akvarijum oprema - NS Reptiles",
+    "description": "Raspršivač vazduha za akvarijum dužine 20 cm - sitni mehurići za bolju oksigenaciju vode. NS Reptiles, Novi Sad.",
+    "keywords": "raspršivač vazduha, aeracija akvarijuma, vazdušni kamen, NS Reptiles, Novi Sad"
+  },
+  "brand": false,
+  "usage": [
+    "akvarijum"
+  ]
+}

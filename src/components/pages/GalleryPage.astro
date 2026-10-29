@@ -1,4 +1,5 @@
 ---
+import { twoTone } from '../../lib/two-tone';
 import Base from '../../layouts/Base.astro';
 import type { Locale } from '../../config/site';
 import { localizePath, translationsFor } from '../../i18n/routes';
@@ -19,9 +20,9 @@ const path = localizePath('/galerija.html', lang);
   bodyClass="gallery-page"
   translations={translationsFor(path)}
 >
-<section class="page-head">
+<section class="page-head" style="--ph-img: url(/style/img/hero/agama-lg.webp); --ph-img-sm: url(/style/img/hero/agama-sm.webp)">
   <div class="wrap">
-    <h1>{t.h1}</h1>
+    <h1 set:html={twoTone(t.h1)} />
     <p>{t.lead}</p>
   </div>
 </section>

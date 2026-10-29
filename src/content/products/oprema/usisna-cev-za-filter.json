@@ -1,0 +1,45 @@
+{
+  "name": "Usisna cev za filter",
+  "label": "Filteri",
+  "lead": "Usisna cev sa korpicom za filter - zamenski deo za akvarijumske filtere.",
+  "image": "/style/img/oprema/akvarijum/usisna-cev-za-filter.webp",
+  "imageAlt": "Usisna cev za filter - NS Reptiles",
+  "price": 450,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Usisna cev sa korpicom"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Usisna cev sa zaštitnom korpicom sprečava da ribe, biljke i krupnije nečistoće uđu u filter. Fotografija je ilustrativna - pozovite nas da proverimo da li odgovara vašem filteru."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Usisna cev za filter | Akvarijum oprema - NS Reptiles",
+    "description": "Usisna cev sa korpicom za filter - zamenski deo za akvarijumske filtere. NS Reptiles, Novi Sad.",
+    "keywords": "usisna cev, cev za filter, rezervni deo filtera, NS Reptiles, Novi Sad"
+  },
+  "brand": false,
+  "usage": [
+    "akvarijum"
+  ]
+}

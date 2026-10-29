@@ -4,8 +4,8 @@ type L<T = string> = Record<Locale, T>;
 
 interface Cat {
   title: L;
-  /** rucno upisan broj sa strane, ne broj redova */
-  count: L;
+  /** oblici reci za broj redova, po Intl.PluralRules kategoriji */
+  unit: L<Partial<Record<Intl.LDMLPluralRule, string>>>;
   rows: { name: L; price?: number }[];
 }
 
@@ -84,7 +84,7 @@ export const PRICE_LIST: L<{
 export const PRICE_CATS: Cat[] = [
   {
     title: { sr: 'Terarijumi', en: 'Terrariums', ru: 'Террариумы' },
-    count: { sr: '57 modela', en: '57 models', ru: '57 моделей' },
+    unit: { sr: { one: 'model', few: 'modela', other: 'modela' }, en: { one: 'model', other: 'models' }, ru: { one: 'модель', few: 'модели', many: 'моделей', other: 'модели' } },
     rows: [
       { name: { sr: 'Terarijum 11x15x20 +3D', en: 'Terrarium 11x15x20 +3D', ru: 'Террариум 11x15x20 +3D' } },
       { name: { sr: 'Terarijum 17x20x28 +3D', en: 'Terrarium 17x20x28 +3D', ru: 'Террариум 17x20x28 +3D' } },
@@ -158,7 +158,7 @@ export const PRICE_CATS: Cat[] = [
   },
   {
     title: { sr: 'Akvarijumi', en: 'Aquariums', ru: 'Аквариумы' },
-    count: { sr: '24 modela', en: '24 models', ru: '24 модели' },
+    unit: { sr: { one: 'model', few: 'modela', other: 'modela' }, en: { one: 'model', other: 'models' }, ru: { one: 'модель', few: 'модели', many: 'моделей', other: 'модели' } },
     rows: [
       { name: { sr: 'Akvarijum 20x17x14', en: 'Aquarium 20x17x14', ru: 'Аквариум 20x17x14' } },
       { name: { sr: 'Akvarijum 25x19x20', en: 'Aquarium 25x19x20', ru: 'Аквариум 25x19x20' } },
@@ -188,7 +188,7 @@ export const PRICE_CATS: Cat[] = [
   },
   {
     title: { sr: 'Oprema', en: 'Equipment', ru: 'Оборудование' },
-    count: { sr: '55 artikala', en: '55 items', ru: '55 товаров' },
+    unit: { sr: { one: 'artikal', few: 'artikla', other: 'artikala' }, en: { one: 'item', other: 'items' }, ru: { one: 'товар', few: 'товара', many: 'товаров', other: 'товара' } },
     rows: [
       { name: { sr: 'Habistat ključ', en: 'Habistat key', ru: 'Ключ Habistat' } },
       { name: { sr: 'Habistat termometar', en: 'Habistat thermometer', ru: 'Термометр Habistat' } },

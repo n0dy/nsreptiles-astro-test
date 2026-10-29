@@ -1,0 +1,45 @@
+{
+  "name": "Stakleni termometar za akvarijum",
+  "label": "Termometri",
+  "lead": "Stakleni termometar za akvarijum sa vakuum-držačem - postavlja se direktno u vodu.",
+  "image": "/style/img/oprema/akvarijum/stakleni-termometar-za-akvarijum.webp",
+  "imageAlt": "Stakleni termometar za akvarijum - NS Reptiles",
+  "price": 200,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Stakleni termometar sa vakuum-držačem"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Klasičan stakleni termometar koji se kači na unutrašnju stranu stakla. Pouzdan i bez baterija. Fotografija je ilustrativna."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Stakleni termometar za akvarijum | Akvarijum oprema - NS Reptiles",
+    "description": "Stakleni termometar za akvarijum sa vakuum-držačem - postavlja se direktno u vodu. NS Reptiles, Novi Sad.",
+    "keywords": "stakleni termometar, termometar za akvarijum, NS Reptiles, Novi Sad"
+  },
+  "brand": false,
+  "usage": [
+    "akvarijum"
+  ]
+}

@@ -16,8 +16,7 @@ export interface Service {
   /** proc = numerisani koraci izrade, feat = kartice usluga */
   layout: 'proc' | 'feat';
   meta: L<Pick<SeoProps, 'title' | 'description' | 'ogTitle' | 'ogDescription' | 'image'>>;
-  /** locality = addressLocality kad nije 'Novi Sad' */
-  schema: L<{ name: string; serviceType: string; description: string; locality?: string }>;
+  schema: L<{ name: string; serviceType: string; description: string }>;
   h1: L;
   lead: L;
   intro: L;
@@ -25,8 +24,6 @@ export interface Service {
   cta: L<{ title: string; text: string; call: string }>;
   /** linkovi ka stranama po zivotinji - postoje samo na srpskom */
   animals?: Partial<L<{ title: string; links: { href: string; label: string }[] }>>;
-  /** naslov liste ostalih usluga kad odstupa od SERVICE_UI.moreTitle */
-  moreTitle?: Partial<L>;
   /** ostale usluge (srpske putanje); nazivi se razlikuju od strane do strane */
   more: { href: string; label: L }[];
 }
@@ -204,7 +201,7 @@ export const SERVICES = {
     },
     more: [
       { href: '/izrada-akvarijuma.html', label: { sr: 'Izrada akvarijuma', en: 'Custom aquariums', ru: 'Изготовление аквариумов' } },
-      { href: '/izrada-vivarijuma.html', label: { sr: 'Izrada vivarijuma', en: 'Custom vivariums', ru: 'Изготовление виварий' } },
+      { href: '/izrada-vivarijuma.html', label: { sr: 'Izrada vivarijuma', en: 'Custom vivariums', ru: 'Изготовление вивариумов' } },
       { href: '/izrada-led-rasvete.html', label: { sr: 'Izrada LED rasvete', en: 'Custom LED lighting', ru: 'Изготовление LED-освещения' } },
       { href: '/odrzavanje-akvarijuma-terarijuma.html', label: { sr: 'Održavanje i uređenje', en: 'Maintenance & setup', ru: 'Обслуживание и оформление' } },
       { href: '/popravka-akvarijuma-terarijuma.html', label: { sr: 'Popravka i servis', en: 'Repairs & servicing', ru: 'Ремонт и сервис' } },
@@ -249,7 +246,6 @@ export const SERVICES = {
         name: 'Изготовление аквариумов на заказ',
         serviceType: 'Изготовление аквариумов на заказ',
         description: 'Изготовление аквариумов на заказ в Нови-Саде. Стеклянные аквариумы для рыб и черепах, более 40 видов плёнки, LED-освещение, фильтры и 3D-фоны. Срок изготовления — 7 рабочих дней.',
-        locality: 'Нови-Сад',
       },
     },
     h1: {
@@ -367,7 +363,7 @@ export const SERVICES = {
       ru: {
         title: 'Ваш аквариум <b>на заказ</b>',
         text: 'Пришлите нам размеры и назначение — изготовим аквариум точно под ваше пространство с LED-освещением по вашему желанию.',
-        call: 'Позвонить нам',
+        call: 'Позвоните нам',
       },
     },
     animals: {
@@ -380,10 +376,10 @@ export const SERVICES = {
     },
     more: [
       { href: '/izrada-terarijuma.html', label: { sr: 'Izrada terarijuma', en: 'Custom terrariums', ru: 'Изготовление террариумов' } },
-      { href: '/izrada-vivarijuma.html', label: { sr: 'Izrada vivarijuma', en: 'Custom vivariums', ru: 'Изготовление виварий' } },
+      { href: '/izrada-vivarijuma.html', label: { sr: 'Izrada vivarijuma', en: 'Custom vivariums', ru: 'Изготовление вивариумов' } },
       { href: '/izrada-led-rasvete.html', label: { sr: 'Izrada LED rasvete', en: 'Custom LED lighting', ru: 'Изготовление LED-освещения' } },
       { href: '/odrzavanje-akvarijuma-terarijuma.html', label: { sr: 'Održavanje i uređenje', en: 'Maintenance & setup', ru: 'Обслуживание и оформление' } },
-      { href: '/popravka-akvarijuma-terarijuma.html', label: { sr: 'Popravka i servis', en: 'Repair & servicing', ru: 'Ремонт и сервис' } },
+      { href: '/popravka-akvarijuma-terarijuma.html', label: { sr: 'Popravka i servis', en: 'Repairs & servicing', ru: 'Ремонт и сервис' } },
     ],
   },
   vivarijumi: {
@@ -542,10 +538,9 @@ export const SERVICES = {
       ru: {
         title: 'Ваш виварий <b>на заказ</b>',
         text: 'Пришлите нам размеры и назначение — мы изготовим виварий точно по вашим потребностям, с освещением полного спектра.',
-        call: 'Позвонить нам',
+        call: 'Позвоните нам',
       },
     },
-    moreTitle: { ru: 'Всё <b>в одном месте</b>' },
     more: [
       { href: '/izrada-terarijuma.html', label: { sr: 'Izrada terarijuma', en: 'Custom terrariums', ru: 'Изготовление террариумов' } },
       { href: '/izrada-akvarijuma.html', label: { sr: 'Izrada akvarijuma', en: 'Custom aquariums', ru: 'Изготовление аквариумов' } },
@@ -592,7 +587,6 @@ export const SERVICES = {
         name: 'Изготовление LED освещения',
         serviceType: 'Изготовление LED освещения',
         description: 'Изготовление LED освещения на заказ для аквариумов и террариумов. Различные размеры и цвета, дневной и ночной режим, дистанционное управление. Энергоэффективно. Нови Сад.',
-        locality: 'Нови Сад',
       },
     },
     h1: {
@@ -698,16 +692,15 @@ export const SERVICES = {
       ru: {
         title: 'LED освещение <b>по вашим меркам</b>',
         text: 'Сообщите нам размеры и желаемый цвет — изготовим LED освещение точно по вашим меркам.',
-        call: 'Позвонить нам',
+        call: 'Позвоните нам',
       },
     },
-    moreTitle: { ru: 'Всё <b>в одном месте</b>' },
     more: [
-      { href: '/izrada-terarijuma.html', label: { sr: 'Izrada terarijuma', en: 'Custom Terrariums', ru: 'Изготовление террариумов' } },
-      { href: '/izrada-akvarijuma.html', label: { sr: 'Izrada akvarijuma', en: 'Custom Aquariums', ru: 'Изготовление аквариумов' } },
-      { href: '/izrada-vivarijuma.html', label: { sr: 'Izrada vivarijuma', en: 'Custom Vivariums', ru: 'Изготовление вивариумов' } },
-      { href: '/odrzavanje-akvarijuma-terarijuma.html', label: { sr: 'Održavanje i uređenje', en: 'Maintenance & Setup', ru: 'Обслуживание и оформление' } },
-      { href: '/popravka-akvarijuma-terarijuma.html', label: { sr: 'Popravka i servis', en: 'Repairs & Service', ru: 'Ремонт и сервис' } },
+      { href: '/izrada-terarijuma.html', label: { sr: 'Izrada terarijuma', en: 'Custom terrariums', ru: 'Изготовление террариумов' } },
+      { href: '/izrada-akvarijuma.html', label: { sr: 'Izrada akvarijuma', en: 'Custom aquariums', ru: 'Изготовление аквариумов' } },
+      { href: '/izrada-vivarijuma.html', label: { sr: 'Izrada vivarijuma', en: 'Custom vivariums', ru: 'Изготовление вивариумов' } },
+      { href: '/odrzavanje-akvarijuma-terarijuma.html', label: { sr: 'Održavanje i uređenje', en: 'Maintenance & setup', ru: 'Обслуживание и оформление' } },
+      { href: '/popravka-akvarijuma-terarijuma.html', label: { sr: 'Popravka i servis', en: 'Repairs & servicing', ru: 'Ремонт и сервис' } },
     ],
   },
   odrzavanje: {
@@ -853,15 +846,15 @@ export const SERVICES = {
       ru: {
         title: 'Запишитесь на <b>обслуживание</b>',
         text: 'Свяжитесь с нами, и мы согласуем обслуживание или оформление, удобное для вас — разово или на регулярной основе.',
-        call: 'Позвонить нам',
+        call: 'Позвоните нам',
       },
     },
     more: [
-      { href: '/izrada-terarijuma.html', label: { sr: 'Izrada terarijuma', en: 'Terrarium Building', ru: 'Изготовление террариумов' } },
-      { href: '/izrada-akvarijuma.html', label: { sr: 'Izrada akvarijuma', en: 'Aquarium Building', ru: 'Изготовление аквариумов' } },
-      { href: '/izrada-vivarijuma.html', label: { sr: 'Izrada vivarijuma', en: 'Vivarium Building', ru: 'Изготовление вивариумов' } },
-      { href: '/izrada-led-rasvete.html', label: { sr: 'Izrada LED rasvete', en: 'Custom LED Lighting', ru: 'Изготовление LED-освещения' } },
-      { href: '/popravka-akvarijuma-terarijuma.html', label: { sr: 'Popravka i servis', en: 'Repair & Servicing', ru: 'Ремонт и сервис' } },
+      { href: '/izrada-terarijuma.html', label: { sr: 'Izrada terarijuma', en: 'Custom terrariums', ru: 'Изготовление террариумов' } },
+      { href: '/izrada-akvarijuma.html', label: { sr: 'Izrada akvarijuma', en: 'Custom aquariums', ru: 'Изготовление аквариумов' } },
+      { href: '/izrada-vivarijuma.html', label: { sr: 'Izrada vivarijuma', en: 'Custom vivariums', ru: 'Изготовление вивариумов' } },
+      { href: '/izrada-led-rasvete.html', label: { sr: 'Izrada LED rasvete', en: 'Custom LED lighting', ru: 'Изготовление LED-освещения' } },
+      { href: '/popravka-akvarijuma-terarijuma.html', label: { sr: 'Popravka i servis', en: 'Repairs & servicing', ru: 'Ремонт и сервис' } },
     ],
   },
   popravka: {
@@ -903,7 +896,6 @@ export const SERVICES = {
         name: 'Ремонт аквариумов и террариумов',
         serviceType: 'Ремонт аквариумов и террариумов',
         description: 'Профессиональный ремонт аквариумов и террариумов в Нови-Саде. Замена стекла и силикона, ремонт крышки и рамы, замена освещения. Бесплатная оценка, большинство ремонтов за 1–3 рабочих дня.',
-        locality: 'Нови-Сад',
       },
     },
     h1: {
@@ -1004,20 +996,20 @@ export const SERVICES = {
       en: {
         title: 'Free <b>Repair Estimate</b>',
         text: 'Send us photos of the damage and the dimensions — we\'ll get back to you with a free estimate of the cost and timeline.',
-        call: 'Call Us',
+        call: 'Call us',
       },
       ru: {
         title: 'Бесплатная <b>оценка ремонта</b>',
         text: 'Пришлите нам фотографии повреждений и размеры — мы дадим бесплатную оценку стоимости и сроков ремонта.',
-        call: 'Позвонить нам',
+        call: 'Позвоните нам',
       },
     },
     more: [
-      { href: '/izrada-terarijuma.html', label: { sr: 'Izrada terarijuma', en: 'Terrarium Building', ru: 'Изготовление террариумов' } },
-      { href: '/izrada-akvarijuma.html', label: { sr: 'Izrada akvarijuma', en: 'Aquarium Building', ru: 'Изготовление аквариумов' } },
-      { href: '/izrada-vivarijuma.html', label: { sr: 'Izrada vivarijuma', en: 'Vivarium Building', ru: 'Изготовление виварий' } },
-      { href: '/izrada-led-rasvete.html', label: { sr: 'Izrada LED rasvete', en: 'LED Lighting Installation', ru: 'Монтаж LED освещения' } },
-      { href: '/odrzavanje-akvarijuma-terarijuma.html', label: { sr: 'Održavanje i uređenje', en: 'Maintenance & Setup', ru: 'Обслуживание и оформление' } },
+      { href: '/izrada-terarijuma.html', label: { sr: 'Izrada terarijuma', en: 'Custom terrariums', ru: 'Изготовление террариумов' } },
+      { href: '/izrada-akvarijuma.html', label: { sr: 'Izrada akvarijuma', en: 'Custom aquariums', ru: 'Изготовление аквариумов' } },
+      { href: '/izrada-vivarijuma.html', label: { sr: 'Izrada vivarijuma', en: 'Custom vivariums', ru: 'Изготовление вивариумов' } },
+      { href: '/izrada-led-rasvete.html', label: { sr: 'Izrada LED rasvete', en: 'Custom LED lighting', ru: 'Изготовление LED-освещения' } },
+      { href: '/odrzavanje-akvarijuma-terarijuma.html', label: { sr: 'Održavanje i uređenje', en: 'Maintenance & setup', ru: 'Обслуживание и оформление' } },
     ],
   },
 } satisfies Record<string, Service>;

@@ -1,4 +1,5 @@
 ---
+import { twoTone } from '../../lib/two-tone';
 import Base from '../../layouts/Base.astro';
 import Zcta from '../Zcta.astro';
 import '../../styles/animals.css';
@@ -17,6 +18,7 @@ const ui = SERVICE_UI[lang];
 const href = (srPath: string) => localizePath(srPath, lang);
 const path = href(s.path);
 const cta = s.cta[lang];
+const heroImg = service === 'akvarijumi' ? '/style/img/izrada/akvarijum.webp' : '/style/img/izrada/terarijum.webp';
 const animals = s.animals?.[lang];
 
 const sc = s.schema[lang];
@@ -30,7 +32,7 @@ const schema = [
       '@type': 'LocalBusiness',
       name: SITE.name,
       telephone: SITE.phone,
-      address: { '@type': 'PostalAddress', addressLocality: sc.locality ?? 'Novi Sad', addressCountry: 'RS' },
+      address: { '@type': 'PostalAddress', addressLocality: 'Novi Sad', addressCountry: 'RS' },
     },
     areaServed: ui.areaServed,
     description: sc.description,
@@ -45,9 +47,9 @@ const schema = [
   translations={translationsFor(path)}
   schema={schema}
 >
-<section class="page-head">
+<section class="page-head" style={`--ph-img: url(${heroImg}); --ph-img-sm: url(${heroImg})`}>
   <div class="wrap">
-    <h1>{s.h1[lang]}</h1>
+    <h1 set:html={twoTone(s.h1[lang])} />
     <p>{s.lead[lang]}</p>
   </div>
 </section>
@@ -103,7 +105,7 @@ const schema = [
 <section class="usl-more">
   <div class="wrap">
     <div class="usl-more-head">
-      <h2 set:html={s.moreTitle?.[lang] ?? ui.moreTitle} />
+      <h2 set:html={ui.moreTitle} />
     </div>
     <div class="usl-more-grid">
       {s.more.map((l) => (

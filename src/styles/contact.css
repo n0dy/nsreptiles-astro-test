@@ -1,87 +1,106 @@
 /* ===== KONTAKT SECTION ===== */
 .kontakt {
-  padding: 64px 0 100px;
+  padding: 88px 0 110px;
+  /* da zeleni okvir iza forme (z-index -1) ostane iznad pozadine sekcije */
+  isolation: isolate;
   background: var(--bg);
   transition: background 0.4s;
 }
 .k-grid {
   display: grid;
   grid-template-columns: 0.85fr 1.15fr;
-  gap: 30px;
+  gap: 70px;
   align-items: start;
 }
 
 /* ===== INFO SIDE ===== */
-.k-info h2 {
-  font-size: clamp(1.5rem, 3vw, 2rem);
-  text-transform: uppercase;
-  margin-bottom: 10px;
+.k-info .sec-title {
+  font-size: clamp(2rem, 3.6vw, 2.8rem);
+  margin-bottom: 14px;
 }
 .k-info .lead {
   color: var(--ink-soft);
-  margin-bottom: 28px;
+  font-weight: 300;
+  line-height: 1.75;
+  margin-bottom: 30px;
 }
+/* kartice kao kit-card na pocetnoj: bez okvira, senka, podizanje na hover */
 .k-card {
   display: flex;
-  gap: 16px;
+  gap: 18px;
   align-items: center;
-  justify-content: space-between;
   background: var(--white);
-  border: 1px solid var(--silver);
-  padding: 20px 22px;
+  border-radius: 10px;
+  padding: 18px 20px;
   margin-bottom: 14px;
+  box-shadow: var(--card-shadow);
   transition:
-    background 0.4s,
-    border-color 0.4s;
+    transform 0.3s,
+    box-shadow 0.3s,
+    background 0.4s;
+}
+.k-card:hover,
+.k-card:focus-visible {
+  transform: translateY(-3px);
+  box-shadow: var(--card-shadow-hover);
 }
 .k-card .ic {
-  width: 32px;
-  height: 32px;
+  width: 48px;
+  height: 48px;
   flex-shrink: 0;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--green) 12%, transparent);
   color: var(--green-ink);
   display: flex;
   align-items: center;
   justify-content: center;
-  order: 2;
 }
-.k-card .k-card-txt {
-  order: 1;
-}
-.k-card .k-card-txt small {
-  color: var(--ink-soft);
-}
-.k-card .k-card-txt span {
-  font-family: 'Oswald Variable', sans-serif;
-  font-weight: 600;
-  font-size: 1.02rem;
-  color: var(--ink);
+.k-card-txt {
+  flex: 1;
+  min-width: 0;
 }
 .k-card small {
   display: block;
-  font-family: 'Oswald Variable', sans-serif;
-  font-size: 0.75rem;
-  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--ink-soft);
-  margin-bottom: 3px;
+  margin-bottom: 2px;
 }
-.k-card a,
 .k-card span {
-  font-family: 'Oswald Variable', sans-serif;
-  font-weight: 600;
-  font-size: 1.02rem;
+  font-weight: 500;
+  font-size: 1rem;
   color: var(--ink);
-  transition: color 0.2s;
+  overflow-wrap: anywhere;
 }
-.k-card a:hover {
-  color: var(--green-ink);
+.k-card .k-go {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid var(--silver);
+  color: var(--ink-soft);
+  font-family: inherit;
+  transition:
+    background 0.3s,
+    border-color 0.3s,
+    color 0.3s;
+}
+.k-card:hover .k-go,
+.k-card:focus-visible .k-go {
+  background: var(--green-btn);
+  border-color: var(--green-btn);
+  color: #fff;
 }
 
 /* ===== QUICK BUTTONS ===== */
 .k-quick {
   display: flex;
   gap: 12px;
-  margin-top: 22px;
+  margin-top: 24px;
   flex-wrap: wrap;
 }
 .k-quick a {
@@ -90,18 +109,21 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 9px;
-  padding: 14px;
-  font-family: 'Oswald Variable', sans-serif;
+  gap: 10px;
+  padding: 15px;
+  border-radius: 4px;
   font-weight: 500;
-  font-size: 0.82rem;
-  letter-spacing: 0.08em;
+  font-size: 0.76rem;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #fff;
-  transition: opacity 0.25s;
+  transition:
+    filter 0.25s,
+    transform 0.25s;
 }
 .k-quick a:hover {
-  opacity: 0.88;
+  filter: brightness(1.1);
+  transform: translateY(-2px);
 }
 .k-wa {
   background: #1a7f45;
@@ -111,46 +133,57 @@
 }
 .k-social {
   display: flex;
-  gap: 12px;
-  margin-top: 24px;
+  gap: 10px;
+  margin-top: 26px;
 }
 .k-social a {
   width: 42px;
   height: 42px;
+  border-radius: 50%;
   border: 1px solid var(--silver);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Oswald Variable', sans-serif;
   font-weight: 600;
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   color: var(--ink-soft);
   transition: 0.25s;
 }
 .k-social a:hover {
   background: var(--green-btn);
   color: #fff;
-  border-color: var(--green);
+  border-color: var(--green-btn);
 }
 
 /* ===== FORM ===== */
 .k-form {
+  position: relative;
   background: var(--white);
-  border: 1px solid var(--silver);
-  padding: 36px 36px 40px;
-  transition:
-    background 0.4s,
-    border-color 0.4s;
+  border-radius: 12px;
+  padding: 40px 40px 42px;
+  box-shadow: 0 24px 60px -30px rgba(40, 47, 52, 0.35);
+  transition: background 0.4s;
+}
+/* zeleni okvir pomeren iza forme, isti potez kao slika u "O odgajivacnici" */
+.k-form::before {
+  content: '';
+  position: absolute;
+  inset: 22px -22px -22px 22px;
+  border: 1px solid var(--green);
+  border-radius: 12px;
+  opacity: 0.45;
+  z-index: -1;
 }
 .k-form h3 {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
   margin-bottom: 6px;
 }
 .k-form .sub {
   color: var(--ink-soft);
-  font-size: 0.92rem;
-  margin-bottom: 26px;
+  font-weight: 300;
+  font-size: 0.95rem;
+  margin-bottom: 28px;
 }
 .k-field {
   margin-bottom: 18px;
@@ -162,55 +195,63 @@
 }
 .k-field label {
   display: block;
-  font-family: 'Oswald Variable', sans-serif;
+  font-family: 'Poppins', 'Jost Variable', sans-serif;
   font-weight: 500;
-  font-size: 0.75rem;
-  letter-spacing: 0.08em;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--ink-soft);
-  margin-bottom: 7px;
+  margin-bottom: 8px;
 }
 .k-field input,
 .k-field textarea {
   width: 100%;
-  padding: 13px 14px;
-  border: 1.5px solid var(--silver);
+  padding: 14px 16px;
+  border: 1px solid var(--silver);
+  border-radius: 6px;
   background: var(--bg);
-  font-family: 'Jost Variable', sans-serif;
+  font-family: 'Poppins', 'Jost Variable', sans-serif;
   font-size: 0.95rem;
   color: var(--ink);
   transition:
     border-color 0.2s,
+    box-shadow 0.2s,
     background 0.4s;
+}
+.k-field input::placeholder,
+.k-field textarea::placeholder {
+  color: var(--ink-soft);
+  opacity: 0.6;
 }
 .k-field input:focus,
 .k-field textarea:focus {
   outline: none;
   border-color: var(--green);
   background: var(--white);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--green) 20%, transparent);
 }
 .k-field textarea {
   resize: vertical;
-  min-height: 130px;
+  min-height: 140px;
 }
 .k-consent {
   display: block;
-  font-family: 'Jost Variable', sans-serif;
+  font-family: 'Poppins', 'Jost Variable', sans-serif;
   font-weight: 400;
   text-transform: none;
   letter-spacing: 0;
   line-height: 1.6;
-  margin-bottom: 22px;
-  font-size: 0.88rem;
+  margin-bottom: 24px;
+  font-size: 0.86rem;
   color: var(--ink-soft);
 }
 .k-consent input {
   display: inline-block;
-  vertical-align: -2px;
+  vertical-align: -3px;
   margin-right: 8px;
-  width: 16px;
-  height: 16px;
-  accent-color: var(--green);
+  width: 17px;
+  height: 17px;
+  accent-color: var(--green-btn);
 }
 .k-consent a {
   color: var(--green-ink);
@@ -219,8 +260,11 @@
 }
 .k-submit {
   width: 100%;
-  justify-content: center;
-  padding: 16px;
+  padding: 17px;
+}
+.k-submit:disabled {
+  opacity: 0.6;
+  cursor: wait;
 }
 .k-success {
   display: none;
@@ -257,11 +301,18 @@
 @media (max-width: 880px) {
   .k-grid {
     grid-template-columns: 1fr;
+    gap: 50px;
   }
 }
 @media (max-width: 560px) {
   .k-form {
-    padding: 28px 22px;
+    padding: 30px 22px;
+  }
+  .k-form::before {
+    display: none;
+  }
+  .k-card .k-go {
+    display: none;
   }
 }
 @media (max-width: 520px) {
