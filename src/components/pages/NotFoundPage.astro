@@ -1,0 +1,73 @@
+---
+import Base from '../../layouts/Base.astro';
+import '../../styles/animals.css';
+import type { Locale } from '../../config/site';
+import { localizePath, translationsFor } from '../../i18n/routes';
+import { NOT_FOUND } from '../../i18n/pages/not-found';
+
+interface Props {
+  lang: Locale;
+}
+const { lang } = Astro.props;
+const t = NOT_FOUND[lang];
+const path = localizePath('/404.html', lang);
+---
+<Base lang={lang} {...t.meta} path={path} image="/style/img/logo.jpg" noindex translations={translationsFor(path)}>
+<section class="error-section">
+  <div class="wrap">
+    <div class="error-code reveal">404</div>
+    <div class="error-divider reveal"></div>
+    <h1 class="error-title reveal">{t.h1}</h1>
+    <p class="error-desc reveal">{t.text}</p>
+    <div class="error-btns reveal">
+      {t.links.map((l) => <a href={localizePath(l.href, lang)} class="btn btn-primary">{l.label}</a>)}
+    </div>
+  </div>
+</section>
+<style is:global>
+  .error-section {
+    padding: 100px 0 110px;
+    text-align: center;
+  }
+  .error-code {
+    font-family: 'Oswald Variable', sans-serif;
+    font-size: clamp(7rem, 20vw, 14rem);
+    font-weight: 700;
+    line-height: 1;
+    color: var(--green-ink);
+    letter-spacing: -0.02em;
+    margin-bottom: 0.1em;
+  }
+  .error-title {
+    font-family: 'Oswald Variable', sans-serif;
+    font-size: clamp(1.6rem, 4vw, 2.4rem);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink);
+    margin-bottom: 1rem;
+  }
+  .error-desc {
+    font-family: 'Poppins', 'Jost Variable', sans-serif;
+    font-weight: 300;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: var(--ink-soft);
+    max-width: 480px;
+    margin: 0 auto 2.5rem;
+  }
+  .error-btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+  }
+  .error-divider {
+    width: 50px;
+    height: 3px;
+    background: var(--green);
+    margin: 0 auto 2rem;
+    border-radius: 2px;
+  }
+</style>
+</Base>

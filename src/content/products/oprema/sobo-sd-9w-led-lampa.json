@@ -1,0 +1,53 @@
+{
+  "name": "SOBO SD-9W LED lampa sa štipaljkom",
+  "label": "Rasveta",
+  "lead": "SOBO SD-9W LED lampa sa štipaljkom - za manje akvarijume i nano akvarijume.",
+  "image": "/style/img/oprema/akvarijum/sobo-sd-9w-led-lampa.webp",
+  "imageAlt": "SOBO SD-9W LED lampa sa štipaljkom - NS Reptiles",
+  "price": 2000,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "LED lampa sa štipaljkom"
+    },
+    {
+      "k": "Proizvođač",
+      "v": "SOBO"
+    },
+    {
+      "k": "Snaga",
+      "v": "9 W"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Kompaktna LED lampa koja se kači štipaljkom na ivicu akvarijuma, sa podesivim vratom. Idealna za manje akvarijume bez poklopca."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "SOBO SD-9W LED lampa sa štipaljkom | NS Reptiles",
+    "description": "SOBO SD-9W LED lampa sa štipaljkom - za manje akvarijume i nano akvarijume. NS Reptiles, Novi Sad.",
+    "keywords": "sobo sd-9w, led lampa sa štipaljkom, NS Reptiles, Novi Sad"
+  },
+  "brand": false,
+  "usage": [
+    "akvarijum"
+  ]
+}

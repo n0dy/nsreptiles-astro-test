@@ -1,0 +1,45 @@
+{
+  "name": "Mrežica za ribe 050",
+  "label": "Pribor",
+  "lead": "Mrežica za hvatanje riba, model 050 - veća mrežica za premeštanje riba bez povreda.",
+  "image": "/style/img/oprema/akvarijum/mrezica-za-ribe-050.webp",
+  "imageAlt": "Mrežica za ribe 050 - NS Reptiles",
+  "price": 250,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Mrežica za ribe"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Mrežica sa mekom mrežom za bezbedno hvatanje i premeštanje riba, kao i za uklanjanje lišća i nečistoća sa površine. Fotografija je ilustrativna."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Mrežica za ribe 050 | Akvarijum oprema - NS Reptiles",
+    "description": "Mrežica za hvatanje riba, model 050 - veća mrežica za premeštanje riba bez povreda. NS Reptiles, Novi Sad.",
+    "keywords": "mrežica za ribe, mreža za akvarijum, NS Reptiles, Novi Sad"
+  },
+  "brand": false,
+  "usage": [
+    "akvarijum"
+  ]
+}

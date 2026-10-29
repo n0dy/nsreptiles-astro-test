@@ -1,4 +1,5 @@
 ---
+import { twoTone } from '../../../lib/two-tone';
 import Base from '../../../layouts/Base.astro';
 import '../../../styles/animals.css';
 import '../../../styles/usluge.css';
@@ -67,9 +68,9 @@ const schema = [
   translations={translationsFor("/en/guides/leopard-gecko-terrarium.html")}
   schema={schema}
 >
-<section class="page-head">
+<section class="page-head" style="--ph-img: url(/style/img/izrada/terarijum.webp); --ph-img-sm: url(/style/img/izrada/terarijum.webp)">
       <div class="wrap">
-        <h1>Leopard Gecko Terrarium</h1>
+        <h1 set:html={twoTone('Leopard Gecko Terrarium')} />
         <p>Recommended dimensions, heat mat heating, substrate and setup — everything you need to know before you set up the terrarium.</p>
       </div>
     </section>
@@ -99,11 +100,11 @@ const schema = [
             <div class="line"></div>
           </div>
           <div class="intro-box" style="margin-bottom: 24px;">
-            <h3 style="font-family:'Oswald Variable',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Minimum dimensions</h3>
+            <h3 class="gk-h">Minimum dimensions</h3>
             <p>For one adult leopard gecko, the minimum terrarium dimensions are around 50x30x25cm. The terrarium doesn't need to be tall because this species rarely climbs — what matters more is the largest possible floor area, which allows for a temperature gradient.</p>
           </div>
           <div class="intro-box">
-            <h3 style="font-family:'Oswald Variable',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Recommended dimensions</h3>
+            <h3 class="gk-h">Recommended dimensions</h3>
             <p>The recommended terrarium size for a leopard gecko is about 50x35x35cm. A slightly larger floor gives the gecko enough room to choose freely between the warmer and cooler side, which is key to proper thermoregulation. For a pair or a group, a proportionally larger space is recommended.</p>
           </div>
         </div>
@@ -115,11 +116,11 @@ const schema = [
             <div class="line"></div>
           </div>
           <div class="intro-box" style="margin-bottom: 24px;">
-            <h3 style="font-family:'Oswald Variable',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Heat mat</h3>
+            <h3 class="gk-h">Heat mat</h3>
             <p>A heat mat should be placed under one side of the terrarium. The mat warms the terrarium floor and creates a warm zone without a direct heat source inside the terrarium. It is important that the mat covers only one third to one half of the floor — the rest stays cool, forming the gradient the gecko uses for thermoregulation.</p>
           </div>
           <div class="intro-box">
-            <h3 style="font-family:'Oswald Variable',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Temperature gradient</h3>
+            <h3 class="gk-h">Temperature gradient</h3>
             <p>The temperature on the warm side should be around 32–33°C, while the cool side can be 20–25°C or even lower. In winter, leopard geckos can hibernate at 13–19°C without heating. Since this is a nocturnal species, UV light is not needed — if you heat the terrarium with a bulb, that is quite enough, and if you heat with a mat, the ambient light in the room is quite enough.</p>
           </div>
         </div>
@@ -142,15 +143,15 @@ const schema = [
             <div class="line"></div>
           </div>
           <div class="intro-box" style="margin-bottom: 24px;">
-            <h3 style="font-family:'Oswald Variable',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Hides</h3>
+            <h3 class="gk-h">Hides</h3>
             <p>A hide is a must in the terrarium. At least two hides are recommended — one on the warm side and one on the cool side. A humid hide (filled with damp peat) is an essential element because the gecko uses it during shedding and, in the case of females, before laying eggs.</p>
           </div>
           <div class="intro-box" style="margin-bottom: 24px;">
-            <h3 style="font-family:'Oswald Variable',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Water dish</h3>
+            <h3 class="gk-h">Water dish</h3>
             <p>A dish of fresh water must always be available. Choose shallow dishes the gecko can drink from easily and that are easy to clean. There is no need to raise the humidity of the terrarium itself — the humidity in the humid hide is enough.</p>
           </div>
           <div class="intro-box">
-            <h3 style="font-family:'Oswald Variable',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Decoration</h3>
+            <h3 class="gk-h">Decoration</h3>
             <p>Besides hides, you can add flat stone slabs, pieces of bark or artificial plants. Stone slabs in the warm zone help regulate temperature because the gecko can lie on them and soak up the heat. Decorations should be stable and must not tip over easily.</p>
           </div>
         </div>
@@ -162,15 +163,15 @@ const schema = [
             <div class="line"></div>
           </div>
           <div class="intro-box" style="margin-bottom: 24px;">
-            <h3 style="font-family:'Oswald Variable',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Sand instead of peat</h3>
+            <h3 class="gk-h">Sand instead of peat</h3>
             <p>Sand as a substrate is one of the most common mistakes. A leopard gecko can accidentally ingest it while feeding, which can cause a digestive blockage. Coco peat is the safer, recommended alternative.</p>
           </div>
           <div class="intro-box" style="margin-bottom: 24px;">
-            <h3 style="font-family:'Oswald Variable',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Heating the whole floor</h3>
+            <h3 class="gk-h">Heating the whole floor</h3>
             <p>The heat mat must not cover the entire terrarium floor. Without a cool zone, the gecko cannot cool down when it needs to, which can lead to stress and health problems. The mat should cover one third to one half of the floor.</p>
           </div>
           <div class="intro-box">
-            <h3 style="font-family:'Oswald Variable',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">No humid hide</h3>
+            <h3 class="gk-h">No humid hide</h3>
             <p>Without a humid hide, the gecko struggles to shed — skin gets stuck, especially around the toes and tail. A humid hide with peat or moss is a must in every leopard gecko terrarium.</p>
           </div>
         </div>
@@ -207,7 +208,7 @@ const schema = [
         <h2>We build <b>custom</b> terrariums</h2>
         <p>You choose the color, dimensions and equipment. Call or message us and we will help you find the right solution for your leopard gecko.</p>
         <div class="zcta-btns">
-          <a href="https://wa.me/381693301474?text=I%27m%20interested%20in%20a%20leopard%20gecko%20terrarium" target="_blank" rel="noopener" class="btn" style="background:#fff;color:var(--green-dark)" onclick="gtag('event','kontakt_click',{'metod':'whatsapp'})">WhatsApp</a>
+          <a href="https://wa.me/381693301474?text=I%27m%20interested%20in%20a%20leopard%20gecko%20terrarium" target="_blank" rel="noopener" class="btn btn-primary" onclick="gtag('event','kontakt_click',{'metod':'whatsapp'})">WhatsApp</a>
           <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event','kontakt_click',{'metod':'poziv'})">+381 69 330 1474</a>
         </div>
       </div>
@@ -252,13 +253,14 @@ const schema = [
         align-items: center;
         gap: 6px;
         padding: 10px 20px;
-        border: 1.5px solid var(--green);
+        border: 1px solid var(--green);
         border-radius: 4px;
-        color: var(--green-dark);
-        font-family: 'Oswald Variable', sans-serif;
-        font-size: 0.9rem;
+        color: var(--green-ink);
+        font-family: 'Poppins', 'Jost Variable', sans-serif;
+        font-weight: 500;
+        font-size: 0.76rem;
         text-transform: uppercase;
-        letter-spacing: .08em;
+        letter-spacing: 0.04em;
         text-decoration: none;
         transition: background 0.2s, color 0.2s;
       }

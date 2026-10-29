@@ -1,0 +1,82 @@
+{
+  "seo": {
+    "title": "Corn Snake — Care and Breeding Guide | NS Reptiles",
+    "description": "The corn snake is a docile snake ideal for beginners. Learn all about its terrarium, diet, temperature and care from NS Reptiles in Novi Sad.",
+    "keywords": "corn snake, corn snake care, corn snake for sale, corn snake Serbia, corn snake Novi Sad, corn snake terrarium, corn snake diet, snake for beginners, NS Reptiles",
+    "ogDescription": "A docile snake ideal for beginners. A complete guide to keeping a corn snake — terrarium, diet, temperature and care."
+  },
+  "article": {
+    "headline": "Corn snake — complete breeding and care guide",
+    "description": "All about the corn snake — a docile snake ideal for beginners. Terrarium, diet, temperature and care."
+  },
+  "name": "Corn snake",
+  "lead": "A docile snake that is easy to tame — one of the most common choices for beginners in the hobby. Calm nature, a wide range of colors and a long lifespan.",
+  "photoAlt": "Corn snake in a terrarium — NS Reptiles Novi Sad",
+  "intro": "The corn snake is one of the most popular snakes in the hobby worldwide. Native to the southeastern United States — from New Jersey to Florida and west to Louisiana — in the wild it lives in a variety of habitats: forests, fields, meadows and abandoned buildings. Thanks to selective breeding it is available in a wide range of colors and patterns; adults reach 120 to 160 cm in length and live 15 to 20 years in captivity.",
+  "sections": [
+    {
+      "title": "Husbandry and <b>terrarium</b>",
+      "boxes": [
+        {
+          "p": [
+            "An adult needs a terrarium with minimum dimensions of 90×45×45 cm. Always provide hides, branches for climbing and a water bowl for bathing. The lid must be well secured — corn snakes are known escape artists. Recommended substrates are peat, coco fiber or paper without printed ink. Avoid fine particles because they can cause impaction."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Temperature and <b>lighting</b>",
+      "boxes": [
+        {
+          "p": [
+            "Keep the warm side of the terrarium at 28–30°C and the cooler side at 22–24°C; the nighttime temperature must not drop below 20°C. Heat is provided by heat mats or heat cables connected to a thermostat. UVB lighting is not necessary, but a daily light cycle supports normal behavior — use a timer to mimic natural day and night."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Humidity and <b>water</b>",
+      "boxes": [
+        {
+          "p": [
+            "Optimal humidity is 40–60%. During shedding, humidity should be increased, and a humid hide or a box with moist substrate is also recommended. Fresh water must always be available in a bowl large enough for the snake to bathe in. Clean the bowl regularly to prevent contamination."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Diet",
+      "boxes": [
+        {
+          "p": [
+            "Babies eat newborn mice (pinkies) every 5 days. Adults are fed adult mice or rats every 7–10 days. Prey must be the right size — no wider than the narrowest part of the snake's body. Frozen-thawed food is recommended for the animal's safety."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Behavior and <b>handling</b>",
+      "boxes": [
+        {
+          "p": [
+            "Corn snakes are mostly active at night, although they can often be seen during the day as well. They are calm and docile and get used to handling easily, which makes them an excellent choice for beginners. They rarely show aggression. It is recommended not to handle the animal for 48 hours after a meal to avoid regurgitation."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Breeding and <b>health</b>",
+      "boxes": [
+        {
+          "p": [
+            "Sexual maturity is reached at 2–3 years. Females lay 10–30 eggs per clutch, and incubation takes 60–65 days at 27–29°C. Common health problems are metabolic bone disease, stuck shed, impaction and respiratory infections. Prevention means a proper diet, the right humidity and temperature, and regular hygiene. At signs of illness, see a vet who specializes in exotic animals."
+          ]
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "text": "For questions about getting a corn snake, its care or equipment — we are here. Give us a call or send a message.",
+    "waText": "I'm interested in a corn snake"
+  }
+}

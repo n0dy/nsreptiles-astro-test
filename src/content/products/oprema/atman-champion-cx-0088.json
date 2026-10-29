@@ -1,0 +1,53 @@
+{
+  "name": "Atman Champion CX-0088 vazdušna pumpa",
+  "label": "Vazdušne pumpe",
+  "lead": "Atman Champion CX-0088 vazdušna pumpa sa dva izlaza - za raspršivače i sunđer filtere.",
+  "image": "/style/img/oprema/akvarijum/atman-champion-cx-0088.webp",
+  "imageAlt": "Atman Champion CX-0088 vazdušna pumpa - NS Reptiles",
+  "price": 1800,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Vazdušna pumpa sa dva izlaza"
+    },
+    {
+      "k": "Proizvođač",
+      "v": "Atman"
+    },
+    {
+      "k": "Izlazi",
+      "v": "2"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Tiha membranska vazdušna pumpa sa dva izlaza, pa može da pokreće dva raspršivača ili sunđer filtera istovremeno. Obogaćuje vodu kiseonikom i pokreće površinu."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Atman Champion CX-0088 vazdušna pumpa | NS Reptiles",
+    "description": "Atman Champion CX-0088 vazdušna pumpa sa dva izlaza - za raspršivače i sunđer filtere. NS Reptiles, Novi Sad.",
+    "keywords": "atman champion, vazdušna pumpa, pumpa za vazduh akvarijum, NS Reptiles, Novi Sad"
+  },
+  "brand": false,
+  "usage": [
+    "akvarijum"
+  ]
+}

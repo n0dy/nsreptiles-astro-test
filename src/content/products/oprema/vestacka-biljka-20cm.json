@@ -1,0 +1,49 @@
+{
+  "name": "Veštačka biljka za akvarijum 20 cm",
+  "label": "Biljke",
+  "lead": "Plastična biljka za akvarijum - ne vene, ne traži svetlo ni đubrivo i ne remeti parametre vode.",
+  "image": "/style/img/oprema/akvarijum/vestacka-biljka-20cm.webp",
+  "imageAlt": "Veštačka biljka za akvarijum 20 cm - NS Reptiles",
+  "price": 300,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Veštačka (PVC) biljka"
+    },
+    {
+      "k": "Visina",
+      "v": "20 cm"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Veštačke biljke su najjednostavniji način da akvarijum dobije zelenilo bez brige o rasvetama, đubrenju i orezivanju. Ribe ih koriste kao zaklon, a lako se peru pri redovnom održavanju. Fotografija je ilustrativna - oblik i boja zavise od trenutne ponude, pa nas pozovite da vam pošaljemo slike modela koji su na stanju."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Veštačka biljka za akvarijum 20 cm | NS Reptiles",
+    "description": "Plastična biljka za akvarijum - ne vene, ne traži svetlo ni đubrivo i ne remeti parametre vode. NS Reptiles, Novi Sad.",
+    "keywords": "veštačke biljke za akvarijum, pvc biljke, plastične biljke, NS Reptiles, Novi Sad"
+  },
+  "brand": false,
+  "usage": [
+    "akvarijum"
+  ]
+}

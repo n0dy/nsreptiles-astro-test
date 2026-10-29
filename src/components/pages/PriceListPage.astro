@@ -1,0 +1,210 @@
+---
+import { twoTone } from '../../lib/two-tone';
+import Base from '../../layouts/Base.astro';
+import '../../styles/animals.css';
+import '../../styles/usluge.css';
+import { SITE, whatsappLink, type Locale } from '../../config/site';
+import { HOME } from '../../i18n/ui';
+import { localizePath, translationsFor } from '../../i18n/routes';
+import { PRICE_LIST, PRICE_CATS } from '../../i18n/pages/price-list';
+
+interface Props {
+  lang: Locale;
+}
+const { lang } = Astro.props;
+const t = PRICE_LIST[lang];
+const path = localizePath('/cenovnik.html', lang);
+const plural = new Intl.PluralRules(lang);
+const count = (c: (typeof PRICE_CATS)[number]) => `${c.rows.length} ${c.unit[lang][plural.select(c.rows.length)] ?? c.unit[lang].other}`;
+const price = (n: number) => `${String(n).replace(/\B(?=(\d{3})+$)/g, t.thousands)} din`;
+
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: t.home, item: SITE.url + HOME[lang] },
+      { '@type': 'ListItem', position: 2, name: t.crumb, item: SITE.url + path },
+    ],
+  },
+];
+---
+<Base
+  lang={lang}
+  {...t.meta}
+  path={path}
+  image="/style/img/logo.jpg"
+  translations={translationsFor(path)}
+  schema={schema}
+>
+<section class="page-head" style="--ph-img: url(/style/img/izrada/terarijum.webp); --ph-img-sm: url(/style/img/izrada/terarijum.webp)">
+  <div class="wrap">
+    <h1 set:html={twoTone(t.h1)} />
+    <p>{t.lead}</p>
+  </div>
+</section>
+<section class="cn-section reveal">
+  <div class="wrap">
+    <div class="cn-note">
+      <p set:html={t.note} />
+    </div>
+    {PRICE_CATS.map((c) => (
+      <div class="cn-cat reveal">
+        <div class="cn-cat-head">
+          <h2>{c.title[lang]}</h2>
+          <span class="cn-count">{count(c)}</span>
+        </div>
+        <div class="cn-list">
+          {c.rows.map((r) => (
+            <div class="cn-row">
+              <span class="cn-name">{r.name[lang]}</span>
+              {r.price ? <span class="cn-price has-price">{price(r.price)}</span> : <span class="cn-price no-price">{t.callForPrice}</span>}
+            </div>
+          ))}
+        </div>
+      </div>
+    ))}
+    <div class="cn-cta-wrap reveal">
+      <p set:html={t.ctaText} />
+      <div class="cn-cta-btns">
+        <a href={`tel:${SITE.phone}`} class="btn btn-light" onclick="gtag('event','kontakt_click',{'metod':'telefon'})">{SITE.phoneDisplay}</a>
+        <a href={whatsappLink()} target="_blank" rel="noopener" class="btn btn-primary" onclick="gtag('event','kontakt_click',{'metod':'whatsapp'})">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+<style is:global>
+  .cn-section {
+    padding: 70px 0 100px;
+    background: var(--bg);
+  }
+  .cn-note {
+    border-left: 3px solid var(--green);
+    padding: 6px 0 6px 26px;
+    margin-bottom: 56px;
+  }
+  .cn-note p {
+    color: var(--ink-soft);
+    font-size: 1.06rem;
+    line-height: 1.75;
+    margin: 0;
+  }
+  .cn-note p strong {
+    color: var(--ink);
+    font-weight: 600;
+  }
+  .cn-cat {
+    margin-bottom: 56px;
+  }
+  .cn-cat-head {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 22px;
+  }
+  .cn-cat-head h2 {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .cn-cat-head::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--silver);
+    order: 1;
+  }
+  .cn-count {
+    order: 2;
+    color: var(--ink-soft);
+    font-size: 0.78rem;
+    white-space: nowrap;
+    background: var(--white);
+    border-radius: 999px;
+    box-shadow: var(--card-shadow);
+    padding: 4px 12px;
+  }
+  .cn-list {
+    background: var(--white);
+    border-radius: 10px;
+    box-shadow: var(--card-shadow);
+    overflow: hidden;
+  }
+  .cn-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 13px 22px;
+    border-bottom: 1px solid var(--silver);
+    transition: background 0.2s;
+  }
+  .cn-row:last-child {
+    border-bottom: 0;
+  }
+  .cn-row:hover {
+    background: color-mix(in srgb, var(--green) 6%, transparent);
+  }
+  .cn-name {
+    font-size: 0.95rem;
+    color: var(--ink);
+    line-height: 1.4;
+  }
+  .cn-price {
+    white-space: nowrap;
+    text-align: right;
+  }
+  .cn-price.has-price {
+    font-family: 'Oswald Variable', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--green-ink);
+  }
+  .cn-price.no-price {
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+  .cn-cta-wrap {
+    border-radius: 12px;
+    padding: 44px 40px;
+    color: #fff;
+    background:
+      linear-gradient(90deg, rgba(8, 12, 10, 0.94) 35%, rgba(8, 12, 10, 0.55)),
+      url(/style/img/hero/piton-lg.webp) center / cover;
+  }
+  .cn-cta-wrap p {
+    max-width: 560px;
+    font-size: 1.05rem;
+    font-weight: 300;
+    line-height: 1.7;
+    margin: 0 0 26px;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  .cn-cta-wrap p strong {
+    color: #fff;
+    font-weight: 600;
+  }
+  .cn-cta-btns {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  @media (max-width: 640px) {
+    .cn-section {
+      padding: 46px 0 70px;
+    }
+    .cn-row {
+      padding: 12px 16px;
+    }
+    .cn-name {
+      font-size: 0.9rem;
+    }
+    .cn-cta-wrap {
+      padding: 32px 22px;
+    }
+  }
+</style>
+</Base>

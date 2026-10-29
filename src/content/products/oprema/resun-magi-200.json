@@ -1,0 +1,49 @@
+{
+  "name": "Resun MAGI-200 unutrašnji filter",
+  "label": "Filteri",
+  "lead": "Resun MAGI-200 unutrašnji filter za akvarijum - filtracija i cirkulacija vode u jednom.",
+  "image": "/style/img/oprema/akvarijum/resun-magi-200.webp",
+  "imageAlt": "Resun MAGI-200 unutrašnji filter - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Unutrašnji filter"
+    },
+    {
+      "k": "Proizvođač",
+      "v": "Resun"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Resun MAGI-200 je unutrašnji filter koji se postavlja u akvarijum i drži na staklu vakuum-držačima. Sunđer zadržava nečistoće i služi kao podloga za korisne bakterije, a izlaz pokreće vodu u akvarijumu. Za preporuku prema zapremini akvarijuma pozovite nas."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Resun MAGI-200 unutrašnji filter | Akvarijum oprema - NS Reptiles",
+    "description": "Resun MAGI-200 unutrašnji filter za akvarijum - filtracija i cirkulacija vode u jednom. NS Reptiles, Novi Sad.",
+    "keywords": "resun magi 200, unutrašnji filter, filter za akvarijum, NS Reptiles, Novi Sad"
+  },
+  "brand": false,
+  "usage": [
+    "akvarijum"
+  ]
+}

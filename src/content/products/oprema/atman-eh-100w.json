@@ -1,0 +1,53 @@
+{
+  "name": "Atman EH-100 grejač 100 W",
+  "label": "Grejači",
+  "lead": "Atman grejač za akvarijum od 100 W sa termostatom - održava stalnu temperaturu vode.",
+  "image": "/style/img/oprema/akvarijum/atman-eh-100w.webp",
+  "imageAlt": "Atman EH-100 grejač 100 W - NS Reptiles",
+  "price": 1300,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Grejač za akvarijum sa termostatom"
+    },
+    {
+      "k": "Proizvođač",
+      "v": "Atman"
+    },
+    {
+      "k": "Snaga",
+      "v": "100 W"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Potopni grejač sa ugrađenim termostatom za slatkovodne i tropske akvarijume. Temperatura se podešava točkićem, a grejač se sam uključuje i isključuje kad voda dostigne zadatu vrednost. Pri izboru snage računajte okvirno 1 W po litru vode - ako niste sigurni, pozovite nas."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Atman EH-100 grejač 100 W | Akvarijum oprema - NS Reptiles",
+    "description": "Atman grejač za akvarijum od 100 W sa termostatom - održava stalnu temperaturu vode. NS Reptiles, Novi Sad.",
+    "keywords": "grejač za akvarijum, atman grejač, grejač 100w, NS Reptiles, Novi Sad"
+  },
+  "brand": false,
+  "usage": [
+    "akvarijum"
+  ]
+}

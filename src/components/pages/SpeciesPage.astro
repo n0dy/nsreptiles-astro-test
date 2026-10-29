@@ -1,0 +1,195 @@
+---
+import { twoTone } from '../../lib/two-tone';
+import { getEntry } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import ProductCard from '../ProductCard.astro';
+import Zcta from '../Zcta.astro';
+import '../../styles/animals.css';
+import '../../styles/usluge.css';
+import '../../styles/oprema.css';
+import { SITE, whatsappLink, type Locale } from '../../config/site';
+import { HOME } from '../../i18n/ui';
+import { localizePath, translationsFor } from '../../i18n/routes';
+import { getProducts } from '../../lib/products';
+
+interface Props {
+  lang: Locale;
+  /** srpski slug vrste, npr. "leopard-gekon" */
+  slug: string;
+}
+const { lang, slug } = Astro.props;
+
+const UI = {
+  sr: { home: 'Početna', animals: 'Životinje', crumbs: 'Putanja', related: 'Preporučeni proizvodi', cat: 'Terarijum', cta: 'Kontaktirajte <b>NS Reptiles</b>' },
+  en: { home: 'Home', animals: 'Animals', crumbs: 'Breadcrumb', related: 'Recommended products', cat: 'Terrarium', cta: 'Contact <b>NS Reptiles</b>' },
+  ru: { home: 'Главная', animals: 'Животные', crumbs: 'Навигационная цепочка', related: 'Рекомендуемые товары', cat: 'Террариум', cta: 'Свяжитесь с <b>NS Reptiles</b>' },
+}[lang];
+
+const entry = await getEntry('species', `${lang}/${slug}`);
+const sr = await getEntry('species', `sr/${slug}`);
+if (!entry || !sr) throw new Error(`Nema species/${lang}/${slug}.json`);
+const d = entry.data;
+// slike, proizvodi i cena se vode samo u sr fajlu
+const { image, photo, photoSize = [1248, 832], related = [] } = sr.data;
+if (!image || !photo) throw new Error(`species/sr/${slug}.json: fale image/photo`);
+const low = sr.data.price?.low;
+
+const href = (srPath: string) => localizePath(srPath, lang);
+const path = href(`/zivotinje/${slug}.html`);
+const url = SITE.url + path;
+const imageUrl = SITE.url + image;
+
+const all = await getProducts();
+const relatedProducts = related.map((id) => {
+  const p = all.find((x) => x.id === id);
+  if (!p) throw new Error(`species/sr/${slug}.json: nepostojeci proizvod ${id}`);
+  return p;
+});
+
+const org = { '@type': 'Organization', name: SITE.name };
+const schema: Record<string, unknown>[] = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: d.article.headline,
+    description: d.article.description,
+    author: { ...org, url: SITE.url },
+    publisher: { ...org, logo: { '@type': 'ImageObject', url: `${SITE.url}/style/img/logo.jpg` } },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+    image: imageUrl,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: UI.home, item: SITE.url + HOME[lang] },
+      { '@type': 'ListItem', position: 2, name: UI.animals, item: SITE.url + href('/zivotinje.html') },
+      { '@type': 'ListItem', position: 3, name: d.schemaName ?? d.name, item: url },
+    ],
+  },
+];
+if (d.product && low) {
+  schema.push({
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: d.product.name ?? d.name,
+    description: d.product.description,
+    image: imageUrl,
+    brand: { '@type': 'Brand', name: SITE.name },
+    offers: { '@type': 'AggregateOffer', url, priceCurrency: 'RSD', lowPrice: String(low), availability: 'https://schema.org/InStock' },
+  });
+}
+if (d.faq) {
+  schema.push({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: d.faq.items.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+  });
+}
+
+const h3Style = "font-family:'Oswald Variable',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;";
+---
+<Base
+  lang={lang}
+  {...d.seo}
+  path={path}
+  image={image}
+  ogType="article"
+  active="animals"
+  translations={translationsFor(path)}
+  schema={schema}
+>
+<section class="page-head" style="--ph-img: none; --ph-img-sm: none">
+  <img class="ph-img ph-contain" src={photo} alt={d.photoAlt} width={photoSize[0]} height={photoSize[1]} fetchpriority="high" />
+  <div class="wrap">
+    <h1 set:html={twoTone(d.name)} />
+    <p>{d.lead}</p>
+  </div>
+</section>
+<section class="pd-crumbs">
+  <div class="wrap">
+    <nav class="pd-breadcrumb" aria-label={UI.crumbs}>
+      <a href={HOME[lang]}>{UI.home}</a>
+      <span class="sep" aria-hidden="true">›</span>
+      <a href={href('/zivotinje.html')}>{UI.animals}</a>
+      <span class="sep" aria-hidden="true">›</span>
+      <span class="cur" aria-current="page">{d.name}</span>
+    </nav>
+  </div>
+</section>
+<section class="intro">
+  <div class="wrap">
+    <div class="intro-box reveal"><p set:html={d.intro} /></div>
+  </div>
+</section>
+{d.price && (
+  <section class="animal-price">
+    <div class="wrap">
+      <div class="aprice-card reveal">
+        <div class="aprice-main">
+          <div class="aprice-label">{d.price.label}</div>
+          <div class="aprice-value">{d.price.value}</div>
+          <p class="aprice-note" set:html={d.price.note} />
+        </div>
+        <div class="aprice-cta">
+          <a href={`tel:${SITE.phone}`} class="btn btn-primary" onclick={`gtag('event','telefon_click',{'metod':'poziv','proizvod':'${slug}'})`}>{d.price.call}</a>
+          <a href={whatsappLink(d.price.waText)} target="_blank" rel="noopener" class="btn btn-outline" onclick={`gtag('event','kontakt_click',{'metod':'whatsapp','proizvod':'${slug}'})`}>WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+)}
+<section class="zoo" style="padding-top: 40px;">
+  <div class="wrap">
+    {d.sections.map((s) => (
+      <div class="cat-block reveal">
+        <div class="cat-title">
+          <h2 set:html={s.title} />
+          <div class="line"></div>
+        </div>
+        {s.boxes.map((b, i) => (
+          <div class="intro-box" style={i < s.boxes.length - 1 ? 'margin-bottom: 24px;' : undefined}>
+            {b.title && <h3 style={h3Style}>{b.title}</h3>}
+            {b.p.map((p, j) => (
+              <>
+                {b.spaced && j > 0 && <br />}
+                <p set:html={p} />
+              </>
+            ))}
+          </div>
+        ))}
+      </div>
+    ))}
+  </div>
+</section>
+{relatedProducts.length > 0 && (
+  <section class="pd-related section">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <h2 class="sec-title" set:html={twoTone(UI.related)} />
+      </div>
+      <div class="op-grid">
+        {relatedProducts.map((p) => <ProductCard product={p} lang={lang} catLabel={UI.cat} />)}
+      </div>
+    </div>
+  </section>
+)}
+{d.faq && (
+  <section class="faq section">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <h2 class="sec-title" set:html={twoTone(d.faq.title)} />
+      </div>
+      <div class="faq-list">
+        {d.faq.items.map((f) => (
+          <div class="faq-item">
+            <button class="faq-q">{f.q}<span class="ic">+</span></button>
+            <div class="faq-a"><p>{f.a}</p></div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+)}
+<Zcta title={d.cta.title ?? UI.cta} text={d.cta.text} callLabel={SITE.phoneDisplay} waText={d.cta.waText} track />
+</Base>

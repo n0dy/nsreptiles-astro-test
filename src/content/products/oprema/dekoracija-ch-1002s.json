@@ -1,0 +1,45 @@
+{
+  "name": "Dekoracija za akvarijum CH 1002S",
+  "label": "Dekoracija",
+  "lead": "Ukrasna dekoracija za akvarijum, šifra CH 1002S.",
+  "image": "/style/img/oprema/akvarijum/placeholder.svg",
+  "imageAlt": "Dekoracija za akvarijum CH 1002S - NS Reptiles",
+  "price": 950,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Ukrasna dekoracija"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ukrasna dekoracija za akvarijum iz naše ponude, šifra CH 1002S. Fotografija ovog modela još nije dostupna na sajtu - pozovite nas ili pišite na WhatsApp i poslaćemo vam slike i dimenzije pre kupovine."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Dekoracija za akvarijum CH 1002S | Akvarijum oprema - NS Reptiles",
+    "description": "Ukrasna dekoracija za akvarijum, šifra CH 1002S. NS Reptiles, Novi Sad.",
+    "keywords": "dekoracija za akvarijum, ukras za akvarijum, NS Reptiles, Novi Sad"
+  },
+  "brand": false,
+  "usage": [
+    "akvarijum"
+  ]
+}

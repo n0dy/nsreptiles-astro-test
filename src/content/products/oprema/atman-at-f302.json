@@ -1,0 +1,49 @@
+{
+  "name": "Atman AT-F302 unutrašnji filter",
+  "label": "Filteri",
+  "lead": "Atman AT-F302 unutrašnji filter za akvarijum - mehanička filtracija i cirkulacija vode.",
+  "image": "/style/img/oprema/akvarijum/atman-at-f302.webp",
+  "imageAlt": "Atman AT-F302 unutrašnji filter - NS Reptiles",
+  "price": 1700,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Unutrašnji filter"
+    },
+    {
+      "k": "Proizvođač",
+      "v": "Atman"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Atman AT-F302 je unutrašnji (potopni) filter koji se kači na staklo akvarijuma vakuum-držačima. Voda prolazi kroz sunđer koji zadržava nečistoće, a na sunđeru se vremenom razvijaju korisne bakterije koje razgrađuju amonijak. Za preporuku veličine filtera prema zapremini akvarijuma pozovite nas."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Atman AT-F302 unutrašnji filter | Akvarijum oprema - NS Reptiles",
+    "description": "Atman AT-F302 unutrašnji filter za akvarijum - mehanička filtracija i cirkulacija vode. NS Reptiles, Novi Sad.",
+    "keywords": "atman at-f302, unutrašnji filter, filter za akvarijum, NS Reptiles, Novi Sad"
+  },
+  "brand": false,
+  "usage": [
+    "akvarijum"
+  ]
+}

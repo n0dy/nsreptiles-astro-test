@@ -1,0 +1,54 @@
+{
+  "name": "Sera Reptil Professional Carnivor 250 ml",
+  "label": "Hrana",
+  "lead": "Sera Reptil Professional Carnivor - hrana za mesojede reptile i vodene kornjače, pakovanje 250 ml (72 g).",
+  "image": "/style/img/oprema/akvarijum/sera-reptil-carnivor-250ml.webp",
+  "imageAlt": "Sera Reptil Professional Carnivor 250 ml - NS Reptiles",
+  "price": 1000,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Hrana za mesojede reptile"
+    },
+    {
+      "k": "Proizvođač",
+      "v": "Sera"
+    },
+    {
+      "k": "Pakovanje",
+      "v": "250 ml (72 g)"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum / terarijum"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Kompletna hrana za mesojede i svaštojede reptile, pogodna i za vodene kornjače. Sadrži insekte i ribu kao izvore proteina, sa dodatkom vitamina i minerala. Hrani se umereno, tako da životinja pojede obrok za nekoliko minuta."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Sera Reptil Professional Carnivor 250 ml | NS Reptiles",
+    "description": "Sera Reptil Professional Carnivor - hrana za mesojede reptile i vodene kornjače, pakovanje 250 ml (72 g). NS Reptiles, Novi Sad.",
+    "keywords": "sera carnivor, hrana za kornjače, hrana za vodene kornjače, NS Reptiles, Novi Sad"
+  },
+  "brand": false,
+  "usage": [
+    "akvarijum",
+    "terarijum"
+  ]
+}

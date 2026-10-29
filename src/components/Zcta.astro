@@ -20,7 +20,7 @@ const event = (metod: string) => (track ? `window.gtag&&gtag('event','kontakt_cl
     <h2 set:html={title} />
     <p>{text}</p>
     <div class="zcta-btns">
-      <a href={whatsappLink(waText)} target="_blank" rel="noopener" class="btn" style="background: #fff; color: var(--green-dark)" onclick={event('whatsapp')}>WhatsApp</a>
+      <a href={whatsappLink(waText)} target="_blank" rel="noopener" class="btn btn-primary" onclick={event('whatsapp')}>WhatsApp</a>
       <a href={`tel:${SITE.phone}`} class="btn btn-light" onclick={event('poziv')}>{callLabel}</a>
     </div>
   </div>

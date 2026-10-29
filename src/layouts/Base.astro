@@ -1,7 +1,12 @@
 ---
+import '@fontsource/poppins/300.css';
+import '@fontsource/poppins/400.css';
+import '@fontsource/poppins/500.css';
+import '@fontsource/poppins/600.css';
+// Poppins nema cirilicu - ru tekst pada na Jost (ucitava se samo kad zatreba)
 import '@fontsource-variable/jost';
 import '@fontsource-variable/oswald';
-import jostLatin from '@fontsource-variable/jost/files/jost-latin-wght-normal.woff2?url';
+import poppinsLatin from '@fontsource/poppins/files/poppins-latin-400-normal.woff2?url';
 import oswaldLatin from '@fontsource-variable/oswald/files/oswald-latin-wght-normal.woff2?url';
 import '../styles/style.css';
 import { SITE, IS_INDEXABLE, type Locale } from '../config/site';
@@ -32,7 +37,7 @@ const analytics = IS_INDEXABLE;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <!-- fontovi stizu pre prvog crtanja, da se hero tekst ne prelama posle (CLS) -->
-    <link rel="preload" href={jostLatin} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href={poppinsLatin} as="font" type="font/woff2" crossorigin />
     <link rel="preload" href={oswaldLatin} as="font" type="font/woff2" crossorigin />
     <SeoHead lang={lang} {...seo} />
     {analytics && (
@@ -52,8 +57,8 @@ const analytics = IS_INDEXABLE;
     <slot name="head" />
   </head>
   <body class={bodyClass}>
-    <!-- tema pre prvog crtanja, inace dark korisnici vide blic svetle teme -->
-    <script is:inline>try { if (localStorage.getItem('theme') === 'dark') document.body.classList.add('dark'); } catch (e) {}</script>
+    <!-- shortcut: dark tema iskljucena dok je .theme-toggle sakriven; vratiti skriptu ispod kad se dugme vrati -->
+    <!-- <script is:inline>try { if (localStorage.getItem('theme') === 'dark') document.body.classList.add('dark'); } catch (e) {}</script> -->
     {analytics && (
       <noscript><iframe src={`https://www.googletagmanager.com/ns.html?id=${SITE.gtmId}`} height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     )}

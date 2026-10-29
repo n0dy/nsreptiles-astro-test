@@ -1,0 +1,102 @@
+---
+import { twoTone } from '../../lib/two-tone';
+import Base from '../../layouts/Base.astro';
+import ProductCard from '../ProductCard.astro';
+import '../../styles/animals.css';
+import '../../styles/oprema.css';
+import { SITE, type Locale } from '../../config/site';
+import { HOME } from '../../i18n/ui';
+import { localizePath, translationsFor } from '../../i18n/routes';
+import { LIZARD_FOOD } from '../../i18n/pages/lizard-food';
+import { getProducts, productViewOrSr } from '../../lib/products';
+
+interface Props {
+  lang: Locale;
+}
+const { lang } = Astro.props;
+const t = LIZARD_FOOD[lang];
+const href = (srPath: string) => localizePath(srPath, lang);
+const path = href('/hrana-za-gustere.html');
+const link = (srPath: string, text: string) => `<a style="color: var(--green-ink)" href="${href(srPath)}">${text}</a>`;
+
+const FIRST = ['oprema/dubia-zohari', 'oprema/fobasi', 'oprema/lateralis', 'oprema/brasnari-tenebrio'];
+// "Ziva hrana" dok se postojeci fajlovi ne prebace na dijakritike
+const food = (await getProducts())
+  .filter((p) => ['Živa hrana', 'Ziva hrana'].includes(p.data.label))
+  .sort((a, b) => (FIRST.indexOf(a.id) + 1 || 99) - (FIRST.indexOf(b.id) + 1 || 99));
+const views = await Promise.all(food.map((p) => productViewOrSr(p, lang)));
+
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: t.home, item: SITE.url + HOME[lang] },
+      { '@type': 'ListItem', position: 2, name: t.equipment, item: SITE.url + href('/oprema.html') },
+      { '@type': 'ListItem', position: 3, name: t.h1, item: SITE.url + path },
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: t.h1,
+    itemListElement: views.map((v, i) => ({
+      '@type': 'ListItem', position: i + 1, name: v.name, url: SITE.url + v.path,
+    })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: t.faq.map(({ q, a }) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
+  },
+];
+---
+<Base
+  lang={lang}
+  {...t.meta}
+  path={path}
+  translations={translationsFor(path)}
+  image="/style/img/oprema/dubie.webp"
+  active="equipment"
+  schema={schema}
+>
+  <section class="page-head" style="--ph-img: url(/style/img/hero/agama-lg.webp); --ph-img-sm: url(/style/img/hero/agama-sm.webp)">
+    <div class="wrap">
+      <h1 set:html={twoTone(t.h1)} />
+    </div>
+  </section>
+  <section class="intro">
+    <div class="wrap">
+      <div class="intro-box">
+        <p set:html={t.intro(link)} />
+        <h2 style="margin-top: 28px">{t.typesTitle}</h2>
+        <p set:html={t.types[0]} />
+        <p style="margin-top: 14px" set:html={t.types[1]} />
+        <h3 style="margin-top: 28px">{t.howTitle}</h3>
+        <p>{t.how}</p>
+      </div>
+    </div>
+  </section>
+  <section class="op-shop">
+    <div class="wrap">
+      <div class="op-grid">
+        {food.map((p) => <ProductCard lang={lang} product={p} catLabel={t.catLabel} />)}
+      </div>
+    </div>
+  </section>
+  <section class="faq section">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <h2 class="sec-title" set:html={twoTone(t.faqTitle)} />
+      </div>
+      <div class="faq-list">
+        {t.faq.map(({ q, a }) => (
+          <div class="faq-item">
+            <button class="faq-q">{q}<span class="ic">+</span></button>
+            <div class="faq-a"><p>{a}</p></div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+</Base>

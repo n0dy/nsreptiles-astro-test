@@ -1,4 +1,5 @@
 ---
+import { twoTone } from '../../lib/two-tone';
 import Base from '../../layouts/Base.astro';
 import '../../styles/animals.css';
 import '../../styles/usluge.css';
@@ -98,9 +99,9 @@ const schema = [
   langLinks={{ ...{"en":"/en/terrariums.html","ru":"/ru/terrariums.html"}, ...translationsFor("/terarijumi/terarijum-za-bradatu-agamu.html") }}
   schema={schema}
 >
-<section class="page-head">
+<section class="page-head" style="--ph-img: url(/style/img/izrada/terarijum.webp); --ph-img-sm: url(/style/img/izrada/terarijum.webp)">
       <div class="wrap">
-        <h1>Terarijum za bradatu agamu</h1>
+        <h1 set:html={twoTone('Terarijum za bradatu agamu')} />
         <p>Sve sto trebate znati pre nego sto postavite terarijum — preporucena velicina, rasveta, podloga i uredenje.</p>
       </div>
     </section>
@@ -198,7 +199,7 @@ const schema = [
             <div class="side-card" style="background: var(--green-btn); padding: 22px;">
               <div style="color: #fff;">
                 <h4 style="font-family: 'Oswald Variable', sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 8px;">Izrada po meri</h4>
-                <p style="font-family: 'Jost Variable', sans-serif; font-weight: 300; font-size: .9rem; line-height: 1.6; color: rgba(255,255,255,.88); margin-bottom: 16px;">Boju, velicinu i opremu birate sami. Rok izrade 7 radnih dana.</p>
+                <p style="font-family: 'Poppins', 'Jost Variable', sans-serif; font-weight: 300; font-size: .9rem; line-height: 1.6; color: rgba(255,255,255,.88); margin-bottom: 16px;">Boju, velicinu i opremu birate sami. Rok izrade 7 radnih dana.</p>
                 <a href="/izrada-terarijuma.html" class="btn btn-light" style="font-size: .85rem;">Saznaj vise</a>
               </div>
             </div>
@@ -283,7 +284,7 @@ const schema = [
         <h2>Kontaktirajte nas <b>direktno</b></h2>
         <p>Posaljite nam poruku sa pitanjem o terarijumu za bradatu agamu — odgovoricemo brzo i pomoci vam da napravite pravi izbor.</p>
         <div class="zcta-btns">
-          <a href="https://wa.me/381693301474?text=Zdravo%2C%20zanima%20me%20terarijum%20za%20bradatu%20agamu" target="_blank" rel="noopener" class="btn" style="background: #fff; color: var(--green-dark)" onclick="gtag('event', 'kontakt_click', {'metod': 'whatsapp'})">WhatsApp</a>
+          <a href="https://wa.me/381693301474?text=Zdravo%2C%20zanima%20me%20terarijum%20za%20bradatu%20agamu" target="_blank" rel="noopener" class="btn btn-primary" onclick="gtag('event', 'kontakt_click', {'metod': 'whatsapp'})">WhatsApp</a>
           <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event', 'kontakt_click', {'metod': 'telefon'})">+381 69 330 1474</a>
         </div>
       </div>
@@ -324,14 +325,14 @@ const schema = [
         margin: 28px 0 8px;
       }
       .guide-content p {
-        font-family: 'Jost Variable', sans-serif;
+        font-family: 'Poppins', 'Jost Variable', sans-serif;
         font-weight: 300;
         line-height: 1.8;
         color: var(--ink);
         margin-bottom: 16px;
       }
       .guide-content ul {
-        font-family: 'Jost Variable', sans-serif;
+        font-family: 'Poppins', 'Jost Variable', sans-serif;
         font-weight: 300;
         line-height: 1.8;
         color: var(--ink);
@@ -346,7 +347,7 @@ const schema = [
         padding: 16px 20px;
         border-radius: 4px;
         margin: 20px 0;
-        font-family: 'Jost Variable', sans-serif;
+        font-family: 'Poppins', 'Jost Variable', sans-serif;
         font-size: .95rem;
         line-height: 1.7;
         color: var(--ink);
@@ -379,7 +380,7 @@ const schema = [
         margin-bottom: 6px;
       }
       .side-card-body p {
-        font-family: 'Jost Variable', sans-serif;
+        font-family: 'Poppins', 'Jost Variable', sans-serif;
         font-size: .88rem;
         font-weight: 300;
         color: var(--ink-soft);
@@ -394,7 +395,7 @@ const schema = [
       /* Breadcrumb */
       .breadcrumb {
         padding: 14px 0 0;
-        font-family: 'Jost Variable', sans-serif;
+        font-family: 'Poppins', 'Jost Variable', sans-serif;
         font-size: .85rem;
         color: var(--ink-soft);
       }
@@ -402,7 +403,6 @@ const schema = [
       .breadcrumb a:hover { color: var(--green-dark); }
       .breadcrumb span { margin: 0 6px; }
 
-      /* FAQ accordion */
       .guide-faq { padding: 60px 0 80px; }
       .guide-faq h2 {
         font-family: 'Oswald Variable', sans-serif;
@@ -412,53 +412,6 @@ const schema = [
         letter-spacing: .06em;
         margin-bottom: 32px;
         color: var(--ink);
-      }
-      .faq-item {
-        background: var(--white);
-        border-radius: 6px;
-        margin-bottom: 10px;
-        box-shadow: 0 4px 16px -8px rgba(40,47,52,.12);
-        overflow: hidden;
-      }
-      .faq-q {
-        width: 100%;
-        background: none;
-        border: none;
-        text-align: left;
-        padding: 18px 22px;
-        font-family: 'Jost Variable', sans-serif;
-        font-size: 1rem;
-        font-weight: 500;
-        color: var(--ink);
-        cursor: pointer;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 12px;
-        transition: color .2s;
-      }
-      .faq-q:hover { color: var(--green-ink); }
-      .faq-q .ic {
-        font-size: 1.3rem;
-        font-weight: 300;
-        color: var(--green-ink);
-        flex-shrink: 0;
-        transition: transform .25s;
-      }
-      .faq-item.open .faq-q .ic { transform: rotate(45deg); }
-      .faq-a {
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height .35s ease;
-      }
-      .faq-item.open .faq-a { max-height: 400px; }
-      .faq-a p {
-        padding: 0 22px 18px;
-        font-family: 'Jost Variable', sans-serif;
-        font-weight: 300;
-        line-height: 1.8;
-        color: var(--ink);
-        margin: 0;
       }
 
       /* Interni linkovi */
@@ -487,7 +440,7 @@ const schema = [
         border-radius: 8px;
         text-decoration: none;
         color: var(--ink);
-        font-family: 'Jost Variable', sans-serif;
+        font-family: 'Poppins', 'Jost Variable', sans-serif;
         font-weight: 500;
         transition: background .2s, transform .2s;
         border-left: 3px solid var(--green);
@@ -508,17 +461,6 @@ const schema = [
       .int-link-card:hover span { color: rgba(255,255,255,.8); }
     </style>
 <script is:inline slot="after">
-      // FAQ accordion
-      document.querySelectorAll('.faq-q').forEach(function(btn) {
-        btn.addEventListener('click', function() {
-          var item = this.closest('.faq-item');
-          var isOpen = item.classList.contains('open');
-          document.querySelectorAll('.faq-item.open').forEach(function(el) {
-            el.classList.remove('open');
-          });
-          if (!isOpen) item.classList.add('open');
-        });
-      });
 
       // Reveal on scroll
       var revealEls = document.querySelectorAll('.reveal');

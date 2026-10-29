@@ -1,4 +1,5 @@
 ---
+import { twoTone } from '../../lib/two-tone';
 import Base from '../../layouts/Base.astro';
 import '../../styles/animals.css';
 import '../../styles/usluge.css';
@@ -97,9 +98,9 @@ const schema = [
   langLinks={{ ...{"en":"/en/aquariums.html","ru":"/ru/aquariums.html"}, ...translationsFor("/akvarijumi/akvarijum-za-kornjacu.html") }}
   schema={schema}
 >
-<section class="page-head">
+<section class="page-head" style="--ph-img: url(/style/img/izrada/akvarijum.webp); --ph-img-sm: url(/style/img/izrada/akvarijum.webp)">
       <div class="wrap">
-        <h1>Akvarijum za kornjacu</h1>
+        <h1 set:html={twoTone('Akvarijum za kornjacu')} />
         <p>Ter-akvarijum sa kopnenim i vodenim delom — sve sto treba da znate pre postavljanja staklista za vodenu kornjacu.</p>
       </div>
     </section>
@@ -132,11 +133,11 @@ const schema = [
             <div class="line"></div>
           </div>
           <div class="intro-box" style="margin-bottom: 24px;">
-            <h3 style="font-family:'Oswald Variable',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Minimalne dimenzije</h3>
+            <h3 class="gk-h">Minimalne dimenzije</h3>
             <p>Minimalne dimenzije ter-akvarijuma za jednu odraslu kornjacu su oko 50x35cm povrsine osnove. Sto je kornjaca veca, veci treba da bude i akvarijum. U nasoj ponudi ter-akvarijumi za kornjace dostupni su od dimenzija 50x35x45cm pa do 100x45x45cm — a sve se izradjuje i po meri.</p>
           </div>
           <div class="intro-box">
-            <h3 style="font-family:'Oswald Variable',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Sta znace 4 dimenzije</h3>
+            <h3 class="gk-h">Sta znace 4 dimenzije</h3>
             <p>Kod ter-akvarijuma za kornjace cesto se navode cetiri broja — na primer 60x35x45x30. Prva dva broja su sirina i dubina akvarijuma, treci broj je ukupna visina staklenog dela, a cetvrti je visina vodenog stuba (dubina vode). Ostatak visine cini kopneni deo — uzdignuta platforma na kojoj se kornjaca odmara.</p>
           </div>
         </div>
@@ -148,7 +149,7 @@ const schema = [
             <div class="line"></div>
           </div>
           <div class="intro-box">
-            <h3 style="font-family:'Oswald Variable',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Zasto je filter obavezan</h3>
+            <h3 class="gk-h">Zasto je filter obavezan</h3>
             <p>Vodene kornjace su znacajno veci zagadjivaci vode od riba — brze jedu, vise otpadaju i bioloski su aktivniji. Filter je obavezan deo opreme i mora biti prilagodjen zapremini akvarijuma. Preporucuje se filter dimenzionisan na vecu zapreminu od stvarne, jer kornjace opterecuju filtraciju brze nego ribe slicne velicine. Redovna zamena dela vode takodjer je vazna bez obzira na filtraciju.</p>
           </div>
         </div>
@@ -160,11 +161,11 @@ const schema = [
             <div class="line"></div>
           </div>
           <div class="intro-box" style="margin-bottom: 24px;">
-            <h3 style="font-family:'Oswald Variable',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Zasto je kopneni deo neophodan</h3>
+            <h3 class="gk-h">Zasto je kopneni deo neophodan</h3>
             <p>Kornjaci mora biti dostupna suva povrsina na kojoj moze izaci iz vode, ogrejati se pod lampom i odmoriti. Bez kopnenog dela kornjaca nije u mogucnosti da regulise telesnu temperaturu — a to je jedan od najcescih uzroka zdravstvenih problema kod vodenih kornjacu u zatocenistvu.</p>
           </div>
           <div class="intro-box">
-            <h3 style="font-family:'Oswald Variable',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Izvedba u ter-akvarijumu</h3>
+            <h3 class="gk-h">Izvedba u ter-akvarijumu</h3>
             <p>U nasim ter-akvarijumima kopneni deo je integrisan u konstrukciju — izdignuta polica od stakla ili pleksiglas-a odvojena od vodenog dela. Povrsina kopnenog dela treba biti dovoljno velika da kornjaca moze slobodno da lezi i kreće se, bez rizika da se vrati u vodu nenamerno.</p>
           </div>
         </div>
@@ -176,11 +177,11 @@ const schema = [
             <div class="line"></div>
           </div>
           <div class="intro-box" style="margin-bottom: 24px;">
-            <h3 style="font-family:'Oswald Variable',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Grejna lampa iznad kopnenog dela</h3>
+            <h3 class="gk-h">Grejna lampa iznad kopnenog dela</h3>
             <p>Iznad kopnenog dela obavezno postaviti grejnu lampu koja stvara toplu tacku. Kornjaca ce koristiti tu tacku za termoregulaciju — grejanje tela posle plivanja. Temperatura tople tacke iznad platforme trebalo bi da bude priblizno 30-32°C, dok temperatura vode ostaje niza.</p>
           </div>
           <div class="intro-box">
-            <h3 style="font-family:'Oswald Variable',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">UVB zracenje</h3>
+            <h3 class="gk-h">UVB zracenje</h3>
             <p>UVB lampa je neophodna — omogucava kornjaci da sintetise vitamin D3 koji je kljucan za zdravlje kostiju i oklopa. Bez UVB zracenja kornjace dugorocno razvijaju probleme sa oklopom i kosturom. UVB lampa se postavlja iznad kopnenog dela i menja prema uputstvima proizvodjaca (najcesce svakih 6-12 meseci, cak i kad jos svetli).</p>
           </div>
         </div>
@@ -192,7 +193,7 @@ const schema = [
             <div class="line"></div>
           </div>
           <div class="intro-box">
-            <h3 style="font-family:'Oswald Variable',sans-serif;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:8px;">Na sta obratiti paznju</h3>
+            <h3 class="gk-h">Na sta obratiti paznju</h3>
             <ul style="color:var(--ink-soft);line-height:1.9;padding-left:18px;margin:0;">
               <li>Akvarijum bez kopnenog dela — kornjaci je neophodna suva povrsina za odmor i grejanje.</li>
               <li>Premali akvarijum — kornjaci treba prostora za plivanje i nesmetano kretanje.</li>
@@ -267,7 +268,7 @@ const schema = [
         <h2>Izrada <b>po meri</b></h2>
         <p>Ter-akvarijume za kornjace izradjujemo po meri — vi birate dimenzije, boju i opremu. Javite nam se i dobicete ponudu.</p>
         <div class="zcta-btns">
-          <a href="https://wa.me/381693301474?text=Zanima%20me%20ter-akvarijum%20za%20kornjacu" target="_blank" rel="noopener" class="btn" style="background:#fff;color:var(--green-dark)" onclick="gtag('event','kontakt_click',{'metod':'whatsapp'})">WhatsApp</a>
+          <a href="https://wa.me/381693301474?text=Zanima%20me%20ter-akvarijum%20za%20kornjacu" target="_blank" rel="noopener" class="btn btn-primary" onclick="gtag('event','kontakt_click',{'metod':'whatsapp'})">WhatsApp</a>
           <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event','kontakt_click',{'metod':'poziv'})">+381 69 330 1474</a>
         </div>
       </div>
@@ -280,61 +281,7 @@ const schema = [
         margin: 0 auto 40px;
         max-width: 640px;
       }
-      .faq-list { margin-top: 24px; }
-      .faq-item {
-        border-bottom: 1px solid var(--silver);
-        padding: 0;
-      }
-      .faq-q {
-        width: 100%;
-        background: none;
-        border: none;
-        text-align: left;
-        font-family: 'Oswald Variable', sans-serif;
-        font-size: 1rem;
-        font-weight: 500;
-        text-transform: uppercase;
-        letter-spacing: .06em;
-        color: var(--ink);
-        padding: 18px 0;
-        cursor: pointer;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 12px;
-        transition: color .2s;
-      }
-      .faq-q:hover { color: var(--green-ink); }
-      .faq-q .ic {
-        font-size: 1.4rem;
-        font-weight: 300;
-        line-height: 1;
-        flex-shrink: 0;
-        transition: transform .25s;
-      }
-      .faq-item.open .faq-q .ic { transform: rotate(45deg); }
-      .faq-a {
-        display: none;
-        padding-bottom: 18px;
-      }
-      .faq-item.open .faq-a { display: block; }
-      .faq-a p {
-        color: var(--ink-soft);
-        line-height: 1.7;
-        margin: 0;
-      }
     </style>
-<script is:inline slot="after">
-      // FAQ accordion
-      document.querySelectorAll('.faq-q').forEach(function(btn) {
-        btn.addEventListener('click', function() {
-          var item = this.closest('.faq-item');
-          var isOpen = item.classList.contains('open');
-          document.querySelectorAll('.faq-item').forEach(function(el) { el.classList.remove('open'); });
-          if (!isOpen) item.classList.add('open');
-        });
-      });
-    </script>
 <style is:global>
       .breadcrumb-bar {
         background: var(--bg);

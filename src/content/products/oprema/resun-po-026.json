@@ -1,0 +1,53 @@
+{
+  "name": "Resun PO-026 dekoracija olupina broda",
+  "label": "Dekoracija",
+  "lead": "Resun PO-026 - dekoracija olupina broda, 13 x 8,5 x 5 cm.",
+  "image": "/style/img/oprema/akvarijum/resun-po-026.webp",
+  "imageAlt": "Resun PO-026 dekoracija olupina broda - NS Reptiles",
+  "price": 1000,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija od poliresina"
+    },
+    {
+      "k": "Proizvođač",
+      "v": "Resun"
+    },
+    {
+      "k": "Dimenzije",
+      "v": "13 x 8,5 x 5 cm"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Dekoracija od poliresina, bezbedna za akvarijum - ne menja parametre vode. Mala olupina broda koja ribama služi kao skrovište."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Resun PO-026 dekoracija olupina broda | NS Reptiles",
+    "description": "Resun PO-026 - dekoracija olupina broda, 13 x 8,5 x 5 cm. NS Reptiles, Novi Sad.",
+    "keywords": "resun po-026, olupina broda, dekoracija za akvarijum, NS Reptiles, Novi Sad"
+  },
+  "brand": false,
+  "usage": [
+    "akvarijum"
+  ]
+}

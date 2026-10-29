@@ -7,6 +7,10 @@ type L<T = string> = Record<Locale, T>;
 export const LISTING_UI = {
   sr: {
     all: 'Sve',
+    section: 'Namena',
+    category: 'Kategorija',
+    filters: 'Filteri',
+    sort: { label: 'Sortiraj', default: 'Preporučeno', asc: 'Cena: najniža prvo', desc: 'Cena: najviša prvo' },
     call: 'Pozovi nas',
     contact: 'kontaktirajte',
     /** Intl.PluralRules kategorija -> rec */
@@ -14,12 +18,20 @@ export const LISTING_UI = {
   },
   en: {
     all: 'All',
+    section: 'Type',
+    category: 'Category',
+    filters: 'Filters',
+    sort: { label: 'Sort', default: 'Recommended', asc: 'Price: low to high', desc: 'Price: high to low' },
     call: 'Call us',
     contact: 'contact us',
     count: { one: 'product', other: 'products' },
   },
   ru: {
     all: 'Все',
+    section: 'Назначение',
+    category: 'Категория',
+    filters: 'Фильтры',
+    sort: { label: 'Сортировка', default: 'Рекомендуемые', asc: 'Цена: по возрастанию', desc: 'Цена: по убыванию' },
     call: 'Позвонить нам',
     contact: 'свяжитесь с нами',
     count: { one: 'товар', few: 'товара', many: 'товаров', other: 'товара' },
@@ -38,15 +50,20 @@ export interface Listing {
   search: L;
   /** {contact} = link ka kontakt strani */
   empty: L;
-  groups: { key: string; label: L }[];
+  /** section = grana (iz `sections`) kojoj grupa pripada */
+  groups: { key: string; label: L; section?: string }[];
+  /** prvi nivo filtera; proizvod ide u svaku granu iz svog `usage` */
+  sections?: { key: string; label: L }[];
+  /** grane proizvoda; podrazumevano njegov `usage` */
+  sectionsOf?: (p: Product) => string[];
   /** dodatni link medju filterima (srpska putanja) */
-  extraPill?: { href: string; label: L };
+  extraPill?: { href: string; label: L; section?: string };
   guides?: { title: L; links: { href: string; label: L }[] };
   cta: { title: L; text: L };
   /** koji proizvodi idu na listing */
   includes: (p: Product) => boolean;
   /** filter grupa proizvoda; undefined = build pada, da nijedan proizvod ne ostane bez grupe */
-  groupOf: (p: Product) => string | undefined;
+  groupOf: (p: Product, section?: string) => string | undefined;
 }
 
 const cat = (p: Product) => p.id.split('/')[0];
@@ -56,9 +73,6 @@ const SIZE: Record<string, string> = { 'Mali terarijum': 'mali', 'Srednji terari
 
 const EQUIPMENT_BY_LABEL: Record<string, string> = {
   Rasveta: 'rasveta',
-  Hrana: 'ishrana',
-  Suplementi: 'ishrana',
-  'Živa hrana': 'ishrana',
   Dekoracija: 'dekoracija',
   Podloge: 'dekoracija',
   Supstrat: 'dekoracija',
@@ -73,6 +87,28 @@ const EQUIPMENT_BY_ID: Record<string, string> = {
   'lizard-leash': 'dodatna-oprema',
   pinceta: 'dodatna-oprema',
   'posude-za-reptile': 'dodatna-oprema',
+};
+const AQUARIUM_BY_LABEL: Record<string, string> = {
+  Filteri: 'akv-filteri',
+  Pumpe: 'akv-filteri',
+  'Vazdušne pumpe': 'akv-filteri',
+  Aeracija: 'akv-filteri',
+  'Filterski medij': 'akv-filteri',
+  Grejači: 'akv-grejanje',
+  Rasveta: 'akv-grejanje',
+  Termometri: 'akv-grejanje',
+  Dekoracija: 'akv-dekoracija',
+  Biljke: 'akv-dekoracija',
+  Pozadine: 'akv-dekoracija',
+  Podloge: 'akv-dekoracija',
+  Supstrat: 'akv-dekoracija',
+  Pribor: 'akv-odrzavanje',
+};
+// hrana je posebna grana, nezavisno od toga da li je za akvarijum ili terarijum
+const FOOD_BY_LABEL: Record<string, string> = {
+  Hrana: 'hrana',
+  Suplementi: 'suplementi',
+  'Živa hrana': 'ziva-hrana',
 };
 
 const EMPTY_CUSTOM: L = {
@@ -246,9 +282,9 @@ export const LISTINGS = {
       ru: 'Всё необходимое для правильного содержания рептилий и аквариумных животных — освещение, обогрев, питание, подложки и декорации.',
     },
     intro: {
-      sr: 'U ponudi držimo <strong>Arcadia</strong> i <strong>HabiStat</strong> opremu - UVB i spot rasvetu, grejače, suplemente i hranu za gekone i kornjače, kao i živu hranu (dubie i fobasi) uvek na stanju. Za uređenje terarijuma tu su prirodne podloge, kamen i dekoracija.',
-      en: 'We stock <strong>Arcadia</strong> and <strong>HabiStat</strong> equipment - UVB and spot lighting, heaters, supplements and food for geckos and tortoises, as well as live feeders (dubia and feeder roaches) always in stock. For terrarium decoration we carry natural substrates, stone and décor.',
-      ru: 'Мы предлагаем оборудование <strong>Arcadia</strong> и <strong>HabiStat</strong> — UVB и споттинговые лампы, нагреватели, добавки и корм для гекконов и черепах, а также живой корм (дубии и фобасии) всегда в наличии. Для оформления террариума — натуральные подложки, камни и декорации.',
+      sr: 'U ponudi držimo <strong>Arcadia</strong> i <strong>HabiStat</strong> opremu - UVB i spot rasvetu, grejače, suplemente i hranu za gekone i kornjače, kao i živu hranu (dubie i fobasi) uvek na stanju. Za akvarijume držimo <strong>Atman</strong>, <strong>SOBO</strong> i <strong>Resun</strong> filtere, pumpe, grejače, rasvetu i pribor za održavanje, a za uređenje oba tipa nastambi prirodne podloge, kamen i dekoraciju.',
+      en: 'We stock <strong>Arcadia</strong> and <strong>HabiStat</strong> equipment - UVB and spot lighting, heaters, supplements and food for geckos and tortoises, as well as live feeders (dubia and feeder roaches) always in stock. For aquariums we carry <strong>Atman</strong>, <strong>SOBO</strong> and <strong>Resun</strong> filters, pumps, heaters, lighting and maintenance tools, plus natural substrates, stone and décor for both.',
+      ru: 'Мы предлагаем оборудование <strong>Arcadia</strong> и <strong>HabiStat</strong> — UVB и споттинговые лампы, нагреватели, добавки и корм для гекконов и черепах, а также живой корм (дубии и фобасии) всегда в наличии. Для аквариумов — фильтры, помпы, нагреватели, освещение и инструменты для ухода <strong>Atman</strong>, <strong>SOBO</strong> и <strong>Resun</strong>, а для оформления — натуральные грунты, камни и декорации.',
     },
     search: { sr: 'Pretraži opremu...', en: 'Search equipment...', ru: 'Поиск оборудования...' },
     empty: {
@@ -256,13 +292,24 @@ export const LISTINGS = {
       en: 'No results for that search. Try a different term or <a href="{contact}">contact us</a> - we may have exactly what you\'re looking for.',
       ru: 'По вашему запросу ничего не найдено. Попробуйте другой термин или <a href="{contact}">свяжитесь с нами</a> — возможно, у нас есть именно то, что вам нужно.',
     },
-    groups: [
-      { key: 'rasveta', label: { sr: 'Rasveta i grejanje', en: 'Lighting & heating', ru: 'Освещение и обогрев' } },
-      { key: 'ishrana', label: { sr: 'Ishrana i suplementi', en: 'Food & supplements', ru: 'Питание и добавки' } },
-      { key: 'dekoracija', label: { sr: 'Dekoracija i podloge', en: 'Decoration & substrates', ru: 'Декорации и подложки' } },
-      { key: 'dodatna-oprema', label: { sr: 'Dodatna oprema', en: 'Accessories', ru: 'Дополнительное оборудование' } },
+    sections: [
+      { key: 'akvarijum', label: { sr: 'Akvarijum', en: 'Aquarium', ru: 'Аквариум' } },
+      { key: 'terarijum', label: { sr: 'Terarijum', en: 'Terrarium', ru: 'Террариум' } },
+      { key: 'ishrana', label: { sr: 'Hrana i suplementi', en: 'Food & supplements', ru: 'Корм и добавки' } },
     ],
-    extraPill: { href: '/hrana-za-gustere.html', label: { sr: 'Hrana za guštere', en: 'Lizard food', ru: 'Корм для ящериц' } },
+    groups: [
+      { key: 'akv-filteri', section: 'akvarijum', label: { sr: 'Filteri i pumpe', en: 'Filters & pumps', ru: 'Фильтры и помпы' } },
+      { key: 'akv-grejanje', section: 'akvarijum', label: { sr: 'Grejanje i rasveta', en: 'Heating & lighting', ru: 'Обогрев и освещение' } },
+      { key: 'akv-dekoracija', section: 'akvarijum', label: { sr: 'Dekoracija i podloge', en: 'Decoration & substrates', ru: 'Декорации и грунты' } },
+      { key: 'akv-odrzavanje', section: 'akvarijum', label: { sr: 'Održavanje', en: 'Maintenance', ru: 'Уход' } },
+      { key: 'rasveta', section: 'terarijum', label: { sr: 'Rasveta i grejanje', en: 'Lighting & heating', ru: 'Освещение и обогрев' } },
+      { key: 'dekoracija', section: 'terarijum', label: { sr: 'Dekoracija i podloge', en: 'Decoration & substrates', ru: 'Декорации и подложки' } },
+      { key: 'dodatna-oprema', section: 'terarijum', label: { sr: 'Dodatna oprema', en: 'Accessories', ru: 'Дополнительное оборудование' } },
+      { key: 'hrana', section: 'ishrana', label: { sr: 'Hrana', en: 'Food', ru: 'Корм' } },
+      { key: 'suplementi', section: 'ishrana', label: { sr: 'Suplementi', en: 'Supplements', ru: 'Добавки' } },
+      { key: 'ziva-hrana', section: 'ishrana', label: { sr: 'Živa hrana', en: 'Live feeders', ru: 'Живой корм' } },
+    ],
+    extraPill: { href: '/hrana-za-gustere.html', section: 'ishrana', label: { sr: 'Hrana za guštere', en: 'Lizard food', ru: 'Корм для ящериц' } },
     cta: {
       title: { sr: 'Pomoći ćemo vam da <b>izaberete</b>', en: "We'll help you <b>choose</b>", ru: 'Мы поможем вам <b>выбрать</b>' },
       text: {
@@ -272,7 +319,13 @@ export const LISTINGS = {
       },
     },
     includes: (p) => cat(p) === 'oprema',
-    groupOf: (p) => EQUIPMENT_BY_ID[slug(p)] ?? EQUIPMENT_BY_LABEL[p.data.label],
+    sectionsOf: (p) => (p.data.label in FOOD_BY_LABEL ? ['ishrana'] : p.data.usage),
+    groupOf: (p, section) =>
+      section === 'ishrana'
+        ? FOOD_BY_LABEL[p.data.label]
+        : section === 'akvarijum'
+          ? AQUARIUM_BY_LABEL[p.data.label]
+          : (EQUIPMENT_BY_ID[slug(p)] ?? EQUIPMENT_BY_LABEL[p.data.label]),
   },
 } satisfies Record<string, Listing>;
 

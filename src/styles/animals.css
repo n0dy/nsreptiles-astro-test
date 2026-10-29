@@ -1,47 +1,3 @@
-/* ===== PAGE HEAD ===== */
-.page-head {
-  background: var(--dark);
-  color: #fff;
-  padding: 70px 0 80px;
-  position: relative;
-  overflow: hidden;
-  transition: background 0.4s;
-}
-.page-head::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 340px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140' viewBox='0 0 140 140'%3E%3Cg fill='none' stroke='%23ffffff' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round' opacity='0.07'%3E%3Cpath d='M30 18c14 4 22 16 22 32 0 6-2 11-5 15-7-3-13-9-15-17-2-9 0-22-2-30z'/%3E%3Cpath d='M30 18c0 0 10 18 12 40'/%3E%3Cpath d='M108 92c-12 2-22-4-27-15-2-4-3-9-2-13 7 0 15 3 20 9 6 7 8 13 9 19z'/%3E%3Cpath d='M108 92c0 0-18-8-29-25'/%3E%3Cpath d='M70 118c6-7 6-16 1-24-2-3-5-6-8-7-2 6-1 13 3 19 4 6 8 10 4 12z' transform='rotate(20 70 105)'/%3E%3C/g%3E%3C/svg%3E");
-  background-size: 190px 190px;
-  background-repeat: repeat;
-  -webkit-mask-image: linear-gradient(to left, #000 30%, transparent 100%);
-  mask-image: linear-gradient(to left, #000 30%, transparent 100%);
-  pointer-events: none;
-}
-.page-head::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 4px;
-  background: linear-gradient(90deg, var(--green), transparent);
-}
-.page-head h1 {
-  font-size: clamp(2.2rem, 5vw, 3.6rem);
-  text-transform: uppercase;
-  line-height: 1.1;
-}
-.page-head p {
-  color: rgba(255, 255, 255, 0.8);
-  max-width: 540px;
-  margin-top: 14px;
-  font-weight: 300;
-}
-
 /* ===== INTRO ===== */
 .intro {
   padding: 56px 0 10px;
@@ -81,13 +37,15 @@
   z-index: 40;
 }
 .pill {
-  font-family: 'Oswald Variable', sans-serif;
+  font-family: 'Poppins', 'Jost Variable', sans-serif;
   font-weight: 500;
-  font-size: 0.82rem;
-  letter-spacing: 0.08em;
+  font-size: 0.76rem;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   background: var(--white);
-  border: 1px solid var(--silver);
+  border: 1px solid transparent;
+  border-radius: 999px;
+  box-shadow: var(--card-shadow);
   cursor: pointer;
   color: var(--ink-soft);
   padding: 11px 24px;
@@ -111,10 +69,10 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 8px;
-  font-family: 'Oswald Variable', sans-serif;
+  font-family: 'Poppins', 'Jost Variable', sans-serif;
   font-weight: 500;
   font-size: 0.75rem;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--ink-soft);
 }
@@ -145,17 +103,16 @@
   gap: 32px;
   flex-wrap: wrap;
   background: var(--white);
-  border: 1px solid var(--silver);
-  border-left: 4px solid var(--green);
-  box-shadow: 0 10px 30px -18px rgba(40, 47, 52, 0.3);
+  border-radius: 12px;
+  box-shadow: var(--card-shadow);
   padding: 30px 34px;
   transition: background 0.4s, border-color 0.4s;
 }
 .aprice-label {
-  font-family: 'Oswald Variable', sans-serif;
+  font-family: 'Poppins', 'Jost Variable', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.06em;
   font-size: 0.78rem;
   color: var(--ink-soft);
   margin-top: 6px;
@@ -219,12 +176,13 @@
   background: var(--silver);
 }
 .cat-title .count {
-  font-family: 'Oswald Variable', sans-serif;
+  white-space: nowrap;
   color: var(--ink-soft);
-  font-size: 0.85rem;
+  font-size: 0.78rem;
   background: var(--white);
-  border: 1px solid var(--silver);
-  padding: 3px 12px;
+  border-radius: 999px;
+  box-shadow: var(--card-shadow);
+  padding: 4px 12px;
 }
 
 /* ===== ZOO GRID ===== */
@@ -240,6 +198,7 @@
   display: block;
   overflow: hidden;
   aspect-ratio: 3/4;
+  border-radius: 10px;
   background: var(--pattern);
   transition:
     transform 0.35s,
@@ -267,22 +226,12 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    to top,
-    rgba(15, 17, 16, 0.88) 0%,
-    rgba(15, 17, 16, 0.35) 38%,
-    rgba(15, 17, 16, 0) 65%
-  );
+  background: linear-gradient(to top, rgba(4, 24, 17, 0.96) 0%, rgba(4, 24, 17, 0.55) 30%, transparent 55%);
   z-index: 1;
   transition: background 0.4s;
 }
 .zcard:hover::after {
-  background: linear-gradient(
-    to top,
-    rgba(15, 17, 16, 0.92) 0%,
-    rgba(15, 17, 16, 0.6) 55%,
-    rgba(15, 17, 16, 0.15) 100%
-  );
+  background: linear-gradient(to top, rgba(4, 24, 17, 0.96) 0%, rgba(4, 24, 17, 0.7) 50%, rgba(4, 24, 17, 0.15) 100%);
 }
 .zbadge {
   position: absolute;
@@ -313,7 +262,7 @@
   color: #fff;
 }
 .zcard .lat {
-  font-family: 'Jost Variable', sans-serif;
+  font-family: 'Poppins', 'Jost Variable', sans-serif;
   font-style: italic;
   color: var(--green-light);
   font-size: 0.84rem;
@@ -340,10 +289,9 @@
   transition: 0.4s;
 }
 .zcard .zlink {
-  font-family: 'Oswald Variable', sans-serif;
   font-weight: 500;
-  font-size: 0.78rem;
-  letter-spacing: 0.08em;
+  font-size: 0.76rem;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #fff;
   display: inline-flex;
@@ -405,7 +353,12 @@
 
 /* ===== STARTER BANNER ===== */
 .starter {
-  background: linear-gradient(150deg, var(--green), var(--green-dark));
+  --green-ink: var(--green-light);
+  background:
+    linear-gradient(90deg, rgba(8, 12, 10, 0.94) 0%, rgba(8, 12, 10, 0.7) 60%, rgba(8, 12, 10, 0.35) 100%),
+    url(/style/img/hero/agama-lg.webp) 70% center / cover no-repeat,
+    var(--night);
+  border-radius: 12px;
   color: #fff;
   padding: 40px 38px;
   display: grid;
@@ -415,19 +368,6 @@
   margin: 8px 0 0;
   position: relative;
   overflow: hidden;
-}
-.starter::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 320px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140' viewBox='0 0 140 140'%3E%3Cg fill='none' stroke='%23ffffff' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round' opacity='0.08'%3E%3Cpath d='M30 18c14 4 22 16 22 32 0 6-2 11-5 15-7-3-13-9-15-17-2-9 0-22-2-30z'/%3E%3Cpath d='M30 18c0 0 10 18 12 40'/%3E%3Cpath d='M108 92c-12 2-22-4-27-15-2-4-3-9-2-13 7 0 15 3 20 9 6 7 8 13 9 19z'/%3E%3Cpath d='M108 92c0 0-18-8-29-25'/%3E%3C/g%3E%3C/svg%3E");
-  background-size: 180px 180px;
-  -webkit-mask-image: linear-gradient(to left, #000 30%, transparent 100%);
-  mask-image: linear-gradient(to left, #000 30%, transparent 100%);
-  pointer-events: none;
 }
 .starter-txt {
   position: relative;
@@ -447,64 +387,12 @@
 .starter .btn {
   position: relative;
   z-index: 2;
-  background: #fff;
-  color: var(--green-dark);
+  background: var(--green-btn);
+  color: #fff;
   white-space: nowrap;
 }
 .starter .btn:hover {
-  background: rgba(255, 255, 255, 0.88);
-}
-
-/* ===== ZOO CTA ===== */
-.zcta {
-  background: linear-gradient(135deg, var(--green-dark), var(--green));
-  color: #fff;
-  text-align: center;
-  padding: 84px 0;
-  position: relative;
-  overflow: hidden;
-  transition: background 0.4s;
-}
-.zcta::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 340px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140' viewBox='0 0 140 140'%3E%3Cg fill='none' stroke='%23ffffff' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round' opacity='0.07'%3E%3Cpath d='M30 18c14 4 22 16 22 32 0 6-2 11-5 15-7-3-13-9-15-17-2-9 0-22-2-30z'/%3E%3Cpath d='M30 18c0 0 10 18 12 40'/%3E%3Cpath d='M108 92c-12 2-22-4-27-15-2-4-3-9-2-13 7 0 15 3 20 9 6 7 8 13 9 19z'/%3E%3Cpath d='M108 92c0 0-18-8-29-25'/%3E%3Cpath d='M70 118c6-7 6-16 1-24-2-3-5-6-8-7-2 6-1 13 3 19 4 6 8 10 4 12z' transform='rotate(20 70 105)'/%3E%3C/g%3E%3C/svg%3E");
-  background-size: 190px 190px;
-  background-repeat: repeat;
-  -webkit-mask-image: linear-gradient(to left, #000 30%, transparent 100%);
-  mask-image: linear-gradient(to left, #000 30%, transparent 100%);
-  pointer-events: none;
-}
-.zcta .wrap {
-  position: relative;
-  z-index: 2;
-}
-.zcta h2 {
-  font-size: clamp(1.7rem, 4vw, 2.6rem);
-  text-transform: uppercase;
-  margin-bottom: 14px;
-}
-.zcta h2 b {
-  color: #fff;
-  text-decoration: underline;
-  text-decoration-color: rgba(255, 255, 255, 0.4);
-  text-underline-offset: 6px;
-}
-.zcta p {
-  color: rgba(255, 255, 255, 0.9);
-  max-width: 520px;
-  margin: 0 auto 28px;
-  font-weight: 300;
-}
-.zcta-btns {
-  display: flex;
-  gap: 12px;
-  justify-content: center;
-  flex-wrap: wrap;
+  background: var(--green-btn-hover);
 }
 
 /* ===== RESPONSIVE ===== */
@@ -521,5 +409,43 @@
 @media (max-width: 600px) {
   .zgrid {
     grid-template-columns: 1fr;
+  }
+}
+
+/* ===== VODICI: sekcije kao kartice ===== */
+.zoo .cat-block .intro-box {
+  background: var(--white);
+  border-left: 0;
+  border-radius: 10px;
+  box-shadow: var(--card-shadow);
+  padding: 24px 28px;
+}
+.zoo .cat-block .intro-box p,
+.zoo .cat-block .intro-box li {
+  color: var(--ink-soft);
+  line-height: 1.75;
+}
+.gk-h {
+  font-family: 'Poppins', 'Jost Variable', sans-serif;
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--green-ink);
+  margin-bottom: 8px;
+}
+nav.breadcrumb-bar {
+  background: none;
+  border-bottom: 0;
+  padding: 20px 0 0;
+}
+@media (max-width: 560px) {
+  .zoo .cat-block .intro-box {
+    padding: 20px;
+  }
+}
+@media (max-width: 640px) {
+  .pills {
+    justify-content: flex-start;
   }
 }

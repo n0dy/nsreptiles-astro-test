@@ -1,0 +1,119 @@
+{
+  "seo": {
+    "title": "Leopard Gecko — Breeding and Care Guide | NS Reptiles",
+    "description": "All about the leopard gecko: terrarium, temperature, diet and breeding. A complete breeding and care guide for this popular lizard species.",
+    "keywords": "leopard gecko, leopard gecko care, leopard gecko for sale, leopard gecko price, leopard gecko Serbia, leopard gecko Novi Sad, leopard gecko terrarium, leopard gecko diet, leopard gecko breeding, leopard gecko morphs, NS Reptiles",
+    "ogDescription": "All about the leopard gecko: terrarium, temperature, diet and breeding. A complete breeding and care guide."
+  },
+  "article": {
+    "headline": "Leopard Gecko — Breeding and Care Guide",
+    "description": "All about the leopard gecko: terrarium, temperature, diet and breeding. A complete breeding and care guide."
+  },
+  "name": "Leopard gecko",
+  "schemaName": "Leopard Gecko",
+  "lead": "Popular, calm-natured and easy to care for — an ideal choice for beginners and experienced breeders alike.",
+  "photoAlt": "Leopard gecko in a terrarium — NS Reptiles Novi Sad",
+  "intro": "The leopard gecko is one of the most commonly kept gecko species in the world. They are very popular because of their calm nature, how easily they tame and how simple they are to care for. There are many morphs — various color and pattern variations — which make them especially attractive pets. Prices start at €30 for a normal baby and go up to a few hundred euros for rare morphs.",
+  "sections": [
+    {
+      "title": "Origin and <b>habitat</b>",
+      "boxes": [
+        {
+          "title": "Origin",
+          "p": [
+            "Pakistan, Afghanistan, western India."
+          ]
+        },
+        {
+          "title": "Habitat",
+          "p": [
+            "Dry, semi-desert regions. Rocky areas with the occasional dry plant on parched ground."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Appearance and <b>behavior</b>",
+      "boxes": [
+        {
+          "title": "Size and appearance",
+          "p": [
+            "A medium-sized, nocturnal gecko. They grow up to 25cm. Their base color is yellowish with white and lots of black spots. There are various morphs — color and pattern variants — so they come in all kinds of colors: from completely white to orange and yellow, with different eye and tail colors. They have a thick tail where they store excess fat."
+          ]
+        },
+        {
+          "title": "Behavior",
+          "p": [
+            "This gecko species is ideal for handling — they are extremely calm. Since it is a nocturnal species, they are mostly more active once it gets dark and the lights go off. During the day they are active if they are looking for food or need to shed."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Terrarium and <b>substrate</b>",
+      "boxes": [
+        {
+          "title": "Terrarium",
+          "p": [
+            "The minimum terrarium size for one adult is around 50x30x25cm. The terrarium does not need to be tall because they rarely climb — a larger floor area is better."
+          ]
+        },
+        {
+          "title": "Substrate",
+          "p": [
+            "Several types of substrate can be used: newspaper, paper, sand, small pebbles. Coco peat is recommended as the safest choice. Sand can sometimes cause problems because the gecko tends to swallow it, which can lead to constipation and digestive tract problems."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Temperature and <b>conditions</b>",
+      "boxes": [
+        {
+          "title": "Temperature",
+          "p": [
+            "You should create a temperature gradient by heating only one part of the terrarium with a heat mat or a lamp. The warm side should be around 32–33°C, while the cooler side can be 20–25°C or even lower. In winter they can be hibernated at 13–19°C without heating."
+          ]
+        },
+        {
+          "title": "Lighting",
+          "p": [
+            "Since this is a nocturnal species, UV light is not needed. If you have a lamp heating the terrarium, that is quite enough. If you heat with a mat, the light available in the room is quite enough."
+          ]
+        },
+        {
+          "title": "Humidity and water",
+          "p": [
+            "They do not need elevated humidity. It is enough for them to have a water bowl and a hide that is always accessible, with moist peat inside, where they will retreat before shedding or when laying eggs. The water bowl must always be available."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Diet",
+      "boxes": [
+        {
+          "p": [
+            "The leopard gecko is a carnivore and feeds only on insects. Young geckos eat small mealworms, lateralis roaches and crickets, and even small dubia roaches. As they grow, the prey size increases too. Adults can eat adult lateralis roaches, male dubia roaches (because they are slimmer) and large nymphs. Gravid females can occasionally be given a newborn or 2–3-day-old baby mouse."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Breeding",
+      "boxes": [
+        {
+          "p": [
+            "A cooling period is necessary if you want to breed leopard geckos. This period should last about 2–3 months. Feeding stops sometime in December, and the heaters are turned off 2–3 weeks later so that all food is digested before hibernation — otherwise serious problems can occur. Heating is turned back on in February. Within 7 days the lizards regain their appetite and become active.",
+            "Before mating, the female should reach about 45–50g. Mating usually happens right after the pair is put together or within the next 2–3 days. Eggs can be expected within 2–4 weeks. Incubation takes about 60 days at 27.5–28.5°C. The sex can be determined by the incubation temperature: at 27.5–29°C females hatch, at 29–31°C mixed sexes, and at 31–33°C males. The young should be fed the same insects as adults, just in proportion to their size — insects should not be larger than the distance between the gecko's eyes."
+          ],
+          "spaced": true
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "text": "For questions about getting a leopard gecko, its care or equipment — we are here. Give us a call or send a message.",
+    "waText": "I'm interested in a leopard gecko"
+  }
+}

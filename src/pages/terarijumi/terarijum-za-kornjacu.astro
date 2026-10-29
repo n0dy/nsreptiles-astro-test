@@ -1,4 +1,5 @@
 ---
+import { twoTone } from '../../lib/two-tone';
 import Base from '../../layouts/Base.astro';
 import '../../styles/animals.css';
 import '../../styles/usluge.css';
@@ -105,9 +106,9 @@ const schema = [
   translations={translationsFor("/terarijumi/terarijum-za-kornjacu.html")}
   schema={schema}
 >
-<section class="page-head">
+<section class="page-head" style="--ph-img: url(/style/img/izrada/terarijum.webp); --ph-img-sm: url(/style/img/izrada/terarijum.webp)">
       <div class="wrap">
-        <h1>Terarijum za kornjacu</h1>
+        <h1 set:html={twoTone('Terarijum za kornjacu')} />
         <p>
           Ter-akvarijum — stakleni dom sa kopnenim i vodenim delom — jedini je pravi
           izbor za poluvodene kornjace. U ovom vodicu prolazimo kroz dimenzije,
@@ -131,7 +132,7 @@ const schema = [
     </section>
 <section class="usl">
       <div class="wrap">
-        <h2 class="sec-title reveal">Sta je ter-akvarijum</h2>
+        <h2 class="sec-title reveal" set:html={twoTone('Sta je ter-akvarijum')} />
 
         <div class="animal-detail-grid">
 
@@ -185,7 +186,7 @@ const schema = [
     </section>
 <section class="usl" style="background: var(--bg);">
       <div class="wrap">
-        <h2 class="sec-title reveal">Koliko velik treba da bude ter-akvarijum</h2>
+        <h2 class="sec-title reveal" set:html={twoTone('Koliko velik treba da bude ter-akvarijum')} />
 
         <div class="proc">
 
@@ -233,7 +234,7 @@ const schema = [
     </section>
 <section class="usl">
       <div class="wrap">
-        <h2 class="sec-title reveal">Neophodna oprema</h2>
+        <h2 class="sec-title reveal" set:html={twoTone('Neophodna oprema')} />
 
         <div class="proc">
 
@@ -311,7 +312,7 @@ const schema = [
     </section>
 <section class="usl" style="background: var(--bg);">
       <div class="wrap">
-        <h2 class="sec-title reveal">Kako urediti ter-akvarijum</h2>
+        <h2 class="sec-title reveal" set:html={twoTone('Kako urediti ter-akvarijum')} />
 
         <div class="animal-detail-grid">
 
@@ -361,7 +362,7 @@ const schema = [
     </section>
 <section class="usl">
       <div class="wrap">
-        <h2 class="sec-title reveal">Ceste greske kod postavljanja ter-akvarijuma</h2>
+        <h2 class="sec-title reveal" set:html={twoTone('Ceste greske kod postavljanja ter-akvarijuma')} />
 
         <div class="proc">
 
@@ -435,7 +436,7 @@ const schema = [
     </section>
 <section class="usl" style="background: var(--bg);">
       <div class="wrap">
-        <h2 class="sec-title reveal">Cesta pitanja</h2>
+        <h2 class="sec-title reveal" set:html={twoTone('Cesta pitanja')} />
 
         <div class="proc">
 
@@ -523,7 +524,7 @@ const schema = [
           bez pretpostavki i bez gresaka. Ter-akvarijume izradjujemo po meri.
         </p>
         <div class="zcta-btns">
-          <a href="https://wa.me/381693301474?text=Zdravo%2C%20zanima%20me%20ter-akvarijum%20za%20kornjacu" target="_blank" rel="noopener" class="btn" style="background: #fff; color: var(--green-dark)" onclick="gtag('event', 'kontakt_click', {'metod': 'whatsapp_cta'})">WhatsApp</a>
+          <a href="https://wa.me/381693301474?text=Zdravo%2C%20zanima%20me%20ter-akvarijum%20za%20kornjacu" target="_blank" rel="noopener" class="btn btn-primary" onclick="gtag('event', 'kontakt_click', {'metod': 'whatsapp_cta'})">WhatsApp</a>
           <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event', 'telefon_click', {'metod': 'poziv_cta'})">+381 69 330 1474</a>
         </div>
       </div>
