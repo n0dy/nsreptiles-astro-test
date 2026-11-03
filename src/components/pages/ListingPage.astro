@@ -73,7 +73,7 @@ const countText = (n: number) => `${n} ${ui.count[plural.select(n) as keyof type
     <div class="intro-box"><p set:html={l.intro[lang]} /></div>
   </div>
 </section>
-<section class="op-shop">
+<section class={`op-shop op-shop--${listing}`}>
   <div class="wrap op-layout">
     <aside class="op-side" aria-label={ui.filters}>
       <div class="op-search">

@@ -1205,11 +1205,10 @@ header.nav,
   max-width: none;
 }
 .faq-item {
-  border-radius: 8px;
-  box-shadow: var(--card-shadow);
-  margin-bottom: 12px;
-  overflow: hidden;
-  background: var(--white);
+  border-bottom: 1px solid var(--silver);
+}
+.faq-item:first-child {
+  border-top: 1px solid var(--silver);
 }
 .faq-q {
   width: 100%;
@@ -1217,7 +1216,8 @@ header.nav,
   background: none;
   border: none;
   cursor: pointer;
-  padding: 20px 24px;
+  padding: 22px 0;
+  transition: color 0.2s ease;
   font-family: 'Poppins', 'Jost Variable', sans-serif;
   font-weight: 500;
   font-size: 1rem;
@@ -1238,13 +1238,21 @@ header.nav,
 .faq-item.open .faq-q .ic {
   transform: rotate(45deg);
 }
+.faq-q:hover,
+.faq-item.open .faq-q {
+  color: var(--green-ink);
+}
+.faq-q:focus-visible {
+  outline: 2px solid var(--green-ink);
+  outline-offset: 2px;
+}
 .faq-a {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.35s ease;
 }
 .faq-a p {
-  padding: 0 24px 20px;
+  padding: 0 40px 22px 0;
   color: var(--ink-soft);
   font-size: 0.96rem;
   font-weight: 300;
@@ -2362,6 +2370,14 @@ body.gallery-page .gal-grid {
 /* ===== DOGAĐAJI / RADOVI GRID ===== */
 .events {
   background: var(--bg);
+}
+.events .op-img,
+.op-shop--oprema .op-img {
+  background: #fff;
+}
+.events .op-img img,
+.op-shop--oprema .op-img img {
+  filter: none;
 }
 .ev-track {
   display: flex;

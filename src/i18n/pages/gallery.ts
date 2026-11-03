@@ -1,11 +1,13 @@
 import type { Locale } from '../../config/site';
 
 interface Item {
-  /** /style/img/gallery/<img>.jpg */
-  img: number;
+  /** /style/img/gallery/nova/<img>.webp */
+  img: string;
   size?: 'gal-big' | 'gal-tall' | 'gal-wide';
+  /** object-position kad crop odseče glavu */
+  pos?: string;
   /** filter grupa za main.js */
-  cat: 'guster' | 'zmija';
+  cat: 'guster' | 'zmija' | 'ostalo';
   small: string;
   name: string;
 }
@@ -52,54 +54,50 @@ export const GALLERY: Record<
   },
 };
 
-// Raspored i potpisi se razlikuju po jeziku (tako su strane i objavljene)
-export const GALLERY_ITEMS: Record<Locale, Item[]> = {
-  sr: [
-    { img: 2, size: 'gal-big', cat: 'guster', small: 'Gušter', name: 'Bradata agama' },
-    { img: 1, cat: 'zmija', small: 'Zmija', name: 'Loptasti piton' },
-    { img: 14, cat: 'guster', small: 'Gušter', name: 'Leopard gekon' },
-    { img: 3, cat: 'guster', small: 'Gušter', name: 'Leopard gekon' },
-    { img: 7, size: 'gal-tall', cat: 'zmija', small: 'Zmija', name: 'Loptasti piton' },
-    { img: 4, cat: 'guster', small: 'Gušter', name: 'Bradata agama' },
-    { img: 9, size: 'gal-wide', cat: 'zmija', small: 'Zmija', name: 'Kukuruzni smuk' },
-    { img: 13, size: 'gal-big', cat: 'guster', small: 'Gušter', name: 'Vodena agama' },
-    { img: 6, cat: 'guster', small: 'Gušter', name: 'Bradata agama' },
-    { img: 5, size: 'gal-tall', cat: 'zmija', small: 'Zmija', name: 'Loptasti piton' },
-    { img: 10, cat: 'guster', small: 'Gušter', name: 'Leopard gekon' },
-    { img: 8, cat: 'guster', small: 'Gušter', name: 'Bradata agama' },
-    { img: 12, size: 'gal-wide', cat: 'zmija', small: 'Zmija', name: 'Loptasti piton' },
-    { img: 11, cat: 'guster', small: 'Gušter', name: 'Bradata agama' },
-  ],
-  en: [
-    { img: 2, size: 'gal-tall', cat: 'guster', small: 'Lizard', name: 'Bearded Dragon' },
-    { img: 13, size: 'gal-big', cat: 'guster', small: 'Lizard', name: 'Water Dragon' },
-    { img: 3, cat: 'guster', small: 'Lizard', name: 'Leopard Gecko' },
-    { img: 1, cat: 'zmija', small: 'Snake', name: 'Ball Python' },
-    { img: 14, cat: 'guster', small: 'Lizard', name: 'Leopard Gecko' },
-    { img: 9, size: 'gal-wide', cat: 'zmija', small: 'Snake', name: 'Corn Snake' },
-    { img: 7, size: 'gal-tall', cat: 'zmija', small: 'Snake', name: 'Ball Python' },
-    { img: 6, cat: 'guster', small: 'Lizard', name: 'Bearded Dragon' },
-    { img: 10, cat: 'guster', small: 'Lizard', name: 'Leopard Gecko' },
-    { img: 8, cat: 'guster', small: 'Lizard', name: 'Bearded Dragon' },
-    { img: 4, size: 'gal-big', cat: 'guster', small: 'Lizard', name: 'Bearded Dragon' },
-    { img: 5, cat: 'zmija', small: 'Snake', name: 'Corn Snake' },
-    { img: 11, cat: 'guster', small: 'Lizard', name: 'Leopard Gecko' },
-    { img: 12, size: 'gal-wide', cat: 'guster', small: 'Lizard', name: 'Water Dragon' },
-  ],
-  ru: [
-    { img: 2, size: 'gal-big', cat: 'guster', small: 'Ящерица', name: 'Бородатая агама' },
-    { img: 1, cat: 'zmija', small: 'Змея', name: 'Шаровидный питон' },
-    { img: 14, cat: 'guster', small: 'Ящерица', name: 'Леопардовый геккон' },
-    { img: 3, size: 'gal-tall', cat: 'guster', small: 'Ящерица', name: 'Леопардовый геккон' },
-    { img: 4, cat: 'guster', small: 'Ящерица', name: 'Бородатая агама' },
-    { img: 9, size: 'gal-wide', cat: 'zmija', small: 'Змея', name: 'Маисовый полоз' },
-    { img: 5, cat: 'guster', small: 'Ящерица', name: 'Водяная агама' },
-    { img: 6, cat: 'guster', small: 'Ящерица', name: 'Бородатая агама' },
-    { img: 7, size: 'gal-tall', cat: 'zmija', small: 'Змея', name: 'Шаровидный питон' },
-    { img: 8, cat: 'guster', small: 'Ящерица', name: 'Бородатая агама' },
-    { img: 10, size: 'gal-big', cat: 'guster', small: 'Ящерица', name: 'Леопардовый геккон' },
-    { img: 11, cat: 'zmija', small: 'Змея', name: 'Маисовый полоз' },
-    { img: 12, cat: 'guster', small: 'Ящерица', name: 'Водяная агама' },
-    { img: 13, size: 'gal-wide', cat: 'guster', small: 'Ящерица', name: 'Водяная агама' },
-  ],
+type Kind = 'agama' | 'leopard' | 'crested' | 'debelorepi' | 'vodena' | 'piton' | 'smuk' | 'skorpion';
+
+const KINDS: Record<Kind, { cat: Item['cat']; name: Record<Locale, string> }> = {
+  agama: { cat: 'guster', name: { sr: 'Bradata agama', en: 'Bearded Dragon', ru: 'Бородатая агама' } },
+  leopard: { cat: 'guster', name: { sr: 'Leopard gekon', en: 'Leopard Gecko', ru: 'Леопардовый геккон' } },
+  crested: { cat: 'guster', name: { sr: 'Crested gekon', en: 'Crested Gecko', ru: 'Реснитчатый геккон' } },
+  debelorepi: { cat: 'guster', name: { sr: 'Debelorepi gekon', en: 'African Fat-tailed Gecko', ru: 'Толстохвостый геккон' } },
+  vodena: { cat: 'guster', name: { sr: 'Vodena agama', en: 'Water Dragon', ru: 'Водяная агама' } },
+  piton: { cat: 'zmija', name: { sr: 'Loptasti piton', en: 'Ball Python', ru: 'Королевский питон' } },
+  smuk: { cat: 'zmija', name: { sr: 'Kukuruzni smuk', en: 'Corn Snake', ru: 'Маисовый полоз' } },
+  skorpion: { cat: 'ostalo', name: { sr: 'Škorpion', en: 'Scorpion', ru: 'Скорпион' } },
 };
+
+const SMALL: Record<Item['cat'], Record<Locale, string>> = {
+  guster: { sr: 'Gušter', en: 'Lizard', ru: 'Ящерица' },
+  zmija: { sr: 'Zmija', en: 'Snake', ru: 'Змея' },
+  ostalo: { sr: 'Beskičmenjak', en: 'Invertebrate', ru: 'Беспозвоночное' },
+};
+
+const LAYOUT: { img: string; kind: Kind; size?: Item['size']; pos?: string }[] = [
+  { img: 'bradata-agama-1', kind: 'agama', size: 'gal-big' },
+  { img: 'loptasti-piton-1', kind: 'piton' },
+  { img: 'leopard-gekon-1', kind: 'leopard' },
+  { img: 'debelorepi-gekon', kind: 'debelorepi', size: 'gal-wide' },
+  { img: 'kukuruzni-smuk', kind: 'smuk' },
+  { img: 'crested-gekon', kind: 'crested', pos: 'right' },
+  { img: 'skorpion-1', kind: 'skorpion', size: 'gal-big' },
+  { img: 'bradata-agama-2', kind: 'agama', pos: 'right' },
+  { img: 'leopard-gekon-2', kind: 'leopard' },
+  { img: 'loptasti-piton-2', kind: 'piton', size: 'gal-wide' },
+  { img: 'vodena-agama', kind: 'vodena' },
+  { img: 'bradata-agama-3', kind: 'agama' },
+  { img: 'leopard-gekon-3', kind: 'leopard', size: 'gal-big' },
+  { img: 'piton', kind: 'piton' },
+  { img: 'bradata-agama-4', kind: 'agama' },
+  { img: 'skorpion-2', kind: 'skorpion', size: 'gal-wide' },
+  { img: 'loptasti-piton-3', kind: 'piton', size: 'gal-wide' },
+  { img: 'bradata-agama-5', kind: 'agama', size: 'gal-wide' },
+];
+
+const itemsFor = (lang: Locale): Item[] =>
+  LAYOUT.map(({ img, kind, size, pos }) => {
+    const { cat, name } = KINDS[kind];
+    return { img, size, pos, cat, small: SMALL[cat][lang], name: name[lang] };
+  });
+
+export const GALLERY_ITEMS: Record<Locale, Item[]> = { sr: itemsFor('sr'), en: itemsFor('en'), ru: itemsFor('ru') };

@@ -179,7 +179,7 @@ const business = {
     <div class="gal-grid">
       {GALLERY.map((g) => (
         <div class={`gal-item${g.size ? ` gal-${g.size}` : ''}`} data-cat={g.cat}>
-          <img loading="lazy" decoding="async" src={g.img} alt={g.name[lang]} />
+          <img loading="lazy" decoding="async" src={g.img} width="1600" height="900" style={g.pos && `object-position: ${g.pos}`} alt={g.name[lang]} />
           <div class="cap"><small>{g.cat === 'zmija' ? t.gallery.snake : t.gallery.lizard}</small><b>{g.name[lang]}</b></div>
         </div>
       ))}
