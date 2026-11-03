@@ -145,18 +145,18 @@ export const REPTILES: { img: string; name: L }[] = [
   { img: '/style/img/reptili/vodena.webp', name: SPECIES.vodena },
 ];
 
-export const GALLERY: { img: string; cat: 'guster' | 'zmija'; size?: 'tall' | 'big' | 'wide'; name: L }[] = [
-  { img: '/style/img/gallery/11.jpg', cat: 'guster', size: 'tall', name: SPECIES.bradata },
-  { img: '/style/img/gallery/14.jpg', cat: 'guster', name: SPECIES.leopard },
-  { img: '/style/img/gallery/5.jpg', cat: 'zmija', size: 'wide', name: SPECIES.piton },
-  { img: '/style/img/gallery/10.jpg', cat: 'guster', name: SPECIES.leopard },
-  { img: '/style/img/gallery/12.jpg', cat: 'zmija', name: SPECIES.piton },
-  { img: '/style/img/gallery/6.jpg', cat: 'guster', name: SPECIES.bradata },
+export const GALLERY: { img: string; cat: 'guster' | 'zmija'; size?: 'tall' | 'big' | 'wide'; pos?: string; name: L }[] = [
+  { img: '/style/img/gallery/nova/bradata-agama-4.webp', cat: 'guster', size: 'tall', pos: 'calc(100% + 150px) center', name: SPECIES.bradata },
+  { img: '/style/img/gallery/nova/leopard-gekon-3.webp', cat: 'guster', name: SPECIES.leopard },
+  { img: '/style/img/gallery/nova/loptasti-piton-1.webp', cat: 'zmija', size: 'wide', name: SPECIES.piton },
+  { img: '/style/img/gallery/nova/leopard-gekon-1.webp', cat: 'guster', name: SPECIES.leopard },
+  { img: '/style/img/gallery/nova/kukuruzni-smuk.webp', cat: 'zmija', name: SPECIES.smuk },
+  { img: '/style/img/gallery/nova/bradata-agama-5.webp', cat: 'guster', pos: 'right', name: SPECIES.bradata },
 ];
 
 export const SERVICES: { img: string; title: L; text: L }[] = [
   {
-    img: '/style/img/gallery/2.jpg',
+    img: '/style/img/gallery/nova/odgajivacnica.webp',
     title: { sr: 'Odgajivačnica', en: 'Breeding Facility', ru: 'Питомник' },
     text: {
       sr: 'Selektivan uzgoj više vrsta egzotičnih kućnih ljubimaca - bradate agame, leopard gekoni, loptasti pitoni i kukuruzni smukovi. Zdrave i pitome jedinke.',
@@ -165,7 +165,7 @@ export const SERVICES: { img: string; title: L; text: L }[] = [
     },
   },
   {
-    img: '/style/img/gallery/11.jpg',
+    img: '/style/img/gallery/nova/terarijumi.webp',
     title: { sr: 'Terarijumi', en: 'Terrariums', ru: 'Террариумы' },
     text: {
       sr: 'Izrađujemo terarijume od stakla i iverice po meri i želji, sa ugrađenom UVB/UVA rasvetom. Pored toga u ponudi imamo preko 70 različitih modela.',
@@ -174,7 +174,7 @@ export const SERVICES: { img: string; title: L; text: L }[] = [
     },
   },
   {
-    img: '/style/img/gallery/4.jpg',
+    img: '/style/img/gallery/nova/akvarijumi.webp',
     title: { sr: 'Akvarijumi', en: 'Aquariums', ru: 'Аквариумы' },
     text: {
       sr: 'Akvarijumi svih dimenzija po meri - za ribice, kornjače ili biljni akvarijum. LED rasveta sa dnevnim/noćnim režimom i kompletnom opremom.',
@@ -183,7 +183,7 @@ export const SERVICES: { img: string; title: L; text: L }[] = [
     },
   },
   {
-    img: '/style/img/gallery/8.jpg',
+    img: '/style/img/gallery/nova/3d-pozadine.webp',
     title: { sr: '3D pozadine', en: '3D Backgrounds', ru: '3D фоны' },
     text: {
       sr: 'Izrađujemo od najkvalitetnijih materijala - prirodni siga kamen, imitacija stene, kombinacija treseta i kore od drveta, ili 3D logo vašeg brenda/firme.',
