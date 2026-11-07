@@ -18,3 +18,6 @@
 /korpa.html                           /kontakt.html                        301
 /en/cart.html                         /en/contact.html                     301
 /ru/cart.html                         /ru/contact.html                     301
+
+# Cloudflare Workers sa html_handling none ne servira / sam
+/  /index.html  200
