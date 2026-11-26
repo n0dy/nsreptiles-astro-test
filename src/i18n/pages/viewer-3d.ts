@@ -13,7 +13,7 @@ export const VIEWER_3D = {
         '3D pregled terarijuma - rotirajte, zumirajte i prilagodite boje. Pogledajte terarijum u svom prostoru kroz AR. NS Reptiles Novi Sad.',
     },
     h1: '3D Pregled Terarijuma',
-    lead: 'Rotirajte, zumirajte i prilagodite boje terarijuma. Otvorite vrata i poklopac, izaberite teksturu drveta, a na telefonu ga pogledajte u svom prostoru kroz AR.',
+    lead: 'Zadajte dimenzije, izaberite izvedbu, boju folije i 3D pozadinu, pa dodajte supstrat i dekoraciju iz naše ponude. Na telefonu terarijum možete da pogledate u svom prostoru kroz AR.',
     loading: 'Učitavanje 3D modela...',
     hintTouch: 'Vuci za rotaciju • Pinch za zoom',
     hintDesktop: 'Vuci za rotaciju • Scroll za zoom • Desni klik za pomeranje',
@@ -24,7 +24,7 @@ export const VIEWER_3D = {
     helpAr: { title: 'Pogledaj u prostoru (AR)', text: 'Postavi terarijum u svoj prostor kroz kameru telefona. Dostupno samo na mobilnom.' },
     helpDoors: { title: 'Vrata', text: 'Pomeri slidere da otvoriš levo i desno klizno staklo terarijuma.' },
     helpLid: { title: 'Poklopac', text: 'Klikni dugme gore levo da otvoriš ili zatvoriš poklopac terarijuma.' },
-    helpTexture: { title: 'Tekstura', text: 'Biraj između 5 boja drveta: trešnja, mahagonij, belo drvo, tamni hrast i bambus.' },
+    helpTexture: { title: 'Tekstura', text: 'Izaberi jednu od 12 boja drveta za dekorativnu foliju.' },
     close: 'Zatvori',
     modelAlt: '3D model terarijuma',
     shot: 'Slikaj i preuzmi',
@@ -35,13 +35,34 @@ export const VIEWER_3D = {
     rightGlass: 'Desno staklo',
     texture: 'Tekstura',
     dimensions: 'Dimenzije',
+    build: 'Izvedba',
+    background: 'Pozadina',
+    decor: 'Dekoracija',
+    substrate: 'Supstrat',
+    substrateDepth: 'Visina supstrata',
+    substrateDepthAria: 'Visina supstrata u cm',
+    fromOffer: 'Iz naše ponude',
+    remove: 'Ukloni',
+    removeTitle: 'Ukloni (Delete)',
+    angle: 'Ugao',
+    angleAria: 'Ugao dekoracije u stepenima',
+    decorHint: 'Prevuci dekoraciju da je pomeriš, a zeleni prsten oko nje da je okreneš.',
     // stringovi koje koristi module skripta (stize kao JSON)
     js: {
-      woods: ['Trešnja', 'Mahagonij', 'Belo drvo', 'Tamni hrast', 'Bambus'],
+      woods: ['Trešnja', 'Mahagonij', 'Belo drvo', 'Tamni hrast', 'Bambus', 'Espreso orah', 'Dimljeni hrast', 'Javor', 'Orah', 'Jasen', 'Venge', 'Sivi hrast'],
       dims: ['Dužina', 'Širina', 'Visina'],
       unit: 'cm',
-      loadingPct: 'Učitavanje: ',
-      loadError: 'Greška pri učitavanju modela.',
+      inUnit: ' u cm',
+      build: {
+        open: ['Otvaranje', 'Klizna vrata', 'Poklopac'],
+        topVent: ['Ventilacija gore', 'Mrežica', 'Plastični ventilatori'],
+        sideVent: ['Ventilacija sa strane', 'Bez', 'Plastični ventilatori'],
+      },
+      bgNone: 'Bez pozadine',
+      bgBlack: 'Crna pozadina',
+      bgRelief: 'Pozadina',
+      substrates: ['Bez supstrata', 'Pesak', 'Treset'],
+      decor: ['Posuda godovi drveta', 'Skrivalica pećina'],
       download: 'terarijum-3d-pregled.png',
     },
   },
@@ -53,7 +74,7 @@ export const VIEWER_3D = {
       keywords: '3D terrarium viewer, terrarium AR, custom glass terrarium, terrarium configurator, NS Reptiles',
     },
     h1: '3D Terrarium Viewer',
-    lead: "Rotate, zoom and customize the terrarium's colors. Open the doors and the lid, choose a wood texture, and on your phone see it in your own space with AR.",
+    lead: 'Set the dimensions, choose the build, foil color and 3D background, then add substrate and decorations from our range. On your phone you can see the terrarium in your own space with AR.',
     loading: 'Loading 3D model...',
     hintTouch: 'Drag to rotate • Pinch to zoom',
     hintDesktop: 'Drag to rotate • Scroll to zoom • Right-click to pan',
@@ -64,7 +85,7 @@ export const VIEWER_3D = {
     helpAr: { title: 'View in your space (AR)', text: 'Place the terrarium in your own space using your phone camera. Available on mobile only.' },
     helpDoors: { title: 'Doors', text: 'Move the sliders to open the left and right sliding glass doors of the terrarium.' },
     helpLid: { title: 'Lid', text: 'Click the button in the top left to open or close the terrarium lid.' },
-    helpTexture: { title: 'Texture', text: 'Choose from 5 wood colors: cherry, mahogany, white wood, dark oak and bamboo.' },
+    helpTexture: { title: 'Texture', text: 'Choose one of 12 wood colors for the decorative foil.' },
     close: 'Close',
     modelAlt: '3D terrarium model',
     shot: 'Screenshot and download',
@@ -75,12 +96,33 @@ export const VIEWER_3D = {
     rightGlass: 'Right glass',
     texture: 'Texture',
     dimensions: 'Dimensions',
+    build: 'Build',
+    background: 'Background',
+    decor: 'Decoration',
+    substrate: 'Substrate',
+    substrateDepth: 'Substrate depth',
+    substrateDepthAria: 'Substrate depth in cm',
+    fromOffer: 'From our range',
+    remove: 'Remove',
+    removeTitle: 'Remove (Delete)',
+    angle: 'Angle',
+    angleAria: 'Decoration angle in degrees',
+    decorHint: 'Drag a decoration to move it, and drag the green ring around it to rotate it.',
     js: {
-      woods: ['Cherry', 'Mahogany', 'White wood', 'Dark oak', 'Bamboo'],
+      woods: ['Cherry', 'Mahogany', 'White wood', 'Dark oak', 'Bamboo', 'Espresso walnut', 'Smoked oak', 'Maple', 'Walnut', 'Ash', 'Wenge', 'Grey oak'],
       dims: ['Length', 'Width', 'Height'],
       unit: 'cm',
-      loadingPct: 'Loading: ',
-      loadError: 'Error loading the model.',
+      inUnit: ' in cm',
+      build: {
+        open: ['Opening', 'Sliding doors', 'Lid'],
+        topVent: ['Top ventilation', 'Mesh', 'Plastic vents'],
+        sideVent: ['Side ventilation', 'None', 'Plastic vents'],
+      },
+      bgNone: 'No background',
+      bgBlack: 'Black background',
+      bgRelief: 'Background',
+      substrates: ['No substrate', 'Sand', 'Peat'],
+      decor: ['Tree ring dish', 'Cave hide'],
       download: 'terrarium-3d-view.png',
     },
   },
@@ -93,7 +135,7 @@ export const VIEWER_3D = {
         '3D террариум, 3D-просмотр террариума, террариум AR, конфигуратор террариума, террариум на заказ Нови-Сад, NS Reptiles',
     },
     h1: '3D-просмотр террариума',
-    lead: 'Вращайте, приближайте и меняйте цвет террариума. Открывайте дверцы и крышку, выбирайте текстуру дерева, а на телефоне посмотрите его у себя в комнате через AR.',
+    lead: 'Задайте размеры, выберите исполнение, цвет плёнки и 3D-фон, затем добавьте субстрат и декор из нашего ассортимента. На телефоне террариум можно посмотреть у себя в комнате через AR.',
     loading: 'Загрузка 3D-модели...',
     hintTouch: 'Проведите для вращения • Щипок для масштаба',
     hintDesktop: 'Тяните для вращения • Колесо для масштаба • Правый клик для перемещения',
@@ -104,7 +146,7 @@ export const VIEWER_3D = {
     helpAr: { title: 'Посмотреть в комнате (AR)', text: 'Разместите террариум у себя в комнате через камеру телефона. Доступно только на мобильных устройствах.' },
     helpDoors: { title: 'Дверцы', text: 'Двигайте ползунки, чтобы открыть левое и правое раздвижное стекло террариума.' },
     helpLid: { title: 'Крышка', text: 'Нажмите кнопку слева вверху, чтобы открыть или закрыть крышку террариума.' },
-    helpTexture: { title: 'Текстура', text: 'Выбирайте из 5 цветов дерева: вишня, махагон, белое дерево, тёмный дуб и бамбук.' },
+    helpTexture: { title: 'Текстура', text: 'Выберите один из 12 цветов дерева для декоративной плёнки.' },
     close: 'Закрыть',
     modelAlt: '3D-модель террариума',
     shot: 'Сделать снимок и скачать',
@@ -115,12 +157,33 @@ export const VIEWER_3D = {
     rightGlass: 'Правое стекло',
     texture: 'Текстура',
     dimensions: 'Размеры',
+    build: 'Исполнение',
+    background: 'Фон',
+    decor: 'Декор',
+    substrate: 'Субстрат',
+    substrateDepth: 'Высота субстрата',
+    substrateDepthAria: 'Высота субстрата в см',
+    fromOffer: 'Из нашего ассортимента',
+    remove: 'Убрать',
+    removeTitle: 'Убрать (Delete)',
+    angle: 'Угол',
+    angleAria: 'Угол декора в градусах',
+    decorHint: 'Перетащите декор, чтобы переместить его, а зелёное кольцо вокруг него — чтобы повернуть.',
     js: {
-      woods: ['Вишня', 'Махагон', 'Белое дерево', 'Тёмный дуб', 'Бамбук'],
+      woods: ['Вишня', 'Махагон', 'Белое дерево', 'Тёмный дуб', 'Бамбук', 'Орех эспрессо', 'Копчёный дуб', 'Клён', 'Орех', 'Ясень', 'Венге', 'Серый дуб'],
       dims: ['Длина', 'Ширина', 'Высота'],
       unit: 'см',
-      loadingPct: 'Загрузка: ',
-      loadError: 'Ошибка при загрузке модели.',
+      inUnit: ' в см',
+      build: {
+        open: ['Открывание', 'Раздвижные дверцы', 'Крышка'],
+        topVent: ['Вентиляция сверху', 'Сетка', 'Пластиковые вентиляторы'],
+        sideVent: ['Вентиляция сбоку', 'Нет', 'Пластиковые вентиляторы'],
+      },
+      bgNone: 'Без фона',
+      bgBlack: 'Чёрный фон',
+      bgRelief: 'Фон',
+      substrates: ['Без субстрата', 'Песок', 'Торф'],
+      decor: ['Миска с годовыми кольцами', 'Укрытие пещера'],
       download: 'terarijum-3d-pregled.png',
     },
   },
@@ -133,7 +196,19 @@ export const VIEWER_3D = {
     helpDoors: HelpItem;
     helpLid: HelpItem;
     helpTexture: HelpItem;
-    js: { woods: string[]; dims: string[]; unit: string; loadingPct: string; loadError: string; download: string };
+    js: {
+      woods: string[];
+      dims: string[];
+      unit: string;
+      inUnit: string;
+      build: Record<'open' | 'topVent' | 'sideVent', string[]>;
+      bgNone: string;
+      bgBlack: string;
+      bgRelief: string;
+      substrates: string[];
+      decor: string[];
+      download: string;
+    };
     [k: string]: unknown;
   }
 >;

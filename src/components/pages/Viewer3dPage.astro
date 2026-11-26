@@ -28,850 +28,1073 @@ const path = localizePath('/3d.html', lang);
       </div>
     </section>
 <div id="viewer-page">
-      <div id="viewer-wrap">
-        <div id="loading">{t.loading}</div>
-        <div id="hint"></div>
-        <script is:inline define:vars={{ hintTouch: t.hintTouch, hintDesktop: t.hintDesktop }}>
-          document.getElementById('hint').textContent = window.innerWidth <= 1000
-            ? hintTouch
-            : hintDesktop;
-        </script>
+        <div id="viewer-wrap">
+            <div id="loading">{t.loading}</div>
+            <div id="hint"></div>
+            <script is:inline define:vars={{ hintTouch: t.hintTouch, hintDesktop: t.hintDesktop }}>
+                document.getElementById('hint').textContent = window.innerWidth <= 1000
+                    ? hintTouch
+                    : hintDesktop;
+            </script>
 
-        <button id="lid-button" title={t.lid}>
-          <svg class="lid-closed" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="2" y="6" width="20" height="2.5" rx="0.5"></rect>
-            <rect x="3" y="8.5" width="18" height="12" rx="1"></rect>
-            <line x1="9" y1="8.5" x2="9" y2="20.5" opacity="0.3"></line>
-            <line x1="15" y1="8.5" x2="15" y2="20.5" opacity="0.3"></line>
-          </svg>
-          <svg class="lid-open" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="2" y="4" width="20" height="2.5" rx="0.5"></rect>
-            <rect x="3" y="10" width="18" height="12" rx="1"></rect>
-            <line x1="3" y1="10" x2="21" y2="10"></line>
-            <line x1="9" y1="10" x2="9" y2="22" opacity="0.3"></line>
-            <line x1="15" y1="10" x2="15" y2="22" opacity="0.3"></line>
-          </svg>
-        </button>
+            <button id="lid-button" title={t.lid}>
+                <svg class="lid-closed" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="6" width="20" height="2.5" rx="0.5" />
+                    <rect x="3" y="8.5" width="18" height="12" rx="1" />
+                    <line x1="9" y1="8.5" x2="9" y2="20.5" opacity="0.3" />
+                    <line x1="15" y1="8.5" x2="15" y2="20.5" opacity="0.3" />
+                </svg>
+                <svg class="lid-open" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="4" width="20" height="2.5" rx="0.5" />
+                    <rect x="3" y="10" width="18" height="12" rx="1" />
+                    <line x1="3" y1="10" x2="21" y2="10" />
+                    <line x1="9" y1="10" x2="9" y2="22" opacity="0.3" />
+                    <line x1="15" y1="10" x2="15" y2="22" opacity="0.3" />
+                </svg>
+            </button>
 
-        <button id="help-button" title={t.help}>
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="10"></circle>
-            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
-            <line x1="12" y1="17" x2="12.01" y2="17"></line>
-          </svg>
-        </button>
+            <button id="help-button" title={t.help}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+                    <line x1="12" y1="17" x2="12.01" y2="17" />
+                </svg>
+            </button>
 
-        <div id="help-overlay">
-          <div id="help-popup">
-            <h2>{t.helpTitle}</h2>
-            <div class="help-item">
-              <div class="help-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
-                  <circle cx="12" cy="13" r="4"></circle>
-                </svg></div>
-              <div class="help-text">
-                <h4>{t.helpShot.title}</h4>
-                <p>{t.helpShot.text}</p>
-              </div>
+            <div id="help-overlay">
+                <div id="help-popup">
+                    <h2>{t.helpTitle}</h2>
+                    <div class="help-item">
+                        <div class="help-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+                                <circle cx="12" cy="13" r="4" />
+                            </svg></div>
+                        <div class="help-text">
+                            <h4>{t.helpShot.title}</h4>
+                            <p>{t.helpShot.text}</p>
+                        </div>
+                    </div>
+                    <div class="help-item">
+                        <div class="help-icon green"><svg viewBox="0 0 24 24" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M12 3l9 4.5v9L12 21l-9-4.5v-9L12 3z" />
+                                <path d="M12 12l9-4.5" />
+                                <path d="M12 12v9" />
+                                <path d="M12 12L3 7.5" />
+                            </svg></div>
+                        <div class="help-text">
+                            <h4>{t.helpAr.title}</h4>
+                            <p>{t.helpAr.text}</p>
+                        </div>
+                    </div>
+                    <div class="help-item">
+                        <div class="help-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="3" width="18" height="18" rx="2" />
+                                <path d="M9 3v18" />
+                                <path d="M15 3v18" />
+                            </svg></div>
+                        <div class="help-text">
+                            <h4>{t.helpDoors.title}</h4>
+                            <p>{t.helpDoors.text}</p>
+                        </div>
+                    </div>
+                    <div class="help-item">
+                        <div class="help-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" fill="none">
+                                <rect x="2" y="6" width="20" height="2.5" rx="0.5" />
+                                <rect x="3" y="8.5" width="18" height="12" rx="1" />
+                                <line x1="9" y1="8.5" x2="9" y2="20.5" opacity="0.3" />
+                                <line x1="15" y1="8.5" x2="15" y2="20.5" opacity="0.3" />
+                            </svg></div>
+                        <div class="help-text">
+                            <h4>{t.helpLid.title}</h4>
+                            <p>{t.helpLid.text}</p>
+                        </div>
+                    </div>
+                    <div class="help-item">
+                        <div class="help-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10" />
+                                <path d="M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10 15 15 0 0 1-4-10 15 15 0 0 1 4-10" />
+                            </svg></div>
+                        <div class="help-text">
+                            <h4>{t.helpTexture.title}</h4>
+                            <p>{t.helpTexture.text}</p>
+                        </div>
+                    </div>
+                    <button id="help-close">{t.close}</button>
+                </div>
             </div>
-            <div class="help-item">
-              <div class="help-icon green"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M12 3l9 4.5v9L12 21l-9-4.5v-9L12 3z"></path>
-                  <path d="M12 12l9-4.5"></path>
-                  <path d="M12 12v9"></path>
-                  <path d="M12 12L3 7.5"></path>
-                </svg></div>
-              <div class="help-text">
-                <h4>{t.helpAr.title}</h4>
-                <p>{t.helpAr.text}</p>
-              </div>
+
+            <div id="screenshot-flash"></div>
+
+            <!-- Skriveni model-viewer za AR -->
+            <model-viewer id="ar-model" ar ar-modes="webxr scene-viewer quick-look"
+                ar-scale="auto" camera-controls alt={t.modelAlt}></model-viewer>
+
+            <div id="viewer-actions">
+                <button id="screenshot-button" title={t.shot}>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+                        <circle cx="12" cy="13" r="4" />
+                    </svg>
+                </button>
+                <button id="ar-button" class="hidden" title={t.ar}>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 3l9 4.5v9L12 21l-9-4.5v-9L12 3z" />
+                        <path d="M12 12l9-4.5" />
+                        <path d="M12 12v9" />
+                        <path d="M12 12L3 7.5" />
+                    </svg>
+                </button>
             </div>
-            <div class="help-item">
-              <div class="help-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-                  <rect x="3" y="3" width="18" height="18" rx="2"></rect>
-                  <path d="M9 3v18"></path>
-                  <path d="M15 3v18"></path>
-                </svg></div>
-              <div class="help-text">
-                <h4>{t.helpDoors.title}</h4>
-                <p>{t.helpDoors.text}</p>
-              </div>
-            </div>
-            <div class="help-item">
-              <div class="help-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none">
-                  <rect x="2" y="6" width="20" height="2.5" rx="0.5"></rect>
-                  <rect x="3" y="8.5" width="18" height="12" rx="1"></rect>
-                  <line x1="9" y1="8.5" x2="9" y2="20.5" opacity="0.3"></line>
-                  <line x1="15" y1="8.5" x2="15" y2="20.5" opacity="0.3"></line>
-                </svg></div>
-              <div class="help-text">
-                <h4>{t.helpLid.title}</h4>
-                <p>{t.helpLid.text}</p>
-              </div>
-            </div>
-            <div class="help-item">
-              <div class="help-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-                  <circle cx="12" cy="12" r="10"></circle>
-                  <path d="M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10 15 15 0 0 1-4-10 15 15 0 0 1 4-10"></path>
-                </svg></div>
-              <div class="help-text">
-                <h4>{t.helpTexture.title}</h4>
-                <p>{t.helpTexture.text}</p>
-              </div>
-            </div>
-            <button id="help-close">{t.close}</button>
-          </div>
         </div>
 
-        <div id="screenshot-flash"></div>
-
-        <!-- Skriveni model-viewer za AR -->
-        <model-viewer id="ar-model" src="/3d/ter100x50x50.glb" ar="" ar-modes="webxr scene-viewer quick-look" ar-scale="auto" camera-controls="" alt={t.modelAlt}></model-viewer>
-
-        <div id="viewer-actions">
-          <button id="screenshot-button" title={t.shot}>
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
-              <circle cx="12" cy="13" r="4"></circle>
-            </svg>
-          </button>
-          <button id="ar-button" class="hidden" title={t.ar}>
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M12 3l9 4.5v9L12 21l-9-4.5v-9L12 3z"></path>
-              <path d="M12 12l9-4.5"></path>
-              <path d="M12 12v9"></path>
-              <path d="M12 12L3 7.5"></path>
-            </svg>
-          </button>
-        </div>
-      </div>
-
-      <div id="panel">
-        <button id="reset-button" title={t.reset}>
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="1 4 1 10 7 10"></polyline>
-            <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path>
-          </svg>
-        </button>
-        <div class="panel-header">
-          <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-              <rect x="3" y="3" width="18" height="18" rx="2"></rect>
-              <path d="M9 3v18"></path>
-              <path d="M15 3v18"></path>
-            </svg></div>
-          <h3>{t.doors}</h3>
-        </div>
-        <div class="door-controls">
-          <div class="door-control">
-            <div class="door-header">
-              <span>{t.leftGlass}</span>
-              <span class="door-value" id="door-left-value">0%</span>
+        <div id="panel">
+            <button id="reset-button" title={t.reset}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="1 4 1 10 7 10" />
+                    <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10" />
+                </svg>
+            </button>
+            <div class="panel-header">
+                <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <path d="M9 3v18" />
+                        <path d="M15 3v18" />
+                    </svg></div>
+                <h3>{t.doors}</h3>
             </div>
-            <input type="range" id="door-left-slider" min="0" max="100" value="0">
-          </div>
-          <div class="door-control">
-            <div class="door-header">
-              <span>{t.rightGlass}</span>
-              <span class="door-value" id="door-right-value">0%</span>
+            <div class="door-controls">
+                <div class="door-control">
+                    <div class="door-header">
+                        <span>{t.leftGlass}</span>
+                        <span class="door-value" id="door-left-value">0%</span>
+                    </div>
+                    <input type="range" id="door-left-slider" min="0" max="100" value="0">
+                </div>
+                <div class="door-control">
+                    <div class="door-header">
+                        <span>{t.rightGlass}</span>
+                        <span class="door-value" id="door-right-value">0%</span>
+                    </div>
+                    <input type="range" id="door-right-slider" min="0" max="100" value="0" style="direction:rtl">
+                </div>
             </div>
-            <input type="range" id="door-right-slider" min="0" max="100" value="0" style="direction:rtl">
-          </div>
+
+            <hr class="panel-divider">
+
+            <div class="panel-header">
+                <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="7" cy="8" r="2.5" />
+                        <circle cx="17" cy="8" r="2.5" />
+                        <circle cx="12" cy="16" r="2.5" />
+                    </svg></div>
+                <h3>{t.build}</h3>
+            </div>
+            <div id="build-options"></div>
+
+            <hr class="panel-divider">
+
+            <div class="panel-header">
+                <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10" />
+                        <path d="M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10 15 15 0 0 1-4-10 15 15 0 0 1 4-10" />
+                    </svg></div>
+                <h3>{t.texture}</h3>
+            </div>
+            <div class="color-grid" id="color-options"></div>
+
+            <hr class="panel-divider">
+
+            <div class="panel-header">
+                <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <path d="M3 16l5-5 4 4 3-3 6 6" />
+                    </svg></div>
+                <h3>{t.background}</h3>
+            </div>
+            <div class="color-grid" id="bg-options"></div>
+
+            <hr class="panel-divider">
+
+            <div class="panel-header">
+                <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M3 20h18" />
+                        <path d="M6 20c0-4 2-7 5-7s5 3 5 7" />
+                        <path d="M12 13V5" />
+                        <path d="M12 9c2-3 5-3 6-2" />
+                    </svg></div>
+                <h3>{t.decor}</h3>
+            </div>
+            <span class="opt-row-label">{t.substrate}</span>
+            <div class="color-grid" id="substrate-options"></div>
+            <div class="door-control substrate-depth" id="substrate-depth-row" hidden>
+                <div class="door-header">
+                    <span>{t.substrateDepth}</span>
+                    <span class="door-value" id="substrate-depth-value">4 cm</span>
+                </div>
+                <input type="range" id="substrate-depth" min="2" max="10" step="1" value="4" aria-label={t.substrateDepthAria}>
+            </div>
+            <span class="opt-row-label decor-label">{t.fromOffer}</span>
+            <div class="decor-grid" id="decor-options"></div>
+            <div class="decor-selected" id="decor-selected" hidden>
+                <div class="decor-selected-head">
+                    <span id="decor-selected-name"></span>
+                    <button type="button" id="decor-remove" title={t.removeTitle}>{t.remove}</button>
+                </div>
+                <div class="door-header">
+                    <span>{t.angle}</span>
+                    <span class="door-value" id="decor-angle-value">0°</span>
+                </div>
+                <input type="range" id="decor-angle" min="0" max="359" step="1" value="0" aria-label={t.angleAria}>
+            </div>
+            <p class="dim-hint decor-hint">{t.decorHint}</p>
+
+            <hr class="panel-divider">
+
+            <div class="panel-header">
+                <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 10H3M21 6H3M21 14H3M21 18H3" />
+                    </svg></div>
+                <h3>{t.dimensions}</h3>
+            </div>
+            <div class="dimensions-info" id="dimensions-info"></div>
         </div>
-
-        <hr class="panel-divider">
-
-        <div class="panel-header">
-          <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="10"></circle>
-              <path d="M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10 15 15 0 0 1-4-10 15 15 0 0 1 4-10"></path>
-            </svg></div>
-          <h3>{t.texture}</h3>
-        </div>
-        <div class="color-grid" id="color-options"></div>
-
-        <hr class="panel-divider">
-
-        <div class="panel-header">
-          <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M21 10H3M21 6H3M21 14H3M21 18H3"></path>
-            </svg></div>
-          <h3>{t.dimensions}</h3>
-        </div>
-        <div class="dimensions-info" id="dimensions-info"></div>
-      </div>
     </div>
 <style is:global>
-      #viewer-page {
-        display: flex;
-        width: 100%;
-        height: calc(100vh - 80px);
-        background-color: #fff;
-      }
-
-      #viewer-wrap {
-        position: relative;
-        flex: 7;
-        background: #e8e8e8;
-        overflow: hidden;
-      }
-
-      #viewer-wrap canvas {
-        display: block;
-        width: 100%;
-        height: 100%;
-      }
-
-      #loading {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 16px;
-        z-index: 20;
-        background: rgba(0, 0, 0, 0.8);
-        color: #fff;
-        padding: 16px 32px;
-        border-radius: 10px;
-        width: max-content;
-        font-family: 'Poppins', 'Jost Variable', sans-serif;
-      }
-
-      /* Panel */
-      #panel {
-        flex: 3;
-        background: #fff;
-        border-left: 1px solid #e5e5e5;
-        padding: 28px 22px;
-        overflow-y: auto;
-        display: none;
-        position: relative;
-      }
-
-      #panel h3 {
-        font-size: 12px;
-        margin: 0;
-        color: #666;
-        text-transform: uppercase;
-        letter-spacing: 1.5px;
-        font-weight: 700;
-        font-family: "Oswald", sans-serif;
-      }
-
-      #panel label {
-        font-size: 13px;
-        color: #555;
-        display: block;
-        margin-bottom: 4px;
-      }
-
-      #panel input[type="range"] {
-        width: 100%;
-        accent-color: #4aa584;
-        margin-bottom: 8px;
-      }
-
-      .panel-divider {
-        border: none;
-        border-top: 1px solid #e0e0e0;
-        margin: 16px 0;
-      }
-
-      /* Door controls */
-      .door-controls {
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
-      }
-
-      .door-control {
-        flex: 1;
-        background: #f8f8f8;
-        border-radius: 12px;
-        padding: 10px 12px 8px;
-        border: 1px solid #eee;
-      }
-
-      .door-header {
-        display: flex;
-        align-items: center;
-        gap: 6px;
-        margin-bottom: 6px;
-      }
-
-      .door-header span {
-        font-size: 13px;
-        color: #555;
-      }
-
-      .door-value {
-        margin-left: auto;
-        font-weight: 600;
-        color: #4aa584;
-        font-size: 12px;
-      }
-
-      .door-control input[type="range"] {
-        -webkit-appearance: none;
-        appearance: none;
-        width: 100%;
-        height: 24px;
-        margin: 0;
-        background: transparent;
-        cursor: pointer;
-        touch-action: none;
-      }
-
-      .door-control input[type="range"]::-webkit-slider-runnable-track {
-        height: 6px;
-        border-radius: 3px;
-        background: #4aa584;
-      }
-
-      .door-control input[type="range"]::-webkit-slider-thumb {
-        -webkit-appearance: none;
-        width: 18px;
-        height: 18px;
-        border-radius: 50%;
-        background: #fff;
-        border: 2px solid #4aa584;
-        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
-        margin-top: -6px;
-        transition: transform 0.15s, box-shadow 0.15s;
-      }
-
-      .door-control input[type="range"]::-webkit-slider-thumb:active {
-        transform: scale(1.15);
-        box-shadow: 0 2px 8px rgba(15, 143, 99, 0.3);
-      }
-
-      .door-control input[type="range"]::-moz-range-track {
-        height: 6px;
-        border-radius: 3px;
-        background: #4aa584;
-        border: none;
-      }
-
-      .door-control input[type="range"]::-moz-range-thumb {
-        width: 18px;
-        height: 18px;
-        border-radius: 50%;
-        background: #fff;
-        border: 2px solid #4aa584;
-        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
-      }
-
-      /* Poklopac toggle */
-      .lid-control {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 12px;
-      }
-
-      .lid-control span {
-        font-size: 13px;
-        color: #555;
-      }
-
-      .lid-toggle {
-        position: relative;
-        width: 48px;
-        height: 26px;
-        display: block;
-        cursor: pointer;
-      }
-
-      .lid-toggle input {
-        opacity: 0;
-        width: 0;
-        height: 0;
-        position: absolute;
-      }
-
-      .lid-track {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: #ddd;
-        border-radius: 13px;
-        transition: background 0.25s;
-      }
-
-      .lid-track:before {
-        content: "";
-        position: absolute;
-        width: 20px;
-        height: 20px;
-        left: 3px;
-        top: 3px;
-        background: #fff;
-        border-radius: 50%;
-        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-        transition: transform 0.25s;
-      }
-
-      .lid-toggle input:checked + .lid-track {
-        background: #4aa584;
-      }
-
-      .lid-toggle input:checked + .lid-track:before {
-        transform: translateX(22px);
-      }
-
-      /* Boje */
-      .color-grid {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 6px;
-      }
-
-      .color-swatch {
-        width: 44px;
-        height: 44px;
-        border-radius: 10px;
-        border: 2px solid transparent;
-        cursor: pointer;
-        transition: border-color 0.2s, transform 0.15s, box-shadow 0.2s;
-        padding: 0;
-        background: none;
-        position: relative;
-      }
-
-      .color-swatch:hover {
-        transform: scale(1.08);
-        border-color: #4aa584;
-      }
-
-      .color-swatch.active {
-        border-color: #4aa584;
-      }
-
-      .color-swatch .dot {
-        width: 100%;
-        height: 100%;
-        border-radius: 8px;
-        display: block;
-      }
-
-      .color-name {
-        font-size: 12px;
-        color: #888;
-        text-align: center;
-        margin-top: 4px;
-        display: block;
-      }
-
-      /* Reset dugme */
-      #reset-button {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        border: none;
-        background: #f0f0f0;
-        color: #999;
-        cursor: pointer;
-        display: none;
-        align-items: center;
-        justify-content: center;
-        transition: background 0.2s, color 0.2s, transform 0.15s;
-      }
-
-      #reset-button:hover {
-        background: #e0e0e0;
-        color: #555;
-        transform: scale(1.1);
-      }
-
-      #reset-button.visible {
-        display: flex;
-      }
-
-      /* Dimenzije */
-      .dimensions-info {
-        margin-top: 6px;
-        display: flex;
-        gap: 8px;
-      }
-
-      .dim-item {
-        flex: 1;
-        background: #f8f8f8;
-        border-radius: 10px;
-        border: 1px solid #eee;
-        padding: 8px;
-        text-align: center;
-      }
-
-      .dim-label {
-        font-size: 12px;
-        color: #999;
-        text-transform: uppercase;
-        letter-spacing: 0.5px;
-      }
-
-      .dim-value {
-        font-size: 15px;
-        font-weight: 700;
-        color: #333;
-        margin-top: 2px;
-      }
-
-      .dim-unit {
-        font-size: 12px;
-        color: #999;
-        font-weight: 400;
-      }
-
-      /* Info hint */
-      #hint {
-        position: absolute;
-        top: 16px;
-        left: 50%;
-        transform: translateX(-50%);
-        background: rgba(0, 0, 0, 0.6);
-        color: #fff;
-        padding: 8px 18px;
-        border-radius: 20px;
-        font-size: 12px;
-        z-index: 10;
-        pointer-events: none;
-        transition: opacity 0.5s;
-        width: fit-content;
-        height: fit-content;
-        text-align: center;
-      }
-
-      /* Viewer action dugmad - dole desno */
-      #viewer-actions {
-        position: absolute;
-        bottom: 16px;
-        right: 16px;
-        z-index: 15;
-        display: flex;
-        gap: 8px;
-      }
-
-      #viewer-actions button {
-        width: 36px;
-        height: 36px;
-        border-radius: 50%;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: transform 0.15s, color 0.2s, box-shadow 0.2s;
-      }
-
-      #viewer-actions button:active {
-        transform: scale(0.95);
-      }
-
-      #screenshot-button {
-        background: rgba(255, 255, 255, 0.95);
-        color: #555;
-        border: none;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-      }
-
-      #screenshot-button:hover {
-        transform: scale(1.1);
-        color: #4aa584;
-      }
-
-      #ar-button {
-        background: var(--green-btn);
-        color: #fff;
-        border: none;
-        box-shadow: 0 2px 8px rgba(15, 143, 99, 0.35);
-      }
-
-      #ar-button:hover {
-        transform: scale(1.1);
-        box-shadow: 0 3px 12px rgba(15, 143, 99, 0.5);
-      }
-
-      #ar-button.hidden {
-        display: none;
-      }
-
-      /* Screenshot flash efekat */
-      #screenshot-flash {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: #fff;
-        opacity: 0;
-        pointer-events: none;
-        z-index: 50;
-        transition: opacity 0.15s;
-      }
-
-      #screenshot-flash.flash {
-        opacity: 0.7;
-        transition: none;
-      }
-
-      /* Poklopac dugme */
-      #lid-button {
-        position: absolute;
-        top: 16px;
-        left: 16px;
-        z-index: 15;
-        width: 36px;
-        height: 36px;
-        border-radius: 50%;
-        background: rgba(255, 255, 255, 0.95);
-        border: none;
-        cursor: pointer;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-        transition: transform 0.15s, color 0.2s, background 0.2s;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #555;
-      }
-
-      #lid-button:hover {
-        transform: scale(1.1);
-      }
-
-      #lid-button.open {
-        background: var(--green-btn);
-        color: #fff;
-        box-shadow: 0 2px 8px rgba(15, 143, 99, 0.35);
-      }
-
-      #lid-button svg {
-        stroke: currentColor;
-      }
-
-      #lid-button .lid-open {
-        display: none;
-      }
-
-      #lid-button.open .lid-closed {
-        display: none;
-      }
-
-      #lid-button.open .lid-open {
-        display: block;
-      }
-
-      /* Help dugme */
-      #help-button {
-        position: absolute;
-        top: 16px;
-        right: 16px;
-        z-index: 15;
-        width: 36px;
-        height: 36px;
-        border-radius: 50%;
-        background: rgba(255, 255, 255, 0.95);
-        border: none;
-        cursor: pointer;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-        transition: transform 0.15s, color 0.2s;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #555;
-      }
-
-      #help-button:hover {
-        transform: scale(1.1);
-        color: #4aa584;
-      }
-
-      #help-button svg {
-        stroke: currentColor;
-      }
-
-      /* Help popup */
-      #help-overlay {
-        display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.5);
-        z-index: 30;
-        align-items: center;
-        justify-content: center;
-      }
-
-      #help-overlay.open {
-        display: flex;
-      }
-
-      #help-popup {
-        background: #fff;
-        border-radius: 16px;
-        padding: 28px 24px;
-        max-width: 380px;
-        width: 90%;
-        max-height: 80%;
-        overflow-y: auto;
-        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-      }
-
-      #help-popup h2 {
-        font-size: 16px;
-        margin: 0 0 16px;
-        color: #333;
-        font-family: "Oswald", sans-serif;
-      }
-
-      .help-item {
-        display: flex;
-        align-items: flex-start;
-        gap: 12px;
-        margin-bottom: 14px;
-      }
-
-      .help-icon {
-        flex-shrink: 0;
-        width: 36px;
-        height: 36px;
-        border-radius: 50%;
-        background: #f0f0f0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-      }
-
-      .help-icon svg {
-        width: 18px;
-        height: 18px;
-        stroke: #555;
-        fill: none;
-        stroke-width: 2;
-      }
-
-      .help-icon.green {
-        background: #4aa584;
-      }
-
-      .help-icon.green svg {
-        stroke: #fff;
-      }
-
-      /* Panel section headers */
-      .panel-header {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        margin-bottom: 10px;
-      }
-
-      .panel-header-icon {
-        width: auto;
-        height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-shrink: 0;
-      }
-
-      .panel-header-icon svg {
-        width: 14px;
-        height: 14px;
-        stroke: #888;
-        fill: none;
-        stroke-width: 2;
-      }
-
-      .help-text h4 {
-        font-size: 13px;
-        margin: 0 0 2px;
-        color: #333;
-      }
-
-      .help-text p {
-        font-size: 12px;
-        margin: 0;
-        color: #888;
-        line-height: 1.4;
-      }
-
-      #help-close {
-        display: block;
-        width: 100%;
-        margin-top: 16px;
-        padding: 10px;
-        border: none;
-        border-radius: 10px;
-        background: #f0f0f0;
-        color: #555;
-        font-size: 13px;
-        font-weight: 600;
-        cursor: pointer;
-        transition: background 0.2s;
-      }
-
-      #help-close:hover {
-        background: #e0e0e0;
-      }
-
-      /* Skriveni model-viewer za AR */
-      #ar-model {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        opacity: 0;
-        pointer-events: none;
-        overflow: hidden;
-      }
-
-      /* Mobile */
-      @media (max-width: 1000px) {
-        #viewer-page {
-          flex-direction: column;
-          height: auto;
-        }
-
-        #viewer-wrap {
-          flex: none;
-          height: 55vh;
-          height: 55dvh;
-        }
-
-        #panel {
-          flex: 1;
-          border-left: none;
-          border-top: 1px solid #ddd;
-          padding: 20px 16px;
-          overflow-y: auto;
-          -webkit-overflow-scrolling: touch;
-          background-color: #fff;
-        }
-
-        #help-popup {
-          width: 95%;
-          max-width: 100%;
-          max-height: 95%;
-        }
-
-        #hint {
-          bottom: 12px;
-          font-size: 12px;
-          padding: 6px 14px;
-        }
-
-        #viewer-actions {
-          right: auto;
-          left: 16px;
-        }
-      }
-    </style>
+#viewer-page {
+display: flex;
+width: 100%;
+height: calc(100vh - 80px);
+background-color: #fff;
+}
+
+#viewer-wrap {
+position: relative;
+flex: 7;
+background: #e8e8e8;
+overflow: hidden;
+}
+
+#viewer-wrap canvas {
+display: block;
+width: 100%;
+height: 100%;
+}
+
+#loading {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 16px;
+z-index: 20;
+background: rgba(0, 0, 0, 0.8);
+color: #fff;
+padding: 16px 32px;
+border-radius: 10px;
+width: max-content;
+font-family: 'Poppins', 'Jost Variable', sans-serif;
+}
+
+/* Panel */
+#panel {
+flex: 3;
+background: #fff;
+border-left: 1px solid #e5e5e5;
+padding: 28px 22px;
+overflow-y: auto;
+display: none;
+position: relative;
+}
+
+#panel h3 {
+font-size: 12px;
+margin: 0;
+color: #666;
+text-transform: uppercase;
+letter-spacing: 1.5px;
+font-weight: 700;
+font-family: "Oswald", sans-serif;
+}
+
+#panel label {
+font-size: 13px;
+color: #555;
+display: block;
+margin-bottom: 4px;
+}
+
+#panel input[type="range"] {
+width: 100%;
+accent-color: #4aa584;
+margin-bottom: 8px;
+}
+
+.panel-divider {
+border: none;
+border-top: 1px solid #e0e0e0;
+margin: 16px 0;
+}
+
+/* Door controls */
+.door-controls {
+display: flex;
+flex-direction: row;
+gap: 10px;
+}
+
+.door-control {
+flex: 1;
+background: #f8f8f8;
+border-radius: 12px;
+padding: 10px 12px 8px;
+border: 1px solid #eee;
+}
+
+.door-header {
+display: flex;
+align-items: center;
+gap: 6px;
+margin-bottom: 6px;
+}
+
+.door-header span {
+font-size: 13px;
+color: #555;
+}
+
+.door-value {
+margin-left: auto;
+font-weight: 600;
+color: #4aa584;
+font-size: 12px;
+}
+
+.door-control input[type="range"] {
+-webkit-appearance: none;
+appearance: none;
+width: 100%;
+height: 24px;
+margin: 0;
+background: transparent;
+cursor: pointer;
+touch-action: none;
+}
+
+.door-control input[type="range"]::-webkit-slider-runnable-track {
+height: 6px;
+border-radius: 3px;
+background: #4aa584;
+}
+
+.door-control input[type="range"]::-webkit-slider-thumb {
+-webkit-appearance: none;
+width: 18px;
+height: 18px;
+border-radius: 50%;
+background: #fff;
+border: 2px solid #4aa584;
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+margin-top: -6px;
+transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.door-control input[type="range"]::-webkit-slider-thumb:active {
+transform: scale(1.15);
+box-shadow: 0 2px 8px rgba(15, 143, 99, 0.3);
+}
+
+.door-control input[type="range"]::-moz-range-track {
+height: 6px;
+border-radius: 3px;
+background: #4aa584;
+border: none;
+}
+
+.door-control input[type="range"]::-moz-range-thumb {
+width: 18px;
+height: 18px;
+border-radius: 50%;
+background: #fff;
+border: 2px solid #4aa584;
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* Poklopac toggle */
+.lid-control {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 12px;
+}
+
+.lid-control span {
+font-size: 13px;
+color: #555;
+}
+
+.lid-toggle {
+position: relative;
+width: 48px;
+height: 26px;
+display: block;
+cursor: pointer;
+}
+
+.lid-toggle input {
+opacity: 0;
+width: 0;
+height: 0;
+position: absolute;
+}
+
+.lid-track {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: #ddd;
+border-radius: 13px;
+transition: background 0.25s;
+}
+
+.lid-track:before {
+content: "";
+position: absolute;
+width: 20px;
+height: 20px;
+left: 3px;
+top: 3px;
+background: #fff;
+border-radius: 50%;
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+transition: transform 0.25s;
+}
+
+.lid-toggle input:checked + .lid-track {
+background: #4aa584;
+}
+
+.lid-toggle input:checked + .lid-track:before {
+transform: translateX(22px);
+}
+
+/* Boje */
+.color-grid {
+display: flex;
+flex-wrap: wrap;
+gap: 6px;
+}
+
+.color-swatch {
+width: 44px;
+height: 44px;
+border-radius: 10px;
+border: 2px solid transparent;
+cursor: pointer;
+transition: border-color 0.2s, transform 0.15s, box-shadow 0.2s;
+padding: 0;
+background: none;
+position: relative;
+}
+
+.color-swatch:hover {
+transform: scale(1.08);
+border-color: #4aa584;
+}
+
+.color-swatch.active {
+border-color: #4aa584;
+}
+
+.color-swatch .dot {
+width: 100%;
+height: 100%;
+border-radius: 8px;
+display: block;
+}
+
+.color-name {
+font-size: 12px;
+color: #888;
+text-align: center;
+margin-top: 4px;
+display: block;
+}
+
+/* Reset dugme */
+#reset-button {
+position: absolute;
+top: 10px;
+right: 10px;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+border: none;
+background: #f0f0f0;
+color: #999;
+cursor: pointer;
+display: none;
+align-items: center;
+justify-content: center;
+transition: background 0.2s, color 0.2s, transform 0.15s;
+}
+
+#reset-button:hover {
+background: #e0e0e0;
+color: #555;
+transform: scale(1.1);
+}
+
+#reset-button.visible {
+display: flex;
+}
+
+/* Dimenzije */
+.dimensions-info {
+margin-top: 6px;
+display: flex;
+flex-wrap: wrap;
+gap: 8px;
+}
+
+.dim-item {
+flex: 1;
+background: #f8f8f8;
+border-radius: 10px;
+border: 1px solid #eee;
+padding: 8px;
+text-align: center;
+}
+
+.dim-label {
+display: block;
+font-size: 12px;
+color: #999;
+text-transform: uppercase;
+letter-spacing: 0.5px;
+}
+
+.dim-value {
+display: block;
+font-size: 15px;
+font-weight: 700;
+color: #333;
+margin-top: 2px;
+}
+
+.opt-row {
+margin-top: 10px;
+}
+
+.opt-row-label {
+display: block;
+font-size: 12px;
+color: #666;
+margin-bottom: 6px;
+}
+
+.opt-seg {
+display: flex;
+gap: 6px;
+}
+
+.opt-seg button {
+flex: 1;
+padding: 9px 6px;
+font: inherit;
+font-size: 12px;
+color: #555;
+background: #f8f8f8;
+border: 1px solid #eee;
+border-radius: 10px;
+cursor: pointer;
+transition: border-color 0.2s, background 0.2s, color 0.2s;
+}
+
+.opt-seg button:hover {
+border-color: #cfe6dc;
+}
+
+.opt-seg button.active {
+border-color: #4aa584;
+background: #eef7f3;
+color: #2f7d62;
+font-weight: 600;
+}
+
+.opt-seg button:focus-visible {
+outline: 2px solid #3a9d7a;
+outline-offset: 2px;
+}
+
+.substrate-depth {
+margin-top: 10px;
+}
+
+.decor-label {
+margin-top: 14px;
+}
+
+.decor-grid {
+display: flex;
+flex-wrap: wrap;
+gap: 6px;
+}
+
+.decor-grid button,
+.decor-selected button {
+padding: 7px 10px;
+font: inherit;
+font-size: 12px;
+color: #555;
+background: #f8f8f8;
+border: 1px solid #eee;
+border-radius: 10px;
+cursor: pointer;
+transition: border-color 0.2s, background 0.2s;
+}
+
+.decor-grid button:hover,
+.decor-selected button:hover {
+border-color: #4aa584;
+background: #eef7f3;
+}
+
+.decor-grid button:disabled {
+opacity: 0.5;
+cursor: progress;
+}
+
+.decor-grid button:focus-visible,
+.decor-selected button:focus-visible {
+outline: 2px solid #3a9d7a;
+outline-offset: 2px;
+}
+
+.decor-selected-head {
+display: flex;
+align-items: center;
+gap: 6px;
+margin-bottom: 8px;
+}
+
+.decor-selected {
+margin-top: 10px;
+padding: 8px 10px;
+background: #eef7f3;
+border: 1px solid #cfe6dc;
+border-radius: 10px;
+font-size: 12px;
+color: #2f7d62;
+font-weight: 600;
+}
+
+.decor-selected-head span {
+margin-right: auto;
+}
+
+.decor-hint {
+margin-top: 8px;
+text-align: left;
+}
+
+[hidden] {
+display: none !important;
+}
+
+.dim-input {
+width: 3.2em;
+font: inherit;
+color: inherit;
+text-align: center;
+background: transparent;
+border: none;
+border-bottom: 1px dashed #bbb;
+padding: 0;
+-moz-appearance: textfield;
+}
+
+.dim-input::-webkit-inner-spin-button,
+.dim-input::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+.dim-input:focus {
+outline: 2px solid #3a9d7a;
+outline-offset: 2px;
+border-bottom-color: transparent;
+}
+
+.dim-hint {
+flex-basis: 100%;
+margin: 2px 0 0;
+font-size: 12px;
+color: #666;
+text-align: center;
+}
+
+.dim-unit {
+font-size: 12px;
+color: #999;
+font-weight: 400;
+}
+
+/* Info hint */
+#hint {
+position: absolute;
+top: 16px;
+left: 50%;
+transform: translateX(-50%);
+background: rgba(0, 0, 0, 0.6);
+color: #fff;
+padding: 8px 18px;
+border-radius: 20px;
+font-size: 12px;
+z-index: 10;
+pointer-events: none;
+transition: opacity 0.5s;
+width: fit-content;
+height: fit-content;
+text-align: center;
+}
+
+/* Viewer action dugmad - dole desno */
+#viewer-actions {
+position: absolute;
+bottom: 16px;
+right: 16px;
+z-index: 15;
+display: flex;
+gap: 8px;
+}
+
+#viewer-actions button {
+width: 36px;
+height: 36px;
+border-radius: 50%;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: transform 0.15s, color 0.2s, box-shadow 0.2s;
+}
+
+#viewer-actions button:active {
+transform: scale(0.95);
+}
+
+#screenshot-button {
+background: rgba(255, 255, 255, 0.95);
+color: #555;
+border: none;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+#screenshot-button:hover {
+transform: scale(1.1);
+color: #4aa584;
+}
+
+#ar-button {
+background: var(--green-btn);
+color: #fff;
+border: none;
+box-shadow: 0 2px 8px rgba(15, 143, 99, 0.35);
+}
+
+#ar-button:hover {
+transform: scale(1.1);
+box-shadow: 0 3px 12px rgba(15, 143, 99, 0.5);
+}
+
+#ar-button.hidden {
+display: none;
+}
+
+/* Screenshot flash efekat */
+#screenshot-flash {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #fff;
+opacity: 0;
+pointer-events: none;
+z-index: 50;
+transition: opacity 0.15s;
+}
+
+#screenshot-flash.flash {
+opacity: 0.7;
+transition: none;
+}
+
+/* Poklopac dugme */
+#lid-button {
+position: absolute;
+top: 16px;
+left: 16px;
+z-index: 15;
+width: 36px;
+height: 36px;
+border-radius: 50%;
+background: rgba(255, 255, 255, 0.95);
+border: none;
+cursor: pointer;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+transition: transform 0.15s, color 0.2s, background 0.2s;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #555;
+}
+
+#lid-button:hover {
+transform: scale(1.1);
+}
+
+#lid-button.open {
+background: var(--green-btn);
+color: #fff;
+box-shadow: 0 2px 8px rgba(15, 143, 99, 0.35);
+}
+
+#lid-button svg {
+stroke: currentColor;
+}
+
+#lid-button .lid-open {
+display: none;
+}
+
+#lid-button.open .lid-closed {
+display: none;
+}
+
+#lid-button.open .lid-open {
+display: block;
+}
+
+/* Help dugme */
+#help-button {
+position: absolute;
+top: 16px;
+right: 16px;
+z-index: 15;
+width: 36px;
+height: 36px;
+border-radius: 50%;
+background: rgba(255, 255, 255, 0.95);
+border: none;
+cursor: pointer;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+transition: transform 0.15s, color 0.2s;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #555;
+}
+
+#help-button:hover {
+transform: scale(1.1);
+color: #4aa584;
+}
+
+#help-button svg {
+stroke: currentColor;
+}
+
+/* Help popup */
+#help-overlay {
+display: none;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.5);
+z-index: 30;
+align-items: center;
+justify-content: center;
+}
+
+#help-overlay.open {
+display: flex;
+}
+
+#help-popup {
+background: #fff;
+border-radius: 16px;
+padding: 28px 24px;
+max-width: 380px;
+width: 90%;
+max-height: 80%;
+overflow-y: auto;
+box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+#help-popup h2 {
+font-size: 16px;
+margin: 0 0 16px;
+color: #333;
+font-family: "Oswald", sans-serif;
+}
+
+.help-item {
+display: flex;
+align-items: flex-start;
+gap: 12px;
+margin-bottom: 14px;
+}
+
+.help-icon {
+flex-shrink: 0;
+width: 36px;
+height: 36px;
+border-radius: 50%;
+background: #f0f0f0;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.help-icon svg {
+width: 18px;
+height: 18px;
+stroke: #555;
+fill: none;
+stroke-width: 2;
+}
+
+.help-icon.green {
+background: #4aa584;
+}
+
+.help-icon.green svg {
+stroke: #fff;
+}
+
+/* Panel section headers */
+.panel-header {
+display: flex;
+align-items: center;
+gap: 8px;
+margin-bottom: 10px;
+}
+
+.panel-header-icon {
+width: auto;
+height: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-shrink: 0;
+}
+
+.panel-header-icon svg {
+width: 14px;
+height: 14px;
+stroke: #888;
+fill: none;
+stroke-width: 2;
+}
+
+.help-text h4 {
+font-size: 13px;
+margin: 0 0 2px;
+color: #333;
+}
+
+.help-text p {
+font-size: 12px;
+margin: 0;
+color: #888;
+line-height: 1.4;
+}
+
+#help-close {
+display: block;
+width: 100%;
+margin-top: 16px;
+padding: 10px;
+border: none;
+border-radius: 10px;
+background: #f0f0f0;
+color: #555;
+font-size: 13px;
+font-weight: 600;
+cursor: pointer;
+transition: background 0.2s;
+}
+
+#help-close:hover {
+background: #e0e0e0;
+}
+
+/* Skriveni model-viewer za AR */
+#ar-model {
+position: absolute;
+width: 1px;
+height: 1px;
+opacity: 0;
+pointer-events: none;
+overflow: hidden;
+}
+
+/* Mobile */
+@media (max-width: 1000px) {
+#viewer-page {
+flex-direction: column;
+height: auto;
+}
+
+#viewer-wrap {
+flex: none;
+height: 55vh;
+height: 55dvh;
+}
+
+#panel {
+flex: 1;
+border-left: none;
+border-top: 1px solid #ddd;
+padding: 20px 16px;
+overflow-y: auto;
+-webkit-overflow-scrolling: touch;
+background-color: #fff;
+}
+
+#help-popup {
+width: 95%;
+max-width: 100%;
+max-height: 95%;
+}
+
+#hint {
+bottom: 12px;
+font-size: 12px;
+padding: 6px 14px;
+}
+
+#viewer-actions {
+right: auto;
+left: 16px;
+}
+}
+</style>
 <script is:inline slot="after" type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 <script is:inline slot="after" type="importmap">
     {
@@ -883,395 +1106,1348 @@ const path = localizePath('/3d.html', lang);
     </script>
 <script is:inline slot="after" type="application/json" id="viewer-i18n" set:html={JSON.stringify(t.js)}></script>
 <script is:inline slot="after" type="module">
-      // tekstovi zavise od jezika, logika je ista za sve
-      const T = JSON.parse(document.getElementById('viewer-i18n').textContent);
-      import * as THREE from 'three';
-      import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-      import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+        import * as THREE from 'three';
+        import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+        import { GLTFExporter } from 'three/addons/exporters/GLTFExporter.js';
+        import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
-      const wrap = document.getElementById('viewer-wrap');
+        // tekstovi zavise od jezika, logika je ista za sve
+        const T = JSON.parse(document.getElementById('viewer-i18n').textContent);
 
-      const scene = new THREE.Scene();
-      scene.background = new THREE.Color(0xf5f5f5);
+        const wrap = document.getElementById('viewer-wrap');
 
-      const camera = new THREE.PerspectiveCamera(45, wrap.clientWidth / wrap.clientHeight, 0.1, 100000);
-      camera.position.set(3000, 2000, 3000);
+        const scene = new THREE.Scene();
+        scene.background = new THREE.Color(0xf5f5f5);
 
-      const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
-      renderer.setSize(wrap.clientWidth, wrap.clientHeight);
-      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-      renderer.shadowMap.enabled = true;
-      renderer.toneMapping = THREE.ACESFilmicToneMapping;
-      renderer.toneMappingExposure = 1.2;
-      wrap.appendChild(renderer.domElement);
+        const camera = new THREE.PerspectiveCamera(45, wrap.clientWidth / wrap.clientHeight, 0.1, 100000);
+        camera.position.set(3000, 2000, 3000);
 
-      const controls = new OrbitControls(camera, renderer.domElement);
-      controls.enableDamping = true;
-      controls.dampingFactor = 0.08;
-      controls.rotateSpeed = 0.8;
-      controls.touches = { ONE: THREE.TOUCH.ROTATE, TWO: THREE.TOUCH.DOLLY_PAN };
+        const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+        renderer.setSize(wrap.clientWidth, wrap.clientHeight);
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+        renderer.shadowMap.enabled = true;
+        renderer.toneMapping = THREE.ACESFilmicToneMapping;
+        renderer.toneMappingExposure = 1.2;
+        wrap.appendChild(renderer.domElement);
 
-      // Svetla
-      scene.add(new THREE.AmbientLight(0xffffff, 0.6));
+        const controls = new OrbitControls(camera, renderer.domElement);
+        controls.enableDamping = true;
+        controls.dampingFactor = 0.08;
+        controls.rotateSpeed = 0.8;
+        controls.touches = { ONE: THREE.TOUCH.ROTATE, TWO: THREE.TOUCH.DOLLY_PAN };
 
-      const dirLight1 = new THREE.DirectionalLight(0xffffff, 1.0);
-      dirLight1.position.set(5000, 5000, 5000);
-      dirLight1.castShadow = true;
-      scene.add(dirLight1);
+        // Svetla
+        scene.add(new THREE.AmbientLight(0xffffff, 0.6));
 
-      const dirLight2 = new THREE.DirectionalLight(0xffffff, 0.5);
-      dirLight2.position.set(-3000, 3000, -3000);
-      scene.add(dirLight2);
+        const dirLight1 = new THREE.DirectionalLight(0xffffff, 1.0);
+        dirLight1.position.set(5, 5, 5);
+        dirLight1.castShadow = true;
+        // senke u metrima oko terarijuma, dovoljno ostre za reljef pozadine
+        dirLight1.shadow.mapSize.set(2048, 2048);
+        dirLight1.shadow.camera.left = -1; dirLight1.shadow.camera.right = 1;
+        dirLight1.shadow.camera.top = 1; dirLight1.shadow.camera.bottom = -1;
+        dirLight1.shadow.camera.near = 0.1; dirLight1.shadow.camera.far = 20;
+        dirLight1.shadow.normalBias = 0.002;
+        scene.add(dirLight1);
 
-      scene.add(new THREE.DirectionalLight(0xffffff, 0.3).translateY(-2000));
+        const dirLight2 = new THREE.DirectionalLight(0xffffff, 0.5);
+        dirLight2.position.set(-3000, 3000, -3000);
+        scene.add(dirLight2);
 
-      // PBR teksture drveta
-      const texLoader = new THREE.TextureLoader();
-      const basePath = '/3d/textures/';
+        scene.add(new THREE.DirectionalLight(0xffffff, 0.3).translateY(-2000));
 
-      const woodTextures = [
-        { name: T.woods[0], folder: 'tresnja' },
-        { name: T.woods[1], folder: 'mahagonij' },
-        { name: T.woods[2], folder: 'belo-drvo' },
-        { name: T.woods[3], folder: 'tamni-hrast' },
-        { name: T.woods[4], folder: 'bambus' },
-      ];
+        // PBR teksture drveta
+        const texLoader = new THREE.TextureLoader();
+        const basePath = '/3d/textures/';
 
-      // Učitaj sve teksture
-      woodTextures.forEach(function (w) {
-        const p = basePath + w.folder + '/';
-        w.colorMap = texLoader.load(p + 'color.png');
-        w.normalMap = texLoader.load(p + 'normal.png');
-        w.roughnessMap = texLoader.load(p + 'roughness.png');
-        w.preview = p + 'color.png';
-        [w.colorMap, w.normalMap, w.roughnessMap].forEach(function (tex) {
-          tex.wrapS = THREE.RepeatWrapping;
-          tex.wrapT = THREE.RepeatWrapping;
-          tex.repeat.set(2, 2);
+        const woodTextures = [
+            { name: T.woods[0], folder: 'tresnja' },
+            { name: T.woods[1], folder: 'mahagonij' },
+            { name: T.woods[2], folder: 'belo-drvo' },
+            { name: T.woods[3], folder: 'tamni-hrast' },
+            { name: T.woods[4], folder: 'bambus' },
+            // CC0 teksture sa ambientCG.com (Wood051, 049, 095, 066, 048, 028, 068)
+            { name: T.woods[5], folder: 'espreso-orah' },
+            { name: T.woods[6], folder: 'dimljeni-hrast' },
+            { name: T.woods[7], folder: 'javor' },
+            { name: T.woods[8], folder: 'orah' },
+            { name: T.woods[9], folder: 'jasen' },
+            { name: T.woods[10], folder: 'venge' },
+            { name: T.woods[11], folder: 'sivi-hrast' },
+        ];
+
+        woodTextures.forEach(function (w) {
+            w.preview = basePath + w.folder + '/thumb.jpg';
         });
-      });
 
-      const colorOptions = woodTextures;
-      var activeWood = woodTextures[0];
+        // Mape se ucitavaju tek kad se tekstura prvi put izabere
+        function ensureWoodLoaded(w) {
+            if (w.colorMap) return;
+            const p = basePath + w.folder + '/';
+            w.ready = new Promise(function (resolve) { w.colorMap = texLoader.load(p + 'color.jpg', resolve, undefined, resolve); });
+            w.colorMap.userData.mimeType = 'image/jpeg'; // AR izvoz kao jpeg, ne png
+            w.colorMap.colorSpace = THREE.SRGBColorSpace;
+            w.normalMap = texLoader.load(p + 'normal.jpg');
+            w.roughnessMap = texLoader.load(p + 'roughness.jpg');
+            [w.colorMap, w.normalMap, w.roughnessMap].forEach(function (tex) {
+                tex.wrapS = THREE.RepeatWrapping;
+                tex.wrapT = THREE.RepeatWrapping;
+                tex.repeat.set(2, 2);
+            });
+        }
 
-      const panelMaterials = [];
+        const colorOptions = woodTextures;
+        var activeWood = woodTextures[0];
 
-      let doorLeft = null, doorRight = null;
-      let doorLeftStart = new THREE.Vector3(), doorRightStart = new THREE.Vector3();
-      let slideDir = new THREE.Vector3(), doorSlideDistance = 0;
+        const panelMaterials = []; // samo foilMaterial, puni se kod generatora
 
-      let lid = null;
-      let lidStartPos = new THREE.Vector3();
+        let doorLeft = null, doorRight = null;
+        let doorLeftStart = new THREE.Vector3(), doorRightStart = new THREE.Vector3();
+        let slideDir = new THREE.Vector3(), doorSlideDistance = 0;
 
-      function applyOption(opt) {
-        panelMaterials.forEach(function (mat) {
-          mat.color.setHex(0xffffff);
-          mat.map = opt.colorMap;
-          mat.normalMap = opt.normalMap;
-          mat.roughnessMap = opt.roughnessMap;
-          mat.roughness = 1.0;
-          mat.metalness = 0.0;
-          mat.needsUpdate = true;
+        let lid = null;
+        let lidStartPos = new THREE.Vector3();
+
+        function applyOption(opt) {
+            ensureWoodLoaded(opt);
+            panelMaterials.forEach(function (mat) {
+                mat.color.setHex(0xffffff);
+                mat.map = opt.colorMap;
+                mat.normalMap = opt.normalMap;
+                mat.roughnessMap = opt.roughnessMap;
+                mat.roughness = 1.0;
+                mat.metalness = 0.0;
+                mat.needsUpdate = true;
+            });
+        }
+
+        // Tekstura dugmad
+        const colorContainer = document.getElementById('color-options');
+        colorOptions.forEach(function (opt, i) {
+            const btn = document.createElement('button');
+            btn.className = 'color-swatch' + (i === 0 ? ' active' : '');
+            btn.title = opt.name;
+            btn.innerHTML = '<span class="dot" style="background:url(' + opt.preview + ') center/cover;"></span>';
+            btn.addEventListener('click', function () {
+                colorContainer.querySelectorAll('.color-swatch').forEach(function (b) { b.classList.remove('active'); });
+                btn.classList.add('active');
+                applyOption(opt);
+                activeWood = opt;
+                scheduleArExport();
+            });
+            colorContainer.appendChild(btn);
         });
-      }
 
-      // Tekstura dugmad
-      const colorContainer = document.getElementById('color-options');
-      colorOptions.forEach(function (opt, i) {
-        const btn = document.createElement('button');
-        btn.className = 'color-swatch' + (i === 0 ? ' active' : '');
-        btn.title = opt.name;
-        btn.innerHTML = '<span class="dot" style="background:url(' + opt.preview + ') center/cover;"></span>';
-        btn.addEventListener('click', function () {
-          document.querySelectorAll('.color-swatch').forEach(function (b) { b.classList.remove('active'); });
-          btn.classList.add('active');
-          applyOption(opt);
-          activeWood = opt;
+        // Pozadine: bez, crna ili 3D reljef generisan iz fotografije pozadine (3d-pozadine.html)
+        const GLASS_M = 0.004;
+        const BG_RELIEF_DEPTH = 0.05;
+        const BG_SEG_X = 240, BG_SEG_Y = 120;
+        const RELIEF_GAMMA = 1.4; // >1 naglasava ispupcenja, pukotine ostaju duboke
+        const NORMAL_STRENGTH = 2.5;
+        const WHITE_THRESHOLD = 235;
+        const bgFiles = ['001', '002', '003', '004', '005', '006', '007', '008', '009', '0010', '0011', '0012'];
+        const bgOptions = [
+            { name: T.bgNone, type: 'none' },
+            { name: T.bgBlack, type: 'black' }
+        ].concat(bgFiles.map(function (f, i) {
+            return { name: T.bgRelief + ' M0' + String(i + 1).padStart(2, '0'), type: 'relief', src: '/style/img/backgrounds/poz' + f + '.webp' };
+        }));
+        let modelSize = null, activeBg = bgOptions[0], bgMesh = null, bgRequest = 0;
+        let sideGapY = null; // [dno, vrh] razmaka izmedju bocnih traka folije, u svetskim koordinatama
+
+        function loadImage(src) {
+            return new Promise(function (resolve, reject) {
+                const img = new Image();
+                img.onload = function () { resolve(img); };
+                img.onerror = reject;
+                img.src = src;
+            });
+        }
+
+        // Granice panela na fotografiji (sve sto nije providno ni belo), uvuceno 3% da ne uhvati ivicu
+        function panelBounds(img) {
+            const c = document.createElement('canvas');
+            c.width = img.naturalWidth; c.height = img.naturalHeight;
+            const ctx = c.getContext('2d');
+            ctx.drawImage(img, 0, 0);
+            const d = ctx.getImageData(0, 0, c.width, c.height).data;
+            let x0 = c.width, y0 = c.height, x1 = 0, y1 = 0;
+            for (let y = 0; y < c.height; y++) {
+                for (let x = 0; x < c.width; x++) {
+                    const i = (y * c.width + x) * 4;
+                    const opaque = d[i + 3] > 128;
+                    if (opaque && (d[i] < WHITE_THRESHOLD || d[i + 1] < WHITE_THRESHOLD || d[i + 2] < WHITE_THRESHOLD)) {
+                        if (x < x0) x0 = x; if (x > x1) x1 = x;
+                        if (y < y0) y0 = y; if (y > y1) y1 = y;
+                    }
+                }
+            }
+            if (x1 <= x0 || y1 <= y0) return { x: 0, y: 0, w: c.width, h: c.height };
+            const ix = (x1 - x0) * 0.03, iy = (y1 - y0) * 0.03;
+            return { x: x0 + ix, y: y0 + iy, w: x1 - x0 - 2 * ix, h: y1 - y0 - 2 * iy };
+        }
+
+        // Luminansa canvasa kao niz 0..1; providni/beli pikseli (van panela) su NaN
+        function luminance(canvas) {
+            const d = canvas.getContext('2d').getImageData(0, 0, canvas.width, canvas.height).data;
+            const out = new Float32Array(canvas.width * canvas.height);
+            for (let i = 0; i < out.length; i++) {
+                const r = d[i * 4], g = d[i * 4 + 1], b = d[i * 4 + 2];
+                const outside = d[i * 4 + 3] < 128 || (r > WHITE_THRESHOLD && g > WHITE_THRESHOLD && b > WHITE_THRESHOLD);
+                out[i] = outside ? NaN : (0.299 * r + 0.587 * g + 0.114 * b) / 255;
+            }
+            return out;
+        }
+
+        function fillMissing(a) {
+            let sum = 0, n = 0;
+            for (let i = 0; i < a.length; i++) if (!isNaN(a[i])) { sum += a[i]; n++; }
+            const mean = n ? sum / n : 0.5;
+            for (let i = 0; i < a.length; i++) if (isNaN(a[i])) a[i] = mean;
+            return a;
+        }
+
+        // Box blur (separabilni), passes puta - aproksimira gausovo zagladjivanje
+        function blur(a, w, h, radius, passes) {
+            let src = a, tmp = new Float32Array(a.length);
+            for (let p = 0; p < passes; p++) {
+                for (let y = 0; y < h; y++) {
+                    for (let x = 0; x < w; x++) {
+                        let s = 0, n = 0;
+                        for (let k = -radius; k <= radius; k++) {
+                            const xx = Math.min(w - 1, Math.max(0, x + k));
+                            s += src[y * w + xx]; n++;
+                        }
+                        tmp[y * w + x] = s / n;
+                    }
+                }
+                const out = new Float32Array(a.length);
+                for (let y = 0; y < h; y++) {
+                    for (let x = 0; x < w; x++) {
+                        let s = 0, n = 0;
+                        for (let k = -radius; k <= radius; k++) {
+                            const yy = Math.min(h - 1, Math.max(0, y + k));
+                            s += tmp[yy * w + x]; n++;
+                        }
+                        out[y * w + x] = s / n;
+                    }
+                }
+                src = out;
+            }
+            return src;
+        }
+
+        function normalize(a) {
+            let min = Infinity, max = -Infinity;
+            for (let i = 0; i < a.length; i++) { min = Math.min(min, a[i]); max = Math.max(max, a[i]); }
+            const range = Math.max(max - min, 0.001);
+            for (let i = 0; i < a.length; i++) a[i] = (a[i] - min) / range;
+            return a;
+        }
+
+        // Normal mapa iz sitnih detalja fotografije (sobel), za strukturu kamena koju geometrija ne hvata
+        function normalMapFrom(canvas) {
+            const w = canvas.width, h = canvas.height;
+            const hgt = blur(fillMissing(luminance(canvas)), w, h, 1, 1);
+            const out = document.createElement('canvas');
+            out.width = w; out.height = h;
+            const octx = out.getContext('2d');
+            const img = octx.createImageData(w, h);
+            const at = function (x, y) { return hgt[Math.min(h - 1, Math.max(0, y)) * w + Math.min(w - 1, Math.max(0, x))]; };
+            for (let y = 0; y < h; y++) {
+                for (let x = 0; x < w; x++) {
+                    const dx = (at(x + 1, y - 1) + 2 * at(x + 1, y) + at(x + 1, y + 1)) - (at(x - 1, y - 1) + 2 * at(x - 1, y) + at(x - 1, y + 1));
+                    const dy = (at(x - 1, y + 1) + 2 * at(x, y + 1) + at(x + 1, y + 1)) - (at(x - 1, y - 1) + 2 * at(x, y - 1) + at(x + 1, y - 1));
+                    const nx = -dx * NORMAL_STRENGTH, ny = dy * NORMAL_STRENGTH, nz = 1;
+                    const len = Math.hypot(nx, ny, nz);
+                    const i = (y * w + x) * 4;
+                    img.data[i] = (nx / len * 0.5 + 0.5) * 255;
+                    img.data[i + 1] = (ny / len * 0.5 + 0.5) * 255;
+                    img.data[i + 2] = (nz / len * 0.5 + 0.5) * 255;
+                    img.data[i + 3] = 255;
+                }
+            }
+            octx.putImageData(img, 0, 0);
+            return out;
+        }
+
+        function buildRelief(img, w, h) {
+            const b = panelBounds(img);
+            const colorCanvas = document.createElement('canvas');
+            colorCanvas.width = Math.round(b.w); colorCanvas.height = Math.round(b.h);
+            colorCanvas.getContext('2d').drawImage(img, b.x, b.y, b.w, b.h, 0, 0, colorCanvas.width, colorCanvas.height);
+
+            // Krupni oblici reljefa: mreza verteksa, zagladjena da nema siljaka od suma
+            const gw = BG_SEG_X + 1, gh = BG_SEG_Y + 1;
+            const hc = document.createElement('canvas');
+            hc.width = gw; hc.height = gh;
+            hc.getContext('2d').drawImage(colorCanvas, 0, 0, gw, gh);
+            const height = normalize(blur(fillMissing(luminance(hc)), gw, gh, 2, 2));
+
+            const geo = new THREE.PlaneGeometry(w, h, BG_SEG_X, BG_SEG_Y);
+            const pos = geo.attributes.position;
+            for (let i = 0; i < pos.count; i++) pos.setZ(i, Math.pow(height[i], RELIEF_GAMMA) * BG_RELIEF_DEPTH);
+            geo.computeVertexNormals();
+
+            const map = new THREE.CanvasTexture(colorCanvas);
+            map.colorSpace = THREE.SRGBColorSpace;
+            map.anisotropy = renderer.capabilities.getMaxAnisotropy();
+            const normalMap = new THREE.CanvasTexture(normalMapFrom(colorCanvas));
+            const mesh = new THREE.Mesh(geo, new THREE.MeshStandardMaterial({
+                map: map, normalMap: normalMap, normalScale: new THREE.Vector2(0.8, 0.8), roughness: 0.92, metalness: 0
+            }));
+            mesh.castShadow = true;
+            mesh.receiveShadow = true;
+            return mesh;
+        }
+
+        function clearBackground() {
+            if (!bgMesh) return;
+            scene.remove(bgMesh);
+            bgMesh.traverse(function (o) {
+                if (!o.isMesh || o.userData.sharedMaterial) {
+                    if (o.isMesh) o.geometry.dispose();
+                    return;
+                }
+                o.geometry.dispose();
+                if (o.material.map) o.material.map.dispose();
+                o.material.dispose();
+            });
+            bgMesh = null;
+        }
+
+        // crna folija spolja na zadnjem staklu
+        function blackFoil() {
+            const m = new THREE.Mesh(new THREE.PlaneGeometry(modelSize.x, modelSize.y),
+                new THREE.MeshStandardMaterial({ color: 0x111111, roughness: 0.9, side: THREE.DoubleSide }));
+            m.position.set(0, 0, -modelSize.z / 2 - 0.0005);
+            return m;
+        }
+
+        // vertikalne trake folije na bocnim staklima uz zadnju ivicu (sakrivaju ivicu pozadine)
+        const SIDE_STRIP = 0.09;
+        function sideStrips() {
+            const group = new THREE.Group();
+            [-1, 1].forEach(function (side) {
+                const y0 = sideGapY ? sideGapY[0] : -modelSize.y / 2, y1 = sideGapY ? sideGapY[1] : modelSize.y / 2;
+                const geo = new THREE.PlaneGeometry(SIDE_STRIP, y1 - y0);
+                const uv = geo.attributes.uv;
+                for (let i = 0; i < uv.count; i++) uv.setXY(i, uv.getX(i) * SIDE_STRIP, uv.getY(i) * (y1 - y0));
+                const m = new THREE.Mesh(geo, panelMaterials[0]);
+                m.userData.sharedMaterial = true;
+                m.rotation.y = side * Math.PI / 2;
+                m.position.set(side * (modelSize.x / 2 + 0.0005), (y0 + y1) / 2, -modelSize.z / 2 + SIDE_STRIP / 2);
+                group.add(m);
+            });
+            return group;
+        }
+
+        async function applyBackground() {
+            if (!modelSize) return;
+            const opt = activeBg, request = ++bgRequest;
+            let mesh = null;
+            if (opt.type === 'black') {
+                mesh = blackFoil();
+            } else if (opt.type === 'relief') {
+                let img;
+                try {
+                    img = await loadImage(opt.src);
+                } catch (e) {
+                    console.error('Pozadina nije ucitana:', opt.src, e);
+                    return;
+                }
+                if (request !== bgRequest) return;
+                const innerH = modelSize.y - 2 * GLASS_M - 0.002;
+                const relief = buildRelief(img, modelSize.x - 2 * GLASS_M - 0.002, innerH);
+                relief.position.set(0, -modelSize.y / 2 + GLASS_M + 0.001 + innerH / 2, -modelSize.z / 2 + GLASS_M + 0.001);
+                relief.receiveShadow = true;
+                mesh = new THREE.Group();
+                mesh.add(relief, blackFoil());
+                if (panelMaterials.length) mesh.add(sideStrips());
+            }
+            if (request !== bgRequest) return;
+            clearBackground();
+            if (mesh) {
+                bgMesh = mesh;
+                scene.add(mesh);
+            }
+        }
+
+        const bgContainer = document.getElementById('bg-options');
+        bgOptions.forEach(function (opt, i) {
+            const btn = document.createElement('button');
+            btn.className = 'color-swatch' + (i === 0 ? ' active' : '');
+            btn.title = opt.name;
+            btn.setAttribute('aria-label', opt.name);
+            const dotStyle = opt.type === 'none' ? 'background:#fff;outline:1px dashed #bbb;outline-offset:-4px;'
+                : opt.type === 'black' ? 'background:#111;'
+                : 'background:url(' + opt.src + ') center/170% no-repeat;';
+            btn.innerHTML = '<span class="dot" style="' + dotStyle + '"></span>';
+            btn.addEventListener('click', function () {
+                bgContainer.querySelectorAll('.color-swatch').forEach(function (b) { b.classList.remove('active'); });
+                btn.classList.add('active');
+                activeBg = opt;
+                applyBackground();
+                decorGroup.children.forEach(clampDecor);
+                updateRing();
+            });
+            bgContainer.appendChild(btn);
         });
-        colorContainer.appendChild(btn);
-      });
 
-      // Staklo materijal
-      const glassMaterial = new THREE.MeshPhysicalMaterial({
-        color: new THREE.Color(0.5451, 0.7608, 1.0),
-        transparent: true,
-        opacity: 0.15,
-        roughness: 0.05,
-        metalness: 0.0,
-        side: THREE.DoubleSide,
-        depthWrite: false
-      });
+        // Staklo materijal
+        const glassMaterial = new THREE.MeshPhysicalMaterial({
+            color: new THREE.Color(0.78, 0.92, 0.85),
+            transparent: true,
+            opacity: 0.15,
+            roughness: 0.05,
+            metalness: 0.0,
+            side: THREE.DoubleSide,
+            depthWrite: false
+        });
 
-      function isGlassMaterial(mat) {
-        if (!mat) return false;
-        const name = (mat.name || '').toLowerCase();
-        return name.includes('glass') || name.includes('staklo');
-      }
+        function isGlassMaterial(mat) {
+            if (!mat) return false;
+            const name = (mat.name || '').toLowerCase();
+            return name.includes('glass') || name.includes('staklo');
+        }
 
-      // Ucitaj GLB
-      const loader = new GLTFLoader();
-      loader.load(
-        '/3d/ter100x50x50.glb',
-        function (gltf) {
-          const object = gltf.scene;
+        // Terarijum se generise u browseru iz mera (mm). Lokalno: x = duzina, y = dubina (0 = napred), z = visina;
+        // root skalira na metre i rotira u Y-up, pa su offseti poklopca u mm.
+        const T_GLASS = 4, T_FOIL = 0.3, TRACK = 10, TRACK_DEPTH = 14, DOOR_OVERLAP = 10, LID_BORDER = 0.2;
+        const TOP_BAND_RATIO = 0.18, BOTTOM_BAND_RATIO = 0.135; // lajsne srazmerne visini: na 50cm su 9 i 6.75cm
+        const TOP_BAND_MIN = 30, BOTTOM_BAND_MIN = 20;
+        const LOGO_W = 50, LOGO_H = 20, LOGO_MARGIN = 15, LOGO_DEPTH = 2, LOGO_BEVEL = 2.5, LOGO_INNER_RADIUS = 0.1; // radijus ugla = bevel + unutrasnji
+        const UV_SCALE = 1 / 1000, MESH_UV_SCALE = 1 / 20;
+        const DIM_FIELDS = [
+            { key: 'L', label: T.dims[0], min: 30, max: 200 },
+            { key: 'W', label: T.dims[1], min: 25, max: 100 },
+            { key: 'H', label: T.dims[2], min: 25, max: 150 }
+        ];
+        const DEFAULT_DIMS = { L: 100, W: 50, H: 50 };
+        let dims = Object.assign({}, DEFAULT_DIMS);
+        const BUILD_FIELDS = [
+            { key: 'open', label: T.build.open[0], options: [['sliding', T.build.open[1]], ['top', T.build.open[2]]] },
+            { key: 'topVent', label: T.build.topVent[0], options: [['mesh', T.build.topVent[1]], ['plastic', T.build.topVent[2]]] },
+            { key: 'sideVent', label: T.build.sideVent[0], options: [['none', T.build.sideVent[1]], ['plastic', T.build.sideVent[2]]] }
+        ];
+        const DEFAULT_BUILD = { open: 'sliding', topVent: 'mesh', sideVent: 'none' };
+        let build = Object.assign({}, DEFAULT_BUILD);
 
-          object.traverse(function (child) {
-            if (child.isMesh) {
-              child.castShadow = true;
-              child.receiveShadow = true;
-              const mats = Array.isArray(child.material) ? child.material : [child.material];
-              const newMats = mats.map(function (mat) {
-                if (isGlassMaterial(mat)) return glassMaterial;
-                mat.side = THREE.DoubleSide;
-                if (panelMaterials.indexOf(mat) === -1) panelMaterials.push(mat);
-                return mat;
-              });
-              child.material = newMats.length === 1 ? newMats[0] : newMats;
+        const foilMaterial = new THREE.MeshStandardMaterial({ name: 'Folija', roughness: 0.8, side: THREE.DoubleSide });
+        panelMaterials.push(foilMaterial);
+        const edgeMaterial = new THREE.MeshStandardMaterial({
+            name: 'Ivica', color: new THREE.Color(0.18, 0.38, 0.30), transparent: true, opacity: 0.85, roughness: 0.1, side: THREE.DoubleSide
+        });
+        const trackMaterial = new THREE.MeshStandardMaterial({
+            name: 'Profil', color: new THREE.Color(0.03, 0.03, 0.03), metalness: 0.2, roughness: 0.5, side: THREE.DoubleSide
+        });
+        const meshMaterial = new THREE.MeshStandardMaterial({
+            name: 'Mrezica', map: meshTexture(), transparent: true, metalness: 0.6, roughness: 0.5, side: THREE.DoubleSide
+        });
+        const logoTexture = texLoader.load('/3d/logo-plocica.png');
+        logoTexture.colorSpace = THREE.SRGBColorSpace;
+        const logoMaterial = new THREE.MeshStandardMaterial({ name: 'Logo', map: logoTexture, roughness: 0.25 });
+        const partMaterials = { foil: foilMaterial, track: trackMaterial, mesh: meshMaterial };
+        const ventRimMaterial = new THREE.MeshStandardMaterial({ name: 'Ventilator obod', color: 0x161616, roughness: 0.55 });
+        const ventFaceMaterial = new THREE.MeshStandardMaterial({ name: 'Ventilator', map: ventTexture(), roughness: 0.6 });
+
+        // sive zice, providna okca; jedan tile = 20mm (4 okca)
+        function meshTexture() {
+            const c = document.createElement('canvas');
+            c.width = c.height = 64;
+            const ctx = c.getContext('2d');
+            ctx.fillStyle = '#aaaaaa';
+            for (let i = 0; i < 4; i++) {
+                ctx.fillRect(i * 16, 0, 3, 64);
+                ctx.fillRect(0, i * 16, 64, 3);
             }
+            const tex = new THREE.CanvasTexture(c);
+            tex.colorSpace = THREE.SRGBColorSpace;
+            tex.wrapS = tex.wrapT = THREE.RepeatWrapping;
+            return tex;
+        }
 
-            const name = (child.name || '').toLowerCase();
-            if (name.includes('prednje') && name.includes('staklo') && !name.includes('geom3d')) {
-              if (name.includes('(l)')) doorLeft = child;
-              if (name.includes('(d)')) doorRight = child;
+        function thinAxis(b) {
+            const sizes = [b[1] - b[0], b[3] - b[2], b[5] - b[4]];
+            return sizes.indexOf(Math.min.apply(null, sizes));
+        }
+
+        // lica kocke normalna na `axes`, ravne normale, planarni UV; b = [x0, x1, y0, y1, z0, z1]
+        function boxFaces(out, b, offset, uvScale, axes) {
+            const lo = [b[0] - offset[0], b[2] - offset[1], b[4] - offset[2]];
+            const hi = [b[1] - offset[0], b[3] - offset[1], b[5] - offset[2]];
+            axes.forEach(function (axis) {
+                const a1 = (axis + 1) % 3, a2 = (axis + 2) % 3;
+                [[-1, lo[axis]], [1, hi[axis]]].forEach(function (face) {
+                    const sign = face[0], base = out.pos.length / 3;
+                    const pts = [[lo[a1], lo[a2]], [hi[a1], lo[a2]], [hi[a1], hi[a2]], [lo[a1], hi[a2]]].map(function (c) {
+                        const p = [0, 0, 0], n = [0, 0, 0];
+                        p[axis] = face[1]; p[a1] = c[0]; p[a2] = c[1]; n[axis] = sign;
+                        out.pos.push(p[0], p[1], p[2]);
+                        out.nor.push(n[0], n[1], n[2]);
+                        out.uv.push((c[0] + offset[a1]) * uvScale, (c[1] + offset[a2]) * uvScale);
+                        return p;
+                    });
+                    // (a1, a2, axis) je ciklicno => cross(e1, e2) ima samo komponentu po `axis`
+                    const e1 = [0, 1, 2].map(function (k) { return pts[1][k] - pts[0][k]; });
+                    const e2 = [0, 1, 2].map(function (k) { return pts[2][k] - pts[0][k]; });
+                    const cross = e1[a1] * e2[a2] - e1[a2] * e2[a1];
+                    (cross * sign > 0 ? [0, 1, 2, 0, 2, 3] : [0, 2, 1, 0, 3, 2]).forEach(function (t) { out.idx.push(base + t); });
+                });
+            });
+        }
+
+        function geometryOf(boxes, offset, uvScale, axesFor) {
+            const out = { pos: [], nor: [], uv: [], idx: [] };
+            boxes.forEach(function (b) { boxFaces(out, b, offset, uvScale, axesFor(b)); });
+            const geo = new THREE.BufferGeometry();
+            geo.setAttribute('position', new THREE.Float32BufferAttribute(out.pos, 3));
+            geo.setAttribute('normal', new THREE.Float32BufferAttribute(out.nor, 3));
+            geo.setAttribute('uv', new THREE.Float32BufferAttribute(out.uv, 2));
+            geo.setIndex(out.idx);
+            return geo;
+        }
+
+        // bez kliznih vrata nema sina, pa su trake folije duplo tanje (uz minimum da logo stane)
+        function bands(H, c) {
+            if (c.open === 'sliding') return { top: H * TOP_BAND_RATIO, bottom: H * BOTTOM_BAND_RATIO };
+            return { top: Math.max(H * TOP_BAND_RATIO / 2, TOP_BAND_MIN), bottom: Math.max(H * BOTTOM_BAND_RATIO / 2, BOTTOM_BAND_MIN) };
+        }
+
+        // donja ivica prednjeg stakla: kod kliznih stoji na podu, bez njih ide do dna kao bocna
+        function frontBottom(c) {
+            return c.open === 'sliding' ? T_GLASS : 0;
+        }
+
+        // kod kliznih vrata bocne trake folije su za visinu sine sire od prednjih, da se crna sina ne vidi sa strane
+        function sideBandGap(H, c) {
+            const b = bands(H, c), extra = c.open === 'sliding' ? TRACK : 0;
+            return [frontBottom(c) + b.bottom + extra, H - b.top - extra];
+        }
+
+        // crne vodilice: osnova + zidovi, izmedju zidova dva kanala (y 2-6 i 8-12) u koje upadaju vrata
+        function trackBoxes(L, botTop, topBot) {
+            const g = T_GLASS, half = TRACK / 2;
+            const walls = [[0, 2], [2 + g, 8], [8 + g, TRACK_DEPTH]];
+            const out = [[g, L - g, 0, TRACK_DEPTH, botTop, botTop + half], [g, L - g, 0, TRACK_DEPTH, topBot - half, topBot]];
+            walls.forEach(function (w) {
+                out.push([g, L - g, w[0], w[1], botTop + half, botTop + TRACK]);
+                out.push([g, L - g, w[0], w[1], topBot - TRACK, topBot - half]);
+            });
+            return out;
+        }
+
+        // okrugli plasticni ventilator (crni obod + resetka), osa ide duz `dir` ('z' gore, '-x'/'+x' bocno)
+        const VENT_R = 20, VENT_H = 2;
+        function vent(x, y, z, dir) {
+            const geo = new THREE.CylinderGeometry(VENT_R, VENT_R, VENT_H, 40);
+            const m = new THREE.Mesh(geo, [ventRimMaterial, ventFaceMaterial, ventRimMaterial]);
+            if (dir === 'z') m.rotation.x = Math.PI / 2; // +Y cilindra -> +Z
+            else m.rotation.z = dir === '-x' ? Math.PI / 2 : -Math.PI / 2;
+            m.position.set(x, y, z);
+            m.userData.noBounds = true;
+            return m;
+        }
+
+        function ventTexture() {
+            const c = document.createElement('canvas');
+            c.width = c.height = 128;
+            const ctx = c.getContext('2d');
+            ctx.fillStyle = '#2a2a2a';
+            ctx.fillRect(0, 0, 128, 128);
+            ctx.fillStyle = '#050505';
+            for (let y = 8; y < 128; y += 12) {
+                for (let x = 8; x < 128; x += 12) {
+                    if (Math.hypot(x - 64, y - 64) < 50) { ctx.beginPath(); ctx.arc(x, y, 3.2, 0, Math.PI * 2); ctx.fill(); }
+                }
             }
-            if ((name.includes('plafon') || name.includes('poklopac')) && !name.includes('geom3d')) {
-              lid = child;
+            ctx.strokeStyle = '#3a3a3a';
+            ctx.lineWidth = 4;
+            ctx.beginPath(); ctx.arc(64, 64, 56, 0, Math.PI * 2); ctx.stroke();
+            const tex = new THREE.CanvasTexture(c);
+            tex.colorSpace = THREE.SRGBColorSpace;
+            return tex;
+        }
+
+        // ventilatori u mrezi na punom poklopcu (40x40cm -> 3x3); napred ostaje mesta za dršku
+        function lidVents(L, W, H) {
+            const g = T_GLASS, front = g + 45, back = W - g - 20;
+            const cols = Math.min(8, Math.max(1, Math.round((L - 2 * g) / 130)));
+            const rows = Math.min(3, Math.max(1, Math.round((back - front) / 130)));
+            const out = [];
+            for (let i = 0; i < cols; i++) {
+                for (let j = 0; j < rows; j++) {
+                    out.push(vent(g + (L - 2 * g) * (i + 0.5) / cols, front + (back - front) * (j + 0.5) / rows, H + T_FOIL + VENT_H / 2, 'z'));
+                }
             }
-          });
+            return out;
+        }
 
-          // Centriraj
-          const box = new THREE.Box3().setFromObject(object);
-          const center = box.getCenter(new THREE.Vector3());
-          const size = box.getSize(new THREE.Vector3());
-          object.position.sub(center);
-          scene.add(object);
+        // red ventilatora u gornjoj bocnoj traci folije (kao 80x50x50: 4 na 50cm dubine)
+        function sideVents(L, W, H, c) {
+            const n = Math.min(6, Math.max(1, Math.floor((W - 40) / 110)));
+            const z = (sideBandGap(H, c)[1] + H) / 2, out = [];
+            for (let i = 0; i < n; i++) {
+                const y = 20 + (W - 40) * (i + 0.5) / n;
+                out.push(vent(-T_FOIL - VENT_H / 2, y, z, '-x'), vent(L + T_FOIL + VENT_H / 2, y, z, '+x'));
+            }
+            return out;
+        }
 
-          // Kamera
-          const maxDim = Math.max(size.x, size.y, size.z);
-          var zoom = window.innerWidth <= 1000 ? 1.4 : 1.5;
-          camera.position.set(maxDim * zoom, maxDim * 0.5, maxDim * 0.7);
-          controls.target.set(0, 0, 0);
-          controls.minDistance = maxDim * 0.3;
-          controls.maxDistance = maxDim * 5;
-          controls.update();
+        function parts(L, W, H, c) {
+            const g = T_GLASS, f = T_FOIL, b = bands(H, c), fz = frontBottom(c);
+            const botTop = fz + b.bottom, topBot = H - b.top;
+            const doorZ0 = botTop + TRACK / 2, doorZ1 = topBot - TRACK / 2; // vrata ulaze do pola u sine
+            const side = sideBandGap(H, c);
+            // bez kliznih vrata folija ide i pozadi, gore i dole
+            const backFoil = c.open === 'sliding' ? null : [[-f, L + f, W, W + f, 0, botTop], [-f, L + f, W, W + f, topBot, H]];
+            // bez kliznih vrata prednje staklo je preko celog lica (naleze na ivice bocnih i poda), bocna su iza njega
+            const sideY0 = c.open === 'sliding' ? 0 : g;
+            const half = (L - 2 * g) / 2, doorW = half + DOOR_OVERLAP;
+            const bx = L * LID_BORDER, by = W * LID_BORDER;
+            const lidFrame = c.topVent === 'mesh'
+                ? [[g, L - g, g, by], [g, L - g, W - by, W - g], [g, bx, by, W - by], [L - bx, L - g, by, W - by]]
+                : [[g, L - g, g, W - g]];
+            const lid = {
+                name: 'Plafon (poklopac)', t: [L / 2, W / 2, H],
+                glass: lidFrame.map(function (r) { return [r[0], r[1], r[2], r[3], H - g, H]; }),
+                foil: lidFrame.map(function (r) { return [r[0], r[1], r[2], r[3], H, H + f]; }),
+                extra: c.topVent === 'plastic' ? lidVents(L, W, H) : []
+            };
+            if (c.topVent === 'mesh') lid.mesh = [[bx, L - bx, by, W - by, H - 1, H]];
+            // drska uz prednju ivicu poklopca, kad se otvara odozgo
+            // staklena drska 20x3cm, 6mm, uspravno na poklopcu uz prednju ivicu (kod uskih poklopaca kraca)
+            const handleW = Math.min(200, L - 2 * g - 40);
+            if (c.open === 'top') lid.extra = lid.extra.concat(glassMeshes([[L / 2 - handleW / 2, L / 2 + handleW / 2, g + 15, g + 21, H + f, H + f + 30]], [0, 0, 0], true));
+            const leftSide = { name: 'Bocno staklo (L)', glass: [[0, g, sideY0, W - g, 0, H]], foil: [[-f, 0, 0, W, 0, side[0]], [-f, 0, 0, W, side[1], H]] };
+            const rightSide = { name: 'Bocno staklo (D)', glass: [[L - g, L, sideY0, W - g, 0, H]], foil: [[L, L + f, 0, W, 0, side[0]], [L, L + f, 0, W, side[1], H]] };
+            if (c.sideVent === 'plastic') leftSide.extra = sideVents(L, W, H, c);
+            const common = [
+                // pod izmedju bocnih i zadnjeg; prednje staklo uvuceno izmedju bocnih, pa se spreda vide ivice od 4mm
+                { name: 'Pod', glass: [[g, L - g, g - fz, W - g, 0, g]] },
+                { name: 'Ledja', glass: [[0, L, W - g, W, 0, H]], foil: backFoil },
+                leftSide, rightSide, lid
+            ];
+            if (c.open === 'top') {
+                return common.concat([
+                    // jedno fiksno prednje staklo, folija samo u trakama
+                    { name: 'Prednje fiksno staklo', glass: [[0, L, 0, g, 0, H]], foil: [[-f, L + f, -f, 0, 0, botTop], [-f, L + f, -f, 0, topBot, H]] }
+                ]);
+            }
+            return common.concat([
+                { name: 'Maska donja', glass: [[g, L - g, 0, g, g, botTop]], foil: [[g, L - g, -f, 0, g, botTop]] },
+                { name: 'Maska gornja', glass: [[g, L - g, 0, g, topBot, H]], foil: [[g, L - g, -f, 0, topBot, H]] },
+                { name: 'Sine', track: trackBoxes(L, botTop, topBot) },
+                // vrata u dve sine; translacije imaju isto y da klizanje ide samo po x
+                { name: 'Prednje staklo (L)', t: [g + doorW / 2, 0, H / 2], glass: [[g, g + doorW, 8, 8 + g, doorZ0, doorZ1]] },
+                { name: 'Prednje staklo (D)', t: [L - g - doorW / 2, 0, H / 2], glass: [[L - g - doorW, L - g, 2, 2 + g, doorZ0, doorZ1]] }
+            ]);
+        }
 
-          // Vrata
-          if (doorLeft && doorRight) {
-            doorLeftStart.copy(doorLeft.position);
-            doorRightStart.copy(doorRight.position);
-            slideDir.copy(doorRightStart).sub(doorLeftStart).normalize();
-            doorSlideDistance = doorRightStart.distanceTo(doorLeftStart);
-          } else {
-            document.getElementById('door-left-slider').disabled = true;
-            document.getElementById('door-right-slider').disabled = true;
-          }
+        // nalepnica sa logom (kao epoksi "doming" stiker): debljina raste postepeno od ivice ka sredini do LOGO_DEPTH
+        function logoMesh(H, topBand, foilLeft) {
+            const w = LOGO_W, h = LOGO_H, b = LOGO_BEVEL, t = LOGO_DEPTH * 0.9;
+            // oblik je uvucen za b, bevel ga vraca na pune mere; sirok bevel (b) a nizak (t) daje blagu kupolu
+            const x0 = b, y0 = b, x1 = w - b, y1 = h - b, r = LOGO_INNER_RADIUS;
+            const shape = new THREE.Shape();
+            shape.moveTo(x0 + r, y0);
+            shape.lineTo(x1 - r, y0); shape.quadraticCurveTo(x1, y0, x1, y0 + r);
+            shape.lineTo(x1, y1 - r); shape.quadraticCurveTo(x1, y1, x1 - r, y1);
+            shape.lineTo(x0 + r, y1); shape.quadraticCurveTo(x0, y1, x0, y1 - r);
+            shape.lineTo(x0, y0 + r); shape.quadraticCurveTo(x0, y0, x0 + r, y0);
+            const geo = new THREE.ExtrudeGeometry(shape, {
+                depth: LOGO_DEPTH - t, bevelEnabled: true, bevelThickness: t, bevelSize: b, bevelSegments: 10, curveSegments: 10
+            });
+            // zadnja strana ravna na foliji (bez zadnjeg bevela, inace bi virila kroz staklo iznutra);
+            // slika se projektuje preko cele kupole, kao stampa ispod epoksija
+            const pos = geo.attributes.position, uv = geo.attributes.uv;
+            for (let v = 0; v < pos.count; v++) {
+                if (pos.getZ(v) < 0) pos.setZ(v, 0);
+                uv.setXY(v, pos.getX(v) / w, pos.getY(v) / h);
+            }
+            geo.computeVertexNormals();
+            const m = new THREE.Mesh(geo, logoMaterial);
+            m.rotation.x = Math.PI / 2; // oblik (x, y) -> (x, z), izvlacenje ide ka -y (napolje)
+            // levo se meri od ivice folije; u uzoj traci logo ide na sredinu trake
+            const top = Math.min(LOGO_MARGIN, (topBand - h) / 2);
+            m.position.set(foilLeft + LOGO_MARGIN, -T_FOIL, H - top - h);
+            m.userData.noBounds = true;
+            return m;
+        }
 
-          var leftSlider = document.getElementById('door-left-slider');
-          var rightSlider = document.getElementById('door-right-slider');
-          var leftValue = document.getElementById('door-left-value');
-          var rightValue = document.getElementById('door-right-value');
+        // lica stakla odvojeno od ivica (lica po debljini), da ivice budu zelenkaste
+        function glassMeshes(boxes, offset, noBounds) {
+            const faces = new THREE.Mesh(geometryOf(boxes, offset, UV_SCALE, function (b) { return [thinAxis(b)]; }), glassMaterial);
+            const edges = new THREE.Mesh(geometryOf(boxes, offset, UV_SCALE, function (b) {
+                return [0, 1, 2].filter(function (a) { return a !== thinAxis(b); });
+            }), edgeMaterial);
+            faces.userData.noBounds = edges.userData.noBounds = !!noBounds;
+            return [faces, edges];
+        }
 
-          function updateDoors() {
-            var lv = parseInt(leftSlider.value) / 100;
-            var rv = parseInt(rightSlider.value) / 100;
+        // gabarit tela terarijuma, bez dodataka (drska, ventilatori, logo) - po njemu idu centriranje i pozadina
+        function bodyBox(object) {
+            object.updateMatrixWorld(true);
+            const box = new THREE.Box3();
+            object.traverse(function (o) {
+                if (!o.isMesh || o.userData.noBounds) return;
+                if (!o.geometry.boundingBox) o.geometry.computeBoundingBox();
+                box.union(o.geometry.boundingBox.clone().applyMatrix4(o.matrixWorld));
+            });
+            return box;
+        }
+
+        function buildTerrarium(d, c) {
+            const L = d.L * 10, W = d.W * 10, H = d.H * 10;
+            const root = new THREE.Group();
+            root.name = 'Terarijum ' + d.L + 'x' + d.W + 'x' + d.H + ' staklo';
+            root.rotation.x = -Math.PI / 2;
+            root.scale.setScalar(0.001);
+            root.userData.sideBandGap = sideBandGap(H, c);
+            parts(L, W, H, c).forEach(function (part) {
+                const node = new THREE.Group();
+                const t = part.t || [0, 0, 0];
+                node.name = part.name;
+                node.position.fromArray(t);
+                if (part.glass) glassMeshes(part.glass, t).forEach(function (m) { node.add(m); });
+                ['foil', 'track', 'mesh'].forEach(function (key) {
+                    if (!part[key]) return;
+                    const geo = geometryOf(part[key], t, key === 'mesh' ? MESH_UV_SCALE : UV_SCALE, function () { return [0, 1, 2]; });
+                    node.add(new THREE.Mesh(geo, partMaterials[key]));
+                });
+                (part.extra || []).forEach(function (o) {
+                    o.position.x -= t[0]; o.position.y -= t[1]; o.position.z -= t[2];
+                    node.add(o);
+                });
+                root.add(node);
+            });
+            root.add(logoMesh(H, bands(H, c).top, c.open === 'sliding' ? T_GLASS : -T_FOIL));
+            const object = new THREE.Group();
+            object.add(root);
+            return object;
+        }
+
+        let terrarium = null, lidClosed = true;
+        // naslov, slajderi i razdelnik sekcije Vrata; skriveni kad nema kliznih vrata
+        const doorControls = document.querySelector('.door-controls');
+        const doorSection = [doorControls.previousElementSibling, doorControls, doorControls.nextElementSibling];
+        const leftSlider = document.getElementById('door-left-slider');
+        const rightSlider = document.getElementById('door-right-slider');
+        const lidButton = document.getElementById('lid-button');
+
+        function updateDoors() {
+            const lv = parseInt(leftSlider.value) / 100;
+            const rv = parseInt(rightSlider.value) / 100;
             if (doorLeft) doorLeft.position.copy(doorLeftStart).addScaledVector(slideDir, doorSlideDistance * lv);
             if (doorRight) doorRight.position.copy(doorRightStart).addScaledVector(slideDir, -doorSlideDistance * rv);
-            leftValue.textContent = leftSlider.value + '%';
-            rightValue.textContent = rightSlider.value + '%';
-          }
+            document.getElementById('door-left-value').textContent = leftSlider.value + '%';
+            document.getElementById('door-right-value').textContent = rightSlider.value + '%';
+        }
+        leftSlider.addEventListener('input', updateDoors);
+        rightSlider.addEventListener('input', updateDoors);
 
-          leftSlider.addEventListener('input', updateDoors);
-          rightSlider.addEventListener('input', updateDoors);
-
-
-          // Poklopac
-          var lidButton = document.getElementById('lid-button');
-          var lidClosed = true;
-          if (lid) {
-            lidStartPos.copy(lid.position);
-          } else {
-            lidButton.style.display = 'none';
-          }
-          lidButton.addEventListener('click', function () {
+        function updateLid() {
             if (!lid) return;
+            if (lidClosed) lid.position.copy(lidStartPos);
+            else lid.position.set(lidStartPos.x, lidStartPos.y + 150, lidStartPos.z + 250);
+            lidButton.classList.toggle('open', !lidClosed);
+        }
+        lidButton.addEventListener('click', function () {
             lidClosed = !lidClosed;
-            if (lidClosed) {
-              lid.position.copy(lidStartPos);
-              lidButton.classList.remove('open');
-            } else {
-              lid.position.set(lidStartPos.x - 200, lidStartPos.y + 400, lidStartPos.z + 100);
-              lidButton.classList.add('open');
+            updateLid();
+        });
+
+        function cameraHome(maxDim) {
+            const zoom = window.innerWidth <= 1000 ? 1.4 : 1.5;
+            camera.position.set(maxDim * 0.5, maxDim * 0.5, maxDim * zoom);
+            controls.target.set(0, 0, 0);
+            controls.update();
+        }
+
+        function setupTerrarium() {
+            if (terrarium) {
+                scene.remove(terrarium);
+                terrarium.traverse(function (o) { if (o.isMesh) o.geometry.dispose(); });
             }
-          });
+            const object = buildTerrarium(dims, build);
+            doorLeft = doorRight = lid = null;
+            object.traverse(function (child) {
+                if (child.isMesh) {
+                    child.castShadow = true;
+                    child.receiveShadow = true;
+                }
+                const name = child.name.toLowerCase();
+                if (name.includes('prednje staklo (l)')) doorLeft = child;
+                if (name.includes('prednje staklo (d)')) doorRight = child;
+                if (name.includes('poklopac')) lid = child;
+            });
 
-          // Primeni drvo teksturu kao default
-          applyOption(colorOptions[0]);
+            const box = bodyBox(object);
+            const size = box.getSize(new THREE.Vector3());
+            object.position.sub(box.getCenter(new THREE.Vector3()));
+            scene.add(object);
+            terrarium = object;
+            modelSize = size.clone();
+            object.updateMatrixWorld(true);
+            const modelRoot = object.children[0];
+            sideGapY = modelRoot.userData.sideBandGap.map(function (z) { return modelRoot.localToWorld(new THREE.Vector3(0, 0, z)).y; });
 
-          // Dimenzije (zakucane za trenutni model)
-          var dimContainer = document.getElementById('dimensions-info');
-          var dims = [
-            { label: T.dims[0], val: 100 },
-            { label: T.dims[1], val: 50 },
-            { label: T.dims[2], val: 50 }
-          ];
-          dimContainer.innerHTML = dims.map(function (d) {
-            return '<div class="dim-item"><div class="dim-label">' + d.label + '</div><div class="dim-value">' + d.val + ' <span class="dim-unit">' + T.unit + '</span></div></div>';
-          }).join('');
+            const maxDim = Math.max(size.x, size.y, size.z);
+            const sc = dirLight1.shadow.camera;
+            sc.left = sc.bottom = -maxDim; sc.right = sc.top = maxDim;
+            sc.updateProjectionMatrix();
+            controls.minDistance = maxDim * 0.3;
+            controls.maxDistance = maxDim * 5;
+            cameraHome(maxDim);
 
-          // Gotovo
-          document.getElementById('loading').style.display = 'none';
-          document.getElementById('panel').style.display = 'block';
+            const sliding = !!(doorLeft && doorRight);
+            doorSection.forEach(function (el) { el.hidden = !sliding; });
+            if (sliding) {
+                doorLeftStart.copy(doorLeft.position);
+                doorRightStart.copy(doorRight.position);
+                slideDir.copy(doorRightStart).sub(doorLeftStart).normalize();
+                doorSlideDistance = doorRightStart.distanceTo(doorLeftStart);
+            }
+            updateDoors();
+            lidStartPos.copy(lid.position);
+            updateLid();
 
-          // Resize nakon sto panel postane vidljiv
-          setTimeout(function () {
+            applyBackground();
+            updateSubstrate();
+            updateRing();
+            scheduleArExport();
+        }
+
+        // Dimenzije: unos u cm, model se pravi ponovo
+        const dimContainer = document.getElementById('dimensions-info');
+        dimContainer.innerHTML = DIM_FIELDS.map(function (f) {
+            return '<label class="dim-item"><span class="dim-label">' + f.label + '</span><span class="dim-value">' +
+                '<input type="number" class="dim-input" data-dim="' + f.key + '" min="' + f.min + '" max="' + f.max +
+                '" step="1" inputmode="numeric" value="' + dims[f.key] + '" aria-label="' + f.label + T.inUnit + ' (' + f.min + '–' + f.max + ')">' +
+                ' <span class="dim-unit">' + T.unit + '</span></span></label>';
+        }).join('') + '<p class="dim-hint">' + DIM_FIELDS.map(function (f) { return f.label + ' ' + f.min + '–' + f.max; }).join(' · ') + ' ' + T.unit + '</p>';
+
+        const buildContainer = document.getElementById('build-options');
+        BUILD_FIELDS.forEach(function (f) {
+            const row = document.createElement('div');
+            row.className = 'opt-row';
+            row.innerHTML = '<span class="opt-row-label" id="opt-' + f.key + '">' + f.label + '</span>' +
+                '<div class="opt-seg" role="group" aria-labelledby="opt-' + f.key + '">' + f.options.map(function (o) {
+                    return '<button type="button" data-key="' + f.key + '" data-value="' + o[0] + '" aria-pressed="' + (build[f.key] === o[0]) + '"' +
+                        (build[f.key] === o[0] ? ' class="active"' : '') + '>' + o[1] + '</button>';
+                }).join('') + '</div>';
+            buildContainer.appendChild(row);
+        });
+        function syncBuildButtons() {
+            buildContainer.querySelectorAll('button').forEach(function (b) {
+                const on = build[b.dataset.key] === b.dataset.value;
+                b.classList.toggle('active', on);
+                b.setAttribute('aria-pressed', on);
+            });
+        }
+        buildContainer.addEventListener('click', function (e) {
+            const b = e.target.closest('button');
+            if (!b || build[b.dataset.key] === b.dataset.value) return;
+            build = Object.assign({}, build, { [b.dataset.key]: b.dataset.value });
+            syncBuildButtons();
+            setupTerrarium();
+            checkDirty();
+        });
+
+        let dimTimer = null;
+        function applyDim(input, clamp) {
+            const f = DIM_FIELDS.find(function (x) { return x.key === input.dataset.dim; });
+            let v = Math.round(parseFloat(input.value));
+            if (isNaN(v)) v = dims[f.key];
+            if (!clamp && (v < f.min || v > f.max)) return;
+            v = Math.min(f.max, Math.max(f.min, v));
+            if (clamp) input.value = v;
+            if (v === dims[f.key]) return;
+            dims = Object.assign({}, dims, { [f.key]: v });
+            setupTerrarium();
+            checkDirty();
+        }
+        dimContainer.querySelectorAll('.dim-input').forEach(function (input) {
+            input.addEventListener('input', function () {
+                clearTimeout(dimTimer);
+                dimTimer = setTimeout(function () { applyDim(input, false); }, 400);
+            });
+            input.addEventListener('change', function () {
+                clearTimeout(dimTimer);
+                applyDim(input, true);
+            });
+        });
+
+        function setDims(d) {
+            dims = Object.assign({}, d);
+            dimContainer.querySelectorAll('.dim-input').forEach(function (input) { input.value = dims[input.dataset.dim]; });
+            setupTerrarium();
+        }
+
+
+
+        // Resize
+        window.addEventListener('resize', function () {
             camera.aspect = wrap.clientWidth / wrap.clientHeight;
             camera.updateProjectionMatrix();
             renderer.setSize(wrap.clientWidth, wrap.clientHeight);
-          }, 0);
+        });
 
-          // Sakrij hint posle 4s
-          setTimeout(function () {
+        // Screenshot dugme
+        const screenshotBtn = document.getElementById('screenshot-button');
+        const flash = document.getElementById('screenshot-flash');
+
+        screenshotBtn.addEventListener('click', function () {
+            // Renderuj frame pre screenshot-a
+            renderer.render(scene, camera);
+
+            // Flash efekat
+            flash.classList.add('flash');
+            setTimeout(function () { flash.classList.remove('flash'); }, 150);
+
+            // Uzmi sliku sa canvas-a
+            const dataUrl = renderer.domElement.toDataURL('image/png');
+
+            // Kreiraj download link
+            const link = document.createElement('a');
+            link.download = T.download;
+            link.href = dataUrl;
+            link.click();
+        });
+
+// Dekoracija: supstrat na dnu + 3D modeli (CC0, Poly Haven) koji se prevlace po dnu
+        const SUBSTRATES = [
+            { key: 'none', name: T.substrates[0] },
+            { key: 'pesak', name: T.substrates[1] },
+            { key: 'treset', name: T.substrates[2] }
+        ];
+        const SUBSTRATE_TILE = 0.3; // jedan tile teksture = 30cm
+        const DEFAULT_SUBSTRATE_CM = 4;
+        const DECOR_ITEMS = [
+            // nasi proizvodi; id = slug iz nsreptiles-astro oprema, size = najveca mera u m.
+            // Model: scripts/photo_lathe_model.py (okrugle, od fotografije) ili scripts/object-capture/make-model.sh (fotogrametrija)
+            // shortcut: precnik 15 cm je pretpostavka sa fotografije, zameniti stvarnom merom
+            { id: 'posuda-godovi-drveta', name: T.decor[0], size: 0.15 },
+            { id: 'skrivalica-pecina', name: T.decor[1], size: 0.2 }
+        ];
+        const decorLoader = new GLTFLoader();
+        const decorCache = {}; // id -> Promise<Object3D> normalizovan model (dno na y=0, centriran)
+        const decorGroup = new THREE.Group();
+        scene.add(decorGroup);
+        let substrate = { type: 'none', cm: DEFAULT_SUBSTRATE_CM }, substrateMesh = null, selectedDecor = null;
+
+        // unutrasnjost terarijuma u svetskim koordinatama (m); front je +z
+        function innerBounds() {
+            const frontInset = build.open === 'sliding' ? TRACK_DEPTH / 1000 + 0.002 : GLASS_M;
+            const backInset = GLASS_M + (activeBg.type === 'relief' ? BG_RELIEF_DEPTH * 0.6 : 0);
+            return {
+                x0: -modelSize.x / 2 + GLASS_M, x1: modelSize.x / 2 - GLASS_M,
+                z0: -modelSize.z / 2 + backInset, z1: modelSize.z / 2 - frontInset,
+                floor: -modelSize.y / 2 + GLASS_M
+            };
+        }
+
+        function surfaceY() {
+            return innerBounds().floor + (substrate.type === 'none' ? 0 : substrate.cm / 100);
+        }
+
+        function substrateMaps(key) {
+            const p = '/3d/supstrat/' + key + '/';
+            const maps = { map: texLoader.load(p + 'color.jpg'), normalMap: texLoader.load(p + 'normal.jpg'), roughnessMap: texLoader.load(p + 'roughness.jpg') };
+            maps.map.colorSpace = THREE.SRGBColorSpace;
+            maps.map.userData.mimeType = 'image/jpeg';
+            Object.values(maps).forEach(function (t) { t.wrapS = t.wrapT = THREE.RepeatWrapping; });
+            return maps;
+        }
+        const substrateTex = {};
+
+        function updateSubstrate() {
+            if (substrateMesh) {
+                scene.remove(substrateMesh);
+                substrateMesh.geometry.dispose();
+                substrateMesh.material.dispose();
+                substrateMesh = null;
+            }
+            if (substrate.type !== 'none' && modelSize) {
+                const b = innerBounds(), h = substrate.cm / 100;
+                // ide do zadnjeg stakla i ispod pozadine; spreda do prednjeg stakla
+                const z0 = -modelSize.z / 2 + GLASS_M, z1 = modelSize.z / 2 - GLASS_M;
+                const w = b.x1 - b.x0 - 0.001, d = z1 - z0 - 0.001;
+                if (!substrateTex[substrate.type]) substrateTex[substrate.type] = substrateMaps(substrate.type);
+                // jedan supstrat je u sceni u jednom trenutku, pa repeat moze direktno na deljene teksture
+                const maps = substrateTex[substrate.type];
+                Object.values(maps).forEach(function (t) { t.repeat.set(w / SUBSTRATE_TILE, d / SUBSTRATE_TILE); });
+                substrateMesh = new THREE.Mesh(new THREE.BoxGeometry(w, h, d),
+                    new THREE.MeshStandardMaterial(Object.assign({ roughness: 1 }, maps)));
+                substrateMesh.position.set((b.x0 + b.x1) / 2, b.floor + h / 2, (z0 + z1) / 2);
+                substrateMesh.receiveShadow = true;
+                scene.add(substrateMesh);
+            }
+            decorGroup.children.forEach(clampDecor);
+        }
+
+        function loadDecor(item) {
+            if (!decorCache[item.id]) {
+                const raw = decorLoader.loadAsync('/3d/dekor/' + item.id + '/' + item.id + '.glb').then(function (g) { return g.scene; });
+                decorCache[item.id] = raw.then(function (obj) {
+                    // normalizacija: najveca dimenzija = item.size, dno na y=0, centar u xz
+                    const box = new THREE.Box3().setFromObject(obj);
+                    const sz = box.getSize(new THREE.Vector3());
+                    const k = item.size / Math.max(sz.x, sz.y, sz.z);
+                    obj.scale.setScalar(k);
+                    const c = box.getCenter(new THREE.Vector3());
+                    obj.position.set(-c.x * k, -box.min.y * k, -c.z * k);
+                    obj.traverse(function (o) { if (o.isMesh) { o.castShadow = true; o.receiveShadow = true; } });
+                    const pivot = new THREE.Group();
+                    pivot.add(obj);
+                    return pivot;
+                });
+            }
+            return decorCache[item.id];
+        }
+
+        // drzi dekoraciju unutar terarijuma; ako je veca od unutrasnjosti, smanji je
+        function clampDecor(o) {
+            if (!modelSize) return;
+            const b = innerBounds();
+            o.scale.setScalar(1);
+            o.updateMatrixWorld(true);
+            const sz = new THREE.Box3().setFromObject(o).getSize(new THREE.Vector3());
+            const fit = Math.min(1, (b.x1 - b.x0) * 0.9 / sz.x, (b.z1 - b.z0) * 0.9 / sz.z, (modelSize.y - 2 * GLASS_M) * 0.8 / sz.y);
+            o.scale.setScalar(fit);
+            const rx = sz.x * fit / 2, rz = sz.z * fit / 2;
+            o.position.x = THREE.MathUtils.clamp(o.position.x, b.x0 + rx, b.x1 - rx);
+            o.position.z = THREE.MathUtils.clamp(o.position.z, b.z0 + rz, b.z1 - rz);
+            o.position.y = surfaceY();
+        }
+
+        async function addDecor(item) {
+            let proto;
+            try {
+                proto = await loadDecor(item);
+            } catch (e) {
+                delete decorCache[item.id];
+                console.error('Dekoracija nije ucitana:', item.id, e);
+                return;
+            }
+            const o = proto.clone();
+            o.userData.decor = item;
+            const b = innerBounds();
+            // svaka nova malo pomerena da ne upadnu jedna u drugu
+            const n = decorGroup.children.length;
+            o.position.set((b.x0 + b.x1) / 2 + ((n % 5) - 2) * 0.08, 0, (b.z0 + b.z1) / 2);
+            o.rotation.y = Math.random() * Math.PI * 2;
+            decorGroup.add(o);
+            clampDecor(o);
+            selectDecor(o);
+            scheduleArExport();
+            checkDirty();
+        }
+
+        const decorTools = document.getElementById('decor-selected');
+        const selectionRing = new THREE.Mesh(new THREE.RingGeometry(0.86, 1, 64), new THREE.MeshBasicMaterial({ color: 0x4aa584, side: THREE.DoubleSide }));
+        selectionRing.rotation.x = -Math.PI / 2;
+        selectionRing.visible = false;
+        scene.add(selectionRing);
+
+        function selectDecor(o) {
+            selectedDecor = o;
+            decorTools.hidden = !o;
+            selectionRing.visible = !!o;
+            if (o) {
+                document.getElementById('decor-selected-name').textContent = o.userData.decor.name;
+                updateRing();
+                syncAngle();
+            }
+        }
+
+        function updateRing() {
+            if (!selectedDecor) return;
+            const sz = new THREE.Box3().setFromObject(selectedDecor).getSize(new THREE.Vector3());
+            const r = Math.max(sz.x, sz.z) / 2 + 0.01;
+            selectionRing.scale.set(r, r, 1);
+            selectionRing.position.set(selectedDecor.position.x, selectedDecor.position.y + 0.002, selectedDecor.position.z);
+        }
+
+        function removeDecor(o) {
+            decorGroup.remove(o);
+            if (selectedDecor === o) selectDecor(null);
+            scheduleArExport();
+            checkDirty();
+        }
+
+        const angleInput = document.getElementById('decor-angle');
+        const TAU = Math.PI * 2;
+
+        function syncAngle() {
+            if (!selectedDecor) return;
+            const deg = Math.round(THREE.MathUtils.radToDeg(((selectedDecor.rotation.y % TAU) + TAU) % TAU)) % 360;
+            angleInput.value = deg;
+            document.getElementById('decor-angle-value').textContent = deg + '°';
+        }
+
+        function setDecorAngle(o, rad) {
+            o.rotation.y = rad;
+            clampDecor(o);
+            updateRing();
+            syncAngle();
+        }
+
+        function rotateDecor(o) {
+            setDecorAngle(o, o.rotation.y + Math.PI / 4);
+            scheduleArExport();
+        }
+
+        function clearDecor() {
+            decorGroup.clear();
+            selectDecor(null);
+        }
+
+        // prevlacenje: capture na omotacu da OrbitControls ne krene da rotira kameru
+        const raycaster = new THREE.Raycaster(), pointer = new THREE.Vector2();
+        const dragPlane = new THREE.Plane(new THREE.Vector3(0, 1, 0), 0), dragHit = new THREE.Vector3(), dragOffset = new THREE.Vector3();
+        let dragging = null, rotating = false, rotStart = 0, rotPointer = 0;
+
+        function pointerAngle(o) {
+            return Math.atan2(dragHit.x - o.position.x, dragHit.z - o.position.z);
+        }
+
+        function setPointer(e) {
+            const r = renderer.domElement.getBoundingClientRect();
+            pointer.set((e.clientX - r.left) / r.width * 2 - 1, -(e.clientY - r.top) / r.height * 2 + 1);
+            raycaster.setFromCamera(pointer, camera);
+        }
+
+        function decorRoot(obj) {
+            while (obj && obj.parent !== decorGroup) obj = obj.parent;
+            return obj;
+        }
+
+        renderer.domElement.parentElement.addEventListener('pointerdown', function (e) {
+            if (e.target !== renderer.domElement || e.button !== 0 || !decorGroup.children.length) return;
+            setPointer(e);
+            // zeleni prsten oko izabrane dekoracije je rucka za okretanje
+            const onRing = selectedDecor && selectionRing.visible && raycaster.intersectObject(selectionRing).length > 0;
+            const hit = onRing ? null : raycaster.intersectObjects(decorGroup.children, true)[0];
+            if (!onRing && !hit) { selectDecor(null); return; }
+            const o = onRing ? selectedDecor : decorRoot(hit.object);
+            selectDecor(o);
+            dragPlane.constant = -o.position.y;
+            if (!raycaster.ray.intersectPlane(dragPlane, dragHit)) return;
+            dragOffset.copy(o.position).sub(dragHit);
+            rotating = onRing;
+            rotStart = o.rotation.y;
+            rotPointer = pointerAngle(o);
+            dragging = o;
+            controls.enabled = false;
+            try { renderer.domElement.setPointerCapture(e.pointerId); } catch (err) { /* pointer vec otpusten */ }
+            e.stopPropagation();
+        }, true);
+
+        renderer.domElement.addEventListener('pointermove', function (e) {
+            if (!dragging) return;
+            setPointer(e);
+            if (!raycaster.ray.intersectPlane(dragPlane, dragHit)) return;
+            if (rotating) {
+                setDecorAngle(dragging, rotStart + pointerAngle(dragging) - rotPointer);
+                return;
+            }
+            dragging.position.x = dragHit.x + dragOffset.x;
+            dragging.position.z = dragHit.z + dragOffset.z;
+            clampDecor(dragging);
+            updateRing();
+        });
+
+        function endDrag() {
+            if (!dragging) return;
+            dragging = null;
+            controls.enabled = true;
+            scheduleArExport();
+        }
+        renderer.domElement.addEventListener('pointerup', endDrag);
+        renderer.domElement.addEventListener('pointercancel', endDrag);
+
+        window.addEventListener('keydown', function (e) {
+            if (!selectedDecor || /input|textarea/i.test(document.activeElement.tagName)) return;
+            if (e.key === 'Delete' || e.key === 'Backspace') { removeDecor(selectedDecor); e.preventDefault(); }
+            else if (e.key === 'r' || e.key === 'R') rotateDecor(selectedDecor);
+            else if (e.key === 'Escape') selectDecor(null);
+        });
+        angleInput.addEventListener('input', function () { if (selectedDecor) setDecorAngle(selectedDecor, THREE.MathUtils.degToRad(parseInt(angleInput.value))); });
+        angleInput.addEventListener('change', scheduleArExport);
+        document.getElementById('decor-remove').addEventListener('click', function () { if (selectedDecor) removeDecor(selectedDecor); });
+
+        // UI: supstrat
+        const substrateContainer = document.getElementById('substrate-options');
+        const substrateDepth = document.getElementById('substrate-depth');
+        const substrateDepthRow = document.getElementById('substrate-depth-row');
+        SUBSTRATES.forEach(function (opt, i) {
+            const btn = document.createElement('button');
+            btn.className = 'color-swatch' + (i === 0 ? ' active' : '');
+            btn.title = opt.name;
+            btn.setAttribute('aria-label', opt.name);
+            btn.dataset.substrate = opt.key;
+            const dotStyle = opt.key === 'none' ? 'background:#fff;outline:1px dashed #bbb;outline-offset:-4px;'
+                : 'background:url(/3d/supstrat/' + opt.key + '/thumb.jpg) center/cover;';
+            btn.innerHTML = '<span class="dot" style="' + dotStyle + '"></span>';
+            btn.addEventListener('click', function () { setSubstrate(opt.key, substrate.cm); });
+            substrateContainer.appendChild(btn);
+        });
+
+        function setSubstrate(type, cm) {
+            substrate = { type: type, cm: cm };
+            substrateContainer.querySelectorAll('.color-swatch').forEach(function (b) { b.classList.toggle('active', b.dataset.substrate === type); });
+            substrateDepth.value = cm;
+            document.getElementById('substrate-depth-value').textContent = cm + ' ' + T.unit;
+            substrateDepthRow.hidden = type === 'none';
+            updateSubstrate();
+            updateRing();
+            scheduleArExport();
+            checkDirty();
+        }
+        substrateDepth.addEventListener('input', function () { setSubstrate(substrate.type, parseInt(substrateDepth.value)); });
+
+        // UI: dekoracije
+        const decorContainer = document.getElementById('decor-options');
+        DECOR_ITEMS.forEach(function (item) {
+            const btn = document.createElement('button');
+            btn.type = 'button';
+            btn.textContent = '+ ' + item.name;
+            btn.addEventListener('click', function () {
+                btn.disabled = true;
+                addDecor(item).finally(function () { btn.disabled = false; });
+            });
+            decorContainer.appendChild(btn);
+        });
+
+        // AR: model-viewer dobija GLB izvezen iz trenutnog terarijuma (mere + izabrana folija)
+        const arButton = document.getElementById('ar-button');
+        const arModel = document.getElementById('ar-model');
+        const exporter = new GLTFExporter();
+        let arExportTimer = null, arUrl = null, arExportId = 0;
+
+        function scheduleArExport() {
+            clearTimeout(arExportTimer);
+            arExportTimer = setTimeout(exportForAR, 600);
+        }
+
+        async function exportForAR() {
+            const id = ++arExportId;
+            await activeWood.ready;
+            if (id !== arExportId || !terrarium) return;
+            // AR dobija samo color mapu drveta, kao i ranije (manji fajl)
+            const arFoil = new THREE.MeshStandardMaterial({ name: 'Folija', map: activeWood.colorMap, roughness: 1, metalness: 0 });
+            const copy = new THREE.Group();
+            copy.add(terrarium.clone(), decorGroup.clone());
+            if (substrateMesh) copy.add(substrateMesh.clone());
+            copy.traverse(function (o) { if (o.isMesh && o.material === foilMaterial) o.material = arFoil; });
+            try {
+                const glb = await exporter.parseAsync(copy, { binary: true, maxTextureSize: 1024 });
+                if (id !== arExportId) return;
+                if (arUrl) URL.revokeObjectURL(arUrl);
+                arUrl = URL.createObjectURL(new Blob([glb], { type: 'model/gltf-binary' }));
+                arModel.src = arUrl;
+            } catch (e) {
+                console.error('AR izvoz nije uspeo:', e);
+            } finally {
+                arFoil.dispose();
+            }
+        }
+
+        // Proveri da li uredjaj podrzava AR
+        arModel.addEventListener('load', function () {
+            if (arModel.canActivateAR) {
+                arButton.classList.remove('hidden');
+            }
+        });
+
+        arButton.addEventListener('click', function () {
+            if (arModel.canActivateAR) arModel.activateAR();
+        });
+
+        // Prati izmene - prikaži reset kad je nešto promenjeno
+        var resetBtn = document.getElementById('reset-button');
+        function checkDirty() {
+            var ls = document.getElementById('door-left-slider');
+            var rs = document.getElementById('door-right-slider');
+            var lidBtn = document.getElementById('lid-button');
+            var firstSwatch = document.querySelector('.color-swatch');
+            var dirty = parseInt(ls.value) !== 0 ||
+                parseInt(rs.value) !== 0 ||
+                lidBtn.classList.contains('open') ||
+                (firstSwatch && !firstSwatch.classList.contains('active')) ||
+                activeBg !== bgOptions[0] ||
+                DIM_FIELDS.some(function (f) { return dims[f.key] !== DEFAULT_DIMS[f.key]; }) ||
+                BUILD_FIELDS.some(function (f) { return build[f.key] !== DEFAULT_BUILD[f.key]; }) ||
+                substrate.type !== 'none' || decorGroup.children.length > 0;
+            resetBtn.classList.toggle('visible', dirty);
+        }
+
+        document.getElementById('door-left-slider').addEventListener('input', function () { checkDirty(); });
+        document.getElementById('door-right-slider').addEventListener('input', function () { checkDirty(); });
+        document.getElementById('lid-button').addEventListener('click', function () { setTimeout(checkDirty, 50); });
+        document.querySelectorAll('.color-swatch').forEach(function (s) {
+            s.addEventListener('click', function () { setTimeout(checkDirty, 50); });
+        });
+
+        // Reset
+        resetBtn.addEventListener('click', function () {
+            var ls = document.getElementById('door-left-slider');
+            var rs = document.getElementById('door-right-slider');
+            ls.value = 0; rs.value = 0;
+            ls.dispatchEvent(new Event('input'));
+            var lidBtn = document.getElementById('lid-button');
+            if (lidBtn.classList.contains('open')) lidBtn.click();
+            var firstSwatch = document.querySelector('.color-swatch');
+            if (firstSwatch && !firstSwatch.classList.contains('active')) firstSwatch.click();
+            if (activeBg !== bgOptions[0]) bgContainer.firstChild.click();
+            clearDecor();
+            if (substrate.type !== 'none' || substrate.cm !== DEFAULT_SUBSTRATE_CM) setSubstrate('none', DEFAULT_SUBSTRATE_CM);
+            const buildChanged = BUILD_FIELDS.some(function (f) { return build[f.key] !== DEFAULT_BUILD[f.key]; });
+            build = Object.assign({}, DEFAULT_BUILD);
+            syncBuildButtons();
+            if (buildChanged || DIM_FIELDS.some(function (f) { return dims[f.key] !== DEFAULT_DIMS[f.key]; })) setDims(DEFAULT_DIMS);
+            cameraHome(Math.max(modelSize.x, modelSize.y, modelSize.z));
+            resetBtn.classList.remove('visible');
+        });
+
+        // Help popup
+        var helpOverlay = document.getElementById('help-overlay');
+        document.getElementById('help-button').addEventListener('click', function () {
+            helpOverlay.classList.add('open');
+        });
+        document.getElementById('help-close').addEventListener('click', function () {
+            helpOverlay.classList.remove('open');
+        });
+        helpOverlay.addEventListener('click', function (e) {
+            if (e.target === helpOverlay) helpOverlay.classList.remove('open');
+        });
+
+        setupTerrarium();
+        applyOption(colorOptions[0]);
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('panel').style.display = 'block';
+
+        // Resize nakon sto panel postane vidljiv
+        setTimeout(function () {
+            camera.aspect = wrap.clientWidth / wrap.clientHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(wrap.clientWidth, wrap.clientHeight);
+        }, 0);
+
+        // Sakrij hint posle 5s
+        setTimeout(function () {
             const hint = document.getElementById('hint');
             if (hint) hint.style.opacity = '0';
             setTimeout(function () { if (hint) hint.remove(); }, 500);
-          }, 5000);
-        },
-        function (xhr) {
-          if (xhr.lengthComputable) {
-            const pct = Math.round(xhr.loaded / xhr.total * 100);
-            document.getElementById('loading').textContent = T.loadingPct + pct + '%';
-          }
-        },
-        function (error) {
-          document.getElementById('loading').textContent = T.loadError;
-          console.error('GLB greska:', error);
+        }, 5000);
+
+        // Animacija
+        function animate() {
+            requestAnimationFrame(animate);
+            controls.update();
+            renderer.render(scene, camera);
         }
-      );
-
-
-      // Resize
-      window.addEventListener('resize', function () {
-        camera.aspect = wrap.clientWidth / wrap.clientHeight;
-        camera.updateProjectionMatrix();
-        renderer.setSize(wrap.clientWidth, wrap.clientHeight);
-      });
-
-      // Screenshot dugme
-      const screenshotBtn = document.getElementById('screenshot-button');
-      const flash = document.getElementById('screenshot-flash');
-
-      screenshotBtn.addEventListener('click', function () {
-        // Renderuj frame pre screenshot-a
-        renderer.render(scene, camera);
-
-        // Flash efekat
-        flash.classList.add('flash');
-        setTimeout(function () { flash.classList.remove('flash'); }, 150);
-
-        // Uzmi sliku sa canvas-a
-        const dataUrl = renderer.domElement.toDataURL('image/png');
-
-        // Kreiraj download link
-        const link = document.createElement('a');
-        link.download = T.download;
-        link.href = dataUrl;
-        link.click();
-      });
-
-      // AR dugme
-      const arButton = document.getElementById('ar-button');
-      const arModel = document.getElementById('ar-model');
-
-      async function applyTextureToAR() {
-        if (!arModel.model) return;
-        try {
-          var p = basePath + activeWood.folder + '/';
-          var colorTex = await arModel.createTexture(p + 'color.png');
-          arModel.model.materials.forEach(function (mat) {
-            var name = (mat.name || '').toLowerCase();
-            if (name.includes('glass') || name.includes('staklo')) return;
-            mat.pbrMetallicRoughness.baseColorTexture.setTexture(colorTex);
-            mat.pbrMetallicRoughness.setMetallicFactor(0);
-            mat.pbrMetallicRoughness.setRoughnessFactor(1);
-          });
-        } catch (e) {
-          console.warn('AR tekstura error:', e);
-        }
-      }
-
-      // Proveri da li uredjaj podrzava AR
-      arModel.addEventListener('load', function () {
-        if (arModel.canActivateAR) {
-          arButton.classList.remove('hidden');
-        }
-      });
-
-      arButton.addEventListener('click', async function () {
-        if (arModel.canActivateAR) {
-          await applyTextureToAR();
-          arModel.activateAR();
-        }
-      });
-
-      // Prati izmene - prikaži reset kad je nešto promenjeno
-      var resetBtn = document.getElementById('reset-button');
-      function checkDirty() {
-        var ls = document.getElementById('door-left-slider');
-        var rs = document.getElementById('door-right-slider');
-        var lidBtn = document.getElementById('lid-button');
-        var firstSwatch = document.querySelector('.color-swatch');
-        var dirty = parseInt(ls.value) !== 0 ||
-          parseInt(rs.value) !== 0 ||
-          lidBtn.classList.contains('open') ||
-          (firstSwatch && !firstSwatch.classList.contains('active'));
-        resetBtn.classList.toggle('visible', dirty);
-      }
-
-      document.getElementById('door-left-slider').addEventListener('input', function () { checkDirty(); });
-      document.getElementById('door-right-slider').addEventListener('input', function () { checkDirty(); });
-      document.getElementById('lid-button').addEventListener('click', function () { setTimeout(checkDirty, 50); });
-      document.querySelectorAll('.color-swatch').forEach(function (s) {
-        s.addEventListener('click', function () { setTimeout(checkDirty, 50); });
-      });
-
-      // Reset
-      resetBtn.addEventListener('click', function () {
-        var ls = document.getElementById('door-left-slider');
-        var rs = document.getElementById('door-right-slider');
-        ls.value = 0; rs.value = 0;
-        ls.dispatchEvent(new Event('input'));
-        var lidBtn = document.getElementById('lid-button');
-        if (lidBtn.classList.contains('open')) lidBtn.click();
-        var firstSwatch = document.querySelector('.color-swatch');
-        if (firstSwatch && !firstSwatch.classList.contains('active')) firstSwatch.click();
-        var box = new THREE.Box3().setFromObject(scene);
-        var sz = box.getSize(new THREE.Vector3());
-        var maxDim = Math.max(sz.x, sz.y, sz.z);
-        var zoom = window.innerWidth <= 1000 ? 1.4 : 1.5;
-        camera.position.set(maxDim * zoom, maxDim * 0.5, maxDim * 0.7);
-        controls.target.set(0, 0, 0);
-        controls.update();
-        resetBtn.classList.remove('visible');
-      });
-
-      // Help popup
-      var helpOverlay = document.getElementById('help-overlay');
-      document.getElementById('help-button').addEventListener('click', function () {
-        helpOverlay.classList.add('open');
-      });
-      document.getElementById('help-close').addEventListener('click', function () {
-        helpOverlay.classList.remove('open');
-      });
-      helpOverlay.addEventListener('click', function (e) {
-        if (e.target === helpOverlay) helpOverlay.classList.remove('open');
-      });
-
-      // Animacija
-      function animate() {
-        requestAnimationFrame(animate);
-        controls.update();
-        renderer.render(scene, camera);
-      }
-      animate();
+        animate();
     </script>
 </Base>
