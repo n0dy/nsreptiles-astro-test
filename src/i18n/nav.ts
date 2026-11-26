@@ -32,7 +32,7 @@ type NavData = {
 
 const sub = (base: string, labels: [string, string, string]): Link[] => [
   { href: `${base}#cat-gusteri`, label: labels[0] },
-  { href: `${base}#cat-zmije`, label: labels[1] },
+  { href: base.replace(/(zivotinje|animals)\.html$/, (m) => (m.startsWith('z') ? 'zmije.html' : 'snakes.html')), label: labels[1] },
   { href: `${base}#cat-tarantule`, label: labels[2] },
 ];
 

@@ -194,6 +194,7 @@ export const ANIMAL_GROUPS: { id: string; title: L; animals: Animal[] }[] = [
     title: { sr: 'Tarantule', en: 'Tarantulas', ru: 'Тарантулы' },
     animals: [
       {
+        href: '/kompleti/tarantula.html',
         img: '/style/img/tarantule/davus-pentaloris.png',
         latin: 'Davus pentaloris',
         name: { sr: 'Gvatemalska tigrasta tarantula', en: 'Guatemalan tiger rump tarantula', ru: 'Гватемальский тигровый тарантул' },
@@ -204,6 +205,7 @@ export const ANIMAL_GROUPS: { id: string; title: L; animals: Animal[] }[] = [
         },
       },
       {
+        href: '/kompleti/tarantula.html',
         img: '/style/img/tarantule/phormictopus-auratus.png',
         latin: 'Phormictopus auratus',
         name: { sr: 'Kubanska zlatna tarantula', en: 'Cuban gold tarantula', ru: 'Кубинский золотой тарантул' },
@@ -214,6 +216,7 @@ export const ANIMAL_GROUPS: { id: string; title: L; animals: Animal[] }[] = [
         },
       },
       {
+        href: '/kompleti/tarantula.html',
         img: '/style/img/tarantule/acanthoscurria-geniculata.png',
         latin: 'Acanthoscurria geniculata',
         name: { sr: 'Brazilska belonoga tarantula', en: 'Brazilian whiteknee tarantula', ru: 'Бразильский белоногий тарантул' },
@@ -224,6 +227,7 @@ export const ANIMAL_GROUPS: { id: string; title: L; animals: Animal[] }[] = [
         },
       },
       {
+        href: '/kompleti/tarantula.html',
         img: '/style/img/tarantule/brachypelma-boehmei.png',
         latin: 'Brachypelma boehmei',
         name: { sr: 'Meksička vatrena tarantula', en: 'Mexican fireleg tarantula', ru: 'Мексиканский огненный тарантул' },
@@ -234,6 +238,7 @@ export const ANIMAL_GROUPS: { id: string; title: L; animals: Animal[] }[] = [
         },
       },
       {
+        href: '/kompleti/tarantula.html',
         img: '/style/img/tarantule/brachypelma-emilia.png',
         latin: 'Brachypelma emilia',
         name: { sr: 'Meksička crvena tarantula', en: 'Mexican redleg tarantula', ru: 'Мексиканский красный тарантул' },
@@ -295,9 +300,88 @@ export const ANIMALS_FAQ: { q: L; a: L }[] = [
   {
     q: { sr: 'Koliko žive reptili?', en: 'How long do reptiles live?', ru: 'Сколько живут рептилии?' },
     a: {
-      sr: 'Životni vek varira po vrstama: leopard gekon 15-20 godina, bradata agama 8-12, loptasti piton 20-30, kukuruzni smuk 15-20, a kornjače mogu živeti 50+ godina. Pravilna nega i ishrana direktno utiču na dužinu života.',
-      en: 'Lifespan varies by species: leopard gecko 15-20 years, bearded dragon 8-12, ball python 20-30, corn snake 15-20, and tortoises can live 50+ years. Proper care and diet directly affect lifespan.',
-      ru: 'Продолжительность жизни зависит от вида: леопардовый геккон 15-20 лет, бородатая агама 8-12, королевский питон 20-30, маисовый полоз 15-20, а черепахи могут жить 50+ лет. Правильный уход и питание напрямую влияют на продолжительность жизни.',
+      sr: 'Životni vek varira po vrstama: leopard gekon 15-20 godina, bradata agama 10-15, loptasti piton 20-30, kukuruzni smuk 15-20, a kornjače mogu živeti 50+ godina. Pravilna nega i ishrana direktno utiču na dužinu života.',
+      en: 'Lifespan varies by species: leopard gecko 15-20 years, bearded dragon 10-15, ball python 20-30, corn snake 15-20, and tortoises can live 50+ years. Proper care and diet directly affect lifespan.',
+      ru: 'Продолжительность жизни зависит от вида: леопардовый геккон 15-20 лет, бородатая агама 10-15, королевский питон 20-30, маисовый полоз 15-20, а черепахи могут жить 50+ лет. Правильный уход и питание напрямую влияют на продолжительность жизни.',
     },
   },
 ];
+
+// Strana /zmije.html: ista komponenta kao zivotinje, samo grupa zmija i svoj tekst
+export const SNAKES_TEXT = {
+  sr: {
+    meta: {
+      title: 'Zmije prodaja - loptasti piton i kukuruzni smuk | NS Reptiles',
+      description:
+        'Prodaja zmija iz domaćeg uzgoja u Novom Sadu: kukuruzni smuk od 6.000 din, loptasti piton od 12.000 din. Mirne zmije za početnike, starter kompleti i saveti.',
+      ogDescription: 'Kukuruzni smuk i loptasti piton iz odgajivačnice NS Reptiles, Novi Sad.',
+    },
+    h1: 'Zmije na prodaju',
+    lead: 'Kukuruzni smukovi i loptasti pitoni iz domaćeg uzgoja - mirne zmije, navikle na rukovanje, pogodne i za početnike.',
+    intro:
+      'U <strong>NS Reptiles</strong> odgajivačnici u Novom Sadu prodajemo dve vrste zmija koje preporučujemo i početnicima: <strong>kukuruznog smuka</strong> (od 6.000 din) i <strong>loptastog pitona</strong> (od 12.000 din). Obe su neotrovne, mirne i lake za držanje. Uz zmiju možete uzeti i starter komplet sa terarijumom i opremom, a za svaku vrstu imamo detaljan vodič za negu. Zmije se preuzimaju lično u Novom Sadu, uz dogovor za Beograd i okolinu.',
+    faqTitle: 'Česta pitanja o <b>zmijama</b>',
+  },
+  en: {
+    meta: {
+      title: 'Snakes for Sale - Ball Python and Corn Snake | NS Reptiles',
+      description:
+        'Captive-bred snakes for sale in Novi Sad: corn snakes from 6,000 RSD, ball pythons from 12,000 RSD. Calm beginner snakes, starter kits and care advice.',
+      ogDescription: 'Corn snakes and ball pythons from the NS Reptiles breeding facility, Novi Sad.',
+    },
+    h1: 'Snakes for sale',
+    lead: 'Captive-bred corn snakes and ball pythons - calm snakes used to handling, suitable for beginners too.',
+    intro:
+      'At the <strong>NS Reptiles</strong> breeding facility in Novi Sad we sell two snake species we also recommend to beginners: the <strong>corn snake</strong> (from 6,000 RSD) and the <strong>ball python</strong> (from 12,000 RSD). Both are non-venomous, calm and easy to keep. You can take a starter kit with a terrarium and equipment along with the snake, and we have a detailed care guide for each species. Snakes are collected in person in Novi Sad, or by arrangement for Belgrade and the surrounding area.',
+    faqTitle: 'Frequently asked questions about <b>snakes</b>',
+  },
+  ru: {
+    meta: {
+      title: 'Змеи на продажу - королевский питон и маисовый полоз | NS Reptiles',
+      description:
+        'Продажа змей домашнего разведения в Нови-Саде: маисовый полоз от 6 000 RSD, королевский питон от 12 000 RSD. Спокойные змеи для начинающих, стартовые наборы и советы.',
+      ogDescription: 'Маисовые полозы и королевские питоны из питомника NS Reptiles, Нови-Сад.',
+    },
+    h1: 'Змеи на продажу',
+    lead: 'Маисовые полозы и королевские питоны домашнего разведения - спокойные, приученные к рукам змеи, подходящие и для начинающих.',
+    intro:
+      'В питомнике <strong>NS Reptiles</strong> в Нови-Саде мы продаём два вида змей, которые рекомендуем и начинающим: <strong>маисового полоза</strong> (от 6 000 RSD) и <strong>королевского питона</strong> (от 12 000 RSD). Обе змеи неядовитые, спокойные и простые в содержании. Вместе со змеёй можно взять стартовый набор с террариумом и оборудованием, а для каждого вида у нас есть подробное руководство по уходу. Змей забирают лично в Нови-Саде, по договорённости возможна передача в Белграде и окрестностях.',
+    faqTitle: 'Частые вопросы о <b>змеях</b>',
+  },
+} satisfies L<unknown>;
+
+export const SNAKES_FAQ: { q: L; a: L }[] = [
+  {
+    q: { sr: 'Koja zmija je najbolja za početnike?', en: 'Which snake is best for beginners?', ru: 'Какая змея лучше всего подходит начинающим?' },
+    a: {
+      sr: 'Kukuruzni smuk i loptasti piton. Obe vrste su neotrovne, mirne, dobro podnose rukovanje i ne traže komplikovanu opremu. Kukuruzni smuk je aktivniji i jeftiniji, loptasti piton je mirniji i krupniji.',
+      en: 'The corn snake and the ball python. Both species are non-venomous, calm, tolerate handling well and do not need complicated equipment. The corn snake is more active and cheaper, the ball python is calmer and heavier-bodied.',
+      ru: 'Маисовый полоз и королевский питон. Оба вида неядовиты, спокойны, хорошо переносят контакт с человеком и не требуют сложного оборудования. Маисовый полоз активнее и дешевле, королевский питон спокойнее и массивнее.',
+    },
+  },
+  {
+    q: { sr: 'Koliko košta zmija?', en: 'How much does a snake cost?', ru: 'Сколько стоит змея?' },
+    a: {
+      sr: 'Kukuruzni smukovi su od 6.000 din, a loptasti pitoni od 12.000 din. Cena zavisi od starosti i morfa (boje i šare). Dostupnost se menja sa leglima, pa nas pozovite za trenutnu ponudu.',
+      en: 'Corn snakes start at 6,000 RSD and ball pythons at 12,000 RSD. The price depends on age and morph (colour and pattern). Availability changes with each clutch, so call us for the current offer.',
+      ru: 'Маисовые полозы стоят от 6 000 RSD, королевские питоны - от 12 000 RSD. Цена зависит от возраста и морфы (окраса и рисунка). Наличие меняется с каждой кладкой, поэтому позвоните нам, чтобы узнать текущее предложение.',
+    },
+  },
+  {
+    q: { sr: 'Koliko dugo žive zmije?', en: 'How long do snakes live?', ru: 'Сколько живут змеи?' },
+    a: {
+      sr: 'Kukuruzni smuk živi 15-20 godina, a loptasti piton 20-30 godina. Zmija je dugoročna obaveza, pa to imajte u vidu pre kupovine.',
+      en: 'A corn snake lives 15-20 years and a ball python 20-30 years. A snake is a long-term commitment, so keep that in mind before buying.',
+      ru: 'Маисовый полоз живёт 15-20 лет, королевский питон - 20-30 лет. Змея - это долгосрочная ответственность, учитывайте это перед покупкой.',
+    },
+  },
+  {
+    q: { sr: 'Kako se preuzima zmija?', en: 'How do I collect a snake?', ru: 'Как забрать змею?' },
+    a: {
+      sr: 'Životinje se preuzimaju lično u Novom Sadu, a za Beograd i okolinu se dogovaramo. Terarijum i opremu šaljemo kurirskom službom širom Srbije.',
+      en: 'Animals are collected in person in Novi Sad, and we make arrangements for Belgrade and the surrounding area. Terrariums and equipment are shipped by courier across Serbia.',
+      ru: 'Животных забирают лично в Нови-Саде, для Белграда и окрестностей договариваемся отдельно. Террариум и оборудование отправляем курьерской службой по всей Сербии.',
+    },
+  },
+];
+

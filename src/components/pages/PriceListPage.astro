@@ -7,6 +7,7 @@ import { SITE, whatsappLink, type Locale } from '../../config/site';
 import { HOME } from '../../i18n/ui';
 import { localizePath, translationsFor } from '../../i18n/routes';
 import { PRICE_LIST, PRICE_CATS } from '../../i18n/pages/price-list';
+import { getProducts, productViewOrSr, categoryOf } from '../../lib/products';
 
 interface Props {
   lang: Locale;
@@ -15,7 +16,18 @@ const { lang } = Astro.props;
 const t = PRICE_LIST[lang];
 const path = localizePath('/cenovnik.html', lang);
 const plural = new Intl.PluralRules(lang);
-const count = (c: (typeof PRICE_CATS)[number]) => `${c.rows.length} ${c.unit[lang][plural.select(c.rows.length)] ?? c.unit[lang].other}`;
+// redovi se prave iz proizvoda, da cenovnik ne moze da se razidje sa stranama proizvoda
+const products = await getProducts();
+const byName = new Intl.Collator(lang, { numeric: true });
+const cats = await Promise.all(
+  PRICE_CATS.map(async (c) => ({
+    ...c,
+    rows: (await Promise.all(products.filter((p) => categoryOf(p) === c.key).map((p) => productViewOrSr(p, lang))))
+      .map((v) => ({ name: v.name, path: v.path, price: v.product.data.price }))
+      .sort((a, b) => byName.compare(a.name, b.name)),
+  })),
+);
+const count = (c: (typeof cats)[number]) => `${c.rows.length} ${c.unit[lang][plural.select(c.rows.length)] ?? c.unit[lang].other}`;
 const price = (n: number) => `${String(n).replace(/\B(?=(\d{3})+$)/g, t.thousands)} din`;
 
 const schema = [
@@ -48,7 +60,7 @@ const schema = [
     <div class="cn-note">
       <p set:html={t.note} />
     </div>
-    {PRICE_CATS.map((c) => (
+    {cats.map((c) => (
       <div class="cn-cat reveal">
         <div class="cn-cat-head">
           <h2>{c.title[lang]}</h2>
@@ -57,8 +69,8 @@ const schema = [
         <div class="cn-list">
           {c.rows.map((r) => (
             <div class="cn-row">
-              <span class="cn-name">{r.name[lang]}</span>
-              {r.price ? <span class="cn-price has-price">{price(r.price)}</span> : <span class="cn-price no-price">{t.callForPrice}</span>}
+              <a class="cn-name" href={r.path}>{r.name}</a>
+              {r.price > 0 ? <span class="cn-price has-price">{price(r.price)}</span> : <span class="cn-price no-price">{t.callForPrice}</span>}
             </div>
           ))}
         </div>
@@ -146,6 +158,7 @@ const schema = [
     background: color-mix(in srgb, var(--green) 6%, transparent);
   }
   .cn-name {
+    text-decoration: none;
     font-size: 0.95rem;
     color: var(--ink);
     line-height: 1.4;

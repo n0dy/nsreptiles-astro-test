@@ -105,19 +105,45 @@ export function relatedFor(p: Product, all: Product[], count = 4): Product[] {
   return [...picked, ...sameLabel, ...pool].filter((x, i, arr) => arr.indexOf(x) === i).slice(0, count);
 }
 
+// brendovi opreme koju preprodajemo; terarijume i akvarijume pravimo sami
+const BRANDS = ['Atman', 'SOBO', 'Resun', 'Arcadia', 'HabiStat', 'Nomoy', 'Sera', 'Gecko Nutrition', 'Soudal', 'Chicos'];
+export function brandOf(p: Product): { name: string; own: boolean } | null {
+  if (categoryOf(p) !== 'oprema') return { name: SITE.name, own: true };
+  const name = BRANDS.find((b) => p.data.name.toLowerCase().startsWith(b.toLowerCase()));
+  return name ? { name, own: false } : null;
+}
+
 export function productSchema(v: ProductView) {
   const url = SITE.url + v.path;
   const d = v.product.data;
+  const brand = brandOf(v.product);
+  const brandLd = brand ? { brand: { '@type': 'Brand', name: brand.name } } : {};
+  // bez cene nema Offer-a, a Product bez Offer-a Google prijavljuje kao gresku - zato ItemPage
+  if (!(d.price > 0)) {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'ItemPage',
+      '@id': url + '#webpage',
+      url,
+      name: v.name,
+      inLanguage: v.lang,
+      isPartOf: { '@id': SITE.url + '/#website' },
+      primaryImageOfPage: { '@type': 'ImageObject', url: SITE.url + d.image },
+      about: { '@type': 'Thing', name: v.name, description: stripHtml(v.lead), image: SITE.url + d.image, ...brandLd },
+    };
+  }
   return {
     '@context': 'https://schema.org',
     '@type': 'Product',
+    '@id': url + '#product',
     name: v.name,
     description: stripHtml(v.lead),
     image: SITE.url + d.image,
     url,
+    sku: v.product.id.split('/').pop(),
     inLanguage: v.lang,
-    ...(d.brand ? { brand: { '@type': 'Brand', name: SITE.name } } : {}),
-    manufacturer: { '@type': 'Organization', name: SITE.name, url: SITE.url },
+    ...brandLd,
+    ...(brand?.own ? { manufacturer: { '@id': SITE.url + '/#business' } } : {}),
     category: categoryText(v.lang, v.category).schema,
     additionalProperty: v.specs.map((s) => ({ '@type': 'PropertyValue', name: s.k, value: s.v })),
     // Offer bez cene Google prijavljuje kao gresku - dodaje se samo kad je cena poznata
@@ -129,9 +155,33 @@ export function productSchema(v: ProductView) {
             priceCurrency: 'RSD',
             availability: 'https://schema.org/InStock',
             url,
-            seller: { '@type': 'Organization', name: SITE.name },
+            itemCondition: 'https://schema.org/NewCondition',
+            seller: { '@id': SITE.url + '/#business' },
           },
         }
       : {}),
   };
 }
+
+// Mere iz sluga (terarijum-50x35x35-3d -> 50, 35, 35); null za proizvode bez tri mere (oktagon, oprema)
+export function dimsOf(p: Product): { l: number; w: number; h: number; liters: number } | null {
+  if (categoryOf(p) === 'oprema') return null;
+  const m = p.id.match(/(\d+)x(\d+)x(\d+)/);
+  if (!m) return null;
+  const [l, w, h] = [Number(m[1]), Number(m[2]), Number(m[3])];
+  return { l, w, h, liters: Math.round((l * w * h) / 1000) };
+}
+
+// najblizi manji i veci proizvod iste kategorije po zapremini
+export function sizeNeighbors(p: Product, all: Product[]): { smaller?: Product; larger?: Product } {
+  const own = dimsOf(p);
+  if (!own) return {};
+  const sized = all
+    .filter((x) => categoryOf(x) === categoryOf(p) && dimsOf(x))
+    .sort((a, b) => dimsOf(a)!.liters - dimsOf(b)!.liters);
+  return {
+    smaller: sized.filter((x) => dimsOf(x)!.liters < own.liters).pop(),
+    larger: sized.find((x) => dimsOf(x)!.liters > own.liters),
+  };
+}
+

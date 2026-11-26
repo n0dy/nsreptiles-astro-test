@@ -2,9 +2,6 @@ User-agent: *
 Disallow: /kalkulator.html
 Disallow: /en/calculator.html
 Disallow: /ru/calculator.html
-Disallow: /pretraga.html
-Disallow: /en/search.html
-Disallow: /ru/search.html
 
 # AI crawleri
 User-agent: GPTBot

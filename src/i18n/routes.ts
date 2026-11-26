@@ -30,6 +30,11 @@ export const TRANSLATIONS: Group[] = [
     "ru": "/ru/animals.html"
   },
   {
+    "sr": "/zmije.html",
+    "en": "/en/snakes.html",
+    "ru": "/ru/snakes.html"
+  },
+  {
     "ru": "/ru/contact.html",
     "sr": "/kontakt.html",
     "en": "/en/contact.html"

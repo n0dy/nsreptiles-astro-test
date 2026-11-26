@@ -9,9 +9,6 @@ Redirect 301 /zivotinje/kukuruzni-smuk.html        /zivotinje/kukuruznismuk.html
 Redirect 301 /zivotinje/leopard-gekon.html         /zivotinje/leopardgekon.html
 Redirect 301 /zivotinje/loptasti-piton.html        /zivotinje/loptastipiton.html
 Redirect 301 /prices.html                         /cenovnik.html
-Redirect 301 /blog.html                           /
 Redirect 301 /gusteri.html                        /zivotinje.html
-Redirect 301 /linkovi.html                        /
 Redirect 301 /arbitrage.html                      /
 Redirect 301 /homepage-redesign.html              /
-Redirect 301 /section.html                        /

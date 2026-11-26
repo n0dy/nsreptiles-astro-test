@@ -14,10 +14,10 @@ export const HOME_TEXT = {
     },
     hero: {
       pre: 'NS Reptiles',
-      title: ['Egzotične', 'životinje'],
+      title: ['Odgajivačnica', 'egzotičnih životinja'],
       text: 'Odgajivačnica egzotičnih ljubimaca — kameleoni, agame, gekoni i zmije — i izrada terarijuma i akvarijuma po meri u Novom Sadu.',
       cta: 'Pogledaj ponudu',
-      contact: 'Kontaktirajte nas',
+      contact: 'Pozovite',
       features: ['Zdrave i pitome jedinke', 'Proverena oprema', 'Terarijumi i akvarijumi po meri', 'Stručan savet i podrška'],
     },
     about: {
@@ -42,7 +42,7 @@ export const HOME_TEXT = {
       all: 'Pogledaj sve',
     },
     custom: { title: 'Izrada <b>po meri</b>', more: 'Saznaj više' },
-    testi: { title: 'Šta kažu <b>kupci</b>', reviews: '364 pozitivne ocene', source: 'izvor', prev: 'Prethodna', next: 'Sledeća' },
+    testi: { title: 'Šta kažu <b>kupci</b>', reviews: '364 pozitivne ocene na KupujemProdajem', source: 'izvor', prev: 'Prethodna', next: 'Sledeća' },
     faqTitle: 'Sve što te <b>zanima</b>',
   },
   en: {
@@ -55,10 +55,10 @@ export const HOME_TEXT = {
     },
     hero: {
       pre: 'NS Reptiles',
-      title: ['Exotic', 'animals'],
+      title: ['Exotic animal', 'breeder'],
       text: 'Exotic pet breeding and custom-built terrariums and aquariums in Novi Sad.',
       cta: 'View offer',
-      contact: 'Contact us',
+      contact: 'Call',
       features: ['Healthy, tame animals', 'Trusted equipment', 'Custom terrariums & aquariums', 'Expert advice & support'],
     },
     about: {
@@ -83,7 +83,7 @@ export const HOME_TEXT = {
       all: 'View All',
     },
     custom: { title: 'Built <b>to Order</b>', more: 'Learn More' },
-    testi: { title: 'What Our <b>Customers</b> Say', reviews: '364 positive reviews', source: 'source', prev: 'Previous', next: 'Next' },
+    testi: { title: 'What Our <b>Customers</b> Say', reviews: '364 positive reviews on KupujemProdajem', source: 'source', prev: 'Previous', next: 'Next' },
     faqTitle: 'Everything You <b>Want to Know</b>',
   },
   ru: {
@@ -96,10 +96,10 @@ export const HOME_TEXT = {
     },
     hero: {
       pre: 'NS Reptiles',
-      title: ['Экзотические', 'животные'],
+      title: ['Питомник', 'экзотических животных'],
       text: 'Питомник экзотических животных, террариумы и аквариумы на заказ в Нови-Саде.',
       cta: 'Смотреть предложение',
-      contact: 'Связаться с нами',
+      contact: 'Позвонить',
       features: ['Здоровые и ручные особи', 'Проверенное оборудование', 'Террариумы и аквариумы на заказ', 'Экспертный совет и поддержка'],
     },
     about: {
@@ -124,7 +124,7 @@ export const HOME_TEXT = {
       all: 'Смотреть все',
     },
     custom: { title: 'Изготовление <b>на заказ</b>', more: 'Узнать больше' },
-    testi: { title: 'Что говорят <b>клиенты</b>', reviews: '364 положительных оценки', source: 'источник', prev: 'Предыдущий', next: 'Следующий' },
+    testi: { title: 'Что говорят <b>клиенты</b>', reviews: '364 положительных оценки на KupujemProdajem', source: 'источник', prev: 'Предыдущий', next: 'Следующий' },
     faqTitle: 'Всё, что вас <b>интересует</b>',
   },
 } satisfies L<unknown>;
@@ -137,12 +137,12 @@ const SPECIES = {
   vodena: { sr: 'Vodena agama', en: 'Water Dragon', ru: 'Водяная агама' },
 } satisfies Record<string, L>;
 
-export const REPTILES: { img: string; name: L }[] = [
-  { img: '/style/img/reptili/bradata.webp', name: SPECIES.bradata },
-  { img: '/style/img/reptili/piton.webp', name: SPECIES.piton },
-  { img: '/style/img/reptili/leopard.webp', name: SPECIES.leopard },
-  { img: '/style/img/reptili/smuk.webp', name: SPECIES.smuk },
-  { img: '/style/img/reptili/vodena.webp', name: SPECIES.vodena },
+export const REPTILES: { img: string; href: string; name: L }[] = [
+  { img: '/style/img/reptili/bradata.webp', href: '/zivotinje/bradataagama.html', name: SPECIES.bradata },
+  { img: '/style/img/reptili/piton.webp', href: '/zivotinje/loptastipiton.html', name: SPECIES.piton },
+  { img: '/style/img/reptili/leopard.webp', href: '/zivotinje/leopardgekon.html', name: SPECIES.leopard },
+  { img: '/style/img/reptili/smuk.webp', href: '/zivotinje/kukuruznismuk.html', name: SPECIES.smuk },
+  { img: '/style/img/reptili/vodena.webp', href: '/zivotinje/kineskavodenaagama.html', name: SPECIES.vodena },
 ];
 
 export const GALLERY: { img: string; cat: 'guster' | 'zmija'; size?: 'tall' | 'big' | 'wide'; pos?: string; name: L }[] = [

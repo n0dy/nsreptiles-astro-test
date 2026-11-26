@@ -4062,3 +4062,7 @@ body:has(.hero) .hero {
     display: none;
   }
 }
+.testi-rating a {
+  color: inherit;
+  text-decoration: underline;
+}

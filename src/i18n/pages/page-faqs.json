@@ -1,0 +1,572 @@
+{
+  "listing-terarijumi": [
+    {
+      "q": {
+        "sr": "Koji terarijum je pogodan za početnike?",
+        "en": "Which terrarium is suitable for beginners?",
+        "ru": "Какой террариум подходит для начинающих?"
+      },
+      "a": {
+        "sr": "Za početnike preporučujemo terarijume srednjih dimenzija (50-60cm dužine) jer su lakši za održavanje stabilne temperature i vlažnosti. Leopard gekon ili crested gekon su idealne prve životinje, a za njih je dovoljan terarijum 45x30x30cm ili 40x40x50cm (vertikalni za crested gekona).",
+        "en": "For beginners we recommend medium-sized terrariums (50-60cm long) because it is easier to keep temperature and humidity stable in them. A leopard gecko or a crested gecko is an ideal first animal, and a 45x30x30cm or 40x40x50cm terrarium (vertical for a crested gecko) is enough for them.",
+        "ru": "Начинающим мы рекомендуем террариумы средних размеров (50-60 см в длину), потому что в них проще поддерживать стабильную температуру и влажность. Леопардовый геккон (эублефар) или реснитчатый геккон-бананоед - идеальные первые животные, и для них достаточно террариума 45x30x30 см или 40x40x50 см (вертикального для реснитчатого геккона-бананоеда)."
+      }
+    },
+    {
+      "q": {
+        "sr": "Horizontalni ili vertikalni terarijum - kako da izaberem?",
+        "en": "Horizontal or vertical terrarium - how do I choose?",
+        "ru": "Горизонтальный или вертикальный террариум - как выбрать?"
+      },
+      "a": {
+        "sr": "Horizontalni terarijumi (dužina veća od visine) namenjeni su kopnenim vrstama koje se kreću po tlu - bradate agame, leopard gekoni, loptasti pitoni, kornjače. Vertikalni terarijumi (visina veća od dužine) pogodni su za arborelane vrste koje se penju - crested gekoni, kameleoni, dnevni gekoni, zelene anole.",
+        "en": "Horizontal terrariums (longer than they are tall) are meant for terrestrial species that move along the ground - bearded dragons, leopard geckos, ball pythons, tortoises. Vertical terrariums (taller than they are long) suit arboreal species that climb - crested geckos, chameleons, day geckos, green anoles.",
+        "ru": "Горизонтальные террариумы (длина больше высоты) предназначены для наземных видов, которые передвигаются по грунту, - бородатых агам, леопардовых гекконов, королевских питонов, черепах. Вертикальные террариумы (высота больше длины) подходят для древесных видов, которые лазают, - реснитчатых гекконов-бананоедов, хамелеонов, дневных гекконов, зелёных анолисов."
+      }
+    },
+    {
+      "q": {
+        "sr": "Šta je 3D pozadina i da li mi treba?",
+        "en": "What is a 3D background and do I need one?",
+        "ru": "Что такое 3D-фон и нужен ли он мне?"
+      },
+      "a": {
+        "sr": "3D pozadina je ručno rađeni reljef od stiropora koji imitira stenu, koru drveta ili pećinski ambijent. Osim vizuelnog efekta, pruža životinjama površine za penjanje i skrivanje. Nije obavezna, ali većina kupaca bira terarijum sa pozadinom jer daje prirodniji izgled i bolji ambijent za životinju.",
+        "en": "A 3D background is a hand-made styrofoam relief that imitates rock, tree bark or a cave setting. Besides the visual effect, it gives animals surfaces for climbing and hiding. It is not mandatory, but most customers choose a terrarium with a background because it gives a more natural look and a better environment for the animal.",
+        "ru": "3D-фон - это рельеф ручной работы из пенопласта, который имитирует скалу, кору дерева или пещеру. Помимо визуального эффекта, он даёт животным поверхности для лазания и укрытия. Он не обязателен, но большинство покупателей выбирают террариум с фоном, потому что он выглядит естественнее и создаёт лучшую среду для животного."
+      }
+    },
+    {
+      "q": {
+        "sr": "Da li radite terarijume po meri?",
+        "en": "Do you make custom terrariums?",
+        "ru": "Вы делаете террариумы на заказ?"
+      },
+      "a": {
+        "sr": "Da, svaki terarijum izrađujemo ručno u našoj radionici u Novom Sadu. Možete naručiti bilo koje dimenzije, izabrati boju dekorativne folije, stil 3D pozadine, tip ventilacije i dodatke poput LED osvetljenja ili termostata.",
+        "en": "Yes, we make every terrarium by hand in our workshop in Novi Sad. You can order any dimensions and choose the colour of the decorative film, the style of the 3D background, the type of ventilation and extras such as LED lighting or a thermostat.",
+        "ru": "Да, каждый террариум мы изготавливаем вручную в нашей мастерской в Нови-Саде. Вы можете заказать любые размеры, выбрать цвет декоративной плёнки, стиль 3D-фона, тип вентиляции и дополнения, например LED-освещение или термостат."
+      }
+    },
+    {
+      "q": {
+        "sr": "Koja oprema mi je potrebna uz terarijum?",
+        "en": "What equipment do I need with a terrarium?",
+        "ru": "Какое оборудование нужно к террариуму?"
+      },
+      "a": {
+        "sr": "Osnovna oprema zavisi od vrste životinje, ali generalno su potrebni: UVB lampa, grejna lampa ili folija grejač, termostat, termometar/higrometar, podloga, posuda za vodu i skrovište.",
+        "en": "The basic equipment depends on the species, but in general you need: a UVB lamp, a heat lamp or heat mat, a thermostat, a thermometer/hygrometer, substrate, a water dish and a hide.",
+        "ru": "Базовое оборудование зависит от вида животного, но в целом нужны: UVB-лампа, лампа для обогрева или термоковрик, термостат, термометр/гигрометр, грунт, поилка и укрытие."
+      }
+    },
+    {
+      "q": {
+        "sr": "Da li dostavljate terarijume širom Srbije?",
+        "en": "Do you deliver terrariums across Serbia?",
+        "ru": "Вы доставляете террариумы по всей Сербии?"
+      },
+      "a": {
+        "sr": "Da, dostavljamo u sve gradove Srbije kurirskom službom. Terarijumi se pažljivo pakuju za transport. Kupci iz Novog Sada i okoline mogu preuzeti terarijum lično u našoj radionici.",
+        "en": "Yes, we deliver to all cities in Serbia by courier service. Terrariums are carefully packed for transport. Customers from Novi Sad and the surrounding area can pick up their terrarium in person at our workshop.",
+        "ru": "Да, мы доставляем во все города Сербии курьерской службой. Террариумы тщательно упаковываются для перевозки. Покупатели из Нови-Сада и окрестностей могут забрать террариум лично в нашей мастерской."
+      }
+    }
+  ],
+  "listing-oprema": [
+    {
+      "q": {
+        "sr": "Koja UVB lampa je potrebna za mog reptila?",
+        "en": "Which UVB lamp does my reptile need?",
+        "ru": "Какая UVB-лампа нужна моей рептилии?"
+      },
+      "a": {
+        "sr": "Jačina UVB lampe zavisi od vrste. Pustinjske vrste (bradate agame, uromastiksi) trebaju 10-12% UVB. Šumske vrste (crested gekoni, kameleoni) trebaju 5-7% UVB. Leopard gekoni koriste 5% ili niži UVB. Preporučujemo Arcadia kompakt sijalice jer pružaju kvalitetan UVB spektar.",
+        "en": "The strength of the UVB lamp depends on the species. Desert species (bearded dragons, uromastyx) need 10-12% UVB. Forest species (crested geckos, chameleons) need 5-7% UVB. Leopard geckos use 5% UVB or lower. We recommend Arcadia compact bulbs because they provide a quality UVB spectrum.",
+        "ru": "Мощность UVB-лампы зависит от вида. Пустынным видам (бородатым агамам, уромастиксам) нужно 10-12% UVB. Лесным видам (реснитчатым гекконам-бананоедам, хамелеонам) нужно 5-7% UVB. Для леопардовых гекконов используют 5% UVB или ниже. Мы рекомендуем компактные лампы Arcadia, потому что они дают качественный UVB-спектр."
+      }
+    },
+    {
+      "q": {
+        "sr": "Koliko često treba menjati UVB lampu?",
+        "en": "How often should a UVB lamp be replaced?",
+        "ru": "Как часто нужно менять UVB-лампу?"
+      },
+      "a": {
+        "sr": "UVB lampe treba menjati na svakih 6-12 meseci jer UVB emitovanje slabi tokom vremena, čak i kad lampa vizuelno radi normalno. Arcadia kompakt sijalice imaju prosečan vek od 12 meseci.",
+        "en": "UVB lamps should be replaced every 6-12 months because UVB output weakens over time, even when the lamp visually works normally. Arcadia compact bulbs have an average lifespan of 12 months.",
+        "ru": "UVB-лампы нужно менять каждые 6-12 месяцев, потому что UVB-излучение со временем слабеет, даже если внешне лампа работает нормально. Средний срок службы компактных ламп Arcadia - 12 месяцев."
+      }
+    },
+    {
+      "q": {
+        "sr": "Da li reptil treba kalcijum i vitamine?",
+        "en": "Does a reptile need calcium and vitamins?",
+        "ru": "Нужны ли рептилии кальций и витамины?"
+      },
+      "a": {
+        "sr": "Da. Kalcijum bez D3 daje se svakodnevno posipanjem na hranu. Kalcijum sa D3 ili multivitaminski preparat daje se 2-3 puta nedeljno. Ovo je neophodno za sprečavanje metaboličke bolesti kostiju koja je čest problem kod reptila u zatočeništvu.",
+        "en": "Yes. Calcium without D3 is given daily by dusting it onto the food. Calcium with D3 or a multivitamin supplement is given 2-3 times a week. This is essential for preventing metabolic bone disease, which is a common problem in captive reptiles.",
+        "ru": "Да. Кальций без D3 дают ежедневно, посыпая им корм. Кальций с D3 или мультивитаминный препарат дают 2-3 раза в неделю. Это необходимо для профилактики метаболической болезни костей, которая часто встречается у рептилий в неволе."
+      }
+    },
+    {
+      "q": {
+        "sr": "Koja podloga je najbolja za terarijum?",
+        "en": "Which substrate is best for a terrarium?",
+        "ru": "Какой грунт лучше всего для террариума?"
+      },
+      "a": {
+        "sr": "Zavisi od vrste. Kokosov treset je dobar za tropske vrste koje zahtevaju vlažnost. Kvarcni pesak se koristi za pustinjske vrste. Spagnum mah odlično zadržava vlagu za arborelane vrste. Izbegavajte sitni pesak za mlade životinje jer može izazvati impakciju.",
+        "en": "It depends on the species. Coconut peat is good for tropical species that require humidity. Quartz sand is used for desert species. Sphagnum moss retains moisture very well for arboreal species. Avoid fine sand for young animals because it can cause impaction.",
+        "ru": "Зависит от вида. Кокосовый торф хорош для тропических видов, которым нужна влажность. Кварцевый песок используют для пустынных видов. Мох сфагнум отлично удерживает влагу для древесных видов. Избегайте мелкого песка для молодых животных, потому что он может вызвать импакцию."
+      }
+    },
+    {
+      "q": {
+        "sr": "Čime da hranim crested gekona?",
+        "en": "What should I feed a crested gecko?",
+        "ru": "Чем кормить реснитчатого геккона-бананоеда?"
+      },
+      "a": {
+        "sr": "Crested gekoni se primarno hrane gotovim mešavinama (Habistat Crested Gecko Diet ili Gecko Nutrition) koje sadrže voće, proteine i vitamine. Prah se meša sa vodom i stavlja u posudicu. Povremeno se dodaje živa hrana - mali insekti posuti kalcijumom.",
+        "en": "Crested geckos are fed primarily on ready-made mixes (Habistat Crested Gecko Diet or Gecko Nutrition) that contain fruit, protein and vitamins. The powder is mixed with water and placed in a small dish. Live food is added occasionally - small insects dusted with calcium.",
+        "ru": "Реснитчатые гекконы-бананоеды питаются в основном готовыми смесями (Habistat Crested Gecko Diet или Gecko Nutrition), которые содержат фрукты, белки и витамины. Порошок смешивают с водой и кладут в мисочку. Время от времени добавляют живой корм - мелких насекомых, посыпанных кальцием."
+      }
+    }
+  ],
+  "listing-akvarijumi": [
+    {
+      "q": {
+        "sr": "Koji akvarijum je pogodan za početnike?",
+        "en": "Which aquarium is suitable for beginners?",
+        "ru": "Какой аквариум подходит для начинающих?"
+      },
+      "a": {
+        "sr": "Za početnike preporučujemo akvarijume od 50 litara naviše jer veća zapremina olakšava održavanje stabilnih parametara vode. Manji akvarijumi zahtevaju češće praćenje temperature i hemije.",
+        "en": "For beginners we recommend aquariums of 50 litres and up because a larger volume makes it easier to keep water parameters stable. Smaller aquariums require more frequent monitoring of temperature and chemistry.",
+        "ru": "Начинающим мы рекомендуем аквариумы от 50 литров и больше, потому что при большем объёме проще поддерживать стабильные параметры воды. Аквариумы поменьше требуют более частого контроля температуры и химии."
+      }
+    },
+    {
+      "q": {
+        "sr": "Koja je razlika između akvarijuma sa i bez 3D pozadine?",
+        "en": "What is the difference between aquariums with and without a 3D background?",
+        "ru": "В чём разница между аквариумами с 3D-фоном и без него?"
+      },
+      "a": {
+        "sr": "Akvarijumi sa 3D pozadinom od siga kamena imaju ugrađen filter iza pozadine i prirodan izgled dna. Akvarijumi bez pozadine su čistog stakla sa svim stranama vidljivim, pogodni za akvaskejp sa biljkama i kamenjem.",
+        "en": "Aquariums with a 3D background made of tufa rock have a filter built in behind the background and a natural-looking bottom. Aquariums without a background are clear glass with all sides visible, suitable for an aquascape with plants and rocks.",
+        "ru": "Аквариумы с 3D-фоном из туфа имеют встроенный фильтр за фоном и естественный вид дна. Аквариумы без фона - это чистое стекло, все стороны видны; они подходят для акваскейпа с растениями и камнями."
+      }
+    },
+    {
+      "q": {
+        "sr": "Koliko riba mogu da držim u akvarijumu?",
+        "en": "How many fish can I keep in an aquarium?",
+        "ru": "Сколько рыб можно держать в аквариуме?"
+      },
+      "a": {
+        "sr": "Opšte pravilo je oko 1 litar vode po centimetru odrasle ribe. Na primer, u akvarijumu od 50 litara možete držati ribu čija ukupna dužina ne prelazi oko 50cm. Ovo je okvirno - aktivnije vrste zahtevaju više prostora.",
+        "en": "The general rule is about 1 litre of water per centimetre of adult fish. For example, in a 50-litre aquarium you can keep fish whose total length does not exceed about 50cm. This is approximate - more active species need more space.",
+        "ru": "Общее правило - около 1 литра воды на сантиметр взрослой рыбы. Например, в аквариуме на 50 литров можно держать рыб, общая длина которых не превышает примерно 50 см. Это ориентир - более активным видам нужно больше места."
+      }
+    },
+    {
+      "q": {
+        "sr": "Koja oprema mi je potrebna za akvarijum?",
+        "en": "What equipment do I need for an aquarium?",
+        "ru": "Какое оборудование нужно для аквариума?"
+      },
+      "a": {
+        "sr": "Osnovni set čine filter (unutrašnji ili spoljni), grejač sa termostatom, LED osvetljenje i podloga (kvarcni pesak ili šljunak). Za biljni akvarijum preporučujemo i CO2 sistem. Za akvarijum za kornjaču potrebna je i UVB lampa i grejna lampa.",
+        "en": "The basic set consists of a filter (internal or external), a heater with a thermostat, LED lighting and substrate (quartz sand or gravel). For a planted aquarium we also recommend a CO2 system. A turtle aquarium also needs a UVB lamp and a heat lamp.",
+        "ru": "Базовый набор - это фильтр (внутренний или внешний), нагреватель с термостатом, LED-освещение и грунт (кварцевый песок или гравий). Для аквариума с растениями мы рекомендуем ещё и систему CO2. Для аквариума для черепахи нужны также UVB-лампа и лампа для обогрева."
+      }
+    },
+    {
+      "q": {
+        "sr": "Kako se održava akvarijum?",
+        "en": "How is an aquarium maintained?",
+        "ru": "Как ухаживать за аквариумом?"
+      },
+      "a": {
+        "sr": "Osnovno održavanje uključuje delimičnu zamenu 20-30% vode jednom nedeljno, čišćenje filtera jednom mesečno, uklanjanje algi sa stakla i povremeno testiranje parametara vode (pH, amonijak, nitriti, nitrati).",
+        "en": "Basic maintenance includes a partial change of 20-30% of the water once a week, cleaning the filter once a month, removing algae from the glass and occasionally testing the water parameters (pH, ammonia, nitrites, nitrates).",
+        "ru": "Базовый уход включает частичную подмену 20-30% воды раз в неделю, чистку фильтра раз в месяц, удаление водорослей со стекла и периодическую проверку параметров воды (pH, аммиак, нитриты, нитраты)."
+      }
+    }
+  ],
+  "service-terarijumi": [
+    {
+      "q": {
+        "sr": "Koliko košta izrada terarijuma po meri?",
+        "en": "How much does a custom terrarium cost?",
+        "ru": "Сколько стоит изготовление террариума на заказ?"
+      },
+      "a": {
+        "sr": "Cena zavisi od dimenzija, materijala i opreme. Kontaktirajte nas za besplatnu ponudu prilagođenu vašim potrebama.",
+        "en": "The price depends on the dimensions, materials and equipment. Contact us for a free quote tailored to your needs.",
+        "ru": "Цена зависит от размеров, материалов и оборудования. Свяжитесь с нами, и мы бесплатно подготовим предложение под ваши потребности."
+      }
+    },
+    {
+      "q": {
+        "sr": "Koliko traje izrada terarijuma?",
+        "en": "How long does it take to make a terrarium?",
+        "ru": "Сколько времени занимает изготовление террариума?"
+      },
+      "a": {
+        "sr": "Uobičajeni rok izrade je 7 radnih dana. Za veće i zahtevnije projekte rok može biti duži.",
+        "en": "The usual lead time is 7 working days. For larger and more demanding projects it can be longer.",
+        "ru": "Обычный срок изготовления - 7 рабочих дней. Для более крупных и сложных проектов срок может быть больше."
+      }
+    },
+    {
+      "q": {
+        "sr": "Da li mogu da izaberem boju i pozadinu terarijuma?",
+        "en": "Can I choose the colour and background of the terrarium?",
+        "ru": "Можно ли выбрать цвет и фон террариума?"
+      },
+      "a": {
+        "sr": "Da, nudimo preko 40 dezena folija i različite 3D pozadine - od stiropora do prirodnog siga kamena.",
+        "en": "Yes, we offer over 40 film designs and various 3D backgrounds - from styrofoam to natural tufa rock.",
+        "ru": "Да, мы предлагаем более 40 расцветок плёнки и разные 3D-фоны - от пенопласта до натурального туфа."
+      }
+    },
+    {
+      "q": {
+        "sr": "Da li je uključena oprema u cenu terarijuma?",
+        "en": "Is equipment included in the price of the terrarium?",
+        "ru": "Входит ли оборудование в цену террариума?"
+      },
+      "a": {
+        "sr": "Možemo uključiti kompletnu opremu - UVB/UVA rasvetu, grejače, termostate, substrat i dekoracije u jednu cenu.",
+        "en": "We can include complete equipment - UVB/UVA lighting, heaters, thermostats, substrate and decorations - in a single price.",
+        "ru": "Мы можем включить полный комплект оборудования - UVB/UVA-освещение, обогреватели, термостаты, грунт и декорации - в одну цену."
+      }
+    },
+    {
+      "q": {
+        "sr": "Kako mogu preuzeti terarijum?",
+        "en": "How can I pick up my terrarium?",
+        "ru": "Как можно получить террариум?"
+      },
+      "a": {
+        "sr": "Terarijum možete preuzeti lično u Novom Sadu, ili vršimo dostavu autobusom i kombijem širom Srbije.",
+        "en": "You can pick up the terrarium in person in Novi Sad, or we deliver by bus and van across Serbia.",
+        "ru": "Террариум можно забрать лично в Нови-Саде, или мы доставляем автобусом и фургоном по всей Сербии."
+      }
+    }
+  ],
+  "service-akvarijumi": [
+    {
+      "q": {
+        "sr": "Koliko košta izrada akvarijuma po meri?",
+        "en": "How much does a custom aquarium cost?",
+        "ru": "Сколько стоит изготовление аквариума на заказ?"
+      },
+      "a": {
+        "sr": "Cena zavisi od dimenzija, debljine stakla i opreme. Kontaktirajte nas za besplatnu ponudu prilagođenu vašim potrebama.",
+        "en": "The price depends on the dimensions, glass thickness and equipment. Contact us for a free quote tailored to your needs.",
+        "ru": "Цена зависит от размеров, толщины стекла и оборудования. Свяжитесь с нами, и мы бесплатно подготовим предложение под ваши потребности."
+      }
+    },
+    {
+      "q": {
+        "sr": "Koliko traje izrada akvarijuma?",
+        "en": "How long does it take to make an aquarium?",
+        "ru": "Сколько времени занимает изготовление аквариума?"
+      },
+      "a": {
+        "sr": "Uobičajeni rok izrade je 7 radnih dana. Za veće i zahtevnije projekte rok može biti duži.",
+        "en": "The usual lead time is 7 working days. For larger and more demanding projects it can be longer.",
+        "ru": "Обычный срок изготовления - 7 рабочих дней. Для более крупных и сложных проектов срок может быть больше."
+      }
+    },
+    {
+      "q": {
+        "sr": "Da li uključujete LED rasvetu u akvarijum?",
+        "en": "Do you include LED lighting in the aquarium?",
+        "ru": "Вы устанавливаете в аквариум LED-освещение?"
+      },
+      "a": {
+        "sr": "Da, nudimo LED rasvetu sa dnevnim i noćnim režimom, prekidačima na akvarijumu i mogućnošću daljinskog upravljanja.",
+        "en": "Yes, we offer LED lighting with day and night modes, switches on the aquarium and the option of remote control.",
+        "ru": "Да, мы предлагаем LED-освещение с дневным и ночным режимами, выключателями на аквариуме и возможностью дистанционного управления."
+      }
+    },
+    {
+      "q": {
+        "sr": "Koja debljina stakla je potrebna za akvarijum?",
+        "en": "What glass thickness does an aquarium need?",
+        "ru": "Какая толщина стекла нужна для аквариума?"
+      },
+      "a": {
+        "sr": "Debljina stakla zavisi od dimenzija akvarijuma. Za manje akvarijume 4-6mm, za veće 8-10mm ili više. Savetujemo vas o optimalnoj debljini.",
+        "en": "The glass thickness depends on the dimensions of the aquarium. For smaller aquariums 4-6mm, for larger ones 8-10mm or more. We will advise you on the optimal thickness.",
+        "ru": "Толщина стекла зависит от размеров аквариума. Для небольших аквариумов - 4-6 мм, для больших - 8-10 мм и более. Мы посоветуем вам оптимальную толщину."
+      }
+    },
+    {
+      "q": {
+        "sr": "Da li vršite dostavu akvarijuma?",
+        "en": "Do you deliver aquariums?",
+        "ru": "Вы доставляете аквариумы?"
+      },
+      "a": {
+        "sr": "Da, akvarijum možete preuzeti lično u Novom Sadu, ili vršimo dostavu autobusom i kombijem širom Srbije.",
+        "en": "Yes, you can pick up the aquarium in person in Novi Sad, or we deliver by bus and van across Serbia.",
+        "ru": "Да, аквариум можно забрать лично в Нови-Саде, или мы доставляем автобусом и фургоном по всей Сербии."
+      }
+    }
+  ],
+  "service-vivarijumi": [
+    {
+      "q": {
+        "sr": "Šta je vivarijum?",
+        "en": "What is a vivarium?",
+        "ru": "Что такое виварий?"
+      },
+      "a": {
+        "sr": "Vivarijum je zatvoreni stakleni prostor dizajniran za uzgoj tropskih biljaka, žaba, vodozemaca ili malih reptila u kontrolisanim uslovima vlažnosti i temperature.",
+        "en": "A vivarium is an enclosed glass space designed for keeping tropical plants, frogs, amphibians or small reptiles in controlled humidity and temperature conditions.",
+        "ru": "Виварий - это закрытое стеклянное пространство, предназначенное для содержания тропических растений, лягушек, амфибий или небольших рептилий в контролируемых условиях влажности и температуры."
+      }
+    },
+    {
+      "q": {
+        "sr": "Koliko košta izrada vivarijuma po meri?",
+        "en": "How much does a custom vivarium cost?",
+        "ru": "Сколько стоит изготовление вивария на заказ?"
+      },
+      "a": {
+        "sr": "Cena zavisi od dimenzija, sistema za vlažnost i rasvete. Kontaktirajte nas za besplatnu ponudu prilagođenu vašim potrebama.",
+        "en": "The price depends on the dimensions, humidity system and lighting. Contact us for a free quote tailored to your needs.",
+        "ru": "Цена зависит от размеров, системы увлажнения и освещения. Свяжитесь с нами, и мы бесплатно подготовим предложение под ваши потребности."
+      }
+    },
+    {
+      "q": {
+        "sr": "Koja rasveta je potrebna za vivarijum?",
+        "en": "What lighting does a vivarium need?",
+        "ru": "Какое освещение нужно для вивария?"
+      },
+      "a": {
+        "sr": "Nudimo specijalnu rasvetu sa različitim spektrima svetlosti (crvena, plava, zelena, bela) optimizovanu za rast i zdravlje tropskih biljaka.",
+        "en": "We offer special lighting with different light spectrums (red, blue, green, white) optimised for the growth and health of tropical plants.",
+        "ru": "Мы предлагаем специальное освещение с разными спектрами света (красный, синий, зелёный, белый), оптимизированное для роста и здоровья тропических растений."
+      }
+    },
+    {
+      "q": {
+        "sr": "Da li vivarijum može imati vodeni deo?",
+        "en": "Can a vivarium have a water section?",
+        "ru": "Может ли в виварии быть водная часть?"
+      },
+      "a": {
+        "sr": "Da, izrađujemo i paludarijume koji kombinuju kopneni i vodeni deo - idealno za žabe, vodene kornjače i poluakvatične životinje.",
+        "en": "Yes, we also make paludariums that combine a land section and a water section - ideal for frogs, aquatic turtles and semi-aquatic animals.",
+        "ru": "Да, мы изготавливаем и палюдариумы, которые сочетают сухопутную и водную части, - идеально для лягушек, водных черепах и полуводных животных."
+      }
+    },
+    {
+      "q": {
+        "sr": "Koliko traje izrada vivarijuma?",
+        "en": "How long does it take to make a vivarium?",
+        "ru": "Сколько времени занимает изготовление вивария?"
+      },
+      "a": {
+        "sr": "Uobičajeni rok izrade je 7 radnih dana. Za veće i zahtevnije projekte rok može biti duži.",
+        "en": "The usual lead time is 7 working days. For larger and more demanding projects it can be longer.",
+        "ru": "Обычный срок изготовления - 7 рабочих дней. Для более крупных и сложных проектов срок может быть больше."
+      }
+    }
+  ],
+  "service-led": [
+    {
+      "q": {
+        "sr": "Koje boje LED rasvete su dostupne?",
+        "en": "Which LED lighting colours are available?",
+        "ru": "Какие цвета LED-освещения доступны?"
+      },
+      "a": {
+        "sr": "Nudimo belu (hladnu i toplu), plavu, crvenu, zelenu, kao i RGB LED rasvetu koja može da menja boje. Možete odabrati boju koja najbolje odgovara vašem akvarijumu ili terarijumu.",
+        "en": "We offer white (cool and warm), blue, red and green, as well as RGB LED lighting that can change colours. You can choose the colour that best suits your aquarium or terrarium.",
+        "ru": "Мы предлагаем белое (холодное и тёплое), синее, красное, зелёное, а также RGB LED-освещение, которое может менять цвета. Вы можете выбрать цвет, который лучше всего подходит вашему аквариуму или террариуму."
+      }
+    },
+    {
+      "q": {
+        "sr": "Da li LED rasveta ima dnevni i noćni režim?",
+        "en": "Does the LED lighting have day and night modes?",
+        "ru": "Есть ли у LED-освещения дневной и ночной режимы?"
+      },
+      "a": {
+        "sr": "Da, nudimo LED rasvetu sa dva režima rada - dnevni (jači, beli) i noćni (slabiji, plavi). Prebacivanje između režima vrši se prekidačem na akvarijumu ili daljinskim upravljačem.",
+        "en": "Yes, we offer LED lighting with two operating modes - day (stronger, white) and night (weaker, blue). You switch between modes with a switch on the aquarium or with a remote control.",
+        "ru": "Да, мы предлагаем LED-освещение с двумя режимами работы - дневным (более ярким, белым) и ночным (более слабым, синим). Режимы переключаются выключателем на аквариуме или пультом дистанционного управления."
+      }
+    },
+    {
+      "q": {
+        "sr": "Koliko košta LED rasveta za akvarijum?",
+        "en": "How much does LED lighting for an aquarium cost?",
+        "ru": "Сколько стоит LED-освещение для аквариума?"
+      },
+      "a": {
+        "sr": "Cena zavisi od dimenzija, broja LED traka, boje i dodatnih opcija poput daljinskog upravljanja. Kontaktirajte nas za besplatnu ponudu.",
+        "en": "The price depends on the dimensions, the number of LED strips, the colour and additional options such as remote control. Contact us for a free quote.",
+        "ru": "Цена зависит от размеров, количества LED-лент, цвета и дополнительных опций, например дистанционного управления. Свяжитесь с нами, и мы бесплатно подготовим предложение."
+      }
+    },
+    {
+      "q": {
+        "sr": "Da li se LED rasveta može ugraditi u postojeći akvarijum?",
+        "en": "Can LED lighting be fitted to an existing aquarium?",
+        "ru": "Можно ли установить LED-освещение в уже имеющийся аквариум?"
+      },
+      "a": {
+        "sr": "Da, LED rasvetu možemo ugraditi u bilo koji postojeći akvarijum ili terarijum. Prilagođavamo dimenzije i montažu vašem poklopcu.",
+        "en": "Yes, we can fit LED lighting to any existing aquarium or terrarium. We adapt the dimensions and mounting to your lid.",
+        "ru": "Да, мы можем установить LED-освещение в любой уже имеющийся аквариум или террариум. Размеры и монтаж мы подгоняем под вашу крышку."
+      }
+    },
+    {
+      "q": {
+        "sr": "Koliko LED rasveta troši struju?",
+        "en": "How much electricity does LED lighting use?",
+        "ru": "Сколько электроэнергии потребляет LED-освещение?"
+      },
+      "a": {
+        "sr": "LED rasveta je veoma energetski efikasna - troši znatno manje od klasičnih sijalica i fluorescentnih cevi, a pritom daje jače i ravnomernije svetlo.",
+        "en": "LED lighting is very energy efficient - it uses considerably less than classic bulbs and fluorescent tubes, while giving stronger and more even light.",
+        "ru": "LED-освещение очень энергоэффективно - оно потребляет значительно меньше, чем обычные лампочки и люминесцентные трубки, и при этом даёт более яркий и равномерный свет."
+      }
+    }
+  ],
+  "service-odrzavanje": [
+    {
+      "q": {
+        "sr": "Koliko često treba održavati akvarijum?",
+        "en": "How often should an aquarium be maintained?",
+        "ru": "Как часто нужно обслуживать аквариум?"
+      },
+      "a": {
+        "sr": "Preporučujemo održavanje jednom mesečno. Tačna učestalost zavisi od veličine akvarijuma, broja riba i tipa filtracije.",
+        "en": "We recommend maintenance once a month. The exact frequency depends on the size of the aquarium, the number of fish and the type of filtration.",
+        "ru": "Мы рекомендуем обслуживание раз в месяц. Точная периодичность зависит от размера аквариума, количества рыб и типа фильтрации."
+      }
+    },
+    {
+      "q": {
+        "sr": "Da li dolazite na adresu za održavanje akvarijuma?",
+        "en": "Do you come to my address for aquarium maintenance?",
+        "ru": "Вы приезжаете на дом для обслуживания аквариума?"
+      },
+      "a": {
+        "sr": "Da, vršimo održavanje akvarijuma i terarijuma na vašoj adresi u Novom Sadu i okolini. Možete doneti i manji akvarijum ili terarijum kod nas.",
+        "en": "Yes, we maintain aquariums and terrariums at your address in Novi Sad and the surrounding area. You can also bring a smaller aquarium or terrarium to us.",
+        "ru": "Да, мы обслуживаем аквариумы и террариумы по вашему адресу в Нови-Саде и окрестностях. Небольшой аквариум или террариум вы можете и привезти к нам."
+      }
+    },
+    {
+      "q": {
+        "sr": "Šta uključuje uređenje akvarijuma?",
+        "en": "What does aquarium setup include?",
+        "ru": "Что включает оформление аквариума?"
+      },
+      "a": {
+        "sr": "Uređenje akvarijuma uključuje postavljanje substrata, kamenja, drveća, biljaka, 3D pozadina i dekoracija. Kreiramo prirodan izgled prilagođen vašim ribicama ili kornjačama.",
+        "en": "Aquarium setup includes placing substrate, rocks, wood, plants, 3D backgrounds and decorations. We create a natural look tailored to your fish or turtles.",
+        "ru": "Оформление аквариума включает укладку грунта, размещение камней, коряг, растений, 3D-фонов и декораций. Мы создаём естественный вид, подходящий вашим рыбкам или черепахам."
+      }
+    },
+    {
+      "q": {
+        "sr": "Koliko košta održavanje akvarijuma?",
+        "en": "How much does aquarium maintenance cost?",
+        "ru": "Сколько стоит обслуживание аквариума?"
+      },
+      "a": {
+        "sr": "Cena održavanja zavisi od veličine akvarijuma i obima posla. Kontaktirajte nas za besplatnu ponudu prilagođenu vašim potrebama.",
+        "en": "The price of maintenance depends on the size of the aquarium and the amount of work. Contact us for a free quote tailored to your needs.",
+        "ru": "Цена обслуживания зависит от размера аквариума и объёма работ. Свяжитесь с нами, и мы бесплатно подготовим предложение под ваши потребности."
+      }
+    },
+    {
+      "q": {
+        "sr": "Da li održavate i terarijume za reptile?",
+        "en": "Do you also maintain terrariums for reptiles?",
+        "ru": "Вы обслуживаете и террариумы для рептилий?"
+      },
+      "a": {
+        "sr": "Da, vršimo kompletno održavanje terarijuma - čišćenje, zamenu substrata, proveru i podešavanje rasvete, grejanja i vlažnosti, kao i uređenje enterijera terarijuma.",
+        "en": "Yes, we provide complete terrarium maintenance - cleaning, substrate replacement, checking and adjusting lighting, heating and humidity, as well as arranging the terrarium interior.",
+        "ru": "Да, мы выполняем полное обслуживание террариумов - чистку, замену грунта, проверку и настройку освещения, обогрева и влажности, а также оформление интерьера террариума."
+      }
+    }
+  ],
+  "service-popravka": [
+    {
+      "q": {
+        "sr": "Koliko košta popravka akvarijuma?",
+        "en": "How much does an aquarium repair cost?",
+        "ru": "Сколько стоит ремонт аквариума?"
+      },
+      "a": {
+        "sr": "Cena popravke zavisi od vrste oštećenja i dimenzija akvarijuma ili terarijuma. Kontaktirajte nas za besplatnu procenu - pošaljite slike oštećenja i dobićete ponudu.",
+        "en": "The price of a repair depends on the type of damage and the dimensions of the aquarium or terrarium. Contact us for a free estimate - send photos of the damage and you will get a quote.",
+        "ru": "Цена ремонта зависит от вида повреждения и размеров аквариума или террариума. Свяжитесь с нами для бесплатной оценки - пришлите фотографии повреждения, и вы получите предложение."
+      }
+    },
+    {
+      "q": {
+        "sr": "Da li popravljate puklo staklo na akvarijumu?",
+        "en": "Do you repair cracked glass on an aquarium?",
+        "ru": "Вы ремонтируете лопнувшее стекло в аквариуме?"
+      },
+      "a": {
+        "sr": "Da, vršimo kompletnu zamenu puknutog ili naprslog stakla na akvarijumima i terarijumima. Koristimo staklo odgovarajuće debljine za sigurnu upotrebu.",
+        "en": "Yes, we do a complete replacement of broken or cracked glass on aquariums and terrariums. We use glass of the appropriate thickness for safe use.",
+        "ru": "Да, мы выполняем полную замену лопнувшего или треснувшего стекла в аквариумах и террариумах. Мы используем стекло подходящей толщины для безопасной эксплуатации."
+      }
+    },
+    {
+      "q": {
+        "sr": "Koliko traje popravka akvarijuma?",
+        "en": "How long does an aquarium repair take?",
+        "ru": "Сколько времени занимает ремонт аквариума?"
+      },
+      "a": {
+        "sr": "Većina popravki završava se u roku od 1-3 radna dana. Za složenije popravke ili zamenu stakla, rok može biti do 5 radnih dana.",
+        "en": "Most repairs are completed within 1-3 working days. For more complex repairs or glass replacement, it can take up to 5 working days.",
+        "ru": "Большинство ремонтов выполняется за 1-3 рабочих дня. Для более сложного ремонта или замены стекла срок может составить до 5 рабочих дней."
+      }
+    },
+    {
+      "q": {
+        "sr": "Da li popravljate curenje akvarijuma?",
+        "en": "Do you repair aquarium leaks?",
+        "ru": "Вы устраняете протечки аквариума?"
+      },
+      "a": {
+        "sr": "Da, rešavamo probleme sa curenjem akvarijuma zamenom silikona i ponovnim zaptivanjem spojeva. Koristimo kvalitetan akvarijumski silikon bezbedan za ribe i reptile.",
+        "en": "Yes, we fix aquarium leaks by replacing the silicone and resealing the joints. We use quality aquarium silicone that is safe for fish and reptiles.",
+        "ru": "Да, мы устраняем протечки аквариума, заменяя силикон и заново герметизируя швы. Мы используем качественный аквариумный силикон, безопасный для рыб и рептилий."
+      }
+    },
+    {
+      "q": {
+        "sr": "Da li mogu da donesem akvarijum na popravku?",
+        "en": "Can I bring my aquarium in for repair?",
+        "ru": "Можно ли привезти аквариум на ремонт?"
+      },
+      "a": {
+        "sr": "Da, akvarijum ili terarijum možete doneti lično u Novi Sad. Za veće akvarijume možemo se dogovoriti oko preuzimanja.",
+        "en": "Yes, you can bring the aquarium or terrarium in person to Novi Sad. For larger aquariums we can arrange a pickup.",
+        "ru": "Да, аквариум или террариум можно привезти лично в Нови-Сад. Для больших аквариумов мы можем договориться о том, чтобы забрать его у вас."
+      }
+    }
+  ]
+}

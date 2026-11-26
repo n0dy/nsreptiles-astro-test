@@ -7,10 +7,11 @@ import Zcta from '../Zcta.astro';
 import '../../styles/animals.css';
 import '../../styles/usluge.css';
 import '../../styles/oprema.css';
-import { SITE, whatsappLink, type Locale } from '../../config/site';
+import { SITE, AUTHOR, whatsappLink, type Locale } from '../../config/site';
 import { HOME } from '../../i18n/ui';
 import { localizePath, translationsFor } from '../../i18n/routes';
 import { getProducts } from '../../lib/products';
+import { gitDates } from '../../lib/git-dates';
 
 interface Props {
   lang: Locale;
@@ -48,6 +49,8 @@ const relatedProducts = related.map((id) => {
   return p;
 });
 
+const modified = gitDates().get(`src/content/species/${lang}/${slug}.json`);
+const BYLINE = { sr: ['Autor', 'odgajivač, NS Reptiles', 'Ažurirano'], en: ['Author', 'breeder, NS Reptiles', 'Updated'], ru: ['Автор', 'заводчик, NS Reptiles', 'Обновлено'] }[lang];
 const org = { '@type': 'Organization', name: SITE.name };
 const schema: Record<string, unknown>[] = [
   {
@@ -55,8 +58,10 @@ const schema: Record<string, unknown>[] = [
     '@type': 'Article',
     headline: d.article.headline,
     description: d.article.description,
-    author: { ...org, url: SITE.url },
-    publisher: { ...org, logo: { '@type': 'ImageObject', url: `${SITE.url}/style/img/logo.jpg` } },
+    author: AUTHOR,
+    ...(modified ? { dateModified: modified } : {}),
+    inLanguage: lang,
+    publisher: { '@id': SITE.url + '/#business', ...org, logo: { '@type': 'ImageObject', url: `${SITE.url}/style/img/logo.jpg` } },
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
     image: imageUrl,
   },
@@ -78,7 +83,7 @@ if (d.product && low) {
     description: d.product.description,
     image: imageUrl,
     brand: { '@type': 'Brand', name: SITE.name },
-    offers: { '@type': 'AggregateOffer', url, priceCurrency: 'RSD', lowPrice: String(low), availability: 'https://schema.org/InStock' },
+    offers: { '@type': 'AggregateOffer', url, priceCurrency: 'RSD', lowPrice: low, availability: 'https://schema.org/InStock' },
   });
 }
 if (d.faq) {
@@ -122,6 +127,7 @@ const h3Style = "font-family:'Oswald Variable',sans-serif;text-transform:upperca
 <section class="intro">
   <div class="wrap">
     <div class="intro-box reveal"><p set:html={d.intro} /></div>
+    <p class="byline" style="margin-top: 14px; font-size: 0.9rem; opacity: 0.75">{BYLINE[0]}: <a href={href('/onama.html')} rel="author">{AUTHOR.name}</a>, {BYLINE[1]}{modified && <> · {BYLINE[2]}: <time datetime={modified}>{modified.split('-').reverse().join('.')}.</time></>}</p>
   </div>
 </section>
 {d.price && (

@@ -7,6 +7,7 @@ import '@fontsource/poppins/600.css';
 import '@fontsource-variable/jost';
 import '@fontsource-variable/oswald';
 import poppinsLatin from '@fontsource/poppins/files/poppins-latin-400-normal.woff2?url';
+import poppinsLightLatin from '@fontsource/poppins/files/poppins-latin-300-normal.woff2?url';
 import oswaldLatin from '@fontsource-variable/oswald/files/oswald-latin-wght-normal.woff2?url';
 import '../styles/style.css';
 import { SITE, IS_INDEXABLE, type Locale } from '../config/site';
@@ -39,18 +40,27 @@ const analytics = IS_INDEXABLE;
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <!-- fontovi stizu pre prvog crtanja, da se hero tekst ne prelama posle (CLS) -->
     <link rel="preload" href={poppinsLatin} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href={poppinsLightLatin} as="font" type="font/woff2" crossorigin />
     <link rel="preload" href={oswaldLatin} as="font" type="font/woff2" crossorigin />
     <SeoHead lang={lang} {...seo} />
     {analytics && (
       <>
-        <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${SITE.gaId}`}></script>
         <script is:inline define:vars={{ gaId: SITE.gaId, gtmId: SITE.gtmId }}>
           window.dataLayer = window.dataLayer || [];
           function gtag() { dataLayer.push(arguments); }
           window.gtag = gtag;
           gtag('js', new Date());
           gtag('config', gaId);
-          (function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', gtmId);
+          // skripte se ucitavaju tek posle load-a, da ne uticu na LCP; dogadjaji do tada cekaju u dataLayer-u
+          function loadTags() {
+            var add = function (src) { var j = document.createElement('script'); j.async = true; j.src = src; document.head.appendChild(j); };
+            dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            add('https://www.googletagmanager.com/gtag/js?id=' + gaId);
+            add('https://www.googletagmanager.com/gtm.js?id=' + gtmId);
+          }
+          var idle = window.requestIdleCallback || function (f) { setTimeout(f, 1); };
+          if (document.readyState === 'complete') idle(loadTags);
+          else window.addEventListener('load', function () { idle(loadTags); });
         </script>
       </>
     )}

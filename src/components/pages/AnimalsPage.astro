@@ -4,17 +4,52 @@ import Base from '../../layouts/Base.astro';
 import Faq from '../Faq.astro';
 import Zcta from '../Zcta.astro';
 import '../../styles/animals.css';
-import type { Locale } from '../../config/site';
+import { SITE, type Locale } from '../../config/site';
 import { localizePath, translationsFor } from '../../i18n/routes';
-import { ANIMALS_TEXT, ANIMAL_GROUPS, ANIMALS_FAQ } from '../../i18n/pages/animals';
+import { ANIMALS_TEXT, ANIMAL_GROUPS as ALL_GROUPS, ANIMALS_FAQ, SNAKES_TEXT, SNAKES_FAQ } from '../../i18n/pages/animals';
 
 interface Props {
   lang: Locale;
+  /** samo jedna grupa, sa svojim tekstom i URL-om (/zmije.html) */
+  group?: 'zmije';
 }
-const { lang } = Astro.props;
-const t = ANIMALS_TEXT[lang];
+const { lang, group } = Astro.props;
+const t = { ...ANIMALS_TEXT[lang], ...(group ? SNAKES_TEXT[lang] : {}) };
+const ANIMAL_GROUPS = group ? ALL_GROUPS.filter((g) => g.id === group) : ALL_GROUPS;
+const FAQ = group ? SNAKES_FAQ : ANIMALS_FAQ;
 const href = (srPath: string) => localizePath(srPath, lang);
-const path = href('/zivotinje.html');
+const path = href(group ? '/zmije.html' : '/zivotinje.html');
+
+// cena "od" sa strane vrste (content/species/sr), da kartica i strana ne mogu da se razidju
+const SPECIES = import.meta.glob<{ price?: { low?: number } }>('../../content/species/sr/*.json', { eager: true, import: 'default' });
+const LOW_PRICE = Object.fromEntries(
+  Object.entries(SPECIES).map(([file, sp]) => [file.split('/').pop()!.replace('.json', '').replaceAll('-', ''), sp.price?.low]),
+);
+const priceFrom = (srHref?: string) => {
+  const low = srHref && LOW_PRICE[srHref.split('/').pop()!.replace('.html', '')];
+  if (!low) return null;
+  const n = low.toLocaleString(lang === 'sr' ? 'sr-RS' : lang);
+  return { sr: `od ${n} din`, en: `from ${n} RSD`, ru: `от ${n} RSD` }[lang];
+};
+
+const HERO = { lg: '/style/img/hero/gekon-zivotinje-lg.webp', sm: '/style/img/hero/gekon-zivotinje-sm.webp' };
+const linked = ANIMAL_GROUPS.flatMap((g) => g.animals).filter((a) => a.href);
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: t.h1,
+    description: t.meta.description,
+    url: SITE.url + path,
+    inLanguage: lang,
+    isPartOf: { '@id': SITE.url + '/#website' },
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: linked.length,
+      itemListElement: linked.map((a, i) => ({ '@type': 'ListItem', position: i + 1, url: SITE.url + href(a.href!), name: a.name[lang] })),
+    },
+  },
+];
 
 const plural = new Intl.PluralRules(lang);
 const speciesCount = (n: number) =>
@@ -27,8 +62,11 @@ const speciesCount = (n: number) =>
   image="/style/img/gallery/2.jpg"
   active="animals"
   translations={translationsFor(path)}
+  schema={schema}
 >
-<section class="page-head" style="--ph-img: url(/style/img/hero/gekon-zivotinje-lg.webp); --ph-img-sm: url(/style/img/hero/gekon-zivotinje-sm.webp)">
+<link slot="head" rel="preload" as="image" href={HERO.sm} media="(max-width: 768px)" fetchpriority="high" />
+<link slot="head" rel="preload" as="image" href={HERO.lg} media="(min-width: 769px)" fetchpriority="high" />
+<section class="page-head" style={`--ph-img: url(${HERO.lg}); --ph-img-sm: url(${HERO.sm})`}>
   <div class="wrap">
     <h1 set:html={twoTone(t.h1)} />
     <p>{t.lead}</p>
@@ -41,14 +79,16 @@ const speciesCount = (n: number) =>
 </section>
 <section class="zoo">
   <div class="wrap">
+    {!group && (
     <div class="pills">
       {ANIMAL_GROUPS.map((g) => <button class="pill" data-target={g.id}>{g.title[lang]}</button>)}
     </div>
+    )}
 
     {ANIMAL_GROUPS.map((g) => (
       <div class="cat-block" id={`cat-${g.id}`}>
         <div class="cat-title">
-          <h2>{g.title[lang]}</h2>
+          <h2>{!group && g.id === 'zmije' ? <a href={href('/zmije.html')}>{g.title[lang]}</a> : g.title[lang]}</h2>
           <span class="count">{speciesCount(g.animals.length)}</span><span class="line"></span>
         </div>
         <div class="zgrid">
@@ -63,9 +103,10 @@ const speciesCount = (n: number) =>
                 <div class="zcard-body">
                   <div class="lat">{a.latin}</div>
                   <h3>{a.name[lang]}</h3>
+                  {priceFrom(a.href) && <span class="zprice">{priceFrom(a.href)}</span>}
                   <p>{a.text[lang]}</p>
                   {a.href && (
-                    <span class="zlink">{t.view}
+                    <span class="zlink">{a.href.includes('/kompleti/') ? t.starter.cta : t.view}
                       <span class="arr"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></span>
                   )}
                 </div>
@@ -86,7 +127,7 @@ const speciesCount = (n: number) =>
   </div>
 </section>
 
-<Faq lang={lang} title={t.faqTitle} items={ANIMALS_FAQ} />
+<Faq lang={lang} title={t.faqTitle} items={FAQ} />
 
 <Zcta title={t.cta.title} text={t.cta.text} callLabel={t.cta.call} />
 

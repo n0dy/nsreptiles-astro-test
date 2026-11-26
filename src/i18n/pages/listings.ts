@@ -56,6 +56,10 @@ export interface Listing {
   h1: L;
   lead: L;
   intro: L;
+  /** drugi pasus uvoda (vodic za izbor), sme <strong> */
+  guide?: L;
+  /** cenovnik sitnih artikala ispod proizvoda (ribice) */
+  priceTable?: { title: L; rows: { name: L; price: number }[] };
   search: L;
   /** {contact} = link ka kontakt strani */
   empty: L;
@@ -136,7 +140,7 @@ export const LISTINGS = {
     meta: {
       sr: {
         title: 'Prodaja Terarijuma | Stakleni Terarijumi Novi Sad - NS Reptiles',
-        description: 'Stakleni terarijumi sa 3D pozadinom u preko 80 dimenzija. Ručna izrada, ventilacija, izrada po meri. NS Reptiles, Novi Sad.',
+        description: 'Prodaja staklenih terarijuma sa 3D pozadinom u preko 80 dimenzija. Ručna izrada i izrada po meri u Novom Sadu, dostava širom Srbije.',
         ogTitle: 'Terarijumi sa 3D pozadinom | NS Reptiles',
         ogDescription: 'Stakleni terarijumi u preko 80 dimenzija, sa 3D pozadinom. Izrada po meri. Novi Sad.',
       },
@@ -154,7 +158,7 @@ export const LISTINGS = {
       },
     },
     h1: {
-      sr: 'Stakleni terarijumi sa 3D pozadinom',
+      sr: 'Prodaja staklenih terarijuma sa 3D pozadinom',
       en: 'Glass terrariums with 3D background',
       ru: 'Стеклянные террариумы с 3D-фоном',
     },
@@ -167,6 +171,11 @@ export const LISTINGS = {
       sr: 'Svaki terarijum izrađujemo <strong>ručno od stakla</strong>, sa mrežastom ili plastičnom ventilacijom i opcionom 3D pozadinom koja imitira prirodno stanište. Ne vidite dimenziju koja vam treba? Radimo <strong>izradu po meri</strong> — javite nam se sa merama.',
       en: 'Every terrarium is <strong>hand-made from glass</strong>, with mesh or plastic ventilation and an optional 3D background that mimics a natural habitat. Don\'t see the size you need? We offer <strong>custom builds</strong> — get in touch with your measurements.',
       ru: 'Каждый террариум мы изготавливаем <strong>вручную из стекла</strong>, с сетчатой или пластиковой вентиляцией и опциональным 3D-фоном, который имитирует естественную среду обитания. Не видите нужный размер? Выполняем <strong>изготовление на заказ</strong> — напишите нам ваши размеры.',
+    },
+    guide: {
+      sr: '<strong>Kako odabrati veličinu?</strong> Mali terarijumi (do 30 cm dužine) pogodni su za paukove skakače, bogomoljke i manje gekone. Srednji (30-60 cm) su idealni za leopard gekone, crested gekone i mlade zmije. Veliki (preko 60 cm) namenjeni su odraslim bradatim agamama, loptastim pitonima i kornjačama. Horizontalni modeli su za kopnene vrste, vertikalni za vrste koje se penju. Preuzimanje u Novom Sadu ili dostava širom Srbije.',
+      en: '<strong>How to choose the size?</strong> Small terrariums (up to 30 cm long) suit jumping spiders, mantises and smaller geckos. Medium ones (30-60 cm) are ideal for leopard geckos, crested geckos and young snakes. Large ones (over 60 cm) are meant for adult bearded dragons, ball pythons and tortoises. Horizontal models are for ground-dwelling species, vertical ones for climbers. Pick-up in Novi Sad or delivery across Serbia.',
+      ru: '<strong>Как выбрать размер?</strong> Маленькие террариумы (до 30 см в длину) подходят для пауков-скакунов, богомолов и небольших гекконов. Средние (30-60 см) идеальны для леопардовых гекконов, реснитчатых гекконов и молодых змей. Большие (более 60 см) предназначены для взрослых бородатых агам, королевских питонов и черепах. Горизонтальные модели - для наземных видов, вертикальные - для лазающих. Самовывоз в Нови-Саде или доставка по всей Сербии.',
     },
     search: { sr: 'Pretraži terarijume...', en: 'Search terrariums...', ru: 'Поиск террариумов...' },
     empty: EMPTY_CUSTOM,
@@ -198,7 +207,7 @@ export const LISTINGS = {
     meta: {
       sr: {
         title: 'Akvarijumi Prodaja Novi Sad | Akvaristika - NS Reptiles',
-        description: 'Ručno lepljeni stakleni akvarijumi, kompleti sa opremom i ter-akvarijumi za kornjače. Izrada po meri. NS Reptiles, Novi Sad.',
+        description: 'Prodaja staklenih akvarijuma, kompleta sa opremom i ter-akvarijuma za kornjače. Izrada po meri u Novom Sadu, dostava u Beograd i celu Srbiju.',
         ogTitle: 'Akvarijumi i ter-akvarijumi | NS Reptiles',
         ogDescription: 'Stakleni akvarijumi, kompleti i ter-akvarijumi za vodene kornjače. Izrada po meri. Novi Sad.',
       },
@@ -229,6 +238,26 @@ export const LISTINGS = {
       sr: 'Sve akvarijume <strong>ručno lepimo od stakla</strong> — od malih za sitne ribice do velikih od preko 190 litara. <strong>Ter-akvarijumi</strong> sa suvim i vodenim delom idealni su za vodene kornjače. Za bilo koju dimenziju van ponude radimo <strong>izradu po meri</strong>.',
       en: 'Every aquarium is <strong>hand-glued from glass</strong> — from small tanks for fish to large ones exceeding 190 litres. <strong>Ter-aquariums</strong> with a dry and water section are ideal for water turtles. For any size outside our range we offer <strong>custom builds</strong>.',
       ru: 'Все аквариумы мы <strong>склеиваем вручную из стекла</strong> — от маленьких для мелкой рыбки до больших объёмом свыше 190 литров. <strong>Тер-аквариумы</strong> с сухой и водной зонами идеально подходят для водных черепах. Для любых нестандартных размеров выполняем <strong>изготовление на заказ</strong>.',
+    },
+    guide: {
+      sr: '<strong>Akvarijum za ribice ili kornjaču?</strong> Za početnike preporučujemo akvarijume od 50 litara naviše, jer veća zapremina lakše drži stabilne parametre vode. Za vodene kornjače birajte ter-akvarijum sa suvim delom. Preuzimanje u Novom Sadu, dostava u Beograd i celu Srbiju.',
+      en: '<strong>An aquarium for fish or a turtle?</strong> For beginners we recommend aquariums of 50 litres and up, because a larger volume keeps water parameters stable more easily. For water turtles choose a ter-aquarium with a dry section. Pick-up in Novi Sad, delivery to Belgrade and all of Serbia.',
+      ru: '<strong>Аквариум для рыбок или черепахи?</strong> Начинающим мы рекомендуем аквариумы от 50 литров, так как в большем объёме легче поддерживать стабильные параметры воды. Для водных черепах выбирайте тер-аквариум с сухой зоной. Самовывоз в Нови-Саде, доставка в Белград и по всей Сербии.',
+    },
+    priceTable: {
+      title: { sr: 'Akvarijumske <b>ribice</b> - cene', en: 'Aquarium <b>fish</b> - prices', ru: 'Аквариумные <b>рыбки</b> - цены' },
+      rows: [
+        { name: { sr: 'Plava neonka', en: 'Blue neon tetra', ru: 'Голубой неон' }, price: 70 },
+        { name: { sr: 'Crna neonka', en: 'Black neon tetra', ru: 'Чёрный неон' }, price: 100 },
+        { name: { sr: 'Flameus', en: 'Flame tetra', ru: 'Огненная тетра' }, price: 70 },
+        { name: { sr: 'Color zebrica', en: 'Color zebra danio', ru: 'Цветной данио' }, price: 70 },
+        { name: { sr: 'Color tetra', en: 'Color tetra', ru: 'Цветная тетра' }, price: 100 },
+        { name: { sr: 'Keri tetra', en: 'Kerri tetra', ru: 'Тетра Керри' }, price: 70 },
+        { name: { sr: 'Palmeri tetra', en: 'Emperor tetra', ru: 'Тетра Пальмери' }, price: 100 },
+        { name: { sr: 'Bentozi tetra', en: 'Bentosi tetra', ru: 'Тетра Бентоза' }, price: 80 },
+        { name: { sr: 'Limun tetra', en: 'Lemon tetra', ru: 'Лимонная тетра' }, price: 80 },
+        { name: { sr: 'Gracilis tetra', en: 'Glowlight tetra', ru: 'Тетра-светлячок' }, price: 70 },
+      ],
     },
     search: { sr: 'Pretraži akvarijume...', en: 'Search aquariums...', ru: 'Поиск аквариумов...' },
     empty: EMPTY_CUSTOM,

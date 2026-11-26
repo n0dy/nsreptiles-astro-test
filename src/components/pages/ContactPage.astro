@@ -22,20 +22,7 @@ const schema = [
     inLanguage: lang,
     isPartOf: { '@id': SITE.url + '/#website' },
     about: { '@id': SITE.url + '/#business' },
-    mainEntity: {
-      '@type': 'PetStore',
-      '@id': SITE.url + '/#business',
-      name: SITE.name,
-      telephone: SITE.phone,
-      email: SITE.email,
-      address: { '@type': 'PostalAddress', addressLocality: 'Novi Sad', addressRegion: 'Vojvodina', addressCountry: 'RS' },
-      openingHoursSpecification: {
-        '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
-        opens: '09:00',
-        closes: '21:00',
-      },
-    },
+    mainEntity: { '@id': SITE.url + '/#business' },
   },
 ];
 ---

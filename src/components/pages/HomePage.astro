@@ -59,14 +59,20 @@ const business = {
   '@type': 'PetStore',
   '@id': SITE.url + '/#business',
   name: SITE.name,
+  alternateName: ['NS REPTILES', 'NS Reptiles Novi Sad'],
   url: SITE.url + '/',
   telephone: SITE.phone,
+  contactPoint: { '@type': 'ContactPoint', telephone: SITE.phone, contactType: 'customer service', availableLanguage: ['sr', 'en', 'ru'] },
   email: SITE.email,
   image: SITE.url + '/style/img/logo.jpg',
   description: t.meta.description,
   logo: SITE.url + '/style/img/logo.jpg',
   address: { '@type': 'PostalAddress', addressLocality: 'Novi Sad', addressRegion: 'Vojvodina', addressCountry: 'RS' },
-  geo: { '@type': 'GeoCoordinates', latitude: 45.2600458, longitude: 19.8426976 },
+  geo: { '@type': 'GeoCoordinates', latitude: 45.2714514, longitude: 19.849441 },
+  hasMap: SITE.mapsUrl,
+  foundingDate: '2019',
+  knowsLanguage: ['sr', 'en', 'ru'],
+  currenciesAccepted: 'RSD',
   areaServed: [
     { '@type': 'City', name: 'Novi Sad' },
     { '@type': 'City', name: 'Beograd' },
@@ -78,7 +84,7 @@ const business = {
     opens: '09:00',
     closes: '21:00',
   },
-  sameAs: [...Object.values(SITE.social), 'https://www.youtube.com/channel/UCu5SJSfev91r3d-FwaDDVoQ'],
+  sameAs: [...Object.values(SITE.social), 'https://www.youtube.com/channel/UCu5SJSfev91r3d-FwaDDVoQ', SITE.mapsUrl],
 };
 const website = {
   '@context': 'https://schema.org',
@@ -121,8 +127,8 @@ const website = {
       <h1>{t.hero.title[0]} <span>{t.hero.title[1]}</span></h1>
       <p>{t.hero.text}</p>
       <div class="hero-ctas">
-        <a href="#hero" class="btn btn-primary">{t.hero.cta}<Fragment set:html={ARROW} /></a>
-        <a href={href('/kontakt.html')} class="btn btn-light">{t.hero.contact}<Fragment set:html={ARROW} /></a>
+        <a href={href('/zivotinje.html')} class="btn btn-primary">{t.hero.cta}<Fragment set:html={ARROW} /></a>
+        <a href={`tel:${SITE.phone}`} class="btn btn-light">{t.hero.contact} {SITE.phoneDisplay}</a>
       </div>
     </div>
     <div class="hero-dots" role="group">
@@ -171,7 +177,7 @@ const website = {
   <div class="wrap">
   <div class="car-track rep-track" id="repTrack">
     {REPTILES.map((r, i) => (
-      <a class="rep-card" href={href('/zivotinje.html')}>
+      <a class="rep-card" href={href(r.href)}>
         <img loading="lazy" decoding="async" src={r.img} alt={r.name[lang]} />
         <div class="rep-label">
           <div>
@@ -232,7 +238,7 @@ const website = {
     <div class="help-grid">
       {SERVICES.map((s, i) => (
         <a class="help-card" href={href(s.href)}>
-          <div class="help-img"><img loading="lazy" decoding="async" src={s.img} alt="" /></div>
+          <div class="help-img"><img loading="lazy" decoding="async" src={s.img} alt={s.title[lang]} /></div>
           <div class="help-info">
             <h3>{s.title[lang]}</h3>
             <p>{s.text[lang]}</p>
@@ -286,7 +292,7 @@ const website = {
     <div class="testi-left reveal">
       <h2 class="sec-title" set:html={t.testi.title} />
       <div class="testi-rating">
-        <span class="stars">★★★★★</span> <b>5.0</b> · {t.testi.reviews}
+        <span class="stars">★★★★★</span> <b>5.0</b> · <a href={REVIEWS_URL} target="_blank" rel="noopener">{t.testi.reviews}</a>
       </div>
     </div>
     <div class="testi-right reveal">

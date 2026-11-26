@@ -2,6 +2,8 @@
 import { twoTone } from '../../lib/two-tone';
 import Base from '../../layouts/Base.astro';
 import Zcta from '../Zcta.astro';
+import Faq from '../Faq.astro';
+import PAGE_FAQS from '../../i18n/pages/page-faqs.json';
 import '../../styles/animals.css';
 import '../../styles/usluge.css';
 import { SITE, type Locale } from '../../config/site';
@@ -28,12 +30,9 @@ const schema = [
     '@type': 'Service',
     name: sc.name,
     serviceType: sc.serviceType,
-    provider: {
-      '@type': 'LocalBusiness',
-      name: SITE.name,
-      telephone: SITE.phone,
-      address: { '@type': 'PostalAddress', addressLocality: 'Novi Sad', addressCountry: 'RS' },
-    },
+    provider: { '@id': SITE.url + '/#business' },
+    inLanguage: lang,
+    image: SITE.url + heroImg,
     areaServed: ui.areaServed,
     description: sc.description,
     url: SITE.url + path,
@@ -87,6 +86,8 @@ const schema = [
     )}
   </div>
 </section>
+<Faq lang={lang} items={PAGE_FAQS[`service-${service}`]} />
+
 <Zcta title={cta.title} text={cta.text} callLabel={cta.call} />
 {animals && (
   <section class="usl-more" style="background: var(--bg)">

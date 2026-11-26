@@ -5,7 +5,7 @@ export const SITE = {
   phoneDisplay: '+381 69 330 1474',
   whatsapp: '381693301474',
   email: 'bata.dino00@gmail.com',
-  mapsUrl: 'https://maps.google.com/?q=NS+REPTILES+Novi+Sad',
+  mapsUrl: 'https://www.google.com/maps?cid=8081371040044186039',
   gaId: 'G-3KC3X479RW',
   gtmId: 'GTM-KCTXKR4',
   social: {
@@ -27,3 +27,12 @@ export const whatsappLink = (text?: string) =>
 // tek kad nsreptiles.net pređe na Cloudflare. Inače (test, lokalni build) sve je noindex.
 export const IS_INDEXABLE =
   process.env.SITE_INDEXABLE === 'true' || (process.env.URL ?? '').startsWith(SITE.url);
+
+// autor vodica (odgajivac); isti entitet na svim stranama
+export const AUTHOR = {
+  '@type': 'Person',
+  '@id': SITE.url + '/#author',
+  name: 'Dino Bata',
+  url: SITE.url + '/onama.html',
+  worksFor: { '@id': SITE.url + '/#business' },
+};

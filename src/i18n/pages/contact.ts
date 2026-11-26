@@ -41,7 +41,7 @@ interface ContactText {
 export const CONTACT: Record<Locale, ContactText> = {
   sr: {
     meta: {
-      title: 'Kontakt | Telefon i adresa - NS Reptiles, Novi Sad',
+      title: 'Kontakt | Telefon, Viber i WhatsApp - NS Reptiles Novi Sad',
       description:
         'Kontaktirajte NS Reptiles - odgajivačnicu reptila u Novom Sadu. Telefon +381 69 330 1474. Naručite terarijume, akvarijume ili reptile.',
       image: '/style/img/logo.jpg',
@@ -84,7 +84,7 @@ export const CONTACT: Record<Locale, ContactText> = {
   },
   en: {
     meta: {
-      title: 'Contact | Phone and Address - NS Reptiles, Novi Sad',
+      title: 'Contact | Phone, Viber and WhatsApp - NS Reptiles Novi Sad',
       description:
         'Contact NS Reptiles - exotic animal breeder in Novi Sad. Phone +381 69 330 1474. Order terrariums, aquariums or reptiles.',
       ogTitle: 'Contact - NS Reptiles, Novi Sad',
@@ -110,6 +110,7 @@ export const CONTACT: Record<Locale, ContactText> = {
     submit: 'Send message',
     successTitle: 'Successfully sent!',
     successText: 'Thank you for your message. Check your email for a reply.',
+    mapTitle: 'NS Reptiles on Google Maps - Novi Sad',
     js: {
       prefillKit:
         'Hello,\n\nI am interested in the starter kit "{x}". Please send me more information about availability and pickup.\n\nThank you!',
@@ -124,7 +125,7 @@ export const CONTACT: Record<Locale, ContactText> = {
   },
   ru: {
     meta: {
-      title: 'Контакт | Телефон и адрес - NS Reptiles, Нови Сад',
+      title: 'Контакт | Телефон, Viber и WhatsApp - NS Reptiles Нови-Сад',
       description:
         'Свяжитесь с NS Reptiles - питомником рептилий в Нови Саде. Телефон +381 69 330 1474. Заказывайте террариумы, аквариумы или рептилий.',
       ogTitle: 'Контакт - NS Reptiles, Нови Сад',
@@ -151,6 +152,7 @@ export const CONTACT: Record<Locale, ContactText> = {
     submit: 'Отправить сообщение',
     successTitle: 'Успешно отправлено!',
     successText: 'Спасибо за сообщение. Проверьте вашу электронную почту для ответа.',
+    mapTitle: 'NS Reptiles на Google Картах - Нови-Сад',
     js: {
       prefillKit:
         'Здравствуйте!\n\nМеня интересует набор для начинающих «{x}». Пожалуйста, сообщите о наличии и получении.\n\nСпасибо!',

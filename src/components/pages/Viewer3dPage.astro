@@ -1185,7 +1185,6 @@ height: 44px;
 }
 }
 </style>
-<script is:inline slot="after" type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 <script is:inline slot="after" type="importmap">
     {
         "imports": {
@@ -1198,7 +1197,6 @@ height: 44px;
 <script is:inline slot="after" type="module">
         import * as THREE from 'three';
         import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-        import { GLTFExporter } from 'three/addons/exporters/GLTFExporter.js';
         import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
         // tekstovi zavise od jezika, logika je ista za sve
@@ -2413,10 +2411,32 @@ height: 44px;
         // AR: model-viewer dobija GLB izvezen iz trenutnog terarijuma (mere + izabrana folija)
         const arButton = document.getElementById('ar-button');
         const arModel = document.getElementById('ar-model');
-        const exporter = new GLTFExporter();
+        // model-viewer i GLTFExporter (oko 4 s rada procesora) stizu tek na prvi dodir, i samo na uredjajima sa ekranom na dodir - AR ionako radi samo tamo
+        let exporter = null;
         let arExportTimer = null, arUrl = null, arExportId = 0;
 
+        async function initAR() {
+            try {
+                const mods = await Promise.all([
+                    import('three/addons/exporters/GLTFExporter.js'),
+                    import('https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js'),
+                ]);
+                exporter = new mods[0].GLTFExporter();
+                exportForAR();
+            } catch (e) {
+                console.error('AR nije ucitan:', e);
+            }
+        }
+        if (navigator.maxTouchPoints > 0) {
+            ['pointerdown', 'keydown', 'scroll'].forEach(function (ev) {
+                window.addEventListener(ev, function once() {
+                    if (!initAR.started) { initAR.started = true; initAR(); }
+                }, { once: true, passive: true });
+            });
+        }
+
         function scheduleArExport() {
+            if (!exporter) return;
             clearTimeout(arExportTimer);
             arExportTimer = setTimeout(exportForAR, 600);
         }
@@ -2424,7 +2444,7 @@ height: 44px;
         async function exportForAR() {
             const id = ++arExportId;
             await activeWood.ready;
-            if (id !== arExportId || !terrarium) return;
+            if (id !== arExportId || !terrarium || !exporter) return;
             // AR dobija samo color mapu drveta, kao i ranije (manji fajl)
             const arFoil = new THREE.MeshStandardMaterial({ name: 'Folija', map: activeWood.colorMap, roughness: 1, metalness: 0 });
             const copy = new THREE.Group();

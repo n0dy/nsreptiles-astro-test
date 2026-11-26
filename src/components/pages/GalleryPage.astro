@@ -1,7 +1,7 @@
 ---
 import { twoTone } from '../../lib/two-tone';
 import Base from '../../layouts/Base.astro';
-import type { Locale } from '../../config/site';
+import { SITE, type Locale } from '../../config/site';
 import { localizePath, translationsFor } from '../../i18n/routes';
 import { GALLERY, GALLERY_ITEMS } from '../../i18n/pages/gallery';
 
@@ -19,6 +19,15 @@ const path = localizePath('/galerija.html', lang);
   active="gallery"
   bodyClass="gallery-page"
   translations={translationsFor(path)}
+  schema={[{
+    '@context': 'https://schema.org',
+    '@type': 'ImageGallery',
+    name: t.meta.title,
+    url: SITE.url + path,
+    inLanguage: lang,
+    isPartOf: { '@id': SITE.url + '/#website' },
+    image: GALLERY_ITEMS[lang].map((it) => ({ '@type': 'ImageObject', contentUrl: `${SITE.url}/style/img/gallery/nova/${it.img}.webp`, caption: it.name })),
+  }]}
 >
 <section class="page-head" style="--ph-img: url(/style/img/hero/gekon-galerija-lg.webp); --ph-img-sm: url(/style/img/hero/gekon-galerija-sm.webp); --ph-pos: right 30%">
   <div class="wrap">

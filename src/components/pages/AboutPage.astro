@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import '../../styles/about.css';
-import { whatsappLink, type Locale } from '../../config/site';
+import { SITE, whatsappLink, type Locale } from '../../config/site';
 import { HOME } from '../../i18n/ui';
 import { localizePath, translationsFor } from '../../i18n/routes';
 import { ABOUT } from '../../i18n/pages/about';
@@ -25,7 +25,7 @@ const VALUES = [
   { cls: 'c05', paths: ['M12 2l2.4 7.4H22l-6 4.6 2.3 7.4-6.3-4.6L5.7 21 8 14 2 9.4h7.6z'] },
 ];
 ---
-<Base lang={lang} {...t.meta} path={path} active="about" translations={translationsFor(path)}>
+<Base lang={lang} {...t.meta} path={path} active="about" translations={translationsFor(path)} schema={[{ '@context': 'https://schema.org', '@type': 'AboutPage', name: t.meta.title, url: SITE.url + path, inLanguage: lang, isPartOf: { '@id': SITE.url + '/#website' }, about: { '@id': SITE.url + '/#business' } }]}>
 <section class="page-head" style="--ph-img: url(/style/img/hero/kameleon-lg.webp); --ph-img-sm: url(/style/img/hero/kameleon-sm.webp); --ph-pos: right center">
   <div class="wrap">
     <h1 set:html={t.h1} />
