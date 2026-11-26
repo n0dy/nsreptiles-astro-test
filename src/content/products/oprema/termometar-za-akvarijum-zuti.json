@@ -1,14 +1,22 @@
 {
   "name": "Termometar za akvarijum (žuti)",
   "label": "Termometri",
-  "lead": "Termometar za akvarijum - za praćenje temperature vode.",
-  "image": "/style/img/oprema/akvarijum/placeholder.svg",
+  "lead": "Resun termometar za akvarijum sa žutom skalom do 50 °C - kontrastno očitavanje temperature vode.",
+  "image": "/style/img/oprema/akvarijum/termometar-za-akvarijum-zuti.webp",
   "imageAlt": "Termometar za akvarijum (žuti) - NS Reptiles",
   "price": 230,
   "specs": [
     {
       "k": "Tip",
-      "v": "Termometar za akvarijum"
+      "v": "Stakleni termometar za akvarijum"
+    },
+    {
+      "k": "Brend",
+      "v": "Resun"
+    },
+    {
+      "k": "Skala",
+      "v": "°C, do 50 °C"
     },
     {
       "k": "Namena",
@@ -22,7 +30,19 @@
     },
     {
       "type": "p",
-      "html": "Jednostavan termometar za praćenje temperature vode. Fotografija ovog modela još nije dostupna na sajtu - pozovite nas za detalje."
+      "html": "Termometar za akvarijum sa žutom skalom je Resun stakleni termometar sa crvenom tečnošću i skalom u stepenima Celzijusa do 50 °C. Na vrhu ima okrugli crni držač kojim se pričvršćuje na unutrašnju stranu stakla, pa meri temperaturu direktno u vodi."
+    },
+    {
+      "type": "p",
+      "html": "Žuta pozadina skale je kontrastna i lako se čita i kroz staklo i u slabije osvetljenom akvarijumu. Termometar ne koristi baterije ni kablove i pogodan je za slatkovodne akvarijume i akvarijume sa vodenim kornjačama. Pošto je od stakla, pažljivo ga postavljajte i skidajte."
+    },
+    {
+      "type": "h2",
+      "text": "Saveti za upotrebu"
+    },
+    {
+      "type": "p",
+      "html": "Tropskim ribama potrebna je toplija voda, a hladnovodnim ribama i vodenim kornjačama drugačija temperatura, pa proverite potrebe svojih životinja. Termometar je najbolje postaviti na suprotnu stranu od grejača, da pokazuje temperaturu u ostatku akvarijuma. Proveravajte ga svakog dana, a posebno leti i posle promene vode. Ako termometar pokaže naglu promenu temperature, proverite grejač i temperaturu prostorije."
     },
     {
       "type": "h2",
@@ -34,11 +54,11 @@
     }
   ],
   "seo": {
-    "title": "Termometar za akvarijum (žuti) | Akvarijum oprema - NS Reptiles",
-    "description": "Termometar za akvarijum - za praćenje temperature vode. NS Reptiles, Novi Sad.",
-    "keywords": "termometar za akvarijum, NS Reptiles, Novi Sad"
+    "title": "Termometar za akvarijum sa žutom skalom | NS Reptiles",
+    "description": "Resun stakleni termometar za akvarijum sa žutom, kontrastnom skalom do 50 °C. Kači se na unutrašnju stranu stakla, bez baterija. NS Reptiles.",
+    "keywords": "termometar za akvarijum, žuti termometar, stakleni termometar, resun termometar, temperatura vode u akvarijumu"
   },
-  "brand": false,
+  "brand": true,
   "usage": [
     "akvarijum"
   ]

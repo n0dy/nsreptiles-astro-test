@@ -1,0 +1,68 @@
+{
+  "name": "Viseće veštačko lišće",
+  "label": "Dekoracija",
+  "lead": "Viseće veštačko lišće za terarijum - loza sa krupnim zelenim listovima sa svetlim šarama, za zaklon i izgled džungle.",
+  "image": "/style/img/oprema/dekoracija/visece-vestacko-lisce.webp",
+  "imageAlt": "Viseće veštačko lišće sa krupnim zelenim listovima u pakovanju, za terarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - viseća loza sa lišćem"
+    },
+    {
+      "k": "Izgled",
+      "v": "Krupni zeleni listovi sa svetlim šarama"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Dekoracija i zaklon"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Viseće veštačko lišće je loza sa krupnim, ovalnim listovima tamnozelene boje sa svetlim, gotovo belim šarama, koji podsećaju na popularne sobne biljke iz tropskih šuma. Loza se kači o zidove, mrežicu ili granje terarijuma i spušta niz zid, pa za nekoliko minuta prazan terarijum dobija izgled džungle."
+    },
+    {
+      "type": "p",
+      "html": "Gusto lišće pravi senovita mesta i zaklon, u kojima se životinje osećaju sigurnije, i daje im više mogućnosti za penjanje i skrivanje u gornjem delu terarijuma. Pogodno je za tropske terarijume crested gekona, žaba i drugih vrsta koje žive među biljkama. Za razliku od živih biljaka, ne vene i ne traži svetlo ni zalivanje."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja lišće isperite mlakom vodom. Lozu učvrstite tako da ne visi direktno iznad grejača ili sijalice, jer veštački materijal ne treba izlagati jakoj toploti. U vlažnim terarijumima povremeno je skinite i operite, jer se na listovima zadržavaju prašina, ostaci hrane i kamenac od prskanja. Uz nju lepo idu grane i dekorativni koren iz naše ponude <a href=\"/oprema.html\">opreme</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Viseće veštačko lišće za tropski terarijum",
+    "description": "Viseća loza sa krupnim zelenim listovima sa svetlim šarama. Zaklon i izgled džungle u tropskom terarijumu, ne vene i lako se pere. NS Reptiles.",
+    "keywords": "viseće veštačko lišće, veštačke biljke za terarijum, viseća loza, dekoracija za tropski terarijum, zaklon za gekone"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/dekorativni-koren"
+  ]
+}

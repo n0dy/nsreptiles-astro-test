@@ -1,9 +1,9 @@
 {
   "slug": "lizard-leash",
   "name": "Lizard leash",
-  "label": "Equipment",
-  "lead": "Premium leather lizard leash with a bat wing design. 1.5m lead. Three harness sizes: S, M, L.",
-  "imageAlt": "Lizard leash - NS Reptiles",
+  "label": "Accessories",
+  "lead": "Nomoy Pet NFF-56 lizard leash with decorative bat-shaped wings, for short walks with a bearded dragon or other lizards under constant supervision.",
+  "imageAlt": "Nomoy Pet NFF-56 lizard leash with bat wings - NS Reptiles",
   "specs": [
     {
       "k": "Brand",
@@ -14,12 +14,24 @@
       "v": "NFF-56"
     },
     {
-      "k": "Lead length",
-      "v": "1.5m"
+      "k": "Type",
+      "v": "Lizard leash"
     },
     {
-      "k": "Sizes",
-      "v": "S / M / L"
+      "k": "Design",
+      "v": "Decorative bat wings"
+    },
+    {
+      "k": "Intended for",
+      "v": "Short supervised walks with lizards"
+    },
+    {
+      "k": "Leash length",
+      "v": "About 1.5 m"
+    },
+    {
+      "k": "In the set",
+      "v": "Wings, leash and three chest straps (S, M, L)"
     }
   ],
   "description": [
@@ -29,15 +41,23 @@
     },
     {
       "type": "p",
-      "html": "The Nomoy Pet NFF-56 lizard leash is a premium accessory for owners who want to take their lizards outside safely for fresh air. Made from quality leather with a unique bat wing design, this leash combines function with an attractive look. The harness fits gently around the lizard's body without pressing on sensitive organs, while the 1.5m lead gives enough freedom to explore the surroundings."
+      "html": "The Nomoy Pet NFF-56 is a lizard leash with decorative bat-shaped wings. The set includes the wings, a leash of about 1.5 m with an adjustable clip and three chest straps in sizes S, M and L, so the harness fits lizards of different sizes. The pack labels it as a lizard accessory (Lizard Leash), and the wings give your lizard the look of a small dragon on walks. The leash lets the animal spend a little time outdoors safely, without being able to run off or hide somewhere out of reach."
     },
     {
       "type": "p",
-      "html": "It is available in three harness sizes to fit different lizard species and sizes. Size S (9x3.3cm) suits smaller geckos and young lizards, size M (12.1x4.8cm) fits leopard geckos and smaller bearded dragons, while size L (13.2x6.2cm) fits adult bearded dragons and small iguanas. The material is non-toxic, odorless and breathable, which prevents overheating and skin irritation."
+      "html": "It is most often used for bearded dragons, but it also suits other calm lizards of a similar build. Before buying, tell us the species and size of your lizard and we will check together whether it fits. Use the leash only while you are with the animal and never leave it on your lizard unsupervised."
+    },
+    {
+      "type": "h2",
+      "text": "Getting your lizard used to the leash"
     },
     {
       "type": "p",
-      "html": "Before the first trip outdoors, we recommend gradually getting your lizard used to the leash in a controlled home environment. Let it wear the leash for short periods until it gets used to the feeling. Never pull or lift the lizard by the leash - it is a safety measure, not a tool for controlling movement. It is ideal for short walks in the yard, basking on the balcony or outdoor photo sessions."
+      "html": "The strap should sit snugly but leave room for a finger, without pressing on the belly. First let the lizard wear the leash for a few minutes indoors until it gets used to it. Outdoors, do not pull it or lift it by the rope; the leash is there to stop the animal escaping, not to lead it."
+    },
+    {
+      "type": "p",
+      "html": "Go out only in warm, calm weather, for short periods, and always provide shade and a place to retreat. Watch out for dogs, cats and birds of prey. Read more about bearded dragons on our <a href=\"/en/animals/bearded-dragon.html\">bearded dragon</a> page."
     },
     {
       "type": "h2",
@@ -49,8 +69,8 @@
     }
   ],
   "seo": {
-    "title": "Lizard Leash and Harness | Bearded Dragon Leash",
-    "description": "Nomoy Pet lizard leash: a premium leather harness and leash with a bat wing design. Three sizes (S, M, L). NS Reptiles, Novi Sad, Serbia.",
-    "keywords": "lizard leash, lizard harness, bearded dragon leash, Nomoy Pet, reptile supplies, NS Reptiles, Novi Sad"
+    "title": "Nomoy Pet NFF-56 Lizard Leash | Bat Wing Harness",
+    "description": "Nomoy Pet NFF-56 lizard leash with decorative bat wings, for short supervised walks with a bearded dragon. Tips for getting used to it. NS Reptiles.",
+    "keywords": "lizard leash, bearded dragon harness, bearded dragon leash, nomoy pet nff-56, bat wing harness"
   }
 }

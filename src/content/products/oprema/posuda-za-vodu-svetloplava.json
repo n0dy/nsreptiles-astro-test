@@ -1,0 +1,83 @@
+{
+  "name": "Posuda za vodu, svetloplava",
+  "label": "Posude",
+  "lead": "Plastična posuda za vodu ili hranu, svetloplave boje i glatke površine - higijenska i praktična za mladunce i karantin.",
+  "image": "/style/img/oprema/posuda-za-vodu-svetloplava.webp",
+  "imageAlt": "Posuda za vodu, svetloplava - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Posuda za vodu i hranu"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Pojilica / hranilica"
+    },
+    {
+      "k": "Materijal",
+      "v": "Plastika"
+    },
+    {
+      "k": "Oblik",
+      "v": "Bubrežast, zaobljene ivice"
+    },
+    {
+      "k": "Boja",
+      "v": "Svetloplava"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova plastična posuda ima jednostavan, bubrežast oblik sa zaobljenim ivicama i potpuno glatkom unutrašnjošću. Svetloplava boja nije tu zbog izgleda prirodnog kamena, već zbog praktičnosti: na svetloj podlozi odmah se vidi kada je voda zamućena ili kada u njoj ima podloge i izmeta."
+    },
+    {
+      "type": "p",
+      "html": "Zbog toga je ovakva posuda omiljena kod odgajivača i u terarijumima u kojima je higijena na prvom mestu, na primer u karantinu za novu životinju, kod mladunaca ili kod životinje koja se oporavlja. Glatka plastika nema pore u kojima bi se zadržavale bakterije, pa se pere za nekoliko sekundi."
+    },
+    {
+      "type": "p",
+      "html": "Posuda je pogodna za vodu i za hranu, na primer insekte, crve ili iseckano povrće."
+    },
+    {
+      "type": "h2",
+      "text": "Na šta obratiti pažnju"
+    },
+    {
+      "type": "p",
+      "html": "Plastična posuda je lakša od kamenih, pa je postavite na ravnu površinu ili je malo utisnite u podlogu, da je veće i jače životinje ne bi pomerale. Ne stavljajte je direktno ispod grejne lampe ili na grejnu ploču. Vodu menjajte svaki dan, a posudu operite toplom vodom i dobro isperite."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Plastična posuda za vodu, svetloplava | NS Reptiles",
+    "description": "Svetloplava plastična posuda za vodu ili hranu - na svetloj boji se odmah vidi prljavština. Za mladunce, karantin i odgajivače. NS Reptiles.",
+    "keywords": "plastična posuda za vodu, posuda za karantin, posuda za mladunce reptila, posuda za hranu za terarijum, svetloplava posuda"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/posuda-za-vodu-tamnosiva",
+    "oprema/posuda-zeleni-kamen",
+    "oprema/posuda-pescar",
+    "oprema/posuda-sivo-zeleni-kamen"
+  ]
+}

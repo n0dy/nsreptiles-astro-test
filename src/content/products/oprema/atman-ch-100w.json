@@ -1,0 +1,77 @@
+{
+  "name": "Atman CH-100W grejač 100 W",
+  "label": "Grejači",
+  "lead": "Atman CH-100W grejač za akvarijum iz serije Noble Heater, 100 W, sa ugrađenim termostatom koji se podešava točkićem.",
+  "image": "/style/img/oprema/akvarijum/atman-ch-100w.webp",
+  "imageAlt": "Atman CH-100W grejač 100 W - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Potopni grejač sa termostatom"
+    },
+    {
+      "k": "Proizvođač",
+      "v": "Atman"
+    },
+    {
+      "k": "Model",
+      "v": "CH-100W"
+    },
+    {
+      "k": "Serija",
+      "v": "Noble Heater"
+    },
+    {
+      "k": "Snaga",
+      "v": "100 W"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Atman CH-100W pripada seriji Noble Heater. To je potopni grejač od 100 W sa ugrađenim termostatom i providnim kućištem. Temperatura se podešava točkićem na vrhu, a grejač se sam uključuje i isključuje kad voda dostigne zadatu vrednost. Pogodan je za tropske slatkovodne akvarijume."
+    },
+    {
+      "type": "h2",
+      "text": "Kako izabrati snagu grejača"
+    },
+    {
+      "type": "p",
+      "html": "Snagu grejača birajte prema zapremini akvarijuma i temperaturi prostorije: veći akvarijum i hladnija soba traže jači grejač. Ako je prostorija hladna ili akvarijum nema poklopac, birajte jači model ili dva slabija grejača na suprotnim krajevima akvarijuma. Ako niste sigurni koja snaga vam treba, pitajte nas."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Grejač postavite koso ili uspravno na mesto gde voda dobro struji, na primer pored izlaza filtera, da se toplota ravnomerno raspoređuje. Mora biti potopljen do označene linije. Pre vađenja iz vode isključite ga i sačekajte da se ohladi, jer vruć grejač van vode može da pukne. Temperaturu uvek proveravajte termometrom."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Atman CH-100W Noble grejač za akvarijum 100 W | NS Reptiles",
+    "description": "Atman CH-100W iz serije Noble Heater: potopni grejač od 100 W sa ugrađenim termostatom i providnim kućištem, za tropske akvarijume. NS Reptiles.",
+    "keywords": "atman ch-100w, noble heater, grejač za akvarijum 100w, grejač sa termostatom, atman grejač"
+  },
+  "brand": false,
+  "usage": [
+    "akvarijum"
+  ]
+}

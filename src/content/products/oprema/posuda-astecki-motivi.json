@@ -1,0 +1,79 @@
+{
+  "name": "Posuda sa astečkim motivima",
+  "label": "Posude",
+  "lead": "Posuda za terarijum sa astečkim motivima - okrugla, u izgledu starog izrezbarenog kamena, za vodu ili hranu u tematski uređenom terarijumu.",
+  "image": "/style/img/oprema/posuda-astecki-motivi.webp",
+  "imageAlt": "Posuda sa astečkim motivima - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Posuda za vodu"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Pojilica / hranilica"
+    },
+    {
+      "k": "Oblik",
+      "v": "Okrugla, širok obod"
+    },
+    {
+      "k": "Izgled",
+      "v": "Stari kamen sa reljefom astečkih motiva"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Okrugla posuda sa astečkim motivima izgleda kao komad starog, izrezbarenog kamena. Po širokom obodu nižu se reljefna polja sa simbolima, a u sredini je udubljenje za vodu ili hranu. Sivo-bež boja sa tamnijim senkama u udubljenjima daje utisak drevnog artefakta pronađenog u džungli ili pustinji."
+    },
+    {
+      "type": "p",
+      "html": "Ova posuda je pravi izbor ako terarijum uređujete po temi, na primer kao ruševine hrama sa biljkama, korenjem i kamenjem. Lepo se slaže sa našom skrivalicom sa astečkim kalendarom, pa obe stvari zajedno čine celinu."
+    },
+    {
+      "type": "p",
+      "html": "Širok obod ima praktičnu stranu: posuda ima veliku površinu oslonca i stabilno stoji, a životinja može da stane prednjim nogama na ivicu dok pije. Reljef daje dobar oslonac za kandže."
+    },
+    {
+      "type": "h2",
+      "text": "Održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Zbog reljefa, ostaci hrane i kamenac se zadržavaju u žlebovima, pa posudu jednom nedeljno izribajte mekom četkicom. Vodu menjajte svakog dana. Ako koristite posudu kao hranilicu, uklonite ostatke voća ili povrća istog dana."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Posuda sa astečkim motivima za terarijum | NS Reptiles",
+    "description": "Okrugla posuda za vodu i hranu u izgledu starog kamena sa reljefom astečkih simbola, za tematski uređen terarijum. NS Reptiles, Novi Sad.",
+    "keywords": "posuda sa astečkim motivima, tematska posuda za terarijum, posuda za vodu reptili, dekorativna pojilica, posuda u izgledu kamena"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/posuda-kamena-zaba",
+    "oprema/mala-okrugla-posuda-braon",
+    "oprema/posuda-porozni-sivi-kamen",
+    "oprema/posuda-ovalna-crvena-stena"
+  ]
+}

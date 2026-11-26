@@ -1,0 +1,71 @@
+{
+  "name": "Lobanja od terakote",
+  "label": "Dekoracija",
+  "lead": "Lobanja u boji terakote za terarijum - dekoracija toplog, zemljanog tona sa otvorenom vilicom i izraženim detaljima zuba i očnih duplji.",
+  "image": "/style/img/oprema/dekoracija/lobanja-terakota.webp",
+  "imageAlt": "Lobanja od terakote sa otvorenom vilicom, dekoracija za terarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - lobanja"
+    },
+    {
+      "k": "Boja",
+      "v": "Terakota (crvenkasto-braon)"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Lobanja u boji terakote je dekoracija koja terarijumu daje upečatljiv, pomalo divlji izgled. Široko otvorena vilica, naglašeni zubi i duboke očne duplje izgledaju kao da je predmet godinama ležao u pustinjskom pesku. Topla crvenkasto-braon boja lepo se slaže sa peskovitim i glinenim podlogama, kamenjem i suvim granama, pa je posebno pogodna za pustinjske i polupustinjske postavke."
+    },
+    {
+      "type": "p",
+      "html": "Lobanja je pre svega ukras, ali je reptili i paukovi često istražuju, penju se preko nje ili se odmaraju uz nju. Za skrivanje i dalje obezbedite posebnu skrivalicu, jer je svakoj životinji potrebno zatvoreno mesto na kom se oseća sigurno."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja operite lobanju mlakom vodom, bez deterdženata i hemijskih sredstava čije ostatke životinja može da poliže. Postavite je na čvrstu podlogu ili je malo ukopajte da se ne prevrne kada se životinja penje preko nje. Tokom redovnog čišćenja terarijuma izvadite je, isperite i četkicom uklonite ostatke podloge i izmet iz udubljenja. Više dekoracija pronaći ćete u ponudi <a href=\"/oprema.html\">opreme za terarijume</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Lobanja u boji terakote za terarijum | NS Reptiles",
+    "description": "Dekorativna lobanja u boji terakote sa otvorenom vilicom za pustinjski terarijum. Lako se pere i postavlja. NS Reptiles, Novi Sad, dostava po Srbiji.",
+    "keywords": "lobanja za terarijum, lobanja terakota, dekoracija lobanja, dekoracija za pustinjski terarijum, oprema za terarijum"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/astecki-suncev-kamen-bez",
+    "oprema/astecki-suncev-kamen-terakota",
+    "oprema/lobanja-sa-gas-maskom",
+    "oprema/ostarela-kamena-lobanja"
+  ]
+}

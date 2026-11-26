@@ -23,7 +23,7 @@ export interface Service {
   items: { title: L; text: L }[];
   cta: L<{ title: string; text: string; call: string }>;
   /** linkovi ka stranama po zivotinji - postoje samo na srpskom */
-  animals?: Partial<L<{ title: string; links: { href: string; label: string }[] }>>;
+  animals?: Partial<L<{ title: string; links: { href: string; label: string; img: string; contain?: boolean }[] }>>;
   /** ostale usluge (srpske putanje); nazivi se razlikuju od strane do strane */
   more: { href: string; label: L }[];
 }
@@ -192,10 +192,10 @@ export const SERVICES = {
       sr: {
         title: 'Terarijum za <b>vašu životinju</b>',
         links: [
-          { href: '/terarijumi/terarijum-za-bradatu-agamu.html', label: 'Terarijum za bradatu agamu' },
-          { href: '/terarijumi/terarijum-za-leopard-gekona.html', label: 'Terarijum za leopard gekona' },
-          { href: '/terarijumi/terarijum-za-loptastog-pitona.html', label: 'Terarijum za loptastog pitona' },
-          { href: '/terarijumi/terarijum-za-kornjacu.html', label: 'Terarijum za kornjaču' },
+          { href: '/terarijumi/terarijum-za-bradatu-agamu.html', label: 'Terarijum za bradatu agamu', img: '/style/img/reptili/bradata.webp' },
+          { href: '/terarijumi/terarijum-za-leopard-gekona.html', label: 'Terarijum za leopard gekona', img: '/style/img/reptili/leopard.webp' },
+          { href: '/terarijumi/terarijum-za-loptastog-pitona.html', label: 'Terarijum za loptastog pitona', img: '/style/img/reptili/piton.webp' },
+          { href: '/terarijumi/terarijum-za-kornjacu.html', label: 'Terarijum za kornjaču', img: '/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp', contain: true },
         ],
       },
     },
@@ -370,7 +370,7 @@ export const SERVICES = {
       sr: {
         title: 'Akvarijum za <b>vašu životinju</b>',
         links: [
-          { href: '/akvarijumi/akvarijum-za-kornjacu.html', label: 'Akvarijum za kornjaču' },
+          { href: '/akvarijumi/akvarijum-za-kornjacu.html', label: 'Akvarijum za kornjaču', img: '/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp', contain: true },
         ],
       },
     },

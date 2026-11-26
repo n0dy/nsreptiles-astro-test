@@ -1,0 +1,79 @@
+{
+  "name": "Posuda za vodu, terakota sa stepenikom",
+  "label": "Posude",
+  "lead": "Četvrtasta posuda za vodu u boji terakote, dublja, sa rebrastim stepenikom u uglu koji olakšava ulazak u vodu i izlazak iz nje.",
+  "image": "/style/img/oprema/posuda-terakota-stepenasta.webp",
+  "imageAlt": "Posuda za vodu, terakota sa stepenikom - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Posuda za vodu"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Pojilica / hranilica"
+    },
+    {
+      "k": "Oblik",
+      "v": "Četvrtast, dublji, stepenik u uglu"
+    },
+    {
+      "k": "Boja",
+      "v": "Crvena terakota"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova posuda za vodu je četvrtasta, sa višim zidovima nego plitke posude, i jarko crvenom bojom terakote sa grubom teksturom kamena. U jednom unutrašnjem uglu nalazi se rebrast stepenik, kao mala kamena rampa, koji vodi od dna ka obodu."
+    },
+    {
+      "type": "p",
+      "html": "Kombinacija dubljeg udubljenja i stepenika čini je dobrim izborom za životinje koje vole da se potope u vodu. Zmije i gušteri mogu da uđu u vodu postepeno, preko stepenika, i da izađu bez napora. Isti stepenik spašava i insekte koji upadnu u vodu. Proverite da li vaša životinja može cela da stane u posudu."
+    },
+    {
+      "type": "p",
+      "html": "Četvrtast oblik se lako smešta u ugao ili uz staklo, a crvena terakota daje topao akcenat pustinjskim terarijumima sa crvenim peskom i kamenjem."
+    },
+    {
+      "type": "h2",
+      "text": "Saveti za upotrebu"
+    },
+    {
+      "type": "p",
+      "html": "Ne punite posudu do vrha; ostavite dovoljno mesta da voda ne prelije kada se životinja potopi. Postavite je na dno terarijuma ili na čvrstu, poravnatu podlogu, jer dublja posuda sa vodom mora stajati potpuno stabilno. Vodu menjajte svakog dana, a stepenik i uglove očistite četkicom."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Posuda za vodu sa stepenikom, terakota | NS Reptiles",
+    "description": "Dublja četvrtasta posuda za vodu u boji terakote sa rebrastim stepenikom - zmije i gušteri lako ulaze u vodu i izlaze. NS Reptiles, Novi Sad.",
+    "keywords": "posuda sa stepenikom, dublja posuda za vodu, posuda terakota, posuda za kupanje reptila, četvrtasta posuda za terarijum"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/posuda-astecki-motivi",
+    "oprema/posuda-kamena-zaba",
+    "oprema/mala-okrugla-posuda-braon",
+    "oprema/posuda-porozni-sivi-kamen"
+  ]
+}

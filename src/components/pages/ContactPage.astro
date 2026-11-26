@@ -13,8 +13,33 @@ const { lang } = Astro.props;
 const t = CONTACT[lang];
 const path = localizePath('/kontakt.html', lang);
 const [consentBefore, consentAfter] = t.consent.split('{privacy}');
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ContactPage',
+    name: t.meta.title,
+    url: SITE.url + path,
+    inLanguage: lang,
+    isPartOf: { '@id': SITE.url + '/#website' },
+    about: { '@id': SITE.url + '/#business' },
+    mainEntity: {
+      '@type': 'PetStore',
+      '@id': SITE.url + '/#business',
+      name: SITE.name,
+      telephone: SITE.phone,
+      email: SITE.email,
+      address: { '@type': 'PostalAddress', addressLocality: 'Novi Sad', addressRegion: 'Vojvodina', addressCountry: 'RS' },
+      openingHoursSpecification: {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+        opens: '09:00',
+        closes: '21:00',
+      },
+    },
+  },
+];
 ---
-<Base lang={lang} {...t.meta} path={path} translations={translationsFor(path)}>
+<Base lang={lang} {...t.meta} path={path} translations={translationsFor(path)} schema={schema}>
 <section class="page-head" style="--ph-img: url(/style/img/hero/kameleoni-lg.webp); --ph-img-sm: url(/style/img/hero/kameleoni-sm.webp)">
   <div class="wrap">
     <h1 set:html={t.h1} />

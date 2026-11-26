@@ -16,7 +16,7 @@ const h = HOME_TEXT[lang];
 const path = localizePath('/onama.html', lang);
 
 const YEARS = ['2019', '2020', '2022', '2026'];
-const STATS = [1000, 300, 1000];
+const STATS = [1000, 500, 1000];
 const VALUES = [
   { cls: 'tall', paths: ['M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z', 'M9 12l2 2 4-4'] },
   { cls: 'wide', paths: ['M2 12l5-5 10 10-5 5z', 'M14 7l3-3 3 3-3 3', 'M7 17l-3 3'] },
@@ -26,7 +26,7 @@ const VALUES = [
 ];
 ---
 <Base lang={lang} {...t.meta} path={path} active="about" translations={translationsFor(path)}>
-<section class="page-head" style="--ph-img: url(/style/img/hero/zmija-lg.webp); --ph-img-sm: url(/style/img/hero/zmija-sm.webp)">
+<section class="page-head" style="--ph-img: url(/style/img/hero/kameleon-lg.webp); --ph-img-sm: url(/style/img/hero/kameleon-sm.webp); --ph-pos: right center">
   <div class="wrap">
     <h1 set:html={t.h1} />
     <p>{t.lead}</p>
@@ -35,7 +35,7 @@ const VALUES = [
 <section class="section about story">
   <div class="wrap about-grid">
     <div class="about-illu reveal">
-      <img loading="lazy" decoding="async" src="/style/img/gallery/2.jpg" width="1100" height="1100" alt={t.imgAlt}>
+      <img loading="lazy" decoding="async" src="/style/img/gallery/nova/o-nama.webp" width="1200" height="1200" alt={t.imgAlt}>
       <div class="about-badge"><b>2019</b><span>{t.since}</span></div>
     </div>
     <div class="about-text reveal">

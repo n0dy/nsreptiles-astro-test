@@ -1,0 +1,78 @@
+{
+  "name": "Nomoy Pet ND-13 mini keramička lampa",
+  "label": "Grejači",
+  "lead": "Nomoy Pet ND-13 mini keramička grejna lampa za terarijum: greje bez svetla, pa ne remeti noćni ritam reptila. Koristi se uz termostat.",
+  "image": "/style/img/oprema/nomoy-nd-13-keramicka-lampa.webp",
+  "imageAlt": "Nomoy Pet ND-13 mini keramička grejna lampa - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "Nomoy Pet"
+    },
+    {
+      "k": "Model",
+      "v": "ND-13 Mini Ceramic Lamp"
+    },
+    {
+      "k": "Tip",
+      "v": "Keramički grejač (bez svetla)"
+    },
+    {
+      "k": "Namena",
+      "v": "Grejanje terarijuma"
+    },
+    {
+      "k": "Grlo",
+      "v": "Zahteva keramičko grlo"
+    },
+    {
+      "k": "Preporuka",
+      "v": "Uz termostat"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Nomoy Pet ND-13 je mini keramička grejna lampa (Mini Ceramic Lamp) za terarijume. Keramički grejač zrači toplotu, a ne daje vidljivu svetlost, pa može da radi i danju i noću bez remećenja dnevnog ritma životinje. Mini izvedba je pogodna za manje terarijume i za dogrevanje kada glavna lampa ne pokriva ceo dan."
+    },
+    {
+      "type": "p",
+      "html": "Ovakav grejač se često koristi za noćno grejanje kod vrsta kojima temperatura ne sme previše da padne, kao i kod zmija i gekona kojima jaka svetlost nije potrebna. Ne daje UVB, pa za dnevne vrste koristite i odgovarajuću UVB rasvetu."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i bezbednost"
+    },
+    {
+      "type": "p",
+      "html": "Keramički grejač se jako zagreva, pa ga postavite isključivo u keramičko grlo otporno na toplotu, nikada u plastično. Postavite ga tako da životinja ne može da ga dodirne, na primer iza mrežice ili u zaštitnu korpu, i na jednu stranu terarijuma da ostane hladnija zona."
+    },
+    {
+      "type": "p",
+      "html": "Grejač uvek povežite na termostat i proverite temperaturu termometrom. Posle gašenja ostaje vruć još neko vreme. Za tačnu snagu i preporuku za vaš terarijum pozovite nas, a grla i termostate pogledajte u ponudi <a href=\"/oprema.html\">opreme</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Nomoy Pet ND-13 mini keramička grejna lampa",
+    "description": "Nomoy Pet ND-13 mini keramička grejna lampa: toplota bez svetla za noćno grejanje terarijuma. Ide u keramičko grlo, uz termostat. NS Reptiles.",
+    "keywords": "keramička grejna lampa, keramički grejač za terarijum, nomoy pet nd-13, noćno grejanje terarijuma, grejač za zmije"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": []
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Posuda za vodu, žuti panj",
+  "label": "Posude",
+  "lead": "Žuta posuda u obliku preseka panja, sa stilizovanim godovima na dnu i braon korom po obodu - upečatljiv akcenat boje u terarijumu.",
+  "image": "/style/img/oprema/posuda-zuti-panj.webp",
+  "imageAlt": "Posuda za vodu, žuti panj - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Posuda za vodu"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Pojilica / hranilica"
+    },
+    {
+      "k": "Oblik",
+      "v": "Bubrežast presek panja, plitka"
+    },
+    {
+      "k": "Boja",
+      "v": "Jarko žuta sa braon korom"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova posuda je oblikovana kao presek panja, ali u neobičnoj, jarko žutoj boji. Na dnu su stilizovani godovi u vidu reljefnih linija, a po spoljnom obodu je braon kora. Oblik je bubrežast i plitak, sa širokim dnom."
+    },
+    {
+      "type": "p",
+      "html": "Za razliku od posuda koje se stapaju sa okruženjem, žuti panj je tu da se vidi. Daje veseo akcenat boje u terarijumu sa zelenim biljkama ili tamnom podlogom, a sviđa se i deci koja prate svog ljubimca. Jaka boja ima i praktičnu stranu: odmah se vidi nivo vode i da li u njoj ima nečistoće."
+    },
+    {
+      "type": "p",
+      "html": "Zbog plitkog i širokog oblika, posuda je pogodna kao pojilica za manje guštere i gekone, ali i kao hranilica za insekte i povrće."
+    },
+    {
+      "type": "h2",
+      "text": "Održavanje i postavljanje"
+    },
+    {
+      "type": "p",
+      "html": "Reljefni godovi na dnu zadržavaju talog, pa ih jednom nedeljno očistite četkicom. Vodu menjajte svakodnevno, a ostatke hrane uklanjajte isti dan. Posudu postavite na ravnu površinu na hladnijoj strani terarijuma, da voda ne isparava prebrzo."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Žuta posuda u obliku panja za terarijum | NS Reptiles",
+    "description": "Jarko žuta plitka posuda u obliku preseka panja, sa godovima i korom - upečatljiv akcenat boje, za vodu ili hranu. NS Reptiles, Novi Sad.",
+    "keywords": "žuta posuda za terarijum, posuda u obliku panja, posuda sa godovima, hranilica za guštere, dekorativna pojilica"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/posuda-astecki-motivi",
+    "oprema/posuda-kamena-zaba",
+    "oprema/mala-okrugla-posuda-braon",
+    "oprema/posuda-porozni-sivi-kamen"
+  ]
+}

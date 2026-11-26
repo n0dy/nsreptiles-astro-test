@@ -1,0 +1,83 @@
+{
+  "name": "Skrivalica kameni svod",
+  "label": "Skrivalice",
+  "lead": "Skrivalica u obliku sivog kamenog svoda, sa širokim ulazom i slojevitim, ravnim vrhom - neutralan zaklon za toplu ili hladnu stranu terarijuma.",
+  "image": "/style/img/oprema/skrivalica-kameni-svod.webp",
+  "imageAlt": "Skrivalica kameni svod - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Skrivalica"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Zaklon"
+    },
+    {
+      "k": "Oblik",
+      "v": "Svod, širok ulaz, ravan vrh"
+    },
+    {
+      "k": "Boja",
+      "v": "Sivo-braon"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova skrivalica izgleda kao svod od sivog kamena sa braonkastim prelivima. Vrh je slojevit i ravan, kao naslagane kamene ploče, a ispod je širok, polukružan ulaz u prostranu unutrašnjost."
+    },
+    {
+      "type": "p",
+      "html": "Širok ulaz olakšava ulazak i zdepastijim životinjama, na primer gušterima sa širokim telom, a ravan vrh služi kao mesto za odmor. Neutralna sivo-braon boja se uklapa uz gotovo svaku podlogu i drugu dekoraciju, pa je ovo dobra „osnovna“ skrivalica koju lako kombinujete sa drugim komadima."
+    },
+    {
+      "type": "h2",
+      "text": "Topla i hladna strana"
+    },
+    {
+      "type": "p",
+      "html": "Životinje regulišu telesnu temperaturu prelaskom iz toplijeg u hladniji deo terarijuma. Ako imaju samo jednu skrivalicu, često biraju sigurnost umesto prave temperature. Zato je preporuka da u terarijumu budu bar dve skrivalice. Ovaj svod može biti jedna od njih, na toploj ili hladnoj strani."
+    },
+    {
+      "type": "h2",
+      "text": "Održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Skrivalicu postavite direktno na dno, a podlogu nasipajte oko nje. Jednom nedeljno proverite unutrašnjost, jer životinje ponekad vrše nuždu u skrovištu, i operite je toplom vodom."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Skrivalica kameni svod, siva | NS Reptiles",
+    "description": "Siva skrivalica u obliku kamenog svoda sa širokim ulazom i ravnim slojevitim vrhom - neutralan zaklon za toplu ili hladnu stranu. NS Reptiles.",
+    "keywords": "skrivalica kameni svod, siva skrivalica, skrivalica za guštere, skrovište za terarijum, pećina za reptile"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/skrivalica-kameni-polukrug",
+    "oprema/skrivalica-astecki-kalendar",
+    "oprema/skrivalica-polucev-braon",
+    "oprema/skrivalica-braon-stena"
+  ]
+}

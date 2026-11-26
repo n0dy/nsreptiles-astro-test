@@ -1,0 +1,75 @@
+{
+  "name": "Kamena maska sa rezbarijama",
+  "label": "Dekoracija",
+  "lead": "Kamena maska sa finim rezbarijama, tamne boje starog kamena, sa otvorima za oči - dekoracija u stilu drevnih ruševina za terarijum.",
+  "image": "/style/img/oprema/dekoracija/kamena-maska-rezbarije.webp",
+  "imageAlt": "Tamna kamena maska sa urezanim šarama i otvorima za oči - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - maska"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras"
+    },
+    {
+      "k": "Boja",
+      "v": "Tamna, sivo-smeđa"
+    },
+    {
+      "k": "Detalji",
+      "v": "Urezane šare, otvori za oči"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova maska izgleda kao predmet iskopan iz drevnog hrama. Tamna, sivo-smeđa površina ima teksturu istrošenog kamena, a preko čela i obraza se prepliću fino urezane vijugave šare. Lice je izduženo, sa izraženim nosem i usnama i dva velika otvora za oči."
+    },
+    {
+      "type": "p",
+      "html": "Maska je zakrivljena, a na donjoj ivici ima lučni otvor, pa kada se položi preko podloge, ispod nje ostaje zaklonjen prostor u koji manja životinja može da se uvuče. Uspravno naslonjena na kamen ili zadnji zid deluje kao reljef sa ruševina. Uklapa se u pustinjske i tropske terarijume, a posebno u tematske postavke sa lobanjama i astečkim motivima."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Kada je koristite kao zaklon, malo je utisnite u podlogu da se ne pomera i proverite da otvori nisu toliko uski da se životinja u njima zaglavi. Za čišćenje je izvadite, isperite mlakom vodom bez deterdženta i mekom četkom prođite kroz urezane šare, pa je pre vraćanja u terarijum potpuno osušite."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Kamena maska sa rezbarijama za terarijum | NS Reptiles",
+    "description": "Tamna kamena maska sa fino urezanim šarama i otvorima za oči. Dekoracija i mali zaklon za terarijum u stilu drevnih ruševina. NS Reptiles, Novi Sad.",
+    "keywords": "kamena maska, maska za terarijum, dekoracija za terarijum, drevne ruševine dekoracija, skrovište za reptile"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/astecki-suncev-kamen-bez",
+    "oprema/astecki-suncev-kamen-terakota",
+    "oprema/lobanja-sa-gas-maskom",
+    "oprema/lobanja-terakota"
+  ]
+}

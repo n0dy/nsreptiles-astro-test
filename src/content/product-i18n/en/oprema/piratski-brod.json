@@ -2,12 +2,16 @@
   "slug": "pirate-ship-aquarium-decoration",
   "name": "Pirate ship",
   "label": "Decoration",
-  "lead": "Pirate ship - a decorative aquarium piece that also serves as a hiding place for fish.",
-  "imageAlt": "Pirate ship - NS Reptiles",
+  "lead": "Pirate ship for aquariums with masts, torn sails and a skull flag - a striking ornament and hiding place for fish.",
+  "imageAlt": "Pirate ship with masts, torn sails and a pirate flag, aquarium decoration - NS Reptiles",
   "specs": [
     {
       "k": "Type",
       "v": "Decoration - pirate ship"
+    },
+    {
+      "k": "Look",
+      "v": "Masts, torn sails, pirate flag"
     },
     {
       "k": "Intended for",
@@ -25,7 +29,19 @@
     },
     {
       "type": "p",
-      "html": "The pirate ship is a decorative aquarium piece that adds an interesting visual accent and a functional hiding place for fish. The detailed ship with pirate motifs instantly draws attention and becomes the centerpiece of the aquarium. The hollow parts of the ship - the hull and deck - let fish swim through it and use it as a hiding place, which is especially useful for shyer species that need places to retreat. It is made from material that is safe for underwater use and does not affect water parameters. Ideal for kids' aquariums or for anyone who wants a themed aquarium with nautical motifs. Combine it with the ship wheel and anchor for a complete pirate look."
+      "html": "The pirate ship is an aquarium decoration that catches the eye immediately. It has several masts with torn, overgrown sails, a skull-and-crossbones flag on top and a hull with a row of openings, so it looks like a wreck that has lain on the seabed for years. The details are rich, so the ship looks best as the centerpiece of the setup."
+    },
+    {
+      "type": "p",
+      "html": "The openings in the hull let fish enter the ship and use it as a hiding place, which is especially useful for shyer species that need places to retreat. It is ideal for kids' aquariums and for anyone who wants a themed aquarium with nautical motifs. Combine it with the pirate skull and anchor for the full pirate look."
+    },
+    {
+      "type": "h2",
+      "text": "Setup and care"
+    },
+    {
+      "type": "p",
+      "html": "Before placing it, rinse the ship in lukewarm water, without detergents. Because of its height, place it in the back or middle of the aquarium, firmly on sand or gravel, so it does not block the view of the fish or the water flow from the filter. Clean the thin sails and masts carefully with a soft brush so you do not damage them."
     },
     {
       "type": "h2",
@@ -37,8 +53,8 @@
     }
   ],
   "seo": {
-    "title": "Pirate Ship Aquarium Ornament | NS Reptiles",
-    "description": "Pirate ship aquarium ornament that also serves as a hiding place for fish. Safe for underwater use. NS Reptiles, Novi Sad, delivery across Serbia.",
-    "keywords": "pirate ship aquarium ornament, aquarium decoration, fish hiding place, aquarium decor, NS Reptiles, Novi Sad"
+    "title": "Pirate Ship with Sails | Aquarium Ornament - NS Reptiles",
+    "description": "Pirate ship aquarium ornament with masts, torn sails and a pirate flag. Fish hide in the openings of the hull. NS Reptiles, Novi Sad, delivery in Serbia.",
+    "keywords": "pirate ship aquarium ornament, shipwreck fish tank decor, aquarium decoration, fish hiding place, pirate aquarium decor"
   }
 }

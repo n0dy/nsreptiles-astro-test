@@ -1,0 +1,64 @@
+{
+  "slug": "aquarium-airline-tubing-4mm",
+  "name": "Airline tubing (per meter)",
+  "label": "Aeration",
+  "lead": "Silicone airline tubing for air pumps, 4 mm inner diameter - sold by the meter, cut to the length you need.",
+  "imageAlt": "Airline tubing (per meter) - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Silicone airline tubing"
+    },
+    {
+      "k": "Brand",
+      "v": "Resun (model PF01)"
+    },
+    {
+      "k": "Inner diameter",
+      "v": "4 mm"
+    },
+    {
+      "k": "Sold by",
+      "v": "By the meter"
+    },
+    {
+      "k": "Intended for",
+      "v": "Aquarium"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "Airline tubing connects an air pump to an air stone, a sponge filter or an air-driven ornament. We sell it by the meter, cut from a 100-meter Resun roll, so you take exactly as much as you need."
+    },
+    {
+      "type": "p",
+      "html": "According to the label on the roll, this is silicone tubing with a 4 mm inner diameter, the standard size for the fittings of most aquarium air pumps, air stones and check valves. Silicone is soft and flexible, slips easily onto fittings and handles bends well."
+    },
+    {
+      "type": "h2",
+      "text": "How much tubing to buy"
+    },
+    {
+      "type": "p",
+      "html": "Measure the route from the pump to where the air stone will sit and add a little extra for bends and a check valve. If the pump has two outlets or you use a splitter, count the length separately for each line. Check the tubing now and then, as it can stiffen or grow algae over time, and replace it when it does. Cut the ends straight with scissors or a sharp knife so they fit the fittings well."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Aquarium Airline Tubing 4 mm, Per Meter | NS Reptiles",
+    "description": "Silicone airline tubing for air pumps, 4 mm inner diameter, sold by the meter. Connects the pump to an air stone or sponge filter. NS Reptiles, Serbia.",
+    "keywords": "airline tubing, air pump tubing, 4mm silicone tubing, aquarium air hose, aeration"
+  }
+}

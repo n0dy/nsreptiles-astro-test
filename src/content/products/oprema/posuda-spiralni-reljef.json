@@ -1,0 +1,79 @@
+{
+  "name": "Posuda za vodu, spiralni reljef",
+  "label": "Posude",
+  "lead": "Sivo-maslinasta posuda za vodu sa spiralnim reljefom na jednoj strani - nalik kamenu sa fosilom, za vodu ili povrće i insekte.",
+  "image": "/style/img/oprema/posuda-spiralni-reljef.webp",
+  "imageAlt": "Posuda za vodu, spiralni reljef - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Posuda za vodu"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Pojilica / hranilica"
+    },
+    {
+      "k": "Oblik",
+      "v": "Nepravilan četvorougao, reljef sa strane"
+    },
+    {
+      "k": "Boja",
+      "v": "Sivo-maslinasta"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova posuda ima sivo-maslinastu boju i blago nepravilan, četvrtast oblik. Na jednoj bočnoj strani nalazi se izražen spiralni, talasast reljef koji podseća na otisak fosila ili na kamen koji je voda vekovima oblikovala. Unutrašnjost je glatka i prostrana."
+    },
+    {
+      "type": "p",
+      "html": "Pored uloge pojilice, posuda je praktična i kao hranilica. U njoj možete servirati iseckano povrće i zelje za bradatu agamu ili kopnenu kornjaču, ili insekte za guštere. Hrana ostaje na jednom mestu i ne meša se sa podlogom, pa životinja ne guta pesak ili zemlju zajedno sa obrokom."
+    },
+    {
+      "type": "p",
+      "html": "Reljefna strana daje dobar oslonac za noge, pa je zgodno okrenuti je ka strani odakle životinja prilazi."
+    },
+    {
+      "type": "h2",
+      "text": "Održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Ako posudu koristite za hranu, ostatke povrća uklonite isto veče, jer se u toplom terarijumu brzo kvare. Za vodu, menjajte je svakodnevno. Spiralni reljef očistite četkicom, a posudu dobro isperite pre ponovnog punjenja. Hranu za guštere pogledajte na strani <a href=\"/hrana-za-gustere.html\">hrana za guštere</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Posuda sa spiralnim reljefom - pojilica i hranilica",
+    "description": "Sivo-maslinasta posuda sa spiralnim reljefom nalik fosilu - za vodu, povrće za agame i kornjače ili insekte. NS Reptiles, Novi Sad.",
+    "keywords": "posuda sa reljefom, hranilica za agamu, posuda za povrće za kornjače, pojilica za terarijum, posuda u izgledu fosila"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/posuda-astecki-motivi",
+    "oprema/posuda-kamena-zaba",
+    "oprema/mala-okrugla-posuda-braon",
+    "oprema/posuda-porozni-sivi-kamen"
+  ]
+}

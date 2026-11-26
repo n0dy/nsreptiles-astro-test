@@ -1,7 +1,7 @@
 {
   "name": "Veštačka biljka za akvarijum 20 cm",
   "label": "Biljke",
-  "lead": "Plastična biljka za akvarijum - ne vene, ne traži svetlo ni đubrivo i ne remeti parametre vode.",
+  "lead": "Veštačka biljka za akvarijum visine 20 cm - za srednji plan, a u manjim akvarijumima i za pozadinu. Ne vene i ne traži svetlo.",
   "image": "/style/img/oprema/akvarijum/vestacka-biljka-20cm.webp",
   "imageAlt": "Veštačka biljka za akvarijum 20 cm - NS Reptiles",
   "price": 300,
@@ -17,6 +17,10 @@
     {
       "k": "Namena",
       "v": "Akvarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Dekoracija i zaklon"
     }
   ],
   "description": [
@@ -26,7 +30,19 @@
     },
     {
       "type": "p",
-      "html": "Veštačke biljke su najjednostavniji način da akvarijum dobije zelenilo bez brige o rasvetama, đubrenju i orezivanju. Ribe ih koriste kao zaklon, a lako se peru pri redovnom održavanju. Fotografija je ilustrativna - oblik i boja zavise od trenutne ponude, pa nas pozovite da vam pošaljemo slike modela koji su na stanju."
+      "html": "Prednost veštačke biljke je što izgleda isto iz dana u dan: ne truli, ne gubi listove i ne zahteva jaču rasvetu ni đubrenje. Ne utiče na parametre vode, a ribe je koriste kao zaklon, posebno mlađe i plašljivije jedinke."
+    },
+    {
+      "type": "p",
+      "html": "Fotografija je ilustrativna: oblik i boja zavise od trenutne ponude, pa nas pozovite da vam pošaljemo slike modela koji su na stanju. Ako vam treba drugačija visina, imamo i biljke od 10 cm."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Sa visinom od 20 cm najbolje odgovara srednjem planu: dovoljno je visoka da popuni prostor između niskih biljaka napred i visokih uz zadnje staklo, a u manjim akvarijumima može stajati i pozadi. Kada se na listovima pojave alge, biljku izvadite, isperite pod mlakom vodom i očetkajte mekom četkicom. Ne koristite hemijska sredstva za čišćenje, jer ostaci mogu dospeti u vodu. Ostale dekoracije i opremu pogledajte u ponudi <a href=\"/oprema.html\">opreme</a>."
     },
     {
       "type": "h2",
@@ -38,9 +54,9 @@
     }
   ],
   "seo": {
-    "title": "Veštačka biljka za akvarijum 20 cm | NS Reptiles",
-    "description": "Plastična biljka za akvarijum - ne vene, ne traži svetlo ni đubrivo i ne remeti parametre vode. NS Reptiles, Novi Sad.",
-    "keywords": "veštačke biljke za akvarijum, pvc biljke, plastične biljke, NS Reptiles, Novi Sad"
+    "title": "Veštačka biljka za akvarijum 20 cm | Srednji plan",
+    "description": "Veštačka biljka za akvarijum visine 20 cm: popunjava srednji plan, a u manjim akvarijumima i pozadinu. Bez svetla i đubriva. NS Reptiles Novi Sad.",
+    "keywords": "veštačka biljka 20 cm, veštačka biljka za akvarijum, biljka za srednji plan, dekoracija za akvarijum, plastične biljke za akvarijum"
   },
   "brand": false,
   "usage": [

@@ -1,0 +1,76 @@
+{
+  "name": "Svetiljka za fluo cev 14W",
+  "label": "Rasveta",
+  "lead": "Elektronska svetiljka Mubang MB-DZ14W za jednu T5 fluo cev od 14 W, za osvetljenje terarijuma. Predspojnik je ugrađen u svetiljku.",
+  "image": "/style/img/oprema/svetiljka-fluo-14w.webp",
+  "imageAlt": "Svetiljka Mubang MB-DZ14W za T5 fluo cev 14W - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Proizvođač",
+      "v": "Mubang International Lighting"
+    },
+    {
+      "k": "Model",
+      "v": "MB-DZ14W"
+    },
+    {
+      "k": "Tip",
+      "v": "Elektronska svetiljka, jedna cev"
+    },
+    {
+      "k": "Cev",
+      "v": "T5, 14 W"
+    },
+    {
+      "k": "Namena",
+      "v": "Osvetljenje terarijuma"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ovo je elektronska svetiljka za jednu fluorescentnu cev T5 snage 14 W, proizvođača Mubang International Lighting, model MB-DZ14W. Na pakovanju je označena kao integrisana T5 svetiljka za jednu cev od 14 W, što znači da je elektronski predspojnik ugrađen u telo svetiljke i da nije potreban zaseban uređaj."
+    },
+    {
+      "type": "p",
+      "html": "T5 cevi su tanke (16 mm) i daju dosta svetla uz malu potrošnju, pa su čest izbor za dnevno osvetljenje terarijuma i vivarijuma sa biljkama. Svetiljka je praktična za montažu ispod poklopca ili na gornju stranu terarijuma."
+    },
+    {
+      "type": "h2",
+      "text": "Na šta obratiti pažnju"
+    },
+    {
+      "type": "p",
+      "html": "Svetiljka radi samo sa T5 cevima od 14 W, pa pre kupovine proverite da li vaša cev odgovara toj snazi i dužini. Pre porudžbine proverite sa nama da li vam treba i cev. Ako vam je potrebno UVB zračenje, izaberite UVB cev odgovarajuće snage i dužine za ovu svetiljku, ili nas pozovite da proverimo kompatibilnost."
+    },
+    {
+      "type": "p",
+      "html": "Svetiljku ne postavljajte na mesto gde je životinja može dohvatiti ili gde je izložena prskanju vodom. Za tačne dimenzije i preporuku cevi pozovite nas pre porudžbine, a ostalu rasvetu pogledajte u ponudi <a href=\"/oprema.html\">opreme</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Svetiljka za T5 fluo cev 14W - Mubang MB-DZ14W",
+    "description": "Elektronska svetiljka Mubang MB-DZ14W za jednu T5 fluo cev od 14 W, sa ugrađenim predspojnikom, za osvetljenje terarijuma. NS Reptiles Novi Sad.",
+    "keywords": "svetiljka za fluo cev, t5 svetiljka 14w, svetiljka za terarijum, rasveta za terarijum, mubang t5"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/arcadia-desert-12-t5-24w"
+  ]
+}

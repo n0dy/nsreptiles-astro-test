@@ -1,0 +1,68 @@
+{
+  "slug": "moss-rock-reptile-hide",
+  "name": "Moss rock hide",
+  "label": "Hides",
+  "lead": "Low hide styled as a moss-covered rock in vivid green tones - a dark, quiet shelter for tropical and forest terrariums.",
+  "imageAlt": "Moss rock hide - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Hide"
+    },
+    {
+      "k": "Intended for",
+      "v": "Terrarium"
+    },
+    {
+      "k": "Function",
+      "v": "Shelter"
+    },
+    {
+      "k": "Shape",
+      "v": "Low, wide vault"
+    },
+    {
+      "k": "Color",
+      "v": "Green with yellowish highlights"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This hide looks like a low, rounded rock completely covered with moss. The color is vivid green with yellowish and darker highlights, and at the front there is a wide, low entrance into the dark interior. One side also has a small hollow, as if water had worn away the stone."
+    },
+    {
+      "type": "p",
+      "html": "The green tones make it a natural choice for tropical and forest terrariums, together with plants, cork bark, vines and real moss. There the hide almost blends into its surroundings, so your animal gets a shelter that does not spoil the look of the terrarium."
+    },
+    {
+      "type": "p",
+      "html": "The low, wide shape provides a dark, quiet resting place, suitable for geckos, snakes and other animals that sleep in a hide during the day."
+    },
+    {
+      "type": "h2",
+      "text": "Tips for a tropical terrarium"
+    },
+    {
+      "type": "p",
+      "html": "In a humid terrarium, place the hide so the entrance does not face the misting nozzle directly, so the inside does not get too wet. You can plant around it or arrange real moss for an even more natural look. Since mold and bacteria grow faster in humidity, take the hide out regularly, wash it with warm water and let it dry."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Moss Rock Hide for Tropical Terrariums | NS Reptiles",
+    "description": "Low green hide styled as a moss-covered rock - a dark, quiet shelter for tropical and forest terrariums. NS Reptiles, Novi Sad, Serbia.",
+    "keywords": "moss reptile hide, green reptile hide, tropical terrarium hide, crested gecko hide, forest terrarium hide"
+  }
+}

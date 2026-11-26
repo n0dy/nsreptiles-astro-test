@@ -2,8 +2,8 @@
   "slug": "habistat-crested-gecko-diet-mango-80g",
   "name": "HabiStat Crested Gecko Diet Mango 80g",
   "label": "Food",
-  "lead": "A complete mango-flavored diet for crested geckos in a larger 80g pack. Over 50% real fruit and 9 protein sources.",
-  "imageAlt": "HabiStat Crested Gecko Diet Mango 80g jar - crested gecko food - NS Reptiles",
+  "lead": "HabiStat Crested Gecko Diet Mango - a complete powdered diet for crested geckos with 52% mango and 9 protein sources. Mixed with water.",
+  "imageAlt": "HabiStat Crested Gecko Diet Mango 80g crested gecko food - NS Reptiles",
   "specs": [
     {
       "k": "Brand",
@@ -11,37 +11,63 @@
     },
     {
       "k": "Type",
-      "v": "Complete diet"
-    },
-    {
-      "k": "Weight",
-      "v": "80g"
+      "v": "Complete powdered diet"
     },
     {
       "k": "Flavor",
       "v": "Mango"
+    },
+    {
+      "k": "Pack",
+      "v": "80g pot"
+    },
+    {
+      "k": "Fruit content",
+      "v": "52%"
+    },
+    {
+      "k": "Protein / calcium",
+      "v": "23% / 1.95%"
+    },
+    {
+      "k": "Ca:P ratio",
+      "v": "3.79:1"
+    },
+    {
+      "k": "Serving",
+      "v": "5g, 1-2 times a week"
     }
   ],
   "description": [
     {
       "type": "h2",
-      "text": "Description"
+      "text": "Detailed description"
     },
     {
       "type": "p",
-      "html": "HabiStat Crested Gecko Diet Mango 80g is a larger pack of the popular complete mango-flavored food for crested geckos (Correlophus ciliatus). This 80g jar is the ideal choice for owners with several geckos or anyone who wants a more economical option than the smaller 50g pack. The food comes in a practical jar for easy storage and portioning, and the airtight seal keeps the product fresh for a long time."
+      "html": "HabiStat Crested Gecko Diet Mango is made by the British brand HabiStat for crested geckos and other reptiles that eat both fruit and insects. Mango powder makes up 52% of the recipe, and protein comes from 9 different sources. Ingredients include pea protein isolate, brown rice protein, spirulina, brewer's yeast, bee pollen, honey, seaweed, spinach, chamomile and marigold, with added vitamins A, D3 and E. The manufacturer states the food has no artificial colors, preservatives or fillers. The 80g pot is enough for about 16 feeds of 5g, so it is practical for owners of several geckos."
     },
     {
-      "type": "p",
-      "html": "The formula is identical to the smaller pack - it contains over 50% real fruit (mango powder) and 9 different animal protein sources. The nutritional values are excellent: 23% protein, 1.95% calcium and a calcium-to-phosphorus ratio of 3.87:1, an optimal balance for preventing metabolic bone disease. The food has no artificial colors, flavors or preservatives and is completely natural and safe for everyday use in geckos of all ages."
+      "type": "ul",
+      "items": [
+        "Protein: 23%",
+        "Oils and fats: 1.89%",
+        "Fiber: 1.28%",
+        "Ash: 7.33%",
+        "Calcium: 1.95% (Ca:P 3.79:1)"
+      ]
     },
     {
       "type": "h2",
-      "text": "Preparation"
+      "text": "Preparation and feeding"
     },
     {
       "type": "p",
-      "html": "Preparation is very simple: take about 5g of powder from the jar and mix it with water until you get a ketchup-like consistency. Put the prepared mash in a shallow dish and place it in the terrarium, preferably in the evening when geckos are most active. Serve the food 1 to 2 times a week and remove leftovers after 24 hours. An 80g jar is enough for roughly 16 meals for one gecko, which makes it a very cost-effective option."
+      "html": "Mix about 5g of powder with water to a soft, ketchup-like consistency and serve it in a shallow dish, ideally in the evening. The manufacturer recommends 5g once or twice a week as part of a varied diet based mainly on insects. Remove uneaten food after 24 hours and store the powder in a cool, dry place."
+    },
+    {
+      "type": "p",
+      "html": "Besides crested geckos, other gecko species, anoles, lacertid lizards, skinks and iguanas can eat it too. Tips on combining it with live food are on our <a href=\"/en/lizard-food.html\">lizard food</a> page."
     },
     {
       "type": "h2",
@@ -53,8 +79,8 @@
     }
   ],
   "seo": {
-    "title": "HabiStat Crested Gecko Diet Mango 80g | Gecko Food Jar",
-    "description": "HabiStat Crested Gecko Diet Mango 80g jar: complete mango-flavored diet for crested geckos. Larger pack, over 50% real fruit. NS Reptiles, Serbia.",
-    "keywords": "habistat crested gecko diet mango 80g, gecko food, crested gecko food, crested gecko diet, reptile supplies, NS Reptiles, Novi Sad, Serbia"
+    "title": "HabiStat Crested Gecko Diet Mango 80g Pot",
+    "description": "HabiStat Crested Gecko Diet Mango 80g pot: about 16 feeds of 5g, 52% mango and 9 protein sources. Complete crested gecko food. NS Reptiles.",
+    "keywords": "habistat crested gecko diet 80g, habistat mango 80g, crested gecko diet, crested gecko food, gecko food Serbia"
   }
 }

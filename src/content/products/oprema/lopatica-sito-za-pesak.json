@@ -1,0 +1,73 @@
+{
+  "name": "Lopatica sa sitom za pesak",
+  "label": "Pribor",
+  "lead": "Lopatica sa sitom za pesak (model NT-45) za brzo uklanjanje izmeta i ostataka hrane iz peska i zemlje u terarijumu, bez bacanja čiste podloge.",
+  "image": "/style/img/oprema/lopatica-sito-za-pesak.webp",
+  "imageAlt": "Lopatica sa sitom za pesak NT-45 za čišćenje terarijuma - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Model",
+      "v": "NT-45 Sand Shovel"
+    },
+    {
+      "k": "Tip",
+      "v": "Lopatica sa finom mrežicom"
+    },
+    {
+      "k": "Namena",
+      "v": "Čišćenje podloge u terarijumu"
+    },
+    {
+      "k": "Pogodna podloga",
+      "v": "Pesak, zemlja i druge rastresite podloge"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Lopatica sa sitom (na pakovanju model NT-45, Sand Shovel) je pribor za svakodnevno čišćenje terarijuma. Ima okrugli ram sa finom mrežicom i dugu dršku. Kada zahvatite podlogu, čist pesak propada kroz mrežicu nazad u terarijum, a izmet, ostaci hrane i krupnija nečistoća ostaju u lopatici."
+    },
+    {
+      "type": "p",
+      "html": "Na pakovanju je opisana kao lagana i izdržljiva lopatica za prosejavanje peska i zemlje. Redovnim čišćenjem podloga ostaje higijenska duže, smanjuju se neprijatni mirisi, a podlogu menjate ređe."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Najbolje je da terarijum pregledate svakog dana i odmah uklonite izmet, posebno kod pustinjskih vrsta na pesku. Lopaticu lagano protresite iznad podloge da pesak prođe kroz mrežicu, a otpad bacite. Mokre grudve podloge izvadite cele, jer kroz mrežicu ne prolaze."
+    },
+    {
+      "type": "p",
+      "html": "Posle upotrebe lopaticu operite toplom vodom i osušite pre sledećeg korišćenja. Mrežica je namenjena suvim i rastresitim podlogama; kod krupne kore ili mahovine je manje korisna. Podloge za terarijum pogledajte u ponudi <a href=\"/oprema.html\">opreme</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Lopatica sa sitom za pesak - čišćenje terarijuma",
+    "description": "Lopatica sa sitom za pesak NT-45: fina mrežica propušta čist pesak, a izmet i ostaci hrane ostaju. Za čišćenje terarijuma. NS Reptiles Novi Sad.",
+    "keywords": "lopatica za pesak, sito za pesak terarijum, čišćenje terarijuma, lopatica za terarijum, pribor za terarijum"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/nomoy-pinceta-20cm",
+    "oprema/plasticna-pinceta-plava"
+  ]
+}

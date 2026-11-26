@@ -1,0 +1,72 @@
+{
+  "slug": "habistat-dial-hygrometer",
+  "name": "HabiStat Dial Hygrometer",
+  "label": "Thermometers",
+  "lead": "HabiStat Dial Hygrometer is an analog humidity gauge for terrariums, with a colour-coded scale you can read at a glance. No batteries, 5.8 cm.",
+  "imageAlt": "HabiStat Dial Hygrometer for terrariums - NS Reptiles",
+  "specs": [
+    {
+      "k": "Brand",
+      "v": "HabiStat"
+    },
+    {
+      "k": "Model",
+      "v": "Dial Hygrometer (HDH)"
+    },
+    {
+      "k": "Type",
+      "v": "Analog dial hygrometer"
+    },
+    {
+      "k": "Measures",
+      "v": "Relative humidity (%)"
+    },
+    {
+      "k": "Dimensions",
+      "v": "5.8 x 1.8 x 5.8 cm"
+    },
+    {
+      "k": "Power",
+      "v": "Not required"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The HabiStat Dial Hygrometer measures air humidity in the terrarium and helps you keep conditions right for your species. The round dial has a colour-coded scale marked dry, moderate and humid, so you can read the value quickly. It works without batteries or cables and measures 5.8 x 1.8 x 5.8 cm."
+    },
+    {
+      "type": "p",
+      "html": "Correct humidity matters for shedding, breathing and the animal's general condition. Tropical species such as crested geckos and chameleons need more humid air, while desert species do well in a dry terrarium with a humid hide."
+    },
+    {
+      "type": "h2",
+      "text": "Where to place it"
+    },
+    {
+      "type": "p",
+      "html": "HabiStat advises placing the hygrometer halfway between the hot and cold end of the terrarium for an average reading. Do not put it right next to the water bowl or a spot you mist directly, as it will read higher than the rest of the terrarium."
+    },
+    {
+      "type": "p",
+      "html": "You raise humidity by misting, a damp substrate or a misting system, and lower it with better ventilation. For complete monitoring, use the HabiStat Dial Thermometer alongside the hygrometer. Find other gear in our <a href=\"/en/equipment.html\">equipment</a> range."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Order by phone or WhatsApp message. Fast courier delivery. Customers in Novi Sad can pick up their order directly at our workshop. Contact us with any questions about the product or for a recommendation for your species."
+    }
+  ],
+  "seo": {
+    "title": "HabiStat Dial Hygrometer | Terrarium Humidity Gauge",
+    "description": "HabiStat Dial Hygrometer: analog humidity gauge for terrariums with a colour-coded scale, no batteries, 5.8 cm. Placement tips. NS Reptiles, Serbia.",
+    "keywords": "habistat hygrometer, terrarium hygrometer, humidity gauge, reptile humidity, dial hygrometer"
+  }
+}

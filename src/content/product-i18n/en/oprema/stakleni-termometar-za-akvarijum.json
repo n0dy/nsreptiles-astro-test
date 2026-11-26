@@ -1,0 +1,60 @@
+{
+  "slug": "resun-glass-aquarium-thermometer",
+  "name": "Glass aquarium thermometer",
+  "label": "Thermometers",
+  "lead": "Glass aquarium thermometer with a suction cup and a °C and °F scale - measures the temperature directly in the water.",
+  "imageAlt": "Glass aquarium thermometer - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Glass thermometer with suction cup"
+    },
+    {
+      "k": "Brand",
+      "v": "Resun"
+    },
+    {
+      "k": "Scale",
+      "v": "°C and °F"
+    },
+    {
+      "k": "Intended for",
+      "v": "Aquarium"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This glass aquarium thermometer from the Resun range is a classic thermometer with red liquid and a dual scale in Celsius and Fahrenheit. A suction cup at the top attaches it to the inside of the glass, so it measures the temperature directly in the water."
+    },
+    {
+      "type": "p",
+      "html": "It needs no batteries or cables, and the green-marked part of the scale makes quick reading easier. It suits all freshwater aquariums, as well as aquariums and aqua-terrariums with aquatic turtles. Since it is made of glass, handle it carefully when placing and removing it, especially during cleaning."
+    },
+    {
+      "type": "h2",
+      "text": "Tips for use"
+    },
+    {
+      "type": "p",
+      "html": "Tropical fish need warmer water, while coldwater fish and aquatic turtles need different temperatures, so check what your animals require. It is best to place the thermometer on the opposite side from the heater, so it shows the temperature in the rest of the tank. Check it every day, especially in summer and after water changes. If the thermometer shows a sudden temperature change, check the heater and the room temperature."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Glass Aquarium Thermometer with Suction Cup | NS Reptiles",
+    "description": "Resun glass aquarium thermometer with a suction cup and dual °C and °F scale. Measures temperature in the water, no batteries. NS Reptiles, Novi Sad.",
+    "keywords": "glass thermometer, aquarium thermometer, suction cup thermometer, resun thermometer, water temperature"
+  }
+}

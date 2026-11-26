@@ -1,0 +1,78 @@
+{
+  "name": "HabiStat Dial Hygrometer",
+  "label": "Termometri",
+  "lead": "HabiStat Dial higrometar je analogni merač vlažnosti vazduha u terarijumu, sa obojenom skalom koja se čita na prvi pogled. Bez baterija, 5,8 cm.",
+  "image": "/style/img/oprema/habistat-higrometar.webp",
+  "imageAlt": "HabiStat Dial higrometar za terarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "HabiStat"
+    },
+    {
+      "k": "Model",
+      "v": "Dial Hygrometer (HDH)"
+    },
+    {
+      "k": "Tip",
+      "v": "Analogni higrometar sa kazaljkom"
+    },
+    {
+      "k": "Merenje",
+      "v": "Relativna vlažnost vazduha (%)"
+    },
+    {
+      "k": "Dimenzije",
+      "v": "5,8 x 1,8 x 5,8 cm"
+    },
+    {
+      "k": "Napajanje",
+      "v": "Nije potrebno"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "HabiStat Dial higrometar meri vlažnost vazduha u terarijumu i pomaže da održite uslove koji odgovaraju vašoj vrsti. Kružni brojčanik ima obojenu skalu sa oznakama za suvo, umereno i vlažno, pa vrednost brzo očitate. Radi bez baterija i kablova, a dimenzije su 5,8 x 1,8 x 5,8 cm."
+    },
+    {
+      "type": "p",
+      "html": "Pravilna vlažnost je važna za presvlačenje kože, disanje i opšte stanje životinje. Tropske vrste kao što su crested gekoni i kameleoni traže vlažniji vazduh, dok pustinjskim vrstama odgovara suv terarijum sa vlažnim skrovištem."
+    },
+    {
+      "type": "h2",
+      "text": "Gde ga postaviti"
+    },
+    {
+      "type": "p",
+      "html": "HabiStat savetuje da higrometar postavite na pola puta između tople i hladne strane terarijuma, da biste dobili prosečnu vrednost. Ne stavljajte ga tik uz posudu za vodu ili mesto koje direktno prskate, jer će pokazivati više nego u ostatku terarijuma."
+    },
+    {
+      "type": "p",
+      "html": "Vlažnost podižete prskanjem, vlažnom podlogom ili sistemom za orošavanje, a spuštate boljom ventilacijom. Za kompletan nadzor uz higrometar koristite i HabiStat Dial termometar. Ostalu opremu pronađite u ponudi <a href=\"/oprema.html\">opreme</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "HabiStat Dial higrometar - merač vlažnosti terarijuma",
+    "description": "HabiStat Dial higrometar: analogni merač vlažnosti vazduha za terarijum, obojena skala, bez baterija, 5,8 cm. Saveti za postavljanje. NS Reptiles.",
+    "keywords": "habistat higrometar, higrometar za terarijum, merač vlažnosti, vlažnost u terarijumu, dial higrometar"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": []
+}

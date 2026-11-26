@@ -1,7 +1,7 @@
 {
   "name": "Resun MAGI-200 unutrašnji filter",
   "label": "Filteri",
-  "lead": "Resun MAGI-200 unutrašnji filter za akvarijum - filtracija i cirkulacija vode u jednom.",
+  "lead": "Resun MAGI-200 unutrašnji filter, 200 l/h, 5 W - kompaktan filter za manje akvarijume, filtracija i cirkulacija u jednom.",
   "image": "/style/img/oprema/akvarijum/resun-magi-200.webp",
   "imageAlt": "Resun MAGI-200 unutrašnji filter - NS Reptiles",
   "price": 0,
@@ -15,6 +15,18 @@
       "v": "Resun"
     },
     {
+      "k": "Model",
+      "v": "MAGI-200"
+    },
+    {
+      "k": "Protok",
+      "v": "200 l/h"
+    },
+    {
+      "k": "Snaga",
+      "v": "5 W"
+    },
+    {
       "k": "Namena",
       "v": "Akvarijum"
     }
@@ -26,7 +38,19 @@
     },
     {
       "type": "p",
-      "html": "Resun MAGI-200 je unutrašnji filter koji se postavlja u akvarijum i drži na staklu vakuum-držačima. Sunđer zadržava nečistoće i služi kao podloga za korisne bakterije, a izlaz pokreće vodu u akvarijumu. Za preporuku prema zapremini akvarijuma pozovite nas."
+      "html": "Resun MAGI-200 je kompaktan unutrašnji filter protoka 200 l/h i snage 5 W. Postavlja se u akvarijum i drži na staklu vakuum-držačima, a usko kućište se lako sakrije u ugao ili iza biljaka."
+    },
+    {
+      "type": "p",
+      "html": "Voda prolazi kroz sunđer koji zadržava nečistoće i služi kao podloga za korisne bakterije, pa filter radi mehaničku i biološku filtraciju. Izlaz na vrhu pokreće vodu u akvarijumu. Zbog umerenog protoka dobar je za manje akvarijume sa ribama, račićima ili mladim vodenim kornjačama."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre čišćenja filter isključite iz struje. Sunđer ispirajte u vodi iz akvarijuma pri delimičnoj promeni vode, nikad pod česmom. Novi sunđer stavite tek kad se stari raspada, a rotor povremeno očistite od naslaga da filter radi tiho. Kornjače prljaju vodu više od riba, pa im kako rastu treba jači filter ili filter predviđen za veću zapreminu."
     },
     {
       "type": "h2",
@@ -38,9 +62,9 @@
     }
   ],
   "seo": {
-    "title": "Resun MAGI-200 unutrašnji filter | Akvarijum oprema - NS Reptiles",
-    "description": "Resun MAGI-200 unutrašnji filter za akvarijum - filtracija i cirkulacija vode u jednom. NS Reptiles, Novi Sad.",
-    "keywords": "resun magi 200, unutrašnji filter, filter za akvarijum, NS Reptiles, Novi Sad"
+    "title": "Resun MAGI-200 unutrašnji filter 200 l/h | NS Reptiles",
+    "description": "Resun MAGI-200 kompaktan unutrašnji filter, 200 l/h i 5 W, za manje akvarijume. Sunđer za mehaničku i biološku filtraciju. NS Reptiles Novi Sad.",
+    "keywords": "resun magi-200, unutrašnji filter, filter za mali akvarijum, filter 200 l/h, filter za kornjače"
   },
   "brand": false,
   "usage": [

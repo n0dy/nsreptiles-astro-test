@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "Loptasti piton — vodič za uzgoj i negu | NS Reptiles",
-    "description": "Vodič za loptastog pitona: terarijum, ishrana, temperatura i nega. Mirna zmija idealna za početnike. Stručni saveti iz Novog Sada.",
-    "ogDescription": "Vodič za loptastog pitona: terarijum, ishrana, temperatura i nega. Mirna zmija idealna za početnike. NS Reptiles, Novi Sad."
+    "title": "Loptasti Piton Prodaja od 12.000 din, Novi Sad | NS Reptiles",
+    "description": "Prodaja loptastog pitona od 12.000 din - mirna zmija idealna za početnike, živi 20-30 godina. Dostupan i starter komplet sa terarijumom i opremom. NS Reptiles, Novi Sad.",
+    "ogDescription": "Prodaja loptastog pitona od 12.000 din - mirna zmija idealna za početnike, živi 20-30 godina. Dostupan i starter komplet sa terarijumom i opremom. NS Reptiles, Novi Sad."
   },
   "article": {
     "headline": "Loptasti piton - Kompletni vodič za uzgoj i negu",
@@ -14,6 +14,14 @@
   "photo": "/style/img/gallery/5.jpg",
   "photoAlt": "Loptasti piton u terarijumu — NS Reptiles Novi Sad",
   "intro": "Loptasti piton je jedna od najpopularnijih zmija u teraristici zbog mirne naravi i dostupnosti različitih morfova. Mirne i pitome prirode, lako se privikavaju na rukovanje i retko pokazuju agresiju — pogodni su za početnike. Zahvaljujući selektivnom uzgoju dostupni su u širokom spektru boja i šara.",
+  "price": {
+    "label": "Cena",
+    "value": "Jedinke od 12.000 din",
+    "note": "Loptasti piton iz domaćeg uzgoja — mirna zmija idealna za početnike. Jedinke od 12.000 din, dostupan i starter komplet sa terarijumom i opremom. Morfovi po dogovoru. Prodaja u Novom Sadu, dostava širom Srbije — javite nam se za dostupnost.",
+    "call": "Pozovite nas",
+    "waText": "Zdravo, zanima me loptastog pitona.",
+    "low": 12000
+  },
   "sections": [
     {
       "title": "Poreklo i <b>stanište</b>",
@@ -129,6 +137,34 @@
     "terarijumi/terarijum-90x50x50",
     "terarijumi/terarijum-80x50x50"
   ],
+  "faq": {
+    "title": "Česta pitanja o loptastom pitonu",
+    "items": [
+      {
+        "q": "Koliko košta loptasti piton?",
+        "a": "Cene loptastog pitona počinju od 12.000 din za standardne morfove. Retki i posebni morfovi mogu koštati znatno više, u zavisnosti od retkosti morfa."
+      },
+      {
+        "q": "Da li je loptasti piton opasan?",
+        "a": "Ne, loptasti piton nije opasan. To je jedna od najmirnijih zmija, nije otrovna i retko pokazuje agresiju. Idealna je zmija za početnike."
+      },
+      {
+        "q": "Koliko živi loptasti piton?",
+        "a": "Loptasti piton u zatočeništvu živi prosečno 20-30 godina uz pravilnu negu. Neki primerci mogu doživeti i 40 godina."
+      },
+      {
+        "q": "Šta jede loptasti piton?",
+        "a": "Loptasti piton jede miševe i pacove. Mladunci jedu pinkije svakih 5-7 dana, dok odrasli jedu odrasle miševe ili pacove svakih 7-14 dana."
+      },
+      {
+        "q": "Koja je idealna temperatura za loptastog pitona?",
+        "a": "Topli deo terarijuma treba da bude 28-30°C, hladniji deo 22-24°C. Noćna temperatura ne sme pasti ispod 20°C."
+      }
+    ]
+  },
+  "product": {
+    "description": "Loptasti piton iz domaćeg uzgoja - mirna zmija idealna za početnike. Jedinke od 12.000 din, dostupan i starter komplet sa terarijumom i opremom. Morfovi po dogovoru."
+  },
   "cta": {
     "text": "Za pitanja o nabavci, nezi ili opremi za loptastog pitona — tu smo. Javite nam se pozivom ili porukom.",
     "waText": "Zanima me loptasti piton"

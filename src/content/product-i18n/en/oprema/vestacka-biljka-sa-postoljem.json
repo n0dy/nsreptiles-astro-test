@@ -1,0 +1,64 @@
+{
+  "slug": "artificial-plant-with-base",
+  "name": "Artificial plant with base",
+  "label": "Plants",
+  "lead": "Low light green artificial aquarium plant on a dark base - it stands on the bottom on its own, without burying.",
+  "imageAlt": "Artificial plant with base for aquariums - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Artificial plant"
+    },
+    {
+      "k": "Intended for",
+      "v": "Aquarium"
+    },
+    {
+      "k": "Function",
+      "v": "Decoration and cover"
+    },
+    {
+      "k": "Color",
+      "v": "Light green"
+    },
+    {
+      "k": "Base",
+      "v": "Dark"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The artificial plant with base is a low, dense, light green plant on a dark base that keeps it upright. You can place it anywhere in the aquarium and move it whenever you like, without burying it in the substrate."
+    },
+    {
+      "type": "p",
+      "html": "Unlike live plants, an artificial one needs no lighting, fertilizer or trimming and does not change water quality. Even fish that usually destroy plants cannot eat it, and the dense leaves give cover to smaller fish and fry."
+    },
+    {
+      "type": "h2",
+      "text": "Placement and maintenance"
+    },
+    {
+      "type": "p",
+      "html": "Its low, bushy shape suits the front of the aquarium or filling space around larger decorations. The light green color stands out nicely on a dark substrate, and the dense leaves give cover to smaller fish. Maintenance is simple: every few weeks, or when you notice algae, rinse the plant with lukewarm water and go over it with a soft brush. Do not use detergents or cleaning products. Browse our other decorations and <a href=\"/en/equipment.html\">equipment</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Order by phone or WhatsApp message. Fast courier delivery. Customers in Novi Sad can pick up their order directly at our workshop. Contact us with any questions about the product or for a recommendation for your species."
+    }
+  ],
+  "seo": {
+    "title": "Artificial Aquarium Plant with Base | NS Reptiles",
+    "description": "Low artificial aquarium plant on a dark base: stands on its own without burying and is easy to move. Ideal for the front of the tank. NS Reptiles.",
+    "keywords": "artificial plant with base, artificial aquarium plant, low aquarium plant, foreground aquarium plant, aquarium decoration"
+  }
+}

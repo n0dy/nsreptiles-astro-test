@@ -30,27 +30,29 @@ if (langDd) {
 // mobilni meni
 const burger = document.querySelector('.burger'),
   mm = document.getElementById('mobileMenu');
+function closeMenu() {
+  burger.classList.remove('open');
+  burger.setAttribute('aria-expanded', false);
+  mm.classList.remove('open');
+}
 burger.addEventListener('click', () => {
+  // linkovi krecu ispod nav trake, koja nije na vrhu dok se vidi topbar
+  mm.style.setProperty('--mm-top', burger.closest('.nav-inner').getBoundingClientRect().bottom + 'px');
   burger.classList.toggle('open');
   burger.setAttribute('aria-expanded', mm.classList.toggle('open'));
 });
-mm.querySelectorAll('.m-has-sub > .m-toggle').forEach((t) =>
-  t.addEventListener('click', (e) => {
-    t.setAttribute('aria-expanded', t.parentElement.classList.toggle('open'));
-  })
-);
-mm.querySelectorAll('a').forEach((a) =>
-  a.addEventListener('click', () => {
-    burger.classList.remove('open');
-    burger.setAttribute('aria-expanded', false);
-    mm.classList.remove('open');
-  })
-);
+addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && mm.classList.contains('open')) {
+    closeMenu();
+    burger.focus();
+  }
+});
+matchMedia('(min-width: 1025px)').addEventListener('change', (e) => e.matches && closeMenu());
+mm.querySelectorAll('a').forEach((a) => a.addEventListener('click', closeMenu));
 
 // karuseli
 const tracks = {
   rep: document.getElementById('repTrack'),
-  help: document.getElementById('helpTrack'),
 };
 document.querySelectorAll('.car-btn').forEach((b) =>
   b.addEventListener('click', () => {

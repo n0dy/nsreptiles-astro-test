@@ -16,6 +16,7 @@ import Topbar from '../components/Topbar.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import FloatContact from '../components/FloatContact.astro';
+import { searchType } from '../lib/search-type';
 
 type Props = SeoProps & {
   lang: Locale;
@@ -64,7 +65,7 @@ const analytics = IS_INDEXABLE;
     )}
     <Topbar lang={lang} alternates={langLinks ?? seo.translations ?? {}} />
     <Header lang={lang} active={active} />
-    <main id="main">
+    <main id="main" data-pagefind-body={seo.noindex ? undefined : ''} data-pagefind-filter={seo.noindex ? undefined : `tip:${searchType(seo.path)}`}>
       <slot />
     </main>
     <Footer lang={lang} />

@@ -1,0 +1,80 @@
+{
+  "slug": "arcadia-d3-desert-12-t5-24w",
+  "name": "Arcadia D3 Desert 12% T5 24W",
+  "label": "Lighting",
+  "lead": "Arcadia D3+ Desert 12% UVB T5 HO tube, 24 W and 550 mm, for desert reptiles that need strong UVB. Lasts 12 months.",
+  "imageAlt": "Arcadia D3+ Desert 12% UVB T5 HO 24W 550 mm - NS Reptiles",
+  "specs": [
+    {
+      "k": "Brand",
+      "v": "Arcadia"
+    },
+    {
+      "k": "Model",
+      "v": "D3+ Desert 12% T5 HO"
+    },
+    {
+      "k": "Wattage",
+      "v": "24 W"
+    },
+    {
+      "k": "Length",
+      "v": "550 mm"
+    },
+    {
+      "k": "Diameter",
+      "v": "16 mm (T5)"
+    },
+    {
+      "k": "UVB / UVA",
+      "v": "12% / 30%"
+    },
+    {
+      "k": "Light output",
+      "v": "850 lm, 7000 K, CRI 95"
+    },
+    {
+      "k": "UVB lifespan",
+      "v": "12 months"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "Arcadia D3+ Desert 12% is a full-spectrum T5 HO fluorescent tube designed to mimic natural sunlight as closely as possible, including UVA and high levels of UVB. UVB lets reptiles make vitamin D3 in their skin, which they need to use calcium. The 24 W model is 550 mm long with a 16 mm diameter, gives 850 lumens, a 7000 K colour temperature and CRI 95, and is flicker free."
+    },
+    {
+      "type": "p",
+      "html": "Arcadia recommends it for species that need high UVB in larger enclosures: bearded dragons, uromastyx, blue-tongued skinks, frilled lizards, tortoises and other desert species. The packaging is marked for Ferguson zones 3-4."
+    },
+    {
+      "type": "h2",
+      "text": "Distance and replacement"
+    },
+    {
+      "type": "p",
+      "html": "The manufacturer gives these maximum UV index readings directly under the tube in a ProT5 reflector: 6.5 at 38 cm, 4.4 at 45 cm, 3.8 at 50 cm and 2.4 at 60 cm, and advises caution at 30 cm. Give the animal shade and a cooler zone. UVB output fades even while the tube still lights up, so replace it after 12 months."
+    },
+    {
+      "type": "p",
+      "html": "A T5 HO tube needs a matching T5 fixture with an electronic ballast. Find fixtures and other equipment in our <a href=\"/en/equipment.html\">equipment</a> range."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Order by phone or WhatsApp message. Fast courier delivery. Customers in Novi Sad can pick up their order directly at our workshop. Contact us with any questions about the product or for a recommendation for your species."
+    }
+  ],
+  "seo": {
+    "title": "Arcadia D3+ Desert 12% T5 24W 550mm | UVB Tube",
+    "description": "Arcadia D3+ Desert 12% UVB T5 HO 24 W, 550 mm: strong UVB for bearded dragons and desert lizards, with the maker's UVI chart. NS Reptiles, Serbia.",
+    "keywords": "arcadia desert 12% t5, bearded dragon uvb tube, t5 uvb 24w, terrarium uvb lamp, arcadia d3+"
+  }
+}

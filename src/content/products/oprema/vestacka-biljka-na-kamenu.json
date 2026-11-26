@@ -1,0 +1,75 @@
+{
+  "name": "Veštačka biljka na kamenu",
+  "label": "Biljke",
+  "lead": "Svetlozelena žbunasta veštačka biljka za akvarijum na tamnom postolju u obliku kamena. Za prednji i srednji plan.",
+  "image": "/style/img/oprema/akvarijum/vestacka-biljka-na-kamenu.webp",
+  "imageAlt": "Veštačka biljka na kamenu za akvarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Veštačka biljka"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Dekoracija i zaklon"
+    },
+    {
+      "k": "Boja",
+      "v": "Svetlozelena"
+    },
+    {
+      "k": "Postolje",
+      "v": "U obliku kamena"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Veštačka biljka na kamenu je svetlozelena, žbunasta biljka čije se grane šire sa tamnog postolja u obliku kamena. Postolje izgleda kao deo dekoracije, pa ga ne morate sakrivati u podlozi."
+    },
+    {
+      "type": "p",
+      "html": "Veštačka biljka ne vene, ne traži rasvetu ni đubrivo i ne utiče na parametre vode, pa je dobar izbor za početnike i za akvarijume sa ribama koje grickaju ili čupaju žive biljke. Sitnijim ribama, mladuncima i škampima daje zaklon i mesto za odmor."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Lepo izgleda u prednjem i srednjem delu akvarijuma, uz korenje i pravo kamenje. Grane se šire u stranu, pa ostavite malo prostora oko biljke da bi se videla cela. Pri redovnom održavanju biljku izvadite i isperite mlakom vodom, a naslage algi uklonite mekom četkicom, bez deterdženata. Pre prvog stavljanja u akvarijum takođe je isperite. Ostale dekoracije i opremu pogledajte u ponudi <a href=\"/oprema.html\">opreme</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Veštačka biljka na kamenu za akvarijum | NS Reptiles",
+    "description": "Veštačka biljka na kamenu: svetlozelena žbunasta biljka na postolju u obliku kamena, za prednji i srednji plan akvarijuma. NS Reptiles Novi Sad.",
+    "keywords": "veštačka biljka na kamenu, veštačka biljka za akvarijum, dekoracija za akvarijum, biljka sa postoljem, plastične biljke za akvarijum"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum"
+  ],
+  "related": [
+    "oprema/vestacka-biljka-okruglih-listova",
+    "oprema/vestacka-biljka-sa-crvenim-cvetovima",
+    "oprema/vestacka-biljka-sa-dugim-granama",
+    "oprema/vestacka-biljka-sa-roze-cvetom"
+  ]
+}

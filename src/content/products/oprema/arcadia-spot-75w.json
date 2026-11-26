@@ -1,9 +1,9 @@
 {
   "name": "Arcadia Spot 75W",
   "label": "Rasveta",
-  "lead": "Solar Basking Spotlight 75W - usmerena toplota i svetlost za mesto za sunčanje u terarijumu.",
+  "lead": "Arcadia Solar Basking Spotlight 75W je grejna spot sijalica sa E27 grlom za mesto za sunčanje u terarijumu. Daje toplotu i UVA.",
   "image": "/style/img/oprema/spot75.webp",
-  "imageAlt": "Arcadia Spot 75W - NS Reptiles",
+  "imageAlt": "Arcadia Solar Basking Spotlight 75W, E27 - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -11,16 +11,24 @@
       "v": "Arcadia"
     },
     {
-      "k": "Snaga",
-      "v": "75W"
+      "k": "Model",
+      "v": "Solar Basking Spotlight"
     },
     {
-      "k": "Tip",
-      "v": "Spot sijalica za sunčanje"
+      "k": "Snaga",
+      "v": "75 W"
     },
     {
       "k": "Grlo",
       "v": "E27"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Toplota za mesto za sunčanje, UVA"
+    },
+    {
+      "k": "Napomena",
+      "v": "Ne daje UVB"
     }
   ],
   "description": [
@@ -30,15 +38,23 @@
     },
     {
       "type": "p",
-      "html": "Arcadia Solar Basking Spotlight sijalica snage 75W je srednja opcija u seriji, pogodna za terarijume srednje veličine i vrste kojima je potrebna solidna količina toplote na mestu za sunčanje. Proizvodi usmerenu toplotu i vidljivu svetlost koja simulira sunčevo zračenje iz prirodnih stanista."
+      "html": "Arcadia Solar Basking Spotlight 75W je grejna sijalica koja stvara toplo mesto za sunčanje u terarijumu. Arcadia navodi da njene Solar Basking lampe zrače pretežno infracrvenu energiju (uglavnom IR-A), a na pakovanju ove sijalice stoji da daje i UVA, koji pomaže dobrom stanju i viđenju boja kod reptila. Uvrće se u standardno E27 grlo."
     },
     {
       "type": "p",
-      "html": "Postavlja se na jednu stranu terarijuma za stvaranje temperaturnog gradijenta - toplija zona za sunčanje i hladnija za odmor. E27 grlo omogućava laku ugradnju u standardne keramičke nosače. Preporučujemo korišćenje sa termostatom za preciznu kontrolu temperature."
+      "html": "Snaga od 75 W je srednja opcija, pogodna za terarijume srednje veličine i vrste kojima treba izraženija toplota na mestu za sunčanje. Često se bira kada 50 W ne postiže željenu temperaturu, a 100 W bi bila prejaka za datu visinu terarijuma."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje"
     },
     {
       "type": "p",
-      "html": "Arcadia je renomirani britanski brend poznat po kvalitetu rasvete za reptile."
+      "html": "Sijalicu postavite u keramičko grlo na jednoj strani terarijuma, tako da nastane topla zona za sunčanje i hladnija strana za odmor. Proizvođač preporučuje upotrebu sa termostatom i uz UVB rasvetu prilagođenu vrsti, jer spot sijalica ne daje UVB. Temperaturu na mestu za sunčanje proverite termometrom i podesite visinu ili snagu lampe prema potrebama vaše životinje."
+    },
+    {
+      "type": "p",
+      "html": "Keramička grla, termometre i UVB lampe pronađite u ponudi <a href=\"/oprema.html\">opreme</a>, a gotova rešenja za pojedine vrste na strani <a href=\"/terarijumi.html\">terarijumi</a>."
     },
     {
       "type": "h2",
@@ -50,11 +66,9 @@
     }
   ],
   "seo": {
-    "title": "Arcadia Spot 75W | Sijalica za Sunčanje - NS Reptiles",
-    "description": "Arcadia Solar Basking Spot 75W - usmerena toplota i svetlost za mesto za sunčanje u terarijumu. E27 grlo, srednja snaga.",
-    "keywords": "Arcadia Spot 75W, sijalica za sunčanje, basking sijalica, grejna sijalica terarijum, NS Reptiles",
-    "ogTitle": "Arcadia Spot 75W | NS Reptiles",
-    "ogDescription": "Solar Basking Spotlight 75W - usmerena toplota i svetlost za mesto za sunčanje u terarijumu."
+    "title": "Arcadia Solar Basking Spot 75W E27 - grejna sijalica",
+    "description": "Arcadia Solar Basking Spotlight 75W: grejna spot sijalica E27 sa UVA za mesto za sunčanje, za srednji terarijumi. Uz termostat. NS Reptiles Novi Sad.",
+    "keywords": "arcadia basking spot 75w, grejna sijalica za terarijum, spot sijalica za reptile, sijalica za sunčanje, arcadia 75w"
   },
   "related": [
     "oprema/arcadia-spot-50w",

@@ -1,7 +1,7 @@
 {
   "name": "Mrežica za ribe 030",
   "label": "Pribor",
-  "lead": "Mrežica za hvatanje riba, model 030 - za premeštanje riba bez povreda.",
+  "lead": "Mrežica za ribe 030 sa mrežom od 3 inča (oko 7,5 cm) - za sitne ribe, račiće i manje akvarijume.",
   "image": "/style/img/oprema/akvarijum/mrezica-za-ribe-030.webp",
   "imageAlt": "Mrežica za ribe 030 - NS Reptiles",
   "price": 200,
@@ -9,6 +9,14 @@
     {
       "k": "Tip",
       "v": "Mrežica za ribe"
+    },
+    {
+      "k": "Brend",
+      "v": "Resun"
+    },
+    {
+      "k": "Veličina mreže",
+      "v": "3\" (oko 7,5 cm)"
     },
     {
       "k": "Namena",
@@ -22,7 +30,19 @@
     },
     {
       "type": "p",
-      "html": "Mrežica sa mekom mrežom za bezbedno hvatanje i premeštanje riba, kao i za uklanjanje lišća i nečistoća sa površine. Fotografija je ilustrativna."
+      "html": "Mrežica 030 je Resun mrežica za ribe veličine 3 inča, odnosno oko 7,5 cm. Ima meku zelenu mrežu i dršku sa zelenom ručkom u obliku petlje, za koju se lako uhvati i okači. Prema pakovanju, mreža je čvrsta i meka, napravljena da bezbedno uhvati ribu."
+    },
+    {
+      "type": "p",
+      "html": "Manja mrežica je pogodna za sitne ribe poput gupija, neonki i račića, kao i za nano i manje akvarijume, gde veća mrežica ne može da se okrene između biljaka i dekoracije. Korisna je i za uklanjanje ostataka hrane i lišća sa površine."
+    },
+    {
+      "type": "h2",
+      "text": "Kako uhvatiti ribu bez stresa"
+    },
+    {
+      "type": "p",
+      "html": "Najlakše je sa dve mrežice: jednom polako usmerite ribu u drugu, umesto da je jurite po akvarijumu. Mrežicu pre upotrebe pokvasite i ribu prebacite brzo, da što kraće bude van vode. Za karantinski akvarijum koristite posebnu mrežicu, a posle svake upotrebe je isperite i osušite."
     },
     {
       "type": "h2",
@@ -34,11 +54,11 @@
     }
   ],
   "seo": {
-    "title": "Mrežica za ribe 030 | Akvarijum oprema - NS Reptiles",
-    "description": "Mrežica za hvatanje riba, model 030 - za premeštanje riba bez povreda. NS Reptiles, Novi Sad.",
-    "keywords": "mrežica za ribe, mreža za akvarijum, NS Reptiles, Novi Sad"
+    "title": "Mrežica za ribe 030, 3 inča (7,5 cm) | NS Reptiles",
+    "description": "Resun mrežica za ribe 030 sa mrežom od 3 inča (oko 7,5 cm) - za sitne ribe, račiće i nano akvarijume. Meka mreža, bezbedno hvatanje. NS Reptiles.",
+    "keywords": "mrežica za ribe, mala mrežica za akvarijum, mrežica 3 inča, resun mrežica, pribor za akvarijum"
   },
-  "brand": false,
+  "brand": true,
   "usage": [
     "akvarijum"
   ]

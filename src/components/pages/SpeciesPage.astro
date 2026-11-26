@@ -35,7 +35,9 @@ if (!image || !photo) throw new Error(`species/sr/${slug}.json: fale image/photo
 const low = sr.data.price?.low;
 
 const href = (srPath: string) => localizePath(srPath, lang);
-const path = href(`/zivotinje/${slug}.html`);
+// sr URL-ovi su ostali sa starog sajta (bez crtica) - ne menjati zbog SEO
+const SR_FILE: Record<string, string> = {"bradata-agama": "bradataagama", "crested-gekon": "crestedgekon", "debelorepi-gekon": "debelorepigekon", "kineska-vodena-agama": "kineskavodenaagama", "kukuruzni-smuk": "kukuruznismuk", "leopard-gekon": "leopardgekon", "loptasti-piton": "loptastipiton"};
+const path = href(`/zivotinje/${SR_FILE[slug] ?? slug}.html`);
 const url = SITE.url + path;
 const imageUrl = SITE.url + image;
 
@@ -100,7 +102,7 @@ const h3Style = "font-family:'Oswald Variable',sans-serif;text-transform:upperca
   schema={schema}
 >
 <section class="page-head" style="--ph-img: none; --ph-img-sm: none">
-  <img class="ph-img ph-contain" src={photo} alt={d.photoAlt} width={photoSize[0]} height={photoSize[1]} fetchpriority="high" />
+  <img class="ph-img ph-contain" data-pagefind-meta="image[src]" src={photo} alt={d.photoAlt} width={photoSize[0]} height={photoSize[1]} fetchpriority="high" />
   <div class="wrap">
     <h1 set:html={twoTone(d.name)} />
     <p>{d.lead}</p>

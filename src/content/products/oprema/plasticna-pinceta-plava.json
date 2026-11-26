@@ -1,0 +1,77 @@
+{
+  "name": "Plastična pinceta, plava",
+  "label": "Pribor",
+  "lead": "Plava plastična pinceta za hranjenje sitnijih reptila, vodozemaca i mladunaca. Lagana, sa nazubljenim vrhovima koji blago drže insekta.",
+  "image": "/style/img/oprema/plasticna-pinceta-plava.webp",
+  "imageAlt": "Plava plastična pinceta za hranjenje - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Pinceta"
+    },
+    {
+      "k": "Materijal",
+      "v": "Plastika"
+    },
+    {
+      "k": "Boja",
+      "v": "Plava"
+    },
+    {
+      "k": "Vrhovi",
+      "v": "Nazubljeni"
+    },
+    {
+      "k": "Namena",
+      "v": "Hranjenje sitnijih životinja, rad u terarijumu"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Plava plastična pinceta je lagan pribor za hranjenje sitnijih životinja i jednostavne poslove u terarijumu. Kao što se vidi na slici, vrhovi su nazubljeni, pa sigurno drže insekta ili komadić hrane."
+    },
+    {
+      "type": "p",
+      "html": "Plastika je mekša od metala, pa je pinceta blaga prema životinji ako zagrize vrh i prema hrani, na primer prema zrikavcima ili crvima koje ne želite da zgnječite. Zato je dobar izbor za mladunce, manje gekone, žabe i paukove."
+    },
+    {
+      "type": "h2",
+      "text": "Za koga je pogodna"
+    },
+    {
+      "type": "p",
+      "html": "Pogodna je za vlasnike koji hrane manje vrste ili tek uče da hrane pincetom. Za veće guštere i zmije, kao i za odmrznuti plen, bolja je duža metalna pinceta koja drži ruku dalje od životinje."
+    },
+    {
+      "type": "p",
+      "html": "Posle upotrebe pincetu operite toplom vodom i deterdžentom i osušite. Ne izlažite je visokim temperaturama i zamenite je ako se vrhovi oštete ili krak napukne. Metalne pincete i ostali pribor su u ponudi <a href=\"/oprema.html\">opreme</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Plastična pinceta za hranjenje reptila, plava",
+    "description": "Plava plastična pinceta sa nazubljenim vrhovima za hranjenje mladunaca, gekona, žaba i paukova. Lagana i blaga prema životinji. NS Reptiles Novi Sad.",
+    "keywords": "plastična pinceta, pinceta za hranjenje, pinceta za gekone, pribor za terarijum, pinceta za insekte"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/nomoy-pinceta-20cm",
+    "oprema/lopatica-sito-za-pesak"
+  ]
+}

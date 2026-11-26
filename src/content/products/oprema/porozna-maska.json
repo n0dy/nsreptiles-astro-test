@@ -1,0 +1,71 @@
+{
+  "name": "Porozna maska",
+  "label": "Dekoracija",
+  "lead": "Porozna maska za terarijum - bež dekoracija u izgledu starog kamena, sa rupičastom površinom i jasno oblikovanim licem.",
+  "image": "/style/img/oprema/dekoracija/porozna-maska.webp",
+  "imageAlt": "Porozna maska bež boje u izgledu starog kamena, dekoracija za terarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - maska"
+    },
+    {
+      "k": "Izgled",
+      "v": "Bež, porozna površina"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Porozna maska je dekoracija u obliku lica sa otvorima za oči, naglašenim nosem i površinom prošaranom sitnim rupicama, zbog čega podseća na stari, izlizani kamen ili drevni artefakt. Peskovito bež boja prirodno se slaže sa pustinjskim podlogama, kamenjem i suvim drvetom."
+    },
+    {
+      "type": "p",
+      "html": "Masku možete položiti na dno terarijuma, osloniti na kamen ili na zadnji zid, gde stvara utisak ruševina i daje postavci priču. Najbolje izgleda kao jedan istaknut detalj, uz nekoliko kamenova i biljaka, a ne u gomili drugih ukrasa. Pogodna je za terarijume gekona, agama, paukova i drugih životinja kojima odgovara suva, peskovita postavka."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre prvog postavljanja masku operite mlakom vodom i dobro osušite. Ako je naslanjate na zid ili kamen, proverite da stoji stabilno i da ne može da padne na životinju dok se penje ili kopa. Zbog porozne površine u rupicama se zadržavaju prašina i podloga, pa je povremeno izvadite i očistite mekom četkicom pod mlazom vode. Pogledajte i ostalu <a href=\"/oprema.html\">opremu za terarijume</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Porozna maska - dekoracija za terarijum | NS Reptiles",
+    "description": "Bež maska sa poroznom površinom u izgledu starog kamena. Dekoracija koja pustinjskom terarijumu daje izgled drevnih ruševina. NS Reptiles, Novi Sad.",
+    "keywords": "porozna maska, maska za terarijum, dekoracija za terarijum, ukras ruševine, oprema za terarijum"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/astecki-suncev-kamen-bez",
+    "oprema/astecki-suncev-kamen-terakota",
+    "oprema/lobanja-sa-gas-maskom",
+    "oprema/lobanja-terakota"
+  ]
+}

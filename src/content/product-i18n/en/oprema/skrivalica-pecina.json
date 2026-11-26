@@ -1,0 +1,68 @@
+{
+  "slug": "basking-cave-reptile-hide",
+  "name": "Cave hide",
+  "label": "Hides",
+  "lead": "Cave-shaped hide with a flat, layered top - shelter underneath and a basking platform under the heat lamp, for lizards.",
+  "imageAlt": "Cave hide - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Hide"
+    },
+    {
+      "k": "Intended for",
+      "v": "Terrarium"
+    },
+    {
+      "k": "Function",
+      "v": "Shelter and basking"
+    },
+    {
+      "k": "Shape",
+      "v": "Cave, flat layered top"
+    },
+    {
+      "k": "Color",
+      "v": "Olive-yellow and brown"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This cave has a roomy arched entrance and a flat top made of stacked stone slabs. The colors are olive-yellow, ochre and brown, like a sunlit rock covered with lichen."
+    },
+    {
+      "type": "p",
+      "html": "Its biggest advantage is the combination of two functions. The flat top serves as a platform under the heat lamp where a lizard basks, and right below is a shelter it retreats to when it wants peace. So in a small footprint it gets both a warm basking spot and a safe hide, which is especially practical in smaller terrariums."
+    },
+    {
+      "type": "p",
+      "html": "This hide suits species that like to bask on rock, such as the bearded dragon and the leopard gecko."
+    },
+    {
+      "type": "h2",
+      "text": "Setup tips"
+    },
+    {
+      "type": "p",
+      "html": "Place the cave on the warm side of the terrarium, directly on the floor. Check the temperature on the top with a thermometer and adjust the lamp height so the surface does not get too hot. Put another hide on the cool side. Wash the cave with warm water when it gets dirty and check the inside once a week."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Basking Cave Reptile Hide with Flat Top",
+    "description": "Cave hide with a flat top - a basking platform under the lamp and a shelter below, for bearded dragons and geckos. NS Reptiles, Novi Sad, Serbia.",
+    "keywords": "basking cave hide, basking platform, bearded dragon hide, leopard gecko hide, basking rock"
+  }
+}

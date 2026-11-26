@@ -1,0 +1,83 @@
+{
+  "name": "Skrivalica siva pećina",
+  "label": "Skrivalice",
+  "lead": "Skrivalica u obliku masivne sive kamene pećine sa lučnim ulazom - čvrst, taman zaklon za zmije i guštere, idealan za hladniju stranu terarijuma.",
+  "image": "/style/img/oprema/skrivalica-siva-pecina.webp",
+  "imageAlt": "Skrivalica siva pećina - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Skrivalica"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Zaklon"
+    },
+    {
+      "k": "Oblik",
+      "v": "Masivna pećina, lučni ulaz"
+    },
+    {
+      "k": "Boja",
+      "v": "Tamnosiva, porozna tekstura"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova skrivalica izgleda kao masivan, zaobljen komad tamnosive stene sa izbrazdanom, blago poroznom površinom. Ispod stene je lučni ulaz u prostranu unutrašnjost, dovoljno tamnu da životinja u njoj ima pravi mir."
+    },
+    {
+      "type": "p",
+      "html": "Visok, kompaktan oblik i neutralna siva boja čine je dobrim izborom za zmije, ali i za guštere koji danju traže zaklon. Tamnosivi ton se lepo uklapa uz sivo kamenje, škriljac i tamnu podlogu, a u svetlom terarijumu daje kontrast."
+    },
+    {
+      "type": "h2",
+      "text": "Skrivalica za hladnu stranu"
+    },
+    {
+      "type": "p",
+      "html": "Na toploj strani životinja vari hranu i greje se, a na hladnoj se odmara i rashlađuje. Da bi to mogla bez stresa, potrebna joj je skrivalica i na hladnoj strani. Masivna pećina je dobar izbor za to mesto, dok na toplu stranu može ići skrivalica sa platformom za sunčanje."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Postavite je direktno na dno terarijuma, pa podlogu nasipajte oko nje, da životinja ne može da kopa ispod. Jednom nedeljno proverite unutrašnjost i, po potrebi, operite je toplom vodom i četkom."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Skrivalica siva pećina za zmije i guštere | NS Reptiles",
+    "description": "Masivna siva kamena pećina sa lučnim ulazom - taman, čvrst zaklon za zmije i guštere, idealan za hladniju stranu terarijuma. NS Reptiles.",
+    "keywords": "skrivalica siva pećina, pećina za zmije, skrivalica za guštere, tamna skrivalica, skrovište za terarijum"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/skrivalica-kameni-polukrug",
+    "oprema/skrivalica-astecki-kalendar",
+    "oprema/skrivalica-polucev-braon",
+    "oprema/skrivalica-braon-stena"
+  ]
+}

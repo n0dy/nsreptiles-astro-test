@@ -2,24 +2,32 @@
   "slug": "habistat-pure-calcium-125g",
   "name": "HabiStat Pure Calcium 125g",
   "label": "Supplements",
-  "lead": "Pure natural calcium carbonate with ultra-fine granules and vitamins A, D3 and E. For dusting insects before feeding reptiles and amphibians.",
-  "imageAlt": "HabiStat Pure Calcium 125g - pure calcium carbonate for reptiles - NS Reptiles",
+  "lead": "HabiStat Pure Calcium is natural calcium carbonate with vitamins A, D3 and E for reptiles and amphibians. A 125 g pot for dusting food at every feed.",
+  "imageAlt": "HabiStat Pure Calcium 125 g pot - NS Reptiles",
   "specs": [
     {
       "k": "Brand",
       "v": "HabiStat"
     },
     {
-      "k": "Weight",
-      "v": "125g"
+      "k": "Pack size",
+      "v": "125 g, airtight pot"
     },
     {
-      "k": "Type",
-      "v": "Calcium supplement"
+      "k": "Composition",
+      "v": "Calcium carbonate"
+    },
+    {
+      "k": "Additives",
+      "v": "Vitamins A, D3 and E"
     },
     {
       "k": "Intended for",
-      "v": "All reptiles and amphibians"
+      "v": "Reptiles and amphibians"
+    },
+    {
+      "k": "Dose",
+      "v": "1/4 teaspoon, at every feed"
     }
   ],
   "description": [
@@ -29,15 +37,23 @@
     },
     {
       "type": "p",
-      "html": "HabiStat Pure Calcium is pure natural calcium carbonate with ultra-fine granules, with particles smaller than 300 microns. This extremely fine grain lets the calcium spread evenly over insects when dusting, ensuring your reptiles get an optimal dose of calcium with every meal. The supplement is enriched with vitamins A, D3 and E in low, safe doses that support proper calcium metabolism without the risk of overdose."
+      "html": "HabiStat Pure Calcium is a pure, natural source of calcium in the form of calcium carbonate, with added vitamins A, D3 and E. The manufacturer says it is easily digested by reptiles and amphibians. The 125 g pot seals tightly, so the powder stays dry and loose."
     },
     {
       "type": "p",
-      "html": "This product is intended for all reptile and amphibian species. It is used by dusting - put the insects in a container, sprinkle them with calcium and shake gently before offering them to your animals. This way, every insect carries a thin layer of calcium that is naturally taken in during feeding. For optimal results, adequate UVB lighting in the terrarium is essential, because vitamin D3, which is key to calcium absorption, forms in reptile skin under UVB rays."
+      "html": "Calcium is the key mineral for bones and muscles. HabiStat stresses that an animal can only use dietary calcium if it has proper UVB lighting, dietary vitamin D3 or a combination of both, so Pure Calcium does not replace a UVB lamp."
+    },
+    {
+      "type": "h2",
+      "text": "Use and dosage"
     },
     {
       "type": "p",
-      "html": "Regular use of a calcium supplement is essential for preventing metabolic bone disease, a condition that is very common in captive reptiles. Without enough calcium, bones become soft and brittle, which can lead to deformities and serious health problems. HabiStat Pure Calcium offers a simple, effective solution for daily supplementation."
+      "html": "Manufacturer's instructions: lightly dust all insects or vegetation at every feed; a quarter of a teaspoon is enough. Make sure all insects are coated and feed them immediately. The powder can also be sprinkled on vegetables and meat. Avoid inhaling the dust and store in a cool, dry place."
+    },
+    {
+      "type": "p",
+      "html": "For species that need more calcium, such as juveniles and breeding females, HabiStat also recommends a calcium dish in the terrarium. Find other supplements in our <a href=\"/en/equipment.html\">equipment</a> range."
     },
     {
       "type": "h2",
@@ -49,8 +65,8 @@
     }
   ],
   "seo": {
-    "title": "HabiStat Pure Calcium 125g | Calcium for Dusting Insects",
-    "description": "HabiStat Pure Calcium 125g: pure ultra-fine calcium carbonate with vitamins A, D3 and E for dusting feeder insects. NS Reptiles, Novi Sad.",
-    "keywords": "habistat pure calcium, pure calcium for reptiles, calcium for dusting insects, reptile supplement, calcium carbonate, NS Reptiles, Novi Sad, Serbia"
+    "title": "HabiStat Pure Calcium 125g | Reptile Calcium Powder",
+    "description": "HabiStat Pure Calcium 125 g: natural calcium carbonate with vitamins A, D3 and E for dusting insects at every feed. NS Reptiles, Novi Sad, Serbia.",
+    "keywords": "habistat pure calcium, reptile calcium powder, leopard gecko calcium, calcium with d3, insect dusting calcium"
   }
 }

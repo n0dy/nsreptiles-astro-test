@@ -1,0 +1,78 @@
+{
+  "name": "Nomoy Pet UVA Day Light ND-25",
+  "label": "Rasveta",
+  "lead": "Nomoy Pet ND-25 Reptile UVA Day Light je dnevna sijalica sa UVA za terarijum: daje svetlo i toplotu za mesto za sunčanje. Ne zamenjuje UVB lampu.",
+  "image": "/style/img/oprema/nomoy-uva-nd-25.webp",
+  "imageAlt": "Nomoy Pet ND-25 Reptile UVA Day Light sijalica - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "Nomoy Pet"
+    },
+    {
+      "k": "Model",
+      "v": "ND-25 Reptile UVA Day Light"
+    },
+    {
+      "k": "Tip",
+      "v": "Dnevna sijalica sa UVA"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Dnevno svetlo i toplota"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Napomena",
+      "v": "Ne daje UVB"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Nomoy Pet ND-25 Reptile UVA Day Light je dnevna sijalica sa reflektorom za terarijume. Daje svetlo i toplotu, pa se koristi za mesto za sunčanje tokom dana. Na pakovanju proizvođač navodi da sijalica poboljšava apetit reptila i podržava normalan metabolizam; UVA spektar reptili vide, pa utiče na njihovo prirodno ponašanje."
+    },
+    {
+      "type": "p",
+      "html": "Sijalica ne daje UVB zračenje, koje je većini dnevnih guštera i kornjača potrebno za stvaranje vitamina D3. Zato je za takve vrste koristite zajedno sa UVB cevi ili UVB sijalicom."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje"
+    },
+    {
+      "type": "p",
+      "html": "Sijalicu postavite u keramičko grlo iznad mesta za sunčanje, na jednu stranu terarijuma, kako bi nastala topla i hladnija zona. Uključujte je samo danju, a za noćno grejanje koristite izvor toplote bez svetla, kao što je keramički grejač. Temperaturu na mestu za sunčanje proverite termometrom."
+    },
+    {
+      "type": "p",
+      "html": "Za stabilnu temperaturu sijalicu povežite na termostat. Za tačnu snagu i preporuku za vaš terarijum pozovite nas, a UVB rasvetu i grla pogledajte u ponudi <a href=\"/oprema.html\">opreme</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Nomoy Pet ND-25 UVA dnevna sijalica za terarijum",
+    "description": "Nomoy Pet ND-25 Reptile UVA Day Light: dnevna sijalica sa UVA za svetlo i toplotu na mestu za sunčanje. Koristi se uz UVB lampu. NS Reptiles.",
+    "keywords": "uva sijalica za terarijum, dnevna sijalica za reptile, nomoy pet nd-25, sijalica za sunčanje, grejna sijalica"
+  },
+  "brand": false,
+  "usage": [
+    "terarijum"
+  ],
+  "related": []
+}

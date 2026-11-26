@@ -1,9 +1,9 @@
 {
   "name": "Maple leaf stone 1kg",
   "label": "Dekoracija",
-  "lead": "Maple leaf stone 1kg - dekorativni kamen sa slojevitom strukturom. Popularan u aquascaping-u.",
+  "lead": "Maple leaf stone 1kg - dekorativni kamen toplih narandžastih tonova za aquascaping akvarijuma i uređenje terarijuma.",
   "image": "/style/img/oprema/maple.webp",
-  "imageAlt": "Maple leaf stone 1kg - NS Reptiles",
+  "imageAlt": "Maple leaf stone 1kg, dekorativni kamen narandžastih tonova za akvarijum i terarijum - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -15,8 +15,12 @@
       "v": "1kg"
     },
     {
+      "k": "Boja",
+      "v": "Narandžasto-crvenkasta i braon"
+    },
+    {
       "k": "Namena",
-      "v": "Akvarijumi - aquascaping"
+      "v": "Akvarijum (aquascaping) i terarijum"
     }
   ],
   "description": [
@@ -26,11 +30,19 @@
     },
     {
       "type": "p",
-      "html": "Maple leaf stone je dekorativni kamen sa karakteristicnom slojevitom strukturom koja podseća na lišće javora - otuda i naziv. Prirodne linije i slojevi u kamenu stvaraju impresivan vizuelni efekat, posebno kada se više komada složi zajedno u kompoziciju. Izuzetno je popularan u aquascaping-u gde se koristi za kreiranje dramatičnih kamenih formacija koje imitiraju planinske litice ili rečne obale."
+      "html": "Maple leaf stone je dekorativni kamen toplih narandžastih, crvenkastih i braon tonova. Komadi su nepravilnog oblika i razuđene površine, pa je svaki drugačiji po obliku i boji. Izuzetno je popularan u aquascaping-u, gde se od više komada slažu kamene formacije koje imitiraju planinske litice ili rečne obale."
     },
     {
       "type": "p",
-      "html": "Hemijski je inertan i ne utice na parametre vode, što ga čini bezbednim za sve tipove slatkovodnih akvarijuma. Svaki komad od 1kg je jedinstven po obliku, boji i rasporedu slojeva. Može se koristiti i u terarijumima kao dekorativni element koji daje prirodan izgled. U kombinaciji sa niskim biljkama i mahovinom, maple leaf stone postaje centralni element upečatljivog akvaskejpa."
+      "html": "Pakovanje od 1kg je dobro za manji akcenat ili kao dopuna postojećem kamenju, a za veće kompozicije planirajte više pakovanja. U kombinaciji sa niskim biljkama i mahovinom kamen postaje centralni element upečatljivog akvaskejpa. Koristi se i u terarijumima, gde topla boja lepo prati pustinjske podloge, a reptilima komadi služe kao oslonac i mesto za penjanje."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja kamen dobro operite četkom pod mlazom vode da uklonite prašinu i sitne ostatke. Kao i za svaki dekorativni kamen, pre stavljanja u akvarijum sa osetljivim ribama ili račićima preporučujemo da proverite da li utiče na tvrdoću vode, merenjem parametara posle nekoliko dana u posudi sa vodom. Krupnije komade postavite direktno na dno, pre nasipanja podloge, kako se kompozicija ne bi urušila kada ribe ili reptili kopaju."
     },
     {
       "type": "h2",
@@ -42,10 +54,10 @@
     }
   ],
   "seo": {
-    "title": "Maple leaf stone 1kg | Oprema - NS Reptiles",
-    "description": "Maple leaf stone 1kg - dekorativni kamen sa slojevitom strukturom. Popularan u aquascaping-u. NS Reptiles Novi Sad.",
-    "keywords": "maple leaf stone 1kg, dekorativni kamen, aquascaping kamen, oprema za akvarijum, NS Reptiles, Novi Sad",
-    "ogTitle": "Maple leaf stone 1kg | NS Reptiles"
+    "title": "Maple leaf stone 1kg - kamen za aquascaping",
+    "description": "Maple leaf stone 1kg, dekorativni kamen toplih narandžastih tonova za aquascaping akvarijuma i uređenje terarijuma. NS Reptiles, Novi Sad.",
+    "keywords": "maple leaf stone, kamen za aquascaping, dekorativni kamen za akvarijum, kamen za terarijum, oprema za akvarijum",
+    "ogTitle": "Maple leaf stone 1kg - kamen za aquascaping"
   },
   "related": [
     "oprema/sidro-sa-koralima",
@@ -54,6 +66,7 @@
     "oprema/cork-bark"
   ],
   "usage": [
-    "akvarijum"
+    "akvarijum",
+    "terarijum"
   ]
 }

@@ -1,0 +1,75 @@
+{
+  "name": "Mala okrugla posuda, braon",
+  "label": "Posude",
+  "lead": "Mala okrugla posuda za terarijum, tamnobraon i glatka, sa ravnim zidovima - za insekte, hranu ili malo vode za mladunce i gekone.",
+  "image": "/style/img/oprema/mala-okrugla-posuda-braon.webp",
+  "imageAlt": "Mala okrugla posuda, braon - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Posuda za vodu"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Pojilica / hranilica"
+    },
+    {
+      "k": "Oblik",
+      "v": "Okrugla, ravni zidovi"
+    },
+    {
+      "k": "Boja",
+      "v": "Tamnobraon, sjajna"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Mala okrugla posuda tamnobraon boje ima glatku, blago sjajnu površinu i gotovo uspravne zidove. Takav oblik je praktičan kao hranilica: brašnari i slični crvi teško se penju uz glatke strane, pa ostaju u posudi dok ih životinja ne pojede, umesto da se zavuku u podlogu."
+    },
+    {
+      "type": "p",
+      "html": "Kao pojilica pogodna je za mladunce i manje vrste, na primer leopard gekone i debelorepe gekone, kojima je dovoljna mala količina sveže vode. Glatka unutrašnjost nema pore i udubljenja, pa se naslage i ostaci hrane lako skidaju jednim potezom sunđera."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Posudu postavite na ravno mesto, najbolje na hladniju stranu terarijuma, da se voda sporije zagreva i isparava. Vodu menjajte svaki dan, a posudu operite toplom vodom bez deterdženta ili ga dobro isperite. Ako je koristite za insekte, stavite samo onoliko koliko životinja pojede u jednom obroku. Za veće guštere i zmije izaberite širu i težu posudu iz naše ponude <a href=\"/oprema.html\">opreme za terarijume</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Mala okrugla posuda za insekte i vodu, braon | NS Reptiles",
+    "description": "Mala tamnobraon posuda glatkih, ravnih zidova za terarijum - hranilica za brašnare ili pojilica za mladunce i gekone. NS Reptiles, Novi Sad.",
+    "keywords": "mala posuda za terarijum, hranilica za insekte, posuda za brašnare, pojilica za gekone, posuda za mladunce reptila"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/posuda-astecki-motivi",
+    "oprema/posuda-kamena-zaba",
+    "oprema/posuda-porozni-sivi-kamen",
+    "oprema/posuda-ovalna-crvena-stena"
+  ]
+}

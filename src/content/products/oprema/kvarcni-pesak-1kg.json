@@ -1,9 +1,9 @@
 {
   "name": "Kvarcni pesak 1kg",
   "label": "Podloge",
-  "lead": "Kvarcni pesak 1kg - dekorativan pesak za akvarijume. Daje čist i prirodan izgled dna.",
+  "lead": "Kvarcni pesak 1kg - svetla, sitna podloga za akvarijume. Ne menja pH ni tvrdoću vode i daje čist, prirodan izgled dna.",
   "image": "/style/img/oprema/pesak.webp",
-  "imageAlt": "Kvarcni pesak 1kg - NS Reptiles",
+  "imageAlt": "Kvarcni pesak 1kg, podloga za akvarijum - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -17,6 +17,10 @@
     {
       "k": "Namena",
       "v": "Podloga za akvarijume"
+    },
+    {
+      "k": "Uticaj na vodu",
+      "v": "Ne menja pH i tvrdoću"
     }
   ],
   "description": [
@@ -26,11 +30,19 @@
     },
     {
       "type": "p",
-      "html": "Kvarcni pesak u pakovanju od 1kg je kvalitetan dekorativan pesak za akvarijume koji daje čist, svetao i prirodan izgled dna. Sitna granulacija omogućava biljkama da se lako ukorene, dok neutralna boja lepo ističe boje riba i vodenih biljaka. Kvarcni pesak je hemijski inertan - ne utice na pH vrednost i tvrdoću vode, što ga čini bezbednim za sve tipove slatkovodnih akvarijuma."
+      "html": "Kvarcni pesak je sitna, svetla podloga koja akvarijumu daje čist i prirodan izgled. Kvarc je hemijski neutralan, pa ne menja pH vrednost ni tvrdoću vode i može se koristiti u svim slatkovodnim akvarijumima. Na svetloj podlozi se lepo ističu boje riba i biljaka."
     },
     {
       "type": "p",
-      "html": "Pre upotrebe, obavezno isperite pesak nekoliko puta pod tekućom vodom dok voda ne postane bistra, kako biste uklonili prašinu koja može zamutiti akvarijum. Pogodan je i kao dekorativni element u suvim terarijumima za pustinjske vrste, mada u tom slučaju pazite da životinje ne gutaju pesak prilikom hvatanja hrane."
+      "html": "Fina granulacija odgovara ribama koje rado prekopavaju dno ili se odmaraju na njemu, a i biljke se u njoj lako ukorenjuju. Pesak se može kombinovati sa krupnijim šljunkom, na primer za stazice ili prednji deo akvarijuma."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre upotrebe pesak isperite više puta pod tekućom vodom, dok voda ne postane bistra, kako prašina ne bi zamutila akvarijum. Rasporedite ga po dnu i vodu sipajte polako, preko tanjira ili kese, da ne podignete pesak. Pakovanje od 1 kg dovoljno je za manji akvarijum, za dopunu postojećeg dna ili za dekorativne detalje. Pri redovnom održavanju površinu lagano očistite sifonom za dno. Pogledajte i naše <a href=\"/akvarijumi.html\">akvarijume po meri</a>."
     },
     {
       "type": "h2",
@@ -42,10 +54,10 @@
     }
   ],
   "seo": {
-    "title": "Kvarcni pesak 1kg | Oprema - NS Reptiles",
-    "description": "Kvarcni pesak 1kg - dekorativan pesak za akvarijume. Daje čist i prirodan izgled dna. NS Reptiles Novi Sad.",
-    "keywords": "kvarcni pesak 1kg, pesak za akvarijum, podloga za akvarijum, oprema za reptile, NS Reptiles, Novi Sad",
-    "ogTitle": "Kvarcni pesak 1kg | NS Reptiles"
+    "title": "Kvarcni pesak 1kg | Pesak za akvarijum - NS Reptiles",
+    "description": "Kvarcni pesak 1kg: svetla, sitna podloga za akvarijume koja ne menja pH ni tvrdoću vode. Za ribe i biljke. NS Reptiles, Novi Sad, dostava Srbija.",
+    "keywords": "kvarcni pesak, pesak za akvarijum, kvarcni pesak 1kg, podloga za akvarijum, pesak za dno akvarijuma",
+    "ogTitle": "Kvarcni pesak 1kg | Pesak za akvarijum - NS Reptiles"
   },
   "related": [
     "oprema/sidro-sa-koralima",

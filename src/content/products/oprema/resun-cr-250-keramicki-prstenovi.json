@@ -1,7 +1,7 @@
 {
   "name": "Resun CR-250 keramički prstenovi 250 g",
-  "label": "Filterski medij",
-  "lead": "Resun CR-250 keramički prstenovi, 250 g - biološki medij za filtere.",
+  "label": "Filteri",
+  "lead": "Resun CR-250 keramički prstenovi, 250 g - porozni biološki medij za filtere, dom za korisne bakterije.",
   "image": "/style/img/oprema/akvarijum/resun-cr-250-keramicki-prstenovi.webp",
   "imageAlt": "Resun CR-250 keramički prstenovi 250 g - NS Reptiles",
   "price": 450,
@@ -13,6 +13,14 @@
     {
       "k": "Proizvođač",
       "v": "Resun"
+    },
+    {
+      "k": "Model",
+      "v": "CR-250"
+    },
+    {
+      "k": "Materijal",
+      "v": "Porozna keramika"
     },
     {
       "k": "Pakovanje",
@@ -30,7 +38,19 @@
     },
     {
       "type": "p",
-      "html": "Porozni keramički prstenovi pružaju veliku površinu na kojoj se naseljavaju korisne bakterije koje razgrađuju amonijak i nitrite. Stavljaju se u filter iza sunđera i ne menjaju se, već se samo povremeno isperu u akvarijumskoj vodi."
+      "html": "Resun CR-250 su porozni keramički prstenovi u pakovanju od 250 g, namenjeni biološkoj filtraciji u akvarijumskim filterima. Šuplji oblik i porozna površina daju veliku površinu na kojoj se naseljavaju korisne bakterije, a voda kroz prstenove lako protiče."
+    },
+    {
+      "type": "p",
+      "html": "Te bakterije pretvaraju amonijak iz izmeta i ostataka hrane u nitrite, a zatim u manje štetne nitrate. Stabilna kolonija bakterija je osnova zdrave vode, pa je biološki medij jedan od najvažnijih delova svakog filtera."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Prstenove stavite u filter iza sunđera ili vate, da do njih dolazi već mehanički prečišćena voda. Odgovaraju spoljnim, kačećim i unutrašnjim filterima sa pregradom za medije. Ne menjaju se, već se povremeno isperu u vodi iz akvarijuma, nikad pod česmom, da bakterije ne bi propale. Pakovanje od 250 g dovoljno je za pregradu manjeg filtera ili kao dopuna većem. U novom akvarijumu bakterijama treba nekoliko nedelja da se nasele, pa ribe uvodite postepeno."
     },
     {
       "type": "h2",
@@ -43,8 +63,8 @@
   ],
   "seo": {
     "title": "Resun CR-250 keramički prstenovi 250 g | NS Reptiles",
-    "description": "Resun CR-250 keramički prstenovi, 250 g - biološki medij za filtere. NS Reptiles, Novi Sad.",
-    "keywords": "keramički prstenovi, resun cr-250, filterski medij, NS Reptiles, Novi Sad"
+    "description": "Resun CR-250 porozni keramički prstenovi, 250 g - biološki medij za spoljne, kačeće i unutrašnje filtere. Za stabilnu i zdravu vodu. NS Reptiles.",
+    "keywords": "resun cr-250, keramički prstenovi, biološki medij, filterski medij, punjenje za filter"
   },
   "brand": false,
   "usage": [

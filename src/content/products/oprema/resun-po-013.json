@@ -1,9 +1,9 @@
 {
   "name": "Resun PO-013 dekoracija most",
   "label": "Dekoracija",
-  "lead": "Resun PO-013 - dekoracija u obliku kamenog mosta sa biljkama, 16 x 7,5 x 6,5 cm.",
+  "lead": "Resun PO-013 - dekoracija za akvarijum u obliku kamenog mosta sa veštačkim biljkama, od poliresina, dimenzija 16 x 7,5 x 6,5 cm.",
   "image": "/style/img/oprema/akvarijum/resun-po-013.webp",
-  "imageAlt": "Resun PO-013 dekoracija most - NS Reptiles",
+  "imageAlt": "Resun PO-013 dekoracija kameni most sa biljkama za akvarijum - NS Reptiles",
   "price": 1200,
   "specs": [
     {
@@ -13,6 +13,14 @@
     {
       "k": "Proizvođač",
       "v": "Resun"
+    },
+    {
+      "k": "Model",
+      "v": "PO-013"
+    },
+    {
+      "k": "Oblik",
+      "v": "Kameni most sa veštačkim biljkama"
     },
     {
       "k": "Dimenzije",
@@ -30,7 +38,19 @@
     },
     {
       "type": "p",
-      "html": "Dekoracija od poliresina, bezbedna za akvarijum - ne menja parametre vode. Ribe je koriste kao prolaz i zaklon."
+      "html": "Resun PO-013 je dekoracija od poliresina u obliku starog kamenog mosta obraslog mahovinom, sa nekoliko veštačkih biljaka u svetlozelenim i žutozelenim tonovima. Ispod luka mosta nalazi se prolaz kroz koji ribe plivaju, a sam most im služi i kao zaklon. Sa dimenzijama 16 x 7,5 x 6,5 cm dekoracija je niska i izdužena, pa je pogodna za prednji deo akvarijuma i za manje akvarijume."
+    },
+    {
+      "type": "p",
+      "html": "Detalji kamena i mahovine na mostu izgledaju prirodno i iz blizine. Biljke na mostu daju zelenilo i akvarijumima bez živih biljaka, a uz kamenje i pesak most izgleda kao deo prirodnog pejzaža. Odgovara manjim ribama i račićima, koji rado koriste prolaz ispod luka."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja dekoraciju isperite mlakom vodom, bez deterdženata. Postavite je na ravnu podlogu tako da prolaz ispod luka ostane slobodan i da ga pesak ne zatrpa. Alge sa kamenog dela i biljaka uklanjajte mekom četkicom tokom redovnog održavanja akvarijuma. Uz most lepo ide i dekoracija amfora Resun PO-019."
     },
     {
       "type": "h2",
@@ -42,9 +62,9 @@
     }
   ],
   "seo": {
-    "title": "Resun PO-013 dekoracija most | Akvarijum oprema - NS Reptiles",
-    "description": "Resun PO-013 - dekoracija u obliku kamenog mosta sa biljkama, 16 x 7,5 x 6,5 cm. NS Reptiles, Novi Sad.",
-    "keywords": "resun po-013, dekoracija za akvarijum, most, NS Reptiles, Novi Sad"
+    "title": "Resun PO-013 kameni most - dekoracija za akvarijum",
+    "description": "Resun PO-013 kameni most sa veštačkim biljkama od poliresina, 16 x 7,5 x 6,5 cm. Prolaz i zaklon za manje ribe i račiće. NS Reptiles Novi Sad.",
+    "keywords": "resun po-013, resun dekoracija, most za akvarijum, dekoracija od poliresina, ukras za akvarijum"
   },
   "brand": false,
   "usage": [

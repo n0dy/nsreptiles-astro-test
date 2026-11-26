@@ -1,0 +1,72 @@
+{
+  "slug": "bark-log-tunnel-reptile-hide",
+  "name": "Tree bark hide",
+  "label": "Hides",
+  "lead": "Half-tube hide with a dark tree bark texture, open at both ends with a side opening - a tunnel for snakes and forest lizards.",
+  "imageAlt": "Tree bark hide - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Hide"
+    },
+    {
+      "k": "Intended for",
+      "v": "Terrarium"
+    },
+    {
+      "k": "Function",
+      "v": "Shelter"
+    },
+    {
+      "k": "Shape",
+      "v": "Half-tube (tunnel), side opening"
+    },
+    {
+      "k": "Look",
+      "v": "Dark, rough tree bark"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This hide looks like a piece of hollow tree bark split lengthwise. The outside has a dark, rough, furrowed bark texture, and the inside is a passage open at both ends. One side also has an oval side opening, like a hole in a trunk."
+    },
+    {
+      "type": "p",
+      "html": "Most snakes and forest-floor lizards love a tunnel with three exits. They can crawl through it, rest inside or peek out through the side opening, and always have several ways out. Tree bark is a natural choice for tropical and forest setups, alongside moss, leaves and branches."
+    },
+    {
+      "type": "h2",
+      "text": "Placement ideas"
+    },
+    {
+      "type": "p",
+      "html": "You can partly bury the tunnel in the substrate so it looks like a fallen log sticking out of the ground. For species that like tight spaces, place it so one end is against the glass or a rock, which makes the inside darker. In a humid terrarium, moss around the tunnel helps keep the inside slightly moist."
+    },
+    {
+      "type": "h2",
+      "text": "Care"
+    },
+    {
+      "type": "p",
+      "html": "The rough texture holds substrate and dirt, so scrub the hide with a brush under warm water from time to time."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Tree Bark Tunnel Hide for Snakes | NS Reptiles",
+    "description": "Half-tube hide with a dark tree bark texture, open at both ends with a side opening - a tunnel for snakes and forest lizards. NS Reptiles, Serbia.",
+    "keywords": "bark reptile hide, snake tunnel hide, tropical terrarium hide, corn snake hide, terrarium hide"
+  }
+}

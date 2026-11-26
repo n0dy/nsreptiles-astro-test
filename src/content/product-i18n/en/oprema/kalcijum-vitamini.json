@@ -2,20 +2,24 @@
   "slug": "calcium-vitamins",
   "name": "Calcium/Vitamins",
   "label": "Supplements",
-  "lead": "Calcium and vitamin supplement for reptiles. Supports proper bone development - dust it over food.",
-  "imageAlt": "Calcium/Vitamins - NS Reptiles",
+  "lead": "Calcium and vitamins for reptiles in powder form, for dusting insects and vegetables before feeding. A basic diet supplement for lizards, geckos and tortoises.",
+  "imageAlt": "Calcium and vitamin powder for reptiles - NS Reptiles",
   "specs": [
     {
       "k": "Type",
       "v": "Calcium + vitamin supplement"
     },
     {
+      "k": "Form",
+      "v": "Powder"
+    },
+    {
       "k": "Intended for",
-      "v": "Reptile bone development"
+      "v": "Supplementing the reptile diet"
     },
     {
       "k": "Use",
-      "v": "Dust over food"
+      "v": "Dusting food"
     }
   ],
   "description": [
@@ -25,15 +29,23 @@
     },
     {
       "type": "p",
-      "html": "A combined calcium and vitamin supplement for the daily diet of reptiles. Calcium is essential for proper bone development and strength, while the vitamin part of the formula supports overall metabolism, immunity and skin health."
+      "html": "Calcium and vitamin powder is a basic supplement for reptiles that eat insects, vegetables or both. Farmed feeder insects and store-bought vegetables usually do not have enough calcium relative to phosphorus, so the gap is made up by dusting food before meals."
     },
     {
       "type": "p",
-      "html": "Dust the supplement over live or supplementary food right before feeding. Regular use reduces the risk of metabolic bone disease (MBD), one of the most common diseases in captive reptiles. For best results, use it with adequate UVB lighting, which enables the synthesis of the vitamin D3 needed for calcium absorption."
+      "html": "Calcium is needed for strong bones, growth and muscle function, and vitamins help round out the diet. To use calcium, the animal needs vitamin D3, which reptiles make in their skin under UVB light or get from a supplement."
+    },
+    {
+      "type": "h2",
+      "text": "Use"
     },
     {
       "type": "p",
-      "html": "Suitable for all kinds of lizards, snakes and other reptiles that need supplementary minerals and vitamins."
+      "html": "Put insects in a bag or tub with a little powder and shake gently until they have a thin white coating, then offer them right away. For herbivores, sprinkle the powder over vegetables. How often to use the supplement depends on the species, age and terrarium lighting, so ask us or an exotic animal vet before buying."
+    },
+    {
+      "type": "p",
+      "html": "Keep the powder sealed in a dry place so it does not clump. We also recommend UVB lighting alongside it; you will find lamps and other supplements in our <a href=\"/en/equipment.html\">equipment</a> range."
     },
     {
       "type": "h2",
@@ -45,8 +57,8 @@
     }
   ],
   "seo": {
-    "title": "Calcium and Vitamin Supplement for Reptiles | NS Reptiles",
-    "description": "Calcium and vitamin supplement for reptiles that supports bone development. Dust it over food for optimal calcium and vitamin intake. NS Reptiles.",
-    "keywords": "reptile calcium vitamins, reptile supplement, calcium for reptiles, reptile vitamins, NS Reptiles"
+    "title": "Calcium and Vitamin Powder for Reptiles",
+    "description": "Calcium and vitamin powder for dusting insects and vegetables. A diet supplement for lizards, geckos and tortoises. Advice included. NS Reptiles, Serbia.",
+    "keywords": "reptile calcium, reptile vitamins, calcium for lizards, reptile supplements, calcium powder"
   }
 }

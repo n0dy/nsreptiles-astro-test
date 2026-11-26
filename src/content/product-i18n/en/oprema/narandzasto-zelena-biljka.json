@@ -1,0 +1,64 @@
+{
+  "slug": "orange-green-artificial-plant",
+  "name": "Orange-green artificial plant",
+  "label": "Plants",
+  "lead": "Tall artificial aquarium plant with feathery orange-green leaves on a light-colored base. For the background.",
+  "imageAlt": "Orange-green artificial plant for aquariums - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Artificial plant"
+    },
+    {
+      "k": "Intended for",
+      "v": "Aquarium"
+    },
+    {
+      "k": "Function",
+      "v": "Decoration and cover"
+    },
+    {
+      "k": "Color",
+      "v": "Orange and green"
+    },
+    {
+      "k": "Base",
+      "v": "Light-colored"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The orange-green artificial plant is a tall plant with thin, feathery leaves in orange and green tones. It is mounted on a light-colored base and stands on its own on the bottom."
+    },
+    {
+      "type": "p",
+      "html": "Unlike live plants, an artificial one needs no lighting, fertilizer or trimming and does not change water quality. Even fish that usually destroy plants cannot eat it, and the dense leaves give cover to smaller fish and fry."
+    },
+    {
+      "type": "h2",
+      "text": "Placement and maintenance"
+    },
+    {
+      "type": "p",
+      "html": "As a tall plant, it suits the back of the aquarium or the sides best. The fine leaves move gently in the water current, and the orange color contrasts nicely with green plants and a dark substrate. Maintenance is simple: every few weeks, or when you notice algae, rinse the plant with lukewarm water and go over it with a soft brush. Do not use detergents or cleaning products. Browse our other decorations and <a href=\"/en/equipment.html\">equipment</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Order by phone or WhatsApp message. Fast courier delivery. Customers in Novi Sad can pick up their order directly at our workshop. Contact us with any questions about the product or for a recommendation for your species."
+    }
+  ],
+  "seo": {
+    "title": "Orange-Green Artificial Aquarium Plant",
+    "description": "Orange-green artificial aquarium plant: tall, with fine feathery leaves, ideal for the background. Never wilts and needs no light. NS Reptiles.",
+    "keywords": "artificial aquarium plant, orange artificial plant, tall aquarium plant, feathery aquarium plant, aquarium decoration"
+  }
+}

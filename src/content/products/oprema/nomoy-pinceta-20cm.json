@@ -1,0 +1,77 @@
+{
+  "name": "Nomoy Pet pinceta 20 cm",
+  "label": "Pribor",
+  "lead": "Nomoy Pet pinceta od nerđajućeg čelika, dužine 20 cm, za bezbedno hranjenje reptila insektima i sitnim zalogajima. Model NZ-01/02.",
+  "image": "/style/img/oprema/nomoy-pinceta-20cm.webp",
+  "imageAlt": "Nomoy Pet pinceta od nerđajućeg čelika 20 cm - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "Nomoy Pet"
+    },
+    {
+      "k": "Model",
+      "v": "NZ-01/02"
+    },
+    {
+      "k": "Dužina",
+      "v": "20 cm"
+    },
+    {
+      "k": "Materijal",
+      "v": "Nerđajući čelik"
+    },
+    {
+      "k": "Namena",
+      "v": "Hranjenje reptila, rad u terarijumu"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Nomoy Pet pinceta dužine 20 cm izrađena je od nerđajućeg čelika i namenjena hranjenju reptila i sitnim poslovima u terarijumu. Pincetom hranu nudite direktno ispred životinje, a ruka ostaje na bezbednoj udaljenosti, što smanjuje rizik od slučajnog ujeda i stres kod plašljivih životinja."
+    },
+    {
+      "type": "p",
+      "html": "Dužina od 20 cm je zgodna za manje terarijume i za vrste kao što su leopard gekoni, crested gekoni i mladunci, gde je potrebna preciznost više nego domet. Za veće i dublje terarijume ili za vrste sa snažnim ugrizom bolja je duža pinceta od 30 cm."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Insekta uhvatite blago, za sredinu tela, i ponudite ga mirno ispred životinje. Pincetu možete koristiti i za vađenje ostataka hrane, izmeta ili presvučene kože, kao i za nameštanje biljaka i dekoracije."
+    },
+    {
+      "type": "p",
+      "html": "Posle svakog hranjenja pincetu operite toplom vodom i deterdžentom, a povremeno je dezinfikujte, posebno ako je koristite za više terarijuma. Nerđajući čelik se lako održava. Ostali pribor pronađite u ponudi <a href=\"/oprema.html\">opreme</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Nomoy Pet pinceta 20 cm - nerđajući čelik",
+    "description": "Nomoy Pet pinceta 20 cm od nerđajućeg čelika za hranjenje leopard gekona, crested gekona i mladunaca. Precizna i laka za pranje. NS Reptiles.",
+    "keywords": "pinceta za reptile, pinceta 20 cm, pinceta za hranjenje, nomoy pet pinceta, pinceta za leopard gekona"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/plasticna-pinceta-plava",
+    "oprema/lopatica-sito-za-pesak"
+  ]
+}

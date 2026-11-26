@@ -1,0 +1,71 @@
+{
+  "name": "Zamak sa kapijom",
+  "label": "Dekoracija",
+  "lead": "Zamak sa kapijom za akvarijum - utvrđenje sa dve kule i velikim lukom kapije kroz koji ribe slobodno plivaju.",
+  "image": "/style/img/oprema/dekoracija/zamak-sa-kapijom.webp",
+  "imageAlt": "Zamak sa dve kule i velikom lučnom kapijom, dekoracija za akvarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - zamak"
+    },
+    {
+      "k": "Izgled",
+      "v": "Dve kule i velika lučna kapija"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras i prolaz za ribe"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Zamak sa kapijom je dekoracija u obliku starog utvrđenja sa dve četvrtaste kule sa zupcima, povezane zidom u kom je velika lučna kapija. Kamene površine imaju izražene detalje cigala i prozora, a mahovina po zidovima daje utisak građevine koja dugo stoji pod vodom."
+    },
+    {
+      "type": "p",
+      "html": "Široka kapija je pravi prolaz: ribe kroz nju slobodno plivaju, pa zamak nije samo ukras nego i deo njihove staze kroz akvarijum. Najbolje izgleda u sredini postavke ili uz zadnje staklo, gde kapija dolazi do izražaja. Kule i prozori upotpunjuju izgled srednjovekovnog zamka, a zeleni detalji ga povezuju sa biljkama."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja zamak isperite mlakom vodom, bez deterdženata. Postavite ga na ravnu podlogu tako da ispod kapije ostane slobodan prolaz i da ga pesak ne zatrpa. Ako ga stavljate uz zadnje staklo, ostavite malo prostora iza njega da biste lakše čistili. Alge sa zidova i mahovine uklanjajte mekom četkicom tokom redovnog održavanja."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Zamak sa kapijom - prolaz za ribe u akvarijumu",
+    "description": "Utvrđenje sa dve kule i velikom lučnom kapijom kroz koju ribe plivaju. Dekoracija za akvarijum sa detaljima kamena i mahovine. NS Reptiles.",
+    "keywords": "zamak sa kapijom, zamak za akvarijum, prolaz za ribe, dekoracija za akvarijum, ukras utvrđenje"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum"
+  ],
+  "related": [
+    "oprema/amfora-terakota",
+    "oprema/lobanja-krokodila",
+    "oprema/zamak-na-steni",
+    "oprema/zamak-sa-zidinama"
+  ]
+}

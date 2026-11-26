@@ -1,0 +1,77 @@
+---
+// Tehnički nacrt (SVG) koji se iscrtava kad kartica uđe u ekran; na hover ga zamenjuje fotka.
+interface Props {
+  kind: 'terarijum' | 'akvarijum';
+  dims: [string, string, string]; // širina, visina, dubina
+  notes: [string, string, string, string];
+}
+const { kind, dims, notes } = Astro.props;
+const [w, h, d] = dims;
+const isTer = kind === 'terarijum';
+---
+
+<svg class="bp-sketch" viewBox="0 0 800 400" aria-hidden="true" focusable="false">
+  <defs>
+    <marker id={`bp-arrow-${kind}`} viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 1 L9 5 L0 9" class="bp-mk" />
+    </marker>
+  </defs>
+  <g transform="translate(-40 0)">
+
+  <g class="bp-lines">
+    <!-- korpus: prednja strana + dubina -->
+    <path pathLength="1" d="M170 120 H610 V300 H170 Z" />
+    <path pathLength="1" d="M170 120 L230 80 H670 L610 120" />
+    <path pathLength="1" d="M610 300 L670 260 V80" />
+    {isTer ? (
+      <>
+        <path pathLength="1" d="M170 145 H610 L670 105" />
+        <path pathLength="1" d="M170 275 H610 L670 235" />
+        <path pathLength="1" d="M300 112 L345 82 M330 112 L375 82 M360 112 L405 82 M390 112 L435 82 M420 112 L465 82 M450 112 L495 82 M480 112 L525 82" />
+        <path pathLength="1" d="M386 145 V275 M396 145 V275" />
+        <path pathLength="1" d="M372 200 V222 M410 200 V222" />
+        <path pathLength="1" d="M190 272 C205 236 236 222 262 208 C292 192 318 178 350 190 C380 168 414 160 446 176 C484 152 522 150 556 168 C578 180 592 196 596 272" />
+        <path pathLength="1" d="M262 208 L282 246 M350 190 L338 236 M446 176 L470 224 M556 168 L540 214" />
+      </>
+    ) : (
+      <>
+        <path pathLength="1" d="M170 132 H610 L670 92" />
+        <path pathLength="1" d="M170 288 H610 L670 248" />
+        <path pathLength="1" d="M196 116 L240 88 H648 L604 116 Z M330 116 L374 88 M470 116 L514 88" />
+        <path pathLength="1" d="M190 284 C200 238 226 214 254 196 C282 178 310 170 336 186 C362 160 396 150 426 168 C452 182 470 208 478 284" />
+        <path pathLength="1" d="M254 196 L276 240 M336 186 L322 232 M426 168 L446 222" />
+        <path pathLength="1" d="M190 284 C260 276 520 278 600 284" />
+      </>
+    )}
+  </g>
+
+  <!-- isprekidano: rasveta / nivo vode -->
+  <g class="bp-dash">
+    {isTer ? <path d="M196 160 H584" /> : <path d="M178 152 H602" />}
+  </g>
+
+  <!-- kote -->
+  <g class="bp-dim">
+    <path d="M170 312 V350 M610 312 V350" />
+    <path d={`M172 340 H608`} marker-start={`url(#bp-arrow-${kind})`} marker-end={`url(#bp-arrow-${kind})`} />
+    <path d="M122 120 H158 M122 300 H158" />
+    <path d="M132 122 V298" marker-start={`url(#bp-arrow-${kind})`} marker-end={`url(#bp-arrow-${kind})`} />
+    <path d="M622 312 L682 272" marker-start={`url(#bp-arrow-${kind})`} marker-end={`url(#bp-arrow-${kind})`} />
+    <text x="390" y="368" text-anchor="middle">{w}</text>
+    <text x="112" y="210" text-anchor="middle" transform="rotate(-90 112 210)">{h}</text>
+    <text x="694" y="306">{d}</text>
+  </g>
+
+  <!-- oznake sa linijama -->
+  <g class="bp-notes">
+    <path d={isTer ? 'M40 50 H178 L240 160' : 'M40 50 H178 L230 152'} />
+    <text x="40" y="40">{notes[0]}</text>
+    <path d={isTer ? 'M300 50 H430 L430 182' : 'M290 50 H420 L392 176'} />
+    <text x="300" y="40">{notes[1]}</text>
+    <path d={isTer ? 'M570 50 H700 L460 96' : 'M570 50 H700 L560 100'} />
+    <text x="570" y="40">{notes[2]}</text>
+    <path d={isTer ? 'M410 222 L700 176 H800' : 'M640 190 L700 176 H800'} />
+    <text x="700" y="166">{notes[3]}</text>
+  </g>
+  </g>
+</svg>

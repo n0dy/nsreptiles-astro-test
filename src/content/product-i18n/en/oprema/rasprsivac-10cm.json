@@ -1,0 +1,56 @@
+{
+  "slug": "air-stone-bar-10cm",
+  "name": "Air stone 10 cm",
+  "label": "Aeration",
+  "lead": "Aquarium air stone, 10 cm long - fine bubbles for better oxygenation in smaller aquariums.",
+  "imageAlt": "Air stone 10 cm - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Air stone"
+    },
+    {
+      "k": "Length",
+      "v": "10 cm"
+    },
+    {
+      "k": "Intended for",
+      "v": "Aquarium"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The 10 cm air stone is a classic bar with a blue porous body and a tubing connector. The short length suits small and nano aquariums and quarantine tanks, and it is easy to hide in a corner or behind rocks and roots. The photo is illustrative and shows air stones of different lengths."
+    },
+    {
+      "type": "p",
+      "html": "The air stone connects to an air pump with tubing and breaks the air into fine bubbles. The bubbles move the water surface, where gas exchange happens, so the water gets more oxygen, and the water movement prevents stagnant zones and surface film."
+    },
+    {
+      "type": "h2",
+      "text": "Use and maintenance"
+    },
+    {
+      "type": "p",
+      "html": "Over time the air stone clogs with sediment and algae, the bubbles get bigger and the pump has a harder time pushing air. That is when to replace it. Keep in mind that a longer air stone needs a stronger pump. Fit a check valve on the tubing so water cannot reach the pump during a power cut. Rinse a new air stone in clean water before first use."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Air Stone 10 cm for Small Aquariums | NS Reptiles",
+    "description": "A 10 cm air stone for air pumps - fine bubbles and better oxygenation in nano, small and quarantine aquariums. NS Reptiles, Novi Sad, Serbia.",
+    "keywords": "air stone 10cm, aquarium air stone, air diffuser, aeration, water oxygenation"
+  }
+}

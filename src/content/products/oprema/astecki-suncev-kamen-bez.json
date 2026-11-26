@@ -1,0 +1,79 @@
+{
+  "name": "Astečki sunčev kamen, bež",
+  "label": "Dekoracija",
+  "lead": "Astečki sunčev kamen u bež boji peščara - okrugla reljefna dekoracija za terarijum, sa licem u sredini i zracima u obliku zvezde.",
+  "image": "/style/img/oprema/dekoracija/astecki-suncev-kamen-bez.webp",
+  "imageAlt": "Astečki sunčev kamen u bež boji peščara, reljefni disk - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - reljefni disk"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras"
+    },
+    {
+      "k": "Boja",
+      "v": "Bež (izgled peščara)"
+    },
+    {
+      "k": "Motiv",
+      "v": "Astečki sunčev kamen"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova dekoracija je inspirisana čuvenim astečkim kalendarom, kamenim diskom sa likom sunca u središtu. Bež verzija ima izgled grubo klesanog peščara: u sredini je lice, oko njega prsten sa sitnim glifima, a preko ivice se pružaju zraci u obliku osmokrake zvezde, okruženi nizom kružića. Reljef je plitak i ujednačen, pa disk deluje mirno i prirodno uz pesak, kamenje i suve grane."
+    },
+    {
+      "type": "p",
+      "html": "Najbolje se uklapa u pustinjske i polupustinjske terarijume, na primer za bradatu agamu, leopard gekona ili pustinjske zmije, gde bež tonovi prate boju podloge. Ako želite toplije, crvenkaste tonove i dublji reljef, pogledajte terakota varijantu astečkog sunčevog kamena."
+    },
+    {
+      "type": "h2",
+      "text": "Kako postaviti disk"
+    },
+    {
+      "type": "p",
+      "html": "Disk možete nasloniti na zadnji ili bočni zid terarijuma kao reljefni ukras, ili ga položiti na podlogu kao ravnu površinu preko koje životinja prelazi. Kada ga naslanjate, ukopajte donju ivicu u podlogu ili ga podbočite kamenom, da ne može da sklizne i padne na životinju. Prostor iza nagnutog diska može da posluži i kao dodatni zaklon."
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja disk isperite mlakom vodom i ostavite da se potpuno osuši. Prašinu i ostatke podloge uklanjajte mekom četkom; dekoracija se lako vadi i pere."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Astečki sunčev kamen, bež - dekoracija za terarijum",
+    "description": "Astečki sunčev kamen u bež boji peščara: reljefni disk sa licem sunca i zracima zvezde, za pustinjski terarijum. NS Reptiles, Novi Sad.",
+    "keywords": "astečki sunčev kamen, astečki kalendar dekoracija, dekoracija za terarijum, pustinjski terarijum, bež dekoracija"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/astecki-suncev-kamen-terakota",
+    "oprema/lobanja-sa-gas-maskom",
+    "oprema/lobanja-terakota",
+    "oprema/ostarela-kamena-lobanja"
+  ]
+}

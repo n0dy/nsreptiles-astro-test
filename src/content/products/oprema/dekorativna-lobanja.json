@@ -1,9 +1,9 @@
 {
   "name": "Dekorativna lobanja",
   "label": "Dekoracija",
-  "lead": "Dekorativna lobanja za terarijum ili akvarijum. Ukras i skrovište za vaše životinje.",
-  "image": "/style/img/oprema/dekoracija/lobanja.png",
-  "imageAlt": "Dekorativna lobanja - NS Reptiles",
+  "lead": "Dekorativna ljudska lobanja za terarijum i akvarijum, u boji stare kosti sa tamnim pukotinama. Ukras i zaklon za manje životinje i ribe.",
+  "image": "/style/img/oprema/dekoracija/lobanja.webp",
+  "imageAlt": "Dekorativna ljudska lobanja u boji stare kosti sa pukotinama - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -17,6 +17,10 @@
     {
       "k": "Funkcija",
       "v": "Ukras i skrovište"
+    },
+    {
+      "k": "Izgled",
+      "v": "Ljudska lobanja, boja stare kosti sa pukotinama"
     }
   ],
   "description": [
@@ -26,11 +30,19 @@
     },
     {
       "type": "p",
-      "html": "Dekorativna lobanja je atraktivan dodatak za terarijum ili akvarijum koji kombinuje estetsku privlačnost sa praktičnom funkcionom skrovišta. Životinje je koriste kao sklonište tokom odmora ili pri stresnim situacijama."
+      "html": "Dekorativna lobanja ima oblik ljudske lobanje sa dubokim očnim dupljama, izraženim zubima i mrežom tamnih pukotina po temenu. Boja je topla, ružičasto-bež, kao kod kosti koja je dugo ležala u zemlji, a sivi zubi i senke u udubljenjima daju joj realističan izgled. Uz kamenje i koren lako postaje glavni detalj tematske postavke."
     },
     {
       "type": "p",
-      "html": "Izrađeno od bezbednog materijala, pogodna za sve vrste reptila, vodozemaca i riba. Lako se čisti i održava. Dostupna u većoj veličini za krupnije životinje."
+      "html": "Lobanja je namenjena i terarijumu i akvarijumu. U terarijumu je manji gušteri, gekoni i vodozemci koriste kao zaklon tokom odmora ili kada se uplaše. U akvarijumu ribe istražuju otvore i senku koju lobanja pravi, pa je dobar izbor za postavke u stilu potopljenih ruševina."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja lobanju isperite mlakom vodom, bez deterdženta. U terarijumu je postavite na čvrstu podlogu ili je malo ukopajte, da ne može da se prevrne na životinju koja kopa ispod nje. U akvarijumu je stavite na dno i proverite da ribe mogu slobodno da uđu i izađu iz otvora, bez rizika da se zaglave. Prilikom čišćenja koristite meku četku i čistu vodu."
     },
     {
       "type": "h2",
@@ -42,10 +54,9 @@
     }
   ],
   "seo": {
-    "title": "Dekorativna lobanja | Dekoracija za Terarijum - NS Reptiles",
-    "description": "Dekorativna lobanja za terarijum ili akvarijum. Ukras i skrovište za životinje. NS Reptiles Novi Sad.",
-    "keywords": "dekorativna lobanja, dekoracija terarijum, skrovište reptili, NS Reptiles",
-    "ogTitle": "Dekorativna lobanja | NS Reptiles"
+    "title": "Dekorativna lobanja za terarijum i akvarijum | NS Reptiles",
+    "description": "Dekorativna ljudska lobanja u boji stare kosti sa tamnim pukotinama. Ukras i zaklon za terarijum i akvarijum, za guštere, gekone i ribe. NS Reptiles.",
+    "keywords": "dekorativna lobanja, lobanja za terarijum, lobanja za akvarijum, skrovište za reptile, horor dekoracija"
   },
   "related": [
     "oprema/brodsko-kormilo",

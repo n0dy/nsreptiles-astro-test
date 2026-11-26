@@ -1,7 +1,7 @@
 {
   "name": "Magnetni čistač stakla 10 cm",
   "label": "Pribor",
-  "lead": "Magnetni čistač stakla za akvarijum, 10 cm - za veće akvarijume i deblja stakla.",
+  "lead": "Magnetni čistač stakla za akvarijum, 10 cm - veća površina za brže čišćenje srednjih i većih akvarijuma.",
   "image": "/style/img/oprema/akvarijum/magnetni-cistac-10cm.webp",
   "imageAlt": "Magnetni čistač stakla 10 cm - NS Reptiles",
   "price": 1100,
@@ -9,6 +9,10 @@
     {
       "k": "Tip",
       "v": "Magnetni čistač stakla"
+    },
+    {
+      "k": "Brend",
+      "v": "Resun Magnetic Brush (Medium)"
     },
     {
       "k": "Veličina",
@@ -26,7 +30,19 @@
     },
     {
       "type": "p",
-      "html": "Unutrašnji deo čistača ide u vodu, a spoljašnjim ga vodite preko stakla. Brzo skida naslage algi i održava staklo providnim. Fotografija je ilustrativna."
+      "html": "Magnetni čistač stakla od 10 cm je veća varijanta Resun Magnetic Brush čistača (oznaka Medium na pakovanju). Veća radna površina očisti staklo u manje poteza, pa je pogodan za srednje i veće akvarijume, gde bi manji čistač bio spor."
+    },
+    {
+      "type": "p",
+      "html": "Čistač ima dva dela koja se privlače magnetom. Unutrašnji deo ide u vodu i naleže na staklo, a spoljašnjim delom ga vodite po spoljnoj strani stakla. Tako skidate tanke naslage algi bez kvašenja ruku i bez uznemiravanja riba."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Čistite redovno, dok su naslage tanke. Pazite u blizini dna: zrno peska ili šljunka zaglavljeno ispod unutrašnjeg dela može da izgrebe staklo, pa tada čistač izvadite i isperite. Posle upotrebe delove isperite čistom vodom i čuvajte ih spojene. Za tvrdokorne naslage i uglove koristite strugač ili sunđer, a redovno čišćenje iskoristite da usput pregledate ribe i opremu."
     },
     {
       "type": "h2",
@@ -38,9 +54,9 @@
     }
   ],
   "seo": {
-    "title": "Magnetni čistač stakla 10 cm | Akvarijum oprema - NS Reptiles",
-    "description": "Magnetni čistač stakla za akvarijum, 10 cm - za veće akvarijume i deblja stakla. NS Reptiles, Novi Sad.",
-    "keywords": "magnetni čistač, čistač stakla akvarijuma, magnet za akvarijum, NS Reptiles, Novi Sad"
+    "title": "Magnetni čistač stakla za akvarijum 10 cm | NS Reptiles",
+    "description": "Resun magnetni čistač stakla od 10 cm za srednje i veće akvarijume. Veća površina, brže čišćenje algi sa unutrašnje strane stakla. NS Reptiles.",
+    "keywords": "magnetni čistač stakla 10 cm, magnet za akvarijum, čistač algi, resun magnetic brush, čišćenje akvarijuma"
   },
   "brand": false,
   "usage": [

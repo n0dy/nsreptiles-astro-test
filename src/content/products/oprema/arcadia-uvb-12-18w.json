@@ -1,9 +1,9 @@
 {
   "name": "Arcadia UVB 12% 18W T8 600mm",
   "label": "Rasveta",
-  "lead": "Arcadia 12% UVB T8 cev 18W / 600mm. Maksimalno UVB zračenje za pustinjske vrste reptila.",
+  "lead": "Arcadia D3+ Desert 12% UVB T8 cev od 18 W i 600 mm, za pustinjske reptile kojima treba jako UVB zračenje. Proizvođač navodi 12 meseci trajanja.",
   "image": "/style/img/oprema/arcadia-uvb-12-18w.webp",
-  "imageAlt": "Arcadia UVB 12% 18W T8 600mm - NS Reptiles",
+  "imageAlt": "Arcadia D3+ Desert 12% UVB T8 18W 600 mm - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -11,15 +11,31 @@
       "v": "Arcadia"
     },
     {
-      "k": "Format",
-      "v": "T8 18W 600mm"
+      "k": "Model",
+      "v": "D3+ Desert 12% T8"
+    },
+    {
+      "k": "Snaga",
+      "v": "18 W"
+    },
+    {
+      "k": "Dužina",
+      "v": "600 mm"
+    },
+    {
+      "k": "Prečnik",
+      "v": "26 mm (T8)"
     },
     {
       "k": "UVB",
       "v": "12%"
     },
     {
-      "k": "Trajnost",
+      "k": "Svetlost",
+      "v": "420 lm"
+    },
+    {
+      "k": "Trajanje UVB",
       "v": "12 meseci"
     }
   ],
@@ -30,11 +46,23 @@
     },
     {
       "type": "p",
-      "html": "Arcadia 12% UVB T8 fluorescentna cev snage 18W i dužine 600mm pruža najjače UVB zračenje u T8 seriji, namenjeno pustinjskim vrstama reptila izloženim ekstremnom suncu u prirodi. UVB zračenje je neophodno za sintezu vitamina D3 u koži, koji omogućava apsorpciju kalcijuma i pravilan razvoj kostiju, čime se sprečava metabolička bolest kostiju (MBD)."
+      "html": "Arcadia D3+ Desert 12% je T8 fluorescentna cev punog spektra sa visokim udelom UVB zračenja, namenjena pustinjskim vrstama. UVB omogućava reptilima da u koži stvaraju vitamin D3, bez kojeg ne mogu pravilno da iskoriste kalcijum iz hrane. Model od 18 W je dug 600 mm, prečnika 26 mm i daje 420 lumena."
     },
     {
       "type": "p",
-      "html": "Procenat od 12% odgovara najzahtevnijim pustinjskim vrstama poput bradatih agama i uromastiksa. Cev dužine 600mm pokriva veće terarijume i postavlja se u odgovarajući T8 nosač na vrhu. Preporučena zamena je svakih 12 meseci jer UVB emisija postepeno slabi, iako vidljiva svetlost ostaje nepromenjena."
+      "html": "Arcadia ističe da su njene D3 i D3+ T8 cevi sa 6% i 12% UVB među najjačim T8 cevima na svetu i da UVB procenat meri posle prvih 100 sati rada. Pogodna je za bradate agame, uromastikse, plavojezične skinkove, kornjače i druge vrste kojima treba jako UVB."
+    },
+    {
+      "type": "h2",
+      "text": "Rastojanje i zamena"
+    },
+    {
+      "type": "p",
+      "html": "Prema prosečnim merenjima proizvođača sa reflektorom, UV indeks je oko 4,0 na 25 cm, 2,95 na 30 cm i 1,9 na 38 cm od cevi. To pomaže da izaberete visinu cevi i mesta za sunčanje; ostavite životinji i deo terarijuma u senci. Proizvođač navodi da cev daje UVB 12 meseci, posle čega je treba zameniti."
+    },
+    {
+      "type": "p",
+      "html": "Cev se postavlja u T8 svetiljku sa predspojnim uređajem, najbolje sa reflektorom. Svetiljke i ostalu opremu pogledajte u ponudi <a href=\"/oprema.html\">opreme</a>."
     },
     {
       "type": "h2",
@@ -46,15 +74,13 @@
     }
   ],
   "seo": {
-    "title": "Arcadia UVB 12% 18W T8 600mm | UVB Cev za Reptile - NS Reptiles",
-    "description": "Arcadia 12% UVB T8 cev 18W / 600mm za pustinjske vrste reptila kojima treba maksimalno UVB zračenje. Trajnost 12 meseci.",
-    "keywords": "Arcadia UVB 12% 18W T8, UVB cev za reptile, pustinjske vrste reptila, jako UVB, NS Reptiles",
-    "ogTitle": "Arcadia UVB 12% 18W T8 600mm | NS Reptiles"
+    "title": "Arcadia D3+ Desert 12% T8 18W 600mm - UVB cev",
+    "description": "Arcadia D3+ Desert 12% UVB T8 18 W, 600 mm: jako UVB za bradate agame i pustinjske guštere, 12 meseci trajanja. NS Reptiles Novi Sad.",
+    "keywords": "arcadia desert 12% t8, uvb cev 600mm, uvb lampa za bradatu agamu, t8 uvb 18w, arcadia d3+"
   },
   "related": [
     "oprema/arcadia-uvb-10-18w",
     "oprema/arcadia-uvb-12-23w",
-    "oprema/arcadia-uvb-7-23w",
-    "oprema/arcadia-calciumpro-mg"
+    "oprema/arcadia-uvb-7-23w"
   ]
 }

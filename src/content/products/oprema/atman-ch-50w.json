@@ -1,22 +1,34 @@
 {
   "name": "Atman CH-50W grejač 50 W",
   "label": "Grejači",
-  "lead": "Atman grejač za akvarijum od 50 W sa termostatom - održava stalnu temperaturu vode.",
+  "lead": "Atman CH-50W grejač za akvarijum iz serije Noble Heater, 50 W sa termostatom - za manje tropske akvarijume.",
   "image": "/style/img/oprema/akvarijum/atman-ch-50w.webp",
   "imageAlt": "Atman CH-50W grejač 50 W - NS Reptiles",
   "price": 1200,
   "specs": [
     {
       "k": "Tip",
-      "v": "Grejač za akvarijum sa termostatom"
+      "v": "Potopni grejač sa termostatom"
     },
     {
       "k": "Proizvođač",
       "v": "Atman"
     },
     {
+      "k": "Model",
+      "v": "CH-50W"
+    },
+    {
+      "k": "Serija",
+      "v": "Noble Heater"
+    },
+    {
       "k": "Snaga",
       "v": "50 W"
+    },
+    {
+      "k": "Napajanje",
+      "v": "230 V / 50 Hz"
     },
     {
       "k": "Namena",
@@ -30,7 +42,23 @@
     },
     {
       "type": "p",
-      "html": "Potopni grejač sa ugrađenim termostatom za slatkovodne i tropske akvarijume. Temperatura se podešava točkićem, a grejač se sam uključuje i isključuje kad voda dostigne zadatu vrednost. Pri izboru snage računajte okvirno 1 W po litru vode - ako niste sigurni, pozovite nas."
+      "html": "Atman CH-50W je manji model iz serije Noble Heater: potopni grejač od 50 W sa ugrađenim termostatom i providnim kućištem. Željenu temperaturu birate točkićem na vrhu, a termostat sam uključuje i isključuje grejanje kad voda dostigne zadatu vrednost. Namenjen je manjim tropskim akvarijumima, akvarijumima za borce i karantinskim akvarijumima."
+    },
+    {
+      "type": "h2",
+      "text": "Kako izabrati snagu grejača"
+    },
+    {
+      "type": "p",
+      "html": "Snagu grejača birajte prema zapremini akvarijuma i temperaturi prostorije: veći akvarijum i hladnija soba traže jači grejač. Ako je prostorija hladna ili akvarijum nema poklopac, birajte jači model ili dva slabija grejača na suprotnim krajevima akvarijuma. Ako niste sigurni koja snaga vam treba, pitajte nas."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Grejač postavite koso ili uspravno na mesto gde voda dobro struji, na primer pored izlaza filtera, da se toplota ravnomerno raspoređuje. Mora biti potopljen do označene linije. Pre vađenja iz vode isključite ga i sačekajte da se ohladi, jer vruć grejač van vode može da pukne. Temperaturu uvek proveravajte termometrom."
     },
     {
       "type": "h2",
@@ -42,9 +70,9 @@
     }
   ],
   "seo": {
-    "title": "Atman CH-50W grejač 50 W | Akvarijum oprema - NS Reptiles",
-    "description": "Atman grejač za akvarijum od 50 W sa termostatom - održava stalnu temperaturu vode. NS Reptiles, Novi Sad.",
-    "keywords": "grejač za akvarijum, atman grejač, grejač 50w, NS Reptiles, Novi Sad"
+    "title": "Atman CH-50W Noble grejač za akvarijum 50 W | NS Reptiles",
+    "description": "Atman CH-50W, grejač od 50 W iz serije Noble Heater, sa termostatom i providnim kućištem. Za manje tropske akvarijume, borce i karantin.",
+    "keywords": "atman ch-50w, noble heater, grejač za akvarijum 50w, grejač za mali akvarijum, grejač za borca"
   },
   "brand": false,
   "usage": [

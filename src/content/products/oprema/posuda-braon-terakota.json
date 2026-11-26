@@ -1,0 +1,75 @@
+{
+  "name": "Posuda za vodu, braon terakota",
+  "label": "Posude",
+  "lead": "Plitka posuda za vodu u braon boji terakote, široka i niska - lak pristup vodi za mlade guštere, gekone i mladunce kopnenih kornjača.",
+  "image": "/style/img/oprema/posuda-braon-terakota.webp",
+  "imageAlt": "Posuda za vodu, braon terakota - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Posuda za vodu"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Pojilica / hranilica"
+    },
+    {
+      "k": "Oblik",
+      "v": "Široka, plitka, zaobljena"
+    },
+    {
+      "k": "Boja",
+      "v": "Braon terakota sa svetlijim obodom"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova posuda za vodu ima široko, ravno dno i nisku, uzdignutu ivicu u boji terakote. Oblik je zaobljen, pomalo nalik kapljici, a svetlije nijanse po obodu podsećaju na prirodni kamen koji je izbledeo na suncu."
+    },
+    {
+      "type": "p",
+      "html": "Najveća prednost je mala dubina uz veliku površinu. Mladi gušteri, leopard gekoni i mladunci kopnenih kornjača lako prilaze vodi i izlaze iz nje, bez rizika da se okliznu u dubok sloj vode. Široka površina takođe znači da će životinja pre primetiti vodu, što je korisno kod jedinki koje tek uče da piju iz posude."
+    },
+    {
+      "type": "h2",
+      "text": "Na šta obratiti pažnju"
+    },
+    {
+      "type": "p",
+      "html": "Plitka voda brže isparava i brže se zagreva ako je posuda blizu grejne lampe. Zato je postavite na hladniju stranu terarijuma i dopunjavajte je po potrebi. Vodu svakog dana zamenite svežom, jer se u plitkoj vodi brzo skupljaju podloga i izmet. Posudu utisnite malo u podlogu ili je postavite direktno na dno, da stoji ravno i da se ne pomera kada životinja stane na ivicu."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Plitka posuda za vodu, braon terakota | NS Reptiles",
+    "description": "Široka i plitka posuda za vodu u boji terakote - lak ulazak i izlazak za mlade guštere, gekone i kopnene kornjače. NS Reptiles, Novi Sad.",
+    "keywords": "plitka posuda za vodu, posuda za kornjače, pojilica za gekone, posuda terakota, posuda za vodu za terarijum"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/posuda-astecki-motivi",
+    "oprema/posuda-kamena-zaba",
+    "oprema/mala-okrugla-posuda-braon",
+    "oprema/posuda-porozni-sivi-kamen"
+  ]
+}

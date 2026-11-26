@@ -1,0 +1,88 @@
+{
+  "name": "Arcadia D3 Desert 12% T5 24W",
+  "label": "Rasveta",
+  "lead": "Arcadia D3+ Desert 12% UVB T5 HO cev od 24 W i 550 mm, za pustinjske reptile kojima treba jako UVB zračenje. Traje 12 meseci.",
+  "image": "/style/img/oprema/arcadia-desert-12-t5-24w.webp",
+  "imageAlt": "Arcadia D3+ Desert 12% UVB T5 HO 24W 550 mm - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "Arcadia"
+    },
+    {
+      "k": "Model",
+      "v": "D3+ Desert 12% T5 HO"
+    },
+    {
+      "k": "Snaga",
+      "v": "24 W"
+    },
+    {
+      "k": "Dužina",
+      "v": "550 mm"
+    },
+    {
+      "k": "Prečnik",
+      "v": "16 mm (T5)"
+    },
+    {
+      "k": "UVB / UVA",
+      "v": "12% / 30%"
+    },
+    {
+      "k": "Svetlost",
+      "v": "850 lm, 7000 K, CRI 95"
+    },
+    {
+      "k": "Trajanje UVB",
+      "v": "12 meseci"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Arcadia D3+ Desert 12% je T5 HO fluorescentna cev punog spektra koja što vernije oponaša sunčevu svetlost, uključujući UVA i visok nivo UVB zračenja. UVB omogućava reptilima da u koži stvaraju vitamin D3, potreban za iskorišćavanje kalcijuma. Model od 24 W je dug 550 mm, prečnika 16 mm, daje 850 lumena, temperaturu boje 7000 K i CRI 95, bez treperenja."
+    },
+    {
+      "type": "p",
+      "html": "Arcadia ga preporučuje za vrste kojima treba puno UVB u većim terarijumima: bradate agame, uromastikse, plavojezične skinkove, guštere sa okovratnikom, kornjače i druge pustinjske vrste. Na pakovanju je oznaka za Ferguson zone 3-4."
+    },
+    {
+      "type": "h2",
+      "text": "Rastojanje i zamena"
+    },
+    {
+      "type": "p",
+      "html": "Proizvođač daje sledeće maksimalne UV indekse direktno ispod cevi u ProT5 reflektoru: 6,5 na 38 cm, 4,4 na 45 cm, 3,8 na 50 cm i 2,4 na 60 cm, dok na 30 cm savetuje oprez. Obezbedite životinji senku i hladniju zonu. UVB zračenje slabi i kada cev i dalje svetli, pa je menjajte posle 12 meseci."
+    },
+    {
+      "type": "p",
+      "html": "T5 HO cev zahteva odgovarajuću T5 svetiljku sa elektronskim predspojnim uređajem. Svetiljke i ostalu opremu pronađite u ponudi <a href=\"/oprema.html\">opreme</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Arcadia D3+ Desert 12% T5 24W 550mm - UVB cev",
+    "description": "Arcadia D3+ Desert 12% UVB T5 HO 24 W, 550 mm: jako UVB za bradate agame i pustinjske guštere, UVI tabela proizvođača. NS Reptiles Novi Sad.",
+    "keywords": "arcadia desert 12% t5, uvb cev za bradatu agamu, t5 uvb 24w, uvb lampa za terarijum, arcadia d3+"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/svetiljka-fluo-14w"
+  ]
+}

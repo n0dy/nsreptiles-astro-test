@@ -1,9 +1,9 @@
 {
   "name": "HabiStat Reptavite 40g",
   "label": "Suplementi",
-  "lead": "Vitaminski i mineralni suplement za reptile i vodozemce. Koristi se na povrću, voću, mesu ili ribi. Idealan za biljojede guštere i kornjače.",
+  "lead": "HabiStat Reptavite je vitaminsko-mineralni suplement za reptile i vodozemce koji jedu povrće, voće, meso ili ribu. Kesica od 40 g, svako 4. hranjenje.",
   "image": "/style/img/oprema/habistat-reptavite.webp",
-  "imageAlt": "HabiStat Reptavite 40g - vitaminski suplement za reptile - NS Reptiles",
+  "imageAlt": "HabiStat Reptavite 40 g, vitamini i minerali za reptile - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -11,16 +11,24 @@
       "v": "HabiStat"
     },
     {
-      "k": "Težina",
-      "v": "40g"
+      "k": "Pakovanje",
+      "v": "40 g, kesica sa zatvaračem"
     },
     {
       "k": "Tip",
-      "v": "Vitaminski suplement"
+      "v": "Vitamini i minerali"
+    },
+    {
+      "k": "Sadrži",
+      "v": "Vitamine A, D3, E, C, K3, B grupu, minerale u helatnom obliku"
     },
     {
       "k": "Namena",
-      "v": "Biljojedi reptili"
+      "v": "Iguane, biljojedi gušteri, kornjače"
+    },
+    {
+      "k": "Doza",
+      "v": "1/4 kašičice, svako 4. hranjenje"
     }
   ],
   "description": [
@@ -30,15 +38,23 @@
     },
     {
       "type": "p",
-      "html": "HabiStat Reptavite je sveobuhvatni vitaminski i mineralni suplement posebno formulisan za reptile i vodozemce. Ovaj proizvod sadrži širok spektar esencijalnih vitamina uključujući vitamin A, D3, E i kompletni B-kompleks, kao i mineralne helate koji obezbeđuju optimalnu apsorpciju hranljivih materija. Reptavite je dizajniran da nadopuni ishranu vaših ljubimaca i spreči deficijencije vitamina i minerala koje su česte kod životinja u zatočeništvu."
+      "html": "HabiStat Reptavite je sveobuhvatan vitaminski i mineralni suplement, formulisan da uravnoteži ishranu reptila i vodozemaca koji jedu povrće, voće, meso ili ribu. U sastavu su vitamini A, D3, E, C i K3, vitamini B grupe, pivski kvasac i minerali (cink, mangan, bakar) u obliku glicinata."
     },
     {
       "type": "p",
-      "html": "Koristi se tako što se posipa po povrću, voću, mesu ili ribi pre hranjenja. Preporučena doza je četvrt kašičice na svako četvrto hranjenje, što omogućava postepeni unos vitamina bez rizika od predoziranja. Posebno je pogodan za iguanide, biljojede guštere i kornjače, koji kroz raznovrsnu ishranu biljnog porekla trebaju dodatne vitamine i minerale za održavanje zdravlja."
+      "html": "Proizvođač ga preporučuje za iguane, biljojede guštere i kornjače. Reptavite se može koristiti i umesto Reptona za posipanje insekata kada je potreban slabiji suplement, kao i za umakanje cele hrane, na primer miševa ili pacova, pre hranjenja."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i doziranje"
     },
     {
       "type": "p",
-      "html": "Mineralni helati u sastavu Reptavite-a su posebna forma minerala vezanih za aminokiseline, što značajno poboljšava njihovu bioraspoloživost u poređenju sa konvencionalnim mineralnim solima. To znači da vaši reptili apsorbuju veći procenat minerala iz svakog obroka. Redovna upotreba ovog suplementa doprinosi jačanju imuniteta, zdravlju kože i ljuskanja, reproduktivnom zdravlju i opštem vitalitetu vaših životinja."
+      "html": "Uputstvo proizvođača: lagano pospite zelenilo ili povrće, ili naprašite insekte na svako četvrto hranjenje. Četvrtina kašičice je dovoljna. Čuvajte na suvom i hladnom mestu, a kesicu posle upotrebe dobro zatvorite. Proizvod je samo za životinje."
+    },
+    {
+      "type": "p",
+      "html": "Reptavite ne zamenjuje kalcijum: između vitaminskih dana koristite kalcijumski suplement, kao što je HabiStat Pure Calcium, i obezbedite UVB rasvetu. Sve to naći ćete u ponudi <a href=\"/oprema.html\">opreme</a>."
     },
     {
       "type": "h2",
@@ -50,11 +66,9 @@
     }
   ],
   "seo": {
-    "title": "HabiStat Reptavite 40g | Oprema - NS REPTILES",
-    "description": "HabiStat Reptavite 40g - vitaminski i mineralni suplement za reptile i vodozemce. Sa vitaminima A, D3, E, B-kompleksom. NS Reptiles Novi Sad.",
-    "keywords": "habistat reptavite, vitamini za reptile, minerali za reptile, suplement za iguane, suplement za kornjače, vitaminski suplement, NS REPTILES, Novi Sad, Srbija",
-    "ogTitle": "HabiStat Reptavite 40g | NS Reptiles",
-    "ogDescription": "Vitaminski i mineralni suplement za reptile i vodozemce. Sa vitaminima A, D3, E, B-kompleksom. Idealan za biljojede guštere i kornjače."
+    "title": "HabiStat Reptavite 40 g - vitamini za kornjače i iguane",
+    "description": "HabiStat Reptavite 40 g: vitamini i minerali za reptile koji jedu povrće, voće, meso ili ribu. Svako 4. hranjenje. NS Reptiles Novi Sad.",
+    "keywords": "habistat reptavite, vitamini za kornjače, vitamini za iguane, vitamini za reptile, suplement za biljojede"
   },
   "related": []
 }

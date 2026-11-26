@@ -2,16 +2,20 @@
   "slug": "forest-spirit-stump-decoration",
   "name": "Forest spirit",
   "label": "Decoration",
-  "lead": "Forest spirit - a decorative terrarium stump that serves as an ornament and a hide.",
-  "imageAlt": "Forest spirit - NS Reptiles",
+  "lead": "Forest spirit - a decorative stump with a spirit face for terrariums and aquariums, an ornament with moss details that also works as a hide.",
+  "imageAlt": "Forest spirit, decorative stump with a face and moss for terrariums and aquariums - NS Reptiles",
   "specs": [
     {
       "k": "Type",
       "v": "Decoration - stump"
     },
     {
+      "k": "Look",
+      "v": "Stump with a spirit face and moss details"
+    },
+    {
       "k": "Intended for",
-      "v": "Terrarium"
+      "v": "Terrarium and aquarium"
     },
     {
       "k": "Function",
@@ -25,7 +29,19 @@
     },
     {
       "type": "p",
-      "html": "The forest spirit is a decorative terrarium stump that combines a mystical look with the practical role of a hide. Shaped to resemble an old forest stump with a spirit's face, this decoration brings character and a story to your terrarium. The hollow interior provides a hide for reptiles, which is key to reducing stress - an animal with access to a hide will be calmer, healthier and show more natural behavior. It is made from material that is safe for use in terrariums. Suitable for all types of terrariums - from humid tropical to dry desert setups. It is easy to clean by wiping with a damp cloth. It can be combined with live or artificial plants for an even more natural look."
+      "html": "The forest spirit is a decorative stump that combines a mystical look with the practical role of a hide. It is shaped like an old forest stump with a carved spirit face, a beard of bark and green moss details, with a branch sticking out to the side. This piece brings character and a story to the setup and easily becomes its focal point."
+    },
+    {
+      "type": "p",
+      "html": "It can be used in both terrariums and aquariums. In a terrarium, the hollow interior gives reptiles a hide, which is key to reducing stress: an animal with access to a hide is calmer and behaves more naturally. It suits both tropical and dry desert terrariums. In an aquarium, fish use it as cover, and the earthy and green tones go well with plants and roots."
+    },
+    {
+      "type": "h2",
+      "text": "Use and care"
+    },
+    {
+      "type": "p",
+      "html": "Before placing it, rinse the stump in lukewarm water, without detergents. Set it firmly on the bottom and check that the entrance to the hide is large enough for your animal. In a terrarium it is easy to clean by wiping with a damp cloth, and in an aquarium remove algae with a soft brush. It can be combined with live or artificial plants for an even more natural look."
     },
     {
       "type": "h2",
@@ -37,8 +53,8 @@
     }
   ],
   "seo": {
-    "title": "Forest Spirit Stump Hide | Terrarium Decor - NS Reptiles",
-    "description": "Forest spirit: a decorative terrarium stump with a spirit face that serves as both an ornament and a hide. NS Reptiles, Novi Sad, Serbia.",
-    "keywords": "forest spirit, decorative stump, terrarium hide, terrarium decoration, NS Reptiles, Novi Sad"
+    "title": "Forest Spirit Stump Hide for Terrarium and Aquarium",
+    "description": "Decorative stump with a forest spirit face and moss. An ornament and hide for reptiles in a terrarium or for fish in an aquarium. NS Reptiles, Novi Sad.",
+    "keywords": "forest spirit stump, decorative stump hide, terrarium hide, aquarium decoration, tree face ornament"
   }
 }

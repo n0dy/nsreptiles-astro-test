@@ -1,0 +1,71 @@
+{
+  "name": "Potonuli brod sa mahovinom",
+  "label": "Dekoracija",
+  "lead": "Potonuli brod sa mahovinom za akvarijum - niska, dugačka olupina obrasla zelenilom, sa otvorom na trupu kroz koji ribe plivaju.",
+  "image": "/style/img/oprema/dekoracija/potonuli-brod-sa-mahovinom.webp",
+  "imageAlt": "Potonuli brod obrastao mahovinom, olupina za akvarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - olupina broda"
+    },
+    {
+      "k": "Izgled",
+      "v": "Sivo-zelena olupina obrasla mahovinom"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras i skrovište za ribe"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova dekoracija prikazuje olupinu broda koju je more potpuno preuzelo: trup je polomljen i obrastao mahovinom i korenjem, a sivo-zeleni tonovi daju joj izgled predmeta koji decenijama leži na dnu. Na trupu se nalazi otvor kroz koji ribe ulaze i izlaze, a polomljeni delovi stvaraju dodatne zaklone."
+    },
+    {
+      "type": "p",
+      "html": "Zbog niskog i izduženog oblika olupina se lepo uklapa u prednji ili srednji deo akvarijuma i ne zaklanja pogled na ostatak postavke. Prigušene boje lako se slažu sa živim biljkama, kamenjem i korenjem, pa je pogodna i za prirodnije uređene akvarijume, ne samo za tematske."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre upotrebe olupinu isperite mlakom vodom, bez deterdženata. Postavite je na ravnu podlogu i blago utisnite u pesak ili šljunak kako se ne bi pomerala. Ako držite ribe koje kopaju po dnu, posle nekoliko dana proverite da li i dalje stoji stabilno. Alge i talog iz udubljenja čistite mekom četkicom tokom redovne zamene vode."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Potonuli brod obrastao mahovinom za akvarijum",
+    "description": "Niska olupina broda obrasla mahovinom, sa otvorom za ribe. Prirodan ukras za prednji ili srednji deo akvarijuma. NS Reptiles Novi Sad, dostava.",
+    "keywords": "potonuli brod, olupina sa mahovinom, dekoracija za akvarijum, skrovište za ribe, ukras za akvarijum"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum"
+  ],
+  "related": [
+    "oprema/amfora-terakota",
+    "oprema/lobanja-krokodila",
+    "oprema/zamak-sa-kapijom",
+    "oprema/zamak-na-steni"
+  ]
+}

@@ -32,9 +32,6 @@
   flex-wrap: wrap;
   justify-content: flex-end;
   margin: 30px 0 44px;
-  position: sticky;
-  top: 90px;
-  z-index: 40;
 }
 .pill {
   font-family: 'Poppins', 'Jost Variable', sans-serif;
@@ -435,9 +432,13 @@
   margin-bottom: 8px;
 }
 nav.breadcrumb-bar {
-  background: none;
+  background: var(--bg);
   border-bottom: 0;
   padding: 20px 0 0;
+}
+/* sekcija ispod je bela */
+nav.breadcrumb-bar:has(+ .ks-main) {
+  background: var(--white);
 }
 @media (max-width: 560px) {
   .zoo .cat-block .intro-box {

@@ -1,0 +1,64 @@
+{
+  "slug": "resun-lcd-aquarium-thermometer",
+  "name": "Resun LCD aquarium thermometer",
+  "label": "Thermometers",
+  "lead": "Resun LCD aquarium thermometer strip, 18-34 °C - sticks to the outside of the glass and changes color.",
+  "imageAlt": "Resun LCD aquarium thermometer - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "LCD thermometer (adhesive strip)"
+    },
+    {
+      "k": "Manufacturer",
+      "v": "Resun"
+    },
+    {
+      "k": "Range",
+      "v": "18-34 °C"
+    },
+    {
+      "k": "Scale",
+      "v": "°C and °F"
+    },
+    {
+      "k": "Intended for",
+      "v": "Aquarium"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The Resun LCD thermometer is a thin adhesive strip with a scale from 18 to 34 °C, with matching values in Fahrenheit. It sticks to the outside of the glass, so it takes up no space in the aquarium and never needs to be removed for cleaning. It uses no batteries or cables."
+    },
+    {
+      "type": "p",
+      "html": "The field matching the current water temperature changes color, so you can read it at a glance. The 18 to 34 °C range covers coldwater and tropical aquariums, as well as aquariums for aquatic turtles. It is also useful as an extra check alongside a thermostat heater, since it quickly shows if the heater stops working or stays on."
+    },
+    {
+      "type": "h2",
+      "text": "Placement"
+    },
+    {
+      "type": "p",
+      "html": "Clean and dry the glass before sticking it on. Place the strip below the water line, on a side not lit by the lamp or direct sunlight and away from the heater, as these can affect the reading. Since it measures through the glass, the value may differ slightly from a thermometer in the water."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Resun LCD Aquarium Thermometer 18-34 °C | NS Reptiles",
+    "description": "Resun LCD thermometer as an adhesive strip, 18-34 °C range. Sticks to the outside of the glass, no batteries, read at a glance. NS Reptiles, Serbia.",
+    "keywords": "resun lcd thermometer, aquarium thermometer, stick-on thermometer, thermometer strip, water temperature"
+  }
+}

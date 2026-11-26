@@ -1,0 +1,75 @@
+{
+  "name": "Posuda u obliku lobanje",
+  "label": "Posude",
+  "lead": "Posuda u obliku lobanje sa otvorom na vrhu - za hranu, vodu ili sadnju biljke, za terarijum sa mračnim, „pustinjskim“ ili Noć veštica izgledom.",
+  "image": "/style/img/oprema/posuda-lobanja.webp",
+  "imageAlt": "Posuda u obliku lobanje - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Posuda za vodu"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Pojilica / hranilica"
+    },
+    {
+      "k": "Oblik",
+      "v": "Lobanja, otvor na vrhu"
+    },
+    {
+      "k": "Boja",
+      "v": "Okerno-bež sa braon senkama"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Posuda u obliku lobanje je jedan od najupečatljivijih komada u našoj ponudi. Realistično oblikovana lobanja u okerno-bež boji sa braon senkama ima otvor na vrhu glave, a duboke očne duplje i zubi daju joj izgled pravog nalaza iz pustinje."
+    },
+    {
+      "type": "p",
+      "html": "Može da služi za hranu, za vodu ili kao saksija za manju biljku. Kao saksija sa sukulentom ili puzavicom postaje dekoracija koja privlači pažnju u svakom terarijumu. Kao posuda za hranu ili vodu dobro se uklapa u pustinjske postavke sa peskom, kamenjem i suvim granama."
+    },
+    {
+      "type": "h2",
+      "text": "Saveti za upotrebu"
+    },
+    {
+      "type": "p",
+      "html": "Ako u posudu sadite biljku, birajte vrstu koja nije otrovna za vašu životinju i podlogu koja ne zadržava previše vode. Ako je koristite za vodu ili hranu, sadržaj menjajte svaki dan i proverite da se ostaci ne zadržavaju u udubljenjima lica. Lobanju postavite na ravnu podlogu da stoji stabilno, posebno ako se u terarijumu nalaze životinje koje se penju i guraju dekoraciju."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Posuda u obliku lobanje - hranilica i saksija | NS Reptiles",
+    "description": "Posuda u obliku lobanje sa otvorom na vrhu za hranu, vodu ili biljku. Upečatljiv detalj za pustinjski ili tematski terarijum. NS Reptiles Novi Sad.",
+    "keywords": "posuda u obliku lobanje, lobanja za terarijum, dekoracija lobanja, saksija za terarijum, tematska posuda"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/posuda-astecki-motivi",
+    "oprema/posuda-kamena-zaba",
+    "oprema/mala-okrugla-posuda-braon",
+    "oprema/posuda-porozni-sivi-kamen"
+  ]
+}

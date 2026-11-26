@@ -1,18 +1,26 @@
 {
   "name": "Atman AT-F101 unutrašnji filter",
   "label": "Filteri",
-  "lead": "Atman AT-F101 unutrašnji filter za akvarijum - mehanička filtracija i cirkulacija vode.",
+  "lead": "Atman AT-F101 unutrašnji filter sa pumpom i sunđerom - mehanička i biološka filtracija uz cirkulaciju vode u akvarijumu.",
   "image": "/style/img/oprema/akvarijum/atman-at-f101.webp",
   "imageAlt": "Atman AT-F101 unutrašnji filter - NS Reptiles",
   "price": 1590,
   "specs": [
     {
       "k": "Tip",
-      "v": "Unutrašnji filter"
+      "v": "Unutrašnji filter sa pumpom"
     },
     {
       "k": "Proizvođač",
       "v": "Atman"
+    },
+    {
+      "k": "Model",
+      "v": "AT-F101"
+    },
+    {
+      "k": "Filtracija",
+      "v": "Mehanička i biološka (sunđer)"
     },
     {
       "k": "Namena",
@@ -26,7 +34,23 @@
     },
     {
       "type": "p",
-      "html": "Atman AT-F101 je unutrašnji (potopni) filter koji se kači na staklo akvarijuma vakuum-držačima. Voda prolazi kroz sunđer koji zadržava nečistoće, a na sunđeru se vremenom razvijaju korisne bakterije koje razgrađuju amonijak. Za preporuku veličine filtera prema zapremini akvarijuma pozovite nas."
+      "html": "Atman AT-F101 je unutrašnji filter za akvarijum sa ugrađenom pumpom, na pakovanju označen kao Internal Filter. Postavlja se u vodu i drži na staklu vakuum-držačima, pa ne zahteva nikakvu montažu van akvarijuma."
+    },
+    {
+      "type": "p",
+      "html": "Voda se usisava kroz donji deo kućišta i prolazi kroz filterski sunđer koji zadržava čestice hrane, izmet i ostatke biljaka. Na sunđeru se vremenom naseljavaju korisne bakterije koje razgrađuju amonijak i nitrite, pa filter obavlja i biološku filtraciju. Prečišćena voda izlazi na vrhu i pokreće vodu u akvarijumu."
+    },
+    {
+      "type": "p",
+      "html": "AT-F101 ima kompaktno, usko kućište koje se lako sakrije iza biljaka ili dekoracije. Pogodan je za manje akvarijume sa ribama. Za protok i preporučenu zapreminu akvarijuma pitajte nas pre kupovine, da filter odgovara vašem akvarijumu i životinjama."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre čišćenja filter obavezno isključite iz struje. Sunđer ispirajte u vodi iz akvarijuma pri delimičnoj promeni vode, nikad pod česmom, da ne biste uništili korisne bakterije. Novi sunđer stavite tek kad se stari raspada ili više ne vraća oblik."
     },
     {
       "type": "h2",
@@ -38,9 +62,9 @@
     }
   ],
   "seo": {
-    "title": "Atman AT-F101 unutrašnji filter | Akvarijum oprema - NS Reptiles",
-    "description": "Atman AT-F101 unutrašnji filter za akvarijum - mehanička filtracija i cirkulacija vode. NS Reptiles, Novi Sad.",
-    "keywords": "atman at-f101, unutrašnji filter, filter za akvarijum, NS Reptiles, Novi Sad"
+    "title": "Atman AT-F101 unutrašnji filter za akvarijum | NS Reptiles",
+    "description": "Atman AT-F101 unutrašnji filter sa ugrađenom pumpom i sunđerom za mehaničku i biološku filtraciju, za manje akvarijume. NS Reptiles Novi Sad.",
+    "keywords": "atman at-f101, unutrašnji filter, filter za akvarijum, filter sa pumpom, filter sa sunđerom"
   },
   "brand": false,
   "usage": [

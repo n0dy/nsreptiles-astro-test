@@ -58,7 +58,7 @@ const langLinks = {
 >
   <section class="pd">
     <div class="wrap">
-      <nav class="pd-breadcrumb" aria-label={UI.crumbs}>
+      <nav class="pd-breadcrumb" data-pagefind-ignore aria-label={UI.crumbs}>
         <a href={HOME[lang]}>{UI.home}</a>
         <span class="sep" aria-hidden="true">›</span>
         <a href={cat.listing}>{cat.crumb}</a>
@@ -67,7 +67,7 @@ const langLinks = {
       </nav>
       <div class="pd-main">
         <div class="pd-media reveal">
-          <img src={d.image} alt={v.imageAlt} width="600" height="600" fetchpriority="high" />
+          <img data-pagefind-meta="image[src]" src={d.image} alt={v.imageAlt} width="600" height="600" fetchpriority="high" />
         </div>
         <div class="pd-info reveal">
           <div class="pd-cat">{v.label}</div>
@@ -83,7 +83,7 @@ const langLinks = {
           </div>
           <div class="pd-price">
             <span class="pd-price-k">{UI.price}</span>
-            <span class="pd-price-v">{priceLabel(v)}</span>
+            <span class="pd-price-v" data-pagefind-meta="price">{priceLabel(v)}</span>
           </div>
           <div class="pd-cta">
             <a href={`tel:${SITE.phone}`} class="btn btn-outline" onclick="gtag('event', 'kontakt_click', {'metod': 'telefon'})">
@@ -111,7 +111,7 @@ const langLinks = {
   </section>
 
   {related.length > 0 && (
-    <section class="pd-related section">
+    <section class="pd-related section" data-pagefind-ignore>
       <div class="wrap">
         <div class="sec-head reveal">
           <h2 class="sec-title" set:html={twoTone(UI.also)} />

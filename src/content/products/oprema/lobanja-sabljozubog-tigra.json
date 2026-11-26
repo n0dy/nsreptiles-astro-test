@@ -1,0 +1,72 @@
+{
+  "name": "Lobanja sabljozubog tigra",
+  "label": "Dekoracija",
+  "lead": "Lobanja sabljozubog tigra za akvarijum i terarijum - replika sa dugim očnjacima koji je podižu iznad dna, pa ispod nje nastaje prolaz i skrovište.",
+  "image": "/style/img/oprema/dekoracija/lobanja-sabljozubog-tigra.webp",
+  "imageAlt": "Replika lobanje sabljozubog tigra sa dugim očnjacima - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - lobanja"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum i terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras i skrovište"
+    },
+    {
+      "k": "Izgled",
+      "v": "Patinirana kost, dugi zakrivljeni očnjaci"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Replika lobanje sabljozubog tigra odmah privlači pogled zahvaljujući dvama dugim, zakrivljenim očnjacima. Lobanja je u svetloj, žućkasto-zelenoj boji stare kosti, sa tamnim pukotinama i senčenjem koje joj daje patiniran, fosilni izgled. Velika očna duplja i niz zuba u gornjoj vilici upotpunjuju realističan utisak."
+    },
+    {
+      "type": "p",
+      "html": "Očnjaci i zadnji deo lobanje oslanjaju se na dno kao nogari, pa ispod lobanje ostaje lučni prostor. U akvarijumu ribe plivaju ispod nje i kroz otvore, a pridnene ribe i škampi tu nalaze senku. U terarijumu manji gušteri i gekoni koriste prostor ispod lobanje kao zaklon. Uklapa se u praistorijske i pustinjske postavke, uz kamenje i koren."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja lobanju isperite mlakom vodom, bez deterdženta. Postavite je na ravnu, čvrstu površinu i blago utisnite očnjake u podlogu, da se ne ljulja i ne sklizne kada životinja prolazi ispod nje. Prolaz ispod lobanje treba da bude dovoljno širok za vašu životinju, kako se ne bi zaglavila. Alge i prašinu uklanjajte mekom četkom."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Lobanja sabljozubog tigra za akvarijum | NS Reptiles",
+    "description": "Replika lobanje sabljozubog tigra sa dugim očnjacima i prolazom ispod. Ukras i skrovište za akvarijum ili terarijum u praistorijskom stilu. NS Reptiles.",
+    "keywords": "lobanja sabljozubog tigra, praistorijska dekoracija, lobanja za akvarijum, lobanja za terarijum, skrovište za ribe"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum",
+    "terarijum"
+  ],
+  "related": [
+    "oprema/amfora-terakota",
+    "oprema/lobanja-krokodila",
+    "oprema/zamak-sa-kapijom",
+    "oprema/zamak-na-steni"
+  ]
+}

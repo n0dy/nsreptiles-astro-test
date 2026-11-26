@@ -2,24 +2,36 @@
   "slug": "arcadia-uvb-7-23w",
   "name": "Arcadia UVB 7% 23W",
   "label": "Lighting",
-  "lead": "Arcadia UVB compact bulb, 7% / 23W. A versatile option suitable for many reptile species.",
-  "imageAlt": "Arcadia UVB 7% 23W - NS Reptiles",
+  "lead": "Arcadia D3 Forest 7% compact UVB bulb, 23 W with an E27 base and no separate ballast. 7% UVB and 30% UVA, for forest species.",
+  "imageAlt": "Arcadia D3 Forest Compact 7% UVB 23W E27 - NS Reptiles",
   "specs": [
     {
       "k": "Brand",
       "v": "Arcadia"
     },
     {
-      "k": "UVB",
-      "v": "7%"
+      "k": "Model",
+      "v": "D3 Forest Compact 7%"
     },
     {
       "k": "Wattage",
-      "v": "23W"
+      "v": "23 W"
     },
     {
-      "k": "Intended for",
-      "v": "Various reptile species"
+      "k": "Base",
+      "v": "E27, 220-240 V"
+    },
+    {
+      "k": "UVB / UVA",
+      "v": "7% / 30%"
+    },
+    {
+      "k": "Light output",
+      "v": "798 lm, 6500 K, CRI 90+"
+    },
+    {
+      "k": "UVB lifespan",
+      "v": "12 months"
     }
   ],
   "description": [
@@ -29,11 +41,23 @@
     },
     {
       "type": "p",
-      "html": "The Arcadia UVB compact bulb with 7% UVB output and 23W is a versatile option suitable for a wide range of reptiles. UVB radiation helps synthesize vitamin D3, which is essential for calcium absorption and healthy bone development. The 7% output sits between the forest and desert options, making this bulb suitable for leopard geckos, smaller snakes, smaller agamas and many other popular species."
+      "html": "Arcadia D3 Forest Compact 7% is a full-spectrum compact fluorescent bulb with 7% UVB and 30% UVA. It has a built-in electronic ballast, so it screws straight into a standard E27 socket. According to the manufacturer, the 23 W model gives 798 lumens, a 6500 K colour temperature and a CRI above 90, is flicker free and has UVC-blocking glass."
     },
     {
       "type": "p",
-      "html": "The compact E27 form allows easy installation in ceramic holders. The recommended distance from the animal is 20-30cm for an optimal UVB level. The bulb needs to be replaced every 6-12 months, because UVB output gradually weakens even if the visible light stays the same."
+      "html": "UVB lets reptiles make vitamin D3 in their skin, which they need to use calcium. Arcadia says compact lamps are especially useful for young and smaller animals, and this bulb is intended for forest species and species that need moderate UVB, especially young animals in smaller terrariums."
+    },
+    {
+      "type": "h2",
+      "text": "Installation and replacement"
+    },
+    {
+      "type": "p",
+      "html": "Fit the bulb in a socket above the basking spot, ideally in a fixture with a reflector. Adjust the distance to the basking spot to the species, and leave a shaded zone in the terrarium. Do not look directly at the light source. The manufacturer states that the bulb provides UVB for 12 months, after which it should be replaced even though it still lights up."
+    },
+    {
+      "type": "p",
+      "html": "For larger terrariums, a UVB tube that covers a bigger area is the better choice. Find sockets, tubes and other equipment in our <a href=\"/en/equipment.html\">equipment</a> range."
     },
     {
       "type": "h2",
@@ -45,8 +69,8 @@
     }
   ],
   "seo": {
-    "title": "Arcadia UVB 7% 23W | Compact UVB Bulb for Reptiles",
-    "description": "Arcadia UVB compact bulb, 7% / 23W: a versatile option suitable for many reptile species. E27 socket, supports vitamin D3 synthesis. NS Reptiles.",
-    "keywords": "Arcadia UVB 7% 23W, reptile UVB bulb, compact UVB bulb, UVB lighting, NS Reptiles"
+    "title": "Arcadia D3 Forest Compact 7% 23W E27 | UVB Bulb",
+    "description": "Arcadia D3 Forest Compact 7% UVB 23 W, E27, no ballast needed: 7% UVB, 30% UVA, 12 months, for forest species. NS Reptiles, Serbia.",
+    "keywords": "arcadia compact 7%, e27 uvb bulb, 23w compact uvb, forest species uvb bulb, arcadia d3 forest"
   }
 }

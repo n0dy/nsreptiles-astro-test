@@ -1,0 +1,64 @@
+{
+  "slug": "sand-sifting-scoop",
+  "name": "Sand scoop with sieve",
+  "label": "Accessories",
+  "lead": "Sand scoop with a sieve (model NT-45) for quickly removing waste and leftover food from sand and soil in a terrarium, without throwing away clean substrate.",
+  "imageAlt": "NT-45 sand scoop with sieve for terrarium cleaning - NS Reptiles",
+  "specs": [
+    {
+      "k": "Model",
+      "v": "NT-45 Sand Shovel"
+    },
+    {
+      "k": "Type",
+      "v": "Scoop with fine mesh"
+    },
+    {
+      "k": "Intended for",
+      "v": "Cleaning terrarium substrate"
+    },
+    {
+      "k": "Suitable substrate",
+      "v": "Sand, soil and other loose substrates"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The sand scoop with a sieve (model NT-45 Sand Shovel on the packaging) is a tool for everyday terrarium cleaning. It has a round frame with fine mesh and a long handle. When you scoop up substrate, clean sand falls back through the mesh into the terrarium, while droppings, food leftovers and larger debris stay in the scoop."
+    },
+    {
+      "type": "p",
+      "html": "The packaging describes it as a lightweight, durable scoop for sifting sand and soil. Regular cleaning keeps the substrate hygienic for longer, reduces odours and means you replace the substrate less often."
+    },
+    {
+      "type": "h2",
+      "text": "Use and care"
+    },
+    {
+      "type": "p",
+      "html": "It is best to check the terrarium every day and remove droppings straight away, especially with desert species on sand. Shake the scoop gently over the substrate so the sand passes through the mesh, then discard the waste. Lift out wet clumps of substrate whole, as they will not pass through the mesh."
+    },
+    {
+      "type": "p",
+      "html": "After use, wash the scoop in warm water and let it dry before the next use. The mesh is meant for dry, loose substrates; it is less useful with chunky bark or moss. See terrarium substrates in our <a href=\"/en/equipment.html\">equipment</a> range."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Order by phone or WhatsApp message. Fast courier delivery. Customers in Novi Sad can pick up their order directly at our workshop. Contact us with any questions about the product or for a recommendation for your species."
+    }
+  ],
+  "seo": {
+    "title": "Sand Scoop with Sieve | Terrarium Cleaning Tool",
+    "description": "NT-45 sand scoop with sieve: fine mesh lets clean sand through while droppings and leftovers stay in. For terrarium cleaning. NS Reptiles, Serbia.",
+    "keywords": "reptile sand scoop, sand sifter terrarium, terrarium cleaning tool, substrate scoop, terrarium accessories"
+  }
+}

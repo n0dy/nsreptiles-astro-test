@@ -1,0 +1,83 @@
+{
+  "name": "Posuda za vodu, zeleni kamen",
+  "label": "Posude",
+  "lead": "Niska i široka posuda za vodu u izgledu prirodnog zelenog kamena - stabilna, sa niskim ivicama za lak pristup vodi i manjim životinjama.",
+  "image": "/style/img/oprema/posuda-zeleni-kamen.webp",
+  "imageAlt": "Posuda za vodu, zeleni kamen - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Posuda za vodu"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Pojilica / hranilica"
+    },
+    {
+      "k": "Oblik",
+      "v": "Nizak, širok, nepravilan"
+    },
+    {
+      "k": "Boja",
+      "v": "Sivo-zelena"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova posuda za vodu je niska i široka, sa nepravilnim obodom i sivo-zelenom teksturom kamena koja izgleda kao deo prirodnog okruženja. Široko dno je drži stabilnom, a niske ivice omogućavaju lak pristup vodi i manjim životinjama."
+    },
+    {
+      "type": "p",
+      "html": "Po obliku podseća na plitko udubljenje u steni u kome se zadržala voda posle kiše. Zbog male visine posuda se ne ističe u terarijumu i lako se uklapa uz mahovinu, biljke i kamenje, pa je dobar izbor za šumske i tropske postavke, ali i za neutralne, sivo-zelene kombinacije."
+    },
+    {
+      "type": "h2",
+      "text": "Za koga je pogodna"
+    },
+    {
+      "type": "p",
+      "html": "Niski obod je pogodan za mlade guštere, gekone i mladunce kopnenih kornjača, koji ne mogu da se penju preko visokih ivica. Široka površina daje dovoljno mesta da životinja uđe u vodu ako želi da se rashladi ili napije."
+    },
+    {
+      "type": "h2",
+      "text": "Održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Široka plitka voda brže isparava i lakše se zaprlja, pa je menjajte svaki dan i proveravajte nivo tokom toplih dana. Teksturu kamena operite četkom pod mlakom vodom, bez jakih sredstava."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Niska posuda za vodu, zeleni kamen | NS Reptiles",
+    "description": "Niska i široka posuda za vodu u izgledu zelenog kamena - stabilna, sa niskim ivicama za mlade guštere, gekone i kornjače. NS Reptiles, Novi Sad.",
+    "keywords": "niska posuda za vodu, posuda zeleni kamen, posuda za mlade guštere, pojilica za kornjače, posuda za šumski terarijum"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/posuda-za-vodu-tamnosiva",
+    "oprema/posuda-pescar",
+    "oprema/posuda-za-vodu-svetloplava",
+    "oprema/posuda-sivo-zeleni-kamen"
+  ]
+}

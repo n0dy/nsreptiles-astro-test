@@ -1,0 +1,71 @@
+{
+  "name": "Zamak sa zidinama",
+  "label": "Dekoracija",
+  "lead": "Zamak sa zidinama za akvarijum - kapija sa kulom i zidine koje se penju uz brdo obraslo mahovinom, sa prolazom za ribe.",
+  "image": "/style/img/oprema/dekoracija/zamak-sa-zidinama.webp",
+  "imageAlt": "Zamak sa kulom-kapijom i zidinama na brdu sa mahovinom, dekoracija za akvarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - zamak"
+    },
+    {
+      "k": "Izgled",
+      "v": "Kula-kapija i zidine na brdu sa mahovinom"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras i skrovište za ribe"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Zamak sa zidinama prikazuje kamenu kulu-kapiju iza koje se uz zeleno brdo obraslo mahovinom penju vijugave zidine sa zupcima, sve do osmatračnice na vrhu. Kroz lučni otvor kapije ribe mogu da uplivaju, a detalji cigala i kamena daju dekoraciji izgled starog utvrđenja."
+    },
+    {
+      "type": "p",
+      "html": "Za razliku od klasičnih zamkova sa kulama, ovde je naglasak na zidinama i brdu, pa dekoracija deluje kao mali pejzaž. Bogata zelena mahovina lepo se uklapa uz žive biljke, a otvor kapije služi kao skrovište za manje ribe. Dobro izgleda u uglu akvarijuma ili uz zadnje staklo."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja dekoraciju isperite mlakom vodom, bez deterdženata. Postavite je na ravno dno i utisnite podnožje u pesak, tako da ulaz u kapiju ostane slobodan. Proverite da stoji stabilno i da se ne naslanja na grejač ili crevo filtera. Alge sa mahovine i zidina uklanjajte mekom četkicom, a talog iz unutrašnjosti isperite pri zameni vode."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Zamak sa zidinama na brdu - dekoracija za akvarijum",
+    "description": "Kula-kapija i vijugave zidine na brdu obraslom mahovinom, sa prolazom za ribe. Dekoracija koja akvarijumu daje izgled pejzaža. NS Reptiles.",
+    "keywords": "zamak sa zidinama, utvrđenje za akvarijum, dekoracija sa mahovinom, skrovište za ribe, ukras za akvarijum"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum"
+  ],
+  "related": [
+    "oprema/amfora-terakota",
+    "oprema/lobanja-krokodila",
+    "oprema/zamak-sa-kapijom",
+    "oprema/zamak-na-steni"
+  ]
+}

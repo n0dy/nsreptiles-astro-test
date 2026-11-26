@@ -160,8 +160,9 @@
   grid-row: span 2;
   color: #fff;
   background:
-    linear-gradient(180deg, rgba(8, 12, 10, 0.1) 0%, rgba(8, 12, 10, 0.92) 70%),
-    url(/style/img/hero/kameleoni-sm.webp) center / cover;
+    linear-gradient(180deg, rgba(8, 12, 10, 0) 25%, rgba(8, 12, 10, 0.92) 62%),
+    url(/style/img/gallery/nova/zdravlje-jaja.webp) center top / cover,
+    #000;
 }
 .vc.wide {
   grid-column: 2 / span 2;

@@ -1,9 +1,9 @@
 {
   "name": "HabiStat Repton 40g",
   "label": "Suplementi",
-  "lead": "Vitaminski, mineralni i aminokiselinski suplement za posipanje insekata. Ultra fina formulacija za ravnomerno prianjanje. Za sve insektivorne reptile.",
+  "lead": "HabiStat Repton je ultra fini prah sa vitaminima, mineralima i aminokiselinama za posipanje insekata. Kesica od 40 g, svako 8. hranjenje.",
   "image": "/style/img/oprema/habistat-repton.webp",
-  "imageAlt": "HabiStat Repton 40g - suplement za insektivorne reptile - NS Reptiles",
+  "imageAlt": "HabiStat Repton 40 g u kesici, suplement za insekte - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -11,16 +11,24 @@
       "v": "HabiStat"
     },
     {
-      "k": "Težina",
-      "v": "40g (kesica)"
+      "k": "Pakovanje",
+      "v": "40 g, kesica sa zatvaračem"
     },
     {
       "k": "Tip",
-      "v": "Vitaminski suplement"
+      "v": "Vitamini, minerali i aminokiseline"
+    },
+    {
+      "k": "Sadrži",
+      "v": "Vitamine A, D3, E, C, K3 i B grupu"
     },
     {
       "k": "Namena",
-      "v": "Insektivorni reptili"
+      "v": "Reptili koji jedu insekte"
+    },
+    {
+      "k": "Doza",
+      "v": "1/4 kašičice, svako 8. hranjenje"
     }
   ],
   "description": [
@@ -30,15 +38,23 @@
     },
     {
       "type": "p",
-      "html": "HabiStat Repton je napredni vitaminski, mineralni i aminokiselinski suplement posebno dizajniran za insektivorne reptile. Njegova ultra fina formulacija obezbeđuje ravnomerno prianjanje na insekte prilikom posipanja, čime se garantuje da vaše životinje dobijaju konzistentnu dozu hranljivih materija sa svakim obrokom. Repton sadrži vitamine A, kompletni B-kompleks, vitamin C, D3, E i K3, kao i širok spektar minerala i esencijalnih aminokiselina."
+      "html": "HabiStat Repton je prah za posipanje insekata, napravljen da nadoknadi slabu hranljivu vrednost nekih hranidbenih insekata. To je kompletan suplement sa vitaminima, mineralima i aminokiselinama: sadrži vitamine A, D3, E, C i K3, vitamine B grupe, sojin protein i minerale kao što su gvožđe, cink, mangan i bakar."
     },
     {
       "type": "p",
-      "html": "Aminokiseline u sastavu Repton-a su posebno važne jer predstavljaju gradivne blokove proteina neophodnih za rast, oporavak tkiva i održavanje mišićne mase kod reptila. Ova kombinacija vitamina, minerala i aminokiselina čini Repton jednim od najkompletnijih suplemenata na tržištu za insektivorne vrste. Preporučeni režim doziranja je posipanje insekata na svako osmo hranjenje, što pruža adekvatnu nutritivnu podršku bez rizika od hipervitaminoze."
+      "html": "Ultra fina granulacija čini da se Repton ravnomerno lepi za insekte, pa se lako nanosi, malo se rasipa i životinja dobija pun sastav suplementa sa svakim posutim insektom."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i doziranje"
     },
     {
       "type": "p",
-      "html": "Ovaj proizvod dolazi u praktičnoj kesici od 40g koja je pogodna za vlasnike sa manjim brojem životinja. Za one koji imaju veću kolekciju reptila, dostupan je i HabiStat Repton u tegli od 100g koja nudi bolji odnos količine i cene. Repton je idealan za leopard gekone, bradate agame, hameleone i sve ostale vrste koje se pretežno hrane insektima."
+      "html": "Uputstvo proizvođača: lagano naprašite sve insekte ili zelenilo pre hranjenja na svako osmo hranjenje. Četvrtina kašičice je dovoljna. Insekte stavite u kesu ili posudu sa prahom, protresite i odmah ponudite. Čuvajte na suvom i hladnom mestu; proizvod je samo za životinje."
+    },
+    {
+      "type": "p",
+      "html": "Kesica od 40 g je zgodna za jednu ili dve životinje. Za veće kolekcije postoji HabiStat Repton u tegli od 100 g. Između Repton dana koristite kalcijum, a sve suplemente naći ćete u ponudi <a href=\"/oprema.html\">opreme</a>."
     },
     {
       "type": "h2",
@@ -50,11 +66,9 @@
     }
   ],
   "seo": {
-    "title": "HabiStat Repton 40g | Oprema - NS REPTILES",
-    "description": "HabiStat Repton 40g - vitaminski, mineralni i aminokiselinski suplement za posipanje insekata. Za insektivorne reptile. NS Reptiles Novi Sad.",
-    "keywords": "habistat repton, suplement za insektivore, vitamini za reptile, posipanje insekata, suplement za guštere, NS REPTILES, Novi Sad, Srbija",
-    "ogTitle": "HabiStat Repton 40g | NS Reptiles",
-    "ogDescription": "Vitaminski, mineralni i aminokiselinski suplement za posipanje insekata. Ultra fina formulacija za insektivorne reptile."
+    "title": "HabiStat Repton 40 g - vitamini za insektojede",
+    "description": "HabiStat Repton 40 g: ultra fini vitaminsko-mineralni prah sa aminokiselinama za posipanje insekata, svako 8. hranjenje. NS Reptiles Novi Sad.",
+    "keywords": "habistat repton, vitamini za leopard gekona, vitamini za insekte, suplement za insektojede, repton 40g"
   },
   "related": []
 }

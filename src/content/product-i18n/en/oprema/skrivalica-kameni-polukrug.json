@@ -1,0 +1,68 @@
+{
+  "slug": "curved-stone-reptile-hide",
+  "name": "Curved stone hide",
+  "label": "Hides",
+  "lead": "Curved hide shaped like a dark stone semicircle, open on both sides - a light shelter, bridge and climbing spot.",
+  "imageAlt": "Curved stone hide - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Hide"
+    },
+    {
+      "k": "Intended for",
+      "v": "Terrarium"
+    },
+    {
+      "k": "Function",
+      "v": "Shelter"
+    },
+    {
+      "k": "Shape",
+      "v": "Semicircle (arch), open on two sides"
+    },
+    {
+      "k": "Color",
+      "v": "Dark brown with lighter highlights"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This hide is shaped like a curved stone arch, similar to a crescent moon, in dark brown with lighter, polished-looking areas. The ends of the arch rest on the ground, and underneath there is a passage open on both sides."
+    },
+    {
+      "type": "p",
+      "html": "Unlike enclosed caves, this is a semi-open shelter. Under the arch your animal has shade and protection from above while being able to leave on either side, which suits active lizards that do not like to feel trapped. The smooth top surface works as a bridge and a place to climb and rest."
+    },
+    {
+      "type": "p",
+      "html": "The curved shape is also handy for decorating: you can place the arch around a plant, rock or water dish to link parts of the terrarium together."
+    },
+    {
+      "type": "h2",
+      "text": "Tips for use"
+    },
+    {
+      "type": "p",
+      "html": "For shy species and snakes that look for a completely dark space, add an enclosed hide next to this arch. Place the arch directly on the floor or on firm substrate so it does not wobble when your animal climbs. The smooth surface is easy to wash with warm water."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Curved Stone Hide and Climbing Arch | NS Reptiles",
+    "description": "Curved dark stone hide shaped like a semicircle, open on two sides - a semi-open shelter and bridge for active lizards. NS Reptiles, Novi Sad.",
+    "keywords": "curved reptile hide, terrarium arch, lizard hide, climbing decor for reptiles, terrarium hide"
+  }
+}

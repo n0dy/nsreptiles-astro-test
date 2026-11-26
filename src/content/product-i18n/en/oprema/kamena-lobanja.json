@@ -1,0 +1,60 @@
+{
+  "slug": "mossy-stone-skull",
+  "name": "Stone skull",
+  "label": "Decoration",
+  "lead": "Stone skull for aquariums and terrariums, with a yellow-green old-stone patina, large eye sockets and openings that serve as a hide.",
+  "imageAlt": "Stone skull with a yellow-green patina and large eye sockets - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Decoration - skull"
+    },
+    {
+      "k": "Intended for",
+      "v": "Aquarium and terrarium"
+    },
+    {
+      "k": "Function",
+      "v": "Ornament and hide"
+    },
+    {
+      "k": "Look",
+      "v": "Human skull with a moss-like patina and cracks"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The stone skull looks as if it had lain for a long time on a riverbed or in a damp cave. The surface has a yellow-green, moss-like patina, dark cracks across the crown and the rough texture of old stone. Large eye sockets, a nasal opening and a gaping jaw with big teeth give it an expressive, slightly creepy look."
+    },
+    {
+      "type": "p",
+      "html": "The openings in the skull serve as a hide. In an aquarium, small fish and shrimp swim in and out through them, and the greenish tones blend nicely with plants. In a terrarium, small lizards, geckos and amphibians use it as a shelter, and it works especially well in humid, tropical setups with moss."
+    },
+    {
+      "type": "h2",
+      "text": "Placement tips"
+    },
+    {
+      "type": "p",
+      "html": "Before placing the skull, rinse it with lukewarm water, without soap or chemicals. Set it on a flat bottom and press it lightly into the substrate so it stands steadily. Check that the openings are large enough for your animals so none of them gets stuck. Use a soft brush for cleaning; it removes algae and deposits without damaging the patina. It pairs well with roots, stones and other themed decorations from our <a href=\"/oprema.html\">equipment</a> range."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Mossy Stone Skull for Aquarium and Terrarium",
+    "description": "Stone skull with a yellow-green patina and large eye sockets. A hide for fish, shrimp and small reptiles in an aquarium or terrarium. NS Reptiles, Serbia.",
+    "keywords": "stone skull ornament, skull aquarium decoration, terrarium skull hide, fish hide, skull decor"
+  }
+}

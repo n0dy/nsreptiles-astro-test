@@ -1,22 +1,30 @@
 {
   "name": "Folija grejač",
-  "label": "Oprema",
-  "lead": "Folija grejač za zagrevanje dna terarijuma. Ravnomerno greje podlogu, idealan za vrste kojima je potrebna toplota odozdo.",
+  "label": "Grejači",
+  "lead": "Folija grejač za terarijum: tanak grejni film koji se postavlja ispod dna i greje podlogu odozdo. Dostupan u više veličina, koristi se uz termostat.",
   "image": "/style/img/oprema/grejac.webp",
-  "imageAlt": "Folija grejač - NS Reptiles",
+  "imageAlt": "Folija grejač za grejanje dna terarijuma - NS Reptiles",
   "price": 0,
   "specs": [
     {
       "k": "Tip",
-      "v": "Grejni mat / folija"
+      "v": "Grejna folija (film)"
     },
     {
       "k": "Namena",
       "v": "Grejanje dna terarijuma"
     },
     {
-      "k": "Napomena",
-      "v": "Dostupan u više veličina"
+      "k": "Postavljanje",
+      "v": "Ispod dna terarijuma, spolja"
+    },
+    {
+      "k": "Veličine",
+      "v": "Više veličina"
+    },
+    {
+      "k": "Preporuka",
+      "v": "Obavezno uz termostat"
     }
   ],
   "description": [
@@ -26,7 +34,23 @@
     },
     {
       "type": "p",
-      "html": "Folija grejač (grejni mat) je efikasno rešenje za zagrevanje dna terarijuma. Postavlja se ispod terarijuma i obezbeđuje ravnomerno zagrevanje podloge, što je posebno važno za vrste koje zahtevaju grejanje odozdo - tzv. \"belly heat\". Leopard gekoni, na primer, koriste toplotu sa tla za varenje hrane, pa im je ovaj tip grejanja neophodan. Folija grejač treba da pokriva oko jednu trećinu površine dna terarijuma kako bi životinja mogla da se pomeri na hladniju stranu po potrebi. Preporučujemo korišćenje u kombinaciji sa termostatom koji održava stabilnu temperaturu i sprečava pregrevanje. Dostupan je u više veličina, tako da možete izabrati odgovarajuću za vaš terarijum."
+      "html": "Folija grejač je tanak, savitljiv grejni film koji se postavlja ispod dna terarijuma i greje podlogu odozdo. Na slici se vide grejne trake i bakarni provodnici duž ivica folije. Ovakvo grejanje je korisno za vrste koje toplotu upijaju stomakom sa tla, kao što su leopard gekoni i debelorepi gekoni, i kao dopunski izvor toplote za zmije."
+    },
+    {
+      "type": "p",
+      "html": "Folija ne daje svetlo, pa može da radi i noću kada je glavna lampa ugašena. Prodajemo je u više veličina; javite nam dimenzije dna terarijuma i preporučićemo odgovarajuću."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i bezbednost"
+    },
+    {
+      "type": "p",
+      "html": "Foliju lepite ili postavljate spolja ispod dna, tako da pokriva otprilike trećinu površine na jednoj strani. Tako nastaje topla i hladna zona, a životinja bira gde će biti. Dno terarijuma treba da bude malo podignuto da ispod folije cirkuliše vazduh."
+    },
+    {
+      "type": "p",
+      "html": "Foliju uvek povežite na termostat sa sondom postavljenom na dno iznad grejne zone, jer bez kontrole može da se pregreje. Ne savijajte je oštro i ne koristite oštećenu foliju. Termostate i termometre pronađite u ponudi <a href=\"/oprema.html\">opreme</a>."
     },
     {
       "type": "h2",
@@ -38,9 +62,9 @@
     }
   ],
   "seo": {
-    "title": "Folija grejač | Oprema - NS Reptiles",
-    "description": "Folija grejač za zagrevanje dna terarijuma. Ravnomerno greje podlogu, idealan za vrste kojima je potrebna toplota odozdo. NS Reptiles Novi Sad.",
-    "keywords": "folija grejač, grejni mat, oprema za terarijum, oprema za reptile, NS Reptiles, Novi Sad"
+    "title": "Folija grejač za terarijum - grejanje dna",
+    "description": "Folija grejač za terarijum: grejni film ispod dna za toplotu odozdo, za leopard gekone i zmije. Više veličina, uz termostat. NS Reptiles Novi Sad.",
+    "keywords": "folija grejač, grejna folija za terarijum, grejač za leopard gekona, grejanje dna terarijuma, grejni mat"
   },
   "related": [
     "oprema/spagnum-treset-5l",

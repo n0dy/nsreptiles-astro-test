@@ -1,0 +1,79 @@
+{
+  "name": "Posuda za vodu, porozni sivi kamen",
+  "label": "Posude",
+  "lead": "Posuda za vodu u izgledu sivog poroznog kamena, sa zaobljenim ivicama i višim zadnjim delom - priljubi se uz zid terarijuma.",
+  "image": "/style/img/oprema/posuda-porozni-sivi-kamen.webp",
+  "imageAlt": "Posuda za vodu, porozni sivi kamen - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Posuda za vodu"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Pojilica / hranilica"
+    },
+    {
+      "k": "Oblik",
+      "v": "Zaobljen, viši zadnji deo"
+    },
+    {
+      "k": "Boja",
+      "v": "Siva, porozna tekstura"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Posuda za vodu u izgledu sivog poroznog kamena ima mekane, zaobljene ivice i površinu punu sitnih rupica, kao vulkanska stena ili kamen iz reke. Zadnji deo je viši i zaobljen kao mala stena, a prednji deo je niži, pa je pristup vodi otvoren sa prednje strane."
+    },
+    {
+      "type": "p",
+      "html": "Ovakav oblik je napravljen da se posuda postavi uz zadnje ili bočno staklo: viši deo prirodno prelazi u pozadinu ili kamenje iza, a životinja prilazi vodi sa niže strane. Siva boja je neutralna i lako se kombinuje sa sivim kamenjem, škriljcem, 3D pozadinama i tamnijom podlogom."
+    },
+    {
+      "type": "p",
+      "html": "Pogodna je za guštere i zmije kojima je potrebna stalna, lako dostupna voda."
+    },
+    {
+      "type": "h2",
+      "text": "Saveti za izbor i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Birajte posudu iz koje vaša životinja može da pije bez penjanja u nju; mlade jedinke vole niže ivice. Vodu menjajte svakog dana. Rupice na površini zadržavaju nečistoću, pa posudu jednom nedeljno očistite četkom pod toplom vodom i dobro isperite. Pogledajte i druge posude u ponudi <a href=\"/oprema.html\">opreme</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Posuda za vodu, porozni sivi kamen | NS Reptiles",
+    "description": "Siva porozna posuda za vodu sa višim zadnjim delom koji se priljubi uz staklo terarijuma. Neutralna boja za guštere i zmije. NS Reptiles, Novi Sad.",
+    "keywords": "posuda sivi kamen, posuda za vodu za terarijum, pojilica za guštere, pojilica za zmije, porozna posuda za vodu"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/posuda-astecki-motivi",
+    "oprema/posuda-kamena-zaba",
+    "oprema/mala-okrugla-posuda-braon",
+    "oprema/posuda-ovalna-crvena-stena"
+  ]
+}

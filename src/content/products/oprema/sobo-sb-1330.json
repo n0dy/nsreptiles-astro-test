@@ -1,7 +1,7 @@
 {
   "name": "SOBO SB-1330 sunđer filter",
   "label": "Filteri",
-  "lead": "SOBO SB-1330 sunđer filter - nežna filtracija za mlađ, račiće i akvarijume sa sitnim ribama.",
+  "lead": "SOBO SB-1330 sunđer filter na vazdušnu pumpu - nežna filtracija za mlađ, račiće i akvarijume sa sitnim ribama.",
   "image": "/style/img/oprema/akvarijum/sobo-sb-1330.webp",
   "imageAlt": "SOBO SB-1330 sunđer filter - NS Reptiles",
   "price": 0,
@@ -15,6 +15,10 @@
       "v": "SOBO"
     },
     {
+      "k": "Model",
+      "v": "SB-1330"
+    },
+    {
       "k": "Namena",
       "v": "Akvarijum"
     }
@@ -26,7 +30,19 @@
     },
     {
       "type": "p",
-      "html": "Sunđer filter radi na vazdušnu pumpu: mehurići podižu vodu kroz sunđer, koji zadržava nečistoće i na kojem se razvijaju korisne bakterije. Ne usisava mlađ ni račiće, pa je odličan za uzgojne i karantinske akvarijume."
+      "html": "SOBO SB-1330 je sunđer filter sa sunđerom na stabilnom postolju i providnom izlaznom cevi. Na pakovanju je označen kao aquarium sponge filter. Nežno filtrira vodu i ne usisava mlađ ni račiće, pa je odličan za uzgojne, karantinske i manje akvarijume sa sitnim ribama."
+    },
+    {
+      "type": "p",
+      "html": "Sunđer filter radi na vazdušnu pumpu: mehurići u cevi podižu vodu, pa se voda iz akvarijuma uvlači kroz sunđer. Sunđer zadržava nečistoće, a na njemu se naseljavaju korisne bakterije, tako da filter radi mehaničku i biološku filtraciju i istovremeno obogaćuje vodu kiseonikom."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Za rad su potrebni vazdušna pumpa i crevo za vazduh, koji se kupuju posebno. Kad protok mehurića oslabi, sunđer iscedite u vodi iz akvarijuma pri promeni vode, nikad pod česmom, da korisne bakterije ostanu. Sunđer filter je odličan i kao rezervni filter: držite ga u akvarijumu, pa ga po potrebi prebacite u karantin."
     },
     {
       "type": "h2",
@@ -38,9 +54,9 @@
     }
   ],
   "seo": {
-    "title": "SOBO SB-1330 sunđer filter | Akvarijum oprema - NS Reptiles",
-    "description": "SOBO SB-1330 sunđer filter - nežna filtracija za mlađ, račiće i akvarijume sa sitnim ribama. NS Reptiles, Novi Sad.",
-    "keywords": "sobo sb-1330, sunđer filter, filter za mlađ, NS Reptiles, Novi Sad"
+    "title": "SOBO SB-1330 sunđer filter za akvarijum | NS Reptiles",
+    "description": "SOBO SB-1330 sunđer filter na vazdušnu pumpu, sa postoljem i providnom cevi. Nežna filtracija koja ne usisava mlađ ni račiće, za uzgoj i karantin.",
+    "keywords": "sobo sb-1330, sunđer filter, filter za račiće, filter za mlađ, filter na vazdušnu pumpu"
   },
   "brand": false,
   "usage": [

@@ -1,7 +1,7 @@
 {
   "name": "SOBO AL-400P LED lampa",
   "label": "Rasveta",
-  "lead": "SOBO AL-400P LED lampa za akvarijume dužine 40-50 cm.",
+  "lead": "SOBO AL-400P LED lampa od 7 W za akvarijume dužine 40-50 cm, sa tri boje svetla na jedan taster.",
   "image": "/style/img/oprema/akvarijum/sobo-al-400p-led-lampa.webp",
   "imageAlt": "SOBO AL-400P LED lampa - NS Reptiles",
   "price": 2450,
@@ -15,12 +15,20 @@
       "v": "SOBO"
     },
     {
+      "k": "Model",
+      "v": "AL-400P"
+    },
+    {
       "k": "Za akvarijume",
       "v": "40-50 cm"
     },
     {
       "k": "Snaga",
-      "v": "12 W"
+      "v": "7 W"
+    },
+    {
+      "k": "Napajanje",
+      "v": "220-240 V / 50 Hz"
     },
     {
       "k": "Namena",
@@ -34,7 +42,19 @@
     },
     {
       "type": "p",
-      "html": "LED lampa koja se postavlja na ivice akvarijuma. Daje jasno, ravnomerno svetlo uz malu potrošnju i malo zagrevanje vode."
+      "html": "SOBO AL-400P je tanka LED lampa za akvarijume dužine 40 do 50 cm, snage 7 W. Postavlja se na ivice akvarijuma pomoću metalnih nosača, pa ne treba poklopac. Prema ambalaži, jednim tasterom se bira jedna od tri boje svetla, a kućište je otporno na vodu i vlagu."
+    },
+    {
+      "type": "p",
+      "html": "LED svetlo troši malo struje i malo zagreva vodu u odnosu na klasične cevi, a proizvođač navodi vek trajanja diode duži od 50.000 sati. Prirodno belo svetlo ističe boje riba i biljaka, a ostali režimi daju drugačiji ugođaj. Lampa je dobar izbor za manje akvarijume, na primer standardne akvarijume dužine 40 ili 50 cm."
+    },
+    {
+      "type": "h2",
+      "text": "Saveti za upotrebu"
+    },
+    {
+      "type": "p",
+      "html": "Akvarijumsku rasvetu svakog dana uključujte i isključujte u isto vreme, najbolje uz tajmer, da ribe i biljke imaju stalan ritam dana i noći. Predugo osvetljenje i direktno sunce podstiču rast algi. Lampu povremeno obrišite od kamenca i prašine, jer naslage smanjuju jačinu svetla."
     },
     {
       "type": "h2",
@@ -46,9 +66,9 @@
     }
   ],
   "seo": {
-    "title": "SOBO AL-400P LED lampa | Akvarijum oprema - NS Reptiles",
-    "description": "SOBO AL-400P LED lampa za akvarijume dužine 40-50 cm. NS Reptiles, Novi Sad.",
-    "keywords": "sobo al-400p, led lampa za akvarijum, rasveta za akvarijum, NS Reptiles, Novi Sad"
+    "title": "SOBO AL-400P LED lampa za akvarijum 40-50 cm | NS Reptiles",
+    "description": "SOBO AL-400P tanka LED lampa od 7 W za akvarijume dužine 40-50 cm, tri boje svetla na jedan taster, nosači na ivicu stakla. NS Reptiles.",
+    "keywords": "sobo al-400p, led lampa za akvarijum, rasveta za akvarijum 40 cm, led svetlo za akvarijum, sobo lampa"
   },
   "brand": false,
   "usage": [

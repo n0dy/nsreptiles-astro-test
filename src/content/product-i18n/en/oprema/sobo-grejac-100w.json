@@ -1,0 +1,80 @@
+{
+  "slug": "sobo-hf-100-aquarium-heater",
+  "name": "SOBO heater 100 W",
+  "label": "Heaters",
+  "lead": "SOBO HF-100 100 W aquarium heater, 20-32 °C thermostat - for freshwater and marine aquariums.",
+  "imageAlt": "SOBO heater 100 W - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Submersible heater with thermostat"
+    },
+    {
+      "k": "Manufacturer",
+      "v": "SOBO"
+    },
+    {
+      "k": "Model",
+      "v": "HF-100"
+    },
+    {
+      "k": "Power",
+      "v": "100 W"
+    },
+    {
+      "k": "Temperature range",
+      "v": "20-32 °C"
+    },
+    {
+      "k": "Power supply",
+      "v": "220 V / 50 Hz"
+    },
+    {
+      "k": "Water type",
+      "v": "Freshwater and marine"
+    },
+    {
+      "k": "Intended for",
+      "v": "Aquarium"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The SOBO HF-100 is a 100 W submersible aquarium heater with an adjustable thermostat and a glass tube. According to the box it runs on 220 V / 50 Hz, the temperature is adjustable from 20 to 32 °C, and the heater has double waterproof insulation and intelligent overheating protection. It is suitable for freshwater and marine aquariums. The thermostat switches heating on and off when the water reaches the set temperature."
+    },
+    {
+      "type": "h2",
+      "text": "How to choose heater wattage"
+    },
+    {
+      "type": "p",
+      "html": "Choose heater wattage by aquarium volume and room temperature: a larger tank and a colder room need a stronger heater. If the room is cold or the tank has no lid, choose a stronger model or two smaller heaters at opposite ends of the aquarium. If you are not sure which wattage you need, ask us."
+    },
+    {
+      "type": "h2",
+      "text": "Use and maintenance"
+    },
+    {
+      "type": "p",
+      "html": "Place the heater at an angle or upright where water flows well, for example next to the filter outlet, so heat spreads evenly. It must be submerged up to the marked line. Before taking it out of the water, unplug it and let it cool down, as a hot heater can crack out of water. Always check the temperature with a thermometer."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "SOBO HF-100 Aquarium Heater 100 W | NS Reptiles",
+    "description": "SOBO HF-100 100 W heater, 20-32 °C thermostat, double insulation and overheating protection, for freshwater and marine aquariums. NS Reptiles.",
+    "keywords": "sobo hf-100, sobo heater 100w, 100w aquarium heater, heater with thermostat, marine aquarium heater"
+  }
+}

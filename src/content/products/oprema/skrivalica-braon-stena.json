@@ -1,0 +1,79 @@
+{
+  "name": "Skrivalica braon stena",
+  "label": "Skrivalice",
+  "lead": "Niska skrivalica u izgledu braon stene, sa širokim, niskim ulazom - tesan, taman zaklon koji vole zmije i gekoni.",
+  "image": "/style/img/oprema/skrivalica-braon-stena.webp",
+  "imageAlt": "Skrivalica braon stena - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Skrivalica"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Zaklon"
+    },
+    {
+      "k": "Oblik",
+      "v": "Nizak profil, širok ulaz"
+    },
+    {
+      "k": "Boja",
+      "v": "Braon sa okernim tonovima"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova skrivalica izgleda kao niska, zaobljena braon stena sa okernim i tamnijim šarama. Vrh je ravniji i blago kvrgav, a sa prednje strane je širok, nizak ulaz ispod stene."
+    },
+    {
+      "type": "p",
+      "html": "Mala visina unutrašnjeg prostora nije mana, već prednost. Mnoge zmije i gekoni se najsigurnije osećaju kada leđima i bokovima dodiruju zidove i plafon skrovišta. Prevelika skrivalica za njih je kao otvoren prostor, pa je izbegavaju. Pravilo je jednostavno: životinja treba da stane cela, ali da joj bude „taman“."
+    },
+    {
+      "type": "p",
+      "html": "Braon tonovi se prirodno uklapaju uz pesak, glinu, koru i suvo lišće, pa je skrivalica pogodna i za pustinjske i za šumske postavke."
+    },
+    {
+      "type": "h2",
+      "text": "Kako izabrati i postaviti"
+    },
+    {
+      "type": "p",
+      "html": "Uporedite visinu ulaza sa visinom vaše životinje: treba da uđe bez napora, ali ne previše slobodno. Skrivalicu postavite direktno na dno ili na čvrstu podlogu, da ne bi mogla da se uruši ako životinja kopa. Dobro je imati po jednu skrivalicu na toploj i na hladnoj strani terarijuma. Operite je jednom nedeljno ili kad se zaprlja."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Niska skrivalica braon stena za zmije i gekone",
+    "description": "Niska skrivalica u izgledu braon stene sa širokim ulazom - tesan, taman zaklon u kome se zmije i gekoni osećaju sigurno. NS Reptiles, Novi Sad.",
+    "keywords": "niska skrivalica, skrivalica braon stena, skrivalica za zmije, skrivalica za leopard gekona, skrovište za terarijum"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/skrivalica-kameni-polukrug",
+    "oprema/skrivalica-astecki-kalendar",
+    "oprema/skrivalica-polucev-braon",
+    "oprema/skrivalica-siva-pecina"
+  ]
+}

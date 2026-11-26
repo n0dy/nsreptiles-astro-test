@@ -1,0 +1,79 @@
+{
+  "name": "Posuda za vodu, tamnosiva",
+  "label": "Posude",
+  "lead": "Posuda za vodu ili hranu tamnosive mat boje, glatke unutrašnjosti - nenametljiva u uređenom terarijumu i laka za pranje.",
+  "image": "/style/img/oprema/posuda-za-vodu-tamnosiva.webp",
+  "imageAlt": "Posuda za vodu, tamnosiva - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Posuda za vodu i hranu"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Pojilica / hranilica"
+    },
+    {
+      "k": "Oblik",
+      "v": "Bubrežast, zaobljene ivice"
+    },
+    {
+      "k": "Boja",
+      "v": "Tamnosiva, mat"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova posuda ima bubrežast oblik sa zaobljenim ivicama, kao i svetloplava varijanta, ali u tamnosivoj mat boji sa blago zrnastom spoljnom površinom. Tamna boja je nenametljiva i ne odvlači pažnju od životinje i dekoracije, pa se dobro uklapa u prirodno uređen terarijum sa tamnijom podlogom, korom i kamenjem."
+    },
+    {
+      "type": "p",
+      "html": "Pogodna je za vodu ili hranu za guštere, zmije i kornjače. Glatka unutrašnjost se lako pere i ne zadržava naslage kao porozne kamene posude, što je praktično kada imate više terarijuma i želite brzo održavanje."
+    },
+    {
+      "type": "p",
+      "html": "Bubrežast oblik omogućava da posudu postavite udubljenim delom uz skrivalicu, kamen ili granu, pa se lepše uklopi u raspored."
+    },
+    {
+      "type": "h2",
+      "text": "Saveti za upotrebu"
+    },
+    {
+      "type": "p",
+      "html": "Na tamnoj podlozi prljavština se teže vidi nego na svetloj, pa nemojte čekati da voda izgleda prljavo: menjajte je svaki dan. Da se ne bi pomerala, posudu stavite na ravnu površinu i malo je utisnite u podlogu. Ne postavljajte je direktno ispod izvora toplote."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Posuda za vodu i hranu, tamnosiva mat | NS Reptiles",
+    "description": "Tamnosiva posuda za vodu ili hranu, glatke unutrašnjosti - nenametljiva mat boja za prirodan terarijum, brzo pranje. Za guštere, zmije i kornjače. NS Reptiles.",
+    "keywords": "tamnosiva posuda za vodu, bubrežasta posuda za terarijum, posuda za vodu za zmije, posuda za hranu za guštere, posuda za kornjače"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/posuda-zeleni-kamen",
+    "oprema/posuda-pescar",
+    "oprema/posuda-za-vodu-svetloplava",
+    "oprema/posuda-sivo-zeleni-kamen"
+  ]
+}

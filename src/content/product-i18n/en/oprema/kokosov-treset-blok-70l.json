@@ -1,13 +1,13 @@
 {
   "slug": "coconut-coir-brick-70l",
-  "name": "Coconut coir block 70L",
+  "name": "Coconut coir brick 70L",
   "label": "Substrates",
-  "lead": "A compressed coconut coir block that expands to ~70L. An economical pack for larger terrariums.",
-  "imageAlt": "Coconut coir block 70L - NS Reptiles",
+  "lead": "Coconut coir brick - a compressed substrate that expands to about 70L after soaking in water. Great value for larger terrariums.",
+  "imageAlt": "Coconut coir brick 70L, compressed terrarium substrate - NS Reptiles",
   "specs": [
     {
       "k": "Type",
-      "v": "Substrate - coconut coir (block)"
+      "v": "Substrate - coconut coir (brick)"
     },
     {
       "k": "Volume",
@@ -16,6 +16,10 @@
     {
       "k": "Intended for",
       "v": "Terrarium substrate"
+    },
+    {
+      "k": "Preparation",
+      "v": "Soak in warm water"
     }
   ],
   "description": [
@@ -25,7 +29,28 @@
     },
     {
       "type": "p",
-      "html": "A compressed coconut coir block is an economical solution for owners of larger terrariums or for anyone who changes substrate regularly. After soaking in water, the block expands to about 70 liters of quality coconut coir. Just put the block in a large container, pour warm water over it and wait 20-30 minutes for it to fully expand. Coconut coir holds moisture very well, is naturally resistant to mold and is safe for reptiles. It is suitable for all tropical and forest species that need higher humidity - crested geckos, chameleons, day geckos, snakes from tropical regions and many frog species. The large volume after expansion makes it far more cost-effective than smaller ready-to-use packs."
+      "html": "A compressed coconut coir brick is the most cost-effective way to get a larger amount of substrate. It takes up little space until you use it, and after soaking in water it gives about 70 liters of loose coir. It is a good choice for large terrariums, for several terrariums at once or if you change substrate often."
+    },
+    {
+      "type": "p",
+      "html": "Coconut coir holds moisture well and releases it slowly, so it suits crested geckos, chameleons, day geckos, tropical snakes and frogs. It is also used as a base in bioactive terrariums. One brick replaces a number of small packs, and as long as it stays dry and sealed, it keeps for a long time."
+    },
+    {
+      "type": "h2",
+      "text": "How to prepare it"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Place the brick in a large container or bucket.",
+        "Pour warm water over it and wait until it soaks up the water and starts to break apart.",
+        "Break up the lumps by hand until the coir is even.",
+        "If it is too wet, squeeze it out before putting it in the terrarium."
+      ]
+    },
+    {
+      "type": "p",
+      "html": "You do not have to prepare the whole brick at once: break off as much as you need and keep the rest dry. The finished coir should be damp but not wet. Browse our other <a href=\"/en/equipment.html\">terrarium equipment</a>."
     },
     {
       "type": "h2",
@@ -37,8 +62,8 @@
     }
   ],
   "seo": {
-    "title": "Coconut Coir Brick 70L | Bulk Terrarium Substrate",
-    "description": "A compressed coconut coir block that expands to ~70L. An economical substrate pack for larger terrariums. NS Reptiles, Novi Sad, Serbia.",
-    "keywords": "coconut coir brick 70l, terrarium substrate, compressed coco coir block, reptile supplies, NS Reptiles, Novi Sad"
+    "title": "Coconut Coir Brick 70L | Terrarium Substrate",
+    "description": "Coconut coir brick: compressed substrate that expands to about 70L in water. Great value for large and bioactive terrariums. NS Reptiles, Serbia.",
+    "keywords": "coconut coir brick, coco coir brick 70l, compressed coconut fiber, terrarium substrate, bioactive substrate"
   }
 }

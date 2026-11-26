@@ -1,0 +1,71 @@
+{
+  "name": "Zamak na steni",
+  "label": "Dekoracija",
+  "lead": "Zamak na steni za akvarijum - kule sa šiljatim krovovima na visokoj steni obrasloj mahovinom, sa pećinama u podnožju.",
+  "image": "/style/img/oprema/dekoracija/zamak-na-steni.webp",
+  "imageAlt": "Zamak sa šiljatim kulama na steni obrasloj mahovinom, dekoracija za akvarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - zamak"
+    },
+    {
+      "k": "Izgled",
+      "v": "Kule sa šiljatim krovovima na steni sa mahovinom"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras i skrovište za ribe"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Zamak na steni je dekoracija u kojoj glavnu ulogu ima stena: visoka, slojevita i gusto obrasla zelenom mahovinom, a na njenom vrhu stoji zamak peščane boje sa kulama i šiljatim krovovima. U podnožju i na bokovima stene nalaze se otvori i pećine u kojima se ribe skrivaju."
+    },
+    {
+      "type": "p",
+      "html": "Svojom visinom dekoracija lepo popunjava zadnji deo akvarijuma i postaje njegov centralni ukras. Zeleni tonovi mahovine povezuju je sa živim biljkama, pa deluje prirodnije od klasičnih šarenih zamkova. Pećine u steni odgovaraju ribama koje vole tamna skrovišta i deo dana provode sakrivene."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja dekoraciju isperite mlakom vodom, bez sapuna. Postavite je u zadnji deo akvarijuma, na ravno dno, i proverite da se ne klati. Pazite da ne zaklanja usis filtera i da voda može da struji oko nje. Alge sa mahovine i stene skidajte mekom četkicom, a talog iz pećina isperite pri zameni vode. Za postavku po meri pogledajte naše <a href=\"/akvarijumi.html\">akvarijume</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Zamak na steni sa mahovinom - ukras za akvarijum",
+    "description": "Zamak sa šiljatim kulama na visokoj steni obrasloj mahovinom, sa pećinama za ribe. Centralni ukras zadnjeg dela akvarijuma. NS Reptiles Novi Sad.",
+    "keywords": "zamak na steni, zamak za akvarijum, dekoracija sa mahovinom, pećina za ribe, ukras za akvarijum"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum"
+  ],
+  "related": [
+    "oprema/amfora-terakota",
+    "oprema/lobanja-krokodila",
+    "oprema/zamak-sa-kapijom",
+    "oprema/zamak-sa-zidinama"
+  ]
+}

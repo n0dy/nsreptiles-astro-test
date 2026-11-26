@@ -1,9 +1,9 @@
 {
   "seo": {
-    "title": "Kineska vodena agama: nega, ishrana, terarijum | NS Reptiles",
-    "description": "Kineska vodena agama: uslovi držanja, ishrana, temperatura, vlažnost i veličina terarijuma. Kompletni vodič iz odgajivačnice NS Reptiles, Novi Sad.",
+    "title": "Kineska Vodena Agama Prodaja od 12.000 din, Novi Sad | NS Reptiles",
+    "description": "Prodaja kineske vodene agame od 12.000 din - atraktivan tropski gušter. Vodič za negu, ishranu i terarijum. NS Reptiles, Novi Sad.",
     "ogTitle": "Kineska vodena agama — nega i uzgoj | NS Reptiles",
-    "ogDescription": "Kineska vodena agama: uslovi držanja, ishrana, temperatura, vlažnost i veličina terarijuma. Kompletni vodič iz NS Reptiles."
+    "ogDescription": "Prodaja kineske vodene agame od 12.000 din - atraktivan tropski gušter. Vodič za negu, ishranu i terarijum. NS Reptiles, Novi Sad."
   },
   "article": {
     "headline": "Kineska vodena agama — nega, ishrana i uslovi držanja",
@@ -15,6 +15,14 @@
   "photo": "/style/img/gallery/13.jpg",
   "photoAlt": "Kineska vodena agama u terarijumu — NS Reptiles Novi Sad",
   "intro": "Kineska vodena agama potiče iz tropskih kišnih šuma jugoistočne Azije — Kine, Vijetnama, Laosa, Kambodže i Tajlanda. Nastanjuje guste šumske predele uz reke, potoke i jezera, gde provodi vreme i na granama i u vodi. <strong>Poluarborealni je i poluakvatični gušter</strong> koji u slučaju opasnosti skače u vodu i može ostati pod njom do 90 minuta. Narastaju do 90 cm ukupne dužine, pri čemu rep čini oko dve trećine. Karakteriše ih izražena leđna krijesta — posebno kod mužjaka — i „treće oko\" (pinealna žlezda) na vrhu glave. Diurni su, aktivni danju, a boja varira od svetlozelene do maslinastozelene sa tamnijim prugama na repu. Zbog složenih uslova koje zahtevaju, preporučuju se iskusnijim vlasnicima reptila.",
+  "price": {
+    "label": "Cena",
+    "value": "Jedinke od 12.000 din",
+    "note": "Kineska vodena agama iz domaćeg uzgoja — atraktivan tropski gušter. Jedinke od 12.000 din, dostupan i starter komplet sa terarijumom i opremom. Prodaja u Novom Sadu, dostava širom Srbije — javite nam se za dostupnost.",
+    "call": "Pozovite nas",
+    "waText": "Zdravo, zanima me kinesku vodenu agamu.",
+    "low": 12000
+  },
   "sections": [
     {
       "title": "Nega i <b>terarijum</b>",
@@ -99,6 +107,34 @@
     "terarijumi/terarijum-90x50x50",
     "terarijumi/terarijum-60x45x50"
   ],
+  "faq": {
+    "title": "Česta pitanja o kineskoj vodenoj agami",
+    "items": [
+      {
+        "q": "Da li je kineska vodena agama pogodna za početnike?",
+        "a": "Ne preporučuje se za početnike jer zahteva veliki terarijum, visoku vlažnost i specifične uslove. Bolja je za iskusnije vlasnike."
+      },
+      {
+        "q": "Koliko raste kineska vodena agama?",
+        "a": "Kineska vodena agama raste do 90 cm, pri čemu rep čini oko 2/3 ukupne dužine."
+      },
+      {
+        "q": "Koliki terarijum treba za kinesku vodenu agamu?",
+        "a": "Minimalne dimenzije su 180x90x180 cm za jednu odraslu jedinku, sa velikom vodenom površinom za plivanje."
+      },
+      {
+        "q": "Šta jede kineska vodena agama?",
+        "a": "Kineska vodena agama jede insekte (cvrčke, skakavce, dubije), povremeno male miševe, ribe, voće i povrće."
+      },
+      {
+        "q": "Koja je idealna vlažnost za kinesku vodenu agamu?",
+        "a": "Optimalna vlažnost je 70-80%. Potrebno je redovno prskanje i velika vodena površina u terarijumu."
+      }
+    ]
+  },
+  "product": {
+    "description": "Kineska vodena agama iz domaćeg uzgoja - atraktivan tropski gušter. Jedinke od 12.000 din, dostupan i starter komplet sa terarijumom i opremom."
+  },
   "cta": {
     "text": "Za pitanja o nabavci, nezi ili opremi za kinesku vodenu agamu — tu smo. Javite nam se pozivom ili porukom.",
     "waText": "Zanima me kineska vodena agama"

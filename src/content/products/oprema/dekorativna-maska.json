@@ -1,0 +1,75 @@
+{
+  "name": "Dekorativna maska",
+  "label": "Dekoracija",
+  "lead": "Dekorativna maska za akvarijum u žuto-zelenoj boji, u stilu hokejaške maske, sa velikim otvorima za oči kroz koje ribe plivaju.",
+  "image": "/style/img/oprema/dekoracija/dekorativna-maska.webp",
+  "imageAlt": "Žuto-zelena dekorativna maska u stilu hokejaške maske za akvarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - maska"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras i prolaz za ribe"
+    },
+    {
+      "k": "Boja",
+      "v": "Žuto-zelena sa tamnijim senčenjem"
+    },
+    {
+      "k": "Izgled",
+      "v": "Hokejaška maska sa trakom i zakivcima"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova dekorativna maska podseća na staru hokejašku masku iz horor filmova. Površina je žuto-zelena sa tamnijim zelenim senčenjem, prekrivena nizovima malih udubljenja, a na vrhu se nalazi traka sa zakivkom, a sa strana mali držači sa zakivcima. Izgleda kao da je dugo ležala pod vodom, pa se lepo uklapa u akvarijum sa zelenim biljkama i tamnijom podlogom."
+    },
+    {
+      "type": "p",
+      "html": "Dva velika otvora za oči služe kao prolaz kroz koji ribe plivaju i igraju se. Maska je dobar izbor za akvarijume sa živahnim ribama koje vole da istražuju, a deci je često omiljeni detalj u akvarijumu. Uz tematske dekoracije poput lobanja ili olupina dobijate upečatljivu, pomalo jezivu postavku."
+    },
+    {
+      "type": "h2",
+      "text": "Kako je postaviti"
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja masku isperite mlakom vodom, bez sapuna. Najbolje izgleda uspravno, naslonjena na kamen ili koren, ili sa donjom ivicom ukopanom u šljunak, tako da ne može da padne kada ribe kopaju ili kada čistite dno. Otvore okrenite ka prednjem staklu da se vidi kako ribe prolaze. Alge iz udubljenja najlakše skidate mekom četkicom."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Dekorativna maska za akvarijum, hokejaška | NS Reptiles",
+    "description": "Dekorativna maska za akvarijum u stilu hokejaške maske, žuto-zelena, sa otvorima za oči kroz koje ribe plivaju. Horor ukras. NS Reptiles, Novi Sad.",
+    "keywords": "maska za akvarijum, dekorativna maska, horor dekoracija za akvarijum, hokejaška maska dekoracija, dekoracija za akvarijum"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum"
+  ],
+  "related": [
+    "oprema/amfora-terakota",
+    "oprema/lobanja-krokodila",
+    "oprema/zamak-sa-kapijom",
+    "oprema/zamak-na-steni"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "green-rock-aquarium-terrarium-hide",
+  "name": "Green rock hide",
+  "label": "Hides",
+  "lead": "Hide styled as a natural greenish rock, for terrariums and aquariums - a shelter for reptiles or a cave for fish and shrimp.",
+  "imageAlt": "Green rock hide - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Hide"
+    },
+    {
+      "k": "Intended for",
+      "v": "Aquarium and terrarium"
+    },
+    {
+      "k": "Function",
+      "v": "Shelter"
+    },
+    {
+      "k": "Shape",
+      "v": "Low vault, front entrance"
+    },
+    {
+      "k": "Color",
+      "v": "Grey-green with light streaks"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This hide is a realistic imitation of a low, wide rock in grey-green with lighter, yellowish streaks. The surface is uneven and knobbly, and at the front there is a low, wide entrance into the cavity under the rock."
+    },
+    {
+      "type": "p",
+      "html": "What makes it special is its dual use. In a terrarium it serves as a hide for lizards, geckos and snakes and fits into forest and neutral setups with rocks and plants. In an aquarium it becomes a cave where fish and shrimp retreat from light and other tank mates, which matters especially for shy and territorial species."
+    },
+    {
+      "type": "h2",
+      "text": "Use in an aquarium"
+    },
+    {
+      "type": "p",
+      "html": "Before placing it, rinse the hide well with lukewarm water, without detergent. Set it directly on the aquarium floor and spread sand or gravel around it, so fish that dig cannot undermine it. Take a look at our <a href=\"/en/aquariums.html\">aquariums</a> too."
+    },
+    {
+      "type": "h2",
+      "text": "Use in a terrarium"
+    },
+    {
+      "type": "p",
+      "html": "In a terrarium, place it on the floor, on the warm or cool side, and add another hide on the opposite side. Wash it with warm water when it gets dirty."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Green Rock Hide for Terrariums and Aquariums",
+    "description": "Greenish rock-look hide for a terrarium or aquarium - a shelter for reptiles or a cave for fish and shrimp. NS Reptiles, Novi Sad, Serbia.",
+    "keywords": "green rock hide, aquarium cave, fish hide, terrarium hide, aquarium rock decor"
+  }
+}

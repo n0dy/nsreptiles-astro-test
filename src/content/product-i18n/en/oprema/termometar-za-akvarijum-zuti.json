@@ -1,0 +1,60 @@
+{
+  "slug": "resun-yellow-aquarium-thermometer",
+  "name": "Aquarium thermometer (yellow)",
+  "label": "Thermometers",
+  "lead": "Resun aquarium thermometer with a yellow scale up to 50 °C - high-contrast water temperature reading.",
+  "imageAlt": "Aquarium thermometer (yellow) - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Glass aquarium thermometer"
+    },
+    {
+      "k": "Brand",
+      "v": "Resun"
+    },
+    {
+      "k": "Scale",
+      "v": "°C, up to 50 °C"
+    },
+    {
+      "k": "Intended for",
+      "v": "Aquarium"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The aquarium thermometer with a yellow scale is a Resun glass thermometer with red liquid and a Celsius scale up to 50 °C. A round black holder at the top attaches it to the inside of the glass, so it measures the temperature directly in the water."
+    },
+    {
+      "type": "p",
+      "html": "The yellow scale background is high-contrast and easy to read through the glass and in a dimly lit aquarium. The thermometer needs no batteries or cables and suits freshwater aquariums and tanks with aquatic turtles. Since it is made of glass, handle it carefully when placing and removing it."
+    },
+    {
+      "type": "h2",
+      "text": "Tips for use"
+    },
+    {
+      "type": "p",
+      "html": "Tropical fish need warmer water, while coldwater fish and aquatic turtles need different temperatures, so check what your animals require. It is best to place the thermometer on the opposite side from the heater, so it shows the temperature in the rest of the tank. Check it every day, especially in summer and after water changes. If the thermometer shows a sudden temperature change, check the heater and the room temperature."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Aquarium Thermometer with Yellow Scale | NS Reptiles",
+    "description": "Resun glass aquarium thermometer with a high-contrast yellow scale up to 50 °C. Attaches to the inside of the glass, no batteries. NS Reptiles, Serbia.",
+    "keywords": "aquarium thermometer, yellow thermometer, glass thermometer, resun thermometer, aquarium water temperature"
+  }
+}

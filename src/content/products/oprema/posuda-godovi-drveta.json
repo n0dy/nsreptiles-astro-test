@@ -1,0 +1,79 @@
+{
+  "name": "Posuda sa godovima drveta",
+  "label": "Posude",
+  "lead": "Posuda u izgledu preseka stabla, sa godovima na dnu i tamnom korom spolja - za vodu ili hranu u šumskom i tropskom terarijumu.",
+  "image": "/style/img/oprema/posuda-godovi-drveta.webp",
+  "imageAlt": "Posuda sa godovima drveta - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Posuda za vodu"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Pojilica / hranilica"
+    },
+    {
+      "k": "Oblik",
+      "v": "Okrugla, presek stabla"
+    },
+    {
+      "k": "Izgled",
+      "v": "Svetli godovi, crno-bež kora"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Posuda sa godovima drveta izgleda kao odsečeni komad stabla. Dno je svetlo, sa jasno urezanim godovima i pukotinama, a spoljna strana je oblikovana kao gruba kora u crnim i bež tonovima. Unutrašnja ivica je blago izdignuta, pa voda ostaje u posudi i kada životinja stane na obod."
+    },
+    {
+      "type": "p",
+      "html": "Drvenast izgled je dobar izbor za šumske i tropske postavke: terarijume sa korom plute, granama, lijanama i lišćem. Tu posuda deluje kao deo okruženja, a ne kao dodatak. Pogodna je za zmije kao što je kukuruzni smuk, ali i za guštere koji žive na šumskom tlu."
+    },
+    {
+      "type": "p",
+      "html": "Iako izgleda kao drvo, ovo je izlivena imitacija, a ne komad pravog drveta, pa ne truli kao pravi panj u vlažnom terarijumu."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Posudu postavite na ravnu površinu, na hladnijoj strani terarijuma. U tropskom terarijumu voda iz posude pomaže i da se održi vlažnost. Vodu menjajte svakog dana, a godove na dnu povremeno očistite četkicom, jer se u urezima zadržava talog."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Posuda sa godovima drveta za šumski terarijum | NS Reptiles",
+    "description": "Okrugla posuda za vodu i hranu u izgledu preseka stabla, sa godovima i korom. Za šumske i tropske terarijume. NS Reptiles, Novi Sad.",
+    "keywords": "posuda u izgledu drveta, posuda sa godovima, posuda za tropski terarijum, pojilica za zmije, posuda za vodu za terarijum"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/posuda-astecki-motivi",
+    "oprema/posuda-kamena-zaba",
+    "oprema/mala-okrugla-posuda-braon",
+    "oprema/posuda-porozni-sivi-kamen"
+  ]
+}

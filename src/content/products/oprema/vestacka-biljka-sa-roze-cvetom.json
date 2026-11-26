@@ -1,0 +1,75 @@
+{
+  "name": "Veštačka biljka sa roze cvetom",
+  "label": "Biljke",
+  "lead": "Vitka zelena veštačka biljka za akvarijum sa roze cvetom, na tamnom postolju. Diskretan detalj za srednji plan.",
+  "image": "/style/img/oprema/akvarijum/vestacka-biljka-sa-roze-cvetom.webp",
+  "imageAlt": "Veštačka biljka sa roze cvetom za akvarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Veštačka biljka"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Dekoracija i zaklon"
+    },
+    {
+      "k": "Boja",
+      "v": "Zelena sa roze cvetom"
+    },
+    {
+      "k": "Postolje",
+      "v": "Tamno"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Veštačka biljka sa roze cvetom ima vitke zelene stabljike sa uskim listovima i sitnim roze cvetom pri vrhu. Stoji na tamnom, niskom postolju koje se lako sakrije među kamenjem ili u podlozi."
+    },
+    {
+      "type": "p",
+      "html": "Veštačka biljka ne vene, ne traži rasvetu ni đubrivo i ne utiče na parametre vode, pa je dobar izbor za početnike i za akvarijume sa ribama koje grickaju ili čupaju žive biljke. Sitnijim ribama, mladuncima i škampima daje zaklon i mesto za odmor."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Prozračan oblik ne zaklanja pogled na ribe, pa biljka lepo izgleda u srednjem delu akvarijuma ili ispred tamne pozadine. Roze cvet je diskretan detalj koji osvežava čisto zelenu dekoraciju. Pri redovnom održavanju biljku izvadite i isperite mlakom vodom, a naslage algi uklonite mekom četkicom, bez deterdženata. Pre prvog stavljanja u akvarijum takođe je isperite. Ostale dekoracije i opremu pogledajte u ponudi <a href=\"/oprema.html\">opreme</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Veštačka biljka sa roze cvetom za akvarijum",
+    "description": "Veštačka biljka sa roze cvetom: vitke zelene stabljike na tamnom postolju, diskretan detalj za srednji plan akvarijuma. NS Reptiles Novi Sad.",
+    "keywords": "veštačka biljka sa roze cvetom, veštačka biljka za akvarijum, cvetna biljka za akvarijum, dekoracija za akvarijum, plastične biljke"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum"
+  ],
+  "related": [
+    "oprema/vestacka-biljka-okruglih-listova",
+    "oprema/vestacka-biljka-sa-crvenim-cvetovima",
+    "oprema/vestacka-biljka-na-kamenu",
+    "oprema/vestacka-biljka-sa-dugim-granama"
+  ]
+}

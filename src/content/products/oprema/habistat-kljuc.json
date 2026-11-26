@@ -1,22 +1,34 @@
 {
-  "name": "Habistat ključ",
+  "name": "HabiStat brava za klizna vrata",
   "label": "Pribor",
-  "lead": "Habistat ključ za zaključavanje terarijuma. Obezbeđuje sigurnost vaših reptila sprečavajući neovlašćeno otvaranje.",
+  "lead": "HabiStat brava za klizna staklena vrata terarijuma, sa ključem. Montira se bez bušenja, dvostrana je i dolazi sa dva ključa i krakom od 90 mm.",
   "image": "/style/img/oprema/kljuc.webp",
-  "imageAlt": "Habistat ključ - NS Reptiles",
+  "imageAlt": "HabiStat brava za klizna vrata - NS Reptiles",
   "price": 0,
   "specs": [
     {
       "k": "Brend",
-      "v": "Habistat"
+      "v": "HabiStat"
+    },
+    {
+      "k": "Model",
+      "v": "Sliding Glass Door Lock 90 mm (HSVL90)"
     },
     {
       "k": "Tip",
-      "v": "Ključ za terarijum"
+      "v": "Brava sa ključem za klizna staklena vrata"
     },
     {
-      "k": "Namena",
-      "v": "Zaključavanje"
+      "k": "Dimenzije",
+      "v": "9 x 2 x 2 cm"
+    },
+    {
+      "k": "U pakovanju",
+      "v": "Brava i 2 ključa"
+    },
+    {
+      "k": "Montaža",
+      "v": "Bez bušenja, može na levu ili desnu stranu"
     }
   ],
   "description": [
@@ -26,11 +38,23 @@
     },
     {
       "type": "p",
-      "html": "Habistat ključ za zaključavanje terarijuma je neophodan sigurnosni dodatak za svakog vlasnika reptila. Sprečava neovlašćeno otvaranje kliznih staklenih vrata, čime štiti vaše životinje od neželjenog izlaska i obezbeđuje mir u situacijama kada imate decu ili druge kućne ljubimce u domaćinstvu. Mnoge vrste reptila su izuzetno vešti u pronalaženju načina da otvore klizna vrata, posebno veći gušteri i zmije, pa je sigurnosno zaključavanje praktično obavezno."
+      "html": "HabiStat Sliding Glass Door Lock je jednostavna brava za terarijume i vitrine sa kliznim staklenim vratima. Zaključava dva klizna stakla jedno uz drugo, pa vrata ne mogu da se pomere dok ih ne otključate. U pakovanju su brava sa nazubljenim krakom dužine 90 mm i dva ključa."
     },
     {
       "type": "p",
-      "html": "Jednostavan je za ugradnju - postavlja se na gornju ivicu kliznih vrata bez potrebe za bušenjem ili lepljenjem, i može se montirati za svega par minuta. Ključ se lako zaključava i otključava, a kompaktan dizajn ne narušava izgled terarijuma. Habistat je renomirani britanski brend specijalizovan za opremu za reptile, poznat po kvalitetu i pouzdanosti svojih proizvoda."
+      "html": "Brava je dvostrana i može da se postavi sa bilo koje strane stakla. Korisna je kada u kući ima dece ili drugih ljubimaca, a i mnogi gušteri i zmije umeju da pomere klizno staklo i pobegnu."
+    },
+    {
+      "type": "h2",
+      "text": "Montaža"
+    },
+    {
+      "type": "p",
+      "html": "Prema uputstvu proizvođača, nazubljeni krak se zavrtnjima pričvrsti na jedno staklo, bez bušenja. Telo brave zatim klizi duž kraka dok ne nalegne na ivicu prednjeg kliznog stakla, a okretanjem ključa bravu zaključavate ili otključavate. Pre kupovine proverite da vaš terarijum ima dva klizna stakla koja se preklapaju."
+    },
+    {
+      "type": "p",
+      "html": "Ključeve čuvajte na sigurnom mestu, van domašaja dece. Staklene terarijume sa kliznim vratima izrađujemo po meri, a više o tome pročitajte na strani <a href=\"/terarijumi.html\">terarijumi</a>."
     },
     {
       "type": "h2",
@@ -42,11 +66,9 @@
     }
   ],
   "seo": {
-    "title": "Habistat ključ | Oprema - NS REPTILES",
-    "description": "Habistat ključ za zaključavanje terarijuma. Obezbeđuje sigurnost vaših reptila sprečavajući neovlašćeno otvaranje. NS Reptiles Novi Sad.",
-    "keywords": "habistat ključ, oprema za terarijum, oprema za reptile, NS REPTILES, Novi Sad",
-    "ogTitle": "Habistat ključ | NS Reptiles",
-    "ogDescription": "Habistat ključ za zaključavanje terarijuma. Obezbeđuje sigurnost vaših reptila sprečavajući neovlašćeno otvaranje."
+    "title": "HabiStat brava za klizna vrata terarijuma, 90 mm",
+    "description": "HabiStat Sliding Glass Door Lock 90 mm: brava sa dva ključa za klizna staklena vrata terarijuma, montaža bez bušenja. NS Reptiles Novi Sad.",
+    "keywords": "habistat brava, brava za terarijum, ključ za terarijum, brava za klizna vrata, sigurnost terarijuma"
   },
   "related": []
 }

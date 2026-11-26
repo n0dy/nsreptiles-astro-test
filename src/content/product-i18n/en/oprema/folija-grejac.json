@@ -1,21 +1,29 @@
 {
   "slug": "heat-mat",
   "name": "Heat mat",
-  "label": "Equipment",
-  "lead": "Heat mat for warming the bottom of a terrarium. Heats the substrate evenly, ideal for species that need heat from below.",
-  "imageAlt": "Heat mat - NS Reptiles",
+  "label": "Heating",
+  "lead": "Heat film for terrariums: a thin heating film placed under the floor to warm the substrate from below. Available in several sizes, used with a thermostat.",
+  "imageAlt": "Heat film for heating the terrarium floor - NS Reptiles",
   "specs": [
     {
       "k": "Type",
-      "v": "Heat mat / heating film"
+      "v": "Heating film"
     },
     {
       "k": "Intended for",
       "v": "Heating the terrarium floor"
     },
     {
-      "k": "Note",
-      "v": "Available in several sizes"
+      "k": "Placement",
+      "v": "Under the terrarium floor, outside"
+    },
+    {
+      "k": "Sizes",
+      "v": "Several sizes"
+    },
+    {
+      "k": "Recommendation",
+      "v": "Always use with a thermostat"
     }
   ],
   "description": [
@@ -25,7 +33,23 @@
     },
     {
       "type": "p",
-      "html": "A heat mat (heating film) is an efficient way to warm the bottom of a terrarium. It is placed under the terrarium and heats the substrate evenly, which is especially important for species that need heat from below - so-called \"belly heat\". Leopard geckos, for example, use heat from the ground to digest their food, so this type of heating is essential for them. The heat mat should cover about one third of the terrarium floor so the animal can move to the cooler side when needed. We recommend using it together with a thermostat that keeps the temperature stable and prevents overheating. It is available in several sizes, so you can choose the right one for your terrarium."
+      "html": "A heat film is a thin, flexible heating sheet placed under the terrarium floor to warm the substrate from below. The photo shows the heating strips and copper conductors along the edges of the film. This kind of heating suits species that absorb warmth through their belly from the ground, such as leopard geckos and fat-tailed geckos, and works as a supplementary heat source for snakes."
+    },
+    {
+      "type": "p",
+      "html": "The film gives off no light, so it can stay on at night when the main lamp is off. We sell it in several sizes; tell us the floor dimensions of your terrarium and we will recommend the right one."
+    },
+    {
+      "type": "h2",
+      "text": "Installation and safety"
+    },
+    {
+      "type": "p",
+      "html": "Stick or place the film outside, under the floor, so it covers roughly a third of the area on one side. This creates a warm and a cool zone, and the animal chooses where to be. The terrarium floor should be slightly raised so air can circulate under the film."
+    },
+    {
+      "type": "p",
+      "html": "Always connect the film to a thermostat with the probe on the floor above the heated zone, because without control it can overheat. Do not fold it sharply or use a damaged film. Find thermostats and thermometers in our <a href=\"/en/equipment.html\">equipment</a> range."
     },
     {
       "type": "h2",
@@ -37,8 +61,8 @@
     }
   ],
   "seo": {
-    "title": "Terrarium Heat Mat | Under-Tank Heater - NS Reptiles",
-    "description": "Heat mat for warming the terrarium floor. Heats the substrate evenly, ideal for species that need belly heat. NS Reptiles, Novi Sad, Serbia.",
-    "keywords": "heat mat, under tank heater, terrarium heat mat, reptile heating, terrarium equipment, NS Reptiles, Novi Sad"
+    "title": "Terrarium Heat Mat | Under-Tank Heating Film",
+    "description": "Terrarium heat film: under-floor heating for belly heat, for leopard geckos and snakes. Several sizes, use with a thermostat. NS Reptiles, Serbia.",
+    "keywords": "terrarium heat mat, heating film, leopard gecko heat mat, under tank heater, reptile heat mat"
   }
 }

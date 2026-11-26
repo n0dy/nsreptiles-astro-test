@@ -1,9 +1,9 @@
 {
   "name": "Povodac za guštere",
-  "label": "Oprema",
-  "lead": "Premium kožni povodac za guštere sa dizajnom krila šišmiša. Uže dužine 1.5m. Tri veličine grudnog kaiša: S, M, L.",
+  "label": "Pribor",
+  "lead": "Nomoy Pet NFF-56 povodac za guštere sa dekorativnim krilima u obliku krila šišmiša, za kratke šetnje bradate agame i drugih guštera uz stalni nadzor.",
   "image": "/style/img/oprema/lizard-leash.webp",
-  "imageAlt": "Povodac za guštere - NS Reptiles",
+  "imageAlt": "Nomoy Pet NFF-56 povodac za guštere sa krilima šišmiša - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -15,12 +15,24 @@
       "v": "NFF-56"
     },
     {
-      "k": "Dužina uzeta",
-      "v": "1.5m"
+      "k": "Tip",
+      "v": "Povodac za guštere (Lizard Leash)"
     },
     {
-      "k": "Veličine",
-      "v": "S / M / L"
+      "k": "Dizajn",
+      "v": "Dekorativna krila šišmiša"
+    },
+    {
+      "k": "Namena",
+      "v": "Kratke šetnje guštera uz nadzor"
+    },
+    {
+      "k": "Dužina užeta",
+      "v": "Oko 1,5 m"
+    },
+    {
+      "k": "U kompletu",
+      "v": "Krila, uže i tri kaiša za grudi (S, M, L)"
     }
   ],
   "description": [
@@ -30,15 +42,23 @@
     },
     {
       "type": "p",
-      "html": "Povodac za guštere Nomoy Pet NFF-56 je premium dodatak za vlasnike koji žele da bezbedno izvode svoje guštere na svež vazduh. Izrađen od kvalitetne kože sa jedinstvenim dizajnom krila šišmiša (bat wing), ovaj povodac kombinuje funkcionalnost sa atraktivnim izgledom. Grudni kaiš se lagano postavlja oko tela guštera bez pritiska na osetljive organe, dok uže dužine 1.5m pruža dovoljno slobode za istraživanje okoline."
+      "html": "Nomoy Pet NFF-56 je povodac za guštere sa dekorativnim krilima u obliku krila šišmiša. U kompletu su krila, uže dužine oko 1,5 m sa podesivom kopčom i tri kaiša za grudi u veličinama S, M i L, pa se am prilagođava gušterima različite veličine. Na pakovanju je označen kao pribor za guštere (Lizard Leash), a krila daju gušteru u šetnji izgled malog zmaja. Povodac omogućava da životinja bezbedno provede malo vremena na svežem vazduhu, a da ne može da pobegne ili se sakrije na nedostupnom mestu."
     },
     {
       "type": "p",
-      "html": "Dostupan je u tri veličine grudnog kaiša kako bi odgovarao različitim vrstama i veličinama guštera. Veličina S (9x3.3cm) je pogodna za manje gekone i mlade guštere, veličina M (12.1x4.8cm) odgovara leopard gekonima i manjim bradatim agamama, dok veličina L (13.2x6.2cm) pristaje odraslim bradatim agamama i malim iguanama. Materijal je netoksičan, bez mirisa i prozracan, što sprečava pregrevanje i iritaciju kože životinje."
+      "html": "Najčešće se koristi za bradate agame, ali odgovara i drugim mirnijim gušterima slične građe. Pre kupovine nam javite vrstu i veličinu vašeg guštera, pa ćemo zajedno proveriti da li odgovara. Povodac koristite samo dok ste uz životinju i nikada ga ne ostavljajte na gušteru bez nadzora."
+    },
+    {
+      "type": "h2",
+      "text": "Kako navići guštera na povodac"
     },
     {
       "type": "p",
-      "html": "Pre prvog izlaska napolje, preporučujemo da guštera postepeno navikavate na povodac u kontrolisanom kućnom okruženju. Pustite ga da nosi povodac kratko vreme dok se ne navikne na osećaj. Nikada ne vucite i ne podižite guštera za povodac - on služi kao sigurnosna mera, a ne kao sredstvo za kontrolu pokreta. Idealan je za kratke šetnje po dvorištu, sunčanje na balkonu ili foto-sesije na otvorenom."
+      "html": "Kaiš treba da nalegne čvrsto, ali da ispod njega stane prst i da ne pritiska stomak. Prvo pustite guštera da nosi povodac nekoliko minuta u kući, dok se ne navikne. Napolju ga ne vucite i ne podižite za uže; povodac služi da životinja ne pobegne, a ne da je vodite."
+    },
+    {
+      "type": "p",
+      "html": "Izlazite samo po toplom i mirnom vremenu, kratko, i uvek ostavite senku i mogućnost povlačenja. Pazite na pse, mačke i ptice grabljivice. Više o bradatoj agami pročitajte na strani <a href=\"/zivotinje/bradataagama.html\">bradata agama</a>."
     },
     {
       "type": "h2",
@@ -50,15 +70,13 @@
     }
   ],
   "seo": {
-    "title": "Povodac za guštere | Oprema - NS Reptiles",
-    "description": "Povodac za guštere Nomoy Pet - premium kožni povodac sa bat wing dizajnom. Tri veličine (S, M, L). NS Reptiles Novi Sad.",
-    "keywords": "povodac za guštere, lizard leash, povodac za bradate agame, Nomoy Pet, oprema za reptile, NS Reptiles, Novi Sad",
-    "ogTitle": "Povodac za guštere | NS Reptiles"
+    "title": "Povodac za guštere Nomoy Pet NFF-56 - krila šišmiša",
+    "description": "Nomoy Pet NFF-56 povodac za guštere sa dekorativnim krilima šišmiša, za kratke šetnje bradate agame uz nadzor. Saveti za navikavanje. NS Reptiles.",
+    "keywords": "povodac za guštere, povodac za bradatu agamu, am za guštera, nomoy pet nff-56, povodac sa krilima"
   },
   "related": [
     "oprema/kokosov-treset-5l",
     "oprema/pinceta",
-    "oprema/skrivalice-za-reptile",
     "oprema/cork-bark"
   ]
 }

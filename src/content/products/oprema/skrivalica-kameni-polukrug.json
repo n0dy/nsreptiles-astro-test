@@ -1,0 +1,79 @@
+{
+  "name": "Skrivalica kameni polukrug",
+  "label": "Skrivalice",
+  "lead": "Zakrivljena skrivalica u obliku tamnog kamenog polukruga, otvorena sa obe strane - lagan zaklon, most i mesto za penjanje.",
+  "image": "/style/img/oprema/skrivalica-kameni-polukrug.webp",
+  "imageAlt": "Skrivalica kameni polukrug - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Skrivalica"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Zaklon"
+    },
+    {
+      "k": "Oblik",
+      "v": "Polukrug (luk), otvoren sa dve strane"
+    },
+    {
+      "k": "Boja",
+      "v": "Tamnobraon sa svetlijim prelivima"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova skrivalica ima oblik zakrivljenog kamenog luka, nalik polumesecu, u tamnobraon boji sa svetlijim, kao izglačanim delovima. Krajevi luka se oslanjaju na podlogu, a ispod njega je prolaz otvoren sa obe strane."
+    },
+    {
+      "type": "p",
+      "html": "Za razliku od zatvorenih pećina, ovo je polu-otvoren zaklon. Životinja ispod luka ima senku i zaštitu odozgo, a istovremeno može da izađe na bilo koju stranu, što odgovara aktivnim gušterima koji ne vole da se osete „zarobljeno“. Glatka gornja površina služi kao most i mesto za penjanje i odmor."
+    },
+    {
+      "type": "p",
+      "html": "Zakrivljen oblik je zgodan i za uređenje: luk se može postaviti oko biljke, kamena ili posude za vodu i tako povezati delove terarijuma."
+    },
+    {
+      "type": "h2",
+      "text": "Saveti za upotrebu"
+    },
+    {
+      "type": "p",
+      "html": "Za plašljive vrste i zmije koje traže potpuno taman prostor, uz ovaj luk postavite i jednu zatvorenu skrivalicu. Luk stavite direktno na dno ili na čvrstu podlogu, da se ne ljulja kada se životinja penje. Glatku površinu je lako oprati toplom vodom."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Skrivalica kameni polukrug - luk za penjanje | NS Reptiles",
+    "description": "Zakrivljena skrivalica u obliku tamnog kamenog polukruga, otvorena sa dve strane - polu-otvoren zaklon i most za aktivne guštere. NS Reptiles.",
+    "keywords": "skrivalica kameni polukrug, luk za terarijum, skrivalica za guštere, dekoracija za penjanje, skrovište za terarijum"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/skrivalica-astecki-kalendar",
+    "oprema/skrivalica-polucev-braon",
+    "oprema/skrivalica-braon-stena",
+    "oprema/skrivalica-siva-pecina"
+  ]
+}

@@ -1,9 +1,9 @@
 {
   "name": "Arcadia UVB 5% 15W T8",
   "label": "Rasveta",
-  "lead": "Arcadia Forest 5% UVB T8 cev 15W / 450mm. Za šumske vrste reptila kojima treba umereno UVB zračenje.",
+  "lead": "Arcadia Euro Range Forest 5% UVB T8 cev od 15 W i 450 mm, za šumske vrste kojima treba umereno UVB zračenje. Proizvođač navodi 9 meseci trajanja.",
   "image": "/style/img/oprema/uvb5.webp",
-  "imageAlt": "Arcadia UVB 5% 15W T8 - NS Reptiles",
+  "imageAlt": "Arcadia Euro Range Forest 5% UVB T8 15W 450 mm - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -11,24 +11,32 @@
       "v": "Arcadia"
     },
     {
-      "k": "UVB",
-      "v": "5%"
+      "k": "Model",
+      "v": "Euro Range Forest 5% T8"
     },
     {
       "k": "Snaga",
-      "v": "15W"
-    },
-    {
-      "k": "Tip",
-      "v": "T8 fluorescentna cev"
+      "v": "15 W"
     },
     {
       "k": "Dužina",
-      "v": "450mm"
+      "v": "450 mm"
     },
     {
-      "k": "Namena",
-      "v": "Šumske vrste reptila"
+      "k": "Prečnik",
+      "v": "26 mm (T8)"
+    },
+    {
+      "k": "UVB / UVA",
+      "v": "5% / 12%"
+    },
+    {
+      "k": "Temperatura boje",
+      "v": "6600 K"
+    },
+    {
+      "k": "Trajanje UVB",
+      "v": "9 meseci"
     }
   ],
   "description": [
@@ -38,11 +46,23 @@
     },
     {
       "type": "p",
-      "html": "Arcadia Forest 5% UVB T8 fluorescentna cev snage 15W i dužine 450mm namenjena je šumskim vrstama reptila koje u prirodi žive u okruženju sa manje direktnog sunčevog zračenja. UVB zračenje je neophodno za sintezu vitamina D3 u koži reptila, koji je ključan za apsorpciju kalcijuma i pravilan razvoj kostiju. Bez adekvatnog UVB osvetljenja, reptili mogu razviti metaboličku bolest kostiju (MBD)."
+      "html": "Arcadia Euro Range Forest 5% je T8 fluorescentna cev za reptile iz Arcadia Euro Range linije, koju proizvođač opisuje kao kvalitetnu, dugotrajnu i povoljnu seriju sa potpunom zaštitom od UVC zračenja i dobrim prikazom boja. Model od 15 W je dug 450 mm, prečnika 26 mm, sa 5% UVB, 12% UVA i temperaturom boje 6600 K."
     },
     {
       "type": "p",
-      "html": "Procenat od 5% simulira filtriranu sunčevu svetlost koja dopire kroz krošnje drveća, što je idealno za crested gekone, dnevne gekone, kameleone i druge šumske vrste. T8 cev se postavlja u odgovarajući nosač (kontroler) na vrhu terarijuma i ravnomerno osvetljava celu dužinu. Menjajte cev svakih 6-12 meseci jer UVB emisija slabi tokom vremena, čak i kada vidljiva svetlost ostaje nepromenjena."
+      "html": "UVB zračenje omogućava reptilima da u koži stvaraju vitamin D3, neophodan za iskorišćavanje kalcijuma i zdrave kosti. Ova cev je dobar izbor za šumske vrste i vrste koje u prirodi dobijaju manje direktnog sunca i kojima je dovoljno umereno UVB zračenje. Procenat od 5% je blaža od dve Euro Range varijante; za pustinjske vrste postoji Desert 10%."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i zamena"
+    },
+    {
+      "type": "p",
+      "html": "Cev se postavlja u T8 svetiljku sa predspojnim uređajem odgovarajuće dužine, iznad mesta za sunčanje, a reflektor povećava količinu UVB zračenja koja stiže do životinje. Ostavite u terarijumu i zonu u senci. Proizvođač navodi da Euro Range cevi treba menjati posle 9 meseci, jer UVB slabi iako cev i dalje svetli."
+    },
+    {
+      "type": "p",
+      "html": "Svetiljke za fluo cevi, termometre i ostalu opremu pronađite u ponudi <a href=\"/oprema.html\">opreme</a>."
     },
     {
       "type": "h2",
@@ -54,11 +74,9 @@
     }
   ],
   "seo": {
-    "title": "Arcadia UVB 5% 15W T8 | UVB Cev za Reptile - NS Reptiles",
-    "description": "Arcadia Forest 5% UVB T8 cev 15W / 450mm za šumske vrste reptila kojima treba umereno UVB zračenje. Za sintezu vitamina D3.",
-    "keywords": "Arcadia UVB 5% 15W T8, UVB cev za reptile, UVB osvetljenje, šumske vrste reptila, NS Reptiles",
-    "ogTitle": "Arcadia UVB 5% 15W T8 | NS Reptiles",
-    "ogDescription": "Arcadia Forest 5% UVB T8 cev 15W / 450mm. Za šumske vrste reptila kojima treba umereno UVB zračenje."
+    "title": "Arcadia Euro Forest 5% UVB T8 15W 450mm",
+    "description": "Arcadia Euro Range Forest 5% UVB T8 cev 15 W, 450 mm, za šumske vrste kojima treba umereno UVB. Zamena posle 9 meseci. NS Reptiles Novi Sad.",
+    "keywords": "arcadia forest 5%, uvb cev t8 15w, uvb cev 450mm, uvb cev za šumske vrste, arcadia euro range"
   },
   "related": [
     "oprema/arcadia-spot-75w",

@@ -1,22 +1,34 @@
 {
-  "name": "Pinceta",
-  "label": "Oprema",
-  "lead": "Pinceta za hranjenje reptila. Omogućava bezbedno hranjenje bez rizika od ujeda.",
+  "name": "Nomoy Pet pinceta 30 cm",
+  "label": "Pribor",
+  "lead": "Nomoy Pet pinceta od nerđajućeg čelika, dužine 30 cm, za hranjenje reptila na bezbednoj udaljenosti. Model NZ-03/04, na slici sa zakrivljenim vrhom.",
   "image": "/style/img/oprema/pinceta.webp",
-  "imageAlt": "Pinceta - NS Reptiles",
+  "imageAlt": "Nomoy Pet pinceta od nerđajućeg čelika 30 cm - NS Reptiles",
   "price": 0,
   "specs": [
     {
-      "k": "Tip",
-      "v": "Pinceta za hranjenje"
+      "k": "Brend",
+      "v": "Nomoy Pet"
+    },
+    {
+      "k": "Model",
+      "v": "NZ-03/04"
+    },
+    {
+      "k": "Dužina",
+      "v": "30 cm"
     },
     {
       "k": "Materijal",
-      "v": "Metal"
+      "v": "Nerđajući čelik"
+    },
+    {
+      "k": "Vrh",
+      "v": "Zakrivljen (na slici)"
     },
     {
       "k": "Namena",
-      "v": "Hranjenje reptila"
+      "v": "Hranjenje reptila, rad u terarijumu"
     }
   ],
   "description": [
@@ -26,11 +38,23 @@
     },
     {
       "type": "p",
-      "html": "Metalna pinceta za hranjenje reptila je praktična i neophodan alat za svakog vlasnika reptila koji omogućava bezbedno hranjenje vaših ljubimaca. Dovoljno je dugačka da održi sigurnu udaljenost između vaše ruke i životinje tokom hranjenja, čime se značajno smanjuje rizik od slučajnog ujeda. Posebno je korisna za hranjenje vrsta sa snažnim refleksom hvatanja, poput bradatih agama, tegua ili većih gekona."
+      "html": "Nomoy Pet pinceta dužine 30 cm izrađena je od nerđajućeg čelika i namenjena hranjenju reptila i radu u većim terarijumima. Na pakovanju je oznaka modela NZ-03/04, a na slici je verzija sa zakrivljenim vrhom, koja olakšava prilaz hrani i uglovima terarijuma."
     },
     {
       "type": "p",
-      "html": "Pincetom možete precizno ponuditi hranu - insekte, komade voća ili druge poslastice - direktno ispred životinje, stimulišući njen lovački instinkt i čineći hranjenje interaktivnijim. Zaobljeni vrhovi sprečavaju povredu životinje prilikom hranjenja. Korisna je i za postavljanje hrane u posude unutar terarijuma ili za uklanjanje ostataka hrane. Lako se čisti i održava, a izdržljiv metal garantuje dugotrajnu upotrebu."
+      "html": "Duža pinceta drži ruku dalje od životinje, što je važno kod vrsta sa snažnim refleksom hvatanja, kao što su bradate agame i veći gekoni, i kod hranjenja zmija odmrznutim plenom. Takođe olakšava rad u visokim i dubokim terarijumima."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Hranu ponudite mirno ispred životinje i pustite je da sama uhvati zalogaj; ne gurajte pincetu prema glavi. Pincetom možete i ukloniti ostatke hrane i izmet, ili nameštati dekoraciju bez vađenja životinje."
+    },
+    {
+      "type": "p",
+      "html": "Posle hranjenja pincetu operite toplom vodom i deterdžentom, a nakon rada sa sirovim plenom je i dezinfikujte. Za manje terarijume i sitnije vrste imamo i Nomoy Pet pincetu od 20 cm. Ostali pribor pogledajte u ponudi <a href=\"/oprema.html\">opreme</a>."
     },
     {
       "type": "h2",
@@ -42,15 +66,15 @@
     }
   ],
   "seo": {
-    "title": "Pinceta za hranjenje reptila | Oprema - NS Reptiles",
-    "description": "Metalna pinceta za hranjenje reptila. Omogućava bezbedno hranjenje bez rizika od ujeda. NS Reptiles Novi Sad.",
-    "keywords": "pinceta, pinceta za hranjenje reptila, oprema za terarijum, oprema za reptile, NS Reptiles, Novi Sad",
-    "ogTitle": "Pinceta za hranjenje reptila | NS Reptiles"
+    "title": "Nomoy Pet pinceta 30 cm - zakrivljeni vrh, inoks",
+    "description": "Nomoy Pet pinceta 30 cm od nerđajućeg čelika za hranjenje bradatih agama, zmija i većih gekona na bezbednoj udaljenosti. NS Reptiles Novi Sad.",
+    "keywords": "pinceta za hranjenje reptila, pinceta 30 cm, zakrivljena pinceta, nomoy pet pinceta, pinceta za zmije"
   },
   "related": [
     "oprema/sidro-sa-koralima",
     "oprema/piratski-brod",
     "oprema/kvarcni-pesak-1kg",
     "oprema/cork-bark"
-  ]
+  ],
+  "brand": true
 }

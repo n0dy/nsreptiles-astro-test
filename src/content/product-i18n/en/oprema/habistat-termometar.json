@@ -1,21 +1,33 @@
 {
   "slug": "habistat-dial-thermometer",
-  "name": "Habistat thermometer",
-  "label": "Accessories",
-  "lead": "Habistat analog thermometer for measuring the temperature in a terrarium. A compact round dial that sticks to the glass.",
-  "imageAlt": "Habistat thermometer - NS Reptiles",
+  "name": "HabiStat thermometer",
+  "label": "Thermometers",
+  "lead": "HabiStat Dial Thermometer is an analog terrarium thermometer with a °C and °F scale. It works without batteries or cables and measures 5.8 cm across.",
+  "imageAlt": "HabiStat Dial Thermometer for terrariums - NS Reptiles",
   "specs": [
     {
       "k": "Brand",
-      "v": "Habistat"
+      "v": "HabiStat"
+    },
+    {
+      "k": "Model",
+      "v": "Dial Thermometer (HDT)"
     },
     {
       "k": "Type",
-      "v": "Analog thermometer (dial)"
+      "v": "Analog dial thermometer"
     },
     {
-      "k": "Intended for",
-      "v": "Measuring temperature"
+      "k": "Scale",
+      "v": "°C and °F"
+    },
+    {
+      "k": "Dimensions",
+      "v": "5.8 x 1.8 x 5.8 cm"
+    },
+    {
+      "k": "Power",
+      "v": "Not required"
     }
   ],
   "description": [
@@ -25,7 +37,23 @@
     },
     {
       "type": "p",
-      "html": "The Habistat Dial thermometer is a reliable analog device for measuring the temperature in a terrarium. Monitoring temperature is key to reptile health, because reptiles are ectothermic animals that depend on external heat sources to regulate their body temperature. The compact round dial with a clear scale in degrees Celsius and Fahrenheit allows quick temperature readings. The thermometer sticks directly to the inside of the terrarium glass, with no cables or batteries needed. We recommend placing it where your animal spends the most time. For optimal conditions, the terrarium should have a temperature gradient - a warmer and a cooler side - so the animal can regulate its own temperature. Use two thermometers - one on the warm side and one on the cool side."
+      "html": "The HabiStat Dial Thermometer is a simple analog device for monitoring terrarium temperature. The round dial has a Celsius and Fahrenheit scale with coloured zones, so you can read the temperature at a glance. It uses no batteries or cables, and at 5.8 x 1.8 x 5.8 cm it takes up little space."
+    },
+    {
+      "type": "p",
+      "html": "Reptiles are ectothermic and regulate their body temperature by moving between warmer and cooler parts of the terrarium. That is why it matters to know the temperature in each zone, not just under the lamp."
+    },
+    {
+      "type": "h2",
+      "text": "Where to place it"
+    },
+    {
+      "type": "p",
+      "html": "HabiStat advises placing the thermometer halfway between the hot and cold end for an average reading. For more accurate monitoring, use more than one thermometer and place them in the zones you want to check, for example one at the basking spot and one on the cool side."
+    },
+    {
+      "type": "p",
+      "html": "A thermometer shows the temperature but does not control it: for stable conditions, connect your heating to a thermostat. We also recommend the HabiStat Dial Hygrometer for humidity, and you can find other gear in our <a href=\"/en/equipment.html\">equipment</a> range."
     },
     {
       "type": "h2",
@@ -37,8 +65,8 @@
     }
   ],
   "seo": {
-    "title": "Habistat Dial Thermometer | Terrarium Thermometer",
-    "description": "Habistat analog thermometer for measuring terrarium temperature. A compact round dial that sticks to the glass. NS Reptiles, Novi Sad, Serbia.",
-    "keywords": "habistat thermometer, terrarium thermometer, dial thermometer, reptile supplies, NS Reptiles, Novi Sad"
+    "title": "HabiStat Dial Thermometer | Terrarium Thermometer °C/°F",
+    "description": "HabiStat Dial Thermometer: analog terrarium thermometer with a °C and °F scale, no batteries, 5.8 cm. Placement tips included. NS Reptiles, Serbia.",
+    "keywords": "habistat thermometer, terrarium thermometer, dial thermometer, reptile thermometer, analog thermometer"
   }
 }

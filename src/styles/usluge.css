@@ -119,10 +119,9 @@
   align-items: center;
   justify-content: space-between;
   gap: 14px;
-  background: var(--white);
-  border: 1px solid transparent;
+  background: var(--bg);
+  border: 1px solid color-mix(in srgb, var(--ink) 12%, transparent);
   border-radius: 8px;
-  box-shadow: var(--card-shadow);
   padding: 22px 24px;
   font-family: 'Oswald Variable', sans-serif;
   font-weight: 600;
@@ -150,6 +149,28 @@
 .usl-link:hover svg {
   color: #fff;
   transform: translateX(3px);
+}
+
+/* ---- ZA VASU ZIVOTINJU: foto kartice (rep-card iz style.css) ---- */
+.usl-animals {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 260px));
+  justify-content: center;
+  gap: 16px;
+}
+.usl-animals .rep-card {
+  min-width: 0;
+}
+.usl-animals .rep-label .name {
+  font-size: 1rem;
+}
+/* produktna fotka na beloj pozadini - ne secemo je */
+.rep-card--contain {
+  background: #fff;
+}
+.rep-card--contain img {
+  object-fit: contain;
+  padding: 12px 12px 70px;
 }
 
 /* ===== RESPONSIVE ===== */

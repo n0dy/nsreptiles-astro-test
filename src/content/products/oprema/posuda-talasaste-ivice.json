@@ -1,0 +1,79 @@
+{
+  "name": "Posuda za vodu, talasaste ivice",
+  "label": "Posude",
+  "lead": "Plitka posuda svetle peščane boje sa talasastim ivicama i ravnim dnom - bezbedna plitka voda za mladunce i hrana za pustinjske guštere.",
+  "image": "/style/img/oprema/posuda-talasaste-ivice.webp",
+  "imageAlt": "Posuda za vodu, talasaste ivice - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Posuda za vodu"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Pojilica / hranilica"
+    },
+    {
+      "k": "Oblik",
+      "v": "Široka, vrlo plitka, talasast obod"
+    },
+    {
+      "k": "Boja",
+      "v": "Svetla peščana, bež"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova posuda je široka i vrlo plitka, sa ravnim dnom i talasastim, zaobljenim obodom koji podseća na obalu male lokve. Svetla peščana boja sa finom teksturom se gotovo stapa sa svetlim peskom i bež podlogama."
+    },
+    {
+      "type": "p",
+      "html": "Mala dubina je ovde glavna odlika. Za mladunce gekona i agama plitka voda je bezbednija, jer ne mogu da se zaglave ili okliznu u dubokoj vodi. Široko, ravno dno je zgodno i za serviranje hrane: insekti, iseckano povrće ili zelje ostaju na jednom mestu, a životinja ih lako vidi i dohvati."
+    },
+    {
+      "type": "p",
+      "html": "Svetla boja ima još jednu prednost: na njoj se odmah vide prljavština, ostaci hrane i izmet, pa znate kada je vreme za čišćenje."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Zbog male dubine, voda brzo isparava, naročito u toplom pustinjskom terarijumu. Proveravajte je i dopunjavajte tokom dana, a menjajte je svakog jutra. Posudu postavite na ravnu površinu na hladnijoj strani, a talasasti obod lako operite mekim sunđerom."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Plitka posuda talasastih ivica, peščana boja | NS Reptiles",
+    "description": "Vrlo plitka posuda peščane boje sa talasastim ivicama - bezbedna voda za mladunce i hranilica za pustinjske guštere. NS Reptiles, Novi Sad.",
+    "keywords": "plitka posuda za mladunce, posuda peščane boje, hranilica za guštere, posuda za pustinjski terarijum, plitka pojilica"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/posuda-astecki-motivi",
+    "oprema/posuda-kamena-zaba",
+    "oprema/mala-okrugla-posuda-braon",
+    "oprema/posuda-porozni-sivi-kamen"
+  ]
+}

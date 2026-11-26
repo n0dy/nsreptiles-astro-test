@@ -1,0 +1,73 @@
+{
+  "name": "SOBO L-28C mini LED lampa sa štipaljkom",
+  "label": "Rasveta",
+  "lead": "SOBO L-28C mini LED lampa sa štipaljkom od 2,8 W - za nano akvarijume, sa savitljivim vratom.",
+  "image": "/style/img/oprema/akvarijum/sobo-l-28c-mini-clip-lampa.webp",
+  "imageAlt": "SOBO L-28C mini LED lampa sa štipaljkom - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "LED lampa sa štipaljkom"
+    },
+    {
+      "k": "Proizvođač",
+      "v": "SOBO"
+    },
+    {
+      "k": "Model",
+      "v": "L-28C"
+    },
+    {
+      "k": "Snaga",
+      "v": "2,8 W"
+    },
+    {
+      "k": "Boje",
+      "v": "Crvena, crna, bela"
+    },
+    {
+      "k": "Namena",
+      "v": "Nano akvarijum"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "SOBO L-28C je mini LED lampa sa štipaljkom snage 2,8 W, prema ambalaži posebno napravljena za nano akvarijume. Štipaljka se kači na ivicu stakla, a savitljivi vrat omogućava da svetlo usmerite tačno gde želite. Zbog male snage lampa troši vrlo malo struje."
+    },
+    {
+      "type": "p",
+      "html": "Lampa se proizvodi u crvenoj, crnoj i beloj boji kućišta, pa se lako uklopi uz akvarijum i nameštaj. Pogodna je za male akvarijume bez poklopca, akvarijume za borce, račiće i kugle, gde veća lampa ne bi mogla da stane. Za boje koje su trenutno na stanju pozovite nas."
+    },
+    {
+      "type": "h2",
+      "text": "Saveti za upotrebu"
+    },
+    {
+      "type": "p",
+      "html": "Akvarijumsku rasvetu svakog dana uključujte i isključujte u isto vreme, najbolje uz tajmer, da ribe i biljke imaju stalan ritam dana i noći. Predugo osvetljenje i direktno sunce podstiču rast algi. Lampu povremeno obrišite od kamenca i prašine, jer naslage smanjuju jačinu svetla."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "SOBO L-28C mini LED lampa za nano akvarijum | NS Reptiles",
+    "description": "SOBO L-28C mini LED lampa sa štipaljkom, 2,8 W, savitljivi vrat - za nano akvarijume, borce i račiće. Crvena, crna ili bela. NS Reptiles.",
+    "keywords": "sobo l-28c, mini led lampa, lampa sa štipaljkom, rasveta za nano akvarijum, lampa za borca"
+  },
+  "brand": false,
+  "usage": [
+    "akvarijum"
+  ]
+}

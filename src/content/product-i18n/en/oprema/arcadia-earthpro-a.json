@@ -2,24 +2,40 @@
   "slug": "arcadia-earthpro-a",
   "name": "Arcadia EarthPro-A",
   "label": "Supplements",
-  "lead": "A complete vitamin supplement for reptiles. Contains vitamins A, D3, E and essential nutrients for optimal health.",
-  "imageAlt": "Arcadia EarthPro-A - NS Reptiles",
+  "lead": "Arcadia EarthPro-A is a mineral and vitamin powder for reptiles and amphibians, with no vitamin D3. Natural mineral clay, B vitamins and bee pollen, 100 g.",
+  "imageAlt": "Arcadia EarthPro-A 100 g, mineral and vitamin supplement for reptiles - NS Reptiles",
   "specs": [
     {
       "k": "Brand",
       "v": "Arcadia"
     },
     {
-      "k": "Type",
-      "v": "Vitamin supplement"
-    },
-    {
       "k": "Line",
       "v": "EarthPro"
     },
     {
+      "k": "Pack size",
+      "v": "100 g"
+    },
+    {
+      "k": "Type",
+      "v": "Mineral and vitamin powder"
+    },
+    {
+      "k": "Base",
+      "v": "Calcium carbonate and mineral clay"
+    },
+    {
+      "k": "Vitamin D3",
+      "v": "None"
+    },
+    {
+      "k": "Vitamin A",
+      "v": "Pro-vitamin A from carotenoids"
+    },
+    {
       "k": "Use",
-      "v": "Dust over food (1x a week)"
+      "v": "At every feed"
     }
   ],
   "description": [
@@ -29,15 +45,23 @@
     },
     {
       "type": "p",
-      "html": "Arcadia EarthPro-A is a comprehensive vitamin supplement designed for all reptile species. Vitamin A is key for healthy vision, immunity and skin tissue development. D3 enables proper calcium absorption, while vitamin E acts as an antioxidant and protects cells from free radical damage."
+      "html": "Arcadia EarthPro-A is the core supplement of the EarthPro line, made for all reptile and amphibian species. Instead of a lab-made mineral blend, it uses naturally mined mineral clay, together with calcium carbonate, vegetable protein powder with amino acids, carrot powder, algal carotenoids, a B-vitamin complex and bee pollen."
     },
     {
       "type": "p",
-      "html": "Use once a week by dusting it over food right before feeding, while a calcium supplement is used daily. This alternating protocol provides a balance of vitamins and minerals without the risk of overdose. Overuse of vitamin supplements, especially vitamin A, can be harmful - stick strictly to the recommended dose."
+      "html": "The manufacturer states that the powder contains no vitamin D3 and should be used with a suitable UVB system. Vitamin A is present as pro-vitamin A from carotenoids, which Arcadia says cannot be overdosed. The clay helps the powder stick to insects and plants, so less is wasted."
+    },
+    {
+      "type": "h2",
+      "text": "Use and dosage"
     },
     {
       "type": "p",
-      "html": "EarthPro-A was developed in collaboration with herpetologists and veterinarians who specialize in exotic animals. It is compatible with the entire Arcadia EarthPro line and is especially recommended with EarthPro-Ca or CaPro-MG as the daily calcium."
+      "html": "Under the EarthPro feeding programme, EarthPro-A is used at every feed and on all food items. Calcium with magnesium (CalciumPro-Mg) goes on every 4th feed, and a supplement with D3 and vitamin A at feed 6 or 8. Lightly coat insects with the powder in a bag, or sprinkle it over salad for herbivores."
+    },
+    {
+      "type": "p",
+      "html": "Suitable for insectivores, herbivores and omnivores. See the full range of supplements in our <a href=\"/en/equipment.html\">equipment</a> section."
     },
     {
       "type": "h2",
@@ -49,8 +73,8 @@
     }
   ],
   "seo": {
-    "title": "Arcadia EarthPro-A | Reptile Vitamin Supplement",
-    "description": "Arcadia EarthPro-A: a complete reptile vitamin supplement with vitamins A, D3 and E. Use once a week alongside a daily calcium supplement. NS Reptiles.",
-    "keywords": "Arcadia EarthPro-A, reptile vitamins, vitamin A for reptiles, D3 for reptiles, reptile supplements"
+    "title": "Arcadia EarthPro-A 100g | D3-Free Reptile Multivitamin",
+    "description": "Arcadia EarthPro-A 100 g: natural minerals, B vitamins and bee pollen with no D3, for every feed of reptiles and amphibians. NS Reptiles, Serbia.",
+    "keywords": "arcadia earthpro-a, reptile vitamins, reptile minerals, d3 free supplement, earthpro supplements"
   }
 }

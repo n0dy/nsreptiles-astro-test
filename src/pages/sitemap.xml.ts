@@ -3,7 +3,9 @@ import { SITE } from '../config/site';
 import { translationsFor, PRODUCT_GROUPS } from '../i18n/routes';
 import { getProducts, productPath } from '../lib/products';
 
-const EXCLUDE = new Set(['/404.html', '/en/404.html', '/ru/404.html']);
+const EXCLUDE = new Set(['/404.html', '/en/404.html', '/ru/404.html', '/pretraga.html', '/en/search.html', '/ru/search.html',
+  // kalkulator je u robots.txt Disallow (kao na starom sajtu)
+  '/kalkulator.html', '/en/calculator.html', '/ru/calculator.html']);
 
 const pageFiles = Object.keys(import.meta.glob('./**/*.astro'));
 

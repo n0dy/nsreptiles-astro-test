@@ -2,24 +2,40 @@
   "slug": "arcadia-capro-mg",
   "name": "Arcadia CaPro-MG",
   "label": "Supplements",
-  "lead": "Arcadia EarthPro CaPro-MG - a calcium supplement with magnesium for healthy bone development in reptiles.",
-  "imageAlt": "Arcadia CaPro-MG - NS Reptiles",
+  "lead": "Arcadia CalciumPro-Mg is a calcium and magnesium powder for reptiles and amphibians from the EarthPro line. An 80 g pack of fine dusting powder.",
+  "imageAlt": "Arcadia EarthPro CalciumPro-Mg 80 g, calcium with magnesium - NS Reptiles",
   "specs": [
     {
       "k": "Brand",
       "v": "Arcadia"
     },
     {
-      "k": "Type",
-      "v": "Calcium with magnesium"
-    },
-    {
       "k": "Line",
       "v": "EarthPro"
     },
     {
+      "k": "Pack size",
+      "v": "80 g"
+    },
+    {
+      "k": "Composition",
+      "v": "90% calcium carbonate, 10% magnesium carbonate"
+    },
+    {
+      "k": "Additives",
+      "v": "B vitamins and vitamin K"
+    },
+    {
+      "k": "Vitamin D3",
+      "v": "None"
+    },
+    {
+      "k": "Intended for",
+      "v": "Reptiles and amphibians"
+    },
+    {
       "k": "Use",
-      "v": "Dust over food"
+      "v": "Dusting food, every 4th feed"
     }
   ],
   "description": [
@@ -29,15 +45,23 @@
     },
     {
       "type": "p",
-      "html": "Arcadia EarthPro CaPro-MG is a specialized calcium supplement that combines calcium and magnesium in an optimal ratio for reptiles. Magnesium is a cofactor in more than 300 enzyme reactions and is essential for the body to use calcium properly."
+      "html": "Arcadia EarthPro CalciumPro-Mg is a finely ground calcium powder with added magnesium. According to the manufacturer, it is 90% calcium carbonate and 10% magnesium carbonate, with B vitamins (B1, B2, B6, B12, biotin, folic acid) and vitamin K. It contains no vitamin D3, so it relies on good UVB lighting in the terrarium."
     },
     {
       "type": "p",
-      "html": "Apply by dusting it over insects and other live food right before feeding. Daily use of CaPro-MG is recommended, together with the EarthPro-A vitamin supplement once a week. This protocol provides complete nutritional balance for reptiles kept in captivity."
+      "html": "Arcadia notes that magnesium is part of the calcium, phosphorus and D3 cycle and matters for bones, muscles and the nervous system. CalciumPro-Mg is designed to replace a plain calcium powder in the regular diet."
+    },
+    {
+      "type": "h2",
+      "text": "Use and dosage"
     },
     {
       "type": "p",
-      "html": "Especially suitable for insect-eating species - geckos, chameleons and diurnal lizard species that need a high calcium intake. The Arcadia EarthPro line was developed in collaboration with zoo veterinarians and herpetologists."
+      "html": "Put feeder insects in a bag or tub with a little powder and shake gently until lightly coated. Under the official EarthPro feeding programme, CalciumPro-Mg is given at every 4th feed, while EarthPro-A is used at every feed. For herbivores, sprinkle the powder over salad and vegetables. Store sealed in a cool, dry place."
+    },
+    {
+      "type": "p",
+      "html": "Suitable for lizards, geckos, chameleons, tortoises and amphibians. Find other supplements and UVB lighting in our <a href=\"/en/equipment.html\">equipment</a> range."
     },
     {
       "type": "h2",
@@ -49,8 +73,8 @@
     }
   ],
   "seo": {
-    "title": "Arcadia CaPro-MG | Calcium with Magnesium for Reptiles",
-    "description": "Arcadia EarthPro CaPro-MG: calcium supplement with magnesium for healthy bone development in reptiles. Part of the Arcadia EarthPro system. NS Reptiles.",
-    "keywords": "Arcadia CaPro-MG, Arcadia EarthPro, calcium magnesium reptiles, reptile supplements"
+    "title": "Arcadia CalciumPro-Mg 80g | Reptile Calcium + Magnesium",
+    "description": "Arcadia EarthPro CalciumPro-Mg 80 g: D3-free calcium with magnesium for reptiles and amphibians, dosed per the EarthPro programme. NS Reptiles, Serbia.",
+    "keywords": "arcadia calciumpro mg, reptile calcium powder, calcium magnesium supplement, earthpro supplements, reptile supplements serbia"
   }
 }

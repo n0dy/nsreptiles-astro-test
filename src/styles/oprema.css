@@ -80,6 +80,8 @@
 .op-img {
   display: block;
   aspect-ratio: 1/1;
+  /* bez ovoga uspravna slika rasteze okvir: min-height:auto ne da aspect-ratio boxu da bude nizi od sadrzaja */
+  overflow: hidden;
   background: #1b1712 url(/style/img/oprema/scena.webp) 58% 100% / cover no-repeat;
   padding: 18px;
   border-bottom: 1px solid var(--silver);
@@ -282,6 +284,9 @@
   color: var(--green-ink);
   font-size: 0.88rem;
 }
+nav.op-side-block .op-group-link {
+  margin-top: 0;
+}
 .op-sec:focus-visible,
 .op-group:focus-visible,
 .op-sort:has(select:focus-visible) {
@@ -445,8 +450,8 @@
     gap: 8px;
     overflow-x: auto;
     scrollbar-width: none;
-    margin: 0 -28px;
-    padding: 0 28px 2px;
+    margin: 0 calc(-1 * var(--gutter));
+    padding: 0 var(--gutter) 2px;
   }
   .op-group {
     width: auto;
@@ -471,3 +476,155 @@
   }
 }
 
+
+/* ===== MOBILNI PANEL FILTERA (jezicak uz levu ivicu) ===== */
+.op-drawer-head,
+.op-drawer-foot,
+.op-ftab {
+  display: none;
+}
+@media (max-width: 880px) {
+  .op-ftab {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    z-index: 150;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    writing-mode: vertical-rl;
+    transform: translate(-100%, -50%) rotate(180deg);
+    padding: 16px 9px;
+    border: 0;
+    /* rotate(180deg) okrece i zaobljenje: ovo je desna strana na ekranu */
+    border-radius: 8px 0 0 8px;
+    background: var(--green-btn);
+    color: #fff;
+    font-family: 'Oswald Variable', sans-serif;
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    box-shadow: var(--card-shadow);
+    cursor: pointer;
+    visibility: hidden;
+    transition:
+      transform 0.3s cubic-bezier(0.16, 1, 0.3, 1),
+      visibility 0.3s;
+  }
+  .op-ftab svg {
+    transform: rotate(90deg);
+  }
+  .op-ftab.show {
+    visibility: visible;
+    transform: translate(0, -50%) rotate(180deg);
+  }
+  .op-ftab.has-active::after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #fff;
+  }
+  .op-ftab:focus-visible {
+    outline: 2px solid var(--green);
+    outline-offset: 2px;
+  }
+
+  .op-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background: rgba(4, 24, 17, 0.55);
+  }
+  .op-side.is-drawer {
+    position: fixed;
+    inset: 0 auto 0 0;
+    z-index: 1001;
+    width: min(85vw, 360px);
+    max-height: none;
+    overflow-y: auto;
+    gap: 22px;
+    padding: 0 var(--gutter);
+    background: var(--bg);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+    animation: op-drawer-in 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .is-drawer .op-drawer-head {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 calc(-1 * var(--gutter));
+    padding: 14px var(--gutter);
+    background: var(--bg);
+    border-bottom: 1px solid var(--silver);
+  }
+  .op-drawer-title {
+    font-family: 'Oswald Variable', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .op-drawer-x {
+    display: flex;
+    padding: 8px;
+    margin-right: -8px;
+    border: 0;
+    background: none;
+    color: var(--ink);
+    cursor: pointer;
+  }
+  .is-drawer .op-drawer-foot {
+    position: sticky;
+    bottom: 0;
+    display: block;
+    margin: auto calc(-1 * var(--gutter)) 0;
+    padding: 14px var(--gutter);
+    background: var(--bg);
+    border-top: 1px solid var(--silver);
+  }
+  .op-drawer-foot .btn {
+    width: 100%;
+    justify-content: center;
+  }
+  .is-drawer .op-sort {
+    width: 100%;
+  }
+  /* u panelu podkategorije idu kao vertikalna lista, ne horizontalni skrol */
+  .is-drawer .op-groups {
+    flex-direction: column;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+  }
+  .is-drawer .op-group {
+    width: 100%;
+    white-space: normal;
+    border: 0;
+    border-left: 3px solid transparent;
+    background: none;
+    padding: 10px 12px;
+    font-size: 0.95rem;
+  }
+  .is-drawer .op-group.active {
+    border-left-color: var(--green);
+    background: var(--white);
+  }
+}
+@keyframes op-drawer-in {
+  from {
+    transform: translateX(-100%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .op-side.is-drawer,
+  .op-ftab {
+    animation: none;
+    transition: none;
+  }
+}

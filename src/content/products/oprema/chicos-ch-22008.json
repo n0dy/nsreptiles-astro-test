@@ -1,9 +1,9 @@
 {
   "name": "Chicos CH-22008 dekoracija potonuli brod",
   "label": "Dekoracija",
-  "lead": "Chicos CH-22008 - dekoracija potonuli brod, 21,5 x 9 x 12 cm.",
+  "lead": "Chicos CH-22008 - dekoracija potonuli brod od smole, 21,5 x 9 x 12 cm, sa slomljenim jarbolima i otvorom u trupu kroz koji ribe prolaze.",
   "image": "/style/img/oprema/akvarijum/chicos-ch-22008.webp",
-  "imageAlt": "Chicos CH-22008 dekoracija potonuli brod - NS Reptiles",
+  "imageAlt": "Chicos CH-22008 dekoracija potonuli brod za akvarijum - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -15,12 +15,20 @@
       "v": "Chicos"
     },
     {
+      "k": "Model",
+      "v": "CH-22008"
+    },
+    {
       "k": "Dimenzije",
       "v": "21,5 x 9 x 12 cm"
     },
     {
       "k": "Namena",
       "v": "Akvarijum"
+    },
+    {
+      "k": "Motiv",
+      "v": "Potonuli brod"
     }
   ],
   "description": [
@@ -30,7 +38,19 @@
     },
     {
       "type": "p",
-      "html": "Dekoracija od smole, bezbedna za akvarijum. Potonuli brod daje akvarijumu tematski izgled, a ribama zaklon i prolaze."
+      "html": "Chicos CH-22008 je dekoracija u obliku olupine starog jedrenjaka, izrađena od smole. Trup je prelomljen i nagnut, sa nizom prozorčića duž boka, slomljenim jarbolima i pramcem koji se izdiže iznad postolja. Jarboli i stene ispod broda obojeni su zelenom bojom mahovine, a smeđi tonovi drveta i plava traka na trupu daju olupini živ, ali ostareo izgled."
+    },
+    {
+      "type": "p",
+      "html": "U donjem delu trupa nalazi se lučni otvor kroz koji ribe mogu da uplivaju u unutrašnjost broda. Takav zaklon rado koriste manje ribe, škampi i vrste koje danju traže senku. Sa dimenzijama 21,5 x 9 x 12 cm brod je dovoljno upečatljiv za manji akvarijum, a u većem lepo popunjava prednji ili srednji plan."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i čišćenje"
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja olupinu isperite mlakom vodom, bez deterdženta. Ravno postolje stoji stabilno na šljunku ili pesku, a možete ga i malo ukopati da brod izgleda kao da je potonuo u dno. Otvor u trupu okrenite ka prednjem staklu, da vidite ribe kako ulaze i izlaze. Alge sa površine uklanjajte mekom četkicom tokom redovnog održavanja akvarijuma."
     },
     {
       "type": "h2",
@@ -42,9 +62,9 @@
     }
   ],
   "seo": {
-    "title": "Chicos CH-22008 dekoracija potonuli brod | NS Reptiles",
-    "description": "Chicos CH-22008 - dekoracija potonuli brod, 21,5 x 9 x 12 cm. NS Reptiles, Novi Sad.",
-    "keywords": "chicos ch-22008, potonuli brod, dekoracija za akvarijum, NS Reptiles, Novi Sad"
+    "title": "Chicos CH-22008 potonuli brod za akvarijum | NS Reptiles",
+    "description": "Chicos CH-22008 dekoracija potonuli brod od smole, 21,5 x 9 x 12 cm. Olupina sa slomljenim jarbolima i otvorom za ribe. NS Reptiles, Novi Sad.",
+    "keywords": "chicos ch-22008, potonuli brod za akvarijum, olupina broda dekoracija, dekoracija od smole, dekoracija za akvarijum"
   },
   "brand": false,
   "usage": [

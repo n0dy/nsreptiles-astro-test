@@ -1,0 +1,77 @@
+{
+  "name": "Soudal Silirub AQ silikon za akvarijume, providni",
+  "label": "Pribor",
+  "lead": "Soudal Silirub AQ - acetatni silikon za lepljenje i zaptivanje akvarijuma i terarijuma, posle potpunog sušenja nije otrovan za ribe.",
+  "image": "/style/img/oprema/soudal-silirub-aq-providni.webp",
+  "imageAlt": "Soudal Silirub AQ silikon za akvarijume, providni - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Silikon za akvarijume"
+    },
+    {
+      "k": "Brend",
+      "v": "Soudal"
+    },
+    {
+      "k": "Sastav",
+      "v": "Acetatni silikon (polisiloksan)"
+    },
+    {
+      "k": "Boja",
+      "v": "Providna (na pakovanju: TRANSP.)"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum i Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Lepljenje i zaptivanje stakla"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Soudal Silirub AQ je acetatni (sirćetni) silikon na bazi polisiloksana, napravljen za izradu akvarijuma i terarijuma. Prema podacima proizvođača, posle potpunog sušenja nije otrovan za životinje, ostaje elastičan i dobro prijanja na staklo, pa se koristi za lepljenje stakla, popravke spojeva i zaptivanje."
+    },
+    {
+      "type": "p",
+      "html": "Prema tehničkom listu proizvođača, Silirub AQ se proizvodi u providnoj i crnoj boji, a na fotografiji je providno pakovanje sa oznakom TRANSP. Providni silikon daje diskretne spojeve koji se uklapaju uz svetle i tamne okvire, pozadine i dekoraciju. Pre porudžbine nas pitajte za boju pakovanja koje je na stanju."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba"
+    },
+    {
+      "type": "p",
+      "html": "Pre nanošenja površine moraju biti čiste, suve i odmašćene, a stari silikon potpuno uklonjen. Silikon se nanosi pištoljem za silikon i vezuje uz pomoć vlage iz vazduha. Akvarijum ili terarijum punite vodom i naseljavate tek kada se silikon potpuno osuši, a prostoriju tokom rada provetravajte zbog mirisa sirćeta. Svež višak se briše odmah, a osušen silikon može se ukloniti samo mehanički, sečenjem."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Silirub AQ providni silikon za akvarijum | NS Reptiles",
+    "description": "Soudal Silirub AQ providni acetatni silikon za izradu, popravku i zaptivanje akvarijuma i terarijuma. Posle sušenja nije otrovan za životinje.",
+    "keywords": "soudal silirub aq, silikon za akvarijum, providni silikon, silikon za terarijum, akvarijumski silikon"
+  },
+  "brand": false,
+  "usage": [
+    "akvarijum",
+    "terarijum"
+  ],
+  "related": [
+    "oprema/soudal-silirub-aq-crni"
+  ]
+}

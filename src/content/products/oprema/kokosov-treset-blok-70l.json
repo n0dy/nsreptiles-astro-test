@@ -1,9 +1,9 @@
 {
   "name": "Kokosov treset blok 70L",
   "label": "Podloge",
-  "lead": "Kompresovani blok kokosovog treseta koji se širi na ~70L. Ekonomično pakovanje za veće terarijume.",
+  "lead": "Kokosov treset blok - kompresovana podloga koja se posle potapanja u vodu širi na oko 70L. Ekonomično rešenje za veće terarijume.",
   "image": "/style/img/oprema/tresetblok.webp",
-  "imageAlt": "Kokosov treset blok 70L - NS Reptiles",
+  "imageAlt": "Kokosov treset blok 70L, kompresovana podloga za terarijum - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -17,6 +17,10 @@
     {
       "k": "Namena",
       "v": "Podloga za terarijume"
+    },
+    {
+      "k": "Priprema",
+      "v": "Potapanje u toplu vodu"
     }
   ],
   "description": [
@@ -26,7 +30,28 @@
     },
     {
       "type": "p",
-      "html": "Kompresovani blok kokosovog treseta je ekonomično rešenje za vlasnike većih terarijuma ili za one koji redovno menjaju podlogu. Nakon potapanja u vodu, blok se širi na zapreminu od oko 70 litara kvalitetnog kokosovog treseta. Dovoljno je staviti blok u veliku posudu, zaliti toplom vodom i sačekati 20-30 minuta da se potpuno ekspandira. Kokosov treset odlično zadržava vlagu, prirodno je otporan na buđ i bezbedan je za reptile. Pogodan je za sve tropske i šumske vrste kojima je potrebna viša vlažnost - crested gekone, kameleone, dnevne gekone, zmije iz tropskih područja i mnoge vrste žaba. Velika zapremina nakon ekspanzije čini ga daleko isplativijim od manjih gotovih pakovanja."
+      "html": "Kompresovani blok kokosovog treseta je najisplativiji način da nabavite veću količinu podloge. Zauzima malo prostora dok ga ne upotrebite, a posle potapanja u vodu daje oko 70 litara rastresitog treseta. Dobar je izbor za velike terarijume, za više terarijuma odjednom ili ako podlogu menjate često."
+    },
+    {
+      "type": "p",
+      "html": "Kokosov treset dobro zadržava vlagu i polako je otpušta, pa odgovara crested gekonima, kameleonima, dnevnim gekonima, tropskim zmijama i žabama. Koristi se i kao osnova u bioaktivnim terarijumima. Jedan blok zamenjuje veći broj malih pakovanja, a dok je suv i zatvoren, može dugo da stoji."
+    },
+    {
+      "type": "h2",
+      "text": "Kako se priprema"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Stavite blok u veliku posudu ili kofu.",
+        "Zalijte ga toplom vodom i sačekajte da upije vodu i počne da se raspada.",
+        "Rukama razbijte grudve dok treset ne postane ujednačen.",
+        "Ako je previše mokar, iscedite ga pre stavljanja u terarijum."
+      ]
+    },
+    {
+      "type": "p",
+      "html": "Ne morate pripremiti ceo blok odjednom: odlomite onoliko koliko vam treba, a ostatak čuvajte suv. Gotov treset treba da bude vlažan, ali ne mokar. Ostalu <a href=\"/oprema.html\">opremu za terarijume</a> pogledajte u ponudi."
     },
     {
       "type": "h2",
@@ -38,9 +63,9 @@
     }
   ],
   "seo": {
-    "title": "Kokosov treset blok 70L | Oprema - NS Reptiles",
-    "description": "Kompresovani blok kokosovog treseta koji se širi na ~70L. Ekonomično pakovanje za veće terarijume. NS Reptiles Novi Sad.",
-    "keywords": "kokosov treset blok 70l, podloga za terarijum, kokosov treset blok, oprema za reptile, NS Reptiles, Novi Sad"
+    "title": "Kokosov treset blok 70L | Podloga za terarijum",
+    "description": "Kokosov treset blok: kompresovana podloga koja se u vodi širi na oko 70L. Isplativo rešenje za velike i bioaktivne terarijume. NS Reptiles Novi Sad.",
+    "keywords": "kokosov treset blok, kokosov treset 70l, kompresovani kokosov treset, podloga za terarijum, podloga za veliki terarijum"
   },
   "related": [
     "oprema/spagnum-treset-5l",

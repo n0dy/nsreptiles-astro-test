@@ -1,0 +1,75 @@
+{
+  "name": "Veštačka biljka sa crvenim cvetovima",
+  "label": "Biljke",
+  "lead": "Zelena veštačka biljka za akvarijum sa krupnim crvenim cvetovima, na plavom postolju. Veseo detalj za dekorativne akvarijume.",
+  "image": "/style/img/oprema/akvarijum/vestacka-biljka-sa-crvenim-cvetovima.webp",
+  "imageAlt": "Veštačka biljka sa crvenim cvetovima za akvarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Veštačka biljka"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Dekoracija i zaklon"
+    },
+    {
+      "k": "Boja",
+      "v": "Zelena sa crvenim cvetovima"
+    },
+    {
+      "k": "Postolje",
+      "v": "Plavo"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Veštačka biljka sa crvenim cvetovima ima uske zelene listove i nekoliko krupnih crvenih cvetova na vrhovima stabljika. Stoji na plavom postolju i unosi veselu boju u akvarijum."
+    },
+    {
+      "type": "p",
+      "html": "Veštačka biljka ne vene, ne traži rasvetu ni đubrivo i ne utiče na parametre vode, pa je dobar izbor za početnike i za akvarijume sa ribama koje grickaju ili čupaju žive biljke. Sitnijim ribama, mladuncima i škampima daje zaklon i mesto za odmor."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Cvetovi su upečatljiv detalj, pa biljku postavite na mesto koje se dobro vidi, u srednjem delu akvarijuma. Posebno je popularna u dečjim i dekorativnim akvarijumima, a plavo postolje možete delimično prekriti podlogom. Pri redovnom održavanju biljku izvadite i isperite mlakom vodom, a naslage algi uklonite mekom četkicom, bez deterdženata. Pre prvog stavljanja u akvarijum takođe je isperite. Ostale dekoracije i opremu pogledajte u ponudi <a href=\"/oprema.html\">opreme</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Veštačka biljka sa crvenim cvetovima za akvarijum",
+    "description": "Veštačka biljka sa crvenim cvetovima na plavom postolju: veseo, upečatljiv detalj za dekorativne i dečje akvarijume. NS Reptiles Novi Sad.",
+    "keywords": "veštačka biljka sa cvetovima, veštačka biljka za akvarijum, cvetna biljka za akvarijum, dekoracija za akvarijum, plastične biljke"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum"
+  ],
+  "related": [
+    "oprema/vestacka-biljka-okruglih-listova",
+    "oprema/vestacka-biljka-na-kamenu",
+    "oprema/vestacka-biljka-sa-dugim-granama",
+    "oprema/vestacka-biljka-sa-roze-cvetom"
+  ]
+}

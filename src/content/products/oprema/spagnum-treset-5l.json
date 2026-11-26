@@ -1,14 +1,14 @@
 {
   "name": "Spagnum treset 5L",
   "label": "Podloge",
-  "lead": "Sphagnum mah 5L - odlično zadržava vlagu. Idealan za vlažne terarijume, skrovišta i inkubaciju jaja.",
+  "lead": "Spagnum treset 5L - podloga od tresetne mahovine koja dugo zadržava vlagu. Za vlažne terarijume, mešanje sa kokosovim tresetom i vlažna skrovišta.",
   "image": "/style/img/oprema/spagnum.webp",
-  "imageAlt": "Spagnum treset 5L - NS Reptiles",
+  "imageAlt": "Spagnum treset 5L, podloga za vlažne terarijume - NS Reptiles",
   "price": 0,
   "specs": [
     {
       "k": "Tip",
-      "v": "Podloga - Sphagnum mah"
+      "v": "Podloga - spagnum treset"
     },
     {
       "k": "Zapremina",
@@ -17,6 +17,10 @@
     {
       "k": "Namena",
       "v": "Vlažni terarijumi, skrovišta"
+    },
+    {
+      "k": "Osobina",
+      "v": "Dugo zadržava vlagu"
     }
   ],
   "description": [
@@ -26,7 +30,27 @@
     },
     {
       "type": "p",
-      "html": "Sphagnum mah (treset) u pakovanju od 5 litara je specijalizovana podloga sa izuzetnom sposobnošću zadržavanja vlage - može apsorbovati do 20 puta svoju težinu u vodi. Ova karakteristika ga čini idealnim za vlažne terarijume, vlažna skrovišta (humid hide) za pomoć pri presvlačenju, i za inkubaciju jaja reptila. Za leopard gekone, vlažno skrovište sa sphagnum mahom je neophodno - pomaže im da se bezbedno presvuku i sprečava probleme sa zaglavljenom kožom. U tropskim terarijumima može se koristiti kao gornji sloj preko kokosovog treseta za dodatno zadržavanje vlage. Prirodno je antibakterijski i otporan na buđ. Može se koristiti i za kreiranje naturalističkih dekoracija u kombinaciji sa korom i grančicama."
+      "html": "Spagnum treset nastaje od tresetne mahovine i spada u podloge koje najduže zadržavaju vlagu. Zbog toga se koristi u terarijumima tropskih vrsta, gde pomaže da vlažnost vazduha ne pada brzo između orošavanja. Prirodno je kiseo i fine, rastresite strukture."
+    },
+    {
+      "type": "p",
+      "html": "Najčešće se ne koristi sam, već se meša sa kokosovim tresetom: mešavina je rastresitija, bolje drži vlagu i manje se zbija. Odnos prilagodite vrsti: što vlažnije okruženje životinji treba, to više spagnuma dodajte. Odgovara crested gekonima, dnevnim gekonima, kameleonima, žabama i tropskim zmijama, a dobra je i kao osnova za biljke u vivarijumu. Za pustinjske vrste nije pogodan, jer njima treba suva podloga."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Navlažite treset pre stavljanja u terarijum, tako da bude vlažan, ali ne mokar.",
+        "Za vlažno skrovište stavite sloj navlaženog treseta u zatvorenu kutiju sa otvorom, što pomaže leopard gekonima i drugim vrstama pri presvlačenju.",
+        "Redovno uklanjajte izmet i ostatke hrane, a podlogu menjajte kada počne da se zbija ili da se pojavi buđ."
+      ]
+    },
+    {
+      "type": "p",
+      "html": "Pakovanje od 5 litara dovoljno je za manji terarijum, vlažno skrovište ili dopunu postojeće podloge. Pogledajte i <a href=\"/terarijumi.html\">terarijume</a> po meri iz naše radionice."
     },
     {
       "type": "h2",
@@ -38,15 +62,14 @@
     }
   ],
   "seo": {
-    "title": "Spagnum treset 5L | Oprema - NS Reptiles",
-    "description": "Sphagnum mah 5L - odlično zadržava vlagu. Idealan za vlažne terarijume, skrovišta i inkubaciju jaja. NS Reptiles Novi Sad.",
-    "keywords": "spagnum treset 5l, sphagnum mah, podloga za terarijum, vlažno skrovište, oprema za reptile, NS Reptiles, Novi Sad",
-    "ogTitle": "Spagnum treset 5L | NS Reptiles"
+    "title": "Spagnum treset 5L | Podloga za vlažne terarijume",
+    "description": "Spagnum treset 5L: podloga koja dugo zadržava vlagu, za tropske terarijume, mešanje sa kokosovim tresetom i vlažna skrovišta. NS Reptiles Novi Sad.",
+    "keywords": "spagnum treset, spagnum 5l, podloga za vlažni terarijum, vlažno skrovište, podloga za tropski terarijum",
+    "ogTitle": "Spagnum treset 5L | Podloga za vlažne terarijume"
   },
   "related": [
     "oprema/kokosov-treset-5l",
     "oprema/pinceta",
-    "oprema/skrivalice-za-reptile",
     "oprema/cork-bark"
   ]
 }

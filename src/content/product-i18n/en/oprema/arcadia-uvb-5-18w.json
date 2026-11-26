@@ -2,32 +2,40 @@
   "slug": "arcadia-uvb-5-15w-t8",
   "name": "Arcadia UVB 5% 15W T8",
   "label": "Lighting",
-  "lead": "Arcadia Forest 5% UVB T8 tube, 15W / 450mm. For forest reptile species that need moderate UVB radiation.",
-  "imageAlt": "Arcadia UVB 5% 15W T8 - NS Reptiles",
+  "lead": "Arcadia Euro Range Forest 5% UVB T8 tube, 15 W and 450 mm, for forest species that need moderate UVB. The manufacturer states a 9-month lifespan.",
+  "imageAlt": "Arcadia Euro Range Forest 5% UVB T8 15W 450 mm - NS Reptiles",
   "specs": [
     {
       "k": "Brand",
       "v": "Arcadia"
     },
     {
-      "k": "UVB",
-      "v": "5%"
+      "k": "Model",
+      "v": "Euro Range Forest 5% T8"
     },
     {
       "k": "Wattage",
-      "v": "15W"
-    },
-    {
-      "k": "Type",
-      "v": "T8 fluorescent tube"
+      "v": "15 W"
     },
     {
       "k": "Length",
-      "v": "450mm"
+      "v": "450 mm"
     },
     {
-      "k": "Intended for",
-      "v": "Forest reptile species"
+      "k": "Diameter",
+      "v": "26 mm (T8)"
+    },
+    {
+      "k": "UVB / UVA",
+      "v": "5% / 12%"
+    },
+    {
+      "k": "Colour temperature",
+      "v": "6600 K"
+    },
+    {
+      "k": "UVB lifespan",
+      "v": "9 months"
     }
   ],
   "description": [
@@ -37,11 +45,23 @@
     },
     {
       "type": "p",
-      "html": "The Arcadia Forest 5% UVB T8 fluorescent tube, 15W and 450mm long, is made for forest reptile species that live with less direct sunlight in the wild. UVB radiation is essential for vitamin D3 synthesis in reptile skin, which is key to calcium absorption and proper bone development. Without adequate UVB lighting, reptiles can develop metabolic bone disease (MBD)."
+      "html": "Arcadia Euro Range Forest 5% is a T8 fluorescent reptile tube from the Arcadia Euro Range, which the manufacturer describes as a high-quality, long-life, good-value series with total UVC protection and good colour rendering. The 15 W model is 450 mm long, 26 mm in diameter, with 5% UVB, 12% UVA and a 6600 K colour temperature."
     },
     {
       "type": "p",
-      "html": "The 5% output simulates filtered sunlight coming through tree canopies, which is ideal for crested geckos, day geckos, chameleons and other forest species. The T8 tube is installed in a matching fitting (controller) at the top of the terrarium and lights its entire length evenly. Replace the tube every 6-12 months, because UVB output weakens over time even when the visible light stays the same."
+      "html": "UVB lets reptiles make vitamin D3 in their skin, which they need to use calcium and build healthy bones. This tube is a good choice for forest species and species that get less direct sun in the wild and do well with moderate UVB. The 5% version is the milder of the two Euro Range options; for desert species there is the Desert 10%."
+    },
+    {
+      "type": "h2",
+      "text": "Installation and replacement"
+    },
+    {
+      "type": "p",
+      "html": "Fit the tube in a T8 fixture with a ballast of the matching length, above the basking spot; a reflector increases the amount of UVB reaching the animal. Leave a shaded zone in the terrarium too. The manufacturer states that Euro Range tubes should be replaced after 9 months, because UVB fades even while the tube still lights up."
+    },
+    {
+      "type": "p",
+      "html": "Find fluorescent fixtures, thermometers and other equipment in our <a href=\"/en/equipment.html\">equipment</a> range."
     },
     {
       "type": "h2",
@@ -53,8 +73,8 @@
     }
   ],
   "seo": {
-    "title": "Arcadia UVB 5% 15W T8 | Forest Reptile UVB Tube",
-    "description": "Arcadia Forest 5% UVB T8 tube, 15W / 450mm, for forest reptile species that need moderate UVB radiation. Supports vitamin D3 synthesis. NS Reptiles.",
-    "keywords": "Arcadia UVB 5% 15W T8, reptile UVB tube, UVB lighting, forest reptile species, NS Reptiles"
+    "title": "Arcadia Euro Forest 5% UVB T8 15W 450mm Tube",
+    "description": "Arcadia Euro Range Forest 5% UVB T8 tube, 15 W, 450 mm, for forest species that need moderate UVB. Replace after 9 months. NS Reptiles, Serbia.",
+    "keywords": "arcadia forest 5%, t8 uvb tube 15w, 450mm uvb tube, forest species uvb tube, arcadia euro range"
   }
 }

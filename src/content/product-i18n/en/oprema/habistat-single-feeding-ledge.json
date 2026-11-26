@@ -2,24 +2,32 @@
   "slug": "habistat-single-feeding-ledge",
   "name": "HabiStat Single Feeding Ledge",
   "label": "Accessories",
-  "lead": "A feeding ledge for arboreal reptiles with one clear cup. Black acrylic with suction cups for glass.",
-  "imageAlt": "HabiStat Single Feeding Ledge for arboreal reptiles - NS Reptiles",
+  "lead": "HabiStat Arboreal Single Feeding Ledge is a feeder for arboreal reptiles with one clear cup. It attaches to the terrarium glass with suction cups.",
+  "imageAlt": "HabiStat Arboreal Single Feeding Ledge, glass-mounted feeder - NS Reptiles",
   "specs": [
     {
       "k": "Brand",
       "v": "HabiStat"
     },
     {
-      "k": "Dimensions",
-      "v": "80x60x80mm"
+      "k": "Model",
+      "v": "Arboreal Single Feeding Ledge (HSFLS)"
     },
     {
-      "k": "Type",
-      "v": "Feeding ledge (single)"
+      "k": "Dimensions",
+      "v": "8 x 6 x 8 cm (L x D x H)"
+    },
+    {
+      "k": "Material",
+      "v": "Black acrylic, clear cups and suction cups"
+    },
+    {
+      "k": "Mounting",
+      "v": "Suction cups on glass"
     },
     {
       "k": "Intended for",
-      "v": "Arboreal reptiles"
+      "v": "Food or water for arboreal species"
     }
   ],
   "description": [
@@ -29,15 +37,23 @@
     },
     {
       "type": "p",
-      "html": "The HabiStat Single Feeding Ledge is a practical feeder designed specifically for arboreal (tree-dwelling) reptiles that spend most of their time in elevated positions. It is made from quality black acrylic with one clear cup that offers full 360-degree visibility of the contents. Suction cups attach it securely to the glass walls of the terrarium with no need for glue or drilling, and repositioning it is quick and easy."
+      "html": "HabiStat Arboreal Single Feeding Ledge lets arboreal species eat and drink up high, as they would in the wild. The ledge is made of black acrylic, while the cups and suction cups are clear, so you can see the contents from every angle without disturbing the animal. It measures 8 x 6 x 8 cm (length x depth x height)."
     },
     {
       "type": "p",
-      "html": "The clear cup detaches from the platform, which makes cleaning and refilling with food or water much easier. Its compact 80x60x80mm dimensions make it ideal for terrariums of all sizes without taking up too much space. The cup can hold fruit mash, insect powder, water or any other food your reptiles prefer."
+      "html": "Large weight-bearing suction cups hold the ledge on the glass wall of the terrarium, with no glue or drilling, and it is easy to move. The cups clip in place, come out easily, wash well and can be reused. The manufacturer also sells replacement cups separately."
+    },
+    {
+      "type": "h2",
+      "text": "Who it suits"
     },
     {
       "type": "p",
-      "html": "This model is especially popular with crested gecko owners, since these geckos feed in elevated positions in the wild and rarely come down to the terrarium floor. By mounting the ledge at the right height, you simulate natural feeding behavior and reduce stress for the animal. It is also suitable for day geckos, anoles and other arboreal species that prefer to feed up high."
+      "html": "The ledge is handy for crested geckos, day geckos and other arboreal species that rarely come down to the ground. A cup can hold fruit mix, insects or water. The single version is compact and takes up little space, so it suits smaller terrariums too. If you want food and water in one place, there is also the double version with two cups."
+    },
+    {
+      "type": "p",
+      "html": "Clean the glass before mounting so the suction cups hold well, and wash the cups whenever you change the food. See ready-made terrariums for arboreal species on our <a href=\"/en/terrariums.html\">terrariums</a> page."
     },
     {
       "type": "h2",
@@ -49,8 +65,8 @@
     }
   ],
   "seo": {
-    "title": "HabiStat Single Feeding Ledge | Arboreal Reptile Feeder",
-    "description": "HabiStat Single Feeding Ledge: a one-cup feeder for arboreal reptiles with suction cups for glass. NS Reptiles, Novi Sad, delivery across Serbia.",
-    "keywords": "habistat feeding ledge, reptile feeding ledge, gecko feeding ledge, arboreal reptiles, terrarium equipment, NS Reptiles, Novi Sad, Serbia"
+    "title": "HabiStat Single Feeding Ledge | Crested Gecko Feeder",
+    "description": "HabiStat Arboreal Single Feeding Ledge, 8 x 6 x 8 cm: glass-mounted feeder with one clear cup for crested and day geckos. NS Reptiles, Serbia.",
+    "keywords": "habistat feeding ledge, crested gecko feeder, terrarium feeding ledge, habistat single ledge, suction cup food dish"
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "Raspršivač vazduha LY-18, 20 cm",
   "label": "Aeracija",
-  "lead": "Raspršivač vazduha za akvarijum dužine 20 cm - sitni mehurići za bolju oksigenaciju vode.",
+  "lead": "Liya LY-18 raspršivač vazduha dužine 20 cm - niz sitnih mehurića i bolja oksigenacija za srednje akvarijume.",
   "image": "/style/img/oprema/akvarijum/rasprsivac-ly-18-20cm.webp",
   "imageAlt": "Raspršivač vazduha LY-18, 20 cm - NS Reptiles",
   "price": 400,
@@ -11,8 +11,16 @@
       "v": "Raspršivač vazduha"
     },
     {
+      "k": "Brend",
+      "v": "Liya"
+    },
+    {
+      "k": "Model",
+      "v": "LY-18"
+    },
+    {
       "k": "Dužina",
-      "v": "20 cm"
+      "v": "20 cm (8\")"
     },
     {
       "k": "Namena",
@@ -26,7 +34,19 @@
     },
     {
       "type": "p",
-      "html": "Raspršivač se crevom povezuje na vazdušnu pumpu i razbija vazduh u sitne mehuriće, čime se povećava količina kiseonika u vodi i pokreće površina. Fotografija je ilustrativna."
+      "html": "Raspršivač LY-18 je Liya štapić dužine 8 inča, odnosno oko 20 cm, sa plavim poroznim telom. Duž cele dužine pušta niz sitnih mehurića, pa se često postavlja uz zadnje staklo ili ispod dekoracije, gde pravi zavesu od mehurića. Dobar je izbor za akvarijume srednje veličine."
+    },
+    {
+      "type": "p",
+      "html": "Raspršivač se crevom povezuje na vazdušnu pumpu i razbija vazduh u sitne mehuriće. Mehurići pokreću površinu vode, gde se odvija razmena gasova, pa voda dobija više kiseonika, a kretanje vode sprečava mirne zone i stvaranje opne na površini."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Raspršivač se vremenom zapuši talogom i algama, pa mehurići postaju krupniji, a pumpi je teže da potiskuje vazduh. Tada ga zamenite novim. Imajte na umu da duži raspršivač traži jaču pumpu. Na crevo stavite nepovratni ventil, da voda pri nestanku struje ne bi došla do pumpe. Novi raspršivač pre prve upotrebe isperite u čistoj vodi."
     },
     {
       "type": "h2",
@@ -38,11 +58,11 @@
     }
   ],
   "seo": {
-    "title": "Raspršivač vazduha LY-18, 20 cm | Akvarijum oprema - NS Reptiles",
-    "description": "Raspršivač vazduha za akvarijum dužine 20 cm - sitni mehurići za bolju oksigenaciju vode. NS Reptiles, Novi Sad.",
-    "keywords": "raspršivač vazduha, aeracija akvarijuma, vazdušni kamen, NS Reptiles, Novi Sad"
+    "title": "Liya LY-18 raspršivač vazduha 20 cm | NS Reptiles",
+    "description": "Liya LY-18 raspršivač vazduha dužine 20 cm (8 inča) - zavesa sitnih mehurića i bolja oksigenacija vode u srednjim akvarijumima. NS Reptiles.",
+    "keywords": "liya ly-18, raspršivač vazduha 20 cm, štapić za vazduh, raspršivač za akvarijum, aeracija"
   },
-  "brand": false,
+  "brand": true,
   "usage": [
     "akvarijum"
   ]

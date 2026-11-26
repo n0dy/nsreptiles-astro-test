@@ -1,9 +1,9 @@
 {
   "name": "Resun PO-019 dekoracija amfora",
   "label": "Dekoracija",
-  "lead": "Resun PO-019 - dekoracija u obliku antičke amfore, 10,5 x 7,5 x 11 cm.",
+  "lead": "Resun PO-019 - dekoracija u obliku antičke amfore na steni, od poliresina, 10,5 x 7,5 x 11 cm. Skrovište za manje ribe i račiće.",
   "image": "/style/img/oprema/akvarijum/resun-po-019.webp",
-  "imageAlt": "Resun PO-019 dekoracija amfora - NS Reptiles",
+  "imageAlt": "Resun PO-019 dekoracija antička amfora na steni za akvarijum - NS Reptiles",
   "price": 1250,
   "specs": [
     {
@@ -13,6 +13,14 @@
     {
       "k": "Proizvođač",
       "v": "Resun"
+    },
+    {
+      "k": "Model",
+      "v": "PO-019"
+    },
+    {
+      "k": "Oblik",
+      "v": "Antička amfora na steni"
     },
     {
       "k": "Dimenzije",
@@ -30,7 +38,19 @@
     },
     {
       "type": "p",
-      "html": "Dekoracija od poliresina, bezbedna za akvarijum - ne menja parametre vode. Amfora je omiljeno skrovište za manje ribe i račiće."
+      "html": "Resun PO-019 je dekoracija od poliresina u obliku nagnute antičke amfore koja leži na steni obrasloj mahovinom. Amfora je u tirkiznim i sivim tonovima, sa ukrasnom šarom na telu i otvorom sa strane, pa izgleda kao predmet sa potonulog broda koji je vremenom obrastao. Sa dimenzijama 10,5 x 7,5 x 11 cm pogodna je za manje i srednje akvarijume."
+    },
+    {
+      "type": "p",
+      "html": "Unutrašnjost amfore je omiljeno skrovište za manje ribe i račiće, kojima zatvoren prostor daje osećaj sigurnosti. Mirne ribe koje deo dana provode u zaklonu brzo je prihvataju kao svoje mesto. Uz kamenje, pesak i biljke amfora unosi motiv antičkih ruševina, a dobro se slaže i sa kamenim mostom Resun PO-013."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja amforu isperite mlakom vodom, bez deterdženata. Postavite je stabilno na dno, sa otvorom okrenutim bočno ili ka prednjem staklu, i proverite da ulaz ne zatrpava pesak. Talog koji se skuplja u unutrašnjosti povremeno isperite tokom zamene vode, a alge sa površine skinite mekom četkicom."
     },
     {
       "type": "h2",
@@ -42,9 +62,9 @@
     }
   ],
   "seo": {
-    "title": "Resun PO-019 dekoracija amfora | Akvarijum oprema - NS Reptiles",
-    "description": "Resun PO-019 - dekoracija u obliku antičke amfore, 10,5 x 7,5 x 11 cm. NS Reptiles, Novi Sad.",
-    "keywords": "resun po-019, amfora, dekoracija za akvarijum, NS Reptiles, Novi Sad"
+    "title": "Resun PO-019 antička amfora za akvarijum",
+    "description": "Resun PO-019 dekoracija u obliku antičke amfore od poliresina, 10,5 x 7,5 x 11 cm. Skrovište za male ribe i račiće. NS Reptiles, Novi Sad.",
+    "keywords": "resun po-019, amfora za akvarijum, resun dekoracija, skrovište za račiće, dekoracija od poliresina"
   },
   "brand": false,
   "usage": [

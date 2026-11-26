@@ -1,9 +1,9 @@
 {
   "slug": "dragon-stone-1kg",
   "name": "Dragon stone 1kg",
-  "label": "Substrate",
-  "lead": "Dragon stone 1kg - a decorative stone with a porous, holey look for aquariums and terrariums.",
-  "imageAlt": "Dragon stone 1kg - NS Reptiles",
+  "label": "Decoration",
+  "lead": "Dragon stone 1kg - a porous, irregularly shaped decorative stone for aquascaping and terrarium design, with hollows that resemble dragon skin.",
+  "imageAlt": "Dragon stone, porous yellow-orange aquascaping rock - NS Reptiles",
   "specs": [
     {
       "k": "Type",
@@ -16,6 +16,14 @@
     {
       "k": "Intended for",
       "v": "Aquariums and terrariums"
+    },
+    {
+      "k": "Also known as",
+      "v": "Ohko stone"
+    },
+    {
+      "k": "Color",
+      "v": "Yellow-orange to brown"
     }
   ],
   "description": [
@@ -25,11 +33,23 @@
     },
     {
       "type": "p",
-      "html": "Dragon stone, also known as Ohko stone, is one of the most popular decorative stones in aquascaping and terrarium design. It has a unique holey look with deep cavities that resembles the surface of the moon or dragon skin. Every piece is unique in shape and texture, which lets you create one-of-a-kind layouts."
+      "html": "Dragon stone, also known as Ohko stone, is one of the most popular rocks in aquascaping. It is porous, with deep hollows and small holes that resemble dragon skin, and its color ranges from yellow-orange to brown. A 1 kg pack contains irregularly shaped pieces, so every arrangement looks different."
     },
     {
       "type": "p",
-      "html": "It is chemically inert - it does not affect pH or water hardness, so it is completely safe for all types of aquariums. In terrariums it serves as a decorative element and a climbing surface. In aquariums it is used to build hardscape - stone formations that form the base of an aquascape. Mosses and low plants attach easily to the porous surface, creating a natural, aged look."
+      "html": "In an aquarium it is used for hardscape, the rock formations that form the backbone of an aquascape. Mosses and plants that grow on rock attach easily to its rough surface, and the gaps between stones provide shelter for fish and shrimp. In a terrarium it serves as a natural decoration, a climbing surface and a base for hides."
+    },
+    {
+      "type": "h2",
+      "text": "Preparation and tips"
+    },
+    {
+      "type": "p",
+      "html": "Dragon stone often carries dust and clay residue in its pores. Before use, rinse the stones well under running water and brush them, and scrape off harder deposits with a pointed tool. When building larger formations, place the bigger pieces directly on the bottom, before the substrate, so they do not shift or collapse."
+    },
+    {
+      "type": "p",
+      "html": "Sources disagree on whether this stone affects water parameters, so in aquariums with soft, acidic water, check pH and KH from time to time after setting it up."
     },
     {
       "type": "h2",
@@ -41,8 +61,8 @@
     }
   ],
   "seo": {
-    "title": "Dragon Stone 1kg | Aquarium & Terrarium Hardscape",
-    "description": "Dragon stone 1kg: a decorative stone with a porous, holey look for aquariums and terrariums. Does not affect pH. NS Reptiles, Novi Sad, Serbia.",
-    "keywords": "dragon stone, Ohko stone, aquarium hardscape stone, aquascaping, NS Reptiles"
+    "title": "Dragon Stone 1kg - Aquascaping Rock | NS Reptiles",
+    "description": "Dragon stone 1kg: porous, irregular rock for aquascaping and terrariums. Pieces for hardscape, mosses and hides. NS Reptiles, Novi Sad, Serbia.",
+    "keywords": "dragon stone, ohko stone, aquascaping rock, aquarium hardscape stone, terrarium rock, NS Reptiles"
   }
 }

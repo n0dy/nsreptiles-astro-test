@@ -1,0 +1,75 @@
+{
+  "name": "Lobanja sa gas maskom",
+  "label": "Dekoracija",
+  "lead": "Lobanja sa gas maskom za terarijum - bež dekoracija u postapokaliptičnom stilu, sa okruglim staklima, filterom i kaiševima preko temena.",
+  "image": "/style/img/oprema/dekoracija/lobanja-sa-gas-maskom.webp",
+  "imageAlt": "Bež lobanja sa gas maskom, dekoracija za terarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras"
+    },
+    {
+      "k": "Boja",
+      "v": "Bež, peskovita tekstura"
+    },
+    {
+      "k": "Motiv",
+      "v": "Lobanja sa gas maskom"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Lobanja sa gas maskom je neobičan detalj za ljubitelje postapokaliptičnog i industrijskog stila. Preko lobanje su prebačeni kaiševi maske, na mestu očiju su dva okrugla stakla, a na mestu usta izbočeni, narebreni filter. Sa strane se vide creva i spojevi, a cela dekoracija je u bež tonu peskovite teksture, kao da je dugo ležala u pustinji."
+    },
+    {
+      "type": "p",
+      "html": "Najbolje se uklapa u pustinjske terarijume sa peskom, kamenjem i suvim granama, gde njena boja prati podlogu. Može da bude centralni detalj u terarijumu za bradatu agamu, leopard gekona ili skorpiju, ili deo tematske postavke sa ruševinama i drugim lobanjama. Ova dekoracija je ukras, a ne skrovište, pa životinji obezbedite i posebno mesto za skrivanje."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i čišćenje"
+    },
+    {
+      "type": "p",
+      "html": "Postavite je na ravnu podlogu ili je malo ukopajte u pesak, tako da je životinja ne može prevrnuti. Ne stavljajte je direktno ispod grejnog izvora. Prašinu i pesak iz narebrenog filtera i oko stakala uklanjajte mekom četkom; po potrebi je isperite mlakom vodom i potpuno osušite pre vraćanja."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Lobanja sa gas maskom - dekoracija za terarijum",
+    "description": "Bež lobanja sa gas maskom, okruglim staklima i filterom - postapokaliptična dekoracija za pustinjski terarijum. NS Reptiles, Novi Sad, Srbija.",
+    "keywords": "lobanja sa gas maskom, dekoracija za terarijum, postapokaliptična dekoracija, pustinjski terarijum, lobanja dekoracija"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/astecki-suncev-kamen-bez",
+    "oprema/astecki-suncev-kamen-terakota",
+    "oprema/lobanja-terakota",
+    "oprema/ostarela-kamena-lobanja"
+  ]
+}

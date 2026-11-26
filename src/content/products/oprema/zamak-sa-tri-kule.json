@@ -1,0 +1,71 @@
+{
+  "name": "Zamak sa tri kule",
+  "label": "Dekoracija",
+  "lead": "Zamak sa tri kule za akvarijum - kule sa crvenim krovovima, stepenice i prolazi u podnožju, ukras i skrovište za ribe.",
+  "image": "/style/img/oprema/dekoracija/zamak-sa-tri-kule.webp",
+  "imageAlt": "Zamak sa tri kule i crvenim krovovima, dekoracija za akvarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - zamak"
+    },
+    {
+      "k": "Izgled",
+      "v": "Tri kule sa crvenim krovovima i stepenicama"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras i skrovište za ribe"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Zamak sa tri kule je šarenija dekoracija za akvarijum: tri kule različite visine imaju crvenkaste kupaste krovove, a zidovi su peščane boje sa detaljima kamena i zelenim tragovima mahovine. Do kula vode stepenice, a u podnožju zamka nalaze se prolazi i otvori."
+    },
+    {
+      "type": "p",
+      "html": "Kroz otvore u podnožju i na kulama ribe ulaze i izlaze, pa im zamak služi i kao skrovište. Crveni krovovi daju akvarijumu topao akcenat i lepo se ističu na zelenoj pozadini biljaka. Ovaj zamak je omiljen u dečijim i tematskim akvarijumima, a dobro se kombinuje i sa ostalim zamkovima iz ponude kada želite celo kraljevstvo pod vodom."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja zamak isperite mlakom vodom, bez sapuna. Postavite ga na ravno dno i blago utisnite u podlogu da stoji stabilno, sa prolazima okrenutim ka prednjem staklu. Pazite da otvori budu dovoljno veliki za ribe koje držite. Tokom redovnog održavanja alge uklanjajte mekom četkicom i isperite talog iz unutrašnjosti."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Zamak sa tri kule i crvenim krovovima za akvarijum",
+    "description": "Zamak sa tri kule, crvenim krovovima i stepenicama, sa prolazima za ribe u podnožju. Topao akcenat za dečiji ili tematski akvarijum. NS Reptiles.",
+    "keywords": "zamak sa tri kule, zamak za akvarijum, dekoracija za dečiji akvarijum, skrovište za ribe, ukras za akvarijum"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum"
+  ],
+  "related": [
+    "oprema/amfora-terakota",
+    "oprema/lobanja-krokodila",
+    "oprema/zamak-sa-kapijom",
+    "oprema/zamak-na-steni"
+  ]
+}

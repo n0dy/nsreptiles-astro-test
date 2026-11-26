@@ -1,0 +1,79 @@
+{
+  "name": "Skrivalica piramida",
+  "label": "Skrivalice",
+  "lead": "Skrivalica u obliku piramide sa egipatskim motivima, u boji terakote - tematski zaklon sa ulazom sa strane za pustinjski terarijum.",
+  "image": "/style/img/oprema/skrivalica-piramida.webp",
+  "imageAlt": "Skrivalica piramida - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Skrivalica"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Zaklon"
+    },
+    {
+      "k": "Oblik",
+      "v": "Piramida, bočni ulaz"
+    },
+    {
+      "k": "Izgled",
+      "v": "Terakota sa egipatskim reljefima"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova skrivalica je oblikovana kao piramida u toploj boji terakote. Na stranama su reljefni motivi, među kojima su figura u egipatskom stilu i otisak nalik fosilu, kao i urezane cigle pri dnu. Na jednoj strani je ulaz u tamnu unutrašnjost."
+    },
+    {
+      "type": "p",
+      "html": "Piramida je savršen komad za tematski uređen pustinjski terarijum: uz svetao pesak, kamenje i suve biljke dobijate malu „egipatsku“ scenu. Pored izgleda, ima i pravu funkciju zaklona. Kosi zidovi se spajaju u vrh, pa je unutrašnjost zaštićena sa svih strana, a životinja kroz ulaz vidi šta se dešava napolju."
+    },
+    {
+      "type": "p",
+      "html": "Pogodna je za manje guštere, gekone i druge životinje koje traže tamno, zatvoreno skrovište."
+    },
+    {
+      "type": "h2",
+      "text": "Na šta obratiti pažnju"
+    },
+    {
+      "type": "p",
+      "html": "Proverite da li ulaz odgovara veličini vaše životinje; treba da prođe bez muke. Kosi zidovi ne pružaju ravan vrh za sunčanje, pa je piramida bolja kao skrivalica za hladniju stranu ili kao druga skrivalica uz pećinu sa platformom na toploj strani. Postavite je direktno na dno, a podlogu nasipajte oko nje. Reljefe povremeno očistite mekom četkicom."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Skrivalica piramida sa egipatskim motivima | NS Reptiles",
+    "description": "Skrivalica u obliku piramide u boji terakote sa egipatskim reljefima i bočnim ulazom - tematski zaklon za pustinjski terarijum. NS Reptiles.",
+    "keywords": "skrivalica piramida, egipatska dekoracija za terarijum, tematska skrivalica, skrivalica za gekone, skrivalica za pustinjski terarijum"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/skrivalica-kameni-polukrug",
+    "oprema/skrivalica-astecki-kalendar",
+    "oprema/skrivalica-polucev-braon",
+    "oprema/skrivalica-braon-stena"
+  ]
+}

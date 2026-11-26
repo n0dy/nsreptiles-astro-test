@@ -1,7 +1,7 @@
 {
   "name": "Raspršivač vazduha 10 cm",
   "label": "Aeracija",
-  "lead": "Raspršivač vazduha za akvarijum dužine 10 cm - sitni mehurići za bolju oksigenaciju vode.",
+  "lead": "Raspršivač vazduha za akvarijum dužine 10 cm - sitni mehurići za bolju oksigenaciju manjih akvarijuma.",
   "image": "/style/img/oprema/akvarijum/rasprsivac-10cm.webp",
   "imageAlt": "Raspršivač vazduha 10 cm - NS Reptiles",
   "price": 220,
@@ -26,7 +26,19 @@
     },
     {
       "type": "p",
-      "html": "Raspršivač se crevom povezuje na vazdušnu pumpu i razbija vazduh u sitne mehuriće, čime se povećava količina kiseonika u vodi i pokreće površina. Fotografija je ilustrativna."
+      "html": "Raspršivač vazduha od 10 cm je klasičan štapić sa plavim poroznim telom i priključkom za crevo. Kratka dužina je pogodna za manje akvarijume, nano akvarijume i karantin, a lako se sakrije u ugao ili iza kamena i korena. Fotografija je ilustrativna i prikazuje raspršivače različitih dužina."
+    },
+    {
+      "type": "p",
+      "html": "Raspršivač se crevom povezuje na vazdušnu pumpu i razbija vazduh u sitne mehuriće. Mehurići pokreću površinu vode, gde se odvija razmena gasova, pa voda dobija više kiseonika, a kretanje vode sprečava mirne zone i stvaranje opne na površini."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Raspršivač se vremenom zapuši talogom i algama, pa mehurići postaju krupniji, a pumpi je teže da potiskuje vazduh. Tada ga zamenite novim. Imajte na umu da duži raspršivač traži jaču pumpu. Na crevo stavite nepovratni ventil, da voda pri nestanku struje ne bi došla do pumpe. Novi raspršivač pre prve upotrebe isperite u čistoj vodi."
     },
     {
       "type": "h2",
@@ -38,9 +50,9 @@
     }
   ],
   "seo": {
-    "title": "Raspršivač vazduha 10 cm | Akvarijum oprema - NS Reptiles",
-    "description": "Raspršivač vazduha za akvarijum dužine 10 cm - sitni mehurići za bolju oksigenaciju vode. NS Reptiles, Novi Sad.",
-    "keywords": "raspršivač vazduha, aeracija akvarijuma, vazdušni kamen, NS Reptiles, Novi Sad"
+    "title": "Raspršivač vazduha 10 cm za mali akvarijum | NS Reptiles",
+    "description": "Raspršivač vazduha od 10 cm za vazdušnu pumpu - sitni mehurići i bolja oksigenacija u nano, manjim i karantinskim akvarijumima. NS Reptiles.",
+    "keywords": "raspršivač vazduha 10 cm, kamenčić za vazduh, raspršivač za akvarijum, aeracija, oksigenacija vode"
   },
   "brand": false,
   "usage": [

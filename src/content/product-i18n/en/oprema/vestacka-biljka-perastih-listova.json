@@ -1,0 +1,64 @@
+{
+  "slug": "artificial-plant-feathery-leaves",
+  "name": "Artificial plant with feathery leaves",
+  "label": "Plants",
+  "lead": "Dense bright green artificial aquarium plant with fine feathery leaves on a light-colored base. A hiding place for fry.",
+  "imageAlt": "Artificial plant with feathery leaves for aquariums - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Artificial plant"
+    },
+    {
+      "k": "Intended for",
+      "v": "Aquarium"
+    },
+    {
+      "k": "Function",
+      "v": "Decoration and cover"
+    },
+    {
+      "k": "Color",
+      "v": "Green"
+    },
+    {
+      "k": "Base",
+      "v": "Light-colored"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The artificial plant with feathery leaves is a dense, bright green plant with fine, needle-like leaves. It stands upright on a light-colored base and gives the impression of lush, healthy greenery."
+    },
+    {
+      "type": "p",
+      "html": "Unlike live plants, an artificial one needs no lighting, fertilizer or trimming and does not change water quality. Even fish that usually destroy plants cannot eat it, and the dense leaves give cover to smaller fish and fry."
+    },
+    {
+      "type": "h2",
+      "text": "Placement and maintenance"
+    },
+    {
+      "type": "p",
+      "html": "The dense, fine leaves are a favorite hiding place for fry and small fish. The plant looks good in groups or as a backdrop behind lower decorations, and its green color stands out especially well on a dark substrate. Maintenance is simple: every few weeks, or when you notice algae, rinse the plant with lukewarm water and go over it with a soft brush. Do not use detergents or cleaning products. Browse our other decorations and <a href=\"/en/equipment.html\">equipment</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Order by phone or WhatsApp message. Fast courier delivery. Customers in Novi Sad can pick up their order directly at our workshop. Contact us with any questions about the product or for a recommendation for your species."
+    }
+  ],
+  "seo": {
+    "title": "Artificial Aquarium Plant with Feathery Leaves",
+    "description": "Artificial aquarium plant with feathery leaves: a dense, bright green plant with fine leaves, a hiding place for fry and small fish. NS Reptiles.",
+    "keywords": "artificial plant feathery leaves, artificial aquarium plant, dense aquarium plant, fry hiding place, aquarium decoration"
+  }
+}

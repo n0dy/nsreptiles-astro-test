@@ -6,7 +6,7 @@ type L<T = string> = Record<Locale, T>;
 export const HOME_TEXT = {
   sr: {
     meta: {
-      title: 'NS Reptiles Novi Sad — egzotične životinje i terarijumi',
+      title: 'Egzotične životinje, terarijumi, akvarijumi - NS Reptiles',
       description:
         'Odgajivačnica egzotičnih ljubimaca i izrada terarijuma i akvarijuma po meri u Novom Sadu. Zdrave i pitome jedinke, kvalitetna oprema i stručan savet.',
       ogDescription:
@@ -15,7 +15,7 @@ export const HOME_TEXT = {
     hero: {
       pre: 'NS Reptiles',
       title: ['Egzotične', 'životinje'],
-      text: 'Odgajivačnica egzotičnih ljubimaca i izrada terarijuma i akvarijuma po meri u Novom Sadu.',
+      text: 'Odgajivačnica egzotičnih ljubimaca — kameleoni, agame, gekoni i zmije — i izrada terarijuma i akvarijuma po meri u Novom Sadu.',
       cta: 'Pogledaj ponudu',
       contact: 'Kontaktirajte nas',
       features: ['Zdrave i pitome jedinke', 'Proverena oprema', 'Terarijumi i akvarijumi po meri', 'Stručan savet i podrška'],
@@ -35,7 +35,7 @@ export const HOME_TEXT = {
     bigtypo: { title: 'Najbolji <b>terarijum</b>', sub: 'u celom svetu egzotike' },
     gallery: { title: 'Galerija <b>životinja</b>', all: 'Pogledaj celu galeriju', lizard: 'Gušter', snake: 'Zmija' },
     kits: { title: 'Kompleti za <b>početnike</b>', all: 'Svi kompleti' },
-    services: { title: 'Šta sve <b>radimo</b>' },
+    services: { title: 'Šta sve <b>radimo</b>', text: 'Kompletna rešenja za ljubitelje reptila, vodozemaca i akvaristike - od uzgoja i izrade, do opreme i dekoracija.' },
     work: {
       title: 'Naši <b>radovi</b>',
       text: 'Pogledajte neke od terarijuma i akvarijuma koje smo izradili.',
@@ -76,7 +76,7 @@ export const HOME_TEXT = {
     bigtypo: { title: 'The Best <b>Terrarium</b>', sub: 'in the entire world of exotics' },
     gallery: { title: 'Animal <b>Gallery</b>', all: 'View Full Gallery', lizard: 'Lizard', snake: 'Snake' },
     kits: { title: 'Starter <b>Kits</b>', all: 'All Kits' },
-    services: { title: 'What We <b>Do</b>' },
+    services: { title: 'What We <b>Do</b>', text: 'Complete solutions for reptile, amphibian and aquarium lovers - from breeding and custom builds to equipment and decor.' },
     work: {
       title: 'Our <b>Work</b>',
       text: 'Take a look at some of the terrariums and aquariums we have built.',
@@ -117,7 +117,7 @@ export const HOME_TEXT = {
     bigtypo: { title: 'Лучший <b>террариум</b>', sub: 'во всём мире экзотики' },
     gallery: { title: 'Галерея <b>животных</b>', all: 'Смотреть всю галерею', lizard: 'Ящерица', snake: 'Змея' },
     kits: { title: 'Комплекты для <b>начинающих</b>', all: 'Все комплекты' },
-    services: { title: 'Что мы <b>делаем</b>' },
+    services: { title: 'Что мы <b>делаем</b>', text: 'Комплексные решения для любителей рептилий, амфибий и аквариумистики - от разведения и изготовления до оборудования и декора.' },
     work: {
       title: 'Наши <b>работы</b>',
       text: 'Посмотрите некоторые террариумы и аквариумы, которые мы изготовили.',
@@ -154,50 +154,55 @@ export const GALLERY: { img: string; cat: 'guster' | 'zmija'; size?: 'tall' | 'b
   { img: '/style/img/gallery/nova/bradata-agama-5.webp', cat: 'guster', pos: 'right', name: SPECIES.bradata },
 ];
 
-export const SERVICES: { img: string; title: L; text: L }[] = [
+export const SERVICES: { img: string; href: string; title: L; text: L }[] = [
   {
     img: '/style/img/gallery/nova/odgajivacnica.webp',
+    href: '/zivotinje.html',
     title: { sr: 'Odgajivačnica', en: 'Breeding Facility', ru: 'Питомник' },
     text: {
-      sr: 'Selektivan uzgoj više vrsta egzotičnih kućnih ljubimaca - bradate agame, leopard gekoni, loptasti pitoni i kukuruzni smukovi. Zdrave i pitome jedinke.',
-      en: 'Selective breeding of multiple exotic pet species - bearded dragons, leopard geckos, ball pythons and corn snakes. Healthy and tame animals.',
-      ru: 'Селективное разведение нескольких видов экзотических домашних животных - бородатые агамы, леопардовые гекконы, шаровидные питоны и маисовые полозы. Здоровые и ручные особи.',
+      sr: 'Selektivan uzgoj egzotičnih ljubimaca - bradate agame, leopard gekoni, loptasti pitoni i kukuruzni smukovi. Zdrave, pitome i kvalitetne jedinke.',
+      en: 'Selective breeding of exotic pets - bearded dragons, leopard geckos, ball pythons and corn snakes. Healthy, tame, quality animals.',
+      ru: 'Селективное разведение экзотических питомцев - бородатые агамы, леопардовые гекконы, шаровидные питоны и маисовые полозы. Здоровые, ручные и качественные особи.',
     },
   },
   {
     img: '/style/img/gallery/nova/terarijumi.webp',
+    href: '/terarijumi.html',
     title: { sr: 'Terarijumi', en: 'Terrariums', ru: 'Террариумы' },
     text: {
-      sr: 'Izrađujemo terarijume od stakla i iverice po meri i želji, sa ugrađenom UVB/UVA rasvetom. Pored toga u ponudi imamo preko 70 različitih modela.',
-      en: 'We build glass and chipboard terrariums to custom specifications, with built-in UVB/UVA lighting. We also offer over 70 different models in stock.',
-      ru: 'Изготавливаем террариумы из стекла и ДСП на заказ по вашим размерам, со встроенным UVB/UVA освещением. Кроме того, в ассортименте более 70 различных моделей.',
+      sr: 'Izrada po meri, od stakla i iverice, sa UVB/UVA rasvetom.',
+      en: 'Custom-built from glass and chipboard, with UVB/UVA lighting.',
+      ru: 'Изготовление на заказ из стекла и ДСП, с UVB/UVA освещением.',
     },
   },
   {
     img: '/style/img/gallery/nova/akvarijumi.webp',
+    href: '/akvarijumi.html',
     title: { sr: 'Akvarijumi', en: 'Aquariums', ru: 'Аквариумы' },
     text: {
-      sr: 'Akvarijumi svih dimenzija po meri - za ribice, kornjače ili biljni akvarijum. LED rasveta sa dnevnim/noćnim režimom i kompletnom opremom.',
-      en: 'Aquariums of all dimensions made to order - for fish, turtles or planted aquariums. LED lighting with day/night mode and complete equipment.',
-      ru: 'Аквариумы любых размеров на заказ - для рыбок, черепах или растительный аквариум. LED-освещение с дневным/ночным режимом и полным комплектом оборудования.',
+      sr: 'Akvarijumi svih dimenzija, sa kompletnom opremom i rasvetom.',
+      en: 'Aquariums of all sizes, with complete equipment and lighting.',
+      ru: 'Аквариумы любых размеров, с полным оборудованием и освещением.',
     },
   },
   {
     img: '/style/img/gallery/nova/3d-pozadine.webp',
+    href: '/3d-pozadine.html',
     title: { sr: '3D pozadine', en: '3D Backgrounds', ru: '3D фоны' },
     text: {
-      sr: 'Izrađujemo od najkvalitetnijih materijala - prirodni siga kamen, imitacija stene, kombinacija treseta i kore od drveta, ili 3D logo vašeg brenda/firme.',
-      en: 'We craft from the highest quality materials - natural travertine stone, rock imitation, combination of peat and bark, or a 3D logo of your brand/company.',
-      ru: 'Изготавливаем из высококачественных материалов - натуральный известняк, имитация скалы, комбинация торфа и коры дерева, или 3D-логотип вашего бренда/компании.',
+      sr: 'Prirodni izgled, imitacija stene, kore drveta i drugih tekstura.',
+      en: 'A natural look - rock, tree bark and other textures.',
+      ru: 'Естественный вид - имитация скалы, коры дерева и других текстур.',
     },
   },
   {
-    img: '/style/img/gallery/12.jpg',
+    img: '/style/img/gallery/nova/oprema.webp',
+    href: '/oprema.html',
     title: { sr: 'Oprema', en: 'Equipment', ru: 'Оборудование' },
     text: {
-      sr: 'U širokoj ponudi može se naći sve za vaše reptile - UVA i UVB rasveta različitih jačina, biljne dekoracije, skrovišta, posudice za vodu/hranu i sredstva za održavanje.',
-      en: 'Our wide range includes everything for your reptiles - UVA and UVB lighting of various strengths, plant decorations, hideouts, water/food dishes and maintenance supplies.',
-      ru: 'В широком ассортименте можно найти всё для ваших рептилий - UVA и UVB лампы различной мощности, растительные декорации, укрытия, ёмкости для воды/корма и средства для ухода.',
+      sr: 'Sve što vam je potrebno za pravilan smeštaj i negu ljubimaca.',
+      en: 'Everything you need to house and care for your pets properly.',
+      ru: 'Всё необходимое для правильного содержания и ухода за питомцами.',
     },
   },
 ];
@@ -219,6 +224,7 @@ interface CustomBlock {
   title: L;
   text: L;
   feats: L<string[]>;
+  sketch: { kind: 'terarijum' | 'akvarijum'; dims: [string, string, string]; notes: L<[string, string, string, string]> };
 }
 
 const MAINTENANCE = { href: '/odrzavanje-akvarijuma-terarijuma.html', label: { sr: 'Održavanje', en: 'Maintenance', ru: 'Обслуживание' } };
@@ -228,6 +234,15 @@ export const CUSTOM: CustomBlock[] = [
   {
     img: '/style/img/izrada/terarijum.webp',
     href: '/izrada-terarijuma.html',
+    sketch: {
+      kind: 'terarijum',
+      dims: ['100 cm', '45 cm', '50 cm'],
+      notes: {
+        sr: ['UVB rasveta', '3D pozadina', 'Ventilacija', 'Klizna vrata'],
+        en: ['UVB lighting', '3D background', 'Ventilation', 'Sliding doors'],
+        ru: ['UVB освещение', '3D фон', 'Вентиляция', 'Раздвижные двери'],
+      },
+    },
     links: [
       { href: '/terarijumi.html', label: { sr: 'Gotovi terarijumi', en: 'Ready-made Terrariums', ru: 'Готовые террариумы' } },
       MAINTENANCE,
@@ -275,6 +290,15 @@ export const CUSTOM: CustomBlock[] = [
   {
     img: '/style/img/izrada/akvarijum.webp',
     href: '/izrada-akvarijuma.html',
+    sketch: {
+      kind: 'akvarijum',
+      dims: ['120 cm', '50 cm', '45 cm'],
+      notes: {
+        sr: ['LED rasveta', '3D pozadina', 'Stakleni poklopac', 'Staklo po meri'],
+        en: ['LED lighting', '3D background', 'Glass lid', 'Custom-cut glass'],
+        ru: ['LED освещение', '3D фон', 'Стеклянная крышка', 'Стекло на заказ'],
+      },
+    },
     links: [
       { href: '/akvarijumi.html', label: { sr: 'Gotovi akvarijumi', en: 'Ready-made Aquariums', ru: 'Готовые аквариумы' } },
       { href: '/akvarijumi-za-pocetnike.html', label: { sr: 'Za početnike', en: 'For Beginners', ru: 'Для начинающих' } },
@@ -322,6 +346,28 @@ export const CUSTOM: CustomBlock[] = [
 ];
 
 export const TESTIMONIALS: { author: string; item: L; text: L }[] = [
+  {
+    author: 'S.',
+    item: { sr: 'Akvarijum 50×28×30', en: 'Aquarium 50×28×30', ru: 'Аквариум 50×28×30' },
+    text: {
+      sr: 'Sve je perfektno i brzo napravljeno. Velika ažurnost i posvećenost poslu. Za svaku preporuku.',
+      en: 'Everything was made perfectly and quickly. Great responsiveness and dedication to the work. Highly recommended.',
+      ru: 'Всё сделано идеально и быстро. Отличная оперативность и преданность делу. Рекомендую.',
+    },
+  },
+  {
+    author: 'M.Č.',
+    item: {
+      sr: 'Terarijum za leopard gekona sa 3D pozadinom',
+      en: 'Leopard Gecko Terrarium with 3D Background',
+      ru: 'Террариум для леопардового геккона с 3D-фоном',
+    },
+    text: {
+      sr: 'Terarijum je fenomenalan, sada moja leopard gekonka ima više prostora.',
+      en: 'The terrarium is phenomenal, now my leopard gecko has more space.',
+      ru: 'Террариум потрясающий, теперь у моей леопардовой геккончихи больше места.',
+    },
+  },
   {
     author: 'F.',
     item: { sr: 'Akvarijum 25×19×20', en: 'Aquarium 25×19×20', ru: 'Аквариум 25×19×20' },

@@ -1,0 +1,71 @@
+{
+  "name": "Piratska lobanja",
+  "label": "Dekoracija",
+  "lead": "Piratska lobanja za akvarijum sa crvenom maramom i povezom preko oka - tematski ukras sa otvorima kroz koje ribe plivaju i skrivaju se.",
+  "image": "/style/img/oprema/dekoracija/piratska-lobanja.webp",
+  "imageAlt": "Piratska lobanja sa crvenom maramom i povezom preko oka, ukras za akvarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - lobanja"
+    },
+    {
+      "k": "Izgled",
+      "v": "Crvena marama, crni povez, detalji mahovine"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras i skrovište za ribe"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Piratska lobanja je dekoracija za akvarijum sa mnogo karaktera: na glavi ima tamnocrvenu piratsku maramu, preko jednog oka crni povez, a po površini zelene detalje koji podsećaju na mahovinu i alge, kao da je lobanja dugo ležala na morskom dnu. Kroz otvore, među kojima je i velika očna duplja, ribe mogu da ulaze i izlaze."
+    },
+    {
+      "type": "p",
+      "html": "Unutrašnji prostor služi kao skrovište za manje i plašljivije ribe, kojima mesto za sklanjanje smanjuje stres. Lobanja odlično ide uz piratski brod, sidro i olupine, pa od nje lako nastaje kompletan piratski ili nautički akvarijum, omiljen kod dece."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre stavljanja u akvarijum isperite lobanju mlakom vodom, bez sapuna i deterdženata. Postavite je čvrsto na pesak ili šljunak, otvorima okrenutu ka prednjem staklu, da biste videli ribe kako plivaju kroz nju. Pazite da otvori budu dovoljno veliki za ribe koje držite, kako se ne bi zaglavile. Pri čišćenju akvarijuma alge sa površine skinite mekom četkicom. Pogledajte i naše <a href=\"/akvarijumi.html\">akvarijume</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Piratska lobanja sa povezom - ukras za akvarijum",
+    "description": "Piratska lobanja sa maramom i povezom preko oka za akvarijum. Ribe plivaju kroz otvore i koriste je kao skrovište. NS Reptiles, Novi Sad.",
+    "keywords": "piratska lobanja, lobanja za akvarijum, piratska dekoracija za akvarijum, skrovište za ribe, ukras za akvarijum"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum"
+  ],
+  "related": [
+    "oprema/amfora-terakota",
+    "oprema/lobanja-krokodila",
+    "oprema/zamak-sa-kapijom",
+    "oprema/zamak-na-steni"
+  ]
+}

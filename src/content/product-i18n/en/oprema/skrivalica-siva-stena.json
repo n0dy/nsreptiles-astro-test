@@ -1,0 +1,68 @@
+{
+  "slug": "layered-grey-rock-reptile-hide",
+  "name": "Grey rock hide",
+  "label": "Hides",
+  "lead": "Layered hide styled as grey rock with terraced slabs - shelter underneath, plus steps for climbing and basking on top.",
+  "imageAlt": "Grey rock hide - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Hide"
+    },
+    {
+      "k": "Intended for",
+      "v": "Terrarium"
+    },
+    {
+      "k": "Function",
+      "v": "Shelter and climbing"
+    },
+    {
+      "k": "Shape",
+      "v": "Terraced rock, front entrance"
+    },
+    {
+      "k": "Color",
+      "v": "Bluish grey"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This hide is shaped like a rock made of stacked slabs that descend in terraces, like steps. The color is grey with slightly bluish and greenish highlights, similar to slate. At the front there is a wide arched entrance into the cavity under the rock."
+    },
+    {
+      "type": "p",
+      "html": "Your animal can hide and rest underneath, while the upper layers serve as a place to climb and bask. A lizard can climb the terraces slowly to the top, so the hide also adds surface for your animal to move on. It suits lizards, snakes and spiders."
+    },
+    {
+      "type": "p",
+      "html": "The cool grey tones blend well with darker substrates, grey rocks and rock-look 3D backgrounds."
+    },
+    {
+      "type": "h2",
+      "text": "Setup tips"
+    },
+    {
+      "type": "p",
+      "html": "If you place the hide under a heat lamp, the highest terrace becomes a basking spot; check with a thermometer that the surface does not get too hot. Set it directly on the floor so it does not wobble when your animal climbs, and add a second hide on the cool side. Clean the layers with a small brush under warm water from time to time."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Terraced Grey Rock Hide for Climbing | NS Reptiles",
+    "description": "Layered grey rock hide with terraces - shelter underneath and steps for climbing and basking. For lizards, snakes and spiders. NS Reptiles.",
+    "keywords": "grey rock reptile hide, climbing reptile hide, terraced terrarium rock, lizard hide, spider hide"
+  }
+}

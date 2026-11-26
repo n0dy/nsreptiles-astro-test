@@ -1,7 +1,7 @@
 {
   "name": "Stakleni termometar za akvarijum",
   "label": "Termometri",
-  "lead": "Stakleni termometar za akvarijum sa vakuum-držačem - postavlja se direktno u vodu.",
+  "lead": "Stakleni termometar za akvarijum sa vakuum-držačem i skalom u °C i °F - meri temperaturu direktno u vodi.",
   "image": "/style/img/oprema/akvarijum/stakleni-termometar-za-akvarijum.webp",
   "imageAlt": "Stakleni termometar za akvarijum - NS Reptiles",
   "price": 200,
@@ -9,6 +9,14 @@
     {
       "k": "Tip",
       "v": "Stakleni termometar sa vakuum-držačem"
+    },
+    {
+      "k": "Brend",
+      "v": "Resun"
+    },
+    {
+      "k": "Skala",
+      "v": "°C i °F"
     },
     {
       "k": "Namena",
@@ -22,7 +30,19 @@
     },
     {
       "type": "p",
-      "html": "Klasičan stakleni termometar koji se kači na unutrašnju stranu stakla. Pouzdan i bez baterija. Fotografija je ilustrativna."
+      "html": "Stakleni termometar za akvarijum iz Resun asortimana je klasičan termometar sa crvenom tečnošću i dvostrukom skalom, u stepenima Celzijusa i Farenhajta. Na vrhu ima vakuum-držač kojim se kači na unutrašnju stranu stakla, pa meri temperaturu direktno u vodi."
+    },
+    {
+      "type": "p",
+      "html": "Ne koristi baterije ni kablove, a deo skale označen zelenom bojom olakšava brzo očitavanje. Pogodan je za sve slatkovodne akvarijume, kao i za akvarijume i ter-akvarijume sa vodenim kornjačama. Pošto je od stakla, pažljivo ga postavljajte i skidajte, naročito pri čišćenju."
+    },
+    {
+      "type": "h2",
+      "text": "Saveti za upotrebu"
+    },
+    {
+      "type": "p",
+      "html": "Tropskim ribama potrebna je toplija voda, a hladnovodnim ribama i vodenim kornjačama drugačija temperatura, pa proverite potrebe svojih životinja. Termometar je najbolje postaviti na suprotnu stranu od grejača, da pokazuje temperaturu u ostatku akvarijuma. Proveravajte ga svakog dana, a posebno leti i posle promene vode. Ako termometar pokaže naglu promenu temperature, proverite grejač i temperaturu prostorije."
     },
     {
       "type": "h2",
@@ -34,11 +54,11 @@
     }
   ],
   "seo": {
-    "title": "Stakleni termometar za akvarijum | Akvarijum oprema - NS Reptiles",
-    "description": "Stakleni termometar za akvarijum sa vakuum-držačem - postavlja se direktno u vodu. NS Reptiles, Novi Sad.",
-    "keywords": "stakleni termometar, termometar za akvarijum, NS Reptiles, Novi Sad"
+    "title": "Stakleni termometar za akvarijum sa vakuumom | NS Reptiles",
+    "description": "Resun stakleni termometar za akvarijum sa vakuum-držačem i dvostrukom skalom °C i °F. Meri temperaturu u vodi, bez baterija. NS Reptiles Novi Sad.",
+    "keywords": "stakleni termometar, termometar za akvarijum, termometar sa vakuumom, resun termometar, temperatura vode"
   },
-  "brand": false,
+  "brand": true,
   "usage": [
     "akvarijum"
   ]

@@ -1,0 +1,60 @@
+{
+  "slug": "mp-222-air-stone",
+  "name": "Air stone MP 222",
+  "label": "Aeration",
+  "lead": "MP 222 air stone - a blue cylindrical stone for air pumps, a dense column of fine bubbles.",
+  "imageAlt": "Air stone MP 222 - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Cylindrical air stone"
+    },
+    {
+      "k": "Model",
+      "v": "MP 222"
+    },
+    {
+      "k": "Color",
+      "v": "Blue"
+    },
+    {
+      "k": "Intended for",
+      "v": "Aquarium"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The MP 222 air stone is a blue cylindrical stone in a blister pack, with a connector for standard airline tubing. Its compact shape produces a dense column of bubbles in one spot, so it can be used as a visible feature or hidden behind decor. It suits small and medium aquariums."
+    },
+    {
+      "type": "p",
+      "html": "The air stone connects to an air pump with tubing and breaks the air into fine bubbles. The bubbles move the water surface, where gas exchange happens, so the water gets more oxygen, and the water movement prevents stagnant zones and surface film."
+    },
+    {
+      "type": "h2",
+      "text": "Use and maintenance"
+    },
+    {
+      "type": "p",
+      "html": "Over time the air stone clogs with sediment and algae, the bubbles get bigger and the pump has a harder time pushing air. That is when to replace it. Keep in mind that a longer air stone needs a stronger pump. Fit a check valve on the tubing so water cannot reach the pump during a power cut. Rinse a new air stone in clean water before first use."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "MP 222 Cylindrical Air Stone | NS Reptiles",
+    "description": "MP 222 air stone - a blue cylindrical stone for air pumps and standard airline tubing. A dense bubble column for small and medium aquariums. NS Reptiles.",
+    "keywords": "mp 222 air stone, cylinder air stone, aquarium air stone, air diffuser, aeration"
+  }
+}

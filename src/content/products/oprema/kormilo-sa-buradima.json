@@ -1,0 +1,75 @@
+{
+  "name": "Kormilo sa buradima",
+  "label": "Dekoracija",
+  "lead": "Kormilo sa buradima za akvarijum - zlatkastosmeđe brodsko kormilo i dva šuplja bureta kroz koja ribe plivaju, na postolju obraslom mahovinom.",
+  "image": "/style/img/oprema/dekoracija/kormilo-sa-buradima.webp",
+  "imageAlt": "Brodsko kormilo sa dva šuplja bureta za akvarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - kormilo"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras i skrovište za ribe"
+    },
+    {
+      "k": "Detalji",
+      "v": "Kormilo i dva šuplja bureta"
+    },
+    {
+      "k": "Boje",
+      "v": "Oker kormilo, žuto-zeleno i crvenkastosmeđe bure"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova nautička dekoracija prikazuje kormilo potonulog broda okruženo buradima koja su pala sa palube. Kormilo je u toplom, zlatkastosmeđem tonu sa šarama drveta, a ispred njega leže dva bureta: jedno žuto-zeleno, drugo crvenkastosmeđe sa tamnim obručima. Postolje je prekriveno zelenom, mahovinastom teksturom, pa dekoracija deluje kao da već dugo stoji na dnu."
+    },
+    {
+      "type": "p",
+      "html": "Oba bureta su šuplja i otvorena, pa ribe mogu da plivaju kroz njih ili da se u njima odmaraju. Tako više riba istovremeno može da nađe svoje mesto, a manje vrste i škampi imaju gde da se sklone. Lepo se kombinuje sa piratskim brodom, olupinama i sidrom."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja dekoraciju isperite mlakom vodom, bez deterdženta. Postavite je na ravno dno i blago utisnite postolje u šljunak ili pesak. Otvore bureta okrenite ka prednjem staklu ili bočno, tako da ribe imaju slobodan prolaz i da ih možete posmatrati. Alge sa kormila i bureta uklanjajte mekom četkicom tokom redovnog čišćenja akvarijuma."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Kormilo sa dva šuplja bureta za akvarijum | NS Reptiles",
+    "description": "Kormilo sa buradima za akvarijum: zlatkastosmeđe kormilo i dva šuplja bureta kroz koja ribe plivaju, na postolju sa mahovinom. NS Reptiles, Novi Sad.",
+    "keywords": "kormilo sa buradima, nautička dekoracija za akvarijum, bure za akvarijum, skrovište za ribe, piratska dekoracija"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum"
+  ],
+  "related": [
+    "oprema/amfora-terakota",
+    "oprema/lobanja-krokodila",
+    "oprema/zamak-sa-kapijom",
+    "oprema/zamak-na-steni"
+  ]
+}

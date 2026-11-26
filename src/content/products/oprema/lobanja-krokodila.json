@@ -1,0 +1,76 @@
+{
+  "name": "Lobanja krokodila",
+  "label": "Dekoracija",
+  "lead": "Lobanja krokodila za akvarijum i terarijum - detaljna replika u boji slonovače, sa nizom zuba, dugom njuškom i otvorima koji služe kao zaklon.",
+  "image": "/style/img/oprema/dekoracija/lobanja-krokodila.webp",
+  "imageAlt": "Replika lobanje krokodila u boji slonovače sa zubima - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - lobanja"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum i terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras i skrovište"
+    },
+    {
+      "k": "Boja",
+      "v": "Slonovača"
+    },
+    {
+      "k": "Izgled",
+      "v": "Izdužena lobanja sa zubima"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Replika lobanje krokodila prikazuje dugu, pljosnatu njušku sa nizom šiljatih zuba, otvore za oči na vrhu glave i nozdrvu na samom vrhu njuške. Površina je u boji slonovače, sa sitnom, hrapavom teksturom kosti, pa lobanja deluje realistično i iz blizine."
+    },
+    {
+      "type": "p",
+      "html": "U akvarijumu je odličan izbor za tematske postavke nalik reci ili močvari, gde ribe plivaju oko nje i sklanjaju se u otvore i ispod nje. U terarijumu se lepo uklapa u ter-akvarijume i pustinjske postavke, a manje životinje je koriste kao zaklon. Zbog niskog, izduženog oblika dobro izgleda u prednjem planu, gde se vide svi detalji."
+    },
+    {
+      "type": "h2",
+      "text": "Saveti za upotrebu"
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja lobanju isperite mlakom vodom, bez sapuna. Postavite je na ravno dno i proverite da stoji stabilno i da se ne ljulja na zubima. Ako imate krupnije životinje, pazite da otvori nisu takve veličine da se životinja u njima zaglavi. Alge i nečistoće između zuba najlakše uklanjate mekom četkicom, a za kompletno uređenje pogledajte i ostalu <a href=\"/oprema.html\">opremu</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Lobanja krokodila za akvarijum i terarijum | NS Reptiles",
+    "description": "Replika lobanje krokodila u boji slonovače, sa zubima i dugom njuškom. Ukras i zaklon za akvarijum, ter-akvarijum ili terarijum. NS Reptiles, Novi Sad.",
+    "keywords": "lobanja krokodila, lobanja za akvarijum, lobanja za terarijum, dekoracija za ter-akvarijum, skrovište za ribe"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum",
+    "terarijum"
+  ],
+  "related": [
+    "oprema/amfora-terakota",
+    "oprema/zamak-sa-kapijom",
+    "oprema/zamak-na-steni",
+    "oprema/zamak-sa-zidinama"
+  ]
+}

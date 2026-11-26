@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "Leopard Gekon — Vodič za Uzgoj i Negu | NS Reptiles",
-    "description": "Sve o leopard gekonu: terarijum, temperatura, ishrana i razmnožavanje. Kompletan vodič za uzgoj i negu ove popularne vrste guštera.",
-    "ogDescription": "Sve o leopard gekonu: terarijum, temperatura, ishrana i razmnožavanje. Kompletan vodič za uzgoj i negu."
+    "title": "Leopard Gekon Prodaja od 6.000 din, Novi Sad | NS Reptiles",
+    "description": "Prodaja leopard gekona od 6.000 din - idealan prvi reptil, živi 15-20 godina. Starter komplet sa terarijumom i opremom 12.500 din. NS Reptiles, Novi Sad.",
+    "ogDescription": "Prodaja leopard gekona od 6.000 din - idealan prvi reptil, živi 15-20 godina. Starter komplet sa terarijumom i opremom 12.500 din. NS Reptiles, Novi Sad."
   },
   "article": {
     "headline": "Leopard Gekon — Vodič za Uzgoj i Negu",
@@ -14,7 +14,15 @@
   "image": "/style/img/gallery/3.jpg",
   "photo": "/style/img/gallery/10.jpg",
   "photoAlt": "Leopard gekon u terarijumu — NS Reptiles Novi Sad",
-  "intro": "Leopard gekon je jedna od najčešće čuvanih vrsta gekona na svetu. Veoma su popularni zbog mirne naravi, lakog pripitomljvanja i jednostavne nege. Postoji veliki broj morfova — raznih varijacija boje i šara — što ih čini posebno atraktivnim ljubimcima. Cena se kreće od 30€ za normal mladunca pa naviše, do par stotina eura za retke morfove.",
+  "intro": "Leopard gekon je jedna od najčešće čuvanih vrsta gekona na svetu. Veoma su popularni zbog mirne naravi, lakog pripitomljvanja i jednostavne nege. Postoji veliki broj morfova — raznih varijacija boje i šara — što ih čini posebno atraktivnim ljubimcima. Cena se kreće od 6.000 din za normal mladunca pa naviše, do nekoliko desetina hiljada dinara za retke morfove.",
+  "price": {
+    "label": "Cena",
+    "value": "Mladunci od 6.000 din",
+    "note": "Leopard gekon iz domaćeg uzgoja — idealan prvi reptil. Mladunci od 6.000 din, dostupan i starter komplet sa terarijumom 50x35x35, grejanjem i opremom za 12.500 din. Prodaja u Novom Sadu, dostava širom Srbije — javite nam se za dostupnost.",
+    "call": "Pozovite nas",
+    "waText": "Zdravo, zanima me leopard gekona.",
+    "low": 6000
+  },
   "sections": [
     {
       "title": "Poreklo i <b>stanište</b>",
@@ -119,6 +127,34 @@
     "terarijumi/terarijum-65x35x35",
     "terarijumi/terarijum-70x40x35"
   ],
+  "faq": {
+    "title": "Česta pitanja o leopard gekonu",
+    "items": [
+      {
+        "q": "Koliko košta leopard gekon?",
+        "a": "Cena leopard gekona kreće se od 6.000 din za normal mladunca pa naviše, do nekoliko desetina hiljada dinara za retke morfove."
+      },
+      {
+        "q": "Da li je leopard gekon pogodan za početnike?",
+        "a": "Da, leopard gekon je idealan za početnike. Mirne su prirode, lako se pripitome i jednostavni su za negu."
+      },
+      {
+        "q": "Koliko živi leopard gekon?",
+        "a": "Leopard gekon u zatočeništvu živi prosečno 15-20 godina uz pravilnu negu."
+      },
+      {
+        "q": "Koja je idealna temperatura za leopard gekona?",
+        "a": "Temperatura na toplijem delu treba da bude 32-33°C, dok u hladnijem delu može biti 20-25°C."
+      },
+      {
+        "q": "Šta jede leopard gekon?",
+        "a": "Leopard gekon je karnivor i hrani se isključivo insektima: cvrčci, tenebrije, lateralise, dubije."
+      }
+    ]
+  },
+  "product": {
+    "description": "Leopard gekon iz domaćeg uzgoja - idealan prvi reptil. Mladunci od 6.000 din, dostupan i starter komplet sa terarijumom 50x35x35, grejanjem i opremom za 12.500 din."
+  },
   "cta": {
     "text": "Za pitanja o nabavci, nezi ili opremi za leopard gekona — tu smo. Javite nam se pozivom ili porukom.",
     "waText": "Zanima me leopard gekon"

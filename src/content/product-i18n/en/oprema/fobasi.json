@@ -2,12 +2,12 @@
   "slug": "superworms",
   "name": "Superworms",
   "label": "Live food",
-  "lead": "A soft, nutritious feeder insect and an excellent complement to dubia roaches for meal variety. Available in three sizes, for baby and adult lizards.",
-  "imageAlt": "Superworms - live food for lizards, bearded dragons and leopard geckos",
+  "lead": "Superworms - large, nutritious beetle larvae for lizards, a great addition to dubia roaches for a more varied diet. Three sizes.",
+  "imageAlt": "Superworms - live food for bearded dragons and other lizards - NS Reptiles",
   "specs": [
     {
       "k": "Type",
-      "v": "Feeder insect"
+      "v": "Beetle larvae (feeder worms)"
     },
     {
       "k": "Sizes",
@@ -20,16 +20,20 @@
     {
       "k": "Pack",
       "v": "100 pieces"
+    },
+    {
+      "k": "Storage",
+      "v": "Room temperature, not in the fridge"
     }
   ],
   "description": [
     {
       "type": "h2",
-      "text": "Description"
+      "text": "Detailed description"
     },
     {
       "type": "p",
-      "html": "Superworms are a soft, nutritious feeder insect used as an excellent complement to dubia roaches in a lizard's diet. Their soft shell makes them easy to digest, and the extra variety helps achieve a better nutritional balance when they are combined with other insects. They are suitable for bearded dragons, leopard geckos, chameleons and other insect eaters."
+      "html": "Superworms are beetle larvae, larger than mealworms, and lizards love them for their lively movement. They are nutritious and filling, but they have more fat and a tougher outer skin than dubia roaches, so use them as an addition and for variety rather than as the only food. They suit bearded dragons, leopard geckos, chameleons, tegus and other insect eaters."
     },
     {
       "type": "h2",
@@ -37,7 +41,15 @@
     },
     {
       "type": "p",
-      "html": "They are available in three sizes - <strong>small</strong> for babies, <strong>medium</strong> for juveniles and <strong>large</strong> for adult lizards. Size rule: the insect must not be wider than the space between the animal's eyes. Dust live food with calcium before feeding, and occasionally with a multivitamin, for healthy bones and proper development."
+      "html": "They come in three sizes: <strong>small</strong> for younger animals, <strong>medium</strong> for juveniles and <strong>large</strong> for adult lizards. Size rule: the insect should not be wider than the space between the animal's eyes. Superworms have strong jaws, so do not give them to very small babies and do not leave uneaten ones in the terrarium."
+    },
+    {
+      "type": "h2",
+      "text": "Keeping and feeding"
+    },
+    {
+      "type": "p",
+      "html": "Unlike mealworms, do not keep superworms in the fridge, because they do not tolerate cold. Keep them at room temperature in a box with a little bran or rolled oats and a piece of vegetable. Dust them with calcium before feeding. Read more about combining live foods on our <a href=\"/en/lizard-food.html\">lizard food</a> page."
     },
     {
       "type": "h2",
@@ -51,7 +63,7 @@
   "priceUnit": "/ 100 pcs",
   "seo": {
     "title": "Superworms | Live Food for Lizards - NS Reptiles",
-    "description": "Superworms: soft, nutritious live food for lizards and a great complement to dubia roaches for variety. Three sizes, from 500 din per 100 pcs.",
-    "keywords": "superworms, superworms price, lizard food, live food for reptiles, feeder insects, bearded dragon food, leopard gecko food, NS Reptiles, Novi Sad"
+    "description": "Superworms: large beetle larvae for bearded dragons, geckos and tegus, a good addition to dubia roaches. Three sizes, from 500 din per 100.",
+    "keywords": "superworms, superworms price, live food for lizards, bearded dragon food, feeder worms, feeder insects Serbia"
   }
 }

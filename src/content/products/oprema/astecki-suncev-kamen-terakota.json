@@ -1,0 +1,79 @@
+{
+  "name": "Astečki sunčev kamen, terakota",
+  "label": "Dekoracija",
+  "lead": "Astečki sunčev kamen sa detaljima u boji terakote i dubokim reljefom - upečatljiv ukras za zadnji zid terarijuma.",
+  "image": "/style/img/oprema/dekoracija/astecki-suncev-kamen-terakota.webp",
+  "imageAlt": "Astečki sunčev kamen sa detaljima u boji terakote - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - reljefni disk"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras"
+    },
+    {
+      "k": "Boja",
+      "v": "Sivo-bež sa detaljima u boji terakote"
+    },
+    {
+      "k": "Motiv",
+      "v": "Astečki kalendar"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Terakota varijanta astečkog sunčevog kamena bogatija je detaljima od bež modela. Osnova je u sivo-bež tonu starog kamena, a lice u središtu, zraci u obliku trouglova i dve zmijske glave pri dnu istaknuti su toplom bojom terakote. Spoljni prsten čine kvadratna polja sa glifima, pa je reljef dubok i dobro se vidi i iz daljine."
+    },
+    {
+      "type": "p",
+      "html": "Zbog jakog kontrasta ova dekoracija dolazi do izražaja kao glavni detalj na zadnjem zidu terarijuma. Uklapa se u pustinjske postavke sa crvenkastim peskom i kamenjem, ali i u tematske terarijume u stilu drevnih ruševina, zajedno sa lobanjama i kamenim maskama."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i nega"
+    },
+    {
+      "type": "p",
+      "html": "Disk naslonite na zid terarijuma i učvrstite donju ivicu u podlozi ili kamenom, kako se ne bi pomerio kada životinja kopa ili se penje. Ako iza njega ostaje prostor, proverite da životinja ne može da se zaglavi između diska i stakla."
+    },
+    {
+      "type": "p",
+      "html": "Duboki reljef skuplja prašinu i ostatke podloge, pa ga povremeno izvadite, isperite mlakom vodom i očistite mekom četkom, bez deterdženta. Pre vraćanja u terarijum ostavite ga da se potpuno osuši. Za kompletno uređenje pogledajte i ostalu <a href=\"/oprema.html\">opremu za terarijume</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Astečki kalendar, terakota - dekoracija za terarijum",
+    "description": "Astečki sunčev kamen sa licem, zracima i zmijskim glavama u boji terakote. Reljefni ukras za zadnji zid terarijuma. NS Reptiles, Novi Sad.",
+    "keywords": "astečki kalendar za terarijum, astečki sunčev kamen terakota, reljefna dekoracija, dekoracija za terarijum, tematski terarijum"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/astecki-suncev-kamen-bez",
+    "oprema/lobanja-sa-gas-maskom",
+    "oprema/lobanja-terakota",
+    "oprema/ostarela-kamena-lobanja"
+  ]
+}

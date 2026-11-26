@@ -1,22 +1,34 @@
 {
-  "name": "Habistat termometar",
-  "label": "Pribor",
-  "lead": "Habistat analogni termometar za merenje temperature u terarijumu. Kompaktan kružni displej koji se lepi na staklo.",
+  "name": "HabiStat termometar",
+  "label": "Termometri",
+  "lead": "HabiStat Dial termometar je analogni termometar za terarijum sa skalom u °C i °F. Radi bez baterija i kablova, prečnika 5,8 cm.",
   "image": "/style/img/oprema/termometar.webp",
-  "imageAlt": "Habistat termometar - NS Reptiles",
+  "imageAlt": "HabiStat Dial termometar za terarijum - NS Reptiles",
   "price": 0,
   "specs": [
     {
       "k": "Brend",
-      "v": "Habistat"
+      "v": "HabiStat"
+    },
+    {
+      "k": "Model",
+      "v": "Dial Thermometer (HDT)"
     },
     {
       "k": "Tip",
-      "v": "Analogni termometar (dial)"
+      "v": "Analogni termometar sa kazaljkom"
     },
     {
-      "k": "Namena",
-      "v": "Merenje temperature"
+      "k": "Skala",
+      "v": "°C i °F"
+    },
+    {
+      "k": "Dimenzije",
+      "v": "5,8 x 1,8 x 5,8 cm"
+    },
+    {
+      "k": "Napajanje",
+      "v": "Nije potrebno"
     }
   ],
   "description": [
@@ -26,7 +38,23 @@
     },
     {
       "type": "p",
-      "html": "Habistat Dial termometar je pouzdan analogni uređaj za merenje temperature u terarijumu. Praćenje temperature je ključno za zdravlje reptila jer su to ektotermne životinje koje zavise od spoljašnjih izvora toplote za regulaciju telesne temperature. Kompaktan kružni displej sa jasnom skalom u stepenima Celzijusa i Farenhajta omogućava brzo očitavanje temperature. Termometar se lepi direktno na unutrašnju stranu stakla terarijuma, bez potrebe za kablovima ili baterijama. Preporučujemo postavljanje na mestu gde vaša životinja provodi najviše vremena. Za optimalne uslove, temperatura u terarijumu treba da ima gradijent - topliju i hladniju stranu - kako bi životinja mogla sama da reguliše svoju temperaturu. Koristite dva termometra - jedan na toploj i jedan na hladnoj strani."
+      "html": "HabiStat Dial termometar je jednostavan analogni uređaj za praćenje temperature u terarijumu. Kružni brojčanik ima skalu u stepenima Celzijusa i Farenhajta sa obojenim poljima, pa se temperatura očitava na prvi pogled. Ne koristi baterije ni kablove, a sa dimenzijama 5,8 x 1,8 x 5,8 cm ne zauzima mnogo mesta."
+    },
+    {
+      "type": "p",
+      "html": "Reptili su ektotermne životinje i telesnu temperaturu regulišu kretanjem između toplijih i hladnijih delova terarijuma. Zato je važno znati kolika je temperatura u svakoj zoni, a ne samo ispod lampe."
+    },
+    {
+      "type": "h2",
+      "text": "Gde ga postaviti"
+    },
+    {
+      "type": "p",
+      "html": "HabiStat savetuje da termometar postavite na pola puta između tople i hladne strane, da biste dobili prosečnu vrednost. Za preciznije praćenje koristite više termometara i postavite ih u zone koje želite da kontrolišete, na primer jedan kod mesta za sunčanje i jedan na hladnoj strani."
+    },
+    {
+      "type": "p",
+      "html": "Termometar pokazuje temperaturu, ali je ne reguliše: za stabilne uslove grejanje povežite na termostat. Uz termometar preporučujemo i HabiStat Dial higrometar za praćenje vlažnosti, a ostalu opremu pogledajte u ponudi <a href=\"/oprema.html\">opreme</a>."
     },
     {
       "type": "h2",
@@ -38,11 +66,10 @@
     }
   ],
   "seo": {
-    "title": "Habistat termometar | Oprema - NS REPTILES",
-    "description": "Habistat termometar - analogni termometar za merenje temperature u terarijumu. Kompaktan kružni displej koji se lepi na staklo. NS Reptiles Novi Sad.",
-    "keywords": "habistat termometar, oprema za terarijum, oprema za reptile, NS Reptiles, Novi Sad",
-    "ogTitle": "Habistat termometar | NS Reptiles",
-    "ogDescription": "Habistat analogni termometar za merenje temperature u terarijumu. Kompaktan kružni displej koji se lepi na staklo. NS Reptiles Novi Sad."
+    "title": "HabiStat Dial termometar za terarijum (°C/°F)",
+    "description": "HabiStat Dial termometar: analogni termometar za terarijum sa skalom u °C i °F, bez baterija, 5,8 cm. Saveti za postavljanje. NS Reptiles Novi Sad.",
+    "keywords": "habistat termometar, termometar za terarijum, analogni termometar, termometar za reptile, dial termometar"
   },
-  "related": []
+  "related": [],
+  "brand": true
 }

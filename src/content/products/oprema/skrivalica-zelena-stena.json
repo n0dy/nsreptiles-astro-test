@@ -1,0 +1,84 @@
+{
+  "name": "Skrivalica zelena stena",
+  "label": "Skrivalice",
+  "lead": "Skrivalica u izgledu prirodne zelenkaste stene, za terarijum i akvarijum - zaklon za reptile ili pećina za ribe i račiće.",
+  "image": "/style/img/oprema/skrivalica-zelena-stena.webp",
+  "imageAlt": "Skrivalica zelena stena - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Skrivalica"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum i Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Zaklon"
+    },
+    {
+      "k": "Oblik",
+      "v": "Nizak svod, ulaz spreda"
+    },
+    {
+      "k": "Boja",
+      "v": "Sivo-zelena sa svetlim prošaranim delovima"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova skrivalica je realistična imitacija niske, široke stene sivo-zelene boje sa svetlijim, žućkastim prošaranim delovima. Površina je neravna i kvrgava, a sa prednje strane je nizak, širok ulaz u šupljinu ispod stene."
+    },
+    {
+      "type": "p",
+      "html": "Njena posebnost je dvostruka namena. U terarijumu služi kao skrivalica za guštere, gekone i zmije, a uklapa se u šumske i neutralne postavke sa kamenjem i biljkama. U akvarijumu postaje pećina u kojoj se ribe i račići sklanjaju od svetla i drugih stanovnika, što je posebno važno za plašljive i teritorijalne vrste."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba u akvarijumu"
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja skrivalicu dobro isperite mlakom vodom, bez deterdženta. Postavite je direktno na dno akvarijuma, pa pesak ili šljunak rasporedite oko nje, da je ribe koje kopaju ne bi potkopale. Pogledajte i naše <a href=\"/akvarijumi.html\">akvarijume</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba u terarijumu"
+    },
+    {
+      "type": "p",
+      "html": "U terarijumu je postavite na dno, na toplu ili hladnu stranu, a uz nju dodajte još jednu skrivalicu na suprotnoj strani. Operite je toplom vodom kad se zaprlja."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Skrivalica zelena stena za terarijum i akvarijum",
+    "description": "Zelenkasta skrivalica u izgledu stene za terarijum ili akvarijum - zaklon za reptile ili pećina za ribe i račiće. NS Reptiles, Novi Sad.",
+    "keywords": "skrivalica zelena stena, pećina za akvarijum, skrivalica za ribe, skrivalica za terarijum, dekoracija stena za akvarijum"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum",
+    "terarijum"
+  ],
+  "related": [
+    "oprema/posuda-za-vodu-tamnosiva",
+    "oprema/posuda-zeleni-kamen",
+    "oprema/posuda-pescar",
+    "oprema/posuda-za-vodu-svetloplava"
+  ]
+}

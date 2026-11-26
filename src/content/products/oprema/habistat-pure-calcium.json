@@ -1,9 +1,9 @@
 {
   "name": "HabiStat Pure Calcium 125g",
   "label": "Suplementi",
-  "lead": "Čist prirodni kalcijum karbonat ultra fine granulacije sa vitaminima A, D3 i E. Za posipanje insekata pre hranjenja reptila i vodozemaca.",
+  "lead": "HabiStat Pure Calcium je prirodni kalcijum karbonat sa vitaminima A, D3 i E za reptile i vodozemce. Tegla od 125 g, za posipanje pri svakom hranjenju.",
   "image": "/style/img/oprema/habistat-pure-calcium.webp",
-  "imageAlt": "HabiStat Pure Calcium 125g - čist kalcijum karbonat za reptile - NS Reptiles",
+  "imageAlt": "HabiStat Pure Calcium 125 g u tegli - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -11,16 +11,24 @@
       "v": "HabiStat"
     },
     {
-      "k": "Težina",
-      "v": "125g"
+      "k": "Pakovanje",
+      "v": "125 g, hermetička tegla"
     },
     {
-      "k": "Tip",
-      "v": "Kalcijumski suplement"
+      "k": "Sastav",
+      "v": "Kalcijum karbonat"
+    },
+    {
+      "k": "Dodaci",
+      "v": "Vitamini A, D3 i E"
     },
     {
       "k": "Namena",
-      "v": "Svi reptili i vodozemci"
+      "v": "Reptili i vodozemci"
+    },
+    {
+      "k": "Doza",
+      "v": "1/4 kašičice, pri svakom hranjenju"
     }
   ],
   "description": [
@@ -30,15 +38,23 @@
     },
     {
       "type": "p",
-      "html": "HabiStat Pure Calcium je čist prirodni kalcijum karbonat ultra fine granulacije, sa česticama manjim od 300 mikrona. Ova izuzetno sitna granulacija omogućava da se kalcijum ravnomerno rasporedi po insektima prilikom posipanja, čime se obezbeđuje da vaši reptili dobiju optimalnu dozu kalcijuma sa svakim obrokom. Suplement je obogaćen vitaminima A, D3 i E u niskim, bezbednim dozama koje podržavaju pravilan metabolizam kalcijuma bez rizika od predoziranja."
+      "html": "HabiStat Pure Calcium je čist i prirodan izvor kalcijuma u obliku kalcijum karbonata, uz dodatak vitamina A, D3 i E. Proizvođač ističe da ga reptili i vodozemci lako vare. Tegla od 125 g dobro dihtuje, pa prah ostaje suv i rastresit."
     },
     {
       "type": "p",
-      "html": "Ovaj proizvod je namenjen za sve vrste reptila i vodozemaca. Koristi se metodom posipanja - insekti se stave u posudu, pospu kalcijumom i lagano protresu pre nego što se ponude životinjama. Na ovaj način, svaki insekt nosi tanki sloj kalcijuma koji se prirodno unosi tokom hranjenja. Za optimalne rezultate, neophodno je obezbediti adekvatno UVB osvetljenje u terarijumu, jer vitamin D3, koji je ključan za apsorpciju kalcijuma, nastaje u koži reptila pod dejstvom UVB zraka."
+      "html": "Kalcijum je osnovni mineral za kosti i mišiće. HabiStat naglašava da životinja može da iskoristi kalcijum iz hrane samo ako ima odgovarajuću UVB rasvetu, vitamin D3 iz ishrane ili kombinaciju oba, pa Pure Calcium ne zamenjuje UVB lampu."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i doziranje"
     },
     {
       "type": "p",
-      "html": "Redovno korišćenje kalcijumskog suplementa je od suštinskog značaja za prevenciju metaboličke bolesti kostiju, stanja koje je veoma često kod reptila u zatočeništvu. Bez dovoljno kalcijuma, kosti postaju meke i lomljive, što može dovesti do deformiteta i ozbiljnih zdravstvenih problema. HabiStat Pure Calcium pruža jednostavno i efikasno rešenje za svakodnevnu suplementaciju."
+      "html": "Uputstvo proizvođača: lagano naprašite sve insekte ili povrće pri svakom hranjenju; četvrtina kašičice je dovoljna. Pobrinite se da svi insekti budu obloženi i odmah ih ponudite. Prah se može posuti i po povrću i mesu. Izbegavajte udisanje prašine i čuvajte na suvom i hladnom mestu."
+    },
+    {
+      "type": "p",
+      "html": "Za vrste kojima treba više kalcijuma, kao što su mladunci i ženke pred polaganje jaja, HabiStat preporučuje i posudicu za kalcijum u terarijumu. Ostale suplemente pronađite u ponudi <a href=\"/oprema.html\">opreme</a>."
     },
     {
       "type": "h2",
@@ -50,11 +66,9 @@
     }
   ],
   "seo": {
-    "title": "HabiStat Pure Calcium 125g | Oprema - NS REPTILES",
-    "description": "HabiStat Pure Calcium 125g - čist prirodni kalcijum karbonat ultra fine granulacije sa vitaminima A, D3, E. Za posipanje insekata. NS Reptiles Novi Sad.",
-    "keywords": "habistat pure calcium, čist kalcijum za reptile, kalcijum za posipanje insekata, suplement za reptile, kalcijum karbonat, NS REPTILES, Novi Sad, Srbija",
-    "ogTitle": "HabiStat Pure Calcium 125g | NS Reptiles",
-    "ogDescription": "Čist prirodni kalcijum karbonat ultra fine granulacije sa vitaminima A, D3, E. Za posipanje insekata pre hranjenja reptila i vodozemaca."
+    "title": "HabiStat Pure Calcium 125 g - kalcijum za reptile",
+    "description": "HabiStat Pure Calcium 125 g: prirodni kalcijum karbonat sa vitaminima A, D3, E za posipanje insekata pri svakom hranjenju. NS Reptiles Novi Sad.",
+    "keywords": "habistat pure calcium, kalcijum za reptile, kalcijum za leopard gekona, kalcijum sa d3, kalcijum za insekte"
   },
   "related": []
 }

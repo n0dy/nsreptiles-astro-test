@@ -6,9 +6,9 @@ import Zcta from '../Zcta.astro';
 import '../../styles/animals.css';
 import '../../styles/oprema.css';
 import '../../styles/usluge.css';
-import type { Locale } from '../../config/site';
+import { SITE, type Locale } from '../../config/site';
 import { localizePath, translationsFor } from '../../i18n/routes';
-import { getProducts, type Product } from '../../lib/products';
+import { getProducts, productViewOrSr, type Product } from '../../lib/products';
 import { LISTINGS, LISTING_UI, type ListingKey } from '../../i18n/pages/listings';
 
 interface Props {
@@ -20,7 +20,11 @@ const l = LISTINGS[listing];
 const ui = LISTING_UI[lang];
 const href = (srPath: string) => localizePath(srPath, lang);
 const path = href(l.path);
-const heroImg = { terarijumi: '/style/img/izrada/terarijum.webp', akvarijumi: '/style/img/izrada/akvarijum.webp', oprema: '/style/img/oprema/scena.webp' }[listing];
+const hero = {
+  terarijumi: { lg: '/style/img/izrada/terarijum.webp', sm: '/style/img/izrada/terarijum.webp' },
+  akvarijumi: { lg: '/style/img/izrada/akvarijum.webp', sm: '/style/img/izrada/akvarijum.webp' },
+  oprema: { lg: '/style/img/oprema/scena.webp', sm: '/style/img/oprema/scena.webp' },
+}[listing];
 
 const groupOrder = l.groups.map((g) => g.key);
 const dims = (p: Product) => (p.id.match(/\d+/g) ?? []).map(Number);
@@ -51,6 +55,24 @@ const items = (await getProducts())
 const sectionCount = (key: string) => items.filter((i) => i.section?.split(' ').includes(key)).length;
 const groupCount = (key: string) => items.filter((i) => i.groups.split(' ').includes(key)).length;
 
+const views = await Promise.all(items.map(({ p }) => productViewOrSr(p, lang)));
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: l.h1[lang],
+    description: l.meta[lang].description,
+    url: SITE.url + path,
+    inLanguage: lang,
+    isPartOf: { '@id': SITE.url + '/#website' },
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: views.length,
+      itemListElement: views.map((v, i) => ({ '@type': 'ListItem', position: i + 1, url: SITE.url + v.path, name: v.name })),
+    },
+  },
+];
+
 const plural = new Intl.PluralRules(lang);
 const countText = (n: number) => `${n} ${ui.count[plural.select(n) as keyof typeof ui.count] ?? ui.count.other}`;
 ---
@@ -61,8 +83,19 @@ const countText = (n: number) => `${n} ${ui.count[plural.select(n) as keyof type
   image={l.image}
   active={l.active}
   translations={translationsFor(path)}
+  schema={schema}
 >
-<section class="page-head" style={`--ph-img: url(${heroImg}); --ph-img-sm: url(${heroImg})`}>
+<Fragment slot="head">
+  {hero.lg === hero.sm ? (
+    <link rel="preload" as="image" href={hero.lg} fetchpriority="high" />
+  ) : (
+    <>
+      <link rel="preload" as="image" href={hero.sm} media="(max-width: 768px)" fetchpriority="high" />
+      <link rel="preload" as="image" href={hero.lg} media="(min-width: 769px)" fetchpriority="high" />
+    </>
+  )}
+</Fragment>
+<section class="page-head" style={`--ph-img: url(${hero.lg}); --ph-img-sm: url(${hero.sm})`}>
   <div class="wrap">
     <h1 set:html={twoTone(l.h1[lang])} />
     <p>{l.lead[lang]}</p>
@@ -75,7 +108,11 @@ const countText = (n: number) => `${n} ${ui.count[plural.select(n) as keyof type
 </section>
 <section class={`op-shop op-shop--${listing}`}>
   <div class="wrap op-layout">
-    <aside class="op-side" aria-label={ui.filters}>
+    <aside class="op-side" id="opSide" aria-label={ui.filters}>
+      <div class="op-drawer-head">
+        <span class="op-drawer-title">{ui.filters}</span>
+        <button type="button" class="op-drawer-x" id="opDrawerX" aria-label={ui.close}><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg></button>
+      </div>
       <div class="op-search">
         <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
           <circle cx="11" cy="11" r="7"></circle>
@@ -113,6 +150,21 @@ const countText = (n: number) => `${n} ${ui.count[plural.select(n) as keyof type
             </a>
           )}
         </div>
+      </div>
+      {'services' in l && (
+        <nav class="op-side-block" aria-labelledby="opSrvTitle">
+          <div class="op-side-title" id="opSrvTitle">{ui.services}</div>
+          <div class="op-groups">
+            {l.services.map((s) => (
+              <a class="op-group op-group-link" href={href(s.href)}>
+                {s.label[lang]}<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+              </a>
+            ))}
+          </div>
+        </nav>
+      )}
+      <div class="op-drawer-foot">
+        <button type="button" class="btn btn-primary" id="opDrawerShow"></button>
       </div>
     </aside>
     <div class="op-main">
@@ -153,9 +205,11 @@ const countText = (n: number) => `${n} ${ui.count[plural.select(n) as keyof type
     </div>
   </section>
 )}
+<button type="button" class="op-ftab" id="opFtab" aria-controls="opSide" aria-expanded="false"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"></path></svg><span>{ui.filters}</span></button>
+<div class="op-overlay" id="opOverlay" hidden></div>
 <Zcta title={l.cta.title[lang]} text={l.cta.text[lang]} callLabel={ui.call} />
 
-<script is:inline slot="after" define:vars={{ countForms: ui.count, lang }}>
+<script is:inline slot="after" define:vars={{ countForms: ui.count, lang, showLabel: ui.show }}>
   // filter po grani (akvarijum/terarijum) i grupi + pretraga + sortiranje po ceni
   // izbor grane/grupe se cuva u hash-u (#akvarijum, #akv-filteri) da link moze da se podeli
   const opGrid = document.getElementById('opGrid');
@@ -172,6 +226,10 @@ const countText = (n: number) => `${n} ${ui.count[plural.select(n) as keyof type
   const has = (list, v) => (list ?? '').split(' ').includes(v);
   let opSec = 'all';
   let opCat = 'all';
+  const drawerShow = document.getElementById('opDrawerShow');
+  const ftab = document.getElementById('opFtab');
+  const markActive = () =>
+    ftab.classList.toggle('has-active', opSec !== 'all' || opCat !== 'all' || !!opSearch.value.trim() || opSort.value !== 'default');
 
   function opApply() {
     const q = opSearch.value.trim().toLowerCase();
@@ -186,6 +244,8 @@ const countText = (n: number) => `${n} ${ui.count[plural.select(n) as keyof type
     });
     opCount.textContent = n + ' ' + (countForms[plural.select(n)] ?? countForms.other);
     opEmpty.classList.toggle('show', n === 0);
+    drawerShow.textContent = showLabel + ' ' + opCount.textContent;
+    markActive();
   }
 
   // cena 0 = "pozovite za cenu", uvek na kraju
@@ -204,6 +264,7 @@ const countText = (n: number) => `${n} ${ui.count[plural.select(n) as keyof type
             return dir === 'asc' ? pa - pb : pb - pa;
           });
     opGrid.append(...sorted);
+    markActive();
   }
 
   const press = (el, on) => {
@@ -253,6 +314,68 @@ const countText = (n: number) => `${n} ${ui.count[plural.select(n) as keyof type
     if (initialGroup.dataset.section) setSection(initialGroup.dataset.section);
     setGroup(initial);
   }
+  // mobilni: jezicak uz levu ivicu otvara sidebar kao panel (isti elementi, bez kopije)
+  const side = document.getElementById('opSide');
+  const overlay = document.getElementById('opOverlay');
+  const bar = document.querySelector('.op-bar');
+  const sortWrap = document.getElementById('opSortWrap');
+  const mobile = matchMedia('(max-width: 880px)');
+  let spacer = null;
+  let inGrid = false;
+  const syncTab = () => ftab.classList.toggle('show', mobile.matches && (inGrid || !!spacer));
+  // root je tanka traka pri vrhu ekrana: jezicak se vidi dok je ta traka unutar grida
+  // (radi i kad skrol preskoci traku sa sortiranjem, npr. brz flick ili anchor)
+  new IntersectionObserver(
+    ([e]) => {
+      inGrid = e.isIntersecting;
+      syncTab();
+    },
+    { rootMargin: '0px 0px -99% 0px' },
+  ).observe(opGrid);
+
+  function openDrawer() {
+    spacer = document.createElement('div');
+    spacer.style.height = side.offsetHeight + 'px';
+    side.before(spacer);
+    side.querySelector('.op-search').after(sortWrap);
+    side.classList.add('is-drawer');
+    side.setAttribute('role', 'dialog');
+    side.setAttribute('aria-modal', 'true');
+    overlay.hidden = false;
+    document.documentElement.style.overflow = 'hidden';
+    ftab.setAttribute('aria-expanded', 'true');
+    document.getElementById('opDrawerX').focus();
+  }
+  function closeDrawer(toGrid) {
+    if (!spacer) return;
+    side.classList.remove('is-drawer');
+    side.removeAttribute('role');
+    side.removeAttribute('aria-modal');
+    bar.append(sortWrap);
+    spacer.remove();
+    spacer = null;
+    overlay.hidden = true;
+    document.documentElement.style.overflow = '';
+    ftab.setAttribute('aria-expanded', 'false');
+    if (toGrid) window.scrollTo({ top: bar.getBoundingClientRect().top + scrollY - 90, behavior: 'smooth' });
+    syncTab();
+    ftab.focus({ preventScroll: true });
+  }
+  ftab.addEventListener('click', openDrawer);
+  overlay.addEventListener('click', () => closeDrawer(false));
+  document.getElementById('opDrawerX').addEventListener('click', () => closeDrawer(false));
+  drawerShow.addEventListener('click', () => closeDrawer(true));
+  mobile.addEventListener('change', () => (mobile.matches ? syncTab() : closeDrawer(false)));
+  side.addEventListener('keydown', (e) => {
+    if (!spacer) return;
+    if (e.key === 'Escape') closeDrawer(false);
+    if (e.key !== 'Tab') return;
+    const f = [...side.querySelectorAll('button, input, select, a[href]')].filter((el) => el.offsetParent);
+    const [first, last] = [f[0], f[f.length - 1]];
+    if (e.shiftKey && document.activeElement === first) (e.preventDefault(), last.focus());
+    else if (!e.shiftKey && document.activeElement === last) (e.preventDefault(), first.focus());
+  });
+
   // browser moze da vrati vrednosti forme pri povratku na stranu
   if (opSort.value !== 'default') opSortCards();
   opApply();

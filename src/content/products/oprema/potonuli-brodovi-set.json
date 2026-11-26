@@ -1,0 +1,71 @@
+{
+  "name": "Potonuli brodovi, set od 2",
+  "label": "Dekoracija",
+  "lead": "Set od dva mala potonula broda za akvarijum - olupine sa jarbolima, pocepanim jedrima i otvorima na trupu, za ukras i skrovište.",
+  "image": "/style/img/oprema/dekoracija/potonuli-brodovi-set.webp",
+  "imageAlt": "Set od dva mala potonula broda sa jarbolima, dekoracija za akvarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - olupine brodova"
+    },
+    {
+      "k": "Pakovanje",
+      "v": "2 komada"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras i skrovište za ribe"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Set sadrži dva manja potonula broda sa polomljenim jarbolima, pocepanim zelenim jedrima i otvorima na trupu. Trupovi su u toplim braon tonovima sa plavom linijom, a obrasla jedra daju utisak da su brodovi dugo pod vodom. Jedan brod je nešto manji od drugog, pa zajedno deluju kao prizor sa morskog dna."
+    },
+    {
+      "type": "p",
+      "html": "Prednost seta je fleksibilnost: brodove možete postaviti jedan uz drugi kao jednu scenu ili ih rasporediti na različita mesta u akvarijumu, tako da više riba ima svoje skrovište. Pošto su manji, dobro se uklapaju i u manje akvarijume, u kojima bi jedan veliki brod zauzeo previše prostora."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja oba broda isperite mlakom vodom, bez sapuna. Blago ih utisnite u pesak ili šljunak da stoje stabilno i otvore okrenite ka prednjem staklu. Tanke jarbole i jedra čistite pažljivo, mekom četkicom, da ih ne biste polomili. Za kompletnu temu dodajte sidro ili piratsku lobanju iz naše ponude <a href=\"/oprema.html\">opreme</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Potonuli brodovi, set od 2 - dekoracija za akvarijum",
+    "description": "Set od dva mala potonula broda sa jarbolima i pocepanim jedrima. Ukras i skrovišta za ribe, pogodni i za manje akvarijume. NS Reptiles Novi Sad.",
+    "keywords": "potonuli brodovi set, olupine brodova za akvarijum, dekoracija za akvarijum, skrovište za ribe, ukras za mali akvarijum"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum"
+  ],
+  "related": [
+    "oprema/amfora-terakota",
+    "oprema/lobanja-krokodila",
+    "oprema/zamak-sa-kapijom",
+    "oprema/zamak-na-steni"
+  ]
+}

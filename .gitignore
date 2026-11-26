@@ -26,3 +26,9 @@ pnpm-debug.log*
 # lokalni radni fajlovi i projektne beleske (ne commit-ovati)
 local/
 CLAUDE.md
+
+# Pagefind indeks za astro dev (pravi ga `pnpm search:dev` posle builda)
+public/pagefind/
+
+# lokalni wrangler state
+.wrangler/

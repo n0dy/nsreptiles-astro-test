@@ -1,0 +1,83 @@
+{
+  "name": "Posuda za vodu, rustikalni kamen",
+  "label": "Posude",
+  "lead": "Posuda za vodu sa grubom spoljnom stranom i glatkim sivo-braon dnom - može se delimično ukopati u podlogu da izgleda kao prirodna lokva.",
+  "image": "/style/img/oprema/posuda-rustikalni-kamen.webp",
+  "imageAlt": "Posuda za vodu, rustikalni kamen - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Posuda za vodu"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Pojilica / hranilica"
+    },
+    {
+      "k": "Oblik",
+      "v": "Okrugla, dublje udubljenje"
+    },
+    {
+      "k": "Izgled",
+      "v": "Gruba spoljna strana, glatko dno"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Posuda za vodu u rustikalnom stilu ima dva lica. Spoljna strana je gruba, kvrgava i neravna, kao odlomljen komad stene, dok je unutrašnjost glatka, sa sivo-braon šarama koje podsećaju na izglačan rečni kamen. Udubljenje za vodu je dublje nego kod plitkih posuda iz naše ponude."
+    },
+    {
+      "type": "p",
+      "html": "Gruba spoljna strana omogućava zanimljiv trik pri uređenju: posudu možete delimično ukopati u podlogu, tako da viri samo neravni obod. Tada izgleda kao lokva između kamenja, a ne kao posuda postavljena na pod terarijuma. Glatko dno, s druge strane, olakšava pranje jer se nečistoća ne zavlači u pore."
+    },
+    {
+      "type": "h2",
+      "text": "Za koga je pogodna"
+    },
+    {
+      "type": "p",
+      "html": "Dublje udubljenje je pogodno za odrasle guštere i zmije koje piju veće količine vode. Za mladunce i vrlo male gekone izaberite neku od plićih posuda."
+    },
+    {
+      "type": "h2",
+      "text": "Održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Vodu menjajte svakodnevno. Ako je posuda ukopana, pazite da podloga ne upada u vodu; obod treba da bude malo viši od nivoa podloge. Jednom nedeljno je izvadite, operite i vratite na isto mesto."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Posuda za vodu, rustikalni kamen - dublja | NS Reptiles",
+    "description": "Dublja posuda za vodu sa grubom spoljnom stranom i glatkim dnom, može se ukopati u podlogu kao prirodna lokva. Za guštere i zmije. NS Reptiles.",
+    "keywords": "rustikalna posuda za vodu, dublja posuda za terarijum, posuda u izgledu stene, pojilica za odrasle guštere, posuda za zmije"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/posuda-astecki-motivi",
+    "oprema/posuda-kamena-zaba",
+    "oprema/mala-okrugla-posuda-braon",
+    "oprema/posuda-porozni-sivi-kamen"
+  ]
+}

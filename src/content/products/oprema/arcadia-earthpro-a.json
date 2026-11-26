@@ -1,9 +1,9 @@
 {
   "name": "Arcadia EarthPro-A",
   "label": "Suplementi",
-  "lead": "Kompletni vitaminski dodatak za reptile. Sadrži vitamine A, D3, E i esencijalne nutrijente za optimalno zdravlje.",
+  "lead": "Arcadia EarthPro-A je mineralno-vitaminski prah za reptile i vodozemce, bez vitamina D3. Prirodna mineralna glina, B vitamini i pčelinji polen, 100 g.",
   "image": "/style/img/oprema/proa.webp",
-  "imageAlt": "Arcadia EarthPro-A - NS Reptiles",
+  "imageAlt": "Arcadia EarthPro-A 100 g, mineralno-vitaminski suplement za reptile - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -11,16 +11,32 @@
       "v": "Arcadia"
     },
     {
-      "k": "Tip",
-      "v": "Vitaminski dodatak"
-    },
-    {
       "k": "Linija",
       "v": "EarthPro"
     },
     {
+      "k": "Pakovanje",
+      "v": "100 g"
+    },
+    {
+      "k": "Tip",
+      "v": "Minerali i vitamini u prahu"
+    },
+    {
+      "k": "Osnova",
+      "v": "Kalcijum karbonat i mineralna glina"
+    },
+    {
+      "k": "Vitamin D3",
+      "v": "Ne sadrži"
+    },
+    {
+      "k": "Vitamin A",
+      "v": "Provitamin A iz karotenoida"
+    },
+    {
       "k": "Primena",
-      "v": "Posipanje po hrani (1x nedeljno)"
+      "v": "Pri svakom hranjenju"
     }
   ],
   "description": [
@@ -30,15 +46,23 @@
     },
     {
       "type": "p",
-      "html": "Arcadia EarthPro-A je sveobuhvatni vitaminski suplement dizajniran za sve vrste reptila. Vitamin A je ključan za zdravlje vida, imunitet i razvoj kožnih tkiva. D3 omogućava pravilnu apsorpciju kalcijuma, dok vitamin E deluje kao antioksidans i štiti ćelije od oštećenja slobodnim radikalima."
+      "html": "Arcadia EarthPro-A je osnovni suplement EarthPro linije, namenjen svim vrstama reptila i vodozemaca. Umesto laboratorijske mešavine minerala koristi prirodno iskopanu mineralnu glinu, uz kalcijum karbonat, biljni proteinski prah sa aminokiselinama, šargarepu, karotenoide iz algi, kompleks B vitamina i pčelinji polen."
     },
     {
       "type": "p",
-      "html": "Preporučuje se primena jednom nedeljno posipanjem po hrani neposredno pre hranjenja, dok se kalcijumski suplement koristi svakodnevno. Ovaj naizmeničan protokol obezbeđuje balans vitamina i minerala bez rizika od predoziranja. Preterana upotreba vitaminskih suplemenata, posebno vitamina A, može biti štetna - strogo se držati preporučene doze."
+      "html": "Proizvođač navodi da prah ne sadrži vitamin D3 i da se koristi uz odgovarajuću UVB rasvetu. Vitamin A je prisutan kao provitamin iz karotenoida, za koji Arcadia navodi da se ne može predozirati. Glina pomaže da se prah bolje zalepi za insekte i biljke, pa manje otpada."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i doziranje"
     },
     {
       "type": "p",
-      "html": "EarthPro-A je razvijen u saradnji sa herpetolozima i veterinarima specijalizovanim za egzotične životinje. Kompatibilan je sa celom Arcadia EarthPro linijom i posebno se preporučuje uz EarthPro-Ca ili CaPro-MG kao svakodnevni kalcijum."
+      "html": "Po EarthPro programu ishrane, EarthPro-A se daje pri svakom hranjenju i na svu hranu. Kalcijum sa magnezijumom (CalciumPro-Mg) ide na svako četvrto hranjenje, a suplement sa D3 i vitaminom A na šesto ili osmo. Insekte lagano uvaljajte u prah u kesi, a biljojedima pospite salatu."
+    },
+    {
+      "type": "p",
+      "html": "Pogodan je za insektojede, biljojede i svaštojede. Kompletan izbor suplemenata nalazi se u ponudi <a href=\"/oprema.html\">opreme</a>."
     },
     {
       "type": "h2",
@@ -50,16 +74,13 @@
     }
   ],
   "seo": {
-    "title": "Arcadia EarthPro-A | Vitamini za Reptile - NS Reptiles",
-    "description": "Arcadia EarthPro-A - kompletni vitaminski dodatak za reptile sa vitaminima A, D3 i E. Koristiti jednom nedeljno uz svakodnevni kalcijum.",
-    "keywords": "Arcadia EarthPro-A, vitamini za reptile, vitamin A reptili, D3 reptili, suplementi reptili",
-    "ogTitle": "Arcadia EarthPro-A | NS Reptiles",
-    "ogDescription": "Kompletni vitaminski dodatak za reptile. Sadrži vitamine A, D3, E i esencijalne nutrijente. Koristiti jednom nedeljno."
+    "title": "Arcadia EarthPro-A 100 g - minerali i vitamini bez D3",
+    "description": "Arcadia EarthPro-A 100 g: prirodni minerali, B vitamini i pčelinji polen bez D3, za svako hranjenje reptila i vodozemaca. NS Reptiles Novi Sad.",
+    "keywords": "arcadia earthpro-a, vitamini za reptile, minerali za reptile, suplement bez d3, earthpro"
   },
   "related": [
     "oprema/arcadia-capro-mg",
     "oprema/arcadia-earthpro-ca",
-    "oprema/arcadia-calciumpro-mg",
     "oprema/arcadia-revitalised3"
   ]
 }

@@ -1,22 +1,34 @@
 {
   "name": "SOBO grejač 50 W",
   "label": "Grejači",
-  "lead": "SOBO grejač za akvarijum od 50 W sa termostatom - održava stalnu temperaturu vode.",
+  "lead": "SOBO HF-50 grejač za akvarijum od 50 W, termostat 20-32 °C - za manje akvarijume, borce i karantin.",
   "image": "/style/img/oprema/akvarijum/sobo-grejac-50w.webp",
   "imageAlt": "SOBO grejač 50 W - NS Reptiles",
   "price": 1200,
   "specs": [
     {
       "k": "Tip",
-      "v": "Grejač za akvarijum sa termostatom"
+      "v": "Potopni grejač sa termostatom"
     },
     {
       "k": "Proizvođač",
       "v": "SOBO"
     },
     {
+      "k": "Model",
+      "v": "HF-50"
+    },
+    {
       "k": "Snaga",
       "v": "50 W"
+    },
+    {
+      "k": "Opseg temperature",
+      "v": "20-32 °C"
+    },
+    {
+      "k": "Napajanje",
+      "v": "220 V / 50 Hz"
     },
     {
       "k": "Namena",
@@ -30,7 +42,23 @@
     },
     {
       "type": "p",
-      "html": "Potopni grejač sa ugrađenim termostatom za slatkovodne i tropske akvarijume. Temperatura se podešava točkićem, a grejač se sam uključuje i isključuje kad voda dostigne zadatu vrednost. Kućište je od stakla otpornog na toplotu. Pri izboru snage računajte okvirno 1 W po litru vode - ako niste sigurni, pozovite nas."
+      "html": "SOBO HF-50 je potopni grejač za akvarijum od 50 W sa podesivim termostatom i staklenom cevi. Prema ambalaži radi na 220 V / 50 Hz, temperatura se podešava od 20 do 32 °C, a grejač ima dvostruku vodootpornu izolaciju. Termostat sam uključuje i isključuje grejanje kad voda dostigne zadatu temperaturu. Namenjen je manjim akvarijumima, akvarijumima za borce i karantinu."
+    },
+    {
+      "type": "h2",
+      "text": "Kako izabrati snagu grejača"
+    },
+    {
+      "type": "p",
+      "html": "Snagu grejača birajte prema zapremini akvarijuma i temperaturi prostorije: veći akvarijum i hladnija soba traže jači grejač. Ako je prostorija hladna ili akvarijum nema poklopac, birajte jači model ili dva slabija grejača na suprotnim krajevima akvarijuma. Ako niste sigurni koja snaga vam treba, pitajte nas."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Grejač postavite koso ili uspravno na mesto gde voda dobro struji, na primer pored izlaza filtera, da se toplota ravnomerno raspoređuje. Mora biti potopljen do označene linije. Pre vađenja iz vode isključite ga i sačekajte da se ohladi, jer vruć grejač van vode može da pukne. Temperaturu uvek proveravajte termometrom."
     },
     {
       "type": "h2",
@@ -42,9 +70,9 @@
     }
   ],
   "seo": {
-    "title": "SOBO grejač 50 W | Akvarijum oprema - NS Reptiles",
-    "description": "SOBO grejač za akvarijum od 50 W sa termostatom - održava stalnu temperaturu vode. NS Reptiles, Novi Sad.",
-    "keywords": "grejač za akvarijum, sobo grejač, grejač 50w, NS Reptiles, Novi Sad"
+    "title": "SOBO HF-50 grejač za akvarijum 50 W | NS Reptiles",
+    "description": "SOBO HF-50 grejač od 50 W sa termostatom 20-32 °C i dvostrukom vodootpornom izolacijom, za manje akvarijume, borce i karantin. NS Reptiles.",
+    "keywords": "sobo hf-50, sobo grejač 50w, grejač za akvarijum 50w, grejač za mali akvarijum, grejač sa termostatom"
   },
   "brand": false,
   "usage": [

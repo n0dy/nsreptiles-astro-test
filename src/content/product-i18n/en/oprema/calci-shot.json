@@ -2,24 +2,32 @@
   "slug": "calci-shot",
   "name": "Calci-Shot",
   "label": "Supplements",
-  "lead": "A concentrated calcium supplement for all reptiles and amphibians. Supports healthy bone development.",
-  "imageAlt": "Calci-Shot - NS Reptiles",
+  "lead": "HabiStat Calci Shot is pure calcium carbonate in a small 33 g pot, with no phosphorus. Tip it into a calcium dish in the terrarium or use it to dust insects.",
+  "imageAlt": "HabiStat Calci Shot, calcium in a pot - NS Reptiles",
   "specs": [
     {
       "k": "Brand",
       "v": "HabiStat"
     },
     {
-      "k": "Weight",
-      "v": "~20g"
+      "k": "Pack size",
+      "v": "33 g pot"
+    },
+    {
+      "k": "Composition",
+      "v": "100% calcium carbonate"
+    },
+    {
+      "k": "Phosphorus",
+      "v": "None"
     },
     {
       "k": "Type",
       "v": "Calcium supplement"
     },
     {
-      "k": "Intended for",
-      "v": "All reptiles and amphibians"
+      "k": "Use",
+      "v": "Calcium dish or dusting food"
     }
   ],
   "description": [
@@ -29,15 +37,23 @@
     },
     {
       "type": "p",
-      "html": "HabiStat Calci-Shot is a concentrated calcium supplement for all reptile and amphibian species. Calcium is one of the most important minerals in a reptile diet because it enables proper bone development and strength, as well as normal muscle function."
+      "html": "HabiStat Calci Shot is an extra source of calcium for reptiles, amphibians and other terrarium animals. It is pure calcium carbonate with no phosphorus, packed in a small 33 g plastic pot that is handy for a single refill or for keeping next to the terrarium."
     },
     {
       "type": "p",
-      "html": "Dust the supplement over live or supplementary food before feeding. Regular use reduces the risk of metabolic bone disease (MBD), which most often occurs in reptiles with insufficient calcium intake or inadequate UVB lighting. For best results, use it with a UVB light source."
+      "html": "The label gives simple instructions: open the pot and pour half of the powder into a calcium dish (Calci Dish), so the animal can take calcium as needed. The rest can be used to dust live food. Replace the calcium in the dish when it gets dirty or damp."
+    },
+    {
+      "type": "h2",
+      "text": "Things to keep in mind"
     },
     {
       "type": "p",
-      "html": "HabiStat is a British brand with a long tradition of producing quality supplements and equipment for reptiles."
+      "html": "An animal can only use dietary calcium if it has proper UVB lighting, vitamin D3 in its diet, or both. Calci Shot contains no D3, so combine it with a UVB lamp or a D3 supplement. The label states that the product is not for human consumption."
+    },
+    {
+      "type": "p",
+      "html": "Find suitable UVB lamps and vitamin supplements in our <a href=\"/en/equipment.html\">equipment</a> range."
     },
     {
       "type": "h2",
@@ -49,8 +65,8 @@
     }
   ],
   "seo": {
-    "title": "HabiStat Calci-Shot | Calcium Supplement for Reptiles",
-    "description": "HabiStat Calci-Shot: a concentrated calcium supplement for all reptiles and amphibians that supports healthy bone development. Order from NS Reptiles.",
-    "keywords": "Calci-Shot, HabiStat calcium, calcium supplement, calcium for reptiles, NS Reptiles"
+    "title": "HabiStat Calci Shot 33g | Phosphorus-Free Calcium",
+    "description": "HabiStat Calci Shot: 33 g of pure calcium carbonate with no phosphorus, for a calcium dish or dusting insects. NS Reptiles, Novi Sad, Serbia.",
+    "keywords": "habistat calci shot, reptile calcium, phosphorus free calcium, calcium carbonate, gecko calcium"
   }
 }

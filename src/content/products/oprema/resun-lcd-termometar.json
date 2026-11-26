@@ -1,0 +1,69 @@
+{
+  "name": "Resun LCD termometar za akvarijum",
+  "label": "Termometri",
+  "lead": "Resun LCD termometar za akvarijum u obliku trake, 18-34 °C - lepi se spolja na staklo i menja boju.",
+  "image": "/style/img/oprema/akvarijum/resun-lcd-termometar.webp",
+  "imageAlt": "Resun LCD termometar za akvarijum - NS Reptiles",
+  "price": 250,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "LCD termometar (samolepljiva traka)"
+    },
+    {
+      "k": "Proizvođač",
+      "v": "Resun"
+    },
+    {
+      "k": "Opseg",
+      "v": "18-34 °C"
+    },
+    {
+      "k": "Skala",
+      "v": "°C i °F"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Resun LCD termometar je tanka samolepljiva traka sa skalom od 18 do 34 °C, uz paralelne vrednosti u stepenima Farenhajta. Lepi se na spoljnu stranu stakla, pa ne zauzima prostor u akvarijumu i ne treba ga vaditi pri čišćenju. Ne koristi baterije ni kablove."
+    },
+    {
+      "type": "p",
+      "html": "Polje koje odgovara trenutnoj temperaturi vode promeni boju, pa se temperatura očitava na prvi pogled. Opseg od 18 do 34 °C pokriva hladnovodne i tropske akvarijume, kao i akvarijume za vodene kornjače. Koristan je i kao dodatna kontrola uz grejač sa termostatom, jer brzo pokaže ako grejač prestane da radi ili ostane stalno uključen."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre lepljenja očistite i osušite staklo. Traku zalepite ispod nivoa vode, na strani gde je ne obasjava lampa ni direktno sunce i podalje od grejača, jer bi to moglo da utiče na očitavanje. Pošto meri temperaturu kroz staklo, vrednost može malo da odstupa od termometra u vodi."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Resun LCD termometar za akvarijum 18-34 °C | NS Reptiles",
+    "description": "Resun LCD termometar u obliku samolepljive trake, opseg 18-34 °C. Lepi se spolja na staklo, bez baterija, očitavanje na prvi pogled. NS Reptiles.",
+    "keywords": "resun lcd termometar, termometar za akvarijum, termometar traka, lepljivi termometar, temperatura vode"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum"
+  ]
+}

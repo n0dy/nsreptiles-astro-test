@@ -1,0 +1,72 @@
+{
+  "slug": "grey-cave-reptile-hide",
+  "name": "Grey cave hide",
+  "label": "Hides",
+  "lead": "Hide shaped like a solid grey stone cave with an arched entrance - a sturdy, dark shelter for snakes and lizards, ideal for the cooler side of the terrarium.",
+  "imageAlt": "Grey cave hide - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Hide"
+    },
+    {
+      "k": "Intended for",
+      "v": "Terrarium"
+    },
+    {
+      "k": "Function",
+      "v": "Shelter"
+    },
+    {
+      "k": "Shape",
+      "v": "Solid cave, arched entrance"
+    },
+    {
+      "k": "Color",
+      "v": "Dark grey, porous texture"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This hide looks like a solid, rounded piece of dark grey rock with a furrowed, slightly porous surface. Under the rock an arched entrance leads into a roomy interior that is dark enough to give your animal real peace."
+    },
+    {
+      "type": "p",
+      "html": "The tall, compact shape and neutral grey color make it a good choice for snakes, as well as lizards that look for shelter during the day. The dark grey tone matches grey rocks, slate and dark substrates, and adds contrast in a light terrarium."
+    },
+    {
+      "type": "h2",
+      "text": "A hide for the cool side"
+    },
+    {
+      "type": "p",
+      "html": "On the warm side your animal digests and basks, and on the cool side it rests and cools down. To do this without stress, it needs a hide on the cool side too. A solid cave is a good choice for that spot, while a hide with a basking platform can go on the warm side."
+    },
+    {
+      "type": "h2",
+      "text": "Placement and care"
+    },
+    {
+      "type": "p",
+      "html": "Place it directly on the terrarium floor and fill the substrate around it so your animal cannot dig underneath. Check the inside once a week and wash it with warm water and a brush as needed."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Grey Cave Hide for Snakes and Lizards | NS Reptiles",
+    "description": "Solid grey stone cave hide with an arched entrance - a dark, sturdy shelter for snakes and lizards, ideal for the cool side. NS Reptiles, Serbia.",
+    "keywords": "grey cave reptile hide, snake cave, lizard hide, dark reptile hide, terrarium hide"
+  }
+}

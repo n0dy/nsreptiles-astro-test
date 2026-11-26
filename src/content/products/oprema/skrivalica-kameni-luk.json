@@ -1,0 +1,79 @@
+{
+  "name": "Skrivalica kameni luk",
+  "label": "Skrivalice",
+  "lead": "Skrivalica u obliku slojevitog kamenog luka u braon, narandžastim i zelenkastim tonovima - zaklon ispod i stepenasti slojevi za penjanje.",
+  "image": "/style/img/oprema/skrivalica-kameni-luk.webp",
+  "imageAlt": "Skrivalica kameni luk - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Skrivalica"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Zaklon i penjanje"
+    },
+    {
+      "k": "Oblik",
+      "v": "Luk, stepenasti slojevi"
+    },
+    {
+      "k": "Boja",
+      "v": "Braon, narandžasta, zelenkasta"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova skrivalica je oblikovana kao slojevit kameni luk, sa nizom stepenastih ploča koje se spuštaju ka jednoj strani. Boje su prirodne i prelivaju se, od braon i narandžaste do zelenkastih tonova, kao stena obrasla lišajem."
+    },
+    {
+      "type": "p",
+      "html": "Ispod luka je prostrana šupljina sa ulazom sa prednje strane, u kojoj se životinja skriva i odmara. Spolja, stepenasti slojevi služe kao mesto za penjanje i osmatranje, što je dobrodošlo kod aktivnih guštera koji vole da istražuju. Tako jedan komad dekoracije daje i zaklon i dodatnu površinu za kretanje."
+    },
+    {
+      "type": "p",
+      "html": "Višebojni tonovi omogućavaju da se luk uklopi i u pustinjske i u šumske postavke."
+    },
+    {
+      "type": "h2",
+      "text": "Saveti za postavljanje"
+    },
+    {
+      "type": "p",
+      "html": "Ako je postavite na toplu stranu, gornji slojevi mogu da posluže za sunčanje, a šupljina ispod kao toplo skrovište. Pazite da lampa ne bude preblizu gornjem sloju. Skrivalicu postavite direktno na dno terarijuma, da životinja ne može da kopa ispod nje, a u terarijum stavite i drugu skrivalicu na hladnoj strani. Operite je toplom vodom i četkom."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Skrivalica kameni luk - zaklon i penjanje | NS Reptiles",
+    "description": "Skrivalica u obliku slojevitog kamenog luka u braon i zelenkastim tonovima - zaklon ispod i stepenice za penjanje. NS Reptiles, Novi Sad.",
+    "keywords": "skrivalica kameni luk, skrivalica za penjanje, skrivalica za guštere, skrivalica za bradatu agamu, dekoracija za terarijum"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/posuda-za-vodu-tamnosiva",
+    "oprema/posuda-zeleni-kamen",
+    "oprema/posuda-pescar",
+    "oprema/posuda-za-vodu-svetloplava"
+  ]
+}

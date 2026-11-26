@@ -1,0 +1,68 @@
+{
+  "slug": "yellow-sandstone-reptile-hide",
+  "name": "Sandstone hide",
+  "label": "Hides",
+  "lead": "Arch-shaped hide styled as yellow sandstone with dark streaked layers - a shelter and climbing step for a desert terrarium.",
+  "imageAlt": "Sandstone hide - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Hide"
+    },
+    {
+      "k": "Intended for",
+      "v": "Terrarium"
+    },
+    {
+      "k": "Function",
+      "v": "Shelter and climbing"
+    },
+    {
+      "k": "Shape",
+      "v": "Arch with a stepped wing"
+    },
+    {
+      "k": "Color",
+      "v": "Yellow with dark grey streaks"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This hide is shaped like an arch with a distinct, layered sandstone texture. The color is bright yellow with dark grey streaks, like rock exposed to sun and wind. On one side the arch continues into a lower, stepped wing that slopes down to the ground."
+    },
+    {
+      "type": "p",
+      "html": "Under the arch there is a shelter with an entrance at the front, and the stepped wing works as a ramp for climbing to the top. Lizards can climb up, survey the terrarium and bask, then come down and hide underneath."
+    },
+    {
+      "type": "p",
+      "html": "The yellow tones are made for desert setups. It fits perfectly into leopard gecko and bearded dragon terrariums, especially with light sand, rocks and dry branches."
+    },
+    {
+      "type": "h2",
+      "text": "Setup tips"
+    },
+    {
+      "type": "p",
+      "html": "Place the hide directly on the terrarium floor and fill the substrate around it so your animal cannot dig underneath. If you put it on the warm side, check the temperature of the top under the lamp with a thermometer. Place a second hide on the cooler side. Clean the layered surface with a brush under warm water."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Sandstone Hide for Desert Terrariums | NS Reptiles",
+    "description": "Yellow sandstone arch hide with a stepped climbing wing - for leopard geckos and bearded dragons in desert setups. NS Reptiles, Novi Sad.",
+    "keywords": "sandstone reptile hide, desert terrarium hide, leopard gecko hide, bearded dragon hide, yellow reptile hide"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "nsreptiles-astro",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    // .html URL-ovi su indeksirani - ne sme se skidati ekstenzija (kao pretty_urls = false na Netlify-u)
+    "html_handling": "none",
+    "not_found_handling": "404-page"
+  }
+}

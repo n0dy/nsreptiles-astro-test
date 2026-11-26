@@ -1,0 +1,79 @@
+{
+  "name": "Posuda za vodu, slojeviti kamen",
+  "label": "Posude",
+  "lead": "Plitka siva posuda za vodu sa ivicom u izgledu slojevitog kamena - lako pijenje za kopnene kornjače i niske guštere.",
+  "image": "/style/img/oprema/posuda-slojeviti-kamen.webp",
+  "imageAlt": "Posuda za vodu, slojeviti kamen - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Posuda za vodu"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Pojilica / hranilica"
+    },
+    {
+      "k": "Oblik",
+      "v": "Plitka, nepravilna"
+    },
+    {
+      "k": "Boja",
+      "v": "Siva, slojevita ivica"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova plitka posuda ima sivo, ravno dno i spoljnu ivicu oblikovanu kao naslagani slojevi kamena, poput škriljca. Udubljenje je široko i nisko, a slojevita spoljna strana daje utisak prirodne stene na kojoj se zadržala kišnica."
+    },
+    {
+      "type": "p",
+      "html": "Plitka voda je posebno pogodna za kopnene kornjače. One najčešće piju tako što uđu u vodu, a rado se i potope, pa im treba posuda u koju mogu da uđu i iz koje mogu lako da izađu, sa vodom koja ne prelazi visinu donjeg dela oklopa. Ista posuda odgovara i niskim, kratkonogim gušterima. Pre kupovine proverite da li je posuda dovoljno velika da vaša kornjača stane u nju."
+    },
+    {
+      "type": "p",
+      "html": "Slojevi na spoljnoj strani služe kao stepenici: životinja može da se uhvati za njih kandžama dok ulazi."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Posudu postavite direktno na dno ili utisnite u podlogu, da se ne pomera kada kornjača stane na ivicu. Kornjače često vrše nuždu u vodi, pa vodu menjajte svaki dan, a po potrebi i češće. Sivu boju lako je uklopiti uz kamenje i podlogu od zemlje ili sena."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Plitka posuda za vodu za kornjače, slojeviti kamen",
+    "description": "Plitka siva posuda za vodu sa slojevitom ivicom - kopnene kornjače i niski gušteri lako ulaze u vodu i izlaze. NS Reptiles, Novi Sad.",
+    "keywords": "posuda za vodu za kornjače, plitka posuda za vodu, posuda za kopnenu kornjaču, posuda slojeviti kamen, pojilica za kornjače"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/posuda-astecki-motivi",
+    "oprema/posuda-kamena-zaba",
+    "oprema/mala-okrugla-posuda-braon",
+    "oprema/posuda-porozni-sivi-kamen"
+  ]
+}

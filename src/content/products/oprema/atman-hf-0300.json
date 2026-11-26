@@ -1,0 +1,78 @@
+{
+  "name": "Atman HF-0300 spoljni filter",
+  "label": "Filteri",
+  "lead": "Atman HF-0300 spoljni filter koji se kači na ivicu akvarijuma, oko 300 l/h - mehanička, hemijska i biološka filtracija.",
+  "image": "/style/img/oprema/akvarijum/atman-hf-0300.webp",
+  "imageAlt": "Atman HF-0300 spoljni filter - NS Reptiles",
+  "price": 2000,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Spoljni filter koji se kači na ivicu (hang-on)"
+    },
+    {
+      "k": "Proizvođač",
+      "v": "Atman"
+    },
+    {
+      "k": "Model",
+      "v": "HF-0300"
+    },
+    {
+      "k": "Protok",
+      "v": "oko 300 l/h"
+    },
+    {
+      "k": "Filtracija",
+      "v": "Mehanička, hemijska i biološka"
+    },
+    {
+      "k": "Voda",
+      "v": "Slatka i morska"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Atman HF-0300 je spoljni filter protoka oko 300 l/h koji se kači na zadnju ivicu akvarijuma (hang-on). Na pakovanju je označen kao Hang-On Filter iz linije Ornamental Fish Products. Ne zauzima prostor u vodi: u akvarijum ulazi samo usisna cev, a kutija sa medijima stoji iza stakla, pa je održavanje brzo i bez vađenja dekoracije."
+    },
+    {
+      "type": "p",
+      "html": "Prema ambalaži, filter radi mehaničku, hemijsku i biološku filtraciju. Voda se usisava kroz cev, prolazi kroz filterske medije u kutiji i vraća se u akvarijum preko širokog preliva, koji pokreće površinu i dodatno obogaćuje vodu kiseonikom. Pogodan je za slatkovodne i morske akvarijume."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Za kačenje je potrebno malo slobodnog prostora iza akvarijuma i otvor u poklopcu. Pre prvog uključivanja napunite kutiju filtera vodom. Medije ispirajte u akvarijumskoj vodi kad primetite da protok slabi, a usisnu cev povremeno očistite četkicom. Filter nikad ne uključujte prazan."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Atman HF-0300 spoljni (hang-on) filter 300 l/h | NS Reptiles",
+    "description": "Atman HF-0300 hang-on filter koji se kači na ivicu akvarijuma: oko 300 l/h, mehanička, hemijska i biološka filtracija. NS Reptiles Novi Sad.",
+    "keywords": "atman hf-0300, spoljni filter, hang-on filter, kačeći filter za akvarijum, filter za akvarijum"
+  },
+  "brand": false,
+  "usage": [
+    "akvarijum"
+  ],
+  "related": []
+}

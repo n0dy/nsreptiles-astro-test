@@ -1,18 +1,22 @@
 {
-  "name": "SOBO SB-833 ugaoni sunđer filter",
+  "name": "SOBO SB-833 sunđer filter",
   "label": "Filteri",
-  "lead": "SOBO SB-833 ugaoni sunđer filter - postavlja se u ugao akvarijuma, radi na vazdušnu pumpu.",
+  "lead": "SOBO SB-833 mali sunđer filter na vazdušnu pumpu - staje u ugao akvarijuma, ne usisava mlađ ni račiće.",
   "image": "/style/img/oprema/akvarijum/sobo-sb-833.webp",
-  "imageAlt": "SOBO SB-833 ugaoni sunđer filter - NS Reptiles",
+  "imageAlt": "SOBO SB-833 sunđer filter - NS Reptiles",
   "price": 420,
   "specs": [
     {
       "k": "Tip",
-      "v": "Ugaoni sunđer filter"
+      "v": "Sunđer filter (pokreće ga vazdušna pumpa)"
     },
     {
       "k": "Proizvođač",
       "v": "SOBO"
+    },
+    {
+      "k": "Model",
+      "v": "SB-833"
     },
     {
       "k": "Namena",
@@ -26,7 +30,19 @@
     },
     {
       "type": "p",
-      "html": "Ugaoni sunđer filter koji zauzima malo mesta i ne usisava mlađ ni račiće. Povezuje se na vazdušnu pumpu, pa istovremeno filtrira i obogaćuje vodu kiseonikom."
+      "html": "SOBO SB-833 je mali sunđer filter sa okruglim sunđerom na postolju i sa providnom izlaznom cevi. Zauzima malo mesta, pa se lako smesti u ugao akvarijuma ili iza dekoracije. Pogodan je za nano, uzgojne i karantinske akvarijume."
+    },
+    {
+      "type": "p",
+      "html": "Sunđer filter radi na vazdušnu pumpu: mehurići u cevi podižu vodu, pa se voda iz akvarijuma uvlači kroz sunđer. Sunđer zadržava nečistoće, a na njemu se naseljavaju korisne bakterije, tako da filter radi mehaničku i biološku filtraciju i istovremeno obogaćuje vodu kiseonikom."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Za rad su potrebni vazdušna pumpa i crevo za vazduh, koji se kupuju posebno. Kad protok mehurića oslabi, sunđer iscedite u vodi iz akvarijuma pri promeni vode, nikad pod česmom, da korisne bakterije ostanu. Sunđer filter je odličan i kao rezervni filter: držite ga u akvarijumu, pa ga po potrebi prebacite u karantin."
     },
     {
       "type": "h2",
@@ -38,9 +54,9 @@
     }
   ],
   "seo": {
-    "title": "SOBO SB-833 ugaoni sunđer filter | Akvarijum oprema - NS Reptiles",
-    "description": "SOBO SB-833 ugaoni sunđer filter - postavlja se u ugao akvarijuma, radi na vazdušnu pumpu. NS Reptiles, Novi Sad.",
-    "keywords": "sobo sb-833, ugaoni sunđer filter, filter za akvarijum, NS Reptiles, Novi Sad"
+    "title": "SOBO SB-833 mali sunđer filter za akvarijum | NS Reptiles",
+    "description": "SOBO SB-833 mali sunđer filter na vazdušnu pumpu, sa okruglim sunđerom na postolju. Za nano, uzgojne i karantinske akvarijume. NS Reptiles.",
+    "keywords": "sobo sb-833, mali sunđer filter, filter za nano akvarijum, filter za račiće, filter na vazdušnu pumpu"
   },
   "brand": false,
   "usage": [

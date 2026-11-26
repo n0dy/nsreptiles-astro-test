@@ -1,18 +1,22 @@
 {
   "name": "Sera Reptil Professional Herbivor 250 ml",
   "label": "Hrana",
-  "lead": "Sera Reptil Professional Herbivor - hrana za biljojede reptile i kornjače, pakovanje 250 ml (80 g).",
+  "lead": "Sera Reptil Professional Herbivor Nature 250 ml - dopunska hrana za biljojede reptile, kopnene kornjače i iguane, sa mnogo vlakana iz bilja.",
   "image": "/style/img/oprema/akvarijum/sera-reptil-herbivor-250ml.webp",
-  "imageAlt": "Sera Reptil Professional Herbivor 250 ml - NS Reptiles",
+  "imageAlt": "Sera Reptil Professional Herbivor Nature 250 ml, hrana za kopnene kornjače - NS Reptiles",
   "price": 1100,
   "specs": [
     {
-      "k": "Tip",
-      "v": "Hrana za biljojede reptile"
+      "k": "Brend",
+      "v": "Sera"
     },
     {
-      "k": "Proizvođač",
-      "v": "Sera"
+      "k": "Model",
+      "v": "Reptil Professional Herbivor Nature"
+    },
+    {
+      "k": "Tip",
+      "v": "Dopunska hrana, plutajuće granule"
     },
     {
       "k": "Pakovanje",
@@ -20,7 +24,7 @@
     },
     {
       "k": "Namena",
-      "v": "Akvarijum / terarijum"
+      "v": "Kopnene kornjače, iguane i drugi biljojedi"
     }
   ],
   "description": [
@@ -30,7 +34,19 @@
     },
     {
       "type": "p",
-      "html": "Kompletna hrana za biljojede reptile, kao što su kopnene kornjače i iguane. Na bazi bilja i vlakana, sa dodatkom vitamina i minerala. Koristite je kao dopunu sveže zeleni."
+      "html": "Sera Reptil Professional Herbivor Nature je dopunska hrana za biljojede reptile kao što su kopnene kornjače i iguane. Dvobojne granule imaju spoljni prsten sa biljem bogatim vlaknima i manjim udelom proteina i masti, dok se jezgro proizvodi na nižoj temperaturi da bi se sačuvale hranljive materije. Hrana je iz Sera Nature linije, bez veštačkih boja i konzervansa."
+    },
+    {
+      "type": "p",
+      "html": "U sastavu su kopriva, lucerka, peršun, spanać, paprika, šargarepa, spirulina (6%) i morske alge, uz manje količine gamarusa i zelene dagnje. Dodati su vitamini A, D3, E, B1, B2 i C."
+    },
+    {
+      "type": "h2",
+      "text": "Kako hraniti"
+    },
+    {
+      "type": "p",
+      "html": "Dajte je svakodnevno, ali u malim količinama, kao užinu između glavnih obroka ili pomešanu sa svežom hranom kao što su zelena salata, maslačak i kopriva. Granule se mogu dati suve ili navlažene vodom. Glavni deo ishrane biljojeda i dalje treba da čine sveže zelenilo i bilje. Više o uređenju prostora pročitajte u vodiču <a href=\"/terarijumi/terarijum-za-kornjacu.html\">terarijum za kornjaču</a>."
     },
     {
       "type": "h2",
@@ -42,9 +58,9 @@
     }
   ],
   "seo": {
-    "title": "Sera Reptil Professional Herbivor 250 ml | NS Reptiles",
-    "description": "Sera Reptil Professional Herbivor - hrana za biljojede reptile i kornjače, pakovanje 250 ml (80 g). NS Reptiles, Novi Sad.",
-    "keywords": "sera herbivor, hrana za kornjače, hrana za kopnene kornjače, NS Reptiles, Novi Sad"
+    "title": "Sera Reptil Herbivor Nature 250 ml | Hrana za kornjače",
+    "description": "Sera Reptil Professional Herbivor Nature 250 ml (80 g): granule za kopnene kornjače i iguane, bogate vlaknima, bez boja i konzervansa. NS Reptiles.",
+    "keywords": "sera reptil herbivor, hrana za kopnene kornjače, sera herbivor nature, hrana za iguane, hrana za biljojede reptile"
   },
   "brand": false,
   "usage": [

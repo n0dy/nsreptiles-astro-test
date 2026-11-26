@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "Crested gekon — vodič za negu i uzgoj | NS Reptiles",
-    "description": "Sve o crested gekonu: veličina, ishrana, temperatura, vlažnost, terarijum i ponašanje. Savršen gušter za početnike — NS Reptiles, Novi Sad.",
-    "ogDescription": "Detaljan vodič za crested gekona: uslovi držanja, ishrana, temperatura, vlažnost i preporuke za terarijum. NS Reptiles, Novi Sad."
+    "title": "Crested Gekon Prodaja od 6.000 din, Novi Sad | NS Reptiles",
+    "description": "Prodaja crested gekona od 6.000 din - savršen gušter za početnike. Vodič za držanje: ishrana, temperatura, vlažnost i ponašanje. NS Reptiles, Novi Sad.",
+    "ogDescription": "Prodaja crested gekona od 6.000 din - savršen gušter za početnike. Vodič za držanje: ishrana, temperatura, vlažnost i ponašanje. NS Reptiles, Novi Sad."
   },
   "article": {
     "headline": "Crested gekon — vodič za negu i uzgoj",
@@ -15,6 +15,14 @@
   "photoSize": [1200, 800],
   "photoAlt": "Crested gekon u terarijumu — NS Reptiles Novi Sad",
   "intro": "Crested gekon je popularna, mirna i noćna vrsta guštera sa Nove Kaledonije. Zbog mirnog temperamenta i relativno jednostavnih uslova držanja idealan je izbor za početnike u teraristici. Dostupan je u velikom broju morfova i boja, a uz pravilnu negu spada u otporne i dugovečne vrste.",
+  "price": {
+    "label": "Cena",
+    "value": "Mladunci od 6.000 din",
+    "note": "Crested gekon iz domaćeg uzgoja — savršen gušter za početnike. Mladunci od 6.000 din, dostupan i starter komplet sa vertikalnim terarijumom i opremom. Prodaja u Novom Sadu, dostava širom Srbije — javite nam se za dostupnost.",
+    "call": "Pozovite nas",
+    "waText": "Zdravo, zanima me crested gekona.",
+    "low": 6000
+  },
   "sections": [
     {
       "title": "Poreklo, izgled i <b>ponašanje</b>",
@@ -144,6 +152,34 @@
     "terarijumi/terarijum-40x40x40",
     "terarijumi/terarijum-60x45x50"
   ],
+  "faq": {
+    "title": "Česta pitanja o crested gekonu",
+    "items": [
+      {
+        "q": "Da li je crested gekon pogodan za početnike?",
+        "a": "Da, crested gekon je savršen za početnike. Mirni su, lako se privikavaju na rukovanje i ne zahtevaju kompleksnu opremu."
+      },
+      {
+        "q": "Koliko živi crested gekon?",
+        "a": "Crested gekon u zatočeništvu živi 15-20 godina uz pravilnu negu."
+      },
+      {
+        "q": "Koja je idealna temperatura za crested gekona?",
+        "a": "Danju 22-26°C, noću 18-20°C. Ne zahtevaju dodatno grejanje ako je sobna temperatura odgovarajuća."
+      },
+      {
+        "q": "Šta jede crested gekon?",
+        "a": "Crested gekon je omnivor - jede komercijalne voćne miksove (Repashy, Pangea) i insekte kao poslasticu."
+      },
+      {
+        "q": "Da li crested gekonu regeneriše rep?",
+        "a": "Ne, crested gekon ima prehensilan rep koji ne regeneriše ako se izgubi. Zato je važno pažljivo rukovati njima."
+      }
+    ]
+  },
+  "product": {
+    "description": "Crested gekon iz domaćeg uzgoja - savršen gušter za početnike. Mladunci od 6.000 din, dostupan i starter komplet sa vertikalnim terarijumom i opremom."
+  },
   "cta": {
     "title": "Nabavite <b>crested gekona</b>",
     "text": "Javite nam se telefonom ili WhatsApp-om za dostupnost primeraka, preporuke za opremu i savete o nezi. Rado ćemo vam pomoći.",

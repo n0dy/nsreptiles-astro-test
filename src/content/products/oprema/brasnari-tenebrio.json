@@ -1,20 +1,20 @@
 {
   "name": "Brašnari (tenebrio)",
   "label": "Živa hrana",
-  "lead": "Larve bogate mastima - poslastica za guštere i dopuna ishrani. Daju se umereno, za popunjavanje kondicije i raznovrsnost obroka.",
+  "lead": "Brašnari - larve bogate mastima, poslastica i dopuna ishrani guštera. Daju se umereno, za vraćanje kondicije i raznovrsnost obroka.",
   "image": "/style/img/oprema/tenebrije.webp",
-  "imageAlt": "Brašnari (tenebrio) - živa hrana za guštere, poslastica bogata mastima",
+  "imageAlt": "Brašnari - živa hrana za guštere, poslastica bogata mastima - NS Reptiles",
   "price": 400,
   "priceFrom": true,
   "priceUnit": "/ 100 kom",
   "specs": [
     {
       "k": "Tip",
-      "v": "Larve (tenebrio)"
+      "v": "Larve (brašnari)"
     },
     {
       "k": "Karakteristike",
-      "v": "Tvrđi hitin, viši udeo masti"
+      "v": "Tvrđi omotač, viši udeo masti"
     },
     {
       "k": "Namena",
@@ -23,16 +23,20 @@
     {
       "k": "Pakovanje",
       "v": "100 komada"
+    },
+    {
+      "k": "Čuvanje",
+      "v": "U frižideru, radi usporavanja razvoja"
     }
   ],
   "description": [
     {
       "type": "h2",
-      "text": "Opis"
+      "text": "Detaljan opis"
     },
     {
       "type": "p",
-      "html": "Brašnari (tenebrio) su larve sa tvrđim hitinom i višim udelom masti. Zbog toga se daju kao poslastica i za popunjavanje kondicije, uz umerenu učestalost - ne kao osnova ishrane. Guštere privlače pokretom i mekim telom, pa su omiljen dodatak jelovniku bradatih agama, leopard gekona i drugih insektojeda."
+      "html": "Brašnari su sitne larve sa tvrđim spoljnim omotačem i višim udelom masti. Gušteri ih rado jedu jer se stalno pomeraju, pa su omiljen dodatak jelovniku bradatih agama, leopard gekona i drugih insektojeda. Zbog sastava se ne daju kao osnova ishrane, već kao poslastica i dopuna dubijama i drugim feeder insektima."
     },
     {
       "type": "h2",
@@ -40,7 +44,15 @@
     },
     {
       "type": "p",
-      "html": "Zbog većeg udela masti brašnare treba davati umereno, kao dopunu dubijama i drugim feeder insektima, a ne svakodnevno. Idealni su za vraćanje kondicije mršavijim životinjama ili kao povremena nagrada. Pre obroka pospite ih kalcijumom. Brašnari se mogu držati u frižideru radi usporavanja razvoja, što produžava njihovu upotrebu."
+      "html": "Brašnare dajte umereno, nekoliko puta nedeljno uz glavnu hranu, a ne svakodnevno. Dobri su za vraćanje kondicije mršavijim životinjama, posle zimskog odmora ili kao nagrada. Najlakše ih je ponuditi u glatkoj posudi iz koje ne mogu da izađu, kako se ne bi zavukli u podlogu. Pre obroka ih pospite kalcijumom."
+    },
+    {
+      "type": "h2",
+      "text": "Čuvanje"
+    },
+    {
+      "type": "p",
+      "html": "Brašnari se mogu držati u frižideru, u kutiji sa mekinjama ili ovsenim pahuljicama: hladnoća usporava njihov razvoj u lutke i bube, pa duže traju. Pre davanja ih ostavite kratko na sobnoj temperaturi da se razmrdaju. Više o ishrani pročitajte na strani <a href=\"/hrana-za-gustere.html\">hrana za guštere</a>."
     },
     {
       "type": "h2",
@@ -52,16 +64,15 @@
     }
   ],
   "seo": {
-    "title": "Brašnari (tenebrio) | Živa hrana za guštere - NS REPTILES",
-    "description": "Brašnari (tenebrio) - larve bogate mastima, poslastica za guštere i dopuna ishrani. Već od 400 din za 100 kom. NS REPTILES Novi Sad.",
-    "keywords": "brašnari, tenebrio, brašnari cena, mealworm, hrana za guštere, živa hrana za reptile, hrana za bradatu agamu, hrana za leopard gekona, NS REPTILES, Novi Sad",
-    "ogTitle": "Brašnari (tenebrio) | Živa hrana za guštere - NS REPTILES",
-    "ogDescription": "Larve bogate mastima - poslastica za guštere i dopuna ishrani uz umerenu učestalost. Već od 400 din za 100 kom."
+    "title": "Brašnari | Živa hrana za guštere - NS Reptiles",
+    "description": "Brašnari - larve bogate mastima, poslastica za bradate agame i leopard gekone i dopuna ishrani. Od 400 din za 100 kom. NS Reptiles Novi Sad.",
+    "keywords": "brašnari, brašnari cena, mealworms, živa hrana za guštere, hrana za leopard gekona, hrana za bradatu agamu",
+    "ogTitle": "Brašnari | Živa hrana za guštere - NS Reptiles",
+    "ogDescription": "Brašnari - larve bogate mastima, poslastica za bradate agame i leopard gekone i dopuna ishrani. Od 400 din za 100 kom. NS Reptiles Novi Sad."
   },
   "related": [
     "oprema/dubia-zohari",
     "oprema/fobasi",
-    "oprema/lateralis",
-    "oprema/fobasi-m-l-100kom"
+    "oprema/lateralis"
   ]
 }

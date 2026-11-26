@@ -88,6 +88,11 @@ export const TRANSLATIONS: Group[] = [
     "sr": "/terarijumi.html",
     "en": "/en/terrariums.html",
     "ru": "/ru/terrariums.html"
+  },
+  {
+    "sr": "/pretraga.html",
+    "en": "/en/search.html",
+    "ru": "/ru/search.html"
   }
 ];
 

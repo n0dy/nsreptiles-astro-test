@@ -1,9 +1,9 @@
 {
   "name": "Dragon stone 1kg",
-  "label": "Supstrat",
-  "lead": "Dragon stone (zmajevo kamenje) 1kg - dekorativni kamen sa rupicastim izgledom za akvarijume i terarijume.",
+  "label": "Dekoracija",
+  "lead": "Dragon stone 1kg - porozni dekorativni kamen nepravilnog oblika za akvaskejp i uređenje terarijuma, sa udubljenjima nalik zmajevoj koži.",
   "image": "/style/img/oprema/dragon.webp",
-  "imageAlt": "Dragon stone 1kg - NS Reptiles",
+  "imageAlt": "Dragon stone, porozno žuto-narandžasto kamenje za akvaskejp - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -17,6 +17,14 @@
     {
       "k": "Namena",
       "v": "Akvarijumi i terarijumi"
+    },
+    {
+      "k": "Drugi nazivi",
+      "v": "Zmajevo kamenje, Ohko stone"
+    },
+    {
+      "k": "Boja",
+      "v": "Žuto-narandžasta do smeđa"
     }
   ],
   "description": [
@@ -26,11 +34,23 @@
     },
     {
       "type": "p",
-      "html": "Dragon stone, poznat i kao zmajevo kamenje ili Ohko stone, je jedan od najpopularnijih dekorativnih kamenova u akvaskejpingu i uređenju terarijuma. Karakterise ga jedinstven rupicast izgled sa dubokim udubljenjima koji podseća na površinu meseca ili zmajsku kožu. Svaki komad je jedinstven po obliku i teksturi, što omogućava kreiranje neponovljivih kompozicija."
+      "html": "Dragon stone, poznat i kao zmajevo kamenje ili Ohko stone, jedan je od najpopularnijih kamenova u akvaskejpingu. Porozan je, sa dubokim udubljenjima i rupicama koje podsećaju na zmajevu kožu, a boja mu ide od žuto-narandžaste do smeđe. U pakovanju od 1 kg dobijate komade nepravilnog oblika, pa svaki raspored izgleda drugačije."
     },
     {
       "type": "p",
-      "html": "Hemijski je inertan - ne utice na pH vrednost ni tvrdoću vode, pa je potpuno bezbedan za sve tipove akvarijuma. U terarijumima služi kao dekorativan element i kao površina za penjanje. U akvarijumima se koristi za kreiranje hardskejpa - kamenih formacija koje čine osnovu akvaskejpa. Mahovine i niske biljke se lako kače za rupicastu površinu, što stvara prirodan i starinski izgled."
+      "html": "U akvarijumu se koristi za hardskejp, kamene formacije koje čine kostur akvaskejpa. Na hrapavu površinu lako se vezuju mahovine i biljke koje rastu na kamenu, a šupljine između kamenova daju zaklon ribama i škampima. U terarijumu služi kao prirodna dekoracija, površina za penjanje i osnova za skrovišta."
+    },
+    {
+      "type": "h2",
+      "text": "Priprema i saveti"
+    },
+    {
+      "type": "p",
+      "html": "Dragon stone često u porama nosi prašinu i ostatke gline. Pre upotrebe kamenje dobro isperite pod mlazom vode i očetkajte, a tvrđe nakupine izgrebite špicastim predmetom. Pri slaganju većih formacija krupnije komade postavite direktno na dno, pre podloge, da se ne pomeraju i ne obruše."
+    },
+    {
+      "type": "p",
+      "html": "Izvori se ne slažu oko toga da li ovaj kamen utiče na parametre vode, pa u akvarijumima sa mekom, kiselom vodom posle postavljanja povremeno proverite pH i KH."
     },
     {
       "type": "h2",
@@ -42,10 +62,9 @@
     }
   ],
   "seo": {
-    "title": "Dragon Stone 1kg | Supstrat za Akvarijum i Terarijum",
-    "description": "Dragon stone 1kg - dekorativni kamen sa rupicastim izgledom za akvarijume i terarijume. NS Reptiles Novi Sad.",
-    "keywords": "dragon stone, zmajevo kamenje, supstrat akvarijum, hardskejp, NS Reptiles",
-    "ogTitle": "Dragon Stone 1kg | NS Reptiles"
+    "title": "Dragon stone 1kg - kamen za akvaskejp | NS Reptiles",
+    "description": "Dragon stone 1kg: porozni kamen nepravilnog oblika za akvaskejp i terarijum. Komadi za hardskejp, mahovine i skrovišta. NS Reptiles, Novi Sad.",
+    "keywords": "dragon stone, zmajevo kamenje, ohko stone, kamen za akvaskejp, kamen za akvarijum, kamen za terarijum"
   },
   "related": [
     "oprema/brodsko-kormilo",

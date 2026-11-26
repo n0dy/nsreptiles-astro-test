@@ -2,12 +2,16 @@
   "slug": "anchor-with-corals-decoration",
   "name": "Anchor with corals",
   "label": "Decoration",
-  "lead": "Anchor with corals - a decorative piece for an aquarium with a nautical theme.",
-  "imageAlt": "Anchor with corals - NS Reptiles",
+  "lead": "Anchor with corals for aquariums - a dark anchor with a chain on a base with purple and pink corals, for a marine theme.",
+  "imageAlt": "Anchor with a chain and pink corals, aquarium decoration - NS Reptiles",
   "specs": [
     {
       "k": "Type",
       "v": "Decoration - anchor with corals"
+    },
+    {
+      "k": "Look",
+      "v": "Dark anchor with a chain, purple and pink corals"
     },
     {
       "k": "Intended for",
@@ -15,7 +19,7 @@
     },
     {
       "k": "Theme",
-      "v": "Nautical"
+      "v": "Marine"
     }
   ],
   "description": [
@@ -25,7 +29,19 @@
     },
     {
       "type": "p",
-      "html": "The anchor with corals is a decorative piece that enriches your aquarium with a nautical theme. The anchor model overgrown with artificial corals creates the impression of a sunken ship's anchor that nature has slowly taken over - as if it has been lying on the seabed for decades. The combination of the anchor's metallic look and colorful corals adds interesting contrast and visual depth to the aquarium. It is safe for underwater use - made from quality material that does not release harmful substances and does not affect water chemistry, pH or hardness. Ideal for creating a nautical theme in combination with the ship wheel and pirate ship for a complete marine atmosphere. The corals on the anchor can also serve as a visual accent in aquariums where live plants are not an option. It is easy to clean with a gentle rinse under running water during regular maintenance."
+      "html": "The anchor with corals is a decorative element that gives an aquarium a marine theme. The dark, weathered anchor with a chain stands on a base with purple and pink corals, creating the impression of a ship's anchor that has lain on the seabed for years and been reclaimed by nature. The contrast between the dark anchor and the vivid corals adds visual depth to the aquarium."
+    },
+    {
+      "type": "p",
+      "html": "The anchor is an upright ornament, so it nicely fills the space between low decorations and plants. It is ideal for a nautical theme combined with the pirate ship, shipwrecks and the pirate skull. The corals on the base can serve as a visual accent in aquariums where live plants are not an option, for example with fish that uproot or eat plants."
+    },
+    {
+      "type": "h2",
+      "text": "Setup and care"
+    },
+    {
+      "type": "p",
+      "html": "Before placing it, rinse the anchor in lukewarm water, without soap or detergents. Set it on a flat surface and press the base lightly into the sand or gravel so it does not tip over when fish swim around it. It is easy to clean by rinsing under running water and using a soft brush during regular maintenance. Find more ornaments among our <a href=\"/en/equipment.html\">supplies</a>."
     },
     {
       "type": "h2",
@@ -37,8 +53,8 @@
     }
   ],
   "seo": {
-    "title": "Anchor with Corals | Aquarium Decoration - NS Reptiles",
-    "description": "Anchor with corals: a nautical-themed aquarium ornament that does not affect water chemistry. Easy to clean. NS Reptiles, Novi Sad, Serbia.",
-    "keywords": "anchor with corals, aquarium decoration, nautical aquarium theme, aquarium ornament, NS Reptiles, Novi Sad"
+    "title": "Anchor with Corals | Nautical Aquarium Ornament",
+    "description": "Dark anchor with a chain and pink corals on the base. An ornament for aquariums with a marine or pirate theme. NS Reptiles, Novi Sad, delivery in Serbia.",
+    "keywords": "anchor aquarium ornament, anchor with corals, nautical aquarium decor, fish tank decoration, marine theme aquarium"
   }
 }

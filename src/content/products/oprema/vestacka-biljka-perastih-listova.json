@@ -1,0 +1,75 @@
+{
+  "name": "Veštačka biljka perastih listova",
+  "label": "Biljke",
+  "lead": "Gusta jarkozelena veštačka biljka za akvarijum sa finim perastim listovima, na svetlom postolju. Skrovište za mladunce.",
+  "image": "/style/img/oprema/akvarijum/vestacka-biljka-perastih-listova.webp",
+  "imageAlt": "Veštačka biljka perastih listova za akvarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Veštačka biljka"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Dekoracija i zaklon"
+    },
+    {
+      "k": "Boja",
+      "v": "Zelena"
+    },
+    {
+      "k": "Postolje",
+      "v": "Svetlo"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Veštačka biljka perastih listova je gusta, jarkozelena biljka sa finim, iglicastim listovima. Na svetlom postolju stoji uspravno i daje utisak bujnog, zdravog zelenila."
+    },
+    {
+      "type": "p",
+      "html": "Za razliku od živih biljaka, veštačka ne zahteva rasvetu, đubrivo ni orezivanje i ne menja kvalitet vode. Ne mogu je pojesti ni ribe koje inače uništavaju biljke, a gusti listovi pružaju zaklon sitnijim ribama i mladuncima."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Gusti, fini listovi su omiljeno skrovište mladunaca i sitnih riba. Biljka lepo izgleda u grupama ili kao pozadina iza nižih dekoracija, a na tamnoj podlozi zelena boja posebno dolazi do izražaja. Održavanje je jednostavno: na nekoliko nedelja, ili kad primetite alge, biljku isperite mlakom vodom i prođite mekom četkicom. Deterdžente i sredstva za čišćenje ne koristite. Ostale dekoracije i opremu pogledajte u ponudi <a href=\"/oprema.html\">opreme</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Veštačka biljka perastih listova za akvarijum",
+    "description": "Veštačka biljka perastih listova: gusta jarkozelena biljka sa finim listovima, skrovište za mladunce i sitne ribe. NS Reptiles Novi Sad.",
+    "keywords": "veštačka biljka perastih listova, veštačka biljka za akvarijum, gusta biljka za akvarijum, skrovište za mladunce, dekoracija za akvarijum"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum"
+  ],
+  "related": [
+    "oprema/vestacka-biljka-okruglih-listova",
+    "oprema/vestacka-biljka-sa-crvenim-cvetovima",
+    "oprema/vestacka-biljka-na-kamenu",
+    "oprema/vestacka-biljka-sa-dugim-granama"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Posuda za vodu, porozna terakota",
+  "label": "Posude",
+  "lead": "Niska ovalna posuda u boji terakote, sa teksturom poroznog kamena i blagom kosinom na jednoj strani - za mladunce i manje guštere.",
+  "image": "/style/img/oprema/posuda-porozna-terakota.webp",
+  "imageAlt": "Posuda za vodu, porozna terakota - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Posuda za vodu"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Pojilica / hranilica"
+    },
+    {
+      "k": "Oblik",
+      "v": "Nizak, ovalan, sa kosinom"
+    },
+    {
+      "k": "Boja",
+      "v": "Narandžasto-crvena terakota"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova niska ovalna posuda ima narandžasto-crvenu boju terakote i teksturu poroznog kamena sa sitnim rupicama po spoljnim stranama. Unutrašnjost je široka i plitka, a na jednoj strani dno se blago penje ka obodu, pa nastaje prirodna kosina."
+    },
+    {
+      "type": "p",
+      "html": "Kosina je najkorisniji detalj ove posude. Mladunci, mali gekoni i sitni gušteri mogu postepeno da uđu u vodu i lako da izađu, bez skakanja preko visoke ivice. Kosina pomaže i insektima koji slučajno upadnu u vodu da se izvuku, pa se manje dešava da se udave i zagade vodu."
+    },
+    {
+      "type": "p",
+      "html": "Topla narandžasta boja se uklapa u pustinjske terarijume sa crvenkastim peskom i glinom, ali i u postavke sa korom i suvim lišćem."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i čišćenje"
+    },
+    {
+      "type": "p",
+      "html": "Posudu postavite kosinom ka strani sa koje životinja najčešće dolazi. Vodu sipajte do pola visine, menjajte je svakog dana i posudu operite toplom vodom bez jakih sredstava za čišćenje."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Niska posuda sa kosinom, porozna terakota | NS Reptiles",
+    "description": "Niska ovalna posuda u boji terakote sa kosinom za lak ulazak u vodu - za mladunce, male gekone i sitne guštere. NS Reptiles, Novi Sad.",
+    "keywords": "niska posuda za vodu, posuda sa kosinom, posuda za mladunce, pojilica za male gekone, posuda terakota za terarijum"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/posuda-astecki-motivi",
+    "oprema/posuda-kamena-zaba",
+    "oprema/mala-okrugla-posuda-braon",
+    "oprema/posuda-porozni-sivi-kamen"
+  ]
+}

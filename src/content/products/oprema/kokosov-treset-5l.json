@@ -1,9 +1,9 @@
 {
   "name": "Kokosov treset 5L",
   "label": "Podloge",
-  "lead": "Kokosov treset 5L - prirodna podloga za terarijume koja odlično zadržava vlagu. Za tropske i šumske vrste.",
+  "lead": "Kokosov treset 5L - prirodna podloga za terarijume koja dobro zadržava vlagu. Za tropske i šumske vrste i bioaktivne terarijume.",
   "image": "/style/img/oprema/treset.webp",
-  "imageAlt": "Kokosov treset 5L - NS Reptiles",
+  "imageAlt": "Kokosov treset 5L, podloga za terarijum - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -17,6 +17,10 @@
     {
       "k": "Namena",
       "v": "Podloga za terarijume"
+    },
+    {
+      "k": "Pogodno za",
+      "v": "Tropske i šumske vrste"
     }
   ],
   "description": [
@@ -26,7 +30,19 @@
     },
     {
       "type": "p",
-      "html": "Kokosov treset u pakovanju od 5 litara je jedna od najpopularnijih prirodnih podloga za terarijume. Proizveden od ljuski kokosovog oraha, ova podloga odlično zadržava vlagu što je čini idealnom za tropske i šumske vrste reptila kojima je potrebna viša vlažnost vazduha - crested gekone, kameleone, dnevne gekone i mnoge vrste žaba. Kokosov treset je bezbedna podloga jer ne izaziva probleme ukoliko ga životinja slučajno proguta u malim količinama. Prirodno je otporan na buđ i bakterije, a ne sadrži štetne hemikalije. Može se koristiti samostalno ili u kombinaciji sa sphagnum mahom za dodatno zadržavanje vlage. Za bioaktivne terarijume, kokosov treset je odlična osnova kojoj se mogu dodati lišće, kora i čistači."
+      "html": "Kokosov treset se dobija od vlakana i ljuske kokosovog oraha i jedna je od najčešće korišćenih prirodnih podloga za terarijume. Dobro upija i polako otpušta vlagu, pa pomaže da vlažnost vazduha ostane stabilna. Zato je dobar izbor za vrste kojima treba vlažnije okruženje, kao što su crested gekoni, kameleoni, dnevni gekoni, tropske zmije i žabe."
+    },
+    {
+      "type": "p",
+      "html": "Mekan je i rastresit, pa životinje mogu da kopaju i prave jazbine. Može se koristiti sam ili pomešan sa spagnum tresetom, a u bioaktivnim terarijumima služi kao osnova kojoj se dodaju suvo lišće, kora i biljke."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Rasporedite treset po dnu terarijuma i lagano ga navlažite, tako da bude vlažan, ali ne mokar. Pakovanje od 5 litara dovoljno je za manji terarijum ili za dopunu postojeće podloge. Izmet i ostatke hrane uklanjajte redovno, a podlogu menjajte kada počne da se zbija ili neprijatno miriše. Insekte nudite iz posude, da životinja uz plen ne proguta i podlogu. Ostalu <a href=\"/oprema.html\">opremu za terarijume</a> pogledajte u ponudi."
     },
     {
       "type": "h2",
@@ -38,9 +54,9 @@
     }
   ],
   "seo": {
-    "title": "Kokosov treset 5L | Oprema - NS Reptiles",
-    "description": "Kokosov treset 5L - prirodna podloga za terarijume koja odlično zadržava vlagu. Za tropske i šumske vrste. NS Reptiles Novi Sad.",
-    "keywords": "kokosov treset 5l, podloga za terarijum, kokosov treset, oprema za reptile, NS Reptiles, Novi Sad"
+    "title": "Kokosov treset 5L | Podloga za terarijum - NS Reptiles",
+    "description": "Kokosov treset 5L: prirodna podloga za terarijume koja dobro zadržava vlagu. Za crested gekone, kameleone, žabe i bioaktivne terarijume. NS Reptiles.",
+    "keywords": "kokosov treset, kokosov treset 5l, podloga za terarijum, podloga za crested gekona, bioaktivni terarijum"
   },
   "related": [
     "oprema/spagnum-treset-5l",

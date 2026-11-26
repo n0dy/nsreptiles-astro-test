@@ -1,9 +1,9 @@
 {
   "name": "HabiStat Tortoise Food Fruit & Flower (malo pakovanje)",
   "label": "Hrana",
-  "lead": "Suva peletirana hrana za kornjače sa ukusom voća i cveća u manjem pakovanju. Idealna za vlasnike koji žele da isprobaju proizvod ili imaju jednu kornjaču.",
+  "lead": "HabiStat Tortoise Food Fruit & Flower (malo pakovanje) - peletirana hrana za kopnene kornjače sa 12% vlakana, 9,4% proteina i 2% kalcijuma.",
   "image": "/style/img/oprema/habistat-tortoise-food-fruit-flower-small.webp",
-  "imageAlt": "HabiStat Tortoise Food Fruit & Flower malo pakovanje hrana za kornjače - NS Reptiles",
+  "imageAlt": "HabiStat Tortoise Food Fruit & Flower (malo pakovanje), peleti za kornjače - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -12,15 +12,27 @@
     },
     {
       "k": "Tip",
-      "v": "Hrana za kornjače"
+      "v": "Dopunska hrana, peleti"
     },
     {
       "k": "Ukus",
-      "v": "Fruit & Flower (voće i cveće)"
+      "v": "Fruit & Flower"
     },
     {
       "k": "Pakovanje",
-      "v": "Malo"
+      "v": "Mala tegla"
+    },
+    {
+      "k": "Protein / vlakna",
+      "v": "9,4% / 12%"
+    },
+    {
+      "k": "Kalcijum",
+      "v": "2%"
+    },
+    {
+      "k": "Pogodno za",
+      "v": "Evropske, ruske i druge kopnene kornjače"
     }
   ],
   "description": [
@@ -30,19 +42,29 @@
     },
     {
       "type": "p",
-      "html": "HabiStat Tortoise Food Fruit &amp; Flower u malom pakovanju je suva peletirana hrana za kopnene kornjače obogaćena ukusom voća i cveća. Ovo manje pakovanje je praktično za vlasnike koji žele da isprobaju ovaj ukus pre kupovine veće tegle, ili za one koji imaju jednu kornjaču pa im manja količina sasvim odgovara. Formula sadrži potpuno prirodne sastojke, uključujući sušeno voće i cvetove koji privlače kornjače svojom aromom i ukusom."
+      "html": "HabiStat Tortoise Food Fruit & Flower su peleti za kopnene kornjače sa mnogo vlakana, malo proteina i dosta kalcijuma. Sastav: ovas, kukuruz, ovsene mekinje, lucerka, rezanci šećerne repe, kalcijum karbonat, dikalcijum fosfat, kurkuma i spirulina, uz arome banane i sveže pokošene trave. Dodati su vitamini A, D3 i E, kao i gvožđe, bakar, cink, mangan, jod i selen. Malo pakovanje je dobro za jednu kornjaču ili da proverite da li joj ukus odgovara. Za redovno hranjenje postoji i <a href=\"/proizvodi/oprema/habistat-tortoise-food-fruit-flower.html\">veliko pakovanje</a>."
     },
     {
-      "type": "p",
-      "html": "Nutritivni profil je optimizovan za kopnene kornjače - sa visokim sadržajem vlakana koji podržava zdravu probavu, niskim sadržajem proteina prilagođenim prirodnoj ishrani, i obogaćen kalcijumom za čvrst oklop i jake kosti. Hrana takođe sadrži vitamin D3 koji pomaže u pravilnoj apsorpciji kalcijuma. Mešavina voća i cveća daje peletima prijatan miris i ukus, što čini ovu hranu izuzetno primamljivom čak i za najprobirljivije kornjače."
+      "type": "ul",
+      "items": [
+        "Sirovi protein: 9,4%",
+        "Sirova vlakna: 12%",
+        "Ulja i masti: 3,2%",
+        "Pepeo: 10,4%",
+        "Kalcijum: 2%, fosfor: 0,6%"
+      ]
     },
     {
       "type": "h2",
-      "text": "Priprema i korišćenje"
+      "text": "Kako se daje"
     },
     {
       "type": "p",
-      "html": "Pre davanja kornjačama, potopite pelete u toplu vodu na nekoliko minuta kako bi omekšali. Pogodna je za evropske kornjače, ruske kornjače i većinu drugih vrsta kopnenih kornjača. HabiStat je renomirani britanski brend sa dugogodišnjim iskustvom u proizvodnji hrane i opreme za reptile. Ukoliko vam je potrebna veća količina, pogledajte <a href=\"habistat-tortoise-food-fruit-flower.html\">veliko pakovanje Fruit &amp; Flower</a>."
+      "html": "Ovo je dopunska hrana, a ne zamena za sveže zelenilo. Proizvođač preporučuje da je dajete par puta nedeljno kao deo raznovrsne ishrane, u količini od 1 do 4% telesne mase kornjače. Pelete pre hranjenja potopite u toplu vodu da omekšaju. Pakovanje čuvajte na hladnom i tamnom mestu."
+    },
+    {
+      "type": "p",
+      "html": "Pogodna je za evropske, ruske i većinu drugih vrsta kopnenih kornjača. Kako urediti prostor za kornjaču pročitajte u vodiču <a href=\"/terarijumi/terarijum-za-kornjacu.html\">terarijum za kornjaču</a>."
     },
     {
       "type": "h2",
@@ -54,11 +76,11 @@
     }
   ],
   "seo": {
-    "title": "HabiStat Tortoise Food Fruit & Flower malo | NS Reptiles",
-    "description": "HabiStat Tortoise Food Fruit & Flower, malo pakovanje - peletirana hrana za kornjače sa ukusom voća i cveća. Prirodni sastojci, bogata kalcijumom.",
-    "keywords": "habistat tortoise food fruit flower, hrana za kornjače, hrana za kornjače voće cveće, malo pakovanje, peletirana hrana kornjače, oprema za reptile, NS Reptiles, Novi Sad, Srbija, prodaja",
-    "ogTitle": "HabiStat Tortoise Food Fruit & Flower (malo pakovanje) | NS Reptiles",
-    "ogDescription": "HabiStat Tortoise Food Fruit & Flower malo pakovanje - peletirana hrana za kornjače sa ukusom voća i cveća. Prirodni sastojci. NS Reptiles Novi Sad."
+    "title": "HabiStat Tortoise Food Fruit & Flower - malo pakovanje",
+    "description": "HabiStat Tortoise Food Fruit & Flower u maloj tegli: probajte pelete za kopnene kornjače sa 12% vlakana i 2% kalcijuma. NS Reptiles Novi Sad.",
+    "keywords": "habistat tortoise food fruit flower malo pakovanje, hrana za kornjače, hrana za kopnene kornjače, peleti za kornjače, habistat",
+    "ogTitle": "HabiStat Tortoise Food Fruit & Flower - malo pakovanje",
+    "ogDescription": "HabiStat Tortoise Food Fruit & Flower u maloj tegli: probajte pelete za kopnene kornjače sa 12% vlakana i 2% kalcijuma. NS Reptiles Novi Sad."
   },
   "related": []
 }

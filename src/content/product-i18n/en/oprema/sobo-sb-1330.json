@@ -1,0 +1,60 @@
+{
+  "slug": "sobo-sb-1330-sponge-filter",
+  "name": "SOBO SB-1330 sponge filter",
+  "label": "Filters",
+  "lead": "SOBO SB-1330 air-driven sponge filter - gentle filtration for fry, shrimp and tanks with tiny fish.",
+  "imageAlt": "SOBO SB-1330 sponge filter - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Sponge filter (air-driven)"
+    },
+    {
+      "k": "Manufacturer",
+      "v": "SOBO"
+    },
+    {
+      "k": "Model",
+      "v": "SB-1330"
+    },
+    {
+      "k": "Intended for",
+      "v": "Aquarium"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The SOBO SB-1330 is a sponge filter with a sponge on a stable base and a clear outlet tube. The box labels it an aquarium sponge filter. It filters gently and does not suck in fry or shrimp, making it ideal for breeding, quarantine and small tanks with tiny fish."
+    },
+    {
+      "type": "p",
+      "html": "A sponge filter runs on an air pump: bubbles in the tube lift the water, which draws aquarium water through the sponge. The sponge traps dirt and hosts beneficial bacteria, so the filter provides mechanical and biological filtration while adding oxygen to the water."
+    },
+    {
+      "type": "h2",
+      "text": "Use and maintenance"
+    },
+    {
+      "type": "p",
+      "html": "It needs an air pump and airline tubing, sold separately. When the bubble flow weakens, squeeze the sponge out in aquarium water during a water change, never under the tap, so the beneficial bacteria survive. A sponge filter also makes a great backup: keep it running in your aquarium and move it to a quarantine tank when needed."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "SOBO SB-1330 Aquarium Sponge Filter | NS Reptiles",
+    "description": "SOBO SB-1330 air-driven sponge filter with a base and clear tube. Gentle filtration that will not suck in fry or shrimp, for breeding and quarantine tanks.",
+    "keywords": "sobo sb-1330, sponge filter, shrimp tank filter, fry filter, air driven filter"
+  }
+}

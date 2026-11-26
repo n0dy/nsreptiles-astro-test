@@ -1,9 +1,9 @@
 {
   "name": "Calci-Shot",
   "label": "Suplementi",
-  "lead": "Koncentrovani kalcijumski suplement za sve reptile i vodozemce. Podrška zdravom razvoju kostiju.",
+  "lead": "HabiStat Calci Shot je čist kalcijum karbonat u maloj posudici od 33 g, bez fosfora. Sipa se u posudicu za kalcijum u terarijumu ili koristi za posipanje insekata.",
   "image": "/style/img/oprema/calci-shot.webp",
-  "imageAlt": "Calci-Shot - NS Reptiles",
+  "imageAlt": "HabiStat Calci Shot, kalcijum u posudici - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -11,16 +11,24 @@
       "v": "HabiStat"
     },
     {
-      "k": "Težina",
-      "v": "~20g"
+      "k": "Pakovanje",
+      "v": "Posudica 33 g"
+    },
+    {
+      "k": "Sastav",
+      "v": "100% kalcijum karbonat"
+    },
+    {
+      "k": "Fosfor",
+      "v": "Ne sadrži"
     },
     {
       "k": "Tip",
       "v": "Kalcijumski suplement"
     },
     {
-      "k": "Namena",
-      "v": "Svi reptili i vodozemci"
+      "k": "Primena",
+      "v": "Posudica za kalcijum ili posipanje hrane"
     }
   ],
   "description": [
@@ -30,15 +38,23 @@
     },
     {
       "type": "p",
-      "html": "HabiStat Calci-Shot je koncentrovani kalcijumski suplement namenjen svim vrstama reptila i vodozemaca. Kalcijum je jedan od najvažnijih minerala u ishrani reptila jer omogućava pravilan razvoj i čvrstinu kostiju, kao i normalno funkcionisanje mišića."
+      "html": "HabiStat Calci Shot je dodatni izvor kalcijuma za reptile, vodozemce i druge terarijumske životinje. U pitanju je čist kalcijum karbonat bez fosfora, upakovan u malu plastičnu posudicu od 33 g, zgodnu za jednokratno punjenje ili za držanje uz terarijum."
     },
     {
       "type": "p",
-      "html": "Suplement se posipa po živoj ili dopunskoj hrani pre hranjenja. Redovna upotreba smanjuje rizik od metaboličke bolesti kostiju (MBD), koja se najčešće javlja kod reptila sa nedovoljnim unosom kalcijuma ili neadekvatnim UVB osvetljenjem. Za najbolje rezultate koristiti uz UVB izvor svetlosti."
+      "html": "Na etiketi stoji jednostavno uputstvo: otvorite posudicu i polovinu praha sipajte u posudicu za kalcijum (Calci Dish), tako da životinja uzima kalcijum po potrebi. Ostatak može da posluži za posipanje žive hrane. Kalcijum u posudici menjajte kada se zaprlja ili navlaži."
+    },
+    {
+      "type": "h2",
+      "text": "Na šta obratiti pažnju"
     },
     {
       "type": "p",
-      "html": "HabiStat je britanski brend sa dugogodišnjom tradicijom u proizvodnji kvalitetnih suplemenata i opreme za reptile."
+      "html": "Životinja može da iskoristi kalcijum iz hrane samo ako ima odgovarajuću UVB rasvetu, vitamin D3 iz ishrane ili oboje. Calci Shot ne sadrži D3, pa ga kombinujte sa UVB lampom ili suplementom sa D3. Na etiketi stoji da proizvod nije za ljudsku upotrebu."
+    },
+    {
+      "type": "p",
+      "html": "Odgovarajuće UVB lampe i vitaminske suplemente pronađite u ponudi <a href=\"/oprema.html\">opreme</a>."
     },
     {
       "type": "h2",
@@ -50,15 +66,11 @@
     }
   ],
   "seo": {
-    "title": "Calci-Shot | Kalcijumski Suplement za Reptile - NS Reptiles",
-    "description": "HabiStat Calci-Shot - koncentrovani kalcijumski suplement za sve reptile i vodozemce. Podrška zdravom razvoju kostiju.",
-    "keywords": "Calci-Shot, HabiStat kalcijum, kalcijumski suplement, kalcijum za reptile, NS Reptiles",
-    "ogTitle": "Calci-Shot | NS Reptiles",
-    "ogDescription": "Koncentrovani kalcijumski suplement za sve reptile i vodozemce. Podrška zdravom razvoju kostiju."
+    "title": "HabiStat Calci Shot 33 g - kalcijum bez fosfora",
+    "description": "HabiStat Calci Shot: 33 g čistog kalcijum karbonata bez fosfora, za posudicu za kalcijum ili posipanje insekata. NS Reptiles Novi Sad.",
+    "keywords": "habistat calci shot, kalcijum za reptile, kalcijum bez fosfora, kalcijum karbonat, kalcijum za gekone"
   },
   "related": [
-    "oprema/arcadia-calciumpro-mg",
-    "oprema/arcadia-earthpro-ca-100g",
     "oprema/kalcijum-vitamini",
     "oprema/arcadia-earthpro-a"
   ]

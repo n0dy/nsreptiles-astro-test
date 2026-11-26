@@ -2,8 +2,8 @@
   "slug": "coconut-coir-5l",
   "name": "Coconut coir 5L",
   "label": "Substrates",
-  "lead": "Coconut coir 5L - a natural terrarium substrate that holds moisture very well. For tropical and forest species.",
-  "imageAlt": "Coconut coir 5L - NS Reptiles",
+  "lead": "Coconut coir 5L - a natural terrarium substrate that holds moisture well. For tropical and forest species and bioactive setups.",
+  "imageAlt": "Coconut coir 5L, terrarium substrate - NS Reptiles",
   "specs": [
     {
       "k": "Type",
@@ -16,6 +16,10 @@
     {
       "k": "Intended for",
       "v": "Terrarium substrate"
+    },
+    {
+      "k": "Suitable for",
+      "v": "Tropical and forest species"
     }
   ],
   "description": [
@@ -25,7 +29,19 @@
     },
     {
       "type": "p",
-      "html": "Coconut coir in a 5-liter pack is one of the most popular natural terrarium substrates. Made from coconut husks, this substrate holds moisture very well, which makes it ideal for tropical and forest reptile species that need higher humidity - crested geckos, chameleons, day geckos and many frog species. Coconut coir is a safe substrate because it does not cause problems if the animal accidentally swallows small amounts. It is naturally resistant to mold and bacteria and contains no harmful chemicals. It can be used on its own or combined with sphagnum moss for extra moisture retention. For bioactive terrariums, coconut coir is an excellent base to which leaves, bark and cleanup crews can be added."
+      "html": "Coconut coir is made from the fibers and husk of the coconut and is one of the most widely used natural terrarium substrates. It absorbs moisture and releases it slowly, helping to keep humidity stable. That makes it a good choice for species that need a more humid environment, such as crested geckos, chameleons, day geckos, tropical snakes and frogs."
+    },
+    {
+      "type": "p",
+      "html": "It is soft and loose, so animals can dig and make burrows. It can be used on its own or mixed with sphagnum peat, and in bioactive terrariums it serves as a base for dry leaves, bark and plants."
+    },
+    {
+      "type": "h2",
+      "text": "Use and maintenance"
+    },
+    {
+      "type": "p",
+      "html": "Spread the coir across the terrarium floor and moisten it lightly so it is damp but not wet. The 5-liter pack is enough for a small terrarium or for topping up existing substrate. Remove droppings and food leftovers regularly, and replace the substrate when it starts to compact or smell. Offer insects from a bowl so the animal does not swallow substrate along with its prey. Browse our other <a href=\"/en/equipment.html\">terrarium equipment</a>."
     },
     {
       "type": "h2",
@@ -38,7 +54,7 @@
   ],
   "seo": {
     "title": "Coconut Coir 5L | Terrarium Substrate - NS Reptiles",
-    "description": "Coconut coir 5L: a natural terrarium substrate that holds moisture very well. For tropical and forest species. NS Reptiles, Novi Sad, Serbia.",
-    "keywords": "coconut coir 5l, terrarium substrate, coco coir, reptile supplies, NS Reptiles, Novi Sad"
+    "description": "Coconut coir 5L: natural terrarium substrate that holds moisture well. For crested geckos, chameleons, frogs and bioactive setups. NS Reptiles.",
+    "keywords": "coconut coir, coco coir substrate, terrarium substrate, crested gecko substrate, bioactive terrarium substrate"
   }
 }

@@ -1,0 +1,71 @@
+{
+  "name": "Olupina ribarskog broda",
+  "label": "Dekoracija",
+  "lead": "Olupina ribarskog broda za akvarijum - drveni brod sa kabinom i otvorom na trupu, ukras i skrovište za ribe.",
+  "image": "/style/img/oprema/dekoracija/olupina-ribarskog-broda.webp",
+  "imageAlt": "Olupina drvenog ribarskog broda sa kabinom, dekoracija za akvarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - olupina broda"
+    },
+    {
+      "k": "Izgled",
+      "v": "Drveni ribarski brod sa kabinom, podnožje sa koralima"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras i skrovište za ribe"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Olupina ribarskog broda prikazuje stari drveni brod sa kabinom na palubi, okruglim prozorima, detaljima užadi i izlizanim daskama. Brod je blago nagnut i stoji na podnožju sa šarenim detaljima korala, a na trupu ima otvor kroz koji ribe mogu da uplivaju. Za razliku od piratskih brodova, ovde nema jarbola ni jedara, pa olupina deluje mirnije i realnije."
+    },
+    {
+      "type": "p",
+      "html": "Ribe je rado koriste kao skrovište, a tamniji prostor unutar trupa posebno odgovara plašljivim vrstama i ribama koje se tokom dana kriju. Olupina se lepo kombinuje sa sidrom, kamenjem i biljkama i daje akvarijumu nautičku temu bez previše boja."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja olupinu isperite mlakom vodom, bez sapuna. Postavite je na ravan deo dna i lagano utisnite podnožje u pesak ili šljunak da stoji stabilno. Otvor okrenite bočno ili ka prednjem staklu, kako biste videli ribe dok ulaze i izlaze. Kada se na površini uhvate alge, izvadite je i očistite mekom četkicom pod mlazom vode. Više ukrasa naći ćete u ponudi <a href=\"/oprema.html\">opreme za akvarijume</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Olupina ribarskog broda - ukras za akvarijum",
+    "description": "Olupina drvenog ribarskog broda sa kabinom i otvorom na trupu. Nautički ukras za akvarijum i skrovište za plašljive ribe. NS Reptiles, Novi Sad.",
+    "keywords": "olupina broda za akvarijum, ribarski brod dekoracija, ukras za akvarijum, skrovište za ribe, nautička dekoracija"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum"
+  ],
+  "related": [
+    "oprema/amfora-terakota",
+    "oprema/lobanja-krokodila",
+    "oprema/zamak-sa-kapijom",
+    "oprema/zamak-na-steni"
+  ]
+}

@@ -1,9 +1,9 @@
 {
   "name": "HabiStat Crested Gecko Diet Mango 80g",
   "label": "Hrana",
-  "lead": "Kompletna ishrana za crested gekone sa ukusom manga u većem pakovanju od 80g. Preko 50% pravog voća i 9 izvora proteina.",
+  "lead": "HabiStat Crested Gecko Diet Mango - kompletna hrana u prahu za crested gekone sa 52% manga i 9 izvora proteina. Meša se sa vodom.",
   "image": "/style/img/oprema/habistat-crested-gecko-diet-mango-80g.webp",
-  "imageAlt": "HabiStat Crested Gecko Diet Mango 80g tegla - hrana za crested gekone - NS Reptiles",
+  "imageAlt": "HabiStat Crested Gecko Diet Mango 80g hrana za crested gekone - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -12,37 +12,63 @@
     },
     {
       "k": "Tip",
-      "v": "Kompletna ishrana"
-    },
-    {
-      "k": "Težina",
-      "v": "80g"
+      "v": "Kompletna hrana u prahu"
     },
     {
       "k": "Ukus",
       "v": "Mango"
+    },
+    {
+      "k": "Pakovanje",
+      "v": "Tegla 80 g"
+    },
+    {
+      "k": "Voće u sastavu",
+      "v": "52%"
+    },
+    {
+      "k": "Protein / kalcijum",
+      "v": "23% / 1,95%"
+    },
+    {
+      "k": "Odnos Ca:P",
+      "v": "3,79:1"
+    },
+    {
+      "k": "Doza",
+      "v": "5 g, 1-2 puta nedeljno"
     }
   ],
   "description": [
     {
       "type": "h2",
-      "text": "Opis"
+      "text": "Detaljan opis"
     },
     {
       "type": "p",
-      "html": "HabiStat Crested Gecko Diet Mango 80g je veće pakovanje popularne kompletne hrane za crested gekone (Correlophus ciliatus) sa ukusom manga. Ova tegla od 80g je idealan izbor za vlasnike koji imaju više gekona ili žele ekonomičniju opciju u odnosu na manje pakovanje od 50g. Hrana dolazi u praktičnoj tegli koja omogućava lako čuvanje i doziranje, a hermetičko zatvaranje obezbeđuje dugotrajnu svežinu proizvoda."
+      "html": "HabiStat Crested Gecko Diet Mango je hrana britanskog brenda HabiStat za crested gekone i druge reptile koji jedu i voće i insekte. U prahu manga čini 52% sastava, a proteine daje 9 različitih izvora. U sastavu su, između ostalog, izolat proteina graška, protein smeđeg pirinča, spirulina, pivski kvasac, polen, med, morske alge, spanać, kamilica i neven, a dodati su vitamini A, D3 i E. Proizvođač navodi da hrana nema veštačkih boja, konzervansa ni punila. Tegla od 80 g dovoljna je za oko 16 obroka od 5 g, pa je praktična za vlasnike više gekona."
     },
     {
-      "type": "p",
-      "html": "Formula je identična kao u manjem pakovanju - sadrži preko 50% pravog voća (mango prah) i 9 različitih izvora proteina životinjskog porekla. Nutritivne vrednosti su izuzetne: 23% proteina, 1,95% kalcijuma i odnos kalcijuma prema fosforu od 3,87:1, što je optimalan balans za prevenciju metaboličke bolesti kostiju. Hrana je bez veštačkih boja, aroma i konzervansa, potpuno prirodna i bezbedna za svakodnevnu upotrebu kod gekona svih uzrasta."
+      "type": "ul",
+      "items": [
+        "Protein: 23%",
+        "Ulja i masti: 1,89%",
+        "Vlakna: 1,28%",
+        "Pepeo: 7,33%",
+        "Kalcijum: 1,95% (Ca:P 3,79:1)"
+      ]
     },
     {
       "type": "h2",
-      "text": "Priprema"
+      "text": "Priprema i hranjenje"
     },
     {
       "type": "p",
-      "html": "Priprema je veoma jednostavna: uzmite približno 5g praha iz tegle i pomešajte sa vodom dok ne dobijete konzistenciju sličnu kečapu. Pripremljenu kašu postavite u plitku posudu i stavite u terarijum, po mogućnosti uveče kada su gekoni najaktivniji. Hranu služite 1 do 2 puta nedeljno i uklonite ostatke nakon 24 sata. Tegla od 80g dovoljna je za otprilike 16 obroka za jednog gekona, što je čini veoma isplativom opcijom."
+      "html": "Pomešajte oko 5 g praha sa vodom do mekane konzistencije nalik kečapu i stavite ga u plitku posudu, najbolje uveče. Proizvođač preporučuje 5 g jednom do dva puta nedeljno, kao deo raznovrsne ishrane u kojoj insekti imaju glavno mesto. Nepojedenu hranu uklonite posle 24 sata, a prah čuvajte na hladnom i suvom."
+    },
+    {
+      "type": "p",
+      "html": "Osim crested gekona, hranu mogu jesti i druge vrste gekona, anolisi, gušteri iz porodice lacertida, skinkovi i iguane. Savete o kombinovanju sa živom hranom naći ćete na strani <a href=\"/hrana-za-gustere.html\">hrana za guštere</a>."
     },
     {
       "type": "h2",
@@ -54,10 +80,10 @@
     }
   ],
   "seo": {
-    "title": "HabiStat Crested Gecko Diet Mango 80g | Hrana za Gekone",
-    "description": "HabiStat Crested Gecko Diet Mango 80g tegla - kompletna ishrana za crested gekone sa ukusom manga. Veće pakovanje, preko 50% pravog voća.",
-    "keywords": "habistat crested gecko diet mango 80g, hrana za gekone, hrana za crested gekone, crested gecko diet, oprema za reptile, NS REPTILES, Novi Sad, Srbija, prodaja",
-    "ogDescription": "HabiStat Crested Gecko Diet Mango 80g tegla - kompletna ishrana za crested gekone sa ukusom manga. Veće pakovanje. NS REPTILES Novi Sad."
+    "title": "HabiStat Crested Gecko Diet Mango 80 g | Veća tegla",
+    "description": "HabiStat Crested Gecko Diet Mango u tegli od 80 g: oko 16 obroka od 5 g, 52% manga i 9 izvora proteina. Za crested gekone. NS Reptiles Novi Sad.",
+    "keywords": "habistat crested gecko diet 80g, habistat mango 80g, hrana za crested gekone, crested gecko diet tegla, hrana za gekone",
+    "ogDescription": "HabiStat Crested Gecko Diet Mango u tegli od 80 g: oko 16 obroka od 5 g, 52% manga i 9 izvora proteina. Za crested gekone. NS Reptiles Novi Sad."
   },
   "related": [
     "oprema/gecko-nutrition-mango"

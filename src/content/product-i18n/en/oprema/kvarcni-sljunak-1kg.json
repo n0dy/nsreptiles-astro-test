@@ -2,8 +2,8 @@
   "slug": "quartz-gravel-1kg",
   "name": "Quartz gravel 1kg",
   "label": "Substrates",
-  "lead": "Quartz gravel 1kg - decorative gravel for aquariums. A coarser grain for a natural look.",
-  "imageAlt": "Quartz gravel 1kg - NS Reptiles",
+  "lead": "Quartz gravel 1kg - a dark, coarser aquarium substrate. It does not change water parameters and is easy to maintain.",
+  "imageAlt": "Quartz gravel 1kg, dark aquarium substrate - NS Reptiles",
   "specs": [
     {
       "k": "Type",
@@ -16,6 +16,10 @@
     {
       "k": "Intended for",
       "v": "Aquarium substrate"
+    },
+    {
+      "k": "Effect on water",
+      "v": "Does not change pH or hardness"
     }
   ],
   "description": [
@@ -25,11 +29,19 @@
     },
     {
       "type": "p",
-      "html": "Quartz gravel in a 1kg pack is a coarser-grained decorative material for aquariums. The larger gravel grains create an interesting texture on the aquarium floor and do not get sucked into the filter, which makes it a practical choice for aquariums with stronger filtration. It is chemically inert, does not affect water parameters and is safe for all freshwater aquariums."
+      "html": "Quartz gravel is a substrate with a coarser grain than sand, and the dark color of the grains gives the bottom depth and makes lighter fish and green plants stand out. Like quartz sand, it is chemically neutral and does not change the pH or hardness of the water, so it is suitable for all freshwater aquariums."
     },
     {
       "type": "p",
-      "html": "The coarser grain lets food leftovers and waste collect on the surface between the grains, where the filter removes them more easily or they can be vacuumed during regular maintenance. Always rinse under running water before use. It can be combined with quartz sand to create interesting visual effects in aquascaping."
+      "html": "Because of the larger grains, water flows through the substrate more easily, and the heavier grains are not easily stirred up by a strong filter current. Food leftovers settle between the grains, where they are easy to remove with a gravel vacuum during regular maintenance."
+    },
+    {
+      "type": "h2",
+      "text": "Use and maintenance"
+    },
+    {
+      "type": "p",
+      "html": "Before putting it in the aquarium, rinse the gravel well under running water until the water runs clear. It can be used on its own or combined with quartz sand, for example sand in front and gravel at the back or around roots and stones. The 1 kg pack is enough for a small aquarium, topping up the bottom or decorative zones. Clean the bottom with a gravel vacuum at every partial water change. If you are just setting up an aquarium, read our <a href=\"/en/guides/beginner-aquariums.html\">beginner aquariums guide</a>."
     },
     {
       "type": "h2",
@@ -42,7 +54,7 @@
   ],
   "seo": {
     "title": "Quartz Gravel 1kg | Aquarium Gravel - NS Reptiles",
-    "description": "Quartz gravel 1kg: decorative aquarium gravel with a coarser grain for a natural look. Safe for freshwater tanks. NS Reptiles, Novi Sad.",
-    "keywords": "quartz gravel 1kg, aquarium gravel, aquarium substrate, aquarium supplies, NS Reptiles, Novi Sad"
+    "description": "Quartz gravel 1kg: dark, coarser aquarium substrate. Does not change pH or water hardness and is easy to clean with a gravel vacuum. NS Reptiles.",
+    "keywords": "quartz gravel, aquarium gravel, quartz gravel 1kg, aquarium substrate, dark aquarium gravel"
   }
 }

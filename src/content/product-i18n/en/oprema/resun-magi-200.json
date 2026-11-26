@@ -1,0 +1,68 @@
+{
+  "slug": "resun-magi-200-internal-filter",
+  "name": "Resun MAGI-200 internal filter",
+  "label": "Filters",
+  "lead": "Resun MAGI-200 internal filter, 200 L/h, 5 W - a compact filter for smaller aquariums, filtration and circulation in one.",
+  "imageAlt": "Resun MAGI-200 internal filter - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Internal filter"
+    },
+    {
+      "k": "Manufacturer",
+      "v": "Resun"
+    },
+    {
+      "k": "Model",
+      "v": "MAGI-200"
+    },
+    {
+      "k": "Flow rate",
+      "v": "200 L/h"
+    },
+    {
+      "k": "Power",
+      "v": "5 W"
+    },
+    {
+      "k": "Intended for",
+      "v": "Aquarium"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The Resun MAGI-200 is a compact internal filter with a 200 L/h flow and 5 W of power. It sits inside the aquarium and attaches to the glass with suction cups, and the slim housing is easy to hide in a corner or behind plants."
+    },
+    {
+      "type": "p",
+      "html": "Water passes through a sponge that traps dirt and serves as a base for beneficial bacteria, so the filter provides mechanical and biological filtration. The outlet at the top keeps the aquarium water moving. Thanks to its moderate flow, it is good for small aquariums with fish, shrimp or young aquatic turtles."
+    },
+    {
+      "type": "h2",
+      "text": "Use and maintenance"
+    },
+    {
+      "type": "p",
+      "html": "Unplug the filter before cleaning. Rinse the sponge in aquarium water during a partial water change, never under the tap. Replace the sponge only when it falls apart, and clean deposits off the impeller from time to time so the filter runs quietly. Turtles foul the water more than fish, so as they grow they need a stronger filter or one rated for a larger volume."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Resun MAGI-200 Internal Filter 200 L/h | NS Reptiles",
+    "description": "Resun MAGI-200 compact internal filter, 200 L/h and 5 W, for smaller aquariums. Sponge for mechanical and biological filtration. NS Reptiles, Serbia.",
+    "keywords": "resun magi-200, internal filter, small aquarium filter, 200 l/h filter, turtle tank filter"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "castle-with-gate-aquarium-decoration",
+  "name": "Castle with a gate",
+  "label": "Decoration",
+  "lead": "Castle with a gate for aquariums - a fortress with two towers and a large arched gate that fish swim through freely.",
+  "imageAlt": "Castle with two towers and a large arched gate, aquarium decoration - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Decoration - castle"
+    },
+    {
+      "k": "Look",
+      "v": "Two towers and a large arched gate"
+    },
+    {
+      "k": "Intended for",
+      "v": "Aquarium"
+    },
+    {
+      "k": "Function",
+      "v": "Ornament and passage for fish"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The castle with a gate is a decoration shaped like an old fortress with two square battlemented towers joined by a wall with a large arched gate. The stone surfaces have pronounced brick and window details, and the moss on the walls gives the impression of a building that has stood underwater for a long time."
+    },
+    {
+      "type": "p",
+      "html": "The wide gate is a real passage: fish swim through it freely, so the castle is not just an ornament but part of their route through the aquarium. It looks best in the middle of the setup or against the back glass, where the gate stands out. The towers and windows complete the look of a medieval castle, and the green details tie it to the plants."
+    },
+    {
+      "type": "h2",
+      "text": "Setup and care"
+    },
+    {
+      "type": "p",
+      "html": "Before placing it, rinse the castle in lukewarm water, without detergents. Set it on a flat surface so the passage under the gate stays open and sand does not fill it. If you place it against the back glass, leave a little space behind it for easier cleaning. Remove algae from the walls and moss with a soft brush during regular maintenance."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Castle with Gate | Swim-Through Aquarium Ornament",
+    "description": "Fortress with two towers and a large arched gate fish swim through. An aquarium decoration with stone and moss details. NS Reptiles, Novi Sad.",
+    "keywords": "castle with gate aquarium, swim-through ornament, aquarium castle, fish tank decoration, fortress ornament"
+  }
+}

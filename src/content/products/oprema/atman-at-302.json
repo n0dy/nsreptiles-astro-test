@@ -1,7 +1,7 @@
 {
   "name": "Atman AT-302 potapajuća pumpa",
   "label": "Pumpe",
-  "lead": "Atman AT-302 potapajuća pumpa protoka 450 l/h - za cirkulaciju vode u akvarijumu, fontane i filtere.",
+  "lead": "Atman AT-302 potapajuća pumpa za vodu sa vakuum-nožicama - za akvarijume, terarijume i fontane.",
   "image": "/style/img/oprema/akvarijum/atman-at-302.webp",
   "imageAlt": "Atman AT-302 potapajuća pumpa - NS Reptiles",
   "price": 1500,
@@ -15,12 +15,12 @@
       "v": "Atman"
     },
     {
-      "k": "Protok",
-      "v": "450 l/h"
+      "k": "Model",
+      "v": "AT-302"
     },
     {
       "k": "Namena",
-      "v": "Akvarijum"
+      "v": "Akvarijum, terarijum, fontane"
     }
   ],
   "description": [
@@ -30,7 +30,27 @@
     },
     {
       "type": "p",
-      "html": "Atman AT-302 je kompaktna potapajuća pumpa za vodu. Koristi se za cirkulaciju vode u akvarijumu, kao pogon za filtere i dekorativne fontane, ili za prepumpavanje vode pri održavanju. Montira se na staklo vakuum-držačima."
+      "html": "Atman AT-302 je kompaktna potapajuća pumpa za vodu, na pakovanju označena kao Water Pump. Radi potpuno potopljena u vodu, a vakuum-nožice na kućištu drže je stabilno na dnu ili staklu akvarijuma. Pre kupovine nas pitajte za protok i visinu potiska, da proverimo da li model odgovara vašem akvarijumu ili fontani."
+    },
+    {
+      "type": "p",
+      "html": "AT-302 je univerzalna pumpa: koristi se za cirkulaciju vode u akvarijumu, kao pogon za gornji filter u poklopcu, za fontane i za prepumpavanje vode pri delimičnoj promeni."
+    },
+    {
+      "type": "h2",
+      "text": "Kako izabrati pumpu"
+    },
+    {
+      "type": "p",
+      "html": "Protok koji se navodi za pumpe meri se bez otpora. Crevo, kolena i visina na koju pumpa diže vodu smanjuju stvarni protok, pa je bolje uzeti model sa malo rezerve. Za cirkulaciju u akvarijumu pumpa treba da za sat vremena prebaci nekoliko zapremina akvarijuma; ako niste sigurni koji model vam odgovara, pitajte nas pre kupovine."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pumpa ne sme da radi na suvo, jer se tako brzo ošteti. Povremeno je izvadite, skinite prednju rešetku i isperite usisni deo i rotor od mulja i algi. Čista pumpa radi tiše i održava pun protok."
     },
     {
       "type": "h2",
@@ -42,9 +62,9 @@
     }
   ],
   "seo": {
-    "title": "Atman AT-302 potapajuća pumpa | Akvarijum oprema - NS Reptiles",
-    "description": "Atman AT-302 potapajuća pumpa protoka 450 l/h - za cirkulaciju vode u akvarijumu, fontane i filtere. NS Reptiles, Novi Sad.",
-    "keywords": "atman at-302, pumpa za akvarijum, potapajuća pumpa, NS Reptiles, Novi Sad"
+    "title": "Atman AT-302 potapajuća pumpa za vodu | NS Reptiles",
+    "description": "Atman AT-302 univerzalna potapajuća pumpa za cirkulaciju u akvarijumu, gornje filtere u poklopcu i fontane. NS Reptiles Novi Sad, dostava po Srbiji.",
+    "keywords": "atman at-302, potapajuća pumpa, pumpa za akvarijum, pumpa za filter, pumpa za fontanu"
   },
   "brand": false,
   "usage": [

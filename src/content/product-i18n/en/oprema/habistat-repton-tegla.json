@@ -2,24 +2,32 @@
   "slug": "habistat-repton-100g-jar",
   "name": "HabiStat Repton 100g (jar)",
   "label": "Supplements",
-  "lead": "A vitamin, mineral and amino acid supplement for dusting insects. A larger 100g jar for regular use. For all insect-eating reptiles.",
-  "imageAlt": "HabiStat Repton 100g jar - supplement for insect-eating reptiles - NS Reptiles",
+  "lead": "HabiStat Repton in a 100 g pot: vitamins, minerals and amino acids for dusting insects. A larger pack for breeders and keepers of several reptiles.",
+  "imageAlt": "HabiStat Repton 100 g pot - NS Reptiles",
   "specs": [
     {
       "k": "Brand",
       "v": "HabiStat"
     },
     {
-      "k": "Weight",
-      "v": "100g (jar)"
+      "k": "Pack size",
+      "v": "100 g, airtight pot"
     },
     {
       "k": "Type",
-      "v": "Vitamin supplement"
+      "v": "Vitamins, minerals and amino acids"
+    },
+    {
+      "k": "Contains",
+      "v": "Vitamins A, D3, E, C, K3 and B group"
     },
     {
       "k": "Intended for",
       "v": "Insect-eating reptiles"
+    },
+    {
+      "k": "Dose",
+      "v": "1/4 teaspoon, every 8th feed"
     }
   ],
   "description": [
@@ -29,15 +37,23 @@
     },
     {
       "type": "p",
-      "html": "HabiStat Repton 100g in a jar is a larger pack of the popular vitamin, mineral and amino acid supplement for insect-eating reptiles. It has the same formula as Repton in the 40g pouch, but in a practical jar that is easier to store and use over a longer period. The wide-mouth jar makes it easy to dust insects without spilling, and the sturdy lid keeps the supplement fresh and protected from moisture."
+      "html": "HabiStat Repton in the 100 g pot has the same formula as Repton in the 40 g pouch, just in a larger, airtight pack. It is an insect dusting powder with vitamins A, D3, E, C and K3, B-group vitamins, soy protein and minerals such as iron, zinc, manganese and copper."
     },
     {
       "type": "p",
-      "html": "Repton contains vitamin A, the complete B-complex, vitamins C, D3, E and K3, a wide range of minerals and essential amino acids. This comprehensive formula ensures that insect-eating reptiles such as leopard geckos, bearded dragons, chameleons and similar species get all the micronutrients they need from their insect diet. The ultra-fine grain sticks evenly to insects, which guarantees a consistent dose of nutrients at every meal."
+      "html": "The ultra-fine formula sticks evenly to insects, so it is easy to apply and wastes little. The pot with a firm lid protects the powder from moisture, which matters when one pack lasts a long time."
+    },
+    {
+      "type": "h2",
+      "text": "Use and dosage"
     },
     {
       "type": "p",
-      "html": "The 100g pack is a more economical choice for owners who keep several reptiles or who want a longer-lasting supply of supplement. The recommended dosing stays the same as with the smaller pack - dusting insects at every eighth feeding. This pack is especially practical for breeders and owners of larger reptile collections who need a larger amount of supplement."
+      "html": "Manufacturer's instructions: lightly dust all insects or vegetation before feeding on every 8th feed. A quarter of a teaspoon is enough. Shake the insects with the powder in a bag or tub and offer them right away. Store in a cool, dry place; for animal use only."
+    },
+    {
+      "type": "p",
+      "html": "The 100 g pot is more practical for breeders and keepers of several geckos, dragons or chameleons. Use calcium between Repton days, and find other supplements in our <a href=\"/en/equipment.html\">equipment</a> range."
     },
     {
       "type": "h2",
@@ -49,8 +65,8 @@
     }
   ],
   "seo": {
-    "title": "HabiStat Repton 100g Jar | Insect Dusting Supplement",
-    "description": "HabiStat Repton 100g jar: vitamin, mineral and amino acid supplement for insect-eating reptiles. A larger pack for regular use. NS Reptiles, Serbia.",
-    "keywords": "habistat repton jar, repton 100g, insectivore supplement, reptile vitamins, insect dusting, NS Reptiles, Novi Sad, Serbia"
+    "title": "HabiStat Repton 100g Pot | Reptile Insect Supplement",
+    "description": "HabiStat Repton 100 g pot: vitamins, minerals and amino acids for dusting insects. Larger pack, used every 8th feed. NS Reptiles, Novi Sad, Serbia.",
+    "keywords": "habistat repton 100g, repton pot, gecko vitamins, insect dusting supplement, reptile vitamins"
   }
 }

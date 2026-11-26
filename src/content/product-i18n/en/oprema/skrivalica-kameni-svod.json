@@ -1,0 +1,72 @@
+{
+  "slug": "grey-stone-vault-reptile-hide",
+  "name": "Stone vault hide",
+  "label": "Hides",
+  "lead": "Hide shaped like a grey stone vault, with a wide entrance and a layered flat top - a neutral shelter for the warm or cool side of the terrarium.",
+  "imageAlt": "Stone vault hide - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Hide"
+    },
+    {
+      "k": "Intended for",
+      "v": "Terrarium"
+    },
+    {
+      "k": "Function",
+      "v": "Shelter"
+    },
+    {
+      "k": "Shape",
+      "v": "Vault, wide entrance, flat top"
+    },
+    {
+      "k": "Color",
+      "v": "Grey-brown"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This hide looks like a vault of grey stone with brownish highlights. The top is layered and flat, like stacked stone slabs, and below it a wide, rounded entrance leads into a roomy interior."
+    },
+    {
+      "type": "p",
+      "html": "The wide entrance makes it easier for stockier animals to get in, such as broad-bodied lizards, and the flat top serves as a resting spot. The neutral grey-brown color fits almost any substrate and other decor, so this is a good basic hide that is easy to combine with other pieces."
+    },
+    {
+      "type": "h2",
+      "text": "Warm side and cool side"
+    },
+    {
+      "type": "p",
+      "html": "Animals regulate their body temperature by moving between the warmer and cooler parts of the terrarium. If they have only one hide, they often choose security over the right temperature. That is why at least two hides per terrarium are recommended. This vault can be one of them, on the warm or the cool side."
+    },
+    {
+      "type": "h2",
+      "text": "Care"
+    },
+    {
+      "type": "p",
+      "html": "Place the hide directly on the floor and fill the substrate around it. Check the inside once a week, since animals sometimes defecate in their hide, and wash it with warm water."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Grey Stone Vault Reptile Hide | NS Reptiles",
+    "description": "Grey stone vault hide with a wide entrance and a layered flat top - a neutral shelter for the warm or cool side. NS Reptiles, Novi Sad, Serbia.",
+    "keywords": "stone vault reptile hide, grey reptile hide, lizard hide, terrarium hide, reptile cave"
+  }
+}

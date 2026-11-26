@@ -1,0 +1,70 @@
+{
+  "name": "Veštačka biljka sa postoljem",
+  "label": "Biljke",
+  "lead": "Niska svetlozelena veštačka biljka za akvarijum na tamnom postolju - stoji sama na dnu, bez ukopavanja u podlogu.",
+  "image": "/style/img/oprema/akvarijum/vestacka-biljka-sa-postoljem.webp",
+  "imageAlt": "Veštačka biljka sa postoljem za akvarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Veštačka biljka"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Dekoracija i zaklon"
+    },
+    {
+      "k": "Boja",
+      "v": "Svetlozelena"
+    },
+    {
+      "k": "Postolje",
+      "v": "Tamno"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Veštačka biljka sa postoljem je niska, gusta svetlozelena biljka na tamnom postolju koje je drži uspravno. Možete je postaviti bilo gde u akvarijumu i pomerati po želji, bez ukopavanja u podlogu."
+    },
+    {
+      "type": "p",
+      "html": "Za razliku od živih biljaka, veštačka ne zahteva rasvetu, đubrivo ni orezivanje i ne menja kvalitet vode. Ne mogu je pojesti ni ribe koje inače uništavaju biljke, a gusti listovi pružaju zaklon sitnijim ribama i mladuncima."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Zbog niskog, žbunastog oblika odgovara prednjem delu akvarijuma ili popunjavanju prostora oko većih dekoracija. Svetlozelena boja lepo se ističe na tamnoj podlozi, a gusti listovi daju zaklon sitnijim ribama. Održavanje je jednostavno: na nekoliko nedelja, ili kad primetite alge, biljku isperite mlakom vodom i prođite mekom četkicom. Deterdžente i sredstva za čišćenje ne koristite. Ostale dekoracije i opremu pogledajte u ponudi <a href=\"/oprema.html\">opreme</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Veštačka biljka sa postoljem za akvarijum",
+    "description": "Niska veštačka biljka sa tamnim postoljem: stoji sama na dnu, bez ukopavanja, i lako se pomera. Za prednji plan akvarijuma. NS Reptiles Novi Sad.",
+    "keywords": "veštačka biljka sa postoljem, veštačka biljka za akvarijum, niska biljka za akvarijum, biljka za prednji plan, dekoracija za akvarijum"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum"
+  ],
+  "related": []
+}

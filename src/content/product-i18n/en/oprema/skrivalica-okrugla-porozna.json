@@ -1,0 +1,72 @@
+{
+  "slug": "round-porous-reptile-hide",
+  "name": "Round porous hide",
+  "label": "Hides",
+  "lead": "Round hide with a porous texture and one small entrance - a dark, enclosed retreat for small geckos, spiders and scorpions, and a humid hide.",
+  "imageAlt": "Round porous hide - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Hide"
+    },
+    {
+      "k": "Intended for",
+      "v": "Terrarium"
+    },
+    {
+      "k": "Function",
+      "v": "Shelter"
+    },
+    {
+      "k": "Shape",
+      "v": "Sphere, one round entrance"
+    },
+    {
+      "k": "Color",
+      "v": "Light brown, porous"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This hide is shaped like a ball with one round entrance near the bottom, similar to a coconut or a nest. The surface is light brown, porous and knobbly, with whitish highlights. Inside it is completely dark and closed on all sides except the entrance."
+    },
+    {
+      "type": "p",
+      "html": "The small entrance suits smaller animals: young leopard geckos, fat-tailed geckos, tarantulas and scorpions. They feel safe in a space like this because nothing can surprise them from the side or from above."
+    },
+    {
+      "type": "h2",
+      "text": "A humid hide for shedding"
+    },
+    {
+      "type": "p",
+      "html": "The closed shape with a small entrance holds moisture well, so this hide can work as a humid hide. Put a little slightly damp moss inside; humid air helps geckos shed their old skin more easily. Replace the moss when it dries out or gets dirty to prevent mold."
+    },
+    {
+      "type": "h2",
+      "text": "How to choose and care for it"
+    },
+    {
+      "type": "p",
+      "html": "Before buying, compare the entrance with the size of your animal; it should pass through easily. Place the hide on firm substrate, with the entrance facing a side where your animal can easily see it. Empty it once a week and wash it with warm water."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Round Porous Reptile Hide and Humid Hide | NS Reptiles",
+    "description": "Round porous hide with a small entrance - a dark retreat for small geckos, tarantulas and scorpions, and a humid hide for shedding. NS Reptiles.",
+    "keywords": "round reptile hide, humid hide, leopard gecko hide, tarantula hide, scorpion hide"
+  }
+}

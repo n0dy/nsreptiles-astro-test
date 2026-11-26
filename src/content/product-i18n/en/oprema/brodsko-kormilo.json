@@ -2,8 +2,8 @@
   "slug": "ship-wheel-decoration",
   "name": "Ship wheel",
   "label": "Decoration",
-  "lead": "Ship wheel - a decorative piece that brings a nautical theme to your aquarium.",
-  "imageAlt": "Ship wheel - NS Reptiles",
+  "lead": "Ship wheel aquarium ornament with two barrels on a moss-covered base - a nautical decoration with a tipped-over barrel that works as a fish hide.",
+  "imageAlt": "Ship wheel with two barrels, aquarium decoration - NS Reptiles",
   "specs": [
     {
       "k": "Type",
@@ -16,6 +16,14 @@
     {
       "k": "Theme",
       "v": "Nautical"
+    },
+    {
+      "k": "Details",
+      "v": "Wheel, two barrels, moss-covered base"
+    },
+    {
+      "k": "Function",
+      "v": "Ornament and fish hide"
     }
   ],
   "description": [
@@ -25,11 +33,19 @@
     },
     {
       "type": "p",
-      "html": "The ship wheel is a decorative piece that brings a nautical theme to your aquarium. It is a detailed ornament that looks authentic and natural in both marine and freshwater aquariums. Suitable for aquariums of all sizes, easy to clean and maintain."
+      "html": "The ship wheel brings the story of a sunken ship into your aquarium. A dark brown wheel with a pronounced wood grain stands on a post, with two barrels in front of it: one upright and filled with pebbles and shells, the other tipped on its side with the opening facing forward. The post and base are painted in green tones, as if algae and moss had covered them over time."
     },
     {
       "type": "p",
-      "html": "It can be combined with other nautical decorations such as an anchor, a pirate ship and corals for a complete underwater scene. Safe for fish and other aquatic organisms."
+      "html": "Small fish and shrimp can swim into the tipped-over barrel and hide, and fish like to swim between the spokes of the wheel. The decoration suits small and medium aquariums, where it can be the main feature; in larger aquariums it looks best grouped with other nautical decorations, such as an anchor or a shipwreck."
+    },
+    {
+      "type": "h2",
+      "text": "Use and care"
+    },
+    {
+      "type": "p",
+      "html": "Before putting it in the aquarium, rinse the decoration with lukewarm water, without soap or chemicals. Place the base on a flat part of the bottom and press it lightly into the gravel or sand so the wheel stands steadily. When algae appears on the surface, clean it with a soft brush; avoid sharp objects that could scratch the paint."
     },
     {
       "type": "h2",
@@ -41,8 +57,8 @@
     }
   ],
   "seo": {
-    "title": "Ship Wheel Aquarium Ornament | Decoration - NS Reptiles",
-    "description": "Ship wheel aquarium ornament with a nautical theme. A detailed, easy-to-clean decoration that is safe for fish. NS Reptiles, Novi Sad, Serbia.",
-    "keywords": "ship wheel aquarium ornament, aquarium decoration, nautical aquarium theme, NS Reptiles"
+    "title": "Ship Wheel Aquarium Ornament with Barrels | NS Reptiles",
+    "description": "Ship wheel aquarium ornament with an upright and a tipped-over barrel on a mossy base. Nautical decor and a hide for small fish. NS Reptiles, Serbia.",
+    "keywords": "ship wheel aquarium ornament, nautical aquarium decoration, shipwreck fish tank decor, fish hide, NS Reptiles"
   }
 }

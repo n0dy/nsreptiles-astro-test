@@ -22,6 +22,8 @@ export const whatsappLink = (text?: string) =>
   `https://wa.me/${SITE.whatsapp}` +
   (text ? `?text=${encodeURIComponent(text)}` : '');
 
-// Netlify postavlja URL na primarni domen sajta. Dok primarni domen nije
-// nsreptiles.net (test na *.netlify.app, lokalni build), sve strane su noindex.
-export const IS_INDEXABLE = (process.env.URL ?? '').startsWith(SITE.url);
+// Indeksiranje + GA samo na produkciji. Netlify sam postavlja URL na primarni domen;
+// Cloudflare nema to, pa se tamo SITE_INDEXABLE=true postavlja u build varijablama
+// tek kad nsreptiles.net pređe na Cloudflare. Inače (test, lokalni build) sve je noindex.
+export const IS_INDEXABLE =
+  process.env.SITE_INDEXABLE === 'true' || (process.env.URL ?? '').startsWith(SITE.url);

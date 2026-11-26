@@ -1,0 +1,75 @@
+{
+  "name": "Visoka crveno-zelena veštačka biljka",
+  "label": "Biljke",
+  "lead": "Visoka veštačka biljka za akvarijum sa sitnim crveno-zelenim listovima, na tamnom postolju. Za zadnji plan i skrivanje opreme.",
+  "image": "/style/img/oprema/akvarijum/visoka-crveno-zelena-biljka.webp",
+  "imageAlt": "Visoka crveno-zelena veštačka biljka za akvarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Veštačka biljka"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Dekoracija i zaklon"
+    },
+    {
+      "k": "Boja",
+      "v": "Crveno-zelena"
+    },
+    {
+      "k": "Postolje",
+      "v": "Tamno"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Visoka crveno-zelena veštačka biljka ima više uspravnih stabljika gusto obraslih sitnim zelenim listovima sa crvenim vrhovima. Stoji na malom tamnom postolju, koje se lako prekrije podlogom."
+    },
+    {
+      "type": "p",
+      "html": "Prednost veštačke biljke je što izgleda isto iz dana u dan: ne truli, ne gubi listove i ne zahteva jaču rasvetu ni đubrenje. Ne utiče na parametre vode, a ribe je koriste kao zaklon, posebno mlađe i plašljivije jedinke."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Kao jedna od viših biljaka u ponudi, namenjena je zadnjem delu akvarijuma, gde zaklanja opremu i kablove i daje dubinu prizoru. Crveni tonovi dolaze do izražaja uz zelene biljke ispred nje. Kada se na listovima pojave alge, biljku izvadite, isperite pod mlakom vodom i očetkajte mekom četkicom. Ne koristite hemijska sredstva za čišćenje, jer ostaci mogu dospeti u vodu. Ostale dekoracije i opremu pogledajte u ponudi <a href=\"/oprema.html\">opreme</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Visoka crveno-zelena veštačka biljka za akvarijum",
+    "description": "Visoka crveno-zelena veštačka biljka za zadnji plan akvarijuma: zaklanja opremu i kablove i daje dubinu. Na tamnom postolju. NS Reptiles.",
+    "keywords": "visoka veštačka biljka, veštačka biljka za akvarijum, crveno-zelena biljka, pozadinske biljke za akvarijum, dekoracija za akvarijum"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum"
+  ],
+  "related": [
+    "oprema/vestacka-biljka-okruglih-listova",
+    "oprema/vestacka-biljka-sa-crvenim-cvetovima",
+    "oprema/vestacka-biljka-na-kamenu",
+    "oprema/vestacka-biljka-sa-dugim-granama"
+  ]
+}

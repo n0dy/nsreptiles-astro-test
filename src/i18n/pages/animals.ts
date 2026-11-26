@@ -100,8 +100,8 @@ export const ANIMAL_GROUPS: { id: string; title: L; animals: Animal[] }[] = [
     title: { sr: 'Gušteri', en: 'Lizards', ru: 'Ящерицы' },
     animals: [
       {
-        href: '/zivotinje/bradata-agama.html',
-        img: '/style/img/gallery/2.jpg',
+        href: '/zivotinje/bradataagama.html',
+        img: '/style/img/reptili/bradata.webp',
         latin: 'Pogona vitticeps',
         beginner: true,
         name: { sr: 'Bradata agama', en: 'Bearded dragon', ru: 'Бородатая агама' },
@@ -112,8 +112,8 @@ export const ANIMAL_GROUPS: { id: string; title: L; animals: Animal[] }[] = [
         },
       },
       {
-        href: '/zivotinje/leopard-gekon.html',
-        img: '/style/img/gallery/3.jpg',
+        href: '/zivotinje/leopardgekon.html',
+        img: '/style/img/reptili/leopard.webp',
         latin: 'Eublepharis macularius',
         beginner: true,
         name: { sr: 'Leopard gekon', en: 'Leopard gecko', ru: 'Леопардовый геккон' },
@@ -124,8 +124,8 @@ export const ANIMAL_GROUPS: { id: string; title: L; animals: Animal[] }[] = [
         },
       },
       {
-        href: '/zivotinje/kineska-vodena-agama.html',
-        img: '/style/img/gallery/13.jpg',
+        href: '/zivotinje/kineskavodenaagama.html',
+        img: '/style/img/reptili/vodena.webp',
         latin: 'Physignathus cocincinus',
         name: { sr: 'Kineski vodeni zmaj', en: 'Chinese water dragon', ru: 'Китайский водяной дракон' },
         text: {
@@ -135,7 +135,7 @@ export const ANIMAL_GROUPS: { id: string; title: L; animals: Animal[] }[] = [
         },
       },
       {
-        href: '/zivotinje/debelorepi-gekon.html',
+        href: '/zivotinje/debelorepigekon.html',
         img: '/style/img/gallery/10.jpg',
         latin: 'Hemitheconyx caudicinctus',
         beginner: true,
@@ -147,7 +147,7 @@ export const ANIMAL_GROUPS: { id: string; title: L; animals: Animal[] }[] = [
         },
       },
       {
-        href: '/zivotinje/crested-gekon.html',
+        href: '/zivotinje/crestedgekon.html',
         img: '/style/img/gallery/14.jpg',
         latin: 'Rhacodactylus ciliatus',
         name: { sr: 'Crested gekon', en: 'Crested gecko', ru: 'Реснитчатый геккон' },
@@ -164,8 +164,8 @@ export const ANIMAL_GROUPS: { id: string; title: L; animals: Animal[] }[] = [
     title: { sr: 'Zmije', en: 'Snakes', ru: 'Змеи' },
     animals: [
       {
-        href: '/zivotinje/loptasti-piton.html',
-        img: '/style/img/gallery/7.jpg',
+        href: '/zivotinje/loptastipiton.html',
+        img: '/style/img/reptili/piton.webp',
         latin: 'Python regius',
         beginner: true,
         name: { sr: 'Loptasti piton', en: 'Ball python', ru: 'Королевский питон' },
@@ -176,8 +176,8 @@ export const ANIMAL_GROUPS: { id: string; title: L; animals: Animal[] }[] = [
         },
       },
       {
-        href: '/zivotinje/kukuruzni-smuk.html',
-        img: '/style/img/gallery/9.jpg',
+        href: '/zivotinje/kukuruznismuk.html',
+        img: '/style/img/reptili/smuk.webp',
         latin: 'Pantherophis guttatus',
         beginner: true,
         name: { sr: 'Kukuruzni smuk', en: 'Corn snake', ru: 'Маисовый полоз' },

@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import ProductCard from '../ProductCard.astro';
 import Faq from '../Faq.astro';
+import BlueprintSketch from '../BlueprintSketch.astro';
 import KitCard from '../KitCard.astro';
 import { KITS } from '../../i18n/kits';
 import '../../styles/oprema.css';
@@ -27,15 +28,15 @@ const work = WORK_PRODUCTS.map((id) => {
   return p;
 });
 
-const STATS = [1000, 300, 1000];
+const STATS = [1000, 500, 1000];
 
 // pos = fokus slike (background-position) da zivotinja ne bude ispod teksta
 const HERO_SLIDES = [
-  { lg: '/style/img/hero/kameleoni-lg.webp', sm: '/style/img/hero/kameleoni-sm.webp', pos: '70% center' },
-  { lg: '/style/img/hero/agama-lg.webp', sm: '/style/img/hero/agama-sm.webp', pos: '70% center' },
-  { lg: '/style/img/hero/iguana-lg.webp', sm: '/style/img/hero/iguana-sm.webp', pos: '80% center' },
-  { lg: '/style/img/hero/piton-lg.webp', sm: '/style/img/hero/piton-sm.webp', pos: '60% center' },
-  { lg: '/style/img/hero/zmija-lg.webp', sm: '/style/img/hero/zmija-sm.webp', pos: '65% center' },
+  { lg: '/style/img/hero/kameleoni-lg.webp', sm: '/style/img/hero/kameleoni-sm.webp', alt: 'Kameleon - egzotični reptil', pos: '70% center' },
+  { lg: '/style/img/hero/agama-lg.webp', sm: '/style/img/hero/agama-sm.webp', alt: 'Bradata agama', pos: '70% center' },
+  { lg: '/style/img/hero/iguana-lg.webp', sm: '/style/img/hero/iguana-sm.webp', alt: 'Iguana', pos: '80% center' },
+  { lg: '/style/img/hero/piton-lg.webp', sm: '/style/img/hero/piton-sm.webp', alt: 'Loptasti piton', pos: '60% center' },
+  { lg: '/style/img/hero/zmija-lg.webp', sm: '/style/img/hero/zmija-sm.webp', alt: 'Zmija', pos: '65% center' },
 ];
 const svg = (paths: string) =>
   `<svg viewBox="0 0 24 24" width="38" height="38" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths}</svg>`;
@@ -62,8 +63,31 @@ const business = {
   telephone: SITE.phone,
   email: SITE.email,
   image: SITE.url + '/style/img/logo.jpg',
-  address: { '@type': 'PostalAddress', addressLocality: 'Novi Sad', addressCountry: 'RS' },
-  sameAs: Object.values(SITE.social),
+  description: t.meta.description,
+  logo: SITE.url + '/style/img/logo.jpg',
+  address: { '@type': 'PostalAddress', addressLocality: 'Novi Sad', addressRegion: 'Vojvodina', addressCountry: 'RS' },
+  geo: { '@type': 'GeoCoordinates', latitude: 45.2600458, longitude: 19.8426976 },
+  areaServed: [
+    { '@type': 'City', name: 'Novi Sad' },
+    { '@type': 'City', name: 'Beograd' },
+    { '@type': 'Country', name: 'Srbija' },
+  ],
+  openingHoursSpecification: {
+    '@type': 'OpeningHoursSpecification',
+    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+    opens: '09:00',
+    closes: '21:00',
+  },
+  sameAs: [...Object.values(SITE.social), 'https://www.youtube.com/channel/UCu5SJSfev91r3d-FwaDDVoQ'],
+};
+const website = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id': SITE.url + '/#website',
+  name: SITE.name,
+  url: SITE.url + '/',
+  inLanguage: lang,
+  publisher: { '@id': SITE.url + '/#business' },
 };
 ---
 <Base
@@ -75,14 +99,14 @@ const business = {
   image="/style/img/logo.jpg"
   active="home"
   translations={translationsFor(path)}
-  schema={[business]}
+  schema={[business, website]}
 >
 <link slot="head" rel="preload" as="image" href={HERO_SLIDES[0].sm} media="(max-width: 768px)" fetchpriority="high" />
 <link slot="head" rel="preload" as="image" href={HERO_SLIDES[0].lg} media="(min-width: 769px)" fetchpriority="high" />
 <section class="hero" id="hero">
   <div class="hero-bg" id="heroBg">
     {HERO_SLIDES.map((sl, i) => (
-      <div class:list={['slide', i === 0 && 'active']} style={`--bg: url('${sl.lg}'); --bg-sm: url('${sl.sm}'); --pos: ${sl.pos}`}></div>
+      <div class:list={['slide', i === 0 && 'active']} role="img" aria-label={sl.alt} style={`--bg: url('${sl.lg}'); --bg-sm: url('${sl.sm}'); --pos: ${sl.pos}`}></div>
     ))}
   </div>
   <button class="hero-arrow hero-prev" data-dir="-1" aria-label={t.testi.prev}>
@@ -201,24 +225,22 @@ const business = {
 
 <section class="section help">
   <div class="wrap">
-    <div class="rep-head reveal">
-      <div><h2 class="sec-title" set:html={t.services.title} /></div>
-      <div class="car-nav">
-        <button class="car-btn" data-car="help" data-dir="-1" aria-label={t.testi.prev}><Fragment set:html={CHEV_L} /></button>
-        <button class="car-btn" data-car="help" data-dir="1" aria-label={t.testi.next}><Fragment set:html={CHEV_R} /></button>
-      </div>
+    <div class="help-head reveal">
+      <h2 class="sec-title" set:html={t.services.title} />
+      <p>{t.services.text}</p>
     </div>
-  </div>
-  <div class="help-track" id="helpTrack">
-    {SERVICES.map((s) => (
-      <div class="help-card">
-        <img loading="lazy" decoding="async" src={s.img} alt="" />
-        <div class="help-info">
-          <h3>{s.title[lang]}</h3>
-          <p>{s.text[lang]}</p>
-        </div>
-      </div>
-    ))}
+    <div class="help-grid">
+      {SERVICES.map((s, i) => (
+        <a class="help-card" href={href(s.href)}>
+          <div class="help-img"><img loading="lazy" decoding="async" src={s.img} alt="" /></div>
+          <div class="help-info">
+            <h3>{s.title[lang]}</h3>
+            <p>{s.text[lang]}</p>
+            <span class="btn btn-light help-more">{t.custom.more}<Fragment set:html={ARROW} /></span>
+          </div>
+        </a>
+      ))}
+    </div>
   </div>
 </section>
 
@@ -243,7 +265,7 @@ const business = {
     <div class="izrada-grid">
       {CUSTOM.map((c) => (
         <article class="izrada-card reveal">
-          <div class="izrada-img"><img loading="lazy" decoding="async" src={c.img} alt={c.imgAlt[lang]} /></div>
+          <div class="izrada-img bp"><img loading="lazy" decoding="async" src={c.img} alt={c.imgAlt[lang]} /><BlueprintSketch kind={c.sketch.kind} dims={c.sketch.dims} notes={c.sketch.notes[lang]} /></div>
           <div class="izrada-body">
             <h2 set:html={c.title[lang]} />
             <p>{c.text[lang]}</p>

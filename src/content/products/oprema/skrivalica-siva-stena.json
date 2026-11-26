@@ -1,0 +1,79 @@
+{
+  "name": "Skrivalica siva stena",
+  "label": "Skrivalice",
+  "lead": "Slojevita skrivalica u izgledu sive stene, sa terasastim pločama - zaklon ispod, a stepenice za penjanje i sunčanje na vrhu.",
+  "image": "/style/img/oprema/skrivalica-siva-stena.webp",
+  "imageAlt": "Skrivalica siva stena - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Skrivalica"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Zaklon i penjanje"
+    },
+    {
+      "k": "Oblik",
+      "v": "Terasasta stena, ulaz spreda"
+    },
+    {
+      "k": "Boja",
+      "v": "Sivo-plavkasta"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova skrivalica je oblikovana kao stena od naslaganih ploča koje se spuštaju u terasama, kao stepenice. Boja je siva sa blago plavkastim i zelenkastim prelivima, nalik škriljcu. Sa prednje strane je širok lučni ulaz u šupljinu ispod stene."
+    },
+    {
+      "type": "p",
+      "html": "Životinja se ispod nje skriva i odmara, a gornji slojevi služe kao mesto za penjanje i sunčanje. Gušter po terasama može polako da se penje do vrha, pa skrivalica istovremeno povećava površinu po kojoj se životinja kreće. Pogodna je za guštere, zmije i pauke."
+    },
+    {
+      "type": "p",
+      "html": "Hladni sivi tonovi se dobro uklapaju uz tamniju podlogu, sivo kamenje i 3D pozadine sa izgledom stene."
+    },
+    {
+      "type": "h2",
+      "text": "Saveti za postavljanje"
+    },
+    {
+      "type": "p",
+      "html": "Ako skrivalicu postavite ispod grejne lampe, najviša terasa postaje mesto za sunčanje; termometrom proverite da površina ne bude prevruća. Postavite je direktno na dno, da se ne ljulja kada se životinja penje, i dodajte drugu skrivalicu na hladnoj strani. Slojeve povremeno očistite četkicom pod toplom vodom."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Skrivalica siva stena sa terasama za penjanje",
+    "description": "Slojevita skrivalica u izgledu sive stene sa terasama - zaklon ispod i stepenice za penjanje i sunčanje. Za guštere, zmije i pauke. NS Reptiles.",
+    "keywords": "skrivalica siva stena, skrivalica za penjanje, terasasta stena za terarijum, skrivalica za guštere, skrivalica za pauke"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/posuda-za-vodu-tamnosiva",
+    "oprema/posuda-zeleni-kamen",
+    "oprema/posuda-pescar",
+    "oprema/posuda-za-vodu-svetloplava"
+  ]
+}

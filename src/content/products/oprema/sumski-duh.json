@@ -1,9 +1,9 @@
 {
   "name": "Šumski duh",
   "label": "Dekoracija",
-  "lead": "Šumski duh - dekorativan panj za terarijum koji služi kao ukras i skrovište.",
-  "image": "/style/img/oprema/dekoracija/sumski-duh.png",
-  "imageAlt": "Šumski duh - NS Reptiles",
+  "lead": "Šumski duh - dekorativan panj sa licem duha za terarijum i akvarijum, ukras sa detaljima mahovine koji služi i kao skrovište.",
+  "image": "/style/img/oprema/dekoracija/sumski-duh.webp",
+  "imageAlt": "Šumski duh, dekorativni panj sa licem i mahovinom za terarijum i akvarijum - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -11,8 +11,12 @@
       "v": "Dekoracija - panj"
     },
     {
+      "k": "Izgled",
+      "v": "Panj sa licem duha i detaljima mahovine"
+    },
+    {
       "k": "Namena",
-      "v": "Terarijum"
+      "v": "Terarijum i akvarijum"
     },
     {
       "k": "Funkcija",
@@ -26,7 +30,19 @@
     },
     {
       "type": "p",
-      "html": "Šumski duh je dekorativan panj za terarijum koji kombinuje mističan izgled sa funkcionalnom ulogom skrovišta. Oblikovan da podseća na stari šumski panj sa licem duha, ovaj komad dekoracije unosi karakter i priču u vaš terarijum. Šuplja unutrašnjost pruža skrovište za reptile, što je ključno za smanjenje stresa - životinja koja ima pristup skrovištu biće mirnija, zdravija i pokazivace prirodnije ponašanje. Izrađen je od materijala bezbednog za upotrebu u terarijumima. Pogodan je za sve tipove terarijuma - od tropskih vlažnih do suvih pustinjskih. Lako se čisti brisanjem vlažnom krpom. Može se kombinovati sa živim ili veštačkim biljkama za još prirodniji izgled."
+      "html": "Šumski duh je dekorativan panj koji kombinuje mističan izgled sa funkcionalnom ulogom skrovišta. Oblikovan je kao stari šumski panj sa izrezbarenim licem duha, bradom od kore i zelenim detaljima mahovine, a sa strane mu izlazi grana. Ovaj komad dekoracije unosi karakter i priču u postavku i lako postaje njen centralni detalj."
+    },
+    {
+      "type": "p",
+      "html": "Može se koristiti i u terarijumu i u akvarijumu. U terarijumu šuplja unutrašnjost pruža skrovište za reptile, što je ključno za smanjenje stresa: životinja koja ima pristup skrovištu mirnija je i pokazuje prirodnije ponašanje. Odgovara i tropskim i suvim pustinjskim terarijumima. U akvarijumu ga ribe koriste kao zaklon, a zemljani i zeleni tonovi lepo se slažu sa biljkama i korenjem."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja panj isperite mlakom vodom, bez deterdženata. Postavite ga stabilno na dno i proverite da je ulaz u skrovište dovoljno velik za vašu životinju. U terarijumu se lako čisti brisanjem vlažnom krpom, a u akvarijumu alge uklanjajte mekom četkicom. Može se kombinovati sa živim ili veštačkim biljkama za još prirodniji izgled."
     },
     {
       "type": "h2",
@@ -38,15 +54,18 @@
     }
   ],
   "seo": {
-    "title": "Šumski duh - dekorativni panj | Oprema - NS Reptiles",
-    "description": "Šumski duh - dekorativan panj za terarijum koji služi kao ukras i skrovište. NS Reptiles Novi Sad.",
-    "keywords": "šumski duh, dekorativni panj, skrovište za terarijum, dekoracija terarijuma, NS Reptiles, Novi Sad",
-    "ogTitle": "Šumski duh - dekorativni panj | NS Reptiles"
+    "title": "Šumski duh - panj skrovište za terarijum i akvarijum",
+    "description": "Dekorativni panj sa licem šumskog duha i mahovinom. Ukras i skrovište za reptile u terarijumu ili za ribe u akvarijumu. NS Reptiles Novi Sad.",
+    "keywords": "šumski duh, dekorativni panj, skrovište za terarijum, dekoracija za akvarijum, panj sa licem",
+    "ogTitle": "Šumski duh - panj skrovište za terarijum i akvarijum"
   },
   "related": [
     "oprema/dekorativna-lobanja",
-    "oprema/posude-za-reptile",
     "oprema/cork-bark",
     "oprema/maple-leaf-stone-1kg"
+  ],
+  "usage": [
+    "akvarijum",
+    "terarijum"
   ]
 }

@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "Debelorepi gekon — vodič za uzgoj i negu | NS Reptiles",
-    "description": "Sve o debelorepom gekonu: poreklo, veličina, terarijum, temperatura, ishrana i nega. Mirna vrsta pogodna za početnike — NS Reptiles, Novi Sad.",
-    "ogDescription": "Sve o debelorepom gekonu: poreklo, veličina, terarijum, temperatura, ishrana i nega. Mirna vrsta pogodna za početnike."
+    "title": "Debelorepi Gekon Prodaja od 7.200 din, Novi Sad | NS Reptiles",
+    "description": "Prodaja debelorepog gekona od 7.200 din - miran noćni gušter, savršen za početnike. Saveti o nezi, ishrani i terarijumu. NS Reptiles, Novi Sad.",
+    "ogDescription": "Prodaja debelorepog gekona od 7.200 din - miran noćni gušter, savršen za početnike. Saveti o nezi, ishrani i terarijumu. NS Reptiles, Novi Sad."
   },
   "article": {
     "headline": "Debelorepi gekon — vodič za uzgoj i negu",
@@ -14,6 +14,14 @@
   "photo": "/style/img/gallery/15.jpg",
   "photoAlt": "Debelorepi gekon u terarijumu — NS Reptiles Novi Sad",
   "intro": "Debelorepi gekon potiče iz suvih i vlažnih savana zapadne Afrike — od Senegala do Kameruna. U prirodi se skriva u vlažnim skloništima poput termitnjaka i kamenih pukotina, a noću izlazi u potragu za hranom. Karakteristične crte su zaobljena glava, pokretni kapci i vertikalne zenice, smeđebež šare sa belom linijom duž leđa, te debeo rep koji služi kao skladište masti. Za razliku od većine gekona, nema lepljive jastučiće na prstima pa živi isključivo na tlu. U zatočeništvu je poznat po mirnoj naravi i lakom prilagođavanju rukovanju, što ga svrstava među najpopularnije početničke reptile. Uz pravilnu negu živi 15 do 20 godina.",
+  "price": {
+    "label": "Cena",
+    "value": "Mladunci od 7.200 din",
+    "note": "Debelorepi gekon iz domaćeg uzgoja — miran noćni gušter, savršen za početnike. Mladunci od 7.200 din, dostupan i starter komplet sa terarijumom i opremom. Prodaja u Novom Sadu, dostava širom Srbije — javite nam se za dostupnost.",
+    "call": "Pozovite nas",
+    "waText": "Zdravo, zanima me debelorepog gekona.",
+    "low": 7200
+  },
   "sections": [
     {
       "title": "Nega i <b>postavljanje</b>",
@@ -112,6 +120,34 @@
     "terarijumi/terarijum-60x30x25",
     "terarijumi/terarijum-60x40x30"
   ],
+  "faq": {
+    "title": "Česta pitanja o debelorepom gekonu",
+    "items": [
+      {
+        "q": "Koja je razlika između debelorepog i leopard gekona?",
+        "a": "Debelorepi gekon ima zaobljeniju glavu i potiče iz Afrike, dok leopard gekon ima oštriju glavu i potiče iz Azije. Nega je slična."
+      },
+      {
+        "q": "Da li je debelorepi gekon pogodan za početnike?",
+        "a": "Da, debelorepi gekon je odličan za početnike zbog mirne naravi i jednostavne nege."
+      },
+      {
+        "q": "Koliko živi debelorepi gekon?",
+        "a": "Debelorepi gekon u zatočeništvu živi 15-20 godina uz pravilnu negu."
+      },
+      {
+        "q": "Koja je idealna temperatura za debelorepog gekona?",
+        "a": "Topli deo 30-32°C, hladni deo 21-25°C. Noću temperatura može pasti do 16°C."
+      },
+      {
+        "q": "Šta jede debelorepi gekon?",
+        "a": "Debelorepi gekon je insektivor - jede cvrčke, dubije, crve brašnare. Mladunci se hrane svakodnevno, odrasli 2-3 puta nedeljno."
+      }
+    ]
+  },
+  "product": {
+    "description": "Debelorepi gekon iz domaćeg uzgoja - miran noćni gušter, savršen za početnike. Mladunci od 7.200 din, dostupan i starter komplet sa terarijumom i opremom."
+  },
   "cta": {
     "text": "Za pitanja o nabavci, nezi ili opremi za debelorepog gekona — tu smo. Javite nam se pozivom ili porukom.",
     "waText": "Zanima me debelorepi gekon"

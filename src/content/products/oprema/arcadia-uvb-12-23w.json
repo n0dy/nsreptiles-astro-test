@@ -1,9 +1,9 @@
 {
   "name": "Arcadia UVB 12% 23W",
   "label": "Rasveta",
-  "lead": "Arcadia UVB kompaktna sijalica 12% / 23W. Maksimalno UVB zračenje za pustinjske vrste reptila.",
+  "lead": "Arcadia D3+ Desert 12% kompaktna UVB sijalica od 23 W sa E27 grlom, bez predspojnika. 12% UVB i 30% UVA, za pustinjske vrste.",
   "image": "/style/img/oprema/uvb12.webp",
-  "imageAlt": "Arcadia UVB 12% 23W - NS Reptiles",
+  "imageAlt": "Arcadia D3+ Desert Compact 12% UVB 23W E27 - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -11,16 +11,28 @@
       "v": "Arcadia"
     },
     {
-      "k": "UVB",
-      "v": "12%"
+      "k": "Model",
+      "v": "D3+ Desert Compact 12%"
     },
     {
       "k": "Snaga",
-      "v": "23W"
+      "v": "23 W"
     },
     {
-      "k": "Namena",
-      "v": "Pustinjske vrste reptila"
+      "k": "Grlo",
+      "v": "E27, 220-240 V"
+    },
+    {
+      "k": "UVB / UVA",
+      "v": "12% / 30%"
+    },
+    {
+      "k": "Svetlost",
+      "v": "416 lm, 8200 K, CRI 90+"
+    },
+    {
+      "k": "Trajanje UVB",
+      "v": "12 meseci"
     }
   ],
   "description": [
@@ -30,11 +42,23 @@
     },
     {
       "type": "p",
-      "html": "Arcadia UVB kompaktna sijalica sa 12% UVB zračenjem i snagom od 23W pruža najjače UVB zračenje u kompaktnoj formi, namenjeno pustinjskim vrstama reptila koje u prirodi žive pod intenzivnim suncem. UVB zračenje omogućava sintezu vitamina D3 u koži, neophodnog za apsorpciju kalcijuma i zdrav razvoj kostiju."
+      "html": "Arcadia D3+ Desert Compact 12% je kompaktna fluorescentna sijalica punog spektra sa 12% UVB i 30% UVA zračenja. Ima ugrađen elektronski predspojnik, pa se uvrće direktno u standardno E27 grlo. Prema proizvođaču, model od 23 W daje 416 lumena, temperaturu boje 8200 K i CRI veći od 90, ne treperi i ima staklo koje blokira UVC zračenje."
     },
     {
       "type": "p",
-      "html": "Visok procenat od 12% čini ovu sijalicu idealnom za bradate agame, uromastikse i druge pustinjske vrste kojima je potrebno snažno UVB osvetljenje. Kompaktna E27 forma omogućava laku ugradnju u keramičke nosače. Preporučena udaljenost od životinje je 25-30cm. Sijalicu menjajte svakih 6-12 meseci jer UVB emisija slabi tokom vremena, čak i kada vidljiva svetlost ostaje nepromenjena."
+      "html": "UVB omogućava reptilima da u koži stvaraju vitamin D3, potreban za iskorišćavanje kalcijuma. Arcadia navodi da su kompaktne lampe posebno korisne za mlade i manje životinje, a ova sijalica je namenjena pustinjskim vrstama kojima treba jako UVB, a posebno mladim i manjim životinjama u manjim terarijumima."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i zamena"
+    },
+    {
+      "type": "p",
+      "html": "Sijalicu postavite u grlo iznad mesta za sunčanje, idealno u svetiljku sa reflektorom. Proizvođač navodi bezbedno preporučeno rastojanje od 20 cm između sijalice i životinje i savetuje da se ne gleda direktno u izvor svetlosti. Proizvođač navodi da sijalica daje UVB 12 meseci, posle čega je treba zameniti, iako i dalje svetli."
+    },
+    {
+      "type": "p",
+      "html": "Za veće terarijume bolje je izabrati UVB cev koja pokriva veću površinu. Grla, cevi i ostalu opremu pronađite u ponudi <a href=\"/oprema.html\">opreme</a>."
     },
     {
       "type": "h2",
@@ -46,10 +70,9 @@
     }
   ],
   "seo": {
-    "title": "Arcadia UVB 12% 23W | UVB Sijalica za Reptile - NS Reptiles",
-    "description": "Arcadia UVB kompaktna sijalica 12% / 23W za pustinjske vrste reptila kojima treba maksimalno UVB zračenje. E27 grlo.",
-    "keywords": "Arcadia UVB 12% 23W, UVB sijalica za reptile, kompaktna UVB sijalica, pustinjske vrste, NS Reptiles",
-    "ogTitle": "Arcadia UVB 12% 23W | NS Reptiles"
+    "title": "Arcadia D3+ Desert Compact 12% 23W E27 - UVB sijalica",
+    "description": "Arcadia D3+ Desert Compact 12% UVB 23 W, E27 bez predspojnika: 12% UVB, 30% UVA, 12 meseci, za pustinjske vrste. NS Reptiles Novi Sad.",
+    "keywords": "arcadia compact 12%, uvb sijalica e27, kompaktna uvb sijalica 23w, uvb sijalica za bradatu agamu, arcadia d3+ desert"
   },
   "related": [
     "oprema/arcadia-uvb-7-23w",

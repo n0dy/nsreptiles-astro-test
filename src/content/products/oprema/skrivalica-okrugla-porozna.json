@@ -1,0 +1,83 @@
+{
+  "name": "Skrivalica okrugla, porozna",
+  "label": "Skrivalice",
+  "lead": "Okrugla skrivalica porozne teksture sa jednim malim ulazom - tamno, zatvoreno skrovište za male gekone, pauke i skorpije, i kao vlažna skrivalica.",
+  "image": "/style/img/oprema/skrivalica-okrugla-porozna.webp",
+  "imageAlt": "Skrivalica okrugla, porozna - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Skrivalica"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Zaklon"
+    },
+    {
+      "k": "Oblik",
+      "v": "Kugla, jedan okrugao ulaz"
+    },
+    {
+      "k": "Boja",
+      "v": "Svetlobraon, porozna"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova skrivalica ima oblik kugle sa jednim okruglim ulazom pri dnu, nalik kokosovom orahu ili gnezdu. Površina je svetlobraon, porozna i kvrgava, sa belkastim prelivima. Unutra je potpuno tamno i zatvoreno sa svih strana osim ulaza."
+    },
+    {
+      "type": "p",
+      "html": "Mali ulaz je pogodan za manje životinje: mlade leopard gekone, debelorepe gekone, tarantule i skorpije. One se u ovakvom prostoru osećaju sigurno jer ih ništa ne može iznenaditi sa strane ili odozgo."
+    },
+    {
+      "type": "h2",
+      "text": "Vlažna skrivalica za presvlačenje"
+    },
+    {
+      "type": "p",
+      "html": "Zatvoren oblik sa malim ulazom dobro zadržava vlagu, pa ova skrivalica može da posluži kao vlažna skrivalica. Unutra stavite malo blago navlažene mahovine; vlažan vazduh pomaže gekonima da lakše skinu staru kožu. Mahovinu menjajte kada se isuši ili zaprlja, da ne bi došlo do buđi."
+    },
+    {
+      "type": "h2",
+      "text": "Kako izabrati i održavati"
+    },
+    {
+      "type": "p",
+      "html": "Pre kupovine uporedite ulaz sa veličinom vaše životinje; treba lako da prođe kroz njega. Skrivalicu postavite na čvrstu podlogu, ulazom ka strani sa koje ga životinja lako vidi. Jednom nedeljno je ispraznite i operite toplom vodom."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Okrugla skrivalica, porozna - vlažna skrivalica",
+    "description": "Okrugla porozna skrivalica sa malim ulazom - tamno skrovište za male gekone, tarantule i skorpije, i vlažna skrivalica za presvlačenje. NS Reptiles.",
+    "keywords": "okrugla skrivalica, vlažna skrivalica, skrivalica za leopard gekona, skrivalica za tarantulu, skrivalica za skorpiju"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/skrivalica-kameni-polukrug",
+    "oprema/skrivalica-astecki-kalendar",
+    "oprema/skrivalica-polucev-braon",
+    "oprema/skrivalica-braon-stena"
+  ]
+}

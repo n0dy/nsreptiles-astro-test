@@ -1,7 +1,7 @@
 {
   "name": "Crevo za vazduh (po metru)",
   "label": "Aeracija",
-  "lead": "Providno crevo za vazdušnu pumpu - prodaje se na metar.",
+  "lead": "Silikonsko crevo za vazdušnu pumpu, unutrašnji prečnik 4 mm - prodaje se na metar, sečemo dužinu koja vam treba.",
   "image": "/style/img/oprema/akvarijum/crevo-za-vazduh.webp",
   "imageAlt": "Crevo za vazduh (po metru) - NS Reptiles",
   "price": 70,
@@ -9,7 +9,19 @@
   "specs": [
     {
       "k": "Tip",
-      "v": "Providno crevo za vazduh"
+      "v": "Silikonsko crevo za vazduh"
+    },
+    {
+      "k": "Brend",
+      "v": "Resun (model PF01)"
+    },
+    {
+      "k": "Prečnik",
+      "v": "4 mm"
+    },
+    {
+      "k": "Prodaja",
+      "v": "Na metar"
     },
     {
       "k": "Namena",
@@ -23,7 +35,19 @@
     },
     {
       "type": "p",
-      "html": "Standardno crevo za povezivanje vazdušne pumpe sa raspršivačem ili sunđer filterom. Režemo dužinu koja vam treba. Fotografija je ilustrativna."
+      "html": "Crevo za vazduh služi za povezivanje vazdušne pumpe sa raspršivačem, sunđer filterom ili ukrasom koji radi na vazduh. Prodajemo ga na metar, sečeno sa Resun kotura od 100 metara, pa uzimate tačno onoliko koliko vam treba."
+    },
+    {
+      "type": "p",
+      "html": "Prema oznaci na koturu, reč je o silikonskom crevu unutrašnjeg prečnika 4 mm, što je standardna mera za priključke većine akvarijumskih vazdušnih pumpi, raspršivača i nepovratnih ventila. Silikon je mekan i savitljiv, lako se navlači na priključke i dobro podnosi savijanje."
+    },
+    {
+      "type": "h2",
+      "text": "Koliko creva uzeti"
+    },
+    {
+      "type": "p",
+      "html": "Izmerite put od pumpe do mesta gde će stajati raspršivač i dodajte malo rezerve za krivine i nepovratni ventil. Ako pumpa ima dva izlaza ili koristite razdelnik, računajte dužinu posebno za svaki krak. Crevo povremeno proverite, jer se vremenom može stvrdnuti ili obrasti algama, pa ga tada zamenite. Krajeve sečite pravo, makazama ili oštrim nožem, da dobro nalegnu na priključak."
     },
     {
       "type": "h2",
@@ -35,9 +59,9 @@
     }
   ],
   "seo": {
-    "title": "Crevo za vazduh (po metru) | Akvarijum oprema - NS Reptiles",
-    "description": "Providno crevo za vazdušnu pumpu - prodaje se na metar. NS Reptiles, Novi Sad.",
-    "keywords": "crevo za vazduh, crevo za akvarijum, crevo za pumpu, NS Reptiles, Novi Sad"
+    "title": "Crevo za vazduh za akvarijum 4 mm, na metar | NS Reptiles",
+    "description": "Silikonsko crevo za vazdušnu pumpu, unutrašnji prečnik 4 mm, prodaja na metar. Povezuje pumpu sa raspršivačem ili sunđer filterom. NS Reptiles.",
+    "keywords": "crevo za vazduh, crevo za vazdušnu pumpu, silikonsko crevo 4 mm, crevo za akvarijum, aeracija"
   },
   "brand": false,
   "usage": [

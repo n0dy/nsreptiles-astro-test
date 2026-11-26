@@ -1,11 +1,11 @@
 # 301 redirekti sa starih URL-ova
-/zivotinje/bradataagama.html         /zivotinje/bradata-agama.html        301
-/zivotinje/crestedgekon.html         /zivotinje/crested-gekon.html        301
-/zivotinje/debelorepigekon.html      /zivotinje/debelorepi-gekon.html     301
-/zivotinje/kineskavodenaagama.html   /zivotinje/kineska-vodena-agama.html 301
-/zivotinje/kukuruznismuk.html        /zivotinje/kukuruzni-smuk.html       301
-/zivotinje/leopardgekon.html         /zivotinje/leopard-gekon.html        301
-/zivotinje/loptastipiton.html        /zivotinje/loptasti-piton.html       301
+/zivotinje/bradata-agama.html         /zivotinje/bradataagama.html        301
+/zivotinje/crested-gekon.html         /zivotinje/crestedgekon.html        301
+/zivotinje/debelorepi-gekon.html      /zivotinje/debelorepigekon.html     301
+/zivotinje/kineska-vodena-agama.html   /zivotinje/kineskavodenaagama.html 301
+/zivotinje/kukuruzni-smuk.html        /zivotinje/kukuruznismuk.html       301
+/zivotinje/leopard-gekon.html         /zivotinje/leopardgekon.html        301
+/zivotinje/loptasti-piton.html        /zivotinje/loptastipiton.html       301
 /prices.html                         /cenovnik.html                       301
 /blog.html                           /                                    301
 /gusteri.html                        /zivotinje.html                      301
@@ -21,3 +21,14 @@
 
 # Cloudflare Workers sa html_handling none ne servira / sam
 /  /index.html  200
+
+# Spojeni duplikati i zbirne kartice (2026-11-08)
+/proizvodi/oprema/posude-za-reptile.html      /oprema.html   301
+/proizvodi/oprema/skrivalice-za-reptile.html  /oprema.html   301
+/proizvodi/oprema/arcadia-calciumpro-mg.html       /proizvodi/oprema/arcadia-capro-mg.html     301
+/proizvodi/oprema/arcadia-earthpro-ca-100g.html    /proizvodi/oprema/arcadia-earthpro-ca.html  301
+/proizvodi/oprema/dubie-s-100kom.html              /proizvodi/oprema/dubia-zohari.html         301
+/proizvodi/oprema/dubie-m-100kom.html              /proizvodi/oprema/dubia-zohari.html         301
+/proizvodi/oprema/dubie-l-100kom.html              /proizvodi/oprema/dubia-zohari.html         301
+/proizvodi/oprema/fobasi-s-100kom.html             /proizvodi/oprema/fobasi.html               301
+/proizvodi/oprema/fobasi-m-l-100kom.html           /proizvodi/oprema/fobasi.html               301

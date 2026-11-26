@@ -1,47 +1,59 @@
 {
   "slug": "habistat-double-feeding-ledge",
   "name": "HabiStat Double Feeding Ledge",
-  "label": "Equipment",
-  "lead": "A double feeding ledge with two clear cups for arboreal reptiles. Black acrylic with suction cups - ideal for offering food and water at the same time.",
-  "imageAlt": "HabiStat Double Feeding Ledge for arboreal reptiles - NS Reptiles",
+  "label": "Accessories",
+  "lead": "HabiStat Arboreal Double Feeding Ledge is a feeder for arboreal reptiles with two clear cups. It attaches to the terrarium glass with suction cups.",
+  "imageAlt": "HabiStat Arboreal Double Feeding Ledge, glass-mounted feeder - NS Reptiles",
   "specs": [
     {
       "k": "Brand",
       "v": "HabiStat"
     },
     {
-      "k": "Dimensions",
-      "v": "160x60x80mm"
+      "k": "Model",
+      "v": "Arboreal Double Feeding Ledge (HSFLD)"
     },
     {
-      "k": "Type",
-      "v": "Feeding ledge (double)"
+      "k": "Dimensions",
+      "v": "16 x 6 x 8 cm (L x D x H)"
+    },
+    {
+      "k": "Material",
+      "v": "Black acrylic, clear cups and suction cups"
+    },
+    {
+      "k": "Mounting",
+      "v": "Suction cups on glass"
     },
     {
       "k": "Intended for",
-      "v": "Arboreal reptiles"
+      "v": "Food or water for arboreal species"
     }
   ],
   "description": [
     {
       "type": "h2",
-      "text": "Description"
+      "text": "Detailed description"
     },
     {
       "type": "p",
-      "html": "The HabiStat Double Feeding Ledge is an upgraded version of the popular HabiStat feeding ledge, equipped with two clear cups so you can offer food and water to your arboreal reptiles at the same time. Made from quality black acrylic, this double ledge attaches securely to the glass walls of the terrarium with suction cups, with no need for glue or permanent modifications."
+      "html": "HabiStat Arboreal Double Feeding Ledge lets arboreal species eat and drink up high, as they would in the wild. The ledge is made of black acrylic, while the cups and suction cups are clear, so you can see the contents from every angle without disturbing the animal. It measures 16 x 6 x 8 cm (length x depth x height)."
     },
     {
       "type": "p",
-      "html": "Its 160x60x80mm dimensions provide enough space for two removable clear cups, one of which can be used for food (fruit mash, insect powder) and the other for fresh water. This is especially practical because it removes the need for two separate feeding and drinking spots, saving space in the terrarium. The clear cups let you see the contents from every angle, so you can easily track how much your reptile eats."
+      "html": "Large weight-bearing suction cups hold the ledge on the glass wall of the terrarium, with no glue or drilling, and it is easy to move. The cups clip in place, come out easily, wash well and can be reused. The manufacturer also sells replacement cups separately."
+    },
+    {
+      "type": "h2",
+      "text": "Who it suits"
     },
     {
       "type": "p",
-      "html": "The cups detach easily from the platform for quick cleaning and refilling, which makes daily maintenance much easier. This model is ideal for crested geckos, day geckos, anoles and other arboreal species that feed in elevated positions in the wild. By mounting the ledge at the right height in the terrarium, you simulate natural feeding behavior, which reduces stress and encourages activity in your animals."
+      "html": "The ledge is handy for crested geckos, day geckos and other arboreal species that rarely come down to the ground. A cup can hold fruit mix, insects or water. The double version has two cups side by side, so you can keep fruit mix or insects in one and water in the other. For tighter spaces there is also the single version with one cup."
     },
     {
       "type": "p",
-      "html": "HabiStat is a renowned British brand with many years of experience producing reptile equipment, known for the quality of its materials and the practical design of its products."
+      "html": "Clean the glass before mounting so the suction cups hold well, and wash the cups whenever you change the food. See ready-made terrariums for arboreal species on our <a href=\"/en/terrariums.html\">terrariums</a> page."
     },
     {
       "type": "h2",
@@ -53,8 +65,8 @@
     }
   ],
   "seo": {
-    "title": "HabiStat Double Feeding Ledge | Gecko Feeding Ledge",
-    "description": "HabiStat Double Feeding Ledge: a two-cup feeding ledge for arboreal reptiles with suction cups. NS Reptiles, Novi Sad, delivery across Serbia.",
-    "keywords": "habistat double feeding ledge, double reptile feeding ledge, gecko feeding ledge, arboreal reptiles, terrarium equipment, NS Reptiles, Novi Sad, Serbia"
+    "title": "HabiStat Double Feeding Ledge | Crested Gecko Feeder",
+    "description": "HabiStat Arboreal Double Feeding Ledge, 16 x 6 x 8 cm: glass-mounted feeder with two clear cups for crested and day geckos. NS Reptiles, Serbia.",
+    "keywords": "habistat feeding ledge, crested gecko feeder, terrarium feeding ledge, habistat double ledge, suction cup food dish"
   }
 }

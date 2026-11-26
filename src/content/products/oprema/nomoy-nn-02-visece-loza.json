@@ -1,0 +1,79 @@
+{
+  "name": "Nomoy Pet NN-02 viseća loza",
+  "label": "Dekoracija",
+  "lead": "Nomoy Pet NN-02 viseća loza - savitljiva veštačka loza sivo-braon boje za penjanje u terarijumu, koju oblikujete po želji.",
+  "image": "/style/img/oprema/dekoracija/nomoy-nn-02-visece-loza.webp",
+  "imageAlt": "Nomoy Pet NN-02 savitljiva viseća loza u pakovanju, za terarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Brend",
+      "v": "Nomoy Pet"
+    },
+    {
+      "k": "Model",
+      "v": "NN-02"
+    },
+    {
+      "k": "Tip",
+      "v": "Veštačka savitljiva loza"
+    },
+    {
+      "k": "Boja",
+      "v": "Sivo-braon"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras i penjanje"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Nomoy Pet NN-02 je veštačka loza za terarijum u sivo-braon boji koja podseća na prirodnu lijanu. Savitljiva je, pa je možete oblikovati po terarijumu kako vam odgovara: pustiti da visi sa plafona, obmotati je oko grane ili je razvući od jednog do drugog zida. Tako dobijate staze za penjanje i koristite i gornji deo terarijuma, koji u mnogim postavkama ostaje prazan."
+    },
+    {
+      "type": "p",
+      "html": "Loza je posebno korisna za vrste koje vole da se penju, kao što su crested gekoni, kameleoni i drugi gušteri koji žive na drveću, ali i za mlade zmije koje istražuju po visini. Dobro se kombinuje sa veštačkim lišćem, granama i pozadinama, pa terarijum dobija izgled prašume."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja lozu operite mlakom vodom i osušite. Učvrstite je na nekoliko tačaka, za granje, dekoracije ili vakuum kukice, i proverite da li drži težinu vaše životinje pre nego što je pustite da se penje. Ne pravite tesne petlje u koje bi se manja životinja mogla zaplesti. Ne vene i ne zahteva zalivanje, a kada se zaprlja, skinite je i isperite. Pogledajte i naše <a href=\"/terarijumi.html\">terarijume</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Nomoy Pet NN-02 savitljiva loza za terarijum",
+    "description": "Nomoy Pet NN-02 savitljiva veštačka loza za penjanje. Oblikujte je po terarijumu za gekone, kameleone i druge penjače. NS Reptiles Novi Sad.",
+    "keywords": "nomoy pet nn-02, loza za terarijum, veštačka loza, savitljiva loza za penjanje, dekoracija za terarijum"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/astecki-suncev-kamen-bez",
+    "oprema/astecki-suncev-kamen-terakota",
+    "oprema/lobanja-sa-gas-maskom",
+    "oprema/lobanja-terakota"
+  ]
+}

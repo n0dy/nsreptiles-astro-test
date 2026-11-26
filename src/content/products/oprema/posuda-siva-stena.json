@@ -1,0 +1,79 @@
+{
+  "name": "Posuda za vodu, siva stena",
+  "label": "Posude",
+  "lead": "Ugaona posuda za vodu u izgledu sive stene, niska i ravnog profila, sa rebrastom rampom u uglu - štedi prostor u terarijumu.",
+  "image": "/style/img/oprema/posuda-siva-stena.webp",
+  "imageAlt": "Posuda za vodu, siva stena - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Posuda za vodu"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Pojilica / hranilica"
+    },
+    {
+      "k": "Oblik",
+      "v": "Ugaoni, nizak profil, rampa"
+    },
+    {
+      "k": "Boja",
+      "v": "Svetlosiva"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova posuda za vodu ima teksturu svetlosive stene i nizak, ravan profil, pa se ne ističe previše u terarijumu. Oblikovana je tako da se lako smesti u ugao, a u jednom uglu unutrašnjosti ima rebrastu rampu, nalik stepeniku, koja vodi od dna do oboda."
+    },
+    {
+      "type": "p",
+      "html": "Rampa olakšava pristup vodi i izlazak iz nje. Životinje sa kratkim nogama, mladunci i kopnene kornjače ne moraju da se penju preko ivice, a insekti koji upadnu u vodu mogu da se izvuku. Rebra na rampi daju oslonac za noge i kandže, i kada su mokre."
+    },
+    {
+      "type": "p",
+      "html": "Ugaoni oblik je posebno praktičan u manjim terarijumima, gde je svaki deo poda važan za kretanje, skrivalice i grejnu zonu."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Posudu postavite u hladniji ugao terarijuma, rampom okrenutom ka unutrašnjosti. Neka stoji direktno na dnu ili na dobro poravnatoj podlozi, da se ne ljulja. Vodu menjajte svakog dana, a rebra rampe povremeno očistite četkicom."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Ugaona posuda za vodu sa rampom, siva stena | NS Reptiles",
+    "description": "Niska ugaona posuda za vodu u izgledu sive stene, sa rebrastom rampom za lak pristup vodi. Štedi prostor u manjem terarijumu. NS Reptiles Novi Sad.",
+    "keywords": "ugaona posuda za vodu, posuda sa rampom, posuda siva stena, posuda za mali terarijum, pojilica za kornjače"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/posuda-za-vodu-tamnosiva",
+    "oprema/posuda-zeleni-kamen",
+    "oprema/posuda-pescar",
+    "oprema/posuda-za-vodu-svetloplava"
+  ]
+}

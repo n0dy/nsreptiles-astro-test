@@ -1,21 +1,33 @@
 {
   "slug": "feeding-tweezers",
-  "name": "Tweezers",
-  "label": "Equipment",
-  "lead": "Tweezers for feeding reptiles. Allow safe feeding without the risk of bites.",
-  "imageAlt": "Tweezers - NS Reptiles",
+  "name": "Nomoy Pet tweezers 30 cm",
+  "label": "Accessories",
+  "lead": "Nomoy Pet stainless steel tweezers, 30 cm long, for feeding reptiles at a safe distance. Model NZ-03/04, shown with a curved tip.",
+  "imageAlt": "Nomoy Pet stainless steel tweezers 30 cm - NS Reptiles",
   "specs": [
     {
-      "k": "Type",
-      "v": "Feeding tweezers"
+      "k": "Brand",
+      "v": "Nomoy Pet"
+    },
+    {
+      "k": "Model",
+      "v": "NZ-03/04"
+    },
+    {
+      "k": "Length",
+      "v": "30 cm"
     },
     {
       "k": "Material",
-      "v": "Metal"
+      "v": "Stainless steel"
+    },
+    {
+      "k": "Tip",
+      "v": "Curved (as pictured)"
     },
     {
       "k": "Intended for",
-      "v": "Feeding reptiles"
+      "v": "Feeding reptiles, terrarium work"
     }
   ],
   "description": [
@@ -25,11 +37,23 @@
     },
     {
       "type": "p",
-      "html": "Metal reptile feeding tweezers are a practical, essential tool for every reptile owner that let you feed your pets safely. They are long enough to keep a safe distance between your hand and the animal during feeding, which greatly reduces the risk of an accidental bite. They are especially useful for feeding species with a strong grabbing reflex, such as bearded dragons, tegus or larger geckos."
+      "html": "The 30 cm Nomoy Pet tweezers are made of stainless steel and designed for feeding reptiles and working in larger terrariums. The packaging is marked model NZ-03/04, and the picture shows the curved-tip version, which makes it easier to reach food and terrarium corners."
     },
     {
       "type": "p",
-      "html": "With tweezers you can offer food precisely - insects, pieces of fruit or other treats - right in front of the animal, stimulating its hunting instinct and making feeding more interactive. The rounded tips prevent injury to the animal during feeding. They are also useful for placing food in dishes inside the terrarium or removing leftover food. They are easy to clean and maintain, and the durable metal guarantees long-lasting use."
+      "html": "Longer tweezers keep your hand further from the animal, which matters with species that have a strong grab reflex, such as bearded dragons and larger geckos, and when feeding snakes thawed prey. They also make work in tall and deep terrariums easier."
+    },
+    {
+      "type": "h2",
+      "text": "Use and care"
+    },
+    {
+      "type": "p",
+      "html": "Offer the food calmly in front of the animal and let it take the bite itself; do not push the tweezers towards its head. You can also use them to remove leftovers and droppings, or rearrange decor without taking the animal out."
+    },
+    {
+      "type": "p",
+      "html": "After feeding, wash the tweezers with warm water and detergent, and disinfect them after handling raw prey. For smaller terrariums and smaller species we also stock the 20 cm Nomoy Pet tweezers. See other accessories in our <a href=\"/en/equipment.html\">equipment</a> range."
     },
     {
       "type": "h2",
@@ -41,8 +65,8 @@
     }
   ],
   "seo": {
-    "title": "Reptile Feeding Tweezers | Equipment - NS Reptiles",
-    "description": "Metal reptile feeding tweezers. Feed your reptiles safely without the risk of bites, with rounded tips. NS Reptiles, Novi Sad, Serbia.",
-    "keywords": "feeding tweezers, reptile feeding tweezers, feeding tongs, terrarium equipment, reptile supplies, NS Reptiles, Novi Sad"
+    "title": "Nomoy Pet Feeding Tweezers 30cm | Curved Tip",
+    "description": "Nomoy Pet 30 cm stainless steel tweezers for feeding bearded dragons, snakes and larger geckos at a safe distance. NS Reptiles, Novi Sad, Serbia.",
+    "keywords": "reptile feeding tweezers, 30cm tweezers, curved tweezers, nomoy pet tweezers, snake feeding tongs"
   }
 }

@@ -1,0 +1,72 @@
+{
+  "name": "Kamena lobanja",
+  "label": "Dekoracija",
+  "lead": "Kamena lobanja za akvarijum i terarijum, sa žuto-zelenom patinom starog kamena, velikim očnim dupljama i šupljinama koje služe kao skrovište.",
+  "image": "/style/img/oprema/dekoracija/kamena-lobanja.webp",
+  "imageAlt": "Kamena lobanja sa žuto-zelenom patinom i velikim očnim dupljama - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - lobanja"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum i terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras i skrovište"
+    },
+    {
+      "k": "Izgled",
+      "v": "Ljudska lobanja sa patinom nalik mahovini i pukotinama"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Kamena lobanja izgleda kao da je dugo ležala na dnu reke ili u vlažnoj pećini. Površina ima žuto-zelenu patinu nalik mahovini, tamne pukotine po temenu i grubu teksturu starog kamena. Velike očne duplje, nosni otvor i razmaknuta vilica sa krupnim zubima daju joj izražajan, pomalo jeziv izgled."
+    },
+    {
+      "type": "p",
+      "html": "Šupljine u lobanji služe kao skrovište. U akvarijumu kroz njih manje ribe i škampi ulaze i izlaze, a zelenkasti tonovi se lepo uklapaju uz biljke. U terarijumu je manji gušteri, gekoni i vodozemci koriste kao zaklon, a posebno se dobro slaže sa vlažnim, tropskim postavkama i mahovinom."
+    },
+    {
+      "type": "h2",
+      "text": "Saveti za postavljanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja lobanju isperite mlakom vodom, bez sapuna i hemijskih sredstava. Postavite je na ravno dno i blago utisnite u podlogu, da stoji stabilno. Proverite da su otvori dovoljno veliki za vaše životinje, kako se nijedna ne bi zaglavila. Za čišćenje koristite meku četkicu, koja skida alge i naslage bez oštećenja patine. Lepo se kombinuje sa korenjem, kamenjem i drugim tematskim dekoracijama iz naše <a href=\"/oprema.html\">opreme</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Kamena lobanja sa patinom - akvarijum i terarijum",
+    "description": "Kamena lobanja sa žuto-zelenom patinom i velikim očnim dupljama. Skrovište za ribe, škampe i manje reptile u akvarijumu ili terarijumu. NS Reptiles.",
+    "keywords": "kamena lobanja, lobanja za akvarijum, lobanja za terarijum, skrovište za ribe, dekoracija lobanja"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum",
+    "terarijum"
+  ],
+  "related": [
+    "oprema/amfora-terakota",
+    "oprema/lobanja-krokodila",
+    "oprema/zamak-sa-kapijom",
+    "oprema/zamak-na-steni"
+  ]
+}

@@ -1,18 +1,22 @@
 {
   "name": "Resun SC-210 sifon za čišćenje dna",
   "label": "Pribor",
-  "lead": "Resun SC-210 sifon - čisti talog sa dna akvarijuma i istovremeno menja vodu.",
+  "lead": "Resun SC-210 sifon sa pumpicom - čisti talog sa dna akvarijuma i istovremeno menja vodu, bez usisavanja ustima.",
   "image": "/style/img/oprema/akvarijum/resun-sc-210-sifon.webp",
   "imageAlt": "Resun SC-210 sifon za čišćenje dna - NS Reptiles",
   "price": 700,
   "specs": [
     {
       "k": "Tip",
-      "v": "Sifon / čistač dna"
+      "v": "Sifon / čistač dna sa pumpicom"
     },
     {
       "k": "Proizvođač",
       "v": "Resun"
+    },
+    {
+      "k": "Model",
+      "v": "SC-210"
     },
     {
       "k": "Namena",
@@ -26,7 +30,24 @@
     },
     {
       "type": "p",
-      "html": "Sifon usisava nečistoće iz šljunka i peska dok ispuštate vodu pri redovnoj delimičnoj promeni. Najkorisniji pribor za održavanje akvarijuma. Fotografija je ilustrativna."
+      "html": "Resun SC-210 je sifon za čišćenje dna akvarijuma: providna cev za šljunak, crevo i gumena pumpica kojom se pokreće protok, bez usisavanja ustima. Istovremeno čisti talog iz peska i šljunka i ispušta vodu, pa redovnu delimičnu promenu vode i čišćenje dna radite u jednom koraku. Cev je providna, pa se dobro vidi koliko je nečistoće izvučeno."
+    },
+    {
+      "type": "h2",
+      "text": "Kako se koristi"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Kantu postavite ispod nivoa akvarijuma i kraj creva stavite u nju.",
+        "Cev za šljunak uronite u akvarijum i nekoliko puta stisnite pumpicu dok voda ne krene.",
+        "Cev zabadajte u šljunak i pomerajte je: lakše čestice nečistoće odlaze crevom, a šljunak pada nazad.",
+        "Kad izvučete planiranu količinu vode, podignite cev iz vode da se protok prekine."
+      ]
+    },
+    {
+      "type": "p",
+      "html": "Delimičnu promenu vode radite redovno, po stalnom rasporedu koji odgovara vašem akvarijumu. Sifon je jedan od najkorisnijih delova pribora, jer uklanja otpad pre nego što se razgradi i pokvari kvalitet vode. Kod sitnog peska držite cev malo iznad podloge, da ne biste usisali pesak. Posle upotrebe sifon isperite čistom vodom i ostavite da se osuši, da se u crevu ne zadržava prljava voda. Novu vodu pre ulivanja izjednačite po temperaturi i tretirajte sredstvom za pripremu vode."
     },
     {
       "type": "h2",
@@ -38,11 +59,11 @@
     }
   ],
   "seo": {
-    "title": "Resun SC-210 sifon za čišćenje dna | NS Reptiles",
-    "description": "Resun SC-210 sifon - čisti talog sa dna akvarijuma i istovremeno menja vodu. NS Reptiles, Novi Sad.",
-    "keywords": "sifon za akvarijum, resun sc-210, čišćenje šljunka, NS Reptiles, Novi Sad"
+    "title": "Resun SC-210 sifon za čišćenje dna akvarijuma | NS Reptiles",
+    "description": "Resun SC-210 sifon sa pumpicom za pokretanje - čisti šljunak i pesak i istovremeno ispušta vodu pri delimičnoj promeni. NS Reptiles Novi Sad.",
+    "keywords": "resun sc-210, sifon za akvarijum, čistač dna, sifon za šljunak, promena vode u akvarijumu"
   },
-  "brand": false,
+  "brand": true,
   "usage": [
     "akvarijum"
   ]

@@ -1,0 +1,60 @@
+{
+  "slug": "castle-tower-aquarium-decoration",
+  "name": "Castle tower",
+  "label": "Decoration",
+  "lead": "Castle tower for aquariums - a narrow, tall decoration with two towers on a gray rock, stairs and openings for fish.",
+  "imageAlt": "Castle tower with two towers on a rock and stairs, aquarium decoration - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Decoration - castle"
+    },
+    {
+      "k": "Look",
+      "v": "Two towers on a gray rock with stairs"
+    },
+    {
+      "k": "Intended for",
+      "v": "Aquarium"
+    },
+    {
+      "k": "Function",
+      "v": "Ornament and hiding place for fish"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The castle tower is an aquarium decoration shaped like two tall battlemented towers rising from a steep gray rock. Stairs climb up the rock, green moss details cover it, and there are openings and windows in the towers and rock. It looks like a fairy-tale fortress on a cliff."
+    },
+    {
+      "type": "p",
+      "html": "The main advantage of this model is its shape: it is narrow and tall, so it takes up little space on the bottom while adding height to the setup. That makes it a good choice for smaller and taller aquariums, as well as for corners where a wider decoration would not fit. The openings serve as hiding places for small fish, and the tower pairs well with the other castles in our range if you want a themed aquarium."
+    },
+    {
+      "type": "h2",
+      "text": "Setup and care"
+    },
+    {
+      "type": "p",
+      "html": "Before placing it, rinse the tower in lukewarm water, without detergents. Because of its height, it is important that it stands firmly: place it on a flat bottom and press the base into the sand or gravel so larger fish cannot knock it over. It looks best in the back or a corner of the aquarium. Clean algae from the crevices with a soft brush during regular maintenance."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Castle Tower on a Rock | Slim Aquarium Ornament",
+    "description": "Tall, narrow castle with two towers on a rock, stairs and openings for fish. Takes up little space on the aquarium floor. NS Reptiles, Novi Sad, Serbia.",
+    "keywords": "castle tower aquarium, aquarium castle ornament, small fish tank decor, fish hiding place, aquarium ornament"
+  }
+}

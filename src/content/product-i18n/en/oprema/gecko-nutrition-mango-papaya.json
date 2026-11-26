@@ -2,8 +2,8 @@
   "slug": "gecko-nutrition-mango-papaya",
   "name": "Gecko Nutrition Mango Papaya",
   "label": "Food",
-  "lead": "A complete powdered diet for geckos with juicy mango (13%) and mild papaya (13%). The only variety in the Gecko Nutrition line that does NOT contain banana. A higher insect content (14%) compared to the other varieties. A harmonious tropical burst of flavor. Crude protein: 26.7%, crude fat: 5.3%, calcium: 2%. Made in Germany.",
-  "imageAlt": "Gecko Nutrition Mango Papaya - gecko food - NS Reptiles",
+  "lead": "Gecko Nutrition Mango Papaya - a complete powdered diet for crested geckos, flavored with mango and papaya, without banana. Mixed with water, made in Germany.",
+  "imageAlt": "Gecko Nutrition Mango Papaya crested gecko diet - NS Reptiles",
   "specs": [
     {
       "k": "Brand",
@@ -11,25 +11,51 @@
     },
     {
       "k": "Type",
-      "v": "Complete diet"
+      "v": "Complete powdered diet"
     },
     {
-      "k": "Weight",
+      "k": "Flavor",
+      "v": "Mango and papaya (no banana)"
+    },
+    {
+      "k": "Pack",
       "v": "50g"
     },
     {
-      "k": "Intended for",
-      "v": "Geckos"
+      "k": "Protein / calcium",
+      "v": "26.7% / 2%"
+    },
+    {
+      "k": "Preparation",
+      "v": "1 part powder : 2 parts water"
+    },
+    {
+      "k": "Made in",
+      "v": "Germany"
     }
   ],
   "description": [
     {
       "type": "h2",
-      "text": "Description"
+      "text": "Detailed description"
     },
     {
       "type": "p",
-      "html": "Gecko Nutrition Mango Papaya is a complete powdered diet made in Germany, specially designed for crested geckos and other fruit-eating (frugivorous) reptiles. This variety stands out as the only one in the entire Gecko Nutrition line that does not contain banana, making it an ideal choice for owners who want to add variety to the diet or whose geckos prefer different flavors. Instead of banana, the formula relies on juicy mango (13%) and mild papaya (13%), creating a harmonious tropical burst of flavor. Notably, this variety contains a higher share of insects - 14% compared to the standard 11% in other varieties - which results in a higher crude protein content of 26.7%. The protein component consists of black soldier fly larvae, mealworms and crickets, which provide complete proteins with all essential amino acids. Crude fat content is 5.3% and calcium 2%, ensuring a balanced nutritional profile. Papaya is known for enzymes that aid digestion, while mango is a rich source of vitamins A and C."
+      "html": "Gecko Nutrition Mango Papaya is a complete powdered diet for crested geckos, made in Germany. Unlike most flavors from this brand, it contains no banana: the fruit part is mango, papaya and dates, and the insect content (14%) is higher than in the classic banana-based fruit flavors (11%)."
+    },
+    {
+      "type": "p",
+      "html": "The main ingredients are insects 14% (black soldier fly larvae, mealworms and crickets), mango 13%, papaya 13% and dates 13%, complemented by whey protein and casein, pea protein, whole grain rice, coconut, bee pollen, honey, carrot, beetroot and spirulina. Vitamins A, D3 and B vitamins are added, along with iron, selenium and manganese."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Crude protein: 26.7%",
+        "Crude fat: 5.3%",
+        "Crude fiber: 3%",
+        "Crude ash: 8.7%",
+        "Calcium: 2%"
+      ]
     },
     {
       "type": "h2",
@@ -37,15 +63,11 @@
     },
     {
       "type": "p",
-      "html": "To prepare a meal, mix one part powder with two parts water (1:2 ratio) until you get a smooth, creamy mixture. Offer the prepared food to your geckos in a shallow dish in the evening, because these animals are most active at night. The recommended feeding schedule is 2-3 evenings a week. Always remove uneaten food after 24 hours to prevent bacterial growth and keep the terrarium clean. In addition to the complete diet, occasionally offer live insects dusted with a calcium supplement. Store the unopened pack in a cool, dry place, away from direct sunlight."
-    },
-    {
-      "type": "h2",
-      "text": "Suitable for"
+      "html": "Mix 1 part powder with 2 parts water (by volume). The mix is runny at first but thickens within a few minutes to a ketchup-like consistency; you can adjust the ratio slightly. The manufacturer recommends feeding 2-3 evenings a week, and leftovers should be removed after 24 hours. Store the opened pack in a cool, dry place; prepared food keeps 3-4 days in the fridge."
     },
     {
       "type": "p",
-      "html": "Crested geckos and other fruit-eating (frugivorous) reptiles."
+      "html": "Besides crested geckos, it also suits other fruit-eating reptiles. Read more about feeding on our <a href=\"/en/lizard-food.html\">lizard food</a> page."
     },
     {
       "type": "h2",
@@ -57,8 +79,8 @@
     }
   ],
   "seo": {
-    "title": "Gecko Nutrition Mango Papaya | Banana-Free Gecko Diet",
-    "description": "Gecko Nutrition Mango Papaya 50g: complete powdered gecko diet with mango and papaya, no banana. Made in Germany. NS Reptiles, delivery across Serbia.",
-    "keywords": "gecko nutrition mango papaya, gecko food, crested gecko diet, banana-free gecko diet, powdered reptile food, NS Reptiles, Novi Sad, Serbia"
+    "title": "Gecko Nutrition Mango Papaya 50g | Banana-Free Diet",
+    "description": "Gecko Nutrition Mango Papaya 50g: banana-free crested gecko diet with 14% insects and 26.7% protein. Made in Germany. NS Reptiles.",
+    "keywords": "gecko nutrition mango papaya, banana free crested gecko diet, crested gecko food, complete gecko diet, gecko food Serbia"
   }
 }

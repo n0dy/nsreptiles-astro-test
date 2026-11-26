@@ -1,0 +1,79 @@
+{
+  "name": "Posuda za vodu, ovalna crvena stena",
+  "label": "Posude",
+  "lead": "Ovalna posuda za vodu u izgledu crvenkaste stene, izdužena i sa višim zidovima - za piće, a za manje zmije i za kupanje.",
+  "image": "/style/img/oprema/posuda-ovalna-crvena-stena.webp",
+  "imageAlt": "Posuda za vodu, ovalna crvena stena - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Posuda za vodu"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Pojilica / hranilica"
+    },
+    {
+      "k": "Oblik",
+      "v": "Ovalan, izdužen"
+    },
+    {
+      "k": "Boja",
+      "v": "Crvenkasto-braon, svetliji prošarani obod"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ovalna posuda za vodu ima izdužen oblik i zidove u izgledu crvenkaste stene, sa svetlijim, kao izbledelim delovima po obodu. Unutrašnjost je glatka i ravnomerno braon, pa se lepo vidi da li je voda čista."
+    },
+    {
+      "type": "p",
+      "html": "Izdužen oblik je zgodan za zmije. Zmija koja ceo deo tela može da smesti u posudu rado se potapa u vodu, naročito pred presvlačenje kože, kada joj vlaga pomaže da koža lakše spadne. Kada birate posudu za kupanje, proverite da li vaša zmija može da se sklupča u njoj. Za veće jedinke ova posuda služi kao pojilica."
+    },
+    {
+      "type": "p",
+      "html": "Ovalna forma se lako postavlja duž zadnjeg ili bočnog stakla, a crvenkasti tonovi se uklapaju u terarijume sa braon i crvenom podlogom."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Napunite posudu toliko da voda ne prelije kada se životinja potopi. Vodu menjajte svakog dana, a posle kupanja odmah, jer zmije često vrše nuždu u vodi. Posudu operite toplom vodom i četkom, a jednom nedeljno je temeljno očistite."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Ovalna posuda za vodu, crvena stena - za zmije | NS Reptiles",
+    "description": "Izdužena ovalna posuda za vodu u izgledu crvenkaste stene - pojilica i kada za kupanje manjih zmija pred presvlačenje. NS Reptiles, Novi Sad.",
+    "keywords": "ovalna posuda za vodu, posuda za zmije, posuda za kupanje zmije, pojilica za kukuruznog smuka, posuda crvena stena"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/posuda-astecki-motivi",
+    "oprema/posuda-kamena-zaba",
+    "oprema/mala-okrugla-posuda-braon",
+    "oprema/posuda-porozni-sivi-kamen"
+  ]
+}

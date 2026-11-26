@@ -1,0 +1,83 @@
+{
+  "name": "Skrivalica kora drveta",
+  "label": "Skrivalice",
+  "lead": "Skrivalica u obliku polucevi sa teksturom tamne kore drveta, otvorena na krajevima i sa bočnim otvorom - tunel za zmije i šumske guštere.",
+  "image": "/style/img/oprema/skrivalica-kora-drveta.webp",
+  "imageAlt": "Skrivalica kora drveta - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Skrivalica"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Zaklon"
+    },
+    {
+      "k": "Oblik",
+      "v": "Polucev (tunel), bočni otvor"
+    },
+    {
+      "k": "Izgled",
+      "v": "Tamna, gruba kora drveta"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova skrivalica izgleda kao komad šuplje kore drveta prepolovljen po dužini. Spolja je tamna, gruba i izbrazdana tekstura kore, a unutrašnjost je prolaz otvoren na oba kraja. Na jednoj strani se nalazi i ovalni bočni otvor, kao rupa u stablu."
+    },
+    {
+      "type": "p",
+      "html": "Tunel sa tri izlaza voli većina zmija i guštera koji se kreću po šumskom tlu. Mogu da se provuku kroz njega, da se odmaraju unutra ili da vire kroz bočni otvor, a uvek imaju više puteva za izlazak. Kora drveta je prirodan izbor za tropske i šumske postavke, uz mahovinu, lišće i grane."
+    },
+    {
+      "type": "h2",
+      "text": "Ideje za postavljanje"
+    },
+    {
+      "type": "p",
+      "html": "Tunel možete delimično ukopati u podlogu, tako da izgleda kao oboreno stablo koje viri iz zemlje. Za vrste koje vole tesne prostore, postavite ga tako da je jedan kraj uz staklo ili kamen, pa unutra bude tamnije. U vlažnom terarijumu, mahovina oko tunela pomaže da unutrašnjost ostane blago vlažna."
+    },
+    {
+      "type": "h2",
+      "text": "Održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Gruba tekstura zadržava podlogu i prljavštinu, pa skrivalicu povremeno izribajte četkom pod toplom vodom."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Skrivalica kora drveta - tunel za zmije | NS Reptiles",
+    "description": "Skrivalica u obliku polucevi od tamne kore drveta, otvorena na krajevima i sa bočnim otvorom - tunel za zmije i šumske guštere. NS Reptiles.",
+    "keywords": "skrivalica kora drveta, tunel za zmije, skrivalica za tropski terarijum, skrivalica za kukuruznog smuka, skrovište za terarijum"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/skrivalica-kameni-polukrug",
+    "oprema/skrivalica-astecki-kalendar",
+    "oprema/skrivalica-polucev-braon",
+    "oprema/skrivalica-braon-stena"
+  ]
+}

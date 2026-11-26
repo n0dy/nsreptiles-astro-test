@@ -1,18 +1,22 @@
 {
   "name": "Sera Reptil Professional Carnivor 250 ml",
   "label": "Hrana",
-  "lead": "Sera Reptil Professional Carnivor - hrana za mesojede reptile i vodene kornjače, pakovanje 250 ml (72 g).",
+  "lead": "Sera Reptil Professional Carnivor Nature 250 ml - osnovna plutajuća hrana za mesojede reptile, posebno vodene kornjače. Bez boja i konzervansa.",
   "image": "/style/img/oprema/akvarijum/sera-reptil-carnivor-250ml.webp",
-  "imageAlt": "Sera Reptil Professional Carnivor 250 ml - NS Reptiles",
+  "imageAlt": "Sera Reptil Professional Carnivor Nature 250 ml, hrana za vodene kornjače - NS Reptiles",
   "price": 1000,
   "specs": [
     {
-      "k": "Tip",
-      "v": "Hrana za mesojede reptile"
+      "k": "Brend",
+      "v": "Sera"
     },
     {
-      "k": "Proizvođač",
-      "v": "Sera"
+      "k": "Model",
+      "v": "Reptil Professional Carnivor Nature"
+    },
+    {
+      "k": "Tip",
+      "v": "Osnovna hrana, plutajuće granule"
     },
     {
       "k": "Pakovanje",
@@ -20,7 +24,7 @@
     },
     {
       "k": "Namena",
-      "v": "Akvarijum / terarijum"
+      "v": "Vodene kornjače i mesojedi reptili"
     }
   ],
   "description": [
@@ -30,7 +34,19 @@
     },
     {
       "type": "p",
-      "html": "Kompletna hrana za mesojede i svaštojede reptile, pogodna i za vodene kornjače. Sadrži insekte i ribu kao izvore proteina, sa dodatkom vitamina i minerala. Hrani se umereno, tako da životinja pojede obrok za nekoliko minuta."
+      "html": "Sera Reptil Professional Carnivor Nature je kompletna, osnovna hrana za mesojede reptile, pre svega vodene kornjače. Granule su dvobojne i plutaju: spoljni prsten sadrži vodene organizme kao izvor proteina i omega masnih kiselina, a jezgro se proizvodi na nižoj temperaturi da bi se sačuvale hranljive materije. Hrana pripada Sera Nature liniji, bez veštačkih boja i konzervansa."
+    },
+    {
+      "type": "p",
+      "html": "U sastavu su riblje brašno, gamarus (4%), kril, zelena dagnja, riblje ulje, morske alge, pivski kvasac i beli luk, uz dodatak vitamina A, D3, E, B1, B2 i C. Proizvođač ističe odnos kalcijuma i fosfora koji podržava rast kostiju i oklopa."
+    },
+    {
+      "type": "h2",
+      "text": "Kako hraniti"
+    },
+    {
+      "type": "p",
+      "html": "Hranite umereno, onoliko koliko kornjača pojede za nekoliko minuta, a ostatke izvadite iz vode da ne opterećuju filter. Prema potrebama životinje granule možete kombinovati sa svežom hranom. Više o uređenju prostora pročitajte u vodiču <a href=\"/akvarijumi/akvarijum-za-kornjacu.html\">akvarijum za kornjaču</a>."
     },
     {
       "type": "h2",
@@ -42,9 +58,9 @@
     }
   ],
   "seo": {
-    "title": "Sera Reptil Professional Carnivor 250 ml | NS Reptiles",
-    "description": "Sera Reptil Professional Carnivor - hrana za mesojede reptile i vodene kornjače, pakovanje 250 ml (72 g). NS Reptiles, Novi Sad.",
-    "keywords": "sera carnivor, hrana za kornjače, hrana za vodene kornjače, NS Reptiles, Novi Sad"
+    "title": "Sera Reptil Carnivor Nature 250 ml | Hrana za kornjače",
+    "description": "Sera Reptil Professional Carnivor Nature 250 ml (72 g): plutajuće granule za vodene kornjače sa 4% gamarusa, bez boja i konzervansa. NS Reptiles.",
+    "keywords": "sera reptil carnivor, hrana za vodene kornjače, sera carnivor nature, hrana za kornjače granule, hrana za mesojede reptile"
   },
   "brand": false,
   "usage": [

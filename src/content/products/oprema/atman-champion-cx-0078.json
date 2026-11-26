@@ -1,26 +1,26 @@
 {
   "name": "Atman Champion CX-0078 vazdušna pumpa",
-  "label": "Vazdušne pumpe",
-  "lead": "Atman Champion CX-0078 vazdušna pumpa, jedan izlaz, 2,5 W - za manje akvarijume.",
+  "label": "Aeracija",
+  "lead": "Atman Champion CX-0078 vazdušna pumpa sa jednim izlazom - tiha aeracija za manje akvarijume.",
   "image": "/style/img/oprema/akvarijum/atman-champion-cx-0078.webp",
   "imageAlt": "Atman Champion CX-0078 vazdušna pumpa - NS Reptiles",
   "price": 1000,
   "specs": [
     {
       "k": "Tip",
-      "v": "Vazdušna pumpa sa jednim izlazom"
+      "v": "Membranska vazdušna pumpa"
     },
     {
       "k": "Proizvođač",
       "v": "Atman"
     },
     {
-      "k": "Izlazi",
-      "v": "1"
+      "k": "Model",
+      "v": "Champion CX-0078"
     },
     {
-      "k": "Snaga",
-      "v": "2,5 W"
+      "k": "Izlazi",
+      "v": "1"
     },
     {
       "k": "Namena",
@@ -34,7 +34,19 @@
     },
     {
       "type": "p",
-      "html": "Tiha i štedljiva membranska vazdušna pumpa za jedan raspršivač ili sunđer filter. Obogaćuje vodu kiseonikom i pokreće površinu."
+      "html": "Atman Champion CX-0078 je membranska vazdušna pumpa sa jednim izlazom. Na ambalaži je proizvođač opisuje kao veoma tihu pumpu niske potrošnje i jakog protoka vazduha. Namenjena je manjim akvarijumima, gde pokreće jedan raspršivač ili jedan sunđer filter. Pumpa se povezuje crevom za vazduh, a protok vazduha zavisi i od dubine vode i otpora raspršivača."
+    },
+    {
+      "type": "p",
+      "html": "Vazdušna pumpa potiskuje vazduh kroz crevo do raspršivača ili sunđer filtera. Mehurići pokreću površinu vode, gde se odvija razmena gasova, pa voda dobija više kiseonika. To je posebno važno leti, kada topla voda drži manje kiseonika, u gusto naseljenim akvarijumima i tokom lečenja riba."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje"
+    },
+    {
+      "type": "p",
+      "html": "Pumpu postavite iznad nivoa vode ili na crevo stavite nepovratni ventil, da voda pri nestanku struje ne bi iscurela nazad u pumpu. Postavite je na meku podlogu kako vibracije ne bi prelazile na nameštaj. Za povezivanje su potrebni crevo za vazduh i raspršivač, koje takođe imamo u ponudi."
     },
     {
       "type": "h2",
@@ -46,9 +58,9 @@
     }
   ],
   "seo": {
-    "title": "Atman Champion CX-0078 vazdušna pumpa | NS Reptiles",
-    "description": "Atman Champion CX-0078 vazdušna pumpa, jedan izlaz, 2,5 W - za manje akvarijume. NS Reptiles, Novi Sad.",
-    "keywords": "atman champion, vazdušna pumpa, pumpa za vazduh akvarijum, NS Reptiles, Novi Sad"
+    "title": "Atman Champion CX-0078 vazdušna pumpa, 1 izlaz | NS Reptiles",
+    "description": "Atman Champion CX-0078 tiha vazdušna pumpa sa jednim izlazom, niske potrošnje. Za raspršivač ili sunđer filter u manjem akvarijumu. NS Reptiles.",
+    "keywords": "atman champion cx-0078, vazdušna pumpa, pumpa za vazduh akvarijum, aeracija, tiha vazdušna pumpa"
   },
   "brand": false,
   "usage": [

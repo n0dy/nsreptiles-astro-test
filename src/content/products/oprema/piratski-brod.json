@@ -1,14 +1,18 @@
 {
   "name": "Piratski brod",
   "label": "Dekoracija",
-  "lead": "Piratski brod - dekorativan akvarijumski element koji služi i kao skrovište za ribe.",
-  "image": "/style/img/oprema/dekoracija/piratski-brod.png",
-  "imageAlt": "Piratski brod - NS Reptiles",
+  "lead": "Piratski brod za akvarijum sa jarbolima, pocepanim jedrima i zastavom sa lobanjom - upečatljiv ukras i skrovište za ribe.",
+  "image": "/style/img/oprema/dekoracija/piratski-brod.webp",
+  "imageAlt": "Piratski brod sa jarbolima, pocepanim jedrima i piratskom zastavom, dekoracija za akvarijum - NS Reptiles",
   "price": 0,
   "specs": [
     {
       "k": "Tip",
       "v": "Dekoracija - piratski brod"
+    },
+    {
+      "k": "Izgled",
+      "v": "Jarboli, pocepana jedra, piratska zastava"
     },
     {
       "k": "Namena",
@@ -26,7 +30,19 @@
     },
     {
       "type": "p",
-      "html": "Piratski brod je dekorativan element za akvarijum koji pruža zanimljiv vizuelni akcenat i funkcionalno skrovište za ribe. Detaljno modelovan brod sa piratskim motivima odmah privlači pažnju i postaje centralni element akvarijuma. Šuplji delovi broda - trup i paluba - omogućavaju ribama da plivaju kroz njega i koriste ga kao skrovište, što je posebno korisno za stidljivije vrste kojima su potrebna mesta za sklanjanje. Izrađen je od materijala bezbednog za upotrebu pod vodom koji ne utice na parametre vode. Idealan za dečije akvarijume ili za sve koji žele tematski uređen akvarijum sa nautičkim motivima. Kombinujte ga sa brodskim kormilom i sidrom za potpuni piratski ugođaj."
+      "html": "Piratski brod je dekoracija za akvarijum koja odmah privlači pogled. Brod ima više jarbola sa pocepanim jedrima obraslim zelenilom, zastavu sa lobanjom i ukrštenim kostima na vrhu i trup sa nizom otvora, pa izgleda kao olupina koja godinama leži na dnu mora. Detalji su bogati, pa brod najbolje dolazi do izražaja kao centralni element postavke."
+    },
+    {
+      "type": "p",
+      "html": "Otvori na trupu omogućavaju ribama da ulaze u brod i koriste ga kao skrovište, što je posebno korisno za stidljivije vrste kojima su potrebna mesta za sklanjanje. Idealan je za dečije akvarijume i za sve koji žele tematski uređen akvarijum sa nautičkim motivima. Kombinujte ga sa piratskom lobanjom i sidrom za potpuni piratski ugođaj."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja brod isperite mlakom vodom, bez deterdženata. Zbog visine ga postavite u zadnji ili srednji deo akvarijuma, stabilno na pesak ili šljunak, tako da ne zaklanja pogled na ribe niti ometa protok vode iz filtera. Tanke delove jedara i jarbola čistite pažljivo, mekom četkicom, da ih ne biste oštetili."
     },
     {
       "type": "h2",
@@ -38,14 +54,13 @@
     }
   ],
   "seo": {
-    "title": "Piratski brod za akvarijum | Oprema - NS Reptiles",
-    "description": "Piratski brod - dekorativan akvarijumski element koji služi i kao skrovište za ribe. NS Reptiles Novi Sad.",
-    "keywords": "piratski brod, dekoracija za akvarijum, skrovište za ribe, akvarijum dekoracija, NS Reptiles, Novi Sad",
-    "ogTitle": "Piratski brod za akvarijum | NS Reptiles"
+    "title": "Piratski brod sa jedrima - dekoracija za akvarijum",
+    "description": "Piratski brod sa jarbolima, pocepanim jedrima i piratskom zastavom. Ukras za akvarijum i skrovište za ribe kroz otvore na trupu. NS Reptiles Novi Sad.",
+    "keywords": "piratski brod za akvarijum, dekoracija brod, ukras za akvarijum, skrovište za ribe, piratska dekoracija",
+    "ogTitle": "Piratski brod sa jedrima - dekoracija za akvarijum"
   },
   "related": [
     "oprema/dekorativna-lobanja",
-    "oprema/posude-za-reptile",
     "oprema/cork-bark",
     "oprema/maple-leaf-stone-1kg"
   ],

@@ -1,0 +1,68 @@
+{
+  "slug": "t5-14w-fluorescent-fixture",
+  "name": "14W fluorescent tube fixture",
+  "label": "Lighting",
+  "lead": "Mubang MB-DZ14W electronic fixture for a single 14 W T5 fluorescent tube, for terrarium lighting. The ballast is built into the fixture.",
+  "imageAlt": "Mubang MB-DZ14W fixture for a 14W T5 fluorescent tube - NS Reptiles",
+  "specs": [
+    {
+      "k": "Manufacturer",
+      "v": "Mubang International Lighting"
+    },
+    {
+      "k": "Model",
+      "v": "MB-DZ14W"
+    },
+    {
+      "k": "Type",
+      "v": "Electronic fixture, single tube"
+    },
+    {
+      "k": "Tube",
+      "v": "T5, 14 W"
+    },
+    {
+      "k": "Intended for",
+      "v": "Terrarium lighting"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This is an electronic fixture for a single 14 W T5 fluorescent tube, made by Mubang International Lighting, model MB-DZ14W. The packaging describes it as an integrated T5 fixture for one 14 W tube, which means the electronic ballast is built into the fixture body and no separate unit is needed."
+    },
+    {
+      "type": "p",
+      "html": "T5 tubes are slim (16 mm) and give plenty of light with low power use, so they are a common choice for daytime lighting in terrariums and planted vivariums. The fixture is practical to mount under a lid or on top of the terrarium."
+    },
+    {
+      "type": "h2",
+      "text": "Things to keep in mind"
+    },
+    {
+      "type": "p",
+      "html": "The fixture only works with 14 W T5 tubes, so check that your tube matches that wattage and length before buying. Before ordering, check with us whether you also need a tube. If you need UVB, choose a UVB tube of the right wattage and length for this fixture, or call us to check compatibility."
+    },
+    {
+      "type": "p",
+      "html": "Do not install the fixture where the animal can reach it or where it will be sprayed with water. Call us before ordering for exact dimensions and a tube recommendation, and see other lighting in our <a href=\"/en/equipment.html\">equipment</a> range."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Order by phone or WhatsApp message. Fast courier delivery. Customers in Novi Sad can pick up their order directly at our workshop. Contact us with any questions about the product or for a recommendation for your species."
+    }
+  ],
+  "seo": {
+    "title": "T5 14W Fluorescent Fixture - Mubang MB-DZ14W",
+    "description": "Mubang MB-DZ14W electronic fixture for a single 14 W T5 fluorescent tube, with a built-in ballast, for terrarium lighting. NS Reptiles, Serbia.",
+    "keywords": "t5 fluorescent fixture, 14w t5 fixture, terrarium light fixture, terrarium lighting, mubang t5"
+  }
+}

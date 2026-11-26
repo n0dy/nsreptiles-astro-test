@@ -1,9 +1,9 @@
 {
   "name": "Arcadia UVB 10% 15W T8",
   "label": "Rasveta",
-  "lead": "Arcadia 10% UVB T8 cev 15W / 450mm. Za pustinjske vrste reptila kojima treba jako UVB zračenje.",
+  "lead": "Arcadia Euro Range Desert 10% UVB T8 cev od 15 W i 450 mm, za pustinjske vrste kojima treba jače UVB zračenje. Proizvođač navodi 9 meseci trajanja.",
   "image": "/style/img/oprema/uvb10.webp",
-  "imageAlt": "Arcadia UVB 10% 15W T8 - NS Reptiles",
+  "imageAlt": "Arcadia Euro Range Desert 10% UVB T8 15W 450 mm - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -11,24 +11,32 @@
       "v": "Arcadia"
     },
     {
-      "k": "UVB",
-      "v": "10%"
+      "k": "Model",
+      "v": "Euro Range Desert 10% T8"
     },
     {
       "k": "Snaga",
-      "v": "15W"
-    },
-    {
-      "k": "Tip",
-      "v": "T8 fluorescentna cev"
+      "v": "15 W"
     },
     {
       "k": "Dužina",
-      "v": "450mm"
+      "v": "450 mm"
     },
     {
-      "k": "Namena",
-      "v": "Pustinjske vrste reptila"
+      "k": "Prečnik",
+      "v": "26 mm (T8)"
+    },
+    {
+      "k": "UVB / UVA",
+      "v": "10% / 12%"
+    },
+    {
+      "k": "Temperatura boje",
+      "v": "6600 K"
+    },
+    {
+      "k": "Trajanje UVB",
+      "v": "9 meseci"
     }
   ],
   "description": [
@@ -38,11 +46,23 @@
     },
     {
       "type": "p",
-      "html": "Arcadia 10% UVB T8 fluorescentna cev snage 15W i dužine 450mm namenjena je pustinjskim vrstama reptila koje u prirodi žive izložene jakom sunčevom zračenju. UVB zračenje je neophodno za sintezu vitamina D3 u koži reptila, koji je ključan za apsorpciju kalcijuma i pravilan razvoj kostiju. Bez adekvatnog UVB osvetljenja, reptili mogu razviti metaboličku bolest kostiju (MBD)."
+      "html": "Arcadia Euro Range Desert 10% je T8 fluorescentna cev za reptile iz Arcadia Euro Range linije, koju proizvođač opisuje kao kvalitetnu, dugotrajnu i povoljnu seriju sa potpunom zaštitom od UVC zračenja i dobrim prikazom boja. Model od 15 W je dug 450 mm, prečnika 26 mm, sa 10% UVB, 12% UVA i temperaturom boje 6600 K."
     },
     {
       "type": "p",
-      "html": "Visok procenat od 10% simulira intenzivnu sunčevu svetlost pustinjskih i savanskih stanista, što je idealno za bradate agame, uromastikse i druge pustinjske vrste. T8 cev se postavlja u odgovarajući nosač (kontroler) na vrhu terarijuma i ravnomerno osvetljava celu dužinu. Menjajte cev svakih 6-12 meseci jer UVB emisija slabi tokom vremena, čak i kada vidljiva svetlost ostaje nepromenjena."
+      "html": "UVB zračenje omogućava reptilima da u koži stvaraju vitamin D3, neophodan za iskorišćavanje kalcijuma i zdrave kosti. Ova cev je dobar izbor za pustinjske vrste kojima treba jače UVB zračenje i koje se u prirodi dugo sunčaju. Procenat od 10% je jača od dve Euro Range varijante; za šumske vrste i vrste koje žive u senci postoji Forest 5%."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i zamena"
+    },
+    {
+      "type": "p",
+      "html": "Cev se postavlja u T8 svetiljku sa predspojnim uređajem odgovarajuće dužine, iznad mesta za sunčanje, a reflektor povećava količinu UVB zračenja koja stiže do životinje. Ostavite u terarijumu i zonu u senci. Proizvođač navodi da Euro Range cevi treba menjati posle 9 meseci, jer UVB slabi iako cev i dalje svetli."
+    },
+    {
+      "type": "p",
+      "html": "Svetiljke za fluo cevi, termometre i ostalu opremu pronađite u ponudi <a href=\"/oprema.html\">opreme</a>."
     },
     {
       "type": "h2",
@@ -54,10 +74,9 @@
     }
   ],
   "seo": {
-    "title": "Arcadia UVB 10% 15W T8 | UVB Cev za Reptile - NS Reptiles",
-    "description": "Arcadia 10% UVB T8 cev 15W / 450mm za pustinjske vrste reptila kojima treba jako UVB zračenje. Za sintezu vitamina D3.",
-    "keywords": "Arcadia UVB 10% 15W T8, UVB cev za reptile, pustinjske vrste reptila, UVB osvetljenje, NS Reptiles",
-    "ogTitle": "Arcadia UVB 10% 15W T8 | NS Reptiles"
+    "title": "Arcadia Euro Desert 10% UVB T8 15W 450mm",
+    "description": "Arcadia Euro Range Desert 10% UVB T8 cev 15 W, 450 mm, za pustinjske vrste kojima treba jače UVB zračenje. Zamena posle 9 meseci. NS Reptiles Novi Sad.",
+    "keywords": "arcadia desert 10%, uvb cev t8 15w, uvb cev 450mm, uvb cev za pustinjske guštere, arcadia euro range"
   },
   "related": [
     "oprema/arcadia-uvb-5-18w",

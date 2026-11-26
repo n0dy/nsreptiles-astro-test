@@ -1,0 +1,72 @@
+{
+  "slug": "nomoy-pet-nd-25-uva-daylight-bulb",
+  "name": "Nomoy Pet UVA Day Light ND-25",
+  "label": "Lighting",
+  "lead": "Nomoy Pet ND-25 Reptile UVA Day Light is a daytime bulb with UVA for terrariums: it gives light and heat for the basking spot. It does not replace a UVB lamp.",
+  "imageAlt": "Nomoy Pet ND-25 Reptile UVA Day Light bulb - NS Reptiles",
+  "specs": [
+    {
+      "k": "Brand",
+      "v": "Nomoy Pet"
+    },
+    {
+      "k": "Model",
+      "v": "ND-25 Reptile UVA Day Light"
+    },
+    {
+      "k": "Type",
+      "v": "Daytime bulb with UVA"
+    },
+    {
+      "k": "Function",
+      "v": "Daylight and heat"
+    },
+    {
+      "k": "Intended for",
+      "v": "Terrarium"
+    },
+    {
+      "k": "Note",
+      "v": "No UVB"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The Nomoy Pet ND-25 Reptile UVA Day Light is a daytime reflector bulb for terrariums. It gives light and heat, so it is used for the basking spot during the day. On the packaging, the manufacturer states that the bulb improves reptile appetite and promotes normal metabolism; reptiles can see the UVA spectrum, so it affects their natural behaviour."
+    },
+    {
+      "type": "p",
+      "html": "The bulb provides no UVB, which most day-active lizards and tortoises need to make vitamin D3. For those species, use it together with a UVB tube or UVB bulb."
+    },
+    {
+      "type": "h2",
+      "text": "Installation"
+    },
+    {
+      "type": "p",
+      "html": "Fit the bulb in a ceramic socket above the basking spot, on one side of the terrarium, to create a warm and a cooler zone. Switch it on only during the day, and for night-time heat use a heat source without light, such as a ceramic heater. Check the basking temperature with a thermometer."
+    },
+    {
+      "type": "p",
+      "html": "For a stable temperature, connect the bulb to a thermostat. Call us for the exact wattage and a recommendation for your terrarium, and see UVB lighting and sockets in our <a href=\"/en/equipment.html\">equipment</a> range."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Order by phone or WhatsApp message. Fast courier delivery. Customers in Novi Sad can pick up their order directly at our workshop. Contact us with any questions about the product or for a recommendation for your species."
+    }
+  ],
+  "seo": {
+    "title": "Nomoy Pet ND-25 UVA Daylight Basking Bulb",
+    "description": "Nomoy Pet ND-25 Reptile UVA Day Light: daytime bulb with UVA for light and heat at the basking spot. Use alongside a UVB lamp. NS Reptiles, Serbia.",
+    "keywords": "uva basking bulb, reptile daylight bulb, nomoy pet nd-25, basking lamp, terrarium heat bulb"
+  }
+}

@@ -1,18 +1,22 @@
 {
   "name": "Kora plute",
-  "label": "Oprema",
-  "lead": "Prirodna kora plutanog hrasta. Dekoracija, skrovište i platforma za penjanje u terarijumima. Otporna na vlagu i kompatibilna sa bioaktivnim postavkama.",
+  "label": "Dekoracija",
+  "lead": "Kora plute za terarijum - prirodna, lagana i otporna na vlagu. Služi kao skrovište, tunel i površina za penjanje za guštere, zmije i paukove.",
   "image": "/style/img/oprema/cork-bark.webp",
-  "imageAlt": "Kora plute - NS Reptiles",
+  "imageAlt": "Kora plute, šuplji prirodni komadi za terarijum - NS Reptiles",
   "price": 0,
   "specs": [
     {
       "k": "Materijal",
-      "v": "Prirodna pluta"
+      "v": "Prirodna pluta (kora plutanog hrasta)"
     },
     {
       "k": "Tip",
       "v": "Dekoracija / skrovište"
+    },
+    {
+      "k": "Oblik",
+      "v": "Prirodni komadi, oblik se razlikuje"
     },
     {
       "k": "Poreklo",
@@ -20,7 +24,7 @@
     },
     {
       "k": "Namena",
-      "v": "Sve vrste reptila"
+      "v": "Terarijumi za sve vrste reptila"
     }
   ],
   "description": [
@@ -30,19 +34,23 @@
     },
     {
       "type": "p",
-      "html": "Kora plute (cork bark) je jedan od najsvestranijih i najpopularnijih prirodnih materijala za uređenje terarijuma. Dobija se od plutanog hrasta i potpuno je bezbedna za upotrebu sa reptilima. Njena jedinstvena tekstura i prirodan izgled čine je idealnom za stvaranje autentičnog, prirodnog okruženja u terarijumu, dok njena funkcionalnost prevazilazi čisto estetsku ulogu."
+      "html": "Kora plute dobija se sa plutanog hrasta i jedan je od najčešće korišćenih prirodnih materijala za uređenje terarijuma. Na slici se vide šuplji, cevasti komadi sa grubom, izbrazdanom površinom u sivo-zelenim i smeđim tonovima. Svaki komad je prirodan, pa se oblik i veličina razlikuju od komada do komada."
     },
     {
       "type": "p",
-      "html": "Kora plute ima višestruku namenu u terarijumu. Arborealni reptili poput crested gekona, dnevnih gekona i anola koriste je kao platformu za penjanje i odmor, jer njena hrapava površina pruža odličan grip. Terestrični reptili poput leopard gekona i zmija koriste je kao skrovište, posebno kada se postavi u obliku tunela ili poluokruglog zaklona. Ravni komadi mogu služiti kao pozadina terarijuma ili kao platforma za sunčanje ispod grejne lampe."
+      "html": "Šuplji i polukružni komadi postaju gotovo skrovište ili tunel za leopard gekone, zmije i druge životinje koje se kriju pri tlu. Arborealne vrste, poput crested gekona, koriste koru za penjanje i odmor, jer hrapava površina daje dobar oslonac nogama. Ravniji komadi mogu se pričvrstiti uz zadnji zid ili postaviti kao platforma na toplijoj strani terarijuma."
     },
     {
       "type": "p",
-      "html": "Jedna od najvažnijih prednosti kore plute je njena otpornost na vlagu i plesan, što je čini savršenom za tropske terarijume sa visokom vlažnošću. Lagana je i jednostavna za oblikovanje - može se seći, lomiti i slagati prema potrebi. Potpuno je kompatibilna sa bioaktivnim postavkama terarijuma. Izdržljiva je i dugotrajna, ne truli lako čak ni u vlažnim uslovima, čime se ispostavlja kao ekonomičan izbor za dugoročnu upotrebu."
+      "html": "Pluta je lagana, otporna na vlagu i sporo se razgrađuje, pa se dobro drži i u tropskim terarijumima sa visokom vlažnošću. Kompatibilna je sa bioaktivnim postavkama, a po potrebi se može seći ili lomiti na manje delove."
+    },
+    {
+      "type": "h2",
+      "text": "Priprema i održavanje"
     },
     {
       "type": "p",
-      "html": "Pogodna je za sve vrste reptila, bez obzira na tip terarijuma - od pustinjskih do tropskih postavki."
+      "html": "Pre postavljanja koru isperite i očetkajte mlakom vodom, da uklonite prašinu i ostatke sa površine, pa je ostavite da se osuši. Teže komade postavite direktno na dno terarijuma, ispod podloge, da se ne pomeraju kada životinja kopa. U vlažnim terarijumima povremeno izvadite koru, očistite je četkom i proverite da se na njoj nije pojavila buđ."
     },
     {
       "type": "h2",
@@ -54,9 +62,9 @@
     }
   ],
   "seo": {
-    "title": "Kora plute za terarijum | Oprema - NS Reptiles",
-    "description": "Prirodna kora plute za terarijum - dekoracija, skrovište i platforma za penjanje. Otporna na vlagu, bioaktivna. NS Reptiles Novi Sad, dostava širom Srbije.",
-    "keywords": "kora plute, cork bark, dekoracija za terarijum, skrovište za reptile, platforma za penjanje, bioaktivni terarijum, oprema za terarijum, NS Reptiles, Novi Sad, Srbija"
+    "title": "Kora plute za terarijum - skrovište i penjanje | NS Reptiles",
+    "description": "Prirodna kora plute za terarijum: šuplji komadi za skrovište, tunel i penjanje. Lagana, otporna na vlagu, za bioaktivne postavke. NS Reptiles.",
+    "keywords": "kora plute za terarijum, cork bark, pluta za terarijum, skrovište za reptile, bioaktivni terarijum, dekoracija za terarijum"
   },
   "related": [
     "oprema/spagnum-treset-5l",

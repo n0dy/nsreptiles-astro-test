@@ -1,0 +1,79 @@
+{
+  "name": "Skrivalica šuplje drvo",
+  "label": "Skrivalice",
+  "lead": "Skrivalica u obliku šupljeg stabla sa okruglim bočnim otvorom, u toploj braon boji - tunel i prozor za zmije, gekone i šumske guštere.",
+  "image": "/style/img/oprema/skrivalica-suplje-drvo.webp",
+  "imageAlt": "Skrivalica šuplje drvo - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Skrivalica"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Zaklon"
+    },
+    {
+      "k": "Oblik",
+      "v": "Šuplje stablo, otvoreni krajevi, bočni otvor"
+    },
+    {
+      "k": "Boja",
+      "v": "Narandžasto-braon sa sivim prelivima"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova skrivalica izgleda kao komad šupljeg, oborenog stabla. Spolja je gruba, izbrazdana kora u toploj narandžasto-braon boji sa sivkastim prelivima, krajevi su otvoreni, a na boku je okrugao otvor, kao rupa koju je ostavila otpala grana."
+    },
+    {
+      "type": "p",
+      "html": "Šuplje stablo nudi više nego obična pećina. Životinja može da prođe kroz njega, da se odmara unutra ili da gleda kroz bočni otvor, a uvek ima više puteva za izlazak. Zmije se rado provlače kroz ovakve prolaze, a gekoni i manji gušteri koriste otvor kao prozor iz koga osmatraju terarijum."
+    },
+    {
+      "type": "p",
+      "html": "Topla braon boja se uklapa i u šumske terarijume sa lišćem i mahovinom i u suvlje postavke sa peskom i korom."
+    },
+    {
+      "type": "h2",
+      "text": "Ideje za uređenje"
+    },
+    {
+      "type": "p",
+      "html": "Stablo možete delimično ukopati u podlogu da izgleda kao da je palo pre mnogo godina, ili ga položiti uz zadnje staklo i okružiti biljkama. Pazite da ne bude postavljeno na nestabilnu podlogu, jer životinje se penju i po njemu. Unutrašnjost redovno proverite i operite toplom vodom."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Skrivalica šuplje drvo sa bočnim otvorom | NS Reptiles",
+    "description": "Skrivalica u obliku šupljeg stabla, otvorena na krajevima i sa okruglim bočnim otvorom - tunel za zmije, gekone i guštere. NS Reptiles, Novi Sad.",
+    "keywords": "skrivalica šuplje drvo, skrivalica stablo, tunel za zmije, skrivalica za gekone, dekoracija drvo za terarijum"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/skrivalica-kameni-polukrug",
+    "oprema/skrivalica-astecki-kalendar",
+    "oprema/skrivalica-polucev-braon",
+    "oprema/skrivalica-braon-stena"
+  ]
+}

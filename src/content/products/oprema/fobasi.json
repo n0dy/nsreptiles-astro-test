@@ -1,16 +1,16 @@
 {
   "name": "Fobasi",
   "label": "Živa hrana",
-  "lead": "Mekan i hranljiv feeder žohar, odlična dopuna dubijama za raznovrsnost obroka. Dostupni u tri veličine, za mladunce i odrasle guštere.",
+  "lead": "Fobasi - krupne, hranljive larve buba za guštere, odlična dopuna dubijama za raznovrsniji jelovnik. Tri veličine, za mlađe i odrasle guštere.",
   "image": "/style/img/oprema/fobasi.webp",
-  "imageAlt": "Fobasi - živa hrana za guštere, bradate agame i leopard gekone",
+  "imageAlt": "Fobasi - živa hrana za bradate agame i druge guštere - NS Reptiles",
   "price": 500,
   "priceFrom": true,
   "priceUnit": "/ 100 kom",
   "specs": [
     {
       "k": "Tip",
-      "v": "Feeder žohar"
+      "v": "Larve buba (feeder crvi)"
     },
     {
       "k": "Veličine",
@@ -23,16 +23,20 @@
     {
       "k": "Pakovanje",
       "v": "100 komada"
+    },
+    {
+      "k": "Čuvanje",
+      "v": "Na sobnoj temperaturi, ne u frižideru"
     }
   ],
   "description": [
     {
       "type": "h2",
-      "text": "Opis"
+      "text": "Detaljan opis"
     },
     {
       "type": "p",
-      "html": "Fobasi su mekan i hranljiv feeder žohar koji se koristi kao odlična dopuna dubijama u ishrani guštera. Mekan oklop čini ih lako svarljivim, a zbog raznovrsnosti obroka doprinose boljem nutritivnom balansu kada se kombinuju sa drugim insektima. Pogodni su za bradate agame, leopard gekone, kameleone i ostale insektojede."
+      "html": "Fobasi su larve buba, krupnije od brašnara, koje gušteri vole zbog živahnog kretanja. Hranljivi su i zasitni, ali imaju više masti i tvrđi spoljni omotač od dubija, pa ih koristite kao dopunu i za raznovrsnost obroka, a ne kao jedinu hranu. Pogodni su za bradate agame, leopard gekone, kameleone, tegue i druge insektojede."
     },
     {
       "type": "h2",
@@ -40,7 +44,15 @@
     },
     {
       "type": "p",
-      "html": "Dostupni su u tri veličine - <strong>mali</strong> za mladunce, <strong>srednji</strong> za poluodrasle i <strong>veliki</strong> za odrasle guštere. Pravilo veličine: insekt ne sme biti širi od razmaka između očiju životinje. Živu hranu pre obroka pospite kalcijumom, a povremeno i multivitaminom, radi zdravih kostiju i pravilnog razvoja."
+      "html": "Dostupni su u tri veličine: <strong>mali</strong> za mlađe životinje, <strong>srednji</strong> za poluodrasle i <strong>veliki</strong> za odrasle guštere. Pravilo veličine: insekt ne sme biti širi od razmaka između očiju životinje. Fobasi imaju jake vilice, pa ih vrlo sitnim mladuncima ne dajte i ne ostavljajte nepojedene u terarijumu."
+    },
+    {
+      "type": "h2",
+      "text": "Čuvanje i hranjenje"
+    },
+    {
+      "type": "p",
+      "html": "Za razliku od brašnara, fobase ne držite u frižideru jer ne podnose hladnoću. Čuvajte ih na sobnoj temperaturi u kutiji sa malo mekinja ili ovsenih pahuljica i komadom povrća. Pre obroka ih pospite kalcijumom. Više o kombinovanju žive hrane pročitajte na strani <a href=\"/hrana-za-gustere.html\">hrana za guštere</a>."
     },
     {
       "type": "h2",
@@ -52,16 +64,15 @@
     }
   ],
   "seo": {
-    "title": "Fobasi | Živa hrana za guštere - NS REPTILES",
-    "description": "Fobasi - mekana i hranljiva živa hrana za guštere, odlična dopuna dubijama za raznovrsnost obroka. Tri veličine, već od 500 din za 100 kom.",
-    "keywords": "fobasi, fobasi cena, hrana za guštere, živa hrana za reptile, feeder insekti, hrana za bradatu agamu, hrana za leopard gekona, NS REPTILES, Novi Sad",
-    "ogTitle": "Fobasi | Živa hrana za guštere - NS REPTILES",
-    "ogDescription": "Mekan i hranljiv feeder žohar, odlična dopuna dubijama za raznovrsnost obroka. Tri veličine, već od 500 din za 100 kom."
+    "title": "Fobasi | Živa hrana za guštere - NS Reptiles",
+    "description": "Fobasi - krupne larve buba za bradate agame, gekone i tegue, dopuna dubijama. Tri veličine, od 500 din za 100 kom. NS Reptiles Novi Sad.",
+    "keywords": "fobasi, fobasi cena, superworms, živa hrana za guštere, hrana za bradatu agamu, feeder crvi",
+    "ogTitle": "Fobasi | Živa hrana za guštere - NS Reptiles",
+    "ogDescription": "Fobasi - krupne larve buba za bradate agame, gekone i tegue, dopuna dubijama. Tri veličine, od 500 din za 100 kom. NS Reptiles Novi Sad."
   },
   "related": [
     "oprema/dubia-zohari",
     "oprema/lateralis",
-    "oprema/brasnari-tenebrio",
-    "oprema/fobasi-s-100kom"
+    "oprema/brasnari-tenebrio"
   ]
 }

@@ -1,9 +1,9 @@
 {
   "name": "Arcadia EarthPro-Ca",
   "label": "Suplementi",
-  "lead": "Čist kalcijum bez D3 iz Arcadia EarthPro linije. Idealan za svakodnevnu upotrebu uz adekvatno UVB osvetljenje.",
+  "lead": "Arcadia EarthPro-Ca je čist kalcijum karbonat bez vitamina D3, fino mleven prah od 100 g za reptile i vodozemce, u pakovanju sa zatvaračem.",
   "image": "/style/img/oprema/proca.webp",
-  "imageAlt": "Arcadia EarthPro-Ca - NS Reptiles",
+  "imageAlt": "Arcadia EarthPro-Ca 100 g, čist kalcijum za reptile - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -11,16 +11,28 @@
       "v": "Arcadia"
     },
     {
-      "k": "Tip",
-      "v": "Čist kalcijum (bez D3)"
-    },
-    {
       "k": "Linija",
       "v": "EarthPro"
     },
     {
+      "k": "Pakovanje",
+      "v": "100 g, kesa sa zatvaračem"
+    },
+    {
+      "k": "Sastav",
+      "v": "100% kalcijum karbonat"
+    },
+    {
+      "k": "Vitamin D3",
+      "v": "Ne sadrži"
+    },
+    {
+      "k": "Namena",
+      "v": "Reptili i vodozemci"
+    },
+    {
       "k": "Primena",
-      "v": "Posipanje po hrani (svakodnevno)"
+      "v": "Posipanje hrane"
     }
   ],
   "description": [
@@ -30,11 +42,23 @@
     },
     {
       "type": "p",
-      "html": "Arcadia EarthPro-Ca je čist kalcijumski dodatak bez vitamina D3 iz Arcadia EarthPro linije. Dizajniran je za svakodnevnu upotrebu kod reptila koji imaju adekvatno UVB osvetljenje u terarijumu - životinje same sintetizuju vitamin D3 pod UVB svetlom, pa im dodatni D3 u suplementu nije potreban. Posipa se po hrani pre svakog hranjenja za obezbeđivanje optimalnog unosa kalcijuma."
+      "html": "Arcadia EarthPro-Ca je visokokvalitetan, fino mleven kalcijumski prah. Sastav je jednostavan: 100% kalcijum karbonat, bez vitamina D3 i drugih dodataka. Proizvođač ga opisuje kao lako svarljiv prirodni kalcijum koji se koristi uz ostatak EarthPro linije za svakodnevnu dopunu kalcijuma."
     },
     {
       "type": "p",
-      "html": "Čist kalcijum bez D3 je bezbedniji za svakodnevnu upotrebu jer eliminiše rizik od predoziranja vitaminom D3, koje može dovesti do kalcifikacije organa. Deo je Arcadia EarthPro protokola gde se EarthPro-Ca koristi svakodnevno, a EarthPro-A vitaminski dodatak jednom nedeljno."
+      "html": "Kalcijum se skladišti u kostima i oslobađa u krv za rad mišića. Arcadia naglašava da je kalcijum samo deo priče: životinja mora imati i odgovarajuću UV rasvetu da bi stvorila vitamin D3 i iskoristila kalcijum iz hrane. Zato EarthPro-Ca ide u paru sa dobrom UVB lampom."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba"
+    },
+    {
+      "type": "p",
+      "html": "Insekte stavite u kesu sa malo praha i lagano protresite dok ne dobiju tanak sloj, a biljojedima pospite prah po povrću. EarthPro-Ca možete kombinovati sa EarthPro-A, koji se po EarthPro programu daje pri svakom hranjenju. Kesa se ponovo zatvara, pa prah ostaje suv."
+    },
+    {
+      "type": "p",
+      "html": "Pogodan je za guštere, gekone, kornjače, kameleone i vodozemce. UVB lampe i ostale suplemente naći ćete u ponudi <a href=\"/oprema.html\">opreme</a>."
     },
     {
       "type": "h2",
@@ -46,16 +70,12 @@
     }
   ],
   "seo": {
-    "title": "Arcadia EarthPro-Ca | Čist Kalcijum za Reptile - NS Reptiles",
-    "description": "Arcadia EarthPro-Ca - čist kalcijum bez D3 za reptile. Idealan za svakodnevnu upotrebu uz adekvatno UVB osvetljenje.",
-    "keywords": "Arcadia EarthPro-Ca, čist kalcijum bez D3, kalcijum za reptile, EarthPro linija, NS Reptiles",
-    "ogTitle": "Arcadia EarthPro-Ca | NS Reptiles",
-    "ogDescription": "Čist kalcijum bez D3 iz Arcadia EarthPro linije. Idealan za svakodnevnu upotrebu uz adekvatno UVB osvetljenje."
+    "title": "Arcadia EarthPro-Ca 100 g - čist kalcijum bez D3",
+    "description": "Arcadia EarthPro-Ca 100 g: 100% kalcijum karbonat bez vitamina D3, fino mleven za posipanje hrane reptila i vodozemaca. NS Reptiles Novi Sad.",
+    "keywords": "arcadia earthpro-ca, čist kalcijum za reptile, kalcijum bez d3, kalcijum karbonat, suplementi za reptile"
   },
   "related": [
     "oprema/arcadia-capro-mg",
-    "oprema/arcadia-earthpro-a",
-    "oprema/arcadia-earthpro-ca-100g",
-    "oprema/arcadia-calciumpro-mg"
+    "oprema/arcadia-earthpro-a"
   ]
 }

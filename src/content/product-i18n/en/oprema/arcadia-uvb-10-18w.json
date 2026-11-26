@@ -2,32 +2,40 @@
   "slug": "arcadia-uvb-10-15w-t8",
   "name": "Arcadia UVB 10% 15W T8",
   "label": "Lighting",
-  "lead": "Arcadia 10% UVB T8 tube, 15W / 450mm. For desert reptile species that need strong UVB radiation.",
-  "imageAlt": "Arcadia UVB 10% 15W T8 - NS Reptiles",
+  "lead": "Arcadia Euro Range Desert 10% UVB T8 tube, 15 W and 450 mm, for desert species that need stronger UVB. The manufacturer states a 9-month lifespan.",
+  "imageAlt": "Arcadia Euro Range Desert 10% UVB T8 15W 450 mm - NS Reptiles",
   "specs": [
     {
       "k": "Brand",
       "v": "Arcadia"
     },
     {
-      "k": "UVB",
-      "v": "10%"
+      "k": "Model",
+      "v": "Euro Range Desert 10% T8"
     },
     {
       "k": "Wattage",
-      "v": "15W"
-    },
-    {
-      "k": "Type",
-      "v": "T8 fluorescent tube"
+      "v": "15 W"
     },
     {
       "k": "Length",
-      "v": "450mm"
+      "v": "450 mm"
     },
     {
-      "k": "Intended for",
-      "v": "Desert reptile species"
+      "k": "Diameter",
+      "v": "26 mm (T8)"
+    },
+    {
+      "k": "UVB / UVA",
+      "v": "10% / 12%"
+    },
+    {
+      "k": "Colour temperature",
+      "v": "6600 K"
+    },
+    {
+      "k": "UVB lifespan",
+      "v": "9 months"
     }
   ],
   "description": [
@@ -37,11 +45,23 @@
     },
     {
       "type": "p",
-      "html": "The Arcadia 10% UVB T8 fluorescent tube, 15W and 450mm long, is made for desert reptile species that are exposed to strong sunlight in the wild. UVB radiation is essential for vitamin D3 synthesis in reptile skin, which is key to calcium absorption and proper bone development. Without adequate UVB lighting, reptiles can develop metabolic bone disease (MBD)."
+      "html": "Arcadia Euro Range Desert 10% is a T8 fluorescent reptile tube from the Arcadia Euro Range, which the manufacturer describes as a high-quality, long-life, good-value series with total UVC protection and good colour rendering. The 15 W model is 450 mm long, 26 mm in diameter, with 10% UVB, 12% UVA and a 6600 K colour temperature."
     },
     {
       "type": "p",
-      "html": "The high 10% output simulates the intense sunlight of desert and savanna habitats, which is ideal for bearded dragons, uromastyx and other desert species. The T8 tube is installed in a matching fitting (controller) at the top of the terrarium and lights its entire length evenly. Replace the tube every 6-12 months, because UVB output weakens over time even when the visible light stays the same."
+      "html": "UVB lets reptiles make vitamin D3 in their skin, which they need to use calcium and build healthy bones. This tube is a good choice for desert species that need stronger UVB and bask for long periods in the wild. The 10% version is the stronger of the two Euro Range options; for forest and shade-dwelling species there is the Forest 5%."
+    },
+    {
+      "type": "h2",
+      "text": "Installation and replacement"
+    },
+    {
+      "type": "p",
+      "html": "Fit the tube in a T8 fixture with a ballast of the matching length, above the basking spot; a reflector increases the amount of UVB reaching the animal. Leave a shaded zone in the terrarium too. The manufacturer states that Euro Range tubes should be replaced after 9 months, because UVB fades even while the tube still lights up."
+    },
+    {
+      "type": "p",
+      "html": "Find fluorescent fixtures, thermometers and other equipment in our <a href=\"/en/equipment.html\">equipment</a> range."
     },
     {
       "type": "h2",
@@ -53,8 +73,8 @@
     }
   ],
   "seo": {
-    "title": "Arcadia UVB 10% 15W T8 | Desert Reptile UVB Tube",
-    "description": "Arcadia 10% UVB T8 tube, 15W / 450mm, for desert reptile species that need strong UVB radiation. Supports vitamin D3 synthesis. NS Reptiles.",
-    "keywords": "Arcadia UVB 10% 15W T8, reptile UVB tube, desert reptile species, UVB lighting, NS Reptiles"
+    "title": "Arcadia Euro Desert 10% UVB T8 15W 450mm Tube",
+    "description": "Arcadia Euro Range Desert 10% UVB T8 tube, 15 W, 450 mm, for desert species that need stronger UVB. Replace after 9 months. NS Reptiles, Serbia.",
+    "keywords": "arcadia desert 10%, t8 uvb tube 15w, 450mm uvb tube, desert reptile uvb tube, arcadia euro range"
   }
 }

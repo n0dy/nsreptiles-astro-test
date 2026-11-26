@@ -2,8 +2,8 @@
   "slug": "decorative-skull",
   "name": "Decorative skull",
   "label": "Decoration",
-  "lead": "Decorative skull for a terrarium or aquarium. An ornament and a hide for your animals.",
-  "imageAlt": "Decorative skull - NS Reptiles",
+  "lead": "Decorative human skull for terrariums and aquariums, in an old-bone color with dark cracks. An ornament and a shelter for small animals and fish.",
+  "imageAlt": "Decorative human skull in an old-bone color with cracks - NS Reptiles",
   "specs": [
     {
       "k": "Type",
@@ -16,6 +16,10 @@
     {
       "k": "Function",
       "v": "Ornament and hide"
+    },
+    {
+      "k": "Look",
+      "v": "Human skull, old-bone color with cracks"
     }
   ],
   "description": [
@@ -25,11 +29,19 @@
     },
     {
       "type": "p",
-      "html": "The decorative skull is an eye-catching addition to a terrarium or aquarium that combines visual appeal with the practical function of a hide. Animals use it as a shelter while resting or in stressful situations."
+      "html": "The decorative skull is shaped like a human skull with deep eye sockets, prominent teeth and a network of dark cracks across the crown. The color is a warm pinkish beige, like bone that has lain in the ground for a long time, while the gray teeth and shadows in the hollows give it a realistic look. Next to stones and roots it easily becomes the centerpiece of a themed setup."
     },
     {
       "type": "p",
-      "html": "Made from safe material, suitable for all reptiles, amphibians and fish. Easy to clean and maintain. Available in a larger size for bigger animals."
+      "html": "The skull is intended for both terrariums and aquariums. In a terrarium, small lizards, geckos and amphibians use it as a shelter while resting or when they are frightened. In an aquarium, fish explore the openings and the shade the skull creates, so it is a good choice for setups styled as sunken ruins."
+    },
+    {
+      "type": "h2",
+      "text": "Placement and care"
+    },
+    {
+      "type": "p",
+      "html": "Before placing the skull, rinse it with lukewarm water, without detergent. In a terrarium, set it on a firm base or bury it slightly so it cannot tip over onto an animal digging underneath. In an aquarium, place it on the bottom and check that fish can swim in and out of the openings freely, without the risk of getting stuck. Clean it with a soft brush and clean water."
     },
     {
       "type": "h2",
@@ -41,8 +53,8 @@
     }
   ],
   "seo": {
-    "title": "Decorative Skull Hide | Terrarium Decoration - NS Reptiles",
-    "description": "Decorative skull for a terrarium or aquarium: an ornament and a hide for reptiles, amphibians and fish. Easy to clean. NS Reptiles, Novi Sad.",
-    "keywords": "decorative skull, terrarium decoration, reptile hide, skull aquarium ornament, NS Reptiles"
+    "title": "Decorative Skull for Terrarium and Aquarium | NS Reptiles",
+    "description": "Decorative human skull in an old-bone color with dark cracks. An ornament and hide for terrariums and aquariums, for lizards, geckos and fish. NS Reptiles.",
+    "keywords": "decorative skull, terrarium skull decor, skull aquarium ornament, reptile hide, halloween terrarium decor"
   }
 }

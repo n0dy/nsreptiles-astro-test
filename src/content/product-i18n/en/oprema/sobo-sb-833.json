@@ -1,0 +1,60 @@
+{
+  "slug": "sobo-sb-833-sponge-filter",
+  "name": "SOBO SB-833 sponge filter",
+  "label": "Filters",
+  "lead": "SOBO SB-833 small air-driven sponge filter - fits in an aquarium corner, will not suck in fry or shrimp.",
+  "imageAlt": "SOBO SB-833 sponge filter - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Sponge filter (air-driven)"
+    },
+    {
+      "k": "Manufacturer",
+      "v": "SOBO"
+    },
+    {
+      "k": "Model",
+      "v": "SB-833"
+    },
+    {
+      "k": "Intended for",
+      "v": "Aquarium"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The SOBO SB-833 is a small sponge filter with a round sponge on a base with a clear outlet tube. It takes up little space, so it fits easily in a corner of the aquarium or behind decor. It suits nano, breeding and quarantine tanks."
+    },
+    {
+      "type": "p",
+      "html": "A sponge filter runs on an air pump: bubbles in the tube lift the water, which draws aquarium water through the sponge. The sponge traps dirt and hosts beneficial bacteria, so the filter provides mechanical and biological filtration while adding oxygen to the water."
+    },
+    {
+      "type": "h2",
+      "text": "Use and maintenance"
+    },
+    {
+      "type": "p",
+      "html": "It needs an air pump and airline tubing, sold separately. When the bubble flow weakens, squeeze the sponge out in aquarium water during a water change, never under the tap, so the beneficial bacteria survive. A sponge filter also makes a great backup: keep it running in your aquarium and move it to a quarantine tank when needed."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "SOBO SB-833 Small Sponge Filter | NS Reptiles",
+    "description": "SOBO SB-833 small air-driven sponge filter with a round sponge on a base. Fits in a corner, for nano, breeding and quarantine aquariums. NS Reptiles.",
+    "keywords": "sobo sb-833, small sponge filter, nano tank filter, shrimp filter, air driven filter"
+  }
+}

@@ -1,13 +1,13 @@
 {
   "slug": "sphagnum-moss-5l",
-  "name": "Sphagnum moss 5L",
+  "name": "Sphagnum peat 5L",
   "label": "Substrates",
-  "lead": "Sphagnum moss 5L - holds moisture very well. Ideal for humid terrariums, hides and egg incubation.",
-  "imageAlt": "Sphagnum moss 5L - NS Reptiles",
+  "lead": "Sphagnum peat 5L - a peat moss substrate that holds moisture for a long time. For humid terrariums, mixing with coconut coir and humid hides.",
+  "imageAlt": "Sphagnum peat 5L, substrate for humid terrariums - NS Reptiles",
   "specs": [
     {
       "k": "Type",
-      "v": "Substrate - sphagnum moss"
+      "v": "Substrate - sphagnum peat"
     },
     {
       "k": "Volume",
@@ -16,6 +16,10 @@
     {
       "k": "Intended for",
       "v": "Humid terrariums, hides"
+    },
+    {
+      "k": "Feature",
+      "v": "Holds moisture for a long time"
     }
   ],
   "description": [
@@ -25,7 +29,27 @@
     },
     {
       "type": "p",
-      "html": "Sphagnum moss (peat) in a 5-liter pack is a specialized substrate with an exceptional ability to hold moisture - it can absorb up to 20 times its weight in water. This makes it ideal for humid terrariums, humid hides that help with shedding, and incubating reptile eggs. For leopard geckos, a humid hide with sphagnum moss is essential - it helps them shed safely and prevents problems with stuck skin. In tropical terrariums it can be used as a top layer over coconut coir for extra moisture retention. It is naturally antibacterial and resistant to mold. It can also be used to create naturalistic decorations in combination with bark and twigs."
+      "html": "Sphagnum peat comes from peat moss and is one of the substrates that hold moisture the longest. That is why it is used in terrariums for tropical species, where it helps keep humidity from dropping quickly between mistings. It is naturally acidic and has a fine, loose texture."
+    },
+    {
+      "type": "p",
+      "html": "It is usually not used on its own but mixed with coconut coir: the mix is looser, holds moisture better and compacts less. Adjust the ratio to the species: the more humidity the animal needs, the more sphagnum you add. It suits crested geckos, day geckos, chameleons, frogs and tropical snakes, and it is also a good base for plants in a vivarium. It is not suitable for desert species, which need a dry substrate."
+    },
+    {
+      "type": "h2",
+      "text": "How to use"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Moisten the peat before putting it in the terrarium so it is damp but not wet.",
+        "For a humid hide, put a layer of moist peat in a closed box with an entrance; this helps leopard geckos and other species when shedding.",
+        "Remove droppings and food leftovers regularly, and replace the substrate when it starts to compact or mold appears."
+      ]
+    },
+    {
+      "type": "p",
+      "html": "The 5-liter pack is enough for a small terrarium, a humid hide or topping up existing substrate. See also our handmade custom <a href=\"/en/terrariums.html\">terrariums</a>."
     },
     {
       "type": "h2",
@@ -37,8 +61,8 @@
     }
   ],
   "seo": {
-    "title": "Sphagnum Moss 5L | Humid Hide Substrate - NS Reptiles",
-    "description": "Sphagnum moss 5L holds moisture very well. Ideal for humid terrariums, humid hides and reptile egg incubation. NS Reptiles, Novi Sad, Serbia.",
-    "keywords": "sphagnum moss 5l, sphagnum peat, terrarium substrate, humid hide, reptile supplies, NS Reptiles, Novi Sad"
+    "title": "Sphagnum Peat 5L | Humid Terrarium Substrate",
+    "description": "Sphagnum peat 5L: substrate that holds moisture for a long time, for tropical terrariums, mixing with coco coir and humid hides. NS Reptiles.",
+    "keywords": "sphagnum peat, sphagnum substrate 5l, humid terrarium substrate, humid hide substrate, tropical terrarium substrate"
   }
 }

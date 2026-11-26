@@ -1,0 +1,68 @@
+{
+  "slug": "atman-at-304-water-pump",
+  "name": "Atman AT-304 submersible pump",
+  "label": "Pumps",
+  "lead": "Atman AT-304 submersible water pump with suction-cup feet - for aquariums, terrariums and fountains.",
+  "imageAlt": "Atman AT-304 submersible pump - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Submersible water pump"
+    },
+    {
+      "k": "Manufacturer",
+      "v": "Atman"
+    },
+    {
+      "k": "Model",
+      "v": "AT-304"
+    },
+    {
+      "k": "Intended for",
+      "v": "Aquariums, terrariums, fountains"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The Atman AT-304 is a compact submersible water pump, labeled Water Pump on the box. It runs fully submerged, and suction-cup feet on the housing hold it firmly on the bottom or glass of the aquarium. Ask us about the flow rate and head height before buying, so we can check that the model suits your aquarium or fountain."
+    },
+    {
+      "type": "p",
+      "html": "The AT-304 is used for water circulation in the aquarium, for fountains and waterfalls in terrariums and paludariums and for pumping water during maintenance. If water has to be lifted to a filter above the tank or to a sump, ask us so we can check that the head height is sufficient."
+    },
+    {
+      "type": "h2",
+      "text": "How to choose a pump"
+    },
+    {
+      "type": "p",
+      "html": "The flow rate stated for pumps is measured with no resistance. Tubing, elbows and the height the pump lifts water to all reduce the real flow, so it is better to choose a model with some reserve. For circulation in an aquarium, the pump should move several times the tank volume per hour; if you are not sure which model suits you, ask us before buying."
+    },
+    {
+      "type": "h2",
+      "text": "Use and maintenance"
+    },
+    {
+      "type": "p",
+      "html": "Never run the pump dry, as this quickly damages it. From time to time, take it out, remove the front grille and rinse the intake and impeller of sludge and algae. A clean pump runs more quietly and keeps its full flow."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Atman AT-304 Submersible Water Pump | NS Reptiles",
+    "description": "Atman AT-304 submersible pump for aquarium circulation, fountains, terrarium waterfalls and pumping water during maintenance. NS Reptiles, Serbia.",
+    "keywords": "atman at-304, submersible pump, large aquarium pump, sump pump, waterfall pump"
+  }
+}

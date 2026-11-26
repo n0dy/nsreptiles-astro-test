@@ -1,0 +1,68 @@
+{
+  "slug": "brown-rock-low-reptile-hide",
+  "name": "Brown rock hide",
+  "label": "Hides",
+  "lead": "Low hide styled as brown rock, with a wide, low entrance - a snug, dark shelter that snakes and geckos love.",
+  "imageAlt": "Brown rock hide - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Hide"
+    },
+    {
+      "k": "Intended for",
+      "v": "Terrarium"
+    },
+    {
+      "k": "Function",
+      "v": "Shelter"
+    },
+    {
+      "k": "Shape",
+      "v": "Low profile, wide entrance"
+    },
+    {
+      "k": "Color",
+      "v": "Brown with ochre tones"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This hide looks like a low, rounded brown rock with ochre and darker markings. The top is flatter and slightly knobbly, and at the front there is a wide, low entrance under the rock."
+    },
+    {
+      "type": "p",
+      "html": "The low interior height is not a drawback but an advantage. Many snakes and geckos feel safest when their back and sides touch the walls and ceiling of the hide. A hide that is too big feels like open space to them, so they avoid it. The rule is simple: your animal should fit inside completely, but snugly."
+    },
+    {
+      "type": "p",
+      "html": "The brown tones blend naturally with sand, clay, bark and dry leaves, so the hide suits both desert and forest setups."
+    },
+    {
+      "type": "h2",
+      "text": "How to choose and place it"
+    },
+    {
+      "type": "p",
+      "html": "Compare the entrance height with the height of your animal: it should get in without effort, but not too loosely. Place the hide directly on the floor or on firm substrate so it cannot collapse if your animal digs. It is good to have one hide on the warm side and one on the cool side of the terrarium. Wash it once a week or when it gets dirty."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Low Brown Rock Hide for Snakes and Geckos",
+    "description": "Low brown rock hide with a wide entrance - a snug, dark shelter where snakes and geckos feel secure. NS Reptiles, Novi Sad, Serbia.",
+    "keywords": "low reptile hide, brown rock hide, snake hide, leopard gecko hide, terrarium cave"
+  }
+}

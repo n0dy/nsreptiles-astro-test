@@ -1,9 +1,9 @@
 {
   "name": "Arcadia Revitalise'd3",
   "label": "Suplementi",
-  "lead": "Kompletan vitaminski i mineralni prah sa vitaminom D3 za reptile i vodozemce. Za jak imunitet i zdrav razvoj.",
+  "lead": "Arcadia RevitaliseD3 je ultra fini prah sa mineralima i vitaminima A, D3 i E za reptile i vodozemce. Limena kutija od 50 g iz EarthPro linije.",
   "image": "/style/img/oprema/arcadia-revitalised3.webp",
-  "imageAlt": "Arcadia Revitalise'd3 - NS Reptiles",
+  "imageAlt": "Arcadia EarthPro RevitaliseD3 50 g u limenoj kutiji - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -11,16 +11,32 @@
       "v": "Arcadia"
     },
     {
-      "k": "Težina",
-      "v": "50g"
+      "k": "Linija",
+      "v": "EarthPro"
     },
     {
-      "k": "Tip",
-      "v": "Vitaminski prah"
+      "k": "Pakovanje",
+      "v": "50 g, limena kutija"
     },
     {
-      "k": "Namena",
-      "v": "Reptili i vodozemci"
+      "k": "Vitamin A",
+      "v": "50.000 IU/kg"
+    },
+    {
+      "k": "Vitamin D3",
+      "v": "5.000 IU/kg"
+    },
+    {
+      "k": "Vitamin E",
+      "v": "150 IU/kg"
+    },
+    {
+      "k": "Ukupan kalcijum",
+      "v": "21,74%"
+    },
+    {
+      "k": "Doza",
+      "v": "1 g na 100 g hrane"
     }
   ],
   "description": [
@@ -30,15 +46,23 @@
     },
     {
       "type": "p",
-      "html": "Arcadia Revitalise'd3 je kompletan vitaminski i mineralni suplement u prahu namenjen reptilima i vodozemcima. Sadrži vitamin D3 zajedno sa čitavim spektrom vitamina, minerala i elemenata u tragovima potrebnih za pravilan metabolizam i zdrav rast."
+      "html": "Arcadia EarthPro RevitaliseD3 nadograđuje EarthPro-A: zadržava prirodnu mineralnu glinu, aminokiseline, karotenoide i pčelinji polen, a dodaje magnezijum i niske nivoe gotovih vitamina A, D3 i E. Prema proizvođaču, sadrži 50.000 IU/kg vitamina A, 5.000 IU/kg D3 i 150 IU/kg vitamina E, uz 21,74% ukupnog kalcijuma."
     },
     {
       "type": "p",
-      "html": "Posipa se po živoj hrani nekoliko puta nedeljno kao dopuna svakodnevnom kalcijumu. Formulacija podržava imuni sistem, zdravlje kože i pravilan razvoj kostiju, posebno kod mladih životinja i vrsta u periodu intenzivnog rasta."
+      "html": "Arcadia navodi da su nivoi vitamina namerno umereni i da oponašaju sastav malog sisara, jer jaki prahovi sa visokim dozama A i D3 nose rizik od predoziranja. Pakovanje od 50 g je limena kutija bez plastike."
+    },
+    {
+      "type": "h2",
+      "text": "Kako se dozira"
     },
     {
       "type": "p",
-      "html": "Proizvod britanskog brenda Arcadia, poznatog po naprednim formulacijama i visokim standardima u industriji opreme za reptile."
+      "html": "Hranu lagano naprašite, bez debelog sloja: 1 g praha na 100 g hrane. Neiskorišćen prah posle hranjenja bacite. Uz dobru UV rasvetu i grejanje, proizvođač preporučuje RevitaliseD3 na osmo ili šesnaesto hranjenje u EarthPro programu. Ako držite životinju bez UV rasvete ili sa slabom, može se davati na svako drugo ili treće hranjenje."
+    },
+    {
+      "type": "p",
+      "html": "Čuvajte zatvoreno na suvom i hladnom mestu, ne u frižideru. Koristi se uz EarthPro-A i CalciumPro-Mg, koje takođe imamo u ponudi <a href=\"/oprema.html\">opreme</a>."
     },
     {
       "type": "h2",
@@ -50,16 +74,13 @@
     }
   ],
   "seo": {
-    "title": "Arcadia Revitalise'd3 | Vitamini za Reptile - NS Reptiles",
-    "description": "Arcadia Revitalise'd3 50g - kompletan vitaminski i mineralni prah sa D3 za reptile i vodozemce. Podrška imunitetu i zdravlju.",
-    "keywords": "Arcadia Revitalise'd3, vitaminski suplement za reptile, vitamini D3 reptili, multivitamin reptili, NS Reptiles",
-    "ogTitle": "Arcadia Revitalise'd3 | NS Reptiles",
-    "ogDescription": "Kompletan vitaminski i mineralni prah sa vitaminom D3 za reptile i vodozemce. Za jak imunitet i zdrav razvoj."
+    "title": "Arcadia RevitaliseD3 50 g - vitamini A, D3 i E",
+    "description": "Arcadia EarthPro RevitaliseD3 50 g: minerali sa umerenim nivoom vitamina A, D3 i E, doziranje po EarthPro programu. Za reptile. NS Reptiles Novi Sad.",
+    "keywords": "arcadia revitalised3, vitamin d3 za reptile, vitamini za guštere, earthpro, suplement sa d3"
   },
   "related": [
-    "oprema/arcadia-calciumpro-mg",
-    "oprema/arcadia-earthpro-ca-100g",
     "oprema/arcadia-earthpro-a",
     "oprema/arcadia-capro-mg"
-  ]
+  ],
+  "brand": true
 }

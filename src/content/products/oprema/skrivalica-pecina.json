@@ -1,0 +1,79 @@
+{
+  "name": "Skrivalica pećina",
+  "label": "Skrivalice",
+  "lead": "Skrivalica u obliku pećine sa ravnim, slojevitim vrhom - zaklon ispod i platforma za sunčanje ispod grejne lampe, za guštere.",
+  "image": "/style/img/oprema/skrivalica-pecina.webp",
+  "imageAlt": "Skrivalica pećina - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Skrivalica"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Zaklon i sunčanje"
+    },
+    {
+      "k": "Oblik",
+      "v": "Pećina, ravan slojevit vrh"
+    },
+    {
+      "k": "Boja",
+      "v": "Maslinasto-žuta i braon"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova pećina ima prostran, lučni ulaz i ravan gornji deo od naslaganih kamenih ploča. Boje su maslinasto-žute, okerne i braon, kao stena obrasla lišajem na suncu."
+    },
+    {
+      "type": "p",
+      "html": "Najveća prednost je kombinacija dve funkcije. Ravan vrh služi kao platforma ispod grejne lampe, gde se gušter greje, a odmah ispod je zaklon u koji se povlači kada želi mir. Tako na maloj površini dobija i toplo mesto za sunčanje i sigurno skrovište, što je posebno praktično u manjim terarijumima."
+    },
+    {
+      "type": "p",
+      "html": "Ovakva skrivalica dobro odgovara vrstama koje se rado greju na kamenu, kao što su bradata agama i leopard gekon."
+    },
+    {
+      "type": "h2",
+      "text": "Saveti za postavljanje"
+    },
+    {
+      "type": "p",
+      "html": "Pećinu postavite na toplu stranu terarijuma, direktno na dno. Termometrom proverite temperaturu na vrhu i podesite visinu lampe tako da površina ne bude prevruća. Na hladnu stranu stavite još jednu skrivalicu. Pećinu operite toplom vodom kad se zaprlja, a unutrašnjost proverite jednom nedeljno."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Skrivalica pećina sa platformom za sunčanje",
+    "description": "Skrivalica u obliku pećine sa ravnim vrhom - platforma za sunčanje ispod lampe i zaklon ispod, za bradate agame i gekone. NS Reptiles, Novi Sad.",
+    "keywords": "skrivalica pećina, platforma za sunčanje, skrivalica za bradatu agamu, skrivalica za leopard gekona, kamen za sunčanje"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/posuda-za-vodu-tamnosiva",
+    "oprema/posuda-zeleni-kamen",
+    "oprema/posuda-pescar",
+    "oprema/posuda-za-vodu-svetloplava"
+  ]
+}

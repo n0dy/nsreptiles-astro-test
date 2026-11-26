@@ -1,8 +1,8 @@
 {
   "name": "Pozadina za akvarijum, rolna 30 cm",
   "label": "Pozadine",
-  "lead": "Poster pozadina za akvarijum, visina 30 cm - lepi se sa spoljne strane zadnjeg stakla.",
-  "image": "/style/img/oprema/akvarijum/pozadina-za-akvarijum-30cm.webp",
+  "lead": "Pozadina za akvarijum u rolni, visine 30 cm - lepi se sa spoljne strane zadnjeg stakla i seče na dužinu po meri akvarijuma.",
+  "image": "/style/img/oprema/akvarijum/placeholder.svg",
   "imageAlt": "Pozadina za akvarijum, rolna 30 cm - NS Reptiles",
   "price": 0,
   "specs": [
@@ -17,6 +17,10 @@
     {
       "k": "Namena",
       "v": "Akvarijum"
+    },
+    {
+      "k": "Postavljanje",
+      "v": "Spolja, na zadnje staklo"
     }
   ],
   "description": [
@@ -26,7 +30,19 @@
     },
     {
       "type": "p",
-      "html": "Pozadina sakriva kablove i zid iza akvarijuma i daje dubinu prizoru. Seče se na dužinu po meri vašeg akvarijuma. Fotografija je ilustrativna - za trenutne motive nas pozovite."
+      "html": "Poster pozadina je najjednostavniji način da akvarijum dobije uredan, završen izgled. Sakriva kablove, crevo filtera i zid iza akvarijuma, a prizor dobija dubinu, pa ribe i biljke deluju izraženije. Ribe se pored zatvorene zadnje strane često osećaju sigurnije, jer iza akvarijuma ne vide pokrete."
+    },
+    {
+      "type": "p",
+      "html": "Rolna je visoka 30 cm, što odgovara za manje akvarijume, a dužina se seče prema širini vašeg akvarijuma. Fotografija je ilustrativna: motivi se menjaju, pa nas pozovite da proverite koji su trenutno dostupni. Za akvarijume druge visine imamo i rolnu od 50 cm."
+    },
+    {
+      "type": "h2",
+      "text": "Kako se postavlja"
+    },
+    {
+      "type": "p",
+      "html": "Pozadina se lepi sa spoljne strane zadnjeg stakla, pa ne dolazi u dodir sa vodom i može se zameniti bilo kada. Pre postavljanja staklo očistite i osušite, izmerite dužinu i isecite pozadinu. Najlakše ju je pričvrstiti providnom selotejp trakom po ivicama; ostavite malo prostora iza akvarijuma da biste je ravnomerno zategli. Ako ste u fazi planiranja, pogledajte naše <a href=\"/akvarijumi.html\">akvarijume po meri</a>."
     },
     {
       "type": "h2",
@@ -39,8 +55,8 @@
   ],
   "seo": {
     "title": "Pozadina za akvarijum, rolna 30 cm | NS Reptiles",
-    "description": "Poster pozadina za akvarijum, visina 30 cm - lepi se sa spoljne strane zadnjeg stakla. NS Reptiles, Novi Sad.",
-    "keywords": "pozadina za akvarijum, poster za akvarijum, NS Reptiles, Novi Sad"
+    "description": "Pozadina za akvarijum u rolni visine 30 cm: lepi se spolja na zadnje staklo, seče se na dužinu i sakriva kablove i zid. NS Reptiles Novi Sad.",
+    "keywords": "pozadina za akvarijum, pozadina za akvarijum 30 cm, poster pozadina, pozadina u rolni, dekoracija za akvarijum"
   },
   "brand": false,
   "usage": [

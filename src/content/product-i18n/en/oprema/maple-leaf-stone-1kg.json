@@ -2,8 +2,8 @@
   "slug": "maple-leaf-stone-1kg",
   "name": "Maple leaf stone 1kg",
   "label": "Decoration",
-  "lead": "Maple leaf stone 1kg - a decorative stone with a layered structure. Popular in aquascaping.",
-  "imageAlt": "Maple leaf stone 1kg - NS Reptiles",
+  "lead": "Maple leaf stone 1kg - a decorative stone in warm orange tones for aquascaping aquariums and decorating terrariums.",
+  "imageAlt": "Maple leaf stone 1kg, orange decorative stone for aquariums and terrariums - NS Reptiles",
   "specs": [
     {
       "k": "Type",
@@ -14,8 +14,12 @@
       "v": "1kg"
     },
     {
+      "k": "Color",
+      "v": "Orange-reddish and brown"
+    },
+    {
       "k": "Intended for",
-      "v": "Aquariums - aquascaping"
+      "v": "Aquarium (aquascaping) and terrarium"
     }
   ],
   "description": [
@@ -25,11 +29,19 @@
     },
     {
       "type": "p",
-      "html": "Maple leaf stone is a decorative stone with a distinctive layered structure that resembles maple leaves - hence the name. The natural lines and layers in the stone create an impressive visual effect, especially when several pieces are arranged together in a layout. It is extremely popular in aquascaping, where it is used to create dramatic rock formations that imitate mountain cliffs or riverbanks."
+      "html": "Maple leaf stone is a decorative stone in warm orange, reddish and brown tones. The pieces are irregular in shape with a rugged surface, so each one differs in shape and color. It is very popular in aquascaping, where several pieces are stacked into rock formations that imitate mountain cliffs or riverbanks."
     },
     {
       "type": "p",
-      "html": "It is chemically inert and does not affect water parameters, which makes it safe for all types of freshwater aquariums. Every 1kg piece is unique in shape, color and layer pattern. It can also be used in terrariums as a decorative element that adds a natural look. Combined with low plants and moss, maple leaf stone becomes the centerpiece of a striking aquascape."
+      "html": "The 1kg pack works well for a small accent or to supplement existing rocks; for larger compositions, plan for several packs. Combined with low plants and moss, the stone becomes the centerpiece of a striking aquascape. It is also used in terrariums, where its warm color complements desert substrates and the pieces give reptiles a foothold and a place to climb."
+    },
+    {
+      "type": "h2",
+      "text": "Use and care"
+    },
+    {
+      "type": "p",
+      "html": "Before use, scrub the stone well under running water to remove dust and small debris. As with any decorative stone, before adding it to an aquarium with sensitive fish or shrimp we recommend checking whether it affects water hardness by testing the water after a few days in a container. Place larger pieces directly on the bottom before adding substrate so the composition does not collapse when fish or reptiles dig."
     },
     {
       "type": "h2",
@@ -41,8 +53,8 @@
     }
   ],
   "seo": {
-    "title": "Maple Leaf Stone 1kg | Aquascaping Stone - NS Reptiles",
-    "description": "Maple leaf stone 1kg: a decorative stone with a layered structure, popular in aquascaping. Does not affect water parameters. NS Reptiles.",
-    "keywords": "maple leaf stone 1kg, decorative stone, aquascaping stone, aquarium supplies, NS Reptiles, Novi Sad"
+    "title": "Maple Leaf Stone 1kg | Aquascaping Rock - NS Reptiles",
+    "description": "Maple leaf stone 1kg, a decorative rock in warm orange tones for aquascaping aquariums and decorating terrariums. NS Reptiles, Novi Sad, Serbia.",
+    "keywords": "maple leaf stone, aquascaping rock, decorative aquarium stone, terrarium stone, aquarium supplies"
   }
 }

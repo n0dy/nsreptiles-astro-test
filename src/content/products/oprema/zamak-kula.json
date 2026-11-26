@@ -1,0 +1,71 @@
+{
+  "name": "Zamak kula",
+  "label": "Dekoracija",
+  "lead": "Zamak kula za akvarijum - uska i visoka dekoracija sa dve kule na sivoj steni, stepenicama i otvorima za ribe.",
+  "image": "/style/img/oprema/dekoracija/zamak-kula.webp",
+  "imageAlt": "Zamak kula sa dve kule na steni i stepenicama, dekoracija za akvarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - zamak"
+    },
+    {
+      "k": "Izgled",
+      "v": "Dve kule na sivoj steni sa stepenicama"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras i skrovište za ribe"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Zamak kula je dekoracija za akvarijum u obliku dve visoke kule sa zupcima, podignute na strmoj sivoj steni. Uz stenu se penju stepenice, po njoj su zeleni detalji mahovine, a na kulama i steni nalaze se otvori i prozori. Izgleda kao utvrđenje na litici iz bajke."
+    },
+    {
+      "type": "p",
+      "html": "Glavna prednost ovog modela je oblik: uzak je i visok, pa zauzima malo mesta na dnu, a postavci daje visinu. Zato je dobar izbor za manje i više akvarijume, kao i za uglove u kojima šira dekoracija ne bi stala. Otvori služe kao skrovišta za manje ribe, a kula lepo prati ostale zamkove iz naše ponude ako želite tematski akvarijum."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja kulu isperite mlakom vodom, bez deterdženata. Zbog visine je važno da stoji stabilno: postavite je na ravno dno i utisnite podnožje u pesak ili šljunak, kako je krupnije ribe ne bi prevrnule. Najbolje izgleda u zadnjem delu ili uglu akvarijuma. Alge iz udubljenja čistite mekom četkicom tokom redovnog održavanja."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Zamak kula na steni - uska dekoracija za akvarijum",
+    "description": "Visok i uzak zamak sa dve kule na steni, stepenicama i otvorima za ribe. Zauzima malo mesta na dnu akvarijuma. NS Reptiles, Novi Sad.",
+    "keywords": "zamak kula, zamak za akvarijum, dekoracija za mali akvarijum, skrovište za ribe, ukras za akvarijum"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum"
+  ],
+  "related": [
+    "oprema/amfora-terakota",
+    "oprema/lobanja-krokodila",
+    "oprema/zamak-sa-kapijom",
+    "oprema/zamak-na-steni"
+  ]
+}

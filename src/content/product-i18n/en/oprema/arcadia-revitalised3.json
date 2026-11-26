@@ -2,24 +2,40 @@
   "slug": "arcadia-revitalised3",
   "name": "Arcadia Revitalise'd3",
   "label": "Supplements",
-  "lead": "A complete vitamin and mineral powder with vitamin D3 for reptiles and amphibians. For strong immunity and healthy development.",
-  "imageAlt": "Arcadia Revitalise'd3 - NS Reptiles",
+  "lead": "Arcadia RevitaliseD3 is an ultra-fine powder with minerals and vitamins A, D3 and E for reptiles and amphibians. A 50 g tin from the EarthPro line.",
+  "imageAlt": "Arcadia EarthPro RevitaliseD3 50 g tin - NS Reptiles",
   "specs": [
     {
       "k": "Brand",
       "v": "Arcadia"
     },
     {
-      "k": "Weight",
-      "v": "50g"
+      "k": "Line",
+      "v": "EarthPro"
     },
     {
-      "k": "Type",
-      "v": "Vitamin powder"
+      "k": "Pack size",
+      "v": "50 g, tin"
     },
     {
-      "k": "Intended for",
-      "v": "Reptiles and amphibians"
+      "k": "Vitamin A",
+      "v": "50,000 IU/kg"
+    },
+    {
+      "k": "Vitamin D3",
+      "v": "5,000 IU/kg"
+    },
+    {
+      "k": "Vitamin E",
+      "v": "150 IU/kg"
+    },
+    {
+      "k": "Total calcium",
+      "v": "21.74%"
+    },
+    {
+      "k": "Dose",
+      "v": "1 g per 100 g of food"
     }
   ],
   "description": [
@@ -29,15 +45,23 @@
     },
     {
       "type": "p",
-      "html": "Arcadia Revitalise'd3 is a complete vitamin and mineral powder supplement for reptiles and amphibians. It contains vitamin D3 together with a full spectrum of vitamins, minerals and trace elements needed for proper metabolism and healthy growth."
+      "html": "Arcadia EarthPro RevitaliseD3 builds on EarthPro-A: it keeps the natural mineral clay, amino acids, carotenoids and bee pollen, and adds magnesium plus low levels of preformed vitamins A, D3 and E. According to the manufacturer, it contains 50,000 IU/kg vitamin A, 5,000 IU/kg D3 and 150 IU/kg vitamin E, with 21.74% total calcium."
     },
     {
       "type": "p",
-      "html": "Dust it over live food several times a week as an addition to daily calcium. The formula supports the immune system, skin health and proper bone development, especially in young animals and species in a period of rapid growth."
+      "html": "Arcadia says the vitamin levels are deliberately moderate and modelled on a small mammal, because very potent powders high in A and D3 carry a risk of overdosing. The 50 g pack is a plastic-free tin."
+    },
+    {
+      "type": "h2",
+      "text": "Dosage"
     },
     {
       "type": "p",
-      "html": "Made by the British brand Arcadia, known for its advanced formulas and high standards in the reptile equipment industry."
+      "html": "Lightly dust the food rather than coating it: 1 g of powder per 100 g of food. Discard unused powder after each feed. With correct UV and heat, the manufacturer recommends RevitaliseD3 at feed 8 or 16 of the EarthPro programme. If you keep an animal with no UV or low UV, it can be used at every 2nd or 3rd feed."
+    },
+    {
+      "type": "p",
+      "html": "Store sealed in a cool, dry place, not in the fridge. It is used alongside EarthPro-A and CalciumPro-Mg, which we also stock in our <a href=\"/en/equipment.html\">equipment</a> range."
     },
     {
       "type": "h2",
@@ -49,8 +73,8 @@
     }
   ],
   "seo": {
-    "title": "Arcadia Revitalise'd3 | Reptile Multivitamin with D3",
-    "description": "Arcadia Revitalise'd3 50g: a complete vitamin and mineral powder with D3 for reptiles and amphibians. Supports immunity and overall health.",
-    "keywords": "Arcadia Revitalise'd3, reptile vitamin supplement, D3 vitamins for reptiles, reptile multivitamin, NS Reptiles"
+    "title": "Arcadia RevitaliseD3 50g | Vitamins A, D3, E for Reptiles",
+    "description": "Arcadia EarthPro RevitaliseD3 50 g: minerals with moderate vitamin A, D3 and E, dosed per the EarthPro programme. For reptiles. NS Reptiles, Serbia.",
+    "keywords": "arcadia revitalised3, vitamin d3 for reptiles, reptile multivitamin, earthpro supplements, reptile vitamins serbia"
   }
 }

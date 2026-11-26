@@ -1,9 +1,9 @@
 {
-  "slug": "habistat-crested-gecko-diet-strawberry-50g",
-  "name": "HabiStat Crested Gecko Diet Strawberry 50g",
+  "slug": "habistat-crested-gecko-diet-strawberry-80g",
+  "name": "HabiStat Crested Gecko Diet Strawberry 80g",
   "label": "Food",
-  "lead": "A complete diet for crested geckos and other reptiles that eat fruit and insects. Strawberry flavor, with over 50% real fruit and 9 protein sources.",
-  "imageAlt": "HabiStat Crested Gecko Diet Strawberry 50g - crested gecko food - NS Reptiles",
+  "lead": "HabiStat Crested Gecko Diet Strawberry - a complete powdered diet for crested geckos with 54% strawberry and 9 protein sources. Mixed with water.",
+  "imageAlt": "HabiStat Crested Gecko Diet Strawberry 80g crested gecko food - NS Reptiles",
   "specs": [
     {
       "k": "Brand",
@@ -11,37 +11,59 @@
     },
     {
       "k": "Type",
-      "v": "Complete diet"
-    },
-    {
-      "k": "Weight",
-      "v": "50g"
+      "v": "Complete powdered diet"
     },
     {
       "k": "Flavor",
       "v": "Strawberry"
+    },
+    {
+      "k": "Fruit content",
+      "v": "54%"
+    },
+    {
+      "k": "Protein / calcium",
+      "v": "23% / 1.99%"
+    },
+    {
+      "k": "Ca:P ratio",
+      "v": "4.17:1"
+    },
+    {
+      "k": "Serving",
+      "v": "5g, 1-2 times a week"
     }
   ],
   "description": [
     {
       "type": "h2",
-      "text": "Description"
+      "text": "Detailed description"
     },
     {
       "type": "p",
-      "html": "HabiStat Crested Gecko Diet Strawberry is a complete food for crested geckos (Correlophus ciliatus) with a refreshing strawberry flavor. The formula is designed to meet all the nutritional needs of geckos that eat a combination of fruit and insects in the wild. The product contains over 50% real fruit powder, with strawberry as the dominant flavor, which makes it very appealing even to picky eaters that refuse other flavors."
+      "html": "HabiStat Crested Gecko Diet Strawberry is made by the British brand HabiStat for crested geckos and other reptiles that eat both fruit and insects. Strawberry powder makes up 54% of the recipe, and protein comes from 9 different sources. Ingredients include pea protein isolate, brown rice protein, spirulina, brewer's yeast, bee pollen, honey, seaweed, spinach, chamomile and marigold, with added vitamins A, D3 and E. The manufacturer states the food has no artificial colors, preservatives or fillers."
     },
     {
-      "type": "p",
-      "html": "Besides its rich fruit content, the formula includes 9 different animal protein sources, providing a complete amino acid profile needed for growth, tissue repair and reproduction. The nutritional values are optimal for geckos: 23% protein, 1.95% calcium and a calcium-to-phosphorus ratio of 3.87:1. This ratio is very important because it prevents metabolic bone disease, one of the most common health problems in captive geckos. The food contains no artificial colors, flavors or preservatives."
+      "type": "ul",
+      "items": [
+        "Protein: 23%",
+        "Oils and fats: 2.03%",
+        "Fiber: 1.39%",
+        "Ash: 8.16%",
+        "Calcium: 1.99% (Ca:P 4.17:1)"
+      ]
     },
     {
       "type": "h2",
-      "text": "Preparation"
+      "text": "Preparation and feeding"
     },
     {
       "type": "p",
-      "html": "To prepare a meal, measure about 5g of powder and mix it with a small amount of water until you reach a ketchup-like consistency. Place the prepared food in a shallow dish inside the terrarium, ideally in the evening. Serve 1 to 2 times a week and remove uneaten leftovers after 24 hours to keep the terrarium hygienic. Strawberry is a great choice for rotating with other flavors such as banana and mango, giving your gecko variety in its diet. HabiStat is a trusted British brand with decades of experience producing reptile food and equipment."
+      "html": "Mix about 5g of powder with water to a soft, ketchup-like consistency and serve it in a shallow dish, ideally in the evening. The manufacturer recommends 5g once or twice a week as part of a varied diet based mainly on insects. Remove uneaten food after 24 hours and store the powder in a cool, dry place."
+    },
+    {
+      "type": "p",
+      "html": "Besides crested geckos, other gecko species, anoles, lacertid lizards, skinks and iguanas can eat it too. Tips on combining it with live food are on our <a href=\"/en/lizard-food.html\">lizard food</a> page."
     },
     {
       "type": "h2",
@@ -53,8 +75,8 @@
     }
   ],
   "seo": {
-    "title": "HabiStat Crested Gecko Diet Strawberry 50g | Gecko Food",
-    "description": "HabiStat Crested Gecko Diet Strawberry 50g: complete strawberry-flavored diet for crested geckos. Over 50% real fruit, 23% protein. NS Reptiles.",
-    "keywords": "habistat crested gecko diet strawberry, gecko food, crested gecko food, crested gecko diet strawberry, reptile supplies, NS Reptiles, Novi Sad, Serbia"
+    "title": "HabiStat Crested Gecko Diet Strawberry | Gecko Food",
+    "description": "HabiStat Crested Gecko Diet Strawberry: complete crested gecko food with 54% strawberry and a 4.17:1 Ca:P ratio. Just add water. NS Reptiles.",
+    "keywords": "habistat crested gecko diet strawberry, crested gecko diet, crested gecko food, strawberry gecko diet, habistat gecko food"
   }
 }

@@ -1,9 +1,9 @@
 {
   "name": "Brodsko kormilo",
   "label": "Dekoracija",
-  "lead": "Brodsko kormilo - dekorativni element koji unosi morsku tematiku u vaš akvarijum.",
-  "image": "/style/img/oprema/dekoracija/brodsko-kormilo.png",
-  "imageAlt": "Brodsko kormilo - NS Reptiles",
+  "lead": "Brodsko kormilo za akvarijum sa dva bureta na postolju obraslom mahovinom - nautički ukras sa prevrnutim buretom kao zaklonom za ribe.",
+  "image": "/style/img/oprema/dekoracija/brodsko-kormilo.webp",
+  "imageAlt": "Brodsko kormilo sa dva bureta, dekoracija za akvarijum - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -16,7 +16,15 @@
     },
     {
       "k": "Tematika",
-      "v": "Morska"
+      "v": "Nautička"
+    },
+    {
+      "k": "Detalji",
+      "v": "Kormilo, dva bureta, postolje sa mahovinom"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras i zaklon za ribe"
     }
   ],
   "description": [
@@ -26,11 +34,19 @@
     },
     {
       "type": "p",
-      "html": "Brodsko kormilo je dekorativni element koji unosi morsku tematiku u vaš akvarijum. Detaljno izrađen dekor koji deluje autentično i prirodno u morskim i slatkovodnim akvarijumima. Pogodan za sve veličine akvarijuma, lako se čisti i održava."
+      "html": "Brodsko kormilo unosi u akvarijum priču o potonulom brodu. Tamnosmeđe kormilo sa izraženim šarama drveta stoji na stubu, a ispred njega su dva bureta: jedno uspravno, napunjeno kamenčićima i školjkama, i drugo prevrnuto na bok, sa otvorom okrenutim napred. Stub i postolje obojeni su zelenim tonovima, kao da su ih vremenom prekrile alge i mahovina."
     },
     {
       "type": "p",
-      "html": "Može se kombinovati sa drugim morskim dekoracijama poput sidra, piratskog broda i koralja za kompletnu podvodnu kompoziciju. Bezbedan za ribe i ostale vodene organizme."
+      "html": "Kroz prevrnuto bure manje ribe i škampi mogu da uđu i sakriju se, a između paoka kormila ribe rado plivaju. Dekoracija je pogodna za manje i srednje akvarijume, gde može biti glavni detalj, a u većim akvarijumima izgleda najbolje u grupi sa drugim nautičkim dekoracijama, poput sidra ili olupine broda."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre stavljanja u akvarijum dekoraciju isperite mlakom vodom, bez sapuna i hemijskih sredstava. Postolje postavite na ravan deo dna i blago ga utisnite u šljunak ili pesak, da kormilo stoji stabilno. Kada se na površini pojave alge, očistite je mekom četkicom; izbegavajte oštre predmete koji mogu da ogrebu boju."
     },
     {
       "type": "h2",
@@ -42,10 +58,9 @@
     }
   ],
   "seo": {
-    "title": "Brodsko kormilo | Dekoracija za Akvarijum - NS Reptiles",
-    "description": "Brodsko kormilo - dekorativni element za akvarijum sa morskom tematikom. Kvalitetna dekoracija za NS Reptiles Novi Sad.",
-    "keywords": "brodsko kormilo, dekoracija akvarijum, morska tematika, NS Reptiles",
-    "ogTitle": "Brodsko kormilo | NS Reptiles"
+    "title": "Brodsko kormilo sa buretom za akvarijum | NS Reptiles",
+    "description": "Brodsko kormilo za akvarijum sa uspravnim i prevrnutim buretom na postolju sa mahovinom. Nautički ukras i zaklon za manje ribe. NS Reptiles, Novi Sad.",
+    "keywords": "brodsko kormilo za akvarijum, nautička dekoracija, dekoracija potonuli brod, zaklon za ribe, dekoracija za akvarijum"
   },
   "related": [
     "oprema/dekorativna-lobanja",

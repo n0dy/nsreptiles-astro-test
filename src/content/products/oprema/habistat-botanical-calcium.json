@@ -1,9 +1,9 @@
 {
   "name": "HabiStat Botanical Calcium 125g",
   "label": "Suplementi",
-  "lead": "Kalcijum karbonat obogaćen botaničkim biljkama i cvećem, sa vitaminima A, D3 i E. Namenjen za kornjače, iguane i bradate agame.",
+  "lead": "HabiStat Botanical Calcium je kalcijum sa lekovitim biljem i cvećem za biljojede i svaštojede reptile: kornjače, iguane, bradate agame. Tegla 125 g.",
   "image": "/style/img/oprema/habistat-botanical-calcium.webp",
-  "imageAlt": "HabiStat Botanical Calcium 125g - kalcijum sa biljkama za reptile - NS Reptiles",
+  "imageAlt": "HabiStat Botanical Calcium 125 g, kalcijum sa biljem - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -11,34 +11,50 @@
       "v": "HabiStat"
     },
     {
-      "k": "Težina",
-      "v": "125g"
+      "k": "Pakovanje",
+      "v": "125 g, tegla"
     },
     {
-      "k": "Tip",
-      "v": "Kalcijumski suplement"
+      "k": "Osnova",
+      "v": "Kalcijum karbonat 29%"
+    },
+    {
+      "k": "Dodaci",
+      "v": "Bilje, cveće, pčelinji polen, vitamini A, D3, E"
     },
     {
       "k": "Namena",
-      "v": "Biljojedi reptili"
+      "v": "Biljojedi i svaštojedi"
+    },
+    {
+      "k": "Primena",
+      "v": "Posipanje svežeg zelenila, može svakodnevno"
     }
   ],
   "description": [
     {
       "type": "h2",
-      "text": "Opis"
+      "text": "Detaljan opis"
     },
     {
       "type": "p",
-      "html": "HabiStat Botanical Calcium je jedinstveni kalcijumski suplement koji sadrži 29% kalcijum karbonata obogaćenog pažljivo odabranim botaničkim biljkama i cvećem. U sastavu se nalaze ehinacea, kopriva, mišjakinja, bokvica, sikavica, maslačak, kaktus, hibiskus, list duda i pčelinji polen, koji zajedno pružaju prirodnu nutritivnu podršku vašim reptilima. Ovaj suplement je dodatno obogaćen vitaminima A, D3 i E koji su neophodni za pravilan metabolizam kalcijuma i zdravlje kostiju."
+      "html": "HabiStat Botanical Calcium je suplement na bazi kalcijum karbonata, obogaćen osušenim biljem i cvećem. Prema proizvođaču, sastav čine kalcijum karbonat (29%), magnezijum karbonat, ehinacea, kopriva, mišjakinja, bokvica, sikavica, maslačak, cvet kaktusa, opuncija, cvet hibiskusa, list duda i pčelinji polen, uz dodatak vitamina A, D3 i E."
     },
     {
       "type": "p",
-      "html": "Botanical Calcium je posebno formulisan za biljojede reptile kao što su kornjače, iguane i bradate agame. Posipa se po povrću i voću pre hranjenja, čime se obezbeđuje da vaši ljubimci dobiju neophodne količine kalcijuma i vitamina kroz svakodnevnu ishranu. Važno je napomenuti da ovaj proizvod nije namenjen za insektivorne vrste reptila - za njih se preporučuje korišćenje HabiStat Pure Calcium ili HabiStat Repton suplementa."
+      "html": "Kalcijum je potreban za čvrste kosti, zdrave zube i pravilan rad mišića, a biljni sastojci daju prirodne vitamine i minerale. HabiStat ga je namenio biljojedima i svaštojedima kao što su kornjače, iguane, bradate agame i uromastiksi."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba"
     },
     {
       "type": "p",
-      "html": "Prirodni sastojci u ovom suplementu ne samo da obezbeđuju kalcijum, već doprinose i opštem zdravlju vaših životinja zahvaljujući antioksidativnim i antiinflamatornim svojstvima biljaka poput ehinacee i koprive. Redovna upotreba ovog suplementa pomaže u prevenciji metaboličke bolesti kostiju, koja je jedan od najčešćih zdravstvenih problema kod reptila u zatočeništvu."
+      "html": "Pospite ga preko svežeg korova, voća i povrća neposredno pre hranjenja. Proizvođač navodi da se može koristiti svakodnevno i da se može dodati i u peletiranu hranu. Čuvajte na suvom i hladnom mestu; proizvod je samo za životinje."
+    },
+    {
+      "type": "p",
+      "html": "Uz suplement važno je da biljojedi imaju i UVB rasvetu odgovarajuće jačine. Hranu za kornjače i guštere pogledajte na strani <a href=\"/hrana-za-gustere.html\">hrana za guštere</a>, a lampe u ponudi <a href=\"/oprema.html\">opreme</a>."
     },
     {
       "type": "h2",
@@ -50,10 +66,9 @@
     }
   ],
   "seo": {
-    "title": "HabiStat Botanical Calcium 125g | Oprema - NS REPTILES",
-    "description": "HabiStat Botanical Calcium 125g - kalcijum karbonat sa botaničkim biljkama i vitaminima A, D3, E. Za kornjače, iguane i bradate agame.",
-    "keywords": "habistat botanical calcium, botanički kalcijum za reptile, kalcijum za kornjače, kalcijum za iguane, suplement za reptile, NS Reptiles, Novi Sad, Srbija",
-    "ogDescription": "Kalcijum karbonat obogaćen botaničkim biljkama i vitaminima A, D3, E. Za kornjače, iguane i bradate agame. NS Reptiles Novi Sad."
+    "title": "HabiStat Botanical Calcium 125 g - kalcijum sa biljem",
+    "description": "HabiStat Botanical Calcium 125 g: kalcijum sa biljem, cvećem i vitaminima A, D3, E za kornjače, iguane i agame. Svakodnevno. NS Reptiles Novi Sad.",
+    "keywords": "habistat botanical calcium, kalcijum za kornjače, kalcijum za bradatu agamu, kalcijum za iguane, suplement za biljojede"
   },
   "related": [
     "oprema/gecko-nutrition-mango"

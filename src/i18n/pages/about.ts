@@ -58,7 +58,7 @@ export const ABOUT: Record<Locale, {
       },
       {
         title: '1000+ zadovoljnih kupaca',
-        text: 'Stekli smo poverenje kupaca širom Srbije - preko 300 zdravih životinja i stotine izrađenih terarijuma i akvarijuma.',
+        text: 'Stekli smo poverenje kupaca širom Srbije - preko 500 zdravih životinja i stotine izrađenih terarijuma i akvarijuma.',
       },
     ],
     valuesTitle: 'Ono u šta <b>verujemo</b>',
@@ -125,7 +125,7 @@ export const ABOUT: Record<Locale, {
       },
       {
         title: '1000+ happy customers',
-        text: "We've earned the trust of customers across Serbia - over 300 healthy animals and hundreds of terrariums and aquariums built.",
+        text: "We've earned the trust of customers across Serbia - over 500 healthy animals and hundreds of terrariums and aquariums built.",
       },
     ],
     valuesTitle: 'What we <b>believe in</b>',
@@ -192,7 +192,7 @@ export const ABOUT: Record<Locale, {
       },
       {
         title: '1000+ довольных клиентов',
-        text: 'Мы завоевали доверие клиентов по всей Сербии - более 300 здоровых животных и сотни изготовленных террариумов и аквариумов.',
+        text: 'Мы завоевали доверие клиентов по всей Сербии - более 500 здоровых животных и сотни изготовленных террариумов и аквариумов.',
       },
     ],
     valuesTitle: 'Во что мы <b>верим</b>',

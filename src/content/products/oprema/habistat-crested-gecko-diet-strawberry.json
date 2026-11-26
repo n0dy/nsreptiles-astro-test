@@ -1,9 +1,9 @@
 {
-  "name": "HabiStat Crested Gecko Diet Strawberry 50g",
+  "name": "HabiStat Crested Gecko Diet Strawberry 80g",
   "label": "Hrana",
-  "lead": "Kompletna ishrana za crested gekone i druge reptile koji jedu voće i insekte. Ukus jagode, sa preko 50% pravog voća i 9 izvora proteina.",
+  "lead": "HabiStat Crested Gecko Diet Strawberry - kompletna hrana u prahu za crested gekone sa 54% jagode i 9 izvora proteina. Meša se sa vodom.",
   "image": "/style/img/oprema/habistat-crested-gecko-diet-strawberry.webp",
-  "imageAlt": "HabiStat Crested Gecko Diet Strawberry 50g - hrana za crested gekone - NS Reptiles",
+  "imageAlt": "HabiStat Crested Gecko Diet Strawberry 80g hrana za crested gekone - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -12,37 +12,59 @@
     },
     {
       "k": "Tip",
-      "v": "Kompletna ishrana"
-    },
-    {
-      "k": "Težina",
-      "v": "50g"
+      "v": "Kompletna hrana u prahu"
     },
     {
       "k": "Ukus",
       "v": "Jagoda"
+    },
+    {
+      "k": "Voće u sastavu",
+      "v": "54%"
+    },
+    {
+      "k": "Protein / kalcijum",
+      "v": "23% / 1,99%"
+    },
+    {
+      "k": "Odnos Ca:P",
+      "v": "4,17:1"
+    },
+    {
+      "k": "Doza",
+      "v": "5 g, 1-2 puta nedeljno"
     }
   ],
   "description": [
     {
       "type": "h2",
-      "text": "Opis"
+      "text": "Detaljan opis"
     },
     {
       "type": "p",
-      "html": "HabiStat Crested Gecko Diet Strawberry je kompletna hrana za crested gekone (Correlophus ciliatus) sa osvežavajućim ukusom jagode. Ova formula je osmišljena da zadovolji sve nutritivne potrebe gekona koji se u prirodi hrane kombinacijom voća i insekata. Proizvod sadrži preko 50% pravog voća u prahu, sa jagodom kao dominantnim ukusom, što ga čini izuzetno privlačnim čak i za izbirljive jedinke koje odbijaju druge ukuse."
+      "html": "HabiStat Crested Gecko Diet Strawberry je hrana britanskog brenda HabiStat za crested gekone i druge reptile koji jedu i voće i insekte. U prahu jagode čini 54% sastava, a proteine daje 9 različitih izvora. U sastavu su, između ostalog, izolat proteina graška, protein smeđeg pirinča, spirulina, pivski kvasac, polen, med, morske alge, spanać, kamilica i neven, a dodati su vitamini A, D3 i E. Proizvođač navodi da hrana nema veštačkih boja, konzervansa ni punila."
     },
     {
-      "type": "p",
-      "html": "Pored bogatog sadržaja voća, formula uključuje 9 različitih izvora proteina životinjskog porekla, čime obezbeđuje kompletan aminokiselinski profil neophodan za rast, obnovu tkiva i reprodukciju. Nutritivne vrednosti su optimalne za gekone: 23% proteina, 1,95% kalcijuma i odnos kalcijuma i fosfora od 3,87:1. Ovaj odnos je veoma važan jer sprečava nastanak metaboličke bolesti kostiju, jednog od najčešćih zdravstvenih problema kod gekona u zatočeništvu. Hrana ne sadrži veštačke boje, arome ni konzervanse."
+      "type": "ul",
+      "items": [
+        "Protein: 23%",
+        "Ulja i masti: 2,03%",
+        "Vlakna: 1,39%",
+        "Pepeo: 8,16%",
+        "Kalcijum: 1,99% (Ca:P 4,17:1)"
+      ]
     },
     {
       "type": "h2",
-      "text": "Priprema"
+      "text": "Priprema i hranjenje"
     },
     {
       "type": "p",
-      "html": "Za pripremu obroka odmerite oko 5g praha i pomešajte sa malom količinom vode dok ne postignete konzistenciju nalik kečapu. Postavite pripremljenu hranu u plitku posudu unutar terarijuma, najbolje u večernjim satima. Služite 1 do 2 puta nedeljno i uklonite nepojedene ostatke nakon 24 sata kako biste održali higijenu terarijuma. Ukus jagode je odličan izbor za rotaciju sa drugim ukusima poput banane i manga, čime se gekonu obezbeđuje raznovrsnost u ishrani. HabiStat je pouzdani britanski brend sa višedecenijskim iskustvom u proizvodnji hrane i opreme za reptile."
+      "html": "Pomešajte oko 5 g praha sa vodom do mekane konzistencije nalik kečapu i stavite ga u plitku posudu, najbolje uveče. Proizvođač preporučuje 5 g jednom do dva puta nedeljno, kao deo raznovrsne ishrane u kojoj insekti imaju glavno mesto. Nepojedenu hranu uklonite posle 24 sata, a prah čuvajte na hladnom i suvom."
+    },
+    {
+      "type": "p",
+      "html": "Osim crested gekona, hranu mogu jesti i druge vrste gekona, anolisi, gušteri iz porodice lacertida, skinkovi i iguane. Savete o kombinovanju sa živom hranom naći ćete na strani <a href=\"/hrana-za-gustere.html\">hrana za guštere</a>."
     },
     {
       "type": "h2",
@@ -54,10 +76,10 @@
     }
   ],
   "seo": {
-    "title": "HabiStat Crested Gecko Diet Strawberry | Hrana za Gekone",
-    "description": "HabiStat Crested Gecko Diet Strawberry 50g - kompletna ishrana za crested gekone sa ukusom jagode. Preko 50% pravog voća, 23% proteina.",
-    "keywords": "habistat crested gecko diet strawberry, hrana za gekone, hrana za crested gekone, crested gecko diet jagoda, oprema za reptile, NS REPTILES, Novi Sad, Srbija, prodaja",
-    "ogDescription": "HabiStat Crested Gecko Diet Strawberry 50g - kompletna ishrana za crested gekone sa ukusom jagode. Preko 50% pravog voća, 23% proteina. NS REPTILES Novi Sad."
+    "title": "HabiStat Crested Gecko Diet Strawberry | Hrana",
+    "description": "HabiStat Crested Gecko Diet Strawberry: kompletna hrana za crested gekone sa 54% jagode i odnosom Ca:P 4,17:1. Meša se sa vodom. NS Reptiles.",
+    "keywords": "habistat crested gecko diet strawberry, hrana za crested gekone, crested gecko diet, hrana za gekone sa jagodom, habistat hrana",
+    "ogDescription": "HabiStat Crested Gecko Diet Strawberry: kompletna hrana za crested gekone sa 54% jagode i odnosom Ca:P 4,17:1. Meša se sa vodom. NS Reptiles."
   },
   "related": [
     "oprema/gecko-nutrition-mango"

@@ -2,8 +2,8 @@
   "slug": "quartz-sand-1kg",
   "name": "Quartz sand 1kg",
   "label": "Substrates",
-  "lead": "Quartz sand 1kg - decorative sand for aquariums. Gives the bottom a clean, natural look.",
-  "imageAlt": "Quartz sand 1kg - NS Reptiles",
+  "lead": "Quartz sand 1kg - a light, fine aquarium substrate. It does not change pH or water hardness and gives the bottom a clean, natural look.",
+  "imageAlt": "Quartz sand 1kg, aquarium substrate - NS Reptiles",
   "specs": [
     {
       "k": "Type",
@@ -16,6 +16,10 @@
     {
       "k": "Intended for",
       "v": "Aquarium substrate"
+    },
+    {
+      "k": "Effect on water",
+      "v": "Does not change pH or hardness"
     }
   ],
   "description": [
@@ -25,11 +29,19 @@
     },
     {
       "type": "p",
-      "html": "Quartz sand in a 1kg pack is a quality decorative sand for aquariums that gives the bottom a clean, bright and natural look. The fine grain lets plants root easily, while the neutral color nicely highlights the colors of fish and aquatic plants. Quartz sand is chemically inert - it does not affect pH or water hardness, which makes it safe for all types of freshwater aquariums."
+      "html": "Quartz sand is a fine, light-colored substrate that gives an aquarium a clean, natural look. Quartz is chemically neutral, so it does not change the pH or hardness of the water and can be used in any freshwater aquarium. The colors of fish and plants stand out nicely against the light bottom."
     },
     {
       "type": "p",
-      "html": "Before use, always rinse the sand several times under running water until the water runs clear, to remove dust that can cloud the aquarium. It is also suitable as a decorative element in dry terrariums for desert species, although in that case make sure the animals do not swallow sand while catching food."
+      "html": "The fine grain suits fish that like to dig through the bottom or rest on it, and plants root easily in it. The sand can be combined with coarser gravel, for example for paths or the front of the aquarium."
+    },
+    {
+      "type": "h2",
+      "text": "Use and maintenance"
+    },
+    {
+      "type": "p",
+      "html": "Before use, rinse the sand several times under running water until the water runs clear, so the dust does not cloud the aquarium. Spread it across the bottom and pour the water in slowly, over a plate or a bag, so you do not stir up the sand. The 1 kg pack is enough for a small aquarium, topping up an existing bottom or decorative details. During regular maintenance, lightly clean the surface with a gravel vacuum. See also our <a href=\"/en/aquariums.html\">custom aquariums</a>."
     },
     {
       "type": "h2",
@@ -41,8 +53,8 @@
     }
   ],
   "seo": {
-    "title": "Quartz Sand 1kg | Aquarium Substrate - NS Reptiles",
-    "description": "Quartz sand 1kg: decorative aquarium sand that gives the bottom a clean, natural look. Does not affect pH. NS Reptiles, Novi Sad, Serbia.",
-    "keywords": "quartz sand 1kg, aquarium sand, aquarium substrate, aquarium supplies, NS Reptiles, Novi Sad"
+    "title": "Quartz Sand 1kg | Aquarium Sand - NS Reptiles",
+    "description": "Quartz sand 1kg: light, fine aquarium substrate that does not change pH or water hardness. For fish and plants. NS Reptiles, Novi Sad, Serbia.",
+    "keywords": "quartz sand, aquarium sand, quartz sand 1kg, aquarium substrate, fine aquarium sand"
   }
 }

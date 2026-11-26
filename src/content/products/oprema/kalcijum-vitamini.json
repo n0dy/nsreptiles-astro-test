@@ -1,9 +1,9 @@
 {
   "name": "Kalcijum/Vitamini",
   "label": "Suplementi",
-  "lead": "Kalcijum i vitaminski dodatak za reptile. Podrška pravilnom razvoju kostiju - posipa se po hrani.",
+  "lead": "Kalcijum i vitamini za reptile u prahu, za posipanje insekata i povrća pre hranjenja. Osnovni dodatak ishrani guštera, gekona i kornjača.",
   "image": "/style/img/oprema/kalcijum.webp",
-  "imageAlt": "Kalcijum/Vitamini - NS Reptiles",
+  "imageAlt": "Kalcijum i vitamini u prahu za reptile - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -11,8 +11,12 @@
       "v": "Kalcijum + vitaminski dodatak"
     },
     {
+      "k": "Oblik",
+      "v": "Prah"
+    },
+    {
       "k": "Namena",
-      "v": "Razvoj kostiju reptila"
+      "v": "Dopuna ishrane reptila"
     },
     {
       "k": "Primena",
@@ -26,15 +30,23 @@
     },
     {
       "type": "p",
-      "html": "Kombinovani kalcijum i vitaminski dodatak namenjen svakodnevnoj ishrani reptila. Kalcijum je neophodan za pravilan razvoj i čvrstinu kostiju, dok vitaminski deo formule podržava opšti metabolizam, imunitet i zdravlje kože."
+      "html": "Kalcijum i vitamini u prahu su osnovni dodatak ishrani reptila koji se hrane insektima, povrćem ili kombinovano. Insekti iz uzgoja i povrće iz prodavnice obično nemaju dovoljno kalcijuma u odnosu na fosfor, pa se ta razlika nadoknađuje posipanjem hrane pre obroka."
     },
     {
       "type": "p",
-      "html": "Dodatak se posipa po živoj ili dopunskoj hrani neposredno pre hranjenja. Redovna upotreba smanjuje rizik od metaboličke bolesti kostiju (MBD), jedne od najčešćih bolesti reptila u zarobljeništvu. Za najbolje rezultate koristiti uz adekvatno UVB osvetljenje koje omogućava sintezu vitamina D3 potrebnog za apsorpciju kalcijuma."
+      "html": "Kalcijum je potreban za čvrste kosti, rast i rad mišića, a vitamini pomažu da ishrana bude potpunija. Da bi životinja iskoristila kalcijum, potreban joj je vitamin D3, koji reptili stvaraju u koži pod UVB svetlom ili ga dobijaju iz suplementa."
+    },
+    {
+      "type": "h2",
+      "text": "Upotreba"
     },
     {
       "type": "p",
-      "html": "Pogodno za sve vrste guptera, zmija i drugih reptila kojima je potrebna dopunska mineralna i vitaminska ishrana."
+      "html": "Insekte stavite u kesu ili posudu sa malo praha i lagano protresite dok ne dobiju tanak beli sloj, pa ih odmah ponudite. Biljojedima pospite prah po povrću. Koliko često ćete davati dodatak zavisi od vrste, uzrasta i rasvete u terarijumu, pa se pre kupovine posavetujte sa nama ili sa veterinarom za egzotične životinje."
+    },
+    {
+      "type": "p",
+      "html": "Prah čuvajte zatvoren na suvom mestu da se ne zgrudva. Uz dodatak preporučujemo i UVB rasvetu, a izbor lampi i drugih suplemenata naći ćete u ponudi <a href=\"/oprema.html\">opreme</a>."
     },
     {
       "type": "h2",
@@ -46,10 +58,9 @@
     }
   ],
   "seo": {
-    "title": "Kalcijum/Vitamini | Suplement za Reptile - NS Reptiles",
-    "description": "Kalcijum i vitaminski dodatak za reptile - podrška razvoju kostiju. Posipa se po hrani za optimalan unos kalcijuma i vitamina.",
-    "keywords": "Kalcijum vitamini reptili, suplement za reptile, kalcijum za reptile, vitamini za reptile, NS Reptiles",
-    "ogTitle": "Kalcijum/Vitamini | NS Reptiles"
+    "title": "Kalcijum i vitamini za reptile u prahu",
+    "description": "Kalcijum i vitamini u prahu za posipanje insekata i povrća. Dopuna ishrane za guštere, gekone i kornjače. Savet pri izboru. NS Reptiles Novi Sad.",
+    "keywords": "kalcijum za reptile, vitamini za reptile, kalcijum za guštere, suplementi za reptile, kalcijum u prahu"
   },
   "brand": false,
   "related": [

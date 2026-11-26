@@ -1,0 +1,79 @@
+{
+  "name": "Skrivalica polucev, braon",
+  "label": "Skrivalice",
+  "lead": "Jednostavna braon skrivalica u obliku polucevi, glatke površine i otvorena na krajevima - higijenski zaklon koji se čisti za tren.",
+  "image": "/style/img/oprema/skrivalica-polucev-braon.webp",
+  "imageAlt": "Skrivalica polucev, braon - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Skrivalica"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Zaklon"
+    },
+    {
+      "k": "Oblik",
+      "v": "Polucev, otvorena na krajevima"
+    },
+    {
+      "k": "Boja",
+      "v": "Svetlobraon, glatka"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova skrivalica nema imitaciju kamena ili drveta. To je jednostavna polucev svetlobraon boje, potpuno glatke površine, otvorena na oba kraja, sa malim izrezima na donjoj ivici. Upravo ta jednostavnost je njena prednost."
+    },
+    {
+      "type": "p",
+      "html": "Glatka površina bez pora i šara se pere za nekoliko sekundi i ne zadržava podlogu, izmet ni bakterije. Zato je ovakva skrivalica praktična u karantinu, kod mladunaca, kod životinja koje se oporavljaju i u jednostavnim, odgajivačkim postavkama, gde je higijena važnija od izgleda."
+    },
+    {
+      "type": "p",
+      "html": "Oblik tunela odgovara zmijama i gušterima koji vole da se provuku i odmaraju u uskom prostoru, a dva otvora im daju mogućnost da izađu na bilo koju stranu."
+    },
+    {
+      "type": "h2",
+      "text": "Saveti za upotrebu"
+    },
+    {
+      "type": "p",
+      "html": "Ako vam je potrebna tamnija skrivalica, jedan kraj tunela postavite uz staklo ili kamen. U prirodno uređenom terarijumu polucev možete delimično prekriti podlogom, korom ili mahovinom, pa se gotovo neće videti. Operite je toplom vodom kad god je čistite i terarijum."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Skrivalica polucev braon - higijenski tunel | NS Reptiles",
+    "description": "Jednostavna braon skrivalica u obliku polucevi, glatka i otvorena na krajevima - lako se čisti, za karantin, mladunce i zmije. NS Reptiles.",
+    "keywords": "skrivalica polucev, tunel za reptile, skrivalica za karantin, skrivalica za mladunce, skrivalica za zmije"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/skrivalica-kameni-polukrug",
+    "oprema/skrivalica-astecki-kalendar",
+    "oprema/skrivalica-braon-stena",
+    "oprema/skrivalica-siva-pecina"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "mossy-shipwreck-aquarium-decoration",
+  "name": "Mossy sunken ship",
+  "label": "Decoration",
+  "lead": "Mossy sunken ship for aquariums - a low, long wreck overgrown with greenery, with an opening in the hull for fish to swim through.",
+  "imageAlt": "Sunken ship overgrown with moss, aquarium wreck - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Decoration - shipwreck"
+    },
+    {
+      "k": "Look",
+      "v": "Gray-green wreck overgrown with moss"
+    },
+    {
+      "k": "Intended for",
+      "v": "Aquarium"
+    },
+    {
+      "k": "Function",
+      "v": "Ornament and hiding place for fish"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "This decoration shows a shipwreck the sea has completely taken over: the hull is broken and overgrown with moss and roots, and the gray-green tones make it look like something that has lain on the bottom for decades. There is an opening in the hull for fish to swim in and out, and the broken parts create additional cover."
+    },
+    {
+      "type": "p",
+      "html": "Thanks to its low, elongated shape, the wreck fits nicely in the front or middle of the aquarium and does not block the view of the rest of the setup. The muted colors go easily with live plants, stones and roots, so it suits more natural aquariums, not just themed ones."
+    },
+    {
+      "type": "h2",
+      "text": "Setup and care"
+    },
+    {
+      "type": "p",
+      "html": "Before use, rinse the wreck in lukewarm water, without detergents. Set it on a flat surface and press it lightly into the sand or gravel so it does not shift. If you keep fish that dig in the bottom, check after a few days that it is still stable. Clean algae and debris from the crevices with a soft brush during regular water changes."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Mossy Sunken Ship Aquarium Ornament | NS Reptiles",
+    "description": "Low shipwreck overgrown with moss, with an opening for fish. A natural-looking ornament for the front or middle of an aquarium. NS Reptiles, Novi Sad.",
+    "keywords": "sunken ship aquarium, mossy shipwreck ornament, aquarium decoration, fish hiding place, fish tank ornament"
+  }
+}

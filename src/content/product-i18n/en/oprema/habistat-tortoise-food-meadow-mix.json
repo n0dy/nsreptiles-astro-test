@@ -2,8 +2,8 @@
   "slug": "habistat-tortoise-food-meadow-mix",
   "name": "HabiStat Tortoise Food Meadow Mix",
   "label": "Food",
-  "lead": "Dry pelleted tortoise food with a meadow mix flavor. All-natural ingredients that mimic a tortoise's natural meadow diet.",
-  "imageAlt": "HabiStat Tortoise Food Meadow Mix - NS Reptiles",
+  "lead": "HabiStat Tortoise Food Meadow Mix - pelleted food for tortoises with 11.9% fiber, 11.1% protein and 2.1% calcium.",
+  "imageAlt": "HabiStat Tortoise Food Meadow Mix, tortoise pellets - NS Reptiles",
   "specs": [
     {
       "k": "Brand",
@@ -11,11 +11,23 @@
     },
     {
       "k": "Type",
-      "v": "Tortoise food"
+      "v": "Complementary food, pellets"
     },
     {
       "k": "Flavor",
       "v": "Meadow Mix"
+    },
+    {
+      "k": "Protein / fiber",
+      "v": "11.1% / 11.9%"
+    },
+    {
+      "k": "Calcium",
+      "v": "2.1%"
+    },
+    {
+      "k": "Suitable for",
+      "v": "European, Russian and other tortoises"
     }
   ],
   "description": [
@@ -25,15 +37,29 @@
     },
     {
       "type": "p",
-      "html": "HabiStat Tortoise Food Meadow Mix is a dry pelleted food for tortoises with a meadow mix flavor. This variety is the closest to a tortoise's natural diet in the wild, because it contains a mix of meadow grasses and plants that tortoises instinctively look for in their natural habitat. The pellets are made from all-natural ingredients, with no artificial colors, flavors or preservatives, giving tortoises a healthy, balanced meal."
+      "html": "HabiStat Tortoise Food Meadow Mix is a high-fiber, low-protein, calcium-rich pellet food for tortoises. Composition: oats, maize, lucerne, beet pulp, calcium carbonate, dicalcium phosphate and spirulina, with freshly mown grass aroma. Vitamins A, D3 and E are added, along with iron, copper, zinc, manganese, iodine and selenium. The grass aroma resembles the meadow plants tortoises eat in the wild, and it combines well with dandelion, plantain and other fresh greens."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Crude protein: 11.1%",
+        "Crude fiber: 11.9%",
+        "Oils and fats: 3.2%",
+        "Ash: 10.5%",
+        "Calcium: 2.1%, phosphorus: 0.6%"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How to feed"
     },
     {
       "type": "p",
-      "html": "The nutritional profile of the Meadow Mix variety is carefully designed to match the needs of tortoises. High fiber content supports healthy digestion and gut function, the low protein content is suited to a tortoise metabolism that needs slow-release energy sources, and added calcium and vitamin D3 ensure proper development and maintenance of a strong shell and healthy skeleton. The meadow flavor makes this food natural and appealing, so tortoises readily accept it."
+      "html": "This is a complementary food, not a replacement for fresh greens. The manufacturer recommends feeding it a couple of times a week as part of a varied diet, at 1-4% of the tortoise's body weight. Soak the pellets in warm water before feeding to soften them. Store in a cool, dark place."
     },
     {
       "type": "p",
-      "html": "Preparation and use: soak the pellets in warm water for a few minutes before giving them to your tortoises. Softened pellets are easier to eat and also help with hydration. It is suitable for European tortoises, Russian tortoises and most other tortoise species. Meadow Mix combines very well with fresh meadow plants and vegetables for a fully balanced diet. HabiStat is a renowned British brand with many years of experience producing reptile food."
+      "html": "It suits European, Russian and most other tortoise species. Learn how to set up a home for your tortoise in our <a href=\"/en/guides/turtle-terrarium.html\">tortoise terrarium guide</a>."
     },
     {
       "type": "h2",
@@ -46,7 +72,7 @@
   ],
   "seo": {
     "title": "HabiStat Tortoise Food Meadow Mix | Tortoise Pellets",
-    "description": "HabiStat Tortoise Food Meadow Mix: pelleted tortoise food with a meadow mix flavor. Natural ingredients, rich in calcium. NS Reptiles, Novi Sad.",
-    "keywords": "habistat tortoise food meadow mix, tortoise food, tortoise pellets, reptile food, NS Reptiles, Novi Sad, Serbia"
+    "description": "HabiStat Tortoise Food Meadow Mix: tortoise pellets with lucerne, spirulina and grass aroma. 11.9% fiber, 2.1% calcium. NS Reptiles, Novi Sad.",
+    "keywords": "habistat tortoise food meadow mix, tortoise food, tortoise pellets, russian tortoise food, tortoise food Serbia"
   }
 }

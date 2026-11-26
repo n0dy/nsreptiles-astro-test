@@ -1,0 +1,72 @@
+{
+  "name": "Lobanja bika",
+  "label": "Dekoracija",
+  "lead": "Lobanja bika za terarijum i akvarijum - replika u boji izbledele kosti sa zelenkastom patinom, sa šupljinama koje služe kao zaklon.",
+  "image": "/style/img/oprema/dekoracija/lobanja-bika.webp",
+  "imageAlt": "Replika lobanje bika u boji izbledele kosti sa zelenkastom patinom - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - lobanja"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum i terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras i skrovište"
+    },
+    {
+      "k": "Izgled",
+      "v": "Izbledela kost sa zelenkastom patinom i pukotinama"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Replika lobanje bika ima izduženu, nisku formu sa širokim čelom, velikim očnim dupljama i dugom njuškom. Boja je kao kod kosti koju je dugo pržilo sunce, sa zelenkastim mrljama nalik mahovini i tamnim pukotinama po površini. Izgleda kao nalaz iz prerije ili pustinje i odmah daje postavci divlji, prirodan karakter."
+    },
+    {
+      "type": "p",
+      "html": "U terarijumu je najlepša u pustinjskim postavkama sa peskom i kamenjem, za bradate agame, leopard gekone, pustinjske zmije ili skorpije. Kroz očne duplje i šupljine životinje mogu da se uvuku ispod lobanje i sakriju. U akvarijumu služi kao skrovište za ribe i škampe i deluje kao kost koju je reka nanela na dno."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja lobanju isperite mlakom vodom, bez deterdženta. Zbog niskog, izduženog oblika stabilno leži na podlozi. U terarijumu je malo utisnite u pesak, tako da ispod nje ostane prostor za skrivanje, i proverite da se ne pomera kada životinja kopa ispod nje. Prašinu, ostatke podloge i alge uklanjajte mekom četkom."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Lobanja bika za pustinjski terarijum | NS Reptiles",
+    "description": "Replika lobanje bika u boji izbledele kosti sa zelenkastom patinom. Ukras i skrovište za pustinjski terarijum ili akvarijum. NS Reptiles, Novi Sad.",
+    "keywords": "lobanja bika, lobanja za terarijum, pustinjski terarijum dekoracija, lobanja za akvarijum, skrovište za reptile"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum",
+    "terarijum"
+  ],
+  "related": [
+    "oprema/amfora-terakota",
+    "oprema/lobanja-krokodila",
+    "oprema/zamak-sa-kapijom",
+    "oprema/zamak-na-steni"
+  ]
+}

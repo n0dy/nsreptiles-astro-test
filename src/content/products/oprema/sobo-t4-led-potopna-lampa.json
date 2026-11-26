@@ -1,0 +1,69 @@
+{
+  "name": "SOBO T4 LED potopna lampa",
+  "label": "Rasveta",
+  "lead": "SOBO T4 potopna LED lampa za akvarijum, vodootporna (IPX8) - montira se u vodu ili ispod poklopca.",
+  "image": "/style/img/oprema/akvarijum/sobo-t4-led-potopna-lampa.webp",
+  "imageAlt": "SOBO T4 LED potopna lampa - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Potopna LED lampa za akvarijum"
+    },
+    {
+      "k": "Proizvođač",
+      "v": "SOBO"
+    },
+    {
+      "k": "Model",
+      "v": "T4"
+    },
+    {
+      "k": "Zaštita",
+      "v": "IPX8"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "SOBO T4 je vodootporna LED cev sa zaštitom IPX8, što znači da može da radi potpuno potopljena u vodu. Postavlja se u akvarijum, na zadnje staklo ili ispod poklopca, pa je rešenje i za akvarijume u kojima nema mesta za klasičnu lampu."
+    },
+    {
+      "type": "p",
+      "html": "Na ambalaži su navedene dve varijante svetla: 6500K i od 8000 do 10000K. Prema ambalaži, lampa je štedljiva, jakog svetla i dugog veka. Pre porudžbine nas pitajte za varijantu svetla i dužinu cevi, da lampa odgovara vašem akvarijumu."
+    },
+    {
+      "type": "h2",
+      "text": "Saveti za upotrebu"
+    },
+    {
+      "type": "p",
+      "html": "Pre vađenja ili premeštanja lampu obavezno isključite iz struje. Utičnicu i napojni deo držite van vode i iznad nivoa akvarijuma, uz petlju na kablu da voda ne bi klizila do utičnice. Svetlo svakog dana uključujte i isključujte u isto vreme, najbolje uz tajmer, a cev povremeno obrišite od algi i kamenca."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "SOBO T4 potopna LED lampa za akvarijum, IPX8 | NS Reptiles",
+    "description": "SOBO T4 potopna LED cev za akvarijum sa zaštitom IPX8, varijante svetla 6500K i 8000-10000K. Postavlja se u vodu ili ispod poklopca. NS Reptiles.",
+    "keywords": "sobo t4, potopna led lampa, led cev za akvarijum, vodootporna lampa ipx8, rasveta za akvarijum"
+  },
+  "brand": false,
+  "usage": [
+    "akvarijum"
+  ]
+}

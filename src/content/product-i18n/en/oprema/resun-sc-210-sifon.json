@@ -1,0 +1,65 @@
+{
+  "slug": "resun-sc-210-gravel-siphon",
+  "name": "Resun SC-210 gravel siphon",
+  "label": "Accessories",
+  "lead": "Resun SC-210 siphon with squeeze bulb - cleans debris from the aquarium bottom while changing water, no mouth suction.",
+  "imageAlt": "Resun SC-210 gravel siphon - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Gravel siphon with squeeze bulb"
+    },
+    {
+      "k": "Manufacturer",
+      "v": "Resun"
+    },
+    {
+      "k": "Model",
+      "v": "SC-210"
+    },
+    {
+      "k": "Intended for",
+      "v": "Aquarium"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The Resun SC-210 is a siphon for cleaning the aquarium bottom: a clear gravel tube, a hose and a rubber squeeze bulb that starts the flow, with no need to suck by mouth. It removes debris from sand and gravel while draining water, so the regular partial water change and bottom cleaning are done in one step. The tube is clear, so you can easily see how much debris is being removed."
+    },
+    {
+      "type": "h2",
+      "text": "How to use it"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Place a bucket below the aquarium level and put the end of the hose in it.",
+        "Submerge the gravel tube in the aquarium and squeeze the bulb a few times until water starts flowing.",
+        "Push the tube into the gravel and move it around: light debris goes down the hose while the gravel falls back.",
+        "Once you have drained the planned amount of water, lift the tube out of the water to stop the flow."
+      ]
+    },
+    {
+      "type": "p",
+      "html": "Do partial water changes regularly, on a fixed schedule that suits your aquarium. A siphon is one of the most useful accessories, because it removes waste before it breaks down and spoils water quality. With fine sand, hold the tube slightly above the substrate so you do not suck up the sand. After use, rinse the siphon with clean water and let it dry, so no dirty water stays in the hose. Before adding new water, match its temperature and treat it with a water conditioner."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Resun SC-210 Aquarium Gravel Siphon | NS Reptiles",
+    "description": "Resun SC-210 siphon with a squeeze bulb to start the flow - cleans gravel and sand while draining water during partial water changes. NS Reptiles.",
+    "keywords": "resun sc-210, aquarium siphon, gravel vacuum, gravel cleaner, aquarium water change"
+  }
+}

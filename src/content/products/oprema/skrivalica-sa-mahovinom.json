@@ -1,0 +1,79 @@
+{
+  "name": "Skrivalica stena sa mahovinom",
+  "label": "Skrivalice",
+  "lead": "Niska skrivalica u izgledu stene obrasle mahovinom, u živim zelenim tonovima - taman, miran zaklon za tropske i šumske terarijume.",
+  "image": "/style/img/oprema/skrivalica-sa-mahovinom.webp",
+  "imageAlt": "Skrivalica stena sa mahovinom - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Skrivalica"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Zaklon"
+    },
+    {
+      "k": "Oblik",
+      "v": "Nizak, širok svod"
+    },
+    {
+      "k": "Boja",
+      "v": "Zelena sa žućkastim prelivima"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova skrivalica izgleda kao niska, zaobljena stena potpuno obrasla mahovinom. Boja je živo zelena sa žućkastim i tamnijim prelivima, a sa prednje strane je širok, nizak ulaz u tamnu unutrašnjost. Na bočnoj strani je i manja udubina, kao da je kamen izdubila voda."
+    },
+    {
+      "type": "p",
+      "html": "Zeleni tonovi je čine prirodnim izborom za tropske i šumske terarijume, uz biljke, koru plute, lijane i pravu mahovinu. Tu se skrivalica gotovo stapa sa okruženjem, pa životinja dobija zaklon koji ne narušava izgled terarijuma."
+    },
+    {
+      "type": "p",
+      "html": "Nizak, širok oblik daje tamno i mirno mesto za odmor, pogodno za gekone, zmije i druge životinje koje danju spavaju u skrovištu."
+    },
+    {
+      "type": "h2",
+      "text": "Saveti za tropski terarijum"
+    },
+    {
+      "type": "p",
+      "html": "U vlažnom terarijumu skrivalicu postavite tako da ulaz ne bude okrenut direktno ka mlaznici za orošavanje, da unutra ne bi bilo previše mokro. Oko nje možete posaditi biljke ili rasporediti pravu mahovinu za još prirodniji izgled. Pošto se u vlazi brže razvijaju buđ i bakterije, skrivalicu redovno vadite, operite toplom vodom i osušite."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Skrivalica stena sa mahovinom, tropski terarijum",
+    "description": "Niska zelena skrivalica u izgledu stene obrasle mahovinom - taman, miran zaklon za tropske i šumske terarijume. NS Reptiles, Novi Sad.",
+    "keywords": "skrivalica sa mahovinom, zelena skrivalica, skrivalica za tropski terarijum, skrivalica za crested gekona, skrovište za šumski terarijum"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/posuda-za-vodu-tamnosiva",
+    "oprema/posuda-zeleni-kamen",
+    "oprema/posuda-pescar",
+    "oprema/posuda-za-vodu-svetloplava"
+  ]
+}

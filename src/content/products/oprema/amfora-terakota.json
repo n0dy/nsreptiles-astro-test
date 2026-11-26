@@ -1,0 +1,79 @@
+{
+  "name": "Amfora od terakote",
+  "label": "Dekoracija",
+  "lead": "Amfora u boji terakote za akvarijum, sa dve drške i egipatskim simbolima. Ukras u antičkom stilu i skrovište u koje ribe ulaze kroz grlić.",
+  "image": "/style/img/oprema/dekoracija/amfora-terakota.webp",
+  "imageAlt": "Amfora u boji terakote sa dve drške i egipatskim simbolima - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Dekoracija - amfora"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Ukras i skrovište za ribe"
+    },
+    {
+      "k": "Boja",
+      "v": "Terakota"
+    },
+    {
+      "k": "Motivi",
+      "v": "Egipatski simboli (ankh), urezane linije"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Amfora u boji terakote unosi u akvarijum izgled antičke olupine ili potopljenog grada. Ima dve zaobljene drške, široko grlo ukrašeno urezanim rombovima i telo sa vodoravnim žlebovima. Na trbuhu su urezani simboli u stilu starog Egipta, među kojima se jasno vidi ankh, pa dekoracija deluje kao predmet pronađen na dnu reke."
+    },
+    {
+      "type": "p",
+      "html": "Kroz otvor na grliću ribe mogu da uđu u unutrašnjost amfore i tu se sklone. Takav zaklon posebno odgovara stidljivim vrstama i ribama koje vole tamna skrovišta, jer im daje mesto za odmor i smanjuje stres. U zavisnosti od toga kako je postavite, otvor može biti okrenut ka staklu ili sakriven iza biljaka, pa sami birate koliko će se ribe videti dok se odmaraju."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Pre postavljanja amforu isperite mlakom vodom, bez deterdženta i sredstava za čišćenje. Postavite je direktno na dno ili je malo ukopajte u šljunak ili pesak, da stoji stabilno i da je ribe ne prevrnu dok kopaju. Može da stoji uspravno ili položena na bok, kao da je pala sa broda; otvor okrenite tako da se vidi sa prednje strane akvarijuma."
+    },
+    {
+      "type": "p",
+      "html": "Kada se na površini uhvati alga, izvadite amforu i očetkajte je mekom četkom u čistoj vodi. Lepo se uklapa uz kamenje, korenje i druge antičke dekoracije iz naše ponude <a href=\"/oprema.html\">opreme</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Amfora u boji terakote za akvarijum | NS Reptiles",
+    "description": "Amfora u boji terakote za akvarijum sa dve drške i egipatskim simbolima. Ukras u antičkom stilu i skrovište za ribe. NS Reptiles, Novi Sad.",
+    "keywords": "amfora za akvarijum, amfora boja terakote, egipatska dekoracija za akvarijum, skrovište za ribe, dekoracija za akvarijum"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum"
+  ],
+  "related": [
+    "oprema/lobanja-krokodila",
+    "oprema/zamak-sa-kapijom",
+    "oprema/zamak-na-steni",
+    "oprema/zamak-sa-zidinama"
+  ]
+}

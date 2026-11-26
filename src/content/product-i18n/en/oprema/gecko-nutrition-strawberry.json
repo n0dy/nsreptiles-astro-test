@@ -1,0 +1,82 @@
+{
+  "slug": "gecko-nutrition-strawberry",
+  "name": "Gecko Nutrition Strawberry",
+  "label": "Food",
+  "lead": "Gecko Nutrition Strawberry - a complete powdered diet for crested geckos, flavored with strawberry and banana. Mixed with water, made in Germany.",
+  "imageAlt": "Gecko Nutrition Strawberry crested gecko diet - NS Reptiles",
+  "specs": [
+    {
+      "k": "Brand",
+      "v": "Gecko Nutrition"
+    },
+    {
+      "k": "Type",
+      "v": "Complete powdered diet"
+    },
+    {
+      "k": "Flavor",
+      "v": "Strawberry and banana"
+    },
+    {
+      "k": "Protein / calcium",
+      "v": "26% / 2%"
+    },
+    {
+      "k": "Preparation",
+      "v": "1 part powder : 2 parts water"
+    },
+    {
+      "k": "Made in",
+      "v": "Germany"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "Gecko Nutrition Strawberry is a complete powdered diet for crested geckos, made in Germany. Strawberry gives it an aromatic, sweet taste that geckos accept readily, and together with banana and insects it makes a balanced meal."
+    },
+    {
+      "type": "p",
+      "html": "The main ingredients are banana 28%, insects 11% (black soldier fly larvae, mealworms and crickets) and strawberry 10%, complemented by whey protein and casein, pea protein, whole grain rice, coconut, bee pollen, honey, carrot, beetroot and spirulina. Vitamins A, D3 and B vitamins are added, along with iron, selenium and manganese."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Crude protein: 26%",
+        "Crude fat: 3.1%",
+        "Crude fiber: 2.9%",
+        "Crude ash: 9.2%",
+        "Calcium: 2%"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Preparation and feeding"
+    },
+    {
+      "type": "p",
+      "html": "Mix 1 part powder with 2 parts water (by volume). The mix is runny at first but thickens within a few minutes to a ketchup-like consistency; you can adjust the ratio slightly. The manufacturer recommends feeding 2-3 evenings a week, and leftovers should be removed after 24 hours. Store the opened pack in a cool, dry place; prepared food keeps 3-4 days in the fridge."
+    },
+    {
+      "type": "p",
+      "html": "Besides crested geckos, it also suits other fruit-eating reptiles. Read more about feeding on our <a href=\"/en/lizard-food.html\">lizard food</a> page."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Order by phone or WhatsApp message. Fast courier delivery. Customers in Novi Sad can pick up their order directly at our workshop. Contact us with any questions about the product or for a recommendation for your species."
+    }
+  ],
+  "seo": {
+    "title": "Gecko Nutrition Strawberry | Crested Gecko Diet",
+    "description": "Gecko Nutrition Strawberry complete crested gecko diet with strawberry, banana and insects. 26% protein, 2% calcium. Made in Germany. NS Reptiles.",
+    "keywords": "gecko nutrition strawberry, crested gecko diet, strawberry gecko food, crested gecko food, gecko food Serbia"
+  }
+}

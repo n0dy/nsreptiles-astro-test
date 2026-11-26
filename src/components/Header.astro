@@ -2,6 +2,7 @@
 import type { Locale } from '../config/site';
 import { NAV, type NavKey } from '../i18n/nav';
 import { HOME, UI } from '../i18n/ui';
+import { localizePath } from '../i18n/routes';
 
 interface Props {
   lang: Locale;
@@ -9,7 +10,6 @@ interface Props {
 }
 const { lang, active } = Astro.props;
 const n = NAV[lang];
-const chev = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>';
 ---
 <header class="nav">
   <div class="wrap nav-inner">
@@ -31,6 +31,9 @@ const chev = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-
       </ul>
     </nav>
     <div class="nav-tools">
+      <button type="button" class="nav-search" aria-label={UI[lang].search} aria-haspopup="dialog" aria-controls="searchDlg">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.6-3.6"></path></svg>
+      </button>
       <!-- shortcut: korpa jos ne vodi nigde, dok ne postoji prodavnica -->
       <button type="button" class="nav-cart" aria-label={UI[lang].cart}>
         <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="20" r="1.4"></circle><circle cx="18" cy="20" r="1.4"></circle><path d="M2 3h3l2.7 12.4a1.8 1.8 0 0 0 1.8 1.4h8.7a1.8 1.8 0 0 0 1.8-1.4L22 7H6"></path></svg>
@@ -42,22 +45,32 @@ const chev = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-
       </button>
     </div>
   </div>
-  <div class="mobile-menu" id="mobileMenu">
-    <ul>
-      {n.main.map((item) =>
-        item.key === 'animals' ? (
-          <li class="m-has-sub">
-            <button type="button" class="m-toggle" aria-expanded="false">{item.label}<Fragment set:html={chev} /></button>
-            <ul class="m-sub">
-              <li><a href={item.href}>{n.allAnimals}</a></li>
-              {n.animalsSub.map((s) => <li><a href={s.href}>{s.label}</a></li>)}
-            </ul>
-          </li>
-        ) : (
-          <li><a href={item.href}>{item.label}</a></li>
-        )
-      )}
-      <li><a href={n.contact.href}>{n.contact.label}</a></li>
-    </ul>
-  </div>
 </header>
+<div class="mobile-menu" id="mobileMenu">
+  <ul>
+    {n.main.map((item) =>
+      item.key === 'animals' ? (
+        <li class="m-has-sub">
+          <a href={item.href}>{item.label}</a>
+          <ul class="m-sub">
+            {n.animalsSub.map((s) => <li><a href={s.href}>{s.label}</a></li>)}
+          </ul>
+        </li>
+      ) : (
+        <li><a href={item.href}>{item.label}</a></li>
+      )
+    )}
+    <li><a href={n.contact.href}>{n.contact.label}</a></li>
+  </ul>
+</div>
+<dialog class="search-dlg" id="searchDlg" aria-label={UI[lang].search} data-empty={UI[lang].searchEmpty} data-error={UI[lang].searchError}>
+  <form class="search-box" role="search" action={localizePath('/pretraga.html', lang)} method="get">
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.6-3.6"></path></svg>
+    <input type="search" name="q" class="search-input" required placeholder={UI[lang].searchPlaceholder} aria-label={UI[lang].search} autocomplete="off" spellcheck="false" />
+    <button type="submit" class="search-go">{UI[lang].search}</button>
+    <button type="button" class="search-close" aria-label={UI[lang].close}>Esc</button>
+  </form>
+  <p class="search-status" role="status" aria-live="polite"></p>
+  <ul class="search-results"></ul>
+</dialog>
+<script src="../scripts/search.js"></script>

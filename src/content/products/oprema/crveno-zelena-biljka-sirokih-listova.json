@@ -1,0 +1,75 @@
+{
+  "name": "Crveno-zelena veštačka biljka širokih listova",
+  "label": "Biljke",
+  "lead": "Veštačka biljka za akvarijum sa širokim crveno-zelenim listovima, na svetlom postolju. Topli naglasak među zelenim biljkama.",
+  "image": "/style/img/oprema/akvarijum/crveno-zelena-biljka-sirokih-listova.webp",
+  "imageAlt": "Crveno-zelena veštačka biljka širokih listova za akvarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Veštačka biljka"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Dekoracija i zaklon"
+    },
+    {
+      "k": "Boja",
+      "v": "Crveno-zelena"
+    },
+    {
+      "k": "Postolje",
+      "v": "Svetlo"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Crveno-zelena veštačka biljka širokih listova unosi toplu boju u akvarijum. Široki listovi prelaze iz zelene u crvenu, a biljka stoji na svetlom postolju, pa se lako postavlja bez ukopavanja."
+    },
+    {
+      "type": "p",
+      "html": "Veštačka biljka ne vene, ne traži rasvetu ni đubrivo i ne utiče na parametre vode, pa je dobar izbor za početnike i za akvarijume sa ribama koje grickaju ili čupaju žive biljke. Sitnijim ribama, mladuncima i škampima daje zaklon i mesto za odmor."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Crveni listovi najbolje dolaze do izražaja među zelenim biljkama, u srednjem delu akvarijuma, gde služe kao naglasak. Postolje možete delimično prekriti peskom ili šljunkom da izgleda prirodnije. Pri redovnom održavanju biljku izvadite i isperite mlakom vodom, a naslage algi uklonite mekom četkicom, bez deterdženata. Pre prvog stavljanja u akvarijum takođe je isperite. Ostale dekoracije i opremu pogledajte u ponudi <a href=\"/oprema.html\">opreme</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Crveno-zelena biljka širokih listova za akvarijum",
+    "description": "Crveno-zelena veštačka biljka širokih listova za akvarijum: topli naglasak među zelenim biljkama, na svetlom postolju. NS Reptiles Novi Sad.",
+    "keywords": "veštačka biljka za akvarijum, crvena veštačka biljka, biljka širokih listova, dekoracija za akvarijum, plastične biljke za akvarijum"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum"
+  ],
+  "related": [
+    "oprema/vestacka-biljka-okruglih-listova",
+    "oprema/vestacka-biljka-sa-crvenim-cvetovima",
+    "oprema/vestacka-biljka-na-kamenu",
+    "oprema/vestacka-biljka-sa-dugim-granama"
+  ]
+}

@@ -10,6 +10,9 @@ export const LISTING_UI = {
     section: 'Namena',
     category: 'Kategorija',
     filters: 'Filteri',
+    services: 'Usluge',
+    show: 'Prikaži',
+    close: 'Zatvori',
     sort: { label: 'Sortiraj', default: 'Preporučeno', asc: 'Cena: najniža prvo', desc: 'Cena: najviša prvo' },
     call: 'Pozovi nas',
     contact: 'kontaktirajte',
@@ -21,6 +24,9 @@ export const LISTING_UI = {
     section: 'Type',
     category: 'Category',
     filters: 'Filters',
+    services: 'Services',
+    show: 'Show',
+    close: 'Close',
     sort: { label: 'Sort', default: 'Recommended', asc: 'Price: low to high', desc: 'Price: high to low' },
     call: 'Call us',
     contact: 'contact us',
@@ -31,6 +37,9 @@ export const LISTING_UI = {
     section: 'Назначение',
     category: 'Категория',
     filters: 'Фильтры',
+    services: 'Услуги',
+    show: 'Показать',
+    close: 'Закрыть',
     sort: { label: 'Сортировка', default: 'Рекомендуемые', asc: 'Цена: по возрастанию', desc: 'Цена: по убыванию' },
     call: 'Позвонить нам',
     contact: 'свяжитесь с нами',
@@ -59,6 +68,7 @@ export interface Listing {
   /** dodatni link medju filterima (srpska putanja) */
   extraPill?: { href: string; label: L; section?: string };
   guides?: { title: L; links: { href: string; label: L }[] };
+  services?: { href: string; label: L }[];
   cta: { title: L; text: L };
   /** koji proizvodi idu na listing */
   includes: (p: Product) => boolean;
@@ -76,17 +86,11 @@ const EQUIPMENT_BY_LABEL: Record<string, string> = {
   Dekoracija: 'dekoracija',
   Podloge: 'dekoracija',
   Supstrat: 'dekoracija',
+  Skrivalice: 'dekoracija',
+  Posude: 'dodatna-oprema',
   Pribor: 'dodatna-oprema',
-};
-// labela "Oprema" je presiroka za filter, pa se ti proizvodi rasporedjuju pojedinacno
-const EQUIPMENT_BY_ID: Record<string, string> = {
-  'cork-bark': 'dekoracija',
-  'skrivalice-za-reptile': 'dekoracija',
-  'folija-grejac': 'rasveta',
-  'habistat-double-feeding-ledge': 'dodatna-oprema',
-  'lizard-leash': 'dodatna-oprema',
-  pinceta: 'dodatna-oprema',
-  'posude-za-reptile': 'dodatna-oprema',
+  Grejači: 'rasveta',
+  Termometri: 'dodatna-oprema',
 };
 const AQUARIUM_BY_LABEL: Record<string, string> = {
   Filteri: 'akv-filteri',
@@ -102,6 +106,7 @@ const AQUARIUM_BY_LABEL: Record<string, string> = {
   Pozadine: 'akv-dekoracija',
   Podloge: 'akv-dekoracija',
   Supstrat: 'akv-dekoracija',
+  Skrivalice: 'akv-dekoracija',
   Pribor: 'akv-odrzavanje',
 };
 // hrana je posebna grana, nezavisno od toga da li je za akvarijum ili terarijum
@@ -117,6 +122,12 @@ const EMPTY_CUSTOM: L = {
   ru: 'По вашему запросу ничего не найдено. Попробуйте другой запрос или <a href="{contact}">свяжитесь с нами</a> — мы работаем на заказ.',
 };
 
+const SERVICES_COMMON = [
+  { href: '/odrzavanje-akvarijuma-terarijuma.html', label: { sr: 'Održavanje', en: 'Maintenance', ru: 'Обслуживание' } },
+  { href: '/popravka-akvarijuma-terarijuma.html', label: { sr: 'Popravke', en: 'Repairs', ru: 'Ремонт' } },
+  { href: '/izrada-led-rasvete.html', label: { sr: 'LED rasveta po meri', en: 'Custom LED lighting', ru: 'LED-освещение на заказ' } },
+];
+
 export const LISTINGS = {
   terarijumi: {
     path: '/terarijumi.html',
@@ -124,7 +135,7 @@ export const LISTINGS = {
     image: '/style/img/terrariums/90x45x45.webp',
     meta: {
       sr: {
-        title: 'Terarijumi sa 3D pozadinom — izrada i prodaja | NS Reptiles',
+        title: 'Prodaja Terarijuma | Stakleni Terarijumi Novi Sad - NS Reptiles',
         description: 'Stakleni terarijumi sa 3D pozadinom u preko 80 dimenzija. Ručna izrada, ventilacija, izrada po meri. NS Reptiles, Novi Sad.',
         ogTitle: 'Terarijumi sa 3D pozadinom | NS Reptiles',
         ogDescription: 'Stakleni terarijumi u preko 80 dimenzija, sa 3D pozadinom. Izrada po meri. Novi Sad.',
@@ -172,6 +183,11 @@ export const LISTINGS = {
         ru: 'Отправьте нам размеры и вид животного — изготовим террариум точно под ваши потребности, с 3D-фоном по желанию.',
       },
     },
+    services: [
+      { href: '/izrada-terarijuma.html', label: { sr: 'Izrada terarijuma po meri', en: 'Custom terrariums', ru: 'Террариумы на заказ' } },
+      { href: '/izrada-vivarijuma.html', label: { sr: 'Izrada vivarijuma', en: 'Custom vivariums', ru: 'Вивариумы на заказ' } },
+      ...SERVICES_COMMON,
+    ],
     includes: (p) => cat(p) === 'terarijumi',
     groupOf: (p) => SIZE[p.data.label],
   },
@@ -181,7 +197,7 @@ export const LISTINGS = {
     image: '/style/img/aquariums/a100x40x50.webp',
     meta: {
       sr: {
-        title: 'Akvarijumi i ter-akvarijumi — izrada i prodaja | NS Reptiles',
+        title: 'Akvarijumi Prodaja Novi Sad | Akvaristika - NS Reptiles',
         description: 'Ručno lepljeni stakleni akvarijumi, kompleti sa opremom i ter-akvarijumi za kornjače. Izrada po meri. NS Reptiles, Novi Sad.',
         ogTitle: 'Akvarijumi i ter-akvarijumi | NS Reptiles',
         ogDescription: 'Stakleni akvarijumi, kompleti i ter-akvarijumi za vodene kornjače. Izrada po meri. Novi Sad.',
@@ -242,6 +258,11 @@ export const LISTINGS = {
         ru: 'Отправьте нам размеры и назначение — изготовим аквариум или тер-аквариум точно под ваше пространство.',
       },
     },
+    services: [
+      { href: '/izrada-akvarijuma.html', label: { sr: 'Izrada akvarijuma po meri', en: 'Custom aquariums', ru: 'Аквариумы на заказ' } },
+      { href: '/akvarijumi-za-pocetnike.html', label: { sr: 'Akvarijumi za početnike', en: 'Beginner aquariums', ru: 'Аквариумы для начинающих' } },
+      ...SERVICES_COMMON,
+    ],
     // ter-akvarijumi su u katalogu pod terarijumima, a prikazuju se i ovde
     includes: (p) => cat(p) === 'akvarijumi' || slug(p).startsWith('ter-akvarijum'),
     groupOf: (p) =>
@@ -253,7 +274,7 @@ export const LISTINGS = {
     image: '/style/img/oprema/dubie.webp',
     meta: {
       sr: {
-        title: 'Oprema za terarijume i akvarijume | NS Reptiles, Novi Sad',
+        title: 'Oprema za Terarijume | UVB Lampe, Grejači, Hrana - NS Reptiles',
         description: 'Oprema za reptile - UVB rasveta, grejanje, hrana i suplementi, ziva hrana (dubie, fobasi), podloge i dekoracija. NS Reptiles, Novi Sad.',
         ogTitle: 'Oprema za terarijume i akvarijume | NS Reptiles',
         ogDescription: 'UVB rasveta, grejanje, hrana i suplementi, ziva hrana, podloge i dekoracija za terarijume i akvarijume.',
@@ -325,7 +346,7 @@ export const LISTINGS = {
         ? FOOD_BY_LABEL[p.data.label]
         : section === 'akvarijum'
           ? AQUARIUM_BY_LABEL[p.data.label]
-          : (EQUIPMENT_BY_ID[slug(p)] ?? EQUIPMENT_BY_LABEL[p.data.label]),
+          : EQUIPMENT_BY_LABEL[p.data.label],
   },
 } satisfies Record<string, Listing>;
 

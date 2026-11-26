@@ -1,0 +1,75 @@
+{
+  "name": "Narandžasto-zelena veštačka biljka",
+  "label": "Biljke",
+  "lead": "Visoka veštačka biljka za akvarijum sa perastim narandžasto-zelenim listovima, na svetlom postolju. Za zadnji plan.",
+  "image": "/style/img/oprema/akvarijum/narandzasto-zelena-biljka.webp",
+  "imageAlt": "Narandžasto-zelena veštačka biljka za akvarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Veštačka biljka"
+    },
+    {
+      "k": "Namena",
+      "v": "Akvarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Dekoracija i zaklon"
+    },
+    {
+      "k": "Boja",
+      "v": "Narandžasto-zelena"
+    },
+    {
+      "k": "Postolje",
+      "v": "Svetlo"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Narandžasto-zelena veštačka biljka je visoka biljka sa tankim, perastim listovima u narandžastim i zelenim tonovima. Postavljena je na svetlo postolje i stoji samostalno na dnu."
+    },
+    {
+      "type": "p",
+      "html": "Za razliku od živih biljaka, veštačka ne zahteva rasvetu, đubrivo ni orezivanje i ne menja kvalitet vode. Ne mogu je pojesti ni ribe koje inače uništavaju biljke, a gusti listovi pružaju zaklon sitnijim ribama i mladuncima."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i održavanje"
+    },
+    {
+      "type": "p",
+      "html": "Kao visoka biljka najbolje odgovara zadnjem delu akvarijuma ili bočnim stranama. Fini listovi se lagano pomeraju u strujanju vode, a narandžasta boja lepo kontrastira sa zelenim biljkama i tamnom podlogom. Održavanje je jednostavno: na nekoliko nedelja, ili kad primetite alge, biljku isperite mlakom vodom i prođite mekom četkicom. Deterdžente i sredstva za čišćenje ne koristite. Ostale dekoracije i opremu pogledajte u ponudi <a href=\"/oprema.html\">opreme</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Narandžasto-zelena veštačka biljka za akvarijum",
+    "description": "Narandžasto-zelena veštačka biljka za akvarijum: visoka, sa finim perastim listovima, za zadnji plan. Ne vene i ne traži svetlo. NS Reptiles.",
+    "keywords": "veštačka biljka za akvarijum, narandžasta veštačka biljka, visoka biljka za akvarijum, perasta biljka, dekoracija za akvarijum"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum"
+  ],
+  "related": [
+    "oprema/vestacka-biljka-okruglih-listova",
+    "oprema/vestacka-biljka-sa-crvenim-cvetovima",
+    "oprema/vestacka-biljka-na-kamenu",
+    "oprema/vestacka-biljka-sa-dugim-granama"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "castle-with-walls-aquarium-decoration",
+  "name": "Castle with walls",
+  "label": "Decoration",
+  "lead": "Castle with walls for aquariums - a gate tower and walls climbing a moss-covered hill, with a passage for fish.",
+  "imageAlt": "Castle with a gate tower and walls on a mossy hill, aquarium decoration - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Decoration - castle"
+    },
+    {
+      "k": "Look",
+      "v": "Gate tower and walls on a mossy hill"
+    },
+    {
+      "k": "Intended for",
+      "v": "Aquarium"
+    },
+    {
+      "k": "Function",
+      "v": "Ornament and hiding place for fish"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The castle with walls shows a stone gate tower behind which winding battlemented walls climb a green, moss-covered hill up to a watchtower at the top. Fish can swim in through the arched gate, and the brick and stone details give the decoration the look of an old fortress."
+    },
+    {
+      "type": "p",
+      "html": "Unlike classic towered castles, the emphasis here is on the walls and the hill, so the decoration looks like a small landscape. The rich green moss blends nicely with live plants, and the gate opening serves as a hiding place for small fish. It looks good in a corner of the aquarium or against the back glass."
+    },
+    {
+      "type": "h2",
+      "text": "Setup and care"
+    },
+    {
+      "type": "p",
+      "html": "Before placing it, rinse the decoration in lukewarm water, without detergents. Set it on a flat bottom and press the base into the sand so the gate entrance stays open. Check that it stands firmly and does not lean against the heater or filter hose. Remove algae from the moss and walls with a soft brush, and rinse debris out of the inside during water changes."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Castle with Walls on a Hill | Aquarium Decoration",
+    "description": "Gate tower and winding walls on a moss-covered hill, with a passage for fish. A decoration that gives an aquarium a landscape look. NS Reptiles.",
+    "keywords": "castle with walls aquarium, fortress aquarium ornament, mossy aquarium decor, fish hiding place, aquarium ornament"
+  }
+}

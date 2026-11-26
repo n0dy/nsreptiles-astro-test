@@ -1,21 +1,33 @@
 {
   "slug": "habistat-terrarium-lock-key",
-  "name": "Habistat key",
+  "name": "HabiStat sliding door lock",
   "label": "Accessories",
-  "lead": "Habistat key for locking a terrarium. Keeps your reptiles safe by preventing unauthorized opening.",
-  "imageAlt": "Habistat key - NS Reptiles",
+  "lead": "HabiStat lock for sliding glass terrarium doors, with keys. Installs without drilling, is reversible and comes with two keys and a 90 mm ratchet arm.",
+  "imageAlt": "HabiStat sliding door lock - NS Reptiles",
   "specs": [
     {
       "k": "Brand",
-      "v": "Habistat"
+      "v": "HabiStat"
+    },
+    {
+      "k": "Model",
+      "v": "Sliding Glass Door Lock 90 mm (HSVL90)"
     },
     {
       "k": "Type",
-      "v": "Terrarium key"
+      "v": "Keyed lock for sliding glass doors"
     },
     {
-      "k": "Intended for",
-      "v": "Locking"
+      "k": "Dimensions",
+      "v": "9 x 2 x 2 cm"
+    },
+    {
+      "k": "In the pack",
+      "v": "Lock and 2 keys"
+    },
+    {
+      "k": "Installation",
+      "v": "No drilling, fits either side"
     }
   ],
   "description": [
@@ -25,11 +37,23 @@
     },
     {
       "type": "p",
-      "html": "The Habistat terrarium lock key is an essential safety accessory for every reptile owner. It prevents unauthorized opening of sliding glass doors, protecting your animals from escaping and giving you peace of mind when there are children or other pets in the household. Many reptile species are remarkably good at finding ways to open sliding doors, especially larger lizards and snakes, so a safety lock is practically a must."
+      "html": "The HabiStat Sliding Glass Door Lock is a simple lock for terrariums and cabinets with sliding glass doors. It locks two sliding glass panes together, so the doors cannot move until you unlock them. The pack contains the lock with a 90 mm ratchet arm and two keys."
     },
     {
       "type": "p",
-      "html": "It is easy to install - it fits on the top edge of the sliding doors with no drilling or gluing, and can be mounted in just a couple of minutes. The key locks and unlocks easily, and the compact design does not spoil the look of the terrarium. Habistat is a renowned British brand specializing in reptile equipment, known for the quality and reliability of its products."
+      "html": "The lock is reversible and can be fitted on either side of the glass. It is useful when there are children or other pets in the home, and many lizards and snakes can push a sliding pane open and escape."
+    },
+    {
+      "type": "h2",
+      "text": "Installation"
+    },
+    {
+      "type": "p",
+      "html": "According to the manufacturer's instructions, the ratchet arm screws onto one pane, with no drilling required. The lock body then slides along the arm until it butts up against the edge of the front sliding pane, and you turn the key to lock or unlock it. Before buying, check that your terrarium has two overlapping sliding panes."
+    },
+    {
+      "type": "p",
+      "html": "Keep the keys somewhere safe, out of reach of children. We build custom glass terrariums with sliding doors; read more on our <a href=\"/en/terrariums.html\">terrariums</a> page."
     },
     {
       "type": "h2",
@@ -41,8 +65,8 @@
     }
   ],
   "seo": {
-    "title": "Habistat Terrarium Lock Key | Accessories - NS Reptiles",
-    "description": "Habistat key for locking terrarium sliding doors. Keeps your reptiles safe by preventing unauthorized opening. NS Reptiles, Novi Sad, Serbia.",
-    "keywords": "habistat key, terrarium lock, terrarium equipment, reptile supplies, NS Reptiles, Novi Sad"
+    "title": "HabiStat Sliding Glass Door Lock 90mm | Terrarium Lock",
+    "description": "HabiStat Sliding Glass Door Lock 90 mm: keyed lock with two keys for sliding glass terrarium doors, no drilling needed. NS Reptiles, Serbia.",
+    "keywords": "habistat lock, terrarium lock, sliding glass door lock, vivarium lock, terrarium security"
   }
 }

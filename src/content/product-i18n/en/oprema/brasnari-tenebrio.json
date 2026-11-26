@@ -2,34 +2,38 @@
   "slug": "mealworms",
   "name": "Mealworms (tenebrio)",
   "label": "Live food",
-  "lead": "Fat-rich larvae - a treat for lizards and a dietary supplement. Feed in moderation, to build up condition and add variety to meals.",
-  "imageAlt": "Mealworms (tenebrio) - live food for lizards, a fat-rich treat",
+  "lead": "Mealworms - fat-rich larvae, a treat and supplement in a lizard's diet. Feed in moderation, to build condition and add variety.",
+  "imageAlt": "Mealworms - live food for lizards, a fat-rich treat - NS Reptiles",
   "specs": [
     {
       "k": "Type",
-      "v": "Larvae (tenebrio)"
+      "v": "Larvae (mealworms)"
     },
     {
       "k": "Characteristics",
-      "v": "Harder chitin, higher fat content"
+      "v": "Tougher skin, higher fat content"
     },
     {
       "k": "Intended for",
-      "v": "A treat for agamas, geckos and other lizards"
+      "v": "Treat for bearded dragons, geckos and other lizards"
     },
     {
       "k": "Pack",
       "v": "100 pieces"
+    },
+    {
+      "k": "Storage",
+      "v": "In the fridge, to slow development"
     }
   ],
   "description": [
     {
       "type": "h2",
-      "text": "Description"
+      "text": "Detailed description"
     },
     {
       "type": "p",
-      "html": "Mealworms (tenebrio) are larvae with harder chitin and a higher fat content. Because of this, they are given as a treat and to build up condition, in moderation - not as a staple diet. Lizards are drawn to their movement and soft bodies, so they are a favorite addition to the menu of bearded dragons, leopard geckos and other insect eaters."
+      "html": "Mealworms are small larvae with a tougher outer skin and a higher fat content. Lizards eat them eagerly because they keep moving, so they are a favorite addition to the diet of bearded dragons, leopard geckos and other insect eaters. Because of their composition, they are not a staple food but a treat and a supplement to dubia roaches and other feeder insects."
     },
     {
       "type": "h2",
@@ -37,7 +41,15 @@
     },
     {
       "type": "p",
-      "html": "Because of their higher fat content, mealworms should be given in moderation, as a supplement to dubia roaches and other feeder insects, not every day. They are ideal for helping thinner animals regain condition or as an occasional reward. Dust them with calcium before feeding. Mealworms can be kept in the fridge to slow their development, which extends how long you can use them."
+      "html": "Feed mealworms in moderation, a few times a week alongside the main food, not every day. They are good for building condition in thinner animals, after winter rest or as a reward. They are easiest to offer in a smooth bowl they cannot climb out of, so they do not burrow into the substrate. Dust them with calcium before feeding."
+    },
+    {
+      "type": "h2",
+      "text": "Storage"
+    },
+    {
+      "type": "p",
+      "html": "Mealworms can be kept in the fridge in a box with bran or rolled oats: the cold slows their development into pupae and beetles, so they last longer. Before feeding, leave them at room temperature for a short while so they become active. Read more about feeding on our <a href=\"/en/lizard-food.html\">lizard food</a> page."
     },
     {
       "type": "h2",
@@ -50,8 +62,8 @@
   ],
   "priceUnit": "/ 100 pcs",
   "seo": {
-    "title": "Mealworms (Tenebrio) | Live Food for Lizards - NS Reptiles",
-    "description": "Mealworms (tenebrio): fat-rich larvae, a treat for lizards and a dietary supplement. From 400 din per 100 pcs. NS Reptiles, Novi Sad, Serbia.",
-    "keywords": "mealworms, tenebrio, mealworms price, live mealworms, lizard food, live food for reptiles, bearded dragon food, leopard gecko food, NS Reptiles, Novi Sad"
+    "title": "Mealworms | Live Food for Lizards - NS Reptiles",
+    "description": "Mealworms: fat-rich larvae, a treat for bearded dragons and leopard geckos and a diet supplement. From 400 din per 100. NS Reptiles, Novi Sad.",
+    "keywords": "mealworms, mealworms price, live food for lizards, leopard gecko food, bearded dragon food, feeder insects Serbia"
   }
 }

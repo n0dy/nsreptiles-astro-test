@@ -94,9 +94,15 @@ const schema = [
       <div class="usl-more-head">
         <h2 set:html={animals.title} />
       </div>
-      <div class="usl-more-grid">
+      <div class="usl-animals">
         {animals.links.map((l) => (
-          <a class="usl-link" href={href(l.href)}>{l.label}<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+          <a class={`rep-card${l.contain ? ' rep-card--contain' : ''}`} href={href(l.href)}>
+            <img loading="lazy" decoding="async" src={l.img} alt={l.label} />
+            <div class="rep-label">
+              <div class="name">{l.label}</div>
+              <span class="rep-go" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span>
+            </div>
+          </a>
         ))}
       </div>
     </div>

@@ -2,24 +2,32 @@
   "slug": "habistat-repton-40g",
   "name": "HabiStat Repton 40g",
   "label": "Supplements",
-  "lead": "A vitamin, mineral and amino acid supplement for dusting insects. Ultra-fine formula for even coating. For all insect-eating reptiles.",
-  "imageAlt": "HabiStat Repton 40g - supplement for insect-eating reptiles - NS Reptiles",
+  "lead": "HabiStat Repton is an ultra-fine powder with vitamins, minerals and amino acids for dusting insects. A 40 g pouch, used every 8th feed.",
+  "imageAlt": "HabiStat Repton 40 g pouch, insect dusting supplement - NS Reptiles",
   "specs": [
     {
       "k": "Brand",
       "v": "HabiStat"
     },
     {
-      "k": "Weight",
-      "v": "40g (pouch)"
+      "k": "Pack size",
+      "v": "40 g, resealable pouch"
     },
     {
       "k": "Type",
-      "v": "Vitamin supplement"
+      "v": "Vitamins, minerals and amino acids"
+    },
+    {
+      "k": "Contains",
+      "v": "Vitamins A, D3, E, C, K3 and B group"
     },
     {
       "k": "Intended for",
       "v": "Insect-eating reptiles"
+    },
+    {
+      "k": "Dose",
+      "v": "1/4 teaspoon, every 8th feed"
     }
   ],
   "description": [
@@ -29,15 +37,23 @@
     },
     {
       "type": "p",
-      "html": "HabiStat Repton is an advanced vitamin, mineral and amino acid supplement specially designed for insect-eating reptiles. Its ultra-fine formula coats insects evenly when dusting, guaranteeing that your animals get a consistent dose of nutrients with every meal. Repton contains vitamin A, the complete B-complex, vitamins C, D3, E and K3, as well as a wide range of minerals and essential amino acids."
+      "html": "HabiStat Repton is an insect dusting powder made to correct the poor nutritional value of some feeder insects. It is a complete supplement with vitamins, minerals and amino acids: it contains vitamins A, D3, E, C and K3, B-group vitamins, soy protein and minerals such as iron, zinc, manganese and copper."
     },
     {
       "type": "p",
-      "html": "The amino acids in Repton are especially important because they are the building blocks of the proteins reptiles need for growth, tissue repair and maintaining muscle mass. This combination of vitamins, minerals and amino acids makes Repton one of the most complete supplements on the market for insect-eating species. The recommended dosing is to dust insects at every eighth feeding, which provides adequate nutritional support without the risk of hypervitaminosis."
+      "html": "The ultra-fine formula makes Repton stick evenly to insects, so it is easy to apply, wastes little, and the animal gets the full range of the supplement with every dusted insect."
+    },
+    {
+      "type": "h2",
+      "text": "Use and dosage"
     },
     {
       "type": "p",
-      "html": "This product comes in a practical 40g pouch that suits owners with a small number of animals. For those with a larger reptile collection, HabiStat Repton is also available in a 100g jar that offers better value. Repton is ideal for leopard geckos, bearded dragons, chameleons and all other species that feed mainly on insects."
+      "html": "Manufacturer's instructions: lightly dust all insects or vegetation before feeding on every 8th feed. A quarter of a teaspoon is enough. Put insects in a bag or tub with the powder, shake and offer them right away. Store in a cool, dry place; for animal use only."
+    },
+    {
+      "type": "p",
+      "html": "The 40 g pouch suits one or two animals. For larger collections there is HabiStat Repton in a 100 g pot. Use calcium between Repton days; you will find all supplements in our <a href=\"/en/equipment.html\">equipment</a> range."
     },
     {
       "type": "h2",
@@ -49,8 +65,8 @@
     }
   ],
   "seo": {
-    "title": "HabiStat Repton 40g | Vitamins for Insect-Eating Reptiles",
-    "description": "HabiStat Repton 40g: vitamin, mineral and amino acid supplement for dusting feeder insects. For insect-eating reptiles. NS Reptiles, Novi Sad.",
-    "keywords": "habistat repton, insectivore supplement, reptile vitamins, insect dusting, lizard supplement, NS Reptiles, Novi Sad, Serbia"
+    "title": "HabiStat Repton 40g | Insect Dusting Vitamins",
+    "description": "HabiStat Repton 40 g: ultra-fine vitamin, mineral and amino acid powder for dusting insects, used every 8th feed. NS Reptiles, Novi Sad, Serbia.",
+    "keywords": "habistat repton, leopard gecko vitamins, insect dusting powder, insectivore supplement, repton 40g"
   }
 }

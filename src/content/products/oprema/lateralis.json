@@ -1,9 +1,9 @@
 {
   "name": "Lateralis",
   "label": "Živa hrana",
-  "lead": "Turkestanski žohar (red runner) - brz i sitniji feeder insekt koji svojim kretanjem provocira lovni instinkt. Idealan za kameleone, mlade gekone i guštere koji reaguju na pokret.",
+  "lead": "Lateralis (turkestanski žohar) - brz, sitniji feeder insekt koji kretanjem budi lovni instinkt. Za kameleone, mlade gekone i agame.",
   "image": "/style/img/oprema/lateralis.webp",
-  "imageAlt": "Lateralis - turkestanski žohar, živa hrana za kameleone i gekone",
+  "imageAlt": "Lateralis - turkestanski žohar, živa hrana za kameleone i gekone - NS Reptiles",
   "price": 500,
   "priceFrom": true,
   "priceUnit": "/ 100 kom",
@@ -23,16 +23,20 @@
     {
       "k": "Pakovanje",
       "v": "100 komada"
+    },
+    {
+      "k": "Ponašanje",
+      "v": "Brz, ne penje se po staklu"
     }
   ],
   "description": [
     {
       "type": "h2",
-      "text": "Opis"
+      "text": "Detaljan opis"
     },
     {
       "type": "p",
-      "html": "Lateralis, poznat i kao turkestanski žohar ili red runner, brz je i sitniji feeder insekt. Svojim stalnim kretanjem provocira lovni instinkt kod životinja, pa je idealan za kameleone, mlade gekone i guštere koji reaguju na pokret plena. Manji je od dubija, mekan i lako svarljiv, a brzo se razmnožava pa je uvek dostupan."
+      "html": "Lateralis, poznat i kao turkestanski žohar ili red runner, sitniji je i brži od dubija. Svojim stalnim kretanjem budi lovni instinkt, pa je odličan za kameleone, mlade gekone i guštere koji reaguju tek na pokret plena, kao i za izbirljive životinje koje odbijaju sporiju hranu. Mekanog je tela i lako se vari."
     },
     {
       "type": "h2",
@@ -40,7 +44,15 @@
     },
     {
       "type": "p",
-      "html": "Nimfe su odlične za mladunce i sitnije vrste, dok odrasle jedinke odgovaraju većim gušterima. Zbog brzine kretanja preporučuje se hranjenje iz posude sa glatkim ivicama kako lateralis ne bi pobegao po terarijumu. Pravilo veličine važi i ovde: insekt ne sme biti širi od razmaka između očiju životinje. Pre obroka pospite hranu kalcijumom, a povremeno i multivitaminom."
+      "html": "Nimfe su pogodne za mladunce i sitnije vrste, a odrasle jedinke za veće guštere i odrasle agame. Pravilo veličine važi i ovde: insekt ne sme biti širi od razmaka između očiju životinje. Zbog brzine ga je najlakše davati iz posude sa glatkim ivicama ili pincetom, da se ne bi sakrio po terarijumu."
+    },
+    {
+      "type": "h2",
+      "text": "Čuvanje i hranjenje"
+    },
+    {
+      "type": "p",
+      "html": "Lateralis se ne penje po glatkom staklu i plastici, pa se lako drži u kutiji sa ventilacijom i kartonom od jaja, na toplom mestu. Hranite ga povrćem, voćem i suvom hranom, a pre obroka pospite kalcijumom i povremeno multivitaminom. Više o izboru žive hrane pročitajte na strani <a href=\"/hrana-za-gustere.html\">hrana za guštere</a>."
     },
     {
       "type": "h2",
@@ -52,16 +64,15 @@
     }
   ],
   "seo": {
-    "title": "Lateralis (turkestanski žohar) | Živa hrana - NS REPTILES",
-    "description": "Lateralis (turkestanski žohar) - brz i sitniji feeder insekt koji provocira lovni instinkt. Idealan za kameleone i mlade gekone. Već od 500 din za 100 kom.",
-    "keywords": "lateralis, turkestanski žohar, red runner, lateralis cena, hrana za guštere, živa hrana za reptile, hrana za kameleone, hrana za leopard gekona, NS REPTILES, Novi Sad",
-    "ogTitle": "Lateralis (turkestanski žohar) | Živa hrana - NS REPTILES",
-    "ogDescription": "Brz i sitniji feeder insekt koji provocira lovni instinkt - idealan za kameleone i mlade gekone. Već od 500 din za 100 kom."
+    "title": "Lateralis (turkestanski žohar) | Živa hrana",
+    "description": "Lateralis (turkestanski žohar): brz, sitniji feeder insekt koji budi lovni instinkt kameleona i mladih gekona. Od 500 din za 100 kom. NS Reptiles.",
+    "keywords": "lateralis, turkestanski žohar, red runner, živa hrana za kameleone, hrana za gekone, feeder žohari",
+    "ogTitle": "Lateralis (turkestanski žohar) | Živa hrana",
+    "ogDescription": "Lateralis (turkestanski žohar): brz, sitniji feeder insekt koji budi lovni instinkt kameleona i mladih gekona. Od 500 din za 100 kom. NS Reptiles."
   },
   "related": [
     "oprema/dubia-zohari",
     "oprema/fobasi",
-    "oprema/brasnari-tenebrio",
-    "oprema/dubie-s-100kom"
+    "oprema/brasnari-tenebrio"
   ]
 }

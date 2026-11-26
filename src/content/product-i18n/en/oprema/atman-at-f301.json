@@ -1,0 +1,68 @@
+{
+  "slug": "atman-at-f301-internal-filter",
+  "name": "Atman AT-F301 internal filter",
+  "label": "Filters",
+  "lead": "Atman AT-F301 internal filter with pump and sponge - mechanical and biological filtration plus water circulation in the aquarium.",
+  "imageAlt": "Atman AT-F301 internal filter - NS Reptiles",
+  "specs": [
+    {
+      "k": "Type",
+      "v": "Internal filter with pump"
+    },
+    {
+      "k": "Manufacturer",
+      "v": "Atman"
+    },
+    {
+      "k": "Model",
+      "v": "AT-F301"
+    },
+    {
+      "k": "Filtration",
+      "v": "Mechanical and biological (sponge)"
+    },
+    {
+      "k": "Intended for",
+      "v": "Aquarium"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detailed description"
+    },
+    {
+      "type": "p",
+      "html": "The Atman AT-F301 is an internal aquarium filter with a built-in pump, labeled Internal Filter on the box. It sits in the water and attaches to the glass with suction cups, so nothing needs to be mounted outside the tank."
+    },
+    {
+      "type": "p",
+      "html": "Water is drawn in through the lower part of the housing and passes through a filter sponge that traps food particles, waste and plant debris. Over time, beneficial bacteria settle on the sponge and break down ammonia and nitrites, so the filter also provides biological filtration. Clean water exits at the top and keeps the aquarium water moving."
+    },
+    {
+      "type": "p",
+      "html": "The AT-F301 has a slim housing with the outlet at the top that is easy to hide behind plants or decor. For fish that dislike strong current, such as bettas and long-finned ornamental fish, choose a filter with moderate flow, so ask us about this model's flow rate and recommended tank volume before buying."
+    },
+    {
+      "type": "h2",
+      "text": "Use and maintenance"
+    },
+    {
+      "type": "p",
+      "html": "Always unplug the filter before cleaning. Rinse the sponge in aquarium water during a partial water change, never under the tap, so you do not kill the beneficial bacteria. Replace the sponge only when it falls apart or no longer keeps its shape."
+    },
+    {
+      "type": "h2",
+      "text": "Ordering and delivery"
+    },
+    {
+      "type": "p",
+      "html": "Call us or message us on WhatsApp to order. Courier delivery across Serbia, free pickup in Novi Sad."
+    }
+  ],
+  "seo": {
+    "title": "Atman AT-F301 Internal Aquarium Filter | NS Reptiles",
+    "description": "Atman AT-F301 internal filter with pump and sponge, in a slim housing that is easy to hide. Mechanical and biological filtration. NS Reptiles, Serbia.",
+    "keywords": "atman at-f301, internal filter, small aquarium filter, aquarium filter, sponge filter"
+  }
+}

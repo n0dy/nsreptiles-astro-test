@@ -1,9 +1,9 @@
 {
   "name": "Arcadia UVB 7% 23W",
   "label": "Rasveta",
-  "lead": "Arcadia UVB kompaktna sijalica 7% / 23W. Univerzalna opcija pogodna za razne vrste reptila.",
+  "lead": "Arcadia D3 Forest 7% kompaktna UVB sijalica od 23 W sa E27 grlom, bez predspojnika. 7% UVB i 30% UVA, za šumske vrste.",
   "image": "/style/img/oprema/uvb7.webp",
-  "imageAlt": "Arcadia UVB 7% 23W - NS Reptiles",
+  "imageAlt": "Arcadia D3 Forest Compact 7% UVB 23W E27 - NS Reptiles",
   "price": 0,
   "specs": [
     {
@@ -11,16 +11,28 @@
       "v": "Arcadia"
     },
     {
-      "k": "UVB",
-      "v": "7%"
+      "k": "Model",
+      "v": "D3 Forest Compact 7%"
     },
     {
       "k": "Snaga",
-      "v": "23W"
+      "v": "23 W"
     },
     {
-      "k": "Namena",
-      "v": "Razne vrste reptila"
+      "k": "Grlo",
+      "v": "E27, 220-240 V"
+    },
+    {
+      "k": "UVB / UVA",
+      "v": "7% / 30%"
+    },
+    {
+      "k": "Svetlost",
+      "v": "798 lm, 6500 K, CRI 90+"
+    },
+    {
+      "k": "Trajanje UVB",
+      "v": "12 meseci"
     }
   ],
   "description": [
@@ -30,11 +42,23 @@
     },
     {
       "type": "p",
-      "html": "Arcadia UVB kompaktna sijalica sa 7% UVB zračenjem i snagom od 23W je univerzalna opcija pogodna za širok spektar reptila. UVB zračenje pomaže u sintezi vitamina D3, neophodnog za apsorpciju kalcijuma i zdrav razvoj kostiju. Procenat od 7% predstavlja srednju vrednost između šumskih i pustinjskih opcija, čineći ovu sijalicu pogodnom za leopard gekone, manje zmije, manje agame i mnoge druge popularne vrste."
+      "html": "Arcadia D3 Forest Compact 7% je kompaktna fluorescentna sijalica punog spektra sa 7% UVB i 30% UVA zračenja. Ima ugrađen elektronski predspojnik, pa se uvrće direktno u standardno E27 grlo. Prema proizvođaču, model od 23 W daje 798 lumena, temperaturu boje 6500 K i CRI veći od 90, ne treperi i ima staklo koje blokira UVC zračenje."
     },
     {
       "type": "p",
-      "html": "Kompaktna E27 forma omogućava laku ugradnju u keramičke nosače. Preporučena udaljenost od životinje je 20-30cm za optimalan UVB nivo. Sijalicu je potrebno menjati svakih 6-12 meseci jer UVB emisija postepeno slabi, čak i ako vidljiva svetlost ostaje nepromenjena."
+      "html": "UVB omogućava reptilima da u koži stvaraju vitamin D3, potreban za iskorišćavanje kalcijuma. Arcadia navodi da su kompaktne lampe posebno korisne za mlade i manje životinje, a ova sijalica je namenjena šumskim vrstama i vrstama kojima treba umereno UVB, posebno mladim životinjama u manjim terarijumima."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje i zamena"
+    },
+    {
+      "type": "p",
+      "html": "Sijalicu postavite u grlo iznad mesta za sunčanje, idealno u svetiljku sa reflektorom. Rastojanje do mesta za sunčanje prilagodite vrsti, a u terarijumu ostavite i senovitu zonu. Ne gledajte direktno u izvor svetlosti. Proizvođač navodi da sijalica daje UVB 12 meseci, posle čega je treba zameniti, iako i dalje svetli."
+    },
+    {
+      "type": "p",
+      "html": "Za veće terarijume bolje je izabrati UVB cev koja pokriva veću površinu. Grla, cevi i ostalu opremu pronađite u ponudi <a href=\"/oprema.html\">opreme</a>."
     },
     {
       "type": "h2",
@@ -46,11 +70,9 @@
     }
   ],
   "seo": {
-    "title": "Arcadia UVB 7% 23W | UVB Sijalica za Reptile - NS Reptiles",
-    "description": "Arcadia UVB kompaktna sijalica 7% / 23W. Univerzalna opcija pogodna za razne vrste reptila. E27 grlo, za sintezu vitamina D3.",
-    "keywords": "Arcadia UVB 7% 23W, UVB sijalica za reptile, kompaktna UVB sijalica, UVB osvetljenje, NS Reptiles",
-    "ogTitle": "Arcadia UVB 7% 23W | NS Reptiles",
-    "ogDescription": "Arcadia UVB kompaktna sijalica 7% / 23W. Univerzalna opcija pogodna za razne vrste reptila."
+    "title": "Arcadia D3 Forest Compact 7% 23W E27 - UVB sijalica",
+    "description": "Arcadia D3 Forest Compact 7% UVB 23 W, E27 bez predspojnika: 7% UVB, 30% UVA, 12 meseci, za šumske vrste. NS Reptiles Novi Sad.",
+    "keywords": "arcadia compact 7%, uvb sijalica e27, kompaktna uvb sijalica 23w, uvb sijalica za šumske vrste, arcadia d3 forest"
   },
   "related": [
     "oprema/arcadia-spot-100w",

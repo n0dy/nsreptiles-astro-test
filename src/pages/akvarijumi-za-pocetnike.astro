@@ -3,7 +3,19 @@ import { twoTone } from '../lib/two-tone';
 import Base from '../layouts/Base.astro';
 import '../styles/animals.css';
 import '../styles/usluge.css';
+import '../styles/oprema.css';
 import { translationsFor } from '../i18n/routes';
+import ProductCard from '../components/ProductCard.astro';
+import { getProducts } from '../lib/products';
+
+// isti izbor kao na starom sajtu, redom kako su bili
+const BEGINNER = ['40x25x27-komplet', 'oktagon', '20x17x14', '25x19x20', '30x21x23', '35x23x25', '40x25x27', '45x27x30', '50x28x30'].map((s) => `akvarijumi/akvarijum-${s}`);
+const all = await getProducts();
+const beginner = BEGINNER.map((id) => {
+  const p = all.find((x) => x.id === id);
+  if (!p) throw new Error(`akvarijumi-za-pocetnike: nema proizvoda ${id}`);
+  return p;
+});
 
 const schema = [
   [
@@ -53,7 +65,7 @@ const schema = [
 ---
 <Base
   lang="sr"
-  title="Akvarijumi za početnike — vodič za odabir | NS Reptiles"
+  title="Akvarijumi za Početnike | Mali Akvarijumi Cene - NS Reptiles"
   description="Vodič za početnike: kako izabrati pravi akvarijum, koja oprema je potrebna i kako ga pravilno postaviti. Mali akvarijumi od 4L do 45L u Novom Sadu."
   path="/akvarijumi-za-pocetnike.html"
   image="/style/img/logo.jpg"
@@ -208,6 +220,16 @@ const schema = [
         </div>
       </div>
     </section>
+<section class="op-shop op-shop--akvarijumi">
+      <div class="wrap">
+        <div class="usl-more-head">
+          <h2>Mali akvarijumi <b>za početnike</b></h2>
+        </div>
+        <div class="op-grid">
+          {beginner.map((p) => <ProductCard product={p} />)}
+        </div>
+      </div>
+    </section>
 <section class="usl-more reveal">
       <div class="wrap">
         <div class="usl-more-head">
@@ -235,8 +257,8 @@ const schema = [
     </section>
 <section class="zcta reveal">
       <div class="wrap">
-        <h2>Pozovite nas ili <b>pissite na WhatsApp</b></h2>
-        <p>Naš tim u NS Reptiles pomoci ce vam da izaberete pravi akvarijum i opremu za vas. Dostupni smo svakog radnog dana od 09:00 do 17:00.</p>
+        <h2>Pozovite nas ili <b>pišite na WhatsApp</b></h2>
+        <p>Naš tim u NS Reptiles pomoci ce vam da izaberete pravi akvarijum i opremu za vas. Dostupni smo svakog dana od 09:00 do 21:00.</p>
         <div class="zcta-btns">
           <a href="https://wa.me/381693301474?text=Zanima%20me%20akvarijum%20za%20po%C4%8Detnike" target="_blank" rel="noopener" class="btn btn-primary" onclick="gtag('event', 'kontakt_click', {'metod': 'whatsapp'})">WhatsApp</a>
           <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event', 'kontakt_click', {'metod': 'telefon'})">+381 69 330 1474</a>

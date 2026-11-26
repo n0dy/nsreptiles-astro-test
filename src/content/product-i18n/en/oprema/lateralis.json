@@ -2,12 +2,12 @@
   "slug": "lateralis-red-runner-roaches",
   "name": "Lateralis",
   "label": "Live food",
-  "lead": "Turkistan roach (red runner) - a fast, smaller feeder insect whose movement triggers the hunting instinct. Ideal for chameleons, young geckos and lizards that respond to movement.",
-  "imageAlt": "Lateralis - Turkistan roach, live food for chameleons and geckos",
+  "lead": "Lateralis (red runner roach) - a fast, smaller feeder insect whose movement triggers the hunting instinct. For chameleons, young geckos and agamas.",
+  "imageAlt": "Lateralis - red runner roach, live food for chameleons and geckos - NS Reptiles",
   "specs": [
     {
       "k": "Type",
-      "v": "Turkistan roach (red runner)"
+      "v": "Red runner roach (Turkestan roach)"
     },
     {
       "k": "Sizes",
@@ -20,16 +20,20 @@
     {
       "k": "Pack",
       "v": "100 pieces"
+    },
+    {
+      "k": "Behavior",
+      "v": "Fast, does not climb glass"
     }
   ],
   "description": [
     {
       "type": "h2",
-      "text": "Description"
+      "text": "Detailed description"
     },
     {
       "type": "p",
-      "html": "Lateralis, also known as the Turkistan roach or red runner, is a fast, smaller feeder insect. Its constant movement triggers the hunting instinct in animals, so it is ideal for chameleons, young geckos and lizards that respond to moving prey. It is smaller than dubia roaches, soft and easy to digest, and it breeds quickly, so it is always available."
+      "html": "Lateralis, also known as the red runner or Turkestan roach, is smaller and faster than the dubia. Its constant movement triggers the hunting instinct, so it is excellent for chameleons, young geckos and lizards that only react to moving prey, as well as for fussy animals that refuse slower food. It is soft-bodied and easy to digest."
     },
     {
       "type": "h2",
@@ -37,7 +41,15 @@
     },
     {
       "type": "p",
-      "html": "Nymphs are great for babies and smaller species, while adults suit larger lizards. Because they move so fast, feeding from a smooth-edged dish is recommended so the lateralis do not escape into the terrarium. The size rule applies here too: the insect must not be wider than the space between the animal's eyes. Dust the food with calcium before feeding, and occasionally with a multivitamin."
+      "html": "Nymphs suit babies and smaller species, and adults suit larger lizards and adult agamas. The size rule applies here too: the insect should not be wider than the space between the animal's eyes. Because of their speed, they are easiest to offer from a smooth-sided bowl or with tweezers, so they do not hide around the terrarium."
+    },
+    {
+      "type": "h2",
+      "text": "Keeping and feeding"
+    },
+    {
+      "type": "p",
+      "html": "Lateralis cannot climb smooth glass or plastic, so it is easy to keep in a ventilated box with egg cartons in a warm place. Feed it vegetables, fruit and dry food, and dust it with calcium before feeding, occasionally with a multivitamin. Read more about choosing live food on our <a href=\"/en/lizard-food.html\">lizard food</a> page."
     },
     {
       "type": "h2",
@@ -50,8 +62,8 @@
   ],
   "priceUnit": "/ 100 pcs",
   "seo": {
-    "title": "Lateralis (Red Runner Roaches) | Live Food - NS Reptiles",
-    "description": "Lateralis (red runner roach): a fast, smaller feeder insect that triggers the hunting instinct. Ideal for chameleons. From 500 din per 100 pcs.",
-    "keywords": "lateralis, red runner roaches, turkistan roach, lateralis price, lizard food, live food for reptiles, chameleon food, leopard gecko food, NS Reptiles, Novi Sad"
+    "title": "Lateralis Red Runner Roaches | Live Food - NS Reptiles",
+    "description": "Lateralis (red runner roaches): fast, smaller feeders that trigger the hunting instinct in chameleons and young geckos. From 500 din per 100.",
+    "keywords": "lateralis, red runner roaches, turkestan roaches, live food for chameleons, gecko food, feeder roaches"
   }
 }

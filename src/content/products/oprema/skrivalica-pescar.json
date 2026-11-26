@@ -1,0 +1,79 @@
+{
+  "name": "Skrivalica peščar",
+  "label": "Skrivalice",
+  "lead": "Skrivalica u obliku luka od žutog peščara sa tamnim prošaranim slojevima - zaklon i stepenica za penjanje u pustinjskom terarijumu.",
+  "image": "/style/img/oprema/skrivalica-pescar.webp",
+  "imageAlt": "Skrivalica peščar - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Skrivalica"
+    },
+    {
+      "k": "Namena",
+      "v": "Terarijum"
+    },
+    {
+      "k": "Funkcija",
+      "v": "Zaklon i penjanje"
+    },
+    {
+      "k": "Oblik",
+      "v": "Luk sa stepenastim krilom"
+    },
+    {
+      "k": "Boja",
+      "v": "Žuta sa tamnosivim prošaranim delovima"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Ova skrivalica ima oblik luka sa izraženom, slojevitom teksturom peščara. Boja je jarko žuta sa tamnosivim prošaranim delovima, kao stena izložena suncu i vetru. Sa jedne strane luk se nastavlja u niže, stepenasto krilo koje se spušta do podloge."
+    },
+    {
+      "type": "p",
+      "html": "Ispod luka je zaklon sa ulazom sa prednje strane, a stepenasto krilo služi kao rampa za penjanje na vrh. Gušteri tako mogu da se popnu, osmatraju terarijum i greju se, pa da se spuste i sakriju ispod."
+    },
+    {
+      "type": "p",
+      "html": "Žuti tonovi su napravljeni za pustinjske postavke. Odlično se uklapa u terarijume za leopard gekone i bradate agame, posebno uz svetao pesak, kamenje i suve grane."
+    },
+    {
+      "type": "h2",
+      "text": "Saveti za postavljanje"
+    },
+    {
+      "type": "p",
+      "html": "Skrivalicu postavite direktno na dno terarijuma, pa oko nje nasipajte podlogu; tako je životinja ne može potkopati. Ako je stavljate na toplu stranu, termometrom proverite temperaturu vrha ispod lampe. Na hladniju stranu postavite drugu skrivalicu. Slojevitu površinu očistite četkom pod toplom vodom."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu. Isporuka kurirskom službom u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Skrivalica peščar za pustinjski terarijum | NS Reptiles",
+    "description": "Skrivalica u obliku luka od žutog peščara sa stepenastim krilom za penjanje - za leopard gekone i bradate agame. NS Reptiles, Novi Sad.",
+    "keywords": "skrivalica peščar, skrivalica za pustinjski terarijum, skrivalica za leopard gekona, skrivalica za bradatu agamu, žuta skrivalica"
+  },
+  "brand": true,
+  "usage": [
+    "terarijum"
+  ],
+  "related": [
+    "oprema/posuda-za-vodu-tamnosiva",
+    "oprema/posuda-zeleni-kamen",
+    "oprema/posuda-pescar",
+    "oprema/posuda-za-vodu-svetloplava"
+  ]
+}
