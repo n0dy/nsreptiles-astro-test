@@ -12,6 +12,7 @@ import { HOME } from '../../i18n/ui';
 import { localizePath, translationsFor } from '../../i18n/routes';
 import { getProducts } from '../../lib/products';
 import { gitDates } from '../../lib/git-dates';
+import { TERRARIUM_GUIDES } from '../../i18n/guides';
 
 interface Props {
   lang: Locale;
@@ -34,6 +35,7 @@ const d = entry.data;
 const { image, photo, photoSize = [1248, 832], related = [] } = sr.data;
 if (!image || !photo) throw new Error(`species/sr/${slug}.json: fale image/photo`);
 const low = sr.data.price?.low;
+const guide = TERRARIUM_GUIDES[slug];
 
 const href = (srPath: string) => localizePath(srPath, lang);
 // sr URL-ovi su ostali sa starog sajta (bez crtica) - ne menjati zbog SEO
@@ -51,7 +53,6 @@ const relatedProducts = related.map((id) => {
 
 const modified = gitDates().get(`src/content/species/${lang}/${slug}.json`);
 const BYLINE = { sr: ['Autor', 'odgajivač, NS Reptiles', 'Ažurirano'], en: ['Author', 'breeder, NS Reptiles', 'Updated'], ru: ['Автор', 'заводчик, NS Reptiles', 'Обновлено'] }[lang];
-const org = { '@type': 'Organization', name: SITE.name };
 const schema: Record<string, unknown>[] = [
   {
     '@context': 'https://schema.org',
@@ -61,7 +62,7 @@ const schema: Record<string, unknown>[] = [
     author: AUTHOR,
     ...(modified ? { dateModified: modified } : {}),
     inLanguage: lang,
-    publisher: { '@id': SITE.url + '/#business', ...org, logo: { '@type': 'ImageObject', url: `${SITE.url}/style/img/logo.jpg` } },
+    publisher: { '@id': SITE.url + '/#business' },
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
     image: imageUrl,
   },
@@ -75,15 +76,16 @@ const schema: Record<string, unknown>[] = [
     ],
   },
 ];
-if (d.product && low) {
+// cena se vodi samo u sr fajlu, pa Product ide na sva tri jezika; cena je "od", zato Offer sa minPrice
+if (low) {
   schema.push({
     '@context': 'https://schema.org',
     '@type': 'Product',
-    name: d.product.name ?? d.name,
-    description: d.product.description,
+    name: d.product?.name ?? d.schemaName ?? d.name,
+    description: d.product?.description ?? d.article.description,
     image: imageUrl,
     brand: { '@type': 'Brand', name: SITE.name },
-    offers: { '@type': 'AggregateOffer', url, priceCurrency: 'RSD', lowPrice: low, availability: 'https://schema.org/InStock' },
+    offers: { '@type': 'Offer', url, priceCurrency: 'RSD', price: low, priceSpecification: { '@type': 'PriceSpecification', minPrice: low, priceCurrency: 'RSD' }, seller: { '@id': SITE.url + '/#business' } },
   });
 }
 if (d.faq) {
@@ -170,6 +172,11 @@ const h3Style = "font-family:'Oswald Variable',sans-serif;text-transform:upperca
     ))}
   </div>
 </section>
+{guide && (
+  <div class="wrap" style="padding-block: 8px 28px">
+    <a class="btn btn-outline" href={href(guide.href)}>{guide.label[lang]}</a>
+  </div>
+)}
 {relatedProducts.length > 0 && (
   <section class="pd-related section">
     <div class="wrap">

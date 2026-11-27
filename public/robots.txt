@@ -3,24 +3,21 @@ Disallow: /kalkulator.html
 Disallow: /en/calculator.html
 Disallow: /ru/calculator.html
 
-# AI crawleri
+# AI crawleri: dozvoljeni kao i svi ostali. Imenovana grupa zamenjuje pravila iz "*",
+# zato se zabrane za kalkulator ovde ponavljaju.
 User-agent: GPTBot
-Allow: /
-
 User-agent: OAI-SearchBot
-Allow: /
-
 User-agent: ChatGPT-User
-Allow: /
-
 User-agent: Google-Extended
-Allow: /
-
 User-agent: ClaudeBot
-Allow: /
-
+User-agent: Claude-SearchBot
+User-agent: Claude-User
 User-agent: PerplexityBot
+User-agent: Perplexity-User
 Allow: /
+Disallow: /kalkulator.html
+Disallow: /en/calculator.html
+Disallow: /ru/calculator.html
 
 User-agent: Bytespider
 Disallow: /

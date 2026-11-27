@@ -35,20 +35,20 @@ export const SERVICES = {
     meta: {
       sr: {
         title: 'Izrada terarijuma po meri, Novi Sad | NS Reptiles',
-        description: 'Izrada terarijuma po meri u Novom Sadu: stakleni terarijumi za agame, gekone i pitone, 40+ dezena folija, 3D pozadine i UVB rasveta. Rok 7 radnih dana.',
+        description: 'Izrada terarijuma po meri u Novom Sadu: stakleni terarijumi za agame, gekone i pitone, 40+ dezena folija, 3D pozadine i UVB rasveta. Rok 7–14 dana.',
         ogTitle: 'Izrada terarijuma po meri | NS Reptiles',
         ogDescription: 'Ručno rađeni stakleni terarijumi po vašim merama — folije, 3D pozadine, rasveta i oprema. Novi Sad.',
         image: '/style/img/logo.jpg',
       },
       en: {
         title: 'Custom Glass Terrarium Builds in Novi Sad | NS Reptiles',
-        description: 'Custom glass terrariums in Novi Sad for bearded dragons, geckos and pythons — 40+ film finishes, 3D backgrounds and UVB lighting. Ready in 7 working days.',
+        description: 'Custom glass terrariums in Novi Sad for bearded dragons, geckos and pythons — 40+ film finishes, 3D backgrounds and UVB lighting. Ready in 7–14 days.',
         ogTitle: 'Custom Terrarium Builds | NS Reptiles',
         ogDescription: 'Handcrafted glass terrariums built to your exact dimensions — decorative films, 3D backgrounds, lighting and full equipment. Novi Sad.',
       },
       ru: {
         title: 'Террариумы на заказ в Нови-Саде | NS Reptiles',
-        description: 'Террариумы на заказ в Нови-Саде: стеклянные террариумы для агам, гекконов и питонов, более 40 видов плёнок, 3D-фоны и UVB-освещение. Срок — 7 рабочих дней.',
+        description: 'Террариумы на заказ в Нови-Саде: стеклянные террариумы для агам, гекконов и питонов, более 40 видов плёнок, 3D-фоны и UVB-освещение. Срок — 7–14 дней.',
         ogTitle: 'Террариумы на заказ | NS Reptiles',
         ogDescription: 'Ручная работа — стеклянные террариумы по вашим размерам: плёнки, 3D-фоны, освещение и оборудование. Нови-Сад.',
       },
@@ -57,17 +57,17 @@ export const SERVICES = {
       sr: {
         name: 'Izrada terarijuma po meri',
         serviceType: 'Izrada terarijuma po meri',
-        description: 'Izrada terarijuma po meri u Novom Sadu. Stakleni terarijumi za agame, gekone i pitone, preko 40 dezena folija, 3D pozadine i UVB rasveta. Rok izrade 7 radnih dana.',
+        description: 'Izrada terarijuma po meri u Novom Sadu. Stakleni terarijumi za agame, gekone i pitone, preko 40 dezena folija, 3D pozadine i UVB rasveta. Rok izrade 7–14 dana.',
       },
       en: {
         name: 'Custom Terrarium Builds',
         serviceType: 'Custom Terrarium Manufacturing',
-        description: 'Custom-built glass terrariums in Novi Sad. Handcrafted terrariums for bearded dragons, geckos and pythons — 40+ film finishes, 3D backgrounds and UVB lighting. Ready in 7 working days.',
+        description: 'Custom-built glass terrariums in Novi Sad. Handcrafted terrariums for bearded dragons, geckos and pythons — 40+ film finishes, 3D backgrounds and UVB lighting. Ready in 7–14 days.',
       },
       ru: {
         name: 'Изготовление террариумов на заказ',
         serviceType: 'Изготовление террариумов на заказ',
-        description: 'Изготовление террариумов на заказ в Нови-Саде. Стеклянные террариумы для агам, гекконов и питонов, более 40 видов плёнок, 3D-фоны и UVB-освещение. Срок изготовления 7 рабочих дней.',
+        description: 'Изготовление террариумов на заказ в Нови-Саде. Стеклянные террариумы для агам, гекконов и питонов, более 40 видов плёнок, 3D-фоны и UVB-освещение. Срок изготовления 7–14 дней.',
       },
     },
     h1: {
@@ -148,14 +148,14 @@ export const SERVICES = {
       },
       {
         title: {
-          sr: 'Izrada — 7 radnih dana',
-          en: 'Build time — 7 working days',
-          ru: 'Срок изготовления — 7 рабочих дней',
+          sr: 'Izrada — 7–14 dana',
+          en: 'Build time — 7–14 days',
+          ru: 'Срок изготовления — 7–14 дней',
         },
         text: {
-          sr: 'Uobičajeni rok izrade terarijuma je 7 radnih dana. Za zahtevnije i veće projekte kao što su terarijumi za veliku vodenu agamu ili iguanu, rok izrade može biti i duži.',
-          en: 'Standard production time is 7 working days. For more complex or larger builds, such as terrariums for a large water dragon or iguana, the lead time may be longer.',
-          ru: 'Стандартный срок изготовления террариума — 7 рабочих дней. Для более сложных и крупных проектов, таких как террариумы для большой водной агамы или игуаны, срок может быть увеличен.',
+          sr: 'Uobičajeni rok izrade terarijuma je 7–14 dana. Za zahtevnije i veće projekte kao što su terarijumi za veliku vodenu agamu ili iguanu, rok izrade može biti i duži.',
+          en: 'Standard production time is 7–14 days. For more complex or larger builds, such as terrariums for a large water dragon or iguana, the lead time may be longer.',
+          ru: 'Стандартный срок изготовления террариума — 7–14 дней. Для более сложных и крупных проектов, таких как террариумы для большой водной агамы или игуаны, срок может быть увеличен.',
         },
       },
       {
@@ -198,8 +198,29 @@ export const SERVICES = {
           { href: '/terarijumi/terarijum-za-kornjacu.html', label: 'Terarijum za kornjaču', img: '/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp', contain: true },
         ],
       },
+      en: {
+        title: 'A terrarium for <b>your animal</b>',
+        links: [
+          { href: '/terarijumi/terarijum-za-bradatu-agamu.html', label: 'Bearded dragon terrarium', img: '/style/img/reptili/bradata.webp' },
+          { href: '/terarijumi/terarijum-za-leopard-gekona.html', label: 'Leopard gecko terrarium', img: '/style/img/reptili/leopard.webp' },
+          { href: '/terarijumi/terarijum-za-loptastog-pitona.html', label: 'Ball python terrarium', img: '/style/img/reptili/piton.webp' },
+          { href: '/terarijumi/terarijum-za-kornjacu.html', label: 'Turtle terrarium', img: '/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp', contain: true },
+        ],
+      },
+      ru: {
+        title: 'Террариум для <b>вашего животного</b>',
+        links: [
+          { href: '/terarijumi/terarijum-za-bradatu-agamu.html', label: 'Террариум для бородатой агамы', img: '/style/img/reptili/bradata.webp' },
+          { href: '/terarijumi/terarijum-za-leopard-gekona.html', label: 'Террариум для леопардового геккона', img: '/style/img/reptili/leopard.webp' },
+          { href: '/terarijumi/terarijum-za-loptastog-pitona.html', label: 'Террариум для королевского питона', img: '/style/img/reptili/piton.webp' },
+          { href: '/terarijumi/terarijum-za-kornjacu.html', label: 'Террариум для черепахи', img: '/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp', contain: true },
+        ],
+      },
     },
     more: [
+      { href: '/3d-terarijum.html', label: { sr: 'Složi terarijum u 3D', en: 'Build it in 3D', ru: 'Соберите в 3D' } },
+      { href: '/3d-uputstvo.html', label: { sr: 'Uputstvo za 3D konfigurator', en: '3D configurator guide', ru: 'Инструкция к 3D-конфигуратору' } },
+      { href: '/cenovnik.html', label: { sr: 'Cenovnik', en: 'Price list', ru: 'Прайс-лист' } },
       { href: '/izrada-akvarijuma.html', label: { sr: 'Izrada akvarijuma', en: 'Custom aquariums', ru: 'Изготовление аквариумов' } },
       { href: '/izrada-vivarijuma.html', label: { sr: 'Izrada vivarijuma', en: 'Custom vivariums', ru: 'Изготовление вивариумов' } },
       { href: '/izrada-led-rasvete.html', label: { sr: 'Izrada LED rasvete', en: 'Custom LED lighting', ru: 'Изготовление LED-освещения' } },
@@ -213,20 +234,20 @@ export const SERVICES = {
     meta: {
       sr: {
         title: 'Izrada akvarijuma po meri, Novi Sad | NS Reptiles',
-        description: 'Izrada akvarijuma po meri u Novom Sadu: stakleni akvarijumi za ribice i kornjače, 40+ dezena folija, LED rasveta, filteri i 3D pozadine. Rok 7 radnih dana.',
+        description: 'Izrada akvarijuma po meri u Novom Sadu: stakleni akvarijumi za ribice i kornjače, 40+ dezena folija, LED rasveta, filteri i 3D pozadine. Rok 7–14 dana.',
         ogTitle: 'Izrada akvarijuma po meri | NS Reptiles',
         ogDescription: 'Ručno lepljeni stakleni akvarijumi po vašim merama — folije, LED rasveta, filteri i oprema. Novi Sad.',
         image: '/style/img/logo.jpg',
       },
       en: {
         title: 'Custom Aquariums — Made-to-Order Glass Tanks | NS Reptiles',
-        description: 'Custom-built glass aquariums in Novi Sad for fish and turtles: 40+ vinyl wrap designs, LED lighting, filters and 3D backgrounds. Ready in 7 business days.',
+        description: 'Custom-built glass aquariums in Novi Sad for fish and turtles: 40+ vinyl wrap designs, LED lighting, filters and 3D backgrounds. Ready in 7–14 days.',
         ogTitle: 'Custom Aquariums | NS Reptiles',
         ogDescription: 'Hand-sealed glass aquariums built to your exact dimensions — vinyl wraps, LED lighting, filters, and full equipment. Novi Sad.',
       },
       ru: {
         title: 'Аквариумы на заказ в Нови-Саде | NS Reptiles',
-        description: 'Аквариумы на заказ в Нови-Саде: стеклянные аквариумы для рыб и черепах, более 40 видов плёнки, LED-освещение, фильтры и 3D-фоны. Срок — 7 рабочих дней.',
+        description: 'Аквариумы на заказ в Нови-Саде: стеклянные аквариумы для рыб и черепах, более 40 видов плёнки, LED-освещение, фильтры и 3D-фоны. Срок — 7–14 дней.',
         ogTitle: 'Аквариумы на заказ | NS Reptiles',
         ogDescription: 'Стеклянные аквариумы ручной работы по вашим размерам — плёнка, LED-освещение, фильтры и оборудование. Нови-Сад.',
       },
@@ -235,17 +256,17 @@ export const SERVICES = {
       sr: {
         name: 'Izrada akvarijuma po meri',
         serviceType: 'Izrada akvarijuma po meri',
-        description: 'Izrada akvarijuma po meri u Novom Sadu. Stakleni akvarijumi za ribice i kornjače, preko 40 dezena folija, LED rasveta, filteri i 3D pozadine. Rok izrade 7 radnih dana.',
+        description: 'Izrada akvarijuma po meri u Novom Sadu. Stakleni akvarijumi za ribice i kornjače, preko 40 dezena folija, LED rasveta, filteri i 3D pozadine. Rok izrade 7–14 dana.',
       },
       en: {
         name: 'Custom Aquarium Building',
         serviceType: 'Custom Aquarium Building',
-        description: 'Custom-built glass aquariums in Novi Sad. Handcrafted tanks for fish and turtles, 40+ vinyl wrap designs, LED lighting, filters, and 3D backgrounds. Ready in 7 business days.',
+        description: 'Custom-built glass aquariums in Novi Sad. Handcrafted tanks for fish and turtles, 40+ vinyl wrap designs, LED lighting, filters, and 3D backgrounds. Ready in 7–14 days.',
       },
       ru: {
         name: 'Изготовление аквариумов на заказ',
         serviceType: 'Изготовление аквариумов на заказ',
-        description: 'Изготовление аквариумов на заказ в Нови-Саде. Стеклянные аквариумы для рыб и черепах, более 40 видов плёнки, LED-освещение, фильтры и 3D-фоны. Срок изготовления — 7 рабочих дней.',
+        description: 'Изготовление аквариумов на заказ в Нови-Саде. Стеклянные аквариумы для рыб и черепах, более 40 видов плёнки, LED-освещение, фильтры и 3D-фоны. Срок изготовления — 7–14 дней.',
       },
     },
     h1: {
@@ -326,14 +347,14 @@ export const SERVICES = {
       },
       {
         title: {
-          sr: 'Izrada — 7 radnih dana',
-          en: 'Build time — 7 business days',
-          ru: 'Изготовление — 7 рабочих дней',
+          sr: 'Izrada — 7–14 dana',
+          en: 'Build time — 7–14 days',
+          ru: 'Изготовление — 7–14 дней',
         },
         text: {
-          sr: 'Uobičajeni rok izrade akvarijuma je 7 radnih dana. Za zahtevnije i veće projekte rok izrade može biti i duži.',
-          en: 'The standard lead time for an aquarium is 7 business days. For larger or more complex builds, the timeline may be longer.',
-          ru: 'Стандартный срок изготовления аквариума составляет 7 рабочих дней. Для более сложных и крупных проектов срок изготовления может быть увеличен.',
+          sr: 'Uobičajeni rok izrade akvarijuma je 7–14 dana. Za zahtevnije i veće projekte rok izrade može biti i duži.',
+          en: 'The standard lead time for an aquarium is 7–14 days. For larger or more complex builds, the timeline may be longer.',
+          ru: 'Стандартный срок изготовления аквариума составляет 7–14 дней. Для более сложных и крупных проектов срок изготовления может быть увеличен.',
         },
       },
       {
@@ -373,8 +394,19 @@ export const SERVICES = {
           { href: '/akvarijumi/akvarijum-za-kornjacu.html', label: 'Akvarijum za kornjaču', img: '/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp', contain: true },
         ],
       },
+      en: {
+        title: 'An aquarium for <b>your animal</b>',
+        links: [{ href: '/akvarijumi/akvarijum-za-kornjacu.html', label: 'Turtle aquarium', img: '/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp', contain: true }],
+      },
+      ru: {
+        title: 'Аквариум для <b>вашего животного</b>',
+        links: [{ href: '/akvarijumi/akvarijum-za-kornjacu.html', label: 'Аквариум для черепахи', img: '/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp', contain: true }],
+      },
     },
     more: [
+      { href: '/3d-akvarijum.html', label: { sr: 'Složi akvarijum u 3D', en: 'Build it in 3D', ru: 'Соберите в 3D' } },
+      { href: '/3d-uputstvo.html', label: { sr: 'Uputstvo za 3D konfigurator', en: '3D configurator guide', ru: 'Инструкция к 3D-конфигуратору' } },
+      { href: '/cenovnik.html', label: { sr: 'Cenovnik', en: 'Price list', ru: 'Прайс-лист' } },
       { href: '/izrada-terarijuma.html', label: { sr: 'Izrada terarijuma', en: 'Custom terrariums', ru: 'Изготовление террариумов' } },
       { href: '/izrada-vivarijuma.html', label: { sr: 'Izrada vivarijuma', en: 'Custom vivariums', ru: 'Изготовление вивариумов' } },
       { href: '/izrada-led-rasvete.html', label: { sr: 'Izrada LED rasvete', en: 'Custom LED lighting', ru: 'Изготовление LED-освещения' } },
@@ -388,7 +420,7 @@ export const SERVICES = {
     meta: {
       sr: {
         title: 'Izrada vivarijuma po meri, Novi Sad | NS Reptiles',
-        description: 'Izrada vivarijuma po meri u Novom Sadu: stakleni vivarijumi za tropske biljke, žabe i vodozemce, 40+ dezena folija i specijalna rasveta. Rok 7 radnih dana.',
+        description: 'Izrada vivarijuma po meri u Novom Sadu: stakleni vivarijumi za tropske biljke, žabe i vodozemce, 40+ dezena folija i specijalna rasveta. Rok 7–14 dana.',
         ogTitle: 'Izrada vivarijuma po meri | NS Reptiles',
         ogDescription: 'Ručno rađeni stakleni vivarijumi po vašim merama — rasveta punog spektra, sistem za vlažnost i oprema. Novi Sad.',
         image: '/style/img/logo.jpg',
@@ -401,7 +433,7 @@ export const SERVICES = {
       },
       ru: {
         title: 'Виварии на заказ в Нови-Саде | NS Reptiles',
-        description: 'Виварии на заказ в Нови-Саде: стеклянные виварии для тропических растений, лягушек и амфибий, более 40 видов плёнки, спецосвещение. Срок — 7 рабочих дней.',
+        description: 'Виварии на заказ в Нови-Саде: стеклянные виварии для тропических растений, лягушек и амфибий, более 40 видов плёнки, спецосвещение. Срок — 7–14 дней.',
         ogTitle: 'Изготовление вивариев на заказ | NS Reptiles',
         ogDescription: 'Ручная работа — стеклянные виварии по вашим размерам: освещение полного спектра, система увлажнения и оборудование. Нови-Сад.',
       },
@@ -410,7 +442,7 @@ export const SERVICES = {
       sr: {
         name: 'Izrada vivarijuma po meri',
         serviceType: 'Izrada vivarijuma po meri',
-        description: 'Izrada vivarijuma po meri u Novom Sadu. Stakleni vivarijumi za tropske biljke, žabe i vodozemce, preko 40 dezena folija, specijalna rasveta. Rok izrade 7 radnih dana.',
+        description: 'Izrada vivarijuma po meri u Novom Sadu. Stakleni vivarijumi za tropske biljke, žabe i vodozemce, preko 40 dezena folija, specijalna rasveta. Rok izrade 7–14 dana.',
       },
       en: {
         name: 'Custom Vivarium Building',
@@ -420,7 +452,7 @@ export const SERVICES = {
       ru: {
         name: 'Изготовление вивариев на заказ',
         serviceType: 'Изготовление вивариев на заказ',
-        description: 'Изготовление вивариев на заказ в Нови-Саде. Стеклянные виварии для тропических растений, лягушек и амфибий, свыше 40 видов плёнки, специальное освещение. Срок изготовления 7 рабочих дней.',
+        description: 'Изготовление вивариев на заказ в Нови-Саде. Стеклянные виварии для тропических растений, лягушек и амфибий, свыше 40 видов плёнки, специальное освещение. Срок изготовления 7–14 дней.',
       },
     },
     h1: {
@@ -501,14 +533,14 @@ export const SERVICES = {
       },
       {
         title: {
-          sr: 'Izrada — 7 radnih dana',
-          en: 'Production — 7 business days',
-          ru: 'Изготовление — 7 рабочих дней',
+          sr: 'Izrada — 7–14 dana',
+          en: 'Production — 7–14 days',
+          ru: 'Изготовление — 7–14 дней',
         },
         text: {
-          sr: 'Uobičajeni rok izrade vivarijuma je 7 radnih dana. Za zahtevnije i veće projekte rok izrade može biti i duži.',
-          en: 'Standard build time is 7 business days. For more complex or larger projects, the timeline may be longer.',
-          ru: 'Обычный срок изготовления виварий составляет 7 рабочих дней. Для более сложных и крупных проектов срок изготовления может быть дольше.',
+          sr: 'Uobičajeni rok izrade vivarijuma je 7–14 dana. Za zahtevnije i veće projekte rok izrade može biti i duži.',
+          en: 'Standard build time is 7–14 days. For more complex or larger projects, the timeline may be longer.',
+          ru: 'Обычный срок изготовления виварий составляет 7–14 дней. Для более сложных и крупных проектов срок изготовления может быть дольше.',
         },
       },
       {

@@ -53,7 +53,7 @@ export const NAV: Record<Locale, NavData> = {
     menu: 'Meni',
     footer: {
       about:
-        'Odgajivačnica egzotičnih životinja u Novom Sadu. Vaš pouzdan partner za zdrave reptile i kvalitetnu opremu već 10 godina.',
+        'Odgajivačnica egzotičnih životinja u Novom Sadu. Vaš pouzdan partner za zdrave reptile i kvalitetnu opremu. Osnovani 2019, reptile uzgajamo više od 10 godina.',
       quickTitle: 'Brzi linkovi',
       quick: [
         { href: '/', label: 'Početna' },
@@ -72,6 +72,8 @@ export const NAV: Record<Locale, NavData> = {
         { href: '/oprema.html', label: 'Oprema' },
         { href: '/kompleti.html', label: 'Kompleti za početnike' },
         { href: '/akvarijumi-za-pocetnike.html', label: 'Akvarijumi za početnike' },
+        { href: '/cenovnik.html', label: 'Cenovnik' },
+        { href: '/3d-terarijum.html', label: '3D konfigurator' },
       ],
       contactTitle: 'Kontakt',
       city: 'Novi Sad, Srbija',
@@ -100,7 +102,7 @@ export const NAV: Record<Locale, NavData> = {
     menu: 'Menu',
     footer: {
       about:
-        'Exotic animal breeding facility in Novi Sad. Your reliable partner for healthy reptiles and quality equipment for over 10 years.',
+        'Exotic animal breeding facility in Novi Sad. Your reliable partner for healthy reptiles and quality equipment. Founded in 2019, breeding reptiles for over 10 years.',
       quickTitle: 'Quick Links',
       quick: [
         { href: '/en/', label: 'Home' },
@@ -119,6 +121,8 @@ export const NAV: Record<Locale, NavData> = {
         { href: '/en/equipment.html', label: 'Equipment' },
         { href: '/en/starter-kits.html', label: 'Starter Kits' },
         { href: '/en/guides/beginner-aquariums.html', label: 'Beginner Aquariums' },
+        { href: '/en/price-list.html', label: 'Price List' },
+        { href: '/en/3d-terrarium.html', label: '3D Configurator' },
       ],
       contactTitle: 'Contact',
       city: 'Novi Sad, Serbia',
@@ -147,7 +151,7 @@ export const NAV: Record<Locale, NavData> = {
     menu: 'Меню',
     footer: {
       about:
-        'Питомник экзотических животных в Нови Саде. Ваш надёжный партнёр по здоровым рептилиям и качественному оборудованию уже 10 лет.',
+        'Питомник экзотических животных в Нови Саде. Ваш надёжный партнёр по здоровым рептилиям и качественному оборудованию. Основаны в 2019 году, разводим рептилий более 10 лет.',
       quickTitle: 'Быстрые ссылки',
       quick: [
         { href: '/ru/', label: 'Главная' },
@@ -166,6 +170,8 @@ export const NAV: Record<Locale, NavData> = {
         { href: '/ru/equipment.html', label: 'Оборудование' },
         { href: '/ru/starter-kits.html', label: 'Наборы для начинающих' },
         { href: '/ru/guides/beginner-aquariums.html', label: 'Аквариумы для начинающих' },
+        { href: '/ru/price-list.html', label: 'Прайс-лист' },
+        { href: '/ru/3d-terrarium.html', label: '3D-конфигуратор' },
       ],
       contactTitle: 'Контакт',
       city: 'Нови Сад, Сербия',

@@ -17,7 +17,7 @@ export function gitDates(): Map<string, string> {
     }
   }
   try {
-    const log = execSync('git log --name-only --format=@%cI -- src/content/products src/content/species', { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
+    const log = execSync('git log --name-only --format=@%cI -- src/content/products src/content/species src/content/product-i18n', { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
     let date = '';
     for (const line of log.split('\n')) {
       if (line.startsWith('@')) date = line.slice(1, 11);

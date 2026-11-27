@@ -21,13 +21,20 @@ export const GET: APIRoute = async () => {
   const dates = gitDates();
   const allProducts = await getProducts();
   const lastmod = new Map<string, string>();
+  // prevod deli slike, cenu i mere sa sr izvorom: datum je noviji od ta dva fajla
+  const setGroup = (srPath: string, srDate: string | undefined, i18nFile: (lang: string) => string) => {
+    for (const [lang, p] of Object.entries({ sr: srPath, ...translationsFor(srPath) })) {
+      const own = lang === 'sr' ? undefined : dates.get(i18nFile(lang));
+      const d = [srDate, own].filter(Boolean).sort().pop();
+      if (p && d) lastmod.set(p, d);
+    }
+  };
   for (const p of allProducts) {
-    const d = dates.get(`src/content/products/${p.id}.json`);
-    if (d) lastmod.set(productPath(p), d);
+    setGroup(productPath(p), dates.get(`src/content/products/${p.id}.json`), (lang) => `src/content/product-i18n/${lang}/${p.id}.json`);
   }
   for (const [file, d] of dates) {
     const m = file.match(/^src\/content\/species\/sr\/(.+)\.json$/);
-    if (m) lastmod.set(`/zivotinje/${m[1].replaceAll('-', '')}.html`, d);
+    if (m) setGroup(`/zivotinje/${m[1].replaceAll('-', '')}.html`, d, (lang) => `src/content/species/${lang}/${m[1]}.json`);
   }
   const products = [
     ...allProducts.map(productPath),
