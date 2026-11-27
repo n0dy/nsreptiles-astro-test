@@ -1,6 +1,7 @@
 ---
 import { priceLabel, productViewOrSr, type Product } from '../lib/products';
 import type { Locale } from '../config/site';
+import { existsSync } from 'node:fs';
 
 interface Props {
   product: Product;
@@ -10,15 +11,21 @@ interface Props {
   group?: string;
   /** grane listinga (data-section), razdvojene razmakom */
   section?: string;
+  /** nivo naslova kartice: h2 kad je mreža odmah ispod h1 (listing), inače h3 */
+  heading?: 'h2' | 'h3';
 }
-const { product, catLabel, lang = 'sr', group, section } = Astro.props;
+const { product, catLabel, lang = 'sr', group, section, heading: Heading = 'h3' } = Astro.props;
 const v = await productViewOrSr(product, lang);
+// manja varijanta za kartice (scripts/img-variants.mjs); slike bez nje idu samo sa src
+const img = product.data.image;
+const small = img.replace(/\.webp$/, '-320.webp');
+const srcset = small !== img && existsSync('public' + small) ? `${small} 320w, ${img} 600w` : undefined;
 ---
 <article class="op-card reveal" data-cat={group} data-section={section} data-price={group && product.data.price} data-search={group && v.name.toLowerCase()}>
-  <a class="op-img" href={v.path}><img src={product.data.image} alt={v.name} loading="lazy" width="600" height="600" /></a>
+  <a class="op-img" href={v.path}><img src={img} srcset={srcset} sizes={srcset && '(max-width: 700px) 45vw, 300px'} alt={v.name} loading="lazy" width="600" height="600" /></a>
   <div class="op-body">
     <div class="op-cat">{catLabel ?? v.label}</div>
-    <h3><a href={v.path}>{v.name}</a></h3>
+    <Heading><a href={v.path}>{v.name}</a></Heading>
     <div class="op-foot">
       <span class="op-price">{priceLabel(v)}</span>
     </div>

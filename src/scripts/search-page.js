@@ -60,6 +60,8 @@ if (root) {
       const res = await pf.search(q, tip ? { filters: { tip } } : {});
       results = res.results;
       shown = 0;
+      // GA4 standardni dogadjaj pretrage; broj rezultata pokazuje sta ljudi traze a ne nalaze
+      window.gtag('event', 'search', { search_term: q, rezultata: results.length });
       list.replaceChildren();
       renderFilters(res.totalFilters?.tip ?? {});
       status.textContent = results.length ? countText(results.length) : `${S.empty} „${q}“`;

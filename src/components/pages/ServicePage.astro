@@ -75,7 +75,7 @@ const schema = [
   translations={translationsFor(path)}
   schema={schema}
 >
-<section class="page-head" style={`--ph-img: url(${heroImg}); --ph-img-sm: url(${heroImg})`}>
+<section class="page-head" style={`--ph-img: url(${heroImg}); --ph-img-sm: url(${heroImg.replace('.webp', '-sm.webp')})`}>
   <div class="wrap">
     <h1 set:html={twoTone(s.h1[lang])} />
     <p>{s.lead[lang]}</p>
@@ -96,7 +96,7 @@ const schema = [
           <div class="proc-step">
             <div class="proc-num"></div>
             <div class="proc-body">
-              <h3>{it.title[lang]}</h3>
+              <h2>{it.title[lang]}</h2>
               <p>{it.text[lang]}</p>
             </div>
           </div>
@@ -107,7 +107,7 @@ const schema = [
         {s.items.map((it, i) => (
           <article class="feat-card">
             <span class="feat-idx">{String(i + 1).padStart(2, '0')}</span>
-            <h3>{it.title[lang]}</h3>
+            <h2>{it.title[lang]}</h2>
             <p>{it.text[lang]}</p>
           </article>
         ))}

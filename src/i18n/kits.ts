@@ -65,7 +65,7 @@ export const KITS: Kit[] = [
   },
   {
     href: '/kompleti/tarantula.html',
-    img: '/assets/img/tarantula.jpg',
+    img: '/assets/img/tarantula.webp',
     price: 3000,
     name: { sr: 'Tarantula', en: 'Tarantula', ru: 'Тарантул' },
     incl: {

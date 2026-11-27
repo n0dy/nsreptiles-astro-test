@@ -43,9 +43,10 @@ const analytics = IS_INDEXABLE;
     <link rel="preload" href={poppinsLightLatin} as="font" type="font/woff2" crossorigin />
     <link rel="preload" href={oswaldLatin} as="font" type="font/woff2" crossorigin />
     <SeoHead lang={lang} {...seo} />
+    {/* GTM (SITE.gtmId) se ne ucitava: kontejner je 2026-11-27 bio prazan, GA4 ide direktno preko gtag.js. Ako se u GTM dodaju tagovi, vratiti gtm.js. */}
     {analytics && (
       <>
-        <script is:inline define:vars={{ gaId: SITE.gaId, gtmId: SITE.gtmId }}>
+        <script is:inline define:vars={{ gaId: SITE.gaId }}>
           window.dataLayer = window.dataLayer || [];
           function gtag() { dataLayer.push(arguments); }
           window.gtag = gtag;
@@ -54,9 +55,7 @@ const analytics = IS_INDEXABLE;
           // skripte se ucitavaju tek posle load-a, da ne uticu na LCP; dogadjaji do tada cekaju u dataLayer-u
           function loadTags() {
             var add = function (src) { var j = document.createElement('script'); j.async = true; j.src = src; document.head.appendChild(j); };
-            dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
             add('https://www.googletagmanager.com/gtag/js?id=' + gaId);
-            add('https://www.googletagmanager.com/gtm.js?id=' + gtmId);
           }
           var idle = window.requestIdleCallback || function (f) { setTimeout(f, 1); };
           if (document.readyState === 'complete') idle(loadTags);
@@ -70,9 +69,6 @@ const analytics = IS_INDEXABLE;
   <body class={bodyClass}>
     <!-- shortcut: dark tema iskljucena dok je .theme-toggle sakriven; vratiti skriptu ispod kad se dugme vrati -->
     <!-- <script is:inline>try { if (localStorage.getItem('theme') === 'dark') document.body.classList.add('dark'); } catch (e) {}</script> -->
-    {analytics && (
-      <noscript><iframe src={`https://www.googletagmanager.com/ns.html?id=${SITE.gtmId}`} height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    )}
     <Topbar lang={lang} alternates={langLinks ?? seo.translations ?? {}} />
     <Header lang={lang} active={active} />
     <main id="main" data-pagefind-body={seo.noindex ? undefined : ''} data-pagefind-filter={seo.noindex ? undefined : `tip:${searchType(seo.path)}`}>

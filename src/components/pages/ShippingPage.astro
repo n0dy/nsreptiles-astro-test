@@ -79,7 +79,7 @@ const CARD_ICONS = [
         {full.how.methods.map((m, i) => (
           <div class="method">
             <div class="ic" set:html={METHOD_ICONS[i]} />
-            <div><h4>{m.title}</h4><p>{m.text}</p></div>
+            <div><h3>{m.title}</h3><p>{m.text}</p></div>
           </div>
         ))}
       </div>
@@ -125,7 +125,7 @@ const CARD_ICONS = [
         {short.cards.map((c, i) => (
           <div class="del-card">
             <div class="del-icon" set:html={CARD_ICONS[i]} />
-            <h3>{c.title}</h3>
+            <h2>{c.title}</h2>
             <ul>{c.items.map((li) => <li set:html={li} />)}</ul>
             {c.note && <p style="margin-top: 14px; font-size: 0.88rem" set:html={c.note} />}
           </div>
@@ -159,7 +159,7 @@ const CARD_ICONS = [
   .methods{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-bottom:20px}
   .method{position:relative;display:flex;gap:16px;background:var(--white);border-radius:12px;box-shadow:var(--card-shadow);padding:24px 60px 24px 26px;transition:background .4s,border-color .4s}
   .method .ic{position:absolute;top:20px;right:20px;color:var(--green-ink);display:flex;align-items:center;justify-content:center}
-  .method h4{font-size:1rem;text-transform:uppercase;margin-bottom:5px}
+  .method h3{font-size:1rem;text-transform:uppercase;margin-bottom:5px}
   .method p{color:var(--ink-soft);font-size:.92rem}
 
   .dbanner{display:grid;grid-template-columns:1.3fr 1fr;gap:20px;margin-bottom:20px}

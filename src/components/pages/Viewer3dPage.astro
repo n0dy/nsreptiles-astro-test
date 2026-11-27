@@ -101,7 +101,7 @@ const intro = INTRO[type];
                                 <circle cx="12" cy="13" r="4" />
                             </svg></div>
                         <div class="help-text">
-                            <h4>{t.helpShot.title}</h4>
+                            <h3>{t.helpShot.title}</h3>
                             <p>{t.helpShot.text}</p>
                         </div>
                     </div>
@@ -114,7 +114,7 @@ const intro = INTRO[type];
                                 <path d="M12 12L3 7.5" />
                             </svg></div>
                         <div class="help-text">
-                            <h4>{t.helpAr.title}</h4>
+                            <h3>{t.helpAr.title}</h3>
                             <p>{t.helpAr.text}</p>
                         </div>
                     </div>
@@ -125,7 +125,7 @@ const intro = INTRO[type];
                                 <path d="M15 3v18" />
                             </svg></div>
                         <div class="help-text">
-                            <h4>{t.helpDoors.title}</h4>
+                            <h3>{t.helpDoors.title}</h3>
                             <p>{t.helpDoors.text}</p>
                         </div>
                     </div>
@@ -138,7 +138,7 @@ const intro = INTRO[type];
                                 <line x1="15" y1="8.5" x2="15" y2="20.5" opacity="0.3" />
                             </svg></div>
                         <div class="help-text">
-                            <h4>{t.helpLid.title}</h4>
+                            <h3>{t.helpLid.title}</h3>
                             <p>{t.helpLid.text}</p>
                         </div>
                     </div>
@@ -148,7 +148,7 @@ const intro = INTRO[type];
                                 <path d="M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10 15 15 0 0 1-4-10 15 15 0 0 1 4-10" />
                             </svg></div>
                         <div class="help-text">
-                            <h4>{t.helpTexture.title}</h4>
+                            <h3>{t.helpTexture.title}</h3>
                             <p>{t.helpTexture.text}</p>
                         </div>
                     </div>
@@ -1255,7 +1255,7 @@ fill: none;
 stroke-width: 2;
 }
 
-.help-text h4 {
+.help-text h3 {
 font-size: 13px;
 margin: 0 0 2px;
 color: #333;
@@ -3166,6 +3166,18 @@ height: 44px;
             if (arModel.canActivateAR) {
                 arButton.classList.remove('hidden');
             }
+        });
+
+        // prva stvarna izmena u panelu (ne ucitavanje iz linka): koliko posetilaca zaista koristi konfigurator
+        ['input', 'click'].forEach(function (type) {
+            document.getElementById('panel').addEventListener(type, function once(e) {
+                if (window.__cfgUsed || !e.target.closest('input, button, .color-swatch, [data-value]')) return;
+                window.__cfgUsed = true;
+                window.gtag('event', 'konfigurator_3d', { tip: AQUA ? 'akvarijum' : 'terarijum' });
+            });
+        });
+        screenshotBtn.addEventListener('click', function () {
+            window.gtag('event', 'slika_3d', { tip: AQUA ? 'akvarijum' : 'terarijum' });
         });
 
         arButton.addEventListener('click', function () {

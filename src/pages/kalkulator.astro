@@ -13,7 +13,7 @@ const schema = [
       {
         "@type": "ListItem",
         "position": 1,
-        "name": "Pocetna",
+        "name": "Početna",
         "item": "https://nsreptiles.net/"
       },
       {
@@ -48,7 +48,7 @@ const schema = [
 <section class="calc-section">
       <div class="calc-wrap">
         <div class="calc-card reveal">
-          <h2>Izracunaj cenu</h2>
+          <h2>Izračunaj cenu</h2>
 
           <div class="calc-row">
             <label class="calc-label" for="debljina">Debljina stakla</label>
@@ -75,11 +75,11 @@ const schema = [
 
           <div class="calc-dims">
             <div class="calc-row" style="margin-bottom:0">
-              <label class="calc-label" for="duzina">Duzina (cm)</label>
+              <label class="calc-label" for="duzina">Dužina (cm)</label>
               <input type="number" id="duzina" class="calc-input" placeholder="npr. 100" min="1">
             </div>
             <div class="calc-row" style="margin-bottom:0">
-              <label class="calc-label" for="sirina">Sirina (cm)</label>
+              <label class="calc-label" for="sirina">Širina (cm)</label>
               <input type="number" id="sirina" class="calc-input" placeholder="npr. 50" min="1">
             </div>
             <div class="calc-row" style="margin-bottom:0">
@@ -88,7 +88,7 @@ const schema = [
             </div>
           </div>
 
-          <button id="izracunaj" class="calc-btn">Izracunaj</button>
+          <button id="izracunaj" class="calc-btn">Izračunaj</button>
 
           <div id="rezultat" class="calc-result" aria-live="polite"></div>
         </div>
@@ -97,28 +97,28 @@ const schema = [
 <section class="calc-info">
       <div class="wrap">
         <h2 class="reveal" style="font-family:'Oswald Variable',sans-serif;font-size:clamp(1.6rem,3.5vw,2.2rem);font-weight:600;text-transform:uppercase;letter-spacing:.04em;color:var(--ink);margin:8px 0 0">
-          Na osnovu cega<b style="color: var(--green-ink)"> kalkulator racuna</b>
+          Na osnovu čega<b style="color: var(--green-ink)"> kalkulator računa</b>
         </h2>
         <div class="calc-info-grid">
           <div class="calc-info-item reveal">
             <div class="ci-num">5</div>
             <h3>Staklenih panela</h3>
-            <p>Kalkulator sabira povrsine svih pet stakla: dno, prednja i zadnja strana, te leva i desna strana kutije. Gornji otvor se ne racuna — tu dolazi poklopac.</p>
+            <p>Kalkulator sabira površine svih pet stakla: dno, prednja i zadnja strana, te leva i desna strana kutije. Gornji otvor se ne računa — tu dolazi poklopac.</p>
           </div>
           <div class="calc-info-item reveal">
             <div class="ci-num">4×</div>
             <h3>Debljine stakla</h3>
-            <p>Na raspolaganju su 4, 6, 8 i 10 mm staklo. Veca debljina znaci vecu cenu po m², ali i vise stabilnosti za prostrane terarijume. Za manje terarijume sasvim je dovoljan 4 mm.</p>
+            <p>Na raspolaganju su 4, 6, 8 i 10 mm staklo. Veća debljina znači veću cenu po m², ali i više stabilnosti za prostrane terarijume. Za manje terarijume sasvim je dovoljan 4 mm.</p>
           </div>
           <div class="calc-info-item reveal">
             <div class="ci-num">4 mm</div>
             <h3>Staklo za poklopac</h3>
-            <p>Poklopac se uvek izradjuje od 4 mm stakla, bez obzira na debljinu ostale konstrukcije. Dupli poklopac podrazumeva dva panela iste povrsine — korisno za terarijume sa dva odvojena otvora.</p>
+            <p>Poklopac se uvek izrađuje od 4 mm stakla, bez obzira na debljinu ostale konstrukcije. Dupli poklopac podrazumeva dva panela iste površine — korisno za terarijume sa dva odvojena otvora.</p>
           </div>
           <div class="calc-info-item reveal">
             <div class="ci-num">~</div>
             <h3>Okvirna cena</h3>
-            <p>Kalkulator daje procenu zasnovanu iskljucivo na povrsini stakla. Konacna cena moze se razlikovati zavisno od specificnosti izrade, ugradnje brave, ventilacione mrezice i slicno. Kontaktirajte nas za tacan predracun.</p>
+            <p>Kalkulator daje procenu zasnovanu isključivo na površini stakla. Konačna cena može se razlikovati zavisno od specifičnosti izrade, ugradnje brave, ventilacione mrežice i slično. Kontaktirajte nas za tačan predračun.</p>
           </div>
         </div>
       </div>
@@ -126,7 +126,7 @@ const schema = [
 <section class="zcta">
       <div class="wrap">
         <h2 class="reveal">Javite nam <b>dimenzije</b></h2>
-        <p class="reveal">Posaljite nam mere i vrstu terarijuma — u roku od nekoliko sati saljemo vam tacan predracun sa svim opcijama i rokom izrade.</p>
+        <p class="reveal">Pošaljite nam mere i vrstu terarijuma — u roku od nekoliko sati šaljemo vam tačan predračun sa svim opcijama i rokom izrade.</p>
         <div class="zcta-btns">
           <a href="https://wa.me/381693301474?text=Zdravo%2C%20zanima%20me%20cena%20terarijuma%20po%20meri." target="_blank" rel="noopener" class="btn btn-primary" onclick="gtag('event','kontakt_click',{'metod':'whatsapp_kalkulator'})">WhatsApp</a>
           <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event','kontakt_click',{'metod':'telefon_kalkulator'})">Pozovi nas</a>
@@ -343,7 +343,7 @@ const schema = [
         var visina = parseFloat(document.getElementById('visina').value) || 0;
 
         if (duzina <= 0 || sirina <= 0 || visina <= 0) {
-          rezultat.innerHTML = '<span class="calc-result-error">Unesite sve dimenzije (duzina, sirina i visina moraju biti vece od nule).</span>';
+          rezultat.innerHTML = '<span class="calc-result-error">Unesite sve dimenzije (dužina, širina i visina moraju biti veće od nule).</span>';
           rezultat.classList.add('active');
           return;
         }
@@ -392,7 +392,7 @@ const schema = [
           (kvadraturaPoklopca > 0
             ? '<span class="calc-result-meta">Kvadratura poklopca: ' + kvadraturaPoklopca.toFixed(2) + ' m²</span>'
             : '') +
-          '<span class="calc-result-note">Ovo je okvirna cena zasnovana na povrsini stakla. Za tacan predracun sa svim opcijama pozovite nas ili pisajte na WhatsApp.</span>';
+          '<span class="calc-result-note">Ovo je okvirna cena zasnovana na površini stakla. Za tačan predračun sa svim opcijama pozovite nas ili pišite na WhatsApp.</span>';
         rezultat.classList.add('active');
       }
     </script>

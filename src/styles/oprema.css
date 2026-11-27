@@ -108,13 +108,13 @@
   color: var(--green-ink);
   margin-bottom: 7px;
 }
-.op-body h3 {
+.op-body :is(h2, h3) {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
-.op-body h3 a {
+.op-body :is(h2, h3) a {
   color: inherit;
 }
 .op-foot {
