@@ -7,7 +7,15 @@ let cache: Map<string, string> | undefined;
 export function gitDates(): Map<string, string> {
   if (cache) return cache;
   const dates = (cache = new Map<string, string>());
-  if (!existsSync('.git') || existsSync('.git/shallow')) return dates;
+  if (!existsSync('.git')) return dates;
+  if (existsSync('.git/shallow')) {
+    // build serveri kloniraju plitko; bez pune istorije svi datumi bi bili datum poslednjeg commit-a
+    try {
+      execSync('git fetch --unshallow --quiet', { stdio: 'ignore', timeout: 60_000 });
+    } catch {
+      return dates;
+    }
+  }
   try {
     const log = execSync('git log --name-only --format=@%cI -- src/content/products src/content/species', { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
     let date = '';

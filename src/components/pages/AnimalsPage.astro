@@ -4,7 +4,7 @@ import Base from '../../layouts/Base.astro';
 import Faq from '../Faq.astro';
 import Zcta from '../Zcta.astro';
 import '../../styles/animals.css';
-import { SITE, type Locale } from '../../config/site';
+import { SITE, whatsappLink, type Locale } from '../../config/site';
 import { localizePath, translationsFor } from '../../i18n/routes';
 import { ANIMALS_TEXT, ANIMAL_GROUPS as ALL_GROUPS, ANIMALS_FAQ, SNAKES_TEXT, SNAKES_FAQ } from '../../i18n/pages/animals';
 
@@ -33,7 +33,7 @@ const priceFrom = (srHref?: string) => {
 };
 
 const HERO = { lg: '/style/img/hero/gekon-zivotinje-lg.webp', sm: '/style/img/hero/gekon-zivotinje-sm.webp' };
-const linked = ANIMAL_GROUPS.flatMap((g) => g.animals).filter((a) => a.href);
+const linked = ANIMAL_GROUPS.flatMap((g) => g.animals).filter((a, i, all) => a.href && all.findIndex((x) => x.href === a.href) === i);
 const schema = [
   {
     '@context': 'https://schema.org',
@@ -75,6 +75,12 @@ const speciesCount = (n: number) =>
 <section class="intro">
   <div class="wrap">
     <div class="intro-box"><p set:html={t.intro} /></div>
+    {group && (
+      <p style="margin-top: 22px; display: flex; gap: 12px; flex-wrap: wrap">
+        <a href={`tel:${SITE.phone}`} class="btn btn-primary">{t.cta.call} {SITE.phoneDisplay}</a>
+        <a href={whatsappLink()} target="_blank" rel="noopener" class="btn btn-outline">WhatsApp</a>
+      </p>
+    )}
   </div>
 </section>
 <section class="zoo">

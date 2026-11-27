@@ -46,21 +46,21 @@ const SIZE = {
     base: (d: NonNullable<typeof dims>) => `Dno je ${d.l}x${d.w} cm (${(d.l * d.w).toLocaleString('sr-RS')} cm²), visina ${d.h} cm, a ukupna zapremina oko ${d.liters} L.`,
     fit: ['Ova dužina odgovara paucima skakačima, bogomoljkama i manjim gekonima.', 'Ova dužina odgovara leopard gekonima, crested gekonima i mladim zmijama.', 'Ova dužina odgovara odraslim bradatim agamama, loptastim pitonima i kornjačama.'],
     water: (d: NonNullable<typeof dims>) => `Napunjen sadrži oko ${d.liters} kg vode, pa ga postavite na ravnu i čvrstu podlogu. ${d.liters >= 50 ? 'Ova zapremina lako drži stabilne parametre vode, pa je dobar izbor i za početnike.' : 'Kod manje zapremine parametri vode se brže menjaju, pa ih proveravajte češće.'}`,
-    smaller: 'Treba vam manji?', larger: 'Treba vam veći?',
+    smaller: 'Prva manja zapremina:', larger: 'Prva veća zapremina:',
   },
   en: {
     title: 'Size and choice',
     base: (d: NonNullable<typeof dims>) => `The floor is ${d.l}x${d.w} cm (${(d.l * d.w).toLocaleString('en')} cm²), the height is ${d.h} cm and the total volume is about ${d.liters} L.`,
     fit: ['This length suits jumping spiders, mantises and smaller geckos.', 'This length suits leopard geckos, crested geckos and young snakes.', 'This length suits adult bearded dragons, ball pythons and tortoises.'],
     water: (d: NonNullable<typeof dims>) => `When full it holds about ${d.liters} kg of water, so place it on a flat, solid surface. ${d.liters >= 50 ? 'This volume keeps water parameters stable easily, so it is a good choice for beginners too.' : 'In a smaller volume water parameters change faster, so check them more often.'}`,
-    smaller: 'Need a smaller one?', larger: 'Need a larger one?',
+    smaller: 'Next smaller volume:', larger: 'Next larger volume:',
   },
   ru: {
     title: 'Размер и выбор',
     base: (d: NonNullable<typeof dims>) => `Дно ${d.l}x${d.w} см (${(d.l * d.w).toLocaleString('ru')} см²), высота ${d.h} см, общий объём около ${d.liters} л.`,
     fit: ['Такая длина подходит паукам-скакунам, богомолам и небольшим гекконам.', 'Такая длина подходит леопардовым гекконам, реснитчатым гекконам и молодым змеям.', 'Такая длина подходит взрослым бородатым агамам, королевским питонам и черепахам.'],
     water: (d: NonNullable<typeof dims>) => `В наполненном виде он вмещает около ${d.liters} кг воды, поэтому ставьте его на ровную и прочную поверхность. ${d.liters >= 50 ? 'Такой объём легко удерживает стабильные параметры воды, поэтому подходит и начинающим.' : 'В меньшем объёме параметры воды меняются быстрее, проверяйте их чаще.'}`,
-    smaller: 'Нужен поменьше?', larger: 'Нужен побольше?',
+    smaller: 'Ближайший меньший объём:', larger: 'Ближайший больший объём:',
   },
 }[lang];
 const sizeText = dims && [SIZE.base(dims), isAquarium ? SIZE.water(dims) : v.category === 'terarijumi' ? SIZE.fit[dims.l <= 30 ? 0 : dims.l <= 60 ? 1 : 2] : ''].join(' ');

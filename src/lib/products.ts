@@ -177,7 +177,7 @@ export function sizeNeighbors(p: Product, all: Product[]): { smaller?: Product; 
   const own = dimsOf(p);
   if (!own) return {};
   const sized = all
-    .filter((x) => categoryOf(x) === categoryOf(p) && dimsOf(x))
+    .filter((x) => categoryOf(x) === categoryOf(p) && dimsOf(x) && x.id.includes('ter-akvarijum') === p.id.includes('ter-akvarijum'))
     .sort((a, b) => dimsOf(a)!.liters - dimsOf(b)!.liters);
   return {
     smaller: sized.filter((x) => dimsOf(x)!.liters < own.liters).pop(),

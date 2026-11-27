@@ -161,6 +161,31 @@ const website = {
   </div>
 </section>
 
+<section class="section cfg3d">
+  <div class="wrap cfg3d-grid">
+    <div class="cfg3d-text reveal">
+      <div class="cfg3d-pre">{t.cfg3d.pre}</div>
+      <h2 class="sec-title" set:html={t.cfg3d.title} />
+      <p class="cfg3d-lead">{t.cfg3d.lead}</p>
+      <ul class="cfg3d-feats">{t.cfg3d.feats.map((f) => <li>{f}</li>)}</ul>
+      <div class="cfg3d-ctas">
+        <a href={href('/3d-terarijum.html')} class="btn btn-primary">{t.cfg3d.ctas[0]}<Fragment set:html={ARROW} /></a>
+        <a href={href('/3d-akvarijum.html')} class="btn btn-light">{t.cfg3d.ctas[1]}<Fragment set:html={ARROW} /></a>
+      </div>
+    </div>
+    <div class="cfg3d-stage reveal">
+      <a href={href('/3d-akvarijum.html')} class="cfg3d-shot cfg3d-aqua">
+        <img loading="lazy" decoding="async" src="/style/img/3d/konfigurator-akvarijum.webp" width="1632" height="936" alt={t.cfg3d.alts[1]} />
+        <span>{t.cfg3d.labels[1]}</span>
+      </a>
+      <a href={href('/3d-terarijum.html')} class="cfg3d-shot cfg3d-terra">
+        <img loading="lazy" decoding="async" src="/style/img/3d/konfigurator-terarijum.webp" width="1632" height="936" alt={t.cfg3d.alts[0]} />
+        <span>{t.cfg3d.labels[0]}</span>
+      </a>
+    </div>
+  </div>
+</section>
+
 <section class="section reptiles">
   <div class="wrap">
     <div class="rep-head reveal">

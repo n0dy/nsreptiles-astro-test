@@ -1,5 +1,4 @@
 ---
-import { twoTone } from '../../lib/two-tone';
 import Base from '../../layouts/Base.astro';
 import type { Locale } from '../../config/site';
 import { localizePath, translationsFor } from '../../i18n/routes';
@@ -7,27 +6,29 @@ import { VIEWER_3D } from '../../i18n/pages/viewer-3d';
 
 interface Props {
   lang: Locale;
+  type?: 'terarijum' | 'akvarijum';
 }
-const { lang } = Astro.props;
-const t = VIEWER_3D[lang];
-const path = localizePath('/3d.html', lang);
+const { lang, type = 'terarijum' } = Astro.props;
+const base = VIEWER_3D[lang];
+const aqua = type === 'akvarijum';
+// akvarijum je isti prikaz sa drugim tekstovima i svojim poljima; sve ostalo deli sa terarijumom
+const t = aqua
+  ? { ...base, ...base.aqua, js: { ...base.js, ...base.aqua.js, build: { ...base.js.build, ...base.aqua.js.build } } }
+  : { ...base, tabWater: '' };
+const terraPath = localizePath('/3d-terarijum.html', lang), aquaPath = localizePath('/3d-akvarijum.html', lang);
+const path = aqua ? aquaPath : terraPath;
 ---
 <Base
   lang={lang}
   {...t.meta}
   path={path}
-  image="/style/img/terrariums/90x45x45.webp"
+  image={aqua ? '/style/img/aquariums/a100x40x50.webp' : '/style/img/terrariums/90x45x45.webp'}
   bodyClass="viewer-3d-page"
   floatContact={false}
   translations={translationsFor(path)}
 >
-<section class="page-head" style="--ph-img: url(/style/img/izrada/terarijum.webp); --ph-img-sm: url(/style/img/izrada/terarijum.webp)">
-      <div class="wrap">
-        <h1 set:html={twoTone(t.h1)} />
-        <p>{t.lead}</p>
-      </div>
-    </section>
-<div id="viewer-page">
+<h1 style="position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap">{t.h1.replace(/<[^>]+>/g, '')}</h1>
+<div id="viewer-page" data-type={type}>
         <div id="viewer-wrap">
             <div id="loading">{t.loading}</div>
             <div id="hint"></div>
@@ -91,7 +92,7 @@ const path = localizePath('/3d.html', lang);
                             <p>{t.helpAr.text}</p>
                         </div>
                     </div>
-                    <div class="help-item">
+                    <div class="help-item terra-only">
                         <div class="help-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
                                 <rect x="3" y="3" width="18" height="18" rx="2" />
                                 <path d="M9 3v18" />
@@ -156,19 +157,43 @@ const path = localizePath('/3d.html', lang);
         </div>
 
         <div id="panel">
-            <button id="reset-button" title={t.reset}>
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+            <nav class="type-switch" aria-label={base.typeSwitch[0]}>
+                <a href={terraPath} aria-current={aqua ? undefined : 'page'}>{base.typeSwitch[1]}</a>
+                <a href={aquaPath} aria-current={aqua ? 'page' : undefined}>{base.typeSwitch[2]}</a>
+            </nav>
+            <div class="panel-top">
+            <div class="panel-tabs" role="tablist">
+                <button type="button" role="tab" data-tab="box" aria-selected="true">{t.tabBox}</button>
+                {aqua && <button type="button" role="tab" data-tab="water" aria-selected="false">{t.tabWater}</button>}
+                <button type="button" role="tab" data-tab="lid" aria-selected="false">{t.tabLid}</button>
+                {!aqua && <button type="button" role="tab" data-tab="vent" aria-selected="false">{t.tabVent}</button>}
+                <button type="button" role="tab" data-tab="foil" aria-selected="false">{t.tabFoil}</button>
+                <button type="button" role="tab" data-tab="decor" aria-selected="false">{t.decor}</button>
+            </div>
+            <button id="reset-button" title={t.reset} aria-label={t.reset}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                     <polyline points="1 4 1 10 7 10" />
                     <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10" />
                 </svg>
             </button>
+            </div>
+            <div class="panel-tab" data-tab="box">
             <div class="panel-header">
-                <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-                        <rect x="3" y="3" width="18" height="18" rx="2" />
-                        <path d="M9 3v18" />
-                        <path d="M15 3v18" />
-                    </svg></div>
+                <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M21.3 8.7 8.7 21.3a1 1 0 0 1-1.4 0l-4.6-4.6a1 1 0 0 1 0-1.4L15.3 2.7a1 1 0 0 1 1.4 0l4.6 4.6a1 1 0 0 1 0 1.4z" /><path d="m7.5 10.5 2 2M10.5 7.5l2 2M13.5 4.5l2 2M4.5 13.5l2 2" /></svg></div>
+                <h3>{t.dimensions}</h3>
+            </div>
+            <div class="dimensions-info" id="dimensions-info"></div>
+            <div class="aqua-stats aqua-only" id="aqua-stats" aria-live="polite"></div>
+            <hr class="panel-divider">
+            <div class="panel-header">
+                <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2" /><path d="M3 9h18M3 16h18M12 9v7" /></svg></div>
+                <h3>{t.build}</h3>
+            </div>
+            <div id="build-options"></div>
+            <hr class="panel-divider">
+            <div class="panel-header">
+                <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2" /><path d="M12 4v16" /><path d="m7.5 10-2 2 2 2M16.5 10l2 2-2 2" /></svg></div>
                 <h3>{t.doors}</h3>
             </div>
             <div class="door-controls">
@@ -187,50 +212,59 @@ const path = localizePath('/3d.html', lang);
                     <input type="range" id="door-right-slider" min="0" max="100" value="0" style="direction:rtl">
                 </div>
             </div>
-
-            <hr class="panel-divider">
-
-            <div class="panel-header">
-                <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="7" cy="8" r="2.5" />
-                        <circle cx="17" cy="8" r="2.5" />
-                        <circle cx="12" cy="16" r="2.5" />
-                    </svg></div>
-                <h3>{t.build}</h3>
             </div>
-            <div id="build-options"></div>
-
-            <hr class="panel-divider">
-
+            <div class="panel-tab" data-tab="water" hidden>
             <div class="panel-header">
-                <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="10" />
-                        <path d="M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10 15 15 0 0 1-4-10 15 15 0 0 1 4-10" />
-                    </svg></div>
+                <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M2 7c2-2 4-2 6 0s4 2 6 0 4-2 6 0" /><path d="M2 13c2-2 4-2 6 0s4 2 6 0 4-2 6 0" /><path d="M2 19c2-2 4-2 6 0s4 2 6 0 4-2 6 0" /></svg></div>
+                <h3>{t.tabWater}</h3>
+            </div>
+            <div id="build-water"></div>
+            </div>
+            <div class="panel-tab" data-tab="lid" hidden>
+            <div class="panel-header">
+                <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11h16v8a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z" /><path d="M3 7.5 21 4.5" /><path d="M11 6.2V4.5h2.5" /></svg></div>
+                <h3>{t.tabLid}</h3>
+            </div>
+            <div id="build-lid"></div>
+            </div>
+            <div class="panel-tab" data-tab="vent" hidden>
+            <div class="panel-header">
+                <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M17.7 7.7a2.5 2.5 0 1 1 1.8 4.3H2" /><path d="M9.6 4.6A2 2 0 1 1 11 8H2" /><path d="M12.6 19.4A2 2 0 1 0 14 16H2" /></svg></div>
+                <h3>{t.tabVent}</h3>
+            </div>
+            <div id="build-vent"></div>
+            </div>
+            <div class="panel-tab" data-tab="foil" hidden>
+            <div class="panel-header">
+                <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 9 5-9 5-9-5 9-5z" /><path d="m3 12 9 5 9-5" /><path d="m3 17 9 5 9-5" /></svg></div>
                 <h3>{t.texture}</h3>
             </div>
             <div class="color-grid" id="color-options"></div>
+            <p class="color-name" style="text-align:left">{t.pattern}: <strong id="color-code"></strong></p>
 
             <hr class="panel-divider">
 
             <div class="panel-header">
-                <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-                        <rect x="3" y="3" width="18" height="18" rx="2" />
-                        <path d="M3 16l5-5 4 4 3-3 6 6" />
-                    </svg></div>
+                <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z" /></svg></div>
+                <h3 id="opt-silicone">{t.silicone[0]}</h3>
+            </div>
+            <div class="opt-row">
+                <div class="opt-seg" id="silicone-options" role="group" aria-labelledby="opt-silicone">
+                    <button type="button" data-value="black">{t.silicone[1]}</button>
+                    <button type="button" data-value="clear">{t.silicone[2]}</button>
+                </div>
+            </div>
+
+            <hr class="panel-divider">
+            <div class="panel-header">
+                <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="9" cy="9" r="2" /><path d="m21 15-3.1-3.1a2 2 0 0 0-2.8 0L6 21" /></svg></div>
                 <h3>{t.background}</h3>
             </div>
             <div class="color-grid" id="bg-options"></div>
-
-            <hr class="panel-divider">
-
+            </div>
+            <div class="panel-tab" data-tab="decor" hidden>
             <div class="panel-header">
-                <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M3 20h18" />
-                        <path d="M6 20c0-4 2-7 5-7s5 3 5 7" />
-                        <path d="M12 13V5" />
-                        <path d="M12 9c2-3 5-3 6-2" />
-                    </svg></div>
+                <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M7 20h10" /><path d="M10 20c5.5-2.5.8-6.4 3-10" /><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z" /><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z" /></svg></div>
                 <h3>{t.decor}</h3>
             </div>
             <span class="opt-row-label">{t.substrate}</span>
@@ -244,6 +278,10 @@ const path = localizePath('/3d.html', lang);
             </div>
             <span class="opt-row-label decor-label">{t.fromOffer}</span>
             <div class="decor-grid" id="decor-options"></div>
+            <div id="decor-added" hidden>
+                <span class="opt-row-label decor-label">{t.added}</span>
+                <div class="decor-grid" id="decor-list"></div>
+            </div>
             <div class="decor-selected" id="decor-selected" hidden>
                 <div class="decor-selected-head">
                     <span id="decor-selected-name"></span>
@@ -256,23 +294,16 @@ const path = localizePath('/3d.html', lang);
                 <input type="range" id="decor-angle" min="0" max="359" step="1" value="0" aria-label={t.angleAria}>
             </div>
             <p class="dim-hint decor-hint">{t.decorHint}</p>
-
-            <hr class="panel-divider">
-
-            <div class="panel-header">
-                <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21 10H3M21 6H3M21 14H3M21 18H3" />
-                    </svg></div>
-                <h3>{t.dimensions}</h3>
             </div>
-            <div class="dimensions-info" id="dimensions-info"></div>
         </div>
     </div>
 <style is:global>
 #viewer-page {
 display: flex;
 width: 100%;
-height: calc(100vh - 80px);
+/* 120px = traka sa telefonom + navigacija, da cela strana stane u ekran bez skrola */
+height: calc(100vh - 120px);
+height: calc(100dvh - 120px);
 background-color: #fff;
 }
 
@@ -309,9 +340,8 @@ font-family: 'Poppins', 'Jost Variable', sans-serif;
 flex: 3;
 background: #fff;
 border-left: 1px solid #e5e5e5;
-padding: 28px 22px;
+padding: 18px 22px;
 overflow-y: auto;
-display: none;
 position: relative;
 }
 
@@ -338,10 +368,70 @@ accent-color: #4aa584;
 margin-bottom: 8px;
 }
 
+.panel-tabs {
+display: flex;
+gap: 4px;
+flex: 1;
+min-width: 0;
+padding: 4px;
+background: #f3f4f3;
+border-radius: 10px;
+}
+
+.panel-tabs button {
+flex: 1;
+min-height: 36px;
+padding: 6px 3px;
+white-space: nowrap;
+border: 0;
+border-radius: 7px;
+background: none;
+font: 600 12px/1.2 inherit;
+color: #666;
+cursor: pointer;
+}
+
+.panel-tabs button[aria-selected="true"] {
+background: #fff;
+color: #1f7a5a;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.type-switch {
+display: flex;
+gap: 6px;
+margin-bottom: 10px;
+}
+
+.type-switch a {
+flex: 1;
+padding: 8px 6px;
+border: 1px solid #e0e0e0;
+border-radius: 8px;
+font-size: 13px;
+font-weight: 600;
+line-height: 1.2;
+color: #555;
+text-align: center;
+text-decoration: none;
+}
+
+.type-switch a[aria-current="page"] {
+border-color: #1f7a5a;
+background: #eef7f3;
+color: #1f7a5a;
+}
+
+.type-switch a:focus-visible,
+.panel-tabs button:focus-visible {
+outline: 2px solid #4aa584;
+outline-offset: 1px;
+}
+
 .panel-divider {
 border: none;
 border-top: 1px solid #e0e0e0;
-margin: 16px 0;
+margin: 12px 0;
 }
 
 /* Door controls */
@@ -534,31 +624,36 @@ display: block;
 }
 
 /* Reset dugme */
+.panel-top {
+display: flex;
+align-items: center;
+gap: 8px;
+margin-bottom: 14px;
+}
+
 #reset-button {
-position: absolute;
-top: 10px;
-right: 10px;
-width: 20px;
-height: 20px;
-border-radius: 50%;
+flex: none;
+width: 36px;
+height: 36px;
+border-radius: 10px;
 border: none;
-background: #f0f0f0;
-color: #999;
+background: #f3f4f3;
+color: #666;
 cursor: pointer;
-display: none;
+display: flex;
 align-items: center;
 justify-content: center;
-transition: background 0.2s, color 0.2s, transform 0.15s;
+visibility: hidden; /* mesto ostaje rezervisano da tabovi ne skacu */
+transition: background 0.2s, color 0.2s;
 }
 
 #reset-button:hover {
 background: #e0e0e0;
-color: #555;
-transform: scale(1.1);
+color: #1f7a5a;
 }
 
 #reset-button.visible {
-display: flex;
+visibility: visible;
 }
 
 /* Dimenzije */
@@ -595,14 +690,14 @@ margin-top: 2px;
 }
 
 .opt-row {
-margin-top: 10px;
+margin-top: 6px;
 }
 
 .opt-row-label {
 display: block;
 font-size: 12px;
 color: #666;
-margin-bottom: 6px;
+margin-bottom: 4px;
 }
 
 .opt-seg {
@@ -610,9 +705,85 @@ display: flex;
 gap: 6px;
 }
 
+#viewer-page[data-type="akvarijum"] .terra-only,
+#viewer-page[data-type="terarijum"] .aqua-only {
+display: none !important;
+}
+
+/* polozaj filtera ima sest izbora: u dva reda po tri */
+.opt-row[data-key="filter"] .opt-seg {
+flex-wrap: wrap;
+}
+
+.opt-row[data-key="filter"] .opt-seg button {
+flex: 1 1 30%;
+}
+
+.aqua-stats {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 8px;
+margin-top: 10px;
+}
+
+.aqua-stats div {
+padding: 8px 6px;
+background: #f8f8f8;
+border: 1px solid #eee;
+border-radius: 10px;
+text-align: center;
+font-size: 11px;
+color: #777;
+}
+
+.aqua-stats strong {
+display: block;
+font-size: 15px;
+color: #222;
+}
+
+.aqua-stats p {
+grid-column: 1 / -1;
+margin: 0;
+font-size: 12px;
+color: #777;
+}
+
+.aqua-stats p.warn {
+color: #a4510a;
+}
+
+/* brojcano polje: natpis levo, vrednost u okviru desno, istog izgleda kao dugmad izbora */
+#panel .opt-num {
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 8px;
+margin: 0;
+font-weight: 400;
+letter-spacing: 0;
+text-transform: none;
+}
+
+.opt-num-box {
+display: inline-flex;
+align-items: baseline;
+gap: 4px;
+padding: 6px 10px;
+background: #f8f8f8;
+border: 1px solid #eee;
+border-radius: 10px;
+color: #333;
+font-weight: 600;
+}
+
+.opt-num-box:focus-within {
+border-color: #4aa584;
+}
+
 .opt-seg button {
 flex: 1;
-padding: 9px 6px;
+padding: 6px 6px;
 font: inherit;
 font-size: 12px;
 color: #555;
@@ -637,6 +808,17 @@ font-weight: 600;
 .opt-seg button:focus-visible {
 outline: 2px solid #3a9d7a;
 outline-offset: 2px;
+}
+
+/* broj ventilatora po duzini i sirini u jednom redu, da panel ostane bez skrola */
+.opt-row[data-key="lidCols"]:not([hidden]),
+.opt-row[data-key="lidRows"]:not([hidden]) {
+    display: inline-block;
+    width: calc(50% - 4px);
+}
+
+.opt-row[data-key="lidCols"]:not([hidden]) {
+    margin-right: 4px;
 }
 
 .substrate-depth {
@@ -670,6 +852,13 @@ transition: border-color 0.2s, background 0.2s;
 .decor-selected button:hover {
 border-color: #4aa584;
 background: #eef7f3;
+}
+
+.decor-grid button[aria-pressed="true"] {
+border-color: #4aa584;
+background: #eef7f3;
+color: #1f6f54;
+font-weight: 600;
 }
 
 .decor-grid button:disabled {
@@ -1203,17 +1392,20 @@ height: 44px;
         const T = JSON.parse(document.getElementById('viewer-i18n').textContent);
 
         const wrap = document.getElementById('viewer-wrap');
+        const AQUA = document.getElementById('viewer-page').dataset.type === 'akvarijum';
 
         const scene = new THREE.Scene();
         scene.background = new THREE.Color(0xf5f5f5);
 
-        const camera = new THREE.PerspectiveCamera(45, wrap.clientWidth / wrap.clientHeight, 0.1, 100000);
+        // uzak raspon dubine (model je oko 1 m): sa 0.1-100000 folija 0.3 mm iznad stakla treperi (z-fighting)
+        const camera = new THREE.PerspectiveCamera(45, wrap.clientWidth / wrap.clientHeight, 0.02, 60);
         camera.position.set(3000, 2000, 3000);
 
         const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
         renderer.setSize(wrap.clientWidth, wrap.clientHeight);
         renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
         renderer.shadowMap.enabled = true;
+        renderer.shadowMap.type = THREE.PCFSoftShadowMap;
         renderer.toneMapping = THREE.ACESFilmicToneMapping;
         renderer.toneMappingExposure = 1.2;
         wrap.appendChild(renderer.domElement);
@@ -1236,6 +1428,7 @@ height: 44px;
         dirLight1.shadow.camera.top = 1; dirLight1.shadow.camera.bottom = -1;
         dirLight1.shadow.camera.near = 0.1; dirLight1.shadow.camera.far = 20;
         dirLight1.shadow.normalBias = 0.002;
+        dirLight1.shadow.bias = -0.0004; // bez ovoga povrsine senče same sebe u kockicama (shadow acne)
         scene.add(dirLight1);
 
         const dirLight2 = new THREE.DirectionalLight(0xffffff, 0.5);
@@ -1244,48 +1437,28 @@ height: 44px;
 
         scene.add(new THREE.DirectionalLight(0xffffff, 0.3).translateY(-2000));
 
-        // PBR teksture drveta
+        // Dezeni folije: 34 folije koje radionica ima, redom kao u njihovom spisku (broj + naziv); kvadratne teksture koje se ponavljaju
         const texLoader = new THREE.TextureLoader();
-        const basePath = '/3d/textures/';
-
-        const woodTextures = [
-            { name: T.woods[0], folder: 'tresnja' },
-            { name: T.woods[1], folder: 'mahagonij' },
-            { name: T.woods[2], folder: 'belo-drvo' },
-            { name: T.woods[3], folder: 'tamni-hrast' },
-            { name: T.woods[4], folder: 'bambus' },
-            // CC0 teksture sa ambientCG.com (Wood051, 049, 095, 066, 048, 028, 068)
-            { name: T.woods[5], folder: 'espreso-orah' },
-            { name: T.woods[6], folder: 'dimljeni-hrast' },
-            { name: T.woods[7], folder: 'javor' },
-            { name: T.woods[8], folder: 'orah' },
-            { name: T.woods[9], folder: 'jasen' },
-            { name: T.woods[10], folder: 'venge' },
-            { name: T.woods[11], folder: 'sivi-hrast' },
-        ];
-
-        woodTextures.forEach(function (w) {
-            w.preview = basePath + w.folder + '/thumb.jpg';
+        const basePath = '/3d/folije/';
+        const FOILS = ['bela', 'crna-drvo', 'belo-drvo', 'grafit', 'sivo-drvo', 'svetlosivo-drvo', 'vintage-natpis', 'svetli-bor', 'med-hrast', 'rustic-hrast', 'tamni-grafit', 'zlatno-drvo', 'tamni-mahagoni', 'smedje-sivo', 'rustic-orah', 'bordo-drvo', 'tamni-orah', 'chevron', 'belo-patinirano', 'krem', 'beli-hrast', 'bez-drvo', 'plavo-beli-vintage', 'bele-daske', 'platno', 'sivi-hrast', 'taupe-drvo', 'prirodni-hrast', 'patchwork', 'zlatni-hrast', 'crvenkasto-drvo', 'srednji-orah', 'prugasti-orah', 'topli-orah'];
+        const woodTextures = FOILS.map(function (slug, i) {
+            const num = String(i + 1).padStart(2, '0'), label = slug.replace(/-/g, ' ');
+            return { id: slug, name: num + ' ' + label.charAt(0).toUpperCase() + label.slice(1), preview: basePath + num + '-' + slug + '-t.jpg', file: basePath + num + '-' + slug + '.jpg' };
         });
+        const DEFAULT_WOOD = woodTextures.find(function (w) { return w.id === 'rustic-hrast'; });
 
-        // Mape se ucitavaju tek kad se tekstura prvi put izabere
+        // Mapa se ucitava tek kad se dezen prvi put izabere
         function ensureWoodLoaded(w) {
             if (w.colorMap) return;
-            const p = basePath + w.folder + '/';
-            w.ready = new Promise(function (resolve) { w.colorMap = texLoader.load(p + 'color.jpg', resolve, undefined, resolve); });
+            w.ready = new Promise(function (resolve) { w.colorMap = texLoader.load(w.file, resolve, undefined, resolve); });
             w.colorMap.userData.mimeType = 'image/jpeg'; // AR izvoz kao jpeg, ne png
             w.colorMap.colorSpace = THREE.SRGBColorSpace;
-            w.normalMap = texLoader.load(p + 'normal.jpg');
-            w.roughnessMap = texLoader.load(p + 'roughness.jpg');
-            [w.colorMap, w.normalMap, w.roughnessMap].forEach(function (tex) {
-                tex.wrapS = THREE.RepeatWrapping;
-                tex.wrapT = THREE.RepeatWrapping;
-                tex.repeat.set(2, 2);
-            });
+            w.colorMap.wrapS = w.colorMap.wrapT = THREE.RepeatWrapping;
+            w.colorMap.repeat.set(3, 3);
         }
 
         const colorOptions = woodTextures;
-        var activeWood = woodTextures[0];
+        var activeWood = DEFAULT_WOOD;
 
         const panelMaterials = []; // samo foilMaterial, puni se kod generatora
 
@@ -1301,33 +1474,43 @@ height: 44px;
             panelMaterials.forEach(function (mat) {
                 mat.color.setHex(0xffffff);
                 mat.map = opt.colorMap;
-                mat.normalMap = opt.normalMap;
-                mat.roughnessMap = opt.roughnessMap;
-                mat.roughness = 1.0;
+                mat.roughness = 0.8;
                 mat.metalness = 0.0;
                 mat.needsUpdate = true;
             });
         }
 
+        // Tabovi panela
+        document.querySelectorAll('.panel-tabs button').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                document.querySelectorAll('.panel-tabs button').forEach(function (b) { b.setAttribute('aria-selected', String(b === btn)); });
+                document.querySelectorAll('.panel-tab').forEach(function (t) { t.hidden = t.dataset.tab !== btn.dataset.tab; });
+            });
+        });
+
         // Tekstura dugmad
         const colorContainer = document.getElementById('color-options');
-        colorOptions.forEach(function (opt, i) {
+        const colorCode = document.getElementById('color-code');
+        colorCode.textContent = DEFAULT_WOOD.name;
+        colorOptions.forEach(function (opt) {
             const btn = document.createElement('button');
-            btn.className = 'color-swatch' + (i === 0 ? ' active' : '');
+            btn.className = 'color-swatch' + (opt === DEFAULT_WOOD ? ' active' : '');
             btn.title = opt.name;
+            btn.setAttribute('aria-label', opt.name);
             btn.innerHTML = '<span class="dot" style="background:url(' + opt.preview + ') center/cover;"></span>';
             btn.addEventListener('click', function () {
                 colorContainer.querySelectorAll('.color-swatch').forEach(function (b) { b.classList.remove('active'); });
                 btn.classList.add('active');
                 applyOption(opt);
                 activeWood = opt;
+                colorCode.textContent = opt.name;
                 scheduleArExport();
             });
             colorContainer.appendChild(btn);
         });
 
         // Pozadine: bez, crna ili 3D reljef generisan iz fotografije pozadine (3d-pozadine.html)
-        const GLASS_M = 0.004;
+        let GLASS_M = 0.004; // debljina stakla u metrima; kod akvarijuma zavisi od mera (setupTerrarium)
         const BG_RELIEF_DEPTH = 0.05;
         const BG_SEG_X = 240, BG_SEG_Y = 120;
         const RELIEF_GAMMA = 1.4; // >1 naglasava ispupcenja, pukotine ostaju duboke
@@ -1575,6 +1758,7 @@ height: 44px;
                 bgContainer.querySelectorAll('.color-swatch').forEach(function (b) { b.classList.remove('active'); });
                 btn.classList.add('active');
                 activeBg = opt;
+                syncBackFoil();
                 applyBackground();
                 decorGroup.children.forEach(clampDecor);
                 updateRing();
@@ -1601,24 +1785,59 @@ height: 44px;
 
         // Terarijum se generise u browseru iz mera (mm). Lokalno: x = duzina, y = dubina (0 = napred), z = visina;
         // root skalira na metre i rotira u Y-up, pa su offseti poklopca u mm.
-        const T_GLASS = 4, T_FOIL = 0.3, TRACK = 10, TRACK_DEPTH = 14, DOOR_OVERLAP = 10, LID_BORDER = 0.2;
+        let T_GLASS = 4; // terarijum je uvek 4 mm; kod akvarijuma debljinu odredjuje glassFor
+        const T_FOIL = 0.3, TRACK = 10, TRACK_DEPTH = 14, DOOR_OVERLAP = 10, LID_FRAME = 112.5, LID_FRAME_RATIO = 0.225; // lajsne oko mrezice (sirina i udeo kod malih mera)
         const TOP_BAND_RATIO = 0.18, BOTTOM_BAND_RATIO = 0.135; // lajsne srazmerne visini: na 50cm su 9 i 6.75cm
         const TOP_BAND_MIN = 30, BOTTOM_BAND_MIN = 20;
         const LOGO_W = 50, LOGO_H = 20, LOGO_MARGIN = 15, LOGO_DEPTH = 2, LOGO_BEVEL = 2.5, LOGO_INNER_RADIUS = 0.1; // radijus ugla = bevel + unutrasnji
         const UV_SCALE = 1 / 1000, MESH_UV_SCALE = 1 / 20;
-        const DIM_FIELDS = [
+        const DIM_FIELDS = AQUA ? [
+            { key: 'L', label: T.dims[0], min: 20, max: 200 },
+            { key: 'W', label: T.dims[1], min: 15, max: 100 },
+            { key: 'H', label: T.dims[2], min: 15, max: 120 }
+        ] : [
             { key: 'L', label: T.dims[0], min: 30, max: 200 },
             { key: 'W', label: T.dims[1], min: 25, max: 100 },
             { key: 'H', label: T.dims[2], min: 25, max: 150 }
         ];
-        const DEFAULT_DIMS = { L: 100, W: 50, H: 50 };
+        const DEFAULT_DIMS = AQUA ? { L: 100, W: 40, H: 50 } : { L: 100, W: 50, H: 50 };
         let dims = Object.assign({}, DEFAULT_DIMS);
-        const BUILD_FIELDS = [
-            { key: 'open', label: T.build.open[0], options: [['sliding', T.build.open[1]], ['top', T.build.open[2]]] },
-            { key: 'topVent', label: T.build.topVent[0], options: [['mesh', T.build.topVent[1]], ['plastic', T.build.topVent[2]]] },
-            { key: 'sideVent', label: T.build.sideVent[0], options: [['none', T.build.sideVent[1]], ['plastic', T.build.sideVent[2]]] }
+        const FILTER_SPOTS = ['none', 'left', 'right', 'back', 'backLeft', 'backRight'];
+        const AQUA_FIELDS = AQUA ? [
+            { tab: 'water', key: 'water', label: T.build.water[0], options: [['yes', T.build.water[1]], ['no', T.build.water[2]]] },
+            { tab: 'water', key: 'waterGap', label: T.build.waterGap, number: [0, 500], when: function (b) { return b.water === 'yes'; } },
+            { tab: 'water', key: 'filter', label: T.build.filter[0], options: FILTER_SPOTS.map(function (k, i) { return [k, T.build.filter[i + 1]]; }) },
+            { tab: 'water', key: 'filterMm', label: T.build.filterMm, number: [50, 400], when: function (b) { return b.filter !== 'none'; } },
+            { tab: 'water', key: 'filterFoil', label: T.build.filterFoil[0], options: [['no', T.build.filterFoil[1]], ['yes', T.build.filterFoil[2]]], when: function (b) { return b.filter !== 'none'; } },
+            { tab: 'options', key: 'bottomFoil', label: T.build.bottomFoil[0], options: [['yes', T.build.bottomFoil[1]], ['no', T.build.bottomFoil[2]]] },
+            { tab: 'lid', key: 'cover', label: T.build.cover[0], options: [['none', T.build.cover[1]], ['yes', T.build.cover[2]], ['double', T.build.cover[3]]] },
+            { tab: 'lid', key: 'coverFoil', label: T.build.coverFoil[0], options: [['no', T.build.coverFoil[1]], ['yes', T.build.coverFoil[2]]], when: function (b) { return b.cover !== 'none'; } }
+        ] : null;
+        const BUILD_FIELDS = AQUA_FIELDS || [
+            { tab: 'options', key: 'open', label: T.build.open[0], options: [['sliding', T.build.open[1]], ['top', T.build.open[2]]] },
+            // lajsne napred po meri: gornja i donja iste, vrata se skracuju, a bocna folija prati
+            { tab: 'options', key: 'band', label: T.build.band[0], options: [['std', T.build.band[1]], ['custom', T.build.band[2]]], when: function (b) { return b.open === 'sliding'; } },
+            { tab: 'options', key: 'bandMm', label: T.build.bandMm, number: [30, 400], when: function (b) { return b.open === 'sliding' && b.band === 'custom'; } },
+            // gornja folija uvek ostaje: pokriva silikon na nosacima poklopca
+            { tab: 'options', key: 'bottomFoil', label: T.build.bottomFoil[0], options: [['yes', T.build.bottomFoil[1]], ['no', T.build.bottomFoil[2]]], when: function (b) { return b.open === 'top'; } },
+            { tab: 'lid', key: 'lid', label: T.build.lid[0], options: [['one', T.build.lid[1]], ['two', T.build.lid[2]]] },
+            // poklopac iz dva dela: zadnji deo je zicani, prednji stakleni; ostala pitanja o plafonu tada ne vaze
+            { tab: 'lid', key: 'lidFront', label: T.build.lidFront[0], options: [['foil', T.build.lidFront[1]], ['glass', T.build.lidFront[2]]], when: function (b) { return b.lid === 'two'; } },
+            { tab: 'lid', key: 'lidFrontMm', label: T.build.lidFrontMm, number: [50, 1000], when: function (b) { return b.lid === 'two'; } },
+            // kad se terarijum otvara odozgo drska je uvek tu, pa se pita samo kod kliznih vrata
+            { tab: 'lid', key: 'lidHandle', label: T.build.lidHandle[0], options: [['no', T.build.lidHandle[1]], ['yes', T.build.lidHandle[2]]], when: function (b) { return b.lid === 'two' && b.open === 'sliding'; } },
+            { tab: 'vent', key: 'topVent', label: T.build.topVent[0], options: [['mesh', T.build.topVent[1]], ['plastic', T.build.topVent[2]]] },
+            // broj cepova bira kupac; koliko staje odredjuju lidVentFit/sideVentFit, visak se odbacuje
+            { tab: 'vent', key: 'lidCols', label: T.build.lidCols, number: [1, 8], step: 1, unit: '', when: function (b) { return b.topVent === 'plastic'; } },
+            { tab: 'vent', key: 'lidRows', label: T.build.lidRows, number: [1, 4], step: 1, unit: '', when: function (b) { return b.topVent === 'plastic'; } },
+            { tab: 'vent', key: 'sideVent', label: T.build.sideVent[0], options: [['none', T.build.sideVent[1]], ['plastic', T.build.sideVent[2]]] },
+            { tab: 'vent', key: 'sideVentN', label: T.build.sideVentN, number: [1, 6], step: 1, unit: '', when: function (b) { return b.sideVent === 'plastic'; } },
+            { tab: 'vent', key: 'ventColor', label: T.build.ventColor[0], options: [['black', T.build.ventColor[1]], ['white', T.build.ventColor[2]]], when: function (b) { return b.topVent === 'plastic' || b.sideVent === 'plastic'; } }
         ];
-        const DEFAULT_BUILD = { open: 'sliding', topVent: 'mesh', sideVent: 'none' };
+        const DEFAULT_BUILD = { open: 'sliding', band: 'std', bandMm: 80, bottomFoil: 'yes', lid: 'one', lidFront: 'foil', lidFrontMm: 150, lidHandle: 'no', topVent: 'mesh', lidCols: 4, lidRows: 2, sideVent: 'none', sideVentN: 2, ventColor: 'black' };
+        // akvarijum nema klizna vrata: 'top' da zajednicke funkcije (unutrasnje mere, dekoracija) racunaju sa fiksnim prednjim staklom
+        if (AQUA) Object.assign(DEFAULT_BUILD, { open: 'top', water: 'yes', waterGap: 30, filter: 'none', filterMm: 100, cover: 'yes', coverFoil: 'no', filterFoil: 'no' });
+        const LID_GAP = 1; // razmak izmedju dva dela poklopca; 0.1 mm se na ekranu ne bi video
         let build = Object.assign({}, DEFAULT_BUILD);
 
         const foilMaterial = new THREE.MeshStandardMaterial({ name: 'Folija', roughness: 0.8, side: THREE.DoubleSide });
@@ -1635,9 +1854,41 @@ height: 44px;
         const logoTexture = texLoader.load('/3d/logo-plocica.png');
         logoTexture.colorSpace = THREE.SRGBColorSpace;
         const logoMaterial = new THREE.MeshStandardMaterial({ name: 'Logo', map: logoTexture, roughness: 0.25 });
-        const partMaterials = { foil: foilMaterial, track: trackMaterial, mesh: meshMaterial };
-        const ventRimMaterial = new THREE.MeshStandardMaterial({ name: 'Ventilator obod', color: 0x161616, roughness: 0.55 });
-        const ventFaceMaterial = new THREE.MeshStandardMaterial({ name: 'Ventilator', map: ventTexture(), roughness: 0.6 });
+        const siliconeMaterial = new THREE.MeshStandardMaterial({ name: 'Silikon', roughness: 0.4, side: THREE.DoubleSide });
+        const SILICONE_LOOKS = { black: { color: 0x080808, opacity: 1 }, clear: { color: 0xffffff, opacity: 0.6 } };
+        let siliconeColor = 'black';
+        function setSilicone(key) {
+            siliconeColor = key;
+            siliconeMaterial.color.setHex(SILICONE_LOOKS[key].color);
+            siliconeMaterial.opacity = SILICONE_LOOKS[key].opacity;
+            siliconeMaterial.transparent = SILICONE_LOOKS[key].opacity < 1;
+            siliconeMaterial.needsUpdate = true;
+            document.querySelectorAll('#silicone-options button').forEach(function (b) {
+                const on = b.dataset.value === key;
+                b.classList.toggle('active', on);
+                b.setAttribute('aria-pressed', on);
+            });
+        }
+        setSilicone('black');
+        document.getElementById('silicone-options').addEventListener('click', function (e) {
+            const b = e.target.closest('button');
+            if (!b || b.dataset.value === siliconeColor) return;
+            setSilicone(b.dataset.value);
+            scheduleArExport();
+            checkDirty();
+        });
+        const waterMaterial = new THREE.MeshPhysicalMaterial({
+            name: 'Voda', color: 0x4fa9cf, transparent: true, opacity: 0.3, roughness: 0.05, metalness: 0, depthWrite: false
+        });
+        const partMaterials = { foil: foilMaterial, track: trackMaterial, mesh: meshMaterial, silicone: siliconeMaterial, water: waterMaterial };
+        // cepovi postoje u crnoj i beloj plastici; rupe su uvek tamne
+        const VENT_LOOKS = { black: { rim: 0x161616, face: '#2e2e2e', ring: '#4a4a4a' }, white: { rim: 0xe9e9e6, face: '#f1f1ee', ring: '#cfcfca' } };
+        const ventMaterials = {};
+        Object.keys(VENT_LOOKS).forEach(function (key) {
+            const rim = new THREE.MeshStandardMaterial({ name: 'Ventilator obod', color: VENT_LOOKS[key].rim, roughness: 0.55 });
+            const face = new THREE.MeshStandardMaterial({ name: 'Ventilator', map: ventTexture(VENT_LOOKS[key]), roughness: 0.6 });
+            ventMaterials[key] = [rim, face, rim];
+        });
 
         // sive zice, providna okca; jedan tile = 20mm (4 okca)
         function meshTexture() {
@@ -1673,7 +1924,9 @@ height: 44px;
                         p[axis] = face[1]; p[a1] = c[0]; p[a2] = c[1]; n[axis] = sign;
                         out.pos.push(p[0], p[1], p[2]);
                         out.nor.push(n[0], n[1], n[2]);
-                        out.uv.push((c[0] + offset[a1]) * uvScale, (c[1] + offset[a2]) * uvScale);
+                        // u je uvek vodoravna osa (x, a na bocnim stranama y), da godovi folije idu isto na svim stranama
+                        const u = axis === 1 ? c[1] + offset[a2] : c[0] + offset[a1], v = axis === 1 ? c[0] + offset[a1] : c[1] + offset[a2];
+                        out.uv.push(u * uvScale, v * uvScale);
                         return p;
                     });
                     // (a1, a2, axis) je ciklicno => cross(e1, e2) ima samo komponentu po `axis`
@@ -1698,8 +1951,15 @@ height: 44px;
 
         // bez kliznih vrata nema sina, pa su trake folije duplo tanje (uz minimum da logo stane)
         function bands(H, c) {
+            if (c.open === 'sliding' && c.band === 'custom') {
+                // vratima ostaje bar 100 mm izmedju sina
+                const v = Math.min(c.bandMm, (H - 2 * TRACK - 100) / 2);
+                return { top: v, bottom: v };
+            }
             if (c.open === 'sliding') return { top: H * TOP_BAND_RATIO, bottom: H * BOTTOM_BAND_RATIO };
-            return { top: Math.max(H * TOP_BAND_RATIO / 2, TOP_BAND_MIN), bottom: Math.max(H * BOTTOM_BAND_RATIO / 2, BOTTOM_BAND_MIN) };
+            const top = Math.max(H * TOP_BAND_RATIO / 2, TOP_BAND_MIN);
+            // kod duplog poklopca gornja folija ide do ispod donjeg stakla i njegovih nosaca, da ih sakrije
+            return { top: c.cover === 'double' ? Math.max(top, H - lowCoverZ(H) + COVER_GLASS) : top, bottom: Math.max(H * BOTTOM_BAND_RATIO / 2, BOTTOM_BAND_MIN) };
         }
 
         // donja ivica prednjeg stakla: kod kliznih stoji na podu, bez njih ide do dna kao bocna
@@ -1726,10 +1986,11 @@ height: 44px;
         }
 
         // okrugli plasticni ventilator (crni obod + resetka), osa ide duz `dir` ('z' gore, '-x'/'+x' bocno)
-        const VENT_R = 20, VENT_H = 2;
-        function vent(x, y, z, dir) {
+        // mere po specifikaciji cepa: precnik 50 mm; od ukupno 4 mm debljine iznad povrsine viri samo lice, kopce ulaze u otvor
+        const VENT_R = 25, VENT_H = 1.5;
+        function vent(x, y, z, dir, color) {
             const geo = new THREE.CylinderGeometry(VENT_R, VENT_R, VENT_H, 40);
-            const m = new THREE.Mesh(geo, [ventRimMaterial, ventFaceMaterial, ventRimMaterial]);
+            const m = new THREE.Mesh(geo, ventMaterials[color]);
             if (dir === 'z') m.rotation.x = Math.PI / 2; // +Y cilindra -> +Z
             else m.rotation.z = dir === '-x' ? Math.PI / 2 : -Math.PI / 2;
             m.position.set(x, y, z);
@@ -1737,89 +1998,314 @@ height: 44px;
             return m;
         }
 
-        function ventTexture() {
-            const c = document.createElement('canvas');
-            c.width = c.height = 128;
+        // izgled pravog cepa: mat crni disk, tanak uzdignut obod, rupe u sacastom (smaknutom) rasporedu na srednjih ~60% precnika
+        function ventTexture(look) {
+            const S = 256, R = S / 2, c = document.createElement('canvas');
+            c.width = c.height = S;
             const ctx = c.getContext('2d');
-            ctx.fillStyle = '#2a2a2a';
-            ctx.fillRect(0, 0, 128, 128);
-            ctx.fillStyle = '#050505';
-            for (let y = 8; y < 128; y += 12) {
-                for (let x = 8; x < 128; x += 12) {
-                    if (Math.hypot(x - 64, y - 64) < 50) { ctx.beginPath(); ctx.arc(x, y, 3.2, 0, Math.PI * 2); ctx.fill(); }
+            ctx.fillStyle = look.face;
+            ctx.fillRect(0, 0, S, S);
+            ctx.fillStyle = '#000';
+            // po specifikaciji: rupe precnika 3 mm, razmak centara 5.5 mm, redovi 5-6-7-8-7-6-5 (R = 25 mm)
+            const pitch = R * 5.5 / 25, hole = R * 1.5 / 25;
+            for (let k = -3; k <= 3; k++) {
+                const n = 8 - Math.abs(k);
+                for (let i = 0; i < n; i++) {
+                    ctx.beginPath(); ctx.arc(R + (i - (n - 1) / 2) * pitch, R + k * pitch * 0.866, hole, 0, Math.PI * 2); ctx.fill();
                 }
             }
-            ctx.strokeStyle = '#3a3a3a';
+            ctx.strokeStyle = look.ring;
             ctx.lineWidth = 4;
-            ctx.beginPath(); ctx.arc(64, 64, 56, 0, Math.PI * 2); ctx.stroke();
+            ctx.beginPath(); ctx.arc(R, R, R * 0.94, 0, Math.PI * 2); ctx.stroke();
             const tex = new THREE.CanvasTexture(c);
             tex.colorSpace = THREE.SRGBColorSpace;
             return tex;
         }
 
         // ventilatori u mrezi na punom poklopcu (40x40cm -> 3x3); napred ostaje mesta za dršku
-        function lidVents(L, W, H) {
-            const g = T_GLASS, front = g + 45, back = W - g - 20;
-            const cols = Math.min(8, Math.max(1, Math.round((L - 2 * g) / 130)));
-            const rows = Math.min(3, Math.max(1, Math.round((back - front) / 130)));
+        // najmanji razmak centara cepova; odatle koliko ih najvise staje
+        const VENT_PITCH = 70;
+        function ventFit(span) { return Math.max(1, Math.floor(span / VENT_PITCH)); }
+        // mreza cepova na punom poklopcu, ravnomerno i centrirano; napred ostaje mesta za drsku
+        // `from` = prednja ivica dela poklopca na kom su cepovi (kod poklopca iz dva dela to je zadnji deo)
+        function lidVents(L, W, H, c, from) {
+            const g = T_GLASS, front = from, back = W - g - 20;
+            const cols = Math.min(c.lidCols, ventFit(L - 2 * g)), rows = Math.min(c.lidRows, ventFit(back - front));
             const out = [];
             for (let i = 0; i < cols; i++) {
                 for (let j = 0; j < rows; j++) {
-                    out.push(vent(g + (L - 2 * g) * (i + 0.5) / cols, front + (back - front) * (j + 0.5) / rows, H + T_FOIL + VENT_H / 2, 'z'));
+                    out.push(vent(g + (L - 2 * g) * (i + 0.5) / cols, front + (back - front) * (j + 0.5) / rows, H + T_FOIL + VENT_H / 2, 'z', c.ventColor));
                 }
             }
             return out;
         }
-
-        // red ventilatora u gornjoj bocnoj traci folije (kao 80x50x50: 4 na 50cm dubine)
         function sideVents(L, W, H, c) {
-            const n = Math.min(6, Math.max(1, Math.floor((W - 40) / 110)));
+            const n = Math.min(c.sideVentN, ventFit(W - 40));
             const z = (sideBandGap(H, c)[1] + H) / 2, out = [];
             for (let i = 0; i < n; i++) {
                 const y = 20 + (W - 40) * (i + 0.5) / n;
-                out.push(vent(-T_FOIL - VENT_H / 2, y, z, '-x'), vent(L + T_FOIL + VENT_H / 2, y, z, '+x'));
+                out.push(vent(-T_FOIL - VENT_H / 2, y, z, '-x', c.ventColor), vent(L + T_FOIL + VENT_H / 2, y, z, '+x', c.ventColor));
             }
             return out;
         }
 
+        // crni silikon na spojevima stakala; napred samo u visinama frontSpans (donja i gornja maska kod kliznih vrata, cela visina kod fiksnog stakla): unutrasnji ugaoni zavar (vidi se kroz staklo) + crne ivice stakla spolja
+        const SILICONE = 6, JOINT = 1; // JOINT = debljina silikona u spoju stakla na staklo (mm)
+        function siliconeBoxes(L, W, H, frontSpans, frontJoint) {
+            const g = T_GLASS, f = T_FOIL, s = SILICONE, e = 0.2;
+            const front = [], sideJointY0 = frontJoint ? g : e;
+            frontSpans.forEach(function (z) { front.push([g, g + s, g, g + s, z[0], z[1]], [L - g - s, L - g, g, g + s, z[0], z[1]]); });
+            // fiksno prednje staklo naleze preko ivica bocnih i poda isto kao ledja
+            if (frontJoint) front.push([e, g - e, g - e, g + JOINT + e, e, H - e], [L - g + e, L - e, g - e, g + JOINT + e, e, H - e], [g - e, L - g + e, g - e, g + JOINT + e, e, g - e]);
+            return front.concat([
+                // ledja uz bocna stakla, celom visinom
+                [g, g + s, W - g - s, W - g, g, H - g], [L - g - s, L - g, W - g - s, W - g, g, H - g],
+                // pod uz bocna stakla i uz ledja
+                [g, g + s, g, W - g, g, g + s], [L - g - s, L - g, g, W - g, g, g + s],
+                [g, L - g, W - g - s, W - g, g, g + s],
+                // pod uz prednje staklo/masku
+                [g, L - g, g, g + s, g, g + s],
+                // gornje ivice bocnih stakala i ledja oko poklopca
+                [0, g, 0, W, H, H + f], [L - g, L, 0, W, H, H + f], [g, L - g, W - g, W, H, H + f],
+                // zadnji uglovi spolja
+                [-f, 0, W, W + f, 0, H], [L, L + f, W, W + f, 0, H],
+                // ledja nalezu preko ivica bocnih stakala i poda: silikon ispunjava taj spoj.
+                // Za `e` zalazi u staklo i uvucen je od spoljnih ivica, da nijedna strana ne bude u ravni sa staklom (z-fighting)
+                [e, g - e, W - g - JOINT - e, W - g + e, e, H - e], [L - g + e, L - e, W - g - JOINT - e, W - g + e, e, H - e],
+                [g - e, L - g + e, W - g - JOINT - e, W - g + e, e, g - e],
+                // pod stoji izmedju bocnih stakala: i taj spoj je uvek ispunjen silikonom
+                [g - e, g + JOINT + e, sideJointY0, W - g, e, g - e], [L - g - JOINT - e, L - g + e, sideJointY0, W - g, e, g - e]
+            ]);
+        }
+
+        // poklopac lezi unutra na staklenim nosacima: traka stakla zalepljena pljostimice uz zid (uspravno), duga 75% stranice,
+        // na sve cetiri strane; poklopac stoji na njenoj gornjoj ivici od 4 mm
+        const LEDGE_H = 20, LEDGE_RATIO = 0.75, LEDGE_GLUE = 1;
+        // vraca [x0, x1, y0, y1] trake debljine `w`, odmaknute `off` od svakog zida
+        function ledgeRects(L, W, w, off) {
+            const g = T_GLASS + off, lx = (L - 2 * T_GLASS) * LEDGE_RATIO, ly = (W - 2 * T_GLASS) * LEDGE_RATIO;
+            const x0 = (L - lx) / 2, y0 = (W - ly) / 2;
+            return [[x0, x0 + lx, g, g + w], [x0, x0 + lx, W - g - w, W - g], [g, g + w, y0, y0 + ly], [L - g - w, L - g, y0, y0 + ly]];
+        }
+
+        // Debljina stakla akvarijuma: zid kao ploca oslonjena na tri ivice pod pritiskom vode, faktor sigurnosti 3.8
+        // (ista formula kao u javnim kalkulatorima; koeficijent zavisi od odnosa duzina/visina). Zaokruzuje se na staklo koje radionica ima.
+        // shortcut: dno je iste debljine kao zidovi (racuna se da lezi celom povrsinom na podlozi), zameniti kad stignu stvarne debljine iz radionice
+        const GLASS_STOCK = [4, 6, 8, 10, 12], GLASS_SAFETY = 3.8, GLASS_STRENGTH = 19.2;
+        const GLASS_K = [[0.5, 0.085], [0.666, 0.1156], [1, 0.16], [1.5, 0.26], [2, 0.32], [2.5, 0.35], [3, 0.37]];
+        function glassFor(d) {
+            const H = d.H * 10, ratio = Math.max(d.L, d.W) * 10 / H;
+            let k = GLASS_K[GLASS_K.length - 1][1];
+            if (ratio <= GLASS_K[0][0]) k = GLASS_K[0][1];
+            for (let i = 1; i < GLASS_K.length; i++) {
+                const a = GLASS_K[i - 1], b = GLASS_K[i];
+                if (ratio >= a[0] && ratio <= b[0]) k = a[1] + (b[1] - a[1]) * (ratio - a[0]) / (b[0] - a[0]);
+            }
+            const need = Math.sqrt(k * H * H * H * 1e-5 / (GLASS_STRENGTH / GLASS_SAFETY));
+            const mm = GLASS_STOCK.find(function (t) { return t >= need - 0.05; });
+            return { need: need, mm: mm || GLASS_STOCK[GLASS_STOCK.length - 1], over: !mm };
+        }
+        // provera na primeru iz kalkulatora: 200x50x50 cm trazi 9.6 mm
+        console.assert(Math.abs(glassFor({ L: 200, W: 50, H: 50 }).need - 9.6) < 0.1 && glassFor({ L: 100, W: 40, H: 50 }).mm === 10, 'glassFor');
+
+        // Filter je komora odvojena staklenom pregradom: uz levu ili desnu stranu, celom zadnjom stranom ili na polovini zadnje strane.
+        // Vraca pregrade kao [x0, x1, y0, y1] i povrsinu komore u mm2 (za litrazu).
+        const FILTER_GLASS = 4, FILTER_TOP = 20, COVER_GLASS = 4, COVER_GAP = 3, COVER_SPLIT_FROM = 800, FILTER_PASS = 50, COVER_DROP = 100;
+        function filterShell(L, W, c) {
+            const g = T_GLASS, t = FILTER_GLASS, mid = L / 2;
+            // komora ne sme da pojede akvarijum: najvise trecina duzine, odnosno polovina sirine
+            const wx = Math.min(c.filterMm, (L - 2 * g) / 3), wy = Math.min(c.filterMm, (W - 2 * g) / 2), y = W - g - wy;
+            switch (c.filter) {
+                case 'left': return { walls: [[g + wx, g + wx + t, g, W - g]], box: [g, g + wx, g, W - g], area: wx * (W - 2 * g) };
+                case 'right': return { walls: [[L - g - wx - t, L - g - wx, g, W - g]], box: [L - g - wx, L - g, g, W - g], area: wx * (W - 2 * g) };
+                case 'back': return { walls: [[g, L - g, y - t, y]], box: [g, L - g, y, W - g], area: (L - 2 * g) * wy };
+                case 'backLeft': return { walls: [[g, mid, y - t, y], [mid, mid + t, y - t, W - g]], box: [g, mid, y, W - g], area: (mid - g) * wy };
+                case 'backRight': return { walls: [[mid, L - g, y - t, y], [mid - t, mid, y - t, W - g]], box: [mid, L - g, y, W - g], area: (mid - g) * wy };
+                default: return { walls: [], area: 0 };
+            }
+        }
+        // filter ima tri komore: dve poprecne pregrade od obicnog providnog stakla dele ga na trecine po duzoj strani
+        function filterChamber(L, W, c) {
+            const f = filterShell(L, W, c), b = f.box, t = FILTER_GLASS;
+            if (!b) return f;
+            const alongX = b[1] - b[0] >= b[3] - b[2], from = alongX ? b[0] : b[2], step = ((alongX ? b[1] : b[3]) - from) / 3;
+            const dividers = [1, 2].map(function (i) {
+                const at = from + i * step - t / 2;
+                return alongX ? [at, at + t, b[2], b[3]] : [b[0], b[1], at, at + t];
+            });
+            return { walls: f.walls.concat(dividers), black: f.walls, clear: dividers, box: b, area: f.area };
+        }
+        console.assert(filterChamber(1000, 400, { filter: 'left', filterMm: 100 }).walls.length === 3 && filterChamber(1000, 400, { filter: 'none' }).walls.length === 0, 'filterChamber');
+        // pod bez komore filtera (i njene pregrade), kao pravougaonici [x0, x1, y0, y1]; komora uvek ide do zadnjeg stakla
+        function substrateRects(L, W, c) {
+            const g = T_GLASS, t = FILTER_GLASS, b = AQUA && filterChamber(L, W, c).box;
+            if (!b) return [[g, L - g, g, W - g]];
+            const y = Math.max(g, b[2] - t), out = [];
+            if (y > g) out.push([g, L - g, g, y]);
+            if (b[0] > g) out.push([g, b[0] - t, y, W - g]);
+            if (b[1] < L - g) out.push([b[1] + t, L - g, y, W - g]);
+            return out;
+        }
+        console.assert(!AQUA || substrateRects(1000, 400, { filter: 'backLeft', filterMm: 100 }).length === 2, 'substrateRects');
+        // dupli poklopac: drugo staklo je COVER_DROP ispod glavnog (kod niskih akvarijuma manje); vraca visinu njegove donje strane
+        function lowCoverZ(H) {
+            return H - 2 * COVER_GLASS - Math.min(COVER_DROP, H / 3);
+        }
+        // pregrade filtera zavrsavaju ispod duplog poklopca, inace malo ispod gornje ivice
+        function filterTop(H, c) {
+            return c.cover === 'double' ? lowCoverZ(H) - COVER_GLASS - 5 : H - FILTER_TOP;
+        }
+        function waterTop(H, c) {
+            // voda je uvek ispod duplog poklopca i njegovih nosaca
+            const gap = c.cover === 'double' ? Math.max(c.waterGap, H - lowCoverZ(H) + COVER_GLASS + 5) : c.waterGap;
+            return H - Math.min(gap, H - T_GLASS - 50); // bar 5 cm vode
+        }
+        // litara: ukupno po spoljnim merama (kao u ponudi), voda po unutrasnjim merama do izabranog nivoa, bez stakla pregrade
+        function aquariumLiters(d, c) {
+            const L = d.L * 10, W = d.W * 10, H = d.H * 10, g = T_GLASS, depth = waterTop(H, c) - g, f = filterChamber(L, W, c);
+            const wallArea = f.walls.reduce(function (sum, r) { return sum + (r[1] - r[0]) * (r[3] - r[2]); }, 0);
+            const wallDepth = Math.min(depth, filterTop(H, c) - g);
+            return {
+                total: L * W * H / 1e6,
+                water: ((L - 2 * g) * (W - 2 * g) * depth - wallArea * wallDepth) / 1e6,
+                filter: f.area * depth / 1e6
+            };
+        }
+        console.assert(Math.abs(aquariumLiters({ L: 100, W: 40, H: 50 }, { waterGap: 30, filter: 'none', filterMm: 100 }).total - 200) < 1e-9, 'aquariumLiters');
+
+        function aquariumParts(L, W, H, c) {
+            // folija kao kod terarijuma bez kliznih vrata: trake gore i dole (donja opciona) napred, sa strane i pozadi
+            const f = T_FOIL, b = bands(H, c), side = sideBandGap(H, c);
+            const bandFoil = function (bandList) { return c.bottomFoil === 'no' ? bandList.slice(1) : bandList; };
+            const g = T_GLASS, e = 1, list = [ // e = 1 mm: supstrat je vec podignut 0.5 mm, pa dno vode ne sme na istu visinu
+                // isti sklop kao terarijum sa fiksnim prednjim staklom: prednje i zadnje preko ivica bocnih, pod izmedju
+                { name: 'Pod', glass: [[g + JOINT, L - g - JOINT, g + JOINT, W - g - JOINT, 0, g]] },
+                { name: 'Ledja', glass: [[0, L, W - g, W, 0, H]], foil: bandFoil([[-f, L + f, W, W + f, 0, side[0]], [-f, L + f, W, W + f, side[1], H]]) },
+                { name: 'Prednje staklo', glass: [[0, L, 0, g, 0, H]], foil: bandFoil([[-f, L + f, -f, 0, 0, b.bottom], [-f, L + f, -f, 0, H - b.top, H]]) },
+                { name: 'Bocno staklo (L)', glass: [[0, g, g + JOINT, W - g - JOINT, 0, H]], foil: bandFoil([[-f, 0, 0, W, 0, side[0]], [-f, 0, 0, W, side[1], H]]) },
+                { name: 'Bocno staklo (D)', glass: [[L - g, L, g + JOINT, W - g - JOINT, 0, H]], foil: bandFoil([[L, L + f, 0, W, 0, side[0]], [L, L + f, 0, W, side[1], H]]) },
+                // silikon kao kod terarijuma, bez ivica oko poklopca (pokrivno staklo je unutra, u ravni sa ivicom)
+                { name: 'Silikon', silicone: siliconeBoxes(L, W, H, [[g, H - g]], true).filter(function (box) { return box[5] <= H; }) }
+            ];
+            const chamber = filterChamber(L, W, c), walls = chamber.walls;
+            if (walls.length) {
+                // filter je crn samo iznutra: crna je pregrada prema akvarijumu, spoljna stakla ostaju providna
+                const pass = Math.min(FILTER_PASS, H * 0.12);
+                // opciono folija spolja na staklima komore, izmedju gornje i donje trake (da se ne preklapa sa njima)
+                const fb = chamber.box, t = FILTER_GLASS, z0 = c.bottomFoil === 'no' ? 0 : side[0], wrap = [];
+                const ya = fb[2] === g ? 0 : fb[2] - t, xa = fb[0] === g ? -f : fb[0] - t, xb = fb[1] === L - g ? L + f : fb[1] + t;
+                if (fb[0] === g) wrap.push([-f, 0, ya, W]);
+                if (fb[1] === L - g) wrap.push([L, L + f, ya, W]);
+                if (fb[2] === g) wrap.push([xa, xb, -f, 0]);
+                wrap.push([xa, xb, W, W + f]);
+                list.push({
+                    name: 'Pregrada filtera',
+                    foil: c.filterFoil === 'yes' ? wrap.map(function (r) { return r.concat([z0, side[1]]); }) : null,
+                    // kao kod filtera sa presipanjem: prva pregrada je podignuta od dna (voda prolazi ispod), druga stoji na dnu i niza je (voda se preliva)
+                    glass: [chamber.clear[0].concat([g + pass, filterTop(H, c)]), chamber.clear[1].concat([g, filterTop(H, c) - pass])],
+                    track: chamber.black.map(function (r) { return r.concat([g, filterTop(H, c)]); })
+                });
+            }
+            if (c.cover !== 'none') {
+                const x0 = g + COVER_GAP, x1 = L - g - COVER_GAP, y0 = g + COVER_GAP, y1 = W - g - COVER_GAP, z0 = H - COVER_GLASS;
+                // do COVER_SPLIT_FROM jedno staklo; duzi akvarijumi imaju zadnje staklo celom duzinom i tri prednja,
+                // od kojih je srednje (najmanje) za hranjenje i ima drsku.
+                const split = L >= COVER_SPLIT_FROM, ym = (y0 + y1) / 2, fw = Math.max(150, Math.min(300, L * 0.2));
+                const xa = L / 2 - fw / 2, xb = L / 2 + fw / 2;
+                const hatch = split ? [xa + 1, xb - 1, y0, ym - 1] : [x0, x1, y0, y1];
+                const hw = Math.min(200, hatch[1] - hatch[0] - 40), hy = split ? (hatch[2] + hatch[3]) / 2 - 3 : y0 + 15;
+                const fixed = split ? [[x0, x1, ym + 1, y1], [x0, xa - 1, y0, ym - 1], [xb + 1, x1, y0, ym - 1]] : [];
+                const panes = [hatch].concat(fixed), low = lowCoverZ(H);
+                // pokrivno staklo lezi na nosacima zalepljenim uz zidove, u ravni sa gornjom ivicom.
+                // Sva stakla (i donja kod duplog poklopca) su jedan deo, da ih dugme za poklopac dize zajedno
+                list.push({
+                    name: 'Pokrivno staklo (poklopac)', t: [L / 2, W / 2, H],
+                    glass: panes.map(function (r) { return r.concat([z0, H]); })
+                        .concat(c.cover === 'double' ? panes.map(function (r) { return r.concat([low, low + COVER_GLASS]); }) : []),
+                    foil: c.coverFoil === 'yes' ? panes.map(function (r) { return r.concat([H, H + f]); }) : null,
+                    extra: glassMeshes([[L / 2 - hw / 2, L / 2 + hw / 2, hy, hy + 6, H + f, H + f + 30]], [0, 0, 0], true)
+                });
+                list.push({ name: 'Nosaci poklopca', glass: ledgeRects(L, W, COVER_GLASS, LEDGE_GLUE).map(function (r) { return r.concat([z0 - LEDGE_H, z0]); }) });
+                list[5].silicone = list[5].silicone.concat(ledgeRects(L, W, LEDGE_GLUE, 0).map(function (r) { return r.concat([z0 - LEDGE_H * 0.75, z0 - LEDGE_H * 0.25]); }));
+                if (c.cover === 'double') {
+                    // dupli poklopac: ista stakla jos jednom nize. Njegovi nosaci leze vodoravno,
+                    // zalepljeni za zid ivicom od 4 mm, a staklo lezi na njima
+                    list.push({ name: 'Nosaci donjeg poklopca', glass: ledgeRects(L, W, LEDGE_H, LEDGE_GLUE).map(function (r) { return r.concat([low - COVER_GLASS, low]); }) });
+                    list[5].silicone = list[5].silicone.concat(ledgeRects(L, W, LEDGE_GLUE, 0).map(function (r) { return r.concat([low - COVER_GLASS * 0.75, low - COVER_GLASS * 0.25]); }));
+                }
+            }
+            // voda je za `e` uvucena od stakla, da joj lica ne budu u ravni sa staklom (z-fighting)
+            if (c.water === 'yes') list.push({ name: 'Voda', water: [[g + e, L - g - e, g + e, W - g - e, g + e, waterTop(H, c)]] });
+            return list;
+        }
+
+        const BACK_FOIL_NAME = 'Folija ledja';
         function parts(L, W, H, c) {
             const g = T_GLASS, f = T_FOIL, b = bands(H, c), fz = frontBottom(c);
             const botTop = fz + b.bottom, topBot = H - b.top;
             const doorZ0 = botTop + TRACK / 2, doorZ1 = topBot - TRACK / 2; // vrata ulaze do pola u sine
             const side = sideBandGap(H, c);
             // bez kliznih vrata folija ide i pozadi, gore i dole
-            const backFoil = c.open === 'sliding' ? null : [[-f, L + f, W, W + f, 0, botTop], [-f, L + f, W, W + f, topBot, H]];
+            // iste visine kao bocne trake, da folija pozadi prati foliju sa strane
+            const backBands = [[-f, L + f, W, W + f, 0, side[0]], [-f, L + f, W, W + f, side[1], H]];
+            // bez kliznih vrata donja folija je opciona (prvi element svake liste traka je donja)
+            const noBottom = c.open === 'top' && c.bottomFoil === 'no';
+            const bandFoil = function (list) { return noBottom ? list.slice(1) : list; };
+            const backFoil = c.open === 'sliding' ? null : bandFoil(backBands);
             // bez kliznih vrata prednje staklo je preko celog lica (naleze na ivice bocnih i poda), bocna su iza njega
-            const sideY0 = c.open === 'sliding' ? 0 : g;
+            const sideY0 = c.open === 'sliding' ? 0 : g + JOINT;
             const half = (L - 2 * g) / 2, doorW = half + DOOR_OVERLAP;
-            const bx = L * LID_BORDER, by = W * LID_BORDER;
+            // lajsne poklopca su oko 11 cm sa svih strana; kod malih terarijuma uze, da ostane otvor za mrezicu
+            const bx = Math.min(LID_FRAME, Math.min(L, W) * LID_FRAME_RATIO), by = bx;
             const lidFrame = c.topVent === 'mesh'
                 ? [[g, L - g, g, by], [g, L - g, W - by, W - g], [g, bx, by, W - by], [L - bx, L - g, by, W - by]]
                 : [[g, L - g, g, W - g]];
+            const two = c.lid === 'two';
+            // prednji deo ne sme da pojede ceo poklopac: zadnjem (zicanom) ostaje bar 100 mm
+            const split = g + Math.min(c.lidFrontMm, W - 2 * g - 100 - LID_GAP);
+            // zadnji deo: mrezica u ramu od lajsni, kao kod poklopca iz jednog dela
+            const y0 = split + LID_GAP, b2 = Math.min(LID_FRAME, Math.min(L, W - g - y0) * LID_FRAME_RATIO);
+            const backFrame = [[g, L - g, y0, y0 + b2], [g, L - g, W - g - b2, W - g], [g, b2, y0 + b2, W - g - b2], [L - b2, L - g, y0 + b2, W - g - b2]];
+            const frontPiece = [[g, L - g, g, split]];
+            // zadnji deo sa plasticnim cepovima je puno staklo sa folijom, bez mrezice
+            const plastic = c.topVent === 'plastic';
+            const backPiece = plastic ? [[g, L - g, y0, W - g]] : backFrame;
+            const lidGlass = two ? frontPiece.concat(backPiece) : lidFrame;
+            const lidFoil = two ? (c.lidFront === 'glass' ? [] : frontPiece).concat(backPiece) : lidFrame;
             const lid = {
                 name: 'Plafon (poklopac)', t: [L / 2, W / 2, H],
-                glass: lidFrame.map(function (r) { return [r[0], r[1], r[2], r[3], H - g, H]; }),
-                foil: lidFrame.map(function (r) { return [r[0], r[1], r[2], r[3], H, H + f]; }),
-                extra: c.topVent === 'plastic' ? lidVents(L, W, H) : []
+                glass: lidGlass.map(function (r) { return [r[0], r[1], r[2], r[3], H - g, H]; }),
+                foil: lidFoil.map(function (r) { return [r[0], r[1], r[2], r[3], H, H + f]; }),
+                extra: plastic ? lidVents(L, W, H, c, two ? y0 + 20 : g + 45) : []
             };
-            if (c.topVent === 'mesh') lid.mesh = [[bx, L - bx, by, W - by, H - 1, H]];
+            if (two && !plastic) lid.mesh = [[b2, L - b2, y0 + b2, W - g - b2, H - 1, H]];
+            else if (two) lid.mesh = null;
+            else if (c.topVent === 'mesh') lid.mesh = [[bx, L - bx, by, W - by, H - 1, H]];
             // drska uz prednju ivicu poklopca, kad se otvara odozgo
             // staklena drska 20x3cm, 6mm, uspravno na poklopcu uz prednju ivicu (kod uskih poklopaca kraca)
             const handleW = Math.min(200, L - 2 * g - 40);
-            if (c.open === 'top') lid.extra = lid.extra.concat(glassMeshes([[L / 2 - handleW / 2, L / 2 + handleW / 2, g + 15, g + 21, H + f, H + f + 30]], [0, 0, 0], true));
-            const leftSide = { name: 'Bocno staklo (L)', glass: [[0, g, sideY0, W - g, 0, H]], foil: [[-f, 0, 0, W, 0, side[0]], [-f, 0, 0, W, side[1], H]] };
-            const rightSide = { name: 'Bocno staklo (D)', glass: [[L - g, L, sideY0, W - g, 0, H]], foil: [[L, L + f, 0, W, 0, side[0]], [L, L + f, 0, W, side[1], H]] };
+            // kod poklopca iz dva dela drska stoji na sredini prednjeg dela
+            const handleY = two ? (g + split) / 2 - 3 : g + 15;
+            if (c.open === 'top' || (two && c.lidHandle === 'yes')) lid.extra = lid.extra.concat(glassMeshes([[L / 2 - handleW / 2, L / 2 + handleW / 2, handleY, handleY + 6, H + f, H + f + 30]], [0, 0, 0], true));
+            const leftSide = { name: 'Bocno staklo (L)', glass: [[0, g, sideY0, W - g - JOINT, 0, H]], foil: bandFoil([[-f, 0, 0, W, 0, side[0]], [-f, 0, 0, W, side[1], H]]) };
+            const rightSide = { name: 'Bocno staklo (D)', glass: [[L - g, L, sideY0, W - g - JOINT, 0, H]], foil: bandFoil([[L, L + f, 0, W, 0, side[0]], [L, L + f, 0, W, side[1], H]]) };
             if (c.sideVent === 'plastic') leftSide.extra = sideVents(L, W, H, c);
             const common = [
                 // pod izmedju bocnih i zadnjeg; prednje staklo uvuceno izmedju bocnih, pa se spreda vide ivice od 4mm
-                { name: 'Pod', glass: [[g, L - g, g - fz, W - g, 0, g]] },
+                { name: 'Pod', glass: [[g + JOINT, L - g - JOINT, c.open === 'sliding' ? 0 : g + JOINT, W - g - JOINT, 0, g]] },
                 { name: 'Ledja', glass: [[0, L, W - g, W, 0, H]], foil: backFoil },
-                leftSide, rightSide, lid
+                leftSide, rightSide, lid,
+                { name: 'Nosaci plafona', glass: ledgeRects(L, W, g, LEDGE_GLUE).map(function (r) { return r.concat([H - g - LEDGE_H, H - g]); }) },
+                { name: 'Silikon', silicone: siliconeBoxes(L, W, H, c.open === 'sliding' ? [[g, botTop], [topBot, H - g]] : [[g, H - g]], c.open !== 'sliding')
+                    // nosaci su zalepljeni crnim silikonom na strani kojom nalezu na zid: traka po sredini, pola visine nosaca
+                    .concat(ledgeRects(L, W, LEDGE_GLUE, 0).map(function (r) { return r.concat([H - g - LEDGE_H * 0.75, H - g - LEDGE_H * 0.25]); })) }
             ];
+            // kod kliznih vrata folija pozadi ide samo kad nema pozadine: poseban deo, da se pali/gasi bez ponovne izgradnje modela
+            if (c.open === 'sliding') common.push({ name: BACK_FOIL_NAME, foil: backBands });
             if (c.open === 'top') {
                 return common.concat([
                     // jedno fiksno prednje staklo, folija samo u trakama
-                    { name: 'Prednje fiksno staklo', glass: [[0, L, 0, g, 0, H]], foil: [[-f, L + f, -f, 0, 0, botTop], [-f, L + f, -f, 0, topBot, H]] }
+                    { name: 'Prednje fiksno staklo', glass: [[0, L, 0, g, 0, H]], foil: bandFoil([[-f, L + f, -f, 0, 0, botTop], [-f, L + f, -f, 0, topBot, H]]) }
                 ]);
             }
             return common.concat([
@@ -1888,17 +2374,17 @@ height: 44px;
         function buildTerrarium(d, c) {
             const L = d.L * 10, W = d.W * 10, H = d.H * 10;
             const root = new THREE.Group();
-            root.name = 'Terarijum ' + d.L + 'x' + d.W + 'x' + d.H + ' staklo';
+            root.name = (AQUA ? 'Akvarijum ' : 'Terarijum ') + d.L + 'x' + d.W + 'x' + d.H + ' staklo';
             root.rotation.x = -Math.PI / 2;
             root.scale.setScalar(0.001);
             root.userData.sideBandGap = sideBandGap(H, c);
-            parts(L, W, H, c).forEach(function (part) {
+            (AQUA ? aquariumParts : parts)(L, W, H, c).forEach(function (part) {
                 const node = new THREE.Group();
                 const t = part.t || [0, 0, 0];
                 node.name = part.name;
                 node.position.fromArray(t);
                 if (part.glass) glassMeshes(part.glass, t).forEach(function (m) { node.add(m); });
-                ['foil', 'track', 'mesh'].forEach(function (key) {
+                ['foil', 'track', 'mesh', 'silicone', 'water'].forEach(function (key) {
                     if (!part[key]) return;
                     const geo = geometryOf(part[key], t, key === 'mesh' ? MESH_UV_SCALE : UV_SCALE, function () { return [0, 1, 2]; });
                     node.add(new THREE.Mesh(geo, partMaterials[key]));
@@ -1918,7 +2404,8 @@ height: 44px;
         let terrarium = null, lidClosed = true;
         // naslov, slajderi i razdelnik sekcije Vrata; skriveni kad nema kliznih vrata
         const doorControls = document.querySelector('.door-controls');
-        const doorSection = [doorControls.previousElementSibling, doorControls, doorControls.nextElementSibling];
+        const doorHeader = doorControls.previousElementSibling;
+        const doorSection = [doorHeader.previousElementSibling, doorHeader, doorControls]; // razdelnik je iznad naslova (vrata su poslednja u tabu)
         const leftSlider = document.getElementById('door-left-slider');
         const rightSlider = document.getElementById('door-right-slider');
         const lidButton = document.getElementById('lid-button');
@@ -1945,9 +2432,25 @@ height: 44px;
             updateLid();
         });
 
+        function updateAquaStats() {
+            const glass = glassFor(dims), l = aquariumLiters(dims, build), round = function (v) { return Math.round(v); };
+            const cell = function (value, label) { return '<div><strong>' + value + '</strong>' + label + '</div>'; };
+            document.getElementById('aqua-stats').innerHTML =
+                cell(glass.mm + ' mm', T.stats.glass) + cell(round(l.total) + ' L', T.stats.total) +
+                cell(build.water === 'yes' ? round(l.water) + ' L' : '–', T.stats.water) +
+                (build.water === 'yes' && l.filter ? '<p>' + T.stats.filter.replace('{n}', round(l.filter)) + '</p>' : '') +
+                (glass.over ? '<p class="warn">' + T.stats.over.replace('{n}', glass.need.toFixed(1)) + '</p>' : '');
+        }
+
+        function syncBackFoil() {
+            if (!terrarium) return;
+            terrarium.traverse(function (o) { if (o.name === BACK_FOIL_NAME) o.visible = activeBg.type === 'none'; });
+        }
+
         function cameraHome(maxDim) {
-            const zoom = window.innerWidth <= 1000 ? 1.4 : 1.5;
-            camera.position.set(maxDim * 0.5, maxDim * 0.5, maxDim * zoom);
+            // pocetni pogled: spreda-levo i malo odozgo (oko 35 stepeni ulevo, 20 stepeni iznad), na telefonu malo blize
+            const k = maxDim * (window.innerWidth <= 1000 ? 0.93 : 1);
+            camera.position.set(-0.94 * k, 0.6 * k, 1.35 * k);
             controls.target.set(0, 0, 0);
             controls.update();
         }
@@ -1957,11 +2460,16 @@ height: 44px;
                 scene.remove(terrarium);
                 terrarium.traverse(function (o) { if (o.isMesh) o.geometry.dispose(); });
             }
+            if (AQUA) {
+                T_GLASS = glassFor(dims).mm;
+                GLASS_M = T_GLASS / 1000;
+            }
             const object = buildTerrarium(dims, build);
             doorLeft = doorRight = lid = null;
             object.traverse(function (child) {
                 if (child.isMesh) {
-                    child.castShadow = true;
+                    // staklo i silikon ne bacaju senku: providni su, a slojevi na 0.3 mm jedan od drugog bi sencili jedan drugi
+                    child.castShadow = [glassMaterial, edgeMaterial, siliconeMaterial, waterMaterial].indexOf(child.material) === -1;
                     child.receiveShadow = true;
                 }
                 const name = child.name.toLowerCase();
@@ -1975,6 +2483,7 @@ height: 44px;
             object.position.sub(box.getCenter(new THREE.Vector3()));
             scene.add(object);
             terrarium = object;
+            const resized = !modelSize || !modelSize.equals(size);
             modelSize = size.clone();
             object.updateMatrixWorld(true);
             const modelRoot = object.children[0];
@@ -1986,7 +2495,8 @@ height: 44px;
             sc.updateProjectionMatrix();
             controls.minDistance = maxDim * 0.3;
             controls.maxDistance = maxDim * 5;
-            cameraHome(maxDim);
+            // promena izvedbe ne dira pogled; kamera se vraca na pocetni samo kad se promeni velicina terarijuma
+            if (resized) cameraHome(maxDim);
 
             const sliding = !!(doorLeft && doorRight);
             doorSection.forEach(function (el) { el.hidden = !sliding; });
@@ -1997,10 +2507,24 @@ height: 44px;
                 doorSlideDistance = doorRightStart.distanceTo(doorLeftStart);
             }
             updateDoors();
-            lidStartPos.copy(lid.position);
+            lidButton.style.display = lid ? '' : 'none'; // akvarijum bez pokrivnog stakla nema sta da se otvara
+            if (lid) lidStartPos.copy(lid.position);
             updateLid();
+            if (AQUA) updateAquaStats();
 
+            syncBackFoil();
             applyBackground();
+            // supstrat ostaje najmanje 2 cm ispod gornje ivice donje lajsne, da se ne vidi kroz vrata i ne ispada
+            // shortcut: kad je lajsna preniska (fiksno prednje staklo), ostaje 1 cm supstrata iako to krsi razmak
+            const maxCm = AQUA ? Math.max(2, Math.min(15, Math.floor(dims.H / 4)))
+                : Math.max(1, Math.floor((frontBottom(build) + bands(dims.H * 10, build).bottom - T_GLASS - SUBSTRATE_CLEARANCE) / 10));
+            substrateDepth.max = maxCm;
+            substrateDepth.min = Math.min(2, maxCm);
+            if (substrate.cm > maxCm) {
+                substrate.cm = maxCm;
+                substrateDepth.value = maxCm;
+                document.getElementById('substrate-depth-value').textContent = maxCm + ' ' + T.unit;
+            }
             updateSubstrate();
             updateRing();
             scheduleArExport();
@@ -2015,26 +2539,48 @@ height: 44px;
                 ' <span class="dim-unit">' + T.unit + '</span></span></label>';
         }).join('') + '<p class="dim-hint">' + DIM_FIELDS.map(function (f) { return f.label + ' ' + f.min + '–' + f.max; }).join(' · ') + ' ' + T.unit + '</p>';
 
-        const buildContainer = document.getElementById('build-options');
+        // polja izvedbe su rasporedjena po tabovima (build-options, build-lid, build-vent), a osluskuju se na celom panelu
+        const buildContainer = document.getElementById('panel');
         BUILD_FIELDS.forEach(function (f) {
             const row = document.createElement('div');
             row.className = 'opt-row';
+            row.dataset.key = f.key;
+            if (f.number) {
+                row.innerHTML = '<label class="opt-row-label opt-num"><span>' + f.label + '</span><span class="opt-num-box"><input type="number" class="dim-input" data-key="' + f.key +
+                    '" min="' + f.number[0] + '" max="' + f.number[1] + '" step="' + (f.step || 10) + '" inputmode="numeric" value="' + build[f.key] + '"> ' + (f.unit === undefined ? 'mm' : f.unit) + '</span></label>';
+                document.getElementById('build-' + f.tab).appendChild(row);
+                return;
+            }
             row.innerHTML = '<span class="opt-row-label" id="opt-' + f.key + '">' + f.label + '</span>' +
                 '<div class="opt-seg" role="group" aria-labelledby="opt-' + f.key + '">' + f.options.map(function (o) {
                     return '<button type="button" data-key="' + f.key + '" data-value="' + o[0] + '" aria-pressed="' + (build[f.key] === o[0]) + '"' +
                         (build[f.key] === o[0] ? ' class="active"' : '') + '>' + o[1] + '</button>';
                 }).join('') + '</div>';
-            buildContainer.appendChild(row);
+            document.getElementById('build-' + f.tab).appendChild(row);
         });
         function syncBuildButtons() {
-            buildContainer.querySelectorAll('button').forEach(function (b) {
+            buildContainer.querySelectorAll('button[data-key]').forEach(function (b) {
                 const on = build[b.dataset.key] === b.dataset.value;
                 b.classList.toggle('active', on);
                 b.setAttribute('aria-pressed', on);
             });
+            buildContainer.querySelectorAll('input[data-key]').forEach(function (i) { i.value = build[i.dataset.key]; });
+            BUILD_FIELDS.forEach(function (f) {
+                if (f.when) buildContainer.querySelector('.opt-row[data-key="' + f.key + '"]').hidden = !f.when(build);
+            });
         }
+        syncBuildButtons();
+        buildContainer.addEventListener('change', function (e) {
+            const i = e.target.closest('input[data-key]');
+            if (!i) return;
+            const v = Math.min(Number(i.max), Math.max(Number(i.min), Math.round(Number(i.value)) || DEFAULT_BUILD[i.dataset.key]));
+            build = Object.assign({}, build, { [i.dataset.key]: v });
+            syncBuildButtons();
+            setupTerrarium();
+            checkDirty();
+        });
         buildContainer.addEventListener('click', function (e) {
-            const b = e.target.closest('button');
+            const b = e.target.closest('button[data-key]');
             if (!b || build[b.dataset.key] === b.dataset.value) return;
             build = Object.assign({}, build, { [b.dataset.key]: b.dataset.value });
             syncBuildButtons();
@@ -2111,6 +2657,7 @@ height: 44px;
         ];
         const SUBSTRATE_TILE = 0.3; // jedan tile teksture = 30cm
         const DEFAULT_SUBSTRATE_CM = 4;
+        const SUBSTRATE_CLEARANCE = 20; // mm
         const DECOR_ITEMS = [
             // nasi proizvodi; id = slug iz nsreptiles-astro oprema, size = najveca mera u m.
             // Model: scripts/photo_lathe_model.py (okrugle, od fotografije) ili scripts/object-capture/make-model.sh (fotogrametrija)
@@ -2152,23 +2699,27 @@ height: 44px;
         function updateSubstrate() {
             if (substrateMesh) {
                 scene.remove(substrateMesh);
-                substrateMesh.geometry.dispose();
-                substrateMesh.material.dispose();
+                substrateMesh.children.forEach(function (m) { m.geometry.dispose(); });
+                substrateMesh.children[0].material.dispose();
                 substrateMesh = null;
             }
             if (substrate.type !== 'none' && modelSize) {
                 const b = innerBounds(), h = substrate.cm / 100;
-                // ide do zadnjeg stakla i ispod pozadine; spreda do prednjeg stakla
-                const z0 = -modelSize.z / 2 + GLASS_M, z1 = modelSize.z / 2 - GLASS_M;
-                const w = b.x1 - b.x0 - 0.001, d = z1 - z0 - 0.001;
                 if (!substrateTex[substrate.type]) substrateTex[substrate.type] = substrateMaps(substrate.type);
-                // jedan supstrat je u sceni u jednom trenutku, pa repeat moze direktno na deljene teksture
-                const maps = substrateTex[substrate.type];
-                Object.values(maps).forEach(function (t) { t.repeat.set(w / SUBSTRATE_TILE, d / SUBSTRATE_TILE); });
-                substrateMesh = new THREE.Mesh(new THREE.BoxGeometry(w, h, d),
-                    new THREE.MeshStandardMaterial(Object.assign({ roughness: 1 }, maps)));
-                substrateMesh.position.set((b.x0 + b.x1) / 2, b.floor + h / 2, (z0 + z1) / 2);
-                substrateMesh.receiveShadow = true;
+                const material = new THREE.MeshStandardMaterial(Object.assign({ roughness: 1 }, substrateTex[substrate.type]));
+                // dno supstrata je 0.5 mm iznad stakla poda: u istoj ravni dve povrsine trepere (z-fighting) kad se gleda odozdo
+                const LIFT = 0.0005;
+                substrateMesh = new THREE.Group();
+                // ide do zadnjeg stakla i ispod pozadine, spreda do prednjeg stakla; u akvarijumu zaobilazi komoru filtera
+                substrateRects(dims.L * 10, dims.W * 10, build).forEach(function (r) {
+                    const w = (r[1] - r[0]) / 1000 - 0.001, d = (r[3] - r[2]) / 1000 - 0.001;
+                    const geo = new THREE.BoxGeometry(w, h - LIFT, d), uv = geo.attributes.uv;
+                    for (let i = 0; i < uv.count; i++) uv.setXY(i, uv.getX(i) * w / SUBSTRATE_TILE, uv.getY(i) * d / SUBSTRATE_TILE);
+                    const m = new THREE.Mesh(geo, material);
+                    m.position.set((r[0] + r[1]) / 2000 - modelSize.x / 2, b.floor + LIFT + (h - LIFT) / 2, modelSize.z / 2 - (r[2] + r[3]) / 2000);
+                    m.receiveShadow = true;
+                    substrateMesh.add(m);
+                });
                 scene.add(substrateMesh);
             }
             decorGroup.children.forEach(clampDecor);
@@ -2238,8 +2789,24 @@ height: 44px;
         selectionRing.visible = false;
         scene.add(selectionRing);
 
+        // spisak dodate dekoracije u panelu: klik oznacava komad, isto kao klik na njega u terarijumu
+        const decorList = document.getElementById('decor-list');
+        function renderDecorList() {
+            decorList.textContent = '';
+            decorGroup.children.forEach(function (o, i) {
+                const btn = document.createElement('button');
+                btn.type = 'button';
+                btn.textContent = (i + 1) + '. ' + o.userData.decor.name;
+                btn.setAttribute('aria-pressed', o === selectedDecor);
+                btn.addEventListener('click', function () { selectDecor(o === selectedDecor ? null : o); });
+                decorList.appendChild(btn);
+            });
+            document.getElementById('decor-added').hidden = decorGroup.children.length === 0;
+        }
+
         function selectDecor(o) {
             selectedDecor = o;
+            renderDecorList();
             decorTools.hidden = !o;
             selectionRing.visible = !!o;
             if (o) {
@@ -2259,7 +2826,7 @@ height: 44px;
 
         function removeDecor(o) {
             decorGroup.remove(o);
-            if (selectedDecor === o) selectDecor(null);
+            selectDecor(selectedDecor === o ? null : selectedDecor);
             scheduleArExport();
             checkDirty();
         }
@@ -2436,6 +3003,7 @@ height: 44px;
         }
 
         function scheduleArExport() {
+            syncUrl();
             if (!exporter) return;
             clearTimeout(arExportTimer);
             arExportTimer = setTimeout(exportForAR, 600);
@@ -2481,16 +3049,17 @@ height: 44px;
             var ls = document.getElementById('door-left-slider');
             var rs = document.getElementById('door-right-slider');
             var lidBtn = document.getElementById('lid-button');
-            var firstSwatch = document.querySelector('.color-swatch');
+            var firstSwatch = colorContainer.children[colorOptions.indexOf(DEFAULT_WOOD)];
             var dirty = parseInt(ls.value) !== 0 ||
                 parseInt(rs.value) !== 0 ||
                 lidBtn.classList.contains('open') ||
                 (firstSwatch && !firstSwatch.classList.contains('active')) ||
-                activeBg !== bgOptions[0] ||
+                activeBg !== bgOptions[0] || siliconeColor !== 'black' ||
                 DIM_FIELDS.some(function (f) { return dims[f.key] !== DEFAULT_DIMS[f.key]; }) ||
                 BUILD_FIELDS.some(function (f) { return build[f.key] !== DEFAULT_BUILD[f.key]; }) ||
                 substrate.type !== 'none' || decorGroup.children.length > 0;
             resetBtn.classList.toggle('visible', dirty);
+            syncUrl();
         }
 
         document.getElementById('door-left-slider').addEventListener('input', function () { checkDirty(); });
@@ -2508,9 +3077,10 @@ height: 44px;
             ls.dispatchEvent(new Event('input'));
             var lidBtn = document.getElementById('lid-button');
             if (lidBtn.classList.contains('open')) lidBtn.click();
-            var firstSwatch = document.querySelector('.color-swatch');
+            var firstSwatch = colorContainer.children[colorOptions.indexOf(DEFAULT_WOOD)];
             if (firstSwatch && !firstSwatch.classList.contains('active')) firstSwatch.click();
             if (activeBg !== bgOptions[0]) bgContainer.firstChild.click();
+            setSilicone('black');
             clearDecor();
             if (substrate.type !== 'none' || substrate.cm !== DEFAULT_SUBSTRATE_CM) setSubstrate('none', DEFAULT_SUBSTRATE_CM);
             const buildChanged = BUILD_FIELDS.some(function (f) { return build[f.key] !== DEFAULT_BUILD[f.key]; });
@@ -2533,10 +3103,85 @@ height: 44px;
             if (e.target === helpOverlay) helpOverlay.classList.remove('open');
         });
 
+        // Stanje konfiguratora zivi u URL-u (samo ono sto odstupa od podrazumevanog), da se konfiguracija moze poslati linkom.
+        // Sve sto dodje iz URL-a prolazi kroz iste granice i spiskove dozvoljenih vrednosti kao i unos u panelu.
+        let urlReady = false;
+        const URL_DECOR_MAX = 20;
+        function syncUrl() {
+            if (!urlReady) return;
+            const q = new URLSearchParams();
+            DIM_FIELDS.forEach(function (f) { if (dims[f.key] !== DEFAULT_DIMS[f.key]) q.set(f.key.toLowerCase(), dims[f.key]); });
+            BUILD_FIELDS.forEach(function (f) {
+                if (build[f.key] !== DEFAULT_BUILD[f.key] && (!f.when || f.when(build))) q.set(f.key, build[f.key]);
+            });
+            if (activeWood !== DEFAULT_WOOD) q.set('foil', activeWood.id);
+            if (siliconeColor !== 'black') q.set('sil', siliconeColor);
+            if (activeBg !== bgOptions[0]) q.set('bg', bgOptions.indexOf(activeBg));
+            if (substrate.type !== 'none') { q.set('sub', substrate.type); q.set('subcm', substrate.cm); }
+            if (decorGroup.children.length) {
+                q.set('decor', decorGroup.children.map(function (o) {
+                    const deg = Math.round(THREE.MathUtils.radToDeg(((o.rotation.y % TAU) + TAU) % TAU)) % 360;
+                    return [o.userData.decor.id, Math.round(o.position.x * 1000), Math.round(o.position.z * 1000), deg].join('.');
+                }).join('_'));
+            }
+            const qs = q.toString();
+            history.replaceState(null, '', location.pathname + (qs ? '?' + qs : '') + location.hash);
+        }
+
+        const urlState = new URLSearchParams(location.search);
+        function clampInt(text, min, max, fallback) {
+            const v = parseInt(text, 10);
+            return isNaN(v) ? fallback : Math.min(max, Math.max(min, v));
+        }
+        // dimenzije i izvedba pre prve izgradnje modela, da se ne gradi dvaput
+        (function readUrlBuild() {
+            const d = {}, b = {};
+            DIM_FIELDS.forEach(function (f) { d[f.key] = clampInt(urlState.get(f.key.toLowerCase()), f.min, f.max, dims[f.key]); });
+            BUILD_FIELDS.forEach(function (f) {
+                const v = urlState.get(f.key);
+                if (f.number) b[f.key] = clampInt(v, f.number[0], f.number[1], build[f.key]);
+                else b[f.key] = f.options.some(function (o) { return o[0] === v; }) ? v : build[f.key];
+            });
+            dims = Object.assign({}, dims, d);
+            build = Object.assign({}, build, b);
+            syncBuildButtons();
+            dimContainer.querySelectorAll('.dim-input').forEach(function (input) { input.value = dims[input.dataset.dim]; });
+        })();
+
+        async function readUrlLook() {
+            const foil = colorOptions.findIndex(function (o) { return o.id === urlState.get('foil'); });
+            if (foil >= 0) colorContainer.children[foil].click();
+            if (urlState.get('sil') === 'clear') setSilicone('clear');
+            const bg = parseInt(urlState.get('bg'), 10);
+            if (bg > 0 && bg < bgOptions.length) bgContainer.children[bg].click();
+            const sub = urlState.get('sub');
+            if (sub !== 'none' && SUBSTRATES.some(function (x) { return x.key === sub; })) {
+                setSubstrate(sub, clampInt(urlState.get('subcm'), Number(substrateDepth.min), Number(substrateDepth.max), Math.min(DEFAULT_SUBSTRATE_CM, Number(substrateDepth.max))));
+            }
+            const tokens = (urlState.get('decor') || '').split('_').filter(Boolean).slice(0, URL_DECOR_MAX);
+            for (const token of tokens) {
+                const part = token.split('.');
+                const item = DECOR_ITEMS.find(function (x) { return x.id === part[0]; });
+                if (!item) continue;
+                const before = decorGroup.children.length;
+                await addDecor(item);
+                const o = decorGroup.children[before];
+                if (!o) continue;
+                // clampDecor u setDecorAngle vraca komad u terarijum ako je pozicija iz URL-a van njega
+                o.position.x = clampInt(part[1], -5000, 5000, Math.round(o.position.x * 1000)) / 1000;
+                o.position.z = clampInt(part[2], -5000, 5000, Math.round(o.position.z * 1000)) / 1000;
+                setDecorAngle(o, THREE.MathUtils.degToRad(clampInt(part[3], 0, 359, 0)));
+            }
+            if (tokens.length) selectDecor(null);
+        }
+
         setupTerrarium();
-        applyOption(colorOptions[0]);
+        applyOption(DEFAULT_WOOD);
+        readUrlLook().catch(function (e) { console.error('Stanje iz URL-a nije ucitano:', e); }).then(function () {
+            urlReady = true;
+            checkDirty();
+        });
         document.getElementById('loading').style.display = 'none';
-        document.getElementById('panel').style.display = 'block';
 
         // Resize nakon sto panel postane vidljiv
         setTimeout(function () {

@@ -80,7 +80,7 @@ EN i RU koriste isti engleski slug, pod `/en/...` i `/ru/...`.
 | `/akvarijumi/akvarijum-za-kornjacu.html` | `/guides/turtle-aquarium.html` |
 | `/akvaristika/red-moor-wood.html` | `/guides/red-moor-wood.html` |
 | `/akvarijumi-za-pocetnike.html` | `/guides/beginner-aquariums.html` |
-| `/3d.html` | `/3d.html` |
+| `/3d-terarijum.html` | `/3d-terrarium.html` |
 | `/3d-pozadine.html` | `/3d-backgrounds.html` |
 | `/404.html` | `/404.html` |
 | `/cenovnik.html` | `/price-list.html` |

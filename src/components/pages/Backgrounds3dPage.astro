@@ -23,17 +23,10 @@ const countText = (n: number) => n + ' ' + (t.models[plural.select(n)] ?? t.mode
 const schema = [
   {
     '@context': 'https://schema.org',
-    '@type': 'Product',
+    '@type': 'Service',
     name: t.schemaName,
     description: t.schemaDescription,
-    brand: { '@type': 'Brand', name: 'NS Reptiles' },
-    offers: {
-      '@type': 'Offer',
-      availability: 'https://schema.org/InStock',
-      priceCurrency: 'RSD',
-      price: '0',
-      seller: { '@type': 'Organization', name: 'NS Reptiles' },
-    },
+    provider: { '@id': SITE.url + '/#business' },
   },
   {
     '@context': 'https://schema.org',

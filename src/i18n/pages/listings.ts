@@ -343,21 +343,22 @@ export const LISTINGS = {
       ru: 'По вашему запросу ничего не найдено. Попробуйте другой термин или <a href="{contact}">свяжитесь с нами</a> — возможно, у нас есть именно то, что вам нужно.',
     },
     sections: [
-      { key: 'akvarijum', label: { sr: 'Akvarijum', en: 'Aquarium', ru: 'Аквариум' } },
       { key: 'terarijum', label: { sr: 'Terarijum', en: 'Terrarium', ru: 'Террариум' } },
       { key: 'ishrana', label: { sr: 'Hrana i suplementi', en: 'Food & supplements', ru: 'Корм и добавки' } },
+      { key: 'akvarijum', label: { sr: 'Akvarijum', en: 'Aquarium', ru: 'Аквариум' } },
     ],
+    // redosled = redosled u gridu: ljudi dolaze zbog terarijumske opreme (UVB), akvarijumska ide na kraj
     groups: [
-      { key: 'akv-filteri', section: 'akvarijum', label: { sr: 'Filteri i pumpe', en: 'Filters & pumps', ru: 'Фильтры и помпы' } },
-      { key: 'akv-grejanje', section: 'akvarijum', label: { sr: 'Grejanje i rasveta', en: 'Heating & lighting', ru: 'Обогрев и освещение' } },
-      { key: 'akv-dekoracija', section: 'akvarijum', label: { sr: 'Dekoracija i podloge', en: 'Decoration & substrates', ru: 'Декорации и грунты' } },
-      { key: 'akv-odrzavanje', section: 'akvarijum', label: { sr: 'Održavanje', en: 'Maintenance', ru: 'Уход' } },
       { key: 'rasveta', section: 'terarijum', label: { sr: 'Rasveta i grejanje', en: 'Lighting & heating', ru: 'Освещение и обогрев' } },
       { key: 'dekoracija', section: 'terarijum', label: { sr: 'Dekoracija i podloge', en: 'Decoration & substrates', ru: 'Декорации и подложки' } },
       { key: 'dodatna-oprema', section: 'terarijum', label: { sr: 'Dodatna oprema', en: 'Accessories', ru: 'Дополнительное оборудование' } },
       { key: 'hrana', section: 'ishrana', label: { sr: 'Hrana', en: 'Food', ru: 'Корм' } },
       { key: 'suplementi', section: 'ishrana', label: { sr: 'Suplementi', en: 'Supplements', ru: 'Добавки' } },
       { key: 'ziva-hrana', section: 'ishrana', label: { sr: 'Živa hrana', en: 'Live feeders', ru: 'Живой корм' } },
+      { key: 'akv-filteri', section: 'akvarijum', label: { sr: 'Filteri i pumpe', en: 'Filters & pumps', ru: 'Фильтры и помпы' } },
+      { key: 'akv-grejanje', section: 'akvarijum', label: { sr: 'Grejanje i rasveta', en: 'Heating & lighting', ru: 'Обогрев и освещение' } },
+      { key: 'akv-dekoracija', section: 'akvarijum', label: { sr: 'Dekoracija i podloge', en: 'Decoration & substrates', ru: 'Декорации и грунты' } },
+      { key: 'akv-odrzavanje', section: 'akvarijum', label: { sr: 'Održavanje', en: 'Maintenance', ru: 'Уход' } },
     ],
     extraPill: { href: '/hrana-za-gustere.html', section: 'ishrana', label: { sr: 'Hrana za guštere', en: 'Lizard food', ru: 'Корм для ящериц' } },
     cta: {

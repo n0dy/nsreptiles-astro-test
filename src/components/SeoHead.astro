@@ -26,6 +26,24 @@ const {
 
 const abs = (p: string) => (p.startsWith('http') ? p : SITE.url + p);
 const canonical = abs(path);
+// Strane bez svoje putanje dobijaju Pocetna > naziv strane (naziv = deo naslova pre prvog | ili -)
+const HOME_PATH = { sr: '/', en: '/en/', ru: '/ru/' }[lang];
+const HOME_NAME = { sr: 'Početna', en: 'Home', ru: 'Главная' }[lang];
+const hasCrumbs = schema.some((s) => (s as { '@type'?: string })['@type'] === 'BreadcrumbList');
+const allSchema =
+  hasCrumbs || noindex || path === HOME_PATH
+    ? schema
+    : [
+        ...schema,
+        {
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: HOME_NAME, item: abs(HOME_PATH) },
+            { '@type': 'ListItem', position: 2, name: title.split(/\s[|\-–—]\s/)[0].trim(), item: canonical },
+          ],
+        },
+      ];
 const ogImage = abs(image);
 const OG_LOCALE: Record<Locale, string> = { sr: 'sr_RS', en: 'en_US', ru: 'ru_RU' };
 const alternates = Object.entries(translations) as [Locale, string][];
@@ -50,4 +68,4 @@ const robots = noindex || !IS_INDEXABLE ? 'noindex, follow' : 'index, follow, ma
 <meta name="twitter:title" content={ogTitle ?? title} />
 <meta name="twitter:description" content={ogDescription ?? description} />
 <meta name="twitter:image" content={ogImage} />
-{schema.map((s) => <script type="application/ld+json" set:html={JSON.stringify(s)} />)}
+{allSchema.map((s) => <script type="application/ld+json" set:html={JSON.stringify(s)} />)}
