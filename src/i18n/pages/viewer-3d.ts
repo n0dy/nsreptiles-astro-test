@@ -24,7 +24,7 @@ export const VIEWER_3D = {
     helpAr: { title: 'Pogledaj u prostoru (AR)', text: 'Postavi terarijum u svoj prostor kroz kameru telefona. Dostupno samo na mobilnom.' },
     helpDoors: { title: 'Vrata', text: 'Pomeri slidere da otvoriš levo i desno klizno staklo terarijuma.' },
     helpLid: { title: 'Poklopac', text: 'Klikni dugme gore levo da otvoriš ili zatvoriš poklopac terarijuma.' },
-    helpTexture: { title: 'Tekstura', text: 'Izaberi jedan od 50 dezena dekorativne folije; oznaka (npr. A-09) je ista kao u našem katalogu dezena.' },
+    helpTexture: { title: 'Tekstura', text: 'Izaberi jedan od 34 dezena dekorativne folije; oznaka (npr. A-09) je ista kao u našem katalogu dezena.' },
     close: 'Zatvori',
     modelAlt: '3D model terarijuma',
     shot: 'Slikaj i preuzmi',
@@ -55,6 +55,7 @@ export const VIEWER_3D = {
     angle: 'Ugao',
     angleAria: 'Ugao dekoracije u stepenima',
     decorHint: 'Prevuci dekoraciju da je pomeriš, a zeleni prsten oko nje da je okreneš.',
+    order: ['Poruči terarijum', 'Želim da poručim terarijum složen u 3D konfiguratoru:', 'Link ka modelu'],
     aqua: {
       meta: {
         title: '3D Pregled Akvarijuma - NS Reptiles | Novi Sad',
@@ -65,6 +66,8 @@ export const VIEWER_3D = {
       modelAlt: '3D model akvarijuma',
       tabWater: 'Voda i filter',
       build: 'Folija',
+      added: 'U akvarijumu',
+      order: ['Poruči akvarijum', 'Želim da poručim akvarijum složen u 3D konfiguratoru:', 'Link ka modelu'],
       helpAr: { title: 'Pogledaj u prostoru (AR)', text: 'Postavi akvarijum u svoj prostor kroz kameru telefona. Dostupno samo na mobilnom.' },
       helpLid: { title: 'Poklopac', text: 'Klikni dugme gore levo da podigneš ili vratiš pokrivno staklo.' },
       js: {
@@ -135,7 +138,7 @@ export const VIEWER_3D = {
     helpAr: { title: 'View in your space (AR)', text: 'Place the terrarium in your own space using your phone camera. Available on mobile only.' },
     helpDoors: { title: 'Doors', text: 'Move the sliders to open the left and right sliding glass doors of the terrarium.' },
     helpLid: { title: 'Lid', text: 'Click the button in the top left to open or close the terrarium lid.' },
-    helpTexture: { title: 'Texture', text: 'Choose one of 50 decorative foil patterns; the code (e.g. A-09) matches our pattern catalogue.' },
+    helpTexture: { title: 'Texture', text: 'Choose one of 34 decorative foil patterns; the code (e.g. A-09) matches our pattern catalogue.' },
     close: 'Close',
     modelAlt: '3D terrarium model',
     shot: 'Screenshot and download',
@@ -166,16 +169,19 @@ export const VIEWER_3D = {
     angle: 'Angle',
     angleAria: 'Decoration angle in degrees',
     decorHint: 'Drag a decoration to move it, and drag the green ring around it to rotate it.',
+    order: ['Order this terrarium', 'I would like to order the terrarium I built in the 3D configurator:', 'Link to the model'],
     aqua: {
       meta: {
         title: '3D Aquarium Viewer - NS Reptiles | Novi Sad',
         description:
-          '3D view of a custom aquarium - set the dimensions, see it filled with water, choose the filter position and get the volume and glass thickness at once. NS Reptiles Novi Sad.',
+          '3D view of a custom aquarium - set the dimensions, see it filled with water, choose the filter position and get the volume and glass thickness at once.',
       },
       h1: '3D Aquarium Viewer',
       modelAlt: '3D aquarium model',
       tabWater: 'Water & filter',
       build: 'Foil',
+      added: 'In the aquarium',
+      order: ['Order this aquarium', 'I would like to order the aquarium I built in the 3D configurator:', 'Link to the model'],
       helpAr: { title: 'View in your space (AR)', text: 'Place the aquarium in your room through the phone camera. Available on mobile only.' },
       helpLid: { title: 'Cover', text: 'Click the button at the top left to lift or put back the cover glass.' },
       js: {
@@ -246,7 +252,7 @@ export const VIEWER_3D = {
     helpAr: { title: 'Посмотреть в комнате (AR)', text: 'Разместите террариум у себя в комнате через камеру телефона. Доступно только на мобильных устройствах.' },
     helpDoors: { title: 'Дверцы', text: 'Двигайте ползунки, чтобы открыть левое и правое раздвижное стекло террариума.' },
     helpLid: { title: 'Крышка', text: 'Нажмите кнопку слева вверху, чтобы открыть или закрыть крышку террариума.' },
-    helpTexture: { title: 'Текстура', text: 'Выберите один из 50 декоров плёнки; код (например, A-09) совпадает с нашим каталогом декоров.' },
+    helpTexture: { title: 'Текстура', text: 'Выберите один из 34 декоров плёнки; код (например, A-09) совпадает с нашим каталогом декоров.' },
     close: 'Закрыть',
     modelAlt: '3D-модель террариума',
     shot: 'Сделать снимок и скачать',
@@ -277,6 +283,7 @@ export const VIEWER_3D = {
     angle: 'Угол',
     angleAria: 'Угол декора в градусах',
     decorHint: 'Перетащите декор, чтобы переместить его, а зелёное кольцо вокруг него — чтобы повернуть.',
+    order: ['Заказать террариум', 'Хочу заказать террариум, собранный в 3D-конфигураторе:', 'Ссылка на модель'],
     aqua: {
       meta: {
         title: '3D-просмотр аквариума - NS Reptiles | Нови-Сад',
@@ -287,6 +294,8 @@ export const VIEWER_3D = {
       modelAlt: '3D-модель аквариума',
       tabWater: 'Вода и фильтр',
       build: 'Плёнка',
+      added: 'В аквариуме',
+      order: ['Заказать аквариум', 'Хочу заказать аквариум, собранный в 3D-конфигураторе:', 'Ссылка на модель'],
       helpAr: { title: 'Посмотреть в комнате (AR)', text: 'Поставьте аквариум в своей комнате через камеру телефона. Доступно только на мобильном.' },
       helpLid: { title: 'Крышка', text: 'Нажмите кнопку слева вверху, чтобы поднять или вернуть покровное стекло.' },
       js: {

@@ -260,6 +260,35 @@ if (!reduceMotion)
     cio.observe(el);
   });
 
+// ===== GA4: klikovi na kontakt (telefon, WhatsApp, Viber, e-mail) =====
+// Jedan slusalac za ceo sajt (plutajuca dugmad, traka, footer, kontakt strana...); linkovi koji vec imaju
+// svoj gtag u onclick se preskacu da se dogadjaj ne broji dvaput. `mesto` kaze odakle je klik.
+document.addEventListener('click', (e) => {
+  const a = e.target.closest && e.target.closest('a[href]');
+  if (!a || (a.getAttribute('onclick') || '').includes('gtag')) return;
+  const href = a.getAttribute('href');
+  const metod = href.startsWith('tel:') ? 'telefon' : href.includes('wa.me') ? 'whatsapp'
+    : href.startsWith('viber:') ? 'viber' : href.startsWith('mailto:') ? 'email' : '';
+  if (!metod) return;
+  const mesto = a.closest('.float-contact') ? 'plutajuce' : a.closest('.topbar') ? 'traka'
+    : a.closest('footer') ? 'footer' : 'strana';
+  window.gtag('event', 'kontakt_click', { metod, mesto });
+});
+
+// ===== GA4: drustvene mreze, upit sa strane proizvoda, korpa =====
+// Korpa jos ne vodi nigde; klik se belezi da se vidi koliko ljudi ocekuje kupovinu preko sajta.
+document.addEventListener('click', (e) => {
+  const el = e.target.closest && e.target.closest('a[href], button.nav-cart');
+  if (!el) return;
+  if (el.matches('button.nav-cart')) return window.gtag('event', 'korpa_click');
+  const href = el.getAttribute('href');
+  const mreza = ['instagram', 'facebook', 'tiktok', 'youtube'].find((m) => href.includes(m + '.com'));
+  const mesto = el.closest('.insta, .insta-head') ? 'pocetna_traka' : el.closest('.topbar') ? 'traka'
+    : el.closest('footer') ? 'footer' : 'strana';
+  if (mreza) window.gtag('event', 'social_click', { mreza, mesto });
+  else if (el.classList.contains('pd-inquiry')) window.gtag('event', 'upit_click', { tip: 'proizvod' });
+});
+
 // ===== HUBSPOT FORME =====
 async function hsSubmit(formGuid, fields) {
   const hutk = document.cookie.match(/hubspotutk=([^;]*)/);
@@ -330,6 +359,7 @@ window.hsSubmit = hsSubmit;
         ]);
       } catch (e) {}
       if (ok) {
+        window.gtag('event', 'newsletter_prijava');
         formEl.innerHTML = '<p class="news-done">' + t.done + '</p>';
       } else {
         alert(t.error);
@@ -361,8 +391,10 @@ window.hsSubmit = hsSubmit;
   const dots = document.querySelectorAll('.hero-dots button');
   if (!slides.length) return;
   const loadRest = () => document.getElementById('heroBg').classList.add('ready');
-  if (document.readyState === 'complete') loadRest();
-  else addEventListener('load', loadRest);
+  // ostali slajdovi se ucitavaju tek kad se strana smiri, da se ne takmice sa prvom slikom (LCP); prvi prelaz je posle 5 s
+  const idle = () => setTimeout(loadRest, 2000);
+  if (document.readyState === 'complete') idle();
+  else addEventListener('load', idle);
   let idx = 0,
     timer;
   function show(n) {

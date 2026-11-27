@@ -8,6 +8,7 @@ import ProductCard from './ProductCard.astro';
 import { SITE, whatsappLink, type Locale } from '../config/site';
 import { HOME } from '../i18n/ui';
 import { localizePath, translationsFor } from '../i18n/routes';
+import { TERRARIUM_GUIDES } from '../i18n/guides';
 import { priceLabel, productSchema, categoryText, dimsOf, sizeNeighbors, getProducts, productViewOrSr, type ProductView, type Product } from '../lib/products';
 
 interface Props {
@@ -44,26 +45,33 @@ const SIZE = {
   sr: {
     title: 'Veličina i izbor',
     base: (d: NonNullable<typeof dims>) => `Dno je ${d.l}x${d.w} cm (${(d.l * d.w).toLocaleString('sr-RS')} cm²), visina ${d.h} cm, a ukupna zapremina oko ${d.liters} L.`,
-    fit: ['Ova dužina odgovara paucima skakačima, bogomoljkama i manjim gekonima.', 'Ova dužina odgovara leopard gekonima, crested gekonima i mladim zmijama.', 'Ova dužina odgovara odraslim bradatim agamama, loptastim pitonima i kornjačama.'],
+    fit: ['Ova dužina odgovara paucima skakačima, bogomoljkama i manjim gekonima.', 'Ova dužina odgovara leopard gekonima, crested gekonima i mladim zmijama.', 'Ova dužina odgovara kukuruznim smukovima, loptastim pitonima i mladim bradatim agamama.', 'Ove mere odgovaraju odraslim bradatim agamama, loptastim pitonima i kornjačama.'],
     water: (d: NonNullable<typeof dims>) => `Napunjen sadrži oko ${d.liters} kg vode, pa ga postavite na ravnu i čvrstu podlogu. ${d.liters >= 50 ? 'Ova zapremina lako drži stabilne parametre vode, pa je dobar izbor i za početnike.' : 'Kod manje zapremine parametri vode se brže menjaju, pa ih proveravajte češće.'}`,
     smaller: 'Prva manja zapremina:', larger: 'Prva veća zapremina:',
   },
   en: {
     title: 'Size and choice',
     base: (d: NonNullable<typeof dims>) => `The floor is ${d.l}x${d.w} cm (${(d.l * d.w).toLocaleString('en')} cm²), the height is ${d.h} cm and the total volume is about ${d.liters} L.`,
-    fit: ['This length suits jumping spiders, mantises and smaller geckos.', 'This length suits leopard geckos, crested geckos and young snakes.', 'This length suits adult bearded dragons, ball pythons and tortoises.'],
+    fit: ['This length suits jumping spiders, mantises and smaller geckos.', 'This length suits leopard geckos, crested geckos and young snakes.', 'This length suits corn snakes, ball pythons and juvenile bearded dragons.', 'These dimensions suit adult bearded dragons, ball pythons and tortoises.'],
     water: (d: NonNullable<typeof dims>) => `When full it holds about ${d.liters} kg of water, so place it on a flat, solid surface. ${d.liters >= 50 ? 'This volume keeps water parameters stable easily, so it is a good choice for beginners too.' : 'In a smaller volume water parameters change faster, so check them more often.'}`,
     smaller: 'Next smaller volume:', larger: 'Next larger volume:',
   },
   ru: {
     title: 'Размер и выбор',
     base: (d: NonNullable<typeof dims>) => `Дно ${d.l}x${d.w} см (${(d.l * d.w).toLocaleString('ru')} см²), высота ${d.h} см, общий объём около ${d.liters} л.`,
-    fit: ['Такая длина подходит паукам-скакунам, богомолам и небольшим гекконам.', 'Такая длина подходит леопардовым гекконам, реснитчатым гекконам и молодым змеям.', 'Такая длина подходит взрослым бородатым агамам, королевским питонам и черепахам.'],
+    fit: ['Такая длина подходит паукам-скакунам, богомолам и небольшим гекконам.', 'Такая длина подходит леопардовым гекконам, реснитчатым гекконам и молодым змеям.', 'Такая длина подходит маисовым полозам, королевским питонам и молодым бородатым агамам.', 'Такие размеры подходят взрослым бородатым агамам, королевским питонам и черепахам.'],
     water: (d: NonNullable<typeof dims>) => `В наполненном виде он вмещает около ${d.liters} кг воды, поэтому ставьте его на ровную и прочную поверхность. ${d.liters >= 50 ? 'Такой объём легко удерживает стабильные параметры воды, поэтому подходит и начинающим.' : 'В меньшем объёме параметры воды меняются быстрее, проверяйте их чаще.'}`,
     smaller: 'Ближайший меньший объём:', larger: 'Ближайший больший объём:',
   },
 }[lang];
-const sizeText = dims && [SIZE.base(dims), isAquarium ? SIZE.water(dims) : v.category === 'terarijumi' ? SIZE.fit[dims.l <= 30 ? 0 : dims.l <= 60 ? 1 : 2] : ''].join(' ');
+// odrasla bradata agama trazi dno od bar 100x40 cm (vodic preporucuje 100x50x50); manji terarijumi je ne navode
+const fitsAdultDragon = !!dims && dims.l >= 100 && dims.w >= 40;
+const isDragon = (item: string) => /bradat|bearded dragon|бородат/i.test(item);
+// vodic za vrstu kojoj ova duzina odgovara (isto pravilo kao recenica ispod)
+const sizeGuide = dims && v.category === 'terarijumi' && dims.l > 30
+  ? TERRARIUM_GUIDES[dims.l <= 60 ? 'leopard-gekon' : fitsAdultDragon ? 'bradata-agama' : 'loptasti-piton']
+  : undefined;
+const sizeText = dims && [SIZE.base(dims), isAquarium ? SIZE.water(dims) : v.category === 'terarijumi' ? SIZE.fit[dims.l <= 30 ? 0 : dims.l <= 60 ? 1 : fitsAdultDragon ? 3 : 2] : ''].join(' ');
 
 // bez prevoda proizvoda jezicki meni vodi na listing kategorije tog jezika
 const own = translationsFor(v.path);
@@ -133,12 +141,13 @@ const langLinks = {
             {v.description.map((b) =>
               b.type === 'h2' ? <h2>{b.text}</h2>
               : b.type === 'p' ? <p set:html={b.html} />
-              : <ul>{b.items.map((i) => <li set:html={i} />)}</ul>
+              : <ul>{b.items.filter((i) => v.category !== 'terarijumi' || fitsAdultDragon || !isDragon(i)).map((i) => <li set:html={i} />)}</ul>
             )}
             {dims && (
               <>
                 <h2>{SIZE.title}</h2>
                 <p>{sizeText}</p>
+                {sizeGuide && <p><a href={localizePath(sizeGuide.href, lang)}>{sizeGuide.label[lang]}</a></p>}
                 {(smaller || larger) && (
                   <p>
                     {smaller && <>{SIZE.smaller} <a href={smaller.path}>{smaller.name}</a>. </>}

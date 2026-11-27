@@ -9,6 +9,7 @@ import { SITE, whatsappLink, type Locale } from '../../config/site';
 import { localizePath, translationsFor } from '../../i18n/routes';
 import { KITS, KIT_UI } from '../../i18n/kits';
 import { KIT_DETAIL_UI, KIT_DETAILS } from '../../i18n/pages/kit-detail';
+import { TERRARIUM_GUIDES } from '../../i18n/guides';
 
 interface Props {
   /** srpski slug kompleta, npr. "bradata-agama" */
@@ -109,6 +110,7 @@ const schema = [
           </a>
         </div>
         <div class="ks-note">{t.note}</div>
+        {TERRARIUM_GUIDES[slug] && <p><a href={href(TERRARIUM_GUIDES[slug].href)}>{TERRARIUM_GUIDES[slug].label[lang]}</a></p>}
       </div>
     </div>
   </div>

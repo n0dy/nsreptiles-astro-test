@@ -217,9 +217,9 @@
         "ru": "Сколько времени занимает изготовление террариума?"
       },
       "a": {
-        "sr": "Uobičajeni rok izrade je 7 radnih dana. Za veće i zahtevnije projekte rok može biti duži.",
-        "en": "The usual lead time is 7 working days. For larger and more demanding projects it can be longer.",
-        "ru": "Обычный срок изготовления - 7 рабочих дней. Для более крупных и сложных проектов срок может быть больше."
+        "sr": "Uobičajeni rok izrade je 7–14 dana. Za veće i zahtevnije projekte rok može biti duži.",
+        "en": "The usual lead time is 7–14 days. For larger and more demanding projects it can be longer.",
+        "ru": "Обычный срок изготовления - 7–14 дней. Для более крупных и сложных проектов срок может быть больше."
       }
     },
     {
@@ -229,9 +229,9 @@
         "ru": "Можно ли выбрать цвет и фон террариума?"
       },
       "a": {
-        "sr": "Da, nudimo preko 40 dezena folija i različite 3D pozadine - od stiropora do prirodnog siga kamena.",
-        "en": "Yes, we offer over 40 film designs and various 3D backgrounds - from styrofoam to natural tufa rock.",
-        "ru": "Да, мы предлагаем более 40 расцветок плёнки и разные 3D-фоны - от пенопласта до натурального туфа."
+        "sr": "Da, nudimo 34 dezena folija i različite 3D pozadine - od stiropora do prirodnog siga kamena.",
+        "en": "Yes, we offer 34 film designs and various 3D backgrounds - from styrofoam to natural tufa rock.",
+        "ru": "Да, мы предлагаем 34 расцветки плёнки и разные 3D-фоны - от пенопласта до натурального туфа."
       }
     },
     {
@@ -257,6 +257,54 @@
         "en": "You can pick up the terrarium in person in Novi Sad, or we deliver by bus and van across Serbia.",
         "ru": "Террариум можно забрать лично в Нови-Саде, или мы доставляем автобусом и фургоном по всей Сербии."
       }
+    },
+    {
+      "q": {
+        "sr": "Koje dimenzije terarijuma možete da napravite?",
+        "en": "What terrarium sizes can you build?",
+        "ru": "Каких размеров террариумы вы делаете?"
+      },
+      "a": {
+        "sr": "Pravimo terarijume dužine od 30 do 200 cm, širine od 25 do 100 cm i visine od 25 do 150 cm. Za vrste koje žive na tlu radimo horizontalne, a za one koje se penju vertikalne terarijume.",
+        "en": "We build terrariums from 30 to 200 cm long, 25 to 100 cm wide and 25 to 150 cm high. For ground-dwelling species we make horizontal terrariums, and for climbers vertical ones.",
+        "ru": "Мы делаем террариумы длиной от 30 до 200 см, шириной от 25 до 100 см и высотой от 25 до 150 см. Для наземных видов делаем горизонтальные террариумы, для лазающих вертикальные."
+      }
+    },
+    {
+      "q": {
+        "sr": "Koliki terarijum treba bradatoj agami, a koliki leopard gekonu?",
+        "en": "What size terrarium does a bearded dragon or a leopard gecko need?",
+        "ru": "Какой террариум нужен бородатой агаме, а какой леопардовому геккону?"
+      },
+      "a": {
+        "sr": "Odrasloj bradatoj agami treba terarijum od oko 100x50x50 cm, a leopard gekonu od oko 50x35x35 cm. Za druge vrste javite nam koju životinju držite, pa ćemo predložiti mere.",
+        "en": "An adult bearded dragon needs a terrarium of about 100x50x50 cm, and a leopard gecko one of about 50x35x35 cm. For other species, tell us which animal you keep and we will suggest the dimensions.",
+        "ru": "Взрослой бородатой агаме нужен террариум около 100x50x50 см, а леопардовому геккону около 50x35x35 см. Для других видов сообщите нам, какое животное вы содержите, и мы предложим размеры."
+      }
+    },
+    {
+      "q": {
+        "sr": "Kako se terarijum otvara i provetrava?",
+        "en": "How does the terrarium open and how is it ventilated?",
+        "ru": "Как террариум открывается и проветривается?"
+      },
+      "a": {
+        "sr": "Prednja stakla su klizna, pa terarijumu prilazite spreda. Ventilacija ide kroz otvore sa mrežicom, a tip poklopca dogovaramo pri poručivanju.",
+        "en": "The front panes slide, so you reach into the terrarium from the front. Ventilation goes through mesh-covered openings, and we agree the type of lid when you order.",
+        "ru": "Передние стёкла раздвижные, поэтому доступ в террариум спереди. Вентиляция идёт через отверстия с сеткой, а тип крышки мы согласуем при заказе."
+      }
+    },
+    {
+      "q": {
+        "sr": "Mogu li da vidim terarijum pre nego što ga poručim?",
+        "en": "Can I see the terrarium before I order it?",
+        "ru": "Можно ли увидеть террариум до заказа?"
+      },
+      "a": {
+        "sr": "Da. U 3D konfiguratoru na sajtu zadate mere, izaberete dezen folije i pozadinu i pogledate model u 3D prikazu, a na telefonu i u proširenoj stvarnosti (AR). Dugmetom „Poruči terarijum“ šaljete nam parametre, a mi vam odgovaramo ponudom.",
+        "en": "Yes. In the 3D configurator on the site you set the dimensions, pick the film design and the background and look at the model in 3D, and in augmented reality (AR) on a phone. The “Order this terrarium” button sends us the parameters, and we reply with a quote.",
+        "ru": "Да. В 3D-конфигураторе на сайте вы задаёте размеры, выбираете декор плёнки и фон и смотрите модель в 3D, а на телефоне и в дополненной реальности (AR). Кнопка «Заказать террариум» отправляет нам параметры, а мы отвечаем предложением."
+      }
     }
   ],
   "service-akvarijumi": [
@@ -279,9 +327,9 @@
         "ru": "Сколько времени занимает изготовление аквариума?"
       },
       "a": {
-        "sr": "Uobičajeni rok izrade je 7 radnih dana. Za veće i zahtevnije projekte rok može biti duži.",
-        "en": "The usual lead time is 7 working days. For larger and more demanding projects it can be longer.",
-        "ru": "Обычный срок изготовления - 7 рабочих дней. Для более крупных и сложных проектов срок может быть больше."
+        "sr": "Uobičajeni rok izrade je 7–14 dana. Za veće i zahtevnije projekte rok može biti duži.",
+        "en": "The usual lead time is 7–14 days. For larger and more demanding projects it can be longer.",
+        "ru": "Обычный срок изготовления - 7–14 дней. Для более крупных и сложных проектов срок может быть больше."
       }
     },
     {
@@ -318,6 +366,54 @@
         "sr": "Da, akvarijum možete preuzeti lično u Novom Sadu, ili vršimo dostavu autobusom i kombijem širom Srbije.",
         "en": "Yes, you can pick up the aquarium in person in Novi Sad, or we deliver by bus and van across Serbia.",
         "ru": "Да, аквариум можно забрать лично в Нови-Саде, или мы доставляем автобусом и фургоном по всей Сербии."
+      }
+    },
+    {
+      "q": {
+        "sr": "Koje dimenzije akvarijuma možete da napravite?",
+        "en": "What aquarium sizes can you build?",
+        "ru": "Каких размеров аквариумы вы делаете?"
+      },
+      "a": {
+        "sr": "Pravimo akvarijume dužine od 20 do 200 cm, širine od 15 do 100 cm i visine od 15 do 120 cm. Debljinu stakla biramo prema zapremini i visini akvarijuma.",
+        "en": "We build aquariums from 20 to 200 cm long, 15 to 100 cm wide and 15 to 120 cm high. We choose the glass thickness by the volume and height of the aquarium.",
+        "ru": "Мы делаем аквариумы длиной от 20 до 200 см, шириной от 15 до 100 см и высотой от 15 до 120 см. Толщину стекла подбираем по объёму и высоте аквариума."
+      }
+    },
+    {
+      "q": {
+        "sr": "Koliko je težak pun akvarijum i na čemu treba da stoji?",
+        "en": "How heavy is a full aquarium and what should it stand on?",
+        "ru": "Сколько весит полный аквариум и на чём он должен стоять?"
+      },
+      "a": {
+        "sr": "Pun akvarijum teži oko 1 kg po litru vode, plus težina stakla. Akvarijum od 100x40x50 cm ima 200 litara, dakle oko 200 kg vode i još staklo. Zato mu treba ravna i čvrsta podloga.",
+        "en": "A full aquarium weighs about 1 kg per litre of water, plus the weight of the glass. A 100x40x50 cm aquarium holds 200 litres, so about 200 kg of water plus the glass. That is why it needs a flat, solid stand.",
+        "ru": "Полный аквариум весит около 1 кг на литр воды плюс вес стекла. Аквариум 100x40x50 см вмещает 200 литров, то есть около 200 кг воды и ещё стекло. Поэтому ему нужна ровная и прочная опора."
+      }
+    },
+    {
+      "q": {
+        "sr": "Da li možete da ugradite komoru za filter i napravite pokrovno staklo?",
+        "en": "Can you build in a filter chamber and make a cover glass?",
+        "ru": "Можете ли вы встроить отсек для фильтра и сделать покровное стекло?"
+      },
+      "a": {
+        "sr": "Da. Komoru za filter ugrađujemo u akvarijum tokom izrade, a pokrovno staklo sečemo po meri akvarijuma. Recite nam to kada šaljete dimenzije, da uđe u ponudu.",
+        "en": "Yes. We build the filter chamber into the aquarium during the build and cut the cover glass to the size of the tank. Tell us when you send the dimensions so that it goes into the quote.",
+        "ru": "Да. Отсек для фильтра мы встраиваем в аквариум при изготовлении, а покровное стекло режем по размеру аквариума. Скажите об этом, когда отправляете размеры, чтобы это вошло в предложение."
+      }
+    },
+    {
+      "q": {
+        "sr": "Mogu li da vidim akvarijum pre nego što ga poručim?",
+        "en": "Can I see the aquarium before I order it?",
+        "ru": "Можно ли увидеть аквариум до заказа?"
+      },
+      "a": {
+        "sr": "Da. U 3D konfiguratoru na sajtu zadate mere i pogledate model u 3D prikazu, a na telefonu i u proširenoj stvarnosti (AR). Dugmetom „Poruči akvarijum“ šaljete nam parametre, a mi vam odgovaramo ponudom.",
+        "en": "Yes. In the 3D configurator on the site you set the dimensions and look at the model in 3D, and in augmented reality (AR) on a phone. The “Order this aquarium” button sends us the parameters, and we reply with a quote.",
+        "ru": "Да. В 3D-конфигураторе на сайте вы задаёте размеры и смотрите модель в 3D, а на телефоне и в дополненной реальности (AR). Кнопка «Заказать аквариум» отправляет нам параметры, а мы отвечаем предложением."
       }
     }
   ],
@@ -377,9 +473,57 @@
         "ru": "Сколько времени занимает изготовление вивария?"
       },
       "a": {
-        "sr": "Uobičajeni rok izrade je 7 radnih dana. Za veće i zahtevnije projekte rok može biti duži.",
-        "en": "The usual lead time is 7 working days. For larger and more demanding projects it can be longer.",
-        "ru": "Обычный срок изготовления - 7 рабочих дней. Для более крупных и сложных проектов срок может быть больше."
+        "sr": "Uobičajeni rok izrade je 7–14 dana. Za veće i zahtevnije projekte rok može biti duži.",
+        "en": "The usual lead time is 7–14 days. For larger and more demanding projects it can be longer.",
+        "ru": "Обычный срок изготовления - 7–14 дней. Для более крупных и сложных проектов срок может быть больше."
+      }
+    },
+    {
+      "q": {
+        "sr": "Koje dimenzije vivarijuma možete da napravite?",
+        "en": "What vivarium sizes can you build?",
+        "ru": "Каких размеров виварии вы делаете?"
+      },
+      "a": {
+        "sr": "Vivarijum pravimo po vašim merama. Pošaljite nam dužinu, širinu i visinu i recite šta planirate da držite u njemu, pa ćemo predložiti debljinu stakla; u radionici imamo staklo od 4, 6, 8, 10 i 12 mm.",
+        "en": "We build the vivarium to your measurements. Send us the length, width and height and tell us what you plan to keep in it, and we will suggest the glass thickness; the workshop stocks 4, 6, 8, 10 and 12 mm glass.",
+        "ru": "Виварий мы делаем по вашим размерам. Пришлите нам длину, ширину и высоту и скажите, что вы планируете в нём содержать, и мы предложим толщину стекла; в мастерской есть стекло 4, 6, 8, 10 и 12 мм."
+      }
+    },
+    {
+      "q": {
+        "sr": "Da li mogu da izaberem boju i pozadinu vivarijuma?",
+        "en": "Can I choose the colour and background of the vivarium?",
+        "ru": "Можно ли выбрать цвет и фон вивария?"
+      },
+      "a": {
+        "sr": "Da. Spoljašnju foliju birate među 34 dezena ili uzimate crni lakobel, a pozadina može biti folija sa slikom, fabrički model, prirodni siga kamen ili ručno rađena 3D pozadina od rezbarenog stiropora u obliku stene ili kore drveta.",
+        "en": "Yes. You choose the outside foil from 34 designs or go for black lacobel glass, and the background can be a printed foil, a factory model, natural stone or a hand-made 3D background of carved styrofoam shaped like rock or tree bark.",
+        "ru": "Да. Наружную плёнку вы выбираете из 34 декоров или берёте чёрный лакобель, а фоном может быть плёнка с рисунком, заводская модель, натуральный камень или 3D-фон ручной работы из резного пенопласта в форме скалы или коры дерева."
+      }
+    },
+    {
+      "q": {
+        "sr": "Kolika je kapara i kada se plaća ostatak?",
+        "en": "How much is the deposit and when is the rest paid?",
+        "ru": "Какова предоплата и когда оплачивается остаток?"
+      },
+      "a": {
+        "sr": "Kapara je 30% ukupne cene i uplaćuje se pre početka izrade. Ostatak plaćate po završetku izrade, prilikom preuzimanja vivarijuma.",
+        "en": "The deposit is 30% of the total price and is paid before the build starts. You pay the rest when the build is finished, on collection of the vivarium.",
+        "ru": "Предоплата составляет 30% от общей стоимости и вносится до начала изготовления. Остаток вы оплачиваете по завершении изготовления, при получении вивария."
+      }
+    },
+    {
+      "q": {
+        "sr": "Kako mogu preuzeti vivarijum?",
+        "en": "How can I get my vivarium?",
+        "ru": "Как можно получить виварий?"
+      },
+      "a": {
+        "sr": "Vivarijum možete preuzeti lično u Novom Sadu ili vam ga šaljemo kurirskom službom, autobusom ili kombijem bilo gde u Srbiji. Troškove slanja snosi kupac.",
+        "en": "You can collect the vivarium in person in Novi Sad, or we send it by courier, bus or van anywhere in Serbia. Shipping costs are covered by the buyer.",
+        "ru": "Виварий можно забрать лично в Нови-Саде, или мы отправим его курьерской службой, автобусом или фургоном в любую точку Сербии. Расходы на доставку несёт покупатель."
       }
     }
   ],

@@ -974,6 +974,23 @@ html:has(.mobile-menu.open) {
   flex-wrap: wrap;
   gap: 12px;
 }
+.cfg3d-guide {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 6px 0;
+  font-size: 0.92rem;
+  color: var(--green-light);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.cfg3d-beta {
+  margin-top: 10px;
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+.cfg3d-guide:hover {
+  color: #fff;
+}
 /* dva snimka ekrana jedan preko drugog; onaj preko kog je mis izlazi napred */
 .cfg3d-stage {
   position: relative;
@@ -1147,6 +1164,11 @@ html:has(.mobile-menu.open) {
     linear-gradient(180deg, var(--bg) 40%, #fff 100%);
   /* donji padding ostavlja mesta za deblo */
   padding: 72px 0 clamp(160px, 21vw, 400px);
+}
+@media (max-width: 640px) {
+  .reptiles {
+    background-image: url(/style/img/rep-bg-sm.webp), linear-gradient(180deg, var(--bg) 40%, #fff 100%);
+  }
 }
 .rep-head {
   display: flex;
@@ -1889,7 +1911,7 @@ html:has(.mobile-menu.open) {
   justify-content: center;
   margin-bottom: 22px;
 }
-.del-card h3 {
+.del-card h2 {
   font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -2920,6 +2942,21 @@ body.gallery-page .gal-grid {
 }
 
 /* ===== INSTAGRAM ===== */
+.insta-head {
+  display: block;
+  padding: 18px 20px;
+  text-align: center;
+  font-family: 'Oswald Variable', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+}
+.insta-head b {
+  color: var(--green-dark);
+}
+.insta-head:hover b {
+  text-decoration: underline;
+}
 .insta {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -2935,36 +2972,37 @@ body.gallery-page .gal-grid {
   object-fit: cover;
   transition: transform 0.5s;
 }
+/* tamni sloj stoji preko slike, a na hover se sklanja i slika se vidi cela;
+   na ekranima na dodir nema hovera, pa je sloj tamo slabiji da se objave vide */
 .insta a::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(0, 124, 85, 0);
-  transition: 0.4s;
+  background: rgba(6, 16, 12, 0.5);
+  transition: opacity 0.45s ease;
 }
-.insta a:hover img {
-  transform: scale(1.1);
-}
-.insta a:hover::after {
-  background: rgba(0, 124, 85, 0.45);
-}
-.insta-ic {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  z-index: 2;
-  opacity: 0;
-  transform: scale(0.7);
+.insta img {
+  filter: saturate(0.7);
   transition:
-    opacity 0.35s ease,
-    transform 0.35s ease;
+    transform 0.6s ease,
+    filter 0.45s ease;
 }
-.insta a:hover .insta-ic {
-  opacity: 1;
-  transform: scale(1);
+.insta a:hover::after,
+.insta a:focus-visible::after {
+  opacity: 0;
+}
+.insta a:hover img,
+.insta a:focus-visible img {
+  transform: scale(1.06);
+  filter: none;
+}
+@media (hover: none) {
+  .insta a::after {
+    opacity: 0.35;
+  }
+  .insta img {
+    filter: none;
+  }
 }
 
 /* ===== FOOTER ===== */
@@ -3825,13 +3863,6 @@ textarea {
   }
   .gal-item .cap,
   .gal-item .zoom {
-    opacity: 1;
-    transform: none;
-  }
-  .insta a::after {
-    background: rgba(0, 124, 85, 0.25);
-  }
-  .insta-ic {
     opacity: 1;
     transform: none;
   }

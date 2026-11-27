@@ -1,11 +1,11 @@
-import { SITE, whatsappLink, type Locale } from '../../config/site';
+import type { Locale } from '../../config/site';
 
 interface Item {
   title: string;
   text: string;
 }
 
-/** SR: siri raspored sa tri sekcije (rokovi, nacini, cena) */
+/** SR/EN/RU: siri raspored sa tri sekcije (rokovi, nacini, cena) */
 interface Full {
   when: { title: string; lead: string; byType: { title: string; rows: [string, string][] }; cards: Item[] };
   how: { title: string; lead: string; methods: Item[] };
@@ -18,7 +18,7 @@ interface Full {
   };
 }
 
-/** EN/RU: tri kartice sa listama + napomena */
+/** stariji raspored (tri kartice sa listama + napomena); trenutno ga ne koristi nijedan jezik */
 interface Short {
   cards: { title: string; items: string[]; note?: string }[];
   contact: string;
@@ -53,7 +53,7 @@ export const SHIPPING: Record<Locale, {
             ['Oprema, hrana i dekoracije', '1–3 dana'],
             ['Terarijumi i akvarijumi sa stanja', '2–5 dana'],
             ['Izrada po meri', '7–14 dana'],
-            ['Životinje', 'Lično'],
+            ['Životinje', 'Po dogovoru'],
           ],
         },
         cards: [
@@ -79,7 +79,7 @@ export const SHIPPING: Record<Locale, {
           },
           {
             title: 'Lično preuzimanje / dostava u NS',
-            text: 'U Novom Sadu i okolini moguća je lična dostava većih terarijuma, kao i lično preuzimanje po dogovoru.',
+            text: 'U Novom Sadu i okolini moguća je lična dostava većih terarijuma, kao i lično preuzimanje po dogovoru. Životinje se preuzimaju lično u Novom Sadu ili ih šaljemo širom Srbije po dogovoru.',
           },
         ],
       },
@@ -120,38 +120,67 @@ export const SHIPPING: Record<Locale, {
         'Shipping information for NS Reptiles - delivery times, methods and costs for terrariums, aquariums and equipment across Serbia.',
     },
     h1: 'Shipping',
-    lead: 'Everything you need to know about delivery of our products - timeframes, shipping methods and costs across Serbia.',
-    short: {
-      cards: [
-        {
-          title: 'Delivery Timeframes',
-          items: [
-            '<b>Equipment, food &amp; decorations:</b> 1–3 business days',
-            '<b>Terrariums &amp; aquariums in stock:</b> 2–5 business days',
-            '<b>Custom orders:</b> timeframe agreed individually (typically 7–14 days)',
-            '<b>Animals:</b> delivery only via personal pickup or arrangement',
+    lead: 'We carefully pack and ship your terrariums, aquariums and equipment - safely, on time and to your address, wherever you are in Serbia.',
+    full: {
+      when: {
+        title: 'When <b>your order</b> arrives',
+        lead: 'Delivery time depends on the type of product you order. Here are the approximate timeframes for each category.',
+        byType: {
+          title: 'By product type',
+          rows: [
+            ['Equipment, food and decorations', '1–3 days'],
+            ['Terrariums and aquariums in stock', '2–5 days'],
+            ['Custom build', '7–14 days'],
+            ['Animals', 'By arrangement'],
           ],
         },
-        {
-          title: 'Shipping Methods',
-          items: [
-            '<b>Courier service:</b> across all of Serbia',
-            '<b>Personal delivery:</b> Novi Sad and surrounding area',
-            '<b>Bus transport:</b> to most cities in Serbia',
-            '<b>Taxi delivery:</b> to Belgrade addresses',
-          ],
+        cards: [
+          {
+            title: 'Fast dispatch',
+            text: 'Most equipment and smaller items are sent on the next working day after the order is confirmed. Working days are Monday to Friday, excluding public holidays.',
+          },
+          {
+            title: 'Custom build',
+            text: 'For terrariums and aquariums built to your measurements, we agree the exact date individually, depending on the dimensions, materials and how busy the workshop is at the moment.',
+          },
+        ],
+      },
+      how: {
+        title: 'How <b>we deliver</b>',
+        lead: 'We adapt delivery to the product and the location, from standard parcels to fragile glass terrariums that need special handling.',
+        methods: [
+          { title: 'Courier service', text: 'Delivery to your address anywhere in Serbia. The standard option for equipment and smaller terrariums.' },
+          { title: 'Bus delivery', text: 'For most of Serbia we also ship by bus, quickly and reliably to the nearest station.' },
+          {
+            title: 'Taxi to your address (Belgrade)',
+            text: 'For Belgrade we also offer delivery by taxi straight to your address, for urgent or fragile shipments.',
+          },
+          {
+            title: 'Pickup in person / delivery in Novi Sad',
+            text: 'In Novi Sad and the surrounding area we can deliver larger terrariums in person, and pickup in person is possible by arrangement. Animals are picked up in person in Novi Sad or shipped across Serbia by arrangement.',
+          },
+        ],
+      },
+      cost: {
+        title: 'How much <b>it costs</b>',
+        lead: 'The price depends on the weight of the parcel, its dimensions and the location. For fragile glass products, transport is calculated separately.',
+        price: {
+          title: 'Standard equipment and smaller terrariums',
+          text: 'For equipment, food, decorations and smaller terrariums the delivery price is fixed and affordable.',
+          amount: '350–700',
+          unit: 'RSD, depending on weight and location',
         },
-        {
-          title: 'Shipping Costs',
-          items: [
-            '<b>Standard equipment:</b> 350–700 RSD',
-            '<b>Terrariums &amp; aquariums:</b> calculated individually based on dimensions',
-            '<b>Personal pickup:</b> free (Novi Sad)',
-          ],
-          note: '<b>Note:</b> Shipping costs are covered by the buyer.',
+        note: {
+          title: 'Larger terrariums and aquariums',
+          text: 'Because transporting glass products is specific, we calculate the price individually for each order. The delivery cost is covered by the buyer.',
         },
-      ],
-      contact: `For any shipping questions, contact us at <b>${SITE.phoneDisplay}</b> or via <a href="${whatsappLink()}" style="color: var(--green-ink); font-weight: 500">WhatsApp</a>.`,
+        cta: {
+          title: 'Have a question about delivery?',
+          text: 'Tell us the type of product and your location, and we will give you the exact timeframe and delivery price before you order.',
+          wa: 'WhatsApp message',
+          call: 'Call us',
+        },
+      },
     },
     links: [
       { href: '/kontakt.html', label: 'Contact' },
@@ -169,38 +198,67 @@ export const SHIPPING: Record<Locale, {
         'Информация о доставке NS Reptiles - сроки, способы и стоимость доставки террариумов, аквариумов и оборудования по всей Сербии.',
     },
     h1: 'Доставка',
-    lead: 'Всё, что нужно знать о доставке нашей продукции - сроки, способы и стоимость доставки по всей Сербии.',
-    short: {
-      cards: [
-        {
-          title: 'Сроки доставки',
-          items: [
-            '<b>Оборудование, корм и декорации:</b> 1–3 рабочих дня',
-            '<b>Террариумы и аквариумы в наличии:</b> 2–5 рабочих дней',
-            '<b>Изготовление на заказ:</b> срок обговаривается индивидуально (обычно 7–14 дней)',
-            '<b>Животные:</b> только самовывоз или по договорённости',
+    lead: 'Мы аккуратно упаковываем и отправляем ваши террариумы, аквариумы и оборудование - безопасно, вовремя и по вашему адресу, где бы в Сербии вы ни находились.',
+    full: {
+      when: {
+        title: 'Когда придёт <b>ваш заказ</b>',
+        lead: 'Срок доставки зависит от вида товара, который вы заказываете. Вот примерные сроки для каждой категории.',
+        byType: {
+          title: 'По виду товара',
+          rows: [
+            ['Оборудование, корм и декорации', '1–3 дня'],
+            ['Террариумы и аквариумы в наличии', '2–5 дней'],
+            ['Изготовление на заказ', '7–14 дней'],
+            ['Животные', 'По договорённости'],
           ],
         },
-        {
-          title: 'Способы доставки',
-          items: [
-            '<b>Курьерская служба:</b> по всей территории Сербии',
-            '<b>Личная доставка:</b> Нови Сад и окрестности',
-            '<b>Автобусный транспорт:</b> в большинство городов Сербии',
-            '<b>Такси-доставка:</b> по адресу в Белграде',
-          ],
+        cards: [
+          {
+            title: 'Быстрая отправка',
+            text: 'Большую часть оборудования и небольших товаров мы отправляем уже на следующий рабочий день после подтверждения заказа. Рабочие дни считаем с понедельника по пятницу, без праздников.',
+          },
+          {
+            title: 'Изготовление на заказ',
+            text: 'Для террариумов и аквариумов, сделанных по вашим размерам, точный срок мы согласуем индивидуально, в зависимости от размеров, материалов и текущей загруженности мастерской.',
+          },
+        ],
+      },
+      how: {
+        title: 'Как <b>мы доставляем</b>',
+        lead: 'Доставку мы подбираем под товар и место: от обычных посылок до хрупких стеклянных террариумов, которым нужно особое обращение.',
+        methods: [
+          { title: 'Курьерская служба', text: 'Доставка по адресу по всей Сербии. Стандартный вариант для оборудования и небольших террариумов.' },
+          { title: 'Доставка автобусом', text: 'В большую часть Сербии мы отправляем и автобусами, быстро и надёжно до ближайшей станции.' },
+          {
+            title: 'Такси по адресу (Белград)',
+            text: 'Для Белграда мы предлагаем и доставку на такси прямо по вашему адресу, для срочных или хрупких отправлений.',
+          },
+          {
+            title: 'Самовывоз / доставка в Нови-Саде',
+            text: 'В Нови-Саде и окрестностях возможна личная доставка крупных террариумов, а также самовывоз по договорённости. Животных забирают лично в Нови-Саде, или мы отправляем их по Сербии по договорённости.',
+          },
+        ],
+      },
+      cost: {
+        title: 'Сколько <b>это стоит</b>',
+        lead: 'Цена зависит от веса посылки, размеров и места доставки. Для хрупких стеклянных изделий транспорт рассчитывается отдельно.',
+        price: {
+          title: 'Стандартное оборудование и небольшие террариумы',
+          text: 'Для оборудования, корма, декораций и небольших террариумов стоимость доставки фиксированная и доступная.',
+          amount: '350–700',
+          unit: 'дин, в зависимости от веса и места',
         },
-        {
-          title: 'Стоимость доставки',
-          items: [
-            '<b>Стандартное оборудование:</b> 350–700 дин',
-            '<b>Террариумы и аквариумы:</b> рассчитывается индивидуально в зависимости от размеров',
-            '<b>Самовывоз:</b> бесплатно (Нови Сад)',
-          ],
-          note: '<b>Примечание:</b> Стоимость доставки оплачивает покупатель.',
+        note: {
+          title: 'Крупные террариумы и аквариумы',
+          text: 'Из-за особенностей перевозки стеклянных изделий стоимость мы рассчитываем индивидуально для каждого заказа. Стоимость доставки оплачивает покупатель.',
         },
-      ],
-      contact: `По всем вопросам доставки свяжитесь с нами по телефону <b>${SITE.phoneDisplay}</b> или через <a href="${whatsappLink()}" style="color: var(--green-ink); font-weight: 500">WhatsApp</a>.`,
+        cta: {
+          title: 'Есть вопрос о доставке?',
+          text: 'Сообщите нам вид товара и ваше местоположение, и мы назовём точный срок и стоимость доставки до того, как вы оформите заказ.',
+          wa: 'Сообщение в WhatsApp',
+          call: 'Позвоните нам',
+        },
+      },
     },
     links: [
       { href: '/kontakt.html', label: 'Контакт' },

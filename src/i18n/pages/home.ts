@@ -22,7 +22,7 @@ export const HOME_TEXT = {
     },
     about: {
       title: 'O <b>odgajivačnici</b>',
-      lead: 'Već 10 godina selektivno uzgajamo zdrave egzotične ljubimce i ručno izrađujemo terarijume i akvarijume po meri. Bradate agame, leopard gekoni, loptasti pitoni, kukuruzni smukovi - i sva oprema koja im treba.',
+      lead: 'Više od 10 godina selektivno uzgajamo zdrave egzotične ljubimce i ručno izrađujemo terarijume i akvarijume po meri. Bradate agame, leopard gekoni, loptasti pitoni, kukuruzni smukovi - i sva oprema koja im treba.',
       badge: 'godina iskustva',
       stats: ['Zadovoljnih kupaca', 'Uzgojenih životinja', 'Izrađenih ter/akv'],
       more: 'Više o nama',
@@ -36,7 +36,7 @@ export const HOME_TEXT = {
       pre: '3D konfigurator',
       title: 'Složi svoj <b>terarijum</b> ili <b>akvarijum</b> u 3D',
       lead: 'Unesi mere, izaberi foliju, pozadinu, poklopac i filter i odmah vidi kako će izgledati. Kad ti se dopadne, pošalji nam link - pravimo ga baš po toj meri.',
-      feats: ['Mere po želji, do 200 cm dužine', 'Folije, 3D pozadine, supstrat i dekoracija', 'Akvarijum: litraža i debljina stakla odmah', 'Svaka izmena se vidi istog trenutka'],
+      feats: ['Mere po želji, do 200 cm dužine', 'Folije, 3D pozadine, supstrat i dekoracija', 'Akvarijum: litraža i debljina stakla odmah', 'Svaka izmena se vidi istog trenutka', 'Na telefonu ga pogledaj u svom prostoru (AR)'],
       ctas: ['Složi terarijum', 'Složi akvarijum'],
       labels: ['Terarijum', 'Akvarijum'],
       alts: ['3D konfigurator terarijuma - snimak ekrana', '3D konfigurator akvarijuma - snimak ekrana'],
@@ -86,7 +86,7 @@ export const HOME_TEXT = {
       pre: '3D configurator',
       title: 'Build your <b>terrarium</b> or <b>aquarium</b> in 3D',
       lead: 'Enter the size, pick the foil, background, lid and filter and see right away how it will look. When you like it, send us the link - we build it to exactly that size.',
-      feats: ['Any size, up to 200 cm long', 'Foils, 3D backgrounds, substrate and decor', 'Aquarium: volume and glass thickness instantly', 'Every change shows immediately'],
+      feats: ['Any size, up to 200 cm long', 'Foils, 3D backgrounds, substrate and decor', 'Aquarium: volume and glass thickness instantly', 'Every change shows immediately', 'On your phone, view it in your own space (AR)'],
       ctas: ['Build a terrarium', 'Build an aquarium'],
       labels: ['Terrarium', 'Aquarium'],
       alts: ['3D terrarium configurator - screenshot', '3D aquarium configurator - screenshot'],
@@ -122,7 +122,7 @@ export const HOME_TEXT = {
     },
     about: {
       title: 'О <b>питомнике</b>',
-      lead: 'Уже 10 лет мы занимаемся селективным разведением здоровых экзотических питомцев и вручную изготавливаем террариумы и аквариумы на заказ. Бородатые агамы, леопардовые гекконы, шаровидные питоны, маисовые полозы - и всё необходимое оборудование.',
+      lead: 'Более 10 лет мы занимаемся селективным разведением здоровых экзотических питомцев и вручную изготавливаем террариумы и аквариумы на заказ. Бородатые агамы, леопардовые гекконы, шаровидные питоны, маисовые полозы - и всё необходимое оборудование.',
       badge: 'лет опыта',
       stats: ['Довольных клиентов', 'Выращенных животных', 'Изготовленных тер/акв'],
       more: 'Подробнее о нас',
@@ -136,7 +136,7 @@ export const HOME_TEXT = {
       pre: '3D-конфигуратор',
       title: 'Собери свой <b>террариум</b> или <b>аквариум</b> в 3D',
       lead: 'Введи размеры, выбери плёнку, фон, крышку и фильтр и сразу увидишь, как он будет выглядеть. Понравилось - отправь нам ссылку, и мы сделаем его точно по этим размерам.',
-      feats: ['Любые размеры, до 200 см в длину', 'Плёнки, 3D-фоны, грунт и декор', 'Аквариум: литраж и толщина стекла сразу', 'Каждое изменение видно мгновенно'],
+      feats: ['Любые размеры, до 200 см в длину', 'Плёнки, 3D-фоны, грунт и декор', 'Аквариум: литраж и толщина стекла сразу', 'Каждое изменение видно мгновенно', 'На телефоне посмотрите его у себя в комнате (AR)'],
       ctas: ['Собрать террариум', 'Собрать аквариум'],
       labels: ['Террариум', 'Аквариум'],
       alts: ['3D-конфигуратор террариума - снимок экрана', '3D-конфигуратор аквариума - снимок экрана'],
@@ -506,9 +506,9 @@ export const FAQ: { q: L; a: L }[] = [
       ru: 'Сколько времени занимает изготовление террариума на заказ?',
     },
     a: {
-      sr: 'Zavisi od dimenzija i opreme, ali većinu terarijuma izrađujemo u roku od nekoliko dana do dve nedelje. Tačan rok dogovaramo prilikom narudžbine.',
-      en: 'It depends on dimensions and equipment, but we build most terrariums within a few days to two weeks. The exact timeframe is agreed upon when ordering.',
-      ru: 'Зависит от размеров и оборудования, но большинство террариумов мы изготавливаем в течение нескольких дней до двух недель. Точный срок согласовываем при заказе.',
+      sr: 'Zavisi od dimenzija i opreme, ali većinu terarijuma izrađujemo u roku od 7 do 14 dana. Tačan rok dogovaramo prilikom narudžbine.',
+      en: 'It depends on dimensions and equipment, but we build most terrariums within 7 to 14 days. The exact timeframe is agreed upon when ordering.',
+      ru: 'Зависит от размеров и оборудования, но большинство террариумов мы изготавливаем за 7–14 дней. Точный срок согласовываем при заказе.',
     },
   },
   {
@@ -542,11 +542,20 @@ export const FAQ: { q: L; a: L }[] = [
       ru: 'Здоровы ли животные и выращены ли они у вас?',
     },
     a: {
-      sr: 'Da. Bavimo se selektivnim uzgojem više vrsta već 10 godina. Sve jedinke su zdrave, dobro hranjene i naviknute na rukovanje.',
+      sr: 'Da. Bavimo se selektivnim uzgojem više vrsta više od 10 godina. Sve jedinke su zdrave, dobro hranjene i naviknute na rukovanje.',
       en: 'Yes. We have been selectively breeding multiple species for over 10 years. All animals are healthy, well-fed and accustomed to handling.',
-      ru: 'Да. Мы занимаемся селективным разведением нескольких видов уже 10 лет. Все особи здоровы, хорошо откормлены и приучены к рукам.',
+      ru: 'Да. Мы занимаемся селективным разведением нескольких видов более 10 лет. Все особи здоровы, хорошо откормлены и приучены к рукам.',
     },
   },
 ];
 
-export const INSTA_IMAGES = [8, 12, 14, 6, 5, 10].map((n) => `/style/img/gallery/${n}.jpg`);
+// Poslednje objave sa instagram.com/ns_reptiles (snimljeno 2026-11-27): slike su kopirane u public/style/img/instagram,
+// jer Instagram nema javni feed bez tokena. Za nove objave zameniti stavke i slike.
+export const INSTA_POSTS = [
+  { url: 'https://www.instagram.com/reel/DgPnWaQtnb6/', img: '/style/img/instagram/DgPnWaQtnb6.webp', alt: { sr: 'Terarijum 40x40x70 za Crested Gekona', en: 'Terrarium 40x40x70 for a crested gecko', ru: 'Террариум 40x40x70 для реснитчатого геккона' } },
+  { url: 'https://www.instagram.com/p/DgLDF-ktxNl/', img: '/style/img/instagram/DgLDF-ktxNl.webp', alt: { sr: 'Pacman žaba', en: 'Pacman frog', ru: 'Рогатая лягушка (пакман)' } },
+  { url: 'https://www.instagram.com/p/Dd6k9vngCJF/', img: '/style/img/instagram/Dd6k9vngCJF.webp', alt: { sr: 'Akvarijum 150x55x70', en: 'Aquarium 150x55x70', ru: 'Аквариум 150x55x70' } },
+  { url: 'https://www.instagram.com/reel/DdWDK3utLZo/', img: '/style/img/instagram/DdWDK3utLZo.webp', alt: { sr: 'Kukuruzni smuk', en: 'Corn snake', ru: 'Маисовый полоз' } },
+  { url: 'https://www.instagram.com/p/DbqDkKMNflv/', img: '/style/img/instagram/DbqDkKMNflv.webp', alt: { sr: 'Žuta bradata agama', en: 'Yellow bearded dragon', ru: 'Жёлтая бородатая агама' } },
+  { url: 'https://www.instagram.com/p/ChouA13Mwuq/', img: '/style/img/instagram/ChouA13Mwuq.webp', alt: { sr: 'Mladunci stari jedan dan', en: 'One-day-old hatchlings', ru: 'Малыши в возрасте одного дня' } },
+];

@@ -6,19 +6,28 @@ import Zcta from '../Zcta.astro';
 import '../../styles/animals.css';
 import { SITE, whatsappLink, type Locale } from '../../config/site';
 import { localizePath, translationsFor } from '../../i18n/routes';
-import { ANIMALS_TEXT, ANIMAL_GROUPS as ALL_GROUPS, ANIMALS_FAQ, SNAKES_TEXT, SNAKES_FAQ } from '../../i18n/pages/animals';
+import { ANIMALS_TEXT, ANIMAL_GROUPS as ALL_GROUPS, ANIMALS_FAQ, SNAKES_TEXT, SNAKES_FAQ, GECKOS_TEXT, GECKOS_FAQ } from '../../i18n/pages/animals';
 
 interface Props {
   lang: Locale;
-  /** samo jedna grupa, sa svojim tekstom i URL-om (/zmije.html) */
-  group?: 'zmije';
+  /** samo deo ponude, sa svojim tekstom i URL-om (/zmije.html, /gekoni.html) */
+  group?: 'zmije' | 'gekoni';
 }
 const { lang, group } = Astro.props;
-const t = { ...ANIMALS_TEXT[lang], ...(group ? SNAKES_TEXT[lang] : {}) };
-const ANIMAL_GROUPS = group ? ALL_GROUPS.filter((g) => g.id === group) : ALL_GROUPS;
-const FAQ = group ? SNAKES_FAQ : ANIMALS_FAQ;
+// gekoni nisu svoja grupa nego deo gustera, pa se biraju po adresi strane vrste
+const GROUP_PAGES = {
+  zmije: { path: '/zmije.html', text: SNAKES_TEXT, faq: SNAKES_FAQ, groups: () => ALL_GROUPS.filter((g) => g.id === 'zmije') },
+  gekoni: {
+    path: '/gekoni.html', text: GECKOS_TEXT, faq: GECKOS_FAQ,
+    groups: () => ALL_GROUPS.filter((g) => g.id === 'gusteri').map((g) => ({ ...g, title: GECKOS_TEXT[lang].groupTitle, animals: g.animals.filter((a) => a.href?.includes('gekon')) })),
+  },
+};
+const page = group && GROUP_PAGES[group];
+const t = { ...ANIMALS_TEXT[lang], ...(page ? page.text[lang] : {}) };
+const ANIMAL_GROUPS = page ? page.groups() : ALL_GROUPS;
+const FAQ = page ? page.faq : ANIMALS_FAQ;
 const href = (srPath: string) => localizePath(srPath, lang);
-const path = href(group ? '/zmije.html' : '/zivotinje.html');
+const path = href(page ? page.path : '/zivotinje.html');
 
 // cena "od" sa strane vrste (content/species/sr), da kartica i strana ne mogu da se razidju
 const SPECIES = import.meta.glob<{ price?: { low?: number } }>('../../content/species/sr/*.json', { eager: true, import: 'default' });

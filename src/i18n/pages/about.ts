@@ -38,7 +38,7 @@ export const ABOUT: Record<Locale, {
     since: 'osnovani u Novom Sadu',
     storyTag: '„Sve je počelo iz ljubavi prema reptilima."',
     story: [
-      '<strong>NS Reptiles</strong> je odgajivačnica egzotičnih životinja osnovana <strong>2019. godine</strong> u Novom Sadu, nakon mnogo godina ličnog hobija - držanja i uzgoja reptila. Ono što je počelo kao strast prema bradatim agamama i gekonima vremenom je preraslo u ozbiljan posao i zajednicu ljudi koji dele istu ljubav.',
+      '<strong>NS Reptiles</strong> je odgajivačnica egzotičnih životinja osnovana <strong>2019. godine</strong> u Novom Sadu, a reptile držimo i uzgajamo više od 10 godina - prvo kao lični hobi. Ono što je počelo kao strast prema bradatim agamama i gekonima vremenom je preraslo u ozbiljan posao i zajednicu ljudi koji dele istu ljubav.',
       'Danas u ponudi imamo veliki broj različitih egzotičnih životinja, kao i opremu, hranu i dekoraciju - sve potrebno za zdrav i srećan život vašeg ljubimca. Pored toga, izrađujemo <strong>terarijume i akvarijume po meri</strong>, prilagođene konkretnoj vrsti, njenim potrebama i prostoru u kom će živeti.',
       'Verujemo da dobar dom za reptila nije samo staklena kutija - to je pažljivo osmišljen ekosistem. Zato uz svaku životinju ide i stručan savet, jer želimo da i vi i vaš ljubimac budete zadovoljni dugoročno.',
     ],
@@ -105,7 +105,7 @@ export const ABOUT: Record<Locale, {
     since: 'founded in Novi Sad',
     storyTag: '"It all started from a love for reptiles."',
     story: [
-      '<strong>NS Reptiles</strong> is an exotic animal breeder founded in <strong>2019</strong> in Novi Sad, after many years of personal hobby - keeping and breeding reptiles. What started as a passion for bearded dragons and geckos gradually grew into a serious business and a community of people who share the same love.',
+      '<strong>NS Reptiles</strong> is an exotic animal breeder founded in <strong>2019</strong> in Novi Sad, and we have been keeping and breeding reptiles for over 10 years - first as a personal hobby. What started as a passion for bearded dragons and geckos gradually grew into a serious business and a community of people who share the same love.',
       'Today we offer a wide range of different exotic animals, as well as equipment, food and decorations - everything needed for a healthy and happy life for your pet. In addition, we build <strong>custom terrariums and aquariums</strong>, tailored to the specific species, its needs and the space where it will live.',
       "We believe that a good home for a reptile is not just a glass box - it's a carefully designed ecosystem. That's why every animal comes with expert advice, because we want both you and your pet to be satisfied in the long run.",
     ],
@@ -172,7 +172,7 @@ export const ABOUT: Record<Locale, {
     since: 'основаны в Нови-Саде',
     storyTag: '«Всё началось с любви к рептилиям.»',
     story: [
-      '<strong>NS Reptiles</strong> - это питомник экзотических животных, основанный в <strong>2019 году</strong> в Нови Саде, после многих лет личного увлечения - содержания и разведения рептилий. То, что началось как страсть к бородатым агамам и гекконам, со временем переросло в серьёзный бизнес и сообщество людей, разделяющих ту же любовь.',
+      '<strong>NS Reptiles</strong> - это питомник экзотических животных, основанный в <strong>2019 году</strong> в Нови Саде, а содержим и разводим рептилий мы более 10 лет - сначала как личное увлечение. То, что началось как страсть к бородатым агамам и гекконам, со временем переросло в серьёзный бизнес и сообщество людей, разделяющих ту же любовь.',
       'Сегодня мы предлагаем большой выбор различных экзотических животных, а также оборудование, корм и декорации - всё необходимое для здоровой и счастливой жизни вашего питомца. Кроме того, мы изготавливаем <strong>террариумы и аквариумы на заказ</strong>, адаптированные под конкретный вид, его потребности и пространство, в котором он будет жить.',
       'Мы убеждены, что хороший дом для рептилии - это не просто стеклянная коробка, а тщательно продуманная экосистема. Поэтому к каждому животному прилагается экспертная консультация, ведь мы хотим, чтобы и вы, и ваш питомец были довольны на долгие годы.',
     ],

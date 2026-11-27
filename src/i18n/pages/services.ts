@@ -35,20 +35,20 @@ export const SERVICES = {
     meta: {
       sr: {
         title: 'Izrada terarijuma po meri, Novi Sad | NS Reptiles',
-        description: 'Izrada terarijuma po meri u Novom Sadu: stakleni terarijumi za agame, gekone i pitone, 40+ dezena folija, 3D pozadine i UVB rasveta. Rok 7 radnih dana.',
+        description: 'Izrada terarijuma po meri u Novom Sadu: stakleni terarijumi za agame, gekone i pitone, 34 dezena folija, 3D pozadine i UVB rasveta. Rok 7–14 dana.',
         ogTitle: 'Izrada terarijuma po meri | NS Reptiles',
         ogDescription: 'Ručno rađeni stakleni terarijumi po vašim merama — folije, 3D pozadine, rasveta i oprema. Novi Sad.',
         image: '/style/img/logo.jpg',
       },
       en: {
         title: 'Custom Glass Terrarium Builds in Novi Sad | NS Reptiles',
-        description: 'Custom glass terrariums in Novi Sad for bearded dragons, geckos and pythons — 40+ film finishes, 3D backgrounds and UVB lighting. Ready in 7 working days.',
+        description: 'Custom glass terrariums in Novi Sad for bearded dragons, geckos and pythons — 34 film finishes, 3D backgrounds and UVB lighting. Ready in 7–14 days.',
         ogTitle: 'Custom Terrarium Builds | NS Reptiles',
         ogDescription: 'Handcrafted glass terrariums built to your exact dimensions — decorative films, 3D backgrounds, lighting and full equipment. Novi Sad.',
       },
       ru: {
         title: 'Террариумы на заказ в Нови-Саде | NS Reptiles',
-        description: 'Террариумы на заказ в Нови-Саде: стеклянные террариумы для агам, гекконов и питонов, более 40 видов плёнок, 3D-фоны и UVB-освещение. Срок — 7 рабочих дней.',
+        description: 'Террариумы на заказ в Нови-Саде: стеклянные террариумы для агам, гекконов и питонов, 34 вида плёнок, 3D-фоны и UVB-освещение. Срок — 7–14 дней.',
         ogTitle: 'Террариумы на заказ | NS Reptiles',
         ogDescription: 'Ручная работа — стеклянные террариумы по вашим размерам: плёнки, 3D-фоны, освещение и оборудование. Нови-Сад.',
       },
@@ -57,17 +57,17 @@ export const SERVICES = {
       sr: {
         name: 'Izrada terarijuma po meri',
         serviceType: 'Izrada terarijuma po meri',
-        description: 'Izrada terarijuma po meri u Novom Sadu. Stakleni terarijumi za agame, gekone i pitone, preko 40 dezena folija, 3D pozadine i UVB rasveta. Rok izrade 7 radnih dana.',
+        description: 'Izrada terarijuma po meri u Novom Sadu. Stakleni terarijumi za agame, gekone i pitone, 34 dezena folija, 3D pozadine i UVB rasveta. Rok izrade 7–14 dana.',
       },
       en: {
         name: 'Custom Terrarium Builds',
         serviceType: 'Custom Terrarium Manufacturing',
-        description: 'Custom-built glass terrariums in Novi Sad. Handcrafted terrariums for bearded dragons, geckos and pythons — 40+ film finishes, 3D backgrounds and UVB lighting. Ready in 7 working days.',
+        description: 'Custom-built glass terrariums in Novi Sad. Handcrafted terrariums for bearded dragons, geckos and pythons — 34 film finishes, 3D backgrounds and UVB lighting. Ready in 7–14 days.',
       },
       ru: {
         name: 'Изготовление террариумов на заказ',
         serviceType: 'Изготовление террариумов на заказ',
-        description: 'Изготовление террариумов на заказ в Нови-Саде. Стеклянные террариумы для агам, гекконов и питонов, более 40 видов плёнок, 3D-фоны и UVB-освещение. Срок изготовления 7 рабочих дней.',
+        description: 'Изготовление террариумов на заказ в Нови-Саде. Стеклянные террариумы для агам, гекконов и питонов, 34 вида плёнок, 3D-фоны и UVB-освещение. Срок изготовления 7–14 дней.',
       },
     },
     h1: {
@@ -81,9 +81,9 @@ export const SERVICES = {
       ru: 'Каждый террариум мы изготавливаем вручную из стекла, по вашим размерам и пожеланиям — с выбранной плёнкой, 3D-фоном и полным комплектом оборудования.',
     },
     intro: {
-      sr: 'Od prvog kontakta do preuzimanja vodimo vas kroz nekoliko jednostavnih koraka. Ne znate koja je optimalna veličina za vašeg ljubimca? <strong>Rado ćemo vam pomoći</strong> da napravite pravi izbor.',
-      en: 'From your first inquiry to pick-up, we walk you through a few straightforward steps. Not sure what size is right for your animal? <strong>We\'re happy to help</strong> you make the right call.',
-      ru: 'От первого контакта до получения заказа мы проведём вас через несколько простых шагов. Не знаете, какой оптимальный размер подойдёт вашему питомцу? <strong>Мы с радостью поможем</strong> вам сделать правильный выбор.',
+      sr: 'Staklene terarijume pravimo ručno u Novom Sadu, po merama koje nam pošaljete: dužina od 30 do 200 cm, širina od 25 do 100 cm i visina od 25 do 150 cm. Za vrste koje žive na tlu pravimo horizontalne terarijume, a za one koje se penju vertikalne. Odrasloj bradatoj agami treba oko 100x50x50 cm, a leopard gekonu oko 50x35x35 cm. Ne znate koja je veličina prava za vašeg ljubimca? <strong>Rado ćemo vam pomoći</strong> da izaberete.<br><br>Terarijum možete i sami da složite u <a href="/3d-terarijum.html" style="text-decoration: underline">3D konfiguratoru</a>: zadate mere, izaberete dezen folije i pozadinu, pogledate model u 3D prikazu, a na telefonu i u proširenoj stvarnosti (AR), pa nam dugmetom „Poruči terarijum“ pošaljete parametre. Kako se konfigurator koristi piše u <a href="/3d-uputstvo.html" style="text-decoration: underline">uputstvu</a>. Cena zavisi od dimenzija, debljine stakla i opreme, a ponudu šaljemo kada dobijemo mere. NS Reptiles postoji od 2019. godine, a reptile odgajamo duže od 10 godina.',
+      en: 'We build glass terrariums by hand in Novi Sad, to the measurements you send us: 30 to 200 cm long, 25 to 100 cm wide and 25 to 150 cm high. Ground-dwelling species get a horizontal terrarium, climbers a vertical one. An adult bearded dragon needs about 100x50x50 cm, a leopard gecko about 50x35x35 cm. Not sure what size is right for your animal? <strong>We\'re happy to help</strong> you choose.<br><br>You can also put the terrarium together yourself in the <a href="/en/3d-terrarium.html" style="text-decoration: underline">3D configurator</a>: set the dimensions, pick the film design and the background, look at the model in 3D, and in augmented reality (AR) on a phone, then send us the parameters with the “Order this terrarium” button. The <a href="/en/3d-guide.html" style="text-decoration: underline">guide</a> explains how the configurator works. The price depends on the dimensions, glass thickness and equipment, and we send a quote once we have your measurements. NS Reptiles was founded in 2019, and we have been breeding reptiles for over 10 years.',
+      ru: 'Стеклянные террариумы мы делаем вручную в Нови-Саде по размерам, которые вы нам пришлёте: длина от 30 до 200 см, ширина от 25 до 100 см, высота от 25 до 150 см. Для наземных видов делаем горизонтальные террариумы, для лазающих вертикальные. Взрослой бородатой агаме нужно около 100x50x50 см, леопардовому геккону около 50x35x35 см. Не знаете, какой размер подойдёт вашему питомцу? <strong>Мы с радостью поможем</strong> выбрать.<br><br>Террариум можно собрать и самостоятельно в <a href="/ru/3d-terrarium.html" style="text-decoration: underline">3D-конфигураторе</a>: задайте размеры, выберите декор плёнки и фон, посмотрите модель в 3D, а на телефоне и в дополненной реальности (AR), и отправьте нам параметры кнопкой «Заказать террариум». Как пользоваться конфигуратором, описано в <a href="/ru/3d-guide.html" style="text-decoration: underline">инструкции</a>. Цена зависит от размеров, толщины стекла и оборудования, а предложение мы отправляем, когда получим размеры. NS Reptiles работает с 2019 года, а рептилий мы разводим более 10 лет.',
     },
     items: [
       {
@@ -93,9 +93,9 @@ export const SERVICES = {
           ru: 'Свяжитесь с нами',
         },
         text: {
-          sr: 'Javite nam se telefonom, mejlom ili putem društvenih mreža i recite nam koje dimenzije terarijuma želite. Ukoliko niste sigurni koja je optimalna veličina za vašeg ljubimca, rado ćemo vam pomoći da napravite pravi izbor.',
-          en: 'Reach us by phone, email or social media and tell us what dimensions you have in mind. If you\'re not sure what size suits your pet best, we\'ll gladly help you figure it out.',
-          ru: 'Напишите нам по телефону, электронной почте или через социальные сети и сообщите, какие размеры террариума вас интересуют. Если вы не уверены, какой оптимальный размер подходит вашему питомцу, мы с удовольствием поможем вам сделать правильный выбор.',
+          sr: 'Javite nam se telefonom, mejlom ili putem društvenih mreža i recite koje dimenzije terarijuma želite i za koju životinju. Radimo dužine od 30 do 200 cm, širine od 25 do 100 cm i visine od 25 do 150 cm. Ako niste sigurni koja veličina odgovara vašem ljubimcu, predložićemo je: horizontalni terarijum za vrste koje žive na tlu, vertikalni za one koje se penju. Kada dobijemo mere, šaljemo vam ponudu.',
+          en: 'Reach us by phone, email or social media and tell us what dimensions you have in mind and which animal the terrarium is for. We build lengths from 30 to 200 cm, widths from 25 to 100 cm and heights from 25 to 150 cm. If you\'re not sure what size suits your pet, we\'ll suggest one: a horizontal terrarium for ground dwellers, a vertical one for climbers. Once we have the measurements, we send you a quote.',
+          ru: 'Свяжитесь с нами по телефону, электронной почте или через социальные сети и сообщите, какие размеры террариума вам нужны и для какого животного. Мы делаем длину от 30 до 200 см, ширину от 25 до 100 см и высоту от 25 до 150 см. Если вы не уверены, какой размер подойдёт вашему питомцу, мы его предложим: горизонтальный террариум для наземных видов, вертикальный для лазающих. Получив размеры, мы отправим вам предложение.',
         },
       },
       {
@@ -105,9 +105,9 @@ export const SERVICES = {
           ru: 'Выберите цвет террариума',
         },
         text: {
-          sr: 'U ponudi je preko 40 različitih dezena folija tako da možete lako uklopiti terarijum sa ostatkom enterijera. Takođe, postoji mogućnost da terarijum bude obložen crnim lakobelom umesto folije.',
-          en: 'With over 40 decorative film options available, you can easily match the terrarium to the rest of your interior. There\'s also the option of finishing the terrarium in black lacquer board instead of film.',
-          ru: 'В ассортименте более 40 различных видов плёнок, так что вы легко сможете вписать террариум в интерьер вашего дома. Также возможно отделать террариум чёрным лакобелем вместо плёнки.',
+          sr: 'Spoljašnje strane terarijuma oblažemo dekorativnom folijom koju birate među 34 dezena, pa terarijum lako uklopite sa ostatkom enterijera. Umesto folije terarijum može biti obložen crnim lakobelom. Kako izabrani dezen izgleda na vašim merama možete da vidite u 3D konfiguratoru pre nego što poručite.',
+          en: 'The outside of the terrarium is covered in a decorative film that you choose from 34 designs, so it is easy to match the terrarium to the rest of your interior. Instead of film, the terrarium can be finished in black lacquer board. You can see how the design you picked looks on your dimensions in the 3D configurator before you order.',
+          ru: 'Наружные стороны террариума мы оклеиваем декоративной плёнкой, которую вы выбираете из 34 декоров, поэтому террариум легко вписать в интерьер. Вместо плёнки террариум можно отделать чёрным лакобелем. Как выбранный декор выглядит на ваших размерах, можно посмотреть в 3D-конфигураторе до заказа.',
         },
       },
       {
@@ -117,9 +117,9 @@ export const SERVICES = {
           ru: 'Выберите 3D-фон',
         },
         text: {
-          sr: 'Klasična folija sa slikom, fabrički model, 3D pozadina od stiropora, 3D pozadina od prirodnog siga kamena, ili pak bez pozadine — bira se po ukusu i želji kupca. Dodatno, mogu se uključiti i penjačke grane, skrovišta i ostali elementi.',
-          en: 'A printed picture film, a factory panel, a 3D polystyrene background, a 3D natural rock stone background, or no background at all — the choice is entirely yours. Climbing branches, hides and other décor elements can be added as well.',
-          ru: 'Классическая плёнка с рисунком, заводская модель, 3D-фон из пенопласта, 3D-фон из натурального камня-травертина или вообще без фона — выбор зависит от вкуса и желания покупателя. Дополнительно можно добавить ветки для лазания, укрытия и другие элементы декора.',
+          sr: 'Pozadina može biti klasična folija sa slikom, fabrički model, 3D pozadina od prirodnog siga kamena ili naša ručno rađena 3D pozadina: stiropor rezbarimo tako da dobije oblik stene ili kore drveta. Terarijum može da ostane i bez pozadine. Po želji dodajemo podlogu i dekoraciju, na primer grane za penjanje i skrovišta.',
+          en: 'The background can be a printed picture film, a factory panel, a 3D background made of natural rock, or our hand-made 3D background: we carve polystyrene into the shape of rock or tree bark. The terrarium can also stay without a background. On request we add substrate and décor, such as climbing branches and hides.',
+          ru: 'Фоном может быть классическая плёнка с рисунком, заводская модель, 3D-фон из натурального камня или наш 3D-фон ручной работы: мы вырезаем пенопласт так, чтобы он принял форму скалы или коры дерева. Террариум можно оставить и без фона. По желанию добавляем грунт и декор, например ветки для лазания и укрытия.',
         },
       },
       {
@@ -129,9 +129,9 @@ export const SERVICES = {
           ru: 'Освещение и оборудование',
         },
         text: {
-          sr: 'Za zdrav život vašeg ljubimca najbitnije je pravilno podešena rasveta i temperatura. Pomoći ćemo vam da odaberete odgovarajuću UVB/UVA rasvetu, grejače, termostate, substrat i dekoracije. Sve to uračunato u jednu cenu.',
-          en: 'Proper lighting and temperature are essential for your pet\'s wellbeing. We\'ll help you choose the right UVB/UVA lighting, heaters, thermostats, substrate and decorations — all included in one price.',
-          ru: 'Для здоровой жизни вашего питомца важнее всего правильно настроенное освещение и температура. Мы поможем вам выбрать подходящее UVB/UVA освещение, нагреватели, термостаты, субстрат и декорации. Всё включено в одну цену.',
+          sr: 'Za zdravlje reptila najvažnije su pravilno podešena rasveta i temperatura. Pomoći ćemo vam da prema vrsti koju držite odaberete odgovarajuću UVB/UVA rasvetu, grejače, termostate, podlogu i dekoracije. Sve to može da uđe u jednu cenu, zajedno sa terarijumom, tako da opremu ne morate da tražite na više mesta.',
+          en: 'Proper lighting and temperature matter most for a reptile\'s health. We\'ll help you choose the right UVB/UVA lighting, heaters, thermostats, substrate and decorations for the species you keep. All of it can go into one price together with the terrarium, so you don\'t have to look for equipment in several places.',
+          ru: 'Для здоровья рептилии важнее всего правильно подобранные освещение и температура. Мы поможем выбрать подходящее UVB/UVA-освещение, обогреватели, термостаты, грунт и декорации под тот вид, который вы содержите. Всё это можно включить в одну цену вместе с террариумом, чтобы вам не пришлось искать оборудование в разных местах.',
         },
       },
       {
@@ -141,21 +141,21 @@ export const SERVICES = {
           ru: 'Задаток 30%',
         },
         text: {
-          sr: 'Minimalni iznos kapare za početak izrade terarijuma je 30% od ukupne cene. Ostatak iznosa se plaća po završetku izrade, prilikom preuzimanja terarijuma.',
-          en: 'A minimum deposit of 30% of the total price is required to start production. The remainder is due upon completion, when you collect the terrarium.',
-          ru: 'Минимальная сумма задатка для начала изготовления террариума составляет 30% от общей стоимости. Остаток оплачивается после завершения изготовления, при получении террариума.',
+          sr: 'Izradu počinjemo kada uplatite kaparu od najmanje 30% ukupne cene. Kaparu uplaćujete tek kada se dogovorimo oko mera, dezena, pozadine i opreme i kada dobijete ponudu. Ostatak iznosa plaćate po završetku izrade, prilikom preuzimanja terarijuma.',
+          en: 'We start the build once you pay a deposit of at least 30% of the total price. You pay the deposit only after we have agreed on the dimensions, film design, background and equipment and you have received the quote. The remainder is due when the build is finished, on collection of the terrarium.',
+          ru: 'Мы начинаем изготовление после внесения задатка не менее 30% от общей стоимости. Задаток вы вносите только после того, как мы согласуем размеры, декор, фон и оборудование и вы получите предложение. Остаток оплачивается по завершении изготовления, при получении террариума.',
         },
       },
       {
         title: {
-          sr: 'Izrada — 7 radnih dana',
-          en: 'Build time — 7 working days',
-          ru: 'Срок изготовления — 7 рабочих дней',
+          sr: 'Izrada — 7–14 dana',
+          en: 'Build time — 7–14 days',
+          ru: 'Срок изготовления — 7–14 дней',
         },
         text: {
-          sr: 'Uobičajeni rok izrade terarijuma je 7 radnih dana. Za zahtevnije i veće projekte kao što su terarijumi za veliku vodenu agamu ili iguanu, rok izrade može biti i duži.',
-          en: 'Standard production time is 7 working days. For more complex or larger builds, such as terrariums for a large water dragon or iguana, the lead time may be longer.',
-          ru: 'Стандартный срок изготовления террариума — 7 рабочих дней. Для более сложных и крупных проектов, таких как террариумы для большой водной агамы или игуаны, срок может быть увеличен.',
+          sr: 'Terarijum sastavljamo ručno od stakla. Prednja stakla su klizna, ventilacija ide kroz otvore sa mrežicom, a tip poklopca dogovaramo sa vama. Uobičajeni rok izrade je 7–14 dana. Za veće i zahtevnije projekte, kao što su terarijumi za veliku vodenu agamu ili iguanu, rok može biti i duži.',
+          en: 'The terrarium is assembled by hand from glass. The front panes slide, ventilation goes through mesh-covered openings, and we agree the type of lid with you. Standard build time is 7–14 days. For larger or more complex builds, such as terrariums for a large water dragon or iguana, it may take longer.',
+          ru: 'Террариум мы собираем вручную из стекла. Передние стёкла раздвижные, вентиляция идёт через отверстия с сеткой, а тип крышки мы согласуем с вами. Обычный срок изготовления 7–14 дней. Для более крупных и сложных проектов, например террариумов для большой водяной агамы или игуаны, срок может быть больше.',
         },
       },
       {
@@ -165,9 +165,9 @@ export const SERVICES = {
           ru: 'Получение террариума',
         },
         text: {
-          sr: 'Terarijum možete preuzeti lično u Novom Sadu, ili ga možemo poslati autobusom do vašeg grada. Troškove slanja snosi kupac. Za veće terarijume možemo organizovati i dostavu kombijem.',
-          en: 'You can collect the terrarium in person in Novi Sad, or we can ship it by bus to your city — shipping costs are covered by the buyer. For larger terrariums, delivery by van can also be arranged.',
-          ru: 'Террариум можно забрать лично в Нови-Саде, или мы можем отправить его автобусом в ваш город. Расходы на доставку несёт покупатель. Для крупных террариумов можно организовать доставку микроавтобусом.',
+          sr: 'Terarijum možete preuzeti lično u Novom Sadu ili vam ga šaljemo kurirskom službom, autobusom ili kombijem bilo gde u Srbiji. Način slanja biramo prema veličini: za veće terarijume organizujemo dostavu kombijem. Troškove slanja snosi kupac.',
+          en: 'You can collect the terrarium in person in Novi Sad, or we send it by courier, bus or van anywhere in Serbia. The shipping method depends on the size: for larger terrariums we arrange delivery by van. Shipping costs are covered by the buyer.',
+          ru: 'Террариум можно забрать лично в Нови-Саде, или мы отправим его курьерской службой, автобусом или фургоном в любую точку Сербии. Способ доставки выбираем по размеру: для крупных террариумов организуем доставку фургоном. Расходы на доставку несёт покупатель.',
         },
       },
     ],
@@ -198,8 +198,29 @@ export const SERVICES = {
           { href: '/terarijumi/terarijum-za-kornjacu.html', label: 'Terarijum za kornjaču', img: '/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp', contain: true },
         ],
       },
+      en: {
+        title: 'A terrarium for <b>your animal</b>',
+        links: [
+          { href: '/terarijumi/terarijum-za-bradatu-agamu.html', label: 'Bearded dragon terrarium', img: '/style/img/reptili/bradata.webp' },
+          { href: '/terarijumi/terarijum-za-leopard-gekona.html', label: 'Leopard gecko terrarium', img: '/style/img/reptili/leopard.webp' },
+          { href: '/terarijumi/terarijum-za-loptastog-pitona.html', label: 'Ball python terrarium', img: '/style/img/reptili/piton.webp' },
+          { href: '/terarijumi/terarijum-za-kornjacu.html', label: 'Turtle terrarium', img: '/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp', contain: true },
+        ],
+      },
+      ru: {
+        title: 'Террариум для <b>вашего животного</b>',
+        links: [
+          { href: '/terarijumi/terarijum-za-bradatu-agamu.html', label: 'Террариум для бородатой агамы', img: '/style/img/reptili/bradata.webp' },
+          { href: '/terarijumi/terarijum-za-leopard-gekona.html', label: 'Террариум для леопардового геккона', img: '/style/img/reptili/leopard.webp' },
+          { href: '/terarijumi/terarijum-za-loptastog-pitona.html', label: 'Террариум для королевского питона', img: '/style/img/reptili/piton.webp' },
+          { href: '/terarijumi/terarijum-za-kornjacu.html', label: 'Террариум для черепахи', img: '/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp', contain: true },
+        ],
+      },
     },
     more: [
+      { href: '/3d-terarijum.html', label: { sr: 'Složi terarijum u 3D', en: 'Build it in 3D', ru: 'Соберите в 3D' } },
+      { href: '/3d-uputstvo.html', label: { sr: 'Uputstvo za 3D konfigurator', en: '3D configurator guide', ru: 'Инструкция к 3D-конфигуратору' } },
+      { href: '/cenovnik.html', label: { sr: 'Cenovnik', en: 'Price list', ru: 'Прайс-лист' } },
       { href: '/izrada-akvarijuma.html', label: { sr: 'Izrada akvarijuma', en: 'Custom aquariums', ru: 'Изготовление аквариумов' } },
       { href: '/izrada-vivarijuma.html', label: { sr: 'Izrada vivarijuma', en: 'Custom vivariums', ru: 'Изготовление вивариумов' } },
       { href: '/izrada-led-rasvete.html', label: { sr: 'Izrada LED rasvete', en: 'Custom LED lighting', ru: 'Изготовление LED-освещения' } },
@@ -213,20 +234,20 @@ export const SERVICES = {
     meta: {
       sr: {
         title: 'Izrada akvarijuma po meri, Novi Sad | NS Reptiles',
-        description: 'Izrada akvarijuma po meri u Novom Sadu: stakleni akvarijumi za ribice i kornjače, 40+ dezena folija, LED rasveta, filteri i 3D pozadine. Rok 7 radnih dana.',
+        description: 'Izrada akvarijuma po meri u Novom Sadu: stakleni akvarijumi za ribice i kornjače, 34 dezena folija, LED rasveta, filteri i 3D pozadine. Rok 7–14 dana.',
         ogTitle: 'Izrada akvarijuma po meri | NS Reptiles',
         ogDescription: 'Ručno lepljeni stakleni akvarijumi po vašim merama — folije, LED rasveta, filteri i oprema. Novi Sad.',
         image: '/style/img/logo.jpg',
       },
       en: {
         title: 'Custom Aquariums — Made-to-Order Glass Tanks | NS Reptiles',
-        description: 'Custom-built glass aquariums in Novi Sad for fish and turtles: 40+ vinyl wrap designs, LED lighting, filters and 3D backgrounds. Ready in 7 business days.',
+        description: 'Custom-built glass aquariums in Novi Sad for fish and turtles: 34 vinyl wrap designs, LED lighting, filters and 3D backgrounds. Ready in 7–14 days.',
         ogTitle: 'Custom Aquariums | NS Reptiles',
         ogDescription: 'Hand-sealed glass aquariums built to your exact dimensions — vinyl wraps, LED lighting, filters, and full equipment. Novi Sad.',
       },
       ru: {
         title: 'Аквариумы на заказ в Нови-Саде | NS Reptiles',
-        description: 'Аквариумы на заказ в Нови-Саде: стеклянные аквариумы для рыб и черепах, более 40 видов плёнки, LED-освещение, фильтры и 3D-фоны. Срок — 7 рабочих дней.',
+        description: 'Аквариумы на заказ в Нови-Саде: стеклянные аквариумы для рыб и черепах, 34 вида плёнки, LED-освещение, фильтры и 3D-фоны. Срок — 7–14 дней.',
         ogTitle: 'Аквариумы на заказ | NS Reptiles',
         ogDescription: 'Стеклянные аквариумы ручной работы по вашим размерам — плёнка, LED-освещение, фильтры и оборудование. Нови-Сад.',
       },
@@ -235,17 +256,17 @@ export const SERVICES = {
       sr: {
         name: 'Izrada akvarijuma po meri',
         serviceType: 'Izrada akvarijuma po meri',
-        description: 'Izrada akvarijuma po meri u Novom Sadu. Stakleni akvarijumi za ribice i kornjače, preko 40 dezena folija, LED rasveta, filteri i 3D pozadine. Rok izrade 7 radnih dana.',
+        description: 'Izrada akvarijuma po meri u Novom Sadu. Stakleni akvarijumi za ribice i kornjače, 34 dezena folija, LED rasveta, filteri i 3D pozadine. Rok izrade 7–14 dana.',
       },
       en: {
         name: 'Custom Aquarium Building',
         serviceType: 'Custom Aquarium Building',
-        description: 'Custom-built glass aquariums in Novi Sad. Handcrafted tanks for fish and turtles, 40+ vinyl wrap designs, LED lighting, filters, and 3D backgrounds. Ready in 7 business days.',
+        description: 'Custom-built glass aquariums in Novi Sad. Handcrafted tanks for fish and turtles, 34 vinyl wrap designs, LED lighting, filters, and 3D backgrounds. Ready in 7–14 days.',
       },
       ru: {
         name: 'Изготовление аквариумов на заказ',
         serviceType: 'Изготовление аквариумов на заказ',
-        description: 'Изготовление аквариумов на заказ в Нови-Саде. Стеклянные аквариумы для рыб и черепах, более 40 видов плёнки, LED-освещение, фильтры и 3D-фоны. Срок изготовления — 7 рабочих дней.',
+        description: 'Изготовление аквариумов на заказ в Нови-Саде. Стеклянные аквариумы для рыб и черепах, 34 вида плёнки, LED-освещение, фильтры и 3D-фоны. Срок изготовления — 7–14 дней.',
       },
     },
     h1: {
@@ -259,9 +280,9 @@ export const SERVICES = {
       ru: 'Каждый аквариум изготавливается вручную из стекла по вашим размерам и пожеланиям — с плёнкой на выбор, LED-освещением и полным комплектом оборудования.',
     },
     intro: {
-      sr: 'Od prvog kontakta do preuzimanja vodimo vas kroz nekoliko jednostavnih koraka. Niste sigurni koja je optimalna veličina za vaše ribice ili kornjače? <strong>Rado ćemo vam pomoći</strong> da napravite pravi izbor.',
-      en: 'From the first contact to pick-up, we walk you through a few simple steps. Not sure what size is best for your fish or turtles? <strong>We\'re happy to help</strong> you make the right choice.',
-      ru: 'От первого контакта до получения готового изделия мы проведём вас через несколько простых шагов. Не уверены, какой оптимальный размер подойдёт для ваших рыб или черепах? <strong>Мы с радостью поможем</strong> сделать правильный выбор.',
+      sr: 'Staklene akvarijume pravimo ručno u Novom Sadu, po merama vašeg prostora: dužina od 20 do 200 cm, širina od 15 do 100 cm i visina od 15 do 120 cm. Debljinu stakla biramo prema zapremini i visini akvarijuma, a u radionici imamo staklo od 4, 6, 8, 10 i 12 mm. Uz akvarijum možemo da napravimo pokrovno staklo, ugrađenu komoru za filter, 3D pozadinu i LED rasvetu. Niste sigurni koja je veličina prava za vaše ribice ili kornjače? <strong>Rado ćemo vam pomoći</strong> da izaberete.<br><br>Akvarijum možete i sami da složite u <a href="/3d-akvarijum.html" style="text-decoration: underline">3D konfiguratoru</a>: zadate mere, pogledate model u 3D prikazu, a na telefonu i u proširenoj stvarnosti (AR), pa nam dugmetom „Poruči akvarijum“ pošaljete parametre. Kako se konfigurator koristi piše u <a href="/3d-uputstvo.html" style="text-decoration: underline">uputstvu</a>. Cena zavisi od dimenzija, debljine stakla i opreme, a ponudu šaljemo kada dobijemo mere. Pre poručivanja proverite i gde će akvarijum stajati: pun akvarijum teži oko 1 kg po litru vode, plus težina stakla, pa mu treba ravna i čvrsta podloga.',
+      en: 'We build glass aquariums by hand in Novi Sad, to fit your space: 20 to 200 cm long, 15 to 100 cm wide and 15 to 120 cm high. Glass thickness is chosen by the volume and height of the tank, and the workshop stocks 4, 6, 8, 10 and 12 mm glass. With the aquarium we can make a cover glass, a built-in filter chamber, a 3D background and LED lighting. Not sure what size is best for your fish or turtles? <strong>We\'re happy to help</strong> you choose.<br><br>You can also put the aquarium together yourself in the <a href="/en/3d-aquarium.html" style="text-decoration: underline">3D configurator</a>: set the dimensions, look at the model in 3D, and in augmented reality (AR) on a phone, then send us the parameters with the “Order this aquarium” button. The <a href="/en/3d-guide.html" style="text-decoration: underline">guide</a> explains how the configurator works. The price depends on the dimensions, glass thickness and equipment, and we send a quote once we have your measurements. Before ordering, check where the aquarium will stand: a full tank weighs about 1 kg per litre of water plus the weight of the glass, so it needs a flat, solid stand.',
+      ru: 'Стеклянные аквариумы мы делаем вручную в Нови-Саде по размерам вашего помещения: длина от 20 до 200 см, ширина от 15 до 100 см, высота от 15 до 120 см. Толщину стекла подбираем по объёму и высоте аквариума, в мастерской есть стекло 4, 6, 8, 10 и 12 мм. К аквариуму можем сделать покровное стекло, встроенный отсек для фильтра, 3D-фон и LED-освещение. Не уверены, какой размер подойдёт вашим рыбам или черепахам? <strong>Мы с радостью поможем</strong> выбрать.<br><br>Аквариум можно собрать и самостоятельно в <a href="/ru/3d-aquarium.html" style="text-decoration: underline">3D-конфигураторе</a>: задайте размеры, посмотрите модель в 3D, а на телефоне и в дополненной реальности (AR), и отправьте нам параметры кнопкой «Заказать аквариум». Как пользоваться конфигуратором, описано в <a href="/ru/3d-guide.html" style="text-decoration: underline">инструкции</a>. Цена зависит от размеров, толщины стекла и оборудования, а предложение мы отправляем, когда получим размеры. Перед заказом проверьте, где будет стоять аквариум: полный аквариум весит около 1 кг на литр воды плюс вес стекла, поэтому ему нужна ровная и прочная опора.',
     },
     items: [
       {
@@ -271,9 +292,9 @@ export const SERVICES = {
           ru: 'Свяжитесь с нами',
         },
         text: {
-          sr: 'Javite nam se telefonom, mejlom ili putem društvenih mreža i recite nam koje dimenzije akvarijuma želite. Ukoliko niste sigurni koja je optimalna veličina za vaše ribice ili kornjače, rado ćemo vam pomoći da napravite pravi izbor.',
-          en: 'Reach out by phone, email, or social media and let us know the dimensions you have in mind. If you\'re not sure what size works best for your fish or turtles, we\'ll be happy to guide you to the right choice.',
-          ru: 'Напишите нам по телефону, электронной почте или через социальные сети и сообщите нужные размеры аквариума. Если не уверены, какой оптимальный размер подойдёт для ваших рыб или черепах, мы с удовольствием поможем сделать правильный выбор.',
+          sr: 'Javite nam se telefonom, mejlom ili putem društvenih mreža i recite koje dimenzije akvarijuma želite i šta planirate da držite u njemu. Radimo dužine od 20 do 200 cm, širine od 15 do 100 cm i visine od 15 do 120 cm. Ako niste sigurni koja veličina odgovara vašim ribicama ili kornjačama, predložićemo je. Kada dobijemo mere, šaljemo vam ponudu.',
+          en: 'Reach out by phone, email or social media and tell us the dimensions you have in mind and what you plan to keep in the tank. We build lengths from 20 to 200 cm, widths from 15 to 100 cm and heights from 15 to 120 cm. If you\'re not sure what size works for your fish or turtles, we\'ll suggest one. Once we have the measurements, we send you a quote.',
+          ru: 'Свяжитесь с нами по телефону, электронной почте или через социальные сети и сообщите, какие размеры аквариума вам нужны и кого вы планируете в нём содержать. Мы делаем длину от 20 до 200 см, ширину от 15 до 100 см и высоту от 15 до 120 см. Если вы не уверены, какой размер подойдёт вашим рыбам или черепахам, мы его предложим. Получив размеры, мы отправим вам предложение.',
         },
       },
       {
@@ -283,9 +304,9 @@ export const SERVICES = {
           ru: 'Выберите цвет аквариума',
         },
         text: {
-          sr: 'U ponudi je preko 40 različitih dezena folija tako da možete lako uklopiti akvarijum sa ostatkom enterijera. Takođe, postoji mogućnost da akvarijum bude obložen crnim lakobelom umesto folije.',
-          en: 'We offer over 40 different vinyl wrap designs, so you can easily match the aquarium to your interior. We can also apply a black lacquer finish instead of vinyl if you prefer a cleaner look.',
-          ru: 'В нашем ассортименте более 40 различных видов плёнки, поэтому вы легко впишете аквариум в интерьер комнаты. Также возможно оформление аквариума чёрным лакобелем вместо плёнки.',
+          sr: 'Spoljašnje strane akvarijuma oblažemo dekorativnom folijom koju birate među 34 dezena, pa akvarijum lako uklopite sa ostatkom enterijera. Umesto folije akvarijum može biti obložen crnim lakobelom.',
+          en: 'The outside of the aquarium is covered in a vinyl wrap that you choose from 34 designs, so it is easy to match the tank to your interior. Instead of vinyl, the aquarium can be finished in black lacquered glass.',
+          ru: 'Наружные стороны аквариума мы оклеиваем декоративной плёнкой, которую вы выбираете из 34 декоров, поэтому аквариум легко вписать в интерьер. Вместо плёнки аквариум можно отделать чёрным лакобелем.',
         },
       },
       {
@@ -295,9 +316,9 @@ export const SERVICES = {
           ru: 'Выберите 3D-фон',
         },
         text: {
-          sr: 'Klasična folija sa slikom, fabrički model, 3D pozadina od stiropora, 3D pozadina od prirodnog siga kamena, ili pak bez pozadine — bira se po ukusu i želji kupca.',
-          en: 'Classic photo print, factory-style backdrop, 3D polystyrene background, natural stone 3D background, or no background at all — the choice is entirely yours.',
-          ru: 'Классическая плёнка с рисунком, заводская модель, 3D-фон из пенопласта, 3D-фон из натурального камня сиг, или вовсе без фона — выбор зависит от вкуса и желания покупателя.',
+          sr: 'Pozadina može biti klasična folija sa slikom, fabrički model, 3D pozadina od stiropora ili 3D pozadina od prirodnog siga kamena. Akvarijum može da ostane i bez pozadine, sa providnim zadnjim staklom. Pozadinu je najlakše ugraditi tokom izrade, zato je izaberite pre nego što počnemo.',
+          en: 'The background can be a classic photo print, a factory-made panel, a 3D polystyrene background or a 3D background made of natural stone. The aquarium can also stay without a background, with a clear back pane. A background is easiest to fit during the build, so choose it before we start.',
+          ru: 'Фоном может быть классическая плёнка с рисунком, заводская модель, 3D-фон из пенопласта или 3D-фон из натурального камня. Аквариум можно оставить и без фона, с прозрачным задним стеклом. Фон проще всего установить во время изготовления, поэтому выберите его до начала работы.',
         },
       },
       {
@@ -307,9 +328,9 @@ export const SERVICES = {
           ru: 'Освещение и оборудование',
         },
         text: {
-          sr: 'Nudimo LED rasvetu koja je energetski efikasna i dugotrajna. Možemo dodati dva režima rada — dnevni i noćni, prekidače na samom akvarijumu i mogućnost daljinskog upravljanja. Pomažemo u odabiru filtera, pumpe, grejača, substrata i dekoracije.',
-          en: 'We offer energy-efficient, long-lasting LED lighting. You can add two lighting modes — day and night — with switches on the tank itself and optional remote control. We also help you choose the right filter, pump, heater, substrate, and decorations.',
-          ru: 'Предлагаем LED-освещение, которое энергоэффективно и долговечно. Можем добавить два режима работы — дневной и ночной, выключатели на самом аквариуме и возможность дистанционного управления. Помогаем с выбором фильтра, насоса, обогревателя, субстрата и декора.',
+          sr: 'Nudimo LED rasvetu koja je energetski efikasna i dugotrajna, sa dnevnim i noćnim režimom, prekidačima na samom akvarijumu i mogućnošću daljinskog upravljanja. U akvarijum možemo da ugradimo komoru za filter i da napravimo pokrovno staklo. Pomažemo i u odabiru filtera, pumpe, grejača, podloge i dekoracije.',
+          en: 'We offer energy-efficient, long-lasting LED lighting with day and night modes, switches on the tank itself and optional remote control. We can build a filter chamber into the aquarium and make a cover glass for it. We also help you choose the filter, pump, heater, substrate and decorations.',
+          ru: 'Мы предлагаем энергоэффективное и долговечное LED-освещение с дневным и ночным режимами, выключателями на самом аквариуме и возможностью дистанционного управления. В аквариум можем встроить отсек для фильтра и сделать покровное стекло. Помогаем и с выбором фильтра, помпы, обогревателя, грунта и декора.',
         },
       },
       {
@@ -319,21 +340,21 @@ export const SERVICES = {
           ru: 'Предоплата 30%',
         },
         text: {
-          sr: 'Minimalni iznos kapare za početak izrade akvarijuma je 30% od ukupne cene. Ostatak iznosa se plaća po završetku izrade, prilikom preuzimanja akvarijuma.',
-          en: 'A minimum deposit of 30% of the total price is required to start the build. The remaining balance is due upon completion, when you collect the aquarium.',
-          ru: 'Минимальная сумма предоплаты для начала изготовления аквариума составляет 30% от общей стоимости. Остаток оплачивается по окончании изготовления при получении аквариума.',
+          sr: 'Izradu počinjemo kada uplatite kaparu od najmanje 30% ukupne cene. Kaparu uplaćujete tek kada se dogovorimo oko mera, debljine stakla i opreme i kada dobijete ponudu. Ostatak iznosa plaćate po završetku izrade, prilikom preuzimanja akvarijuma.',
+          en: 'We start the build once you pay a deposit of at least 30% of the total price. You pay the deposit only after we have agreed on the dimensions, glass thickness and equipment and you have received the quote. The remaining balance is due when the build is finished, on collection of the aquarium.',
+          ru: 'Мы начинаем изготовление после внесения предоплаты не менее 30% от общей стоимости. Предоплату вы вносите только после того, как мы согласуем размеры, толщину стекла и оборудование и вы получите предложение. Остаток оплачивается по завершении изготовления, при получении аквариума.',
         },
       },
       {
         title: {
-          sr: 'Izrada — 7 radnih dana',
-          en: 'Build time — 7 business days',
-          ru: 'Изготовление — 7 рабочих дней',
+          sr: 'Izrada — 7–14 dana',
+          en: 'Build time — 7–14 days',
+          ru: 'Изготовление — 7–14 дней',
         },
         text: {
-          sr: 'Uobičajeni rok izrade akvarijuma je 7 radnih dana. Za zahtevnije i veće projekte rok izrade može biti i duži.',
-          en: 'The standard lead time for an aquarium is 7 business days. For larger or more complex builds, the timeline may be longer.',
-          ru: 'Стандартный срок изготовления аквариума составляет 7 рабочих дней. Для более сложных и крупных проектов срок изготовления может быть увеличен.',
+          sr: 'Akvarijum lepimo ručno, od stakla čiju debljinu biramo prema zapremini i visini; na stanju imamo staklo od 4, 6, 8, 10 i 12 mm. Uobičajeni rok izrade je 7–14 dana. Za veće i zahtevnije projekte rok može biti i duži.',
+          en: 'The aquarium is glued by hand from glass whose thickness we choose by volume and height; we stock 4, 6, 8, 10 and 12 mm glass. The standard build time is 7–14 days. For larger or more complex builds it may take longer.',
+          ru: 'Аквариум мы клеим вручную из стекла, толщину которого подбираем по объёму и высоте; в наличии есть стекло 4, 6, 8, 10 и 12 мм. Обычный срок изготовления 7–14 дней. Для более крупных и сложных проектов срок может быть больше.',
         },
       },
       {
@@ -343,9 +364,9 @@ export const SERVICES = {
           ru: 'Получение аквариума',
         },
         text: {
-          sr: 'Akvarijum možete preuzeti lično u Novom Sadu, ili ga možemo poslati autobusom do vašeg grada. Troškove slanja snosi kupac. Za veće akvarijume možemo organizovati i dostavu kombijem.',
-          en: 'You can collect your aquarium in person in Novi Sad, or we can ship it by bus to your city — shipping costs are covered by the buyer. For larger tanks we can also arrange delivery by van.',
-          ru: 'Аквариум можно забрать лично в Нови-Саде или отправить автобусом в ваш город. Расходы на доставку несёт покупатель. Для крупных аквариумов можем организовать доставку микроавтобусом.',
+          sr: 'Akvarijum možete preuzeti lično u Novom Sadu ili vam ga šaljemo kurirskom službom, autobusom ili kombijem bilo gde u Srbiji; za veće akvarijume organizujemo dostavu kombijem. Troškove slanja snosi kupac. Pre nego što akvarijum stigne pripremite ravnu i čvrstu podlogu, jer pun akvarijum teži oko 1 kg po litru vode, plus težina stakla.',
+          en: 'You can collect the aquarium in person in Novi Sad, or we send it by courier, bus or van anywhere in Serbia; for larger tanks we arrange delivery by van. Shipping costs are covered by the buyer. Before the aquarium arrives, prepare a flat, solid stand, because a full tank weighs about 1 kg per litre of water plus the weight of the glass.',
+          ru: 'Аквариум можно забрать лично в Нови-Саде, или мы отправим его курьерской службой, автобусом или фургоном в любую точку Сербии; для крупных аквариумов организуем доставку фургоном. Расходы на доставку несёт покупатель. До прибытия аквариума подготовьте ровную и прочную опору, потому что полный аквариум весит около 1 кг на литр воды плюс вес стекла.',
         },
       },
     ],
@@ -373,8 +394,19 @@ export const SERVICES = {
           { href: '/akvarijumi/akvarijum-za-kornjacu.html', label: 'Akvarijum za kornjaču', img: '/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp', contain: true },
         ],
       },
+      en: {
+        title: 'An aquarium for <b>your animal</b>',
+        links: [{ href: '/akvarijumi/akvarijum-za-kornjacu.html', label: 'Turtle aquarium', img: '/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp', contain: true }],
+      },
+      ru: {
+        title: 'Аквариум для <b>вашего животного</b>',
+        links: [{ href: '/akvarijumi/akvarijum-za-kornjacu.html', label: 'Аквариум для черепахи', img: '/style/img/terrariums/ta-50x35x45x25-zuto-drvo-web.webp', contain: true }],
+      },
     },
     more: [
+      { href: '/3d-akvarijum.html', label: { sr: 'Složi akvarijum u 3D', en: 'Build it in 3D', ru: 'Соберите в 3D' } },
+      { href: '/3d-uputstvo.html', label: { sr: 'Uputstvo za 3D konfigurator', en: '3D configurator guide', ru: 'Инструкция к 3D-конфигуратору' } },
+      { href: '/cenovnik.html', label: { sr: 'Cenovnik', en: 'Price list', ru: 'Прайс-лист' } },
       { href: '/izrada-terarijuma.html', label: { sr: 'Izrada terarijuma', en: 'Custom terrariums', ru: 'Изготовление террариумов' } },
       { href: '/izrada-vivarijuma.html', label: { sr: 'Izrada vivarijuma', en: 'Custom vivariums', ru: 'Изготовление вивариумов' } },
       { href: '/izrada-led-rasvete.html', label: { sr: 'Izrada LED rasvete', en: 'Custom LED lighting', ru: 'Изготовление LED-освещения' } },
@@ -388,20 +420,20 @@ export const SERVICES = {
     meta: {
       sr: {
         title: 'Izrada vivarijuma po meri, Novi Sad | NS Reptiles',
-        description: 'Izrada vivarijuma po meri u Novom Sadu: stakleni vivarijumi za tropske biljke, žabe i vodozemce, 40+ dezena folija i specijalna rasveta. Rok 7 radnih dana.',
+        description: 'Izrada vivarijuma po meri u Novom Sadu: stakleni vivarijumi za tropske biljke, žabe i vodozemce, 34 dezena folija i specijalna rasveta. Rok 7–14 dana.',
         ogTitle: 'Izrada vivarijuma po meri | NS Reptiles',
         ogDescription: 'Ručno rađeni stakleni vivarijumi po vašim merama — rasveta punog spektra, sistem za vlažnost i oprema. Novi Sad.',
         image: '/style/img/logo.jpg',
       },
       en: {
         title: 'Custom Glass Vivarium Building in Novi Sad | NS Reptiles',
-        description: 'Custom glass vivariums in Novi Sad: full-spectrum lighting, 40+ decorative foil options, humidity systems and a 7-business-day turnaround.',
+        description: 'Custom glass vivariums in Novi Sad: full-spectrum lighting, 34 decorative foil options, humidity systems. Ready in 7–14 days.',
         ogTitle: 'Custom Vivarium Building | NS Reptiles',
         ogDescription: 'Handcrafted glass vivariums built to your exact dimensions — full-spectrum lighting, humidity control, and complete equipment. Novi Sad.',
       },
       ru: {
         title: 'Виварии на заказ в Нови-Саде | NS Reptiles',
-        description: 'Виварии на заказ в Нови-Саде: стеклянные виварии для тропических растений, лягушек и амфибий, более 40 видов плёнки, спецосвещение. Срок — 7 рабочих дней.',
+        description: 'Виварии на заказ в Нови-Саде: стеклянные виварии для тропических растений, лягушек и амфибий, 34 вида плёнки, спецосвещение. Срок — 7–14 дней.',
         ogTitle: 'Изготовление вивариев на заказ | NS Reptiles',
         ogDescription: 'Ручная работа — стеклянные виварии по вашим размерам: освещение полного спектра, система увлажнения и оборудование. Нови-Сад.',
       },
@@ -410,17 +442,17 @@ export const SERVICES = {
       sr: {
         name: 'Izrada vivarijuma po meri',
         serviceType: 'Izrada vivarijuma po meri',
-        description: 'Izrada vivarijuma po meri u Novom Sadu. Stakleni vivarijumi za tropske biljke, žabe i vodozemce, preko 40 dezena folija, specijalna rasveta. Rok izrade 7 radnih dana.',
+        description: 'Izrada vivarijuma po meri u Novom Sadu. Stakleni vivarijumi za tropske biljke, žabe i vodozemce, 34 dezena folija, specijalna rasveta. Rok izrade 7–14 dana.',
       },
       en: {
         name: 'Custom Vivarium Building',
         serviceType: 'Custom Vivarium Building',
-        description: 'Custom glass vivariums built to your specifications in Novi Sad. Full-spectrum lighting, 40+ decorative foil options, humidity systems, and a 7-business-day turnaround.',
+        description: 'Custom glass vivariums built to your specifications in Novi Sad. Full-spectrum lighting, 34 decorative foil options, humidity systems. Ready in 7–14 days.',
       },
       ru: {
         name: 'Изготовление вивариев на заказ',
         serviceType: 'Изготовление вивариев на заказ',
-        description: 'Изготовление вивариев на заказ в Нови-Саде. Стеклянные виварии для тропических растений, лягушек и амфибий, свыше 40 видов плёнки, специальное освещение. Срок изготовления 7 рабочих дней.',
+        description: 'Изготовление вивариев на заказ в Нови-Саде. Стеклянные виварии для тропических растений, лягушек и амфибий, 34 вида плёнки, специальное освещение. Срок изготовления 7–14 дней.',
       },
     },
     h1: {
@@ -434,9 +466,9 @@ export const SERVICES = {
       ru: 'Каждый виварий мы изготавливаем вручную из стекла, по вашим размерам и пожеланиям — с освещением полного спектра для здорового роста растений и полным набором оборудования.',
     },
     intro: {
-      sr: 'Od prvog kontakta do preuzimanja vodimo vas kroz nekoliko jednostavnih koraka. Niste sigurni koja je optimalna veličina za vaše biljke? <strong>Rado ćemo vam pomoći</strong> da napravite pravi izbor.',
-      en: 'From the first contact to pick-up, we guide you through a few simple steps. Not sure what size works best for your plants? <strong>We\'re happy to help</strong> you make the right choice.',
-      ru: 'От первого контакта до получения мы проведём вас через несколько простых шагов. Не уверены, какой размер оптимален для ваших растений? <strong>Мы с удовольствием поможем</strong> вам сделать правильный выбор.',
+      sr: 'Vivarijum je zatvoren stakleni prostor za tropske biljke, žabe, vodozemce ili male reptile, u kome se održavaju vlažnost i temperatura. Pravimo ih ručno od stakla u Novom Sadu, po vašim merama, a po želji i kao paludarijum sa kopnenim i vodenim delom. Niste sigurni koja je veličina prava za vaše biljke? <strong>Rado ćemo vam pomoći</strong> da izaberete.<br><br>Vivarijum nema svoj 3D konfigurator, ali mere i dezen folije možete da isprobate u <a href="/3d-terarijum.html" style="text-decoration: underline">3D konfiguratoru terarijuma</a> i da nam pošaljete parametre, uz napomenu da želite vivarijum. Kako se konfigurator koristi piše u <a href="/3d-uputstvo.html" style="text-decoration: underline">uputstvu</a>. Cena zavisi od dimenzija, debljine stakla i opreme, a ponudu šaljemo kada dobijemo mere. Kapara je 30%, izrada traje 7–14 dana, a gotov vivarijum preuzimate lično u Novom Sadu ili vam ga šaljemo kurirskom službom, autobusom ili kombijem bilo gde u Srbiji.',
+      en: 'A vivarium is an enclosed glass space for tropical plants, frogs, amphibians or small reptiles, in which humidity and temperature are kept under control. We build them by hand from glass in Novi Sad, to your measurements, and on request as a paludarium with a land section and a water section. Not sure what size works best for your plants? <strong>We\'re happy to help</strong> you choose.<br><br>The vivarium does not have its own 3D configurator, but you can try out the dimensions and the foil design in the <a href="/en/3d-terrarium.html" style="text-decoration: underline">terrarium 3D configurator</a> and send us the parameters with a note that you want a vivarium. The <a href="/en/3d-guide.html" style="text-decoration: underline">guide</a> explains how the configurator works. The price depends on the dimensions, glass thickness and equipment, and we send a quote once we have your measurements. The deposit is 30%, the build takes 7–14 days, and you collect the finished vivarium in person in Novi Sad or we send it by courier, bus or van anywhere in Serbia.',
+      ru: 'Виварий - это закрытое стеклянное пространство для тропических растений, лягушек, амфибий или небольших рептилий, в котором поддерживаются влажность и температура. Мы делаем их вручную из стекла в Нови-Саде по вашим размерам, а по желанию и как палюдариум с сухопутной и водной частями. Не уверены, какой размер подойдёт вашим растениям? <strong>Мы с радостью поможем</strong> выбрать.<br><br>У вивария нет своего 3D-конфигуратора, но размеры и декор плёнки можно примерить в <a href="/ru/3d-terrarium.html" style="text-decoration: underline">3D-конфигураторе террариума</a> и отправить нам параметры с пометкой, что вам нужен виварий. Как пользоваться конфигуратором, описано в <a href="/ru/3d-guide.html" style="text-decoration: underline">инструкции</a>. Цена зависит от размеров, толщины стекла и оборудования, а предложение мы отправляем, когда получим размеры. Предоплата составляет 30%, изготовление занимает 7–14 дней, а готовый виварий вы забираете лично в Нови-Саде или мы отправляем его курьерской службой, автобусом или фургоном в любую точку Сербии.',
     },
     items: [
       {
@@ -446,9 +478,9 @@ export const SERVICES = {
           ru: 'Свяжитесь с нами',
         },
         text: {
-          sr: 'Javite nam se telefonom, mejlom ili putem društvenih mreža i recite nam koje dimenzije vivarijuma želite. Ukoliko niste sigurni koja je optimalna veličina za vaše biljke, rado ćemo vam pomoći da napravite pravi izbor.',
-          en: 'Reach out by phone, email, or social media and let us know what dimensions you have in mind. If you\'re not sure what size suits your plants best, we\'ll gladly help you figure it out.',
-          ru: 'Напишите нам по телефону, электронной почте или через социальные сети и укажите желаемые размеры виварий. Если вы не уверены, какой размер оптимален для ваших растений, мы с удовольствием поможем вам сделать правильный выбор.',
+          sr: 'Javite nam se telefonom, mejlom ili putem društvenih mreža i recite koje dimenzije vivarijuma želite i šta planirate da držite u njemu: samo biljke, žabe, vodozemce ili male reptile. Recite i da li želite vodeni deo. Ako niste sigurni koja veličina odgovara, predložićemo je. Kada dobijemo mere, šaljemo vam ponudu.',
+          en: 'Reach out by phone, email or social media and tell us the dimensions you have in mind and what you plan to keep in the vivarium: plants only, frogs, amphibians or small reptiles. Tell us as well whether you want a water section. If you\'re not sure what size fits, we\'ll suggest one. Once we have the measurements, we send you a quote.',
+          ru: 'Свяжитесь с нами по телефону, электронной почте или через социальные сети и сообщите, какие размеры вивария вам нужны и что вы планируете в нём содержать: только растения, лягушек, амфибий или небольших рептилий. Скажите также, нужна ли водная часть. Если вы не уверены, какой размер подойдёт, мы его предложим. Получив размеры, мы отправим вам предложение.',
         },
       },
       {
@@ -458,9 +490,9 @@ export const SERVICES = {
           ru: 'Выберите цвет виварий',
         },
         text: {
-          sr: 'U ponudi je preko 40 različitih dezena folija tako da možete lako uklopiti vivarijum sa ostatkom enterijera. Takođe, postoji mogućnost da vivarijum bude obložen crnim lakobelom umesto folije.',
-          en: 'We offer over 40 different decorative foil designs, so you can easily match the vivarium to the rest of your interior. There\'s also the option to have it finished in black lacobel glass instead of foil.',
-          ru: 'В наличии свыше 40 различных видов плёнки, так что виварий легко впишется в любой интерьер. Также возможна облицовка виварий чёрным лакобелем вместо плёнки.',
+          sr: 'Spoljašnje strane vivarijuma oblažemo dekorativnom folijom koju birate među 34 dezena, pa vivarijum lako uklopite sa ostatkom enterijera. Umesto folije vivarijum može biti obložen crnim lakobelom.',
+          en: 'The outside of the vivarium is covered in a decorative foil that you choose from 34 designs, so it is easy to match the vivarium to the rest of your interior. Instead of foil, it can be finished in black lacobel glass.',
+          ru: 'Наружные стороны вивария мы оклеиваем декоративной плёнкой, которую вы выбираете из 34 декоров, поэтому виварий легко вписать в интерьер. Вместо плёнки виварий можно отделать чёрным лакобелем.',
         },
       },
       {
@@ -470,9 +502,9 @@ export const SERVICES = {
           ru: 'Выберите 3D-фон',
         },
         text: {
-          sr: 'Klasična folija sa slikom, fabrički model, 3D pozadina od stiropora, 3D pozadina od prirodnog siga kamena, ili pak bez pozadine — bira se po ukusu i želji kupca.',
-          en: 'A printed foil, a factory model, a 3D styrofoam background, a 3D natural stone background, or no background at all — the choice is entirely yours.',
-          ru: 'Классическая плёнка с рисунком, заводская модель, 3D-фон из пенопласта, 3D-фон из натурального камня сига или без фона — выбор определяется вкусом и желанием покупателя.',
+          sr: 'Pozadina može biti klasična folija sa slikom, fabrički model, 3D pozadina od prirodnog siga kamena ili naša ručno rađena 3D pozadina: stiropor rezbarimo tako da dobije oblik stene ili kore drveta. Vivarijum može da ostane i bez pozadine.',
+          en: 'The background can be a printed foil, a factory model, a 3D background made of natural stone, or our hand-made 3D background: we carve styrofoam into the shape of rock or tree bark. The vivarium can also stay without a background.',
+          ru: 'Фоном может быть классическая плёнка с рисунком, заводская модель, 3D-фон из натурального камня или наш 3D-фон ручной работы: мы вырезаем пенопласт так, чтобы он принял форму скалы или коры дерева. Виварий можно оставить и без фона.',
         },
       },
       {
@@ -482,9 +514,9 @@ export const SERVICES = {
           ru: 'Освещение и оборудование',
         },
         text: {
-          sr: 'Nudimo idealnu rasvetu za vaš vivarijum koja pruža sve potrebne spektre svetlosti za rast i zdravlje biljaka — različite boje i nijanse (crvena, plava, zelena i bela). Pomažemo u odabiru grejača, termostata, filtera za vodu, substrata, termometara i higrometara.',
-          en: 'We offer ideal lighting for your vivarium, covering all the spectral needs for healthy plant growth — available in various colours and shades (red, blue, green, and white). We also help you choose heaters, thermostats, water filters, substrate, thermometers, and hygrometers.',
-          ru: 'Мы предлагаем идеальное освещение для вашего виварий, обеспечивающее все необходимые спектры света для роста и здоровья растений — различные цвета и оттенки (красный, синий, зелёный и белый). Помогаем с выбором нагревателя, термостата, водяного фильтра, субстрата, термометра и гигрометра.',
+          sr: 'Za vivarijum nudimo rasvetu koja pokriva spektre svetlosti potrebne za rast i zdravlje biljaka, u različitim bojama i nijansama (crvena, plava, zelena i bela). Pomažemo i u odabiru grejača, termostata, filtera za vodu i podloge, kao i termometra i higrometra kojima pratite temperaturu i vlažnost.',
+          en: 'For the vivarium we offer lighting that covers the light spectrums plants need for growth and health, in various colours and shades (red, blue, green and white). We also help you choose heaters, thermostats, water filters and substrate, as well as the thermometer and hygrometer you use to keep an eye on temperature and humidity.',
+          ru: 'Для вивария мы предлагаем освещение, которое даёт спектры света, необходимые для роста и здоровья растений, в разных цветах и оттенках (красный, синий, зелёный и белый). Помогаем и с выбором обогревателя, термостата, водяного фильтра и грунта, а также термометра и гигрометра, по которым вы следите за температурой и влажностью.',
         },
       },
       {
@@ -494,21 +526,21 @@ export const SERVICES = {
           ru: 'Предоплата 30%',
         },
         text: {
-          sr: 'Minimalni iznos kapare za početak izrade vivarijuma je 30% od ukupne cene. Ostatak iznosa se plaća po završetku izrade, prilikom preuzimanja vivarijuma.',
-          en: 'A minimum deposit of 30% of the total price is required to begin production. The remaining balance is paid upon completion, when you collect your vivarium.',
-          ru: 'Минимальная сумма предоплаты для начала изготовления виварий составляет 30% от общей стоимости. Оставшаяся сумма оплачивается по завершении изготовления, при получении виварий.',
+          sr: 'Izradu počinjemo kada uplatite kaparu od najmanje 30% ukupne cene. Kaparu uplaćujete tek kada se dogovorimo oko mera, pozadine, rasvete i opreme i kada dobijete ponudu. Ostatak iznosa plaćate po završetku izrade, prilikom preuzimanja vivarijuma.',
+          en: 'We start the build once you pay a deposit of at least 30% of the total price. You pay the deposit only after we have agreed on the dimensions, background, lighting and equipment and you have received the quote. The remaining balance is due when the build is finished, on collection of the vivarium.',
+          ru: 'Мы начинаем изготовление после внесения предоплаты не менее 30% от общей стоимости. Предоплату вы вносите только после того, как мы согласуем размеры, фон, освещение и оборудование и вы получите предложение. Остаток оплачивается по завершении изготовления, при получении вивария.',
         },
       },
       {
         title: {
-          sr: 'Izrada — 7 radnih dana',
-          en: 'Production — 7 business days',
-          ru: 'Изготовление — 7 рабочих дней',
+          sr: 'Izrada — 7–14 dana',
+          en: 'Production — 7–14 days',
+          ru: 'Изготовление — 7–14 дней',
         },
         text: {
-          sr: 'Uobičajeni rok izrade vivarijuma je 7 radnih dana. Za zahtevnije i veće projekte rok izrade može biti i duži.',
-          en: 'Standard build time is 7 business days. For more complex or larger projects, the timeline may be longer.',
-          ru: 'Обычный срок изготовления виварий составляет 7 рабочих дней. Для более сложных и крупных проектов срок изготовления может быть дольше.',
+          sr: 'Vivarijum sastavljamo ručno od stakla; u radionici imamo staklo od 4, 6, 8, 10 i 12 mm, a debljinu biramo prema veličini vivarijuma. Uobičajeni rok izrade je 7–14 dana. Za veće i zahtevnije projekte rok može biti i duži.',
+          en: 'The vivarium is assembled by hand from glass; the workshop stocks 4, 6, 8, 10 and 12 mm glass, and we choose the thickness by the size of the vivarium. Standard build time is 7–14 days. For larger or more complex projects it may take longer.',
+          ru: 'Виварий мы собираем вручную из стекла; в мастерской есть стекло 4, 6, 8, 10 и 12 мм, а толщину подбираем по размеру вивария. Обычный срок изготовления 7–14 дней. Для более крупных и сложных проектов срок может быть больше.',
         },
       },
       {
@@ -518,9 +550,9 @@ export const SERVICES = {
           ru: 'Получение виварий',
         },
         text: {
-          sr: 'Vivarijum možete preuzeti lično u Novom Sadu, ili ga možemo poslati autobusom do vašeg grada. Troškove slanja snosi kupac. Za veće vivarijume možemo organizovati i dostavu kombijem.',
-          en: 'You can pick up your vivarium in person in Novi Sad, or we can ship it by bus to your city — shipping costs are covered by the buyer. For larger builds, we can arrange delivery by van.',
-          ru: 'Виварий можно забрать лично в Нови-Саде или мы можем отправить его автобусом в ваш город. Расходы на доставку несёт покупатель. Для крупных вивариев возможна организация доставки микроавтобусом.',
+          sr: 'Vivarijum možete preuzeti lično u Novom Sadu ili vam ga šaljemo kurirskom službom, autobusom ili kombijem bilo gde u Srbiji. Način slanja biramo prema veličini: za veće vivarijume organizujemo dostavu kombijem. Troškove slanja snosi kupac.',
+          en: 'You can collect the vivarium in person in Novi Sad, or we send it by courier, bus or van anywhere in Serbia. The shipping method depends on the size: for larger builds we arrange delivery by van. Shipping costs are covered by the buyer.',
+          ru: 'Виварий можно забрать лично в Нови-Саде, или мы отправим его курьерской службой, автобусом или фургоном в любую точку Сербии. Способ доставки выбираем по размеру: для крупных вивариев организуем доставку фургоном. Расходы на доставку несёт покупатель.',
         },
       },
     ],
@@ -957,9 +989,9 @@ export const SERVICES = {
           ru: 'Ремонт рамы',
         },
         text: {
-          sr: 'Oštećen okvir, iskrivljen ram ili odlepljena folija — sve to rešavamo. Popravljamo strukturu, zamenjujemo oštećene delove okvira i ponovo oblepljujemo folijom po vašem izboru iz ponude od preko 40 dezena.',
-          en: 'Damaged frame, warped rim, or peeling wrap — we sort it all out. We repair the structure, replace damaged frame sections, and re-wrap with the vinyl of your choice from a selection of over 40 patterns.',
-          ru: 'Повреждённая рама, покороблённый кант или отслоившаяся плёнка — всё это мы устраняем. Восстанавливаем конструкцию, заменяем повреждённые части рамы и заново оклеиваем плёнкой на ваш выбор из ассортимента более 40 рисунков.',
+          sr: 'Oštećen okvir, iskrivljen ram ili odlepljena folija — sve to rešavamo. Popravljamo strukturu, zamenjujemo oštećene delove okvira i ponovo oblepljujemo folijom po vašem izboru iz ponude od 34 dezena.',
+          en: 'Damaged frame, warped rim, or peeling wrap — we sort it all out. We repair the structure, replace damaged frame sections, and re-wrap with the vinyl of your choice from a selection of 34 patterns.',
+          ru: 'Повреждённая рама, покороблённый кант или отслоившаяся плёнка — всё это мы устраняем. Восстанавливаем конструкцию, заменяем повреждённые части рамы и заново оклеиваем плёнкой на ваш выбор из ассортимента 34 рисунка.',
         },
       },
       {

@@ -9,6 +9,9 @@ import '../../styles/usluge.css';
 import { SITE, type Locale } from '../../config/site';
 import { localizePath, translationsFor } from '../../i18n/routes';
 import { SERVICES, SERVICE_UI, type ServiceKey } from '../../i18n/pages/services';
+import ProductCard from '../ProductCard.astro';
+import { getProducts } from '../../lib/products';
+import '../../styles/oprema.css';
 
 interface Props {
   service: ServiceKey;
@@ -22,6 +25,32 @@ const path = href(s.path);
 const cta = s.cta[lang];
 const heroImg = service === 'akvarijumi' ? '/style/img/izrada/akvarijum.webp' : '/style/img/izrada/terarijum.webp';
 const animals = s.animals?.[lang];
+
+// Primeri izrade: stvarni modeli iz kataloga (mere, zapremina, fotografija) i poslednji radovi po meri sa Instagrama
+const EXAMPLES: Partial<Record<ServiceKey, { ids: string[]; cat: Record<Locale, string>; custom: { label: Record<Locale, string>; url: string }[] }>> = {
+  terarijumi: {
+    ids: ['terarijumi/terarijum-100x50x50-3d', 'terarijumi/terarijum-50x35x35-3d', 'terarijumi/terarijum-30x30x40-3d', 'terarijumi/terarijum-100x50x50'],
+    cat: { sr: 'Terarijum', en: 'Terrarium', ru: 'Террариум' },
+    custom: [{ label: { sr: 'terarijum 40x40x70 cm za crested gekona', en: 'a 40x40x70 cm terrarium for a crested gecko', ru: 'террариум 40x40x70 см для реснитчатого геккона' }, url: 'https://www.instagram.com/reel/DgPnWaQtnb6/' }],
+  },
+  akvarijumi: {
+    ids: ['akvarijumi/akvarijum-100x40x50', 'akvarijumi/akvarijum-50x38x38', 'akvarijumi/akvarijum-80x40x40', 'akvarijumi/akvarijum-120x40x40'],
+    cat: { sr: 'Akvarijum', en: 'Aquarium', ru: 'Аквариум' },
+    custom: [{ label: { sr: 'akvarijum 150x55x70 cm', en: 'a 150x55x70 cm aquarium', ru: 'аквариум 150x55x70 см' }, url: 'https://www.instagram.com/p/Dd6k9vngCJF/' }],
+  },
+};
+const EX_UI = {
+  sr: { title: 'Primeri <b>izrade</b>', text: 'Modeli koje često pravimo, sa merama i zapreminom. Svaki može da se izmeni po vašoj meri.', custom: 'Skorašnji rad po meri:' },
+  en: { title: 'Examples of <b>our builds</b>', text: 'Models we build often, with dimensions and volume. Each one can be adapted to your size.', custom: 'A recent custom build:' },
+  ru: { title: 'Примеры <b>работ</b>', text: 'Модели, которые мы делаем чаще всего, с размерами и объёмом. Любую можно изменить под ваш размер.', custom: 'Недавняя работа на заказ:' },
+}[lang];
+const ex = EXAMPLES[service];
+const allProducts = ex ? await getProducts() : [];
+const examples = (ex?.ids ?? []).map((id) => {
+  const p = allProducts.find((x) => x.id === id);
+  if (!p) throw new Error(`ServicePage: nepostojeci proizvod ${id}`);
+  return p;
+});
 
 const sc = s.schema[lang];
 const schema = [
@@ -46,7 +75,7 @@ const schema = [
   translations={translationsFor(path)}
   schema={schema}
 >
-<section class="page-head" style={`--ph-img: url(${heroImg}); --ph-img-sm: url(${heroImg})`}>
+<section class="page-head" style={`--ph-img: url(${heroImg}); --ph-img-sm: url(${heroImg.replace('.webp', '-sm.webp')})`}>
   <div class="wrap">
     <h1 set:html={twoTone(s.h1[lang])} />
     <p>{s.lead[lang]}</p>
@@ -67,7 +96,7 @@ const schema = [
           <div class="proc-step">
             <div class="proc-num"></div>
             <div class="proc-body">
-              <h3>{it.title[lang]}</h3>
+              <h2>{it.title[lang]}</h2>
               <p>{it.text[lang]}</p>
             </div>
           </div>
@@ -78,7 +107,7 @@ const schema = [
         {s.items.map((it, i) => (
           <article class="feat-card">
             <span class="feat-idx">{String(i + 1).padStart(2, '0')}</span>
-            <h3>{it.title[lang]}</h3>
+            <h2>{it.title[lang]}</h2>
             <p>{it.text[lang]}</p>
           </article>
         ))}
@@ -86,6 +115,22 @@ const schema = [
     )}
   </div>
 </section>
+{ex && (
+  <section class="pd-related section">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="sec-title" set:html={EX_UI.title} />
+        <p>{EX_UI.text}</p>
+      </div>
+      <div class="op-grid">
+        {examples.map((p) => <ProductCard product={p} lang={lang} catLabel={ex.cat[lang]} />)}
+      </div>
+      <p style="margin-top: 20px">
+        {EX_UI.custom} {ex.custom.map((c) => <a href={c.url} target="_blank" rel="noopener" style="text-decoration: underline">{c.label[lang]}</a>)} (Instagram).
+      </p>
+    </div>
+  </section>
+)}
 <Faq lang={lang} items={PAGE_FAQS[`service-${service}`]} />
 
 <Zcta title={cta.title} text={cta.text} callLabel={cta.call} />
