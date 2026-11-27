@@ -130,17 +130,18 @@ const schema = [
 )}
 
 <script is:inline slot="after" define:vars={{ m: t.js }}>
-  // Prefill poruke sa strane kompleta (?komplet=) ili proizvoda (?proizvod=)
+  // Prefill poruke sa strane kompleta (?komplet=), proizvoda (?proizvod=) ili iz 3D konfiguratora (?poruka= je gotov tekst)
   (function () {
     const q = new URLSearchParams(location.search);
-    const komplet = q.get('komplet'), proizvod = q.get('proizvod');
-    if (!komplet && !proizvod) return;
+    const komplet = q.get('komplet'), proizvod = q.get('proizvod'), poruka = q.get('poruka');
+    if (!komplet && !proizvod && !poruka) return;
     const msg = document.getElementById('kMsg');
     if (!msg.value.trim()) {
-      msg.value = komplet
+      msg.value = poruka ? poruka : komplet
         ? m.prefillKit.replace('{x}', () => komplet)
         : m.prefillProduct.replace('{x}', () => proizvod);
     }
+    if (poruka) msg.style.height = msg.scrollHeight + 4 + 'px'; // poruka iz konfiguratora je duga, da stane bez skrola
     document.getElementById('kForm').scrollIntoView({ block: 'center' });
   })();
 
@@ -180,6 +181,10 @@ const schema = [
       ]);
     } catch (e) {}
     if (ok) {
+      // izvor: odakle je posetilac dosao na formu (3D konfigurator, komplet, proizvod ili direktno)
+      const q = new URLSearchParams(location.search);
+      const izvor = q.has('poruka') ? '3d' : q.has('komplet') ? 'komplet' : q.has('proizvod') ? 'proizvod' : 'direktno';
+      window.gtag('event', 'generate_lead', { izvor: izvor });
       document.getElementById('kForm').classList.add('sent');
       document.getElementById('kSuccess').classList.add('show');
     } else {

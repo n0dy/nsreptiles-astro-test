@@ -1,0 +1,164 @@
+{
+  "sr": {
+    "terarijum-box": [
+      463,
+      600
+    ],
+    "terarijum-lid": [
+      463,
+      255
+    ],
+    "terarijum-vent": [
+      463,
+      320
+    ],
+    "terarijum-foil": [
+      463,
+      691
+    ],
+    "terarijum-decor": [
+      463,
+      700
+    ],
+    "terarijum-pregled": [
+      977,
+      780
+    ],
+    "akvarijum-box": [
+      463,
+      478
+    ],
+    "akvarijum-water": [
+      463,
+      404
+    ],
+    "akvarijum-lid": [
+      463,
+      320
+    ],
+    "akvarijum-foil": [
+      463,
+      691
+    ],
+    "akvarijum-decor": [
+      463,
+      700
+    ],
+    "akvarijum-pregled": [
+      977,
+      780
+    ],
+    "ar-telefon": [
+      780,
+      836
+    ]
+  },
+  "en": {
+    "terarijum-box": [
+      463,
+      600
+    ],
+    "terarijum-lid": [
+      463,
+      255
+    ],
+    "terarijum-vent": [
+      463,
+      320
+    ],
+    "terarijum-foil": [
+      463,
+      691
+    ],
+    "terarijum-decor": [
+      463,
+      700
+    ],
+    "terarijum-pregled": [
+      977,
+      780
+    ],
+    "akvarijum-box": [
+      463,
+      478
+    ],
+    "akvarijum-water": [
+      463,
+      404
+    ],
+    "akvarijum-lid": [
+      463,
+      320
+    ],
+    "akvarijum-foil": [
+      463,
+      691
+    ],
+    "akvarijum-decor": [
+      463,
+      700
+    ],
+    "akvarijum-pregled": [
+      977,
+      780
+    ],
+    "ar-telefon": [
+      780,
+      836
+    ]
+  },
+  "ru": {
+    "terarijum-box": [
+      463,
+      600
+    ],
+    "terarijum-lid": [
+      463,
+      255
+    ],
+    "terarijum-vent": [
+      463,
+      320
+    ],
+    "terarijum-foil": [
+      463,
+      691
+    ],
+    "terarijum-decor": [
+      463,
+      700
+    ],
+    "terarijum-pregled": [
+      977,
+      780
+    ],
+    "akvarijum-box": [
+      463,
+      478
+    ],
+    "akvarijum-water": [
+      463,
+      424
+    ],
+    "akvarijum-lid": [
+      463,
+      320
+    ],
+    "akvarijum-foil": [
+      463,
+      691
+    ],
+    "akvarijum-decor": [
+      463,
+      700
+    ],
+    "akvarijum-pregled": [
+      977,
+      780
+    ],
+    "ar-telefon": [
+      780,
+      836
+    ]
+  }
+}

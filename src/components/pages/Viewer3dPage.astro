@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import type { Locale } from '../../config/site';
 import { localizePath, translationsFor } from '../../i18n/routes';
 import { VIEWER_3D } from '../../i18n/pages/viewer-3d';
+import { GUIDE_3D } from '../../i18n/pages/guide-3d';
 
 interface Props {
   lang: Locale;
@@ -17,6 +18,31 @@ const t = aqua
   : { ...base, tabWater: '' };
 const terraPath = localizePath('/3d-terarijum.html', lang), aquaPath = localizePath('/3d-akvarijum.html', lang);
 const path = aqua ? aquaPath : terraPath;
+// tekstovi za poruku porudzbine (dugme "Poruci" salje parametre na kontakt formu)
+const order = {
+  intro: t.order[1], link: t.order[2], contact: localizePath('/kontakt.html', lang),
+  dims: t.dimensions, foil: t.texture, silicone: t.silicone, bg: t.background, substrate: t.substrate, decor: t.decor,
+};
+const guidePath = localizePath('/3d-uputstvo.html', lang), guideLabel = GUIDE_3D[lang].link, beta = GUIDE_3D[lang].beta;
+// staticki uvod ispod konfiguratora: jedini tekst strane koji postoji i bez JavaScript-a (pretrazivaci, AI crawleri)
+const INTRO = {
+  sr: {
+    terarijum: ['3D konfigurator terarijuma', 'Složi stakleni terarijum po svojoj meri i pogledaj ga u 3D pre nego što ga poručiš. Biraš dužinu 30–200 cm, širinu 25–100 cm i visinu 25–150 cm, zatim poklopac, ventilaciju, klizna stakla, dezen folije, 3D pozadinu, supstrat i dekoraciju. Na telefonu model možeš da postaviš u svoj prostor (AR).'],
+    akvarijum: ['3D konfigurator akvarijuma', 'Složi stakleni akvarijum po svojoj meri i pogledaj ga u 3D pre nego što ga poručiš. Biraš dužinu 20–200 cm, širinu 15–100 cm i visinu 15–120 cm, a konfigurator računa litražu i potrebnu debljinu stakla. Dodaješ poklopac, ugrađeni filter, foliju, 3D pozadinu, supstrat i dekoraciju. Na telefonu model možeš da postaviš u svoj prostor (AR).'],
+    order: 'Dugme „Poruči“ šalje izabrane parametre i link ka modelu na kontakt formu, a mi se javljamo sa cenom. Izrada po meri traje 7–14 dana. Konfigurator je u beta verziji, pa se prikaz može razlikovati od gotovog proizvoda u detaljima.',
+  },
+  en: {
+    terarijum: ['3D terrarium configurator', 'Build a custom glass terrarium and view it in 3D before you order. Choose a length of 30–200 cm, width of 25–100 cm and height of 25–150 cm, then the lid, ventilation, sliding glass, film finish, 3D background, substrate and decor. On a phone you can place the model in your own room (AR).'],
+    akvarijum: ['3D aquarium configurator', 'Build a custom glass aquarium and view it in 3D before you order. Choose a length of 20–200 cm, width of 15–100 cm and height of 15–120 cm; the configurator works out the volume in litres and the glass thickness needed. Add a lid, built-in filter, film, 3D background, substrate and decor. On a phone you can place the model in your own room (AR).'],
+    order: 'The "Order" button sends the chosen parameters and a link to the model to our contact form, and we reply with a price. Custom builds take 7–14 days. The configurator is in beta, so the preview may differ from the finished product in details.',
+  },
+  ru: {
+    terarijum: ['3D-конфигуратор террариума', 'Соберите стеклянный террариум по своим размерам и посмотрите его в 3D до заказа. Выбирайте длину 30–200 см, ширину 25–100 см и высоту 25–150 см, затем крышку, вентиляцию, раздвижные стёкла, плёнку, 3D-фон, грунт и декор. На телефоне модель можно разместить у себя в комнате (AR).'],
+    akvarijum: ['3D-конфигуратор аквариума', 'Соберите стеклянный аквариум по своим размерам и посмотрите его в 3D до заказа. Выбирайте длину 20–200 см, ширину 15–100 см и высоту 15–120 см; конфигуратор считает объём в литрах и нужную толщину стекла. Добавьте крышку, встроенный фильтр, плёнку, 3D-фон, грунт и декор. На телефоне модель можно разместить у себя в комнате (AR).'],
+    order: 'Кнопка «Заказать» отправляет выбранные параметры и ссылку на модель в контактную форму, а мы отвечаем с ценой. Изготовление на заказ занимает 7–14 дней. Конфигуратор работает в бета-версии, поэтому изображение может отличаться от готового изделия в деталях.',
+  },
+}[lang];
+const intro = INTRO[type];
 ---
 <Base
   lang={lang}
@@ -38,7 +64,7 @@ const path = aqua ? aquaPath : terraPath;
                     : hintDesktop;
             </script>
 
-            <button id="lid-button" title={t.lid}>
+            <button id="lid-button" title={t.lid} aria-label={t.lid}>
                 <svg class="lid-closed" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                     fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
                     <rect x="2" y="6" width="20" height="2.5" rx="0.5" />
@@ -56,7 +82,7 @@ const path = aqua ? aquaPath : terraPath;
                 </svg>
             </button>
 
-            <button id="help-button" title={t.help}>
+            <button id="help-button" title={t.help} aria-label={t.help}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <circle cx="12" cy="12" r="10" />
@@ -126,6 +152,7 @@ const path = aqua ? aquaPath : terraPath;
                             <p>{t.helpTexture.text}</p>
                         </div>
                     </div>
+                    <a class="guide-link" href={guidePath}>{guideLabel}</a>
                     <button id="help-close">{t.close}</button>
                 </div>
             </div>
@@ -137,14 +164,14 @@ const path = aqua ? aquaPath : terraPath;
                 ar-scale="auto" camera-controls alt={t.modelAlt}></model-viewer>
 
             <div id="viewer-actions">
-                <button id="screenshot-button" title={t.shot}>
+                <button id="screenshot-button" title={t.shot} aria-label={t.shot}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
                         <circle cx="12" cy="13" r="4" />
                     </svg>
                 </button>
-                <button id="ar-button" class="hidden" title={t.ar}>
+                <button id="ar-button" class="hidden" title={t.ar} aria-label={t.ar}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M12 3l9 4.5v9L12 21l-9-4.5v-9L12 3z" />
@@ -161,6 +188,7 @@ const path = aqua ? aquaPath : terraPath;
                 <a href={terraPath} aria-current={aqua ? undefined : 'page'}>{base.typeSwitch[1]}</a>
                 <a href={aquaPath} aria-current={aqua ? 'page' : undefined}>{base.typeSwitch[2]}</a>
             </nav>
+            <p class="beta-note"><b>{beta[0]}</b>{beta[1]}</p>
             <div class="panel-top">
             <div class="panel-tabs" role="tablist">
                 <button type="button" role="tab" data-tab="box" aria-selected="true">{t.tabBox}</button>
@@ -202,21 +230,21 @@ const path = aqua ? aquaPath : terraPath;
                         <span>{t.leftGlass}</span>
                         <span class="door-value" id="door-left-value">0%</span>
                     </div>
-                    <input type="range" id="door-left-slider" min="0" max="100" value="0">
+                    <input type="range" id="door-left-slider" min="0" max="100" value="0" aria-label={t.leftGlass}>
                 </div>
                 <div class="door-control">
                     <div class="door-header">
                         <span>{t.rightGlass}</span>
                         <span class="door-value" id="door-right-value">0%</span>
                     </div>
-                    <input type="range" id="door-right-slider" min="0" max="100" value="0" style="direction:rtl">
+                    <input type="range" id="door-right-slider" min="0" max="100" value="0" style="direction:rtl" aria-label={t.rightGlass}>
                 </div>
             </div>
             </div>
             <div class="panel-tab" data-tab="water" hidden>
             <div class="panel-header">
                 <div class="panel-header-icon"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M2 7c2-2 4-2 6 0s4 2 6 0 4-2 6 0" /><path d="M2 13c2-2 4-2 6 0s4 2 6 0 4-2 6 0" /><path d="M2 19c2-2 4-2 6 0s4 2 6 0 4-2 6 0" /></svg></div>
-                <h3>{t.tabWater}</h3>
+                {t.tabWater && <h3>{t.tabWater}</h3>}
             </div>
             <div id="build-water"></div>
             </div>
@@ -295,9 +323,33 @@ const path = aqua ? aquaPath : terraPath;
             </div>
             <p class="dim-hint decor-hint">{t.decorHint}</p>
             </div>
+            <button type="button" id="order-button">{t.order[0]}</button>
+            <a class="guide-link" href={guidePath}>{guideLabel}</a>
         </div>
     </div>
+<section class="viewer-intro">
+    <h2>{intro[0]}</h2>
+    <p>{intro[1]}</p>
+    <p>{INTRO.order} <a href={guidePath}>{guideLabel}</a></p>
+</section>
 <style is:global>
+.viewer-intro {
+max-width: 760px;
+margin: 0 auto;
+padding: 40px 20px 48px;
+}
+.viewer-intro h2 {
+font-size: 1.3rem;
+margin-bottom: 12px;
+}
+.viewer-intro p {
+line-height: 1.65;
+margin-bottom: 10px;
+}
+.viewer-intro a {
+color: var(--green-dark, #2d6a2e);
+text-decoration: underline;
+}
 #viewer-page {
 display: flex;
 width: 100%;
@@ -1216,6 +1268,53 @@ color: #888;
 line-height: 1.4;
 }
 
+#order-button {
+display: block;
+width: 100%;
+min-height: 46px;
+margin-top: 22px;
+border: 0;
+border-radius: 8px;
+background: #007c55;
+font: 600 14px/1.2 inherit;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #fff;
+cursor: pointer;
+}
+
+#order-button:hover {
+background: #00623f;
+}
+
+.beta-note {
+margin: 0 0 12px;
+font-size: 12px;
+color: #666;
+}
+
+.beta-note b {
+margin-right: 8px;
+padding: 2px 8px;
+border-radius: 4px;
+background: #1f7a5a;
+font-size: 11px;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #fff;
+}
+
+.guide-link {
+display: block;
+margin-top: 18px;
+padding: 6px 0;
+font-size: 13px;
+text-align: center;
+color: #1f7a5a;
+text-decoration: underline;
+text-underline-offset: 3px;
+}
+
 #help-close {
 display: block;
 width: 100%;
@@ -1382,7 +1481,7 @@ height: 44px;
         }
     }
     </script>
-<script is:inline slot="after" type="application/json" id="viewer-i18n" set:html={JSON.stringify(t.js)}></script>
+<script is:inline slot="after" type="application/json" id="viewer-i18n" set:html={JSON.stringify({ ...t.js, order })}></script>
 <script is:inline slot="after" type="module">
         import * as THREE from 'three';
         import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
@@ -1642,11 +1741,12 @@ height: 44px;
             return out;
         }
 
-        function buildRelief(img, w, h) {
-            const b = panelBounds(img);
+        // u0..u1: deo sirine slike (0-1) koji ide na ovaj komad, da se slika nastavlja preko vise komada
+        function buildRelief(img, w, h, u0, u1) {
+            const b = panelBounds(img), sx = b.x + b.w * u0, sw = b.w * (u1 - u0);
             const colorCanvas = document.createElement('canvas');
-            colorCanvas.width = Math.round(b.w); colorCanvas.height = Math.round(b.h);
-            colorCanvas.getContext('2d').drawImage(img, b.x, b.y, b.w, b.h, 0, 0, colorCanvas.width, colorCanvas.height);
+            colorCanvas.width = Math.max(1, Math.round(sw)); colorCanvas.height = Math.round(b.h);
+            colorCanvas.getContext('2d').drawImage(img, sx, b.y, sw, b.h, 0, 0, colorCanvas.width, colorCanvas.height);
 
             // Krupni oblici reljefa: mreza verteksa, zagladjena da nema siljaka od suma
             const gw = BG_SEG_X + 1, gh = BG_SEG_Y + 1;
@@ -1729,11 +1829,27 @@ height: 44px;
                 }
                 if (request !== bgRequest) return;
                 const innerH = modelSize.y - 2 * GLASS_M - 0.002;
-                const relief = buildRelief(img, modelSize.x - 2 * GLASS_M - 0.002, innerH);
-                relief.position.set(0, -modelSize.y / 2 + GLASS_M + 0.001 + innerH / 2, -modelSize.z / 2 + GLASS_M + 0.001);
-                relief.receiveShadow = true;
+                const L = modelSize.x * 1000, W = modelSize.z * 1000, innerL = L - 2 * T_GLASS;
                 mesh = new THREE.Group();
-                mesh.add(relief, blackFoil());
+                const spans = backgroundSpans(L, W, build), wrap = BG_RELIEF_DEPTH * 600; // mm
+                const yMid = -modelSize.y / 2 + GLASS_M + 0.001 + innerH / 2, frac = function (mm) { return (mm - T_GLASS) / innerL; };
+                spans.forEach(function (sp, i) {
+                    const prev = spans[i - 1], next = spans[i + 1];
+                    // komad ispred pregrade filtera prelazi malo preko ugla komore, da se spoji sa komadom na njenom boku
+                    const x0 = sp[0] - (prev && prev[2] > sp[2] ? wrap : 0), x1 = sp[1] + (next && next[2] > sp[2] ? wrap : 0);
+                    const relief = buildRelief(img, (x1 - x0) / 1000 - 0.002, innerH, frac(sp[0]), frac(sp[1]));
+                    relief.position.set(((x0 + x1) / 2 - L / 2) / 1000, yMid, (W / 2 - sp[2]) / 1000 + 0.001);
+                    mesh.add(relief);
+                    if (!next || next[2] === sp[2]) return;
+                    // bok komore (kod filtera na polovini zadnje strane): komad pozadine okrenut ka slobodnoj polovini
+                    const dir = next[2] > sp[2] ? 1 : -1, y0 = Math.min(sp[2], next[2]) - wrap, y1 = Math.max(sp[2], next[2]);
+                    const u = Math.min(frac(sp[1]), 1 - (y1 - y0) / innerL);
+                    const side = buildRelief(img, (y1 - y0) / 1000, innerH, u, u + (y1 - y0) / innerL);
+                    side.rotation.y = dir * Math.PI / 2;
+                    side.position.set((sp[1] - L / 2) / 1000 + dir * 0.001, yMid, (W / 2 - (y0 + y1) / 2) / 1000);
+                    mesh.add(side);
+                });
+                mesh.add(blackFoil());
                 if (panelMaterials.length) mesh.add(sideStrips());
             }
             if (request !== bgRequest) return;
@@ -2147,6 +2263,19 @@ height: 44px;
             return out;
         }
         console.assert(!AQUA || substrateRects(1000, 400, { filter: 'backLeft', filterMm: 100 }).length === 2, 'substrateRects');
+        // 3D pozadina ne ulazi u komoru filtera: komadi [x0, x1, y] gde je y ravan na koju se komad naslanja
+        // (zadnje staklo ili prednja strana pregrade filtera)
+        function backgroundSpans(L, W, c) {
+            const g = T_GLASS, t = FILTER_GLASS, b = AQUA && filterChamber(L, W, c).box;
+            if (!b) return [[g, L - g, W - g]];
+            const out = [];
+            if (b[0] > g) out.push([g, b[0] - t, W - g]);
+            if (b[2] > g) out.push([Math.max(g, b[0] - t), Math.min(L - g, b[1] + t), b[2] - t]);
+            if (b[1] < L - g) out.push([b[1] + t, L - g, W - g]);
+            return out;
+        }
+        console.assert(!AQUA || (backgroundSpans(1000, 400, { filter: 'left', filterMm: 100 }).length === 1 && backgroundSpans(1000, 400, { filter: 'backLeft', filterMm: 100 }).length === 2
+            && backgroundSpans(1000, 400, { filter: 'back', filterMm: 100 })[0][2] < 400 - T_GLASS), 'backgroundSpans');
         // dupli poklopac: drugo staklo je COVER_DROP ispod glavnog (kod niskih akvarijuma manje); vraca visinu njegove donje strane
         function lowCoverZ(H) {
             return H - 2 * COVER_GLASS - Math.min(COVER_DROP, H / 3);
@@ -3040,6 +3169,7 @@ height: 44px;
         });
 
         arButton.addEventListener('click', function () {
+            window.gtag('event', 'ar_3d', { tip: AQUA ? 'akvarijum' : 'terarijum' });
             if (arModel.canActivateAR) arModel.activateAR();
         });
 
@@ -3107,17 +3237,39 @@ height: 44px;
         // Sve sto dodje iz URL-a prolazi kroz iste granice i spiskove dozvoljenih vrednosti kao i unos u panelu.
         let urlReady = false;
         const URL_DECOR_MAX = 20;
+        // Poruci: parametri modela i link ka njemu idu u poruku na kontakt formi
+        function orderMessage() {
+            const O = T.order, lines = [O.dims + ': ' + DIM_FIELDS.map(function (f) { return dims[f.key]; }).join(' x ') + ' ' + T.unit];
+            BUILD_FIELDS.forEach(function (f) {
+                if (f.when && !f.when(build)) return;
+                const opt = f.options && f.options.find(function (o) { return o[0] === build[f.key]; });
+                lines.push(f.label + ': ' + (opt ? opt[1] : build[f.key] + (f.unit === undefined ? ' mm' : f.unit)));
+            });
+            lines.push(O.foil + ': ' + activeWood.name, O.silicone[0] + ': ' + O.silicone[siliconeColor === 'black' ? 1 : 2], O.bg + ': ' + activeBg.name);
+            const sub = SUBSTRATES.find(function (o) { return o.key === substrate.type; });
+            lines.push(O.substrate + ': ' + sub.name + (substrate.type === 'none' ? '' : ' ' + substrate.cm + ' ' + T.unit));
+            if (decorGroup.children.length) lines.push(O.decor + ': ' + decorGroup.children.map(function (o) { return o.userData.decor.name; }).join(', '));
+            return O.intro + '\n' + lines.map(function (l) { return '- ' + l; }).join('\n') + '\n\n' + O.link + ': ' + location.href;
+        }
+        document.getElementById('order-button').addEventListener('click', function () {
+            syncUrl();
+            window.gtag('event', 'poruci_3d', { tip: AQUA ? 'akvarijum' : 'terarijum' });
+            location.href = T.order.contact + '?poruka=' + encodeURIComponent(orderMessage());
+        });
+
         function syncUrl() {
             if (!urlReady) return;
             const q = new URLSearchParams();
-            DIM_FIELDS.forEach(function (f) { if (dims[f.key] !== DEFAULT_DIMS[f.key]) q.set(f.key.toLowerCase(), dims[f.key]); });
+            // u adresi su uvek svi parametri, i pocetni: link tako opisuje ceo model i ne zavisi od toga sta su nam podrazumevane vrednosti
+            DIM_FIELDS.forEach(function (f) { q.set(f.key.toLowerCase(), dims[f.key]); });
             BUILD_FIELDS.forEach(function (f) {
-                if (build[f.key] !== DEFAULT_BUILD[f.key] && (!f.when || f.when(build))) q.set(f.key, build[f.key]);
+                if (!f.when || f.when(build)) q.set(f.key, build[f.key]);
             });
-            if (activeWood !== DEFAULT_WOOD) q.set('foil', activeWood.id);
-            if (siliconeColor !== 'black') q.set('sil', siliconeColor);
-            if (activeBg !== bgOptions[0]) q.set('bg', bgOptions.indexOf(activeBg));
-            if (substrate.type !== 'none') { q.set('sub', substrate.type); q.set('subcm', substrate.cm); }
+            q.set('foil', activeWood.id);
+            q.set('sil', siliconeColor);
+            q.set('bg', bgOptions.indexOf(activeBg));
+            q.set('sub', substrate.type);
+            if (substrate.type !== 'none') q.set('subcm', substrate.cm);
             if (decorGroup.children.length) {
                 q.set('decor', decorGroup.children.map(function (o) {
                     const deg = Math.round(THREE.MathUtils.radToDeg(((o.rotation.y % TAU) + TAU) % TAU)) % 360;
@@ -3179,6 +3331,7 @@ height: 44px;
         applyOption(DEFAULT_WOOD);
         readUrlLook().catch(function (e) { console.error('Stanje iz URL-a nije ucitano:', e); }).then(function () {
             urlReady = true;
+            syncUrl();
             checkDirty();
         });
         document.getElementById('loading').style.display = 'none';

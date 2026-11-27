@@ -53,7 +53,7 @@ export const SHIPPING: Record<Locale, {
             ['Oprema, hrana i dekoracije', '1–3 dana'],
             ['Terarijumi i akvarijumi sa stanja', '2–5 dana'],
             ['Izrada po meri', '7–14 dana'],
-            ['Životinje', 'Lično'],
+            ['Životinje', 'Po dogovoru'],
           ],
         },
         cards: [
@@ -129,7 +129,7 @@ export const SHIPPING: Record<Locale, {
             '<b>Equipment, food &amp; decorations:</b> 1–3 business days',
             '<b>Terrariums &amp; aquariums in stock:</b> 2–5 business days',
             '<b>Custom orders:</b> timeframe agreed individually (typically 7–14 days)',
-            '<b>Animals:</b> delivery only via personal pickup or arrangement',
+            '<b>Animals:</b> pickup in person in Novi Sad or shipping across Serbia by arrangement',
           ],
         },
         {
@@ -178,7 +178,7 @@ export const SHIPPING: Record<Locale, {
             '<b>Оборудование, корм и декорации:</b> 1–3 рабочих дня',
             '<b>Террариумы и аквариумы в наличии:</b> 2–5 рабочих дней',
             '<b>Изготовление на заказ:</b> срок обговаривается индивидуально (обычно 7–14 дней)',
-            '<b>Животные:</b> только самовывоз или по договорённости',
+            '<b>Животные:</b> самовывоз в Нови-Саде или отправка по Сербии по договорённости',
           ],
         },
         {

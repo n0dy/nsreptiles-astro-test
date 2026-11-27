@@ -14,7 +14,7 @@ export const ANIMALS_TEXT = {
     h1: 'Egzotične životinje',
     lead: 'Zdravi, pravilno hranjeni reptili spremni za novi dom - odgajani kod nas ili preuzeti od proverenih odgajivača iz Srbije i regiona.',
     intro:
-      'U <strong>NS Reptiles</strong> odgajivačnici radimo isključivo sa vrstama koje smo lično odgajili ili preuzeli od proverenih odgajivača. Za svaku vrstu pripremili smo detaljan vodič sa preporukama za opremu i negu, kako bi vaš novi ljubimac od prvog dana imao ispravne uslove.',
+      'U <strong>NS Reptiles</strong> odgajivačnici radimo isključivo sa vrstama koje smo lično odgajili ili preuzeli od proverenih odgajivača. Za svaku vrstu pripremili smo detaljan vodič sa preporukama za opremu i negu, kako bi vaš novi ljubimac od prvog dana imao ispravne uslove. Posebno smo izdvojili <a href="/gekoni.html">gekone</a> i <a href="/zmije.html">zmije</a>.',
     beginner: 'Za početnike',
     view: 'Pogledaj vrstu',
     species: { one: 'vrsta', few: 'vrste', other: 'vrsta' },
@@ -40,7 +40,7 @@ export const ANIMALS_TEXT = {
     h1: 'Exotic animals',
     lead: 'Healthy, properly fed reptiles ready for a new home - bred by us or sourced from trusted breeders in Serbia and the region.',
     intro:
-      'At <strong>NS Reptiles</strong> breeder, we work exclusively with species we have personally bred or sourced from trusted breeders. For each species, we have prepared a detailed guide with equipment and care recommendations, so your new pet has the right conditions from day one.',
+      'At <strong>NS Reptiles</strong> breeder, we work exclusively with species we have personally bred or sourced from trusted breeders. For each species, we have prepared a detailed guide with equipment and care recommendations, so your new pet has the right conditions from day one. We have separate pages for <a href="/en/geckos.html">geckos</a> and <a href="/en/snakes.html">snakes</a>.',
     beginner: 'For beginners',
     view: 'View species',
     species: { one: 'species', other: 'species' },
@@ -66,7 +66,7 @@ export const ANIMALS_TEXT = {
     h1: 'Экзотические животные',
     lead: 'Здоровые, правильно выкормленные рептилии, готовые к новому дому - выращенные у нас или полученные от проверенных заводчиков из Сербии и региона.',
     intro:
-      'В питомнике <strong>NS Reptiles</strong> мы работаем исключительно с видами, которых лично вырастили или получили от проверенных заводчиков. Для каждого вида мы подготовили подробное руководство с рекомендациями по оборудованию и уходу, чтобы ваш новый питомец с первого дня имел правильные условия.',
+      'В питомнике <strong>NS Reptiles</strong> мы работаем исключительно с видами, которых лично вырастили или получили от проверенных заводчиков. Для каждого вида мы подготовили подробное руководство с рекомендациями по оборудованию и уходу, чтобы ваш новый питомец с первого дня имел правильные условия. Отдельные страницы посвящены <a href="/ru/geckos.html">гекконам</a> и <a href="/ru/snakes.html">змеям</a>.',
     beginner: 'Для начинающих',
     view: 'Подробнее о виде',
     species: { one: 'вид', few: 'вида', many: 'видов', other: 'вида' },
@@ -337,9 +337,9 @@ export const SNAKES_TEXT = {
   },
   ru: {
     meta: {
-      title: 'Змеи на продажу - королевский питон и маисовый полоз | NS Reptiles',
+      title: 'Змеи на продажу: королевский питон, маисовый полоз | NS Reptiles',
       description:
-        'Продажа змей домашнего разведения в Нови-Саде: маисовый полоз от 6 000 RSD, королевский питон от 12 000 RSD. Спокойные змеи для начинающих, стартовые наборы и советы.',
+        'Продажа змей домашнего разведения в Нови-Саде: маисовый полоз от 6 000 RSD, королевский питон от 12 000 RSD. Спокойные змеи для начинающих и стартовые наборы.',
       ogDescription: 'Маисовые полозы и королевские питоны из питомника NS Reptiles, Нови-Сад.',
     },
     h1: 'Змеи на продажу',
@@ -378,10 +378,91 @@ export const SNAKES_FAQ: { q: L; a: L }[] = [
   {
     q: { sr: 'Kako se preuzima zmija?', en: 'How do I collect a snake?', ru: 'Как забрать змею?' },
     a: {
-      sr: 'Životinje se preuzimaju lično u Novom Sadu, a za Beograd i okolinu se dogovaramo. Terarijum i opremu šaljemo kurirskom službom širom Srbije.',
-      en: 'Animals are collected in person in Novi Sad, and we make arrangements for Belgrade and the surrounding area. Terrariums and equipment are shipped by courier across Serbia.',
-      ru: 'Животных забирают лично в Нови-Саде, для Белграда и окрестностей договариваемся отдельно. Террариум и оборудование отправляем курьерской службой по всей Сербии.',
+      sr: 'Životinje možete preuzeti lično u Novom Sadu, a šaljemo ih i širom Srbije po dogovoru. Terarijum i opremu šaljemo kurirskom službom širom Srbije.',
+      en: 'Animals can be collected in person in Novi Sad, and we also ship them across Serbia by arrangement. Terrariums and equipment are shipped by courier across Serbia.',
+      ru: 'Животных можно забрать лично в Нови-Саде, также отправляем их по всей Сербии по договорённости. Террариум и оборудование отправляем курьерской службой по всей Сербии.',
     },
   },
 ];
 
+
+// Strana /gekoni.html: pregled svih gekona u ponudi (upit "gekon" je dosad vodio samo na strane pojedinacnih vrsta)
+export const GECKOS_TEXT = {
+  sr: {
+    meta: {
+      title: 'Gekon: vrste, cena i nega - leopard, crested, debelorepi',
+      description:
+        'Gekoni iz domaćeg uzgoja u Novom Sadu: leopard gekon i crested gekon od 6.000 din, debelorepi gekon od 7.200 din. Koji gekon je za početnike i šta mu treba.',
+      ogDescription: 'Leopard, crested i debelorepi gekon iz odgajivačnice NS Reptiles, Novi Sad.',
+    },
+    h1: 'Gekoni na prodaju',
+    lead: 'Leopard, crested i debelorepi gekon iz domaćeg uzgoja - mali, mirni gušteri koji su dobar izbor i za prvog reptila.',
+    intro:
+      'Gekon je mali gušter koji se lako drži u stanu: ne traži veliki terarijum, miran je i brzo se navikne na rukovanje. U <strong>NS Reptiles</strong> odgajivačnici u Novom Sadu uzgajamo tri vrste: <strong>leopard gekona</strong> (od 6.000 din), <strong>crested gekona</strong> (od 6.000 din) i <strong>debelorepog gekona</strong> (od 7.200 din). Leopard i debelorepi gekon žive na tlu i jedu insekte, pa im odgovara horizontalni terarijum. Crested gekon se penje, pa mu treba vertikalni terarijum sa granama. Za svaku vrstu imamo vodič za negu, a uz gekona možete uzeti i terarijum sa opremom.',
+    groupTitle: { sr: 'Gekoni', en: 'Geckos', ru: 'Гекконы' },
+    faqTitle: 'Česta pitanja o <b>gekonima</b>',
+  },
+  en: {
+    meta: {
+      title: 'Geckos for Sale - Leopard, Crested, Fat-Tailed | NS Reptiles',
+      description:
+        'Captive-bred geckos in Novi Sad: leopard and crested geckos from 6,000 RSD, fat-tailed geckos from 7,200 RSD. Which gecko suits a beginner and what it needs.',
+      ogDescription: 'Leopard, crested and fat-tailed geckos from the NS Reptiles breeding facility, Novi Sad.',
+    },
+    h1: 'Geckos for sale',
+    lead: 'Captive-bred leopard, crested and fat-tailed geckos - small, calm lizards that also make a good first reptile.',
+    intro:
+      'A gecko is a small lizard that is easy to keep in a flat: it does not need a large terrarium, it is calm and it quickly gets used to handling. At the <strong>NS Reptiles</strong> breeding facility in Novi Sad we breed three species: the <strong>leopard gecko</strong> (from 6,000 RSD), the <strong>crested gecko</strong> (from 6,000 RSD) and the <strong>fat-tailed gecko</strong> (from 7,200 RSD). Leopard and fat-tailed geckos live on the ground and eat insects, so a horizontal terrarium suits them. The crested gecko climbs, so it needs a vertical terrarium with branches. We have a care guide for each species, and you can take a terrarium with equipment along with your gecko.',
+    groupTitle: { sr: 'Gekoni', en: 'Geckos', ru: 'Гекконы' },
+    faqTitle: 'Frequently asked questions about <b>geckos</b>',
+  },
+  ru: {
+    meta: {
+      title: 'Гекконы на продажу: леопардовый, реснитчатый | NS Reptiles',
+      description:
+        'Гекконы домашнего разведения в Нови-Саде: леопардовый и реснитчатый от 6 000 RSD, толстохвостый от 7 200 RSD. Какой геккон подойдёт начинающему.',
+      ogDescription: 'Леопардовые, реснитчатые и толстохвостые гекконы из питомника NS Reptiles, Нови-Сад.',
+    },
+    h1: 'Гекконы на продажу',
+    lead: 'Леопардовые, реснитчатые и толстохвостые гекконы домашнего разведения - небольшие спокойные ящерицы, подходящие и как первая рептилия.',
+    intro:
+      'Геккон - небольшая ящерица, которую легко содержать в квартире: ему не нужен большой террариум, он спокоен и быстро привыкает к рукам. В питомнике <strong>NS Reptiles</strong> в Нови-Саде мы разводим три вида: <strong>леопардового геккона</strong> (от 6 000 RSD), <strong>реснитчатого геккона</strong> (от 6 000 RSD) и <strong>толстохвостого геккона</strong> (от 7 200 RSD). Леопардовый и толстохвостый гекконы живут на земле и едят насекомых, поэтому им подходит горизонтальный террариум. Реснитчатый геккон лазает, и ему нужен вертикальный террариум с ветками. Для каждого вида у нас есть руководство по уходу, а вместе с гекконом можно взять террариум с оборудованием.',
+    groupTitle: { sr: 'Gekoni', en: 'Geckos', ru: 'Гекконы' },
+    faqTitle: 'Частые вопросы о <b>гекконах</b>',
+  },
+};
+
+export const GECKOS_FAQ: { q: L; a: L }[] = [
+  {
+    q: { sr: 'Koji gekon je najbolji za početnike?', en: 'Which gecko is best for beginners?', ru: 'Какой геккон лучше всего подходит начинающим?' },
+    a: {
+      sr: 'Leopard gekon. Miran je, dobro podnosi rukovanje, jede insekte i dovoljan mu je horizontalni terarijum od oko 50x35x35 cm. Crested gekon je dobar izbor ako želite vrstu kojoj na sobnoj temperaturi ne treba grejna lampa.',
+      en: 'The leopard gecko. It is calm, tolerates handling well, eats insects and a horizontal terrarium of about 50x35x35 cm is enough for it. The crested gecko is a good choice if you want a species that needs no heat lamp at room temperature.',
+      ru: 'Леопардовый геккон. Он спокоен, хорошо переносит контакт с человеком, ест насекомых, и ему достаточно горизонтального террариума примерно 50x35x35 см. Реснитчатый геккон - хороший выбор, если нужен вид, которому при комнатной температуре не требуется обогревательная лампа.',
+    },
+  },
+  {
+    q: { sr: 'Koliko košta gekon?', en: 'How much does a gecko cost?', ru: 'Сколько стоит геккон?' },
+    a: {
+      sr: 'Leopard gekon i crested gekon su od 6.000 din, debelorepi gekon od 7.200 din. Cena zavisi od starosti i morfa (boje i šare). Starter komplet za leopard gekona, sa terarijumom 50x35x35, grejanjem i opremom, je 12.500 din.',
+      en: 'Leopard and crested geckos start at 6,000 RSD and fat-tailed geckos at 7,200 RSD. The price depends on age and morph (colour and pattern). The leopard gecko starter kit, with a 50x35x35 terrarium, heating and equipment, is 12,500 RSD.',
+      ru: 'Леопардовый и реснитчатый гекконы - от 6 000 RSD, толстохвостый - от 7 200 RSD. Цена зависит от возраста и морфы (окраса и рисунка). Стартовый набор для леопардового геккона с террариумом 50x35x35, обогревом и оборудованием стоит 12 500 RSD.',
+    },
+  },
+  {
+    q: { sr: 'Koliko dugo živi gekon?', en: 'How long does a gecko live?', ru: 'Сколько живёт геккон?' },
+    a: {
+      sr: 'Leopard gekon uz pravilnu negu živi 15-20 godina, a i ostale vrste koje uzgajamo žive duže od deset godina. Gekon je zato dugoročna obaveza, a ne ljubimac na par godina.',
+      en: 'With proper care a leopard gecko lives 15-20 years, and the other species we breed also live more than ten years. A gecko is therefore a long-term commitment, not a pet for a couple of years.',
+      ru: 'При правильном уходе леопардовый геккон живёт 15-20 лет, а другие виды, которые мы разводим, также живут более десяти лет. Поэтому геккон - это долгосрочная ответственность, а не питомец на пару лет.',
+    },
+  },
+  {
+    q: { sr: 'Kakav terarijum treba gekonu?', en: 'What terrarium does a gecko need?', ru: 'Какой террариум нужен геккону?' },
+    a: {
+      sr: 'Leopard i debelorepi gekon žive na tlu, pa im treba horizontalni terarijum sa toplom i hladnom stranom i skrovištima. Crested gekon se penje, pa mu treba vertikalni terarijum sa granama i biljkama. Terarijume za sve tri vrste izrađujemo i po meri.',
+      en: 'Leopard and fat-tailed geckos live on the ground, so they need a horizontal terrarium with a warm side, a cool side and hides. The crested gecko climbs, so it needs a vertical terrarium with branches and plants. We also build custom terrariums for all three species.',
+      ru: 'Леопардовый и толстохвостый гекконы живут на земле, поэтому им нужен горизонтальный террариум с тёплой и прохладной стороной и укрытиями. Реснитчатый геккон лазает, и ему нужен вертикальный террариум с ветками и растениями. Террариумы для всех трёх видов мы изготавливаем и на заказ.',
+    },
+  },
+];

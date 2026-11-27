@@ -1,0 +1,214 @@
+---
+import Base from '../../layouts/Base.astro';
+import type { Locale } from '../../config/site';
+import { localizePath, translationsFor } from '../../i18n/routes';
+import { GUIDE_3D } from '../../i18n/pages/guide-3d';
+import SHOTS from '../../i18n/pages/guide-3d-shots.json';
+
+interface Props {
+  lang: Locale;
+}
+const { lang } = Astro.props;
+const t = GUIDE_3D[lang];
+const path = localizePath('/3d-uputstvo.html', lang);
+const href = (srPath: string) => localizePath(srPath, lang);
+const sizes: Record<string, number[]> = SHOTS[lang];
+const shot = (name: string) => {
+  const size = sizes[name];
+  if (!size) throw new Error(`Uputstvo 3D: nema snimka ${lang}/${name} (pokreni scripts/3d-guide-shots.mjs)`);
+  return { src: `/style/img/3d/uputstvo/${lang}/${name}.webp`, width: size[0], height: size[1] };
+};
+const plain = (html: string) => html.replace(/<[^>]+>/g, '');
+const ARROW = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>';
+---
+<Base lang={lang} {...t.meta} path={path} image="/style/img/3d/konfigurator-terarijum.webp" translations={translationsFor(path)}>
+<section class="page-head" style="--ph-img: url(/style/img/hero/zmija-lg.webp); --ph-img-sm: url(/style/img/hero/zmija-sm.webp)">
+  <div class="wrap">
+    <h1>{t.h1}</h1>
+    <p>{t.lead}</p>
+  </div>
+</section>
+<section class="section g3d">
+  <div class="wrap">
+    <p class="g3d-note g3d-beta"><b>{t.beta[0]}:</b> {t.beta[1]}</p>
+    <nav class="g3d-toc" aria-label={t.toc}>
+      <strong>{t.toc}</strong>
+      <ul>
+        {t.sections.map((s) => <li><a href={`#${s.id}`}>{plain(s.title)}{s.tag !== undefined && <span> ({t.tags[s.tag]})</span>}</a></li>)}
+        <li><a href="#ar">{plain(t.ar.title)}</a></li>
+        <li><a href="#link">{plain(t.send.title)}</a></li>
+      </ul>
+    </nav>
+
+    {t.sections.map((s, i) => (
+      <article class:list={['g3d-sec', i === 0 && 'g3d-wide']} id={s.id}>
+        <figure>
+          <img loading={i === 0 ? 'eager' : 'lazy'} decoding="async" {...shot(s.shot)} alt={s.alt} />
+        </figure>
+        <div>
+          {s.tag !== undefined && <span class="g3d-tag">{t.tags[s.tag]}</span>}
+          <h2 set:html={s.title} />
+          <p class="g3d-lead">{s.lead}</p>
+          <dl>
+            {s.items.map(([term, text]) => (
+              <Fragment><dt>{term}</dt><dd>{text}</dd></Fragment>
+            ))}
+          </dl>
+        </div>
+      </article>
+    ))}
+
+    <article class="g3d-sec g3d-phone" id="ar">
+      <figure>
+        <img loading="lazy" decoding="async" {...shot('ar-telefon')} alt={t.ar.alt} />
+      </figure>
+      <div>
+        <h2 set:html={t.ar.title} />
+        <p class="g3d-lead">{t.ar.lead}</p>
+        <ol>{t.ar.steps.map((step) => <li>{step}</li>)}</ol>
+        <p class="g3d-note">{t.ar.note}</p>
+      </div>
+    </article>
+
+    <article class="g3d-send" id="link">
+      <h2 set:html={t.send.title} />
+      <p>{t.send.text}</p>
+      <div class="g3d-ctas">
+        <a href={href('/3d-terarijum.html')} class="btn btn-primary">{t.ctas[0]}<Fragment set:html={ARROW} /></a>
+        <a href={href('/3d-akvarijum.html')} class="btn btn-outline">{t.ctas[1]}<Fragment set:html={ARROW} /></a>
+        <a href={href('/kontakt.html')} class="btn btn-outline">{t.send.contact}</a>
+      </div>
+    </article>
+  </div>
+</section>
+</Base>
+<style>
+.g3d-toc {
+  margin-bottom: 56px;
+  padding: 22px 26px;
+  border: 1px solid var(--silver);
+  border-radius: 10px;
+  background: var(--white);
+}
+.g3d-toc ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 22px;
+  margin-top: 10px;
+  list-style: none;
+}
+.g3d-toc a {
+  display: inline-block;
+  padding: 5px 0;
+  color: var(--green-ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.g3d-toc span {
+  color: var(--ink-soft);
+}
+.g3d-sec {
+  display: grid;
+  grid-template-columns: minmax(0, 380px) minmax(0, 1fr);
+  gap: 44px;
+  align-items: start;
+  padding: 48px 0;
+  border-top: 1px solid var(--silver);
+  /* da naslov ne ode pod zalepljenu navigaciju kad se skoci sa sadrzaja */
+  scroll-margin-top: 110px;
+}
+.g3d-wide {
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+}
+.g3d-phone {
+  grid-template-columns: minmax(0, 260px) minmax(0, 1fr);
+}
+.g3d-sec figure {
+  overflow: hidden;
+  border: 1px solid var(--silver);
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: var(--card-shadow);
+}
+.g3d-sec img {
+  width: 100%;
+  height: auto;
+}
+.g3d-tag {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 3px 12px;
+  border-radius: 4px;
+  background: var(--green-btn);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.g3d h2 {
+  font-size: clamp(1.5rem, 2.6vw, 2.1rem);
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+.g3d h2 :global(b) {
+  color: var(--green-ink);
+}
+.g3d-lead {
+  margin: 10px 0 20px;
+  color: var(--ink-soft);
+}
+.g3d dt {
+  font-weight: 600;
+}
+.g3d dd {
+  margin: 2px 0 16px;
+  color: var(--ink-soft);
+}
+.g3d ol {
+  display: grid;
+  gap: 10px;
+  padding-left: 22px;
+}
+.g3d-note {
+  margin-top: 18px;
+  padding: 12px 16px;
+  border-left: 3px solid var(--green);
+  background: var(--white);
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+}
+.g3d-beta {
+  margin: 0 0 24px;
+}
+.g3d-send {
+  padding-top: 48px;
+  border-top: 1px solid var(--silver);
+  scroll-margin-top: 110px;
+}
+.g3d-send p {
+  max-width: 70ch;
+  margin: 12px 0 24px;
+  color: var(--ink-soft);
+}
+.g3d-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+@media (max-width: 800px) {
+  .g3d-sec,
+  .g3d-wide,
+  .g3d-phone {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 36px 0;
+  }
+  .g3d-sec figure {
+    max-width: 420px;
+  }
+  .g3d-phone figure {
+    max-width: 240px;
+  }
+}
+</style>

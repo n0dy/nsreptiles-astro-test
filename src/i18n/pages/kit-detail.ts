@@ -46,7 +46,7 @@ export const KIT_DETAIL_UI: L<{
     perks: [
       { num: '01', title: 'Sve na jednom mestu', text: 'Životinja, terarijum odgovarajuće veličine i osnovna oprema — bez lutanja po prodavnicama i pogađanja šta je potrebno.' },
       { num: '02', title: 'Odabrano za početnike', text: 'Vrste iz naših kompleta su mirne naravi i jednostavne za negu, a oprema je prilagođena baš njihovim potrebama.' },
-      { num: '03', title: 'Stručna podrška', text: 'Iza nas je 10 godina uzgoja. Uz komplet dobijate i savete za negu, a za sva pitanja smo dostupni i posle kupovine.' },
+      { num: '03', title: 'Stručna podrška', text: 'Iza nas je više od 10 godina uzgoja. Uz komplet dobijate i savete za negu, a za sva pitanja smo dostupni i posle kupovine.' },
     ],
     othersTitle: 'Ostali <b>kompleti</b>',
     allKits: 'Svi kompleti',
@@ -74,7 +74,7 @@ export const KIT_DETAIL_UI: L<{
     perks: [
       { num: '01', title: 'All in one place', text: 'The animal, a terrarium of the right size and basic equipment — no running from shop to shop or guessing what you need.' },
       { num: '02', title: 'Chosen for beginners', text: 'The species in our kits are calm-natured and easy to care for, and the equipment is matched to their specific needs.' },
-      { num: '03', title: 'Expert support', text: 'We have 10 years of breeding behind us. With the kit you also get care advice, and we are available for any questions after you buy.' },
+      { num: '03', title: 'Expert support', text: 'We have over 10 years of breeding behind us. With the kit you also get care advice, and we are available for any questions after you buy.' },
     ],
     othersTitle: 'Other <b>kits</b>',
     allKits: 'All kits',
@@ -102,7 +102,7 @@ export const KIT_DETAIL_UI: L<{
     perks: [
       { num: '01', title: 'Всё в одном месте', text: 'Животное, террариум подходящего размера и базовое оборудование — без походов по магазинам и догадок, что нужно.' },
       { num: '02', title: 'Подобрано для начинающих', text: 'Виды из наших наборов спокойного нрава и просты в уходе, а оборудование подобрано именно под их потребности.' },
-      { num: '03', title: 'Экспертная поддержка', text: 'За нами 10 лет разведения. Вместе с набором вы получаете советы по уходу, а на все вопросы мы отвечаем и после покупки.' },
+      { num: '03', title: 'Экспертная поддержка', text: 'За нами более 10 лет разведения. Вместе с набором вы получаете советы по уходу, а на все вопросы мы отвечаем и после покупки.' },
     ],
     othersTitle: 'Другие <b>наборы</b>',
     allKits: 'Все наборы',

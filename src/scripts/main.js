@@ -260,6 +260,21 @@ if (!reduceMotion)
     cio.observe(el);
   });
 
+// ===== GA4: klikovi na kontakt (telefon, WhatsApp, Viber, e-mail) =====
+// Jedan slusalac za ceo sajt (plutajuca dugmad, traka, footer, kontakt strana...); linkovi koji vec imaju
+// svoj gtag u onclick se preskacu da se dogadjaj ne broji dvaput. `mesto` kaze odakle je klik.
+document.addEventListener('click', (e) => {
+  const a = e.target.closest && e.target.closest('a[href]');
+  if (!a || (a.getAttribute('onclick') || '').includes('gtag')) return;
+  const href = a.getAttribute('href');
+  const metod = href.startsWith('tel:') ? 'telefon' : href.includes('wa.me') ? 'whatsapp'
+    : href.startsWith('viber:') ? 'viber' : href.startsWith('mailto:') ? 'email' : '';
+  if (!metod) return;
+  const mesto = a.closest('.float-contact') ? 'plutajuce' : a.closest('.topbar') ? 'traka'
+    : a.closest('footer') ? 'footer' : 'strana';
+  window.gtag('event', 'kontakt_click', { metod, mesto });
+});
+
 // ===== HUBSPOT FORME =====
 async function hsSubmit(formGuid, fields) {
   const hutk = document.cookie.match(/hubspotutk=([^;]*)/);
@@ -330,6 +345,7 @@ window.hsSubmit = hsSubmit;
         ]);
       } catch (e) {}
       if (ok) {
+        window.gtag('event', 'newsletter_prijava');
         formEl.innerHTML = '<p class="news-done">' + t.done + '</p>';
       } else {
         alert(t.error);

@@ -10,8 +10,9 @@ import { SITE, type Locale } from '../../config/site';
 import { HOME } from '../../i18n/ui';
 import { localizePath, translationsFor } from '../../i18n/routes';
 import { getProducts } from '../../lib/products';
+import { GUIDE_3D } from '../../i18n/pages/guide-3d';
 import {
-  HOME_TEXT, REPTILES, GALLERY, SERVICES, WORK_PRODUCTS, CUSTOM, TESTIMONIALS, FAQ, INSTA_IMAGES,
+  HOME_TEXT, REPTILES, GALLERY, SERVICES, WORK_PRODUCTS, CUSTOM, TESTIMONIALS, FAQ, INSTA_POSTS,
 } from '../../i18n/pages/home';
 
 interface Props {
@@ -164,7 +165,7 @@ const website = {
 <section class="section cfg3d">
   <div class="wrap cfg3d-grid">
     <div class="cfg3d-text reveal">
-      <div class="cfg3d-pre">{t.cfg3d.pre}</div>
+      <div class="cfg3d-pre">{t.cfg3d.pre} · {GUIDE_3D[lang].beta[0]}</div>
       <h2 class="sec-title" set:html={t.cfg3d.title} />
       <p class="cfg3d-lead">{t.cfg3d.lead}</p>
       <ul class="cfg3d-feats">{t.cfg3d.feats.map((f) => <li>{f}</li>)}</ul>
@@ -172,6 +173,8 @@ const website = {
         <a href={href('/3d-terarijum.html')} class="btn btn-primary">{t.cfg3d.ctas[0]}<Fragment set:html={ARROW} /></a>
         <a href={href('/3d-akvarijum.html')} class="btn btn-light">{t.cfg3d.ctas[1]}<Fragment set:html={ARROW} /></a>
       </div>
+      <a href={href('/3d-uputstvo.html')} class="cfg3d-guide">{GUIDE_3D[lang].link}</a>
+      <p class="cfg3d-beta">{GUIDE_3D[lang].beta.join(': ')}</p>
     </div>
     <div class="cfg3d-stage reveal">
       <a href={href('/3d-akvarijum.html')} class="cfg3d-shot cfg3d-aqua">
@@ -350,12 +353,10 @@ const website = {
 
 <Faq lang={lang} title={t.faqTitle} items={FAQ} />
 
+<a class="insta-head" href={SITE.social.instagram} target="_blank" rel="noopener">Instagram <b>@ns_reptiles</b></a>
 <div class="insta">
-  {INSTA_IMAGES.map((src) => (
-    <a href={SITE.social.instagram} target="_blank" rel="noopener" aria-label="Instagram NS Reptiles"><img loading="lazy" decoding="async" src={src} alt="" /><span class="insta-ic"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-      <rect x="2.5" y="2.5" width="19" height="19" rx="5.5"></rect>
-      <circle cx="12" cy="12" r="4.2"></circle>
-      <circle cx="17.6" cy="6.4" r="1.1" fill="currentColor" stroke="none"></circle></svg></span></a>
+  {INSTA_POSTS.map((post) => (
+    <a href={post.url} target="_blank" rel="noopener" aria-label={`Instagram: ${post.alt}`}><img loading="lazy" decoding="async" src={post.img} alt={post.alt} width="480" height="480" /></a>
   ))}
 </div>
 </Base>

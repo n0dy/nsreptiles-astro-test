@@ -43,7 +43,7 @@ export const KITS_PAGE: L<{
     h1: 'Prodaja guštera',
     lead: 'Bradate agame i leopard gekoni iz sopstvenog uzgoja, uz kukuruzne smukove, škorpije i tarantule — svaka životinja u kompletu sa terarijumom i opremom.',
     intro:
-      'Već 10 godina se bavimo selektivnim uzgojem egzotičnih kućnih ljubimaca. Sve jedinke su zdrave, dobro hranjene i naviknute na rukovanje. Da bi start bio što jednostavniji, svaku životinju nudimo u kompletu — sa terarijumom odgovarajuće veličine i osnovnom opremom, po ceni povoljnijoj od pojedinačne kupovine.',
+      'Više od 10 godina se bavimo selektivnim uzgojem egzotičnih kućnih ljubimaca. Sve jedinke su zdrave, dobro hranjene i naviknute na rukovanje. Da bi start bio što jednostavniji, svaku životinju nudimo u kompletu — sa terarijumom odgovarajuće veličine i osnovnom opremom, po ceni povoljnijoj od pojedinačne kupovine.',
     chooseTitle: 'Izaberi svoj <b>komplet</b>',
     allAnimals: 'Sve životinje',
     perksTitle: 'Prodaja <b>guštera</b>',
@@ -53,7 +53,7 @@ export const KITS_PAGE: L<{
       {
         num: '01',
         title: 'Zdrave i pitome jedinke',
-        text: 'Iza nas je 10 godina selektivnog uzgoja. Sve životinje su dobro hranjene, redovno praćene i naviknute na rukovanje od malih nogu.',
+        text: 'Iza nas je više od 10 godina selektivnog uzgoja. Sve životinje su dobro hranjene, redovno praćene i naviknute na rukovanje od malih nogu.',
       },
       {
         num: '02',
@@ -106,7 +106,7 @@ export const KITS_PAGE: L<{
     h1: 'Lizards for sale',
     lead: 'Captive-bred bearded dragons and leopard geckos from our own breeding, plus corn snakes, scorpions and tarantulas — every animal comes in a kit with a terrarium and equipment.',
     intro:
-      'We have been selectively breeding exotic pets for 10 years. All animals are healthy, well fed and used to handling. To make your start as simple as possible, we offer every animal as a kit — with a terrarium of the right size and basic equipment, at a lower price than buying each item separately.',
+      'We have been selectively breeding exotic pets for over 10 years. All animals are healthy, well fed and used to handling. To make your start as simple as possible, we offer every animal as a kit — with a terrarium of the right size and basic equipment, at a lower price than buying each item separately.',
     chooseTitle: 'Choose your <b>kit</b>',
     allAnimals: 'All animals',
     perksTitle: 'Lizards <b>for sale</b>',
@@ -116,7 +116,7 @@ export const KITS_PAGE: L<{
       {
         num: '01',
         title: 'Healthy, tame animals',
-        text: 'We have 10 years of selective breeding behind us. All animals are well fed, regularly monitored and used to handling from a young age.',
+        text: 'We have over 10 years of selective breeding behind us. All animals are well fed, regularly monitored and used to handling from a young age.',
       },
       {
         num: '02',
@@ -169,7 +169,7 @@ export const KITS_PAGE: L<{
     h1: 'Продажа ящериц',
     lead: 'Бородатые агамы и леопардовые гекконы собственного разведения, а также маисовые полозы, скорпионы и тарантулы — каждое животное в наборе с террариумом и оборудованием.',
     intro:
-      'Уже 10 лет мы занимаемся селекционным разведением экзотических домашних питомцев. Все особи здоровы, хорошо накормлены и приучены к рукам. Чтобы старт был как можно проще, каждое животное мы предлагаем в наборе — с террариумом подходящего размера и базовым оборудованием, по цене выгоднее, чем при покупке по отдельности.',
+      'Более 10 лет мы занимаемся селекционным разведением экзотических домашних питомцев. Все особи здоровы, хорошо накормлены и приучены к рукам. Чтобы старт был как можно проще, каждое животное мы предлагаем в наборе — с террариумом подходящего размера и базовым оборудованием, по цене выгоднее, чем при покупке по отдельности.',
     chooseTitle: 'Выберите свой <b>набор</b>',
     allAnimals: 'Все животные',
     perksTitle: 'Продажа <b>ящериц</b>',
@@ -179,7 +179,7 @@ export const KITS_PAGE: L<{
       {
         num: '01',
         title: 'Здоровые и ручные особи',
-        text: 'За нами 10 лет селекционного разведения. Все животные хорошо накормлены, находятся под регулярным наблюдением и с малых лет приучены к рукам.',
+        text: 'За нами более 10 лет селекционного разведения. Все животные хорошо накормлены, находятся под регулярным наблюдением и с малых лет приучены к рукам.',
       },
       {
         num: '02',
