@@ -38,7 +38,7 @@
 .proc-num::before {
   content: counter(step, decimal-leading-zero);
 }
-.proc-body h3 {
+.proc-body :is(h2, h3) {
   font-size: 1.15rem;
   text-transform: uppercase;
   letter-spacing: 0.02em;
@@ -78,7 +78,7 @@
   color: var(--green-ink);
   opacity: 0.14;
 }
-.feat-card h3 {
+.feat-card :is(h2, h3) {
   font-size: 1.08rem;
   text-transform: uppercase;
   letter-spacing: 0.02em;

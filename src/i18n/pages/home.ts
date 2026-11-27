@@ -552,10 +552,10 @@ export const FAQ: { q: L; a: L }[] = [
 // Poslednje objave sa instagram.com/ns_reptiles (snimljeno 2026-11-27): slike su kopirane u public/style/img/instagram,
 // jer Instagram nema javni feed bez tokena. Za nove objave zameniti stavke i slike.
 export const INSTA_POSTS = [
-  { url: 'https://www.instagram.com/reel/DgPnWaQtnb6/', img: '/style/img/instagram/DgPnWaQtnb6.webp', alt: 'Terarijum 40x40x70 za Crested Gekona' },
-  { url: 'https://www.instagram.com/p/DgLDF-ktxNl/', img: '/style/img/instagram/DgLDF-ktxNl.webp', alt: 'Pacman žaba' },
-  { url: 'https://www.instagram.com/p/Dd6k9vngCJF/', img: '/style/img/instagram/Dd6k9vngCJF.webp', alt: 'Akvarijum 150x55x70' },
-  { url: 'https://www.instagram.com/reel/DdWDK3utLZo/', img: '/style/img/instagram/DdWDK3utLZo.webp', alt: 'Kukuruzni smuk' },
-  { url: 'https://www.instagram.com/p/DbqDkKMNflv/', img: '/style/img/instagram/DbqDkKMNflv.webp', alt: 'Žuta bradata agama' },
-  { url: 'https://www.instagram.com/p/ChouA13Mwuq/', img: '/style/img/instagram/ChouA13Mwuq.webp', alt: 'Mladunci stari jedan dan' },
+  { url: 'https://www.instagram.com/reel/DgPnWaQtnb6/', img: '/style/img/instagram/DgPnWaQtnb6.webp', alt: { sr: 'Terarijum 40x40x70 za Crested Gekona', en: 'Terrarium 40x40x70 for a crested gecko', ru: 'Террариум 40x40x70 для реснитчатого геккона' } },
+  { url: 'https://www.instagram.com/p/DgLDF-ktxNl/', img: '/style/img/instagram/DgLDF-ktxNl.webp', alt: { sr: 'Pacman žaba', en: 'Pacman frog', ru: 'Рогатая лягушка (пакман)' } },
+  { url: 'https://www.instagram.com/p/Dd6k9vngCJF/', img: '/style/img/instagram/Dd6k9vngCJF.webp', alt: { sr: 'Akvarijum 150x55x70', en: 'Aquarium 150x55x70', ru: 'Аквариум 150x55x70' } },
+  { url: 'https://www.instagram.com/reel/DdWDK3utLZo/', img: '/style/img/instagram/DdWDK3utLZo.webp', alt: { sr: 'Kukuruzni smuk', en: 'Corn snake', ru: 'Маисовый полоз' } },
+  { url: 'https://www.instagram.com/p/DbqDkKMNflv/', img: '/style/img/instagram/DbqDkKMNflv.webp', alt: { sr: 'Žuta bradata agama', en: 'Yellow bearded dragon', ru: 'Жёлтая бородатая агама' } },
+  { url: 'https://www.instagram.com/p/ChouA13Mwuq/', img: '/style/img/instagram/ChouA13Mwuq.webp', alt: { sr: 'Mladunci stari jedan dan', en: 'One-day-old hatchlings', ru: 'Малыши в возрасте одного дня' } },
 ];

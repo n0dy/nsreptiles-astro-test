@@ -146,7 +146,7 @@ const website = {
 <section class="section about">
   <div class="wrap about-grid">
     <div class="about-illu reveal">
-      <img loading="lazy" decoding="async" src="/style/img/about-agama.webp" width="1100" height="1100" alt={REPTILES[0].name[lang]} />
+      <img loading="lazy" decoding="async" src="/style/img/about-agama.webp" srcset="/style/img/about-agama-600.webp 600w, /style/img/about-agama.webp 1100w" sizes="(max-width: 900px) 90vw, 520px" width="1100" height="1100" alt={REPTILES[0].name[lang]} />
       <div class="about-badge"><b>10+</b><span>{t.about.badge}</span></div>
     </div>
     <div class="about-text reveal">
@@ -178,11 +178,11 @@ const website = {
     </div>
     <div class="cfg3d-stage reveal">
       <a href={href('/3d-akvarijum.html')} class="cfg3d-shot cfg3d-aqua">
-        <img loading="lazy" decoding="async" src="/style/img/3d/konfigurator-akvarijum.webp" width="1632" height="936" alt={t.cfg3d.alts[1]} />
+        <img loading="lazy" decoding="async" src="/style/img/3d/konfigurator-akvarijum.webp" srcset="/style/img/3d/konfigurator-akvarijum-800.webp 800w, /style/img/3d/konfigurator-akvarijum.webp 1632w" sizes="(max-width: 900px) 90vw, 560px" width="1632" height="936" alt={t.cfg3d.alts[1]} />
         <span>{t.cfg3d.labels[1]}</span>
       </a>
       <a href={href('/3d-terarijum.html')} class="cfg3d-shot cfg3d-terra">
-        <img loading="lazy" decoding="async" src="/style/img/3d/konfigurator-terarijum.webp" width="1632" height="936" alt={t.cfg3d.alts[0]} />
+        <img loading="lazy" decoding="async" src="/style/img/3d/konfigurator-terarijum.webp" srcset="/style/img/3d/konfigurator-terarijum-800.webp 800w, /style/img/3d/konfigurator-terarijum.webp 1632w" sizes="(max-width: 900px) 90vw, 560px" width="1632" height="936" alt={t.cfg3d.alts[0]} />
         <span>{t.cfg3d.labels[0]}</span>
       </a>
     </div>
@@ -206,7 +206,7 @@ const website = {
   <div class="car-track rep-track" id="repTrack">
     {REPTILES.map((r, i) => (
       <a class="rep-card" href={href(r.href)}>
-        <img loading="lazy" decoding="async" src={r.img} alt={r.name[lang]} />
+        <img loading="lazy" decoding="async" src={r.img} srcset={`${r.img.replace('.webp', '-400.webp')} 400w, ${r.img} 800w`} sizes="(max-width: 700px) 60vw, 300px" width="800" height="1000" alt={r.name[lang]} />
         <div class="rep-label">
           <div>
             <div class="num">{pad(i)}</div>
@@ -356,7 +356,7 @@ const website = {
 <a class="insta-head" href={SITE.social.instagram} target="_blank" rel="noopener">Instagram <b>@ns_reptiles</b></a>
 <div class="insta">
   {INSTA_POSTS.map((post) => (
-    <a href={post.url} target="_blank" rel="noopener" aria-label={`Instagram: ${post.alt}`}><img loading="lazy" decoding="async" src={post.img} alt={post.alt} width="480" height="480" /></a>
+    <a href={post.url} target="_blank" rel="noopener" aria-label={`Instagram: ${post.alt[lang]}`}><img loading="lazy" decoding="async" src={post.img} alt={post.alt[lang]} width="480" height="480" /></a>
   ))}
 </div>
 </Base>

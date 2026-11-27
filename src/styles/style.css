@@ -1165,6 +1165,11 @@ html:has(.mobile-menu.open) {
   /* donji padding ostavlja mesta za deblo */
   padding: 72px 0 clamp(160px, 21vw, 400px);
 }
+@media (max-width: 640px) {
+  .reptiles {
+    background-image: url(/style/img/rep-bg-sm.webp), linear-gradient(180deg, var(--bg) 40%, #fff 100%);
+  }
+}
 .rep-head {
   display: flex;
   justify-content: space-between;
@@ -1906,7 +1911,7 @@ html:has(.mobile-menu.open) {
   justify-content: center;
   margin-bottom: 22px;
 }
-.del-card h3 {
+.del-card h2 {
   font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;

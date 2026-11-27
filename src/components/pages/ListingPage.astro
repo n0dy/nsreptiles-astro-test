@@ -23,9 +23,9 @@ const ui = LISTING_UI[lang];
 const href = (srPath: string) => localizePath(srPath, lang);
 const path = href(l.path);
 const hero = {
-  terarijumi: { lg: '/style/img/izrada/terarijum.webp', sm: '/style/img/izrada/terarijum.webp' },
-  akvarijumi: { lg: '/style/img/izrada/akvarijum.webp', sm: '/style/img/izrada/akvarijum.webp' },
-  oprema: { lg: '/style/img/oprema/scena.webp', sm: '/style/img/oprema/scena.webp' },
+  terarijumi: { lg: '/style/img/izrada/terarijum.webp', sm: '/style/img/izrada/terarijum-sm.webp' },
+  akvarijumi: { lg: '/style/img/izrada/akvarijum.webp', sm: '/style/img/izrada/akvarijum-sm.webp' },
+  oprema: { lg: '/style/img/oprema/scena.webp', sm: '/style/img/oprema/scena-sm.webp' },
 }[listing];
 
 const groupOrder = l.groups.map((g) => g.key);
@@ -187,7 +187,7 @@ const countText = (n: number) => `${n} ${ui.count[plural.select(n) as keyof type
         </label>
       </div>
       <div class="op-grid" id="opGrid">
-        {items.map(({ p, groups, section }) => <ProductCard product={p} lang={lang} group={groups} section={section} />)}
+        {items.map(({ p, groups, section }) => <ProductCard product={p} lang={lang} group={groups} section={section} heading="h2" />)}
       </div>
       <div class="op-empty" id="opEmpty">
         <p set:html={l.empty[lang].replace('{contact}', href('/kontakt.html'))} />
