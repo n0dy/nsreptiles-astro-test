@@ -12,7 +12,7 @@
   "name": "Mexican black kingsnake",
   "lead": "A completely black kingsnake whose scales shine like lacquer under light. Medium-sized, non-venomous and hardy - one of the most beautiful and easiest snakes to keep.",
   "photoAlt": "Mexican black kingsnake (Lampropeltis getula nigrita) - NS Reptiles Novi Sad",
-  "intro": "The Mexican black kingsnake comes from northwestern Mexico, mainly Sonora and Sinaloa, and the far south of Arizona. In more recent literature it is often listed as a separate species, Lampropeltis nigrita. It lives in dry and semi-arid areas - rocky slopes, thornscrub and the edges of watercourses. Adults are completely black, both on top and on the belly, with glossy scales. They grow to about 1–1.2 m and, with good care, live 15–20 years in captivity.",
+  "intro": "The Mexican black kingsnake comes from northwestern Mexico, mainly Sonora and Sinaloa, and the far south of Arizona. In more recent literature it is often listed as a separate species, Lampropeltis nigrita. It lives in dry and semi-arid areas - rocky slopes, thornscrub and the edges of watercourses. Adults are completely black, both on top and on the belly, with glossy scales. They grow to about 1-1.2 m and, with good care, live 15-20 years in captivity.",
   "sections": [
     {
       "title": "Behavior and <b>handling</b>",
@@ -54,7 +54,7 @@
         {
           "title": "Temperature",
           "p": [
-            "Basking spot: 28–32 °C. Cool side: 22–25 °C. At night not below 20 °C. Heating: a heat mat, cable or bulb, always controlled by a thermostat."
+            "Basking spot: 28-32 °C. Cool side: 22-25 °C. At night not below 20 °C. Heating: a heat mat, cable or bulb, always controlled by a thermostat."
           ]
         },
         {
@@ -66,7 +66,7 @@
         {
           "title": "Humidity and water",
           "p": [
-            "Humidity: 40–60%, with a humid hide during shedding. Fresh water must always be available in a stable bowl."
+            "Humidity: 40-60%, with a humid hide during shedding. Fresh water must always be available in a stable bowl."
           ]
         }
       ]
@@ -76,7 +76,7 @@
       "boxes": [
         {
           "p": [
-            "In captivity it is fed frozen-thawed rodents. Hatchlings eat pinkies every 5–7 days, adults eat adult mice or small rats every 10–14 days. Prey should not be wider than the thickest part of the snake's body. This snake almost always eats eagerly, so take care that it does not become overweight."
+            "In captivity it is fed frozen-thawed rodents. Hatchlings eat pinkies every 5-7 days, adults eat adult mice or small rats every 10-14 days. Prey should not be wider than the thickest part of the snake's body. This snake almost always eats eagerly, so take care that it does not become overweight."
           ]
         }
       ]
@@ -93,7 +93,7 @@
         {
           "title": "Breeding",
           "p": [
-            "Sexual maturity is reached at 2–3 years, and a winter cooling period is usually carried out before mating. Partners are put together only for mating and under supervision. Incubation takes about 55–65 days at 27–29 °C."
+            "Sexual maturity is reached at 2-3 years, and a winter cooling period is usually carried out before mating. Partners are put together only for mating and under supervision. Incubation takes about 55-65 days at 27-29 °C."
           ]
         }
       ]
@@ -108,11 +108,11 @@
       },
       {
         "q": "How big does a Mexican black kingsnake get?",
-        "a": "Adults usually grow to about 1–1.2 m."
+        "a": "Adults usually grow to about 1-1.2 m."
       },
       {
         "q": "How long does it live?",
-        "a": "With proper care it lives 15–20 years in captivity."
+        "a": "With proper care it lives 15-20 years in captivity."
       },
       {
         "q": "How is it different from the common kingsnake?",

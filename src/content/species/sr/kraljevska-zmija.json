@@ -15,7 +15,7 @@
   "photo": "/style/img/zivotinje/lampropeltis-getula.webp",
   "photoSize": [800, 1000],
   "photoAlt": "Kraljevska zmija (Lampropeltis getula) - NS Reptiles Novi Sad",
-  "intro": "Kraljevska zmija jedna je od najpoznatijih zmija Severne Amerike. U širem smislu obuhvata više blisko srodnih oblika rasprostranjenih kroz veliki deo SAD i sever Meksika, pa naseljava vrlo različita staništa - od šuma i oboda močvara do suvih, žbunovitih predela. Klasičan izgled je sjajno crno telo sa belim ili žućkastim prstenovima ili pegama, a crtež se razlikuje od oblika do oblika. Odrasle jedinke su duge 90–150 cm i u zatočeništvu žive 15–20 godina, a nekad i duže.",
+  "intro": "Kraljevska zmija jedna je od najpoznatijih zmija Severne Amerike. U širem smislu obuhvata više blisko srodnih oblika rasprostranjenih kroz veliki deo SAD i sever Meksika, pa naseljava vrlo različita staništa - od šuma i oboda močvara do suvih, žbunovitih predela. Klasičan izgled je sjajno crno telo sa belim ili žućkastim prstenovima ili pegama, a crtež se razlikuje od oblika do oblika. Odrasle jedinke su duge 90-150 cm i u zatočeništvu žive 15-20 godina, a nekad i duže.",
   "sections": [
     {
       "title": "Ponašanje i <b>rukovanje</b>",
@@ -57,7 +57,7 @@
         {
           "title": "Temperatura",
           "p": [
-            "Topla tačka: 28–32 °C. Hladniji deo: 22–25 °C. Noću ne ispod 20 °C. Grejanje: grejna podloga, kabl ili sijalica preko termostata."
+            "Topla tačka: 28-32 °C. Hladniji deo: 22-25 °C. Noću ne ispod 20 °C. Grejanje: grejna podloga, kabl ili sijalica preko termostata."
           ]
         },
         {
@@ -69,7 +69,7 @@
         {
           "title": "Vlažnost i voda",
           "p": [
-            "Vlažnost: 40–60 %, uz vlažno skrovište tokom presvlačenja. Sveža voda u posudi u koju zmija može da uđe mora biti stalno dostupna."
+            "Vlažnost: 40-60 %, uz vlažno skrovište tokom presvlačenja. Sveža voda u posudi u koju zmija može da uđe mora biti stalno dostupna."
           ]
         }
       ]
@@ -79,7 +79,7 @@
       "boxes": [
         {
           "p": [
-            "U zatočeništvu se hrani smrznutim i odmrznutim glodarima. Mladunci jedu pinkije svakih 5–7 dana, a odrasli odrasle miševe ili manje pacove svakih 10–14 dana. Plen ne treba da bude širi od najdebljeg dela tela zmije. Kraljevske zmije gotovo nikad ne odbijaju hranu, pa je češći problem gojaznost nego slab apetit - ne prehranjivati ih. Hraniti ih uvek pojedinačno."
+            "U zatočeništvu se hrani smrznutim i odmrznutim glodarima. Mladunci jedu pinkije svakih 5-7 dana, a odrasli odrasle miševe ili manje pacove svakih 10-14 dana. Plen ne treba da bude širi od najdebljeg dela tela zmije. Kraljevske zmije gotovo nikad ne odbijaju hranu, pa je češći problem gojaznost nego slab apetit - ne prehranjivati ih. Hraniti ih uvek pojedinačno."
           ]
         }
       ]
@@ -96,7 +96,7 @@
         {
           "title": "Razmnožavanje",
           "p": [
-            "Polna zrelost nastupa sa 2–3 godine, a pre parenja je uobičajeno zimsko mirovanje. Mužjak i ženka se spajaju samo radi parenja i uz nadzor, zbog rizika od kanibalizma. Ženke polažu najčešće 5–20 jaja, a inkubacija traje oko 55–65 dana na 27–29 °C."
+            "Polna zrelost nastupa sa 2-3 godine, a pre parenja je uobičajeno zimsko mirovanje. Mužjak i ženka se spajaju samo radi parenja i uz nadzor, zbog rizika od kanibalizma. Ženke polažu najčešće 5-20 jaja, a inkubacija traje oko 55-65 dana na 27-29 °C."
           ]
         }
       ]
@@ -121,15 +121,15 @@
       },
       {
         "q": "Koliko naraste kraljevska zmija?",
-        "a": "Odrasle jedinke su duge 90–150 cm, u zavisnosti od oblika i porekla."
+        "a": "Odrasle jedinke su duge 90-150 cm, u zavisnosti od oblika i porekla."
       },
       {
         "q": "Koliko živi kraljevska zmija?",
-        "a": "U zatočeništvu uz pravilnu negu živi 15–20 godina, a neki primerci i duže."
+        "a": "U zatočeništvu uz pravilnu negu živi 15-20 godina, a neki primerci i duže."
       },
       {
         "q": "Šta jede kraljevska zmija?",
-        "a": "Smrznute i odmrznute glodare: mladunci pinkije svakih 5–7 dana, odrasli odrasle miševe ili manje pacove svakih 10–14 dana."
+        "a": "Smrznute i odmrznute glodare: mladunci pinkije svakih 5-7 dana, odrasli odrasle miševe ili manje pacove svakih 10-14 dana."
       },
       {
         "q": "Da li je kraljevska zmija za početnike?",

@@ -12,7 +12,7 @@
   "name": "Milk snake",
   "lead": "A non-venomous snake with striking red, black and white bands - hardy and easy to keep. Its size depends on the subspecies, and it must always be housed alone.",
   "photoAlt": "Milk snake (Lampropeltis triangulum) - NS Reptiles Novi Sad",
-  "intro": "The milk snake is a non-venomous snake from North and Central America, known for its red, black and white (sometimes yellow) bands that mimic the venomous coral snake. This mimicry scares off predators, even though the milk snake is completely harmless to people. Several subspecies are kept in the hobby under the name Lampropeltis triangulum, and they differ a lot in size - from small ones that barely exceed half a meter to the Honduran milk snake, one of the largest. With proper care it lives 15–20 years in captivity.",
+  "intro": "The milk snake is a non-venomous snake from North and Central America, known for its red, black and white (sometimes yellow) bands that mimic the venomous coral snake. This mimicry scares off predators, even though the milk snake is completely harmless to people. Several subspecies are kept in the hobby under the name Lampropeltis triangulum, and they differ a lot in size - from small ones that barely exceed half a meter to the Honduran milk snake, one of the largest. With proper care it lives 15-20 years in captivity.",
   "sections": [
     {
       "title": "Origin and <b>appearance</b>",
@@ -26,7 +26,7 @@
         {
           "title": "Size and appearance",
           "p": [
-            "Depending on the subspecies, adults reach 60–120 cm. The most common in the hobby are the Pueblan (L. t. campbelli), Sinaloan (L. t. sinaloae), Nelson's (L. t. nelsoni) and Honduran milk snake (L. t. hondurensis), which is one of the largest. The body is slender, with smooth, glossy scales. Besides the natural pattern, selective breeding has produced varieties such as albino and tangerine milk snakes."
+            "Depending on the subspecies, adults reach 60-120 cm. The most common in the hobby are the Pueblan (L. t. campbelli), Sinaloan (L. t. sinaloae), Nelson's (L. t. nelsoni) and Honduran milk snake (L. t. hondurensis), which is one of the largest. The body is slender, with smooth, glossy scales. Besides the natural pattern, selective breeding has produced varieties such as albino and tangerine milk snakes."
           ]
         }
       ]
@@ -54,7 +54,7 @@
         {
           "title": "Terrarium",
           "p": [
-            "An adult of a medium-sized subspecies does well in a terrarium of about 90×45×45 cm; smaller subspecies can live in a slightly smaller one, while a Honduran milk snake is better off in a terrarium 100–120 cm long. Babies feel safer in a smaller space with plenty of cover. Provide at least two hides (on the warm and the cool side), branches for climbing and a water bowl. The lid must fit tightly and lock - milk snakes are skilled escape artists."
+            "An adult of a medium-sized subspecies does well in a terrarium of about 90×45×45 cm; smaller subspecies can live in a slightly smaller one, while a Honduran milk snake is better off in a terrarium 100-120 cm long. Babies feel safer in a smaller space with plenty of cover. Provide at least two hides (on the warm and the cool side), branches for climbing and a water bowl. The lid must fit tightly and lock - milk snakes are skilled escape artists."
           ]
         },
         {
@@ -71,19 +71,19 @@
         {
           "title": "Temperature",
           "p": [
-            "Warm side: 28–31 °C. Cool side: 22–25 °C. At night the temperature should not drop below 20 °C. Place a heat mat or heat cable on a thermostat under one third of the terrarium so the snake can choose where it is comfortable."
+            "Warm side: 28-31 °C. Cool side: 22-25 °C. At night the temperature should not drop below 20 °C. Place a heat mat or heat cable on a thermostat under one third of the terrarium so the snake can choose where it is comfortable."
           ]
         },
         {
           "title": "Lighting",
           "p": [
-            "UVB is not necessary, but a regular day and night cycle with 10–12 hours of light (on a timer) supports a normal feeding and activity rhythm."
+            "UVB is not necessary, but a regular day and night cycle with 10-12 hours of light (on a timer) supports a normal feeding and activity rhythm."
           ]
         },
         {
           "title": "Humidity",
           "p": [
-            "Optimal: 40–60 %. Before shedding, provide a humid hide with damp moss or coco fiber."
+            "Optimal: 40-60 %. Before shedding, provide a humid hide with damp moss or coco fiber."
           ]
         },
         {
@@ -100,7 +100,7 @@
         {
           "title": "Diet",
           "p": [
-            "Babies: pinkies (newborn mice) every 5–7 days. Adults: appropriately sized mice every 7–14 days, larger individuals also young rats. Prey should not be wider than the thickest part of the snake's body. Frozen-thawed food is recommended. Some babies are reluctant to take rodents at first; if a snake refuses food for a long time, ask us or a vet for advice."
+            "Babies: pinkies (newborn mice) every 5-7 days. Adults: appropriately sized mice every 7-14 days, larger individuals also young rats. Prey should not be wider than the thickest part of the snake's body. Frozen-thawed food is recommended. Some babies are reluctant to take rodents at first; if a snake refuses food for a long time, ask us or a vet for advice."
           ]
         },
         {
@@ -116,7 +116,7 @@
       "boxes": [
         {
           "p": [
-            "Sexual maturity is reached at 2–3 years. Before the breeding season the snakes are brumated for 2–3 months at a lower temperature (about 12–16 °C), and feeding stops a few weeks before cooling so the gut is empty. Females usually lay 5–15 eggs, and incubation takes about 55–65 days at 27–29 °C. Hatchlings are housed separately right after hatching."
+            "Sexual maturity is reached at 2-3 years. Before the breeding season the snakes are brumated for 2-3 months at a lower temperature (about 12-16 °C), and feeding stops a few weeks before cooling so the gut is empty. Females usually lay 5-15 eggs, and incubation takes about 55-65 days at 27-29 °C. Hatchlings are housed separately right after hatching."
           ]
         }
       ]
@@ -135,11 +135,11 @@
       },
       {
         "q": "How big does a milk snake get?",
-        "a": "It depends on the subspecies: adults reach 60–120 cm, and the Honduran milk snake is one of the largest."
+        "a": "It depends on the subspecies: adults reach 60-120 cm, and the Honduran milk snake is one of the largest."
       },
       {
         "q": "How long does a milk snake live?",
-        "a": "With proper care it lives 15–20 years in captivity."
+        "a": "With proper care it lives 15-20 years in captivity."
       },
       {
         "q": "Can two milk snakes live together?",

@@ -505,7 +505,7 @@ export const FAQ: { q: L; a: L }[] = [
     a: {
       sr: 'Zavisi od dimenzija i opreme, ali većinu terarijuma izrađujemo u roku od 7 do 14 dana. Tačan rok dogovaramo prilikom narudžbine.',
       en: 'It depends on dimensions and equipment, but we build most terrariums within 7 to 14 days. The exact timeframe is agreed upon when ordering.',
-      ru: 'Зависит от размеров и оборудования, но большинство террариумов мы изготавливаем за 7–14 дней. Точный срок согласовываем при заказе.',
+      ru: 'Зависит от размеров и оборудования, но большинство террариумов мы изготавливаем за 7-14 дней. Точный срок согласовываем при заказе.',
     },
   },
   {
