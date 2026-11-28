@@ -9,7 +9,7 @@ export const NOT_FOUND: Record<Locale, {
 }> = {
   sr: {
     meta: {
-      title: '404 — Stranica nije pronađena | NS Reptiles',
+      title: '404 - Stranica nije pronađena | NS Reptiles',
       description:
         'Stranica koju tražite je premeštena, obrisana ili nikad nije postojala. Pratite linkove ka početnoj, životinjama, terarijumima ili kontaktu.',
     },
@@ -24,7 +24,7 @@ export const NOT_FOUND: Record<Locale, {
   },
   en: {
     meta: {
-      title: '404 — Page Not Found | NS Reptiles',
+      title: '404 - Page Not Found | NS Reptiles',
       description:
         'The page you are looking for has been moved, deleted or never existed. Follow the links to the home page, animals, terrariums or contact.',
     },
@@ -39,7 +39,7 @@ export const NOT_FOUND: Record<Locale, {
   },
   ru: {
     meta: {
-      title: '404 — Страница не найдена | NS Reptiles',
+      title: '404 - Страница не найдена | NS Reptiles',
       description:
         'Страница, которую вы ищете, перемещена, удалена или никогда не существовала. Перейдите на главную, к животным, террариумам или контактам.',
     },

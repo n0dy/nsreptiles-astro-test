@@ -23,7 +23,10 @@ const ui = SERVICE_UI[lang];
 const href = (srPath: string) => localizePath(srPath, lang);
 const path = href(s.path);
 const cta = s.cta[lang];
-const heroImg = service === 'akvarijumi' ? '/style/img/izrada/akvarijum.webp' : '/style/img/izrada/terarijum.webp';
+const HERO: Partial<Record<ServiceKey, string>> = { akvarijumi: '/style/img/izrada/akvarijum.webp', postolja: '/style/img/izrada/postolja.webp' };
+const heroImg = HERO[service] ?? '/style/img/izrada/terarijum.webp';
+// akvarijum na postolju je gore desno: na sirokom ekranu se sece po visini, na telefonu po sirini
+const heroPos = service === 'postolja' ? '; --ph-pos: 85% 0%' : '';
 const animals = s.animals?.[lang];
 
 // Primeri izrade: stvarni modeli iz kataloga (mere, zapremina, fotografija) i poslednji radovi po meri sa Instagrama
@@ -75,7 +78,7 @@ const schema = [
   translations={translationsFor(path)}
   schema={schema}
 >
-<section class="page-head" style={`--ph-img: url(${heroImg}); --ph-img-sm: url(${heroImg.replace('.webp', '-sm.webp')})`}>
+<section class="page-head" style={`--ph-img: url(${heroImg}); --ph-img-sm: url(${heroImg.replace('.webp', '-sm.webp')})${heroPos}`}>
   <div class="wrap">
     <h1 set:html={twoTone(s.h1[lang])} />
     <p>{s.lead[lang]}</p>

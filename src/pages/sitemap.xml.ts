@@ -4,7 +4,7 @@ import { translationsFor, PRODUCT_GROUPS } from '../i18n/routes';
 import { getProducts, productPath } from '../lib/products';
 import { gitDates } from '../lib/git-dates';
 
-const EXCLUDE = new Set(['/404.html', '/en/404.html', '/ru/404.html', '/pretraga.html', '/en/search.html', '/ru/search.html',
+const EXCLUDE = new Set(['/404.html', '/en/404.html', '/ru/404.html', '/blog.html', '/en/blog.html', '/ru/blog.html', '/pretraga.html', '/en/search.html', '/ru/search.html',
   // kalkulator je u robots.txt Disallow (kao na starom sajtu)
   '/kalkulator.html', '/en/calculator.html', '/ru/calculator.html']);
 

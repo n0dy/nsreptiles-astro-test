@@ -163,6 +163,7 @@ const intro = INTRO[type];
             <model-viewer id="ar-model" ar ar-modes="webxr scene-viewer quick-look"
                 ar-scale="auto" camera-controls alt={t.modelAlt}></model-viewer>
 
+            <span id="beta-badge" title={beta[1]}>{beta[0]}</span>
             <div id="viewer-actions">
                 <button id="screenshot-button" title={t.shot} aria-label={t.shot}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
@@ -188,7 +189,6 @@ const intro = INTRO[type];
                 <a href={terraPath} aria-current={aqua ? undefined : 'page'}>{base.typeSwitch[1]}</a>
                 <a href={aquaPath} aria-current={aqua ? 'page' : undefined}>{base.typeSwitch[2]}</a>
             </nav>
-            <p class="beta-note"><b>{beta[0]}</b>{beta[1]}</p>
             <div class="panel-top">
             <div class="panel-tabs" role="tablist">
                 <button type="button" role="tab" data-tab="box" aria-selected="true">{t.tabBox}</button>
@@ -198,13 +198,6 @@ const intro = INTRO[type];
                 <button type="button" role="tab" data-tab="foil" aria-selected="false">{t.tabFoil}</button>
                 <button type="button" role="tab" data-tab="decor" aria-selected="false">{t.decor}</button>
             </div>
-            <button id="reset-button" title={t.reset} aria-label={t.reset}>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                    <polyline points="1 4 1 10 7 10" />
-                    <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10" />
-                </svg>
-            </button>
             </div>
             <div class="panel-tab" data-tab="box">
             <div class="panel-header">
@@ -323,32 +316,67 @@ const intro = INTRO[type];
             </div>
             <p class="dim-hint decor-hint">{t.decorHint}</p>
             </div>
+            <button id="reset-button" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="1 4 1 10 7 10" />
+                    <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10" />
+                </svg>
+                {t.reset}
+            </button>
             <button type="button" id="order-button">{t.order[0]}</button>
             <a class="guide-link" href={guidePath}>{guideLabel}</a>
+            <a class="feedback-card" href={order.contact + '?poruka=' + encodeURIComponent(t.feedback[2])}>
+                <svg class="feedback-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4" /><path d="M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.1V17h6v-.2c0-.8.4-1.6 1-2.1A7 7 0 0 0 12 2z" /></svg>
+                <span><b>{t.feedback[0]}</b>{t.feedback[1]}</span>
+                <svg class="feedback-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6" /></svg>
+            </a>
         </div>
     </div>
 <section class="viewer-intro">
     <h2>{intro[0]}</h2>
-    <p>{intro[1]}</p>
-    <p>{INTRO.order} <a href={guidePath}>{guideLabel}</a></p>
+    <div>
+        <p>{intro[1]}</p>
+        <p>{INTRO.order} <a href={guidePath}>{guideLabel}</a></p>
+    </div>
 </section>
 <style is:global>
 .viewer-intro {
-max-width: 760px;
-margin: 0 auto;
-padding: 40px 20px 48px;
+display: grid;
+gap: 16px;
+padding: 48px max(20px, calc((100% - 1040px) / 2));
+border-top: 1px solid #dfe9e4;
+background: #f4f8f6;
 }
 .viewer-intro h2 {
-font-size: 1.3rem;
-margin-bottom: 12px;
+align-self: start;
+margin: 0;
+padding-left: 14px;
+border-left: 3px solid #1f7a5a;
+font-size: 1.4rem;
+line-height: 1.25;
 }
 .viewer-intro p {
-line-height: 1.65;
-margin-bottom: 10px;
+margin: 0 0 12px;
+font-size: 15px;
+line-height: 1.7;
+color: #444;
+}
+.viewer-intro p:last-child {
+margin-bottom: 0;
 }
 .viewer-intro a {
-color: var(--green-dark, #2d6a2e);
+font-weight: 600;
+color: #1f7a5a;
 text-decoration: underline;
+text-underline-offset: 3px;
+}
+@media (min-width: 900px) {
+.viewer-intro {
+grid-template-columns: 300px 1fr;
+gap: 48px;
+padding-block: 64px;
+}
 }
 #viewer-page {
 display: flex;
@@ -684,28 +712,24 @@ margin-bottom: 14px;
 }
 
 #reset-button {
-flex: none;
-width: 36px;
-height: 36px;
-border-radius: 10px;
-border: none;
-background: #f3f4f3;
-color: #666;
-cursor: pointer;
-display: flex;
+display: none;
 align-items: center;
-justify-content: center;
-visibility: hidden; /* mesto ostaje rezervisano da tabovi ne skacu */
-transition: background 0.2s, color 0.2s;
+gap: 6px;
+margin: 18px 0 -10px auto;
+padding: 4px 2px;
+border: 0;
+background: none;
+font: 600 12px/1.2 inherit;
+color: #777;
+cursor: pointer;
 }
 
 #reset-button:hover {
-background: #e0e0e0;
 color: #1f7a5a;
 }
 
 #reset-button.visible {
-visibility: visible;
+display: flex;
 }
 
 /* Dimenzije */
@@ -754,6 +778,7 @@ margin-bottom: 4px;
 
 .opt-seg {
 display: flex;
+flex-wrap: wrap;
 gap: 6px;
 }
 
@@ -834,7 +859,8 @@ border-color: #4aa584;
 }
 
 .opt-seg button {
-flex: 1;
+flex: 1 1 auto;
+white-space: nowrap;
 padding: 6px 6px;
 font: inherit;
 font-size: 12px;
@@ -1016,7 +1042,7 @@ text-align: center;
 #viewer-actions {
 position: absolute;
 bottom: 16px;
-right: 16px;
+right: 76px; /* desno od dugmadi je beta oznaka */
 z-index: 15;
 display: flex;
 gap: 8px;
@@ -1287,21 +1313,70 @@ cursor: pointer;
 background: #00623f;
 }
 
-.beta-note {
-margin: 0 0 12px;
-font-size: 12px;
-color: #666;
-}
-
-.beta-note b {
-margin-right: 8px;
+#beta-badge {
+position: absolute;
+bottom: 24px;
+right: 16px;
+z-index: 15;
 padding: 2px 8px;
 border-radius: 4px;
 background: #1f7a5a;
 font-size: 11px;
+font-weight: 700;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #fff;
+}
+
+.feedback-card {
+display: flex;
+align-items: center;
+gap: 12px;
+margin-top: 8px;
+padding: 12px 14px;
+border: 1px solid #dfe9e4;
+border-radius: 8px;
+background: #f4f8f6;
+text-decoration: none;
+color: #555;
+transition: border-color 0.2s, background 0.2s;
+}
+
+.feedback-card:hover {
+border-color: #1f7a5a;
+background: #eef5f1;
+}
+
+.feedback-card span {
+flex: 1;
+font-size: 12px;
+line-height: 1.45;
+}
+
+.feedback-card b {
+display: block;
+font-size: 13px;
+font-weight: 600;
+color: #222;
+}
+
+.feedback-card svg {
+flex: none;
+fill: none;
+stroke: #1f7a5a;
+stroke-width: 2;
+stroke-linecap: round;
+stroke-linejoin: round;
+}
+
+.feedback-icon {
+width: 22px;
+height: 22px;
+}
+
+.feedback-arrow {
+width: 18px;
+height: 18px;
 }
 
 .guide-link {
@@ -1458,11 +1533,6 @@ min-height: 40px;
 .dim-hint,
 .dim-label {
 font-size: 13px;
-}
-
-#reset-button {
-width: 40px;
-height: 40px;
 }
 
 #viewer-actions button,
@@ -2577,8 +2647,10 @@ height: 44px;
         }
 
         function cameraHome(maxDim) {
-            // pocetni pogled: spreda-levo i malo odozgo (oko 35 stepeni ulevo, 20 stepeni iznad), na telefonu malo blize
-            const k = maxDim * (window.innerWidth <= 1000 ? 0.93 : 1);
+            // pocetni pogled: spreda-levo i malo odozgo (oko 35 stepeni ulevo, 20 stepeni iznad);
+            // uzak/uspravan pogled (telefon) vidi manje u sirinu, pa se kamera odmice da model stane
+            const aspect = camera.aspect > 0 ? camera.aspect : 1.5; // 0/0 dok je wrap jos skriven
+            const k = maxDim * Math.max(1, 1 / aspect);
             camera.position.set(-0.94 * k, 0.6 * k, 1.35 * k);
             controls.target.set(0, 0, 0);
             controls.update();
@@ -2702,7 +2774,7 @@ height: 44px;
         buildContainer.addEventListener('change', function (e) {
             const i = e.target.closest('input[data-key]');
             if (!i) return;
-            const v = Math.min(Number(i.max), Math.max(Number(i.min), Math.round(Number(i.value)) || DEFAULT_BUILD[i.dataset.key]));
+            const v = Math.min(Number(i.max), Math.max(Number(i.min), (i.value.trim() === "" || isNaN(i.value) ? DEFAULT_BUILD[i.dataset.key] : Math.round(Number(i.value)))));
             build = Object.assign({}, build, { [i.dataset.key]: v });
             syncBuildButtons();
             setupTerrarium();

@@ -79,8 +79,8 @@ const schema = [
     <div class="cn-cta-wrap reveal">
       <p set:html={t.ctaText} />
       <div class="cn-cta-btns">
-        <a href={`tel:${SITE.phone}`} class="btn btn-light" onclick="gtag('event','kontakt_click',{'metod':'telefon'})">{SITE.phoneDisplay}</a>
-        <a href={whatsappLink()} target="_blank" rel="noopener" class="btn btn-primary" onclick="gtag('event','kontakt_click',{'metod':'whatsapp'})">WhatsApp</a>
+        <a href={`tel:${SITE.phone}`} class="btn btn-light">{SITE.phoneDisplay}</a>
+        <a href={whatsappLink()} target="_blank" rel="noopener" class="btn btn-primary">WhatsApp</a>
       </div>
     </div>
   </div>

@@ -26,6 +26,7 @@ export const VIEWER_3D = {
     helpLid: { title: 'Poklopac', text: 'Klikni dugme gore levo da otvoriš ili zatvoriš poklopac terarijuma.' },
     helpTexture: { title: 'Tekstura', text: 'Izaberi jedan od 34 dezena dekorativne folije; oznaka (npr. A-09) je ista kao u našem katalogu dezena.' },
     close: 'Zatvori',
+    feedback: ['Primetio si grešku ili imaš ideju?', 'Konfigurator je još u razvoju. Javi nam, rado ćemo ga popraviti.', '3D konfigurator - greška / ideja:\n\n'],
     modelAlt: '3D model terarijuma',
     shot: 'Slikaj i preuzmi',
     ar: 'Pogledaj u prostoru',
@@ -140,6 +141,7 @@ export const VIEWER_3D = {
     helpLid: { title: 'Lid', text: 'Click the button in the top left to open or close the terrarium lid.' },
     helpTexture: { title: 'Texture', text: 'Choose one of 34 decorative foil patterns; the code (e.g. A-09) matches our pattern catalogue.' },
     close: 'Close',
+    feedback: ['Found a bug or have an idea?', 'The configurator is still in development. Let us know and we will fix it.', '3D configurator - bug / idea:\n\n'],
     modelAlt: '3D terrarium model',
     shot: 'Screenshot and download',
     ar: 'View in your space',
@@ -234,7 +236,7 @@ export const VIEWER_3D = {
   },
   ru: {
     meta: {
-      title: '3D-просмотр террариума — NS Reptiles | Нови-Сад',
+      title: '3D-просмотр террариума - NS Reptiles | Нови-Сад',
       description:
         '3D-просмотр террариума: вращайте, приближайте и меняйте цвет. Посмотрите террариум у себя дома через AR. NS Reptiles, Нови-Сад.',
       keywords:
@@ -254,6 +256,7 @@ export const VIEWER_3D = {
     helpLid: { title: 'Крышка', text: 'Нажмите кнопку слева вверху, чтобы открыть или закрыть крышку террариума.' },
     helpTexture: { title: 'Текстура', text: 'Выберите один из 34 декоров плёнки; код (например, A-09) совпадает с нашим каталогом декоров.' },
     close: 'Закрыть',
+    feedback: ['Нашли ошибку или есть идея?', 'Конфигуратор ещё в разработке. Напишите нам, и мы его улучшим.', '3D-конфигуратор - ошибка / идея:\n\n'],
     modelAlt: '3D-модель террариума',
     shot: 'Сделать снимок и скачать',
     ar: 'Посмотреть в комнате',
@@ -282,7 +285,7 @@ export const VIEWER_3D = {
     removeTitle: 'Убрать (Delete)',
     angle: 'Угол',
     angleAria: 'Угол декора в градусах',
-    decorHint: 'Перетащите декор, чтобы переместить его, а зелёное кольцо вокруг него — чтобы повернуть.',
+    decorHint: 'Перетащите декор, чтобы переместить его, а зелёное кольцо вокруг него - чтобы повернуть.',
     order: ['Заказать террариум', 'Хочу заказать террариум, собранный в 3D-конфигураторе:', 'Ссылка на модель'],
     aqua: {
       meta: {

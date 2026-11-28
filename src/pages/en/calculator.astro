@@ -35,14 +35,14 @@ const schema = [
   path="/en/calculator.html"
   image="/style/img/logo.jpg"
   ogTitle="Terrarium Price Calculator | NS Reptiles"
-  ogDescription="Quickly estimate the price of a glass terrarium built to your measurements. Glass thickness, lid, dimensions — all in one place."
+  ogDescription="Quickly estimate the price of a glass terrarium built to your measurements. Glass thickness, lid, dimensions - all in one place."
   translations={translationsFor("/en/calculator.html")}
   schema={schema}
 >
 <section class="page-head" style="--ph-img: url(/style/img/izrada/terarijum.webp); --ph-img-sm: url(/style/img/izrada/terarijum.webp)">
       <div class="wrap">
         <h1 set:html={twoTone('Calculator')} />
-        <p>Enter the dimensions and glass thickness — in a few seconds you get an estimated price for a custom glass terrarium.</p>
+        <p>Enter the dimensions and glass thickness - in a few seconds you get an estimated price for a custom glass terrarium.</p>
       </div>
     </section>
 <section class="calc-section">
@@ -103,7 +103,7 @@ const schema = [
           <div class="calc-info-item reveal">
             <div class="ci-num">5</div>
             <h3>Glass panels</h3>
-            <p>The calculator adds up the area of all five glass panels: the bottom, the front and back, and the left and right sides of the box. The top opening is not counted — that is where the lid goes.</p>
+            <p>The calculator adds up the area of all five glass panels: the bottom, the front and back, and the left and right sides of the box. The top opening is not counted - that is where the lid goes.</p>
           </div>
           <div class="calc-info-item reveal">
             <div class="ci-num">4×</div>
@@ -113,7 +113,7 @@ const schema = [
           <div class="calc-info-item reveal">
             <div class="ci-num">4 mm</div>
             <h3>Lid glass</h3>
-            <p>The lid is always made of 4 mm glass, regardless of the thickness of the rest of the build. A double lid means two panels of the same area — useful for terrariums with two separate openings.</p>
+            <p>The lid is always made of 4 mm glass, regardless of the thickness of the rest of the build. A double lid means two panels of the same area - useful for terrariums with two separate openings.</p>
           </div>
           <div class="calc-info-item reveal">
             <div class="ci-num">~</div>
@@ -126,10 +126,10 @@ const schema = [
 <section class="zcta">
       <div class="wrap">
         <h2 class="reveal">Send us the <b>dimensions</b></h2>
-        <p class="reveal">Send us the measurements and type of terrarium — within a few hours we will send you an exact quote with all options and the build time.</p>
+        <p class="reveal">Send us the measurements and type of terrarium - within a few hours we will send you an exact quote with all options and the build time.</p>
         <div class="zcta-btns">
-          <a href="https://wa.me/381693301474?text=Hello%2C%20I%27m%20interested%20in%20the%20price%20of%20a%20custom%20terrarium." target="_blank" rel="noopener" class="btn btn-primary" onclick="gtag('event','kontakt_click',{'metod':'whatsapp_kalkulator'})">WhatsApp</a>
-          <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event','kontakt_click',{'metod':'telefon_kalkulator'})">Call us</a>
+          <a href="https://wa.me/381693301474?text=Hello%2C%20I%27m%20interested%20in%20the%20price%20of%20a%20custom%20terrarium." target="_blank" rel="noopener" class="btn btn-primary">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light">Call us</a>
         </div>
       </div>
     </section>
@@ -319,7 +319,7 @@ const schema = [
       }
     </style>
 <script is:inline slot="after">
-      // Cene po m² stakla (u EUR) — preuzeto iz calculator.js
+      // Cene po m² stakla (u EUR) - preuzeto iz calculator.js
       var CENA_4  = 20;
       var CENA_6  = 30;
       var CENA_8  = 44;
@@ -351,7 +351,7 @@ const schema = [
         // Kvadratura: dno + prednja + zadnja + leva + desna strana (cm²)
         var kvadratura = duzina * sirina + 2 * duzina * visina + 2 * sirina * visina;
 
-        // Poklopac — uvek od 4mm stakla
+        // Poklopac - uvek od 4mm stakla
         var kvadraturaPoklopca = 0;
         var selectPoklopac = document.getElementById('poklopac');
         if (selectPoklopac.value === 'da') {

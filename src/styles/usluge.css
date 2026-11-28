@@ -83,7 +83,8 @@
   text-transform: uppercase;
   letter-spacing: 0.02em;
   margin-bottom: 12px;
-  padding-right: 40px;
+  /* mesto za veliki redni broj gore desno */
+  padding-right: 56px;
 }
 .feat-card p {
   color: var(--ink-soft);
@@ -160,6 +161,13 @@
 }
 .usl-animals .rep-card {
   min-width: 0;
+}
+/* auto-fit racuna sa max 260px pa na telefonu ostane jedna uska kolona */
+@media (max-width: 560px) {
+  .usl-animals {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
 }
 .usl-animals .rep-label .name {
   font-size: 1rem;

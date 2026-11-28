@@ -1,0 +1,71 @@
+---
+import Base from '../../layouts/Base.astro';
+import '../../styles/animals.css';
+import { twoTone } from '../../lib/two-tone';
+import type { Locale } from '../../config/site';
+import { localizePath, translationsFor } from '../../i18n/routes';
+
+interface Props {
+  lang: Locale;
+}
+const { lang } = Astro.props;
+const T = {
+  sr: {
+    meta: { title: 'Blog - saveti i vodiči | NS Reptiles', description: 'Blog NS Reptiles - saveti o reptilima, terarijumima i akvarijumima. Prvi tekstovi stižu uskoro, a do tada pogledajte naše vodiče o vrstama.' },
+    h1: 'Blog',
+    lead: 'Saveti o reptilima, terarijumima i akvarijumima iz naše radionice i odgajivačnice.',
+    empty: 'Prvi tekstovi stižu uskoro. Do tada pogledajte naše vodiče za negu životinja ili nam pišite ako imate pitanje.',
+    links: [{ href: '/zivotinje.html', label: 'Vodiči o životinjama' }, { href: '/kontakt.html', label: 'Kontakt' }],
+  },
+  en: {
+    meta: { title: 'Blog - tips and guides | NS Reptiles', description: 'NS Reptiles blog - tips on reptiles, terrariums and aquariums. The first posts are coming soon; in the meantime, browse our species care guides.' },
+    h1: 'Blog',
+    lead: 'Tips on reptiles, terrariums and aquariums from our workshop and breeding facility.',
+    empty: 'The first posts are coming soon. In the meantime, browse our animal care guides or write to us if you have a question.',
+    links: [{ href: '/zivotinje.html', label: 'Animal care guides' }, { href: '/kontakt.html', label: 'Contact' }],
+  },
+  ru: {
+    meta: { title: 'Блог - советы и руководства | NS Reptiles', description: 'Блог NS Reptiles - советы о рептилиях, террариумах и аквариумах. Первые статьи скоро появятся, а пока посмотрите наши руководства по уходу.' },
+    h1: 'Блог',
+    lead: 'Советы о рептилиях, террариумах и аквариумах из нашей мастерской и питомника.',
+    empty: 'Первые статьи скоро появятся. А пока посмотрите наши руководства по уходу за животными или напишите нам, если у вас есть вопрос.',
+    links: [{ href: '/zivotinje.html', label: 'Руководства по уходу' }, { href: '/kontakt.html', label: 'Контакты' }],
+  },
+}[lang];
+const path = localizePath('/blog.html', lang);
+---
+<!-- prazan blog se ne indeksira dok ne dobije tekstove (i nije u sitemap-u) -->
+<Base lang={lang} {...T.meta} path={path} noindex translations={translationsFor(path)}>
+<section class="page-head">
+  <div class="wrap">
+    <h1 set:html={twoTone(T.h1)} />
+    <p>{T.lead}</p>
+  </div>
+</section>
+<section class="section blog-empty">
+  <div class="wrap">
+    <p>{T.empty}</p>
+    <div class="blog-empty-btns">
+      {T.links.map((l, i) => <a href={localizePath(l.href, lang)} class={`btn ${i ? 'btn-outline' : 'btn-primary'}`}>{l.label}</a>)}
+    </div>
+  </div>
+</section>
+<style is:global>
+  .blog-empty {
+    text-align: center;
+  }
+  .blog-empty p {
+    max-width: 560px;
+    margin: 0 auto 2rem;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: var(--ink-soft);
+  }
+  .blog-empty-btns {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+</style>
+</Base>

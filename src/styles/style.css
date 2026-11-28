@@ -102,6 +102,7 @@ h4,
   font-weight: 600;
   line-height: 1.1;
   letter-spacing: 0.01em;
+  text-wrap: balance;
 }
 a {
   text-decoration: none;
@@ -930,14 +931,6 @@ html:has(.mobile-menu.open) {
   gap: 56px;
   align-items: center;
 }
-.cfg3d-pre {
-  margin-bottom: 14px;
-  font-size: 0.78rem;
-  font-weight: 500;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: var(--green-light);
-}
 .cfg3d .sec-title {
   color: #fff;
 }
@@ -948,13 +941,13 @@ html:has(.mobile-menu.open) {
 }
 .cfg3d-feats {
   display: grid;
-  gap: 8px;
+  gap: 12px;
   margin-bottom: 30px;
   list-style: none;
 }
 .cfg3d-feats li {
   position: relative;
-  padding-left: 26px;
+  padding-left: 22px;
   font-size: 0.95rem;
   color: rgba(255, 255, 255, 0.9);
 }
@@ -962,12 +955,11 @@ html:has(.mobile-menu.open) {
   content: '';
   position: absolute;
   left: 2px;
-  top: 0.55em;
-  width: 12px;
-  height: 6px;
-  border-left: 2px solid var(--green-light);
-  border-bottom: 2px solid var(--green-light);
-  transform: rotate(-45deg);
+  top: 0.6em;
+  width: 7px;
+  height: 7px;
+  border-radius: 2px;
+  background: var(--green-light);
 }
 .cfg3d-ctas {
   display: flex;
@@ -1168,6 +1160,9 @@ html:has(.mobile-menu.open) {
 @media (max-width: 640px) {
   .reptiles {
     background-image: url(/style/img/rep-bg-sm.webp), linear-gradient(180deg, var(--bg) 40%, #fff 100%);
+    /* deblo spušteno ispod kartica umesto da bude iza njih */
+    background-size: auto 60%, auto;
+    background-position: center bottom, 0 0;
   }
 }
 .rep-head {
@@ -1285,6 +1280,11 @@ html:has(.mobile-menu.open) {
   background: rgba(255, 255, 255, 0.85);
 }
 @media (max-width: 640px) {
+  /* traka izlazi do desne ivice ekrana da se vidi da ima jos kartica */
+  .rep-track {
+    margin-right: calc(-1 * var(--gutter));
+    padding-right: var(--gutter);
+  }
   .rep-card {
     flex-basis: 80%;
   }
@@ -1861,7 +1861,7 @@ html:has(.mobile-menu.open) {
 .zcta h2 {
   font-size: clamp(2rem, 4.4vw, 3.2rem);
   text-transform: uppercase;
-  line-height: 1.05;
+  line-height: 1.2;
   max-width: 640px;
   margin-bottom: 16px;
 }
@@ -2037,6 +2037,10 @@ body.gallery-page .gal-grid {
   gap: 20px;
   margin-bottom: 36px;
 }
+.sec-more {
+  display: none;
+  margin-top: 28px;
+}
 .gal-filters {
   display: flex;
   gap: 6px;
@@ -2078,6 +2082,7 @@ body.gallery-page .gal-grid {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: var(--pos, center);
   transition: transform 0.6s ease;
 }
 .gal-item::after {
@@ -3111,24 +3116,23 @@ footer a:hover {
 }
 .foot-social {
   display: flex;
-  gap: 14px;
+  gap: 10px;
   margin-top: 18px;
 }
 .foot-social a {
-  width: 38px;
-  height: 38px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   display: flex;
   align-items: center;
   justify-content: center;
   transition: 0.25s;
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
 }
 .foot-social a:hover {
   background: var(--green-btn);
+  border-color: var(--green-btn);
   color: #fff;
 }
 .foot-newsletter {
@@ -3628,7 +3632,7 @@ textarea {
   }
   .about-grid {
     grid-template-columns: 1fr;
-    gap: 36px;
+    gap: 46px;
   }
   .testi-layout {
     grid-template-columns: 1fr;
@@ -3649,11 +3653,28 @@ textarea {
   .best-grid::-webkit-scrollbar {
     display: none;
   }
+  /* kao karusel reptila: traka izlazi do desne ivice ekrana */
+  .kit-grid,
+  .best-grid {
+    margin-right: calc(-1 * var(--gutter));
+    padding-right: var(--gutter);
+  }
   .kit-card,
   .best-card,
   .best-grid .op-card {
     flex: 0 0 230px;
     scroll-snap-align: start;
+  }
+  /* u slajderu kartice ne skacu gore: overflow-x ih sece, a na dodir hover ostaje zakucan */
+  .kit-card:hover,
+  .rep-card:hover,
+  .rep-card:focus-visible {
+    transform: none;
+  }
+  .kit-grid .reveal,
+  .best-grid .reveal {
+    opacity: 1;
+    transform: none;
   }
   .gal-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -3684,6 +3705,13 @@ textarea {
 @media (max-width: 640px) {
   .section {
     padding: 70px 0;
+  }
+  .btn {
+    width: 100%;
+  }
+  /* dugme stoji u redu pored polja za pretragu */
+  .srp-form .btn {
+    width: auto;
   }
   /* mreze su vec u footeru; u 360px ne staju pored jezika i telefona */
   .topbar-social a {
@@ -3728,8 +3756,6 @@ textarea {
     min-width: 44px;
     min-height: 44px;
     justify-content: center;
-  }
-  .burger {
     align-items: center;
   }
   .nav-tools {
@@ -3796,6 +3822,13 @@ textarea {
     flex-direction: column;
     align-items: flex-start;
   }
+  /* na telefonu dugme ide ispod sadrzaja, ne ispod naslova */
+  .gal-head .head-btn {
+    display: none;
+  }
+  .sec-more {
+    display: block;
+  }
   .float-contact {
     right: 16px;
     bottom: 16px;
@@ -3811,6 +3844,17 @@ textarea {
   .gal-wide,
   .gal-big {
     grid-column: span 2;
+  }
+  .gallery-dark .gal-grid {
+    grid-auto-rows: 150px;
+    gap: 8px;
+  }
+  /* prva (agama) preko cele sirine, da sest slika popuni mrezu bez rupe */
+  .gallery-dark .gal-tall {
+    grid-column: span 2;
+  }
+  .gal-item img {
+    object-position: var(--mpos, var(--pos, center));
   }
   /* na home-u samo prvih 6, ostalo je na stranici galerije */
   body:not(.gallery-page) .gallery .gal-item:nth-child(n + 7) {

@@ -1,0 +1,131 @@
+{
+  "seo": {
+    "title": "Mexican Black Kingsnake - Care Guide | NS Reptiles",
+    "description": "Mexican black kingsnake (Lampropeltis getula nigrita) care guide: terrarium, temperature, diet and health. Practical advice from NS Reptiles, Novi Sad.",
+    "keywords": "Mexican black kingsnake, Lampropeltis getula nigrita, Lampropeltis nigrita, black kingsnake, kingsnake care, kingsnake terrarium, snake for beginners, NS Reptiles, Novi Sad",
+    "ogDescription": "A completely black kingsnake with glossy scales - non-venomous, hardy and easy to keep. A care guide: terrarium, temperature, diet and health."
+  },
+  "article": {
+    "headline": "Mexican black kingsnake - care and husbandry guide",
+    "description": "All about the Mexican black kingsnake: origin, behavior, terrarium, temperature, diet, health and breeding."
+  },
+  "name": "Mexican black kingsnake",
+  "lead": "A completely black kingsnake whose scales shine like lacquer under light. Medium-sized, non-venomous and hardy - one of the most beautiful and easiest snakes to keep.",
+  "photoAlt": "Mexican black kingsnake (Lampropeltis getula nigrita) - NS Reptiles Novi Sad",
+  "intro": "The Mexican black kingsnake comes from northwestern Mexico, mainly Sonora and Sinaloa, and the far south of Arizona. In more recent literature it is often listed as a separate species, Lampropeltis nigrita. It lives in dry and semi-arid areas - rocky slopes, thornscrub and the edges of watercourses. Adults are completely black, both on top and on the belly, with glossy scales. They grow to about 1–1.2 m and, with good care, live 15–20 years in captivity.",
+  "sections": [
+    {
+      "title": "Behavior and <b>handling</b>",
+      "boxes": [
+        {
+          "title": "Behavior",
+          "p": [
+            "It is an active, curious snake, most active at dusk and in the early morning. Like other kingsnakes, in the wild it also eats other snakes, so it is always kept alone - housing it with other snakes, even of its own species, can end in cannibalism."
+          ]
+        },
+        {
+          "title": "Handling",
+          "p": [
+            "It is non-venomous and kills prey by constriction. Hatchlings can be nervous - vibrating their tails, releasing an unpleasant musk or biting - but adults usually become calm with regular handling. Because of its strong feeding response, feed it with tongs and do not handle it for 48 hours after a meal."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Terrarium and <b>substrate</b>",
+      "boxes": [
+        {
+          "title": "Terrarium",
+          "p": [
+            "An adult does well in a terrarium of at least 90×45×45 cm, and even better about 100 cm long. Floor space matters more than height. Provide a hide on the warm and on the cool side, a water bowl and some branches or rocks to explore. The lid must be secure."
+          ]
+        },
+        {
+          "title": "Substrate",
+          "p": [
+            "Aspen shavings, coco fiber or a soil and coco mix; paper for quarantine. Avoid cedar and pine. The substrate should be dry, with one more humid hide."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Temperature and <b>humidity</b>",
+      "boxes": [
+        {
+          "title": "Temperature",
+          "p": [
+            "Basking spot: 28–32 °C. Cool side: 22–25 °C. At night not below 20 °C. Heating: a heat mat, cable or bulb, always controlled by a thermostat."
+          ]
+        },
+        {
+          "title": "Lighting",
+          "p": [
+            "UVB is not required. A regular day and night cycle on a timer is enough."
+          ]
+        },
+        {
+          "title": "Humidity and water",
+          "p": [
+            "Humidity: 40–60%, with a humid hide during shedding. Fresh water must always be available in a stable bowl."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Diet",
+      "boxes": [
+        {
+          "p": [
+            "In captivity it is fed frozen-thawed rodents. Hatchlings eat pinkies every 5–7 days, adults eat adult mice or small rats every 10–14 days. Prey should not be wider than the thickest part of the snake's body. This snake almost always eats eagerly, so take care that it does not become overweight."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Health and <b>breeding</b>",
+      "boxes": [
+        {
+          "title": "Health",
+          "p": [
+            "It is a hardy species. The most common problems are obesity, stuck shed, respiratory infections and mites. At signs of illness, see a vet who specializes in exotic animals."
+          ]
+        },
+        {
+          "title": "Breeding",
+          "p": [
+            "Sexual maturity is reached at 2–3 years, and a winter cooling period is usually carried out before mating. Partners are put together only for mating and under supervision. Incubation takes about 55–65 days at 27–29 °C."
+          ]
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "title": "Mexican black kingsnake FAQ",
+    "items": [
+      {
+        "q": "Is the Mexican black kingsnake venomous?",
+        "a": "No, it is not venomous. It kills prey by constriction and is harmless to humans."
+      },
+      {
+        "q": "How big does a Mexican black kingsnake get?",
+        "a": "Adults usually grow to about 1–1.2 m."
+      },
+      {
+        "q": "How long does it live?",
+        "a": "With proper care it lives 15–20 years in captivity."
+      },
+      {
+        "q": "How is it different from the common kingsnake?",
+        "a": "Adults are completely black, without light bands, and are usually somewhat smaller. Husbandry and diet are very similar."
+      },
+      {
+        "q": "Can it live with other snakes?",
+        "a": "No. Like all kingsnakes, it can attack and eat another snake, so it is always kept alone."
+      }
+    ]
+  },
+  "cta": {
+    "text": "For availability, care questions or equipment for a Mexican black kingsnake - we are here. Give us a call or send a message on WhatsApp.",
+    "waText": "I'm interested in a Mexican black kingsnake"
+  }
+}

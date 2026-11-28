@@ -30,11 +30,11 @@ const schema = [
   noindex
   lang="sr"
   title="Kalkulator cene terarijuma | NS Reptiles, Novi Sad"
-  description="Izračunajte okvirnu cenu staklenog terarijuma po meri. Unesite dimenzije i debljinu stakla — dobijate cenu u sekundama. NS Reptiles, Novi Sad."
+  description="Izračunajte okvirnu cenu staklenog terarijuma po meri. Unesite dimenzije i debljinu stakla - dobijate cenu u sekundama. NS Reptiles, Novi Sad."
   path="/kalkulator.html"
   image="/style/img/logo.jpg"
   ogTitle="Kalkulator cene terarijuma | NS Reptiles"
-  ogDescription="Brzo izračunajte okvirnu cenu staklenog terarijuma po vašim merama. Debljina stakla, poklopac, dimenzije — sve u jednom mestu."
+  ogDescription="Brzo izračunajte okvirnu cenu staklenog terarijuma po vašim merama. Debljina stakla, poklopac, dimenzije - sve u jednom mestu."
   translations={translationsFor("/kalkulator.html")}
   langLinks={{ ...{"en":"/en/","ru":"/ru/"}, ...translationsFor("/kalkulator.html") }}
   schema={schema}
@@ -42,7 +42,7 @@ const schema = [
 <section class="page-head" style="--ph-img: url(/style/img/izrada/terarijum.webp); --ph-img-sm: url(/style/img/izrada/terarijum.webp)">
       <div class="wrap">
         <h1 set:html={twoTone('Kalkulator')} />
-        <p>Unesite dimenzije i debljinu stakla — za nekoliko sekundi dobijate okvirnu cenu izrade staklenog terarijuma.</p>
+        <p>Unesite dimenzije i debljinu stakla - za nekoliko sekundi dobijate okvirnu cenu izrade staklenog terarijuma.</p>
       </div>
     </section>
 <section class="calc-section">
@@ -103,7 +103,7 @@ const schema = [
           <div class="calc-info-item reveal">
             <div class="ci-num">5</div>
             <h3>Staklenih panela</h3>
-            <p>Kalkulator sabira površine svih pet stakla: dno, prednja i zadnja strana, te leva i desna strana kutije. Gornji otvor se ne računa — tu dolazi poklopac.</p>
+            <p>Kalkulator sabira površine svih pet stakla: dno, prednja i zadnja strana, te leva i desna strana kutije. Gornji otvor se ne računa - tu dolazi poklopac.</p>
           </div>
           <div class="calc-info-item reveal">
             <div class="ci-num">4×</div>
@@ -113,7 +113,7 @@ const schema = [
           <div class="calc-info-item reveal">
             <div class="ci-num">4 mm</div>
             <h3>Staklo za poklopac</h3>
-            <p>Poklopac se uvek izrađuje od 4 mm stakla, bez obzira na debljinu ostale konstrukcije. Dupli poklopac podrazumeva dva panela iste površine — korisno za terarijume sa dva odvojena otvora.</p>
+            <p>Poklopac se uvek izrađuje od 4 mm stakla, bez obzira na debljinu ostale konstrukcije. Dupli poklopac podrazumeva dva panela iste površine - korisno za terarijume sa dva odvojena otvora.</p>
           </div>
           <div class="calc-info-item reveal">
             <div class="ci-num">~</div>
@@ -126,10 +126,10 @@ const schema = [
 <section class="zcta">
       <div class="wrap">
         <h2 class="reveal">Javite nam <b>dimenzije</b></h2>
-        <p class="reveal">Pošaljite nam mere i vrstu terarijuma — u roku od nekoliko sati šaljemo vam tačan predračun sa svim opcijama i rokom izrade.</p>
+        <p class="reveal">Pošaljite nam mere i vrstu terarijuma - u roku od nekoliko sati šaljemo vam tačan predračun sa svim opcijama i rokom izrade.</p>
         <div class="zcta-btns">
-          <a href="https://wa.me/381693301474?text=Zdravo%2C%20zanima%20me%20cena%20terarijuma%20po%20meri." target="_blank" rel="noopener" class="btn btn-primary" onclick="gtag('event','kontakt_click',{'metod':'whatsapp_kalkulator'})">WhatsApp</a>
-          <a href="tel:+381693301474" class="btn btn-light" onclick="gtag('event','kontakt_click',{'metod':'telefon_kalkulator'})">Pozovi nas</a>
+          <a href="https://wa.me/381693301474?text=Zdravo%2C%20zanima%20me%20cena%20terarijuma%20po%20meri." target="_blank" rel="noopener" class="btn btn-primary">WhatsApp</a>
+          <a href="tel:+381693301474" class="btn btn-light">Pozovi nas</a>
         </div>
       </div>
     </section>
@@ -319,7 +319,7 @@ const schema = [
       }
     </style>
 <script is:inline slot="after">
-      // Cene po m² stakla (u EUR) — preuzeto iz calculator.js
+      // Cene po m² stakla (u EUR) - preuzeto iz calculator.js
       var CENA_4  = 20;
       var CENA_6  = 30;
       var CENA_8  = 44;
@@ -351,7 +351,7 @@ const schema = [
         // Kvadratura: dno + prednja + zadnja + leva + desna strana (cm²)
         var kvadratura = duzina * sirina + 2 * duzina * visina + 2 * sirina * visina;
 
-        // Poklopac — uvek od 4mm stakla
+        // Poklopac - uvek od 4mm stakla
         var kvadraturaPoklopca = 0;
         var selectPoklopac = document.getElementById('poklopac');
         if (selectPoklopac.value === 'da') {

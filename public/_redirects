@@ -33,3 +33,16 @@
 /proizvodi/oprema/fobasi-s-100kom.html             /proizvodi/oprema/fobasi.html               301
 /proizvodi/oprema/fobasi-m-l-100kom.html           /proizvodi/oprema/fobasi.html               301
 /proizvodi/oprema/Arcadia-uvb-12-18w.html /proizvodi/oprema/arcadia-uvb-12-18w.html 301
+
+# Stare og:image slike spojenih/preimenovanih proizvoda (Google Images)
+/style/img/oprema/arcadia-calciumpro-mg.webp       /style/img/oprema/promg.webp                       301
+/style/img/oprema/arcadia-earthpro-ca-100g.webp    /style/img/oprema/proca.webp                       301
+/style/img/oprema/posude-za-reptile.webp           /style/img/oprema/posuda-siva-stena.webp           301
+/style/img/oprema/skrivalice-za-reptile.webp       /style/img/oprema/skrivalica-kameni-svod.webp      301
+/style/img/oprema/dekoracija/lobanja.png           /style/img/oprema/dekoracija/lobanja.webp          301
+/style/img/oprema/dekoracija/sidro.png             /style/img/oprema/dekoracija/sidro.webp            301
+
+# Netlify je /strana.html/ vodio na /strana.html; Cloudflare bez ovoga vraca 404
+/:page.html/              /:page.html              301
+/:dir/:page.html/         /:dir/:page.html         301
+/:dir/:sub/:page.html/    /:dir/:sub/:page.html    301

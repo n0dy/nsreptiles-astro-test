@@ -1,0 +1,137 @@
+{
+  "seo": {
+    "title": "Western Hognose Snake - Care Guide | NS Reptiles",
+    "description": "Western hognose snake (Heterodon nasicus) care guide: terrarium, burrowing substrate, temperature, diet and its famous defensive display. NS Reptiles.",
+    "keywords": "western hognose snake, hognose snake, Heterodon nasicus, hognose care, hognose terrarium, hognose diet, hognose playing dead, snake for beginners, NS Reptiles, Novi Sad",
+    "ogDescription": "A small snake with an upturned snout and a remarkable defensive act. A care guide to the western hognose: terrarium, temperature, diet and health."
+  },
+  "article": {
+    "headline": "Western hognose snake - care and husbandry guide",
+    "description": "All about the western hognose snake: origin, behavior, terrarium, temperature, diet, health and breeding."
+  },
+  "name": "Western hognose snake",
+  "lead": "A small, stocky snake with an upturned snout and one of the most entertaining defensive displays in the snake world - it flattens its neck, hisses and, if all else fails, plays dead.",
+  "photoAlt": "Western hognose snake (Heterodon nasicus) - NS Reptiles Novi Sad",
+  "intro": "The western hognose snake comes from central North America - from southern Canada through the Great Plains of the United States to northern Mexico. In the wild it lives on dry prairies, sandy and gravelly soils and the edges of semi-deserts, where it spends much of its time buried in the substrate. It is easy to recognize by its upturned, shovel-like snout, which it uses for digging. Males are much smaller than females and rarely exceed 50–60 cm, while females usually reach 60–90 cm. In captivity it lives 15–20 years.",
+  "sections": [
+    {
+      "title": "Behavior and <b>defense</b>",
+      "boxes": [
+        {
+          "title": "Defensive display",
+          "p": [
+            "When it feels threatened, a hognose flattens its neck and front of the body, hisses loudly and makes false strikes, usually with its mouth closed. If that does not work, it rolls onto its back, opens its mouth, lets its tongue hang out and lies motionless - playing dead, sometimes with an unpleasant smell. It is all a bluff: the snake calms down quickly once the threat is gone, and many individuals stop putting on the show with regular, calm handling."
+          ]
+        },
+        {
+          "title": "Saliva and bites",
+          "p": [
+            "The hognose has enlarged rear teeth in the upper jaw and mildly toxic saliva that helps it subdue prey, mainly toads and frogs. It is considered harmless to humans. Bites are rare and most often happen when the snake mistakes a hand for food; if it holds on, local swelling and redness are possible and go away on their own. That is why it is best to feed it with tongs and not handle it with hands that smell of food."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Terrarium and <b>substrate</b>",
+      "boxes": [
+        {
+          "title": "Terrarium",
+          "p": [
+            "The hognose is a ground-dwelling snake, so floor space matters more than height. A male does fine in a terrarium of about 60×40 cm, while an adult female should have 80–90 cm of length. Provide at least two hides, on the warm and cool sides, a water bowl and a securely fastened lid."
+          ]
+        },
+        {
+          "title": "Substrate",
+          "p": [
+            "Because it loves to dig, the substrate should be 5–10 cm deep and hold its shape: aspen shavings, a soil and sand mix, or coco fiber that is not wet. Avoid cedar and pine because of their fumes, and avoid constantly damp substrate, which can cause skin and respiratory problems in this species."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Temperature and <b>humidity</b>",
+      "boxes": [
+        {
+          "title": "Temperature",
+          "p": [
+            "Basking spot: 30–32 °C. Cool side: 22–26 °C. At night the temperature should not drop below 20 °C. Heating: a heat mat or heat bulb, always controlled by a thermostat."
+          ]
+        },
+        {
+          "title": "Lighting",
+          "p": [
+            "UVB is not required, but a regular day and night cycle (about 12 hours of light, on a timer) supports a normal feeding and activity rhythm."
+          ]
+        },
+        {
+          "title": "Humidity and water",
+          "p": [
+            "Humidity: 30–50%, with a humid hide during shedding. Fresh water in a stable bowl must always be available."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Diet",
+      "boxes": [
+        {
+          "p": [
+            "In the wild it eats mostly toads and frogs, but also lizards, eggs and small rodents. In captivity it is fed frozen-thawed mice: babies get pinkies every 5–7 days, adults an appropriately sized mouse every 7–14 days. Prey should not be wider than the thickest part of the snake's body.",
+            "Some hatchlings refuse mice at first because their natural prey is different. These usually come around with patience: warm the pinky well, leave it next to the hide overnight, or scent it, for example with canned tuna or salmon. Do not use wild frogs or toads as food because of parasites. Hognoses easily become obese, so adults, especially males, should not be overfed. Many individuals reduce their appetite or stop eating in winter on their own - keep an eye on their weight then."
+          ],
+          "spaced": true
+        }
+      ]
+    },
+    {
+      "title": "Health and <b>breeding</b>",
+      "boxes": [
+        {
+          "title": "Health",
+          "p": [
+            "The most common problems are obesity, respiratory infections and skin problems caused by overly damp substrate, as well as stuck shed. If you notice weight loss, mucus around the mouth or labored breathing, see a vet who specializes in exotic animals."
+          ]
+        },
+        {
+          "title": "Breeding",
+          "p": [
+            "Males mature earlier, females usually at 2–3 years. Successful breeding generally requires a winter cooling period. Females usually lay 4–20 eggs, and incubation takes about 50–60 days at 27–29 °C."
+          ]
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "title": "Hognose snake FAQ",
+    "items": [
+      {
+        "q": "Is the hognose snake venomous?",
+        "a": "It has mildly toxic saliva and enlarged rear teeth, but it is considered harmless to humans. Bites are rare, and even then the effects are usually just local swelling and redness."
+      },
+      {
+        "q": "Why does a hognose play dead?",
+        "a": "It is a defensive behavior: when hissing and neck flattening do not scare off the threat, the snake rolls onto its back and lies still. It is harmless and stops as soon as the snake calms down."
+      },
+      {
+        "q": "How big does a hognose snake get?",
+        "a": "Males rarely exceed 50–60 cm, while females usually reach 60–90 cm."
+      },
+      {
+        "q": "How long does a hognose snake live?",
+        "a": "With proper care it lives 15–20 years in captivity."
+      },
+      {
+        "q": "My young hognose won't eat - what should I do?",
+        "a": "This is common in hatchlings. Check the temperatures, offer a well-warmed pinky in the evening next to the hide, or scent it with tuna. If the snake is losing weight, see a vet."
+      },
+      {
+        "q": "Is the hognose snake good for beginners?",
+        "a": "Yes, as long as you understand its bluffing and occasionally picky appetite. It is small, does not need a large terrarium and its requirements are simple."
+      }
+    ]
+  },
+  "cta": {
+    "text": "For availability, care questions or equipment for a hognose snake - we are here. Give us a call or send a message on WhatsApp.",
+    "waText": "I'm interested in a hognose snake"
+  }
+}

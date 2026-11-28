@@ -1,19 +1,19 @@
 {
   "seo": {
-    "title": "Leopard Gecko — Breeding and Care Guide | NS Reptiles",
+    "title": "Leopard Gecko - Breeding and Care Guide | NS Reptiles",
     "description": "All about the leopard gecko: terrarium, temperature, diet and breeding. A complete breeding and care guide for this popular lizard species.",
     "keywords": "leopard gecko, leopard gecko care, leopard gecko for sale, leopard gecko price, leopard gecko Serbia, leopard gecko Novi Sad, leopard gecko terrarium, leopard gecko diet, leopard gecko breeding, leopard gecko morphs, NS Reptiles",
     "ogDescription": "All about the leopard gecko: terrarium, temperature, diet and breeding. A complete breeding and care guide."
   },
   "article": {
-    "headline": "Leopard Gecko — Breeding and Care Guide",
+    "headline": "Leopard Gecko - Breeding and Care Guide",
     "description": "All about the leopard gecko: terrarium, temperature, diet and breeding. A complete breeding and care guide."
   },
   "name": "Leopard gecko",
   "schemaName": "Leopard Gecko",
-  "lead": "Popular, calm-natured and easy to care for — an ideal choice for beginners and experienced breeders alike.",
-  "photoAlt": "Leopard gecko in a terrarium — NS Reptiles Novi Sad",
-  "intro": "The leopard gecko is one of the most commonly kept gecko species in the world. They are very popular because of their calm nature, how easily they tame and how simple they are to care for. There are many morphs — various color and pattern variations — which make them especially attractive pets. Prices start at 6,000 RSD (about €50) for a normal baby and go up to several tens of thousands of dinars for rare morphs.",
+  "lead": "Popular, calm-natured and easy to care for - an ideal choice for beginners and experienced breeders alike.",
+  "photoAlt": "Leopard gecko in a terrarium - NS Reptiles Novi Sad",
+  "intro": "The leopard gecko is one of the most commonly kept gecko species in the world. They are very popular because of their calm nature, how easily they tame and how simple they are to care for. There are many morphs - various color and pattern variations - which make them especially attractive pets. Prices start at 6,000 RSD (about €50) for a normal baby and go up to several tens of thousands of dinars for rare morphs.",
   "sections": [
     {
       "title": "Origin and <b>habitat</b>",
@@ -38,13 +38,13 @@
         {
           "title": "Size and appearance",
           "p": [
-            "A medium-sized, nocturnal gecko. They grow up to 25cm. Their base color is yellowish with white and lots of black spots. There are various morphs — color and pattern variants — so they come in all kinds of colors: from completely white to orange and yellow, with different eye and tail colors. They have a thick tail where they store excess fat."
+            "A medium-sized, nocturnal gecko. They grow up to 25cm. Their base color is yellowish with white and lots of black spots. There are various morphs - color and pattern variants - so they come in all kinds of colors: from completely white to orange and yellow, with different eye and tail colors. They have a thick tail where they store excess fat."
           ]
         },
         {
           "title": "Behavior",
           "p": [
-            "This gecko species is ideal for handling — they are extremely calm. Since it is a nocturnal species, they are mostly more active once it gets dark and the lights go off. During the day they are active if they are looking for food or need to shed."
+            "This gecko species is ideal for handling - they are extremely calm. Since it is a nocturnal species, they are mostly more active once it gets dark and the lights go off. During the day they are active if they are looking for food or need to shed."
           ]
         }
       ]
@@ -55,7 +55,7 @@
         {
           "title": "Terrarium",
           "p": [
-            "The minimum terrarium size for one adult is around 50x30x25cm. The terrarium does not need to be tall because they rarely climb — a larger floor area is better."
+            "The minimum terrarium size for one adult is around 50x30x25cm. The terrarium does not need to be tall because they rarely climb - a larger floor area is better."
           ]
         },
         {
@@ -105,7 +105,7 @@
         {
           "p": [
             "A cooling period is necessary if you want to breed leopard geckos. I would warmly recommend it to you, because it means a lot to the animals themselves during reproduction. This period should last about 2–3 months. I stop feeding sometime in December. I leave them at standard temperatures during the day, with the heaters on, for some 2-3 weeks, so that they digest everything and pass it before I switch off their heating. This is very important, because if you feed them and the temperature is not high enough for them to digest the food, problems can occur that may even result in death. After that period the heaters are switched off and stay off until February. Then I start heating again, but only at a lower intensity for a couple of days and then normally. Within 7 days the lizards regain their appetite and become active.",
-            "Before mating, the female should reach about 45–50g. Mating usually happens right after the pair is put together or within the next 2–3 days. Eggs can be expected within 2–4 weeks. Incubation takes about 60 days at 27.5–28.5°C. The sex can be determined by the incubation temperature: at 27.5–29°C females hatch, at 29–31°C mixed sexes, and at 31–33°C males. The young should be fed the same insects as adults, just in proportion to their size — insects should not be larger than the distance between the gecko's eyes."
+            "Before mating, the female should reach about 45–50g. Mating usually happens right after the pair is put together or within the next 2–3 days. Eggs can be expected within 2–4 weeks. Incubation takes about 60 days at 27.5–28.5°C. The sex can be determined by the incubation temperature: at 27.5–29°C females hatch, at 29–31°C mixed sexes, and at 31–33°C males. The young should be fed the same insects as adults, just in proportion to their size - insects should not be larger than the distance between the gecko's eyes."
           ],
           "spaced": true
         }
@@ -113,7 +113,7 @@
     }
   ],
   "cta": {
-    "text": "For questions about getting a leopard gecko, its care or equipment — we are here. Give us a call or send a message.",
+    "text": "For questions about getting a leopard gecko, its care or equipment - we are here. Give us a call or send a message.",
     "waText": "I'm interested in a leopard gecko"
   }
 }

@@ -19,6 +19,10 @@
   color: var(--ink);
   font-weight: 600;
 }
+.intro-box p a:not(.btn) {
+  color: var(--green-dark);
+  text-decoration: underline;
+}
 
 /* ===== ZOO SECTION ===== */
 .zoo {
@@ -85,6 +89,13 @@
 }
 .pd-breadcrumb .cur {
   color: var(--ink-soft);
+}
+/* na telefonu se trenutna strana prelamala sama u novi red uz "›" na kraju prvog; naziv je ionako u h1 */
+@media (max-width: 640px) {
+  .pd-breadcrumb .sep:has(+ .cur),
+  .pd-breadcrumb .cur {
+    display: none;
+  }
 }
 
 /* ===== PRICING (prodaja / cena) ===== */
@@ -341,6 +352,13 @@
   display: none;
 }
 @media (hover: none) {
+  /* na dodir je sav tekst stalno vidljiv i ide visoko preko slike, pa treba jaci sloj kao na hover */
+  .zcard::after {
+    background: linear-gradient(to top, rgba(4, 24, 17, 0.96) 0%, rgba(4, 24, 17, 0.75) 50%, rgba(4, 24, 17, 0.15) 100%);
+  }
+  .zcard:hover {
+    transform: none;
+  }
   .zcard .lat,
   .zcard p,
   .zcard .zlink {
@@ -359,8 +377,8 @@
 .starter {
   --green-ink: var(--green-light);
   background:
-    linear-gradient(90deg, rgba(8, 12, 10, 0.94) 0%, rgba(8, 12, 10, 0.7) 60%, rgba(8, 12, 10, 0.35) 100%),
-    url(/style/img/hero/agama-lg.webp) 70% center / cover no-repeat,
+    linear-gradient(90deg, rgba(8, 12, 10, 0.9) 0%, rgba(8, 12, 10, 0.6) 35%, rgba(8, 12, 10, 0) 55%),
+    url(/style/img/hero/starter-agama.webp) 70% 58% / cover no-repeat,
     var(--night);
   border-radius: 12px;
   color: #fff;
@@ -455,5 +473,182 @@ nav.breadcrumb-bar:has(+ .ks-main) {
 @media (max-width: 640px) {
   .pills {
     justify-content: flex-start;
+  }
+  /* tri kategorije staju u jedan red umesto da "Tarantule" ostane sama */
+  .zoo .pill {
+    flex: 1 1 auto;
+    padding: 11px 14px;
+  }
+}
+
+/* ===== STRANA VRSTE ===== */
+/* fotografija uz desnu ivicu preko cele visine, levom ivicom se stapa u tamnu pozadinu */
+.page-head.sp-head {
+  min-height: clamp(460px, 62vh, 620px);
+  background: #0b0f0d;
+}
+.page-head.sp-head::before {
+  display: none;
+}
+.page-head.sp-head .wrap {
+  padding-top: 60px;
+  padding-bottom: 64px;
+}
+.sp-head-text {
+  position: relative;
+  z-index: 2;
+  max-width: 560px;
+}
+.sp-latin {
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--green-light);
+  margin-bottom: 8px;
+}
+.sp-badge {
+  display: inline-block;
+  margin-top: 24px;
+  font-family: 'Oswald Variable', sans-serif;
+  font-weight: 500;
+  font-size: 0.82rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--green-light);
+}
+.sp-photo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  margin: 0;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 40%);
+  mask-image: linear-gradient(90deg, transparent 0%, #000 40%);
+}
+.sp-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+}
+/* breadcrumb da ne visi sam: blize uvodu nego ranije (56px) */
+.intro.sp-intro-sec {
+  padding-top: 28px;
+}
+.sp-intro.has-price {
+  display: grid;
+  gap: 36px;
+}
+.sp-care {
+  background: var(--bg);
+  padding: 56px 0 80px;
+}
+.sp-topic {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  gap: 40px;
+  padding: 40px 0;
+  border-top: 1px solid var(--silver);
+}
+.sp-topic-head {
+  isolation: isolate;
+  position: sticky;
+  top: 140px;
+  align-self: start;
+}
+.sp-num {
+  /* redni broj teme kao veliki vodeni zig iza naslova */
+  position: absolute;
+  left: -4px;
+  top: -0.25em;
+  z-index: -1;
+  font-family: 'Oswald Variable', sans-serif;
+  font-weight: 700;
+  font-size: 8.5rem;
+  line-height: 1;
+  color: var(--green);
+  opacity: 0.1;
+  pointer-events: none;
+}
+.sp-topic-head h2 {
+  font-size: clamp(1.4rem, 2.4vw, 1.8rem);
+  text-transform: uppercase;
+  line-height: 1.15;
+}
+.sp-topic-head h2 b {
+  color: var(--green-ink);
+}
+.sp-boxes {
+  display: grid;
+  gap: 18px;
+}
+.sp-box {
+  background: var(--white);
+  border-radius: 10px;
+  box-shadow: var(--card-shadow);
+  padding: 24px 26px;
+}
+.sp-box h3 {
+  font-family: 'Oswald Variable', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--green-dark);
+  margin-bottom: 10px;
+}
+.sp-box p {
+  color: var(--ink-soft);
+  font-size: 0.97rem;
+  line-height: 1.75;
+}
+.sp-box p + p {
+  margin-top: 12px;
+}
+.sp-box p a:not(.btn) {
+  color: var(--green);
+  text-decoration: underline;
+}
+.sp-guide {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-top: 32px;
+  border-top: 1px solid var(--silver);
+}
+.sp-related {
+  background: var(--bg);
+}
+.sp-related .sec-head {
+  text-align: center;
+  margin-bottom: 46px;
+}
+@media (max-width: 900px) {
+  /* telefon: slika gore preko cele sirine, tekst dole na tamnom */
+  .page-head.sp-head {
+    min-height: 600px;
+    align-items: flex-end;
+  }
+  .page-head.sp-head .wrap {
+    padding-top: 0;
+    padding-bottom: 44px;
+  }
+  .sp-photo {
+    width: 100%;
+    bottom: 34%;
+    -webkit-mask-image: linear-gradient(0deg, transparent 0%, #000 40%);
+    mask-image: linear-gradient(0deg, transparent 0%, #000 40%);
+  }
+  .sp-topic {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 32px 0;
+  }
+  .sp-topic-head {
+    position: relative;
+    top: auto;
+  }
+  .sp-num {
+    font-size: 6rem;
   }
 }

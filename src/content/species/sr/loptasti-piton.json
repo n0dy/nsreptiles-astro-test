@@ -9,15 +9,15 @@
     "description": "Sve što treba da znate o loptastom pitonu: ishrana, terarijum, temperatura, zdravlje i razmnožavanje."
   },
   "name": "Loptasti piton",
-  "lead": "Jedna od najpopularnijih zmija u teraristici — mirna, pitoma i idealna za početnike. Dostupna u sirom spektru boja i šarenih morfova.",
+  "lead": "Jedna od najpopularnijih zmija u teraristici - mirna, pitoma i idealna za početnike. Dostupna u sirom spektru boja i šarenih morfova.",
   "image": "/style/img/gallery/5.jpg",
   "photo": "/style/img/gallery/5.jpg",
-  "photoAlt": "Loptasti piton u terarijumu — NS Reptiles Novi Sad",
-  "intro": "Loptasti piton je jedna od najpopularnijih zmija u teraristici zbog mirne naravi i dostupnosti različitih morfova. Mirne i pitome prirode, lako se privikavaju na rukovanje i retko pokazuju agresiju — pogodni su za početnike. Zahvaljujući selektivnom uzgoju dostupni su u širokom spektru boja i šara.",
+  "photoAlt": "Loptasti piton u terarijumu - NS Reptiles Novi Sad",
+  "intro": "Loptasti piton je jedna od najpopularnijih zmija u teraristici zbog mirne naravi i dostupnosti različitih morfova. Mirne i pitome prirode, lako se privikavaju na rukovanje i retko pokazuju agresiju - pogodni su za početnike. Zahvaljujući selektivnom uzgoju dostupni su u širokom spektru boja i šara.",
   "price": {
     "label": "Cena",
     "value": "Jedinke od 12.000 din",
-    "note": "Loptasti piton iz domaćeg uzgoja — mirna zmija idealna za početnike. Jedinke od 12.000 din, dostupan i starter komplet sa terarijumom i opremom. Morfovi po dogovoru. Prodaja u Novom Sadu, dostava širom Srbije — javite nam se za dostupnost.",
+    "note": "Loptasti piton iz domaćeg uzgoja - mirna zmija idealna za početnike. Jedinke od 12.000 din, dostupan i starter komplet sa terarijumom i opremom. Morfovi po dogovoru. Prodaja u Novom Sadu, dostava širom Srbije - javite nam se za dostupnost.",
     "call": "Pozovite nas",
     "waText": "Zdravo, zanima me loptastog pitona.",
     "low": 12000
@@ -29,7 +29,7 @@
         {
           "title": "Poreklo",
           "p": [
-            "Zapadna i centralna Afrika — savane i šumski rubovi Gane, Nigerije, Kameruna i okolnih zemalja."
+            "Zapadna i centralna Afrika - savane i šumski rubovi Gane, Nigerije, Kameruna i okolnih zemalja."
           ]
         },
         {
@@ -63,7 +63,7 @@
         {
           "title": "Terarijum",
           "p": [
-            "Minimalne dimenzije za odraslu jedinku: 90×45×45 cm. Obezbediti skrovišta, grane za penjanje i posudu sa vodom. Poklopac mora biti siguran — poznati su po bekstvima."
+            "Minimalne dimenzije za odraslu jedinku: 90×45×45 cm. Obezbediti skrovišta, grane za penjanje i posudu sa vodom. Poklopac mora biti siguran - poznati su po bekstvima."
           ]
         },
         {
@@ -109,7 +109,7 @@
         {
           "title": "Ishrana",
           "p": [
-            "Mladunci: tek izlegli miševi (pinkiji) svakih 5–7 dana. Odrasli: odrasli miševi ili pacovi svakih 7–14 dana. Hranu nuditi odgovarajuće veličine — ne širu od najužeg dela tela zmije."
+            "Mladunci: tek izlegli miševi (pinkiji) svakih 5–7 dana. Odrasli: odrasli miševi ili pacovi svakih 7–14 dana. Hranu nuditi odgovarajuće veličine - ne širu od najužeg dela tela zmije."
           ]
         },
         {
@@ -166,7 +166,7 @@
     "description": "Loptasti piton iz domaćeg uzgoja - mirna zmija idealna za početnike. Jedinke od 12.000 din, dostupan i starter komplet sa terarijumom i opremom. Morfovi po dogovoru."
   },
   "cta": {
-    "text": "Za pitanja o nabavci, nezi ili opremi za loptastog pitona — tu smo. Javite nam se pozivom ili porukom.",
+    "text": "Za pitanja o nabavci, nezi ili opremi za loptastog pitona - tu smo. Javite nam se pozivom ili porukom.",
     "waText": "Zanima me loptasti piton"
   }
 }

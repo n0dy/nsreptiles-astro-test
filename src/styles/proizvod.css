@@ -32,6 +32,13 @@
 .pd-breadcrumb .cur {
   color: var(--ink-soft);
 }
+/* na telefonu se trenutna strana prelamala sama u novi red uz "›" na kraju prvog; naziv je ionako u h1 */
+@media (max-width: 640px) {
+  .pd-breadcrumb .sep:has(+ .cur),
+  .pd-breadcrumb .cur {
+    display: none;
+  }
+}
 
 /* ===== MAIN LAYOUT ===== */
 .pd-main {
