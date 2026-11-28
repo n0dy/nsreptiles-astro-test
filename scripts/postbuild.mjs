@@ -55,10 +55,14 @@ for (const page of htmlPages(DIST).sort()) {
   add(noExt(page) + '/', page, 301);
 }
 
+// Netlify je /strana.html/ vodio na /strana.html. Dinamicka pravila (sa :) moraju na sam kraj fajla:
+// Cloudflare sva pravila posle prvog dinamickog broji kao dinamicka (limit 100) i odbija deploy.
+const dynamic = ['/:page.html/ /:page.html 301', '/:dir/:page.html/ /:dir/:page.html 301', '/:dir/:sub/:page.html/ /:dir/:sub/:page.html 301'];
+if (rules.some((p) => /[:*]/.test(p[0]))) throw new Error('public/_redirects: dinamicka pravila (: ili *) idu samo u postbuild.mjs, na kraj');
 if (sources.size > 2000) throw new Error(`_redirects ima ${sources.size} pravila, limit je 2000`);
 writeFileSync(
   join(DIST, '_redirects'),
-  base.trimEnd() + '\n\n# Generisano (scripts/postbuild.mjs)\n' + lines.join('\n') + '\n',
+  base.trimEnd() + '\n\n# Generisano (scripts/postbuild.mjs)\n' + lines.join('\n') + '\n\n# Dinamicka pravila, uvek poslednja\n' + dynamic.join('\n') + '\n',
 );
 
 // Slika zaglavlja (.page-head) je CSS pozadina iz promenljive, pa je preload skener ne vidi - bez ovoga LCP kasni.
