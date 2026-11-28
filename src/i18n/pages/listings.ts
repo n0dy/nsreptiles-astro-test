@@ -143,7 +143,7 @@ export const LISTINGS = {
     meta: {
       sr: {
         title: 'Prodaja Terarijuma | Stakleni Terarijumi Novi Sad - NS Reptiles',
-        description: 'Prodaja staklenih terarijuma sa 3D pozadinom u preko 80 dimenzija. Ručna izrada i izrada po meri u Novom Sadu, dostava širom Srbije.',
+        description: 'Prodaja staklenih terarijuma za gekone, agame, zmije i kornjače u preko 80 dimenzija. Cene od 2.999 RSD, izrada po meri u Novom Sadu, dostava cela Srbija.',
         ogTitle: 'Terarijumi sa 3D pozadinom | NS Reptiles',
         ogDescription: 'Stakleni terarijumi u preko 80 dimenzija, sa 3D pozadinom. Izrada po meri. Novi Sad.',
       },
@@ -307,9 +307,9 @@ export const LISTINGS = {
     meta: {
       sr: {
         title: 'Oprema za Terarijume | UVB Lampe, Grejači, Hrana - NS Reptiles',
-        description: 'Oprema za reptile - UVB rasveta, grejanje, hrana i suplementi, ziva hrana (dubie, fobasi), podloge i dekoracija. NS Reptiles, Novi Sad.',
+        description: 'Oprema za terarijume i reptile - UVB lampe za guštere i kornjače, grejanje, hrana i suplementi, živa hrana (dubie, fobasi), podloge. NS Reptiles, Novi Sad.',
         ogTitle: 'Oprema za terarijume i akvarijume | NS Reptiles',
-        ogDescription: 'UVB rasveta, grejanje, hrana i suplementi, ziva hrana, podloge i dekoracija za terarijume i akvarijume.',
+        ogDescription: 'UVB rasveta, grejanje, hrana i suplementi, živa hrana, podloge i dekoracija za terarijume i akvarijume.',
       },
       en: {
         title: 'Terrarium & Aquarium Equipment | NS Reptiles, Novi Sad',

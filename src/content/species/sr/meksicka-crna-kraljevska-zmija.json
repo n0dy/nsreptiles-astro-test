@@ -15,7 +15,7 @@
   "photo": "/style/img/zivotinje/lampropeltis-getula-nigrita.webp",
   "photoSize": [800, 1000],
   "photoAlt": "Meksička crna kraljevska zmija (Lampropeltis getula nigrita) - NS Reptiles Novi Sad",
-  "intro": "Meksička crna kraljevska zmija potiče iz severozapadnog Meksika, pre svega Sonore i Sinaloe, i krajnjeg juga Arizone. U novijoj literaturi često se navodi i kao zasebna vrsta, Lampropeltis nigrita. Naseljava suva i polusuva područja - kamenite padine, trnovito žbunje i obode vodotokova. Odrasle jedinke su potpuno crne, i odozgo i sa stomačne strane, sa sjajnim krljuštima. Narastu do oko 1–1,2 m, a u zatočeništvu uz dobru negu žive 15–20 godina.",
+  "intro": "Meksička crna kraljevska zmija potiče iz severozapadnog Meksika, pre svega Sonore i Sinaloe, i krajnjeg juga Arizone. U novijoj literaturi često se navodi i kao zasebna vrsta, Lampropeltis nigrita. Naseljava suva i polusuva područja - kamenite padine, trnovito žbunje i obode vodotokova. Odrasle jedinke su potpuno crne, i odozgo i sa stomačne strane, sa sjajnim krljuštima. Narastu do oko 1-1,2 m, a u zatočeništvu uz dobru negu žive 15-20 godina.",
   "sections": [
     {
       "title": "Ponašanje i <b>rukovanje</b>",
@@ -57,7 +57,7 @@
         {
           "title": "Temperatura",
           "p": [
-            "Topla tačka: 28–32 °C. Hladniji deo: 22–25 °C. Noću ne ispod 20 °C. Grejanje: grejna podloga, kabl ili sijalica, uvek preko termostata."
+            "Topla tačka: 28-32 °C. Hladniji deo: 22-25 °C. Noću ne ispod 20 °C. Grejanje: grejna podloga, kabl ili sijalica, uvek preko termostata."
           ]
         },
         {
@@ -69,7 +69,7 @@
         {
           "title": "Vlažnost i voda",
           "p": [
-            "Vlažnost: 40–60 %, uz vlažno skrovište tokom presvlačenja. Sveža voda mora biti stalno dostupna u stabilnoj posudi."
+            "Vlažnost: 40-60 %, uz vlažno skrovište tokom presvlačenja. Sveža voda mora biti stalno dostupna u stabilnoj posudi."
           ]
         }
       ]
@@ -79,7 +79,7 @@
       "boxes": [
         {
           "p": [
-            "U zatočeništvu se hrani smrznutim i odmrznutim glodarima. Mladunci jedu pinkije svakih 5–7 dana, a odrasli odrasle miševe ili manje pacove svakih 10–14 dana. Plen ne treba da bude širi od najdebljeg dela tela zmije. Ova zmija gotovo uvek rado jede, pa treba paziti da se ne ugoji."
+            "U zatočeništvu se hrani smrznutim i odmrznutim glodarima. Mladunci jedu pinkije svakih 5-7 dana, a odrasli odrasle miševe ili manje pacove svakih 10-14 dana. Plen ne treba da bude širi od najdebljeg dela tela zmije. Ova zmija gotovo uvek rado jede, pa treba paziti da se ne ugoji."
           ]
         }
       ]
@@ -96,7 +96,7 @@
         {
           "title": "Razmnožavanje",
           "p": [
-            "Polna zrelost nastupa sa 2–3 godine, a pre parenja se obično sprovodi zimsko mirovanje. Partneri se spajaju samo radi parenja i uz nadzor. Inkubacija jaja traje oko 55–65 dana na 27–29 °C."
+            "Polna zrelost nastupa sa 2-3 godine, a pre parenja se obično sprovodi zimsko mirovanje. Partneri se spajaju samo radi parenja i uz nadzor. Inkubacija jaja traje oko 55-65 dana na 27-29 °C."
           ]
         }
       ]
@@ -117,11 +117,11 @@
       },
       {
         "q": "Koliko naraste meksička crna kraljevska zmija?",
-        "a": "Odrasle jedinke obično narastu do oko 1–1,2 m."
+        "a": "Odrasle jedinke obično narastu do oko 1-1,2 m."
       },
       {
         "q": "Koliko živi?",
-        "a": "U zatočeništvu uz pravilnu negu živi 15–20 godina."
+        "a": "U zatočeništvu uz pravilnu negu živi 15-20 godina."
       },
       {
         "q": "Po čemu se razlikuje od obične kraljevske zmije?",

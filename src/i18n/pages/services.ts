@@ -34,21 +34,21 @@ export const SERVICES = {
     layout: 'proc',
     meta: {
       sr: {
-        title: 'Izrada terarijuma po meri, Novi Sad | NS Reptiles',
-        description: 'Izrada terarijuma po meri u Novom Sadu: stakleni terarijumi za agame, gekone i pitone, 34 dezena folija, 3D pozadine i UVB rasveta. Rok 7–14 dana.',
+        title: 'Izrada staklenih terarijuma po meri, Novi Sad | NS Reptiles',
+        description: 'Izrada terarijuma po meri u Novom Sadu: stakleni terarijumi za agame, gekone i pitone, 34 dezena folija, 3D pozadine i UVB rasveta. Rok 7-14 dana.',
         ogTitle: 'Izrada terarijuma po meri | NS Reptiles',
         ogDescription: 'Ručno rađeni stakleni terarijumi po vašim merama - folije, 3D pozadine, rasveta i oprema. Novi Sad.',
         image: '/style/img/logo.jpg',
       },
       en: {
         title: 'Custom Glass Terrarium Builds in Novi Sad | NS Reptiles',
-        description: 'Custom glass terrariums in Novi Sad for bearded dragons, geckos and pythons - 34 film finishes, 3D backgrounds and UVB lighting. Ready in 7–14 days.',
+        description: 'Custom glass terrariums in Novi Sad for bearded dragons, geckos and pythons - 34 film finishes, 3D backgrounds and UVB lighting. Ready in 7-14 days.',
         ogTitle: 'Custom Terrarium Builds | NS Reptiles',
         ogDescription: 'Handcrafted glass terrariums built to your exact dimensions - decorative films, 3D backgrounds, lighting and full equipment. Novi Sad.',
       },
       ru: {
         title: 'Террариумы на заказ в Нови-Саде | NS Reptiles',
-        description: 'Террариумы на заказ в Нови-Саде: стеклянные террариумы для агам, гекконов и питонов, 34 вида плёнок, 3D-фоны и UVB-освещение. Срок - 7–14 дней.',
+        description: 'Террариумы на заказ в Нови-Саде: стеклянные террариумы для агам, гекконов и питонов, 34 вида плёнок, 3D-фоны и UVB-освещение. Срок - 7-14 дней.',
         ogTitle: 'Террариумы на заказ | NS Reptiles',
         ogDescription: 'Ручная работа - стеклянные террариумы по вашим размерам: плёнки, 3D-фоны, освещение и оборудование. Нови-Сад.',
       },
@@ -57,17 +57,17 @@ export const SERVICES = {
       sr: {
         name: 'Izrada terarijuma po meri',
         serviceType: 'Izrada terarijuma po meri',
-        description: 'Izrada terarijuma po meri u Novom Sadu. Stakleni terarijumi za agame, gekone i pitone, 34 dezena folija, 3D pozadine i UVB rasveta. Rok izrade 7–14 dana.',
+        description: 'Izrada terarijuma po meri u Novom Sadu. Stakleni terarijumi za agame, gekone i pitone, 34 dezena folija, 3D pozadine i UVB rasveta. Rok izrade 7-14 dana.',
       },
       en: {
         name: 'Custom Terrarium Builds',
         serviceType: 'Custom Terrarium Manufacturing',
-        description: 'Custom-built glass terrariums in Novi Sad. Handcrafted terrariums for bearded dragons, geckos and pythons - 34 film finishes, 3D backgrounds and UVB lighting. Ready in 7–14 days.',
+        description: 'Custom-built glass terrariums in Novi Sad. Handcrafted terrariums for bearded dragons, geckos and pythons - 34 film finishes, 3D backgrounds and UVB lighting. Ready in 7-14 days.',
       },
       ru: {
         name: 'Изготовление террариумов на заказ',
         serviceType: 'Изготовление террариумов на заказ',
-        description: 'Изготовление террариумов на заказ в Нови-Саде. Стеклянные террариумы для агам, гекконов и питонов, 34 вида плёнок, 3D-фоны и UVB-освещение. Срок изготовления 7–14 дней.',
+        description: 'Изготовление террариумов на заказ в Нови-Саде. Стеклянные террариумы для агам, гекконов и питонов, 34 вида плёнок, 3D-фоны и UVB-освещение. Срок изготовления 7-14 дней.',
       },
     },
     h1: {
@@ -148,14 +148,14 @@ export const SERVICES = {
       },
       {
         title: {
-          sr: 'Izrada - 7–14 dana',
-          en: 'Build time - 7–14 days',
-          ru: 'Срок изготовления - 7–14 дней',
+          sr: 'Izrada - 7-14 dana',
+          en: 'Build time - 7-14 days',
+          ru: 'Срок изготовления - 7-14 дней',
         },
         text: {
-          sr: 'Terarijum sastavljamo ručno od stakla. Prednja stakla su klizna, ventilacija ide kroz otvore sa mrežicom, a tip poklopca dogovaramo sa vama. Uobičajeni rok izrade je 7–14 dana. Za veće i zahtevnije projekte, kao što su terarijumi za veliku vodenu agamu ili iguanu, rok može biti i duži.',
-          en: 'The terrarium is assembled by hand from glass. The front panes slide, ventilation goes through mesh-covered openings, and we agree the type of lid with you. Standard build time is 7–14 days. For larger or more complex builds, such as terrariums for a large water dragon or iguana, it may take longer.',
-          ru: 'Террариум мы собираем вручную из стекла. Передние стёкла раздвижные, вентиляция идёт через отверстия с сеткой, а тип крышки мы согласуем с вами. Обычный срок изготовления 7–14 дней. Для более крупных и сложных проектов, например террариумов для большой водяной агамы или игуаны, срок может быть больше.',
+          sr: 'Terarijum sastavljamo ručno od stakla. Prednja stakla su klizna, ventilacija ide kroz otvore sa mrežicom, a tip poklopca dogovaramo sa vama. Uobičajeni rok izrade je 7-14 dana. Za veće i zahtevnije projekte, kao što su terarijumi za veliku vodenu agamu ili iguanu, rok može biti i duži.',
+          en: 'The terrarium is assembled by hand from glass. The front panes slide, ventilation goes through mesh-covered openings, and we agree the type of lid with you. Standard build time is 7-14 days. For larger or more complex builds, such as terrariums for a large water dragon or iguana, it may take longer.',
+          ru: 'Террариум мы собираем вручную из стекла. Передние стёкла раздвижные, вентиляция идёт через отверстия с сеткой, а тип крышки мы согласуем с вами. Обычный срок изготовления 7-14 дней. Для более крупных и сложных проектов, например террариумов для большой водяной агамы или игуаны, срок может быть больше.',
         },
       },
       {
@@ -234,21 +234,21 @@ export const SERVICES = {
     layout: 'proc',
     meta: {
       sr: {
-        title: 'Izrada akvarijuma po meri, Novi Sad | NS Reptiles',
-        description: 'Izrada akvarijuma po meri u Novom Sadu: stakleni akvarijumi za ribice i kornjače, 34 dezena folija, LED rasveta, filteri i 3D pozadine. Rok 7–14 dana.',
+        title: 'Izrada staklenih akvarijuma po meri, Novi Sad | NS Reptiles',
+        description: 'Izrada akvarijuma po meri u Novom Sadu: stakleni akvarijumi za ribice i kornjače, 34 dezena folija, LED rasveta, filteri i 3D pozadine. Rok 7-14 dana.',
         ogTitle: 'Izrada akvarijuma po meri | NS Reptiles',
         ogDescription: 'Ručno lepljeni stakleni akvarijumi po vašim merama - folije, LED rasveta, filteri i oprema. Novi Sad.',
         image: '/style/img/logo.jpg',
       },
       en: {
         title: 'Custom Aquariums - Made-to-Order Glass Tanks | NS Reptiles',
-        description: 'Custom-built glass aquariums in Novi Sad for fish and turtles: 34 vinyl wrap designs, LED lighting, filters and 3D backgrounds. Ready in 7–14 days.',
+        description: 'Custom-built glass aquariums in Novi Sad for fish and turtles: 34 vinyl wrap designs, LED lighting, filters and 3D backgrounds. Ready in 7-14 days.',
         ogTitle: 'Custom Aquariums | NS Reptiles',
         ogDescription: 'Hand-sealed glass aquariums built to your exact dimensions - vinyl wraps, LED lighting, filters, and full equipment. Novi Sad.',
       },
       ru: {
         title: 'Аквариумы на заказ в Нови-Саде | NS Reptiles',
-        description: 'Аквариумы на заказ в Нови-Саде: стеклянные аквариумы для рыб и черепах, 34 вида плёнки, LED-освещение, фильтры и 3D-фоны. Срок - 7–14 дней.',
+        description: 'Аквариумы на заказ в Нови-Саде: стеклянные аквариумы для рыб и черепах, 34 вида плёнки, LED-освещение, фильтры и 3D-фоны. Срок - 7-14 дней.',
         ogTitle: 'Аквариумы на заказ | NS Reptiles',
         ogDescription: 'Стеклянные аквариумы ручной работы по вашим размерам - плёнка, LED-освещение, фильтры и оборудование. Нови-Сад.',
       },
@@ -257,17 +257,17 @@ export const SERVICES = {
       sr: {
         name: 'Izrada akvarijuma po meri',
         serviceType: 'Izrada akvarijuma po meri',
-        description: 'Izrada akvarijuma po meri u Novom Sadu. Stakleni akvarijumi za ribice i kornjače, 34 dezena folija, LED rasveta, filteri i 3D pozadine. Rok izrade 7–14 dana.',
+        description: 'Izrada akvarijuma po meri u Novom Sadu. Stakleni akvarijumi za ribice i kornjače, 34 dezena folija, LED rasveta, filteri i 3D pozadine. Rok izrade 7-14 dana.',
       },
       en: {
         name: 'Custom Aquarium Building',
         serviceType: 'Custom Aquarium Building',
-        description: 'Custom-built glass aquariums in Novi Sad. Handcrafted tanks for fish and turtles, 34 vinyl wrap designs, LED lighting, filters, and 3D backgrounds. Ready in 7–14 days.',
+        description: 'Custom-built glass aquariums in Novi Sad. Handcrafted tanks for fish and turtles, 34 vinyl wrap designs, LED lighting, filters, and 3D backgrounds. Ready in 7-14 days.',
       },
       ru: {
         name: 'Изготовление аквариумов на заказ',
         serviceType: 'Изготовление аквариумов на заказ',
-        description: 'Изготовление аквариумов на заказ в Нови-Саде. Стеклянные аквариумы для рыб и черепах, 34 вида плёнки, LED-освещение, фильтры и 3D-фоны. Срок изготовления - 7–14 дней.',
+        description: 'Изготовление аквариумов на заказ в Нови-Саде. Стеклянные аквариумы для рыб и черепах, 34 вида плёнки, LED-освещение, фильтры и 3D-фоны. Срок изготовления - 7-14 дней.',
       },
     },
     h1: {
@@ -348,14 +348,14 @@ export const SERVICES = {
       },
       {
         title: {
-          sr: 'Izrada - 7–14 dana',
-          en: 'Build time - 7–14 days',
-          ru: 'Изготовление - 7–14 дней',
+          sr: 'Izrada - 7-14 dana',
+          en: 'Build time - 7-14 days',
+          ru: 'Изготовление - 7-14 дней',
         },
         text: {
-          sr: 'Akvarijum lepimo ručno, od stakla čiju debljinu biramo prema zapremini i visini; na stanju imamo staklo od 4, 6, 8, 10 i 12 mm. Uobičajeni rok izrade je 7–14 dana. Za veće i zahtevnije projekte rok može biti i duži.',
-          en: 'The aquarium is glued by hand from glass whose thickness we choose by volume and height; we stock 4, 6, 8, 10 and 12 mm glass. The standard build time is 7–14 days. For larger or more complex builds it may take longer.',
-          ru: 'Аквариум мы клеим вручную из стекла, толщину которого подбираем по объёму и высоте; в наличии есть стекло 4, 6, 8, 10 и 12 мм. Обычный срок изготовления 7–14 дней. Для более крупных и сложных проектов срок может быть больше.',
+          sr: 'Akvarijum lepimo ručno, od stakla čiju debljinu biramo prema zapremini i visini; na stanju imamo staklo od 4, 6, 8, 10 i 12 mm. Uobičajeni rok izrade je 7-14 dana. Za veće i zahtevnije projekte rok može biti i duži.',
+          en: 'The aquarium is glued by hand from glass whose thickness we choose by volume and height; we stock 4, 6, 8, 10 and 12 mm glass. The standard build time is 7-14 days. For larger or more complex builds it may take longer.',
+          ru: 'Аквариум мы клеим вручную из стекла, толщину которого подбираем по объёму и высоте; в наличии есть стекло 4, 6, 8, 10 и 12 мм. Обычный срок изготовления 7-14 дней. Для более крупных и сложных проектов срок может быть больше.',
         },
       },
       {
@@ -422,20 +422,20 @@ export const SERVICES = {
     meta: {
       sr: {
         title: 'Izrada vivarijuma po meri, Novi Sad | NS Reptiles',
-        description: 'Izrada vivarijuma po meri u Novom Sadu: stakleni vivarijumi za tropske biljke, žabe i vodozemce, 34 dezena folija i specijalna rasveta. Rok 7–14 dana.',
+        description: 'Izrada vivarijuma po meri u Novom Sadu: stakleni vivarijumi za tropske biljke, žabe i vodozemce, 34 dezena folija i specijalna rasveta. Rok 7-14 dana.',
         ogTitle: 'Izrada vivarijuma po meri | NS Reptiles',
         ogDescription: 'Ručno rađeni stakleni vivarijumi po vašim merama - rasveta punog spektra, sistem za vlažnost i oprema. Novi Sad.',
         image: '/style/img/logo.jpg',
       },
       en: {
         title: 'Custom Glass Vivarium Building in Novi Sad | NS Reptiles',
-        description: 'Custom glass vivariums in Novi Sad: full-spectrum lighting, 34 decorative foil options, humidity systems. Ready in 7–14 days.',
+        description: 'Custom glass vivariums in Novi Sad: full-spectrum lighting, 34 decorative foil options, humidity systems. Ready in 7-14 days.',
         ogTitle: 'Custom Vivarium Building | NS Reptiles',
         ogDescription: 'Handcrafted glass vivariums built to your exact dimensions - full-spectrum lighting, humidity control, and complete equipment. Novi Sad.',
       },
       ru: {
         title: 'Виварии на заказ в Нови-Саде | NS Reptiles',
-        description: 'Виварии на заказ в Нови-Саде: стеклянные виварии для тропических растений, лягушек и амфибий, 34 вида плёнки, спецосвещение. Срок - 7–14 дней.',
+        description: 'Виварии на заказ в Нови-Саде: стеклянные виварии для тропических растений, лягушек и амфибий, 34 вида плёнки, спецосвещение. Срок - 7-14 дней.',
         ogTitle: 'Изготовление вивариев на заказ | NS Reptiles',
         ogDescription: 'Ручная работа - стеклянные виварии по вашим размерам: освещение полного спектра, система увлажнения и оборудование. Нови-Сад.',
       },
@@ -444,17 +444,17 @@ export const SERVICES = {
       sr: {
         name: 'Izrada vivarijuma po meri',
         serviceType: 'Izrada vivarijuma po meri',
-        description: 'Izrada vivarijuma po meri u Novom Sadu. Stakleni vivarijumi za tropske biljke, žabe i vodozemce, 34 dezena folija, specijalna rasveta. Rok izrade 7–14 dana.',
+        description: 'Izrada vivarijuma po meri u Novom Sadu. Stakleni vivarijumi za tropske biljke, žabe i vodozemce, 34 dezena folija, specijalna rasveta. Rok izrade 7-14 dana.',
       },
       en: {
         name: 'Custom Vivarium Building',
         serviceType: 'Custom Vivarium Building',
-        description: 'Custom glass vivariums built to your specifications in Novi Sad. Full-spectrum lighting, 34 decorative foil options, humidity systems. Ready in 7–14 days.',
+        description: 'Custom glass vivariums built to your specifications in Novi Sad. Full-spectrum lighting, 34 decorative foil options, humidity systems. Ready in 7-14 days.',
       },
       ru: {
         name: 'Изготовление вивариев на заказ',
         serviceType: 'Изготовление вивариев на заказ',
-        description: 'Изготовление вивариев на заказ в Нови-Саде. Стеклянные виварии для тропических растений, лягушек и амфибий, 34 вида плёнки, специальное освещение. Срок изготовления 7–14 дней.',
+        description: 'Изготовление вивариев на заказ в Нови-Саде. Стеклянные виварии для тропических растений, лягушек и амфибий, 34 вида плёнки, специальное освещение. Срок изготовления 7-14 дней.',
       },
     },
     h1: {
@@ -468,9 +468,9 @@ export const SERVICES = {
       ru: 'Каждый виварий мы изготавливаем вручную из стекла, по вашим размерам и пожеланиям - с освещением полного спектра для здорового роста растений и полным набором оборудования.',
     },
     intro: {
-      sr: 'Vivarijum je zatvoren stakleni prostor za tropske biljke, žabe, vodozemce ili male reptile, u kome se održavaju vlažnost i temperatura. Pravimo ih ručno od stakla u Novom Sadu, po vašim merama, a po želji i kao paludarijum sa kopnenim i vodenim delom. Niste sigurni koja je veličina prava za vaše biljke? <strong>Rado ćemo vam pomoći</strong> da izaberete.<br><br>Vivarijum nema svoj 3D konfigurator, ali mere i dezen folije možete da isprobate u <a href="/3d-terarijum.html" style="text-decoration: underline">3D konfiguratoru terarijuma</a> i da nam pošaljete parametre, uz napomenu da želite vivarijum. Kako se konfigurator koristi piše u <a href="/3d-uputstvo.html" style="text-decoration: underline">uputstvu</a>. Cena zavisi od dimenzija, debljine stakla i opreme, a ponudu šaljemo kada dobijemo mere. Kapara je 30%, izrada traje 7–14 dana, a gotov vivarijum preuzimate lično u Novom Sadu ili vam ga šaljemo kurirskom službom, autobusom ili kombijem bilo gde u Srbiji.',
-      en: 'A vivarium is an enclosed glass space for tropical plants, frogs, amphibians or small reptiles, in which humidity and temperature are kept under control. We build them by hand from glass in Novi Sad, to your measurements, and on request as a paludarium with a land section and a water section. Not sure what size works best for your plants? <strong>We\'re happy to help</strong> you choose.<br><br>The vivarium does not have its own 3D configurator, but you can try out the dimensions and the foil design in the <a href="/en/3d-terrarium.html" style="text-decoration: underline">terrarium 3D configurator</a> and send us the parameters with a note that you want a vivarium. The <a href="/en/3d-guide.html" style="text-decoration: underline">guide</a> explains how the configurator works. The price depends on the dimensions, glass thickness and equipment, and we send a quote once we have your measurements. The deposit is 30%, the build takes 7–14 days, and you collect the finished vivarium in person in Novi Sad or we send it by courier, bus or van anywhere in Serbia.',
-      ru: 'Виварий - это закрытое стеклянное пространство для тропических растений, лягушек, амфибий или небольших рептилий, в котором поддерживаются влажность и температура. Мы делаем их вручную из стекла в Нови-Саде по вашим размерам, а по желанию и как палюдариум с сухопутной и водной частями. Не уверены, какой размер подойдёт вашим растениям? <strong>Мы с радостью поможем</strong> выбрать.<br><br>У вивария нет своего 3D-конфигуратора, но размеры и декор плёнки можно примерить в <a href="/ru/3d-terrarium.html" style="text-decoration: underline">3D-конфигураторе террариума</a> и отправить нам параметры с пометкой, что вам нужен виварий. Как пользоваться конфигуратором, описано в <a href="/ru/3d-guide.html" style="text-decoration: underline">инструкции</a>. Цена зависит от размеров, толщины стекла и оборудования, а предложение мы отправляем, когда получим размеры. Предоплата составляет 30%, изготовление занимает 7–14 дней, а готовый виварий вы забираете лично в Нови-Саде или мы отправляем его курьерской службой, автобусом или фургоном в любую точку Сербии.',
+      sr: 'Vivarijum je zatvoren stakleni prostor za tropske biljke, žabe, vodozemce ili male reptile, u kome se održavaju vlažnost i temperatura. Pravimo ih ručno od stakla u Novom Sadu, po vašim merama, a po želji i kao paludarijum sa kopnenim i vodenim delom. Niste sigurni koja je veličina prava za vaše biljke? <strong>Rado ćemo vam pomoći</strong> da izaberete.<br><br>Vivarijum nema svoj 3D konfigurator, ali mere i dezen folije možete da isprobate u <a href="/3d-terarijum.html" style="text-decoration: underline">3D konfiguratoru terarijuma</a> i da nam pošaljete parametre, uz napomenu da želite vivarijum. Kako se konfigurator koristi piše u <a href="/3d-uputstvo.html" style="text-decoration: underline">uputstvu</a>. Cena zavisi od dimenzija, debljine stakla i opreme, a ponudu šaljemo kada dobijemo mere. Kapara je 30%, izrada traje 7-14 dana, a gotov vivarijum preuzimate lično u Novom Sadu ili vam ga šaljemo kurirskom službom, autobusom ili kombijem bilo gde u Srbiji.',
+      en: 'A vivarium is an enclosed glass space for tropical plants, frogs, amphibians or small reptiles, in which humidity and temperature are kept under control. We build them by hand from glass in Novi Sad, to your measurements, and on request as a paludarium with a land section and a water section. Not sure what size works best for your plants? <strong>We\'re happy to help</strong> you choose.<br><br>The vivarium does not have its own 3D configurator, but you can try out the dimensions and the foil design in the <a href="/en/3d-terrarium.html" style="text-decoration: underline">terrarium 3D configurator</a> and send us the parameters with a note that you want a vivarium. The <a href="/en/3d-guide.html" style="text-decoration: underline">guide</a> explains how the configurator works. The price depends on the dimensions, glass thickness and equipment, and we send a quote once we have your measurements. The deposit is 30%, the build takes 7-14 days, and you collect the finished vivarium in person in Novi Sad or we send it by courier, bus or van anywhere in Serbia.',
+      ru: 'Виварий - это закрытое стеклянное пространство для тропических растений, лягушек, амфибий или небольших рептилий, в котором поддерживаются влажность и температура. Мы делаем их вручную из стекла в Нови-Саде по вашим размерам, а по желанию и как палюдариум с сухопутной и водной частями. Не уверены, какой размер подойдёт вашим растениям? <strong>Мы с радостью поможем</strong> выбрать.<br><br>У вивария нет своего 3D-конфигуратора, но размеры и декор плёнки можно примерить в <a href="/ru/3d-terrarium.html" style="text-decoration: underline">3D-конфигураторе террариума</a> и отправить нам параметры с пометкой, что вам нужен виварий. Как пользоваться конфигуратором, описано в <a href="/ru/3d-guide.html" style="text-decoration: underline">инструкции</a>. Цена зависит от размеров, толщины стекла и оборудования, а предложение мы отправляем, когда получим размеры. Предоплата составляет 30%, изготовление занимает 7-14 дней, а готовый виварий вы забираете лично в Нови-Саде или мы отправляем его курьерской службой, автобусом или фургоном в любую точку Сербии.',
     },
     items: [
       {
@@ -535,14 +535,14 @@ export const SERVICES = {
       },
       {
         title: {
-          sr: 'Izrada - 7–14 dana',
-          en: 'Production - 7–14 days',
-          ru: 'Изготовление - 7–14 дней',
+          sr: 'Izrada - 7-14 dana',
+          en: 'Production - 7-14 days',
+          ru: 'Изготовление - 7-14 дней',
         },
         text: {
-          sr: 'Vivarijum sastavljamo ručno od stakla; u radionici imamo staklo od 4, 6, 8, 10 i 12 mm, a debljinu biramo prema veličini vivarijuma. Uobičajeni rok izrade je 7–14 dana. Za veće i zahtevnije projekte rok može biti i duži.',
-          en: 'The vivarium is assembled by hand from glass; the workshop stocks 4, 6, 8, 10 and 12 mm glass, and we choose the thickness by the size of the vivarium. Standard build time is 7–14 days. For larger or more complex projects it may take longer.',
-          ru: 'Виварий мы собираем вручную из стекла; в мастерской есть стекло 4, 6, 8, 10 и 12 мм, а толщину подбираем по размеру вивария. Обычный срок изготовления 7–14 дней. Для более крупных и сложных проектов срок может быть больше.',
+          sr: 'Vivarijum sastavljamo ručno od stakla; u radionici imamo staklo od 4, 6, 8, 10 i 12 mm, a debljinu biramo prema veličini vivarijuma. Uobičajeni rok izrade je 7-14 dana. Za veće i zahtevnije projekte rok može biti i duži.',
+          en: 'The vivarium is assembled by hand from glass; the workshop stocks 4, 6, 8, 10 and 12 mm glass, and we choose the thickness by the size of the vivarium. Standard build time is 7-14 days. For larger or more complex projects it may take longer.',
+          ru: 'Виварий мы собираем вручную из стекла; в мастерской есть стекло 4, 6, 8, 10 и 12 мм, а толщину подбираем по размеру вивария. Обычный срок изготовления 7-14 дней. Для более крупных и сложных проектов срок может быть больше.',
         },
       },
       {
@@ -1037,13 +1037,13 @@ export const SERVICES = {
       },
       en: {
         title: 'Aquarium & Terrarium Repair Service | NS Reptiles, Novi Sad',
-        description: 'Aquarium & terrarium repair in Novi Sad: glass and silicone replacement, lid and frame repair, lighting upgrades. Free estimate, most repairs in 1–3 days.',
+        description: 'Aquarium & terrarium repair in Novi Sad: glass and silicone replacement, lid and frame repair, lighting upgrades. Free estimate, most repairs in 1-3 days.',
         ogTitle: 'Aquarium & Terrarium Repair | NS Reptiles',
         ogDescription: 'Aquarium and terrarium repair service - glass, silicone, lid, frame, and lighting. Free estimate. Novi Sad, Serbia.',
       },
       ru: {
         title: 'Ремонт аквариумов и террариумов | NS Reptiles, Нови-Сад',
-        description: 'Ремонт аквариумов и террариумов в Нови-Саде: замена стекла, силикона и освещения, ремонт крышки и рамы. Бесплатная оценка, большинство работ за 1–3 дня.',
+        description: 'Ремонт аквариумов и террариумов в Нови-Саде: замена стекла, силикона и освещения, ремонт крышки и рамы. Бесплатная оценка, большинство работ за 1-3 дня.',
         ogTitle: 'Ремонт аквариумов и террариумов | NS Reptiles',
         ogDescription: 'Сервис аквариумов и террариумов - замена стекла, силикона, крышки, рамы и освещения. Бесплатная оценка. Нови-Сад, Сербия.',
       },
@@ -1057,12 +1057,12 @@ export const SERVICES = {
       en: {
         name: 'Aquarium and Terrarium Repair',
         serviceType: 'Aquarium and Terrarium Repair',
-        description: 'Professional aquarium and terrarium repair in Novi Sad. Glass and silicone replacement, lid and frame repair, lighting upgrades. Free estimate, most repairs done in 1–3 business days.',
+        description: 'Professional aquarium and terrarium repair in Novi Sad. Glass and silicone replacement, lid and frame repair, lighting upgrades. Free estimate, most repairs done in 1-3 business days.',
       },
       ru: {
         name: 'Ремонт аквариумов и террариумов',
         serviceType: 'Ремонт аквариумов и террариумов',
-        description: 'Профессиональный ремонт аквариумов и террариумов в Нови-Саде. Замена стекла и силикона, ремонт крышки и рамы, замена освещения. Бесплатная оценка, большинство ремонтов за 1–3 рабочих дня.',
+        description: 'Профессиональный ремонт аквариумов и террариумов в Нови-Саде. Замена стекла и силикона, ремонт крышки и рамы, замена освещения. Бесплатная оценка, большинство ремонтов за 1-3 рабочих дня.',
       },
     },
     h1: {
@@ -1077,8 +1077,8 @@ export const SERVICES = {
     },
     intro: {
       sr: 'Pošaljite nam slike oštećenja i dimenzije, a mi ćemo vam dati <strong>besplatnu procenu</strong> cene i roka. Većina popravki završava se u roku od <strong>1-3 radna dana</strong>.',
-      en: 'Send us photos of the damage and the dimensions, and we\'ll give you a <strong>free estimate</strong> of the cost and turnaround. Most repairs are completed within <strong>1–3 business days</strong>.',
-      ru: 'Пришлите нам фотографии повреждений и размеры, и мы дадим вам <strong>бесплатную оценку</strong> стоимости и сроков. Большинство ремонтов выполняется в течение <strong>1–3 рабочих дней</strong>.',
+      en: 'Send us photos of the damage and the dimensions, and we\'ll give you a <strong>free estimate</strong> of the cost and turnaround. Most repairs are completed within <strong>1-3 business days</strong>.',
+      ru: 'Пришлите нам фотографии повреждений и размеры, и мы дадим вам <strong>бесплатную оценку</strong> стоимости и сроков. Большинство ремонтов выполняется в течение <strong>1-3 рабочих дней</strong>.',
     },
     items: [
       {
@@ -1149,8 +1149,8 @@ export const SERVICES = {
         },
         text: {
           sr: 'Kontaktirajte nas telefonom, mejlom ili preko društvenih mreža. Pošaljite slike oštećenja i dimenzije, a mi dajemo besplatnu procenu cene i roka. Većina popravki završava se u roku od 1-3 radna dana.',
-          en: 'Reach out by phone, email, or social media. Send us photos of the damage and the dimensions, and we\'ll come back to you with a free estimate of the cost and timeline. Most repairs are done within 1–3 business days.',
-          ru: 'Свяжитесь с нами по телефону, электронной почте или через социальные сети. Пришлите фотографии повреждений и размеры - мы дадим бесплатную оценку стоимости и сроков. Большинство ремонтов выполняется за 1–3 рабочих дня.',
+          en: 'Reach out by phone, email, or social media. Send us photos of the damage and the dimensions, and we\'ll come back to you with a free estimate of the cost and timeline. Most repairs are done within 1-3 business days.',
+          ru: 'Свяжитесь с нами по телефону, электронной почте или через социальные сети. Пришлите фотографии повреждений и размеры - мы дадим бесплатную оценку стоимости и сроков. Большинство ремонтов выполняется за 1-3 рабочих дня.',
         },
       },
     ],

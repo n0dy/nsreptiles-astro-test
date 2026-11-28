@@ -15,7 +15,7 @@
   "photo": "/style/img/zivotinje/heterodon-nasicus.webp",
   "photoSize": [800, 1000],
   "photoAlt": "Zapadna hognoz zmija (Heterodon nasicus) - NS Reptiles Novi Sad",
-  "intro": "Zapadna hognoz zmija potiče iz centralnog dela Severne Amerike - od južne Kanade, preko Velikih ravnica u SAD, do severnog Meksika. U prirodi naseljava suve prerije, peskovita i šljunkovita tla i obode polupustinja, gde veći deo vremena provodi ukopana u podlogu. Prepoznatljiva je po podignutoj, lopatastoj njušci kojom kopa. Mužjaci su znatno manji od ženki i retko prelaze 50–60 cm, dok ženke obično dostižu 60–90 cm. U zatočeništvu živi 15–20 godina.",
+  "intro": "Zapadna hognoz zmija potiče iz centralnog dela Severne Amerike - od južne Kanade, preko Velikih ravnica u SAD, do severnog Meksika. U prirodi naseljava suve prerije, peskovita i šljunkovita tla i obode polupustinja, gde veći deo vremena provodi ukopana u podlogu. Prepoznatljiva je po podignutoj, lopatastoj njušci kojom kopa. Mužjaci su znatno manji od ženki i retko prelaze 50-60 cm, dok ženke obično dostižu 60-90 cm. U zatočeništvu živi 15-20 godina.",
   "sections": [
     {
       "title": "Ponašanje i <b>odbrana</b>",
@@ -40,13 +40,13 @@
         {
           "title": "Terarijum",
           "p": [
-            "Hognoz je zemljana zmija kojoj je važnija površina dna od visine. Mužjaku je dovoljan terarijum oko 60×40 cm, a za odraslu ženku preporučuje se 80–90 cm dužine. Obezbediti bar dva skrovišta, na toplom i hladnom delu, posudu sa vodom i dobro osiguran poklopac."
+            "Hognoz je zemljana zmija kojoj je važnija površina dna od visine. Mužjaku je dovoljan terarijum oko 60×40 cm, a za odraslu ženku preporučuje se 80-90 cm dužine. Obezbediti bar dva skrovišta, na toplom i hladnom delu, posudu sa vodom i dobro osiguran poklopac."
           ]
         },
         {
           "title": "Podloga",
           "p": [
-            "Pošto voli da kopa, podloga treba da bude debela 5–10 cm i da drži oblik: aspen strugotina, mešavina zemlje i peska ili kokosovo vlakno koje nije mokro. Izbegavati kedar i borovinu zbog isparenja, kao i stalno vlažnu podlogu koja kod ove vrste može izazvati probleme sa kožom i disanjem."
+            "Pošto voli da kopa, podloga treba da bude debela 5-10 cm i da drži oblik: aspen strugotina, mešavina zemlje i peska ili kokosovo vlakno koje nije mokro. Izbegavati kedar i borovinu zbog isparenja, kao i stalno vlažnu podlogu koja kod ove vrste može izazvati probleme sa kožom i disanjem."
           ]
         }
       ]
@@ -57,7 +57,7 @@
         {
           "title": "Temperatura",
           "p": [
-            "Topla tačka: 30–32 °C. Hladniji deo: 22–26 °C. Noću temperatura ne bi trebalo da pada ispod 20 °C. Grejanje: grejna podloga ili sijalica, obavezno preko termostata."
+            "Topla tačka: 30-32 °C. Hladniji deo: 22-26 °C. Noću temperatura ne bi trebalo da pada ispod 20 °C. Grejanje: grejna podloga ili sijalica, obavezno preko termostata."
           ]
         },
         {
@@ -69,7 +69,7 @@
         {
           "title": "Vlažnost i voda",
           "p": [
-            "Vlažnost: 30–50 %, uz vlažno skrovište tokom presvlačenja. Sveža voda u stabilnoj posudi mora biti stalno dostupna."
+            "Vlažnost: 30-50 %, uz vlažno skrovište tokom presvlačenja. Sveža voda u stabilnoj posudi mora biti stalno dostupna."
           ]
         }
       ]
@@ -79,7 +79,7 @@
       "boxes": [
         {
           "p": [
-            "U prirodi jede uglavnom žabe, ali i guštere, jaja i sitne glodare. U zatočeništvu se hrani smrznutim i odmrznutim miševima: mladunci pinkijima svakih 5–7 dana, odrasli mišem odgovarajuće veličine svakih 7–14 dana. Plen ne treba da bude širi od najdebljeg dela tela zmije.",
+            "U prirodi jede uglavnom žabe, ali i guštere, jaja i sitne glodare. U zatočeništvu se hrani smrznutim i odmrznutim miševima: mladunci pinkijima svakih 5-7 dana, odrasli mišem odgovarajuće veličine svakih 7-14 dana. Plen ne treba da bude širi od najdebljeg dela tela zmije.",
             "Deo mladunaca u početku odbija miševe jer im je prirodni plen drugačiji. Takve jedinke se obično navikavaju uz strpljenje: pinkija dobro zagrejati, ostaviti ga kraj skrovišta preko noći ili ga namirisati, na primer konzervisanom tunjevinom ili lososom. Divlje žabe ne koristiti kao hranu zbog parazita. Hognoz lako postaje gojazna, pa odrasle, posebno mužjake, ne treba prehranjivati. Mnoge jedinke zimi same smanje apetit ili prestanu da jedu - tada pratiti telesnu masu."
           ],
           "spaced": true
@@ -98,7 +98,7 @@
         {
           "title": "Razmnožavanje",
           "p": [
-            "Mužjaci polno sazrevaju ranije, a ženke obično sa 2–3 godine. Za uspešno razmnožavanje uglavnom je potrebno zimsko mirovanje. Ženke polažu najčešće 4–20 jaja, a inkubacija traje oko 50–60 dana na 27–29 °C."
+            "Mužjaci polno sazrevaju ranije, a ženke obično sa 2-3 godine. Za uspešno razmnožavanje uglavnom je potrebno zimsko mirovanje. Ženke polažu najčešće 4-20 jaja, a inkubacija traje oko 50-60 dana na 27-29 °C."
           ]
         }
       ]
@@ -123,11 +123,11 @@
       },
       {
         "q": "Koliko naraste hognoz zmija?",
-        "a": "Mužjaci retko prelaze 50–60 cm, a ženke obično dostižu 60–90 cm."
+        "a": "Mužjaci retko prelaze 50-60 cm, a ženke obično dostižu 60-90 cm."
       },
       {
         "q": "Koliko živi hognoz zmija?",
-        "a": "Uz pravilnu negu u zatočeništvu živi 15–20 godina."
+        "a": "Uz pravilnu negu u zatočeništvu živi 15-20 godina."
       },
       {
         "q": "Moja mlada hognoz neće da jede, šta da radim?",
