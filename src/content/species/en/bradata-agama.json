@@ -12,7 +12,7 @@
   "name": "Bearded dragon",
   "lead": "One of the calmest and most popular lizards for beginners. Suitable for all ages, tames easily and requires no CITES paperwork.",
   "photoAlt": "Bearded dragon in a terrarium - NS Reptiles Novi Sad",
-  "intro": "The bearded dragon is one of the most popular lizard species in the world and one of the calmest lizards to keep. They are often kept here, and there are several breeders who breed them regularly. It comes from a large part of Australia - from dry, semi-desert and desert regions. They usually grow to 45–55 cm, with females smaller than males and with a narrower head. Prices start at 6,000 din for standard animals and go up to several tens of thousands of dinars for uniquely colored morphs. It is not on the CITES list - no paperwork is needed.",
+  "intro": "The bearded dragon is one of the most popular lizard species in the world and one of the calmest lizards to keep. They are often kept here, and there are several breeders who breed them regularly. It comes from a large part of Australia - from dry, semi-desert and desert regions. They usually grow to 45-55 cm, with females smaller than males and with a narrower head. Prices start at 6,000 din for standard animals and go up to several tens of thousands of dinars for uniquely colored morphs. It is not on the CITES list - no paperwork is needed.",
   "price": {
     "label": "Price",
     "value": "Babies from 6,000 din",
@@ -51,7 +51,7 @@
         {
           "title": "Substrate",
           "p": [
-            "Several types of substrate can be used: newspaper, paper, foam mat, linoleum, flat stones or fine sand. Sand, together with flat stones, is the most natural substrate, but keep hygiene and maintenance in mind. For 1–2 lizards you can set up a natural environment, while for a larger number linoleum is more practical for easier cleaning. I put my own babies on sand from birth and they never have any problems.",
+            "Several types of substrate can be used: newspaper, paper, foam mat, linoleum, flat stones or fine sand. Sand, together with flat stones, is the most natural substrate, but keep hygiene and maintenance in mind. For 1-2 lizards you can set up a natural environment, while for a larger number linoleum is more practical for easier cleaning. I put my own babies on sand from birth and they never have any problems.",
             "Paper substrate is used in quarantine - for temporary housing when you need to clean often and monitor how much food the animals eat and what their stool looks like."
           ]
         }
@@ -63,9 +63,9 @@
         {
           "title": "Temperature",
           "p": [
-            "You need to create a temperature gradient by heating only one part of the terrarium with a spot lamp. The temperature on the warm side, under the lamp, should be around 40–45°C, while the cooler side can be 25–30°C or lower. A spot lamp has a concentrated beam of light and heats directly underneath - this is where the dragon will come to warm up after feeding or when the lights come on.",
+            "You need to create a temperature gradient by heating only one part of the terrarium with a spot lamp. The temperature on the warm side, under the lamp, should be around 40-45°C, while the cooler side can be 25-30°C or lower. A spot lamp has a concentrated beam of light and heats directly underneath - this is where the dragon will come to warm up after feeding or when the lights come on.",
             "The lamp should not be placed too close to the substrate so the dragon does not get burned. Always put a stone under the lamp; it will heat up and hold the temperature even after the lamp is switched off. At night the lamp is turned off and the temperature can drop to room temperature, about 20°C.",
-            "In winter the heating can be switched off and they can be left at lower temperatures to rest, especially if breeding is planned for the next season. The temperature can then drop to 14–16°C without any problem. During this period they do not eat because their metabolism slows down - offer a few pieces of easily digestible food every 4–5 days."
+            "In winter the heating can be switched off and they can be left at lower temperatures to rest, especially if breeding is planned for the next season. The temperature can then drop to 14-16°C without any problem. During this period they do not eat because their metabolism slows down - offer a few pieces of easily digestible food every 4-5 days."
           ]
         },
         {
@@ -101,9 +101,9 @@
       "boxes": [
         {
           "p": [
-            "The sex cannot be determined with certainty until about 5–6 months of age. It is checked by lifting the tail at a 90° angle - one bump behind the cloaca means a female, two mean a male.",
-            "A cooling period (about 2–3 months, usually December–February) is necessary for breeding. I would warmly recommend it, because it means a lot to the animals themselves during reproduction. I stop feeding sometime in December. I leave them at standard temperatures during the day, with the lamps on, but I fit weaker bulbs. During this time the lighting intensity is reduced and the day is shortened from 14 to 10 hours. In February the stronger conditions are restored, and within a week the lizards regain their appetite and become active.",
-            "After mating, the female lays eggs within 2–4 weeks, usually around 25 of them. Incubation takes about 70 days at a temperature of 29–29.5°C. I recommend keeping all babies separately if possible, to make it easier to keep track of feeding and defecation, and also to reduce stress and nipping."
+            "The sex cannot be determined with certainty until about 5-6 months of age. It is checked by lifting the tail at a 90° angle - one bump behind the cloaca means a female, two mean a male.",
+            "A cooling period (about 2-3 months, usually December-February) is necessary for breeding. I would warmly recommend it, because it means a lot to the animals themselves during reproduction. I stop feeding sometime in December. I leave them at standard temperatures during the day, with the lamps on, but I fit weaker bulbs. During this time the lighting intensity is reduced and the day is shortened from 14 to 10 hours. In February the stronger conditions are restored, and within a week the lizards regain their appetite and become active.",
+            "After mating, the female lays eggs within 2-4 weeks, usually around 25 of them. Incubation takes about 70 days at a temperature of 29-29.5°C. I recommend keeping all babies separately if possible, to make it easier to keep track of feeding and defecation, and also to reduce stress and nipping."
           ],
           "spaced": true
         }

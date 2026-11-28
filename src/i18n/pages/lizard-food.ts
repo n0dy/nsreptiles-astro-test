@@ -22,12 +22,12 @@ export const LIZARD_FOOD: Record<
 > = {
   sr: {
     meta: {
-      title: 'Hrana za Guštere | Dubia, Lateralis, Brašnari - NS REPTILES',
+      title: 'Hrana za Guštere | Dubia, Lateralis, Brašnari - NS Reptiles',
       description:
-        'Hrana za guštere - živa hrana za reptile: dubia žohari, fobasi, lateralis (turkestanski žohar) i brašnari (tenebrio) u više veličina. NS REPTILES Novi Sad.',
+        'Hrana za guštere - živa hrana za reptile: dubia žohari, fobasi, lateralis (turkestanski žohar) i brašnari (tenebrio) u više veličina. NS Reptiles, Novi Sad.',
       keywords:
         'hrana za guštere, živa hrana za reptile, dubia žohari, dubie, fobasi, lateralis, turkestanski žohar, brašnari, tenebrio, insekti za guštere, hrana za bradatu agamu, hrana za leopard gekona',
-      ogTitle: 'Hrana za Guštere | Dubia, Lateralis, Brašnari - NS REPTILES',
+      ogTitle: 'Hrana za Guštere | Dubia, Lateralis, Brašnari - NS Reptiles',
       ogDescription:
         'Živa hrana za guštere i reptile - dubia žohari, fobasi, lateralis i brašnari u više veličina. Sveža i uvek na stanju.',
     },

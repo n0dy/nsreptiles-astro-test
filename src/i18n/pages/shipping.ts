@@ -36,10 +36,10 @@ export const SHIPPING: Record<Locale, {
     meta: {
       title: 'Dostava terarijuma i akvarijuma širom Srbije | NS Reptiles',
       description:
-        'Informacije o dostavi terarijuma, akvarijuma i opreme. Rokovi isporuke 1–5 dana, kurirska dostava širom Srbije, bezbedno pakovanje staklenih proizvoda.',
+        'Informacije o dostavi terarijuma, akvarijuma i opreme. Rokovi isporuke 1-5 dana, kurirska dostava širom Srbije, bezbedno pakovanje staklenih proizvoda.',
       image: '/style/img/logo.jpg',
       ogTitle: 'Dostava terarijuma i akvarijuma | NS Reptiles',
-      ogDescription: 'Rokovi isporuke 1–5 dana, kurirska dostava širom Srbije, bezbedno pakovanje staklenih proizvoda.',
+      ogDescription: 'Rokovi isporuke 1-5 dana, kurirska dostava širom Srbije, bezbedno pakovanje staklenih proizvoda.',
     },
     h1: 'Dostava širom Srbije',
     lead: 'Pažljivo pakujemo i šaljemo vaše terarijume, akvarijume i opremu - bezbedno, na vreme i do vaše adrese, ma gde u Srbiji bili.',
@@ -50,9 +50,9 @@ export const SHIPPING: Record<Locale, {
         byType: {
           title: 'Po vrsti proizvoda',
           rows: [
-            ['Oprema, hrana i dekoracije', '1–3 dana'],
-            ['Terarijumi i akvarijumi sa stanja', '2–5 dana'],
-            ['Izrada po meri', '7–14 dana'],
+            ['Oprema, hrana i dekoracije', '1-3 dana'],
+            ['Terarijumi i akvarijumi sa stanja', '2-5 dana'],
+            ['Izrada po meri', '7-14 dana'],
             ['Životinje', 'Po dogovoru'],
           ],
         },
@@ -89,7 +89,7 @@ export const SHIPPING: Record<Locale, {
         price: {
           title: 'Standardna oprema i manji terarijumi',
           text: 'Za opremu, hranu, dekoracije i manje terarijume cena dostave je fiksna i pristupačna.',
-          amount: '350–700',
+          amount: '350-700',
           unit: 'din, zavisno od težine i lokacije',
         },
         note: {
@@ -128,9 +128,9 @@ export const SHIPPING: Record<Locale, {
         byType: {
           title: 'By product type',
           rows: [
-            ['Equipment, food and decorations', '1–3 days'],
-            ['Terrariums and aquariums in stock', '2–5 days'],
-            ['Custom build', '7–14 days'],
+            ['Equipment, food and decorations', '1-3 days'],
+            ['Terrariums and aquariums in stock', '2-5 days'],
+            ['Custom build', '7-14 days'],
             ['Animals', 'By arrangement'],
           ],
         },
@@ -167,7 +167,7 @@ export const SHIPPING: Record<Locale, {
         price: {
           title: 'Standard equipment and smaller terrariums',
           text: 'For equipment, food, decorations and smaller terrariums the delivery price is fixed and affordable.',
-          amount: '350–700',
+          amount: '350-700',
           unit: 'RSD, depending on weight and location',
         },
         note: {
@@ -206,9 +206,9 @@ export const SHIPPING: Record<Locale, {
         byType: {
           title: 'По виду товара',
           rows: [
-            ['Оборудование, корм и декорации', '1–3 дня'],
-            ['Террариумы и аквариумы в наличии', '2–5 дней'],
-            ['Изготовление на заказ', '7–14 дней'],
+            ['Оборудование, корм и декорации', '1-3 дня'],
+            ['Террариумы и аквариумы в наличии', '2-5 дней'],
+            ['Изготовление на заказ', '7-14 дней'],
             ['Животные', 'По договорённости'],
           ],
         },
@@ -245,7 +245,7 @@ export const SHIPPING: Record<Locale, {
         price: {
           title: 'Стандартное оборудование и небольшие террариумы',
           text: 'Для оборудования, корма, декораций и небольших террариумов стоимость доставки фиксированная и доступная.',
-          amount: '350–700',
+          amount: '350-700',
           unit: 'дин, в зависимости от веса и места',
         },
         note: {
