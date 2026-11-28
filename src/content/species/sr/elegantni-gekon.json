@@ -1,0 +1,171 @@
+{
+  "seo": {
+    "title": "Elegantni gekon - vodič za negu i terarijum | NS Reptiles",
+    "description": "Elegantni gekon (Stenodactylus sthenodactylus): pustinjski terarijum, pesak, temperatura, vlažnost i ishrana insektima. Vodič za negu - NS Reptiles.",
+    "keywords": "elegantni gekon, Stenodactylus sthenodactylus, elegantni gekon nega, elegantni gekon terarijum, pustinjski gekon, pustinjski terarijum, gekon pesak, elegantni gekon ishrana, mali gekon, NS Reptiles",
+    "ogDescription": "Vodič za negu elegantnog gekona: nizak pustinjski terarijum, peskovita podloga, grejanje, vlažnost i ishrana. NS Reptiles, Novi Sad."
+  },
+  "article": {
+    "headline": "Elegantni gekon - vodič za negu i uzgoj",
+    "description": "Detaljan vodič za držanje elegantnog gekona: veličina, terarijum, temperatura, vlažnost, ishrana i razmnožavanje."
+  },
+  "name": "Elegantni gekon",
+  "lead": "Sitan pustinjski gekon iz severne Afrike i sa Bliskog istoka, dug do oko 10 cm. Ima krupne oči i tanke prste bez lepljivih jastučića - živi na zemlji, kopa u pesku i aktivan je noću.",
+  "image": "/style/img/zivotinje/stenodactylus-sthenodactylus.webp",
+  "photo": "/style/img/zivotinje/stenodactylus-sthenodactylus.webp",
+  "photoSize": [800, 1000],
+  "photoAlt": "Elegantni gekon (Stenodactylus sthenodactylus) na pesku - NS Reptiles Novi Sad",
+  "intro": "Elegantni gekon (Stenodactylus sthenodactylus) je mali pustinjski gekon koji živi na tlu. Za razliku od crested i tužnog gekona, ne penje se po staklu i granama, već trči po pesku i noću lovi sitne insekte. Traži nizak, suv terarijum sa peskovitom podlogom i toplim mestom. Ne zauzima mnogo prostora i zanimljiv je za posmatranje, ali je osetljiv i nije za rukovanje.",
+  "sections": [
+    {
+      "title": "Poreklo, izgled i <b>ponašanje</b>",
+      "boxes": [
+        {
+          "title": "Poreklo i stanište",
+          "p": [
+            "Rasprostranjen je u severnoj Africi i na Bliskom istoku, od Sahare do Arabijskog poluostrva. Živi u peščanim i kamenito-peščanim pustinjama i polupustinjama, gde se danju skriva u jazbinama, ispod kamenja i u pukotinama, a izlazi tek po mraku."
+          ]
+        },
+        {
+          "title": "Veličina i izgled",
+          "p": [
+            "Odrasli primerci narastu do oko 8–10 cm zajedno sa repom. Telo je nežne građe, koža peskovite do svetlosmeđe boje sa sitnim svetlim i tamnim tačkama, što ga odlično kamuflira na pesku. Oči su krupne, a prsti tanki i bez lepljivih jastučića, pa se ne penje po glatkim površinama."
+          ]
+        },
+        {
+          "title": "Ponašanje",
+          "p": [
+            "Aktivan je noću i u sumrak, kada istražuje terarijum i lovi. Danju uglavnom provodi vreme u skrovištu ili ukopan u pesku. Plašljiv je i brz, a koža mu je tanka i osetljiva, pa ga ne treba uzimati u ruke osim kad je neophodno. Rep može da odbaci ako se uplaši."
+          ]
+        },
+        {
+          "title": "Držanje u grupi",
+          "p": [
+            "Može se držati pojedinačno ili kao jedan mužjak sa jednom do dve ženke. Dva mužjaka se ne drže zajedno jer se bore. U grupi svaki gekon treba da ima svoje skrovište."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Terarijum i <b>podloga</b>",
+      "boxes": [
+        {
+          "title": "Terarijum",
+          "p": [
+            "Potreban je nizak, horizontalni terarijum - važna je površina dna, a ne visina. Za jednog do tri gekona dovoljno je oko 60×30×30 cm, a veće dno je uvek bolje. Postavite nekoliko skrovišta, ravno kamenje, komade plute i niske dekoracije, ali ništa što bi se moglo urušiti kad gekon kopa ispod. Ventilacija mora biti dobra, a poklopac siguran."
+          ]
+        },
+        {
+          "title": "Podloga",
+          "p": [
+            "Podloga je sloj od 5–10 cm sitnog, opranog peska bez prašine ili mešavina peska i gline koja drži oblik jazbina. U jednom uglu podlogu povremeno blago navlažite odozdo, kako bi gekon imao mesto sa malo više vlage. Ne koristite kalcijumski pesak, šljunak ni kokosov treset."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Temperatura i <b>uslovi</b>",
+      "boxes": [
+        {
+          "title": "Temperatura",
+          "p": [
+            "Potreban je temperaturni gradijent: toplo mesto oko 30–33 °C, a ostatak terarijuma 25–28 °C. Noću temperatura može pasti na oko 20–22 °C. Za grejanje se koristi grejna podloga ispod dela dna ili grejna sijalica, obavezno sa termostatom, uz proveru temperature termometrom na nivou podloge."
+          ]
+        },
+        {
+          "title": "Osvetljenje",
+          "p": [
+            "Svetlo treba da prati ritam dana i noći, oko 12 sati dnevno. Pošto je noćna vrsta, UVB nije neophodan, ali slabo UVB svetlo sa dovoljno skrovišta može koristiti. Noću ne ostavljajte uključeno belo svetlo."
+          ]
+        },
+        {
+          "title": "Vlažnost i voda",
+          "p": [
+            "Vazduh treba da bude suv, oko 30–40% vlažnosti, uz jedno vlažnije skrovište ili ugao koji pomaže pri presvlačenju. Postavite malu plitku posudu sa vodom i nekoliko puta nedeljno lagano poprskajte deo terarijuma uveče - ovi gekoni rado piju kapljice. Terarijum ne sme da bude stalno vlažan."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ishrana",
+      "boxes": [
+        {
+          "title": "Osnovna ishrana",
+          "p": [
+            "Elegantni gekon je insektivor i ne jede voće ni voćne kaše. Hrani se sitnim insektima: malim cvrčcima, mladim žoharima, a povremeno i sitnim larvama. Insekt mora biti manji od glave gekona."
+          ]
+        },
+        {
+          "title": "Učestalost hranjenja",
+          "p": [
+            "Mladi gekoni se hrane svakodnevno ili svaki drugi dan, a odrasli 2–4 puta nedeljno. Insekte puštajte uveče, kada je gekon aktivan, i ne ostavljajte višak živih insekata u terarijumu preko noći."
+          ]
+        },
+        {
+          "title": "Suplementi",
+          "p": [
+            "Insekte posipajte kalcijumom pri većini hranjenja; ako nemate UVB, koristite kalcijum sa vitaminom D3. Multivitamin za reptile dodajte otprilike jednom nedeljno. Insekte pre davanja hranite kvalitetnom hranom kako bi bili hranljiviji."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Zdravlje i <b>razmnožavanje</b>",
+      "boxes": [
+        {
+          "title": "Životni vek",
+          "p": [
+            "Podaci o životnom veku u terarijumu su oskudni; najčešće se navodi oko 5–8 godina uz dobru negu. Ključni su pravilan temperaturni gradijent, suv vazduh i redovna suplementacija."
+          ]
+        },
+        {
+          "title": "Mogući zdravstveni problemi",
+          "p": [
+            "Najčešći problemi su dehidratacija, loše presvlačenje kada nema vlažnijeg skrovišta, metabolička bolest kostiju zbog manjka kalcijuma i respiratorne infekcije u previše vlažnom ili hladnom terarijumu. Kod gubitka težine, letargije ili otežanog disanja obratite se veterinaru za egzotične životinje."
+          ]
+        },
+        {
+          "title": "Razmnožavanje",
+          "p": [
+            "Mužjaci se prepoznaju po ispupčenjima iza kloake kod odraslih primeraka. Ženka polaže jedno do dva jaja sa tvrdom ljuskom, više puta tokom sezone, i zakopava ih u vlažniji deo peska. Jaja se inkubiraju odvojeno, a mladunci se izlegu posle otprilike dva meseca, zavisno od temperature."
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "terarijumi/terarijum-60x30x30",
+    "terarijumi/terarijum-60x40x30",
+    "terarijumi/terarijum-60x45x30"
+  ],
+  "faq": {
+    "title": "Česta pitanja o elegantnom gekonu",
+    "items": [
+      {
+        "q": "Kakav terarijum treba elegantnom gekonu?",
+        "a": "Nizak, horizontalni terarijum sa peskovitom podlogom. Za jednog do tri gekona dovoljno je oko 60×30×30 cm."
+      },
+      {
+        "q": "Da li se elegantni gekon penje po staklu?",
+        "a": "Ne. Nema lepljive jastučiće na prstima, pa živi na zemlji i ne penje se po glatkim površinama."
+      },
+      {
+        "q": "Koja temperatura odgovara elegantnom gekonu?",
+        "a": "Toplo mesto oko 30–33 °C, ostatak terarijuma 25–28 °C, a noću oko 20–22 °C. Grejanje uvek ide preko termostata."
+      },
+      {
+        "q": "Šta jede elegantni gekon?",
+        "a": "Samo sitne insekte - male cvrčke i mlade žohare, posute kalcijumom. Voće i voćne kaše ne jede."
+      },
+      {
+        "q": "Mogu li da držim više elegantnih gekona zajedno?",
+        "a": "Da, jednog mužjaka sa jednom do dve ženke. Dva mužjaka se ne drže zajedno."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Nabavite <b>elegantnog gekona</b>",
+    "text": "Javite nam se telefonom ili WhatsApp-om za dostupnost primeraka, preporuke za pustinjski terarijum i opremu i savete o nezi. Rado ćemo vam pomoći.",
+    "waText": "Zanima me elegantni gekon"
+  }
+}

@@ -124,12 +124,12 @@ const langLinks = {
             <span class="pd-price-k">{UI.price}</span>
             <span class="pd-price-v" data-pagefind-meta="price">{priceLabel(v)}</span>
           </div>
-          <div class="pd-cta">
-            <a href={`tel:${SITE.phone}`} class="btn btn-outline" onclick="gtag('event', 'kontakt_click', {'metod': 'telefon'})">
+          <div class="pd-cta" data-proizvod={v.name}>
+            <a href={`tel:${SITE.phone}`} class="btn btn-outline">
               <Icon name="phone" />
               {UI.call}
             </a>
-            <a href={whatsappLink(UI.wa(v.name))} target="_blank" rel="noopener" class="btn btn-outline" onclick="gtag('event', 'kontakt_click', {'metod': 'whatsapp'})">
+            <a href={whatsappLink(UI.wa(v.name))} target="_blank" rel="noopener" class="btn btn-outline">
               <Icon name="whatsapp" />
               WhatsApp
             </a>

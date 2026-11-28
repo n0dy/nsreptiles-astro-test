@@ -34,7 +34,7 @@ export const GALLERY: Record<
   },
   en: {
     meta: {
-      title: 'Gallery — Terrarium and Reptile Photos | NS Reptiles',
+      title: 'Gallery - Terrarium and Reptile Photos | NS Reptiles',
       description:
         'Browse the NS Reptiles gallery - photos of terrariums, aquariums, reptiles and exotic animals. Inspiration for your future terrarium.',
     },

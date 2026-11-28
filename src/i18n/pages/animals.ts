@@ -136,7 +136,7 @@ export const ANIMAL_GROUPS: { id: string; title: L; animals: Animal[] }[] = [
       },
       {
         href: '/zivotinje/debelorepigekon.html',
-        img: '/style/img/gallery/10.jpg',
+        img: '/style/img/zivotinje/hemitheconyx-caudicinctus.webp',
         latin: 'Hemitheconyx caudicinctus',
         beginner: true,
         name: { sr: 'Debelorepi gekon', en: 'African fat-tailed gecko', ru: 'Толстохвостый геккон' },
@@ -148,13 +148,83 @@ export const ANIMAL_GROUPS: { id: string; title: L; animals: Animal[] }[] = [
       },
       {
         href: '/zivotinje/crestedgekon.html',
-        img: '/style/img/gallery/14.jpg',
+        img: '/style/img/zivotinje/rhacodactylus-ciliatus.webp',
         latin: 'Rhacodactylus ciliatus',
         name: { sr: 'Crested gekon', en: 'Crested gecko', ru: 'Реснитчатый геккон' },
         text: {
           sr: 'Popularan izbor zbog male veličine, atraktivnog izgleda i poslušne prirode. Noćna je životinja i ne traži grejnu lampu na sobnoj temperaturi.',
           en: "A popular choice due to its small size, attractive appearance and docile nature. It's nocturnal and doesn't need a heat lamp at room temperature.",
           ru: 'Популярный выбор благодаря небольшому размеру, привлекательной внешности и послушному характеру. Ведёт ночной образ жизни и не нуждается в обогревательной лампе при комнатной температуре.',
+        },
+      },
+      {
+        href: '/zivotinje/gargojlgekon.html',
+        img: '/style/img/zivotinje/rhacodactylus-auriculatus.webp',
+        latin: 'Rhacodactylus auriculatus',
+        beginner: true,
+        name: { sr: 'Gargojl gekon', en: 'Gargoyle gecko', ru: 'Геккон-гаргулья' },
+        text: {
+          sr: 'Gekon sa Nove Kaledonije, nazvan po ispupčenjima na glavi koja podsećaju na rogove. Naraste do oko 20 cm, aktivan je noću i živi 15-20 godina. Hrani se insektima i voćnom kašom, a na sobnoj temperaturi ne traži grejnu lampu.',
+          en: 'A gecko from New Caledonia, named after the horn-like bumps on its head. Grows to about 20 cm, is active at night and lives 15-20 years. It eats insects and fruit-based gecko diet, and needs no heat lamp at room temperature.',
+          ru: 'Геккон с Новой Каледонии, названный так из-за похожих на рожки выступов на голове. Вырастает примерно до 20 см, активен ночью и живёт 15-20 лет. Питается насекомыми и фруктовой смесью, при комнатной температуре не нуждается в обогревательной лампе.',
+        },
+      },
+      {
+        href: '/zivotinje/plavojezicniskink.html',
+        img: '/style/img/zivotinje/tiliqua-scincoides.webp',
+        latin: 'Tiliqua scincoides',
+        beginner: true,
+        name: { sr: 'Plavojezični skink', en: 'Blue-tongued skink', ru: 'Синеязыкий сцинк' },
+        text: {
+          sr: 'Australijski gušter prepoznatljiv po plavom jeziku kojim plaši neprijatelje. Naraste do 50-60 cm, miran je i lako se navikava na ruke, a hrani se povrćem, voćem i insektima.',
+          en: 'An Australian lizard known for the blue tongue it flashes to scare off predators. Grows to 50-60 cm, is calm and gets used to handling easily, and eats vegetables, fruit and insects.',
+          ru: 'Австралийская ящерица, известная синим языком, которым она отпугивает врагов. Вырастает до 50-60 см, спокойная и легко привыкает к рукам, питается овощами, фруктами и насекомыми.',
+        },
+      },
+      {
+        href: '/zivotinje/ogrlicastiguster.html',
+        img: '/style/img/zivotinje/crotaphytus-collaris.webp',
+        latin: 'Crotaphytus collaris',
+        name: { sr: 'Ogrličasti gušter', en: 'Collared lizard', ru: 'Ошейниковая игуана' },
+        text: {
+          sr: 'Gušter sa stenovitih predela SAD i Meksika, nazvan po crnoj "ogrlici" oko vrata. Brz i aktivan - u bekstvu trči na zadnjim nogama. Traži prostran terarijum, jako grejno mesto i UVB svetlo, a hrani se insektima.',
+          en: 'A lizard from the rocky regions of the USA and Mexico, named after the black "collar" around its neck. Fast and active - it runs on its hind legs when fleeing. Needs a spacious terrarium, a hot basking spot and UVB light, and feeds on insects.',
+          ru: 'Ящерица из скалистых районов США и Мексики, названная по чёрному "ошейнику" на шее. Быстрая и активная - убегая, бежит на задних лапах. Нуждается в просторном террариуме, жарком месте для обогрева и UVB-освещении, питается насекомыми.',
+        },
+      },
+      {
+        href: '/zivotinje/snajderovskink.html',
+        img: '/style/img/zivotinje/eumeces-schneiderii.webp',
+        latin: 'Eumeces schneiderii',
+        beginner: true,
+        name: { sr: 'Šnajderov skink', en: "Schneider's skink", ru: 'Сцинк Шнейдера' },
+        text: {
+          sr: 'Skink iz suvih predela severne Afrike i Bliskog istoka, prepoznatljiv po narandžastim tačkama. Naraste do oko 40 cm, rado se ukopava u peskovitu podlogu i živi i do 20 godina. Miran je i hrani se uglavnom insektima.',
+          en: 'A skink from the dry regions of North Africa and the Middle East, recognizable by its orange spots. Grows to about 40 cm, likes to burrow in sandy substrate and can live up to 20 years. Calm, it feeds mostly on insects.',
+          ru: 'Сцинк из засушливых районов Северной Африки и Ближнего Востока, узнаваемый по оранжевым пятнам. Вырастает примерно до 40 см, любит зарываться в песчаный субстрат и может жить до 20 лет. Спокойный, питается в основном насекомыми.',
+        },
+      },
+      {
+        href: '/zivotinje/tuznigekon.html',
+        img: '/style/img/zivotinje/lepidodactylus-lugubris.webp',
+        latin: 'Lepidodactylus lugubris',
+        beginner: true,
+        name: { sr: 'Tužni gekon', en: 'Mourning gecko', ru: 'Траурный геккон' },
+        text: {
+          sr: 'Mali gekon (8-10 cm) sa ostrva jugoistočne Azije i Pacifika. Gotovo sve jedinke su ženke koje nose jaja bez mužjaka, pa se lako razmnožavaju i u terarijumu. Aktivan noću, voli biljni terarijum, a hrani se sitnim insektima i voćnom kašom.',
+          en: 'A small gecko (8-10 cm) from the islands of Southeast Asia and the Pacific. Almost all individuals are females that lay eggs without males, so they breed easily in a terrarium. Active at night, it likes planted terrariums and eats small insects and fruit-based gecko diet.',
+          ru: 'Маленький геккон (8-10 см) с островов Юго-Восточной Азии и Тихого океана. Почти все особи - самки, откладывающие яйца без самцов, поэтому легко размножаются и в террариуме. Активен ночью, любит террариумы с растениями, питается мелкими насекомыми и фруктовой смесью.',
+        },
+      },
+      {
+        href: '/zivotinje/elegantnigekon.html',
+        img: '/style/img/zivotinje/stenodactylus-sthenodactylus.webp',
+        latin: 'Stenodactylus sthenodactylus',
+        name: { sr: 'Elegantni gekon', en: 'Elegant gecko', ru: 'Короткопалый геккон' },
+        text: {
+          sr: 'Sitni pustinjski gekon (do oko 10 cm) iz severne Afrike i Bliskog istoka, sa krupnim očima i tankim prstima bez lepljivih jastučića. Živi na zemlji, aktivan je noću i traži peskovitu podlogu i suv terarijum. Hrani se sitnim insektima.',
+          en: 'A tiny desert gecko (up to about 10 cm) from North Africa and the Middle East, with large eyes and thin toes without sticky pads. It lives on the ground, is active at night and needs sandy substrate and a dry terrarium. Feeds on small insects.',
+          ru: 'Маленький пустынный геккон (примерно до 10 см) из Северной Африки и Ближнего Востока, с крупными глазами и тонкими пальцами без липких подушечек. Живёт на земле, активен ночью, нуждается в песчаном субстрате и сухом террариуме. Питается мелкими насекомыми.',
         },
       },
     ],
@@ -187,6 +257,65 @@ export const ANIMAL_GROUPS: { id: string; title: L; animals: Animal[] }[] = [
           ru: 'Один из самых популярных видов змей. Требует простой террариум и условия, которые легко обеспечить. Вырастает от 1,2 м до 1,6 м.',
         },
       },
+      {
+        href: '/zivotinje/hognozzmija.html',
+        img: '/style/img/zivotinje/heterodon-nasicus.webp',
+        latin: 'Heterodon nasicus',
+        beginner: true,
+        name: { sr: 'Zapadna hognoz zmija', en: 'Western hognose snake', ru: 'Западный свиноносый уж' },
+        text: {
+          sr: 'Mala zmija iz Severne Amerike sa podignutom njuškom kojom kopa po podlozi. Retko prelazi 60-90 cm i živi 15-20 godina. Kad se uplaši, širi vrat, sikće, a ponekad se pravi mrtva.',
+          en: 'A small North American snake with an upturned snout it uses to dig through substrate. Rarely exceeds 60-90 cm and lives 15-20 years. When scared, it flattens its neck, hisses and sometimes plays dead.',
+          ru: 'Небольшая змея из Северной Америки со вздёрнутым носом, которым она роется в субстрате. Редко превышает 60-90 см и живёт 15-20 лет. Испугавшись, раздувает шею, шипит, а иногда притворяется мёртвой.',
+        },
+      },
+      {
+        href: '/zivotinje/kraljevskazmija.html',
+        img: '/style/img/zivotinje/lampropeltis-getula.webp',
+        latin: 'Lampropeltis getula',
+        beginner: true,
+        name: { sr: 'Kraljevska zmija', en: 'Common kingsnake', ru: 'Королевская змея' },
+        text: {
+          sr: 'Severnoamerička zmija crne boje sa svetlim prstenovima, duga 90-150 cm. Ime je dobila jer u prirodi lovi i druge zmije, uključujući otrovne. Neotrovna je, lako se hrani glodarima i živi 15-20 godina.',
+          en: 'A North American snake, black with light bands, 90-150 cm long. It got its name because in the wild it also hunts other snakes, including venomous ones. Non-venomous, it feeds readily on rodents and lives 15-20 years.',
+          ru: 'Североамериканская змея чёрного цвета со светлыми кольцами, длиной 90-150 см. Название получила за то, что в природе охотится и на других змей, в том числе ядовитых. Неядовитая, охотно ест грызунов и живёт 15-20 лет.',
+        },
+      },
+      {
+        href: '/zivotinje/meksickacrnakraljevskazmija.html',
+        img: '/style/img/zivotinje/lampropeltis-getula-nigrita.webp',
+        latin: 'Lampropeltis getula nigrita',
+        beginner: true,
+        name: { sr: 'Meksička crna kraljevska zmija', en: 'Mexican black kingsnake', ru: 'Мексиканская чёрная королевская змея' },
+        text: {
+          sr: 'Potpuno crna kraljevska zmija sa sjajnim krljuštima, iz severozapadnog Meksika i Arizone. Naraste do oko 1-1.2 m, neotrovna je i laka za držanje, a hrani se glodarima.',
+          en: 'A completely black kingsnake with glossy scales, from northwestern Mexico and Arizona. Grows to about 1-1.2 m, is non-venomous and easy to keep, and feeds on rodents.',
+          ru: 'Полностью чёрная королевская змея с блестящей чешуёй из северо-западной Мексики и Аризоны. Вырастает примерно до 1-1,2 м, неядовитая и простая в содержании, питается грызунами.',
+        },
+      },
+      {
+        href: '/zivotinje/mlecnazmija.html',
+        img: '/style/img/zivotinje/lampropeltis-triangulum.webp',
+        latin: 'Lampropeltis triangulum',
+        beginner: true,
+        name: { sr: 'Mlečna zmija', en: 'Milk snake', ru: 'Молочная змея' },
+        text: {
+          sr: 'Neotrovna zmija iz Severne i Srednje Amerike čije crveno-crno-bele šare oponašaju otrovnu koralnu zmiju i tako plaše grabljivice. U zavisnosti od podvrste naraste 60-120 cm. Laka za držanje, hrani se glodarima.',
+          en: 'A non-venomous snake from North and Central America whose red, black and white bands mimic the venomous coral snake to scare off predators. Depending on the subspecies it grows 60-120 cm. Easy to keep, it feeds on rodents.',
+          ru: 'Неядовитая змея из Северной и Центральной Америки, чьи красно-чёрно-белые кольца подражают ядовитому коралловому аспиду и отпугивают хищников. В зависимости от подвида вырастает до 60-120 см. Проста в содержании, питается грызунами.',
+        },
+      },
+      {
+        href: '/zivotinje/tepihpiton.html',
+        img: '/style/img/zivotinje/morelia-spilota.webp',
+        latin: 'Morelia spilota',
+        name: { sr: 'Tepih piton', en: 'Carpet python', ru: 'Ромбический питон' },
+        text: {
+          sr: 'Piton iz Australije i Nove Gvineje sa šarom koja podseća na tepih. Najčešće naraste 2-2.5 m, rado se penje i živi 20 i više godina. Neotrovan je i ubija davljenjem, a u terarijumu traži visinu i granje.',
+          en: 'A python from Australia and New Guinea with a pattern that resembles a carpet. Usually grows to 2-2.5 m, likes to climb and lives 20+ years. Non-venomous, it kills by constriction and needs height and branches in its terrarium.',
+          ru: 'Питон из Австралии и Новой Гвинеи с узором, напоминающим ковёр. Обычно вырастает до 2-2,5 м, любит лазать и живёт 20 лет и больше. Неядовитый, убивает удушением, в террариуме нуждается в высоте и ветках.',
+        },
+      },
     ],
   },
   {
@@ -194,8 +323,8 @@ export const ANIMAL_GROUPS: { id: string; title: L; animals: Animal[] }[] = [
     title: { sr: 'Tarantule', en: 'Tarantulas', ru: 'Тарантулы' },
     animals: [
       {
-        href: '/kompleti/tarantula.html',
-        img: '/style/img/tarantule/davus-pentaloris.png',
+        href: '/zivotinje/gvatemalskatigrastatarantula.html',
+        img: '/style/img/tarantule/davus-pentaloris.webp',
         latin: 'Davus pentaloris',
         name: { sr: 'Gvatemalska tigrasta tarantula', en: 'Guatemalan tiger rump tarantula', ru: 'Гватемальский тигровый тарантул' },
         text: {
@@ -205,8 +334,8 @@ export const ANIMAL_GROUPS: { id: string; title: L; animals: Animal[] }[] = [
         },
       },
       {
-        href: '/kompleti/tarantula.html',
-        img: '/style/img/tarantule/phormictopus-auratus.png',
+        href: '/zivotinje/kubanskazlatnatarantula.html',
+        img: '/style/img/tarantule/phormictopus-auratus.webp',
         latin: 'Phormictopus auratus',
         name: { sr: 'Kubanska zlatna tarantula', en: 'Cuban gold tarantula', ru: 'Кубинский золотой тарантул' },
         text: {
@@ -216,8 +345,8 @@ export const ANIMAL_GROUPS: { id: string; title: L; animals: Animal[] }[] = [
         },
       },
       {
-        href: '/kompleti/tarantula.html',
-        img: '/style/img/tarantule/acanthoscurria-geniculata.png',
+        href: '/zivotinje/brazilskabelonogatarantula.html',
+        img: '/style/img/tarantule/acanthoscurria-geniculata.webp',
         latin: 'Acanthoscurria geniculata',
         name: { sr: 'Brazilska belonoga tarantula', en: 'Brazilian whiteknee tarantula', ru: 'Бразильский белоногий тарантул' },
         text: {
@@ -227,8 +356,8 @@ export const ANIMAL_GROUPS: { id: string; title: L; animals: Animal[] }[] = [
         },
       },
       {
-        href: '/kompleti/tarantula.html',
-        img: '/style/img/tarantule/brachypelma-boehmei.png',
+        href: '/zivotinje/meksickavatrenatarantula.html',
+        img: '/style/img/tarantule/brachypelma-boehmei.webp',
         latin: 'Brachypelma boehmei',
         name: { sr: 'Meksička vatrena tarantula', en: 'Mexican fireleg tarantula', ru: 'Мексиканский огненный тарантул' },
         text: {
@@ -238,14 +367,71 @@ export const ANIMAL_GROUPS: { id: string; title: L; animals: Animal[] }[] = [
         },
       },
       {
-        href: '/kompleti/tarantula.html',
-        img: '/style/img/tarantule/brachypelma-emilia.png',
+        href: '/zivotinje/meksickacrvenatarantula.html',
+        img: '/style/img/tarantule/brachypelma-emilia.webp',
         latin: 'Brachypelma emilia',
         name: { sr: 'Meksička crvena tarantula', en: 'Mexican redleg tarantula', ru: 'Мексиканский красный тарантул' },
         text: {
           sr: 'Klasična meksička tarantula sa prepoznatljivim crno-crvenim šarama. Mirna i dugovečna vrsta.',
           en: 'A classic Mexican tarantula with distinctive black and red patterns. A calm and long-lived species.',
           ru: 'Классический мексиканский тарантул с узнаваемыми чёрно-красными узорами. Спокойный и долгоживущий вид.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'vodozemci',
+    title: { sr: 'Vodozemci', en: 'Amphibians', ru: 'Земноводные' },
+    animals: [
+      {
+        href: '/zivotinje/pacmanzaba.html',
+        img: '/style/img/zivotinje/ceratophrys.webp',
+        latin: 'Ceratophrys sp.',
+        name: { sr: 'Pacman žaba', en: 'Pacman frog', ru: 'Рогатка (пакман)' },
+        text: {
+          sr: 'Južnoamerička rogata žaba ogromnih usta koja vreba plen ukopana u vlažnu podlogu. Malo se kreće i živi 10 i više godina, ali nije za držanje u rukama jer ima osetljivu kožu i ume da ugrize.',
+          en: 'A South American horned frog with a huge mouth that ambushes prey while buried in moist substrate. It moves little and lives 10+ years, but is not for handling - its skin is sensitive and it can bite.',
+          ru: 'Южноамериканская рогатая лягушка с огромным ртом, которая подстерегает добычу, зарывшись во влажный субстрат. Мало двигается и живёт 10 лет и больше, но не для того, чтобы брать в руки - у неё чувствительная кожа и она может укусить.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'beskicmenjaci',
+    title: { sr: 'Beskičmenjaci', en: 'Invertebrates', ru: 'Беспозвоночные' },
+    animals: [
+      {
+        href: '/zivotinje/dzinovskaafrickastonoga.html',
+        img: '/style/img/zivotinje/archispirostreptus-gigas.webp',
+        latin: 'Archispirostreptus gigas',
+        beginner: true,
+        name: { sr: 'Džinovska afrička stonoga', en: 'Giant African millipede', ru: 'Гигантская африканская многоножка' },
+        text: {
+          sr: 'Jedna od najvećih stonoga na svetu - naraste do oko 30 cm i živi 7-10 godina. Mirna i bezopasna, hrani se trulim lišćem, drvetom i povrćem, a traži dubok i vlažan supstrat.',
+          en: 'One of the largest millipedes in the world - grows to about 30 cm and lives 7-10 years. Calm and harmless, it feeds on decaying leaves, wood and vegetables, and needs deep, moist substrate.',
+          ru: 'Одна из самых крупных многоножек в мире - вырастает примерно до 30 см и живёт 7-10 лет. Спокойная и безобидная, питается опавшими листьями, древесиной и овощами, нуждается в глубоком влажном субстрате.',
+        },
+      },
+      {
+        href: '/zivotinje/azijskisumskiskorpion.html',
+        img: '/style/img/zivotinje/heterometrus-petersii.webp',
+        latin: 'Heterometrus petersii',
+        name: { sr: 'Azijski šumski škorpion', en: 'Asian forest scorpion', ru: 'Азиатский лесной скорпион' },
+        text: {
+          sr: 'Krupan crni škorpion iz tropskih šuma jugoistočne Azije, dug oko 10 cm, sa snažnim kleštima. Otrov mu je blag, ali je odbrambeno nastrojen i nije za držanje u rukama. Traži vlažnu podlogu u kojoj kopa skrovišta i hrani se insektima.',
+          en: 'A large black scorpion from the tropical forests of Southeast Asia, about 10 cm long, with powerful claws. Its venom is mild, but it is defensive and not for handling. Needs moist substrate to dig burrows in and feeds on insects.',
+          ru: 'Крупный чёрный скорпион из тропических лесов Юго-Восточной Азии, длиной около 10 см, с мощными клешнями. Яд слабый, но он склонен защищаться и не для того, чтобы брать в руки. Нуждается во влажном субстрате для рытья нор, питается насекомыми.',
+        },
+      },
+      {
+        href: '/zivotinje/dzinovskiplaviskorpion.html',
+        img: '/style/img/zivotinje/heterometrus-spinifer.webp',
+        latin: 'Heterometrus spinifer',
+        name: { sr: 'Džinovski plavi škorpion', en: 'Giant blue scorpion', ru: 'Гигантский синий скорпион' },
+        text: {
+          sr: 'Jedan od najvećih škorpiona na svetu - naraste do oko 12 cm, a pod svetlom mu oklop ima plavo-zeleni odsjaj. Živi u vlažnim šumama jugoistočne Azije. Otrov je blag, a za odbranu više koristi klešta nego žaoku.',
+          en: 'One of the largest scorpions in the world - grows to about 12 cm, and its shell shows a blue-green sheen under light. Lives in the humid forests of Southeast Asia. Its venom is mild, and it relies on its claws more than its sting for defence.',
+          ru: 'Один из крупнейших скорпионов в мире - вырастает примерно до 12 см, а под светом его панцирь отливает сине-зелёным. Обитает во влажных лесах Юго-Восточной Азии. Яд слабый, для защиты чаще использует клешни, чем жало.',
         },
       },
     ],

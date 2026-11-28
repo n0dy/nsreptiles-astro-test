@@ -30,10 +30,14 @@ type NavData = {
   };
 };
 
-const sub = (base: string, labels: [string, string, string]): Link[] => [
+const hub = (base: string, sr: string, other: string) => base.replace(/(zivotinje|animals)\.html$/, (m) => (m.startsWith('z') ? sr : other));
+const sub = (base: string, labels: [string, string, string, string, string, string]): Link[] => [
   { href: `${base}#cat-gusteri`, label: labels[0] },
-  { href: base.replace(/(zivotinje|animals)\.html$/, (m) => (m.startsWith('z') ? 'zmije.html' : 'snakes.html')), label: labels[1] },
-  { href: `${base}#cat-tarantule`, label: labels[2] },
+  { href: hub(base, 'gekoni.html', 'geckos.html'), label: labels[1] },
+  { href: hub(base, 'zmije.html', 'snakes.html'), label: labels[2] },
+  { href: `${base}#cat-tarantule`, label: labels[3] },
+  { href: `${base}#cat-vodozemci`, label: labels[4] },
+  { href: `${base}#cat-beskicmenjaci`, label: labels[5] },
 ];
 
 export const NAV: Record<Locale, NavData> = {
@@ -47,7 +51,7 @@ export const NAV: Record<Locale, NavData> = {
       { key: 'aquariums', href: '/akvarijumi.html', label: 'Akvarijumi' },
       { key: 'equipment', href: '/oprema.html', label: 'Oprema' },
     ],
-    animalsSub: sub('/zivotinje.html', ['Gušteri', 'Zmije', 'Tarantule']),
+    animalsSub: sub('/zivotinje.html', ['Gušteri', 'Gekoni', 'Zmije', 'Tarantule', 'Vodozemci', 'Beskičmenjaci']),
     allAnimals: 'Sve životinje',
     contact: { href: '/kontakt.html', label: 'Kontakt' },
     menu: 'Meni',
@@ -96,7 +100,7 @@ export const NAV: Record<Locale, NavData> = {
       { key: 'aquariums', href: '/en/aquariums.html', label: 'Aquariums' },
       { key: 'equipment', href: '/en/equipment.html', label: 'Equipment' },
     ],
-    animalsSub: sub('/en/animals.html', ['Lizards', 'Snakes', 'Tarantulas']),
+    animalsSub: sub('/en/animals.html', ['Lizards', 'Geckos', 'Snakes', 'Tarantulas', 'Amphibians', 'Invertebrates']),
     allAnimals: 'All animals',
     contact: { href: '/en/contact.html', label: 'Contact' },
     menu: 'Menu',
@@ -145,7 +149,7 @@ export const NAV: Record<Locale, NavData> = {
       { key: 'aquariums', href: '/ru/aquariums.html', label: 'Аквариумы' },
       { key: 'equipment', href: '/ru/equipment.html', label: 'Оборудование' },
     ],
-    animalsSub: sub('/ru/animals.html', ['Ящерицы', 'Змеи', 'Тарантулы']),
+    animalsSub: sub('/ru/animals.html', ['Ящерицы', 'Гекконы', 'Змеи', 'Тарантулы', 'Земноводные', 'Беспозвоночные']),
     allAnimals: 'Все животные',
     contact: { href: '/ru/contact.html', label: 'Контакт' },
     menu: 'Меню',

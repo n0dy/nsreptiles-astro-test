@@ -15,7 +15,7 @@ export const HOME_TEXT = {
     hero: {
       pre: 'NS Reptiles',
       title: ['Odgajivačnica', 'egzotičnih životinja'],
-      text: 'Odgajivačnica egzotičnih ljubimaca — kameleoni, agame, gekoni i zmije — i izrada terarijuma i akvarijuma po meri u Novom Sadu.',
+      text: 'Odgajivačnica egzotičnih ljubimaca - kameleoni, agame, gekoni i zmije - i izrada terarijuma i akvarijuma po meri u Novom Sadu.',
       cta: 'Pogledaj ponudu',
       contact: 'Pozovite',
       features: ['Zdrave i pitome jedinke', 'Proverena oprema', 'Terarijumi i akvarijumi po meri', 'Stručan savet i podrška'],
@@ -29,11 +29,10 @@ export const HOME_TEXT = {
     },
     reptilesTitle: 'Naši <b>reptili</b>',
     reptiles: {
-      lead: 'Upoznajte naše egzotične vrste. Od bradatih agama i leopard gekona do pitona i kukuruznih smukova – svaki ljubimac je pažljivo odgajen i zdrav.',
+      lead: 'Upoznajte naše egzotične vrste. Od bradatih agama i leopard gekona do pitona i kukuruznih smukova - svaki ljubimac je pažljivo odgajen i zdrav.',
       all: 'Pogledaj sve reptile',
     },
     cfg3d: {
-      pre: '3D konfigurator',
       title: 'Složi svoj <b>terarijum</b> ili <b>akvarijum</b> u 3D',
       lead: 'Unesi mere, izaberi foliju, pozadinu, poklopac i filter i odmah vidi kako će izgledati. Kad ti se dopadne, pošalji nam link - pravimo ga baš po toj meri.',
       feats: ['Mere po želji, do 200 cm dužine', 'Folije, 3D pozadine, supstrat i dekoracija', 'Akvarijum: litraža i debljina stakla odmah', 'Svaka izmena se vidi istog trenutka', 'Na telefonu ga pogledaj u svom prostoru (AR)'],
@@ -56,7 +55,7 @@ export const HOME_TEXT = {
   },
   en: {
     meta: {
-      title: 'NS Reptiles Novi Sad — Exotic Animals & Custom Terrariums',
+      title: 'NS Reptiles Novi Sad - Exotic Animals & Custom Terrariums',
       description:
         'Exotic pet breeding facility and custom terrarium and aquarium workshop in Novi Sad. Healthy and tame animals, quality equipment and expert advice.',
       ogDescription:
@@ -79,11 +78,10 @@ export const HOME_TEXT = {
     },
     reptilesTitle: 'Our <b>Reptiles</b>',
     reptiles: {
-      lead: 'Meet our exotic species. From bearded dragons and leopard geckos to pythons and corn snakes – every pet is carefully bred and healthy.',
+      lead: 'Meet our exotic species. From bearded dragons and leopard geckos to pythons and corn snakes - every pet is carefully bred and healthy.',
       all: 'View all reptiles',
     },
     cfg3d: {
-      pre: '3D configurator',
       title: 'Build your <b>terrarium</b> or <b>aquarium</b> in 3D',
       lead: 'Enter the size, pick the foil, background, lid and filter and see right away how it will look. When you like it, send us the link - we build it to exactly that size.',
       feats: ['Any size, up to 200 cm long', 'Foils, 3D backgrounds, substrate and decor', 'Aquarium: volume and glass thickness instantly', 'Every change shows immediately', 'On your phone, view it in your own space (AR)'],
@@ -106,7 +104,7 @@ export const HOME_TEXT = {
   },
   ru: {
     meta: {
-      title: 'NS Reptiles Нови-Сад — экзотические животные и террариумы',
+      title: 'NS Reptiles Нови-Сад - экзотические животные и террариумы',
       description:
         'Питомник экзотических животных и изготовление террариумов и аквариумов на заказ в Нови-Саде. Здоровые ручные особи, качественное оборудование и советы.',
       ogDescription:
@@ -129,11 +127,10 @@ export const HOME_TEXT = {
     },
     reptilesTitle: 'Наши <b>рептилии</b>',
     reptiles: {
-      lead: 'Познакомьтесь с нашими экзотическими видами. От бородатых агам и леопардовых гекконов до питонов и маисовых полозов – каждый питомец тщательно выращен и здоров.',
+      lead: 'Познакомьтесь с нашими экзотическими видами. От бородатых агам и леопардовых гекконов до питонов и маисовых полозов - каждый питомец тщательно выращен и здоров.',
       all: 'Все рептилии',
     },
     cfg3d: {
-      pre: '3D-конфигуратор',
       title: 'Собери свой <b>террариум</b> или <b>аквариум</b> в 3D',
       lead: 'Введи размеры, выбери плёнку, фон, крышку и фильтр и сразу увидишь, как он будет выглядеть. Понравилось - отправь нам ссылку, и мы сделаем его точно по этим размерам.',
       feats: ['Любые размеры, до 200 см в длину', 'Плёнки, 3D-фоны, грунт и декор', 'Аквариум: литраж и толщина стекла сразу', 'Каждое изменение видно мгновенно', 'На телефоне посмотрите его у себя в комнате (AR)'],
@@ -172,11 +169,11 @@ export const REPTILES: { img: string; href: string; name: L }[] = [
   { img: '/style/img/reptili/vodena.webp', href: '/zivotinje/kineskavodenaagama.html', name: SPECIES.vodena },
 ];
 
-export const GALLERY: { img: string; cat: 'guster' | 'zmija'; size?: 'tall' | 'big' | 'wide'; pos?: string; name: L }[] = [
-  { img: '/style/img/gallery/nova/bradata-agama-4.webp', cat: 'guster', size: 'tall', pos: 'calc(100% + 150px) center', name: SPECIES.bradata },
-  { img: '/style/img/gallery/nova/leopard-gekon-3.webp', cat: 'guster', name: SPECIES.leopard },
+export const GALLERY: { img: string; cat: 'guster' | 'zmija'; size?: 'tall' | 'big' | 'wide'; pos?: string; mpos?: string; name: L }[] = [
+  { img: '/style/img/gallery/nova/bradata-agama-4.webp', cat: 'guster', size: 'tall', pos: 'calc(100% + 150px) center', mpos: 'center top', name: SPECIES.bradata },
+  { img: '/style/img/gallery/nova/leopard-gekon-3.webp', cat: 'guster', mpos: 'right', name: SPECIES.leopard },
   { img: '/style/img/gallery/nova/loptasti-piton-1.webp', cat: 'zmija', size: 'wide', name: SPECIES.piton },
-  { img: '/style/img/gallery/nova/leopard-gekon-1.webp', cat: 'guster', name: SPECIES.leopard },
+  { img: '/style/img/gallery/nova/leopard-gekon-1.webp', cat: 'guster', mpos: '64% center', name: SPECIES.leopard },
   { img: '/style/img/gallery/nova/kukuruzni-smuk.webp', cat: 'zmija', name: SPECIES.smuk },
   { img: '/style/img/gallery/nova/bradata-agama-5.webp', cat: 'guster', pos: 'right', name: SPECIES.bradata },
 ];
@@ -477,7 +474,7 @@ export const TESTIMONIALS: { author: string; item: L; text: L }[] = [
   },
   {
     author: 'S.A.',
-    item: { sr: 'Akvarijum 40×25×27 - komplet', en: 'Aquarium 40×25×27 - complete kit', ru: 'Аквариум 40×25×27 — комплект' },
+    item: { sr: 'Akvarijum 40×25×27 - komplet', en: 'Aquarium 40×25×27 - complete kit', ru: 'Аквариум 40×25×27 - комплект' },
     text: {
       sr: 'Boris je bio jako ljubazan, izašao u susret i prilagodio akvarijum tako da bude terarijum za bebu kornjaču - dodao platformu. Komunikacija brza i laka, dogovor maksimalno ispoštovan.',
       en: 'Boris was very kind, accommodating and adapted the aquarium to serve as a terrarium for a baby turtle - he added a platform. Communication was fast and easy, agreement fully honored.',

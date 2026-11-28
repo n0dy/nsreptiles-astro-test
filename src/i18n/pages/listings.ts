@@ -95,6 +95,7 @@ const EQUIPMENT_BY_LABEL: Record<string, string> = {
   Pribor: 'dodatna-oprema',
   Grejači: 'rasveta',
   Termometri: 'dodatna-oprema',
+  Postolja: 'postolja',
 };
 const AQUARIUM_BY_LABEL: Record<string, string> = {
   Filteri: 'akv-filteri',
@@ -112,6 +113,7 @@ const AQUARIUM_BY_LABEL: Record<string, string> = {
   Supstrat: 'akv-dekoracija',
   Skrivalice: 'akv-dekoracija',
   Pribor: 'akv-odrzavanje',
+  Postolja: 'akv-postolja',
 };
 // hrana je posebna grana, nezavisno od toga da li je za akvarijum ili terarijum
 const FOOD_BY_LABEL: Record<string, string> = {
@@ -121,15 +123,16 @@ const FOOD_BY_LABEL: Record<string, string> = {
 };
 
 const EMPTY_CUSTOM: L = {
-  sr: 'Nema rezultata za tu pretragu. Probajte drugi pojam ili nas <a href="{contact}">kontaktirajte</a> — radimo i po meri.',
-  en: 'No results found. Try a different search term or <a href="{contact}">contact us</a> — we build to order too.',
-  ru: 'По вашему запросу ничего не найдено. Попробуйте другой запрос или <a href="{contact}">свяжитесь с нами</a> — мы работаем на заказ.',
+  sr: 'Nema rezultata za tu pretragu. Probajte drugi pojam ili nas <a href="{contact}">kontaktirajte</a> - radimo i po meri.',
+  en: 'No results found. Try a different search term or <a href="{contact}">contact us</a> - we build to order too.',
+  ru: 'По вашему запросу ничего не найдено. Попробуйте другой запрос или <a href="{contact}">свяжитесь с нами</a> - мы работаем на заказ.',
 };
 
 const SERVICES_COMMON = [
   { href: '/odrzavanje-akvarijuma-terarijuma.html', label: { sr: 'Održavanje', en: 'Maintenance', ru: 'Обслуживание' } },
   { href: '/popravka-akvarijuma-terarijuma.html', label: { sr: 'Popravke', en: 'Repairs', ru: 'Ремонт' } },
   { href: '/izrada-led-rasvete.html', label: { sr: 'LED rasveta po meri', en: 'Custom LED lighting', ru: 'LED-освещение на заказ' } },
+  { href: '/izrada-postolja.html', label: { sr: 'Postolja i police po meri', en: 'Custom stands', ru: 'Подставки на заказ' } },
 ];
 
 export const LISTINGS = {
@@ -151,7 +154,7 @@ export const LISTINGS = {
         ogDescription: 'Glass terrariums in over 80 sizes, with 3D backgrounds. Custom builds. NS Reptiles, Novi Sad.',
       },
       ru: {
-        title: 'Террариумы с 3D-фоном — изготовление | NS Reptiles',
+        title: 'Террариумы с 3D-фоном - изготовление | NS Reptiles',
         description: 'Стеклянные террариумы с 3D-фоном в более чем 80 размерах. Ручная работа, вентиляция, изготовление на заказ. NS Reptiles, Нови-Сад.',
         ogTitle: 'Террариумы с 3D-фоном | NS Reptiles',
         ogDescription: 'Стеклянные террариумы в более чем 80 размерах, с 3D-фоном. Изготовление на заказ. Нови-Сад.',
@@ -163,14 +166,14 @@ export const LISTINGS = {
       ru: 'Стеклянные террариумы с 3D-фоном',
     },
     lead: {
-      sr: 'Ručno rađeni stakleni terarijumi u preko 80 dimenzija — od malih za mladunce do velikih nastambi, sa 3D pozadinom i ventilacijom.',
-      en: 'Hand-made glass terrariums in over 80 sizes — from small ones for hatchlings to large enclosures, with 3D backgrounds and ventilation.',
-      ru: 'Стеклянные террариумы ручной работы в более чем 80 размерах — от маленьких для детёнышей до больших вольеров, с 3D-фоном и вентиляцией.',
+      sr: 'Ručno rađeni stakleni terarijumi u preko 80 dimenzija - od malih za mladunce do velikih nastambi, sa 3D pozadinom i ventilacijom.',
+      en: 'Hand-made glass terrariums in over 80 sizes - from small ones for hatchlings to large enclosures, with 3D backgrounds and ventilation.',
+      ru: 'Стеклянные террариумы ручной работы в более чем 80 размерах - от маленьких для детёнышей до больших вольеров, с 3D-фоном и вентиляцией.',
     },
     intro: {
-      sr: 'Svaki terarijum izrađujemo <strong>ručno od stakla</strong>, sa mrežastom ili plastičnom ventilacijom i opcionom 3D pozadinom koja imitira prirodno stanište. Ne vidite dimenziju koja vam treba? Radimo <strong>izradu po meri</strong> — javite nam se sa merama.',
-      en: 'Every terrarium is <strong>hand-made from glass</strong>, with mesh or plastic ventilation and an optional 3D background that mimics a natural habitat. Don\'t see the size you need? We offer <strong>custom builds</strong> — get in touch with your measurements.',
-      ru: 'Каждый террариум мы изготавливаем <strong>вручную из стекла</strong>, с сетчатой или пластиковой вентиляцией и опциональным 3D-фоном, который имитирует естественную среду обитания. Не видите нужный размер? Выполняем <strong>изготовление на заказ</strong> — напишите нам ваши размеры.',
+      sr: 'Svaki terarijum izrađujemo <strong>ručno od stakla</strong>, sa mrežastom ili plastičnom ventilacijom i opcionom 3D pozadinom koja imitira prirodno stanište. Ne vidite dimenziju koja vam treba? Radimo <strong>izradu po meri</strong> - javite nam se sa merama.',
+      en: 'Every terrarium is <strong>hand-made from glass</strong>, with mesh or plastic ventilation and an optional 3D background that mimics a natural habitat. Don\'t see the size you need? We offer <strong>custom builds</strong> - get in touch with your measurements.',
+      ru: 'Каждый террариум мы изготавливаем <strong>вручную из стекла</strong>, с сетчатой или пластиковой вентиляцией и опциональным 3D-фоном, который имитирует естественную среду обитания. Не видите нужный размер? Выполняем <strong>изготовление на заказ</strong> - напишите нам ваши размеры.',
     },
     guide: {
       sr: '<strong>Kako odabrati veličinu?</strong> Mali terarijumi (do 30 cm dužine) pogodni su za paukove skakače, bogomoljke i manje gekone. Srednji (30-60 cm) su idealni za leopard gekone, crested gekone i mlade zmije. Veliki (preko 60 cm) namenjeni su loptastim pitonima i kornjačama, a odrasloj bradatoj agami treba dno od najmanje 100x40 cm. Horizontalni modeli su za kopnene vrste, vertikalni za vrste koje se penju. Preuzimanje u Novom Sadu ili dostava širom Srbije.',
@@ -187,9 +190,9 @@ export const LISTINGS = {
     cta: {
       title: { sr: 'Terarijum <b>po meri</b>', en: 'Terrarium <b>built to order</b>', ru: 'Террариум <b>на заказ</b>' },
       text: {
-        sr: 'Pošaljite nam dimenzije i vrstu životinje — izradićemo terarijum tačno po vašim potrebama, sa 3D pozadinom po želji.',
-        en: "Send us the dimensions and the type of animal — we'll build a terrarium exactly to your needs, with a 3D background if you like.",
-        ru: 'Отправьте нам размеры и вид животного — изготовим террариум точно под ваши потребности, с 3D-фоном по желанию.',
+        sr: 'Pošaljite nam dimenzije i vrstu životinje - izradićemo terarijum tačno po vašim potrebama, sa 3D pozadinom po želji.',
+        en: "Send us the dimensions and the type of animal - we'll build a terrarium exactly to your needs, with a 3D background if you like.",
+        ru: 'Отправьте нам размеры и вид животного - изготовим террариум точно под ваши потребности, с 3D-фоном по желанию.',
       },
     },
     services: [
@@ -230,14 +233,14 @@ export const LISTINGS = {
       ru: 'Стеклянные аквариумы и тер-аквариумы',
     },
     lead: {
-      sr: 'Ručno lepljeni stakleni akvarijumi, kompleti sa opremom i ter-akvarijumi za vodene kornjače — plus izrada po meri.',
-      en: 'Hand-glued glass aquariums, starter kits with equipment and ter-aquariums for water turtles — plus custom-made sizes.',
-      ru: 'Стеклянные аквариумы ручной склейки, комплекты с оборудованием и тер-аквариумы для водных черепах — а также изготовление на заказ.',
+      sr: 'Ručno lepljeni stakleni akvarijumi, kompleti sa opremom i ter-akvarijumi za vodene kornjače - plus izrada po meri.',
+      en: 'Hand-glued glass aquariums, starter kits with equipment and ter-aquariums for water turtles - plus custom-made sizes.',
+      ru: 'Стеклянные аквариумы ручной склейки, комплекты с оборудованием и тер-аквариумы для водных черепах - а также изготовление на заказ.',
     },
     intro: {
-      sr: 'Sve akvarijume <strong>ručno lepimo od stakla</strong> — od malih za sitne ribice do velikih od preko 190 litara. <strong>Ter-akvarijumi</strong> sa suvim i vodenim delom idealni su za vodene kornjače. Za bilo koju dimenziju van ponude radimo <strong>izradu po meri</strong>.',
-      en: 'Every aquarium is <strong>hand-glued from glass</strong> — from small tanks for fish to large ones exceeding 190 litres. <strong>Ter-aquariums</strong> with a dry and water section are ideal for water turtles. For any size outside our range we offer <strong>custom builds</strong>.',
-      ru: 'Все аквариумы мы <strong>склеиваем вручную из стекла</strong> — от маленьких для мелкой рыбки до больших объёмом свыше 190 литров. <strong>Тер-аквариумы</strong> с сухой и водной зонами идеально подходят для водных черепах. Для любых нестандартных размеров выполняем <strong>изготовление на заказ</strong>.',
+      sr: 'Sve akvarijume <strong>ručno lepimo od stakla</strong> - od malih za sitne ribice do velikih od preko 190 litara. <strong>Ter-akvarijumi</strong> sa suvim i vodenim delom idealni su za vodene kornjače. Za bilo koju dimenziju van ponude radimo <strong>izradu po meri</strong>.',
+      en: 'Every aquarium is <strong>hand-glued from glass</strong> - from small tanks for fish to large ones exceeding 190 litres. <strong>Ter-aquariums</strong> with a dry and water section are ideal for water turtles. For any size outside our range we offer <strong>custom builds</strong>.',
+      ru: 'Все аквариумы мы <strong>склеиваем вручную из стекла</strong> - от маленьких для мелкой рыбки до больших объёмом свыше 190 литров. <strong>Тер-аквариумы</strong> с сухой и водной зонами идеально подходят для водных черепах. Для любых нестандартных размеров выполняем <strong>изготовление на заказ</strong>.',
     },
     guide: {
       sr: '<strong>Akvarijum za ribice ili kornjaču?</strong> Za početnike preporučujemo akvarijume od 50 litara naviše, jer veća zapremina lakše drži stabilne parametre vode. Za vodene kornjače birajte ter-akvarijum sa suvim delom. Preuzimanje u Novom Sadu, dostava u Beograd i celu Srbiju.',
@@ -271,7 +274,7 @@ export const LISTINGS = {
       links: [
         {
           href: '/akvaristika/red-moor-wood.html',
-          label: { sr: 'Red Moor Wood — dekoracija', en: 'Red Moor Wood — decoration', ru: 'Red Moor Wood — декорация' },
+          label: { sr: 'Red Moor Wood - dekoracija', en: 'Red Moor Wood - decoration', ru: 'Red Moor Wood - декорация' },
         },
         {
           href: '/akvarijumi/akvarijum-za-kornjacu.html',
@@ -282,9 +285,9 @@ export const LISTINGS = {
     cta: {
       title: { sr: 'Akvarijum <b>po meri</b>', en: 'Aquarium <b>built to order</b>', ru: 'Аквариум <b>на заказ</b>' },
       text: {
-        sr: 'Pošaljite nam dimenzije i namenu — izradićemo akvarijum ili ter-akvarijum tačno po vašem prostoru.',
-        en: "Send us the dimensions and intended use — we'll build an aquarium or ter-aquarium that fits your space perfectly.",
-        ru: 'Отправьте нам размеры и назначение — изготовим аквариум или тер-аквариум точно под ваше пространство.',
+        sr: 'Pošaljite nam dimenzije i namenu - izradićemo akvarijum ili ter-akvarijum tačno po vašem prostoru.',
+        en: "Send us the dimensions and intended use - we'll build an aquarium or ter-aquarium that fits your space perfectly.",
+        ru: 'Отправьте нам размеры и назначение - изготовим аквариум или тер-аквариум точно под ваше пространство.',
       },
     },
     services: [
@@ -316,7 +319,7 @@ export const LISTINGS = {
       },
       ru: {
         title: 'Оборудование для террариумов и аквариумов | NS Reptiles',
-        description: 'Оборудование для рептилий — UVB освещение, обогрев, корм и добавки, живой корм (дубии, фобасии), подложки и декорации. NS Reptiles, Нови-Сад.',
+        description: 'Оборудование для рептилий - UVB освещение, обогрев, корм и добавки, живой корм (дубии, фобасии), подложки и декорации. NS Reptiles, Нови-Сад.',
         ogTitle: 'Оборудование для террариумов и аквариумов | NS Reptiles',
         ogDescription: 'UVB освещение, обогрев, корм и добавки, живой корм, подложки и декорации для террариумов и аквариумов.',
       },
@@ -329,18 +332,18 @@ export const LISTINGS = {
     lead: {
       sr: 'Sve što je potrebno za pravilno držanje reptila i akvarijumskih životinja - rasveta, grejanje, ishrana, podloge i dekoracija.',
       en: 'Everything you need to keep reptiles and aquatic animals properly - lighting, heating, food, substrates and decoration.',
-      ru: 'Всё необходимое для правильного содержания рептилий и аквариумных животных — освещение, обогрев, питание, подложки и декорации.',
+      ru: 'Всё необходимое для правильного содержания рептилий и аквариумных животных - освещение, обогрев, питание, подложки и декорации.',
     },
     intro: {
       sr: 'U ponudi držimo <strong>Arcadia</strong> i <strong>HabiStat</strong> opremu - UVB i spot rasvetu, grejače, suplemente i hranu za gekone i kornjače, kao i živu hranu (dubie i fobasi) uvek na stanju. Za akvarijume držimo <strong>Atman</strong>, <strong>SOBO</strong> i <strong>Resun</strong> filtere, pumpe, grejače, rasvetu i pribor za održavanje, a za uređenje oba tipa nastambi prirodne podloge, kamen i dekoraciju.',
       en: 'We stock <strong>Arcadia</strong> and <strong>HabiStat</strong> equipment - UVB and spot lighting, heaters, supplements and food for geckos and tortoises, as well as live feeders (dubia and feeder roaches) always in stock. For aquariums we carry <strong>Atman</strong>, <strong>SOBO</strong> and <strong>Resun</strong> filters, pumps, heaters, lighting and maintenance tools, plus natural substrates, stone and décor for both.',
-      ru: 'Мы предлагаем оборудование <strong>Arcadia</strong> и <strong>HabiStat</strong> — UVB и споттинговые лампы, нагреватели, добавки и корм для гекконов и черепах, а также живой корм (дубии и фобасии) всегда в наличии. Для аквариумов — фильтры, помпы, нагреватели, освещение и инструменты для ухода <strong>Atman</strong>, <strong>SOBO</strong> и <strong>Resun</strong>, а для оформления — натуральные грунты, камни и декорации.',
+      ru: 'Мы предлагаем оборудование <strong>Arcadia</strong> и <strong>HabiStat</strong> - UVB и споттинговые лампы, нагреватели, добавки и корм для гекконов и черепах, а также живой корм (дубии и фобасии) всегда в наличии. Для аквариумов - фильтры, помпы, нагреватели, освещение и инструменты для ухода <strong>Atman</strong>, <strong>SOBO</strong> и <strong>Resun</strong>, а для оформления - натуральные грунты, камни и декорации.',
     },
     search: { sr: 'Pretraži opremu...', en: 'Search equipment...', ru: 'Поиск оборудования...' },
     empty: {
       sr: 'Nema rezultata za tu pretragu. Probajte drugi pojam ili nas <a href="{contact}">kontaktirajte</a> - možda imamo baš to što tražite.',
       en: 'No results for that search. Try a different term or <a href="{contact}">contact us</a> - we may have exactly what you\'re looking for.',
-      ru: 'По вашему запросу ничего не найдено. Попробуйте другой термин или <a href="{contact}">свяжитесь с нами</a> — возможно, у нас есть именно то, что вам нужно.',
+      ru: 'По вашему запросу ничего не найдено. Попробуйте другой термин или <a href="{contact}">свяжитесь с нами</a> - возможно, у нас есть именно то, что вам нужно.',
     },
     sections: [
       { key: 'terarijum', label: { sr: 'Terarijum', en: 'Terrarium', ru: 'Террариум' } },
@@ -352,6 +355,7 @@ export const LISTINGS = {
       { key: 'rasveta', section: 'terarijum', label: { sr: 'Rasveta i grejanje', en: 'Lighting & heating', ru: 'Освещение и обогрев' } },
       { key: 'dekoracija', section: 'terarijum', label: { sr: 'Dekoracija i podloge', en: 'Decoration & substrates', ru: 'Декорации и подложки' } },
       { key: 'dodatna-oprema', section: 'terarijum', label: { sr: 'Dodatna oprema', en: 'Accessories', ru: 'Дополнительное оборудование' } },
+      { key: 'postolja', section: 'terarijum', label: { sr: 'Postolja i police', en: 'Stands & cabinets', ru: 'Подставки и тумбы' } },
       { key: 'hrana', section: 'ishrana', label: { sr: 'Hrana', en: 'Food', ru: 'Корм' } },
       { key: 'suplementi', section: 'ishrana', label: { sr: 'Suplementi', en: 'Supplements', ru: 'Добавки' } },
       { key: 'ziva-hrana', section: 'ishrana', label: { sr: 'Živa hrana', en: 'Live feeders', ru: 'Живой корм' } },
@@ -359,6 +363,7 @@ export const LISTINGS = {
       { key: 'akv-grejanje', section: 'akvarijum', label: { sr: 'Grejanje i rasveta', en: 'Heating & lighting', ru: 'Обогрев и освещение' } },
       { key: 'akv-dekoracija', section: 'akvarijum', label: { sr: 'Dekoracija i podloge', en: 'Decoration & substrates', ru: 'Декорации и грунты' } },
       { key: 'akv-odrzavanje', section: 'akvarijum', label: { sr: 'Održavanje', en: 'Maintenance', ru: 'Уход' } },
+      { key: 'akv-postolja', section: 'akvarijum', label: { sr: 'Postolja i police', en: 'Stands & cabinets', ru: 'Подставки и тумбы' } },
     ],
     extraPill: { href: '/hrana-za-gustere.html', section: 'ishrana', label: { sr: 'Hrana za guštere', en: 'Lizard food', ru: 'Корм для ящериц' } },
     cta: {
@@ -366,7 +371,7 @@ export const LISTINGS = {
       text: {
         sr: 'Recite nam koju životinju držite - preporučićemo tačno onu opremu koja joj treba, bez suvišnih troškova.',
         en: 'Tell us which animal you keep - we\'ll recommend exactly the right equipment, without unnecessary expense.',
-        ru: 'Расскажите нам, какое животное вы держите — мы порекомендуем именно то оборудование, которое ему нужно, без лишних расходов.',
+        ru: 'Расскажите нам, какое животное вы держите - мы порекомендуем именно то оборудование, которое ему нужно, без лишних расходов.',
       },
     },
     includes: (p) => cat(p) === 'oprema',

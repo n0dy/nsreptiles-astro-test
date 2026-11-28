@@ -6,19 +6,19 @@ NS REPTILES je specijalizovana odgajivačnica i radionica u Novom Sadu. Prodajem
 
 ## Prodaja guštera i zmija
 
-Uz većinu vrsta nudimo starter komplete — životinja, terarijum i sva oprema u jednom paketu:
+Uz većinu vrsta nudimo starter komplete - životinja, terarijum i sva oprema u jednom paketu:
 
-- **Bradata agama** (Pogona vitticeps) — mladunci od 6.000 RSD, šareni morfovi skuplji. Starter komplet: terarijum 100×45×45 sa 3D pozadinom, UVB/UVA rasveta, pesak, vitamini, hrana za mesec — 25.800 RSD.
-- **Leopard gekon** (Eublepharis macularius) — mladunci od 6.000 RSD. Starter komplet: terarijum 50×35×35, folija grejač, kokosov treset, skrovište, posuda, hrana i vitamini — 12.500 RSD.
-- **Kukuruzni smuk** (Pantherophis guttatus) — mladunci od 6.000 RSD. Starter komplet: terarijum 50×35×35, kokosov treset, posuda za vodu, pećina — 12.500 RSD.
-- **Crested gekon** (Correlophus ciliatus) — mladunci od 6.000 RSD. Starter komplet: vertikalni terarijum, dekoracija, skrovišta, gotova hrana (CGD).
-- **Debelorepi gekon** (Hemitheconyx caudicinctus) — jedinke od 7.200 RSD.
-- **Loptasti piton** (Python regius) — jedinke od 12.000 RSD, dostupan i starter komplet. Mirna zmija, živi 20–30 godina.
-- **Kineska vodena agama** (Physignathus cocincinus) — jedinke od 12.000 RSD.
+- **Bradata agama** (Pogona vitticeps) - mladunci od 6.000 RSD, šareni morfovi skuplji. Starter komplet: terarijum 100×45×45 sa 3D pozadinom, UVB/UVA rasveta, pesak, vitamini, hrana za mesec - 25.800 RSD.
+- **Leopard gekon** (Eublepharis macularius) - mladunci od 6.000 RSD. Starter komplet: terarijum 50×35×35, folija grejač, kokosov treset, skrovište, posuda, hrana i vitamini - 12.500 RSD.
+- **Kukuruzni smuk** (Pantherophis guttatus) - mladunci od 6.000 RSD. Starter komplet: terarijum 50×35×35, kokosov treset, posuda za vodu, pećina - 12.500 RSD.
+- **Crested gekon** (Correlophus ciliatus) - mladunci od 6.000 RSD. Starter komplet: vertikalni terarijum, dekoracija, skrovišta, gotova hrana (CGD).
+- **Debelorepi gekon** (Hemitheconyx caudicinctus) - jedinke od 7.200 RSD.
+- **Loptasti piton** (Python regius) - jedinke od 12.000 RSD, dostupan i starter komplet. Mirna zmija, živi 20–30 godina.
+- **Kineska vodena agama** (Physignathus cocincinus) - jedinke od 12.000 RSD.
 
-Dostupnost se menja sa leglima — trenutno stanje proverite telefonom, Viberom ili WhatsApp-om.
+Dostupnost se menja sa leglima - trenutno stanje proverite telefonom, Viberom ili WhatsApp-om.
 
-## Terarijumi — prodaja i izrada po meri
+## Terarijumi - prodaja i izrada po meri
 
 Stakleni terarijumi sa 3D pozadinama, dekorativnim folijama i ventilacijom.
 
@@ -31,7 +31,7 @@ Stakleni terarijumi sa 3D pozadinama, dekorativnim folijama i ventilacijom.
 
 Izrada po meri: nestandardne dimenzije, 3D pozadine od kamena, vivarijumi sa živim biljkama i drenažom, staklena klizna vrata.
 
-## Akvarijumi — prodaja i izrada po meri
+## Akvarijumi - prodaja i izrada po meri
 
 Stakleni akvarijumi, neki sa 3D pozadinom i ugrađenim filterom.
 
@@ -53,6 +53,7 @@ Akvarijumi za početnike: mali akvarijumi od 4,75 do 45 litara, uz savete za pos
 - Izrada terarijuma, akvarijuma i vivarijuma po meri
 - 3D pozadine za terarijume i akvarijume
 - Izrada LED rasvete po meri
+- Izrada metalnih postolja i polica za akvarijume i terarijume
 - Održavanje i uređenje akvarijuma i terarijuma
 - Popravka i servis akvarijuma i terarijuma
 - Rok izrade po meri: 7–14 dana
@@ -101,16 +102,37 @@ Temperature, vlažnost, ishrana i veličina terarijuma za svaku vrstu su u vodi�
 - [Izrada vivarijuma](https://nsreptiles.net/izrada-vivarijuma.html)
 - [3D pozadine](https://nsreptiles.net/3d-pozadine.html)
 - [Izrada LED rasvete](https://nsreptiles.net/izrada-led-rasvete.html)
+- [Izrada postolja i polica](https://nsreptiles.net/izrada-postolja.html)
 - [Održavanje akvarijuma i terarijuma](https://nsreptiles.net/odrzavanje-akvarijuma-terarijuma.html)
 - [Popravka akvarijuma i terarijuma](https://nsreptiles.net/popravka-akvarijuma-terarijuma.html)
 - [Prodaja guštera i reptila, životinje i vodiči](https://nsreptiles.net/zivotinje.html)
-- [Bradata agama — vodič](https://nsreptiles.net/zivotinje/bradataagama.html)
-- [Leopard gekon — vodič](https://nsreptiles.net/zivotinje/leopardgekon.html)
-- [Crested gekon — vodič](https://nsreptiles.net/zivotinje/crestedgekon.html)
-- [Kukuruzni smuk — vodič](https://nsreptiles.net/zivotinje/kukuruznismuk.html)
-- [Loptasti piton — vodič](https://nsreptiles.net/zivotinje/loptastipiton.html)
-- [Debelorepi gekon — vodič](https://nsreptiles.net/zivotinje/debelorepigekon.html)
-- [Kineska vodena agama — vodič](https://nsreptiles.net/zivotinje/kineskavodenaagama.html)
+- [Bradata agama - vodič](https://nsreptiles.net/zivotinje/bradataagama.html)
+- [Leopard gekon - vodič](https://nsreptiles.net/zivotinje/leopardgekon.html)
+- [Crested gekon - vodič](https://nsreptiles.net/zivotinje/crestedgekon.html)
+- [Kukuruzni smuk - vodič](https://nsreptiles.net/zivotinje/kukuruznismuk.html)
+- [Loptasti piton - vodič](https://nsreptiles.net/zivotinje/loptastipiton.html)
+- [Debelorepi gekon - vodič](https://nsreptiles.net/zivotinje/debelorepigekon.html)
+- [Kineska vodena agama - vodič](https://nsreptiles.net/zivotinje/kineskavodenaagama.html)
+- [Plavojezični skink - vodič](https://nsreptiles.net/zivotinje/plavojezicniskink.html)
+- [Šnajderov skink - vodič](https://nsreptiles.net/zivotinje/snajderovskink.html)
+- [Ogrličasti gušter - vodič](https://nsreptiles.net/zivotinje/ogrlicastiguster.html)
+- [Gargojl gekon - vodič](https://nsreptiles.net/zivotinje/gargojlgekon.html)
+- [Tužni gekon - vodič](https://nsreptiles.net/zivotinje/tuznigekon.html)
+- [Elegantni gekon - vodič](https://nsreptiles.net/zivotinje/elegantnigekon.html)
+- [Zapadna hognoz zmija - vodič](https://nsreptiles.net/zivotinje/hognozzmija.html)
+- [Kraljevska zmija - vodič](https://nsreptiles.net/zivotinje/kraljevskazmija.html)
+- [Meksička crna kraljevska zmija - vodič](https://nsreptiles.net/zivotinje/meksickacrnakraljevskazmija.html)
+- [Mlečna zmija - vodič](https://nsreptiles.net/zivotinje/mlecnazmija.html)
+- [Tepih piton - vodič](https://nsreptiles.net/zivotinje/tepihpiton.html)
+- [Pacman žaba - vodič](https://nsreptiles.net/zivotinje/pacmanzaba.html)
+- [Džinovska afrička stonoga - vodič](https://nsreptiles.net/zivotinje/dzinovskaafrickastonoga.html)
+- [Azijski šumski škorpion - vodič](https://nsreptiles.net/zivotinje/azijskisumskiskorpion.html)
+- [Džinovski plavi škorpion - vodič](https://nsreptiles.net/zivotinje/dzinovskiplaviskorpion.html)
+- [Gvatemalska tigrasta tarantula - vodič](https://nsreptiles.net/zivotinje/gvatemalskatigrastatarantula.html)
+- [Kubanska zlatna tarantula - vodič](https://nsreptiles.net/zivotinje/kubanskazlatnatarantula.html)
+- [Brazilska belonoga tarantula - vodič](https://nsreptiles.net/zivotinje/brazilskabelonogatarantula.html)
+- [Meksička vatrena tarantula - vodič](https://nsreptiles.net/zivotinje/meksickavatrenatarantula.html)
+- [Meksička crvena tarantula - vodič](https://nsreptiles.net/zivotinje/meksickacrvenatarantula.html)
 - [Zmije](https://nsreptiles.net/zmije.html)
 - [Gekoni](https://nsreptiles.net/gekoni.html)
 - [Komplet: bradata agama](https://nsreptiles.net/kompleti/bradata-agama.html)
@@ -139,6 +161,7 @@ Temperature, vlažnost, ishrana i veličina terarijuma za svaku vrstu su u vodi�
 - [Starter kits](https://nsreptiles.net/en/starter-kits.html)
 - [Snakes](https://nsreptiles.net/en/snakes.html)
 - [Custom aquariums](https://nsreptiles.net/en/custom-aquariums.html)
+- [Custom stands and cabinets](https://nsreptiles.net/en/stands.html)
 - [3D terrarium configurator](https://nsreptiles.net/en/3d-terrarium.html)
 - [3D aquarium configurator](https://nsreptiles.net/en/3d-aquarium.html)
 - [3D configurator guide](https://nsreptiles.net/en/3d-guide.html)
@@ -150,6 +173,26 @@ Temperature, vlažnost, ishrana i veličina terarijuma za svaku vrstu su u vodi�
 - [Ball python care guide](https://nsreptiles.net/en/animals/ball-python.html)
 - [Fat-tailed gecko care guide](https://nsreptiles.net/en/animals/fat-tailed-gecko.html)
 - [Chinese water dragon care guide](https://nsreptiles.net/en/animals/chinese-water-dragon.html)
+- [Blue-tongued skink care guide](https://nsreptiles.net/en/animals/blue-tongued-skink.html)
+- [Schneider's skink care guide](https://nsreptiles.net/en/animals/schneiders-skink.html)
+- [Collared lizard care guide](https://nsreptiles.net/en/animals/collared-lizard.html)
+- [Gargoyle gecko care guide](https://nsreptiles.net/en/animals/gargoyle-gecko.html)
+- [Mourning gecko care guide](https://nsreptiles.net/en/animals/mourning-gecko.html)
+- [Elegant gecko care guide](https://nsreptiles.net/en/animals/elegant-gecko.html)
+- [Western hognose snake care guide](https://nsreptiles.net/en/animals/western-hognose-snake.html)
+- [Common kingsnake care guide](https://nsreptiles.net/en/animals/common-kingsnake.html)
+- [Mexican black kingsnake care guide](https://nsreptiles.net/en/animals/mexican-black-kingsnake.html)
+- [Milk snake care guide](https://nsreptiles.net/en/animals/milk-snake.html)
+- [Carpet python care guide](https://nsreptiles.net/en/animals/carpet-python.html)
+- [Pacman frog care guide](https://nsreptiles.net/en/animals/pacman-frog.html)
+- [Giant African millipede care guide](https://nsreptiles.net/en/animals/giant-african-millipede.html)
+- [Asian forest scorpion care guide](https://nsreptiles.net/en/animals/asian-forest-scorpion.html)
+- [Giant blue scorpion care guide](https://nsreptiles.net/en/animals/giant-blue-scorpion.html)
+- [Guatemalan tiger rump tarantula care guide](https://nsreptiles.net/en/animals/guatemalan-tiger-rump-tarantula.html)
+- [Cuban gold tarantula care guide](https://nsreptiles.net/en/animals/cuban-gold-tarantula.html)
+- [Brazilian whiteknee tarantula care guide](https://nsreptiles.net/en/animals/brazilian-whiteknee-tarantula.html)
+- [Mexican fireleg tarantula care guide](https://nsreptiles.net/en/animals/mexican-fireleg-tarantula.html)
+- [Mexican redleg tarantula care guide](https://nsreptiles.net/en/animals/mexican-redleg-tarantula.html)
 - [Bearded dragon terrarium guide](https://nsreptiles.net/en/guides/bearded-dragon-terrarium.html)
 - [Leopard gecko terrarium guide](https://nsreptiles.net/en/guides/leopard-gecko-terrarium.html)
 - [Ball python terrarium guide](https://nsreptiles.net/en/guides/ball-python-terrarium.html)
@@ -173,17 +216,38 @@ Temperature, vlažnost, ishrana i veličina terarijuma za svaku vrstu su u vodi�
 - [Стартовые наборы](https://nsreptiles.net/ru/starter-kits.html)
 - [Змеи](https://nsreptiles.net/ru/snakes.html)
 - [Аквариумы на заказ](https://nsreptiles.net/ru/custom-aquariums.html)
+- [Подставки и тумбы на заказ](https://nsreptiles.net/ru/stands.html)
 - [3D-конфигуратор террариума](https://nsreptiles.net/ru/3d-terrarium.html)
 - [3D-конфигуратор аквариума](https://nsreptiles.net/ru/3d-aquarium.html)
 - [Инструкция к 3D-конфигуратору](https://nsreptiles.net/ru/3d-guide.html)
 - [3D-фоны](https://nsreptiles.net/ru/3d-backgrounds.html)
-- [Бородатая агама — уход](https://nsreptiles.net/ru/animals/bearded-dragon.html)
-- [Леопардовый геккон — уход](https://nsreptiles.net/ru/animals/leopard-gecko.html)
-- [Реснитчатый геккон — уход](https://nsreptiles.net/ru/animals/crested-gecko.html)
-- [Маисовый полоз — уход](https://nsreptiles.net/ru/animals/corn-snake.html)
-- [Королевский питон — уход](https://nsreptiles.net/ru/animals/ball-python.html)
-- [Толстохвостый геккон — уход](https://nsreptiles.net/ru/animals/fat-tailed-gecko.html)
-- [Китайская водяная агама — уход](https://nsreptiles.net/ru/animals/chinese-water-dragon.html)
+- [Бородатая агама - уход](https://nsreptiles.net/ru/animals/bearded-dragon.html)
+- [Леопардовый геккон - уход](https://nsreptiles.net/ru/animals/leopard-gecko.html)
+- [Реснитчатый геккон - уход](https://nsreptiles.net/ru/animals/crested-gecko.html)
+- [Маисовый полоз - уход](https://nsreptiles.net/ru/animals/corn-snake.html)
+- [Королевский питон - уход](https://nsreptiles.net/ru/animals/ball-python.html)
+- [Толстохвостый геккон - уход](https://nsreptiles.net/ru/animals/fat-tailed-gecko.html)
+- [Китайская водяная агама - уход](https://nsreptiles.net/ru/animals/chinese-water-dragon.html)
+- [Синеязыкий сцинк - уход](https://nsreptiles.net/ru/animals/blue-tongued-skink.html)
+- [Сцинк Шнейдера - уход](https://nsreptiles.net/ru/animals/schneiders-skink.html)
+- [Ошейниковая игуана - уход](https://nsreptiles.net/ru/animals/collared-lizard.html)
+- [Геккон-гаргулья - уход](https://nsreptiles.net/ru/animals/gargoyle-gecko.html)
+- [Траурный геккон - уход](https://nsreptiles.net/ru/animals/mourning-gecko.html)
+- [Короткопалый геккон - уход](https://nsreptiles.net/ru/animals/elegant-gecko.html)
+- [Западный свиноносый уж - уход](https://nsreptiles.net/ru/animals/western-hognose-snake.html)
+- [Королевская змея - уход](https://nsreptiles.net/ru/animals/common-kingsnake.html)
+- [Мексиканская чёрная королевская змея - уход](https://nsreptiles.net/ru/animals/mexican-black-kingsnake.html)
+- [Молочная змея - уход](https://nsreptiles.net/ru/animals/milk-snake.html)
+- [Ромбический питон - уход](https://nsreptiles.net/ru/animals/carpet-python.html)
+- [Рогатка (пакман) - уход](https://nsreptiles.net/ru/animals/pacman-frog.html)
+- [Гигантская африканская многоножка - уход](https://nsreptiles.net/ru/animals/giant-african-millipede.html)
+- [Азиатский лесной скорпион - уход](https://nsreptiles.net/ru/animals/asian-forest-scorpion.html)
+- [Гигантский синий скорпион - уход](https://nsreptiles.net/ru/animals/giant-blue-scorpion.html)
+- [Гватемальский тигровый тарантул - уход](https://nsreptiles.net/ru/animals/guatemalan-tiger-rump-tarantula.html)
+- [Кубинский золотой тарантул - уход](https://nsreptiles.net/ru/animals/cuban-gold-tarantula.html)
+- [Бразильский белоногий тарантул - уход](https://nsreptiles.net/ru/animals/brazilian-whiteknee-tarantula.html)
+- [Мексиканский огненный тарантул - уход](https://nsreptiles.net/ru/animals/mexican-fireleg-tarantula.html)
+- [Мексиканский красный тарантул - уход](https://nsreptiles.net/ru/animals/mexican-redleg-tarantula.html)
 - [Террариум для бородатой агамы](https://nsreptiles.net/ru/guides/bearded-dragon-terrarium.html)
 - [Террариум для леопардового геккона](https://nsreptiles.net/ru/guides/leopard-gecko-terrarium.html)
 - [Террариум для королевского питона](https://nsreptiles.net/ru/guides/ball-python-terrarium.html)

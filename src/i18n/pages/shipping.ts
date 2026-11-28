@@ -115,7 +115,7 @@ export const SHIPPING: Record<Locale, {
   },
   en: {
     meta: {
-      title: 'Shipping — Terrarium and Aquarium Delivery | NS Reptiles',
+      title: 'Shipping - Terrarium and Aquarium Delivery | NS Reptiles',
       description:
         'Shipping information for NS Reptiles - delivery times, methods and costs for terrariums, aquariums and equipment across Serbia.',
     },

@@ -37,20 +37,20 @@ export const SERVICES = {
         title: 'Izrada terarijuma po meri, Novi Sad | NS Reptiles',
         description: 'Izrada terarijuma po meri u Novom Sadu: stakleni terarijumi za agame, gekone i pitone, 34 dezena folija, 3D pozadine i UVB rasveta. Rok 7–14 dana.',
         ogTitle: 'Izrada terarijuma po meri | NS Reptiles',
-        ogDescription: 'Ručno rađeni stakleni terarijumi po vašim merama — folije, 3D pozadine, rasveta i oprema. Novi Sad.',
+        ogDescription: 'Ručno rađeni stakleni terarijumi po vašim merama - folije, 3D pozadine, rasveta i oprema. Novi Sad.',
         image: '/style/img/logo.jpg',
       },
       en: {
         title: 'Custom Glass Terrarium Builds in Novi Sad | NS Reptiles',
-        description: 'Custom glass terrariums in Novi Sad for bearded dragons, geckos and pythons — 34 film finishes, 3D backgrounds and UVB lighting. Ready in 7–14 days.',
+        description: 'Custom glass terrariums in Novi Sad for bearded dragons, geckos and pythons - 34 film finishes, 3D backgrounds and UVB lighting. Ready in 7–14 days.',
         ogTitle: 'Custom Terrarium Builds | NS Reptiles',
-        ogDescription: 'Handcrafted glass terrariums built to your exact dimensions — decorative films, 3D backgrounds, lighting and full equipment. Novi Sad.',
+        ogDescription: 'Handcrafted glass terrariums built to your exact dimensions - decorative films, 3D backgrounds, lighting and full equipment. Novi Sad.',
       },
       ru: {
         title: 'Террариумы на заказ в Нови-Саде | NS Reptiles',
-        description: 'Террариумы на заказ в Нови-Саде: стеклянные террариумы для агам, гекконов и питонов, 34 вида плёнок, 3D-фоны и UVB-освещение. Срок — 7–14 дней.',
+        description: 'Террариумы на заказ в Нови-Саде: стеклянные террариумы для агам, гекконов и питонов, 34 вида плёнок, 3D-фоны и UVB-освещение. Срок - 7–14 дней.',
         ogTitle: 'Террариумы на заказ | NS Reptiles',
-        ogDescription: 'Ручная работа — стеклянные террариумы по вашим размерам: плёнки, 3D-фоны, освещение и оборудование. Нови-Сад.',
+        ogDescription: 'Ручная работа - стеклянные террариумы по вашим размерам: плёнки, 3D-фоны, освещение и оборудование. Нови-Сад.',
       },
     },
     schema: {
@@ -62,7 +62,7 @@ export const SERVICES = {
       en: {
         name: 'Custom Terrarium Builds',
         serviceType: 'Custom Terrarium Manufacturing',
-        description: 'Custom-built glass terrariums in Novi Sad. Handcrafted terrariums for bearded dragons, geckos and pythons — 34 film finishes, 3D backgrounds and UVB lighting. Ready in 7–14 days.',
+        description: 'Custom-built glass terrariums in Novi Sad. Handcrafted terrariums for bearded dragons, geckos and pythons - 34 film finishes, 3D backgrounds and UVB lighting. Ready in 7–14 days.',
       },
       ru: {
         name: 'Изготовление террариумов на заказ',
@@ -76,9 +76,9 @@ export const SERVICES = {
       ru: 'Террариумы на заказ',
     },
     lead: {
-      sr: 'Svaki terarijum izrađujemo ručno od stakla, po vašim merama i željama — sa folijom po izboru, 3D pozadinom i kompletnom opremom.',
-      en: 'Every terrarium is handcrafted from glass, built to your exact dimensions and preferences — with the decorative film of your choice, a 3D background, and full equipment included.',
-      ru: 'Каждый террариум мы изготавливаем вручную из стекла, по вашим размерам и пожеланиям — с выбранной плёнкой, 3D-фоном и полным комплектом оборудования.',
+      sr: 'Svaki terarijum izrađujemo ručno od stakla, po vašim merama i željama - sa folijom po izboru, 3D pozadinom i kompletnom opremom.',
+      en: 'Every terrarium is handcrafted from glass, built to your exact dimensions and preferences - with the decorative film of your choice, a 3D background, and full equipment included.',
+      ru: 'Каждый террариум мы изготавливаем вручную из стекла, по вашим размерам и пожеланиям - с выбранной плёнкой, 3D-фоном и полным комплектом оборудования.',
     },
     intro: {
       sr: 'Staklene terarijume pravimo ručno u Novom Sadu, po merama koje nam pošaljete: dužina od 30 do 200 cm, širina od 25 do 100 cm i visina od 25 do 150 cm. Za vrste koje žive na tlu pravimo horizontalne terarijume, a za one koje se penju vertikalne. Odrasloj bradatoj agami treba oko 100x50x50 cm, a leopard gekonu oko 50x35x35 cm. Ne znate koja je veličina prava za vašeg ljubimca? <strong>Rado ćemo vam pomoći</strong> da izaberete.<br><br>Terarijum možete i sami da složite u <a href="/3d-terarijum.html" style="text-decoration: underline">3D konfiguratoru</a>: zadate mere, izaberete dezen folije i pozadinu, pogledate model u 3D prikazu, a na telefonu i u proširenoj stvarnosti (AR), pa nam dugmetom „Poruči terarijum“ pošaljete parametre. Kako se konfigurator koristi piše u <a href="/3d-uputstvo.html" style="text-decoration: underline">uputstvu</a>. Cena zavisi od dimenzija, debljine stakla i opreme, a ponudu šaljemo kada dobijemo mere. NS Reptiles postoji od 2019. godine, a reptile odgajamo duže od 10 godina.',
@@ -148,9 +148,9 @@ export const SERVICES = {
       },
       {
         title: {
-          sr: 'Izrada — 7–14 dana',
-          en: 'Build time — 7–14 days',
-          ru: 'Срок изготовления — 7–14 дней',
+          sr: 'Izrada - 7–14 dana',
+          en: 'Build time - 7–14 days',
+          ru: 'Срок изготовления - 7–14 дней',
         },
         text: {
           sr: 'Terarijum sastavljamo ručno od stakla. Prednja stakla su klizna, ventilacija ide kroz otvore sa mrežicom, a tip poklopca dogovaramo sa vama. Uobičajeni rok izrade je 7–14 dana. Za veće i zahtevnije projekte, kao što su terarijumi za veliku vodenu agamu ili iguanu, rok može biti i duži.',
@@ -174,17 +174,17 @@ export const SERVICES = {
     cta: {
       sr: {
         title: 'Vaš terarijum <b>po meri</b>',
-        text: 'Pošaljite nam dimenzije i vrstu životinje — izradićemo terarijum tačno po vašim potrebama, sa 3D pozadinom po želji.',
+        text: 'Pošaljite nam dimenzije i vrstu životinje - izradićemo terarijum tačno po vašim potrebama, sa 3D pozadinom po želji.',
         call: 'Pozovi nas',
       },
       en: {
         title: 'Your terrarium, <b>built to order</b>',
-        text: 'Send us your dimensions and the type of animal — we\'ll build a terrarium tailored to your exact needs, with the 3D background of your choice.',
+        text: 'Send us your dimensions and the type of animal - we\'ll build a terrarium tailored to your exact needs, with the 3D background of your choice.',
         call: 'Call us',
       },
       ru: {
         title: 'Ваш террариум <b>на заказ</b>',
-        text: 'Пришлите нам размеры и вид животного — мы изготовим террариум точно по вашим потребностям, с 3D-фоном по желанию.',
+        text: 'Пришлите нам размеры и вид животного - мы изготовим террариум точно по вашим потребностям, с 3D-фоном по желанию.',
         call: 'Позвоните нам',
       },
     },
@@ -224,6 +224,7 @@ export const SERVICES = {
       { href: '/izrada-akvarijuma.html', label: { sr: 'Izrada akvarijuma', en: 'Custom aquariums', ru: 'Изготовление аквариумов' } },
       { href: '/izrada-vivarijuma.html', label: { sr: 'Izrada vivarijuma', en: 'Custom vivariums', ru: 'Изготовление вивариумов' } },
       { href: '/izrada-led-rasvete.html', label: { sr: 'Izrada LED rasvete', en: 'Custom LED lighting', ru: 'Изготовление LED-освещения' } },
+      { href: '/izrada-postolja.html', label: { sr: 'Postolja i police', en: 'Stands & cabinets', ru: 'Подставки и тумбы' } },
       { href: '/odrzavanje-akvarijuma-terarijuma.html', label: { sr: 'Održavanje i uređenje', en: 'Maintenance & setup', ru: 'Обслуживание и оформление' } },
       { href: '/popravka-akvarijuma-terarijuma.html', label: { sr: 'Popravka i servis', en: 'Repairs & servicing', ru: 'Ремонт и сервис' } },
     ],
@@ -236,20 +237,20 @@ export const SERVICES = {
         title: 'Izrada akvarijuma po meri, Novi Sad | NS Reptiles',
         description: 'Izrada akvarijuma po meri u Novom Sadu: stakleni akvarijumi za ribice i kornjače, 34 dezena folija, LED rasveta, filteri i 3D pozadine. Rok 7–14 dana.',
         ogTitle: 'Izrada akvarijuma po meri | NS Reptiles',
-        ogDescription: 'Ručno lepljeni stakleni akvarijumi po vašim merama — folije, LED rasveta, filteri i oprema. Novi Sad.',
+        ogDescription: 'Ručno lepljeni stakleni akvarijumi po vašim merama - folije, LED rasveta, filteri i oprema. Novi Sad.',
         image: '/style/img/logo.jpg',
       },
       en: {
-        title: 'Custom Aquariums — Made-to-Order Glass Tanks | NS Reptiles',
+        title: 'Custom Aquariums - Made-to-Order Glass Tanks | NS Reptiles',
         description: 'Custom-built glass aquariums in Novi Sad for fish and turtles: 34 vinyl wrap designs, LED lighting, filters and 3D backgrounds. Ready in 7–14 days.',
         ogTitle: 'Custom Aquariums | NS Reptiles',
-        ogDescription: 'Hand-sealed glass aquariums built to your exact dimensions — vinyl wraps, LED lighting, filters, and full equipment. Novi Sad.',
+        ogDescription: 'Hand-sealed glass aquariums built to your exact dimensions - vinyl wraps, LED lighting, filters, and full equipment. Novi Sad.',
       },
       ru: {
         title: 'Аквариумы на заказ в Нови-Саде | NS Reptiles',
-        description: 'Аквариумы на заказ в Нови-Саде: стеклянные аквариумы для рыб и черепах, 34 вида плёнки, LED-освещение, фильтры и 3D-фоны. Срок — 7–14 дней.',
+        description: 'Аквариумы на заказ в Нови-Саде: стеклянные аквариумы для рыб и черепах, 34 вида плёнки, LED-освещение, фильтры и 3D-фоны. Срок - 7–14 дней.',
         ogTitle: 'Аквариумы на заказ | NS Reptiles',
-        ogDescription: 'Стеклянные аквариумы ручной работы по вашим размерам — плёнка, LED-освещение, фильтры и оборудование. Нови-Сад.',
+        ogDescription: 'Стеклянные аквариумы ручной работы по вашим размерам - плёнка, LED-освещение, фильтры и оборудование. Нови-Сад.',
       },
     },
     schema: {
@@ -266,7 +267,7 @@ export const SERVICES = {
       ru: {
         name: 'Изготовление аквариумов на заказ',
         serviceType: 'Изготовление аквариумов на заказ',
-        description: 'Изготовление аквариумов на заказ в Нови-Саде. Стеклянные аквариумы для рыб и черепах, 34 вида плёнки, LED-освещение, фильтры и 3D-фоны. Срок изготовления — 7–14 дней.',
+        description: 'Изготовление аквариумов на заказ в Нови-Саде. Стеклянные аквариумы для рыб и черепах, 34 вида плёнки, LED-освещение, фильтры и 3D-фоны. Срок изготовления - 7–14 дней.',
       },
     },
     h1: {
@@ -275,9 +276,9 @@ export const SERVICES = {
       ru: 'Аквариумы на заказ',
     },
     lead: {
-      sr: 'Svaki akvarijum izrađujemo ručno od stakla, po vašim merama i željama — sa folijom po izboru, LED rasvetom i kompletnom opremom.',
-      en: 'Every aquarium we build is handcrafted from glass, made to your exact measurements and preferences — with your choice of vinyl wrap, LED lighting, and full equipment.',
-      ru: 'Каждый аквариум изготавливается вручную из стекла по вашим размерам и пожеланиям — с плёнкой на выбор, LED-освещением и полным комплектом оборудования.',
+      sr: 'Svaki akvarijum izrađujemo ručno od stakla, po vašim merama i željama - sa folijom po izboru, LED rasvetom i kompletnom opremom.',
+      en: 'Every aquarium we build is handcrafted from glass, made to your exact measurements and preferences - with your choice of vinyl wrap, LED lighting, and full equipment.',
+      ru: 'Каждый аквариум изготавливается вручную из стекла по вашим размерам и пожеланиям - с плёнкой на выбор, LED-освещением и полным комплектом оборудования.',
     },
     intro: {
       sr: 'Staklene akvarijume pravimo ručno u Novom Sadu, po merama vašeg prostora: dužina od 20 do 200 cm, širina od 15 do 100 cm i visina od 15 do 120 cm. Debljinu stakla biramo prema zapremini i visini akvarijuma, a u radionici imamo staklo od 4, 6, 8, 10 i 12 mm. Uz akvarijum možemo da napravimo pokrovno staklo, ugrađenu komoru za filter, 3D pozadinu i LED rasvetu. Niste sigurni koja je veličina prava za vaše ribice ili kornjače? <strong>Rado ćemo vam pomoći</strong> da izaberete.<br><br>Akvarijum možete i sami da složite u <a href="/3d-akvarijum.html" style="text-decoration: underline">3D konfiguratoru</a>: zadate mere, pogledate model u 3D prikazu, a na telefonu i u proširenoj stvarnosti (AR), pa nam dugmetom „Poruči akvarijum“ pošaljete parametre. Kako se konfigurator koristi piše u <a href="/3d-uputstvo.html" style="text-decoration: underline">uputstvu</a>. Cena zavisi od dimenzija, debljine stakla i opreme, a ponudu šaljemo kada dobijemo mere. Pre poručivanja proverite i gde će akvarijum stajati: pun akvarijum teži oko 1 kg po litru vode, plus težina stakla, pa mu treba ravna i čvrsta podloga.',
@@ -347,9 +348,9 @@ export const SERVICES = {
       },
       {
         title: {
-          sr: 'Izrada — 7–14 dana',
-          en: 'Build time — 7–14 days',
-          ru: 'Изготовление — 7–14 дней',
+          sr: 'Izrada - 7–14 dana',
+          en: 'Build time - 7–14 days',
+          ru: 'Изготовление - 7–14 дней',
         },
         text: {
           sr: 'Akvarijum lepimo ručno, od stakla čiju debljinu biramo prema zapremini i visini; na stanju imamo staklo od 4, 6, 8, 10 i 12 mm. Uobičajeni rok izrade je 7–14 dana. Za veće i zahtevnije projekte rok može biti i duži.',
@@ -373,17 +374,17 @@ export const SERVICES = {
     cta: {
       sr: {
         title: 'Vaš akvarijum <b>po meri</b>',
-        text: 'Pošaljite nam dimenzije i namenu — izradićemo akvarijum tačno po vašem prostoru, sa LED rasvetom po želji.',
+        text: 'Pošaljite nam dimenzije i namenu - izradićemo akvarijum tačno po vašem prostoru, sa LED rasvetom po želji.',
         call: 'Pozovi nas',
       },
       en: {
         title: 'Your aquarium, <b>built to order</b>',
-        text: 'Send us your dimensions and intended use — we\'ll build an aquarium that fits your space perfectly, with LED lighting of your choice.',
+        text: 'Send us your dimensions and intended use - we\'ll build an aquarium that fits your space perfectly, with LED lighting of your choice.',
         call: 'Call us',
       },
       ru: {
         title: 'Ваш аквариум <b>на заказ</b>',
-        text: 'Пришлите нам размеры и назначение — изготовим аквариум точно под ваше пространство с LED-освещением по вашему желанию.',
+        text: 'Пришлите нам размеры и назначение - изготовим аквариум точно под ваше пространство с LED-освещением по вашему желанию.',
         call: 'Позвоните нам',
       },
     },
@@ -410,6 +411,7 @@ export const SERVICES = {
       { href: '/izrada-terarijuma.html', label: { sr: 'Izrada terarijuma', en: 'Custom terrariums', ru: 'Изготовление террариумов' } },
       { href: '/izrada-vivarijuma.html', label: { sr: 'Izrada vivarijuma', en: 'Custom vivariums', ru: 'Изготовление вивариумов' } },
       { href: '/izrada-led-rasvete.html', label: { sr: 'Izrada LED rasvete', en: 'Custom LED lighting', ru: 'Изготовление LED-освещения' } },
+      { href: '/izrada-postolja.html', label: { sr: 'Postolja i police', en: 'Stands & cabinets', ru: 'Подставки и тумбы' } },
       { href: '/odrzavanje-akvarijuma-terarijuma.html', label: { sr: 'Održavanje i uređenje', en: 'Maintenance & setup', ru: 'Обслуживание и оформление' } },
       { href: '/popravka-akvarijuma-terarijuma.html', label: { sr: 'Popravka i servis', en: 'Repairs & servicing', ru: 'Ремонт и сервис' } },
     ],
@@ -422,20 +424,20 @@ export const SERVICES = {
         title: 'Izrada vivarijuma po meri, Novi Sad | NS Reptiles',
         description: 'Izrada vivarijuma po meri u Novom Sadu: stakleni vivarijumi za tropske biljke, žabe i vodozemce, 34 dezena folija i specijalna rasveta. Rok 7–14 dana.',
         ogTitle: 'Izrada vivarijuma po meri | NS Reptiles',
-        ogDescription: 'Ručno rađeni stakleni vivarijumi po vašim merama — rasveta punog spektra, sistem za vlažnost i oprema. Novi Sad.',
+        ogDescription: 'Ručno rađeni stakleni vivarijumi po vašim merama - rasveta punog spektra, sistem za vlažnost i oprema. Novi Sad.',
         image: '/style/img/logo.jpg',
       },
       en: {
         title: 'Custom Glass Vivarium Building in Novi Sad | NS Reptiles',
         description: 'Custom glass vivariums in Novi Sad: full-spectrum lighting, 34 decorative foil options, humidity systems. Ready in 7–14 days.',
         ogTitle: 'Custom Vivarium Building | NS Reptiles',
-        ogDescription: 'Handcrafted glass vivariums built to your exact dimensions — full-spectrum lighting, humidity control, and complete equipment. Novi Sad.',
+        ogDescription: 'Handcrafted glass vivariums built to your exact dimensions - full-spectrum lighting, humidity control, and complete equipment. Novi Sad.',
       },
       ru: {
         title: 'Виварии на заказ в Нови-Саде | NS Reptiles',
-        description: 'Виварии на заказ в Нови-Саде: стеклянные виварии для тропических растений, лягушек и амфибий, 34 вида плёнки, спецосвещение. Срок — 7–14 дней.',
+        description: 'Виварии на заказ в Нови-Саде: стеклянные виварии для тропических растений, лягушек и амфибий, 34 вида плёнки, спецосвещение. Срок - 7–14 дней.',
         ogTitle: 'Изготовление вивариев на заказ | NS Reptiles',
-        ogDescription: 'Ручная работа — стеклянные виварии по вашим размерам: освещение полного спектра, система увлажнения и оборудование. Нови-Сад.',
+        ogDescription: 'Ручная работа - стеклянные виварии по вашим размерам: освещение полного спектра, система увлажнения и оборудование. Нови-Сад.',
       },
     },
     schema: {
@@ -461,9 +463,9 @@ export const SERVICES = {
       ru: 'Изготовление вивариев на заказ',
     },
     lead: {
-      sr: 'Svaki vivarijum izrađujemo ručno od stakla, po vašim merama i željama — sa rasvetom punog spektra za zdrav rast biljaka i kompletnom opremom.',
-      en: 'Every vivarium is handcrafted from glass, built to your exact dimensions and preferences — with full-spectrum lighting for healthy plant growth and everything you need included.',
-      ru: 'Каждый виварий мы изготавливаем вручную из стекла, по вашим размерам и пожеланиям — с освещением полного спектра для здорового роста растений и полным набором оборудования.',
+      sr: 'Svaki vivarijum izrađujemo ručno od stakla, po vašim merama i željama - sa rasvetom punog spektra za zdrav rast biljaka i kompletnom opremom.',
+      en: 'Every vivarium is handcrafted from glass, built to your exact dimensions and preferences - with full-spectrum lighting for healthy plant growth and everything you need included.',
+      ru: 'Каждый виварий мы изготавливаем вручную из стекла, по вашим размерам и пожеланиям - с освещением полного спектра для здорового роста растений и полным набором оборудования.',
     },
     intro: {
       sr: 'Vivarijum je zatvoren stakleni prostor za tropske biljke, žabe, vodozemce ili male reptile, u kome se održavaju vlažnost i temperatura. Pravimo ih ručno od stakla u Novom Sadu, po vašim merama, a po želji i kao paludarijum sa kopnenim i vodenim delom. Niste sigurni koja je veličina prava za vaše biljke? <strong>Rado ćemo vam pomoći</strong> da izaberete.<br><br>Vivarijum nema svoj 3D konfigurator, ali mere i dezen folije možete da isprobate u <a href="/3d-terarijum.html" style="text-decoration: underline">3D konfiguratoru terarijuma</a> i da nam pošaljete parametre, uz napomenu da želite vivarijum. Kako se konfigurator koristi piše u <a href="/3d-uputstvo.html" style="text-decoration: underline">uputstvu</a>. Cena zavisi od dimenzija, debljine stakla i opreme, a ponudu šaljemo kada dobijemo mere. Kapara je 30%, izrada traje 7–14 dana, a gotov vivarijum preuzimate lično u Novom Sadu ili vam ga šaljemo kurirskom službom, autobusom ili kombijem bilo gde u Srbiji.',
@@ -533,9 +535,9 @@ export const SERVICES = {
       },
       {
         title: {
-          sr: 'Izrada — 7–14 dana',
-          en: 'Production — 7–14 days',
-          ru: 'Изготовление — 7–14 дней',
+          sr: 'Izrada - 7–14 dana',
+          en: 'Production - 7–14 days',
+          ru: 'Изготовление - 7–14 дней',
         },
         text: {
           sr: 'Vivarijum sastavljamo ručno od stakla; u radionici imamo staklo od 4, 6, 8, 10 i 12 mm, a debljinu biramo prema veličini vivarijuma. Uobičajeni rok izrade je 7–14 dana. Za veće i zahtevnije projekte rok može biti i duži.',
@@ -559,17 +561,17 @@ export const SERVICES = {
     cta: {
       sr: {
         title: 'Vaš vivarijum <b>po meri</b>',
-        text: 'Pošaljite nam dimenzije i namenu — izradićemo vivarijum tačno po vašim potrebama, sa rasvetom punog spektra.',
+        text: 'Pošaljite nam dimenzije i namenu - izradićemo vivarijum tačno po vašim potrebama, sa rasvetom punog spektra.',
         call: 'Pozovi nas',
       },
       en: {
         title: 'Your vivarium, <b>built to order</b>',
-        text: 'Send us your dimensions and intended use — we\'ll build a vivarium exactly to your needs, complete with full-spectrum lighting.',
+        text: 'Send us your dimensions and intended use - we\'ll build a vivarium exactly to your needs, complete with full-spectrum lighting.',
         call: 'Call us',
       },
       ru: {
         title: 'Ваш виварий <b>на заказ</b>',
-        text: 'Пришлите нам размеры и назначение — мы изготовим виварий точно по вашим потребностям, с освещением полного спектра.',
+        text: 'Пришлите нам размеры и назначение - мы изготовим виварий точно по вашим потребностям, с освещением полного спектра.',
         call: 'Позвоните нам',
       },
     },
@@ -577,6 +579,7 @@ export const SERVICES = {
       { href: '/izrada-terarijuma.html', label: { sr: 'Izrada terarijuma', en: 'Custom terrariums', ru: 'Изготовление террариумов' } },
       { href: '/izrada-akvarijuma.html', label: { sr: 'Izrada akvarijuma', en: 'Custom aquariums', ru: 'Изготовление аквариумов' } },
       { href: '/izrada-led-rasvete.html', label: { sr: 'Izrada LED rasvete', en: 'Custom LED lighting', ru: 'Изготовление LED-освещения' } },
+      { href: '/izrada-postolja.html', label: { sr: 'Postolja i police', en: 'Stands & cabinets', ru: 'Подставки и тумбы' } },
       { href: '/odrzavanje-akvarijuma-terarijuma.html', label: { sr: 'Održavanje i uređenje', en: 'Maintenance & setup', ru: 'Обслуживание и оформление' } },
       { href: '/popravka-akvarijuma-terarijuma.html', label: { sr: 'Popravka i servis', en: 'Repairs & servicing', ru: 'Ремонт и сервис' } },
     ],
@@ -589,19 +592,19 @@ export const SERVICES = {
         title: 'Izrada LED rasvete za akvarijume i terarijume | NS Reptiles',
         description: 'LED rasveta po meri za akvarijume i terarijume. Različite dimenzije i boje, dnevni i noćni režim, daljinsko upravljanje, energetski efikasno. Novi Sad.',
         ogTitle: 'Izrada LED rasvete po meri | NS Reptiles',
-        ogDescription: 'LED rasveta po meri za akvarijume i terarijume — boje, režimi rada, daljinsko upravljanje. Novi Sad.',
+        ogDescription: 'LED rasveta po meri za akvarijume i terarijume - boje, režimi rada, daljinsko upravljanje. Novi Sad.',
         image: '/style/img/logo.jpg',
       },
       en: {
         title: 'Custom LED Lighting for Aquariums & Terrariums | NS Reptiles',
         description: 'Custom-built LED lighting for aquariums and terrariums. Various sizes and colors, day/night modes, remote control. Energy efficient. Novi Sad, Serbia.',
-        ogDescription: 'Custom LED lighting for aquariums and terrariums — choose your color, mode, and control method. Made to your exact measurements. Novi Sad.',
+        ogDescription: 'Custom LED lighting for aquariums and terrariums - choose your color, mode, and control method. Made to your exact measurements. Novi Sad.',
       },
       ru: {
         title: 'LED-освещение для аквариумов и террариумов | NS Reptiles',
         description: 'LED-освещение на заказ для аквариумов и террариумов: разные размеры и цвета, дневной и ночной режим, пульт ДУ, энергоэффективность. Нови-Сад.',
         ogTitle: 'Изготовление LED освещения на заказ | NS Reptiles',
-        ogDescription: 'LED освещение на заказ для аквариумов и террариумов — цвета, режимы работы, дистанционное управление. Нови Сад.',
+        ogDescription: 'LED освещение на заказ для аквариумов и террариумов - цвета, режимы работы, дистанционное управление. Нови Сад.',
       },
     },
     schema: {
@@ -632,9 +635,9 @@ export const SERVICES = {
       ru: 'Изготавливаем LED освещение, подобранное по размерам вашего аквариума или террариума. Выбирайте цвет, режим работы и способ управления.',
     },
     intro: {
-      sr: 'LED rasveta troši znatno manje struje, daje jače i ravnomernije svetlo i ne zagreva vodu. Izrađujemo je <strong>po tačnim merama</strong> — od malih akvarijuma od 30 cm do velikih preko 2 metra.',
-      en: 'LED lighting uses significantly less power, delivers stronger and more even light, and doesn\'t heat the water. We build it <strong>to your exact dimensions</strong> — from small 30 cm aquariums all the way to large builds over 2 metres.',
-      ru: 'LED освещение потребляет значительно меньше электроэнергии, даёт более яркий и равномерный свет и не нагревает воду. Изготавливаем <strong>по точным меркам</strong> — от маленьких аквариумов 30 см до больших длиной более 2 метров.',
+      sr: 'LED rasveta troši znatno manje struje, daje jače i ravnomernije svetlo i ne zagreva vodu. Izrađujemo je <strong>po tačnim merama</strong> - od malih akvarijuma od 30 cm do velikih preko 2 metra.',
+      en: 'LED lighting uses significantly less power, delivers stronger and more even light, and doesn\'t heat the water. We build it <strong>to your exact dimensions</strong> - from small 30 cm aquariums all the way to large builds over 2 metres.',
+      ru: 'LED освещение потребляет значительно меньше электроэнергии, даёт более яркий и равномерный свет и не нагревает воду. Изготавливаем <strong>по точным меркам</strong> - от маленьких аквариумов 30 см до больших длиной более 2 метров.',
     },
     items: [
       {
@@ -644,9 +647,9 @@ export const SERVICES = {
           ru: 'Различные размеры',
         },
         text: {
-          sr: 'LED rasvetu izrađujemo po tačnim merama vašeg akvarijuma ili terarijuma. Bez obzira da li je u pitanju mali akvarijum od 30 cm ili veliki od preko 2 metra — prilagođavamo dužinu i broj LED traka za optimalno osvetljenje.',
-          en: 'We build LED lighting to the precise measurements of your aquarium or terrarium. Whether it\'s a compact 30 cm tank or a large display over 2 metres — we adjust the length and number of LED strips to achieve optimal coverage.',
-          ru: 'LED освещение изготавливаем по точным меркам вашего аквариума или террариума. Независимо от того, маленький ли это аквариум 30 см или большой длиной более 2 метров — подбираем длину и количество LED-лент для оптимального освещения.',
+          sr: 'LED rasvetu izrađujemo po tačnim merama vašeg akvarijuma ili terarijuma. Bez obzira da li je u pitanju mali akvarijum od 30 cm ili veliki od preko 2 metra - prilagođavamo dužinu i broj LED traka za optimalno osvetljenje.',
+          en: 'We build LED lighting to the precise measurements of your aquarium or terrarium. Whether it\'s a compact 30 cm tank or a large display over 2 metres - we adjust the length and number of LED strips to achieve optimal coverage.',
+          ru: 'LED освещение изготавливаем по точным меркам вашего аквариума или террариума. Независимо от того, маленький ли это аквариум 30 см или большой длиной более 2 метров - подбираем длину и количество LED-лент для оптимального освещения.',
         },
       },
       {
@@ -656,9 +659,9 @@ export const SERVICES = {
           ru: 'Выбор цвета',
         },
         text: {
-          sr: 'Bela (hladna i topla), plava, crvena, zelena ili RGB koja menja boje — birate vi. Kombinujemo više boja za prirodan efekat ili koristimo jednu boju za specifičan ambijent. Plava rasveta je idealna za noćni režim i ističe fluorescentne ribe.',
-          en: 'White (cool and warm), blue, red, green, or RGB that cycles through colours — the choice is yours. We can combine multiple colours for a natural effect, or use a single colour to create a specific atmosphere. Blue lighting is ideal for night mode and makes fluorescent fish really pop.',
-          ru: 'Белый (холодный и тёплый), синий, красный, зелёный или RGB с изменением цветов — выбираете вы. Комбинируем несколько цветов для естественного эффекта или используем один цвет для создания особой атмосферы. Синее освещение идеально для ночного режима и подчёркивает флуоресцентных рыб.',
+          sr: 'Bela (hladna i topla), plava, crvena, zelena ili RGB koja menja boje - birate vi. Kombinujemo više boja za prirodan efekat ili koristimo jednu boju za specifičan ambijent. Plava rasveta je idealna za noćni režim i ističe fluorescentne ribe.',
+          en: 'White (cool and warm), blue, red, green, or RGB that cycles through colours - the choice is yours. We can combine multiple colours for a natural effect, or use a single colour to create a specific atmosphere. Blue lighting is ideal for night mode and makes fluorescent fish really pop.',
+          ru: 'Белый (холодный и тёплый), синий, красный, зелёный или RGB с изменением цветов - выбираете вы. Комбинируем несколько цветов для естественного эффекта или используем один цвет для создания особой атмосферы. Синее освещение идеально для ночного режима и подчёркивает флуоресцентных рыб.',
         },
       },
       {
@@ -668,9 +671,9 @@ export const SERVICES = {
           ru: 'Дневной и ночной режим',
         },
         text: {
-          sr: 'Svaka LED rasveta može imati dva režima rada — dnevni sa jačim belim svetlom za aktivnost vaših životinja, i noćni sa slabijim plavim svetlom za simulaciju mesečine. Prebacivanje je jednostavno, jednim prekidačem.',
-          en: 'Every LED unit can have two operating modes — a daytime mode with brighter white light to support your animals\' activity, and a night mode with softer blue light that simulates moonlight. Switching between them is simple, just one flip of a switch.',
-          ru: 'Каждое LED освещение может иметь два режима работы — дневной с более ярким белым светом для активности ваших животных и ночной с более слабым синим светом для имитации лунного света. Переключение простое — одним выключателем.',
+          sr: 'Svaka LED rasveta može imati dva režima rada - dnevni sa jačim belim svetlom za aktivnost vaših životinja, i noćni sa slabijim plavim svetlom za simulaciju mesečine. Prebacivanje je jednostavno, jednim prekidačem.',
+          en: 'Every LED unit can have two operating modes - a daytime mode with brighter white light to support your animals\' activity, and a night mode with softer blue light that simulates moonlight. Switching between them is simple, just one flip of a switch.',
+          ru: 'Каждое LED освещение может иметь два режима работы - дневной с более ярким белым светом для активности ваших животных и ночной с более слабым синим светом для имитации лунного света. Переключение простое - одним выключателем.',
         },
       },
       {
@@ -681,7 +684,7 @@ export const SERVICES = {
         },
         text: {
           sr: 'Opciono dodajemo daljinski upravljač za potpunu kontrolu rasvete. Menjajte boju, intenzitet i režim rada bez otvaranja poklopca. Praktično rešenje za akvarijume na teže dostupnim mestima.',
-          en: 'We can optionally add a remote control for full command over your lighting. Change the colour, brightness, and mode without opening the lid — a practical solution for aquariums in hard-to-reach spots.',
+          en: 'We can optionally add a remote control for full command over your lighting. Change the colour, brightness, and mode without opening the lid - a practical solution for aquariums in hard-to-reach spots.',
           ru: 'Дополнительно добавляем пульт дистанционного управления для полного контроля освещения. Меняйте цвет, интенсивность и режим работы, не открывая крышку. Практичное решение для аквариумов в труднодоступных местах.',
         },
       },
@@ -693,7 +696,7 @@ export const SERVICES = {
         },
         text: {
           sr: 'LED rasveta troši znatno manje struje od klasičnih sijalica i fluorescentnih cevi, a daje jače i ravnomernije svetlo. Dugotrajna je i ne zagreva vodu, što je posebno važno za tropske ribe i reptile.',
-          en: 'LED lighting draws significantly less power than traditional bulbs and fluorescent tubes, while delivering stronger, more even light. It lasts longer and doesn\'t heat the water — which is especially important for tropical fish and reptiles.',
+          en: 'LED lighting draws significantly less power than traditional bulbs and fluorescent tubes, while delivering stronger, more even light. It lasts longer and doesn\'t heat the water - which is especially important for tropical fish and reptiles.',
           ru: 'LED освещение потребляет значительно меньше электроэнергии по сравнению с обычными лампочками и люминесцентными трубками, а свет даёт более яркий и равномерный. Долговечно и не нагревает воду, что особенно важно для тропических рыб и рептилий.',
         },
       },
@@ -713,17 +716,17 @@ export const SERVICES = {
     cta: {
       sr: {
         title: 'LED rasveta <b>po vašoj meri</b>',
-        text: 'Javite nam dimenzije i željenu boju — napravićemo LED rasvetu tačno po vašoj meri.',
+        text: 'Javite nam dimenzije i željenu boju - napravićemo LED rasvetu tačno po vašoj meri.',
         call: 'Pozovi nas',
       },
       en: {
         title: 'LED lighting <b>built for you</b>',
-        text: 'Send us your dimensions and preferred colour — we\'ll put together LED lighting made exactly to your specifications.',
+        text: 'Send us your dimensions and preferred colour - we\'ll put together LED lighting made exactly to your specifications.',
         call: 'Call us',
       },
       ru: {
         title: 'LED освещение <b>по вашим меркам</b>',
-        text: 'Сообщите нам размеры и желаемый цвет — изготовим LED освещение точно по вашим меркам.',
+        text: 'Сообщите нам размеры и желаемый цвет - изготовим LED освещение точно по вашим меркам.',
         call: 'Позвоните нам',
       },
     },
@@ -732,6 +735,137 @@ export const SERVICES = {
       { href: '/izrada-akvarijuma.html', label: { sr: 'Izrada akvarijuma', en: 'Custom aquariums', ru: 'Изготовление аквариумов' } },
       { href: '/izrada-vivarijuma.html', label: { sr: 'Izrada vivarijuma', en: 'Custom vivariums', ru: 'Изготовление вивариумов' } },
       { href: '/odrzavanje-akvarijuma-terarijuma.html', label: { sr: 'Održavanje i uređenje', en: 'Maintenance & setup', ru: 'Обслуживание и оформление' } },
+      { href: '/popravka-akvarijuma-terarijuma.html', label: { sr: 'Popravka i servis', en: 'Repairs & servicing', ru: 'Ремонт и сервис' } },
+      { href: '/izrada-postolja.html', label: { sr: 'Postolja i police', en: 'Stands & cabinets', ru: 'Подставки и тумбы' } },
+    ],
+  },
+  postolja: {
+    path: '/izrada-postolja.html',
+    layout: 'feat',
+    meta: {
+      sr: {
+        title: 'Izrada postolja i polica za akvarijume i terarijume | NS Reptiles',
+        description: 'Metalna (čelična) postolja i police sa ormarićem za akvarijume i terarijume, po meri. Nosivost prema težini akvarijuma, police za više terarijuma. Novi Sad.',
+        ogTitle: 'Postolja i police po meri | NS Reptiles',
+        ogDescription: 'Čelična postolja i police sa ormarićem za akvarijume i terarijume, izrađene tačno po meri. Novi Sad.',
+        image: '/style/img/logo.jpg',
+      },
+      en: {
+        title: 'Custom Aquarium & Terrarium Stands and Cabinets | NS Reptiles',
+        description: 'Custom steel stands and cabinet stands for aquariums and terrariums. Built for the weight of your tank, multi-level racks for terrariums. Novi Sad, Serbia.',
+        ogDescription: 'Steel stands and cabinet stands for aquariums and terrariums, built to your exact size. Novi Sad.',
+      },
+      ru: {
+        title: 'Подставки и тумбы для аквариумов и террариумов | NS Reptiles',
+        description: 'Металлические подставки и тумбы для аквариумов и террариумов на заказ. Расчёт под вес аквариума, стеллажи для нескольких террариумов. Нови-Сад.',
+        ogTitle: 'Подставки и тумбы на заказ | NS Reptiles',
+        ogDescription: 'Стальные подставки и тумбы для аквариумов и террариумов точно по вашим размерам. Нови-Сад.',
+      },
+    },
+    schema: {
+      sr: {
+        name: 'Izrada postolja i polica',
+        serviceType: 'Izrada postolja za akvarijume i terarijume',
+        description: 'Izrada metalnih (čeličnih) postolja i polica sa ormarićem za akvarijume i terarijume po meri, sa nosivošću prema težini akvarijuma. Novi Sad.',
+      },
+      en: {
+        name: 'Custom Stands and Cabinets',
+        serviceType: 'Custom aquarium and terrarium stands',
+        description: 'Custom steel stands and cabinet stands for aquariums and terrariums, built for the weight of the tank. Novi Sad.',
+      },
+      ru: {
+        name: 'Изготовление подставок и тумб',
+        serviceType: 'Изготовление подставок для аквариумов и террариумов',
+        description: 'Изготовление металлических подставок и тумб для аквариумов и террариумов на заказ, с расчётом под вес аквариума. Нови-Сад.',
+      },
+    },
+    h1: {
+      sr: 'Izrada postolja i polica',
+      en: 'Custom Stands and Cabinets',
+      ru: 'Изготовление подставок и тумб',
+    },
+    lead: {
+      sr: 'Metalna postolja i police sa ormarićem za akvarijume i terarijume, izrađeni tačno po meri vašeg akvarijuma ili terarijuma.',
+      en: 'Metal stands and cabinet stands for aquariums and terrariums, built to the exact size of your tank.',
+      ru: 'Металлические подставки и тумбы для аквариумов и террариумов, изготовленные точно по размеру вашего аквариума или террариума.',
+    },
+    intro: {
+      sr: 'Akvarijum od 100 litara sa staklom, peskom i dekoracijom teži preko 120 kg, a obična komoda nije pravljena za takav teret. Zato postolja i police izrađujemo <strong>po meri i prema težini</strong> akvarijuma ili terarijuma koji na njima stoji. Primer gotove police: <a href="/proizvodi/oprema/polica-za-akvarijum-100x30x80.html">polica za akvarijum 100x30x80 cm</a>.',
+      en: 'A 100-litre aquarium with glass, sand and decoration weighs over 120 kg, and an ordinary sideboard is not made for that kind of load. That is why we build stands and cabinets <strong>to size and for the weight</strong> of the aquarium or terrarium that sits on them. An example of a ready-made cabinet: <a href="/en/products/equipment/aquarium-cabinet-stand-100x30x80.html">aquarium cabinet stand 100x30x80 cm</a>.',
+      ru: 'Аквариум на 100 литров со стеклом, грунтом и декором весит больше 120 кг, а обычный комод не рассчитан на такую нагрузку. Поэтому подставки и тумбы мы изготавливаем <strong>по размеру и с расчётом на вес</strong> аквариума или террариума. Пример готовой тумбы: <a href="/ru/products/equipment/aquarium-cabinet-stand-100x30x80.html">тумба для аквариума 100x30x80 см</a>.',
+    },
+    items: [
+      {
+        title: { sr: 'Metalna postolja', en: 'Metal stands', ru: 'Металлические подставки' },
+        text: {
+          sr: 'Čelična postolja od kutijastih profila, zavarena u jednu krutu celinu. Ne ugibaju se i ne klimaju ni pod velikim akvarijumima, a zauzimaju malo prostora. Boju biramo zajedno sa vama, da se uklopi u prostoriju.',
+          en: 'Steel stands made from box-section tubing, welded into one rigid frame. They do not sag or wobble even under large aquariums and take up little space. We choose the colour together with you to suit the room.',
+          ru: 'Стальные подставки из профильной трубы, сваренные в единую жёсткую раму. Не прогибаются и не шатаются даже под большими аквариумами и занимают мало места. Цвет выбираем вместе с вами под интерьер.',
+        },
+      },
+      {
+        title: { sr: 'Police sa ormarićem', en: 'Cabinet stands', ru: 'Тумбы со шкафчиком' },
+        text: {
+          sr: 'Zatvorena polica sa vratima nosi akvarijum ili terarijum, a ispod krije spoljni filter, CO2 bocu, hranu i pribor. Kablovi i creva prolaze kroz otvore na zadnjoj strani, pa se sa prednje strane vidi samo uredan nameštaj.',
+          en: 'A closed cabinet with doors carries the aquarium or terrarium and hides the external filter, CO2 bottle, food and tools underneath. Cables and hoses run through openings at the back, so from the front you only see a tidy piece of furniture.',
+          ru: 'Закрытая тумба с дверцами держит аквариум или террариум и прячет внешний фильтр, баллон CO2, корм и инструменты. Кабели и шланги проходят через отверстия сзади, поэтому спереди видна только аккуратная мебель.',
+        },
+      },
+      {
+        title: { sr: 'Tačno po meri', en: 'Exactly to size', ru: 'Точно по размеру' },
+        text: {
+          sr: 'Gornja površina je iste mere kao dno akvarijuma, tako da staklo naleže celom površinom i nijedan deo ne visi preko ivice. Visinu prilagođavamo prostoru i tome da li akvarijum gledate sedeći ili stojeći.',
+          en: 'The top matches the base of the aquarium, so the glass is supported over its whole surface and nothing overhangs the edge. We adjust the height to the room and to whether you view the tank sitting or standing.',
+          ru: 'Верх совпадает с размером дна аквариума, поэтому стекло опирается всей площадью и ничего не свисает за край. Высоту подбираем под помещение и под то, смотрите ли вы на аквариум сидя или стоя.',
+        },
+      },
+      {
+        title: { sr: 'Nosivost prema akvarijumu', en: 'Built for the load', ru: 'Расчёт под нагрузку' },
+        text: {
+          sr: 'Pre izrade računamo težinu: oko kilogram po litru vode, plus staklo, pesak, kamenje i dekoracija. Za duže i teže akvarijume dodajemo srednje noge i jače profile, da se opterećenje ravnomerno rasporedi na pod.',
+          en: 'Before building we work out the weight: about a kilogram per litre of water, plus glass, sand, rocks and decoration. For longer and heavier tanks we add middle legs and heavier tubing so the load is spread evenly across the floor.',
+          ru: 'Перед изготовлением считаем вес: около килограмма на литр воды плюс стекло, грунт, камни и декор. Для длинных и тяжёлых аквариумов добавляем средние ножки и более мощный профиль, чтобы нагрузка равномерно распределялась на пол.',
+        },
+      },
+      {
+        title: { sr: 'Police za više terarijuma', en: 'Racks for several terrariums', ru: 'Стеллажи для нескольких террариумов' },
+        text: {
+          sr: 'Ako držite više životinja, pravimo police na više nivoa na koje terarijumi staju jedan iznad drugog. Razmak između nivoa ostavljamo za rasvetu i ventilaciju, a ceo stalak zauzima površinu jednog terarijuma.',
+          en: 'If you keep several animals, we build multi-level racks where terrariums sit one above the other. We leave room between levels for lighting and ventilation, and the whole rack takes up the floor space of a single terrarium.',
+          ru: 'Если у вас несколько животных, делаем многоуровневые стеллажи, где террариумы стоят один над другим. Между уровнями оставляем место для освещения и вентиляции, а весь стеллаж занимает площадь одного террариума.',
+        },
+      },
+      {
+        title: { sr: 'Uz akvarijum ili terarijum', en: 'Together with your tank', ru: 'Вместе с аквариумом или террариумом' },
+        text: {
+          sr: 'Postolje možemo da izradimo zajedno sa akvarijumom ili terarijumom po meri, pa mere, boja i otvori za kablove odgovaraju od početka. Pravimo ga i za akvarijum koji već imate - dovoljno je da nam pošaljete njegove mere.',
+          en: 'We can build the stand together with a custom aquarium or terrarium, so the size, colour and cable openings match from the start. We also make stands for a tank you already have - just send us its dimensions.',
+          ru: 'Подставку можем изготовить вместе с аквариумом или террариумом на заказ, чтобы размеры, цвет и отверстия для кабелей совпадали с самого начала. Делаем её и для уже имеющегося аквариума - достаточно прислать его размеры.',
+        },
+      },
+    ],
+    cta: {
+      sr: {
+        title: 'Postolje <b>po vašoj meri</b>',
+        text: 'Pošaljite nam mere akvarijuma ili terarijuma i gde će stajati - predložićemo postolje ili policu i javiti cenu.',
+        call: 'Pozovi nas',
+      },
+      en: {
+        title: 'A stand <b>built for you</b>',
+        text: 'Send us the size of your aquarium or terrarium and where it will stand - we will suggest a stand or cabinet and give you a price.',
+        call: 'Call us',
+      },
+      ru: {
+        title: 'Подставка <b>по вашим меркам</b>',
+        text: 'Пришлите нам размеры аквариума или террариума и место, где он будет стоять, - предложим подставку или тумбу и назовём цену.',
+        call: 'Позвоните нам',
+      },
+    },
+    more: [
+      { href: '/izrada-akvarijuma.html', label: { sr: 'Izrada akvarijuma', en: 'Custom aquariums', ru: 'Изготовление аквариумов' } },
+      { href: '/izrada-terarijuma.html', label: { sr: 'Izrada terarijuma', en: 'Custom terrariums', ru: 'Изготовление террариумов' } },
+      { href: '/izrada-led-rasvete.html', label: { sr: 'Izrada LED rasvete', en: 'Custom LED lighting', ru: 'Изготовление LED-освещения' } },
+      { href: '/oprema.html', label: { sr: 'Oprema', en: 'Equipment', ru: 'Оборудование' } },
       { href: '/popravka-akvarijuma-terarijuma.html', label: { sr: 'Popravka i servis', en: 'Repairs & servicing', ru: 'Ремонт и сервис' } },
     ],
   },
@@ -782,7 +916,7 @@ export const SERVICES = {
     },
     lead: {
       sr: 'Profesionalno održavanje i uređenje kako bi vaš akvarijum ili terarijum uvek izgledao savršeno, a životinje bile zdrave i zadovoljne.',
-      en: 'Professional maintenance and decoration so your aquarium or terrarium always looks its best — and your animals stay healthy and happy.',
+      en: 'Professional maintenance and decoration so your aquarium or terrarium always looks its best - and your animals stay healthy and happy.',
       ru: 'Профессиональное обслуживание и оформление, чтобы ваш аквариум или террариум всегда выглядел безупречно, а животные были здоровы и счастливы.',
     },
     intro: {
@@ -800,7 +934,7 @@ export const SERVICES = {
         text: {
           sr: 'Redovno čišćenje je ključno za zdravlje ribica i kornjača. Vršimo delimičnu zamenu vode, čišćenje stakla od algi, usisavanje substrata, čišćenje filtera i proveru parametara vode. Preporučujemo održavanje jednom mesečno.',
           en: 'Regular cleaning is essential for the health of your fish and turtles. We perform partial water changes, algae removal from the glass, substrate vacuuming, filter cleaning, and water parameter checks. We recommend monthly maintenance.',
-          ru: 'Регулярная чистка — залог здоровья рыбок и черепах. Мы проводим частичную замену воды, чистку стекла от водорослей, сифонирование грунта, промывку фильтра и проверку параметров воды. Рекомендуем обслуживание раз в месяц.',
+          ru: 'Регулярная чистка - залог здоровья рыбок и черепах. Мы проводим частичную замену воды, чистку стекла от водорослей, сифонирование грунта, промывку фильтра и проверку параметров воды. Рекомендуем обслуживание раз в месяц.',
         },
       },
       {
@@ -834,9 +968,9 @@ export const SERVICES = {
           ru: 'Оформление террариума',
         },
         text: {
-          sr: 'Pravimo funkcionalan i vizuelno atraktivan prostor za reptila. Postavljamo odgovarajući substrat, 3D pozadine od stiropora ili siga kamena, penjačke grane, skrovišta, posude za vodu i hranu — sve prema potrebama vrste.',
-          en: 'We build a functional and visually attractive space for your reptile. We install the right substrate, 3D backgrounds made from polystyrene or tufa rock, climbing branches, hides, water and food dishes — all chosen according to the species\' needs.',
-          ru: 'Создаём функциональное и визуально привлекательное пространство для рептилии. Устанавливаем подходящий субстрат, 3D-фоны из пенопласта или туфа, ветки для лазания, укрытия, поилки и кормушки — всё согласно потребностям вида.',
+          sr: 'Pravimo funkcionalan i vizuelno atraktivan prostor za reptila. Postavljamo odgovarajući substrat, 3D pozadine od stiropora ili siga kamena, penjačke grane, skrovišta, posude za vodu i hranu - sve prema potrebama vrste.',
+          en: 'We build a functional and visually attractive space for your reptile. We install the right substrate, 3D backgrounds made from polystyrene or tufa rock, climbing branches, hides, water and food dishes - all chosen according to the species\' needs.',
+          ru: 'Создаём функциональное и визуально привлекательное пространство для рептилии. Устанавливаем подходящий субстрат, 3D-фоны из пенопласта или туфа, ветки для лазания, укрытия, поилки и кормушки - всё согласно потребностям вида.',
         },
       },
       {
@@ -846,9 +980,9 @@ export const SERVICES = {
           ru: 'Настройка оборудования',
         },
         text: {
-          sr: 'Proveravamo i podešavamo kompletnu opremu — filtere, pumpe, grejače, termostate, LED i UVB/UVA rasvetu. Ako je nešto dotrajalo ili ne radi ispravno, predlažemo zamenu i pomažemo u odabiru odgovarajuće opreme.',
-          en: 'We inspect and configure all equipment — filters, pumps, heaters, thermostats, LED and UVB/UVA lighting. If anything is worn out or not working correctly, we\'ll recommend a replacement and help you choose the right gear.',
-          ru: 'Проверяем и настраиваем всё оборудование — фильтры, помпы, нагреватели, термостаты, LED и UVB/UVA-освещение. Если что-то износилось или работает неправильно, предлагаем замену и помогаем выбрать подходящее оборудование.',
+          sr: 'Proveravamo i podešavamo kompletnu opremu - filtere, pumpe, grejače, termostate, LED i UVB/UVA rasvetu. Ako je nešto dotrajalo ili ne radi ispravno, predlažemo zamenu i pomažemo u odabiru odgovarajuće opreme.',
+          en: 'We inspect and configure all equipment - filters, pumps, heaters, thermostats, LED and UVB/UVA lighting. If anything is worn out or not working correctly, we\'ll recommend a replacement and help you choose the right gear.',
+          ru: 'Проверяем и настраиваем всё оборудование - фильтры, помпы, нагреватели, термостаты, LED и UVB/UVA-освещение. Если что-то износилось или работает неправильно, предлагаем замену и помогаем выбрать подходящее оборудование.',
         },
       },
       {
@@ -867,17 +1001,17 @@ export const SERVICES = {
     cta: {
       sr: {
         title: 'Zakažite <b>održavanje</b>',
-        text: 'Javite nam se i dogovorićemo održavanje ili uređenje koje vam odgovara — jednokratno ili redovno.',
+        text: 'Javite nam se i dogovorićemo održavanje ili uređenje koje vam odgovara - jednokratno ili redovno.',
         call: 'Pozovi nas',
       },
       en: {
         title: 'Book <b>maintenance</b>',
-        text: 'Get in touch and we\'ll arrange maintenance or decoration that works for you — one-time or on a regular basis.',
+        text: 'Get in touch and we\'ll arrange maintenance or decoration that works for you - one-time or on a regular basis.',
         call: 'Call us',
       },
       ru: {
         title: 'Запишитесь на <b>обслуживание</b>',
-        text: 'Свяжитесь с нами, и мы согласуем обслуживание или оформление, удобное для вас — разово или на регулярной основе.',
+        text: 'Свяжитесь с нами, и мы согласуем обслуживание или оформление, удобное для вас - разово или на регулярной основе.',
         call: 'Позвоните нам',
       },
     },
@@ -886,6 +1020,7 @@ export const SERVICES = {
       { href: '/izrada-akvarijuma.html', label: { sr: 'Izrada akvarijuma', en: 'Custom aquariums', ru: 'Изготовление аквариумов' } },
       { href: '/izrada-vivarijuma.html', label: { sr: 'Izrada vivarijuma', en: 'Custom vivariums', ru: 'Изготовление вивариумов' } },
       { href: '/izrada-led-rasvete.html', label: { sr: 'Izrada LED rasvete', en: 'Custom LED lighting', ru: 'Изготовление LED-освещения' } },
+      { href: '/izrada-postolja.html', label: { sr: 'Postolja i police', en: 'Stands & cabinets', ru: 'Подставки и тумбы' } },
       { href: '/popravka-akvarijuma-terarijuma.html', label: { sr: 'Popravka i servis', en: 'Repairs & servicing', ru: 'Ремонт и сервис' } },
     ],
   },
@@ -897,20 +1032,20 @@ export const SERVICES = {
         title: 'Popravka akvarijuma i terarijuma, Novi Sad | NS Reptiles',
         description: 'Popravka akvarijuma i terarijuma u Novom Sadu. Zamena stakla i silikona, popravka poklopca i okvira, zamena rasvete. Besplatna procena, rok 1-3 dana.',
         ogTitle: 'Popravka akvarijuma i terarijuma | NS Reptiles',
-        ogDescription: 'Servis akvarijuma i terarijuma — zamena stakla i silikona, poklopac, okvir, rasveta. Besplatna procena. Novi Sad.',
+        ogDescription: 'Servis akvarijuma i terarijuma - zamena stakla i silikona, poklopac, okvir, rasveta. Besplatna procena. Novi Sad.',
         image: '/style/img/logo.jpg',
       },
       en: {
         title: 'Aquarium & Terrarium Repair Service | NS Reptiles, Novi Sad',
         description: 'Aquarium & terrarium repair in Novi Sad: glass and silicone replacement, lid and frame repair, lighting upgrades. Free estimate, most repairs in 1–3 days.',
         ogTitle: 'Aquarium & Terrarium Repair | NS Reptiles',
-        ogDescription: 'Aquarium and terrarium repair service — glass, silicone, lid, frame, and lighting. Free estimate. Novi Sad, Serbia.',
+        ogDescription: 'Aquarium and terrarium repair service - glass, silicone, lid, frame, and lighting. Free estimate. Novi Sad, Serbia.',
       },
       ru: {
         title: 'Ремонт аквариумов и террариумов | NS Reptiles, Нови-Сад',
         description: 'Ремонт аквариумов и террариумов в Нови-Саде: замена стекла, силикона и освещения, ремонт крышки и рамы. Бесплатная оценка, большинство работ за 1–3 дня.',
         ogTitle: 'Ремонт аквариумов и террариумов | NS Reptiles',
-        ogDescription: 'Сервис аквариумов и террариумов — замена стекла, силикона, крышки, рамы и освещения. Бесплатная оценка. Нови-Сад, Сербия.',
+        ogDescription: 'Сервис аквариумов и террариумов - замена стекла, силикона, крышки, рамы и освещения. Бесплатная оценка. Нови-Сад, Сербия.',
       },
     },
     schema: {
@@ -936,9 +1071,9 @@ export const SERVICES = {
       ru: 'Ремонт аквариумов и террариумов',
     },
     lead: {
-      sr: 'Vaš akvarijum ili terarijum ima oštećenje? Ne morate kupovati novi — popravljamo ga brzo i pouzdano.',
-      en: 'Is your aquarium or terrarium damaged? You don\'t have to buy a new one — we fix it quickly and reliably.',
-      ru: 'Ваш аквариум или террариум повреждён? Покупать новый необязательно — мы отремонтируем его быстро и надёжно.',
+      sr: 'Vaš akvarijum ili terarijum ima oštećenje? Ne morate kupovati novi - popravljamo ga brzo i pouzdano.',
+      en: 'Is your aquarium or terrarium damaged? You don\'t have to buy a new one - we fix it quickly and reliably.',
+      ru: 'Ваш аквариум или террариум повреждён? Покупать новый необязательно - мы отремонтируем его быстро и надёжно.',
     },
     intro: {
       sr: 'Pošaljite nam slike oštećenja i dimenzije, a mi ćemo vam dati <strong>besplatnu procenu</strong> cene i roka. Većina popravki završava se u roku od <strong>1-3 radna dana</strong>.',
@@ -955,7 +1090,7 @@ export const SERVICES = {
         text: {
           sr: 'Puklo ili naprsnulo staklo ne mora da znači kraj. Vršimo kompletnu zamenu oštećenog stakla novim, odgovarajuće debljine i kvaliteta, i vraćamo akvarijum u potpuno funkcionalno stanje.',
           en: 'A cracked or broken pane doesn\'t have to mean the end. We carry out a full replacement of the damaged glass with new glass of the appropriate thickness and quality, restoring your aquarium to fully working condition.',
-          ru: 'Треснувшее или разбитое стекло — это ещё не конец. Мы полностью заменяем повреждённое стекло новым, подходящей толщины и качества, и возвращаем аквариум в полностью рабочее состояние.',
+          ru: 'Треснувшее или разбитое стекло - это ещё не конец. Мы полностью заменяем повреждённое стекло новым, подходящей толщины и качества, и возвращаем аквариум в полностью рабочее состояние.',
         },
       },
       {
@@ -967,7 +1102,7 @@ export const SERVICES = {
         text: {
           sr: 'Curenje je čest problem, naročito kod starijih modela. Uklanjamo stari, istrošeni silikon i nanosimo novi, kvalitetan akvarijumski silikon koji je potpuno bezbedan za ribe, kornjače i reptile.',
           en: 'Leaks are a common issue, especially on older models. We remove the old, worn-out silicone and apply fresh, high-quality aquarium-grade sealant that is completely safe for fish, turtles, and reptiles.',
-          ru: 'Течи — распространённая проблема, особенно у старых моделей. Мы удаляем старый изношенный силикон и наносим новый, качественный аквариумный герметик, абсолютно безопасный для рыб, черепах и рептилий.',
+          ru: 'Течи - распространённая проблема, особенно у старых моделей. Мы удаляем старый изношенный силикон и наносим новый, качественный аквариумный герметик, абсолютно безопасный для рыб, черепах и рептилий.',
         },
       },
       {
@@ -977,9 +1112,9 @@ export const SERVICES = {
           ru: 'Ремонт крышки',
         },
         text: {
-          sr: 'Poklopac je bitan za bezbednost životinja i rad rasvete. Popravljamo oštećene poklopce, dodajemo otvore za kablove ili izrađujemo nove po meri. Radimo i nadogradnje — ugradnja filtera, dupli poklopac ili nova hauba.',
-          en: 'The lid matters for your animals\' safety and for the lighting setup. We repair damaged lids, add cable cutouts, or build entirely new ones to order. We also handle upgrades — filter integration, double lids, or a new canopy.',
-          ru: 'Крышка важна для безопасности животных и работы освещения. Мы ремонтируем повреждённые крышки, добавляем отверстия для кабелей или изготавливаем новые на заказ. Выполняем и модернизации — установку фильтра, двойную крышку или новый кожух.',
+          sr: 'Poklopac je bitan za bezbednost životinja i rad rasvete. Popravljamo oštećene poklopce, dodajemo otvore za kablove ili izrađujemo nove po meri. Radimo i nadogradnje - ugradnja filtera, dupli poklopac ili nova hauba.',
+          en: 'The lid matters for your animals\' safety and for the lighting setup. We repair damaged lids, add cable cutouts, or build entirely new ones to order. We also handle upgrades - filter integration, double lids, or a new canopy.',
+          ru: 'Крышка важна для безопасности животных и работы освещения. Мы ремонтируем повреждённые крышки, добавляем отверстия для кабелей или изготавливаем новые на заказ. Выполняем и модернизации - установку фильтра, двойную крышку или новый кожух.',
         },
       },
       {
@@ -989,9 +1124,9 @@ export const SERVICES = {
           ru: 'Ремонт рамы',
         },
         text: {
-          sr: 'Oštećen okvir, iskrivljen ram ili odlepljena folija — sve to rešavamo. Popravljamo strukturu, zamenjujemo oštećene delove okvira i ponovo oblepljujemo folijom po vašem izboru iz ponude od 34 dezena.',
-          en: 'Damaged frame, warped rim, or peeling wrap — we sort it all out. We repair the structure, replace damaged frame sections, and re-wrap with the vinyl of your choice from a selection of 34 patterns.',
-          ru: 'Повреждённая рама, покороблённый кант или отслоившаяся плёнка — всё это мы устраняем. Восстанавливаем конструкцию, заменяем повреждённые части рамы и заново оклеиваем плёнкой на ваш выбор из ассортимента 34 рисунка.',
+          sr: 'Oštećen okvir, iskrivljen ram ili odlepljena folija - sve to rešavamo. Popravljamo strukturu, zamenjujemo oštećene delove okvira i ponovo oblepljujemo folijom po vašem izboru iz ponude od 34 dezena.',
+          en: 'Damaged frame, warped rim, or peeling wrap - we sort it all out. We repair the structure, replace damaged frame sections, and re-wrap with the vinyl of your choice from a selection of 34 patterns.',
+          ru: 'Повреждённая рама, покороблённый кант или отслоившаяся плёнка - всё это мы устраняем. Восстанавливаем конструкцию, заменяем повреждённые части рамы и заново оклеиваем плёнкой на ваш выбор из ассортимента 34 рисунка.',
         },
       },
       {
@@ -1015,24 +1150,24 @@ export const SERVICES = {
         text: {
           sr: 'Kontaktirajte nas telefonom, mejlom ili preko društvenih mreža. Pošaljite slike oštećenja i dimenzije, a mi dajemo besplatnu procenu cene i roka. Većina popravki završava se u roku od 1-3 radna dana.',
           en: 'Reach out by phone, email, or social media. Send us photos of the damage and the dimensions, and we\'ll come back to you with a free estimate of the cost and timeline. Most repairs are done within 1–3 business days.',
-          ru: 'Свяжитесь с нами по телефону, электронной почте или через социальные сети. Пришлите фотографии повреждений и размеры — мы дадим бесплатную оценку стоимости и сроков. Большинство ремонтов выполняется за 1–3 рабочих дня.',
+          ru: 'Свяжитесь с нами по телефону, электронной почте или через социальные сети. Пришлите фотографии повреждений и размеры - мы дадим бесплатную оценку стоимости и сроков. Большинство ремонтов выполняется за 1–3 рабочих дня.',
         },
       },
     ],
     cta: {
       sr: {
         title: 'Besplatna <b>procena popravke</b>',
-        text: 'Pošaljite nam slike oštećenja i dimenzije — dobićete besplatnu procenu cene i roka popravke.',
+        text: 'Pošaljite nam slike oštećenja i dimenzije - dobićete besplatnu procenu cene i roka popravke.',
         call: 'Pozovi nas',
       },
       en: {
         title: 'Free <b>Repair Estimate</b>',
-        text: 'Send us photos of the damage and the dimensions — we\'ll get back to you with a free estimate of the cost and timeline.',
+        text: 'Send us photos of the damage and the dimensions - we\'ll get back to you with a free estimate of the cost and timeline.',
         call: 'Call us',
       },
       ru: {
         title: 'Бесплатная <b>оценка ремонта</b>',
-        text: 'Пришлите нам фотографии повреждений и размеры — мы дадим бесплатную оценку стоимости и сроков ремонта.',
+        text: 'Пришлите нам фотографии повреждений и размеры - мы дадим бесплатную оценку стоимости и сроков ремонта.',
         call: 'Позвоните нам',
       },
     },
@@ -1041,6 +1176,7 @@ export const SERVICES = {
       { href: '/izrada-akvarijuma.html', label: { sr: 'Izrada akvarijuma', en: 'Custom aquariums', ru: 'Изготовление аквариумов' } },
       { href: '/izrada-vivarijuma.html', label: { sr: 'Izrada vivarijuma', en: 'Custom vivariums', ru: 'Изготовление вивариумов' } },
       { href: '/izrada-led-rasvete.html', label: { sr: 'Izrada LED rasvete', en: 'Custom LED lighting', ru: 'Изготовление LED-освещения' } },
+      { href: '/izrada-postolja.html', label: { sr: 'Postolja i police', en: 'Stands & cabinets', ru: 'Подставки и тумбы' } },
       { href: '/odrzavanje-akvarijuma-terarijuma.html', label: { sr: 'Održavanje i uređenje', en: 'Maintenance & setup', ru: 'Обслуживание и оформление' } },
     ],
   },

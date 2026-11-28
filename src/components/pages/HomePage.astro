@@ -165,7 +165,6 @@ const website = {
 <section class="section cfg3d">
   <div class="wrap cfg3d-grid">
     <div class="cfg3d-text reveal">
-      <div class="cfg3d-pre">{t.cfg3d.pre} · {GUIDE_3D[lang].beta[0]}</div>
       <h2 class="sec-title" set:html={t.cfg3d.title} />
       <p class="cfg3d-lead">{t.cfg3d.lead}</p>
       <ul class="cfg3d-feats">{t.cfg3d.feats.map((f) => <li>{f}</li>)}</ul>
@@ -218,7 +217,7 @@ const website = {
     ))}
   </div>
   </div>
-  <div class="rep-cta">
+  <div class="wrap rep-cta">
     <a href={href('/zivotinje.html')} class="btn btn-outline">{t.reptiles.all}<Fragment set:html={ARROW} /></a>
   </div>
 </section>
@@ -232,16 +231,17 @@ const website = {
   <div class="wrap">
     <div class="gal-head reveal">
       <div><h2 class="sec-title" set:html={t.gallery.title} /></div>
-      <a href={href('/galerija.html')} class="btn btn-light">{t.gallery.all}<Fragment set:html={ARROW} /></a>
+      <a href={href('/galerija.html')} class="btn head-btn btn-light">{t.gallery.all}<Fragment set:html={ARROW} /></a>
     </div>
     <div class="gal-grid">
       {GALLERY.map((g) => (
         <div class={`gal-item${g.size ? ` gal-${g.size}` : ''}`} data-cat={g.cat}>
-          <img loading="lazy" decoding="async" src={g.img} width="1600" height="900" style={g.pos && `object-position: ${g.pos}`} alt={g.name[lang]} />
+          <img loading="lazy" decoding="async" src={g.img} width="1600" height="900" style={[g.pos && `--pos: ${g.pos}`, g.mpos && `--mpos: ${g.mpos}`].filter(Boolean).join('; ') || undefined} alt={g.name[lang]} />
           <div class="cap"><small>{g.cat === 'zmija' ? t.gallery.snake : t.gallery.lizard}</small><b>{g.name[lang]}</b></div>
         </div>
       ))}
     </div>
+    <div class="sec-more"><a href={href('/galerija.html')} class="btn btn-light">{t.gallery.all}<Fragment set:html={ARROW} /></a></div>
   </div>
 </section>
 
@@ -249,11 +249,12 @@ const website = {
   <div class="wrap">
     <div class="gal-head reveal">
       <div><h2 class="sec-title" set:html={t.kits.title} /></div>
-      <a href={href('/kompleti.html')} class="btn btn-outline">{t.kits.all}<Fragment set:html={ARROW} /></a>
+      <a href={href('/kompleti.html')} class="btn head-btn btn-outline">{t.kits.all}<Fragment set:html={ARROW} /></a>
     </div>
     <div class="kit-grid">
       {KITS.map((k) => <KitCard kit={k} lang={lang} />)}
     </div>
+    <div class="sec-more"><a href={href('/kompleti.html')} class="btn btn-outline">{t.kits.all}<Fragment set:html={ARROW} /></a></div>
   </div>
 </section>
 
@@ -285,11 +286,12 @@ const website = {
         <h2 class="sec-title" set:html={t.work.title} />
         <p style="color: var(--ink-soft); font-weight: 300; margin-top: 8px">{t.work.text}</p>
       </div>
-      <a href={href('/galerija.html')} class="btn btn-outline">{t.work.all}<Fragment set:html={ARROW} /></a>
+      <a href={href('/galerija.html')} class="btn head-btn btn-outline">{t.work.all}<Fragment set:html={ARROW} /></a>
     </div>
     <div class="best-grid">
       {work.map((p) => <ProductCard product={p} lang={lang} />)}
     </div>
+    <div class="sec-more"><a href={href('/galerija.html')} class="btn btn-outline">{t.work.all}<Fragment set:html={ARROW} /></a></div>
   </div>
 </section>
 

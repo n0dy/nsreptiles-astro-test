@@ -15,7 +15,7 @@ for (const dir of ['terarijumi', 'akvarijumi', 'oprema'])
     if (image?.startsWith('/style/img/') && image.endsWith('.webp')) jobs.push(['public' + image, '-320', 320]);
   }
 for (const f of readdirSync(IMG + 'backgrounds')) if (/^(?!.*-320)\S+\.webp$/.test(f)) jobs.push([IMG + 'backgrounds/' + f, '-320', 320]);
-for (const f of ['izrada/terarijum', 'izrada/akvarijum', 'oprema/scena']) jobs.push([IMG + f + '.webp', '-sm', 768]);
+for (const f of ['izrada/terarijum', 'izrada/akvarijum', 'izrada/postolja', 'oprema/scena']) jobs.push([IMG + f + '.webp', '-sm', 768]);
 for (const f of ['bradata', 'piton', 'leopard', 'smuk', 'vodena']) jobs.push([IMG + `reptili/${f}.webp`, '-400', 400]);
 jobs.push([IMG + 'about-agama.webp', '-600', 600]);
 for (const f of ['terarijum', 'akvarijum']) jobs.push([IMG + `3d/konfigurator-${f}.webp`, '-800', 800]);

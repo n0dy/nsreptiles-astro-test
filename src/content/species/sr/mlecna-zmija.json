@@ -1,0 +1,166 @@
+{
+  "seo": {
+    "title": "Mlečna zmija - vodič za negu i terarijum | NS Reptiles",
+    "description": "Mlečna zmija (Lampropeltis triangulum): terarijum, temperatura, ishrana i nega. Laka za držanje, ali se drži isključivo sama. Vodič iz Novog Sada.",
+    "keywords": "mlečna zmija, Lampropeltis triangulum, hondurska mlečna zmija, mlečna zmija nega, mlečna zmija terarijum, mlečna zmija ishrana, zmija za početnike, NS Reptiles, Novi Sad",
+    "ogDescription": "Neotrovna zmija crveno-crno-belih prstenova. Vodič za negu mlečne zmije: terarijum, temperatura, ishrana, zdravlje i zašto se drži sama."
+  },
+  "article": {
+    "headline": "Mlečna zmija - vodič za negu i držanje",
+    "description": "Sve o mlečnoj zmiji: poreklo, podvrste, ponašanje, terarijum, temperatura, ishrana, zdravlje i razmnožavanje."
+  },
+  "name": "Mlečna zmija",
+  "lead": "Neotrovna zmija upadljivih crveno-crno-belih prstenova, otporna i jednostavna za držanje. Veličina zavisi od podvrste, a u terarijumu živi isključivo sama.",
+  "image": "/style/img/zivotinje/lampropeltis-triangulum.webp",
+  "photo": "/style/img/zivotinje/lampropeltis-triangulum.webp",
+  "photoSize": [800, 1000],
+  "photoAlt": "Mlečna zmija (Lampropeltis triangulum) - NS Reptiles Novi Sad",
+  "intro": "Mlečna zmija je neotrovna zmija iz Severne i Srednje Amerike, poznata po crvenim, crnim i belim (ponekad žutim) prstenovima koji oponašaju otrovnu koralnu zmiju. Ta mimikrija plaši grabljivice, iako je mlečna zmija za ljude potpuno bezopasna. Pod imenom Lampropeltis triangulum u hobiju se drži više podvrsta koje se dosta razlikuju po veličini - od sitnih, koje jedva prelaze pola metra, do hondurske mlečne zmije, jedne od najkrupnijih. Uz pravilnu negu u terarijumu živi 15–20 godina.",
+  "sections": [
+    {
+      "title": "Poreklo i <b>izgled</b>",
+      "boxes": [
+        {
+          "title": "Poreklo i stanište",
+          "p": [
+            "Areal se proteže od jugoistočne Kanade, preko velikog dela SAD i Meksika, do Srednje Amerike. Naseljava veoma različita staništa: listopadne šume, kamenite padine, livade i polja, a u tropskim krajevima i vlažne nizijske šume. Zbog tako velikog areala razvile su se brojne podvrste, od kojih se neke po novijoj sistematici vode kao zasebne vrste."
+          ]
+        },
+        {
+          "title": "Veličina i izgled",
+          "p": [
+            "U zavisnosti od podvrste odrasle jedinke dostižu 60–120 cm. U hobiju su najčešće pueblanska (L. t. campbelli), sinaloanska (L. t. sinaloae), Nelsonova (L. t. nelsoni) i hondurska mlečna zmija (L. t. hondurensis), koja je među najkrupnijima. Telo je vitko, sa glatkim, sjajnim krljuštima. Pored prirodne šare, selektivnim uzgojem dobijene su i varijante poput albino i tangerine (narandžaste) mlečne zmije."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ponašanje i <b>rukovanje</b>",
+      "boxes": [
+        {
+          "title": "Ponašanje",
+          "p": [
+            "Mlečne zmije su uglavnom aktivne u sumrak i noću, a veći deo dana provode u skrovištu ili ukopane u podlogu. Mladunci su često nervozni i brzi - kad se uplaše, migolje se, ispuštaju neprijatan miris (mošus) ili pokušavaju da ugrizu. Uz kratko i redovno rukovanje većina se smiri i lako se drži u rukama. Imaju jak refleks hranjenja, pa posle dodira sa glodarima treba oprati ruke, a zmiju ne dirati 48 sati posle obroka."
+          ]
+        },
+        {
+          "title": "Isključivo pojedinačno",
+          "p": [
+            "Mlečna zmija mora da živi sama. U prirodi jede i druge zmije, pa je kanibalizam u zajedničkom terarijumu stvarna opasnost - i to ne samo kad su jedinke različite veličine. Zmije se spajaju samo kratko i pod nadzorom, radi parenja."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Terarijum i <b>podloga</b>",
+      "boxes": [
+        {
+          "title": "Terarijum",
+          "p": [
+            "Za odraslu jedinku srednje veličine dovoljan je terarijum od oko 90×45×45 cm; manjim podvrstama odgovara i nešto manji, a za hondursku mlečnu zmiju bolji je terarijum dužine 100–120 cm. Mladunci se bolje osećaju u manjem prostoru sa više zaklona. Potrebna su bar dva skrovišta (na toplom i na hladnom delu), grane za penjanje i posuda sa vodom. Poklopac mora dobro da naleže i da se zaključava - mlečne zmije su vešti begunci."
+          ]
+        },
+        {
+          "title": "Podloga",
+          "p": [
+            "Aspen strugotina, kokosovo vlakno ili mešavina zemlje i kokosa, u sloju dovoljno debelom da zmija može da se ukopa. Izbegavati kedrovinu i borovinu, čija aromatična ulja nadražuju disajne puteve, kao i sitne čestice koje mogu da izazovu impakciju. Prljave delove podloge uklanjati odmah, a celu podlogu povremeno menjati."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Temperatura i <b>uslovi</b>",
+      "boxes": [
+        {
+          "title": "Temperatura",
+          "p": [
+            "Topli deo: 28–31 °C. Hladniji deo: 22–25 °C. Noću temperatura ne treba da padne ispod 20 °C. Grejna podloga ili grejni kabl na termostatu postavljaju se ispod trećine terarijuma, tako da zmija sama bira gde joj prija."
+          ]
+        },
+        {
+          "title": "Osvetljenje",
+          "p": [
+            "UVB nije neophodan, ali redovan ciklus dana i noći od 10–12 sati svetla (na tajmeru) pomaže normalnom ritmu ishrane i aktivnosti."
+          ]
+        },
+        {
+          "title": "Vlažnost",
+          "p": [
+            "Optimalno 40–60 %. Pred presvlačenje obezbediti vlažno skrovište sa navlaženom mahovinom ili kokosovim vlaknom."
+          ]
+        },
+        {
+          "title": "Voda",
+          "p": [
+            "Sveža voda uvek dostupna u stabilnoj posudi. Posudu redovno prati, jer se zmije često u njoj i kupaju."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ishrana i <b>zdravlje</b>",
+      "boxes": [
+        {
+          "title": "Ishrana",
+          "p": [
+            "Mladunci: pinkiji (tek okoćeni miševi) na 5–7 dana. Odrasli: miševi odgovarajuće veličine na 7–14 dana, a krupnije jedinke i mladi pacovi. Plen ne treba da bude širi od najdebljeg dela tela zmije. Preporučuje se smrznuto-odmrznuta hrana. Pojedini mladunci u početku teško prihvataju glodare; ako zmija dugo odbija hranu, posavetujte se sa nama ili sa veterinarom."
+          ]
+        },
+        {
+          "title": "Zdravlje",
+          "p": [
+            "Česti problemi su respiratorne infekcije (zbog hladnoće ili vlage bez provetravanja), zaostala koža posle presvlačenja, grinje i gojaznost zbog prečestog hranjenja. Kod znakova bolesti - otežano disanje, sluz oko usta, dugotrajno odbijanje hrane - obratite se veterinaru specijalizovanom za egzotične životinje."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Razmnožavanje",
+      "boxes": [
+        {
+          "p": [
+            "Polna zrelost nastupa sa 2–3 godine. Pre sezone parenja zmije se zimuju 2–3 meseca na nižoj temperaturi (oko 12–16 °C), a nekoliko nedelja pre hlađenja prestaje se sa hranjenjem kako bi creva bila prazna. Ženke najčešće polažu 5–15 jaja, a inkubacija traje oko 55–65 dana na 27–29 °C. Mladunci se posle izleganja odmah drže odvojeno."
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "terarijumi/terarijum-90x45x45-3d",
+    "terarijumi/terarijum-100x45x45",
+    "terarijumi/terarijum-80x50x50"
+  ],
+  "faq": {
+    "title": "Česta pitanja o mlečnoj zmiji",
+    "items": [
+      {
+        "q": "Da li je mlečna zmija otrovna?",
+        "a": "Ne. Mlečna zmija nije otrovna i plen ubija stezanjem. Njena crveno-crno-bela šara samo oponaša otrovnu koralnu zmiju."
+      },
+      {
+        "q": "Odakle ime „mlečna zmija“?",
+        "a": "Ime potiče od stare narodne priče da ove zmije u štalama sisaju mleko krava. To nije tačno - u štale ih privlače miševi."
+      },
+      {
+        "q": "Koliko naraste mlečna zmija?",
+        "a": "Zavisi od podvrste: odrasle jedinke dostižu 60–120 cm, a hondurska mlečna zmija je među najkrupnijima."
+      },
+      {
+        "q": "Koliko živi mlečna zmija?",
+        "a": "Uz pravilnu negu u terarijumu živi 15–20 godina."
+      },
+      {
+        "q": "Mogu li dve mlečne zmije da žive zajedno?",
+        "a": "Ne. Mlečne zmije jedu i druge zmije, pa se drže isključivo pojedinačno. Spajaju se samo kratko, pod nadzorom, radi parenja."
+      },
+      {
+        "q": "Da li je mlečna zmija dobra za početnike?",
+        "a": "Da. Uslovi su jednostavni, a zmija je otporna. Treba računati na to da su mladunci često nervozni i da im treba malo vremena da se naviknu na rukovanje."
+      }
+    ]
+  },
+  "cta": {
+    "text": "Za pitanja o nabavci, nezi ili opremi za mlečnu zmiju - tu smo. Javite nam se pozivom ili porukom.",
+    "waText": "Zanima me mlečna zmija"
+  }
+}
