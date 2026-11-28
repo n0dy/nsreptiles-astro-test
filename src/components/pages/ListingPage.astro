@@ -196,22 +196,22 @@ const countText = (n: number) => `${n} ${ui.count[plural.select(n) as keyof type
   </div>
 </section>
 {'priceTable' in l && (
-  <section class="section pricing">
+  <section class="lp-extra">
     <div class="wrap">
       <div class="usl-more-head"><h2 set:html={l.priceTable.title[lang]} /></div>
-      <div class="price-table">
+      <div class="lp-prices" style={`--rows: ${Math.ceil(l.priceTable.rows.length / 2)}`}>
         {l.priceTable.rows.map((r) => (
-          <div class="price-row" style="grid-template-columns: 1fr auto"><span class="pname">{r.name[lang]}</span><span class="pamt">{r.price} {lang === 'sr' ? 'din' : 'RSD'}</span></div>
+          <div class="lp-price"><span class="pname">{r.name[lang]}</span><span class="pamt">{r.price} {lang === 'sr' ? 'din' : 'RSD'}</span></div>
         ))}
       </div>
     </div>
   </section>
 )}
 {'guides' in l && (
-  <section class="usl-more">
+  <section class="lp-extra lp-extra--bg">
     <div class="wrap">
       <div class="usl-more-head"><h2 set:html={l.guides.title[lang]} /></div>
-      <div class="usl-more-grid">
+      <div class="lp-guides">
         {l.guides.links.map((g) => (
           <a class="usl-link" href={href(g.href)}>{g.label[lang]}<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
         ))}
@@ -221,7 +221,7 @@ const countText = (n: number) => `${n} ${ui.count[plural.select(n) as keyof type
 )}
 <button type="button" class="op-ftab" id="opFtab" aria-controls="opSide" aria-expanded="false"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"></path></svg><span>{ui.filters}</span></button>
 <div class="op-overlay" id="opOverlay" hidden></div>
-<Faq lang={lang} items={PAGE_FAQS[`listing-${listing}`]} />
+<div class="lp-faq"><Faq lang={lang} items={PAGE_FAQS[`listing-${listing}`]} /></div>
 
 <Zcta title={l.cta.title[lang]} text={l.cta.text[lang]} callLabel={ui.call} />
 

@@ -113,6 +113,8 @@
   text-transform: uppercase;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
+  /* dugacki nazivi bez razmaka (npr. "Kalcijum/Vitamini") inace izlaze iz uske kartice */
+  overflow-wrap: anywhere;
 }
 .op-body :is(h2, h3) a {
   color: inherit;
@@ -399,6 +401,9 @@ nav.op-side-block .op-group-link {
     min-width: 0;
     height: 42px;
   }
+  .op-bar .op-sort {
+    flex: 1 1 100%;
+  }
   .op-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -473,6 +478,11 @@ nav.op-side-block .op-group-link {
   .op-main .op-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
+  }
+  /* oznaka ide u 1 ili 2 reda; ista visina drzi nazive u susednim karticama u liniji */
+  .op-main .op-cat {
+    line-height: 1.35;
+    min-height: 2.7em;
   }
 }
 
@@ -626,5 +636,89 @@ nav.op-side-block .op-group-link {
   .op-ftab {
     animation: none;
     transition: none;
+  }
+}
+
+/* ===== DNO LISTINGA: cene, vodici, FAQ - ista sirina, naizmenicna pozadina ===== */
+.lp-extra {
+  padding: 64px 0;
+  background: var(--white);
+  transition: background 0.4s;
+}
+.lp-extra--bg {
+  background: var(--bg);
+}
+.lp-extra--bg .usl-link {
+  background: var(--white);
+}
+.lp-faq .faq {
+  background: var(--white);
+}
+.lp-extra .usl-more-head {
+  margin-bottom: 32px;
+}
+.lp-faq .faq {
+  padding: 64px 0;
+}
+.lp-faq .sec-title {
+  font-size: clamp(1.6rem, 3.4vw, 2.3rem);
+}
+.lp-prices,
+.lp-guides,
+.lp-faq .faq-list {
+  max-width: 860px;
+  margin: 0 auto;
+}
+/* dve kolone koje se pune odozgo nadole */
+.lp-prices {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(var(--rows), auto);
+  grid-auto-flow: column;
+  column-gap: 1px;
+  background: var(--silver);
+  border: 1px solid var(--silver);
+  border-top: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.lp-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  padding: 16px 24px;
+  background: var(--white);
+  border-top: 1px solid var(--silver);
+}
+.lp-price .pname {
+  font-family: 'Oswald Variable', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+}
+.lp-price .pamt {
+  font-family: 'Oswald Variable', sans-serif;
+  font-weight: 600;
+  color: var(--green-ink);
+  white-space: nowrap;
+}
+.lp-guides {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+@media (max-width: 600px) {
+  .lp-extra,
+  .lp-faq .faq {
+    padding: 48px 0;
+  }
+  .lp-prices {
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    grid-template-rows: none;
+  }
+  .lp-price {
+    padding: 14px 18px;
   }
 }

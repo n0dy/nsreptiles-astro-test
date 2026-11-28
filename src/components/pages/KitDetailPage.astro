@@ -10,6 +10,7 @@ import { localizePath, translationsFor } from '../../i18n/routes';
 import { KITS, KIT_UI } from '../../i18n/kits';
 import { KIT_DETAIL_UI, KIT_DETAILS } from '../../i18n/pages/kit-detail';
 import { TERRARIUM_GUIDES } from '../../i18n/guides';
+import { ANIMAL_GROUPS } from '../../i18n/pages/animals';
 
 interface Props {
   /** srpski slug kompleta, npr. "bradata-agama" */
@@ -27,11 +28,11 @@ const ui = KIT_UI[lang];
 const href = (p: string) => localizePath(p, lang);
 const path = href(srPath);
 const name = kit.name[lang];
+const species = ANIMAL_GROUPS.flatMap((g) => g.animals).filter((a, i, all) => a.href && kit.species.includes(a.href) && all.findIndex((x) => x.href === a.href) === i);
 const image = d.ogImage ?? kit.img;
 const waText = t.wa(d.waName?.[lang] ?? name);
 // zatecen parametar: en strane salju englesko ime, sr i ru srpsko
 const inquiry = `${href('/kontakt.html')}?komplet=${encodeURIComponent(kit.name[lang === 'en' ? 'en' : 'sr'])}`;
-const gtagWa = "window.gtag&&gtag('event','kontakt_click',{'metod':'whatsapp'})";
 
 const schema = [
   {
@@ -105,12 +106,18 @@ const schema = [
           <a href={inquiry} class="btn btn-primary">
             {t.inquiry}
           </a>
-          <a href={whatsappLink(waText)} target="_blank" rel="noopener" class="btn btn-outline" onclick={gtagWa}>
+          <a href={whatsappLink(waText)} target="_blank" rel="noopener" class="btn btn-outline" data-proizvod={kit.name.sr}>
             {t.askWa}
           </a>
         </div>
         <div class="ks-note">{t.note}</div>
         {TERRARIUM_GUIDES[slug] && <p><a href={href(TERRARIUM_GUIDES[slug].href)}>{TERRARIUM_GUIDES[slug].label[lang]}</a></p>}
+        {species.length > 0 && (
+          <>
+            <div class="ks-incl-title">{t.speciesTitle}</div>
+            <ul class="ks-species">{species.map((a) => <li><a href={href(a.href!)}>{a.name[lang]}</a></li>)}</ul>
+          </>
+        )}
       </div>
     </div>
   </div>
@@ -142,5 +149,5 @@ const schema = [
     </div>
   </div>
 </section>
-<Zcta title={t.cta.title} text={t.cta.text} callLabel={SITE.phoneDisplay} waText={waText} track />
+<Zcta title={t.cta.title} text={t.cta.text} callLabel={SITE.phoneDisplay} waText={waText} />
 </Base>

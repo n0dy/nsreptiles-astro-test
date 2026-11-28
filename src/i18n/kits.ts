@@ -16,11 +16,14 @@ export interface Kit {
   price: number;
   name: L;
   incl: L<string[]>;
+  /** sr putanje strana vrsta koje komplet pokriva (linkovi u oba smera) */
+  species: string[];
 }
 
 export const KITS: Kit[] = [
   {
     href: '/kompleti/bradata-agama.html',
+    species: ['/zivotinje/bradataagama.html'],
     img: '/assets/img/bradata-agama.jpg',
     price: 25800,
     name: { sr: 'Bradata agama', en: 'Bearded dragon', ru: 'Бородатая агама' },
@@ -32,6 +35,7 @@ export const KITS: Kit[] = [
   },
   {
     href: '/kompleti/leopard-gekon.html',
+    species: ['/zivotinje/leopardgekon.html'],
     img: '/assets/img/leopard-gekon.jpg',
     price: 12500,
     name: { sr: 'Leopard gekon', en: 'Leopard gecko', ru: 'Леопардовый геккон' },
@@ -43,6 +47,7 @@ export const KITS: Kit[] = [
   },
   {
     href: '/kompleti/kukuruzni-smuk.html',
+    species: ['/zivotinje/kukuruznismuk.html'],
     img: '/assets/img/kukuruzni-smuk.jpg',
     price: 12500,
     name: { sr: 'Kukuruzni smuk', en: 'Corn snake', ru: 'Маисовый полоз' },
@@ -54,6 +59,7 @@ export const KITS: Kit[] = [
   },
   {
     href: '/kompleti/skorpija.html',
+    species: ['/zivotinje/azijskisumskiskorpion.html', '/zivotinje/dzinovskiplaviskorpion.html'],
     img: '/assets/img/skorpija.jpg',
     price: 8500,
     name: { sr: 'Škorpija', en: 'Scorpion', ru: 'Скорпион' },
@@ -65,6 +71,7 @@ export const KITS: Kit[] = [
   },
   {
     href: '/kompleti/tarantula.html',
+    species: ['/zivotinje/brazilskabelonogatarantula.html', '/zivotinje/gvatemalskatigrastatarantula.html', '/zivotinje/kubanskazlatnatarantula.html', '/zivotinje/meksickacrvenatarantula.html', '/zivotinje/meksickavatrenatarantula.html'],
     img: '/assets/img/tarantula.webp',
     price: 3000,
     name: { sr: 'Tarantula', en: 'Tarantula', ru: 'Тарантул' },

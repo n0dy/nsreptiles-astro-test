@@ -1,0 +1,189 @@
+{
+  "seo": {
+    "title": "Kubanska zlatna tarantula (Phormictopus auratus) - vodič za negu | NS Reptiles",
+    "description": "Vodič za negu - kubanska zlatna tarantula (Phormictopus auratus): terarijum, supstrat, temperatura, vlažnost, ishrana, dlačice, otrov i presvlačenje. NS Reptiles.",
+    "keywords": "kubanska zlatna tarantula, Phormictopus auratus, tarantula, tarantula nega, terarijum za tarantulu, ishrana tarantule, tarantula Novi Sad, NS Reptiles",
+    "ogDescription": "Sve o vrsti Phormictopus auratus (kubanska zlatna tarantula): poreklo, terarijum, supstrat, temperatura, ishrana, dlačice, otrov i presvlačenje. NS Reptiles, Novi Sad."
+  },
+  "article": {
+    "headline": "Kubanska zlatna tarantula - vodič za negu",
+    "description": "Detaljan vodič za držanje vrste Phormictopus auratus: veličina, terarijum, supstrat, temperatura, vlažnost, ishrana, dlačice i presvlačenje."
+  },
+  "name": "Kubanska zlatna tarantula",
+  "lead": "Krupna tarantula sa Kube, tamnog tela sa zlatno-bronzanim sjajem. Brza, proždrljiva i impresivna - za držaoce koji već imaju iskustva.",
+  "image": "/style/img/tarantule/phormictopus-auratus.webp",
+  "photo": "/style/img/tarantule/phormictopus-auratus.webp",
+  "photoSize": [
+    800,
+    1000
+  ],
+  "photoAlt": "Kubanska zlatna tarantula (Phormictopus auratus) - NS Reptiles Novi Sad",
+  "intro": "Kubanska zlatna tarantula (Phormictopus auratus) je krupna kopnena tarantula sa Kube. Posle presvlačenja tamno telo ima izražen zlatno-bronzani sjaj. Brzo raste i gotovo nikad ne odbija hranu, ali je nervozna i često odbrambeno nastrojena, pa je bolja kao druga ili treća tarantula nego kao prva. Za početak nudimo i <a href=\"/kompleti/tarantula.html\">komplet za tarantulu</a> sa terarijumom i podlogom.",
+  "sections": [
+    {
+      "title": "Poreklo, izgled i <b>ponašanje</b>",
+      "boxes": [
+        {
+          "title": "Poreklo i stanište",
+          "p": [
+            "Potiče sa Kube, gde živi na tlu suvljih šuma i žbunastih predela, u jazbinama koje kopa sama ili zauzima napuštene."
+          ]
+        },
+        {
+          "title": "Veličina i izgled",
+          "p": [
+            "Krupna tarantula: odrasle ženke dostižu raspon nogu od oko 15 cm, a neke i više. Telo je tamno, a dlačice posle presvlačenja imaju zlatno-bronzani sjaj, po kome je vrsta dobila ime."
+          ]
+        },
+        {
+          "title": "Ponašanje",
+          "p": [
+            "Brza i nervozna - kad se uznemiri, zauzima preteći stav sa podignutim prednjim nogama i spremna je da ugrize. Izuzetno je proždrljiva i plen napada odmah. Zbog temperamenta nije za početnike, ali je odlična za posmatranje."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Terarijum i <b>podloga</b>",
+      "boxes": [
+        {
+          "title": "Terarijum",
+          "p": [
+            "Kopnena je vrsta, pa je potreban horizontalni terarijum - važnija je površina dna nego visina. Za odraslu jedinku potreban je terarijum osnove oko 40×30 cm. Iznad supstrata ostavite tek nekoliko centimetara više od raspona nogu pauka: pad sa visine može da ošteti abdomen i bude smrtonosan. Poklopac mora čvrsto da naleže, a ventilacija treba da bude i sa strane i odozgo. Mladunci se drže u manjim posudama, srazmerno svojoj veličini."
+          ]
+        },
+        {
+          "title": "Supstrat",
+          "p": [
+            "Potrebno je 10–15 cm supstrata, jer rado kopa: kokosov treset ili mešavina treseta i zemlje bez đubriva. Donji sloj treba da bude umereno vlažan, a površina suvlja."
+          ]
+        },
+        {
+          "title": "Skrovište i uređenje",
+          "p": [
+            "Dovoljni su polukora plute ili komad kore kao skrovište, plitka posuda za vodu i malo suvog lišća ili veštačkih biljaka. Teže predmete postavite na dno pre nasipanja supstrata, da ne bi pali na pauka dok kopa. Terarijum ne treba pretrpavati."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Temperatura i <b>vlažnost</b>",
+      "boxes": [
+        {
+          "title": "Temperatura i svetlo",
+          "p": [
+            "Odgovara sobna temperatura od oko 22–27 °C. Ako je zimi hladnije, grejnu foliju postavite na bočni ili zadnji zid, nikada ispod supstrata - pauk se od toplote sklanja kopanjem naniže, pa bi ga grejanje odozdo moglo pregrejati. Posebno osvetljenje ni UVB nisu potrebni; izbegavajte direktno sunce."
+          ]
+        },
+        {
+          "title": "Vlažnost i voda",
+          "p": [
+            "Odgovara vlažnost oko 60–70%. Supstrat vlažite povremeno, zalivanjem jednog ugla. Plitka posuda sa čistom vodom treba da bude stalno u terarijumu."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ishrana",
+      "boxes": [
+        {
+          "title": "Plen",
+          "p": [
+            "Hrani se živim insektima: cvrčcima, žoharima (npr. dubija), skakavcima i sličnim plenom. Plen ne treba da bude veći od abdomena pauka. Insekte iz prirode ne dajte, jer mogu nositi parazite i pesticide."
+          ]
+        },
+        {
+          "title": "Učestalost hranjenja",
+          "p": [
+            "Odrasle jedinke dovoljno je hraniti jednom nedeljno ili ređe, a mladunce dva puta nedeljno sitnijim plenom. Plen koji ne pojede za dan uklonite. Normalno je da tarantula nedeljama ne jede pred presvlačenje - tada joj ne nudite hranu."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Dlačice, otrov i <b>rukovanje</b>",
+      "boxes": [
+        {
+          "title": "Dlačice koje peku",
+          "p": [
+            "Kao i druge tarantule sa američkog kontinenta, na abdomenu ima dlačice koje peku i koje nogama odbacuje kad se oseti ugroženo. Na koži izazivaju svrab i crvenilo, a u očima ozbiljnu iritaciju. Pri održavanju terarijuma ne prinosite lice blizu, a posle rada operite ruke. Kad je uznemirena, češće se brani pretećim stavom i ujedom nego dlačicama."
+          ]
+        },
+        {
+          "title": "Otrov",
+          "p": [
+            "Otrov ove vrste nije opasan po zdravog čoveka - ujed je po jačini sličan ubodu pčele ili ose: bol, crvenilo i otok koji prolaze. Kao i kod uboda pčele, moguća je alergijska reakcija; ako se javi otežano disanje ili otok koji se širi, odmah potražite lekarsku pomoć."
+          ]
+        },
+        {
+          "title": "Rukovanje",
+          "p": [
+            "Ne preporučujemo uzimanje u ruke. Pad sa visine od samo nekoliko desetina centimetara može biti smrtonosan za tarantulu, a uplašen pauk može da ugrize ili baci dlačice. Za premeštanje navedite pauka u providnu posudu i poklopite je kartonom. Terarijum držite van domašaja dece i kućnih ljubimaca."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Rast i <b>presvlačenje</b>",
+      "boxes": [
+        {
+          "title": "Rast i životni vek",
+          "p": [
+            "Raste brzo za tarantulu. Ženke žive više od 10 godina, a mužjaci znatno kraće - obično godinu-dve posle sazrevanja."
+          ]
+        },
+        {
+          "title": "Presvlačenje",
+          "p": [
+            "Tarantula raste presvlačenjem. Pred presvlačenje prestaje da jede, a abdomen joj potamni. Presvlači se najčešće ležeći na leđima - to je normalno i nije znak uginuća, ne dirajte je. Posle presvlačenja sačekajte bar nedelju dana pre hranjenja, dok se novi oklop i očnjaci ne stvrdnu. U terarijumu tada ne sme biti živog plena."
+          ]
+        },
+        {
+          "title": "Mogući problemi",
+          "p": [
+            "Najveći rizici su pad sa visine, isušivanje i živ plen ostavljen tokom presvlačenja. Pauk koji skuplja noge ispod tela je ozbiljan znak - proverite da li ima vode i obratite se iskusnom odgajivaču ili veterinaru za egzotične životinje. Buđ i grinje se javljaju u premokrom, neprovetrenom terarijumu sa ostacima hrane."
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "terarijumi/terarijum-40x25x30-3d",
+    "terarijumi/terarijum-45x35x35",
+    "terarijumi/terarijum-35x30x25-3d"
+  ],
+  "faq": {
+    "title": "Česta pitanja o kubanskoj zlatnoj tarantuli",
+    "items": [
+      {
+        "q": "Da li je kubanska zlatna tarantula otrovna?",
+        "a": "Za zdravog čoveka nije opasna - ujed je sličan ubodu pčele. Veći problem su dlačice sa abdomena, koje peku na koži i u očima."
+      },
+      {
+        "q": "Koliko naraste kubanska zlatna tarantula?",
+        "a": "Odrasle ženke dostižu raspon nogu od oko 15 cm, a neke i više."
+      },
+      {
+        "q": "Koliko živi kubanska zlatna tarantula?",
+        "a": "Ženke više od 10 godina, mužjaci znatno kraće."
+      },
+      {
+        "q": "Šta jede kubanska zlatna tarantula?",
+        "a": "Žive insekte odgovarajuće veličine - cvrčke, žohare i skakavce. Odraslu jedinku dovoljno je hraniti jednom nedeljno ili ređe."
+      },
+      {
+        "q": "Da li je kubanska zlatna tarantula dobra za početnike?",
+        "a": "Ne preporučujemo je kao prvu tarantulu - brza je, nervozna i spremno se brani. Odličan je izbor za nekoga ko već ima iskustva sa mirnijim vrstama."
+      },
+      {
+        "q": "Može li se kubanska zlatna tarantula držati u rukama?",
+        "a": "Ne preporučujemo. Pad može biti smrtonosan za pauka, a uplašena tarantula može da ugrize ili baci dlačice koje peku. Za premeštanje koristite posudu."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Nabavite <b>kubansku zlatnu tarantulu</b>",
+    "text": "Javite nam se telefonom ili WhatsApp-om za dostupnost, terarijum i opremu za tarantulu i savete o nezi. Rado ćemo vam pomoći.",
+    "waText": "Zanima me kubanska zlatna tarantula (Phormictopus auratus)"
+  }
+}

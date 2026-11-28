@@ -80,9 +80,19 @@ export const TRANSLATIONS: Group[] = [
     "en": "/en/led-lighting.html"
   },
   {
+    "ru": "/ru/stands.html",
+    "sr": "/izrada-postolja.html",
+    "en": "/en/stands.html"
+  },
+  {
     "ru": "/ru/maintenance.html",
     "sr": "/odrzavanje-akvarijuma-terarijuma.html",
     "en": "/en/maintenance.html"
+  },
+  {
+    "ru": "/ru/blog.html",
+    "sr": "/blog.html",
+    "en": "/en/blog.html"
   },
   {
     "ru": "/ru/privacy-policy.html",

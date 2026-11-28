@@ -712,5 +712,55 @@
         "ru": "Да, аквариум или террариум можно привезти лично в Нови-Сад. Для больших аквариумов мы можем договориться о том, чтобы забрать его у вас."
       }
     }
+  ],
+  "service-postolja": [
+    {
+      "q": {
+        "sr": "Zašto ne staviti akvarijum na običan nameštaj?",
+        "en": "Why not put an aquarium on ordinary furniture?",
+        "ru": "Почему нельзя поставить аквариум на обычную мебель?"
+      },
+      "a": {
+        "sr": "Pun akvarijum je mnogo teži nego što izgleda: oko kilogram po litru vode, plus staklo, pesak i dekoracija. Komode i police nisu pravljene za takav teret, ploča može da se ugne, a akvarijum koji ne naleže ravno trpi napon u staklu i silikonu.",
+        "en": "A full aquarium is much heavier than it looks: about a kilogram per litre of water, plus glass, sand and decoration. Sideboards and shelves are not built for that load, the top can sag, and a tank that does not sit flat puts stress on the glass and silicone.",
+        "ru": "Полный аквариум намного тяжелее, чем кажется: около килограмма на литр воды плюс стекло, грунт и декор. Комоды и полки не рассчитаны на такую нагрузку, столешница может прогнуться, а аквариум, стоящий неровно, создаёт напряжение в стекле и силиконе."
+      }
+    },
+    {
+      "q": {
+        "sr": "Šta je bolje, metalno postolje ili polica sa ormarićem?",
+        "en": "Which is better, a metal stand or a cabinet stand?",
+        "ru": "Что лучше: металлическая подставка или тумба?"
+      },
+      "a": {
+        "sr": "Metalno postolje je najčvršće i zauzima najmanje prostora, pa je dobro za velike i teške akvarijume i za police sa više terarijuma. Polica sa ormarićem izgleda kao nameštaj i krije filter i opremu iza vrata. Ako niste sigurni, pošaljite nam mere i fotografiju prostora pa ćemo predložiti.",
+        "en": "A metal stand is the sturdiest and takes the least space, so it suits large, heavy aquariums and racks for several terrariums. A cabinet stand looks like furniture and hides the filter and equipment behind doors. If you are not sure, send us the dimensions and a photo of the room and we will suggest one.",
+        "ru": "Металлическая подставка самая прочная и занимает меньше всего места, поэтому подходит для больших тяжёлых аквариумов и стеллажей для нескольких террариумов. Тумба выглядит как мебель и прячет фильтр и оборудование за дверцами. Если не уверены, пришлите размеры и фото помещения - мы подскажем."
+      }
+    },
+    {
+      "q": {
+        "sr": "Da li pravite postolje za akvarijum koji već imam?",
+        "en": "Do you make stands for an aquarium I already have?",
+        "ru": "Делаете ли вы подставку для уже имеющегося аквариума?"
+      },
+      "a": {
+        "sr": "Da. Pošaljite nam dužinu, širinu i visinu akvarijuma i željenu visinu postolja. Gornju površinu pravimo iste mere kao dno akvarijuma, tako da staklo naleže celom površinom.",
+        "en": "Yes. Send us the length, width and height of the aquarium and the stand height you would like. We make the top the same size as the base of the tank so the glass is supported over its whole surface.",
+        "ru": "Да. Пришлите длину, ширину и высоту аквариума и желаемую высоту подставки. Верх делаем по размеру дна аквариума, чтобы стекло опиралось всей площадью."
+      }
+    },
+    {
+      "q": {
+        "sr": "Kako se postolje dostavlja?",
+        "en": "How is the stand delivered?",
+        "ru": "Как доставляется подставка?"
+      },
+      "a": {
+        "sr": "U Novom Sadu postolje možete preuzeti ili ga dovozimo po dogovoru, a za ostatak Srbije dogovaramo dostavu u zavisnosti od veličine. Javite nam adresu kada šaljete mere.",
+        "en": "In Novi Sad you can pick the stand up or we deliver it by arrangement; for the rest of Serbia we arrange delivery depending on the size. Let us know the address when you send the dimensions.",
+        "ru": "В Нови-Саде подставку можно забрать самостоятельно или мы привезём её по договорённости, доставку по остальной Сербии согласуем в зависимости от размера. Сообщите адрес вместе с размерами."
+      }
+    }
   ]
 }

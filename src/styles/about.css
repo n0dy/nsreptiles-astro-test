@@ -120,34 +120,28 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition:
-    transform 0.3s,
-    box-shadow 0.3s;
-}
-.vc:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--card-shadow-hover);
 }
 .vc .vc-ic {
-  width: 54px;
-  height: 54px;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
+  /* dekorativno gore desno, kao redni brojevi na karticama usluga */
+  position: absolute;
+  top: -22px;
+  right: -22px;
   color: var(--green-ink);
-  background: color-mix(in srgb, var(--green) 12%, transparent);
+  opacity: 0.12;
+  pointer-events: none;
 }
 .vc .vc-ic svg {
-  width: 26px;
-  height: 26px;
+  width: 120px;
+  height: 120px;
 }
 .vc .vc-body {
-  margin-top: 22px;
+  margin-top: auto;
 }
 .vc h3 {
   font-size: 1.15rem;
   text-transform: uppercase;
   margin-bottom: 9px;
+  padding-right: 80px;
 }
 .vc p {
   color: var(--ink-soft);
@@ -173,7 +167,7 @@
 .vc.tall .vc-ic,
 .vc.accent .vc-ic {
   color: #fff;
-  background: rgba(255, 255, 255, 0.14);
+  opacity: 0.22;
 }
 .vc.tall h3,
 .vc.accent h3 {
@@ -219,9 +213,25 @@
   .vc.tall {
     grid-column: 1 / -1;
     min-height: 380px;
+    /* nize kartice: tekst zauzima vise visine, pa tamni sloj krece ranije */
+    background:
+      linear-gradient(180deg, rgba(8, 12, 10, 0.25) 0%, rgba(8, 12, 10, 0.92) 38%),
+      url(/style/img/gallery/nova/zdravlje-jaja.webp) center top / cover,
+      #000;
   }
 }
 @media (max-width: 560px) {
+  .vc .vc-ic {
+    top: -16px;
+    right: -16px;
+  }
+  .vc .vc-ic svg {
+    width: 86px;
+    height: 86px;
+  }
+  .vc h3 {
+    padding-right: 56px;
+  }
   .timeline {
     grid-template-columns: 1fr;
     row-gap: 36px;

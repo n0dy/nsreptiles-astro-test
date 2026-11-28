@@ -261,19 +261,31 @@ if (!reduceMotion)
   });
 
 // ===== GA4: klikovi na kontakt (telefon, WhatsApp, Viber, e-mail) =====
-// Jedan slusalac za ceo sajt (plutajuca dugmad, traka, footer, kontakt strana...); linkovi koji vec imaju
-// svoj gtag u onclick se preskacu da se dogadjaj ne broji dvaput. `mesto` kaze odakle je klik.
+// Jedini merni kod za kontakt na celom sajtu: linkovi nemaju svoj onclick. `mesto` kaze odakle je klik,
+// `proizvod` dolazi iz data-proizvod na linku ili roditelju; stranu GA4 vec belezi sam (page_location).
 document.addEventListener('click', (e) => {
   const a = e.target.closest && e.target.closest('a[href]');
-  if (!a || (a.getAttribute('onclick') || '').includes('gtag')) return;
+  if (!a) return;
   const href = a.getAttribute('href');
   const metod = href.startsWith('tel:') ? 'telefon' : href.includes('wa.me') ? 'whatsapp'
     : href.startsWith('viber:') ? 'viber' : href.startsWith('mailto:') ? 'email' : '';
   if (!metod) return;
   const mesto = a.closest('.float-contact') ? 'plutajuce' : a.closest('.topbar') ? 'traka'
-    : a.closest('footer') ? 'footer' : 'strana';
-  window.gtag('event', 'kontakt_click', { metod, mesto });
+    : a.closest('footer') ? 'footer' : a.closest('.btn, .zcta') ? 'cta' : 'strana';
+  const p = a.closest('[data-proizvod]');
+  window.gtag('event', 'kontakt_click', p ? { metod, mesto, proizvod: p.dataset.proizvod } : { metod, mesto });
 });
+
+// Kopiran broj ili e-mail: mnogi kopiraju umesto da kliknu. Okida se samo na stvarno kopiranje.
+document.addEventListener('copy', () => {
+  const s = String(getSelection()).trim();
+  const metod = /@/.test(s) ? 'email' : s.replace(/\D/g, '').includes((document.querySelector('a[href^="tel:"]')?.getAttribute('href') || 'x').slice(-9)) ? 'telefon' : '';
+  if (metod) window.gtag('event', 'kontakt_kopiran', { metod });
+});
+
+// Pocetak popunjavanja kontakt forme, jednom po strani: uz generate_lead pokazuje koliko ljudi odustane.
+const kForm = document.getElementById('kForm');
+if (kForm) kForm.addEventListener('focusin', () => window.gtag('event', 'forma_start'), { once: true });
 
 // ===== GA4: drustvene mreze, upit sa strane proizvoda, korpa =====
 // Korpa jos ne vodi nigde; klik se belezi da se vidi koliko ljudi ocekuje kupovinu preko sajta.

@@ -1,0 +1,74 @@
+{
+  "name": "Polica za akvarijum 100x30x80 cm",
+  "label": "Postolja",
+  "lead": "Bela polica sa dvoja vrata za akvarijum ili terarijum dužine do 100 cm i dubine do 30 cm - postolje i ormarić za opremu u jednom.",
+  "image": "/style/img/oprema/postolja/polica-za-akvarijum-100x30x80.webp",
+  "imageAlt": "Bela polica sa dvoja vrata, 100 x 30 x 80 cm, postolje za akvarijum - NS Reptiles",
+  "price": 0,
+  "specs": [
+    {
+      "k": "Tip",
+      "v": "Polica (ormarić) za akvarijum ili terarijum"
+    },
+    {
+      "k": "Dimenzije",
+      "v": "100 x 30 x 80 cm (širina x dubina x visina)"
+    },
+    {
+      "k": "Za akvarijum",
+      "v": "Do 100 x 30 cm u osnovi"
+    },
+    {
+      "k": "Boja",
+      "v": "Bela"
+    },
+    {
+      "k": "Vrata",
+      "v": "Dvoja, prostor za filter i opremu"
+    },
+    {
+      "k": "Izrada",
+      "v": "Moguće i po meri"
+    }
+  ],
+  "description": [
+    {
+      "type": "h2",
+      "text": "Detaljan opis"
+    },
+    {
+      "type": "p",
+      "html": "Polica 100 x 30 x 80 cm je postolje za akvarijum ili terarijum dužine do 100 cm i dubine do 30 cm. Gornja ploča je ravna i preko cele površine nosi dno akvarijuma, a ispod nje je ormarić sa dvoja vrata u koji staju spoljni filter, hrana, mreže i ostala oprema, pa je sve sklonjeno i na dohvat ruke."
+    },
+    {
+      "type": "p",
+      "html": "Visina od 80 cm postavlja akvarijum tako da se lepo vidi i iz sedećeg i iz stojećeg položaja, a čista bela linija bez ručki uklapa se u svaki prostor. Ako vam treba druga mera, boja ili metalno postolje, izrađujemo ih po meri - pogledajte <a href=\"/izrada-postolja.html\">izradu postolja i polica</a>."
+    },
+    {
+      "type": "h2",
+      "text": "Postavljanje"
+    },
+    {
+      "type": "p",
+      "html": "Policu postavite na ravan pod i proverite libelom da stoji vodoravno pre nego što na nju stavite akvarijum. Akvarijum mora celim dnom da naleže na ploču, bez delova koji vise preko ivice. Pun akvarijum je težak - otprilike kilogram po litru vode plus staklo, pesak i dekoracija - zato ga punite tek kad stoji na svom mestu."
+    },
+    {
+      "type": "h2",
+      "text": "Naručivanje i dostava"
+    },
+    {
+      "type": "p",
+      "html": "Pozovite nas ili pišite na WhatsApp za porudžbinu i cenu. Isporuka u celoj Srbiji, besplatno preuzimanje u Novom Sadu."
+    }
+  ],
+  "seo": {
+    "title": "Polica za akvarijum 100x30x80 cm - postolje sa ormarićem",
+    "description": "Bela polica sa dvoja vrata za akvarijum ili terarijum do 100 x 30 cm. Postolje i ormarić za filter i opremu, izrada i po meri. NS Reptiles, Novi Sad.",
+    "keywords": "polica za akvarijum, postolje za akvarijum, ormarić za akvarijum, postolje za terarijum, polica 100x30"
+  },
+  "brand": true,
+  "usage": [
+    "akvarijum",
+    "terarijum"
+  ]
+}
