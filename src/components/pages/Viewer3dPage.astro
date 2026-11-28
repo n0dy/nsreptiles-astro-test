@@ -3248,8 +3248,55 @@ height: 44px;
                 window.gtag('event', 'konfigurator_3d', { tip: AQUA ? 'akvarijum' : 'terarijum' });
             });
         });
+        // GA4: pocetak koriscenja, promena po vrsti opcije i prva rotacija - svaki najvise jednom po strani
+        const TIP_3D = AQUA ? 'akvarijum' : 'terarijum';
+        let cfgStarted = false;
+        function cfgStart() {
+            if (cfgStarted) return;
+            cfgStarted = true;
+            window.gtag('event', 'konfigurator_start', { tip: TIP_3D });
+        }
+        ['pointerdown', 'wheel', 'keydown'].forEach(function (type) {
+            renderer.domElement.addEventListener(type, function (e) { if (e.isTrusted) cfgStart(); }, { passive: true });
+        });
+        let cfgRotated = false;
+        controls.addEventListener('start', function () {
+            cfgStart();
+            if (cfgRotated) return;
+            cfgRotated = true;
+            window.gtag('event', 'konfigurator_rotacija', { tip: TIP_3D });
+        });
+        const FIELD_TAB_OPTION = { water: 'voda', lid: 'poklopac', vent: 'ventilacija', options: 'izvedba' };
+        const PANEL_OPTIONS = [
+            ['#dimensions-info', 'dimenzije'], ['#color-options', 'folija'], ['#bg-options', 'pozadina'],
+            ['#silicone-options', 'silikon'], ['.door-controls', 'vrata'],
+            ['#substrate-options, #substrate-depth-row', 'supstrat'], ['.panel-tab[data-tab="decor"]', 'dekoracija']
+        ];
+        function panelOption(el) {
+            const row = el.closest('.opt-row[data-key]');
+            if (row) {
+                const field = BUILD_FIELDS.find(function (f) { return f.key === row.dataset.key; });
+                if (field) return FIELD_TAB_OPTION[field.tab] || field.tab;
+            }
+            const hit = PANEL_OPTIONS.find(function (o) { return el.closest(o[0]); });
+            return hit ? hit[1] : null;
+        }
+        const cfgSent = {};
+        ['input', 'click'].forEach(function (type) {
+            document.getElementById('panel').addEventListener(type, function (e) {
+                if (!e.isTrusted) return;
+                cfgStart();
+                const el = e.target.closest('input, button, select, .color-swatch, [data-value]');
+                const opcija = el && panelOption(el);
+                if (!opcija || cfgSent[opcija]) return;
+                cfgSent[opcija] = true;
+                window.gtag('event', 'konfigurator_promena', { tip: TIP_3D, opcija: opcija });
+            });
+        });
+
         screenshotBtn.addEventListener('click', function () {
-            window.gtag('event', 'slika_3d', { tip: AQUA ? 'akvarijum' : 'terarijum' });
+            window.gtag('event', 'slika_3d', { tip: TIP_3D });
+            window.gtag('event', 'konfigurator_deljenje', { tip: TIP_3D });
         });
 
         arButton.addEventListener('click', function () {
@@ -3337,7 +3384,11 @@ height: 44px;
         }
         document.getElementById('order-button').addEventListener('click', function () {
             syncUrl();
-            window.gtag('event', 'poruci_3d', { tip: AQUA ? 'akvarijum' : 'terarijum' });
+            window.gtag('event', 'poruci_3d', {
+                tip: AQUA ? 'akvarijum' : 'terarijum',
+                dimenzije: DIM_FIELDS.map(function (f) { return dims[f.key]; }).join('x'),
+                folija: activeWood.name
+            });
             location.href = T.order.contact + '?poruka=' + encodeURIComponent(orderMessage());
         });
 
